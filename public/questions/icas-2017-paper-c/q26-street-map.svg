@@ -1,0 +1,25 @@
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="12">
+  <rect x="10" y="10" width="280" height="180" fill="none" stroke="currentColor" opacity="0.3"/>
+  <line x1="100" y1="10" x2="100" y2="190" stroke="currentColor" stroke-width="3" opacity="0.5"/>
+  <text x="105" y="100" fill="currentColor" font-size="10">McDonald Street</text>
+  <rect x="70" y="80" width="30" height="20" fill="none" stroke="currentColor"/>
+  <text x="85" y="93" text-anchor="middle" fill="currentColor" font-size="10">School</text>
+
+  <line x1="100" y1="90" x2="200" y2="90" stroke="currentColor" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="200" y1="90" x2="200" y2="30" stroke="currentColor" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="200" y1="30" x2="260" y2="30" stroke="currentColor" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="260" y1="30" x2="260" y2="90" stroke="currentColor" stroke-width="2" stroke-dasharray="4,3"/>
+  <line x1="260" y1="90" x2="220" y2="90" stroke="currentColor" stroke-width="2" stroke-dasharray="4,3"/>
+
+  <circle cx="220" cy="90" r="5" fill="currentColor"/>
+  <text x="220" y="110" text-anchor="middle" fill="currentColor" font-weight="bold">C</text>
+
+  <circle cx="260" cy="150" r="5" fill="currentColor" opacity="0.4"/>
+  <text x="260" y="170" text-anchor="middle" fill="currentColor">A</text>
+  <circle cx="40" cy="120" r="5" fill="currentColor" opacity="0.4"/>
+  <text x="40" y="140" text-anchor="middle" fill="currentColor">B</text>
+  <circle cx="230" cy="160" r="5" fill="currentColor" opacity="0.4"/>
+  <text x="230" y="180" text-anchor="middle" fill="currentColor">D</text>
+
+  <text x="150" y="15" text-anchor="middle" fill="currentColor" font-size="10">N ↑</text>
+</svg>

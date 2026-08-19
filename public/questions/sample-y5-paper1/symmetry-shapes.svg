@@ -1,0 +1,12 @@
+<svg viewBox="0 0 400 120" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <g>
+    <rect x="10" y="20" width="80" height="80" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="50" y="115" text-anchor="middle" font-size="14" fill="currentColor">(A)</text>
+    <polygon points="150,20 190,100 110,100" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="150" y="115" text-anchor="middle" font-size="14" fill="currentColor">(B)</text>
+    <path d="M 260 60 a 30 30 0 1 1 60 0 l -30 40 z" fill="none" stroke="currentColor" stroke-width="2"/>
+    <text x="290" y="115" text-anchor="middle" font-size="14" fill="currentColor">(C)</text>
+    <polygon points="380,20 400,60 380,100 360,60" fill="none" stroke="currentColor" stroke-width="2" transform="translate(-10,0)"/>
+    <text x="360" y="115" text-anchor="middle" font-size="14" fill="currentColor">(D)</text>
+  </g>
+</svg>

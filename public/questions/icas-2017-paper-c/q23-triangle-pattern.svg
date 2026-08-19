@@ -1,0 +1,28 @@
+<svg viewBox="0 0 320 100" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="12">
+  <!-- shape 1: 2 triangles (1 diamond) -->
+  <g transform="translate(20,30)" fill="currentColor" opacity="0.7">
+    <polygon points="10,0 20,10 10,20 0,10"/>
+  </g>
+  <text x="30" y="80" text-anchor="middle" fill="currentColor">Shape 1 (2)</text>
+
+  <!-- shape 2: 2x2 diamonds = 8 triangles -->
+  <g transform="translate(110,20)" fill="currentColor" opacity="0.7">
+    <polygon points="20,0 30,10 20,20 10,10"/>
+    <polygon points="0,10 10,20 0,30 -10,20"/>
+    <polygon points="40,10 50,20 40,30 30,20"/>
+    <polygon points="20,20 30,30 20,40 10,30"/>
+  </g>
+  <text x="140" y="80" text-anchor="middle" fill="currentColor">Shape 2 (8)</text>
+
+  <!-- shape 3: larger cluster = 18 triangles (schematic) -->
+  <g transform="translate(220,10)" fill="currentColor" opacity="0.7">
+    <polygon points="30,0 40,10 30,20 20,10"/>
+    <polygon points="10,10 20,20 10,30 0,20"/>
+    <polygon points="50,10 60,20 50,30 40,20"/>
+    <polygon points="30,20 40,30 30,40 20,30"/>
+    <polygon points="10,30 20,40 10,50 0,40"/>
+    <polygon points="50,30 60,40 50,50 40,40"/>
+    <polygon points="30,40 40,50 30,60 20,50"/>
+  </g>
+  <text x="250" y="80" text-anchor="middle" fill="currentColor">Shape 3 (18)</text>
+</svg>

@@ -1,0 +1,18 @@
+<svg viewBox="0 0 300 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="16">
+  <g stroke="currentColor" fill="none">
+    <polygon points="150,20 175,35 175,65 150,80 125,65 125,35"/>
+    <polygon points="100,80 125,95 125,125 100,140 75,125 75,95"/>
+    <polygon points="200,80 225,95 225,125 200,140 175,125 175,95"/>
+    <polygon points="50,140 75,155 75,185 50,200 25,185 25,155"/>
+    <polygon points="150,140 175,155 175,185 150,200 125,185 125,155"/>
+    <polygon points="250,140 275,155 275,185 250,200 225,185 225,155"/>
+  </g>
+  <g fill="currentColor" text-anchor="middle">
+    <text x="150" y="55">72</text>
+    <text x="100" y="115">P</text>
+    <text x="200" y="115">12</text>
+    <text x="50" y="175">2</text>
+    <text x="150" y="175">Q</text>
+    <text x="250" y="175">R</text>
+  </g>
+</svg>

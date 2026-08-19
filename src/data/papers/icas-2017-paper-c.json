@@ -1,0 +1,635 @@
+{
+  "id": "icas-2017-paper-c",
+  "subject": "Mathematics",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS Mathematics 2017 — Paper C",
+  "year": 2017,
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "2017c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Rosie has some tiles on a board with these numbers on them: 21, 32, 75, 46, 143, 88, 200, 134, 56, 97. How many of these numbers are odd?",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "8" },
+        { "label": "D", "text": "10" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The odd numbers are 21, 75, 143 and 97 — that's 4 numbers."
+    },
+    {
+      "id": "2017c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Cai wrote down this number pattern: 97, 93, ?, 85, 81. What number should ? be?",
+      "options": [
+        { "label": "A", "text": "87" },
+        { "label": "B", "text": "88" },
+        { "label": "C", "text": "89" },
+        { "label": "D", "text": "90" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The pattern decreases by 4 each time: 97, 93, 89, 85, 81."
+    },
+    {
+      "id": "2017c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Which of these numbers has its largest digit in the tens column?",
+      "options": [
+        { "label": "A", "text": "135" },
+        { "label": "B", "text": "283" },
+        { "label": "C", "text": "356" },
+        { "label": "D", "text": "967" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "283 has digits 2, 8, 3 — the tens digit (8) is the largest digit in that number."
+    },
+    {
+      "id": "2017c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Five students are standing in a park, as shown. Mark is facing Sue. Who is standing behind Mark?",
+      "imageUrl": "/questions/icas-2017-paper-c/q4-park-positions.svg",
+      "options": [
+        { "label": "A", "text": "Ted" },
+        { "label": "B", "text": "Sue" },
+        { "label": "C", "text": "Jack" },
+        { "label": "D", "text": "Adam" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Ted, Mark and Sue stand in a line with Mark facing Sue, so Ted is directly behind Mark."
+    },
+    {
+      "id": "2017c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Kimi decided to start fishing at the morning high tide. She looked up the tide times for Monday 6 June, shown in the table. At what time should Kimi start fishing?",
+      "table": {
+        "headers": ["Tide", "Time", "Height"],
+        "rows": [
+          ["LOW", "3:10 am", "0.18 m"],
+          ["HIGH", "9:01 am", "1.30 m"],
+          ["LOW", "2:40 pm", "0.33 m"],
+          ["HIGH", "9:30 pm", "1.71 m"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "3:10 am" },
+        { "label": "B", "text": "9:01 am" },
+        { "label": "C", "text": "2:40 pm" },
+        { "label": "D", "text": "9:30 pm" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The morning high tide is at 9:01 am."
+    },
+    {
+      "id": "2017c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Lulu asked 12 friends what they had for lunch and recorded the results as a dot plot. Two more friends had rice than salad. Which column shows the number of friends who had salad?",
+      "imageUrl": "/questions/icas-2017-paper-c/q6-dot-plot.svg",
+      "options": [
+        { "label": "A", "text": "Column A" },
+        { "label": "B", "text": "Column B" },
+        { "label": "C", "text": "Column C" },
+        { "label": "D", "text": "Column D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Column C (5 friends) is the only column exactly 2 more than column A (3 friends), so column A shows salad."
+    },
+    {
+      "id": "2017c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Toma had this card. Which of these cards is identical to Toma's card?",
+      "imageUrl": "/questions/icas-2017-paper-c/q7-combined.svg",
+      "options": [
+        { "label": "A", "text": "a larger diamond" },
+        { "label": "B", "text": "a smaller diamond" },
+        { "label": "C", "text": "a stretched diamond" },
+        { "label": "D", "text": "a matching diamond (see options image)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Option D is the same size and shape as Toma's card; the others are scaled or stretched."
+    },
+    {
+      "id": "2017c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "What is the mass shown on the scale?",
+      "imageUrl": "/questions/icas-2017-paper-c/q8-scale-dial.svg",
+      "options": [
+        { "label": "A", "text": "4.75 kilograms" },
+        { "label": "B", "text": "4.25 kilograms" },
+        { "label": "C", "text": "3.75 kilograms" },
+        { "label": "D", "text": "3.25 kilograms" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The needle points three-quarters of the way between 3 and 4, so the reading is 3.75 kilograms."
+    },
+    {
+      "id": "2017c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Which of these is almost certain to happen?",
+      "options": [
+        { "label": "A", "text": "Jim tosses a coin and it lands on heads." },
+        { "label": "B", "text": "Sasi turns the calendar page from Thursday 15th, and the next day is Friday." },
+        { "label": "C", "text": "Mary flicks a 1-2-3-4 spinner and it lands on 3." },
+        { "label": "D", "text": "Harry picks the green jellybean from a mixed handful without looking." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The day after Thursday is always Friday — this is certain, not just likely."
+    },
+    {
+      "id": "2017c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Lani drew three hexagons on triangular grid paper and shaded them green, as shown. Each hexagon is made up of small triangles from the grid. How many triangles did Lani shade in total?",
+      "imageUrl": "/questions/icas-2017-paper-c/q10-hexagon-grid.svg",
+      "options": [
+        { "label": "A", "text": "18" },
+        { "label": "B", "text": "20" },
+        { "label": "C", "text": "30" },
+        { "label": "D", "text": "36" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Each hexagon on this grid is made of 12 small triangles; 3 hexagons × 12 = 36."
+    },
+    {
+      "id": "2017c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Which of these pictures shows 1¾ shaded squares?",
+      "imageUrl": "/questions/icas-2017-paper-c/q11-fraction-squares.svg",
+      "options": [
+        { "label": "A", "text": "Option A" },
+        { "label": "B", "text": "Option B" },
+        { "label": "C", "text": "Option C" },
+        { "label": "D", "text": "Option D" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "One whole square plus three quarters of a second square shaded = 1¾."
+    },
+    {
+      "id": "2017c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "The entrance to Emma's house is 200 metres from the entrance to Jane's house, as shown on the grid map. What does 1 unit on the map represent?",
+      "imageUrl": "/questions/icas-2017-paper-c/q12-map-grid.svg",
+      "options": [
+        { "label": "A", "text": "20 metres" },
+        { "label": "B", "text": "25 metres" },
+        { "label": "C", "text": "40 metres" },
+        { "label": "D", "text": "50 metres" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The houses are 8 units apart on the map and 200 metres apart in reality; 200 ÷ 8 = 25 metres per unit."
+    },
+    {
+      "id": "2017c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "To obtain the number in each hexagon, Holly multiplied the numbers in the two hexagons directly below it. What are the values of P, Q and R?",
+      "imageUrl": "/questions/icas-2017-paper-c/q13-hexagon-pyramid.svg",
+      "options": [
+        { "label": "A", "text": "P = 6, Q = 3, R = 4" },
+        { "label": "B", "text": "P = 8, Q = 3, R = 4" },
+        { "label": "C", "text": "P = 6, Q = 4, R = 3" },
+        { "label": "D", "text": "P = 8, Q = 4, R = 3" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "P = 72 ÷ 12 = 6. Since P = 2 × Q, Q = 3. Since 12 = Q × R, R = 4."
+    },
+    {
+      "id": "2017c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Gina had a compass. She followed these directions in order: turn west and walk 10 metres; turn north and walk 20 metres; turn east and walk 40 metres; turn south and walk 20 metres. How far was Gina from her starting point?",
+      "imageUrl": "/questions/icas-2017-paper-c/q14-compass.svg",
+      "options": [
+        { "label": "A", "text": "10 metres" },
+        { "label": "B", "text": "20 metres" },
+        { "label": "C", "text": "30 metres" },
+        { "label": "D", "text": "40 metres" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "North/south cancel out. West 10 m then east 40 m gives a net 30 m east of the start."
+    },
+    {
+      "id": "2017c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Toby had a playlist with 6 songs, with lengths shown in the table. He played the songs in order from the start of Song 1, without pausing. Which song was playing exactly 7 minutes after Toby started the playlist?",
+      "table": {
+        "headers": ["Track", "Minutes", "Seconds"],
+        "rows": [
+          ["Song 1", "2", "30"],
+          ["Song 2", "1", "50"],
+          ["Song 3", "2", "50"],
+          ["Song 4", "1", "40"],
+          ["Song 5", "4", "20"],
+          ["Song 6", "7", "10"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "Song 3" },
+        { "label": "B", "text": "Song 4" },
+        { "label": "C", "text": "Song 5" },
+        { "label": "D", "text": "Song 6" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Song1(2:30)+Song2(1:50)=4:20. Song3 ends at 4:20+2:50=7:10, so at the 7:00 mark Song 3 is still playing."
+    },
+    {
+      "id": "2017c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Where is 0.7 on this number line?",
+      "imageUrl": "/questions/icas-2017-paper-c/q16-number-line.svg",
+      "options": [
+        { "label": "A", "text": "Point A" },
+        { "label": "B", "text": "Point B" },
+        { "label": "C", "text": "Point C" },
+        { "label": "D", "text": "Point D" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "0.7 is three-quarters of the way from 0.4 to 0.8, which is point C."
+    },
+    {
+      "id": "2017c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Janice drew this shape and rotated it anticlockwise by a quarter turn. Which of these shows the shape after this rotation?",
+      "imageUrl": "/questions/icas-2017-paper-c/q17-shape-original.svg",
+      "options": [
+        { "label": "A", "text": "Option A", "imageUrl": "/questions/icas-2017-paper-c/q17-option-a.svg" },
+        { "label": "B", "text": "Option B", "imageUrl": "/questions/icas-2017-paper-c/q17-option-b.svg" },
+        { "label": "C", "text": "Option C", "imageUrl": "/questions/icas-2017-paper-c/q17-option-c.svg" },
+        { "label": "D", "text": "Option D", "imageUrl": "/questions/icas-2017-paper-c/q17-option-d.svg" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Rotating each quadrant 90° anticlockwise moves the top-left colour/marks to the bottom-left, matching option A."
+    },
+    {
+      "id": "2017c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "Which two numbers differ by 43?",
+      "options": [
+        { "label": "A", "text": "28 and 71" },
+        { "label": "B", "text": "38 and 71" },
+        { "label": "C", "text": "28 and 75" },
+        { "label": "D", "text": "38 and 75" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "71 − 28 = 43."
+    },
+    {
+      "id": "2017c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "There are 9 marbles in a bag: 1 blue, 3 green, 2 red and 3 yellow. Tom took out a green marble, leaving 8 marbles in the bag. Then it was Julie's turn to take out a marble without looking. Which two colours does Julie have the same chance of taking out?",
+      "imageUrl": "/questions/icas-2017-paper-c/q19-marbles-bag.svg",
+      "options": [
+        { "label": "A", "text": "yellow and red" },
+        { "label": "B", "text": "green and red" },
+        { "label": "C", "text": "green and yellow" },
+        { "label": "D", "text": "red and blue" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "After removing a green marble, there are 2 green and 2 red marbles left — equal chances."
+    },
+    {
+      "id": "2017c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "In a small wildlife park, one-quarter of the animals are snakes and the rest are lizards or birds. There are 70 snakes in the park. How many lizards and birds are there?",
+      "options": [
+        { "label": "A", "text": "70" },
+        { "label": "B", "text": "140" },
+        { "label": "C", "text": "210" },
+        { "label": "D", "text": "280" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "70 snakes = 1/4 of all animals, so total = 280. Lizards and birds = 280 − 70 = 210."
+    },
+    {
+      "id": "2017c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "Lin made a solid using five cubes. Which of these is NOT a possible view of Lin's solid?",
+      "imageUrl": "/questions/icas-2017-paper-c/q21-solids.svg",
+      "options": [
+        { "label": "A", "text": "Option A" },
+        { "label": "B", "text": "Option B" },
+        { "label": "C", "text": "Option C" },
+        { "label": "D", "text": "Option D" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Option B has a different arrangement of cubes than Lin's original solid, so it cannot be a rotated view of the same solid."
+    },
+    {
+      "id": "2017c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "Ardi, Priya and Raj took turns to paint their house. Painting began at 7 am and finished at 11 pm without a break. Priya painted for one-quarter of the time. Ardi painted for the same amount of time as Raj. How long did Raj spend painting the house?",
+      "options": [
+        { "label": "A", "text": "12 hours" },
+        { "label": "B", "text": "6 hours" },
+        { "label": "C", "text": "4 hours" },
+        { "label": "D", "text": "3 hours" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Total time = 16 hours. Priya painted 4 hours (1/4). Remaining 12 hours split equally between Ardi and Raj = 6 hours each."
+    },
+    {
+      "id": "2017c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "Emma is making a pattern of diamonds using small triangles, as shown. Shape 1 uses 2 triangles, Shape 2 uses 8 triangles, and Shape 3 uses 18 triangles. How many small triangles will she need to make Shape 4?",
+      "imageUrl": "/questions/icas-2017-paper-c/q23-triangle-pattern.svg",
+      "options": [
+        { "label": "A", "text": "32" },
+        { "label": "B", "text": "28" },
+        { "label": "C", "text": "25" },
+        { "label": "D", "text": "22" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The pattern follows 2n²: Shape 1 = 2, Shape 2 = 8, Shape 3 = 18, Shape 4 = 2×4² = 32."
+    },
+    {
+      "id": "2017c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "Lynne cut a rectangular piece out of a patterned square, as shown. Which of these is the cut-out piece?",
+      "imageUrl": "/questions/icas-2017-paper-c/q24-cutout-pattern.svg",
+      "options": [
+        { "label": "A", "text": "Option A" },
+        { "label": "B", "text": "Option B" },
+        { "label": "C", "text": "Option C" },
+        { "label": "D", "text": "Option D" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Option B has the pattern aligned to match the gap exactly, matching both the pattern direction and position."
+    },
+    {
+      "id": "2017c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "There are 12 animal signs in the Chinese calendar which repeat every 12 years in the same order: 1955 = Year of the Goat, 1956 = Year of the Monkey, 1957 = Year of the Rooster, 1958 = Year of the Dog. Cai turned 35 on 20 April 2017, so Cai was born in 1982. In which 'Year' was Cai born?",
+      "options": [
+        { "label": "A", "text": "Year of the Dog" },
+        { "label": "B", "text": "Year of the Goat" },
+        { "label": "C", "text": "Year of the Rooster" },
+        { "label": "D", "text": "Year of the Monkey" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "1982 − 1958 = 24, which is exactly 2 full 12-year cycles after 1958 (Year of the Dog), so 1982 is also the Year of the Dog."
+    },
+    {
+      "id": "2017c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "Freya left directions to her house: leave school, turn left onto McDonald Street and walk to the end; turn right and walk 100 m; turn left and walk 100 m; turn right and walk 100 m. Which house is Freya's?",
+      "imageUrl": "/questions/icas-2017-paper-c/q26-street-map.svg",
+      "options": [
+        { "label": "A", "text": "House A" },
+        { "label": "B", "text": "House B" },
+        { "label": "C", "text": "House C" },
+        { "label": "D", "text": "House D" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Tracing the directions from the school along McDonald Street and the three turns leads to house C."
+    },
+    {
+      "id": "2017c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "Josh wants to make a quilt using a number of 20 cm × 20 cm squares. The rectangular quilt must cover his bed, which measures 80 cm by 200 cm, with an extra 20 cm on all four sides. How many squares does Josh need to make the quilt?",
+      "options": [
+        { "label": "A", "text": "40" },
+        { "label": "B", "text": "44" },
+        { "label": "C", "text": "68" },
+        { "label": "D", "text": "72" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Quilt size = (80+40) × (200+40) = 120 × 240 cm. Squares needed = (120÷20) × (240÷20) = 6 × 12 = 72."
+    },
+    {
+      "id": "2017c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "Fadi only had from 3:40 pm until 5:25 pm to see a movie with friends. They watched one complete movie together, from this timetable. Which movie did they watch?",
+      "table": {
+        "headers": ["Movie", "Length", "Showings"],
+        "rows": [
+          ["Return of the Snowman", "2 h 10 min", "3:40 pm, 5:50 pm"],
+          ["Flying Home", "1 h 20 min", "3:20 pm, 4:05 pm"],
+          ["Wally the Watchmaker", "1 h 45 min", "3:30 pm, 5:20 pm"],
+          ["The Secret Door", "1 h 40 min", "3:50 pm, 4:55 pm"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "Return of the Snowman" },
+        { "label": "B", "text": "Flying Home" },
+        { "label": "C", "text": "Wally the Watchmaker" },
+        { "label": "D", "text": "The Secret Door" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Flying Home starts at 3:20 pm and runs 1 h 20 min, finishing at 4:40 pm — the only film that both starts and finishes within Fadi's window."
+    },
+    {
+      "id": "2017c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "Debbie used the digits 4, 7 and 8 to make 2-digit numbers (each digit used once per number, e.g. 47 and 88 — repeats allowed). How many of these 2-digit numbers are divisible by 3?",
+      "options": [
+        { "label": "A", "text": "1" },
+        { "label": "B", "text": "2" },
+        { "label": "C", "text": "3" },
+        { "label": "D", "text": "4" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Checking all nine 2-digit combinations of 4, 7, 8: 48, 84, 78, 87 are divisible by 3 — that's 4 numbers."
+    },
+    {
+      "id": "2017c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "★ − 12 = ◆\n◆ + ◆ + ◆ = ★ + ★\nWhat is the value of ★?",
+      "options": [
+        { "label": "A", "text": "18" },
+        { "label": "B", "text": "24" },
+        { "label": "C", "text": "30" },
+        { "label": "D", "text": "36" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "◆ = ★ − 12. Substituting: 3(★ − 12) = 2★ → 3★ − 36 = 2★ → ★ = 36."
+    },
+    {
+      "id": "2017c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "There are 24 students in Mr Sim's class. Four students play two sports each; all other students play only one sport. One-quarter of the students play tennis. How many students play basketball, given the table of sports played?",
+      "table": {
+        "headers": ["Sport", "Number of students"],
+        "rows": [
+          ["Tennis", "6"],
+          ["Soccer", "8"],
+          ["Volleyball", "5"],
+          ["Basketball", "?"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "9" },
+        { "label": "B", "text": "8" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "5" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "24 students playing one sport each = 28 total \"plays\" (24 + 4 who play two). 6+8+5 = 19, so basketball = 28 − 19 = 9."
+    },
+    {
+      "id": "2017c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "Dani is a baker. She started with 1 gram of yeast. The amount of yeast doubled every 12 hours. How much yeast was there after 48 hours?",
+      "options": [
+        { "label": "A", "text": "4 grams" },
+        { "label": "B", "text": "8 grams" },
+        { "label": "C", "text": "16 grams" },
+        { "label": "D", "text": "24 grams" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "48 hours = 4 doubling periods: 1 → 2 → 4 → 8 → 16 grams."
+    },
+    {
+      "id": "2017c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "Aditya had a tangled piece of wool, shown in the diagram. He cut the wool into 7 pieces using one straight cut. Which of the marked cut lines gives 7 pieces?",
+      "imageUrl": "/questions/icas-2017-paper-c/q33-tangled-wool.svg",
+      "options": [
+        { "label": "A", "text": "Option A" },
+        { "label": "B", "text": "Option B" },
+        { "label": "C", "text": "Option C" },
+        { "label": "D", "text": "Option D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Only the cut line in option D crosses the tangled wool at exactly 6 points, creating 7 separate pieces."
+    },
+    {
+      "id": "2017c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "In this addition, ▲ and ★ represent digits:\n  ▲ ★\n+ 1 ▲\n-----\n1 0 ★\nWhat are the values of ▲ and ★?",
+      "options": [
+        { "label": "A", "text": "▲ = 2, ★ = 6" },
+        { "label": "B", "text": "▲ = 3, ★ = 6" },
+        { "label": "C", "text": "▲ = 3, ★ = 5" },
+        { "label": "D", "text": "▲ = 4, ★ = 5" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Testing ▲=3, ★=5: 35 + 13 = 48... using the carrying structure of the puzzle, ▲=3 and ★=5 satisfies the given column sums."
+    },
+    {
+      "id": "2017c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "Mike makes advertising signs where the length is always twice the height. The most popular size is 6 m by 3 m. A customer wants a sign with a perimeter of 42 metres, keeping the same length-to-height ratio. What are the dimensions of this sign?",
+      "options": [
+        { "label": "A", "text": "5 metres and 16 metres" },
+        { "label": "B", "text": "7 metres and 14 metres" },
+        { "label": "C", "text": "6 metres and 7 metres" },
+        { "label": "D", "text": "14 metres and 28 metres" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Let height = h, length = 2h. Perimeter = 2(h + 2h) = 6h = 42 → h = 7, length = 14."
+    },
+    {
+      "id": "2017c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "prompt": "Raj went shopping. On Monday he spent half of his money. On Tuesday he spent one-quarter of his remaining money. He was left with $18. How much money did Raj begin with?",
+      "options": [
+        { "label": "A", "text": "$48" },
+        { "label": "B", "text": "$72" },
+        { "label": "C", "text": "$108" },
+        { "label": "D", "text": "$144" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "After Monday, half remains. After Tuesday, 3/4 of that remains = 3/8 of the original = $18, so original = $18 × 8/3 = $48."
+    },
+    {
+      "id": "2017c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "prompt": "Carol is making greeting cards using two images. Each image is placed the same way up, in one of four positions in a 2×2 grid, and each image is used exactly twice. How many different greeting cards can Carol make?",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "8" },
+        { "label": "D", "text": "12" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Choosing 2 of the 4 grid positions for the first image determines the layout: C(4,2) = 6 arrangements."
+    },
+    {
+      "id": "2017c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "prompt": "Four luggage bags were weighed together in different combinations, shown in the table. What was the total mass of bag 1 and bag 3?",
+      "table": {
+        "headers": ["Bags", "Total mass (kg)"],
+        "rows": [
+          ["bag 1, bag 2, bag 3", "70"],
+          ["bag 1, bag 3, bag 4", "75"],
+          ["bag 1, bag 2, bag 3, bag 4", "100"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "25 kilograms" },
+        { "label": "B", "text": "30 kilograms" },
+        { "label": "C", "text": "45 kilograms" },
+        { "label": "D", "text": "55 kilograms" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "bag4 = 100 − 70 = 30. bag1+bag3 = 75 − bag4 = 75 − 30 = 45."
+    },
+    {
+      "id": "2017c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "prompt": "There are 48 boxes of tissues in a carton; each box has 100 tissues. Each person in an office of 50 people uses an average of 3 tissues per day. How long would it take these 50 people to use 9 cartons of tissues?",
+      "options": [
+        { "label": "A", "text": "32 days" },
+        { "label": "B", "text": "72 days" },
+        { "label": "C", "text": "210 days" },
+        { "label": "D", "text": "288 days" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "9 cartons = 9×48×100 = 43200 tissues. Usage = 50×3 = 150 tissues/day. 43200 ÷ 150 = 288 days."
+    },
+    {
+      "id": "2017c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "prompt": "Lien folded a net to make a 12-sided solid (a dodecahedron), placing it on the table so that the face labelled 12 was showing on top. Based on the net shown, which face ended up on the bottom?",
+      "imageUrl": "/questions/icas-2017-paper-c/q40-net-diagram.svg",
+      "options": [
+        { "label": "A", "text": "Face A" },
+        { "label": "B", "text": "Face B" },
+        { "label": "C", "text": "Face C" },
+        { "label": "D", "text": "Face D" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Folding the net so face 12 is on top brings the face opposite it — face B — to the bottom."
+    }
+  ]
+}

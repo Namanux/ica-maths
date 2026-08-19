@@ -1,0 +1,12 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- quadrants: TL=teal+2dots, TR=orange plain, BL=teal plain, BR=orange+3dots -->
+  <rect x="10" y="10" width="40" height="40" fill="#2a9d8f"/>
+  <rect x="50" y="10" width="40" height="40" fill="#e76f51"/>
+  <rect x="10" y="50" width="40" height="40" fill="#2a9d8f"/>
+  <rect x="50" y="50" width="40" height="40" fill="#e76f51"/>
+  <circle cx="22" cy="22" r="3" fill="white"/>
+  <circle cx="38" cy="22" r="3" fill="white"/>
+  <circle cx="65" cy="65" r="3" fill="white"/>
+  <circle cx="75" cy="65" r="3" fill="white"/>
+  <circle cx="70" cy="75" r="3" fill="white"/>
+</svg>
