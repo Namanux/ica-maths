@@ -53,6 +53,13 @@ export interface QuestionResult {
   userAnswer: string | null;
   correctAnswer: string;
   isCorrect: boolean;
+  topic?: string;
+}
+
+export interface CategoryBreakdown {
+  topic: string;
+  correct: number;
+  total: number;
 }
 
 export interface AttemptResult {
@@ -62,5 +69,6 @@ export interface AttemptResult {
   percentage: number;
   timeTakenSeconds: number;
   questionResults: QuestionResult[];
+  categoryBreakdown: CategoryBreakdown[];
   completedAt: string;
 }

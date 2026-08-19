@@ -9,6 +9,7 @@ create table if not exists attempts (
   percentage integer not null,
   time_taken_seconds integer not null,
   question_results jsonb not null,
+  category_breakdown jsonb,
   completed_at timestamptz not null,
   created_at timestamptz not null default now()
 );

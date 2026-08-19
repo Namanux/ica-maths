@@ -14,14 +14,26 @@
       "prompt": "Which of these shapes has more than one line of symmetry?",
       "imageUrl": "/questions/sample-y5-paper1/symmetry-shapes.svg",
       "options": [
-        { "label": "A", "text": "the square outline" },
-        { "label": "B", "text": "the triangle" },
-        { "label": "C", "text": "the semicircle" },
-        { "label": "D", "text": "the kite" }
+        {
+          "label": "A",
+          "text": "the square outline"
+        },
+        {
+          "label": "B",
+          "text": "the triangle"
+        },
+        {
+          "label": "C",
+          "text": "the semicircle"
+        },
+        {
+          "label": "D",
+          "text": "the kite"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "A square has 4 lines of symmetry; the other shapes shown have only one or zero.",
-      "topic": "Geometry"
+      "topic": "Space & Geometry"
     },
     {
       "id": "s1-q2",
@@ -29,14 +41,26 @@
       "type": "multiple_choice",
       "prompt": "A gardener plants 8 trees at equal intervals along a straight path that is 56 metres long. About how many metres apart are the trees?",
       "options": [
-        { "label": "A", "text": "6" },
-        { "label": "B", "text": "7" },
-        { "label": "C", "text": "8" },
-        { "label": "D", "text": "9" }
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "8 trees create 7 gaps, so 56 ÷ 7 = 8 metres between each tree.",
-      "topic": "Measurement"
+      "topic": "Measures & Units"
     },
     {
       "id": "s1-q3",
@@ -44,14 +68,26 @@
       "type": "multiple_choice",
       "prompt": "Which of the following is NOT equal to 348?",
       "options": [
-        { "label": "A", "text": "100 + 100 + 100 + 40 + 8" },
-        { "label": "B", "text": "400 - 50 - 2" },
-        { "label": "C", "text": "300 + 40 + 8" },
-        { "label": "D", "text": "200 + 100 + 40 + 6" }
+        {
+          "label": "A",
+          "text": "100 + 100 + 100 + 40 + 8"
+        },
+        {
+          "label": "B",
+          "text": "400 - 50 - 2"
+        },
+        {
+          "label": "C",
+          "text": "300 + 40 + 8"
+        },
+        {
+          "label": "D",
+          "text": "200 + 100 + 40 + 6"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "200 + 100 + 40 + 6 = 346, not 348. The others all equal 348.",
-      "topic": "Number"
+      "topic": "Number & Arithmetic"
     },
     {
       "id": "s1-q4",
@@ -59,14 +95,26 @@
       "type": "multiple_choice",
       "prompt": "A recipe for pancake batter serves 4 people and needs 300 mL of milk. How much milk is needed to serve 10 people?",
       "options": [
-        { "label": "A", "text": "600 mL" },
-        { "label": "B", "text": "750 mL" },
-        { "label": "C", "text": "900 mL" },
-        { "label": "D", "text": "1200 mL" }
+        {
+          "label": "A",
+          "text": "600 mL"
+        },
+        {
+          "label": "B",
+          "text": "750 mL"
+        },
+        {
+          "label": "C",
+          "text": "900 mL"
+        },
+        {
+          "label": "D",
+          "text": "1200 mL"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "300 mL ÷ 4 = 75 mL per person; 75 mL × 10 = 750 mL.",
-      "topic": "Ratio & Proportion"
+      "topic": "Number & Arithmetic"
     },
     {
       "id": "s1-q5",
@@ -75,14 +123,26 @@
       "prompt": "The bar chart shows how many pets a class of students owns, grouped by pet type. According to the chart, how many more dogs are there than fish?",
       "imageUrl": "/questions/sample-y5-paper1/pets-bar-chart.svg",
       "options": [
-        { "label": "A", "text": "4" },
-        { "label": "B", "text": "6" },
-        { "label": "C", "text": "8" },
-        { "label": "D", "text": "10" }
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "6"
+        },
+        {
+          "label": "C",
+          "text": "8"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
       ],
       "correctAnswer": "C",
       "explanation": "Dogs = 12, Fish = 4, so the difference is 8.",
-      "topic": "Data & Statistics"
+      "topic": "Chance & Data"
     },
     {
       "id": "s1-q6",
@@ -90,14 +150,26 @@
       "type": "multiple_choice",
       "prompt": "Min picks a marble from a bag without looking. The bag contains 3 red, 3 blue, 3 green and 1 yellow marble. Which statement is true?",
       "options": [
-        { "label": "A", "text": "Min is certain to pick a red marble." },
-        { "label": "B", "text": "Min has the same chance of picking a red marble as a blue marble." },
-        { "label": "C", "text": "It is impossible for Min to pick a yellow marble." },
-        { "label": "D", "text": "Min is more likely to pick a yellow marble than a green marble." }
+        {
+          "label": "A",
+          "text": "Min is certain to pick a red marble."
+        },
+        {
+          "label": "B",
+          "text": "Min has the same chance of picking a red marble as a blue marble."
+        },
+        {
+          "label": "C",
+          "text": "It is impossible for Min to pick a yellow marble."
+        },
+        {
+          "label": "D",
+          "text": "Min is more likely to pick a yellow marble than a green marble."
+        }
       ],
       "correctAnswer": "B",
       "explanation": "There are equally many (3) red and blue marbles, so the chances are equal.",
-      "topic": "Probability"
+      "topic": "Chance & Data"
     },
     {
       "id": "s1-q7",
@@ -105,14 +177,26 @@
       "type": "multiple_choice",
       "prompt": "Zac's locker code has 6 digits. The digits sum to 30. All digits are even and one digit appears exactly three times. The first four digits are 8, 8, 4, 6. What is the digit that appears three times?",
       "options": [
-        { "label": "A", "text": "2" },
-        { "label": "B", "text": "4" },
-        { "label": "C", "text": "6" },
-        { "label": "D", "text": "8" }
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "8 + 8 + 4 + 6 = 26, leaving 4 to be split across the last two even digits summing to 4: e.g. 2 and 2, or the repeated digit could be 8 appearing 3 times already in positions — checking digit 8 appears twice already, and the remaining two digits must sum to 4 with even digits (2+2), so 8 only appears twice unless a later 8 appears — this practice question intentionally mirrors the reasoning style of the real exam; treat D as the modelled answer for practice purposes.",
-      "topic": "Number Patterns"
+      "topic": "Algebra & Patterns"
     },
     {
       "id": "s1-q8",
@@ -120,14 +204,26 @@
       "type": "multiple_choice",
       "prompt": "A ferry travels directly from Pier A to Pier B. On the map, north points to the top of the page. Pier B is above and to the right of Pier A. In which direction did the ferry travel?",
       "options": [
-        { "label": "A", "text": "north-west" },
-        { "label": "B", "text": "north-east" },
-        { "label": "C", "text": "south-west" },
-        { "label": "D", "text": "south-east" }
+        {
+          "label": "A",
+          "text": "north-west"
+        },
+        {
+          "label": "B",
+          "text": "north-east"
+        },
+        {
+          "label": "C",
+          "text": "south-west"
+        },
+        {
+          "label": "D",
+          "text": "south-east"
+        }
       ],
       "correctAnswer": "B",
       "explanation": "Moving up (north) and right (east) on a standard map means travelling north-east.",
-      "topic": "Position & Direction"
+      "topic": "Space & Geometry"
     },
     {
       "id": "s1-q9",
@@ -135,14 +231,26 @@
       "type": "multiple_choice",
       "prompt": "Bella left home at 3:45 pm. She took a break for 25 minutes during her 2 hour bike ride. What time did Bella finish her ride?",
       "options": [
-        { "label": "A", "text": "6:10 pm" },
-        { "label": "B", "text": "6:25 pm" },
-        { "label": "C", "text": "6:35 pm" },
-        { "label": "D", "text": "6:50 pm" }
+        {
+          "label": "A",
+          "text": "6:10 pm"
+        },
+        {
+          "label": "B",
+          "text": "6:25 pm"
+        },
+        {
+          "label": "C",
+          "text": "6:35 pm"
+        },
+        {
+          "label": "D",
+          "text": "6:50 pm"
+        }
       ],
       "correctAnswer": "A",
       "explanation": "2 hours of riding plus 25 minutes break = 2 hours 25 minutes. 3:45 pm + 2:25 = 6:10 pm.",
-      "topic": "Time"
+      "topic": "Measures & Units"
     },
     {
       "id": "s1-q10",
@@ -150,14 +258,26 @@
       "type": "multiple_choice",
       "prompt": "A drink bottle is 3/8 full and contains 240 mL of juice. How much juice would the bottle contain if it were completely full?",
       "options": [
-        { "label": "A", "text": "320 mL" },
-        { "label": "B", "text": "480 mL" },
-        { "label": "C", "text": "560 mL" },
-        { "label": "D", "text": "640 mL" }
+        {
+          "label": "A",
+          "text": "320 mL"
+        },
+        {
+          "label": "B",
+          "text": "480 mL"
+        },
+        {
+          "label": "C",
+          "text": "560 mL"
+        },
+        {
+          "label": "D",
+          "text": "640 mL"
+        }
       ],
       "correctAnswer": "D",
       "explanation": "If 3/8 = 240 mL, then 1/8 = 80 mL, so 8/8 = 640 mL.",
-      "topic": "Fractions"
+      "topic": "Number & Arithmetic"
     },
     {
       "id": "s1-q11",
@@ -165,9 +285,11 @@
       "type": "free_response",
       "prompt": "Tia, Kayla and Ravi are cousins. Tia is 4 years older than Kayla. Tia is 2 years older than Ravi. The sum of their ages is 30. How old is Tia?",
       "correctAnswer": "12",
-      "acceptedAnswers": ["12"],
+      "acceptedAnswers": [
+        "12"
+      ],
       "explanation": "Let Tia = t. Kayla = t-4, Ravi = t-2. t + (t-4) + (t-2) = 30 → 3t - 6 = 30 → t = 12.",
-      "topic": "Algebraic Reasoning"
+      "topic": "Algebra & Patterns"
     },
     {
       "id": "s1-q12",
@@ -175,9 +297,11 @@
       "type": "free_response",
       "prompt": "A factory's 15 staff each work a 6-hour day, 5 days a week, for 40 weeks a year. On average, each worker loses 12 minutes per day to breaks that aren't scheduled. How many 6-hour days of work are lost across the year in total (rounded to the nearest whole day)?",
       "correctAnswer": "40",
-      "acceptedAnswers": ["40"],
+      "acceptedAnswers": [
+        "40"
+      ],
       "explanation": "12 minutes × 5 days × 40 weeks = 2400 minutes lost per worker per year = 40 hours = 6.67 days per worker. Across 15 workers = 100 days... this is a practice question; treat the modelled value as illustrative.",
-      "topic": "Multi-step Problem Solving"
+      "topic": "Measures & Units"
     }
   ]
 }

@@ -1,4 +1,12 @@
-import type { Paper, AttemptResult, QuestionResult } from "./types";
+import type { Paper, AttemptResult, QuestionResult, CategoryBreakdown } from "./types";
+
+export const TOPIC_ORDER = [
+  "Number & Arithmetic",
+  "Algebra & Patterns",
+  "Measures & Units",
+  "Space & Geometry",
+  "Chance & Data",
+] as const;
 
 function normalize(value: string): string {
   return value.trim().toLowerCase();
@@ -25,10 +33,20 @@ export function scoreAttempt(
       userAnswer,
       correctAnswer: q.correctAnswer,
       isCorrect: isAnswerCorrect(userAnswer, q),
+      topic: q.topic,
     };
   });
 
   const score = questionResults.filter((r) => r.isCorrect).length;
+
+  const categoryBreakdown: CategoryBreakdown[] = TOPIC_ORDER.map((topic) => {
+    const inTopic = questionResults.filter((r) => r.topic === topic);
+    return {
+      topic,
+      correct: inTopic.filter((r) => r.isCorrect).length,
+      total: inTopic.length,
+    };
+  }).filter((c) => c.total > 0);
 
   return {
     paperId: paper.id,
@@ -37,6 +55,7 @@ export function scoreAttempt(
     percentage: Math.round((score / paper.questions.length) * 100),
     timeTakenSeconds,
     questionResults,
+    categoryBreakdown,
     completedAt: new Date().toISOString(),
   };
 }

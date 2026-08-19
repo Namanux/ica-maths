@@ -31,6 +31,7 @@ export async function saveAttempt(attempt: StoredAttempt): Promise<void> {
       percentage: attempt.percentage,
       time_taken_seconds: attempt.timeTakenSeconds,
       question_results: attempt.questionResults,
+      category_breakdown: attempt.categoryBreakdown,
       completed_at: attempt.completedAt,
     });
   } catch {

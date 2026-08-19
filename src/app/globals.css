@@ -46,3 +46,26 @@ body {
 img, svg.question-image {
   color: var(--foreground);
 }
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  .print-only-block {
+    display: block !important;
+  }
+
+  body {
+    background: #ffffff;
+    color: #111111;
+  }
+
+  :root, .dark {
+    --background: #ffffff;
+    --foreground: #111111;
+    --muted: #555555;
+    --border: #cccccc;
+    --surface: #f5f5f5;
+  }
+}

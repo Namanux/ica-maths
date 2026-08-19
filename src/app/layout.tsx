@@ -42,7 +42,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <ThemeProvider>
-          <header className="border-b border-border">
+          <header className="border-b border-border no-print">
             <div className="mx-auto max-w-4xl flex items-center justify-between px-4 py-3">
               <Link href="/" className="font-semibold tracking-tight">
                 ICAS Maths Simulator
@@ -53,7 +53,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <main className="flex-1 mx-auto w-full max-w-4xl px-4 py-6">
             {children}
           </main>
-          <footer className="border-t border-border">
+          <footer className="border-t border-border no-print">
             <div className="mx-auto max-w-4xl px-4 py-4 text-xs text-muted">
               Practice simulator for personal study use only.
             </div>
