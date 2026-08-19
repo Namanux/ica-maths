@@ -1,0 +1,24 @@
+<svg viewBox="0 0 300 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="13">
+  <circle cx="60" cy="60" r="5" fill="currentColor"/>
+  <text x="55" y="45" fill="currentColor">(B)</text>
+  <circle cx="150" cy="90" r="5" fill="currentColor"/>
+  <text x="150" y="75" fill="currentColor">(C)</text>
+  <circle cx="60" cy="180" r="5" fill="currentColor"/>
+  <text x="45" y="200" fill="currentColor">(A) start</text>
+  <circle cx="220" cy="180" r="5" fill="currentColor"/>
+  <text x="225" y="200" fill="currentColor">(D) finish</text>
+
+  <line x1="220" y1="180" x2="65" y2="180" stroke="currentColor" stroke-width="1.5" marker-end="url(#arc)"/>
+  <text x="140" y="175" fill="currentColor" font-size="11">1</text>
+  <line x1="60" y1="175" x2="58" y2="65" stroke="currentColor" stroke-width="1.5" marker-end="url(#arc)"/>
+  <text x="35" y="120" fill="currentColor" font-size="11">2</text>
+  <line x1="63" y1="58" x2="145" y2="88" stroke="currentColor" stroke-width="1.5" marker-end="url(#arc)"/>
+  <text x="95" y="65" fill="currentColor" font-size="11">3</text>
+  <line x1="155" y1="88" x2="215" y2="60" stroke="currentColor" stroke-width="1.5" marker-end="url(#arc)"/>
+  <text x="190" y="70" fill="currentColor" font-size="11">4</text>
+  <circle cx="220" cy="55" r="0" />
+  <line x1="150" y1="95" x2="217" y2="175" stroke="currentColor" stroke-width="1.5" marker-end="url(#arc)"/>
+  <text x="200" y="130" fill="currentColor" font-size="11">5</text>
+
+  <defs><marker id="arc" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto"><path d="M0,0 L6,3 L0,6 Z" fill="currentColor"/></marker></defs>
+</svg>

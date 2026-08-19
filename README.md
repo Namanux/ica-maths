@@ -1,6 +1,6 @@
 # ICAS Maths Simulator
 
-A timed, multiple-choice practice exam simulator for ICAS Mathematics, built with Next.js. Currently covers Year 5 (Paper C) with one real transcribed past paper plus a short original sample paper, and is structured to scale to more year levels and subjects later.
+A timed, multiple-choice practice exam simulator for ICAS Mathematics, built with Next.js. Currently covers Year 5 (Paper C) with two real transcribed past papers (2017, 2018) plus a short original sample paper, and is structured to scale to more year levels and subjects later.
 
 ## Stack
 
@@ -31,9 +31,11 @@ To add a new paper: create a new JSON file in `src/data/papers/`, add any diagra
 
 ### Important note on the real ICAS content
 
-`icas-2017-paper-c.json` is transcribed from a real UNSW Global ICAS past paper you provided in `Properties/`. The questions are digitized for your own private practice use — the diagrams have been **redrawn as original, simplified SVGs** rather than copied from the source booklet, both to keep the repo lightweight and because the original artwork is UNSW Global's copyrighted material.
+`icas-2017-paper-c.json` and `icas-2018-paper-c.json` are transcribed from real UNSW Global ICAS past papers you provided in `Properties/`. The questions are digitized for your own private practice use — the diagrams have been **redrawn as original, simplified SVGs** rather than copied from the source booklets, both to keep the repo lightweight and because the original artwork is UNSW Global's copyrighted material.
 
-Even so, the question text itself is closely derived from a copyrighted paper. This repo is public by choice; if that ever changes, either make the repo private or strip `icas-2017-paper-c.json` (and its `public/questions/icas-2017-paper-c/` diagrams) first.
+Even so, the question text itself is closely derived from copyrighted papers. This repo is public by choice; if that ever changes, either make the repo private or strip the `icas-*-paper-*.json` files (and their matching `public/questions/` diagrams) first.
+
+**2018 Paper C answer provenance**: the answer-key photo we had only covered questions 1–25. Those 25 are taken directly from the official UNSW Global answer key. Questions 26–40 have no official key available, so those answers were worked out directly (clean arithmetic for most; a handful of purely visual/spatial puzzles — Q26, Q30, Q33, Q36, Q40 — are best-effort and flagged as such in their `explanation` field). If you're able to find the missing second page of that answer key, those five can be corrected against it.
 
 The raw source PDFs in `Properties/` are git-ignored on purpose (see `.gitignore`) — they should never be committed, public repo or not.
 

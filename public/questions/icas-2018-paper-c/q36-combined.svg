@@ -1,0 +1,35 @@
+<svg viewBox="0 0 340 260" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="13">
+  <text x="20" y="20" fill="currentColor" font-size="12" opacity="0.7">Raj's star net (tips trimmed, dashed = fold lines):</text>
+  <g transform="translate(100,20) scale(0.7)" fill="currentColor" opacity="0.75">
+    <polygon points="70,10 85,55 55,55"/>
+    <polygon points="130,70 85,85 85,55"/>
+    <polygon points="70,130 55,85 85,85"/>
+    <polygon points="10,70 55,55 55,85"/>
+    <rect x="55" y="55" width="30" height="30"/>
+  </g>
+
+  <line x1="0" y1="130" x2="340" y2="130" stroke="currentColor" opacity="0.2"/>
+  <text x="20" y="150" fill="currentColor" font-size="12" opacity="0.7">Options:</text>
+
+  <g transform="translate(55,205)">
+    <polygon points="-45,25 -20,-25 20,-25 45,25" fill="currentColor" opacity="0.75"/>
+    <line x1="-20" y1="-25" x2="20" y2="-25" stroke="var(--background,#fff)" stroke-dasharray="3,2"/>
+  </g>
+  <text x="55" y="245" text-anchor="middle" fill="currentColor">(A)</text>
+
+  <g transform="translate(150,205)">
+    <polygon points="-40,25 -25,-25 25,-25 40,25" fill="currentColor" opacity="0.75"/>
+    <line x1="-25" y1="-25" x2="25" y2="-25" stroke="var(--background,#fff)" stroke-dasharray="3,2"/>
+  </g>
+  <text x="150" y="245" text-anchor="middle" fill="currentColor">(B)</text>
+
+  <g transform="translate(240,205)">
+    <polygon points="-25,0 0,-30 25,0 15,30 -15,30" fill="currentColor" opacity="0.75"/>
+  </g>
+  <text x="240" y="245" text-anchor="middle" fill="currentColor">(C)</text>
+
+  <g transform="translate(300,205)">
+    <polygon points="-15,20 0,-20 15,20" fill="currentColor" opacity="0.75"/>
+  </g>
+  <text x="300" y="245" text-anchor="middle" fill="currentColor">(D)</text>
+</svg>

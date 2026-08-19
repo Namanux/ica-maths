@@ -1,0 +1,32 @@
+<svg viewBox="0 0 260 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="13">
+  <g stroke="currentColor" fill="none">
+    <rect x="20" y="10" width="40" height="30"/>
+    <rect x="140" y="10" width="40" height="30"/>
+  </g>
+  <text x="40" y="30" text-anchor="middle" fill="currentColor">?</text>
+  <text x="160" y="30" text-anchor="middle" fill="currentColor">?</text>
+
+  <polygon points="70,55 100,75 70,95 40,75" fill="none" stroke="#e76f51"/>
+  <text x="70" y="79" text-anchor="middle" fill="currentColor" font-size="12">24</text>
+  <polygon points="150,55 185,75 150,95 115,75" fill="none" stroke="#2a9d8f"/>
+  <text x="150" y="79" text-anchor="middle" fill="currentColor" font-size="12">18</text>
+
+  <polygon points="70,110 100,130 70,150 40,130" fill="none" stroke="#e76f51"/>
+  <text x="70" y="134" text-anchor="middle" fill="currentColor" font-size="12">30</text>
+  <polygon points="150,110 185,130 150,150 115,130" fill="none" stroke="#2a9d8f"/>
+  <text x="150" y="134" text-anchor="middle" fill="currentColor" font-size="12">18</text>
+
+  <ellipse cx="70" cy="185" rx="22" ry="15" fill="none" stroke="#b3241c"/>
+  <text x="70" y="190" text-anchor="middle" fill="currentColor" font-size="14">?</text>
+  <ellipse cx="150" cy="185" rx="22" ry="15" fill="none" stroke="#b3241c"/>
+
+  <line x1="45" y1="40" x2="65" y2="58" stroke="currentColor"/>
+  <line x1="155" y1="40" x2="105" y2="70" stroke="currentColor"/>
+  <line x1="65" y1="40" x2="115" y2="70" stroke="currentColor"/>
+  <line x1="155" y1="40" x2="155" y2="58" stroke="currentColor"/>
+
+  <line x1="70" y1="95" x2="70" y2="108" stroke="currentColor"/>
+  <line x1="150" y1="95" x2="150" y2="108" stroke="currentColor"/>
+
+  <line x1="70" y1="150" x2="70" y2="170" stroke="currentColor"/>
+</svg>

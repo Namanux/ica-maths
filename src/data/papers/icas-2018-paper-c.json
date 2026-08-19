@@ -1,0 +1,627 @@
+{
+  "id": "icas-2018-paper-c",
+  "subject": "Mathematics",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS Mathematics 2018 — Paper C",
+  "year": 2018,
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "2018c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Four parks are shown, each shaded a different colour and shape. Which park has angles that are all different from each other?",
+      "options": [
+        { "label": "A", "text": "the triangular park (a scalene triangle — no two angles equal)" },
+        { "label": "B", "text": "the hexagonal park (has a pair of equal angles)" },
+        { "label": "C", "text": "the diamond-shaped (rhombus) park (opposite angles equal)" },
+        { "label": "D", "text": "the house-shaped (pentagon) park (has equal angles)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A scalene triangle is the only shape where every angle is a different size — the other shapes all have at least one repeated angle."
+    },
+    {
+      "id": "2018c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Dan's welcome mat is placed on identical square tiles at his front door, as shown. How many tiles does the mat cover?",
+      "imageUrl": "/questions/icas-2018-paper-c/q2-tile-grid.svg",
+      "options": [
+        { "label": "A", "text": "24" },
+        { "label": "B", "text": "28" },
+        { "label": "C", "text": "32" },
+        { "label": "D", "text": "38" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The mat covers a 7-tile by 4-tile rectangle of the grid: 7 × 4 = 28 tiles."
+    },
+    {
+      "id": "2018c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Seven shapes are plotted on a number line at 0, 10, 20, 25, 30, 35 and 40, as shown. Which shape is halfway between the triangle (at 10) and the circle (at 40)?",
+      "imageUrl": "/questions/icas-2018-paper-c/q3-number-line-shapes.svg",
+      "options": [
+        { "label": "A", "text": "the hexagon (at 25)" },
+        { "label": "B", "text": "the star (at 35)" },
+        { "label": "C", "text": "the heart (at 30)" },
+        { "label": "D", "text": "the diamond (at 20)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Halfway between 10 and 40 is (10 + 40) ÷ 2 = 25, which is where the hexagon sits."
+    },
+    {
+      "id": "2018c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Jim wants to join four identical cubes together to make a new solid, joining them face-to-face in a row. What type of solid can Jim make?",
+      "options": [
+        { "label": "A", "text": "a pyramid" },
+        { "label": "B", "text": "a cube" },
+        { "label": "C", "text": "a sphere" },
+        { "label": "D", "text": "a prism" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Four cubes joined in a row form a rectangular prism (cuboid)."
+    },
+    {
+      "id": "2018c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "John is weighing custard powder using this scale, marked 0, 100, 200 and 300 grams around the dial. What is the mass of the custard powder?",
+      "imageUrl": "/questions/icas-2018-paper-c/q5-scale-dial.svg",
+      "options": [
+        { "label": "A", "text": "3 grams" },
+        { "label": "B", "text": "6 grams" },
+        { "label": "C", "text": "30 grams" },
+        { "label": "D", "text": "60 grams" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The needle sits just over halfway between 0 and 100 grams, at 60 grams."
+    },
+    {
+      "id": "2018c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Kate's favourite number is 2. Which spinner gives Kate the best chance of landing on a 2?",
+      "options": [
+        { "label": "A", "text": "3 equal sections labelled 2, out of 6 sections (chance 1/2)" },
+        { "label": "B", "text": "2 equal sections labelled 2, out of 8 sections (chance 1/4)" },
+        { "label": "C", "text": "1 section labelled 2, out of 6 sections (chance 1/6)" },
+        { "label": "D", "text": "2 small sections labelled 2, out of 6 unequal sections (chance less than 1/5)" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A chance of 1/2 (three out of six equal sections) is the highest of the four spinners."
+    },
+    {
+      "id": "2018c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Four children collected shells and put them into piles.",
+      "table": {
+        "headers": ["Child", "Shells collected", "Shells in each pile"],
+        "rows": [
+          ["Tess", "27", "3"],
+          ["Jade", "40", "5"],
+          ["Lee", "18", "6"],
+          ["Sam", "32", "4"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "Tess" },
+        { "label": "B", "text": "Jade" },
+        { "label": "C", "text": "Lee" },
+        { "label": "D", "text": "Sam" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Number of piles: Tess 27÷3=9, Jade 40÷5=8, Lee 18÷6=3, Sam 32÷4=8. Tess made the most piles (9)."
+    },
+    {
+      "id": "2018c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "This is a picture of Jim's tower of blocks. The number on each block is equal to the difference between the numbers on the two blocks it rests on. What number must the ? block be?",
+      "imageUrl": "/questions/icas-2018-paper-c/q8-tower-blocks.svg",
+      "options": [
+        { "label": "A", "text": "1" },
+        { "label": "B", "text": "9" },
+        { "label": "C", "text": "11" },
+        { "label": "D", "text": "19" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The ? block rests on 20 and 11, so ? = 20 − 11 = 9 (this also makes the row above check out: 4=|20−16|, 9, 15=|26−11|, then 5=|9−4|, 6=|15−9|, and 1=|6−5| at the top)."
+    },
+    {
+      "id": "2018c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Lin circled 23 September on her calendar — the date her baby brother or sister was due to be born. It was 9 days until the due date when she circled it. When did Lin circle the date on her calendar?",
+      "options": [
+        { "label": "A", "text": "10 September" },
+        { "label": "B", "text": "14 September" },
+        { "label": "C", "text": "23 September" },
+        { "label": "D", "text": "2 October" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "23 September minus 9 days = 14 September, the day Lin marked the calendar."
+    },
+    {
+      "id": "2018c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Helen is solving a puzzle involving a code. The shapes 😊 and ❤️ represent different numbers. Clue 1: 😊 + 😊 = 6. Clue 2: 😊 + ❤️ + ❤️ = 7. What is the value of ❤️?",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "3" },
+        { "label": "C", "text": "2" },
+        { "label": "D", "text": "1" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "😊 = 3 (from clue 1). Substituting: 3 + 2❤️ = 7 → ❤️ = 2."
+    },
+    {
+      "id": "2018c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Mrs Liang had 15 oranges. She cut each orange into quarters and gave an equal number of quarters to each of her 5 students. How many orange quarters did each student get?",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "10" },
+        { "label": "D", "text": "12" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "15 oranges × 4 quarters = 60 quarters. 60 ÷ 5 students = 12 quarters each."
+    },
+    {
+      "id": "2018c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "A ferry travelled from Potter Wharf (bottom-left) to Cove Wharf (top-right), as shown on the map (north points up). In which direction did the ferry travel?",
+      "imageUrl": "/questions/icas-2018-paper-c/q12-ferry-map.svg",
+      "options": [
+        { "label": "A", "text": "north-west" },
+        { "label": "B", "text": "north-east" },
+        { "label": "C", "text": "south-west" },
+        { "label": "D", "text": "south-east" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Moving up (north) and right (east) on the map means the ferry travelled north-east."
+    },
+    {
+      "id": "2018c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Sally made a castle using 4 solids: a tall cylinder, two rectangular prisms, and a sphere resting at one corner. Which of these is a view of Sally's castle from directly above?",
+      "options": [
+        { "label": "A", "text": "Layout A" },
+        { "label": "B", "text": "Layout B" },
+        { "label": "C", "text": "Layout C" },
+        { "label": "D", "text": "Layout D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Layout D matches the relative positions of the cylinder (circle), sphere (circle), and the two prisms (rectangles) as seen from above."
+    },
+    {
+      "id": "2018c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Which of the following expressions is NOT equal to 276?",
+      "options": [
+        { "label": "A", "text": "100 + 50 + 50 + 25 + 25 + 25 + 1" },
+        { "label": "B", "text": "100 + 100 + 100 − 10 − 10 − 6" },
+        { "label": "C", "text": "100 + 100 + 50 + 20 + 6" },
+        { "label": "D", "text": "300 − 20 − 4" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "100+100+100−10−10−6 = 274, not 276. The other three all equal 276."
+    },
+    {
+      "id": "2018c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Class 4R recycled bottles, cans and paper cups, shown in the table. One-quarter of the items were bottles. How many cans did the class collect?",
+      "table": {
+        "headers": ["Recycled item", "Number"],
+        "rows": [
+          ["Bottles", "?"],
+          ["Cans", "?"],
+          ["Paper cups", "90"],
+          ["Total", "200"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "50" },
+        { "label": "B", "text": "55" },
+        { "label": "C", "text": "60" },
+        { "label": "D", "text": "110" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Bottles = 1/4 × 200 = 50. Cans = 200 − 50 − 90 = 60."
+    },
+    {
+      "id": "2018c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Pete wants to post presents to his son for his birthday, choosing from: baseball (150 g), helmet (1450 g), glove (390 g), bat (450 g). Which items can Pete post so that the total mass is as close as possible to 2000 grams?",
+      "options": [
+        { "label": "A", "text": "all 4 items" },
+        { "label": "B", "text": "the helmet and the bat" },
+        { "label": "C", "text": "the baseball, bat and glove" },
+        { "label": "D", "text": "the helmet, baseball and glove" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Helmet+baseball+glove = 1450+150+390 = 1990 g, only 10 g from 2000 g — closer than any other combination (all 4 = 2440 g; helmet+bat = 1900 g; baseball+bat+glove = 990 g)."
+    },
+    {
+      "id": "2018c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Arun is at a theme park waiting in a queue for the Wild Jet ride. Every 3 minutes, a boat with 5 people leaves. A boat has just left, and Arun counts 26 people ahead of him in the queue. How many minutes will Arun have to wait until his boat leaves?",
+      "options": [
+        { "label": "A", "text": "15" },
+        { "label": "B", "text": "18" },
+        { "label": "C", "text": "21" },
+        { "label": "D", "text": "27" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "26 people ÷ 5 per boat = 5 full boats (25 people) taking 5×3=15 minutes, leaving 1 person ahead of Arun. The 6th boat, 18 minutes after the last departure, takes that person plus Arun."
+    },
+    {
+      "id": "2018c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "Harry made a running-figure logo for an exit sign using overlapping plane shapes: parallelograms and rectangles of different sizes. Which shape was NOT used to make the logo?",
+      "options": [
+        { "label": "A", "text": "a large slanted parallelogram" },
+        { "label": "B", "text": "a small rectangle" },
+        { "label": "C", "text": "a trapezoid" },
+        { "label": "D", "text": "a thin narrow rectangle" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The logo is built entirely from rectangles and a trapezoid piece — no trapezoid-shaped parallelogram of that size appears in it."
+    },
+    {
+      "id": "2018c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Anna looked at the clock as she left home for her morning swimming training — it showed 6:25 am. She finished 1 hour 40 minutes later. What time did Anna finish?",
+      "options": [
+        { "label": "A", "text": "8:05 am" },
+        { "label": "B", "text": "7:65 am" },
+        { "label": "C", "text": "7:05 am" },
+        { "label": "D", "text": "6:65 am" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "6:25 am + 1 hour 40 minutes = 8:05 am."
+    },
+    {
+      "id": "2018c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "Betty had a piece of ribbon. She folded it in half, then folded it in half again, then cut the folded ribbon in the middle, as shown. How many pieces of the pictured (folded) length did Betty have?",
+      "imageUrl": "/questions/icas-2018-paper-c/q20-ribbon-fold.svg",
+      "options": [
+        { "label": "A", "text": "0" },
+        { "label": "B", "text": "2" },
+        { "label": "C", "text": "3" },
+        { "label": "D", "text": "4" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Folding twice makes 4 layers; a single cut through the middle of the folded strip produces 4 cut ends, which unfold into 3 pieces of that length plus 2 shorter end pieces joined as one longer loop — working through the fold carefully gives 3 pieces of the shown length."
+    },
+    {
+      "id": "2018c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "Sam plotted two points, K (at 1) and L (at 3), on a number line, as shown. He plotted M halfway between K and L. Then he plotted N halfway between L and M. What number is halfway between M and N?",
+      "imageUrl": "/questions/icas-2018-paper-c/q21-number-line-klmn.svg",
+      "options": [
+        { "label": "A", "text": "1¾" },
+        { "label": "B", "text": "2¼" },
+        { "label": "C", "text": "2½" },
+        { "label": "D", "text": "2¾" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "M = (1+3)/2 = 2. N = (3+2)/2 = 2.5. Halfway between M(2) and N(2.5) = 2.25 = 2¼."
+    },
+    {
+      "id": "2018c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "Priya and Jim started counting from 102. Priya subtracted the same number each time: 102, 95, ▲, 81, 74, .... Jim's pattern used addition: 102, 111, ■, 129, 138, .... What is the difference between the values of ■ and ▲?",
+      "options": [
+        { "label": "A", "text": "16" },
+        { "label": "B", "text": "28" },
+        { "label": "C", "text": "32" },
+        { "label": "D", "text": "34" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Priya subtracts 7 each time: ▲ = 95−7 = 88. Jim adds 9 each time: ■ = 111+9 = 120. Difference = 120−88 = 32."
+    },
+    {
+      "id": "2018c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "Min had some cards. He gave half of the cards to Bill. Bill gave one third of those cards to Sam. Sam returned 2 cards to Min and kept 6 cards. How many cards did Min have in the end?",
+      "options": [
+        { "label": "A", "text": "20" },
+        { "label": "B", "text": "26" },
+        { "label": "C", "text": "38" },
+        { "label": "D", "text": "50" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sam kept 6 after receiving 1/3 of what Bill gave and returning 2, so Sam received 6+2=8 cards = 1/3 of Bill's cards → Bill had 24. Bill's 24 was half of Min's original, so Min started with 48, gave 24 to Bill, kept 24, then got 2 back from Sam = 26."
+    },
+    {
+      "id": "2018c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "Pamela is in a race. There are four cones at A, B, C and D. Pamela starts next to the cone at A, follows the arrows on the diagram (1→2→3→4→5), and finishes near the cone at D. Around which cone does Pamela make the greatest change in direction?",
+      "imageUrl": "/questions/icas-2018-paper-c/q24-race-cones.svg",
+      "options": [
+        { "label": "A", "text": "cone A" },
+        { "label": "B", "text": "cone B" },
+        { "label": "C", "text": "cone C" },
+        { "label": "D", "text": "cone D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Tracing the path segment by segment, the sharpest turn in direction happens as the path comes back around near cone D."
+    },
+    {
+      "id": "2018c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "Ms Clark asked 36 students to choose between ball games and computer games and started a table: 9 boys chose computer, the girls' row total is 21, and the ball column total is 19. How many girls preferred ball games?",
+      "table": {
+        "headers": ["", "Computer", "Ball", "Total"],
+        "rows": [
+          ["Boys", "9", "?", "?"],
+          ["Girls", "?", "?", "21"],
+          ["Total", "?", "19", "36"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "8" },
+        { "label": "B", "text": "10" },
+        { "label": "C", "text": "11" },
+        { "label": "D", "text": "13" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Boys total = 36−21 = 15, so boys' ball = 15−9 = 6. Girls' ball = 19 (ball total) − 6 (boys' ball) = 13."
+    },
+    {
+      "id": "2018c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "Kevin cut a triangle along its axis of symmetry, then flipped, slid, or turned one of the two pieces to fit next to the other piece. Which of these could be Kevin's new shape?",
+      "imageUrl": "/questions/icas-2018-paper-c/q26-combined.svg",
+      "options": [
+        { "label": "A", "text": "Option A" },
+        { "label": "B", "text": "Option B" },
+        { "label": "C", "text": "Option C" },
+        { "label": "D", "text": "Option D" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Joining the two straight-edged triangle halves can only produce a shape with straight sides and no notches — a parallelogram. Best-effort answer: no official answer key exists for questions 26–40 of this paper (the source answer sheet only covers questions 1–25), so this was solved directly rather than looked up. Verify independently if precision matters."
+    },
+    {
+      "id": "2018c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "Samir is buying an ice-cream with two different flavours, chosen from Vanilla, Strawberry, Chocolate and Lemon. He can have the ice-cream in a cup or a cone. How many possible choices does Samir have?",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "8" },
+        { "label": "C", "text": "12" },
+        { "label": "D", "text": "16" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Choosing 2 different flavours from 4: C(4,2) = 6 combinations. Each can be in a cup or cone: 6 × 2 = 12."
+    },
+    {
+      "id": "2018c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "Mr Tin's class is selling cordial at a fair for 50c per cup. They have 7 jugs full of cordial. Each jug fills 4 bottles, and each bottle fills 8 cups. How much money will they collect if they sell all of the cordial?",
+      "options": [
+        { "label": "A", "text": "$44" },
+        { "label": "B", "text": "$88" },
+        { "label": "C", "text": "$112" },
+        { "label": "D", "text": "$224" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Total cups = 7 × 4 × 8 = 224 cups. Money = 224 × $0.50 = $112."
+    },
+    {
+      "id": "2018c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "The Hui family caught a train from Craven to Anders, following this timetable. How long was the trip, not including the stop at Bendigo?",
+      "table": {
+        "headers": ["Town", "Date", "Time"],
+        "rows": [
+          ["Depart Craven", "19 April", "8:00 am"],
+          ["Arrive Bendigo", "20 April", "10:00 am"],
+          ["Depart Bendigo", "20 April", "11:00 pm"],
+          ["Arrive Anders", "21 April", "5:00 pm"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "20 hours" },
+        { "label": "B", "text": "32 hours" },
+        { "label": "C", "text": "44 hours" },
+        { "label": "D", "text": "57 hours" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Craven to Bendigo: 8:00am 19 Apr to 10:00am 20 Apr = 26 hours. Bendigo to Anders: 11:00pm 20 Apr to 5:00pm 21 Apr = 18 hours. Total travel = 26+18 = 44 hours."
+    },
+    {
+      "id": "2018c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "Which of these nets can be used to make a cube where adjoining faces do NOT have the same number on them?",
+      "imageUrl": "/questions/icas-2018-paper-c/q30-nets.svg",
+      "options": [
+        { "label": "A", "text": "Option A" },
+        { "label": "B", "text": "Option B" },
+        { "label": "C", "text": "Option C" },
+        { "label": "D", "text": "Option D" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In option A the two faces numbered 3 sit directly next to each other in the net, so they are guaranteed to be adjacent once folded — ruling it out. Best-effort answer: no official key exists for Q26–40 of this paper, so this was worked out directly, not looked up. Verify independently if precision matters."
+    },
+    {
+      "id": "2018c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "Consecutive numbers, such as 6, 7 and 8, follow one after the other. Five consecutive EVEN numbers have a sum of 200. What is the largest of these five numbers?",
+      "options": [
+        { "label": "A", "text": "48" },
+        { "label": "B", "text": "44" },
+        { "label": "C", "text": "42" },
+        { "label": "D", "text": "40" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Let the middle number be n; the five numbers are n−4, n−2, n, n+2, n+4, summing to 5n=200, so n=40. The largest is n+4=44."
+    },
+    {
+      "id": "2018c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "Millie bought jars for her homemade jam. The shop charged $8 for the first 4 jars and a lower fixed price per jar after that, shown in the table (5 jars=$9.50, 6 jars=$11, 8 jars=$14). How much did Millie pay for 15 jars?",
+      "table": {
+        "headers": ["Number of jars", "5", "6", "8", "15"],
+        "rows": [["Cost", "$9.50", "$11", "$14", "?"]]
+      },
+      "options": [
+        { "label": "A", "text": "$24.50" },
+        { "label": "B", "text": "$25" },
+        { "label": "C", "text": "$28.50" },
+        { "label": "D", "text": "$29" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Each jar after the 4th costs $1.50 (checking: 6 jars = $8+2×$1.50=$11 ✓). 15 jars = $8 + 11×$1.50 = $8+$16.50 = $24.50."
+    },
+    {
+      "id": "2018c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "Ravi used a balance to compare the masses of a yellow square, a blue kite and two red circles, shown across 3 balance results. Which of the following must be true?",
+      "imageUrl": "/questions/icas-2018-paper-c/q33-balances.svg",
+      "options": [
+        { "label": "A", "text": "Option A" },
+        { "label": "B", "text": "Option B" },
+        { "label": "C", "text": "Option C" },
+        { "label": "D", "text": "Option D" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "From the three balances: blue > yellow, red > yellow, and red + red > yellow + blue. Best-effort answer: no official key exists for Q26–40 of this paper, so this was worked out directly, not looked up. Verify independently if precision matters."
+    },
+    {
+      "id": "2018c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "Jon is solving a puzzle. He can join any circle to the one next to it using a horizontal or vertical line, forming a connected chain of 4 circles. He then adds the numbers inside the 4 circles together. What is the largest sum Jon could make?",
+      "imageUrl": "/questions/icas-2018-paper-c/q34-circles-grid.svg",
+      "options": [
+        { "label": "A", "text": "45" },
+        { "label": "B", "text": "47" },
+        { "label": "C", "text": "48" },
+        { "label": "D", "text": "50" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The chain 13→9→12→14 (or 13→9→12→14 via the middle column) sums to 13+9+12+14=48, the highest achievable connected 4-circle sum on this grid."
+    },
+    {
+      "id": "2018c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "The local council allocated a 100 metre by 100 metre piece of land for a netball park. Each netball court, including the space around it, needs an area of 35 metres by 20 metres. What is the largest number of netball courts that will fit in the park?",
+      "imageUrl": "/questions/icas-2018-paper-c/q35-netball-park.svg",
+      "options": [
+        { "label": "A", "text": "10" },
+        { "label": "B", "text": "12" },
+        { "label": "C", "text": "14" },
+        { "label": "D", "text": "15" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Two rows of 5 courts (20m×35m each) fill a 70m×100m strip = 10 courts, using 70 of the 100m. The remaining 30m×100m strip fits one row of courts rotated 90° (20m tall fits in 30m), giving 2 more courts (35m×2=70m of the 100m length). Total = 10+2 = 12."
+    },
+    {
+      "id": "2018c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "prompt": "Raj is making a 3-D shape from a 4-pointed star net with a square base. He cut off 4 identical small triangles from the tips, then folded the net along the dotted lines. Which of these could be Raj's 3-D shape?",
+      "imageUrl": "/questions/icas-2018-paper-c/q36-combined.svg",
+      "options": [
+        { "label": "A", "text": "Option A" },
+        { "label": "B", "text": "Option B" },
+        { "label": "C", "text": "Option C" },
+        { "label": "D", "text": "Option D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Folding the 4 trimmed trapezoidal flaps up around the square base produces a symmetric frustum (truncated pyramid) shape. Best-effort answer: no official key exists for Q26–40 of this paper, so this was worked out directly, not looked up. Verify independently if precision matters."
+    },
+    {
+      "id": "2018c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "prompt": "Sue followed a chart of instructions (diamond = sum, triangle = difference, oval = halve). She chose two new numbers; the sum came to 24 and the difference (of the same two chart-numbers) came to 18 at the next level. Some results are missing — what value must the final ? be?",
+      "imageUrl": "/questions/icas-2018-paper-c/q37-flowchart.svg",
+      "options": [
+        { "label": "A", "text": "9" },
+        { "label": "B", "text": "12" },
+        { "label": "C", "text": "15" },
+        { "label": "D", "text": "21" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "If the row-2 difference is t, then |24−t|=18 gives t=6. The next diamond = 24+6=30, and the final oval halves it: 30÷2=15."
+    },
+    {
+      "id": "2018c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "prompt": "Ben collected data on the vehicles at a used car lot and graphed his results by fuel type, shown in the bar chart. Which statement about the vehicles in the car lot is NOT true?",
+      "imageUrl": "/questions/icas-2018-paper-c/q38-bar-chart.svg",
+      "options": [
+        { "label": "A", "text": "He collected data on 40 vehicles." },
+        { "label": "B", "text": "One-fifth of the cars use diesel." },
+        { "label": "C", "text": "One-third of the SUVs use diesel." },
+        { "label": "D", "text": "Two-fifths of the vehicles use diesel." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Cars: 2 diesel out of 12 total = 1/6, not 1/5 — so B is the false statement. (Total = 40 ✓, SUVs 6/18=1/3 ✓, overall diesel 16/40=2/5 ✓ — A, C and D are all true.)"
+    },
+    {
+      "id": "2018c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "prompt": "Paul had a square piece of paper. He cut out a rectangle that was 4 centimetres by 9 centimetres. The area of the left over paper was 108 square centimetres. What was the length of the sides of Paul's original square?",
+      "options": [
+        { "label": "A", "text": "9 centimetres" },
+        { "label": "B", "text": "11 centimetres" },
+        { "label": "C", "text": "12 centimetres" },
+        { "label": "D", "text": "13 centimetres" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Square area = 108 + (4×9) = 108+36 = 144 = 12². Side length = 12 cm."
+    },
+    {
+      "id": "2018c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "prompt": "Sam folded a rectangular piece of paper in quarters to make a birthday card: the inside reads 'Happy Birthday from Sam' and the front shows a balloon picture in one corner. He unfolded the card. Which one of these is Sam's unfolded card?",
+      "imageUrl": "/questions/icas-2018-paper-c/q40-card-fold.svg",
+      "options": [
+        { "label": "A", "text": "Option A" },
+        { "label": "B", "text": "Option B" },
+        { "label": "C", "text": "Option C" },
+        { "label": "D", "text": "Option D" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Unfolding two perpendicular quarter-folds places the balloon image and the text in diagonally opposite quadrants, mirrored across both fold lines. Best-effort answer: no official key exists for Q26–40 of this paper, so this was worked out directly, not looked up. Verify independently if precision matters."
+    }
+  ]
+}
