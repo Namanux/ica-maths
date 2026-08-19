@@ -33,10 +33,9 @@ To add a new paper: create a new JSON file in `src/data/papers/`, add any diagra
 
 `icas-2017-paper-c.json` is transcribed from a real UNSW Global ICAS past paper you provided in `Properties/`. The questions are digitized for your own private practice use — the diagrams have been **redrawn as original, simplified SVGs** rather than copied from the source booklet, both to keep the repo lightweight and because the original artwork is UNSW Global's copyrighted material.
 
-Even so, the question text itself is closely derived from a copyrighted paper. Two things to keep in mind:
+Even so, the question text itself is closely derived from a copyrighted paper. This repo is public by choice; if that ever changes, either make the repo private or strip `icas-2017-paper-c.json` (and its `public/questions/icas-2017-paper-c/` diagrams) first.
 
-1. **Keep the GitHub repo private** if it contains this file, or strip/replace it before making the repo public.
-2. The raw source PDFs in `Properties/` are git-ignored on purpose (see `.gitignore`) — they should never be committed.
+The raw source PDFs in `Properties/` are git-ignored on purpose (see `.gitignore`) — they should never be committed, public repo or not.
 
 ## Supabase setup (optional)
 
@@ -49,10 +48,11 @@ The app works fully without Supabase — attempt history is kept in the browser'
 
 ## Deploying
 
-1. Push this repo to GitHub (**private**, per the note above, unless you remove the real-paper content first).
-2. Import the repo into [Vercel](https://vercel.com/new).
-3. If using Supabase, add the two `NEXT_PUBLIC_SUPABASE_*` env vars in the Vercel project settings.
-4. Deploy.
+Source: [github.com/Namanux/ica-maths](https://github.com/Namanux/ica-maths)
+
+1. Import the repo into [Vercel](https://vercel.com/new).
+2. If using Supabase, add the two `NEXT_PUBLIC_SUPABASE_*` env vars in the Vercel project settings.
+3. Deploy.
 
 ## Roadmap ideas
 
