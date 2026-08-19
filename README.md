@@ -5,7 +5,7 @@ A timed, multiple-choice practice exam simulator for ICAS Mathematics, built wit
 ## Stack
 
 - **Next.js (App Router) + TypeScript + Tailwind CSS 4** — the app itself
-- **Supabase** *(optional)* — data hub for attempt history, so results can be recalled later instead of only living in the browser
+- **Supabase** — data hub for attempt history, so results can be recalled later instead of only living in the browser. A dedicated project (`icas-maths`) is already provisioned and connected.
 - **Vercel** — intended deploy target
 - **GitHub** — intended source host
 
@@ -39,21 +39,20 @@ Even so, the question text itself is closely derived from copyrighted papers. Th
 
 The raw source PDFs in `Properties/` are git-ignored on purpose (see `.gitignore`) — they should never be committed, public repo or not.
 
-## Supabase setup (optional)
+## Supabase setup
 
-The app works fully without Supabase — attempt history is kept in the browser's local storage either way. If you want history to persist beyond one browser (e.g. to check progress from another device later):
+A dedicated Supabase project (`icas-maths`, ref `dguqznqupvawlyxkwiwi`) is already provisioned, with the `attempts` table from [`supabase/schema.sql`](supabase/schema.sql) live. Locally, `.env.local` (git-ignored, not committed) holds the connection details — copy `.env.example` if you ever need to recreate it.
 
-1. Create a Supabase project.
-2. Run [`supabase/schema.sql`](supabase/schema.sql) in the Supabase SQL editor.
-3. Copy `.env.example` to `.env.local` and fill in `NEXT_PUBLIC_SUPABASE_URL` and `NEXT_PUBLIC_SUPABASE_ANON_KEY` from your project's API settings.
-4. Restart `npm run dev`.
+The app still works fully without Supabase configured (attempt history just stays in that browser's local storage), so this is only load-bearing for cross-device history.
+
+To manage the database from a terminal: `npx supabase login`, then `npx supabase link --project-ref dguqznqupvawlyxkwiwi`, then `npx supabase db query --linked "..."`.
 
 ## Deploying
 
 Source: [github.com/Namanux/ica-maths](https://github.com/Namanux/ica-maths)
 
 1. Import the repo into [Vercel](https://vercel.com/new).
-2. If using Supabase, add the two `NEXT_PUBLIC_SUPABASE_*` env vars in the Vercel project settings.
+2. Add the two `NEXT_PUBLIC_SUPABASE_*` env vars (from `.env.local`) in the Vercel project settings.
 3. Deploy.
 
 ## Roadmap ideas

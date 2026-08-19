@@ -36,6 +36,9 @@ yarn-error.log*
 # vercel
 .vercel
 
+# supabase CLI local metadata
+supabase/.temp
+
 # raw copyrighted ICAS source PDFs — never publish these, they're for
 # local reference only when transcribing questions into src/data/papers
 /Properties
