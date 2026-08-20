@@ -64,6 +64,7 @@ export interface CategoryBreakdown {
 }
 
 export interface AttemptResult {
+  id: string;
   paperId: string;
   score: number;
   totalQuestions: number;

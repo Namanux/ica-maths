@@ -25,3 +25,7 @@ create policy "Allow insert for all" on attempts
 create policy "Allow read for all" on attempts
   for select
   using (true);
+
+create policy "Allow delete for all" on attempts
+  for delete
+  using (true);

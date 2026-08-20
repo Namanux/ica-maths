@@ -49,6 +49,7 @@ export function scoreAttempt(
   }).filter((c) => c.total > 0);
 
   return {
+    id: crypto.randomUUID(),
     paperId: paper.id,
     score,
     totalQuestions: paper.questions.length,

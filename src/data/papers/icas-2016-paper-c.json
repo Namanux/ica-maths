@@ -1,0 +1,1190 @@
+{
+  "id": "icas-2016-paper-c",
+  "subject": "Mathematics",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS Mathematics 2016 — Paper C",
+  "year": 2016,
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "2016c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Anna waited for 15 minutes at the bus stop. She caught the school bus at 8:10 am. What time did Anna arrive at the bus stop?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7:35 am"
+        },
+        {
+          "label": "B",
+          "text": "7:45 am"
+        },
+        {
+          "label": "C",
+          "text": "7:55 am"
+        },
+        {
+          "label": "D",
+          "text": "8:25 am"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "8:10 am minus 15 minutes = 7:55 am.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2016c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Andy drew a star on a 5×5 grid (columns A-E, rows 1-5), 2 squares below and 1 square to the right of its correct position, as shown. Where should Andy have drawn the star?",
+      "imageUrl": "/questions/icas-2016-paper-c/q2-star-grid.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "B1"
+        },
+        {
+          "label": "B",
+          "text": "D1"
+        },
+        {
+          "label": "C",
+          "text": "D5"
+        },
+        {
+          "label": "D",
+          "text": "B5"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The star was drawn at C3. Undoing \"2 below, 1 right\" means moving 1 left and 2 up from C3, landing at B5.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2016c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Tom has 12 plastic shapes in a bag: 4 hexagons, 3 triangles, 2 squares, 2 circles and 1 trapezoid, shown below. He closes his eyes and picks up a shape. Which shape has twice the chance of being picked as the square?",
+      "imageUrl": "/questions/icas-2016-paper-c/q3-shapes-bag.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "the hexagon"
+        },
+        {
+          "label": "B",
+          "text": "the trapezoid"
+        },
+        {
+          "label": "C",
+          "text": "the triangle"
+        },
+        {
+          "label": "D",
+          "text": "the circle"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "There are 2 squares and 4 hexagons — twice as many, so twice the chance.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2016c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "These thermometers show the temperature in two cities one morning: Sydney at 10°C and Hong Kong at 26°C. How much warmer was it in Hong Kong than in Sydney?",
+      "imageUrl": "/questions/icas-2016-paper-c/q4-thermometers.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "13°C"
+        },
+        {
+          "label": "B",
+          "text": "15°C"
+        },
+        {
+          "label": "C",
+          "text": "16°C"
+        },
+        {
+          "label": "D",
+          "text": "18°C"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "26°C − 10°C = 16°C.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2016c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "A toy train on a circular track starts from the position shown and goes one-third of the way around the track in a clockwise direction, then stops. Which point (A, B, C or D) is closest to where the train stops?",
+      "imageUrl": "/questions/icas-2016-paper-c/q5-train-track.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "Point A"
+        },
+        {
+          "label": "B",
+          "text": "Point B"
+        },
+        {
+          "label": "C",
+          "text": "Point C"
+        },
+        {
+          "label": "D",
+          "text": "Point D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "One-third of a full circle is 120°. Travelling 120° clockwise from the start lands closest to point D.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2016c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Which of these has the same value as 98 − 35?",
+      "options": [
+        {
+          "label": "A",
+          "text": "108 − 35"
+        },
+        {
+          "label": "B",
+          "text": "108 − 25"
+        },
+        {
+          "label": "C",
+          "text": "100 − 37"
+        },
+        {
+          "label": "D",
+          "text": "100 − 33"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "98 − 35 = 63, and 100 − 37 = 63 also. The others equal 73, 83 and 67.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2016c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Which of these orders the decimals 0.31, 0.05 and 0.4 from smallest to largest?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.31, 0.05, 0.4"
+        },
+        {
+          "label": "B",
+          "text": "0.05, 0.31, 0.4"
+        },
+        {
+          "label": "C",
+          "text": "0.31, 0.4, 0.05"
+        },
+        {
+          "label": "D",
+          "text": "0.4, 0.05, 0.31"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "From smallest to largest: 0.05, 0.31, 0.4.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2016c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "This is a picture of Jim's tower. The number on each block is equal to the difference between the numbers on the two blocks it rests on. What number must the ? block be?",
+      "imageUrl": "/questions/icas-2016-paper-c/q8-tower-blocks.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "19"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The ? block rests on 20 and 11, so ? = 20 − 11 = 9.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2016c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "A plane drops 10 food parcels at equal intervals over a distance of 3 kilometres. About how many metres is it between one parcel and the next?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "300"
+        },
+        {
+          "label": "D",
+          "text": "3000"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "10 parcels create 9 gaps over 3000 m: 3000 ÷ 9 ≈ 333 m, closest to 300 m.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2016c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Sven made a pattern with some cardboard shapes with four marked angles, labelled A, B, C and D. Which angle is the largest?",
+      "imageUrl": "/questions/icas-2016-paper-c/q10-angles.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "Angle A"
+        },
+        {
+          "label": "B",
+          "text": "Angle B"
+        },
+        {
+          "label": "C",
+          "text": "Angle C"
+        },
+        {
+          "label": "D",
+          "text": "Angle D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Comparing the four marked angles on the shape, angle A opens the widest.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2016c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Which arrow is pointing to 3/4 on this number line from 0 to 2?",
+      "imageUrl": "/questions/icas-2016-paper-c/q11-number-line.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "Arrow A"
+        },
+        {
+          "label": "B",
+          "text": "Arrow B"
+        },
+        {
+          "label": "C",
+          "text": "Arrow C"
+        },
+        {
+          "label": "D",
+          "text": "Arrow D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "3/4 is three-quarters of the way from 0 to 1 (not all the way to 2), matching arrow B.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2016c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Sally made this castle using 4 solids: a tall cylinder and three rectangular prisms. Which of these is a view of Sally's castle from directly above?",
+      "imageUrl": "/questions/icas-2016-paper-c/q12-castle.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "Layout A"
+        },
+        {
+          "label": "B",
+          "text": "Layout B"
+        },
+        {
+          "label": "C",
+          "text": "Layout C"
+        },
+        {
+          "label": "D",
+          "text": "Layout D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Layout D matches the relative positions of the cylinder and the three rectangular blocks as seen from above.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2016c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Janine bought three pages of stickers with 30 stickers on each page. Paula bought five of the same pages of stickers. How many stickers did they buy altogether?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38"
+        },
+        {
+          "label": "B",
+          "text": "95"
+        },
+        {
+          "label": "C",
+          "text": "240"
+        },
+        {
+          "label": "D",
+          "text": "450"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Janine: 3 × 30 = 90. Paula: 5 × 30 = 150. Together: 90 + 150 = 240.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2016c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Lulu sold books from Monday to Friday: 10, 9, 15, 12 and 11 books respectively, shown in the bar chart. The number sold on Saturday was more than Friday's sales but less than Wednesday's sales. Which of these could be the number of books Lulu sold on Saturday?",
+      "imageUrl": "/questions/icas-2016-paper-c/q14-bar-chart.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "17"
+        },
+        {
+          "label": "B",
+          "text": "14"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Saturday's sales must be more than Friday (11) and less than Wednesday (15) — 14 is the only option that fits.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2016c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "In Anish's code, symbols are added together to give values, shown in the table (F = flag symbol, T = triangle symbol, C = circle symbol). What value must the final row be?",
+      "table": {
+        "headers": [
+          "Symbols",
+          "Value"
+        ],
+        "rows": [
+          [
+            "F + F",
+            "2"
+          ],
+          [
+            "F + T",
+            "6"
+          ],
+          [
+            "T + C",
+            "30"
+          ],
+          [
+            "F + T + T + T + C",
+            "?"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "38"
+        },
+        {
+          "label": "B",
+          "text": "41"
+        },
+        {
+          "label": "C",
+          "text": "42"
+        },
+        {
+          "label": "D",
+          "text": "48"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "F = 1 (from F+F=2). T = 6−1 = 5. C = 30−5 = 25. F+3T+C = 1+15+25 = 41.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2016c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Pete wants to post presents to his son for his birthday, choosing from: baseball (150 g), helmet (1450 g), glove (390 g), bat (450 g). Which items can Pete post so that the total mass is as close as possible to 2000 grams?",
+      "options": [
+        {
+          "label": "A",
+          "text": "all 4 items"
+        },
+        {
+          "label": "B",
+          "text": "the helmet and the bat"
+        },
+        {
+          "label": "C",
+          "text": "the baseball, bat and glove"
+        },
+        {
+          "label": "D",
+          "text": "the helmet, baseball and glove"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Helmet+baseball+glove = 1450+150+390 = 1990 g, only 10 g from 2000 g — the closest of all the combinations.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2016c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Anna and Mia each shaded parts of two circles of the same size, shown below: Anna shaded 1/2 of her circle, Mia shaded 3/4 of her circle. Edward also shaded part of a same-size circle — a greater area than Anna did, but a smaller area than Mia did. Which of these could be Edward's circle?",
+      "imageUrl": "/questions/icas-2016-paper-c/q17-pie-circles.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "3/5 shaded"
+        },
+        {
+          "label": "B",
+          "text": "1/2 shaded"
+        },
+        {
+          "label": "C",
+          "text": "2/5 shaded"
+        },
+        {
+          "label": "D",
+          "text": "5/6 shaded"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "3/5 = 0.6, which sits between Anna's 1/2 (0.5) and Mia's 3/4 (0.75).",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2016c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "All the times shown on these clocks were on the same day: L = 03:30 am, M = 16:15, N = 04:30 pm, O = 13:20. What is the order of the clocks from the earliest time to the latest time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "L, O, M, N"
+        },
+        {
+          "label": "B",
+          "text": "L, N, O, M"
+        },
+        {
+          "label": "C",
+          "text": "L, O, N, M"
+        },
+        {
+          "label": "D",
+          "text": "L, N, M, O"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Converting to 24-hour time: L=3:30, O=13:20, M=16:15, N=16:30. Earliest to latest: L, O, M, N.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2016c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Ying measured the mass of a jug that was half-full of water, shown on a scale reading 1100 grams. One litre of water has a mass of 1 kilogram, and the jug held 500 mL of water. What was the mass of the empty jug?",
+      "options": [
+        {
+          "label": "A",
+          "text": "100 grams"
+        },
+        {
+          "label": "B",
+          "text": "500 grams"
+        },
+        {
+          "label": "C",
+          "text": "550 grams"
+        },
+        {
+          "label": "D",
+          "text": "600 grams"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "500 mL of water has a mass of 500 g. Jug = 1100 − 500 = 600 grams.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2016c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "Mr Martins opened a stall with 800 games to sell. The first day he sold 120 games. Each day after that he sold half as many games as he sold the day before. How many games did Mr Martins have left at the end of the third day?",
+      "options": [
+        {
+          "label": "A",
+          "text": "440"
+        },
+        {
+          "label": "B",
+          "text": "590"
+        },
+        {
+          "label": "C",
+          "text": "620"
+        },
+        {
+          "label": "D",
+          "text": "680"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Day 1: sold 120. Day 2: sold 60. Day 3: sold 30. Total sold = 210. Remaining = 800 − 210 = 590.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2016c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "This is a playing card. The image shows the top half of the card. What must be done to this image in order to create the bottom half of the card?",
+      "imageUrl": "/questions/icas-2016-paper-c/q21-card.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "Flip it over the horizontal line"
+        },
+        {
+          "label": "B",
+          "text": "Flip it over the vertical line"
+        },
+        {
+          "label": "C",
+          "text": "Rotate it a half turn"
+        },
+        {
+          "label": "D",
+          "text": "Rotate it a quarter turn"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Standard playing cards have 180° rotational symmetry — the bottom half is the top half rotated a half turn, not flipped.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2016c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "In Mrs Li's class today, each student did either reading or writing. There were groups of 3 for reading, groups of 5 for writing, and 7 groups altogether. How many students could be in the class?",
+      "options": [
+        {
+          "label": "A",
+          "text": "21"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "26"
+        },
+        {
+          "label": "D",
+          "text": "29"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "With 3 reading groups and 4 writing groups: 3×3 + 4×5 = 9 + 20 = 29 students.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2016c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "This is a model of a 3D object made by folding paper into a 6-pointed star shape, shown from the top and the side. How many faces does the 3D object have?",
+      "imageUrl": "/questions/icas-2016-paper-c/q23-star-object.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "12"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "48"
+        },
+        {
+          "label": "D",
+          "text": "60"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Counting the triangular faces visible from the top and side views of the folded star gives 48 faces in total.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2016c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "Ms Clark asked 36 students to choose between ball games and computer games and started a table: 9 boys chose computer, the girls' row total is 21, and the ball column total is 19. How many girls preferred ball games?",
+      "table": {
+        "headers": [
+          "",
+          "Computer",
+          "Ball",
+          "Total"
+        ],
+        "rows": [
+          [
+            "Boys",
+            "9",
+            "?",
+            "?"
+          ],
+          [
+            "Girls",
+            "?",
+            "?",
+            "21"
+          ],
+          [
+            "Total",
+            "?",
+            "19",
+            "36"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "10"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Boys total = 36−21 = 15, so boys' ball = 15−9 = 6. Girls' ball = 19 (ball total) − 6 (boys' ball) = 13.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2016c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "Alana needs to colour in one more square to make a shape with one line of symmetry, shown on a grid with 4 candidate squares marked A-D. Which square does she need to colour in?",
+      "imageUrl": "/questions/icas-2016-paper-c/q25-symmetry-grid.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "Square A"
+        },
+        {
+          "label": "B",
+          "text": "Square B"
+        },
+        {
+          "label": "C",
+          "text": "Square C"
+        },
+        {
+          "label": "D",
+          "text": "Square D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Colouring square A completes the shape so it has exactly one line of symmetry.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2016c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "At the circus, 2 sticks of fairy floss cost the same as 3 lollipops. If Sue buys one stick of fairy floss, she will have $1.50 left over. If Sue buys one lollipop, she will have $2 left over. How much money does Sue have?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2.50"
+        },
+        {
+          "label": "B",
+          "text": "$3.00"
+        },
+        {
+          "label": "C",
+          "text": "$3.50"
+        },
+        {
+          "label": "D",
+          "text": "$5.00"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Let Sue's money be M, floss cost f, lollipop cost l. 2f=3l, M−f=1.50, M−l=2. Solving gives M = $3.00.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2016c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "A rule is applied to the top number in each box to give the bottom number, shown in the table. What number must the final ? be?",
+      "table": {
+        "headers": [
+          "Top",
+          "Bottom"
+        ],
+        "rows": [
+          [
+            "2",
+            "5"
+          ],
+          [
+            "6",
+            "21"
+          ],
+          [
+            "9",
+            "33"
+          ],
+          [
+            "7",
+            "25"
+          ],
+          [
+            "5",
+            "?"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "17"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "15"
+        },
+        {
+          "label": "D",
+          "text": "11"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The rule is: bottom = 4 × top − 3 (check: 4×2−3=5, 4×6−3=21, 4×9−3=33, 4×7−3=25). Applied to 5: 4×5−3=17.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2016c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "Lin drew a rough map to find the distances between four bus stops along a country road, in order: 1st, 2nd, 3rd and 4th stop. The distance between the 1st stop and the 3rd stop is 22 km. The distance between the 2nd stop and the 4th stop is 25 km. The distance between the 1st stop and the 4th stop is 33 km. What is the distance between the 2nd stop and the 3rd stop, in kilometres?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "11"
+        },
+        {
+          "label": "C",
+          "text": "14"
+        },
+        {
+          "label": "D",
+          "text": "17"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "1st-to-4th = 33 km. 2nd-to-4th = 25 km, so 1st-to-2nd = 33−25 = 8 km. 1st-to-3rd = 22 km, so 2nd-to-3rd = 22−8 = 14 km.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2016c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "Tim looked at the clock and said, \"In 2 hours' time it will be twice as long until noon as it will be in 3 hours' time.\" What is the time on the clock now?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6:00 am"
+        },
+        {
+          "label": "B",
+          "text": "7:00 am"
+        },
+        {
+          "label": "C",
+          "text": "8:00 am"
+        },
+        {
+          "label": "D",
+          "text": "9:00 am"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Let the time now be t. Time until noon 2 hours from now = 10−t. Time until noon 3 hours from now = 9−t. Setting 10−t = 2(9−t) gives t = 8, so it is 8:00 am now.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2016c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "Liam spun a spinner 18 times and recorded his results: orange 9 times, white 7 times, grey 2 times. Which one of these spinners is most likely to be Liam's?",
+      "imageUrl": "/questions/icas-2016-paper-c/q30-spinners.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "Spinner A"
+        },
+        {
+          "label": "B",
+          "text": "Spinner B"
+        },
+        {
+          "label": "C",
+          "text": "Spinner C"
+        },
+        {
+          "label": "D",
+          "text": "Spinner D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Liam's results are roughly half orange, a third white and a sixth grey — spinner D has sections in these proportions.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2016c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "Jin is completing a puzzle. All of the pieces are the same shape and fit together without gaps or overlaps. Which of these could be Jin's puzzle piece?",
+      "imageUrl": "/questions/icas-2016-paper-c/q31-puzzle-piece.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "Piece A"
+        },
+        {
+          "label": "B",
+          "text": "Piece B"
+        },
+        {
+          "label": "C",
+          "text": "Piece C"
+        },
+        {
+          "label": "D",
+          "text": "Piece D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Piece B's arms are shaped so that identical copies interlock edge-to-edge with no gaps or overlaps.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2016c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "This map shows the bush tracks near Pete's house and Jack's house, with a 100 metre scale bar. Pete walked to Jack's house by the shortest route. About how far did he walk?",
+      "imageUrl": "/questions/icas-2016-paper-c/q32-map.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "600 metres"
+        },
+        {
+          "label": "B",
+          "text": "700 metres"
+        },
+        {
+          "label": "C",
+          "text": "800 metres"
+        },
+        {
+          "label": "D",
+          "text": "900 metres"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Measuring the shortest marked track between the two houses against the 100 m scale bar gives about 700 metres.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2016c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "Sana made birthday and wedding cards. Each birthday card had three stars and four flowers. Each wedding card had five stars and three flowers. Sana had 101 stars. She made twelve birthday cards, then used the remaining stars to make wedding cards. How many flowers did she need to make all the birthday cards and wedding cards?",
+      "options": [
+        {
+          "label": "A",
+          "text": "87"
+        },
+        {
+          "label": "B",
+          "text": "84"
+        },
+        {
+          "label": "C",
+          "text": "48"
+        },
+        {
+          "label": "D",
+          "text": "39"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Birthday stars used: 12×3=36. Remaining stars: 101−36=65, making 65÷5=13 wedding cards. Flowers: birthday 12×4=48, wedding 13×3=39. Total: 48+39=87.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2016c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "Jane was in a sailing race. She sailed south-west from the start. Jane then made a quarter turn anti-clockwise and sailed the same distance to the finish. Which statement is true?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The start was east of the finish."
+        },
+        {
+          "label": "B",
+          "text": "The start was west of the finish."
+        },
+        {
+          "label": "C",
+          "text": "The finish was south of the start."
+        },
+        {
+          "label": "D",
+          "text": "The finish was north of the start."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "South-west then a quarter turn anti-clockwise is south-east. Adding two equal legs (south-west then south-east) of equal length cancels the east-west component, leaving a net displacement due south — so the finish is south of the start.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2016c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "Senin drew a design with nested squares, shown below, and shaded part of it green. What fraction of his design did he shade?",
+      "imageUrl": "/questions/icas-2016-paper-c/q35-nested-diamonds.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "3/13"
+        },
+        {
+          "label": "B",
+          "text": "4/14"
+        },
+        {
+          "label": "C",
+          "text": "6/16"
+        },
+        {
+          "label": "D",
+          "text": "6/32"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The whole design is made up of 32 equal-area triangles once the nested squares are divided by their diagonals; 6 of them are shaded green.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2016c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "prompt": "Yara drew four shapes (A, B, C and D) on a grid, shown below. Which shape has the largest perimeter?",
+      "imageUrl": "/questions/icas-2016-paper-c/q36-grid-shapes.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "Shape A"
+        },
+        {
+          "label": "B",
+          "text": "Shape B"
+        },
+        {
+          "label": "C",
+          "text": "Shape C"
+        },
+        {
+          "label": "D",
+          "text": "Shape D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Counting grid edges around each outline, shape A's many notches give it the longest total perimeter.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2016c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "prompt": "Mark and Jack are brothers, each with 3 shirts and 3 pairs of pants. They share each other's clothes if the clothes fit: Jack can wear Mark's shirts but not his pants. Mark cannot wear any of Jack's clothes. An outfit consists of a shirt and pants that both fit. How many different outfits do the brothers have between them?",
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "21"
+        },
+        {
+          "label": "D",
+          "text": "25"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Working through which shirt-and-pants combinations fit Mark or Jack under these sharing rules gives 25 valid outfits in total.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2016c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "prompt": "This shape is made up of 8 identical rectangles arranged in a staircase pattern, shown below. The shape is 6 cm wide. What is the perimeter of this shape?",
+      "imageUrl": "/questions/icas-2016-paper-c/q38-staircase.svg",
+      "options": [
+        {
+          "label": "A",
+          "text": "24 cm"
+        },
+        {
+          "label": "B",
+          "text": "26 cm"
+        },
+        {
+          "label": "C",
+          "text": "48 cm"
+        },
+        {
+          "label": "D",
+          "text": "64 cm"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Tracing all the outer edges of the 8-rectangle staircase (each step contributing its share of horizontal and vertical edges) gives a total perimeter of 26 cm.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2016c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "prompt": "Manu uses only the digits 2 and 5 to make different three-digit numbers. For example, 252 and 222 are two possible numbers. What is the sum of all of Manu's possible three-digit numbers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1554"
+        },
+        {
+          "label": "B",
+          "text": "1779"
+        },
+        {
+          "label": "C",
+          "text": "2331"
+        },
+        {
+          "label": "D",
+          "text": "3108"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "There are 8 possible numbers. Each digit position (hundreds, tens, units) is 2 in four numbers and 5 in four numbers, so each position sums to 4×2+4×5=28. Total = 28×111 = 3108.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2016c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "prompt": "Jia has 24 gold earrings that look identical. However, one of the earrings is fake gold and weighs less than each of the other earrings. Jia only has a balance scale. What is the least number of times Jia must use the balance scale to identify the fake gold earring, without relying on luck?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Each weighing has 3 possible outcomes (left heavier, right heavier, balanced), so n weighings can distinguish up to 3^n items. 3^2=9 is too few for 24, but 3^3=27 is enough — so 3 weighings suffice (split into groups of 8).",
+      "topic": "Algebra & Patterns"
+    }
+  ]
+}

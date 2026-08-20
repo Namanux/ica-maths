@@ -1,0 +1,18 @@
+<svg viewBox="0 0 260 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="12">
+  <!-- scale 0-30C, y=170(0C) to y=20(30C), 5px per degree -->
+  <g stroke="currentColor" opacity="0.5">
+    <line x1="60" y1="170" x2="60" y2="20"/><line x1="200" y1="170" x2="200" y2="20"/>
+  </g>
+  <g fill="currentColor" text-anchor="end">
+    <text x="35" y="24">30C</text><text x="35" y="74">20C</text>
+    <text x="35" y="124">10C</text><text x="35" y="174">0C</text>
+  </g>
+  <!-- Sydney: 10C -->
+  <rect x="55" y="120" width="10" height="50" rx="5" fill="#dc2626"/>
+  <circle cx="60" cy="172" r="10" fill="#dc2626"/>
+  <text x="60" y="192" text-anchor="middle" fill="currentColor">Sydney</text>
+  <!-- Hong Kong: 26C -->
+  <rect x="195" y="40" width="10" height="130" rx="5" fill="#dc2626"/>
+  <circle cx="200" cy="172" r="10" fill="#dc2626"/>
+  <text x="200" y="192" text-anchor="middle" fill="currentColor">Hong Kong</text>
+</svg>

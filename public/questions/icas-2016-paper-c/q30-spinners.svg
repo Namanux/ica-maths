@@ -1,0 +1,44 @@
+<svg viewBox="0 0 380 130" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="13">
+  <!-- Recorded results: orange=9, white=7, grey=2 out of 18 spins -->
+  <!-- (A) orange 1/3, white 1/3, grey 1/3 -->
+  <g transform="translate(50,60)">
+    <path d="M0,0 L0,-45 A45 45 0 0 1 39,22.5 Z" fill="#f97316"/>
+    <path d="M0,0 L39,22.5 A45 45 0 0 1 -39,22.5 Z" fill="#e5e7eb" stroke="currentColor" stroke-width="1"/>
+    <path d="M0,0 L-39,22.5 A45 45 0 0 1 0,-45 Z" fill="#9ca3af"/>
+    <circle r="45" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="-45" stroke="currentColor" stroke-width="2" marker-end="url(#sar)"/>
+  </g>
+  <text x="50" y="120" text-anchor="middle" fill="currentColor">(A)</text>
+
+  <!-- (B) orange 1/3, white half, grey 1/6 -->
+  <g transform="translate(150,60)">
+    <path d="M0,0 L0,-45 A45 45 0 0 1 39,22.5 Z" fill="#f97316"/>
+    <path d="M0,0 L39,22.5 A45 45 0 0 1 -22.5,39 Z" fill="#e5e7eb" stroke="currentColor" stroke-width="1"/>
+    <path d="M0,0 L-22.5,39 A45 45 0 0 1 0,-45 Z" fill="#9ca3af"/>
+    <circle r="45" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="-45" stroke="currentColor" stroke-width="2" marker-end="url(#sar)"/>
+  </g>
+  <text x="150" y="120" text-anchor="middle" fill="currentColor">(B)</text>
+
+  <!-- (C) orange half, white half, grey none -->
+  <g transform="translate(250,60)">
+    <path d="M0,0 L0,-45 A45 45 0 0 1 45,0 Z" fill="#f97316"/>
+    <path d="M0,0 L45,0 L0,45 Z" fill="#e5e7eb" stroke="currentColor" stroke-width="1"/>
+    <path d="M0,0 L0,45 L-45,0 A45 45 0 0 1 0,-45 Z" fill="#9ca3af"/>
+    <circle r="45" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="-45" stroke="currentColor" stroke-width="2" marker-end="url(#sar)"/>
+  </g>
+  <text x="250" y="120" text-anchor="middle" fill="currentColor">(C)</text>
+
+  <!-- (D) orange half, white 1/3, grey 1/6 - matches the recorded tally most closely -->
+  <g transform="translate(330,60)">
+    <path d="M0,0 L0,-45 A45 45 0 0 1 45,0 Z" fill="#f97316"/>
+    <path d="M0,0 L45,0 A45 45 0 0 1 -22.5,39 Z" fill="#e5e7eb" stroke="currentColor" stroke-width="1"/>
+    <path d="M0,0 L-22.5,39 A45 45 0 0 1 0,-45 Z" fill="#9ca3af"/>
+    <circle r="45" fill="none" stroke="currentColor" stroke-width="1.5"/>
+    <line x1="0" y1="0" x2="0" y2="-45" stroke="currentColor" stroke-width="2" marker-end="url(#sar)"/>
+  </g>
+  <text x="330" y="120" text-anchor="middle" fill="currentColor">(D)</text>
+
+  <defs><marker id="sar" markerWidth="8" markerHeight="8" refX="4" refY="0" orient="auto"><path d="M0,6 L4,0 L8,6 Z" fill="currentColor"/></marker></defs>
+</svg>

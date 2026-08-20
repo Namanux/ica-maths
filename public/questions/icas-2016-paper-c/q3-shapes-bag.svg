@@ -1,0 +1,16 @@
+<svg viewBox="0 0 320 220" xmlns="http://www.w3.org/2000/svg">
+  <rect x="10" y="10" width="300" height="200" fill="none" stroke="currentColor" stroke-width="2"/>
+  <!-- 4 hexagons, 3 triangles, 2 squares, 2 circles, 1 trapezoid = 12 shapes -->
+  <polygon points="45,35 65,35 75,52 65,69 45,69 35,52" fill="#eab308"/>
+  <polygon points="155,30 175,30 185,47 175,64 155,64 145,47" fill="#eab308"/>
+  <polygon points="255,35 275,35 285,52 275,69 255,69 245,52" fill="#eab308"/>
+  <polygon points="45,140 65,140 75,157 65,174 45,174 35,157" fill="#eab308"/>
+  <polygon points="105,25 125,60 85,60" fill="#22c55e"/>
+  <polygon points="210,80 230,115 190,115" fill="#22c55e"/>
+  <polygon points="100,160 120,195 80,195" fill="#22c55e"/>
+  <rect x="40" y="90" width="35" height="35" fill="#ef4444"/>
+  <rect x="150" y="150" width="35" height="35" fill="#ef4444"/>
+  <circle cx="280" cy="45" r="18" fill="#f97316"/>
+  <circle cx="270" cy="160" r="18" fill="#f97316"/>
+  <polygon points="165,95 205,95 190,135 150,135" fill="#a855f7"/>
+</svg>

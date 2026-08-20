@@ -1,31 +1,61 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { getLocalAttempts, type StoredAttempt } from "@/lib/attempts";
+import { getAttempts, deleteAttempt, type StoredAttempt } from "@/lib/attempts";
+import Link from "next/link";
 
 export function RecentAttempts() {
   const [attempts, setAttempts] = useState<StoredAttempt[]>([]);
+  const [loaded, setLoaded] = useState(false);
 
   useEffect(() => {
-    // eslint-disable-next-line react-hooks/set-state-in-effect -- localStorage is only available after mount
-    setAttempts(getLocalAttempts());
+    let cancelled = false;
+    getAttempts().then((data) => {
+      if (!cancelled) {
+        setAttempts(data);
+        setLoaded(true);
+      }
+    });
+    return () => {
+      cancelled = true;
+    };
   }, []);
 
-  if (attempts.length === 0) return null;
+  const handleDelete = async (id: string) => {
+    if (!window.confirm("Delete this attempt? This can't be undone.")) return;
+    await deleteAttempt(id);
+    setAttempts((prev) => prev.filter((a) => a.id !== id));
+  };
+
+  if (!loaded || attempts.length === 0) return null;
 
   return (
     <div className="flex flex-col gap-3">
       <h2 className="font-medium">Recent attempts</h2>
       <div className="flex flex-col gap-2">
-        {attempts.slice(0, 5).map((a, i) => (
+        {attempts.slice(0, 20).map((a) => (
           <div
-            key={i}
-            className="flex items-center justify-between rounded-lg border border-border px-4 py-2.5 text-sm"
+            key={a.id}
+            className="flex items-center justify-between gap-3 rounded-lg border border-border px-4 py-2.5 text-sm"
           >
-            <span>{a.paperTitle}</span>
-            <span className="text-muted">
-              {a.score}/{a.totalQuestions} ({a.percentage}%)
-            </span>
+            <span className="truncate">{a.paperTitle}</span>
+            <div className="flex items-center gap-3 shrink-0">
+              <span className="text-muted">
+                {a.score}/{a.totalQuestions} ({a.percentage}%)
+              </span>
+              <Link
+                href={`/exam/${a.paperId}/attempt/${a.id}`}
+                className="rounded-full border border-border px-3 py-1 text-xs font-medium hover:bg-surface transition-colors"
+              >
+                View summary
+              </Link>
+              <button
+                onClick={() => handleDelete(a.id)}
+                className="rounded-full border border-incorrect text-incorrect px-3 py-1 text-xs font-medium hover:bg-incorrect/10 transition-colors"
+              >
+                Delete
+              </button>
+            </div>
           </div>
         ))}
       </div>
