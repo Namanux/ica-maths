@@ -18,6 +18,15 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "ICAS Maths Simulator",
   description: "Practice exam simulator for ICAS Mathematics past papers.",
+  appleWebApp: {
+    capable: true,
+    title: "ICAS Maths",
+    statusBarStyle: "black-translucent",
+  },
+};
+
+export const viewport = {
+  themeColor: "#111111",
 };
 
 const themeInitScript = `
