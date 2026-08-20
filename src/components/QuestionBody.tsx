@@ -35,13 +35,25 @@ export function QuestionBody({ question }: { question: Question }) {
         </div>
       )}
 
-      {question.imageUrl && (
-        // eslint-disable-next-line @next/next/no-img-element
-        <img
-          src={question.imageUrl}
-          alt={`Diagram for question ${question.number}`}
-          className="question-image max-w-full max-h-80 mx-auto"
-        />
+      {(question.imageUrl || question.optionsImageUrl) && (
+        <div className="flex flex-wrap justify-center items-start gap-4">
+          {question.imageUrl && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={question.imageUrl}
+              alt={`Diagram for question ${question.number}`}
+              className="question-image max-w-full sm:max-w-[48%] max-h-72 w-auto object-contain mx-auto"
+            />
+          )}
+          {question.optionsImageUrl && (
+            // eslint-disable-next-line @next/next/no-img-element
+            <img
+              src={question.optionsImageUrl}
+              alt={`Answer options for question ${question.number}`}
+              className="question-image max-w-full sm:max-w-[48%] max-h-72 w-auto object-contain mx-auto"
+            />
+          )}
+        </div>
       )}
     </>
   );

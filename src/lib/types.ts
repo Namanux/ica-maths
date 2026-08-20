@@ -17,6 +17,7 @@ export interface Question {
   type: QuestionType;
   prompt: string;
   imageUrl?: string;
+  optionsImageUrl?: string;
   table?: QuestionTable;
   options?: AnswerOption[];
   correctAnswer: string;

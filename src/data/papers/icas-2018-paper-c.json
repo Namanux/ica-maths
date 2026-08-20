@@ -32,14 +32,15 @@
       ],
       "correctAnswer": "A",
       "explanation": "A scalene triangle is the only shape where every angle is a different size — the other shapes all have at least one repeated angle.",
-      "topic": "Space & Geometry"
+      "topic": "Space & Geometry",
+      "imageUrl": "/questions/icas-2018-paper-c/q1.png"
     },
     {
       "id": "2018c-q2",
       "number": 2,
       "type": "multiple_choice",
       "prompt": "Dan's welcome mat is placed on identical square tiles at his front door, as shown. How many tiles does the mat cover?",
-      "imageUrl": "/questions/icas-2018-paper-c/q2-tile-grid.svg",
+      "imageUrl": "/questions/icas-2018-paper-c/q2.png",
       "options": [
         {
           "label": "A",
@@ -67,7 +68,7 @@
       "number": 3,
       "type": "multiple_choice",
       "prompt": "Seven shapes are plotted on a number line at 0, 10, 20, 25, 30, 35 and 40, as shown. Which shape is halfway between the triangle (at 10) and the circle (at 40)?",
-      "imageUrl": "/questions/icas-2018-paper-c/q3-number-line-shapes.svg",
+      "imageUrl": "/questions/icas-2018-paper-c/q3.png",
       "options": [
         {
           "label": "A",
@@ -94,7 +95,7 @@
       "id": "2018c-q4",
       "number": 4,
       "type": "multiple_choice",
-      "prompt": "Jim wants to join four identical cubes together to make a new solid, joining them face-to-face in a row. What type of solid can Jim make?",
+      "prompt": "Jim wants to join these four identical cubes together to make a new solid, as shown. What type of solid can Jim make?",
       "options": [
         {
           "label": "A",
@@ -115,14 +116,15 @@
       ],
       "correctAnswer": "D",
       "explanation": "Four cubes joined in a row form a rectangular prism (cuboid).",
-      "topic": "Space & Geometry"
+      "topic": "Space & Geometry",
+      "imageUrl": "/questions/icas-2018-paper-c/q4.png"
     },
     {
       "id": "2018c-q5",
       "number": 5,
       "type": "multiple_choice",
       "prompt": "John is weighing custard powder using this scale, marked 0, 100, 200 and 300 grams around the dial. What is the mass of the custard powder?",
-      "imageUrl": "/questions/icas-2018-paper-c/q5-scale-dial.svg",
+      "imageUrl": "/questions/icas-2018-paper-c/q5.png",
       "options": [
         {
           "label": "A",
@@ -153,24 +155,25 @@
       "options": [
         {
           "label": "A",
-          "text": "3 equal sections labelled 2, out of 6 sections (chance 1/2)"
+          "text": "4 of its 8 equal sections are labelled 2 (chance 1/2)"
         },
         {
           "label": "B",
-          "text": "2 equal sections labelled 2, out of 8 sections (chance 1/4)"
+          "text": "2 of its 8 equal sections are labelled 2 (chance 1/4)"
         },
         {
           "label": "C",
-          "text": "1 section labelled 2, out of 6 sections (chance 1/6)"
+          "text": "3 of its 8 equal sections are labelled 2 (chance 3/8)"
         },
         {
           "label": "D",
-          "text": "2 small sections labelled 2, out of 6 unequal sections (chance less than 1/5)"
+          "text": "3 of its 8 equal sections are labelled 2 (chance 3/8)"
         }
       ],
       "correctAnswer": "A",
-      "explanation": "A chance of 1/2 (three out of six equal sections) is the highest of the four spinners.",
-      "topic": "Chance & Data"
+      "explanation": "Spinner A has the most equal sections labelled 2 (4 out of 8, a 1/2 chance) - the highest of the four spinners.",
+      "topic": "Chance & Data",
+      "imageUrl": "/questions/icas-2018-paper-c/q6.png"
     },
     {
       "id": "2018c-q7",
@@ -281,7 +284,8 @@
       ],
       "correctAnswer": "B",
       "explanation": "23 September minus 9 days = 14 September, the day Lin marked the calendar.",
-      "topic": "Measures & Units"
+      "topic": "Measures & Units",
+      "imageUrl": "/questions/icas-2018-paper-c/q9.png"
     },
     {
       "id": "2018c-q10",
@@ -341,8 +345,8 @@
       "id": "2018c-q12",
       "number": 12,
       "type": "multiple_choice",
-      "prompt": "A ferry travelled from Potter Wharf (bottom-left) to Cove Wharf (top-right), as shown on the map (north points up). In which direction did the ferry travel?",
-      "imageUrl": "/questions/icas-2018-paper-c/q12-ferry-map.svg",
+      "prompt": "A ferry travelled from Potter Wharf to Cove Wharf, as shown on the map (the arrow marked North shows which way is north). In which direction did the ferry travel?",
+      "imageUrl": "/questions/icas-2018-paper-c/q12.png",
       "options": [
         {
           "label": "A",
@@ -362,35 +366,40 @@
         }
       ],
       "correctAnswer": "B",
-      "explanation": "Moving up (north) and right (east) on the map means the ferry travelled north-east.",
+      "explanation": "Cove Wharf is up and to the left of Potter Wharf on the page, but north points left (not up) on this map. Rotating to the map's own north-up-left orientation, that direction works out to north-east.",
       "topic": "Space & Geometry"
     },
     {
       "id": "2018c-q13",
       "number": 13,
       "type": "multiple_choice",
-      "prompt": "Sally made a castle using 4 solids: a tall cylinder, two rectangular prisms, and a sphere resting at one corner. Which of these is a view of Sally's castle from directly above?",
+      "prompt": "Sally made this castle using 4 solids: a cylinder, two rectangular prisms and a sphere. Which of these is a view of Sally's castle from directly above?",
       "options": [
         {
           "label": "A",
-          "text": "Layout A"
+          "text": "Option A",
+          "imageUrl": "/questions/icas-2018-paper-c/q13oA.png"
         },
         {
           "label": "B",
-          "text": "Layout B"
+          "text": "Option B",
+          "imageUrl": "/questions/icas-2018-paper-c/q13oB.png"
         },
         {
           "label": "C",
-          "text": "Layout C"
+          "text": "Option C",
+          "imageUrl": "/questions/icas-2018-paper-c/q13oC.png"
         },
         {
           "label": "D",
-          "text": "Layout D"
+          "text": "Option D",
+          "imageUrl": "/questions/icas-2018-paper-c/q13oD.png"
         }
       ],
       "correctAnswer": "D",
       "explanation": "Layout D matches the relative positions of the cylinder (circle), sphere (circle), and the two prisms (rectangles) as seen from above.",
-      "topic": "Space & Geometry"
+      "topic": "Space & Geometry",
+      "imageUrl": "/questions/icas-2018-paper-c/q13.png"
     },
     {
       "id": "2018c-q14",
@@ -536,20 +545,22 @@
         },
         {
           "label": "B",
-          "text": "a small rectangle"
+          "text": "a small narrow rectangle"
         },
         {
           "label": "C",
-          "text": "a trapezoid"
+          "text": "a wide trapezoid"
         },
         {
           "label": "D",
-          "text": "a thin narrow rectangle"
+          "text": "a thin small rectangle"
         }
       ],
       "correctAnswer": "A",
       "explanation": "The logo is built entirely from rectangles and a trapezoid piece — no trapezoid-shaped parallelogram of that size appears in it.",
-      "topic": "Space & Geometry"
+      "topic": "Space & Geometry",
+      "imageUrl": "/questions/icas-2018-paper-c/q18.png",
+      "optionsImageUrl": "/questions/icas-2018-paper-c/q18o.png"
     },
     {
       "id": "2018c-q19",
@@ -583,7 +594,7 @@
       "number": 20,
       "type": "multiple_choice",
       "prompt": "Betty had a piece of ribbon. She folded it in half, then folded it in half again, then cut the folded ribbon in the middle, as shown. How many pieces of the pictured (folded) length did Betty have?",
-      "imageUrl": "/questions/icas-2018-paper-c/q20-ribbon-fold.svg",
+      "imageUrl": "/questions/icas-2018-paper-c/q20.png",
       "options": [
         {
           "label": "A",
@@ -603,7 +614,7 @@
         }
       ],
       "correctAnswer": "C",
-      "explanation": "Folding twice makes 4 layers; a single cut through the middle of the folded strip produces 4 cut ends, which unfold into 3 pieces of that length plus 2 shorter end pieces joined as one longer loop — working through the fold carefully gives 3 pieces of the shown length.",
+      "explanation": "Two folds make 4 layers. Cutting through the middle of the folded strip cuts the original ribbon at 4 points (1/8, 3/8, 5/8 and 7/8 of the way along), giving 5 pieces: two short end pieces (1/8 length) and three pieces exactly the pictured length (1/4 length) - so 3 pieces.",
       "topic": "Space & Geometry"
     },
     {
@@ -693,7 +704,7 @@
       "number": 24,
       "type": "multiple_choice",
       "prompt": "Pamela is in a race. There are four cones at A, B, C and D. Pamela starts next to the cone at A, follows the arrows on the diagram (1→2→3→4→5), and finishes near the cone at D. Around which cone does Pamela make the greatest change in direction?",
-      "imageUrl": "/questions/icas-2018-paper-c/q24-race-cones.svg",
+      "imageUrl": "/questions/icas-2018-paper-c/q24.png",
       "options": [
         {
           "label": "A",
@@ -713,7 +724,7 @@
         }
       ],
       "correctAnswer": "D",
-      "explanation": "Tracing the path segment by segment, the sharpest turn in direction happens as the path comes back around near cone D.",
+      "explanation": "The path goes start(A) to D, then back to A, then B, then C, then finish(D). At D on the first visit, Pamela walks straight in then immediately turns fully around and walks straight back out - a 180-degree reversal, the sharpest possible turn, far more than the turns at A, B or C.",
       "topic": "Space & Geometry"
     },
     {
@@ -776,7 +787,7 @@
       "number": 26,
       "type": "multiple_choice",
       "prompt": "Kevin cut a triangle along its axis of symmetry, then flipped, slid, or turned one of the two pieces to fit next to the other piece. Which of these could be Kevin's new shape?",
-      "imageUrl": "/questions/icas-2018-paper-c/q26-combined.svg",
+      "imageUrl": "/questions/icas-2018-paper-c/q26.png",
       "options": [
         {
           "label": "A",
@@ -796,8 +807,9 @@
         }
       ],
       "correctAnswer": "B",
-      "explanation": "Joining the two straight-edged triangle halves can only produce a shape with straight sides and no notches — a parallelogram. Best-effort answer: no official answer key exists for questions 26–40 of this paper (the source answer sheet only covers questions 1–25), so this was solved directly rather than looked up. Verify independently if precision matters.",
-      "topic": "Space & Geometry"
+      "explanation": "Cutting along the axis of symmetry gives two congruent right-triangle halves with only straight edges, so joining them can only make a shape with straight sides and no notches - ruling out the concave shape (C) and the sliver (D). Joining them along their slanted edge with a half-turn makes a parallelogram; since the original triangle is tall and narrow, the resulting parallelogram is the taller, narrower one (B) rather than the wider one (A).",
+      "topic": "Space & Geometry",
+      "optionsImageUrl": "/questions/icas-2018-paper-c/q26o.png"
     },
     {
       "id": "2018c-q27",
@@ -914,7 +926,7 @@
       "number": 30,
       "type": "multiple_choice",
       "prompt": "Which of these nets can be used to make a cube where adjoining faces do NOT have the same number on them?",
-      "imageUrl": "/questions/icas-2018-paper-c/q30-nets.svg",
+      "imageUrl": "/questions/icas-2018-paper-c/q30o.png",
       "options": [
         {
           "label": "A",
@@ -933,8 +945,8 @@
           "text": "Option D"
         }
       ],
-      "correctAnswer": "C",
-      "explanation": "In option A the two faces numbered 3 sit directly next to each other in the net, so they are guaranteed to be adjacent once folded — ruling it out. Best-effort answer: no official key exists for Q26–40 of this paper, so this was worked out directly, not looked up. Verify independently if precision matters.",
+      "correctAnswer": "B",
+      "explanation": "In option A, the two faces numbered 3 sit directly touching each other in the net, so they're guaranteed to end up adjacent once folded - ruling it out. In option B, the four-cell strip folds into a belt where each duplicate pair (the 1s and the 2s) lands on opposite faces, and the two side tabs (both labelled 3) are forced onto the cube's only two remaining face positions - which are always opposite each other on a cube. So in option B every duplicate number ends up on opposite, non-adjoining faces.",
       "topic": "Space & Geometry"
     },
     {
@@ -1014,7 +1026,7 @@
       "number": 33,
       "type": "multiple_choice",
       "prompt": "Ravi used a balance to compare the masses of a yellow square, a blue kite and two red circles, shown across 3 balance results. Which of the following must be true?",
-      "imageUrl": "/questions/icas-2018-paper-c/q33-balances.svg",
+      "imageUrl": "/questions/icas-2018-paper-c/q33.png",
       "options": [
         {
           "label": "A",
@@ -1034,8 +1046,9 @@
         }
       ],
       "correctAnswer": "B",
-      "explanation": "From the three balances: blue > yellow, red > yellow, and red + red > yellow + blue. Best-effort answer: no official key exists for Q26–40 of this paper, so this was worked out directly, not looked up. Verify independently if precision matters.",
-      "topic": "Measures & Units"
+      "explanation": "The third balance shows two red circles outweighing the yellow square and blue kite together: red+red > yellow+blue. Since yellow has some positive mass, yellow+blue > blue, so red+red > yellow+blue > blue - meaning two reds must always outweigh one blue.",
+      "topic": "Measures & Units",
+      "optionsImageUrl": "/questions/icas-2018-paper-c/q33o.png"
     },
     {
       "id": "2018c-q34",
@@ -1098,7 +1111,7 @@
       "number": 36,
       "type": "multiple_choice",
       "prompt": "Raj is making a 3-D shape from a 4-pointed star net with a square base. He cut off 4 identical small triangles from the tips, then folded the net along the dotted lines. Which of these could be Raj's 3-D shape?",
-      "imageUrl": "/questions/icas-2018-paper-c/q36-combined.svg",
+      "imageUrl": "/questions/icas-2018-paper-c/q36-02.png",
       "options": [
         {
           "label": "A",
@@ -1118,15 +1131,16 @@
         }
       ],
       "correctAnswer": "A",
-      "explanation": "Folding the 4 trimmed trapezoidal flaps up around the square base produces a symmetric frustum (truncated pyramid) shape. Best-effort answer: no official key exists for Q26–40 of this paper, so this was worked out directly, not looked up. Verify independently if precision matters.",
-      "topic": "Space & Geometry"
+      "explanation": "Folding the 4 trimmed trapezoidal flaps up around the square base makes a symmetric frustum (truncated pyramid) with a flat square top - matching (A) or (B), not the shapes in (C)/(D), which show gaps that couldn't result from a clean fold. Best-effort pick of (A) between the two frustum shapes based on the flap proportions - this specific proportion call is the least certain part of this answer.",
+      "topic": "Space & Geometry",
+      "optionsImageUrl": "/questions/icas-2018-paper-c/q36o.png"
     },
     {
       "id": "2018c-q37",
       "number": 37,
       "type": "multiple_choice",
       "prompt": "Sue followed a chart of instructions (diamond = sum, triangle = difference, oval = halve). She chose two new numbers; the sum came to 24 and the difference (of the same two chart-numbers) came to 18 at the next level. Some results are missing — what value must the final ? be?",
-      "imageUrl": "/questions/icas-2018-paper-c/q37-flowchart.svg",
+      "imageUrl": "/questions/icas-2018-paper-c/q37-02.png",
       "options": [
         {
           "label": "A",
@@ -1209,7 +1223,7 @@
       "number": 40,
       "type": "multiple_choice",
       "prompt": "Sam folded a rectangular piece of paper in quarters to make a birthday card: the inside reads 'Happy Birthday from Sam' and the front shows a balloon picture in one corner. He unfolded the card. Which one of these is Sam's unfolded card?",
-      "imageUrl": "/questions/icas-2018-paper-c/q40-card-fold.svg",
+      "imageUrl": "/questions/icas-2018-paper-c/q40.png",
       "options": [
         {
           "label": "A",
@@ -1229,8 +1243,9 @@
         }
       ],
       "correctAnswer": "B",
-      "explanation": "Unfolding two perpendicular quarter-folds places the balloon image and the text in diagonally opposite quadrants, mirrored across both fold lines. Best-effort answer: no official key exists for Q26–40 of this paper, so this was worked out directly, not looked up. Verify independently if precision matters.",
-      "topic": "Space & Geometry"
+      "explanation": "Two perpendicular folds always bring diagonally-opposite quadrants together at the front, so the text and the balloon picture must end up in diagonally opposite corners when unfolded - which rules out option (D), where they sit in the same column. Best-effort pick of (B) among the remaining diagonal options based on tracing the fold directions shown in the Inside/Front pictures - the exact rotation is the least certain part of this one.",
+      "topic": "Space & Geometry",
+      "optionsImageUrl": "/questions/icas-2018-paper-c/q40o.png"
     }
   ]
 }
