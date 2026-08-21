@@ -4,13 +4,8 @@ import { useState } from "react";
 import type { Paper, AttemptResult, QuestionResult } from "@/lib/types";
 import { QuestionBody } from "@/components/QuestionBody";
 import { TopicBadge } from "@/components/TopicBadge";
+import { formatDuration, formatCompletedAt } from "@/lib/format";
 import Link from "next/link";
-
-function formatTime(totalSeconds: number): string {
-  const m = Math.floor(totalSeconds / 60);
-  const s = totalSeconds % 60;
-  return `${m}:${s.toString().padStart(2, "0")}`;
-}
 
 function questionStatusColor(qr: QuestionResult | undefined): {
   bg: string;
@@ -187,8 +182,9 @@ function ResultsView({
             </span>
           </div>
         </div>
-        <div className="text-sm text-muted">
-          Time taken: {formatTime(result.timeTakenSeconds)}
+        <div className="text-sm text-muted text-center">
+          <div>Completed {formatCompletedAt(result.completedAt)}</div>
+          <div>Duration: {formatDuration(result.timeTakenSeconds)}</div>
         </div>
       </div>
 
