@@ -99,7 +99,7 @@ export function ExamRunner({ paper }: { paper: Paper }) {
             Start exam
           </button>
           <Link
-            href="/"
+            href="/icas"
             className="rounded-full border border-border px-5 py-2.5 font-medium hover:bg-surface transition-colors"
           >
             Back

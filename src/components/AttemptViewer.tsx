@@ -30,7 +30,7 @@ export function AttemptViewer({ paper, attemptId }: { paper: Paper; attemptId: s
       <div className="flex flex-col gap-4">
         <p className="text-muted">This attempt couldn&apos;t be found — it may have been deleted.</p>
         <Link
-          href="/"
+          href="/icas"
           className="self-start rounded-full border border-border px-5 py-2.5 font-medium hover:bg-surface transition-colors"
         >
           Back to papers
@@ -41,7 +41,7 @@ export function AttemptViewer({ paper, attemptId }: { paper: Paper; attemptId: s
 
   const handleDelete = async () => {
     await deleteAttempt(attemptId);
-    router.push("/");
+    router.push("/icas");
   };
 
   return (

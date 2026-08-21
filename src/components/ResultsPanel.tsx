@@ -117,7 +117,7 @@ function ResultsView({
     <div className="flex flex-col gap-8 print-results">
       <div className="flex items-center justify-between flex-wrap gap-3 no-print">
         <Link
-          href="/"
+          href="/icas"
           className="rounded-full border border-border px-4 py-2 text-sm font-medium hover:bg-surface transition-colors"
         >
           ← Back to papers

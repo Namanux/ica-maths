@@ -53,7 +53,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         <ThemeProvider>
           <header className="sticky top-0 z-10 border-b border-border bg-background no-print">
             <div className="mx-auto max-w-4xl flex items-center justify-between px-4 py-3">
-              <Link href="/" className="font-semibold tracking-tight">
+              <Link href="/icas" className="font-semibold tracking-tight">
                 ICAS Maths Simulator
               </Link>
               <ThemeToggle />
