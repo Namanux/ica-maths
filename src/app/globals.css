@@ -47,6 +47,12 @@ img, svg.question-image {
   color: var(--foreground);
 }
 
+/* Hide the site header while an exam is actively in progress, to keep
+   focus on the questions (and stop kids fiddling with the theme toggle). */
+body.exam-focus header {
+  display: none;
+}
+
 @media print {
   .no-print {
     display: none !important;

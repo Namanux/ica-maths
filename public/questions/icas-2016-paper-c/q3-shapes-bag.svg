@@ -12,5 +12,5 @@
   <rect x="150" y="150" width="35" height="35" fill="#ef4444"/>
   <circle cx="280" cy="45" r="18" fill="#f97316"/>
   <circle cx="270" cy="160" r="18" fill="#f97316"/>
-  <polygon points="165,95 205,95 190,135 150,135" fill="#a855f7"/>
+  <polygon points="165,95 185,95 205,135 145,135" fill="#a855f7"/>
 </svg>

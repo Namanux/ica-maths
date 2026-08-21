@@ -44,6 +44,11 @@ export function ExamRunner({ paper }: { paper: Paper }) {
     return () => clearTimeout(timer);
   }, [status, secondsLeft, finishExam]);
 
+  useEffect(() => {
+    document.body.classList.toggle("exam-focus", status === "in_progress");
+    return () => document.body.classList.remove("exam-focus");
+  }, [status]);
+
   const startExam = () => {
     startTimeRef.current = Date.now();
     setStatus("in_progress");

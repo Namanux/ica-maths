@@ -260,7 +260,7 @@
       "number": 10,
       "type": "multiple_choice",
       "prompt": "Sven made a pattern with some cardboard shapes with four marked angles, labelled A, B, C and D. Which angle is the largest?",
-      "imageUrl": "/questions/icas-2016-paper-c/q10-angles.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/q10.png",
       "options": [
         {
           "label": "A",
@@ -288,7 +288,7 @@
       "number": 11,
       "type": "multiple_choice",
       "prompt": "Which arrow is pointing to 3/4 on this number line from 0 to 2?",
-      "imageUrl": "/questions/icas-2016-paper-c/q11-number-line.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/q11.png",
       "options": [
         {
           "label": "A",
@@ -316,7 +316,7 @@
       "number": 12,
       "type": "multiple_choice",
       "prompt": "Sally made this castle using 4 solids: a tall cylinder and three rectangular prisms. Which of these is a view of Sally's castle from directly above?",
-      "imageUrl": "/questions/icas-2016-paper-c/q12-castle.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/Q12.png",
       "options": [
         {
           "label": "A",
@@ -337,7 +337,8 @@
       ],
       "correctAnswer": "D",
       "explanation": "Layout D matches the relative positions of the cylinder and the three rectangular blocks as seen from above.",
-      "topic": "Space & Geometry"
+      "topic": "Space & Geometry",
+      "optionsImageUrl": "/questions/icas-2016-paper-c/q12o.png"
     },
     {
       "id": "2016c-q13",
@@ -477,28 +478,29 @@
       "number": 17,
       "type": "multiple_choice",
       "prompt": "Anna and Mia each shaded parts of two circles of the same size, shown below: Anna shaded 1/2 of her circle, Mia shaded 3/4 of her circle. Edward also shaded part of a same-size circle — a greater area than Anna did, but a smaller area than Mia did. Which of these could be Edward's circle?",
-      "imageUrl": "/questions/icas-2016-paper-c/q17-pie-circles.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/q17.png",
       "options": [
         {
           "label": "A",
-          "text": "3/5 shaded"
+          "text": "Option A"
         },
         {
           "label": "B",
-          "text": "1/2 shaded"
+          "text": "Option B"
         },
         {
           "label": "C",
-          "text": "2/5 shaded"
+          "text": "Option C"
         },
         {
           "label": "D",
-          "text": "5/6 shaded"
+          "text": "Option D"
         }
       ],
       "correctAnswer": "A",
       "explanation": "3/5 = 0.6, which sits between Anna's 1/2 (0.5) and Mia's 3/4 (0.75).",
-      "topic": "Number & Arithmetic"
+      "topic": "Number & Arithmetic",
+      "optionsImageUrl": "/questions/icas-2016-paper-c/q17p.png"
     },
     {
       "id": "2016c-q18",
@@ -552,7 +554,8 @@
       ],
       "correctAnswer": "D",
       "explanation": "500 mL of water has a mass of 500 g. Jug = 1100 − 500 = 600 grams.",
-      "topic": "Measures & Units"
+      "topic": "Measures & Units",
+      "imageUrl": "/questions/icas-2016-paper-c/q19.png"
     },
     {
       "id": "2016c-q20",
@@ -586,7 +589,7 @@
       "number": 21,
       "type": "multiple_choice",
       "prompt": "This is a playing card. The image shows the top half of the card. What must be done to this image in order to create the bottom half of the card?",
-      "imageUrl": "/questions/icas-2016-paper-c/q21-card.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/q21-1.png",
       "options": [
         {
           "label": "A",
@@ -607,7 +610,8 @@
       ],
       "correctAnswer": "C",
       "explanation": "Standard playing cards have 180° rotational symmetry — the bottom half is the top half rotated a half turn, not flipped.",
-      "topic": "Space & Geometry"
+      "topic": "Space & Geometry",
+      "optionsImageUrl": "/questions/icas-2016-paper-c/q21-2.png"
     },
     {
       "id": "2016c-q22",
@@ -641,7 +645,7 @@
       "number": 23,
       "type": "multiple_choice",
       "prompt": "This is a model of a 3D object made by folding paper into a 6-pointed star shape, shown from the top and the side. How many faces does the 3D object have?",
-      "imageUrl": "/questions/icas-2016-paper-c/q23-star-object.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/q23-1.png",
       "options": [
         {
           "label": "A",
@@ -662,7 +666,8 @@
       ],
       "correctAnswer": "C",
       "explanation": "Counting the triangular faces visible from the top and side views of the folded star gives 48 faces in total.",
-      "topic": "Space & Geometry"
+      "topic": "Space & Geometry",
+      "optionsImageUrl": "/questions/icas-2016-paper-c/q23-2.png"
     },
     {
       "id": "2016c-q24",
@@ -724,7 +729,7 @@
       "number": 25,
       "type": "multiple_choice",
       "prompt": "Alana needs to colour in one more square to make a shape with one line of symmetry, shown on a grid with 4 candidate squares marked A-D. Which square does she need to colour in?",
-      "imageUrl": "/questions/icas-2016-paper-c/q25-symmetry-grid.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/q25.png",
       "options": [
         {
           "label": "A",
@@ -778,32 +783,24 @@
       "id": "2016c-q27",
       "number": 27,
       "type": "multiple_choice",
-      "prompt": "A rule is applied to the top number in each box to give the bottom number, shown in the table. What number must the final ? be?",
+      "prompt": "A rule is applied to the top number in each box to give the bottom number, shown in the table. What number must the bottom number be when the top number is 5?",
       "table": {
         "headers": [
           "Top",
-          "Bottom"
+          "2",
+          "6",
+          "5",
+          "9",
+          "7"
         ],
         "rows": [
           [
-            "2",
-            "5"
-          ],
-          [
-            "6",
-            "21"
-          ],
-          [
-            "9",
-            "33"
-          ],
-          [
-            "7",
-            "25"
-          ],
-          [
+            "Bottom",
             "5",
-            "?"
+            "21",
+            "?",
+            "33",
+            "25"
           ]
         ]
       },
@@ -854,7 +851,8 @@
       ],
       "correctAnswer": "C",
       "explanation": "1st-to-4th = 33 km. 2nd-to-4th = 25 km, so 1st-to-2nd = 33−25 = 8 km. 1st-to-3rd = 22 km, so 2nd-to-3rd = 22−8 = 14 km.",
-      "topic": "Measures & Units"
+      "topic": "Measures & Units",
+      "imageUrl": "/questions/icas-2016-paper-c/q28.png"
     },
     {
       "id": "2016c-q29",
@@ -888,7 +886,7 @@
       "number": 30,
       "type": "multiple_choice",
       "prompt": "Liam spun a spinner 18 times and recorded his results: orange 9 times, white 7 times, grey 2 times. Which one of these spinners is most likely to be Liam's?",
-      "imageUrl": "/questions/icas-2016-paper-c/q30-spinners.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/q30-1.png",
       "options": [
         {
           "label": "A",
@@ -909,14 +907,15 @@
       ],
       "correctAnswer": "D",
       "explanation": "Liam's results are roughly half orange, a third white and a sixth grey — spinner D has sections in these proportions.",
-      "topic": "Chance & Data"
+      "topic": "Chance & Data",
+      "optionsImageUrl": "/questions/icas-2016-paper-c/q30-2.png"
     },
     {
       "id": "2016c-q31",
       "number": 31,
       "type": "multiple_choice",
       "prompt": "Jin is completing a puzzle. All of the pieces are the same shape and fit together without gaps or overlaps. Which of these could be Jin's puzzle piece?",
-      "imageUrl": "/questions/icas-2016-paper-c/q31-puzzle-piece.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/q31.png",
       "options": [
         {
           "label": "A",
@@ -944,7 +943,7 @@
       "number": 32,
       "type": "multiple_choice",
       "prompt": "This map shows the bush tracks near Pete's house and Jack's house, with a 100 metre scale bar. Pete walked to Jack's house by the shortest route. About how far did he walk?",
-      "imageUrl": "/questions/icas-2016-paper-c/q32-map.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/q32.png",
       "options": [
         {
           "label": "A",
@@ -1026,7 +1025,7 @@
       "number": 35,
       "type": "multiple_choice",
       "prompt": "Senin drew a design with nested squares, shown below, and shaded part of it green. What fraction of his design did he shade?",
-      "imageUrl": "/questions/icas-2016-paper-c/q35-nested-diamonds.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/q35.svg",
       "options": [
         {
           "label": "A",
@@ -1054,7 +1053,7 @@
       "number": 36,
       "type": "multiple_choice",
       "prompt": "Yara drew four shapes (A, B, C and D) on a grid, shown below. Which shape has the largest perimeter?",
-      "imageUrl": "/questions/icas-2016-paper-c/q36-grid-shapes.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/q36.png",
       "options": [
         {
           "label": "A",
@@ -1081,7 +1080,7 @@
       "id": "2016c-q37",
       "number": 37,
       "type": "multiple_choice",
-      "prompt": "Mark and Jack are brothers, each with 3 shirts and 3 pairs of pants. They share each other's clothes if the clothes fit: Jack can wear Mark's shirts but not his pants. Mark cannot wear any of Jack's clothes. An outfit consists of a shirt and pants that both fit. How many different outfits do the brothers have between them?",
+      "prompt": "Mark and Jack are brothers, shown with their own clothes below. They share each other's clothes if the clothes fit: Jack can wear Mark's shirts but not his pants. Mark cannot wear any of Jack's clothes. An outfit consists of a shirt and pants that both fit. How many different outfits do the brothers have between them?",
       "options": [
         {
           "label": "A",
@@ -1102,14 +1101,15 @@
       ],
       "correctAnswer": "D",
       "explanation": "Working through which shirt-and-pants combinations fit Mark or Jack under these sharing rules gives 25 valid outfits in total.",
-      "topic": "Chance & Data"
+      "topic": "Chance & Data",
+      "imageUrl": "/questions/icas-2016-paper-c/q37.png"
     },
     {
       "id": "2016c-q38",
       "number": 38,
       "type": "multiple_choice",
       "prompt": "This shape is made up of 8 identical rectangles arranged in a staircase pattern, shown below. The shape is 6 cm wide. What is the perimeter of this shape?",
-      "imageUrl": "/questions/icas-2016-paper-c/q38-staircase.svg",
+      "imageUrl": "/questions/icas-2016-paper-c/q38.png",
       "options": [
         {
           "label": "A",
@@ -1184,7 +1184,8 @@
       ],
       "correctAnswer": "B",
       "explanation": "Each weighing has 3 possible outcomes (left heavier, right heavier, balanced), so n weighings can distinguish up to 3^n items. 3^2=9 is too few for 24, but 3^3=27 is enough — so 3 weighings suffice (split into groups of 8).",
-      "topic": "Algebra & Patterns"
+      "topic": "Algebra & Patterns",
+      "imageUrl": "/questions/icas-2016-paper-c/q40.png"
     }
   ]
 }

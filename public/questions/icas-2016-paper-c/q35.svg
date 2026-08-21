@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="371"
+   height="378"
+   viewBox="0 0 371 378"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <g
+     id="g1">
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.97073;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1"
+       width="358.02927"
+       height="358.02927"
+       x="6.4853668"
+       y="9.9853668"
+       ry="0" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:0.977156;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1-52"
+       width="177.52284"
+       height="177.52284"
+       x="96.738579"
+       y="100.23858"
+       ry="0" />
+    <rect
+       style="fill:none;stroke:#000000;stroke-width:1.39268;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1-5"
+       width="253.0121"
+       height="253.0121"
+       x="138.30661"
+       y="-123.91457"
+       ry="0"
+       transform="matrix(0.70741806,0.70679536,-0.70741806,0.70679536,0,0)" />
+    <rect
+       style="fill:#66ff00;stroke:#000000;stroke-width:0.486711;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1-5-2-6"
+       width="88.751251"
+       height="88.094208"
+       x="99.771133"
+       y="-184.47423"
+       ry="0"
+       transform="matrix(8.101918e-4,0.99999967,-0.99999966,-8.223255e-4,0,0)" />
+    <rect
+       style="fill:#66ff00;stroke:#000000;stroke-width:0.486711;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1-5-2-6-1"
+       width="88.751251"
+       height="88.094208"
+       x="189.33566"
+       y="-274.97757"
+       ry="0"
+       transform="matrix(8.101918e-4,0.99999967,-0.99999966,-8.223255e-4,0,0)" />
+    <rect
+       style="fill:#66ff00;stroke:#000000;stroke-width:0.68992;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect1-5-2"
+       width="125.33971"
+       height="125.33971"
+       x="202.14392"
+       y="-59.978828"
+       ry="0"
+       transform="matrix(0.70768371,0.70652938,-0.70768371,0.70652938,0,0)" />
+  </g>
+</svg>
