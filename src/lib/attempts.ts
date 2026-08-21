@@ -5,12 +5,14 @@ const LOCAL_STORAGE_KEY = "icas-attempts";
 
 export interface StoredAttempt extends AttemptResult {
   paperTitle: string;
+  profileSlug: string;
 }
 
 interface AttemptRow {
   id: string;
   paper_id: string;
   paper_title: string;
+  profile_slug: string | null;
   score: number;
   total_questions: number;
   percentage: number;
@@ -25,6 +27,7 @@ function rowToAttempt(row: AttemptRow): StoredAttempt {
     id: row.id,
     paperId: row.paper_id,
     paperTitle: row.paper_title,
+    profileSlug: row.profile_slug ?? "guest",
     score: row.score,
     totalQuestions: row.total_questions,
     percentage: row.percentage,
@@ -55,6 +58,7 @@ export async function saveAttempt(attempt: StoredAttempt): Promise<void> {
       id: attempt.id,
       paper_id: attempt.paperId,
       paper_title: attempt.paperTitle,
+      profile_slug: attempt.profileSlug,
       score: attempt.score,
       total_questions: attempt.totalQuestions,
       percentage: attempt.percentage,
@@ -80,21 +84,34 @@ export function getLocalAttempts(): StoredAttempt[] {
  * Attempts made on any device show up here when Supabase is configured —
  * that's the shared, cross-device list. Falls back to this browser's own
  * local history otherwise.
+ *
+ * Pass `viewerProfileSlug` to scope results to one profile's own attempts.
+ * Admin viewers (isAdmin: true) get every profile's attempts back instead.
  */
-export async function getAttempts(): Promise<StoredAttempt[]> {
+export async function getAttempts(
+  viewerProfileSlug: string,
+  isAdmin: boolean
+): Promise<StoredAttempt[]> {
+  const localFallback = () =>
+    isAdmin
+      ? getLocalAttempts()
+      : getLocalAttempts().filter((a) => a.profileSlug === viewerProfileSlug);
+
   const supabase = getSupabaseClient();
-  if (!supabase) return getLocalAttempts();
+  if (!supabase) return localFallback();
 
   try {
-    const { data, error } = await supabase
+    let query = supabase
       .from("attempts")
       .select("*")
       .order("completed_at", { ascending: false })
       .limit(100);
-    if (error || !data) return getLocalAttempts();
+    if (!isAdmin) query = query.eq("profile_slug", viewerProfileSlug);
+    const { data, error } = await query;
+    if (error || !data) return localFallback();
     return (data as AttemptRow[]).map(rowToAttempt);
   } catch {
-    return getLocalAttempts();
+    return localFallback();
   }
 }
 

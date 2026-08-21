@@ -1,8 +1,18 @@
+import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getAllPapers } from "@/lib/papers";
+import { getProfile } from "@/lib/profiles";
 import { RecentAttempts } from "@/components/RecentAttempts";
 
-export default function IcasHome() {
+export default async function IcasHome({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
+  const profile = getProfile(slug);
+  if (!profile) notFound();
+
   const papers = getAllPapers();
 
   return (
@@ -18,7 +28,7 @@ export default function IcasHome() {
         {papers.map((paper) => (
           <Link
             key={paper.id}
-            href={`/exam/${paper.id}`}
+            href={`/${slug}/exam/${paper.id}`}
             className="flex items-center justify-between rounded-lg border border-border p-4 hover:bg-surface transition-colors"
           >
             <div>
@@ -35,7 +45,7 @@ export default function IcasHome() {
         ))}
       </div>
 
-      <RecentAttempts />
+      <RecentAttempts profileSlug={slug} />
     </div>
   );
 }

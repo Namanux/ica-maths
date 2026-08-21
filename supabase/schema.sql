@@ -4,6 +4,7 @@ create table if not exists attempts (
   id uuid primary key default gen_random_uuid(),
   paper_id text not null,
   paper_title text not null,
+  profile_slug text,
   score integer not null,
   total_questions integer not null,
   percentage integer not null,
@@ -13,6 +14,9 @@ create table if not exists attempts (
   completed_at timestamptz not null,
   created_at timestamptz not null default now()
 );
+
+-- Migration for existing databases created before profile_slug existed:
+-- alter table attempts add column if not exists profile_slug text;
 
 alter table attempts enable row level security;
 

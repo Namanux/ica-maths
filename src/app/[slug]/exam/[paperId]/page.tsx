@@ -1,18 +1,20 @@
 import { notFound } from "next/navigation";
 import { getPaperById } from "@/lib/papers";
+import { getProfile } from "@/lib/profiles";
 import { ExamRunner } from "@/components/ExamRunner";
 
 export default async function ExamPage({
   params,
 }: {
-  params: Promise<{ paperId: string }>;
+  params: Promise<{ slug: string; paperId: string }>;
 }) {
-  const { paperId } = await params;
+  const { slug, paperId } = await params;
+  const profile = getProfile(slug);
   const paper = getPaperById(paperId);
 
-  if (!paper) {
+  if (!profile || !paper) {
     notFound();
   }
 
-  return <ExamRunner paper={paper} />;
+  return <ExamRunner paper={paper} profileSlug={slug} />;
 }

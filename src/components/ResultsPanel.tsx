@@ -58,11 +58,19 @@ export interface ResultsPanelProps {
   paper: Paper;
   result: AttemptResult;
   mode: "live" | "historical";
+  profileSlug: string;
   onResetAll?: () => void;
   onDelete?: () => void;
 }
 
-export function ResultsPanel({ paper, result, mode, onResetAll, onDelete }: ResultsPanelProps) {
+export function ResultsPanel({
+  paper,
+  result,
+  mode,
+  profileSlug,
+  onResetAll,
+  onDelete,
+}: ResultsPanelProps) {
   const [reviewIndex, setReviewIndex] = useState<number | null>(null);
 
   if (reviewIndex !== null) {
@@ -82,6 +90,7 @@ export function ResultsPanel({ paper, result, mode, onResetAll, onDelete }: Resu
       paper={paper}
       result={result}
       mode={mode}
+      profileSlug={profileSlug}
       onOpenQuestion={(i) => setReviewIndex(i)}
       onResetAll={onResetAll}
       onDelete={onDelete}
@@ -93,6 +102,7 @@ function ResultsView({
   paper,
   result,
   mode,
+  profileSlug,
   onOpenQuestion,
   onResetAll,
   onDelete,
@@ -100,6 +110,7 @@ function ResultsView({
   paper: Paper;
   result: AttemptResult;
   mode: "live" | "historical";
+  profileSlug: string;
   onOpenQuestion: (i: number) => void;
   onResetAll?: () => void;
   onDelete?: () => void;
@@ -117,7 +128,7 @@ function ResultsView({
     <div className="flex flex-col gap-8 print-results">
       <div className="flex items-center justify-between flex-wrap gap-3 no-print">
         <Link
-          href="/icas"
+          href={`/${profileSlug}/icas`}
           className="rounded-full border border-border px-4 py-2 text-sm font-medium hover:bg-surface transition-colors"
         >
           ← Back to papers

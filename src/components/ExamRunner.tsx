@@ -16,7 +16,7 @@ function formatTime(totalSeconds: number): string {
   return `${m}:${s.toString().padStart(2, "0")}`;
 }
 
-export function ExamRunner({ paper }: { paper: Paper }) {
+export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: string }) {
   const [status, setStatus] = useState<Status>("intro");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string | null>>({});
@@ -31,8 +31,8 @@ export function ExamRunner({ paper }: { paper: Paper }) {
     const attempt = scoreAttempt(paper, answers, elapsed);
     setResult(attempt);
     setStatus("finished");
-    void saveAttempt({ ...attempt, paperTitle: paper.title });
-  }, [answers, paper, secondsLeft]);
+    void saveAttempt({ ...attempt, paperTitle: paper.title, profileSlug });
+  }, [answers, paper, secondsLeft, profileSlug]);
 
   useEffect(() => {
     if (status !== "in_progress") return;
@@ -99,7 +99,7 @@ export function ExamRunner({ paper }: { paper: Paper }) {
             Start exam
           </button>
           <Link
-            href="/icas"
+            href={`/${profileSlug}/icas`}
             className="rounded-full border border-border px-5 py-2.5 font-medium hover:bg-surface transition-colors"
           >
             Back
@@ -110,7 +110,15 @@ export function ExamRunner({ paper }: { paper: Paper }) {
   }
 
   if (status === "finished" && result) {
-    return <ResultsPanel paper={paper} result={result} mode="live" onResetAll={resetAll} />;
+    return (
+      <ResultsPanel
+        paper={paper}
+        result={result}
+        mode="live"
+        profileSlug={profileSlug}
+        onResetAll={resetAll}
+      />
+    );
   }
 
   const userAnswer = answers[currentQuestion.id] ?? null;

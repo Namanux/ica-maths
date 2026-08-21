@@ -7,7 +7,15 @@ import { getAttemptById, deleteAttempt, type StoredAttempt } from "@/lib/attempt
 import { ResultsPanel } from "@/components/ResultsPanel";
 import Link from "next/link";
 
-export function AttemptViewer({ paper, attemptId }: { paper: Paper; attemptId: string }) {
+export function AttemptViewer({
+  paper,
+  attemptId,
+  profileSlug,
+}: {
+  paper: Paper;
+  attemptId: string;
+  profileSlug: string;
+}) {
   const router = useRouter();
   const [attempt, setAttempt] = useState<StoredAttempt | null | undefined>(undefined);
 
@@ -30,7 +38,7 @@ export function AttemptViewer({ paper, attemptId }: { paper: Paper; attemptId: s
       <div className="flex flex-col gap-4">
         <p className="text-muted">This attempt couldn&apos;t be found — it may have been deleted.</p>
         <Link
-          href="/icas"
+          href={`/${profileSlug}/icas`}
           className="self-start rounded-full border border-border px-5 py-2.5 font-medium hover:bg-surface transition-colors"
         >
           Back to papers
@@ -41,10 +49,16 @@ export function AttemptViewer({ paper, attemptId }: { paper: Paper; attemptId: s
 
   const handleDelete = async () => {
     await deleteAttempt(attemptId);
-    router.push("/icas");
+    router.push(`/${profileSlug}/icas`);
   };
 
   return (
-    <ResultsPanel paper={paper} result={attempt} mode="historical" onDelete={handleDelete} />
+    <ResultsPanel
+      paper={paper}
+      result={attempt}
+      mode="historical"
+      profileSlug={profileSlug}
+      onDelete={handleDelete}
+    />
   );
 }

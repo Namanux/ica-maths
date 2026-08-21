@@ -3,15 +3,17 @@
 import { useEffect, useState } from "react";
 import { getAttempts, deleteAttempt, type StoredAttempt } from "@/lib/attempts";
 import { formatDuration, formatCompletedAt } from "@/lib/format";
+import { getProfile } from "@/lib/profiles";
 import Link from "next/link";
 
-export function RecentAttempts() {
+export function RecentAttempts({ profileSlug }: { profileSlug: string }) {
   const [attempts, setAttempts] = useState<StoredAttempt[]>([]);
   const [loaded, setLoaded] = useState(false);
+  const isAdmin = getProfile(profileSlug)?.role === "admin";
 
   useEffect(() => {
     let cancelled = false;
-    getAttempts().then((data) => {
+    getAttempts(profileSlug, isAdmin).then((data) => {
       if (!cancelled) {
         setAttempts(data);
         setLoaded(true);
@@ -20,7 +22,7 @@ export function RecentAttempts() {
     return () => {
       cancelled = true;
     };
-  }, []);
+  }, [profileSlug, isAdmin]);
 
   const handleDelete = async (id: string) => {
     if (!window.confirm("Delete this attempt? This can't be undone.")) return;
@@ -47,11 +49,12 @@ export function RecentAttempts() {
             </div>
             <div className="flex items-center justify-between gap-3 flex-wrap">
               <span className="text-xs text-muted">
+                {getProfile(a.profileSlug)?.name ?? a.profileSlug} ·{" "}
                 {formatCompletedAt(a.completedAt)} · Duration {formatDuration(a.timeTakenSeconds)}
               </span>
               <div className="flex items-center gap-2 shrink-0">
                 <Link
-                  href={`/exam/${a.paperId}/attempt/${a.id}`}
+                  href={`/${profileSlug}/exam/${a.paperId}/attempt/${a.id}`}
                   className="rounded-full border border-border px-3 py-1 text-xs font-medium hover:bg-surface transition-colors"
                 >
                   View summary

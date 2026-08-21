@@ -1,13 +1,19 @@
 import Link from "next/link";
 import type { Subject } from "@/lib/subjects";
 
-export function SubjectGrid({ subjects }: { subjects: Subject[] }) {
+export function SubjectGrid({
+  subjects,
+  profileSlug,
+}: {
+  subjects: Subject[];
+  profileSlug: string;
+}) {
   return (
     <div className="flex flex-col gap-3">
       {subjects.map((subject) => (
         <Link
           key={subject.slug}
-          href={`/${subject.slug}`}
+          href={subject.slug === "icas" ? `/${profileSlug}/icas` : `/${subject.slug}`}
           className="flex items-center justify-between rounded-lg border border-border p-4 hover:bg-surface transition-colors"
         >
           <div>

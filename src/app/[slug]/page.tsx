@@ -19,7 +19,7 @@ export default async function SlugPage({
           <h1 className="text-2xl font-semibold tracking-tight">Hi {profile.name}</h1>
           <p className="text-muted mt-1">Choose what you&apos;d like to practise.</p>
         </div>
-        <SubjectGrid subjects={SUBJECTS} />
+        <SubjectGrid subjects={SUBJECTS} profileSlug={profile.slug} />
       </div>
     );
   }
