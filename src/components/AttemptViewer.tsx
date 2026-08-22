@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Paper } from "@/lib/types";
 import { getAttemptById, deleteAttempt, type StoredAttempt } from "@/lib/attempts";
+import { getProfile } from "@/lib/profiles";
 import { ResultsPanel } from "@/components/ResultsPanel";
 import Link from "next/link";
 
@@ -18,6 +19,7 @@ export function AttemptViewer({
 }) {
   const router = useRouter();
   const [attempt, setAttempt] = useState<StoredAttempt | null | undefined>(undefined);
+  const isAdmin = getProfile(profileSlug)?.role === "admin";
 
   useEffect(() => {
     let cancelled = false;
@@ -58,7 +60,7 @@ export function AttemptViewer({
       result={attempt}
       mode="historical"
       profileSlug={profileSlug}
-      onDelete={handleDelete}
+      onDelete={isAdmin ? handleDelete : undefined}
     />
   );
 }

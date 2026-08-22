@@ -23,6 +23,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
   const [answers, setAnswers] = useState<Record<string, string | null>>({});
   const [secondsLeft, setSecondsLeft] = useState(paper.timeLimitMinutes * 60);
   const [result, setResult] = useState<AttemptResult | null>(null);
+  const [reviewMode, setReviewMode] = useState(false);
   const startTimeRef = useRef<number | null>(null);
 
   const finishExam = useCallback(() => {
@@ -36,22 +37,23 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
   }, [answers, paper, secondsLeft, profileSlug]);
 
   useEffect(() => {
-    if (status !== "in_progress") return;
+    if (status !== "in_progress" || reviewMode) return;
     if (secondsLeft <= 0) {
       finishExam();
       return;
     }
     const timer = setTimeout(() => setSecondsLeft((s) => s - 1), 1000);
     return () => clearTimeout(timer);
-  }, [status, secondsLeft, finishExam]);
+  }, [status, secondsLeft, reviewMode, finishExam]);
 
   useEffect(() => {
     document.body.classList.toggle("exam-focus", status === "in_progress");
     return () => document.body.classList.remove("exam-focus");
   }, [status]);
 
-  const startExam = () => {
+  const startExam = (review: boolean) => {
     startTimeRef.current = Date.now();
+    setReviewMode(review);
     setStatus("in_progress");
   };
 
@@ -60,6 +62,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
     setSecondsLeft(paper.timeLimitMinutes * 60);
     setResult(null);
     setCurrentIndex(0);
+    setReviewMode(false);
     setStatus("intro");
   };
 
@@ -91,13 +94,20 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
           <li>Your score is the number of correct answers — no penalty for wrong answers.</li>
           <li>You can move between questions freely and change your answers before submitting.</li>
           <li>The exam auto-submits when the timer reaches zero.</li>
+          <li>Review Only has no timer — take as long as you need.</li>
         </ul>
-        <div className="flex gap-3">
+        <div className="flex flex-wrap gap-3">
           <button
-            onClick={startExam}
+            onClick={() => startExam(false)}
             className="rounded-full bg-accent text-background px-5 py-2.5 font-medium hover:opacity-90 transition-opacity"
           >
             Start exam
+          </button>
+          <button
+            onClick={() => startExam(true)}
+            className="rounded-full border border-accent text-accent px-5 py-2.5 font-medium hover:bg-accent/10 transition-colors"
+          >
+            Review Only
           </button>
           <Link
             href={`/${profileSlug}/icas`}
@@ -132,10 +142,10 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
         </div>
         <div
           className={`text-sm font-mono rounded-full px-3 py-1 border ${
-            secondsLeft <= 60 ? "border-incorrect text-incorrect" : "border-border"
+            !reviewMode && secondsLeft <= 60 ? "border-incorrect text-incorrect" : "border-border"
           }`}
         >
-          {formatTime(secondsLeft)}
+          {reviewMode ? "No time limit" : formatTime(secondsLeft)}
         </div>
       </div>
 

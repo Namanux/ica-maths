@@ -59,12 +59,14 @@ export function RecentAttempts({ profileSlug }: { profileSlug: string }) {
                 >
                   View summary
                 </Link>
-                <button
-                  onClick={() => handleDelete(a.id)}
-                  className="rounded-full border border-incorrect text-incorrect px-3 py-1 text-xs font-medium hover:bg-incorrect/10 transition-colors"
-                >
-                  Delete
-                </button>
+                {isAdmin && (
+                  <button
+                    onClick={() => handleDelete(a.id)}
+                    className="rounded-full border border-incorrect text-incorrect px-3 py-1 text-xs font-medium hover:bg-incorrect/10 transition-colors"
+                  >
+                    Delete
+                  </button>
+                )}
               </div>
             </div>
           </div>
