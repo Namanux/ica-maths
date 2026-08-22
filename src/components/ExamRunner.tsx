@@ -6,6 +6,7 @@ import { scoreAttempt } from "@/lib/scoring";
 import { saveAttempt } from "@/lib/attempts";
 import { QuestionBody } from "@/components/QuestionBody";
 import { ResultsPanel } from "@/components/ResultsPanel";
+import { ReportIssueButton } from "@/components/ReportIssueButton";
 import Link from "next/link";
 
 type Status = "intro" | "in_progress" | "finished";
@@ -179,6 +180,15 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
           />
         )}
       </div>
+
+      <ReportIssueButton
+        key={currentQuestion.id}
+        paperId={paper.id}
+        paperTitle={paper.title}
+        questionId={currentQuestion.id}
+        questionNumber={currentQuestion.number}
+        profileSlug={profileSlug}
+      />
 
       <div className="flex items-center justify-between">
         <button

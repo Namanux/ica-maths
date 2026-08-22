@@ -3,6 +3,7 @@ import Link from "next/link";
 import { getProfile } from "@/lib/profiles";
 import { getSubject, SUBJECTS } from "@/lib/subjects";
 import { SubjectGrid } from "@/components/SubjectGrid";
+import { FlaggedQuestionsPanel } from "@/components/FlaggedQuestionsPanel";
 
 export default async function SlugPage({
   params,
@@ -20,6 +21,7 @@ export default async function SlugPage({
           <p className="text-muted mt-1">Choose what you&apos;d like to practise.</p>
         </div>
         <SubjectGrid subjects={SUBJECTS} profileSlug={profile.slug} />
+        {profile.role === "admin" && <FlaggedQuestionsPanel />}
       </div>
     );
   }

@@ -33,3 +33,29 @@ create policy "Allow read for all" on attempts
 create policy "Allow delete for all" on attempts
   for delete
   using (true);
+
+-- Questions flagged by users as having an issue (wrong answer, bad image, etc).
+create table if not exists question_flags (
+  id uuid primary key default gen_random_uuid(),
+  paper_id text not null,
+  paper_title text not null,
+  question_id text not null,
+  question_number integer not null,
+  profile_slug text not null,
+  note text,
+  created_at timestamptz not null default now()
+);
+
+alter table question_flags enable row level security;
+
+create policy "Allow insert for all" on question_flags
+  for insert
+  with check (true);
+
+create policy "Allow read for all" on question_flags
+  for select
+  using (true);
+
+create policy "Allow delete for all" on question_flags
+  for delete
+  using (true);
