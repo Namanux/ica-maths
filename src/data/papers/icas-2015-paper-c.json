@@ -1,0 +1,647 @@
+{
+  "id": "icas-2015-paper-c",
+  "subject": "Mathematics",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS Mathematics 2015 — Paper C",
+  "year": 2015,
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "2015c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "This arrow is reflected in the dashed line. Which option shows the reflected image?",
+      "imageUrl": "/questions/icas-2015-paper-c/q1.png",
+      "optionsImageUrl": "/questions/icas-2015-paper-c/q1o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Reflecting an upward-pointing arrow in a horizontal line directly below it flips it to point downward.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2015c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Fiona is making a pattern using squares. How many squares must Fiona use in Shape 4?",
+      "imageUrl": "/questions/icas-2015-paper-c/q2.png",
+      "options": [
+        { "label": "A", "text": "13" },
+        { "label": "B", "text": "14" },
+        { "label": "C", "text": "15" },
+        { "label": "D", "text": "16" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Each shape has a wide top row, a row one square shorter, then a single-width tail as long as the shape number: totals are 6, 9, 12, so Shape 4 uses 3(4)+3 = 15 squares.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2015c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "30 714 = 30 000 + ? + 10 + 4. What number must ? be?",
+      "options": [
+        { "label": "A", "text": "7" },
+        { "label": "B", "text": "70" },
+        { "label": "C", "text": "700" },
+        { "label": "D", "text": "7000" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "30 714 = 30 000 + 700 + 10 + 4.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2015c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "The Jets played the Knights in a game of rugby in which only tries and conversions were scored (1 try = 5 points, 1 conversion = 2 points). The Jets made three tries. They scored a total of 19 points. How many conversions did the Jets make?",
+      "imageUrl": "/questions/icas-2015-paper-c/q4.png",
+      "options": [
+        { "label": "A", "text": "1" },
+        { "label": "B", "text": "2" },
+        { "label": "C", "text": "4" },
+        { "label": "D", "text": "7" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Three tries = 15 points. 19 − 15 = 4 points from conversions, and 4 ÷ 2 = 2 conversions.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2015c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Joe measured two paperclips using a ruler marked in centimetres. Using the ruler in the photo, how much longer than the small paperclip is the big paperclip?",
+      "imageUrl": "/questions/icas-2015-paper-c/q5.png",
+      "options": [
+        { "label": "A", "text": "1.7 cm" },
+        { "label": "B", "text": "2.0 cm" },
+        { "label": "C", "text": "3.1 cm" },
+        { "label": "D", "text": "7.8 cm" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The big paperclip reaches about 7.8 cm and the small paperclip about 6.1 cm on the ruler, a difference of about 1.7 cm.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2015c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Toma had this card. Which of these cards is identical to Toma's card?",
+      "imageUrl": "/questions/icas-2015-paper-c/q6.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Option C matches Toma's card exactly in size, shape and colour — the others are a different size or a different shape.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2015c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Sally filled four black bottles with cordial. Three bottles had orange cordial and one had lime cordial. Jack came into the room and took one of the bottles. What is the chance Jack took the bottle filled with lime cordial?",
+      "imageUrl": "/questions/icas-2015-paper-c/q7.png",
+      "options": [
+        { "label": "A", "text": "unlikely" },
+        { "label": "B", "text": "likely" },
+        { "label": "C", "text": "certain" },
+        { "label": "D", "text": "even chance" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Only 1 of the 4 bottles has lime cordial, so it is unlikely — less than an even chance — that Jack picked it.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2015c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Anna drew some shapes on 1 cm grid paper. Which shape has a perimeter of 12 cm?",
+      "imageUrl": "/questions/icas-2015-paper-c/q8.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Shape A is a 5 cm by 1 cm rectangle, giving a perimeter of 2 × (5 + 1) = 12 cm.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2015c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "What value is the arrow pointing to on this scale?",
+      "imageUrl": "/questions/icas-2015-paper-c/q9.png",
+      "options": [
+        { "label": "A", "text": "60" },
+        { "label": "B", "text": "59" },
+        { "label": "C", "text": "54" },
+        { "label": "D", "text": "47" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The arrow sits one small mark before the 60 mark, at 59.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2015c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "John drew a picture of his house, with sides labelled w, x, y and z (w = left wall, x = bottom, y = right wall, z = a sloped roof edge). Which sides are parallel to each other on John's drawing?",
+      "imageUrl": "/questions/icas-2015-paper-c/q10.png",
+      "options": [
+        { "label": "A", "text": "x and y" },
+        { "label": "B", "text": "x and z" },
+        { "label": "C", "text": "w and z" },
+        { "label": "D", "text": "w and y" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "w and y are the two vertical walls of the house, which run parallel to each other; z lies on the sloped roof, not parallel to the horizontal base x.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2015c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Darsh delivers furniture with his father. This table shows how much money they earned over five days (key: one money bag = $100, a half bag = $50). How much more money did they earn on Thursday than on Tuesday?",
+      "imageUrl": "/questions/icas-2015-paper-c/q11.png",
+      "options": [
+        { "label": "A", "text": "$650" },
+        { "label": "B", "text": "$450" },
+        { "label": "C", "text": "$350" },
+        { "label": "D", "text": "$150" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Thursday shows 5 full bags = $500. Tuesday shows 1 full bag and a half bag = $150. $500 − $150 = $350.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2015c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Mrs Liang had 15 oranges. She cut each orange into quarters and gave an equal number of quarters to each of her 5 students. How many orange quarters did each student get?",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "10" },
+        { "label": "D", "text": "12" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "15 oranges × 4 quarters = 60 quarters. 60 ÷ 5 students = 12 quarters each.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2015c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "15 + ? = 32 − 6. What is the value of ??",
+      "options": [
+        { "label": "A", "text": "11" },
+        { "label": "B", "text": "17" },
+        { "label": "C", "text": "23" },
+        { "label": "D", "text": "26" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "32 − 6 = 26, so 15 + ? = 26, meaning ? = 11.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2015c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Mia drew an arrow pointing north (shown pointing to the right). Which of these arrows is pointing north-east?",
+      "imageUrl": "/questions/icas-2015-paper-c/q14.png",
+      "optionsImageUrl": "/questions/icas-2015-paper-c/q14o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Since north is drawn pointing right, the whole compass is rotated 90° clockwise from usual — so north-east (normally up-and-right) now points down-and-right, matching option D.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2015c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "There are less than 40 beads in a pile. There are 17 blue beads and the rest are red. The number of red beads is a prime number. What is the greatest possible number of red beads in the pile?",
+      "options": [
+        { "label": "A", "text": "17" },
+        { "label": "B", "text": "19" },
+        { "label": "C", "text": "21" },
+        { "label": "D", "text": "23" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "17 + red < 40, so red < 23. The greatest prime less than 23 is 19.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2015c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "The chart shows how the water level in a harbour changed on a particular day. What was the difference between the highest and the lowest water level?",
+      "imageUrl": "/questions/icas-2015-paper-c/q16.png",
+      "options": [
+        { "label": "A", "text": "0.1 m" },
+        { "label": "B", "text": "0.7 m" },
+        { "label": "C", "text": "0.9 m" },
+        { "label": "D", "text": "1.3 m" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The highest water level is about 1.3 m and the lowest is about 0.4 m, a difference of about 0.9 m.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2015c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Janice drew this shape. Janice rotated it anticlockwise by a quarter of a turn. Which of these shows the shape after this rotation?",
+      "imageUrl": "/questions/icas-2015-paper-c/q17-1.png",
+      "optionsImageUrl": "/questions/icas-2015-paper-c/q17-2.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Rotating the shape 90° anticlockwise moves the red square from the right side to the top, and the dotted green square from the left to the bottom.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2015c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "Matteo has one toy killer whale (29.0 cm) and three identical toy dinosaurs (12.8 cm each). What was the total length of Matteo's four toys, in centimetres?",
+      "imageUrl": "/questions/icas-2015-paper-c/q18.png",
+      "options": [
+        { "label": "A", "text": "41.8" },
+        { "label": "B", "text": "57.4" },
+        { "label": "C", "text": "65.8" },
+        { "label": "D", "text": "67.4" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "29.0 + (3 × 12.8) = 29.0 + 38.4 = 67.4 cm.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2015c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Sue counted the birds in a park. She noticed that there were only four types. In total, Sue recorded 140 birds. She represented the results in this graph. How many cockatoos did Sue record?",
+      "imageUrl": "/questions/icas-2015-paper-c/q19.png",
+      "options": [
+        { "label": "A", "text": "30" },
+        { "label": "B", "text": "40" },
+        { "label": "C", "text": "50" },
+        { "label": "D", "text": "60" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The bar splits 140 birds proportionally into 30 crow, 50 cockatoo, 20 pigeon and 40 magpie.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2015c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "This picture shows a triangle which has been divided into smaller shapes. How many triangles of any size are in this picture?",
+      "imageUrl": "/questions/icas-2015-paper-c/q20.png",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "9" },
+        { "label": "C", "text": "10" },
+        { "label": "D", "text": "11" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Counting every small triangle plus every larger triangle formed by combining them gives 11 in total.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2015c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "Ardi, Priya and Raj took turns to paint their house. The house painting began at 7 am and finished at 11 pm without a break. Priya painted for one-quarter of the time. Ardi painted for the same amount of time as Raj. How long did Raj spend painting the house?",
+      "options": [
+        { "label": "A", "text": "12 hours" },
+        { "label": "B", "text": "6 hours" },
+        { "label": "C", "text": "4 hours" },
+        { "label": "D", "text": "3 hours" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "7 am to 11 pm is 16 hours. Priya painted 1/4 × 16 = 4 hours, leaving 12 hours split evenly between Ardi and Raj, 6 hours each.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2015c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "Yara and Danny collected a total of 48 shells. Danny collected 3 times as many shells as Yara did. How many shells did Yara collect?",
+      "options": [
+        { "label": "A", "text": "12" },
+        { "label": "B", "text": "16" },
+        { "label": "C", "text": "32" },
+        { "label": "D", "text": "36" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Yara + 3×Yara = 48, so 4×Yara = 48, giving Yara = 12.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2015c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "The map shows a lake, where each grid square = 1 km². What is the approximate area of the lake, in km²?",
+      "imageUrl": "/questions/icas-2015-paper-c/q23.png",
+      "options": [
+        { "label": "A", "text": "10" },
+        { "label": "B", "text": "14" },
+        { "label": "C", "text": "17" },
+        { "label": "D", "text": "20" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Counting full squares and combining the partial squares covered by the lake gives an area of about 14 km².",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2015c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "Ann used a book to measure the area of her desk. Here is a picture of Ann's book. She found that the area of her desk is 12 times greater than the area of her book. Which of the following gives the area of Ann's desk, in cm²?",
+      "imageUrl": "/questions/icas-2015-paper-c/q24.png",
+      "options": [
+        { "label": "A", "text": "14.8 + 21 + 12" },
+        { "label": "B", "text": "14.8 × 21 × 12" },
+        { "label": "C", "text": "(14.8 + 21) × 12" },
+        { "label": "D", "text": "2 × (14.8 + 21) × 12" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The desk's area is 12 times the book's area (14.8 × 21), so the desk's area is 14.8 × 21 × 12.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2015c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "There was at least one bicycle (2 wheels) and at least one tricycle (3 wheels) on display in a shop. Altogether, there were 18 wheels used in the display. What was the smallest number of bicycles that could be on display?",
+      "imageUrl": "/questions/icas-2015-paper-c/q25-1.png",
+      "optionsImageUrl": "/questions/icas-2015-paper-c/q25-2.png",
+      "options": [
+        { "label": "A", "text": "0" },
+        { "label": "B", "text": "1" },
+        { "label": "C", "text": "2" },
+        { "label": "D", "text": "3" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "2×bicycles + 3×tricycles = 18 with at least one of each: 6 bicycles/2 tricycles or 3 bicycles/4 tricycles both work, and 3 bicycles is the smallest valid count with at least one bicycle.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2015c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "A mouse enters a maze looking for cheese. What is the least number of quarter turns the mouse can make to reach the cheese?",
+      "imageUrl": "/questions/icas-2015-paper-c/q26.png",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "7" },
+        { "label": "C", "text": "11" },
+        { "label": "D", "text": "15" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Tracing the shortest route through the maze's corridors to the cheese requires 7 direction changes.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2015c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "Pete is at the zoo. He meets his friends at a kiosk where he reads a sign: Zebras 250 m, Lions 160 m (in the opposite direction), Giraffes 420 m. They decide to visit the lions, giraffes and zebras in that order, and these three animal exhibits lie on the same straight path. How far will they walk from the kiosk to where they will finish at the zebras?",
+      "imageUrl": "/questions/icas-2015-paper-c/q27.png",
+      "options": [
+        { "label": "A", "text": "750 metres" },
+        { "label": "B", "text": "830 metres" },
+        { "label": "C", "text": "910 metres" },
+        { "label": "D", "text": "990 metres" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Kiosk to lions is 160 m, lions to giraffes is 160 + 420 = 580 m, giraffes to zebras is 420 − 250 = 170 m. Total: 160 + 580 + 170 = 910 m.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2015c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "Samir is buying an ice-cream with two different flavours (from vanilla, strawberry, chocolate and lemon). He can choose to have the ice-cream in a cup or a cone. How many possible choices does Samir have?",
+      "imageUrl": "/questions/icas-2015-paper-c/q28.png",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "8" },
+        { "label": "C", "text": "12" },
+        { "label": "D", "text": "16" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "There are 6 ways to choose 2 different flavours from 4, and 2 container choices, giving 6 × 2 = 12.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2015c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "Jia drew a square and divided it into three equal parts. She removed two lines to make this shape. What fraction of the perimeter of Jia's original square was removed?",
+      "imageUrl": "/questions/icas-2015-paper-c/q29.png",
+      "options": [
+        { "label": "A", "text": "2/18" },
+        { "label": "B", "text": "2/12" },
+        { "label": "C", "text": "2/10" },
+        { "label": "D", "text": "2/8" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The square's right-hand edge is naturally split into 3 equal parts by the strip divisions; removing 2 of those 3 parts removes 2 of the 12 equal segments making up the whole perimeter.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2015c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "Senin made this number pattern: 2, 5, 11, 23, 47, ?. What is the next number in his pattern?",
+      "options": [
+        { "label": "A", "text": "95" },
+        { "label": "B", "text": "83" },
+        { "label": "C", "text": "71" },
+        { "label": "D", "text": "69" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Each number is double the previous number plus 1: 47 × 2 + 1 = 95.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2015c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "The cube and square pyramid shown have the same height and base. The volume of the cube is three times the volume of the pyramid. Mia has a cube and a square pyramid with the same base, but the cube is twice as high as the pyramid. How many times greater than the volume of Mia's pyramid is the volume of Mia's cube?",
+      "imageUrl": "/questions/icas-2015-paper-c/q31-1.png",
+      "optionsImageUrl": "/questions/icas-2015-paper-c/q31-2.png",
+      "options": [
+        { "label": "A", "text": "8" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "4" },
+        { "label": "D", "text": "2" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "With base area A and pyramid height h, the pyramid's volume is (1/3)Ah. Mia's cube-shaped box has height 2h, so its volume is 2Ah — that's 6 times the pyramid's volume.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2015c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "Aditya had this tangled piece of wool. He cut the wool into 7 pieces using one straight cut. Which of the following diagrams shows the path Aditya took to cut the wool?",
+      "imageUrl": "/questions/icas-2015-paper-c/q32.png",
+      "optionsImageUrl": "/questions/icas-2015-paper-c/q32o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A single straight cut needs to cross the wool exactly 7 times to create 7 pieces — option C's line crosses the strand 7 times, more than any of the other paths.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2015c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "Ravi used a balance to compare the masses of some objects: a yellow cylinder is lighter than a blue pentagon; a red oval plus a yellow cylinder is heavier than two yellow cylinders (so the red oval is heavier than one yellow cylinder); a yellow cylinder plus a blue pentagon is lighter than two red ovals. Which of the following must be true?",
+      "imageUrl": "/questions/icas-2015-paper-c/q33.png",
+      "optionsImageUrl": "/questions/icas-2015-paper-c/q33o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Since the red oval is heavier than one yellow cylinder, and the blue pentagon is also heavier than one yellow cylinder, their combined weight must be heavier than two yellow cylinders.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2015c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "The green square and red triangle represent different digits. 4[green][red] − 400 = 400 − [green][red]4. What is the value of the green square?",
+      "options": [
+        { "label": "A", "text": "1" },
+        { "label": "B", "text": "2" },
+        { "label": "C", "text": "3" },
+        { "label": "D", "text": "6" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Writing the equation as (400+10g+r)−400 = 400−(100g+10r+4) simplifies to 110g+11r=396, so 10g+r=36, giving g=3 and r=6.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2015c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "Today, Jackie's bean plant has 10 leaves. Jackie's bean plant grows 2 new leaves every 3 days and loses none. How many more days will it be before her plant has 40 leaves?",
+      "imageUrl": "/questions/icas-2015-paper-c/q35.png",
+      "options": [
+        { "label": "A", "text": "60" },
+        { "label": "B", "text": "45" },
+        { "label": "C", "text": "27" },
+        { "label": "D", "text": "20" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The plant needs 30 more leaves, at a rate of 2 leaves per 3 days: 30 ÷ 2 × 3 = 45 days.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2015c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "prompt": "There were four boys in a running race. Raul and Ali beat Bill. Faisal was beaten by Ali but beat Bill. Raul beat Faisal but was beaten by Ali. Which of these is the correct finishing order?",
+      "options": [
+        { "label": "A", "text": "Raul, Ali, Bill, Faisal" },
+        { "label": "B", "text": "Faisal, Ali, Raul, Bill" },
+        { "label": "C", "text": "Bill, Raul, Ali, Faisal" },
+        { "label": "D", "text": "Ali, Raul, Faisal, Bill" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Ali beats everyone, Raul beats Faisal, and Faisal beats Bill, giving the order Ali, Raul, Faisal, Bill.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2015c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "prompt": "Ann, Sasi, Lin and Mia went to a fair. Ann had $5 and spent $3.50. Sasi had $10 and spent $7.50. Lin had $15 and spent $10.50. Mia had $20 and spent $10. Which girl spent the largest fraction of the money she had?",
+      "options": [
+        { "label": "A", "text": "Ann" },
+        { "label": "B", "text": "Sasi" },
+        { "label": "C", "text": "Lin" },
+        { "label": "D", "text": "Mia" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ann spent 3.5/5 = 0.7, Sasi spent 7.5/10 = 0.75, Lin spent 10.5/15 = 0.7, Mia spent 10/20 = 0.5. Sasi's fraction is the largest.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2015c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "prompt": "Mark had a 10 metre length of ribbon. He kept folding the ribbon in half as shown. Mark stopped as soon as it measured less than 10 centimetres. How many layers of ribbon did he have?",
+      "imageUrl": "/questions/icas-2015-paper-c/q38.png",
+      "options": [
+        { "label": "A", "text": "128" },
+        { "label": "B", "text": "64" },
+        { "label": "C", "text": "14" },
+        { "label": "D", "text": "7" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "10 m = 1000 cm. Halving repeatedly: 500, 250, 125, 62.5, 31.25, 15.625, 7.8125 cm — the 7th fold, giving 2^7 = 128 layers.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2015c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "prompt": "Paul had a square piece of paper. He cut out a rectangle from the paper that was 4 centimetres by 9 centimetres. The area of the left over paper was 108 square centimetres. What was the length of the sides of Paul's original square?",
+      "options": [
+        { "label": "A", "text": "9 centimetres" },
+        { "label": "B", "text": "11 centimetres" },
+        { "label": "C", "text": "12 centimetres" },
+        { "label": "D", "text": "13 centimetres" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The rectangle cut out was 4 × 9 = 36 cm². Original area = 108 + 36 = 144 cm², so the side length is √144 = 12 cm.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2015c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "prompt": "Cai made this solid with 16 cubes. How many faces of these cubes are on the outside of this solid, including the base?",
+      "imageUrl": "/questions/icas-2015-paper-c/q40.png",
+      "options": [
+        { "label": "A", "text": "56" },
+        { "label": "B", "text": "52" },
+        { "label": "C", "text": "50" },
+        { "label": "D", "text": "44" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "16 cubes have 96 faces in total; the touching faces between adjacent cubes in this stepped arrangement hide 52 faces, leaving 44 visible on the outside.",
+      "topic": "Space & Geometry"
+    }
+  ]
+}
