@@ -35,30 +35,28 @@ function resolveLocation(pathname: string): {
       };
     }
 
-    if (segments[1] === "icas") {
-      if (segments.length === 2) {
-        return {
-          profileSlug: directProfile.slug,
-          profileName: directProfile.name,
-          section: "ICAS",
-          pageLabel: "Choosing a paper",
-          isLiveExamPage: false,
-        };
-      }
+    if (segments[1] === "icas" && segments.length === 2) {
+      return {
+        profileSlug: directProfile.slug,
+        profileName: directProfile.name,
+        section: "ICAS",
+        pageLabel: "Choosing a paper",
+        isLiveExamPage: false,
+      };
+    }
 
-      if (segments[2] === "exam" && segments[3]) {
-        const paper = getPaperById(segments[3]);
-        const isAttemptReview = segments[4] === "attempt";
-        return {
-          profileSlug: directProfile.slug,
-          profileName: directProfile.name,
-          section: "ICAS",
-          pageLabel: isAttemptReview
-            ? `Reviewing results — ${paper?.title ?? segments[3]}`
-            : (paper?.title ?? segments[3]),
-          isLiveExamPage: !isAttemptReview,
-        };
-      }
+    if (segments[1] === "exam" && segments[2]) {
+      const paper = getPaperById(segments[2]);
+      const isAttemptReview = segments[3] === "attempt";
+      return {
+        profileSlug: directProfile.slug,
+        profileName: directProfile.name,
+        section: "ICAS",
+        pageLabel: isAttemptReview
+          ? `Reviewing results — ${paper?.title ?? segments[2]}`
+          : (paper?.title ?? segments[2]),
+        isLiveExamPage: !isAttemptReview,
+      };
     }
 
     return {

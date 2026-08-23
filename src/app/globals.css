@@ -53,6 +53,52 @@ body.exam-focus header {
   display: none;
 }
 
+/* Question-change transition, used for both swipe navigation and the
+   Previous/Next buttons — direction matches how the content "arrives". */
+@keyframes question-enter-forward {
+  from {
+    opacity: 0;
+    transform: translateX(24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes question-enter-backward {
+  from {
+    opacity: 0;
+    transform: translateX(-24px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.question-enter-forward {
+  animation: question-enter-forward 180ms ease-out;
+}
+
+.question-enter-backward {
+  animation: question-enter-backward 180ms ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .question-enter-forward,
+  .question-enter-backward {
+    animation: none;
+  }
+}
+
+/* Prevent iOS Safari's double-tap-to-zoom while answering, without
+   disabling pinch-zoom entirely. */
+.question-image,
+button {
+  touch-action: manipulation;
+}
+
 @media print {
   .no-print {
     display: none !important;

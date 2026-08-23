@@ -26,7 +26,9 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
   const [secondsLeft, setSecondsLeft] = useState(paper.timeLimitMinutes * 60);
   const [result, setResult] = useState<AttemptResult | null>(null);
   const [reviewMode, setReviewMode] = useState(false);
+  const [direction, setDirection] = useState<1 | -1>(1);
   const startTimeRef = useRef<number | null>(null);
+  const touchStartRef = useRef<{ x: number; y: number } | null>(null);
 
   const finishExam = useCallback(() => {
     const elapsed = startTimeRef.current
@@ -129,6 +131,59 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
     setAnswers((prev) => ({ ...prev, [currentQuestion.id]: value }));
   };
 
+  const goToIndex = (index: number) => {
+    const clamped = Math.max(0, Math.min(paper.questions.length - 1, index));
+    if (clamped === currentIndex) return;
+    setDirection(clamped > currentIndex ? 1 : -1);
+    setCurrentIndex(clamped);
+  };
+
+  // Keyboard shortcuts: arrows/J/K to move, 1-4 or A-D to pick an answer.
+  useEffect(() => {
+    if (status !== "in_progress") return;
+    const handler = (e: KeyboardEvent) => {
+      const target = e.target as HTMLElement | null;
+      if (target && (target.tagName === "INPUT" || target.tagName === "TEXTAREA")) return;
+      if (e.metaKey || e.ctrlKey || e.altKey) return;
+
+      const key = e.key.toLowerCase();
+      if (key === "arrowright" || key === "j") {
+        e.preventDefault();
+        goToIndex(currentIndex + 1);
+      } else if (key === "arrowleft" || key === "k") {
+        e.preventDefault();
+        goToIndex(currentIndex - 1);
+      } else if (currentQuestion.type === "multiple_choice" && currentQuestion.options) {
+        const numIdx = ["1", "2", "3", "4"].indexOf(key);
+        const letterIdx = ["a", "b", "c", "d"].indexOf(key);
+        const pick = numIdx !== -1 ? numIdx : letterIdx;
+        const option = pick !== -1 ? currentQuestion.options[pick] : undefined;
+        if (option) selectAnswer(option.label);
+      }
+    };
+    window.addEventListener("keydown", handler);
+    return () => window.removeEventListener("keydown", handler);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [status, currentIndex, currentQuestion]);
+
+  // Touch swipe: swipe left for next, swipe right for previous.
+  const handleTouchStart = (e: React.TouchEvent) => {
+    if ((e.target as HTMLElement).tagName === "INPUT") return;
+    const t = e.touches[0];
+    touchStartRef.current = { x: t.clientX, y: t.clientY };
+  };
+
+  const handleTouchEnd = (e: React.TouchEvent) => {
+    const start = touchStartRef.current;
+    touchStartRef.current = null;
+    if (!start) return;
+    const t = e.changedTouches[0];
+    const dx = t.clientX - start.x;
+    const dy = t.clientY - start.y;
+    if (Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
+    goToIndex(dx < 0 ? currentIndex + 1 : currentIndex - 1);
+  };
+
   if (status === "intro") {
     return (
       <div className="flex flex-col gap-6 max-w-xl">
@@ -206,7 +261,14 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
         </div>
       </div>
 
-      <div className="rounded-lg border border-border p-5 flex flex-col gap-4">
+      <div
+        key={currentQuestion.id}
+        onTouchStart={handleTouchStart}
+        onTouchEnd={handleTouchEnd}
+        className={`rounded-lg border border-border p-5 flex flex-col gap-4 ${
+          direction === 1 ? "question-enter-forward" : "question-enter-backward"
+        }`}
+      >
         <QuestionBody question={currentQuestion} />
 
         {currentQuestion.type === "multiple_choice" && currentQuestion.options && (
@@ -259,7 +321,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
 
       <div className="flex items-center justify-between">
         <button
-          onClick={() => setCurrentIndex((i) => Math.max(0, i - 1))}
+          onClick={() => goToIndex(currentIndex - 1)}
           disabled={currentIndex === 0}
           className="rounded-full border border-border px-4 py-2 disabled:opacity-40"
         >
@@ -267,7 +329,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
         </button>
 
         <button
-          onClick={() => setCurrentIndex((i) => Math.min(paper.questions.length - 1, i + 1))}
+          onClick={() => goToIndex(currentIndex + 1)}
           disabled={currentIndex === paper.questions.length - 1}
           className="rounded-full border border-border px-4 py-2 disabled:opacity-40"
         >
@@ -286,8 +348,8 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
             return (
               <button
                 key={q.id}
-                onClick={() => setCurrentIndex(i)}
-                className={`h-8 w-8 text-xs rounded border flex items-center justify-center transition-colors ${
+                onClick={() => goToIndex(i)}
+                className={`h-11 w-11 text-sm rounded border flex items-center justify-center transition-colors ${
                   isCurrent
                     ? "border-accent bg-accent text-background"
                     : answered
