@@ -23,10 +23,12 @@ export function isAnswerCorrect(userAnswer: string | null, question: Paper["ques
 export function scoreAttempt(
   paper: Paper,
   answers: Record<string, string | null>,
-  timeTakenSeconds: number
+  timeTakenSeconds: number,
+  questionTimeSpent?: Record<string, number>
 ): AttemptResult {
   const questionResults: QuestionResult[] = paper.questions.map((q) => {
     const userAnswer = answers[q.id] ?? null;
+    const timeSpentSeconds = questionTimeSpent?.[q.id];
     return {
       questionId: q.id,
       questionNumber: q.number,
@@ -34,6 +36,7 @@ export function scoreAttempt(
       correctAnswer: q.correctAnswer,
       isCorrect: isAnswerCorrect(userAnswer, q),
       topic: q.topic,
+      ...(timeSpentSeconds !== undefined ? { timeSpentSeconds: Math.round(timeSpentSeconds) } : {}),
     };
   });
 
@@ -41,10 +44,16 @@ export function scoreAttempt(
 
   const categoryBreakdown: CategoryBreakdown[] = TOPIC_ORDER.map((topic) => {
     const inTopic = questionResults.filter((r) => r.topic === topic);
+    const timed = inTopic.filter((r) => typeof r.timeSpentSeconds === "number");
+    const avgTimeSeconds =
+      timed.length > 0
+        ? Math.round(timed.reduce((sum, r) => sum + (r.timeSpentSeconds ?? 0), 0) / timed.length)
+        : undefined;
     return {
       topic,
       correct: inTopic.filter((r) => r.isCorrect).length,
       total: inTopic.length,
+      ...(avgTimeSeconds !== undefined ? { avgTimeSeconds } : {}),
     };
   }).filter((c) => c.total > 0);
 

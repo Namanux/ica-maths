@@ -54,6 +54,97 @@ function QuestionMap({
   );
 }
 
+function TimePerQuestion({
+  result,
+  onOpenQuestion,
+}: {
+  result: AttemptResult;
+  onOpenQuestion: (i: number) => void;
+}) {
+  const timed = result.questionResults
+    .filter((r) => typeof r.timeSpentSeconds === "number")
+    .slice()
+    .sort((a, b) => (b.timeSpentSeconds ?? 0) - (a.timeSpentSeconds ?? 0));
+
+  if (timed.length === 0) return null;
+
+  const maxTime = Math.max(...timed.map((r) => r.timeSpentSeconds ?? 0), 1);
+  const avgTime =
+    timed.reduce((sum, r) => sum + (r.timeSpentSeconds ?? 0), 0) / timed.length;
+
+  return (
+    <div className="flex flex-col gap-4">
+      <div>
+        <h2 className="text-xs font-semibold tracking-wide uppercase text-muted">
+          Time per question
+        </h2>
+        <p className="text-xs text-muted mt-1">
+          Slowest first — a good place to spend extra time helping.
+        </p>
+      </div>
+      <div className="flex flex-col gap-2">
+        {timed.map((r) => {
+          const t = r.timeSpentSeconds ?? 0;
+          const pct = Math.round((t / maxTime) * 100);
+          const struggled = t > avgTime * 1.5;
+          const barColor = r.isCorrect ? "var(--correct)" : "var(--incorrect)";
+          return (
+            <button
+              key={r.questionId}
+              onClick={() => onOpenQuestion(r.questionNumber - 1)}
+              className="flex items-center gap-3 text-left hover:opacity-80 transition-opacity"
+            >
+              <span className="text-xs font-mono text-muted w-6 shrink-0">
+                Q{r.questionNumber}
+              </span>
+              <div className="flex-1 h-4 rounded-full bg-surface overflow-hidden">
+                <div
+                  className="h-full rounded-full"
+                  style={{ width: `${Math.max(pct, 4)}%`, backgroundColor: barColor, opacity: 0.6 }}
+                />
+              </div>
+              <span className="text-xs font-mono text-muted w-12 shrink-0 text-right">
+                {formatDuration(Math.round(t))}
+              </span>
+              {struggled && (
+                <span
+                  className="text-[10px] font-medium px-1.5 py-0.5 rounded-full shrink-0"
+                  style={{ color: "var(--incorrect)", border: "1px solid var(--incorrect)" }}
+                >
+                  Slow
+                </span>
+              )}
+            </button>
+          );
+        })}
+      </div>
+    </div>
+  );
+}
+
+function CategorySpeedSummary({
+  categoryBreakdown,
+}: {
+  categoryBreakdown: AttemptResult["categoryBreakdown"];
+}) {
+  const timed = categoryBreakdown.filter((c) => typeof c.avgTimeSeconds === "number");
+  if (timed.length < 2) return null;
+
+  const sorted = timed.slice().sort((a, b) => (a.avgTimeSeconds ?? 0) - (b.avgTimeSeconds ?? 0));
+  const fastest = sorted[0];
+  const slowest = sorted[sorted.length - 1];
+  if (fastest.topic === slowest.topic) return null;
+
+  return (
+    <p className="text-xs text-muted mt-1">
+      Fastest: <span className="font-medium">{fastest.topic}</span> (
+      {formatDuration(fastest.avgTimeSeconds ?? 0)}/question) · Slowest:{" "}
+      <span className="font-medium">{slowest.topic}</span> (
+      {formatDuration(slowest.avgTimeSeconds ?? 0)}/question)
+    </p>
+  );
+}
+
 export interface ResultsPanelProps {
   paper: Paper;
   result: AttemptResult;
@@ -218,11 +309,16 @@ function ResultsView({
         </div>
       </div>
 
+      <TimePerQuestion result={result} onOpenQuestion={onOpenQuestion} />
+
       {result.categoryBreakdown.length > 0 && (
         <div className="flex flex-col gap-4">
-          <h2 className="text-xs font-semibold tracking-wide uppercase text-muted">
-            By Category
-          </h2>
+          <div>
+            <h2 className="text-xs font-semibold tracking-wide uppercase text-muted">
+              By Category
+            </h2>
+            <CategorySpeedSummary categoryBreakdown={result.categoryBreakdown} />
+          </div>
           <div className="flex flex-col gap-3">
             {result.categoryBreakdown.map((c) => {
               const pct = c.total > 0 ? Math.round((c.correct / c.total) * 100) : 0;
@@ -230,8 +326,13 @@ function ResultsView({
                 <div key={c.topic} className="flex flex-col gap-1.5">
                   <div className="flex items-center justify-between gap-2">
                     <TopicBadge topic={c.topic} />
-                    <span className="text-sm text-muted">
-                      {c.correct}/{c.total} correct
+                    <span className="text-sm text-muted flex items-center gap-2">
+                      {typeof c.avgTimeSeconds === "number" && (
+                        <span className="font-mono text-xs">
+                          {formatDuration(c.avgTimeSeconds)}/question
+                        </span>
+                      )}
+                      <span>{c.correct}/{c.total} correct</span>
                     </span>
                   </div>
                   <div className="h-1.5 rounded-full bg-surface overflow-hidden">
@@ -315,14 +416,21 @@ function ReviewQuestionView({
           qr.isCorrect ? "border-border" : "border-incorrect"
         }`}
       >
-        <div className="flex items-center justify-between">
+        <div className="flex items-center justify-between gap-3">
           {question.topic && <TopicBadge topic={question.topic} />}
-          <span
-            className="text-sm font-semibold"
-            style={{ color: qr.isCorrect ? "var(--correct)" : "var(--incorrect)" }}
-          >
-            {qr.isCorrect ? "Correct" : qr.userAnswer ? "Incorrect" : "Not answered"}
-          </span>
+          <div className="flex items-center gap-3">
+            {typeof qr.timeSpentSeconds === "number" && (
+              <span className="text-xs font-mono text-muted">
+                {formatDuration(Math.round(qr.timeSpentSeconds))}
+              </span>
+            )}
+            <span
+              className="text-sm font-semibold"
+              style={{ color: qr.isCorrect ? "var(--correct)" : "var(--incorrect)" }}
+            >
+              {qr.isCorrect ? "Correct" : qr.userAnswer ? "Incorrect" : "Not answered"}
+            </span>
+          </div>
         </div>
 
         <QuestionBody question={question} />

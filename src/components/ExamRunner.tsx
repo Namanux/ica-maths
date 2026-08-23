@@ -29,16 +29,26 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
   const [direction, setDirection] = useState<1 | -1>(1);
   const startTimeRef = useRef<number | null>(null);
   const touchStartRef = useRef<{ x: number; y: number } | null>(null);
+  const questionTimeRef = useRef<Record<string, number>>({});
+  // Reset in startExam/resetAll before it's ever read — the initial value is never used.
+  const questionEnteredAtRef = useRef<number>(0);
+
+  const flushQuestionTime = useCallback((questionId: string) => {
+    const elapsed = (Date.now() - questionEnteredAtRef.current) / 1000;
+    questionTimeRef.current[questionId] = (questionTimeRef.current[questionId] ?? 0) + elapsed;
+    questionEnteredAtRef.current = Date.now();
+  }, []);
 
   const finishExam = useCallback(() => {
+    if (status === "in_progress") flushQuestionTime(paper.questions[currentIndex].id);
     const elapsed = startTimeRef.current
       ? Math.round((Date.now() - startTimeRef.current) / 1000)
       : paper.timeLimitMinutes * 60 - secondsLeft;
-    const attempt = scoreAttempt(paper, answers, elapsed);
+    const attempt = scoreAttempt(paper, answers, elapsed, questionTimeRef.current);
     setResult(attempt);
     setStatus("finished");
     void saveAttempt({ ...attempt, paperTitle: paper.title, profileSlug });
-  }, [answers, paper, secondsLeft, profileSlug]);
+  }, [status, currentIndex, answers, paper, secondsLeft, profileSlug, flushQuestionTime]);
 
   useEffect(() => {
     if (status !== "in_progress" || reviewMode) return;
@@ -104,11 +114,14 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
 
   const startExam = (review: boolean) => {
     startTimeRef.current = Date.now();
+    questionEnteredAtRef.current = Date.now();
     setReviewMode(review);
     setStatus("in_progress");
   };
 
   const resetAll = () => {
+    questionTimeRef.current = {};
+    questionEnteredAtRef.current = Date.now();
     setAnswers({});
     setSecondsLeft(paper.timeLimitMinutes * 60);
     setResult(null);
@@ -134,6 +147,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
   const goToIndex = (index: number) => {
     const clamped = Math.max(0, Math.min(paper.questions.length - 1, index));
     if (clamped === currentIndex) return;
+    if (status === "in_progress") flushQuestionTime(currentQuestion.id);
     setDirection(clamped > currentIndex ? 1 : -1);
     setCurrentIndex(clamped);
   };

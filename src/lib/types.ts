@@ -62,6 +62,7 @@ export interface CategoryBreakdown {
   topic: string;
   correct: number;
   total: number;
+  avgTimeSeconds?: number;
 }
 
 export interface AttemptResult {
