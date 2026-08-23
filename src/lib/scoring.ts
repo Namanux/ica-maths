@@ -12,7 +12,7 @@ function normalize(value: string): string {
   return value.trim().toLowerCase();
 }
 
-function isAnswerCorrect(userAnswer: string | null, question: Paper["questions"][number]): boolean {
+export function isAnswerCorrect(userAnswer: string | null, question: Paper["questions"][number]): boolean {
   if (userAnswer === null) return false;
   const accepted = question.acceptedAnswers?.length
     ? question.acceptedAnswers

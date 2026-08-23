@@ -2,8 +2,10 @@
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import type { Paper, AttemptResult } from "@/lib/types";
-import { scoreAttempt } from "@/lib/scoring";
+import { scoreAttempt, isAnswerCorrect } from "@/lib/scoring";
 import { saveAttempt } from "@/lib/attempts";
+import { reportLiveState } from "@/lib/liveSessions";
+import { getProfile } from "@/lib/profiles";
 import { QuestionBody } from "@/components/QuestionBody";
 import { ResultsPanel } from "@/components/ResultsPanel";
 import { ReportIssueButton } from "@/components/ReportIssueButton";
@@ -50,6 +52,53 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
     document.body.classList.toggle("exam-focus", status === "in_progress");
     return () => document.body.classList.remove("exam-focus");
   }, [status]);
+
+  const secondsLeftRef = useRef(secondsLeft);
+  useEffect(() => {
+    secondsLeftRef.current = secondsLeft;
+  }, [secondsLeft]);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      const profileName = getProfile(profileSlug)?.name ?? profileSlug;
+      if (status === "intro") {
+        void reportLiveState({
+          profileSlug,
+          profileName,
+          section: "ICAS",
+          pageLabel: paper.title,
+          paperId: paper.id,
+          paperTitle: paper.title,
+          questionNumber: null,
+          totalQuestions: paper.questions.length,
+          answers: null,
+          lastAnswerLabel: null,
+          lastAnswerCorrect: null,
+          examStatus: "intro",
+          secondsLeft: null,
+        });
+        return;
+      }
+      const q = paper.questions[currentIndex];
+      const currentAnswer = answers[q.id] ?? null;
+      void reportLiveState({
+        profileSlug,
+        profileName,
+        section: "ICAS",
+        pageLabel: paper.title,
+        paperId: paper.id,
+        paperTitle: paper.title,
+        questionNumber: q.number,
+        totalQuestions: paper.questions.length,
+        answers,
+        lastAnswerLabel: currentAnswer,
+        lastAnswerCorrect: currentAnswer === null ? null : isAnswerCorrect(currentAnswer, q),
+        examStatus: status,
+        secondsLeft: reviewMode ? null : secondsLeftRef.current,
+      });
+    }, 400);
+    return () => clearTimeout(timeout);
+  }, [status, currentIndex, answers, paper, profileSlug, reviewMode]);
 
   const startExam = (review: boolean) => {
     startTimeRef.current = Date.now();

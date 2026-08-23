@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 import type { Profile } from "@/lib/profiles";
 
 export function AccountMenu({ profile }: { profile: Profile }) {
@@ -38,6 +39,16 @@ export function AccountMenu({ profile }: { profile: Profile }) {
           <div className="px-4 py-2.5 text-sm font-medium border-b border-border">
             {profile.name}
           </div>
+          {profile.role === "admin" && (
+            <Link
+              href={`/${profile.slug}/live`}
+              onClick={() => setOpen(false)}
+              className="flex items-center gap-1.5 w-full text-left px-4 py-2.5 text-sm hover:bg-surface transition-colors border-b border-border"
+            >
+              <span className="h-1.5 w-1.5 rounded-full bg-correct" aria-hidden />
+              Live activity
+            </Link>
+          )}
           <button
             onClick={signOut}
             className="w-full text-left px-4 py-2.5 text-sm hover:bg-surface transition-colors"

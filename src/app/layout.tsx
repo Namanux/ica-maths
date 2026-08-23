@@ -3,6 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/lib/theme-provider";
 import { SiteHeader } from "@/components/SiteHeader";
+import { PresenceTracker } from "@/components/PresenceTracker";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -50,6 +51,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <ThemeProvider>
+          <PresenceTracker />
           <header className="sticky top-0 z-10 border-b border-border bg-background no-print">
             <div className="mx-auto max-w-4xl px-4 py-3">
               <SiteHeader />
