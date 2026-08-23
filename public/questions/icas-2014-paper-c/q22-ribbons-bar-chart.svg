@@ -1,0 +1,22 @@
+<svg viewBox="0 0 280 220" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif" font-size="12">
+  <rect x="0" y="0" width="280" height="220" fill="#ffffff"/>
+  <line x1="40" y1="20" x2="40" y2="170" stroke="#111827" stroke-width="1.5"/>
+  <line x1="40" y1="170" x2="260" y2="170" stroke="#111827" stroke-width="1.5"/>
+  <g fill="#111827" text-anchor="end">
+    <text x="35" y="24">6</text><text x="35" y="49">5</text><text x="35" y="74">4</text>
+    <text x="35" y="99">3</text><text x="35" y="124">2</text><text x="35" y="149">1</text><text x="35" y="174">0</text>
+  </g>
+  <g stroke="#111827" stroke-width="0.4" opacity="0.3">
+    <line x1="40" y1="20" x2="260" y2="20"/><line x1="40" y1="45" x2="260" y2="45"/>
+    <line x1="40" y1="70" x2="260" y2="70"/><line x1="40" y1="95" x2="260" y2="95"/>
+    <line x1="40" y1="120" x2="260" y2="120"/><line x1="40" y1="145" x2="260" y2="145"/>
+  </g>
+  <!-- blue=4, red=5, white=3 -->
+  <rect x="60" y="70" width="45" height="100" fill="#1d4ed8" stroke="#111827" stroke-width="1"/>
+  <text x="82" y="185" text-anchor="middle" fill="#111827">blue</text>
+  <rect x="130" y="45" width="45" height="125" fill="#dc2626" stroke="#111827" stroke-width="1"/>
+  <text x="152" y="185" text-anchor="middle" fill="#111827">red</text>
+  <rect x="200" y="95" width="45" height="75" fill="#ffffff" stroke="#111827" stroke-width="1"/>
+  <text x="222" y="185" text-anchor="middle" fill="#111827">white</text>
+  <text x="150" y="205" text-anchor="middle" fill="#111827" font-size="13" font-weight="bold">Colour of ribbon</text>
+</svg>

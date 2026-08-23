@@ -140,12 +140,20 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
         <div className="text-sm text-muted">
           Question {currentQuestion.number} of {paper.questions.length} · {answeredCount} answered
         </div>
-        <div
-          className={`text-sm font-mono rounded-full px-3 py-1 border ${
-            !reviewMode && secondsLeft <= 60 ? "border-incorrect text-incorrect" : "border-border"
-          }`}
-        >
-          {reviewMode ? "No time limit" : formatTime(secondsLeft)}
+        <div className="flex items-center gap-3">
+          <div
+            className={`text-sm font-mono rounded-full px-3 py-1 border ${
+              !reviewMode && secondsLeft <= 60 ? "border-incorrect text-incorrect" : "border-border"
+            }`}
+          >
+            {reviewMode ? "No time limit" : formatTime(secondsLeft)}
+          </div>
+          <button
+            onClick={finishExam}
+            className="rounded-full bg-accent text-background px-4 py-1.5 text-sm font-medium hover:opacity-90"
+          >
+            Submit exam
+          </button>
         </div>
       </div>
 
@@ -209,21 +217,13 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
           Previous
         </button>
 
-        {currentIndex === paper.questions.length - 1 ? (
-          <button
-            onClick={finishExam}
-            className="rounded-full bg-accent text-background px-5 py-2 font-medium hover:opacity-90"
-          >
-            Submit exam
-          </button>
-        ) : (
-          <button
-            onClick={() => setCurrentIndex((i) => Math.min(paper.questions.length - 1, i + 1))}
-            className="rounded-full border border-border px-4 py-2"
-          >
-            Next
-          </button>
-        )}
+        <button
+          onClick={() => setCurrentIndex((i) => Math.min(paper.questions.length - 1, i + 1))}
+          disabled={currentIndex === paper.questions.length - 1}
+          className="rounded-full border border-border px-4 py-2 disabled:opacity-40"
+        >
+          Next
+        </button>
       </div>
 
       <div className="flex flex-col gap-2 border-t border-border pt-4">
@@ -242,7 +242,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
                   isCurrent
                     ? "border-accent bg-accent text-background"
                     : answered
-                    ? "border-border bg-surface"
+                    ? "border-border text-blue-600 dark:text-blue-400 font-semibold"
                     : "border-border"
                 }`}
               >

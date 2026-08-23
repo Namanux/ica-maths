@@ -1,0 +1,648 @@
+{
+  "id": "icas-2014-paper-c",
+  "subject": "Mathematics",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS Mathematics 2014 — Paper C",
+  "year": 2014,
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "2014c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "600 + 4000 + 3 = ?",
+      "options": [
+        { "label": "A", "text": "6403" },
+        { "label": "B", "text": "4603" },
+        { "label": "C", "text": "643" },
+        { "label": "D", "text": "463" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "600 + 4000 + 3 = 4603.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2014c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Which of these shapes has only one right angle?",
+      "imageUrl": "/questions/icas-2014-paper-c/q2-right-angle-shapes.svg",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The square in (A) has four right angles and the triangle in (B) and the quadrilateral in (D) have none — only the right triangle in (C) has exactly one right angle.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2014c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "The picture shows two shapes. About which point can the darker shape be rotated to completely cover the lighter shape?",
+      "imageUrl": "/questions/icas-2014-paper-c/q3.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Point (B) is the shared vertex the two shapes pivot around — rotating the darker shape about it turns it directly onto the lighter shape.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2014c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Treasure is hidden at a point that is 3 units to the south and 5 units to the east of the lighthouse. At which point is the treasure hidden?",
+      "imageUrl": "/questions/icas-2014-paper-c/q4.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Counting 3 grid units south and 5 grid units east from the lighthouse lands on point (D).",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2014c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Which of these has the same value as 98 − 35?",
+      "options": [
+        { "label": "A", "text": "108 − 35" },
+        { "label": "B", "text": "108 − 25" },
+        { "label": "C", "text": "100 − 37" },
+        { "label": "D", "text": "100 − 33" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "98 − 35 = 63. Adding 2 to both numbers keeps the difference the same: 100 − 37 = 63.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2014c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "A group of students voted on the theme of their end of term party. Each student voted once only. The graph shows the results. How many students voted altogether?",
+      "imageUrl": "/questions/icas-2014-paper-c/q6-party-bar-chart.svg",
+      "options": [
+        { "label": "A", "text": "105" },
+        { "label": "B", "text": "100" },
+        { "label": "C", "text": "90" },
+        { "label": "D", "text": "40" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "15 (Disco) + 30 (Pirates) + 25 (Space) + 35 (Beach) = 105 students in total.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2014c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "8806 − 2739 = ?",
+      "options": [
+        { "label": "A", "text": "6133" },
+        { "label": "B", "text": "6103" },
+        { "label": "C", "text": "6077" },
+        { "label": "D", "text": "6067" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "8806 − 2739 = 6067.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2014c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "What is the mass shown on the scale?",
+      "imageUrl": "/questions/icas-2014-paper-c/q8.png",
+      "options": [
+        { "label": "A", "text": "4.75 kilograms" },
+        { "label": "B", "text": "4.25 kilograms" },
+        { "label": "C", "text": "3.75 kilograms" },
+        { "label": "D", "text": "3.25 kilograms" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The needle points three-quarters of the way from the 3 kg mark to the 4 kg mark, so the mass is 3.75 kilograms.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2014c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Lin exercises from 6:45 am to 7:10 am every day of the week. For how long does Lin exercise each week?",
+      "options": [
+        { "label": "A", "text": "2 hours 55 minutes" },
+        { "label": "B", "text": "2 hours 15 minutes" },
+        { "label": "C", "text": "1 hour 45 minutes" },
+        { "label": "D", "text": "1 hour 25 minutes" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "6:45 am to 7:10 am is 25 minutes a day. 25 × 7 = 175 minutes = 2 hours 55 minutes.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2014c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Yara cut out a piece of cardboard and placed it near a line on grid paper. Which diagram shows Yara's piece of cardboard reflected in the line?",
+      "imageUrl": "/questions/icas-2014-paper-c/q10.png",
+      "optionsImageUrl": "/questions/icas-2014-paper-c/q10o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Reflecting the L-shape across the diagonal line flips it to the mirror-image position shown in option (D).",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2014c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Which of these values is the arrow closest to?",
+      "imageUrl": "/questions/icas-2014-paper-c/q11.png",
+      "options": [
+        { "label": "A", "text": "175" },
+        { "label": "B", "text": "220" },
+        { "label": "C", "text": "250" },
+        { "label": "D", "text": "275" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The arrow sits about two-thirds of the way from 100 to 300 on the number line, closest to 250.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2014c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "The pie graph shows the proportion of Australian people in different age groups. The graph shows that more than half of Australians are aged",
+      "imageUrl": "/questions/icas-2014-paper-c/q12.png",
+      "options": [
+        { "label": "A", "text": "under 20." },
+        { "label": "B", "text": "under 40." },
+        { "label": "C", "text": "40 and over." },
+        { "label": "D", "text": "60 and over." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The 0–19 slice plus the rest of the pie chart under 40 together cover more than half of the circle.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2014c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Leila is helping her mum to bake cakes. Each cake needs two cups of flour. For each cup of flour they need three eggs. How many eggs does Leila need to make two cakes?",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "12" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Each cake needs 2 cups × 3 eggs = 6 eggs, so two cakes need 6 × 2 = 12 eggs.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2014c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "This is a logo Jack designed. What will the logo look like after a quarter turn in a clockwise direction?",
+      "imageUrl": "/questions/icas-2014-paper-c/q14.png",
+      "optionsImageUrl": "/questions/icas-2014-paper-c/q14o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Turning the P a quarter turn clockwise rotates its curve to face downward, matching option (D).",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2014c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Kieren mixed orange juice and berry juice to make a fruit drink. He had three containers of orange juice, filled to 250 mL, 250 mL and 100 mL. The amount of berry juice he added was one-quarter of the total orange juice he had. Which of these shows the amount of berry juice Kieren added?",
+      "imageUrl": "/questions/icas-2014-paper-c/q15.png",
+      "optionsImageUrl": "/questions/icas-2014-paper-c/q15o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Kieren's orange juice totals 250 + 250 + 100 = 600 mL. One-quarter of 600 mL is 150 mL, the single jug shown in option (B).",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2014c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Jill has 22 marbles. Pete has 46 marbles. They are going to play a game where they need to have the same number of marbles. Pete gave some of his marbles to Jill. How many of his marbles did Pete give to Jill?",
+      "options": [
+        { "label": "A", "text": "34" },
+        { "label": "B", "text": "24" },
+        { "label": "C", "text": "23" },
+        { "label": "D", "text": "12" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Together they have 22 + 46 = 68 marbles, so each needs 34. Pete must give 46 − 34 = 12 marbles to Jill.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2014c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "All the times shown on these clocks were on the same day. Clock L reads 03:30 AM, clock M reads 16:15, clock N reads 04:30 PM, and clock O reads 13:20. What is the order of the clocks from the earliest time to the latest time?",
+      "imageUrl": "/questions/icas-2014-paper-c/q17-clock-displays.svg",
+      "options": [
+        { "label": "A", "text": "L, O, M, N" },
+        { "label": "B", "text": "L, N, O, M" },
+        { "label": "C", "text": "L, O, N, M" },
+        { "label": "D", "text": "L, N, M, O" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Converting to 24-hour time: L = 03:30, O = 13:20, M = 16:15, N = 16:30 — so the order is L, O, M, N.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2014c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "This fabric is being measured by a ruler that is marked in millimetres. Which of these is closest to the length of the fabric?",
+      "imageUrl": "/questions/icas-2014-paper-c/q18.png",
+      "options": [
+        { "label": "A", "text": "70 millimetres" },
+        { "label": "B", "text": "75 millimetres" },
+        { "label": "C", "text": "82 millimetres" },
+        { "label": "D", "text": "182 millimetres" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The starred fabric spans from about the 0 mark to the 75 mm mark on the ruler.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2014c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "At the beginning of January Sally's hair had grown to 10 centimetres below her shoulders. Each month Sally's hair grew 12.5 millimetres. How far below her shoulders was Sally's hair at the end of December?",
+      "options": [
+        { "label": "A", "text": "150 millimetres" },
+        { "label": "B", "text": "154.5 millimetres" },
+        { "label": "C", "text": "160 millimetres" },
+        { "label": "D", "text": "250 millimetres" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "10 cm = 100 mm to start. Over 12 months her hair grows 12.5 × 12 = 150 mm more, so 100 + 150 = 250 mm below her shoulders.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2014c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "Natalia made a model using cubes. She drew the front view and the top view of the model. Which of these could be Natalia's model?",
+      "imageUrl": "/questions/icas-2014-paper-c/q20.png",
+      "optionsImageUrl": "/questions/icas-2014-paper-c/q20o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Only the model in option (A) produces both the tall right-hand column front view and the matching top view shown.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2014c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "In a small wildlife park, one-quarter of the animals are snakes and the rest are lizards or birds. There are 70 snakes in the wildlife park. How many lizards and birds are there?",
+      "options": [
+        { "label": "A", "text": "70" },
+        { "label": "B", "text": "140" },
+        { "label": "C", "text": "210" },
+        { "label": "D", "text": "280" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "If 70 snakes make up one-quarter of the animals, there are 280 animals in total, so 280 − 70 = 210 are lizards or birds.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2014c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "At Sam's school, points and ribbons are awarded for the first three places in each round of a Maths Challenge: a blue ribbon is worth 3 points, a red ribbon is worth 2 points, and a white ribbon is worth 1 point. This graph shows the number of ribbons Year 4 won in the Maths Challenge. What was the total number of points won by Year 4?",
+      "imageUrl": "/questions/icas-2014-paper-c/q22-ribbons-bar-chart.svg",
+      "options": [
+        { "label": "A", "text": "5" },
+        { "label": "B", "text": "12" },
+        { "label": "C", "text": "23" },
+        { "label": "D", "text": "25" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Year 4 won 4 blue, 5 red and 3 white ribbons: (4 × 3) + (5 × 2) + (3 × 1) = 12 + 10 + 3 = 25 points.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2014c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "This is a model of a 3D object made by folding paper, shown from the top and from the side. How many faces does the 3D object have?",
+      "imageUrl": "/questions/icas-2014-paper-c/q23.png",
+      "options": [
+        { "label": "A", "text": "12" },
+        { "label": "B", "text": "24" },
+        { "label": "C", "text": "48" },
+        { "label": "D", "text": "60" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Each point of the folded star is made from several small triangular facets rather than one flat face; counting every facet visible from the top and the side gives 48 faces in total.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2014c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "This picture shows two bins for waste when viewed from the south. What do the bins look like viewed from the east?",
+      "imageUrl": "/questions/icas-2014-paper-c/q24.png",
+      "optionsImageUrl": "/questions/icas-2014-paper-c/q24o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "From the east the litter bin lines up directly in front of the recycling bin, hiding it, so only a single plain bin is visible, as in option (A).",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2014c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "This number line has equal intervals marked. What value is indicated by the arrow?",
+      "imageUrl": "/questions/icas-2014-paper-c/q25.png",
+      "options": [
+        { "label": "A", "text": "0.30" },
+        { "label": "B", "text": "0.20" },
+        { "label": "C", "text": "0.17" },
+        { "label": "D", "text": "0.15" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The marked intervals go up in steps of 0.05 from 0.10 to 0.25, and the arrow points to the third mark, 0.20.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2014c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "Using the ruler in the picture, how much taller than Tala is Adam?",
+      "imageUrl": "/questions/icas-2014-paper-c/q26.png",
+      "options": [
+        { "label": "A", "text": "2 centimetres" },
+        { "label": "B", "text": "20 centimetres" },
+        { "label": "C", "text": "2 metres" },
+        { "label": "D", "text": "20 metres" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Adam's mark is 20 centimetres above Tala's mark on the height chart.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2014c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "Mr Zheng chose two whole numbers greater than zero. He gave his students three clues to guess the numbers: if you add the numbers, the answer is 16; if you multiply the numbers, the answer is less than 62; the first number is smaller than the second number. How many different pairs of numbers could he have chosen?",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "7" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The pairs adding to 16 with the first number smaller are (1,15), (2,14), (3,13), (4,12), (5,11), (6,10) and (7,9). Only (7,9) has a product of 63, which is not less than 62, so it is excluded — leaving 6 valid pairs.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2014c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "Angus sells smoothies. Customers choose a size, a base flavour and a fruit. Their choices are: size — large or small; base — chocolate, vanilla or caramel; fruit — strawberry, banana or pineapple. Angus never sells the following combinations in either size: chocolate with pineapple, caramel with strawberry, caramel with pineapple. How many different types of smoothies does Angus sell?",
+      "options": [
+        { "label": "A", "text": "12" },
+        { "label": "B", "text": "13" },
+        { "label": "C", "text": "15" },
+        { "label": "D", "text": "18" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "With 3 bases and 3 fruits there are 9 base-fruit combinations, minus the 3 banned ones leaves 6 allowed combinations, each available in 2 sizes: 6 × 2 = 12.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2014c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "George is saving money to buy a new skateboard. In the first month he saved $12. Every month after the first he saved $2 more than the month before. How much money did George save in total in 5 months?",
+      "options": [
+        { "label": "A", "text": "$20" },
+        { "label": "B", "text": "$60" },
+        { "label": "C", "text": "$70" },
+        { "label": "D", "text": "$80" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "George saved $12, $14, $16, $18 and $20 across the 5 months, which totals $80.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2014c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "Gary's height is 146 centimetres. Susan's height is 132 centimetres. Billy's height is exactly halfway between Gary's height and Susan's height. What is Billy's height?",
+      "options": [
+        { "label": "A", "text": "153 centimetres" },
+        { "label": "B", "text": "144 centimetres" },
+        { "label": "C", "text": "139 centimetres" },
+        { "label": "D", "text": "138 centimetres" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The halfway point is (146 + 132) ÷ 2 = 139 centimetres.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2014c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "Here are the first five shapes in a pattern: a black square with two circles attached, where the circles' corners change position each step. Which of these is shape 16 in the pattern?",
+      "imageUrl": "/questions/icas-2014-paper-c/q31.png",
+      "optionsImageUrl": "/questions/icas-2014-paper-c/q31o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The circle positions cycle every 4 shapes. Since 16 is a multiple of 4, shape 16 has the same arrangement as shape 4, shown in option (D).",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2014c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "Jess thought of a 2-digit number. The product of the digits of the number is equal to double the sum of the digits of the number. Which of the following could be the number Jess thought of?",
+      "options": [
+        { "label": "A", "text": "11" },
+        { "label": "B", "text": "22" },
+        { "label": "C", "text": "36" },
+        { "label": "D", "text": "42" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "For 36: digits 3 and 6 have product 18 and sum 9, and 18 is double 9.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2014c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "Sana made birthday and wedding cards. Each birthday card had three stars and four flowers. Each wedding card had five stars and three flowers. Sana had 101 stars. She made twelve birthday cards. She used the remaining stars to make wedding cards. How many flowers did she need to make all the birthday cards and wedding cards?",
+      "options": [
+        { "label": "A", "text": "87" },
+        { "label": "B", "text": "84" },
+        { "label": "C", "text": "48" },
+        { "label": "D", "text": "39" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "12 birthday cards use 12 × 3 = 36 stars, leaving 101 − 36 = 65 stars for wedding cards, which is 65 ÷ 5 = 13 wedding cards. Flowers needed: (12 × 4) + (13 × 3) = 48 + 39 = 87.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2014c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "Five students made 114 cupcakes to sell at school. This table shows some of the information about the number of cupcakes each student made, using a picture key where each icon represents 12 cupcakes: Marcia made 18, Jen made 24, and Nathan made 24. Jacob made eight more cupcakes than Rachel. How many cupcakes did Jacob make?",
+      "imageUrl": "/questions/icas-2014-paper-c/q34.png",
+      "options": [
+        { "label": "A", "text": "20" },
+        { "label": "B", "text": "24" },
+        { "label": "C", "text": "28" },
+        { "label": "D", "text": "32" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Marcia, Jen and Nathan made 18 + 24 + 24 = 66 cupcakes, leaving 114 − 66 = 48 for Jacob and Rachel together. Since Jacob made 8 more than Rachel, Rachel made 20 and Jacob made 28.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2014c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "Mike makes advertising signs. The length is always twice the height. This picture shows the most popular size, 6 metres by 3 metres. A customer wants Mike to make a sign with a perimeter of 42 metres. What are the dimensions of this sign?",
+      "imageUrl": "/questions/icas-2014-paper-c/q35.png",
+      "options": [
+        { "label": "A", "text": "5 metres and 16 metres" },
+        { "label": "B", "text": "7 metres and 14 metres" },
+        { "label": "C", "text": "6 metres and 7 metres" },
+        { "label": "D", "text": "14 metres and 28 metres" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If the height is h, the length is 2h, so the perimeter is 2(h + 2h) = 6h = 42, giving h = 7 and length = 14 metres.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2014c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "prompt": "Annie's bag has a lock with a 4-digit code. This code is the greatest 4-digit number which leaves a remainder of 1 when divided by each of the numbers 2, 3, 4, 5, 6 or 7. Which of these is the code number of Annie's lock?",
+      "options": [
+        { "label": "A", "text": "9995" },
+        { "label": "B", "text": "9991" },
+        { "label": "C", "text": "9661" },
+        { "label": "D", "text": "9660" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A number leaving remainder 1 when divided by 2, 3, 4, 5, 6 and 7 is 1 more than a multiple of their LCM, 420. The greatest 4-digit multiple of 420 is 420 × 23 = 9660, so the code is 9660 + 1 = 9661.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2014c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "prompt": "Abi has three kinds of tiles: blue, white and red. Each kind of tile is a rhombus. Tiles that are the same colour are identical. Abi made two patterns with her tiles, shown fitting together around a point with no overlaps. How many white tiles would fit around a point without overlaps?",
+      "imageUrl": "/questions/icas-2014-paper-c/q37.png",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "8" },
+        { "label": "C", "text": "9" },
+        { "label": "D", "text": "10" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The angles around a point add to 360°. Working out the white rhombus's angle from the patterns shown gives 45°, and 360° ÷ 45° = 8 tiles.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2014c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "prompt": "Mike made a design of four triangles along a 40 cm base, each with a height of 8 cm (not to scale). What is the total coloured area of the design, in cm²?",
+      "imageUrl": "/questions/icas-2014-paper-c/q38.png",
+      "options": [
+        { "label": "A", "text": "80" },
+        { "label": "B", "text": "96" },
+        { "label": "C", "text": "160" },
+        { "label": "D", "text": "320" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The four triangle bases share the 40 cm length, so each base is 10 cm. Each triangle's area is ½ × 10 × 8 = 40 cm², and 4 × 40 = 160 cm².",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2014c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "prompt": "Mr Jones uses a 500 millilitre spray bottle of cleaner. Each evening he cleans his kitchen bench using two sprays from the bottle. Each spray delivers 4 millilitres of cleaner. Mr Jones opened a new bottle of cleaner on 12 April. On which of these dates will this bottle of cleaner become empty?",
+      "options": [
+        { "label": "A", "text": "12 June" },
+        { "label": "B", "text": "13 June" },
+        { "label": "C", "text": "14 August" },
+        { "label": "D", "text": "15 August" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Each evening uses 2 × 4 = 8 mL, so the 500 mL bottle lasts 500 ÷ 8 = 62.5 evenings — it runs out partway through the 63rd evening after opening, which counting on from 12 April falls on 13 June.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2014c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "prompt": "Four luggage bags were weighed together in different combinations, shown in the table. What was the total mass of bag 1 and bag 3?",
+      "table": {
+        "headers": ["Bags", "Total mass (kilograms)"],
+        "rows": [
+          ["bag 1, bag 2, bag 3", "70"],
+          ["bag 1, bag 3, bag 4", "75"],
+          ["bag 1, bag 2, bag 3, bag 4", "100"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "25 kilograms" },
+        { "label": "B", "text": "30 kilograms" },
+        { "label": "C", "text": "45 kilograms" },
+        { "label": "D", "text": "55 kilograms" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Bag 4 alone is 100 − 70 = 30 kg (all four minus the first three). Bag 2 alone is 100 − 75 = 25 kg (all four minus bags 1, 3, 4). So bag 1 + bag 3 = 70 − 25 = 45 kg.",
+      "topic": "Algebra & Patterns"
+    }
+  ]
+}

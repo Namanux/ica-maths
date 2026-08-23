@@ -1,0 +1,638 @@
+{
+  "id": "icas-2013-paper-c",
+  "subject": "Mathematics",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS Mathematics 2013 — Paper C",
+  "year": 2013,
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "2013c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Here is Anna's clock. What time will the clock show half an hour later?",
+      "imageUrl": "/questions/icas-2013-paper-c/q1.png",
+      "options": [
+        { "label": "A", "text": "6:45" },
+        { "label": "B", "text": "6:30" },
+        { "label": "C", "text": "5:45" },
+        { "label": "D", "text": "4:00" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The clock shows 6:15. Half an hour later is 6:45.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2013c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Danny walked three times around the edges of a square field. Through how many right angles did Danny turn?",
+      "options": [
+        { "label": "A", "text": "24" },
+        { "label": "B", "text": "12" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "3" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Each lap around a square has 4 right-angle turns (one per corner). Three laps give 3 × 4 = 12 turns.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2013c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Raj has 54 cards. He wants to give away all of the cards to his six friends. Each friend gets an equal number of cards. How many cards does each friend get?",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "7" },
+        { "label": "C", "text": "8" },
+        { "label": "D", "text": "9" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "54 ÷ 6 = 9 cards each.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2013c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "When Tina was asked about the length of her newborn baby, she said his length was average. What did Tina mean by average?",
+      "options": [
+        { "label": "A", "text": "close to the expected length of newborn babies" },
+        { "label": "B", "text": "less than the length of most newborn babies" },
+        { "label": "C", "text": "greater than the length of most newborn babies" },
+        { "label": "D", "text": "close to the length of a newborn baby divided by his mass" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\"Average\" means close to the typical, expected value for newborn babies.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2013c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "The picture shows a toy train on a track. The train starts from the position shown and goes one-third of the way around the track in a clockwise direction. It then stops. Which point is closest to where the train stops?",
+      "imageUrl": "/questions/icas-2013-paper-c/q5.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Going one-third of the way (120°) clockwise around the track from the train's starting position lands closest to point (D).",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2013c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Which of the following could be measured in square metres?",
+      "options": [
+        { "label": "A", "text": "the length of a car" },
+        { "label": "B", "text": "the area of a room" },
+        { "label": "C", "text": "the mass of a dining table" },
+        { "label": "D", "text": "the volume of water in a pool" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Square metres measure area, and the area of a room is the only quantity listed that is measured in area units.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2013c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "This is one half of a symmetrical design, with the line of symmetry marked. Which of these is the other half?",
+      "imageUrl": "/questions/icas-2013-paper-c/q7.png",
+      "optionsImageUrl": "/questions/icas-2013-paper-c/q7o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Reflecting the left half across the line of symmetry keeps the star in the top triangle and the circle in the bottom triangle, matching option (A).",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2013c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Anna drew some shapes on 1 cm grid paper. Which shape has a perimeter of 12 cm?",
+      "imageUrl": "/questions/icas-2013-paper-c/q8.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Shape (A) is a 4 cm by 2 cm rectangle, so its perimeter is 2 × (4 + 2) = 12 cm.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2013c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Mia bought a one-kilogram bag of apples. There were seven apples of similar size. About how much does one apple weigh?",
+      "options": [
+        { "label": "A", "text": "1400 grams" },
+        { "label": "B", "text": "140 grams" },
+        { "label": "C", "text": "14 grams" },
+        { "label": "D", "text": "4 grams" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "1000 g ÷ 7 ≈ 143 g, closest to 140 grams.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2013c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Tony has four parrots and five canaries in a cage. When Tony goes to feed his birds, he notices that one of them is missing. What is the chance that the missing bird is a canary?",
+      "options": [
+        { "label": "A", "text": "1 out of 2" },
+        { "label": "B", "text": "1 out of 5" },
+        { "label": "C", "text": "4 out of 9" },
+        { "label": "D", "text": "5 out of 9" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "There are 9 birds in total, 5 of which are canaries, so the chance the missing bird is a canary is 5 out of 9.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2013c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "What is the smallest number that can be divided by 3, 4 and 5 with no remainder?",
+      "options": [
+        { "label": "A", "text": "15" },
+        { "label": "B", "text": "45" },
+        { "label": "C", "text": "60" },
+        { "label": "D", "text": "120" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The lowest common multiple of 3, 4 and 5 is 60.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2013c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Danny has five pictures that he wants to hang horizontally in one row on his wall. He wants to have the picture of the football in the middle. The picture of the sunflower can either be on the far right or the far left side. How many different ways can Danny hang his pictures?",
+      "options": [
+        { "label": "A", "text": "2" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "12" },
+        { "label": "D", "text": "24" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The sunflower has 2 possible positions (far left or far right), and the remaining 3 pictures can be arranged in the other 3 spots in 3! = 6 ways. 2 × 6 = 12.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2013c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "The diameter of a given circle is 12 centimetres. What is the radius of that circle, in centimetres?",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "12" },
+        { "label": "D", "text": "24" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The radius is half the diameter: 12 ÷ 2 = 6 cm.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2013c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Mia drew an arrow pointing north. Which of these arrows is pointing north-east?",
+      "imageUrl": "/questions/icas-2013-paper-c/q14.png",
+      "optionsImageUrl": "/questions/icas-2013-paper-c/q14o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "North-east is halfway between north and east; of the four diagonal arrows, only the one shown in option (D) points in that direction relative to Mia's north arrow.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2013c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Raj weighed four bags of carrots and wrote down the mass of each one. Which bag has the greatest mass?",
+      "options": [
+        { "label": "A", "text": "1.1 kg" },
+        { "label": "B", "text": "1.11 kg" },
+        { "label": "C", "text": "1.019 kg" },
+        { "label": "D", "text": "1.090 kg" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Comparing the decimals, 1.11 kg is the greatest of the four masses.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2013c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Square numbers are numbers that can be represented by a square pattern of dots. The first three square numbers 1, 4 and 9 can be represented this way. Which of the following is a square number?",
+      "options": [
+        { "label": "A", "text": "10" },
+        { "label": "B", "text": "25" },
+        { "label": "C", "text": "27" },
+        { "label": "D", "text": "90" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "25 = 5 × 5, so it is a square number.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2013c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Anna and Mia each shaded parts of two circles of the same size: Anna shaded 2 of 8 equal parts (one-quarter) and Mia shaded 4 of 8 equal parts (one-half). Edward also shaded parts of a circle of the same size. He shaded a greater area than Anna did, but a smaller area than Mia did. Which of these could be Edward's circle?",
+      "imageUrl": "/questions/icas-2013-paper-c/q17.png",
+      "optionsImageUrl": "/questions/icas-2013-paper-c/q17o.png",
+      "options": [
+        { "label": "A", "text": "2 of 5 parts shaded" },
+        { "label": "B", "text": "2 of 4 parts shaded" },
+        { "label": "C", "text": "3 of 5 parts shaded" },
+        { "label": "D", "text": "3 of 6 parts shaded" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Anna shaded 1/4 (0.25) and Mia shaded 1/2 (0.5). Only 2/5 = 0.4 is strictly between them — the other options all equal exactly 1/2 or exceed it.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2013c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "This square grid has 11 dots marked on it. How many squares that have dots on ALL their corners can be drawn on this grid?",
+      "imageUrl": "/questions/icas-2013-paper-c/q18.png",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "4" },
+        { "label": "C", "text": "5" },
+        { "label": "D", "text": "6" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "There are three upright squares (the large outer square and two medium squares) plus two tilted (diamond) squares connecting diagonal dots, for 5 squares in total.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2013c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Sue counted the birds in a park. She noticed that there were only four types. In total, Sue recorded 140 birds. She represented the results in this graph, where the width of each coloured section shows how many of each type of bird she counted. How many cockatoos did Sue record?",
+      "imageUrl": "/questions/icas-2013-paper-c/q19.png",
+      "options": [
+        { "label": "A", "text": "30" },
+        { "label": "B", "text": "40" },
+        { "label": "C", "text": "50" },
+        { "label": "D", "text": "60" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The cockatoo section takes up about 36% of the bar's width, and 36% of 140 is 50.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2013c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "Adam has 24 chocolates and 72 sweets. He wants to use all of these to make identical birthday gift bags. What is the largest number of gift bags he can make?",
+      "options": [
+        { "label": "A", "text": "72" },
+        { "label": "B", "text": "24" },
+        { "label": "C", "text": "12" },
+        { "label": "D", "text": "8" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The greatest common factor of 24 and 72 is 24, so Adam can make 24 identical gift bags.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2013c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "Which shape does NOT show one-quarter shaded?",
+      "imageUrl": "/questions/icas-2013-paper-c/q21.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Shapes (A), (B) and (C) each have exactly one-quarter of their area shaded, but shape (D) is a grid of 6 equal cells with only 1 shaded — that's one-sixth, not one-quarter.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2013c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "Which of these is greater than 1/2?",
+      "options": [
+        { "label": "A", "text": "1/3" },
+        { "label": "B", "text": "2/5" },
+        { "label": "C", "text": "5/9" },
+        { "label": "D", "text": "12/25" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "1/3 ≈ 0.33, 2/5 = 0.4, 5/9 ≈ 0.56, and 12/25 = 0.48. Only 5/9 is greater than 1/2.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2013c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "Mia placed blocks on two balance beams, as shown. Which of these is correct?",
+      "imageUrl": "/questions/icas-2013-paper-c/q23.png",
+      "optionsImageUrl": "/questions/icas-2013-paper-c/q23o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The heavier side of a balance beam always tips down; option (A) is the only one where the beam correctly tilts toward the heavier block.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2013c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "Natalia had a sticker book with 31 pages. On the 1st page she put one sticker. On the 2nd page she put two stickers. She continued this pattern to the 31st page. How many stickers did Natalia put in her book altogether?",
+      "imageUrl": "/questions/icas-2013-paper-c/q24.png",
+      "options": [
+        { "label": "A", "text": "196" },
+        { "label": "B", "text": "306" },
+        { "label": "C", "text": "496" },
+        { "label": "D", "text": "961" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The total is 1 + 2 + ... + 31 = (31 × 32) ÷ 2 = 496.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2013c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "Sue is making a cheesecake. Her recipe needs 1/4 cup of sugar. Sue does not have a measuring cup — she only has a teaspoon. She uses the conversion 1 tablespoon = 3 teaspoons and 1 cup = 16 tablespoons. How many teaspoons of sugar does Sue need for her recipe?",
+      "options": [
+        { "label": "A", "text": "16" },
+        { "label": "B", "text": "12" },
+        { "label": "C", "text": "4" },
+        { "label": "D", "text": "1/4" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "1 cup = 16 tablespoons = 48 teaspoons. A quarter cup of sugar is 48 ÷ 4 = 12 teaspoons.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2013c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "At the circus, 2 sticks of fairy floss cost the same as 3 lollipops. If Sue buys one stick of fairy floss, she will have $1.50 left over. If Sue buys one lollipop, she will have $2 left over. How much money does Sue have?",
+      "imageUrl": "/questions/icas-2013-paper-c/q26.png",
+      "options": [
+        { "label": "A", "text": "$2.50" },
+        { "label": "B", "text": "$3.00" },
+        { "label": "C", "text": "$3.50" },
+        { "label": "D", "text": "$5.00" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If Sue has $M, then floss costs M − 1.50 and a lollipop costs M − 2. Since 2 × floss = 3 × lollipop: 2(M − 1.5) = 3(M − 2), which gives M = $3.00.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2013c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "A group of students working on a school project recorded how many units of work they completed every day. They showed the data in this graph, where some days show a partial dot. In total, the students completed 60 units of work. How many units of work did they complete in the first three days?",
+      "imageUrl": "/questions/icas-2013-paper-c/q27.png",
+      "options": [
+        { "label": "A", "text": "10" },
+        { "label": "B", "text": "13" },
+        { "label": "C", "text": "36" },
+        { "label": "D", "text": "40" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Reading the dots as 3, 3¾, 3¼, 1½ and 3½ across the five days gives 15 dots in total for 60 units, so each dot represents 4 units. The first three days total 3 + 3¾ + 3¼ = 10 dots, which is 10 × 4 = 40 units.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2013c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "Edward is walking in a northerly direction along Pitt St towards Main St. When he reaches Main St, he turns right. Then he turns left into the next street and left again into the next street. What direction will Edward then be facing?",
+      "imageUrl": "/questions/icas-2013-paper-c/q28.png",
+      "options": [
+        { "label": "A", "text": "North" },
+        { "label": "B", "text": "South" },
+        { "label": "C", "text": "East" },
+        { "label": "D", "text": "West" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Facing north, turning right points him east. Turning left from east points him north. Turning left again from north points him west.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2013c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "A tessellation is created when a shape is repeated over and over again, covering a flat surface without any gaps or overlaps. This tessellation was made with equilateral triangles. Which of these could NOT be used to make a tessellation?",
+      "imageUrl": "/questions/icas-2013-paper-c/q29.png",
+      "optionsImageUrl": "/questions/icas-2013-paper-c/q29o.png",
+      "options": [
+        { "label": "A", "text": "regular pentagon" },
+        { "label": "B", "text": "quadrilateral" },
+        { "label": "C", "text": "triangle" },
+        { "label": "D", "text": "regular hexagon" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A regular pentagon's interior angle (108°) does not divide evenly into 360°, so regular pentagons alone cannot tessellate a flat surface.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2013c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "Edward is describing his age: \"Four less than three times my age is 8 more than twice my age.\" What is Edward's age?",
+      "imageUrl": "/questions/icas-2013-paper-c/q30.png",
+      "options": [
+        { "label": "A", "text": "32" },
+        { "label": "B", "text": "12" },
+        { "label": "C", "text": "9" },
+        { "label": "D", "text": "4" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Let Edward's age be a. 3a − 4 = 2a + 8, so a = 12.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2013c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "The cube and square pyramid shown have the same height and base. The volume of the cube is three times the volume of the pyramid. Mia has a cube and a square pyramid with the same base as each other, but her cube is twice as high as her pyramid. How many times greater than the volume of Mia's pyramid is the volume of Mia's cube?",
+      "imageUrl": "/questions/icas-2013-paper-c/q31.png",
+      "options": [
+        { "label": "A", "text": "8" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "4" },
+        { "label": "D", "text": "2" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If Mia's pyramid has height h, its volume is (1/3) × base × h. Her cube has height 2h, so its volume is base × 2h. The ratio is (base × 2h) ÷ ((1/3) × base × h) = 6.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2013c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "The area of this square is 100 cm². Anna cuts the square in half along Line 1. She then cuts one of the new shapes in half along Line 2. Anna numbers the rectangles 1, 2, 3 as shown, where rectangle 1 is 5 cm wide and rectangles 2 and 3 are each 2.5 cm wide (all 10 cm tall). Which of these statements is correct?",
+      "imageUrl": "/questions/icas-2013-paper-c/q32.png",
+      "options": [
+        { "label": "A", "text": "Rectangle 3 has a perimeter of 25 cm." },
+        { "label": "B", "text": "Rectangle 1 has a perimeter that is double the perimeter of Rectangle 2." },
+        { "label": "C", "text": "Rectangle 1 has a perimeter of 20 cm." },
+        { "label": "D", "text": "Rectangle 2 has an area of 50 cm²." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The square has side 10 cm. Rectangle 3 is 2.5 cm × 10 cm, giving a perimeter of 2 × (2.5 + 10) = 25 cm. Rectangle 1's perimeter is 2 × (5 + 10) = 30 cm (not double Rectangle 2's 25 cm, and not 20 cm), and Rectangle 2's area is 2.5 × 10 = 25 cm² (not 50).",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2013c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "Danny uses a cup and a jug to mix juice. It takes 2 cups of juice to fill the jug. He pours orange juice into the jug until it is half full. Then he adds half a cup of apple juice. How full is the jug now?",
+      "options": [
+        { "label": "A", "text": "one-quarter full" },
+        { "label": "B", "text": "two-quarters full" },
+        { "label": "C", "text": "three-quarters full" },
+        { "label": "D", "text": "four-quarters full" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Half the jug is 1 cup (since 2 cups fill it). Adding half a cup more gives 1.5 cups, which is three-quarters of the 2-cup jug.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2013c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "Anna found a page from a 2008 calendar showing May 2008, with a note from Adriana that said: \"I am going to the market on the last Saturday of May. Five days later, I am going to France.\" When did Adriana go to France?",
+      "imageUrl": "/questions/icas-2013-paper-c/q34.png",
+      "options": [
+        { "label": "A", "text": "Thu 22 May 2008" },
+        { "label": "B", "text": "Thu 29 May 2008" },
+        { "label": "C", "text": "Wed 4 June 2008" },
+        { "label": "D", "text": "Thu 5 June 2008" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "May 2008 has Saturdays on the 3rd, 10th, 17th, 24th and 31st, so the last Saturday of May is the 31st. Five days later is Thursday 5 June 2008.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2013c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "What is the missing number in this number pattern? 6, 8, 12, ?, 36, 68",
+      "options": [
+        { "label": "A", "text": "28" },
+        { "label": "B", "text": "22" },
+        { "label": "C", "text": "20" },
+        { "label": "D", "text": "18" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The differences between terms double each time: +2, +4, +8, +16, +32. So the missing term is 12 + 8 = 20.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2013c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "prompt": "Tony's bike moves forward two metres every time its wheels complete one full turn. Tony was riding his bike in a race. When he had finished three-quarters of the race, his wheels had made 6000 full turns. What was the total length of the race, in metres?",
+      "options": [
+        { "label": "A", "text": "4 000" },
+        { "label": "B", "text": "8 000" },
+        { "label": "C", "text": "12 000" },
+        { "label": "D", "text": "16 000" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "If 6000 turns is three-quarters of the race, the full race is 6000 ÷ 3 × 4 = 8000 turns, covering 8000 × 2 = 16 000 metres.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2013c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "prompt": "Edward was preparing for a race. He trained from Monday to Friday every week in April, May and June. He started on the first day of April, a Thursday, and finished on the last day of June. In total, how many days did Edward train?",
+      "options": [
+        { "label": "A", "text": "67" },
+        { "label": "B", "text": "66" },
+        { "label": "C", "text": "65" },
+        { "label": "D", "text": "64" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "April, May and June together have 91 days, which is exactly 13 weeks. Each week has 5 training days (Monday to Friday), so Edward trained 13 × 5 = 65 days.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2013c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "prompt": "This shape is made up of 8 identical rectangles. The shape is 6 cm wide. What is the perimeter of this shape?",
+      "imageUrl": "/questions/icas-2013-paper-c/q38.png",
+      "options": [
+        { "label": "A", "text": "24 cm" },
+        { "label": "B", "text": "26 cm" },
+        { "label": "C", "text": "48 cm" },
+        { "label": "D", "text": "64 cm" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Tracing around the staggered outline of the 8 rectangles gives a total perimeter of 26 cm.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2013c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "prompt": "A regular abacus shows 28 as 2 × 10 + 8. Anna has a special abacus that takes up to 6 rings on each bar. Once the number of rings reaches 7, they are replaced by one ring on the next bar to the left — so each bar is worth 7 times the bar to its right. For example, the number 16 is shown with 2 rings on the middle bar and 2 rings on the right bar (2 × 7 + 2 = 16). What number is shown when Anna's abacus looks like this?",
+      "imageUrl": "/questions/icas-2013-paper-c/q39.png",
+      "options": [
+        { "label": "A", "text": "21" },
+        { "label": "B", "text": "24" },
+        { "label": "C", "text": "27" },
+        { "label": "D", "text": "33" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The abacus shows 3 rings on the middle (7s) bar and 3 rings on the right (1s) bar: 3 × 7 + 3 = 24.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2013c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "prompt": "Raj is making a fence using five posts. The posts have to be evenly spaced. Each post is 4 cm wide. Raj makes a fence that is 220 cm long. Danny is making a fence using five posts that are evenly spaced, also 4 cm wide, but the length of Danny's fence is double the length of Raj's fence. The lengths of both fences are measured from the outside edges of the posts at each end. The gaps between the posts in Danny's fence are larger than the gaps between the posts in Raj's fence. How much larger are they?",
+      "imageUrl": "/questions/icas-2013-paper-c/q40.png",
+      "options": [
+        { "label": "A", "text": "44 cm" },
+        { "label": "B", "text": "50 cm" },
+        { "label": "C", "text": "55 cm" },
+        { "label": "D", "text": "60 cm" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Raj's fence: 5 posts (20 cm) plus 4 gaps = 220 cm, so each gap is (220 − 20) ÷ 4 = 50 cm. Danny's fence is 440 cm long: 5 posts (20 cm) plus 4 gaps = 440 cm, so each gap is (440 − 20) ÷ 4 = 105 cm. The difference is 105 − 50 = 55 cm.",
+      "topic": "Algebra & Patterns"
+    }
+  ]
+}
