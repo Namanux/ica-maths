@@ -4,6 +4,7 @@ import { useState } from "react";
 import type { Paper, AttemptResult, QuestionResult } from "@/lib/types";
 import { QuestionBody } from "@/components/QuestionBody";
 import { TopicBadge } from "@/components/TopicBadge";
+import { ReportIssueButton } from "@/components/ReportIssueButton";
 import { formatDuration, formatCompletedAt } from "@/lib/format";
 import Link from "next/link";
 
@@ -170,6 +171,7 @@ export function ResultsPanel({
         paper={paper}
         result={result}
         index={reviewIndex}
+        profileSlug={profileSlug}
         onNavigate={setReviewIndex}
         onBackToResults={() => setReviewIndex(null)}
       />
@@ -385,12 +387,14 @@ function ReviewQuestionView({
   paper,
   result,
   index,
+  profileSlug,
   onNavigate,
   onBackToResults,
 }: {
   paper: Paper;
   result: AttemptResult;
   index: number;
+  profileSlug: string;
   onNavigate: (i: number) => void;
   onBackToResults: () => void;
 }) {
@@ -493,6 +497,15 @@ function ReviewQuestionView({
           <p className="text-sm text-muted border-t border-border pt-3">{question.explanation}</p>
         )}
       </div>
+
+      <ReportIssueButton
+        key={question.id}
+        paperId={paper.id}
+        paperTitle={paper.title}
+        questionId={question.id}
+        questionNumber={question.number}
+        profileSlug={profileSlug}
+      />
 
       <div className="flex items-center justify-between">
         <button
