@@ -16,9 +16,20 @@ export default async function SlugPage({
   if (profile) {
     return (
       <div className="flex flex-col gap-6">
-        <div>
-          <h1 className="text-2xl font-semibold tracking-tight">Hi {profile.name}</h1>
-          <p className="text-muted mt-1">Choose what you&apos;d like to practise.</p>
+        <div className="flex items-start justify-between gap-4">
+          <div>
+            <h1 className="text-2xl font-semibold tracking-tight">Hi {profile.name}</h1>
+            <p className="text-muted mt-1">Choose what you&apos;d like to practise.</p>
+          </div>
+          {profile.role === "admin" && (
+            <Link
+              href={`/${profile.slug}/live`}
+              className="flex items-center gap-2 shrink-0 rounded-full border border-accent text-accent px-4 py-2 text-sm font-medium hover:bg-accent/10 transition-colors"
+            >
+              <span className="h-2 w-2 rounded-full bg-correct" aria-hidden />
+              Live activity
+            </Link>
+          )}
         </div>
         <SubjectGrid subjects={SUBJECTS} profileSlug={profile.slug} />
         {profile.role === "admin" && <FlaggedQuestionsPanel />}

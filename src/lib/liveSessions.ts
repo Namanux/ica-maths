@@ -14,6 +14,7 @@ export interface LiveSessionState {
   lastAnswerCorrect?: boolean | null;
   examStatus?: "intro" | "in_progress" | "finished" | null;
   secondsLeft?: number | null;
+  hoveredItem?: string | null;
 }
 
 interface LiveSessionRow {
@@ -30,6 +31,7 @@ interface LiveSessionRow {
   last_answer_correct: boolean | null;
   exam_status: string | null;
   seconds_left: number | null;
+  hovered_item: string | null;
   updated_at: string;
 }
 
@@ -47,6 +49,7 @@ export interface LiveSession {
   lastAnswerCorrect: boolean | null;
   examStatus: "intro" | "in_progress" | "finished" | null;
   secondsLeft: number | null;
+  hoveredItem: string | null;
   updatedAt: string;
 }
 
@@ -65,6 +68,7 @@ function rowToSession(row: LiveSessionRow): LiveSession {
     lastAnswerCorrect: row.last_answer_correct,
     examStatus: (row.exam_status as LiveSession["examStatus"]) ?? null,
     secondsLeft: row.seconds_left,
+    hoveredItem: row.hovered_item,
     updatedAt: row.updated_at,
   };
 }
@@ -90,6 +94,7 @@ export async function reportLiveState(state: LiveSessionState): Promise<void> {
   if (state.lastAnswerCorrect !== undefined) payload.last_answer_correct = state.lastAnswerCorrect;
   if (state.examStatus !== undefined) payload.exam_status = state.examStatus;
   if (state.secondsLeft !== undefined) payload.seconds_left = state.secondsLeft;
+  if (state.hoveredItem !== undefined) payload.hovered_item = state.hoveredItem;
 
   try {
     await supabase.from("live_sessions").upsert(payload, { onConflict: "profile_slug" });

@@ -1,8 +1,8 @@
 import { notFound } from "next/navigation";
-import Link from "next/link";
 import { getAllPapers } from "@/lib/papers";
 import { getProfile } from "@/lib/profiles";
 import { RecentAttempts } from "@/components/RecentAttempts";
+import { PaperListLinks } from "@/components/PaperListLinks";
 
 export default async function IcasHome({
   params,
@@ -24,26 +24,7 @@ export default async function IcasHome({
         </p>
       </div>
 
-      <div className="flex flex-col gap-3">
-        {papers.map((paper) => (
-          <Link
-            key={paper.id}
-            href={`/${slug}/exam/${paper.id}`}
-            className="flex items-center justify-between rounded-lg border border-border p-4 hover:bg-surface transition-colors"
-          >
-            <div>
-              <div className="font-medium">{paper.title}</div>
-              <div className="text-sm text-muted mt-0.5">
-                Year {paper.yearLevel} · {paper.questionCount} questions ·{" "}
-                {paper.timeLimitMinutes} minutes
-              </div>
-            </div>
-            <span aria-hidden className="text-muted">
-              →
-            </span>
-          </Link>
-        ))}
-      </div>
+      <PaperListLinks papers={papers} slug={slug} />
 
       <RecentAttempts profileSlug={slug} />
     </div>

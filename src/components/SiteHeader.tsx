@@ -15,9 +15,22 @@ export function SiteHeader() {
   return (
     <div className="flex items-center justify-between">
       {showTitle ? (
-        <Link href={profile ? `/${profile.slug}/icas` : "/"} className="font-semibold tracking-tight">
-          ICAS Maths Simulator
-        </Link>
+        <div className="flex items-center gap-3">
+          {profile && (
+            <Link
+              href={`/${profile.slug}`}
+              className="text-sm text-muted hover:text-foreground transition-colors"
+            >
+              Home
+            </Link>
+          )}
+          <Link
+            href={profile ? `/${profile.slug}/icas` : "/"}
+            className="font-semibold tracking-tight"
+          >
+            ICAS Maths Simulator
+          </Link>
+        </div>
       ) : (
         <span />
       )}

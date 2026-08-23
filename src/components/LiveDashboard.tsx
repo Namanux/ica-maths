@@ -2,7 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { PROFILES } from "@/lib/profiles";
-import { getPaperById } from "@/lib/papers";
+import { getPaperById, getAllPapers } from "@/lib/papers";
 import { isAnswerCorrect } from "@/lib/scoring";
 import { formatDuration } from "@/lib/format";
 import { subscribeLiveSessions, type LiveSession } from "@/lib/liveSessions";
@@ -202,9 +202,35 @@ function LiveStudentPanel({
       </div>
 
       {!session || !session.paperId ? (
-        <div className="rounded-lg bg-surface px-4 py-6 text-center text-sm text-muted">
-          Not currently in a test.
-        </div>
+        session?.section === "ICAS" && session.pageLabel === "Choosing a paper" ? (
+          <div className="flex flex-col gap-1.5">
+            {getAllPapers().map((paper) => {
+              const looking = session.hoveredItem === paper.title;
+              return (
+                <div
+                  key={paper.id}
+                  className={`rounded-md border px-3 py-2 text-sm transition-colors ${
+                    looking ? "border-accent bg-surface" : "border-border"
+                  }`}
+                >
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="font-medium truncate">{paper.title}</span>
+                    {looking && (
+                      <span className="text-xs text-accent shrink-0">Looking at this</span>
+                    )}
+                  </div>
+                  <div className="text-xs text-muted mt-0.5">
+                    Year {paper.yearLevel} · {paper.questionCount} questions
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="rounded-lg bg-surface px-4 py-6 text-center text-sm text-muted">
+            Not currently in a test.
+          </div>
+        )
       ) : session.examStatus === "intro" ? (
         <div className="rounded-lg bg-surface px-4 py-6 text-center text-sm text-muted">
           Reading the instructions for {session.paperTitle}.

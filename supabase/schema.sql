@@ -76,8 +76,12 @@ create table if not exists live_sessions (
   last_answer_correct boolean,
   exam_status text,
   seconds_left integer,
+  hovered_item text,
   updated_at timestamptz not null default now()
 );
+
+-- Migration for existing databases created before hovered_item existed:
+-- alter table live_sessions add column if not exists hovered_item text;
 
 alter table live_sessions enable row level security;
 

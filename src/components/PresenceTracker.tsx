@@ -125,6 +125,7 @@ export function PresenceTracker() {
           lastAnswerCorrect: null,
           examStatus: null,
           secondsLeft: null,
+          hoveredItem: null,
         });
       }
     };
