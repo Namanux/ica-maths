@@ -26,9 +26,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
   const [secondsLeft, setSecondsLeft] = useState(paper.timeLimitMinutes * 60);
   const [result, setResult] = useState<AttemptResult | null>(null);
   const [reviewMode, setReviewMode] = useState(false);
-  const [direction, setDirection] = useState<1 | -1>(1);
   const startTimeRef = useRef<number | null>(null);
-  const touchStartRef = useRef<{ x: number; y: number } | null>(null);
   const questionTimeRef = useRef<Record<string, number>>({});
   // Reset in startExam/resetAll before it's ever read — the initial value is never used.
   const questionEnteredAtRef = useRef<number>(0);
@@ -148,7 +146,6 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
     const clamped = Math.max(0, Math.min(paper.questions.length - 1, index));
     if (clamped === currentIndex) return;
     if (status === "in_progress") flushQuestionTime(currentQuestion.id);
-    setDirection(clamped > currentIndex ? 1 : -1);
     setCurrentIndex(clamped);
   };
 
@@ -179,24 +176,6 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
     return () => window.removeEventListener("keydown", handler);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [status, currentIndex, currentQuestion]);
-
-  // Touch swipe: swipe left for next, swipe right for previous.
-  const handleTouchStart = (e: React.TouchEvent) => {
-    if ((e.target as HTMLElement).tagName === "INPUT") return;
-    const t = e.touches[0];
-    touchStartRef.current = { x: t.clientX, y: t.clientY };
-  };
-
-  const handleTouchEnd = (e: React.TouchEvent) => {
-    const start = touchStartRef.current;
-    touchStartRef.current = null;
-    if (!start) return;
-    const t = e.changedTouches[0];
-    const dx = t.clientX - start.x;
-    const dy = t.clientY - start.y;
-    if (Math.abs(dx) < 60 || Math.abs(dx) < Math.abs(dy) * 1.5) return;
-    goToIndex(dx < 0 ? currentIndex + 1 : currentIndex - 1);
-  };
 
   if (status === "intro") {
     return (
@@ -275,14 +254,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
         </div>
       </div>
 
-      <div
-        key={currentQuestion.id}
-        onTouchStart={handleTouchStart}
-        onTouchEnd={handleTouchEnd}
-        className={`rounded-lg border border-border p-5 flex flex-col gap-4 ${
-          direction === 1 ? "question-enter-forward" : "question-enter-backward"
-        }`}
-      >
+      <div className="rounded-lg border border-border p-5 flex flex-col gap-4">
         <QuestionBody question={currentQuestion} />
 
         {currentQuestion.type === "multiple_choice" && currentQuestion.options && (
