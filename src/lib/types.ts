@@ -55,6 +55,7 @@ export interface QuestionResult {
   correctAnswer: string;
   isCorrect: boolean;
   topic?: string;
+  timeSpentSeconds?: number;
 }
 
 export interface CategoryBreakdown {

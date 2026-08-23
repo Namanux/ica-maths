@@ -103,10 +103,16 @@ export async function reportLiveState(state: LiveSessionState): Promise<void> {
   }
 }
 
+const POLL_MS = 8000;
+
 /**
- * Subscribes to every live_sessions row in real time. Calls `onChange` with
- * the full current list on the initial load and after every insert/update/
- * delete. Returns an unsubscribe function.
+ * Subscribes to every live_sessions row. Uses Realtime for instant push
+ * updates, but doesn't rely on that connection alone — it also polls on an
+ * interval and on tab-focus, since a dropped WebSocket (backgrounded tab,
+ * sleeping laptop, flaky network) would otherwise leave the dashboard
+ * frozen on stale data with no way to notice or recover. Calls `onChange`
+ * with the full current list whenever it changes. Returns an unsubscribe
+ * function.
  */
 export function subscribeLiveSessions(
   onChange: (sessions: LiveSession[]) => void
@@ -118,17 +124,17 @@ export function subscribeLiveSessions(
   const sessions = new Map<string, LiveSession>();
   const emit = () => onChange(Array.from(sessions.values()));
 
-  supabase
-    .from("live_sessions")
-    .select("*")
-    .then(({ data }) => {
-      if (data) {
-        for (const row of data as LiveSessionRow[]) {
-          sessions.set(row.profile_slug, rowToSession(row));
-        }
-        emit();
-      }
-    });
+  const refresh = async () => {
+    const { data } = await supabase.from("live_sessions").select("*");
+    if (!data) return;
+    sessions.clear();
+    for (const row of data as LiveSessionRow[]) {
+      sessions.set(row.profile_slug, rowToSession(row));
+    }
+    emit();
+  };
+
+  void refresh();
 
   const channel = supabase
     .channel("live_sessions_changes")
@@ -148,7 +154,15 @@ export function subscribeLiveSessions(
     )
     .subscribe();
 
+  const interval = setInterval(refresh, POLL_MS);
+  const onVisible = () => {
+    if (document.visibilityState === "visible") void refresh();
+  };
+  document.addEventListener("visibilitychange", onVisible);
+
   return () => {
     supabase.removeChannel(channel);
+    clearInterval(interval);
+    document.removeEventListener("visibilitychange", onVisible);
   };
 }
