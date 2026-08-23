@@ -2,6 +2,7 @@
 
 import { useEffect, useMemo, useRef, useState } from "react";
 import { PROFILES } from "@/lib/profiles";
+import { SUBJECTS } from "@/lib/subjects";
 import { getPaperById, getAllPapers } from "@/lib/papers";
 import { isAnswerCorrect } from "@/lib/scoring";
 import { formatDuration } from "@/lib/format";
@@ -222,6 +223,28 @@ function LiveStudentPanel({
                   <div className="text-xs text-muted mt-0.5">
                     Year {paper.yearLevel} · {paper.questionCount} questions
                   </div>
+                </div>
+              );
+            })}
+          </div>
+        ) : session?.pageLabel === "Choosing a subject" ? (
+          <div className="flex flex-col gap-1.5">
+            {SUBJECTS.map((subject) => {
+              const looking = session.hoveredItem === subject.name;
+              return (
+                <div
+                  key={subject.slug}
+                  className={`rounded-md border px-3 py-2 text-sm transition-colors ${
+                    looking ? "border-accent bg-surface" : "border-border"
+                  }`}
+                >
+                  <div className="flex items-center justify-between gap-2">
+                    <span className="font-medium truncate">{subject.name}</span>
+                    {looking && (
+                      <span className="text-xs text-accent shrink-0">Looking at this</span>
+                    )}
+                  </div>
+                  <div className="text-xs text-muted mt-0.5">{subject.description}</div>
                 </div>
               );
             })}
