@@ -3,6 +3,7 @@ import { getAllPapers } from "@/lib/papers";
 import { getProfile } from "@/lib/profiles";
 import { RecentAttempts } from "@/components/RecentAttempts";
 import { PaperListLinks } from "@/components/PaperListLinks";
+import { CategoryProgressPanel } from "@/components/CategoryProgressPanel";
 
 export default async function IcasHome({
   params,
@@ -25,6 +26,8 @@ export default async function IcasHome({
       </div>
 
       <PaperListLinks papers={papers} slug={slug} />
+
+      <CategoryProgressPanel profileSlug={slug} />
 
       <RecentAttempts profileSlug={slug} />
     </div>

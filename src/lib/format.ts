@@ -4,6 +4,10 @@ export function formatDuration(totalSeconds: number): string {
   return `${m}:${s.toString().padStart(2, "0")}`;
 }
 
+export function formatShortDate(iso: string): string {
+  return new Date(iso).toLocaleDateString(undefined, { day: "numeric", month: "short" });
+}
+
 export function formatCompletedAt(iso: string): string {
   const d = new Date(iso);
   const datePart = d.toLocaleDateString(undefined, {
