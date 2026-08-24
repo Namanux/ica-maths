@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
+import { useRouter } from "next/navigation";
 import type { Paper, AttemptResult } from "@/lib/types";
 import { scoreAttempt, isAnswerCorrect } from "@/lib/scoring";
 import { saveAttempt } from "@/lib/attempts";
@@ -11,6 +12,40 @@ import { ResultsPanel } from "@/components/ResultsPanel";
 import { ReportIssueButton } from "@/components/ReportIssueButton";
 import Link from "next/link";
 
+// Zones only occupy the empty margin outside the centered max-w-4xl content
+// column, never the content itself — so they can never intercept a tap meant
+// for an answer option. On narrow/mobile screens that margin shrinks toward
+// nothing, which is fine: arrow keys and the on-screen chevrons still work.
+const EDGE_ZONE_WIDTH = "clamp(16px, calc((100vw - 896px) / 2), 160px)";
+
+function EdgeNavZone({
+  direction,
+  onClick,
+  disabled,
+}: {
+  direction: "previous" | "next";
+  onClick: () => void;
+  disabled: boolean;
+}) {
+  const isLeft = direction === "previous";
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      disabled={disabled}
+      aria-label={isLeft ? "Previous question" : "Next question"}
+      className={`flex fixed inset-y-0 ${
+        isLeft ? "left-0" : "right-0"
+      } items-center justify-center text-muted hover:text-foreground hover:bg-surface/60 transition-colors disabled:opacity-0 disabled:pointer-events-none`}
+      style={{ width: EDGE_ZONE_WIDTH }}
+    >
+      <span aria-hidden className="text-2xl">
+        {isLeft ? "‹" : "›"}
+      </span>
+    </button>
+  );
+}
+
 type Status = "intro" | "in_progress" | "finished";
 
 function formatTime(totalSeconds: number): string {
@@ -20,6 +55,7 @@ function formatTime(totalSeconds: number): string {
 }
 
 export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: string }) {
+  const router = useRouter();
   const [status, setStatus] = useState<Status>("intro");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string | null>>({});
@@ -115,6 +151,11 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
     questionEnteredAtRef.current = Date.now();
     setReviewMode(review);
     setStatus("in_progress");
+  };
+
+  const cancelExam = () => {
+    if (!window.confirm("Cancel this exam? Your progress on this attempt will be lost.")) return;
+    router.push(`/${profileSlug}/icas`);
   };
 
   const resetAll = () => {
@@ -232,10 +273,29 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
   const userAnswer = answers[currentQuestion.id] ?? null;
 
   return (
-    <div className="flex flex-col gap-5">
-      <div className="flex items-center justify-between">
-        <div className="text-sm text-muted">
-          Question {currentQuestion.number} of {paper.questions.length} · {answeredCount} answered
+    <div className="relative flex flex-col gap-5 min-h-[80vh]">
+      <EdgeNavZone
+        direction="previous"
+        onClick={() => goToIndex(currentIndex - 1)}
+        disabled={currentIndex === 0}
+      />
+      <EdgeNavZone
+        direction="next"
+        onClick={() => goToIndex(currentIndex + 1)}
+        disabled={currentIndex === paper.questions.length - 1}
+      />
+
+      <div className="flex items-center justify-between gap-3 flex-wrap">
+        <div className="flex items-center gap-3">
+          <button
+            onClick={cancelExam}
+            className="rounded-full border border-incorrect text-incorrect px-4 py-1.5 text-sm font-medium hover:bg-incorrect/10 transition-colors"
+          >
+            Cancel
+          </button>
+          <div className="text-sm text-muted">
+            Question {currentQuestion.number} of {paper.questions.length} · {answeredCount} answered
+          </div>
         </div>
         <div className="flex items-center gap-3">
           <div
@@ -304,24 +364,6 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
         questionNumber={currentQuestion.number}
         profileSlug={profileSlug}
       />
-
-      <div className="flex items-center justify-between">
-        <button
-          onClick={() => goToIndex(currentIndex - 1)}
-          disabled={currentIndex === 0}
-          className="rounded-full border border-border px-4 py-2 disabled:opacity-40"
-        >
-          Previous
-        </button>
-
-        <button
-          onClick={() => goToIndex(currentIndex + 1)}
-          disabled={currentIndex === paper.questions.length - 1}
-          className="rounded-full border border-border px-4 py-2 disabled:opacity-40"
-        >
-          Next
-        </button>
-      </div>
 
       <div className="flex flex-col gap-2 border-t border-border pt-4">
         <span className="text-xs font-semibold tracking-wide uppercase text-muted">
