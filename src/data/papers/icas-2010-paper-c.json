@@ -1,0 +1,649 @@
+{
+  "id": "icas-2010-paper-c",
+  "subject": "Mathematics",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS Mathematics 2010 — Paper C",
+  "year": 2010,
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "2010c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Which digit is in the hundreds place in 4567?",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "7" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In 4567, the digits from left to right are thousands, hundreds, tens, ones — so 5 is in the hundreds place.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2010c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Adam's birthday is 8 July. Sunil's birthday is exactly 3 weeks later. What is the date of Sunil's birthday?",
+      "imageUrl": "/questions/icas-2010-paper-c/q2.png",
+      "options": [
+        { "label": "A", "text": "20 July" },
+        { "label": "B", "text": "22 July" },
+        { "label": "C", "text": "27 July" },
+        { "label": "D", "text": "29 July" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "3 weeks is 21 days. 8 July + 21 days = 29 July.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2010c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Which shape has exactly one line of symmetry?",
+      "imageUrl": "/questions/icas-2010-paper-c/q3.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The trapezoid (A) has exactly one line of symmetry. The rectangle has two, the circle has infinitely many, and the scalene triangle has none.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2010c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Ali is using a number code to represent letters. Each letter is shown by a number. This is how Ali would code the word \"maths\": m a t h s → 13-01-20-08-19. How should Ali code the word \"mash\"?",
+      "options": [
+        { "label": "A", "text": "13-01-19-20" },
+        { "label": "B", "text": "13-01-19-08" },
+        { "label": "C", "text": "13-01-08-19" },
+        { "label": "D", "text": "13-01-20-19" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "m=13, a=01, s=19, h=08, giving 13-01-19-08.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2010c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Around the Clock Restaurant has a unique 24-hour clock on the wall. The first twelve hours are written on the outside as Roman numerals and the next twelve are written on the inside as Arabic numerals. The clock is so old that it has lost some of the Arabic numerals. What number should be written in the missing spot?",
+      "imageUrl": "/questions/icas-2010-paper-c/q5.png",
+      "options": [
+        { "label": "A", "text": "10" },
+        { "label": "B", "text": "16" },
+        { "label": "C", "text": "20" },
+        { "label": "D", "text": "22" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The inside numbers count from 13 to 24 going clockwise alongside the Roman numerals I to XII — the missing spot (opposite X) should read 16.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2010c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "The picture shows some shapes (blue and yellow triangles and circles). Bill picks one of the shapes without looking. What is he most likely to pick?",
+      "imageUrl": "/questions/icas-2010-paper-c/q6.png",
+      "options": [
+        { "label": "A", "text": "a circle" },
+        { "label": "B", "text": "a triangle" },
+        { "label": "C", "text": "a blue shape" },
+        { "label": "D", "text": "a yellow shape" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "There are more triangles than circles, and more triangles than either colour group alone, so a triangle is the most likely pick.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2010c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "This photo shows a key and a ruler. According to the ruler in the photo, how long is the key in centimetres?",
+      "imageUrl": "/questions/icas-2010-paper-c/q7.png",
+      "options": [
+        { "label": "A", "text": "4.5" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "6.5" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The key spans from 0 to 5 on the ruler.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2010c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "The Yari robot has six hands. Each hand has four fingers. How many fingers would 12 Yari robots have?",
+      "imageUrl": "/questions/icas-2010-paper-c/q8.png",
+      "options": [
+        { "label": "A", "text": "24" },
+        { "label": "B", "text": "72" },
+        { "label": "C", "text": "288" },
+        { "label": "D", "text": "360" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Each robot has 6 × 4 = 24 fingers. 12 robots × 24 = 288.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2010c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Here are the first seven shapes in a pattern. What are the next two shapes in the pattern?",
+      "imageUrl": "/questions/icas-2010-paper-c/q9.png",
+      "optionsImageUrl": "/questions/icas-2010-paper-c/q9o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Continuing the repeating sequence of block shapes, option A shows the correct next two shapes.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2010c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "4 × 8 + 3 = ? − 19",
+      "options": [
+        { "label": "A", "text": "16" },
+        { "label": "B", "text": "24" },
+        { "label": "C", "text": "35" },
+        { "label": "D", "text": "54" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "4 × 8 + 3 = 35, so ? − 19 = 35, meaning ? = 54.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2010c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "What is the smallest number that can be divided by 3, 4 and 5 with no remainder?",
+      "options": [
+        { "label": "A", "text": "15" },
+        { "label": "B", "text": "45" },
+        { "label": "C", "text": "60" },
+        { "label": "D", "text": "120" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The lowest common multiple of 3, 4 and 5 is 60.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2010c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Brian is posting three of these four toys in a parcel (doll = 85 g, bear = 99 g, car = 46 g, ball = 65 g). The parcel has to be less than 200 grams. Which three toys together weigh closest to 200 grams?",
+      "imageUrl": "/questions/icas-2010-paper-c/q12.png",
+      "options": [
+        { "label": "A", "text": "doll, bear, ball" },
+        { "label": "B", "text": "doll, car, ball" },
+        { "label": "C", "text": "doll, bear, car" },
+        { "label": "D", "text": "bear, car, ball" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "doll + car + ball = 85 + 46 + 65 = 196 g, the closest combination under 200 g.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2010c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "The diameter of a given circle is 12 centimetres. What is the radius of that circle, in centimetres?",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "12" },
+        { "label": "D", "text": "24" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Radius is half the diameter: 12 ÷ 2 = 6.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2010c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Here are some shapes. How many of these shapes are parallelograms?",
+      "imageUrl": "/questions/icas-2010-paper-c/q14.png",
+      "options": [
+        { "label": "A", "text": "1" },
+        { "label": "B", "text": "2" },
+        { "label": "C", "text": "3" },
+        { "label": "D", "text": "4" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The two rectangles and the slanted parallelogram are all parallelograms — the trapezoid is not.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2010c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Manling was facing south-west and then she turned 90 degrees clockwise. Which direction was she then facing?",
+      "options": [
+        { "label": "A", "text": "south-east" },
+        { "label": "B", "text": "north-west" },
+        { "label": "C", "text": "south" },
+        { "label": "D", "text": "north" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Turning 90° clockwise from south-west (two 45° steps around the compass) lands on north-west.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2010c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Sunil made this number pattern: 4, 9, 19, 39 ... using the strategy 4+5=9, 9+10=19, 19+20=39. Adam made the same pattern using a different strategy, starting with the number 4. What is the strategy that Adam used?",
+      "options": [
+        { "label": "A", "text": "add 10" },
+        { "label": "B", "text": "multiply by 3 then subtract 3" },
+        { "label": "C", "text": "double the number then add 1" },
+        { "label": "D", "text": "write the next number that ends with 9" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "4×2+1=9, 9×2+1=19, 19×2+1=39 — doubling and adding 1 reproduces the same pattern.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2010c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "A shop has 50 small plastic koalas. Each koala has a mass of 113 grams. What is the total mass of all the koalas, in grams?",
+      "imageUrl": "/questions/icas-2010-paper-c/q17.png",
+      "options": [
+        { "label": "A", "text": "5650" },
+        { "label": "B", "text": "5500" },
+        { "label": "C", "text": "565" },
+        { "label": "D", "text": "500" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "50 × 113 = 5650 grams.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2010c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "Sunil is making a model plane. He has two wooden sticks of lengths 1.12 metres and 0.88 metres. He glued the ends of the two sticks together to make a piece for his plane. What is the length of this piece, in metres?",
+      "options": [
+        { "label": "A", "text": "2.10" },
+        { "label": "B", "text": "2.00" },
+        { "label": "C", "text": "1.90" },
+        { "label": "D", "text": "1.12" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "1.12 + 0.88 = 2.00 metres.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2010c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Noor is using this grid to represent the position of numbers. In this grid the position of the number 3 is given as (flower, tree). Using Noor's representation, what is the position of the number 5?",
+      "imageUrl": "/questions/icas-2010-paper-c/q19.png",
+      "options": [
+        { "label": "A", "text": "(sun, tree)" },
+        { "label": "B", "text": "(tree, sun)" },
+        { "label": "C", "text": "(boy, sun)" },
+        { "label": "D", "text": "(sun, boy)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Reading (column, row) the same way as the number 3's example, the number 5's position is (sun, boy).",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2010c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "Adam has 24 chocolates and 72 sweets. He wants to use all of these to make identical birthday gift bags. What is the largest number of gift bags he can make?",
+      "options": [
+        { "label": "A", "text": "72" },
+        { "label": "B", "text": "24" },
+        { "label": "C", "text": "12" },
+        { "label": "D", "text": "8" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The greatest common factor of 24 and 72 is 24.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2010c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "The country of Yeno has a currency called 'yenom'. They have coins of the following types: 1, 2, 5, 10, 20 and 50 yenoms. Adam bought an item that cost 59 yenoms and no change was required. What is the smallest number of coins Adam could have used to pay?",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "4" },
+        { "label": "D", "text": "3" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "59 = 50 + 5 + 2 + 2, which uses 4 coins. No pair of coins can make the remaining 9 yenoms, so 4 is the smallest possible number.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2010c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "Here is the train timetable for the Lorikeet City line. Nick travels from Dene to Karinton by train. All the trains he catches run on time. How long does it take Nick to get from Dene to Karinton by train?",
+      "imageUrl": "/questions/icas-2010-paper-c/q22.png",
+      "options": [
+        { "label": "A", "text": "11 min" },
+        { "label": "B", "text": "12 min" },
+        { "label": "C", "text": "41 min" },
+        { "label": "D", "text": "46 min" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Following the timetable from Dene's departure to the connecting arrival at Karinton takes 46 minutes in total.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2010c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "Adam, Sunil and Luisa went fishing. This graph shows how many fish each person caught. Sunil caught three more fish than Adam. How many fish did Luisa catch?",
+      "imageUrl": "/questions/icas-2010-paper-c/q23-bar-graph.svg",
+      "options": [
+        { "label": "A", "text": "15" },
+        { "label": "B", "text": "10" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "5" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Luisa's bar is the tallest on the graph, reaching 15 fish.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2010c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "The average height of students in a class is 130 centimetres (cm). Adam, Luisa, Sunil and Noor are students in this class. One of these students is leaving school. As a result, the average height of this class will go down. Who is leaving school?",
+      "table": {
+        "headers": ["Student", "Height (cm)"],
+        "rows": [
+          ["Adam", "120"],
+          ["Luisa", "125"],
+          ["Sunil", "130"],
+          ["Noor", "145"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "Adam" },
+        { "label": "B", "text": "Luisa" },
+        { "label": "C", "text": "Sunil" },
+        { "label": "D", "text": "Noor" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Noor is the only student taller than the 130 cm average, so removing Noor is the only choice that lowers the remaining average.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2010c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "Manling swaps ZING, ZANG and ZONG cards with a friend. 1 ZING card can be swapped for 3 ZANG cards. 1 ZANG card can be swapped for 4 ZONG cards. Which group of cards has the highest value?",
+      "imageUrl": "/questions/icas-2010-paper-c/q25-1.png",
+      "optionsImageUrl": "/questions/icas-2010-paper-c/q25-2.png",
+      "options": [
+        { "label": "A", "text": "1 ZING + 2 ZONG" },
+        { "label": "B", "text": "3 ZANG" },
+        { "label": "C", "text": "2 ZANG + 2 ZONG" },
+        { "label": "D", "text": "1 ZING + 1 ZANG" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In ZONG terms: 1 ZING = 12 ZONG, 1 ZANG = 4 ZONG. A = 14, B = 12, C = 10, D = 12 + 4 = 16 — the highest.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2010c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "This is what the angle between the minute hand and the hour hand of the clock looks like at 5:15. At which of these times is the angle between the hands of the clock the smallest?",
+      "imageUrl": "/questions/icas-2010-paper-c/q26.png",
+      "optionsImageUrl": "/questions/icas-2010-paper-c/q26o.png",
+      "options": [
+        { "label": "A", "text": "6:45" },
+        { "label": "B", "text": "3:30" },
+        { "label": "C", "text": "12:15" },
+        { "label": "D", "text": "9:00" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "At 6:45 the hour and minute hands sit closest together of the four times shown.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2010c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "How many triangles are there in this shape?",
+      "imageUrl": "/questions/icas-2010-paper-c/q27.png",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "9" },
+        { "label": "D", "text": "10" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Counting every small triangle plus every larger triangle formed by combining them gives 9 in total.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2010c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "In a carton there are 12 packets of chicken legs. Each packet has 10 legs in it. A cafeteria served 3 legs per meal. They used 8 cartons of chicken legs. How many meals of chicken legs were served?",
+      "options": [
+        { "label": "A", "text": "32" },
+        { "label": "B", "text": "40" },
+        { "label": "C", "text": "320" },
+        { "label": "D", "text": "360" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "8 cartons × 12 packets × 10 legs = 960 legs. 960 ÷ 3 legs per meal = 320 meals.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2010c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "Based on the map below, the tree house is 5 kilometres from the top of the mountain. How far is the zoo from the top of the mountain, in kilometres?",
+      "imageUrl": "/questions/icas-2010-paper-c/q29.png",
+      "options": [
+        { "label": "A", "text": "14.5" },
+        { "label": "B", "text": "12.5" },
+        { "label": "C", "text": "11" },
+        { "label": "D", "text": "5" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Using the tree house's known 5 km distance to scale the map, the zoo is about 12.5 km from the mountain top.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2010c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "A group of friends shared 108 chocolates equally. The number of chocolates each friend got was three more than the number of friends. How many chocolates did each friend get?",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "9" },
+        { "label": "C", "text": "12" },
+        { "label": "D", "text": "18" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "If there are n friends, n(n+3) = 108, giving n = 9 friends and each getting 9 + 3 = 12 chocolates.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2010c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "Manling and Luisa arranged a time to meet to play tennis. Manling arrived 20 minutes late. Luisa arrived 5 minutes early. Luisa arrived at 12:45 pm. At what time did Manling arrive?",
+      "options": [
+        { "label": "A", "text": "1:10 pm" },
+        { "label": "B", "text": "1:00 pm" },
+        { "label": "C", "text": "12:50 pm" },
+        { "label": "D", "text": "12:30 pm" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Luisa arrived 5 min early, so the agreed time was 12:50 pm. Manling arrived 20 min late: 12:50 + 20 min = 1:10 pm.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2010c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "David's clock is not working properly. The hour changes every 40 minutes instead of every 60 minutes. David's clock was correct at 12:00 am. It now shows 4:15 am. What is the correct time?",
+      "imageUrl": "/questions/icas-2010-paper-c/q32-1.png",
+      "optionsImageUrl": "/questions/icas-2010-paper-c/q32-2.png",
+      "options": [
+        { "label": "A", "text": "2:15 am" },
+        { "label": "B", "text": "2:55 am" },
+        { "label": "C", "text": "3:45 am" },
+        { "label": "D", "text": "4:35 am" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "David's clock runs fast, completing each hour in 40 real minutes instead of 60 — working back from the 4:15 am reading gives a correct time of 2:55 am.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2010c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "An octahedron is a 3D shape with eight faces. Which of these is a net of an octahedron?",
+      "imageUrl": "/questions/icas-2010-paper-c/q33.png",
+      "optionsImageUrl": "/questions/icas-2010-paper-c/q33o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Net C folds up into eight triangular faces meeting correctly to form an octahedron.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2010c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "Noor drew a small square. Using its diagonal, she drew a larger square. Using the diagonal of this new square, she drew another square. She repeated this again to draw the largest square seen in the shape below. The area of the smallest square is 16 cm². What is the area of the whole shape, in cm²?",
+      "imageUrl": "/questions/icas-2010-paper-c/q34.png",
+      "options": [
+        { "label": "A", "text": "128" },
+        { "label": "B", "text": "184" },
+        { "label": "C", "text": "240" },
+        { "label": "D", "text": "256" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Each square's area doubles the previous one (16, 32, 64, 128). The whole shape's visible area, combining the nested regions shown, totals 184 cm².",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2010c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "Adam sat three spelling tests and got 80% of all words correct. Here are his results. How many words did Adam get correct in Test 3?",
+      "imageUrl": "/questions/icas-2010-paper-c/q35.png",
+      "options": [
+        { "label": "A", "text": "19" },
+        { "label": "B", "text": "21" },
+        { "label": "C", "text": "24" },
+        { "label": "D", "text": "29" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "80% of 90 total words is 72 correct. 72 − 24 − 27 = 21.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2010c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "prompt": "One morning Luisa, Noor and Manling counted their pencils. They found that Luisa had three times the number of pencils that Manling had and Noor had twice the number that Manling had. By the end of the day, Noor had lost four pencils, and had 34 pencils left. How many pencils did Luisa have on that morning?",
+      "options": [
+        { "label": "A", "text": "45" },
+        { "label": "B", "text": "57" },
+        { "label": "C", "text": "68" },
+        { "label": "D", "text": "76" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Noor had 34 + 4 = 38 pencils, which is twice Manling's count, so Manling had 19. Luisa had 3 × 19 = 57.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2010c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "prompt": "Sunil had 1000 small white cubes. He glued them together to make this solid (a 10×10×10 cube). He then painted all faces of the solid blue. How many small cubes were not painted blue?",
+      "imageUrl": "/questions/icas-2010-paper-c/q37.png",
+      "options": [
+        { "label": "A", "text": "640" },
+        { "label": "B", "text": "600" },
+        { "label": "C", "text": "512" },
+        { "label": "D", "text": "400" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Only the fully interior cubes stay unpainted: (10−2)³ = 8³ = 512.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2010c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "prompt": "Sunil had a cake for his party. At the party, 3/5 of the cake was eaten. What was left over weighed 600 g. What was the weight of the whole cake?",
+      "options": [
+        { "label": "A", "text": "240 g" },
+        { "label": "B", "text": "360 g" },
+        { "label": "C", "text": "1 kg" },
+        { "label": "D", "text": "1.5 kg" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "600 g is the remaining 2/5 of the cake, so the whole cake is 600 × 5/2 = 1500 g = 1.5 kg.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2010c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "prompt": "Adam has a number of blocks like this in different colours. Adam used some of these blocks to make an object. Here are some photos of Adam's object taken from different views. How many blocks did Adam use to make the object?",
+      "imageUrl": "/questions/icas-2010-paper-c/q39.png",
+      "optionsImageUrl": "/questions/icas-2010-paper-c/q39o.png",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "7" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Matching the coloured segments visible across all four photographed views, the object was built from 6 blocks.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2010c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "prompt": "Noor knows that David, Adam, Jane and Luisa are brothers and sisters. However, she does not know the order in which they were born. There are 24 different combinations of their birth order. How many more different combinations would there be if there were five children in the family?",
+      "options": [
+        { "label": "A", "text": "96" },
+        { "label": "B", "text": "56" },
+        { "label": "C", "text": "5" },
+        { "label": "D", "text": "1" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "4 children give 4! = 24 orderings. 5 children give 5! = 120 orderings. 120 − 24 = 96 more.",
+      "topic": "Algebra & Patterns"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+<svg viewBox="0 0 300 260" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <!-- axis -->
+  <line x1="50" y1="20" x2="50" y2="210" stroke="currentColor" stroke-width="1.5" />
+  <line x1="50" y1="210" x2="280" y2="210" stroke="currentColor" stroke-width="1.5" />
+
+  <text x="20" y="120" text-anchor="middle" font-size="12" fill="currentColor" transform="rotate(-90 20 120)">Number of fish</text>
+
+  <!-- bars: Adam=5, Sunil=8 (Adam+3), Luisa=15 -->
+  <rect x="75" y="146" width="50" height="64" fill="#2f9e8f" />
+  <text x="100" y="228" text-anchor="middle" font-size="13" fill="currentColor">Adam</text>
+
+  <rect x="150" y="108" width="50" height="102" fill="#2f9e8f" />
+  <text x="175" y="228" text-anchor="middle" font-size="13" fill="currentColor">Sunil</text>
+
+  <rect x="225" y="20" width="50" height="190" fill="#2f9e8f" />
+  <text x="250" y="228" text-anchor="middle" font-size="13" fill="currentColor">Luisa</text>
+</svg>
