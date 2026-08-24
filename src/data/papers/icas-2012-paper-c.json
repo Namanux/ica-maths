@@ -1,0 +1,662 @@
+{
+  "id": "icas-2012-paper-c",
+  "subject": "Mathematics",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS Mathematics 2012 — Paper C",
+  "year": 2012,
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "2012c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "What is the next number in this pattern? 3, 6, 12, 24, ?",
+      "options": [
+        { "label": "A", "text": "30" },
+        { "label": "B", "text": "36" },
+        { "label": "C", "text": "42" },
+        { "label": "D", "text": "48" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Each number doubles the one before it: 24 × 2 = 48.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2012c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Which of these shapes has only one right angle?",
+      "imageUrl": "/questions/icas-2012-paper-c/q2-shapes.svg",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The right triangle (C) has exactly one right angle. The square (A) has four, and the other two shapes have none.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2012c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Mike was facing north. He turned 180°. Which direction was Mike facing when he finished the turn?",
+      "options": [
+        { "label": "A", "text": "north" },
+        { "label": "B", "text": "south" },
+        { "label": "C", "text": "east" },
+        { "label": "D", "text": "west" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A 180° turn faces the exact opposite direction — south.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2012c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Students in a class were surveyed about their favourite colour. Every student chose one colour. The graph shows the results. How many students did NOT choose pink or red?",
+      "imageUrl": "/questions/icas-2012-paper-c/q4-bar-graph.svg",
+      "options": [
+        { "label": "A", "text": "8" },
+        { "label": "B", "text": "20" },
+        { "label": "C", "text": "23" },
+        { "label": "D", "text": "25" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Total students = 5 + 7 + 3 + 5 + 8 = 28. Not pink or red = 28 − 3 − 5 = 20.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2012c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Joe measured two paperclips using a ruler marked in centimetres. Using the ruler in the photo, how much longer than the small paperclip is the big paperclip?",
+      "imageUrl": "/questions/icas-2012-paper-c/q5.png",
+      "options": [
+        { "label": "A", "text": "1.7 cm" },
+        { "label": "B", "text": "2.0 cm" },
+        { "label": "C", "text": "3.1 cm" },
+        { "label": "D", "text": "7.8 cm" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The big paperclip reaches about 7.8 cm and the small paperclip about 6.1 cm on the ruler, a difference of about 1.7 cm.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2012c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Which of the following spinners has more chance of landing on white than on grey?",
+      "imageUrl": "/questions/icas-2012-paper-c/q6.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Spinner D has a larger white section than grey section — the others have equal or more grey than white.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2012c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Sasi bought some fruit: oranges (174 grams), bananas (522 grams) and grapes (386 grams). What is the total mass of Sasi's fruit, in kilograms?",
+      "imageUrl": "/questions/icas-2012-paper-c/q7.png",
+      "options": [
+        { "label": "A", "text": "1.082" },
+        { "label": "B", "text": "1.82" },
+        { "label": "C", "text": "10.82" },
+        { "label": "D", "text": "1082" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "174 + 522 + 386 = 1082 grams = 1.082 kilograms.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2012c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "The table shows how much money was raised from different activities at a school fair. Which column on the graph shows the amount of money raised from face painting?",
+      "table": {
+        "headers": ["Activity", "Money Raised ($)"],
+        "rows": [
+          ["Cake stall", "45"],
+          ["Toy sale", "25"],
+          ["Food stall", "60"],
+          ["Face painting", "28"],
+          ["Book stall", "43"],
+          ["Sack race", "19"]
+        ]
+      },
+      "imageUrl": "/questions/icas-2012-paper-c/q8-bar-graph.svg",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Face painting raised $28, matching the height of column B on the graph.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2012c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Lin exercises from 6:45 am to 7:10 am every day of the week. For how long does Lin exercise each week?",
+      "options": [
+        { "label": "A", "text": "2 hours 55 minutes" },
+        { "label": "B", "text": "2 hours 15 minutes" },
+        { "label": "C", "text": "1 hour 45 minutes" },
+        { "label": "D", "text": "1 hour 25 minutes" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Lin exercises 25 minutes a day. 25 × 7 = 175 minutes = 2 hours 55 minutes.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2012c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "This rabbit's playpen is made of eight panels of equal size. The panels can be set up to make different shapes. The top views of four of these shapes are shown on a square grid. Which shape gives the rabbit the greatest area?",
+      "imageUrl": "/questions/icas-2012-paper-c/q10.png",
+      "optionsImageUrl": "/questions/icas-2012-paper-c/q10o.png",
+      "options": [
+        { "label": "A", "text": "Shape 1" },
+        { "label": "B", "text": "Shape 2" },
+        { "label": "C", "text": "Shape 3" },
+        { "label": "D", "text": "Shape 4" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Shape 1 (the octagon) encloses the greatest area of the four shapes shown on the grid.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2012c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Jeremy put some apples and pears on a set of scales: 3 apples balance 2 pears. Then 2 apples balance a red square. Which picture could replace the square?",
+      "imageUrl": "/questions/icas-2012-paper-c/q11-1.png",
+      "optionsImageUrl": "/questions/icas-2012-paper-c/q11-2.png",
+      "options": [
+        { "label": "A", "text": "two pears" },
+        { "label": "B", "text": "one and a half pears" },
+        { "label": "C", "text": "one pear" },
+        { "label": "D", "text": "half a pear" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Three apples balance two pears, so each apple weighs two-thirds of a pear. Two apples then weigh 4/3 of a pear — closest to one and a half pears among the options given.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2012c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "The pie graph shows the proportion of Australian people in different age groups. The graph shows that more than half of Australians are aged",
+      "imageUrl": "/questions/icas-2012-paper-c/q12.png",
+      "options": [
+        { "label": "A", "text": "under 20." },
+        { "label": "B", "text": "under 40." },
+        { "label": "C", "text": "40 and over." },
+        { "label": "D", "text": "60 and over." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The 0–19 and 20–39 slices together make up more than half the circle, so more than half of Australians are aged under 40.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2012c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Fadi drew this shape. Which of these shows Fadi's shape flipped and turned?",
+      "imageUrl": "/questions/icas-2012-paper-c/q13.png",
+      "optionsImageUrl": "/questions/icas-2012-paper-c/q13o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Option A matches Fadi's shape after it has been flipped over and rotated.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2012c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Joe wrote this calculation: 139 × 6 − 134. Which of these will give the same answer?",
+      "options": [
+        { "label": "A", "text": "139 × 7 − 5" },
+        { "label": "B", "text": "139 × 5 + 5" },
+        { "label": "C", "text": "140 × 5 + 5" },
+        { "label": "D", "text": "140 × 6 − 128" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "139 × 6 − 134 = 834 − 134 = 700. 139 × 5 + 5 = 695 + 5 = 700, the same answer.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2012c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Lin and Ann went to the zoo. They used a map that shows a part of the zoo. Lin and Ann are at the giraffe enclosure. Lin walked to see the camels. Ann walked to see the tigers. They both walked along the pathway. How many metres more than Ann did Lin walk?",
+      "imageUrl": "/questions/icas-2012-paper-c/q15.png",
+      "options": [
+        { "label": "A", "text": "2" },
+        { "label": "B", "text": "8" },
+        { "label": "C", "text": "10" },
+        { "label": "D", "text": "20" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Using the map's scale (1 square = 10 m), Lin's walk to the camels is 20 m longer than Ann's walk to the tigers.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2012c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "The chart shows how the water level in a harbour changed on a particular day. What was the difference between the highest and the lowest water level?",
+      "imageUrl": "/questions/icas-2012-paper-c/q16.png",
+      "options": [
+        { "label": "A", "text": "0.1 m" },
+        { "label": "B", "text": "0.7 m" },
+        { "label": "C", "text": "0.9 m" },
+        { "label": "D", "text": "1.3 m" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The highest water level is about 1.3 m and the lowest is about 0.4 m, a difference of about 0.9 m.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2012c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "The country of Yeno has a currency called 'yenom'. They have coins of the following types: 1, 2, 5, 10, 20 and 50 yenoms. Adam bought an item that cost 59 yenoms and no change was required. What is the smallest number of coins Adam could have used to pay?",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "4" },
+        { "label": "D", "text": "3" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "59 = 50 + 5 + 2 + 2, which uses 4 coins. No pair of coins can make the remaining 9 yenoms, so 4 is the smallest possible number.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2012c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "Mike drew a black line on this grid from (1, 3) to (5, 3). Which of the following pairs of points, when joined, makes a line which has the same length as Mike's line?",
+      "imageUrl": "/questions/icas-2012-paper-c/q18-grid.svg",
+      "options": [
+        { "label": "A", "text": "(1, 2) to (4, 2)" },
+        { "label": "B", "text": "(1, 4) to (4, 1)" },
+        { "label": "C", "text": "(2, 0) to (6, 4)" },
+        { "label": "D", "text": "(3, 2) to (3, 6)" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Mike's line is 4 units long. (3, 2) to (3, 6) is also a vertical line 4 units long.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2012c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Ann has seedlings like the one shown. She wants to plant the seedlings in 4 rows with the same number of seedlings in each row. Ann will have 3 seedlings left over. How many seedlings could Ann have?",
+      "imageUrl": "/questions/icas-2012-paper-c/q19.png",
+      "options": [
+        { "label": "A", "text": "12" },
+        { "label": "B", "text": "13" },
+        { "label": "C", "text": "16" },
+        { "label": "D", "text": "19" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The total must leave a remainder of 3 when divided by 4. Only 19 does: 19 ÷ 4 = 4 remainder 3.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2012c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "This is what the angle between the minute hand and the hour hand of the clock looks like at 5:15. At which of these times is the angle between the hands of the clock the smallest?",
+      "imageUrl": "/questions/icas-2012-paper-c/q20.png",
+      "optionsImageUrl": "/questions/icas-2012-paper-c/q20o.png",
+      "options": [
+        { "label": "A", "text": "6:45" },
+        { "label": "B", "text": "3:30" },
+        { "label": "C", "text": "12:15" },
+        { "label": "D", "text": "9:00" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "At 6:45 the hour hand sits close to the 6-7 mark and the minute hand points at 9, leaving the smallest gap between the hands of the four times shown.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2012c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "In Mrs Smith's class there are 10 boys and 11 girls. Each student brought 2 strawberries and 12 blueberries to a picnic. How many berries did the students bring altogether?",
+      "options": [
+        { "label": "A", "text": "35" },
+        { "label": "B", "text": "152" },
+        { "label": "C", "text": "294" },
+        { "label": "D", "text": "300" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "21 students × 14 berries each (2 + 12) = 294 berries.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2012c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "The number 12 is divisible by 3 because 12 can be divided by 3 with no remainder. A prime number is a number greater than 1 that is only divisible by 1 and itself. The first four prime numbers are 2, 3, 5 and 7. How many prime numbers are there between 20 and 40?",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "8" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The primes between 20 and 40 are 23, 29, 31 and 37 — 4 in total.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2012c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "Which of these is the net of a cone with no base?",
+      "imageUrl": "/questions/icas-2012-paper-c/q23.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A cone's curved surface unrolls into a circle with a wedge missing — with no base circle included, it's just that single sector shape.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2012c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "Ann used a book to measure the area of her desk. Here is a picture of Ann's book. She found that the area of her desk is 12 times greater than the area of her book. Which of the following gives the area of Ann's desk, in cm²?",
+      "imageUrl": "/questions/icas-2012-paper-c/q24.png",
+      "options": [
+        { "label": "A", "text": "14.8 + 21 + 12" },
+        { "label": "B", "text": "14.8 × 21 × 12" },
+        { "label": "C", "text": "(14.8 + 21) × 12" },
+        { "label": "D", "text": "2 × (14.8 + 21) × 12" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The desk's area is 12 times the book's area (14.8 × 21), so the desk's area is 14.8 × 21 × 12.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2012c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "In a theatre, Indra is sitting in the 9th row from the front. This row is also the 15th row from the back. How many rows of seats are there in this theatre?",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "23" },
+        { "label": "C", "text": "24" },
+        { "label": "D", "text": "25" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Total rows = 9 + 15 − 1 = 23 (Indra's row is counted once, not twice).",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2012c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "Which two pictures are one-third shaded?",
+      "imageUrl": "/questions/icas-2012-paper-c/q26.png",
+      "options": [
+        { "label": "A", "text": "W and Y" },
+        { "label": "B", "text": "W and Z" },
+        { "label": "C", "text": "X and Y" },
+        { "label": "D", "text": "X and Z" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "X and Z each have exactly one-third of their area shaded.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2012c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "A baby crawled 4 metres in 10 seconds. At what speed did the baby crawl?",
+      "options": [
+        { "label": "A", "text": "4 centimetres per second" },
+        { "label": "B", "text": "25 centimetres per second" },
+        { "label": "C", "text": "40 centimetres per second" },
+        { "label": "D", "text": "100 centimetres per second" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "4 metres = 400 cm. 400 ÷ 10 = 40 centimetres per second.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2012c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "12 × ? = 3. What is the value of ??",
+      "options": [
+        { "label": "A", "text": "1/4" },
+        { "label": "B", "text": "1/3" },
+        { "label": "C", "text": "4" },
+        { "label": "D", "text": "36" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "? = 3 ÷ 12 = 1/4.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2012c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "By cutting along the dashed line, this rectangle can be divided into two pieces. The pieces are then rearranged and joined to form a parallelogram that is not a rectangle. What is the perimeter of the parallelogram?",
+      "imageUrl": "/questions/icas-2012-paper-c/q29.png",
+      "options": [
+        { "label": "A", "text": "20 cm" },
+        { "label": "B", "text": "26 cm" },
+        { "label": "C", "text": "28 cm" },
+        { "label": "D", "text": "32 cm" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The parallelogram keeps the same top and bottom lengths as the original rectangle's width (9 cm each) and gains two slanted sides equal to the 5 cm cut: 2 × 9 + 2 × 5 = 28 cm.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2012c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "Mike went to the cinema. He arrived at 1:50 pm and had to leave at 3:40 pm. Mike watched one complete movie. Which movie did Mike watch?",
+      "table": {
+        "headers": ["Movie", "Length", "Showing at"],
+        "rows": [
+          ["Clappy Hands", "2 h 10 min", "1:50, 3:40"],
+          ["The Watchamacallit", "1 h 29 min", "1:40, 2:20, 3:50"],
+          ["Monotonous Monday", "1 h 39 min", "1:00, 2:00"],
+          ["Anyone Can Bake Beans", "1 h 50 min", "1:40, 3:30, 5:20"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "Clappy Hands" },
+        { "label": "B", "text": "The Watchamacallit" },
+        { "label": "C", "text": "Monotonous Monday" },
+        { "label": "D", "text": "Anyone Can Bake Beans" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Only the 2:00 showing of Monotonous Monday starts after Mike arrives and finishes (3:39) before he must leave.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2012c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "What number should ? be?",
+      "imageUrl": "/questions/icas-2012-paper-c/q31-numberline.svg",
+      "options": [
+        { "label": "A", "text": "4/5" },
+        { "label": "B", "text": "3/4" },
+        { "label": "C", "text": "7/8" },
+        { "label": "D", "text": "9/10" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The marked point sits just before 1, matching 7/8 on the number line.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2012c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "Sunil had a cake for his party. At the party, 3/5 of the cake was eaten. What was left over weighed 600 g. What was the weight of the whole cake?",
+      "options": [
+        { "label": "A", "text": "240 g" },
+        { "label": "B", "text": "360 g" },
+        { "label": "C", "text": "1 kg" },
+        { "label": "D", "text": "1.5 kg" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "600 g is the remaining 2/5 of the cake, so the whole cake is 600 × 5/2 = 1500 g = 1.5 kg.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2012c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "4 × 9 − 6 × 3 + 6 = ?",
+      "options": [
+        { "label": "A", "text": "24" },
+        { "label": "B", "text": "42" },
+        { "label": "C", "text": "96" },
+        { "label": "D", "text": "108" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Following order of operations: 4×9=36, 6×3=18, so 36 − 18 + 6 = 24.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2012c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "Which card should be removed so the remaining cards make a pattern?",
+      "imageUrl": "/questions/icas-2012-paper-c/q34.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Removing card A leaves the remaining cards in a clean repeating sequence.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2012c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "Mike wants to rotate the yellow triangle around a point so that it exactly covers the blue triangle. Around which point on the square grid must Mike rotate the yellow triangle?",
+      "imageUrl": "/questions/icas-2012-paper-c/q35.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Rotating the yellow triangle 180° around point D lands it exactly on the blue triangle.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2012c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "prompt": "Josh is playing a game that has three types of cards: star, triangle and spiral. The triangle card is worth three times as many points as the star card. The spiral card is worth three times as many points as the triangle card. These six cards (2 triangles, 3 stars, 1 spiral) are worth a total of 90 points. How many points is one spiral card worth?",
+      "imageUrl": "/questions/icas-2012-paper-c/q36.png",
+      "optionsImageUrl": "/questions/icas-2012-paper-c/q36o.png",
+      "options": [
+        { "label": "A", "text": "5" },
+        { "label": "B", "text": "15" },
+        { "label": "C", "text": "30" },
+        { "label": "D", "text": "45" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "If a star is worth s, a triangle is worth 3s and a spiral is worth 9s. 2 triangles + 3 stars + 1 spiral = 6s + 3s + 9s = 18s = 90, so s = 5 and the spiral is worth 9 × 5 = 45.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2012c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "prompt": "Ann, Sasi, Lin and Mia went to a fair. Ann had $5 and spent $3.50. Sasi had $10 and spent $7.50. Lin had $15 and spent $10.50. Mia had $20 and spent $10. Which girl spent the largest fraction of the money she had?",
+      "options": [
+        { "label": "A", "text": "Ann" },
+        { "label": "B", "text": "Sasi" },
+        { "label": "C", "text": "Lin" },
+        { "label": "D", "text": "Mia" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Ann spent 3.5/5 = 0.7, Sasi spent 7.5/10 = 0.75, Lin spent 10.5/15 = 0.7, Mia spent 10/20 = 0.5. Sasi's fraction is the largest.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2012c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "prompt": "Mike made this design using four triangles (not to scale) — the whole design is 40 cm wide and 8 cm tall. What is the total coloured area of the design, in cm²?",
+      "imageUrl": "/questions/icas-2012-paper-c/q38.png",
+      "options": [
+        { "label": "A", "text": "80" },
+        { "label": "B", "text": "96" },
+        { "label": "C", "text": "160" },
+        { "label": "D", "text": "320" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Four triangles, each with base 10 cm and height 8 cm: area = 4 × (1/2 × 10 × 8) = 160 cm².",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2012c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "prompt": "Ann has some triangles that are identical to the triangle shown. What is the smallest number of triangles that can be fitted together to make a larger triangle?",
+      "imageUrl": "/questions/icas-2012-paper-c/q39.png",
+      "options": [
+        { "label": "A", "text": "2" },
+        { "label": "B", "text": "3" },
+        { "label": "C", "text": "4" },
+        { "label": "D", "text": "9" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Four copies of the triangle — one upside down in the middle, three upright around it — combine to form a larger similar triangle.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2012c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "prompt": "This is a drawing of a solid prism which was built using identical cubes. Some of the cubes used to build the prism cannot be seen in the drawing. How many cubes cannot be seen in the drawing?",
+      "imageUrl": "/questions/icas-2012-paper-c/q40.png",
+      "options": [
+        { "label": "A", "text": "34" },
+        { "label": "B", "text": "48" },
+        { "label": "C", "text": "57" },
+        { "label": "D", "text": "60" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Only the cubes on the three visible faces of the prism can be seen — the rest, hidden inside and on the far side, total 48.",
+      "topic": "Space & Geometry"
+    }
+  ]
+}

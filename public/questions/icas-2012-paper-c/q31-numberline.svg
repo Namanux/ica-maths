@@ -1,0 +1,20 @@
+<svg viewBox="0 0 400 90" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <line x1="30" y1="45" x2="370" y2="45" stroke="currentColor" stroke-width="2" />
+
+  <!-- 0 -->
+  <line x1="30" y1="35" x2="30" y2="55" stroke="currentColor" stroke-width="2" />
+  <text x="30" y="75" text-anchor="middle" font-size="14" fill="currentColor">0</text>
+
+  <!-- 1/2 -->
+  <line x1="200" y1="35" x2="200" y2="55" stroke="currentColor" stroke-width="2" />
+  <text x="200" y="30" text-anchor="middle" font-size="13" fill="currentColor">1/2</text>
+
+  <!-- 1 -->
+  <line x1="370" y1="35" x2="370" y2="55" stroke="currentColor" stroke-width="2" />
+  <text x="370" y="75" text-anchor="middle" font-size="14" fill="currentColor">1</text>
+
+  <!-- ? marker, positioned close to 1 -->
+  <line x1="327" y1="35" x2="327" y2="55" stroke="#dc2626" stroke-width="3" />
+  <rect x="312" y="8" width="30" height="20" rx="3" fill="#dc2626" />
+  <text x="327" y="23" text-anchor="middle" font-size="14" fill="white" font-weight="bold">?</text>
+</svg>

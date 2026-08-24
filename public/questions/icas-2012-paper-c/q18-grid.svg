@@ -1,0 +1,46 @@
+<svg viewBox="0 0 260 260" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <!-- grid: origin at (30,220), each unit = 35px, 0-6 both axes -->
+  <g stroke="var(--border)" stroke-width="1">
+    <line x1="30" y1="10" x2="30" y2="220" />
+    <line x1="65" y1="10" x2="65" y2="220" />
+    <line x1="100" y1="10" x2="100" y2="220" />
+    <line x1="135" y1="10" x2="135" y2="220" />
+    <line x1="170" y1="10" x2="170" y2="220" />
+    <line x1="205" y1="10" x2="205" y2="220" />
+    <line x1="240" y1="10" x2="240" y2="220" />
+
+    <line x1="30" y1="220" x2="240" y2="220" />
+    <line x1="30" y1="185" x2="240" y2="185" />
+    <line x1="30" y1="150" x2="240" y2="150" />
+    <line x1="30" y1="115" x2="240" y2="115" />
+    <line x1="30" y1="80" x2="240" y2="80" />
+    <line x1="30" y1="45" x2="240" y2="45" />
+    <line x1="30" y1="10" x2="240" y2="10" />
+  </g>
+
+  <!-- axes, bolder -->
+  <line x1="30" y1="10" x2="30" y2="220" stroke="currentColor" stroke-width="1.5" />
+  <line x1="30" y1="220" x2="240" y2="220" stroke="currentColor" stroke-width="1.5" />
+
+  <!-- axis labels 0-6 -->
+  <g font-size="11" fill="currentColor">
+    <text x="30" y="235" text-anchor="middle">0</text>
+    <text x="65" y="235" text-anchor="middle">1</text>
+    <text x="100" y="235" text-anchor="middle">2</text>
+    <text x="135" y="235" text-anchor="middle">3</text>
+    <text x="170" y="235" text-anchor="middle">4</text>
+    <text x="205" y="235" text-anchor="middle">5</text>
+    <text x="240" y="235" text-anchor="middle">6</text>
+
+    <text x="20" y="224" text-anchor="end">0</text>
+    <text x="20" y="189" text-anchor="end">1</text>
+    <text x="20" y="154" text-anchor="end">2</text>
+    <text x="20" y="119" text-anchor="end">3</text>
+    <text x="20" y="84" text-anchor="end">4</text>
+    <text x="20" y="49" text-anchor="end">5</text>
+    <text x="20" y="14" text-anchor="end">6</text>
+  </g>
+
+  <!-- Mike's line from (1,3) to (5,3) -->
+  <line x1="65" y1="115" x2="205" y2="115" stroke="#111827" stroke-width="4" stroke-linecap="round" />
+</svg>

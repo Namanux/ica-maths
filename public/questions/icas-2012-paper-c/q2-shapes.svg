@@ -1,0 +1,17 @@
+<svg viewBox="0 0 420 200" xmlns="http://www.w3.org/2000/svg" font-family="sans-serif">
+  <!-- A: green square, 4 right angles -->
+  <rect x="20" y="20" width="80" height="80" fill="#4ade80" stroke="#166534" stroke-width="2" />
+  <text x="60" y="118" text-anchor="middle" font-size="16" fill="currentColor">(A)</text>
+
+  <!-- B: purple isoceles triangle, no right angle -->
+  <polygon points="180,20 140,100 220,100" fill="#a78bfa" stroke="#5b21b6" stroke-width="2" />
+  <text x="180" y="118" text-anchor="middle" font-size="16" fill="currentColor">(B)</text>
+
+  <!-- C: blue right triangle, right angle at bottom-left -->
+  <polygon points="260,20 260,100 340,100" fill="#60a5fa" stroke="#1e3a8a" stroke-width="2" />
+  <text x="300" y="118" text-anchor="middle" font-size="16" fill="currentColor">(C)</text>
+
+  <!-- D: red irregular quadrilateral (dart), no right angle -->
+  <polygon points="380,15 405,55 390,100 355,60" fill="#f87171" stroke="#991b1b" stroke-width="2" />
+  <text x="380" y="118" text-anchor="middle" font-size="16" fill="currentColor">(D)</text>
+</svg>
