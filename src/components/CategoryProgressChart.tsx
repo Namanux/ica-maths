@@ -1,18 +1,78 @@
 "use client";
 
+import { useState } from "react";
+import {
+  LineChart,
+  Line,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+} from "recharts";
 import { useTheme } from "@/lib/theme-provider";
 import { TOPIC_ORDER } from "@/lib/scoring";
 import { TOPIC_COLORS, TOPIC_COLORS_DARK } from "@/lib/topicColors";
 import { formatShortDate } from "@/lib/format";
 import type { StoredAttempt } from "@/lib/attempts";
 
-const WIDTH = 640;
-const HEIGHT = 260;
-const PAD = { top: 16, right: 16, bottom: 34, left: 34 };
+interface ChartPoint {
+  label: string;
+  raw: Record<string, { correct: number; total: number }>;
+  [topic: string]: unknown;
+}
 
-interface SeriesPoint {
-  index: number;
-  pct: number;
+function buildChartData(attempts: StoredAttempt[]): ChartPoint[] {
+  return attempts.map((a) => {
+    const point: ChartPoint = { label: formatShortDate(a.completedAt), raw: {} };
+    for (const topic of TOPIC_ORDER) {
+      const cat = a.categoryBreakdown.find((c) => c.topic === topic);
+      if (cat && cat.total > 0) {
+        point[topic] = Math.round((cat.correct / cat.total) * 1000) / 10;
+        point.raw[topic] = { correct: cat.correct, total: cat.total };
+      }
+    }
+    return point;
+  });
+}
+
+interface TooltipEntry {
+  dataKey: string;
+  value: number;
+  color: string;
+}
+
+function ChartTooltip({
+  active,
+  payload,
+  label,
+}: {
+  active?: boolean;
+  payload?: TooltipEntry[];
+  label?: string;
+}) {
+  if (!active || !payload || payload.length === 0) return null;
+  const point = (payload[0] as unknown as { payload: ChartPoint }).payload;
+  return (
+    <div className="rounded-lg border border-border bg-background px-3 py-2 text-xs shadow-lg flex flex-col gap-1">
+      <div className="font-medium">{label}</div>
+      {payload.map((entry) => {
+        const raw = point.raw[entry.dataKey];
+        return (
+          <div key={entry.dataKey} className="flex items-center gap-1.5" style={{ color: entry.color }}>
+            <span>{entry.dataKey}:</span>
+            {raw && (
+              <span>
+                {raw.correct}/{raw.total} correct
+              </span>
+            )}
+            <span>({entry.value}%)</span>
+          </div>
+        );
+      })}
+    </div>
+  );
 }
 
 export function CategoryProgressChart({
@@ -25,6 +85,7 @@ export function CategoryProgressChart({
 }) {
   const { theme } = useTheme();
   const palette = theme === "dark" ? TOPIC_COLORS_DARK : TOPIC_COLORS;
+  const [hidden, setHidden] = useState<Set<string>>(new Set());
 
   if (attempts.length < 2) {
     return (
@@ -35,100 +96,61 @@ export function CategoryProgressChart({
     );
   }
 
-  const innerW = WIDTH - PAD.left - PAD.right;
-  const innerH = HEIGHT - PAD.top - PAD.bottom;
-  const n = attempts.length;
-  const xFor = (i: number) => PAD.left + (innerW * i) / (n - 1);
-  const yFor = (pct: number) => PAD.top + innerH - (innerH * pct) / 100;
+  const data = buildChartData(attempts);
+  const topicsPresent = TOPIC_ORDER.filter((t) => data.some((d) => typeof d[t] === "number"));
 
-  const series = TOPIC_ORDER.map((topic) => {
-    const points: SeriesPoint[] = [];
-    attempts.forEach((a, i) => {
-      const cat = a.categoryBreakdown.find((c) => c.topic === topic);
-      if (cat && cat.total > 0) {
-        points.push({ index: i, pct: Math.round((cat.correct / cat.total) * 100) });
-      }
+  const toggleTopic = (topic: string) => {
+    setHidden((prev) => {
+      const next = new Set(prev);
+      if (next.has(topic)) next.delete(topic);
+      else next.add(topic);
+      return next;
     });
-    return { topic, points };
-  }).filter((s) => s.points.length > 0);
+  };
 
   return (
     <div className="rounded-lg border border-border p-4 flex flex-col gap-3">
-      <div className="font-medium">{title}</div>
-      <div className="overflow-x-auto">
-        <svg width={WIDTH} height={HEIGHT} className="min-w-[480px]" role="img">
-          <title>{`${title} — percentage correct by category over time`}</title>
-
-          {[0, 25, 50, 75, 100].map((pct) => (
-            <g key={pct}>
-              <line
-                x1={PAD.left}
-                x2={WIDTH - PAD.right}
-                y1={yFor(pct)}
-                y2={yFor(pct)}
-                stroke="var(--border)"
-                strokeWidth={1}
-              />
-              <text
-                x={PAD.left - 8}
-                y={yFor(pct)}
-                textAnchor="end"
-                dominantBaseline="middle"
-                fontSize={10}
-                fill="var(--muted)"
-              >
-                {pct}
-              </text>
-            </g>
-          ))}
-
-          {attempts.map((a, i) => (
-            <text
-              key={a.id}
-              x={xFor(i)}
-              y={HEIGHT - PAD.bottom + 16}
-              textAnchor="middle"
-              fontSize={9}
-              fill="var(--muted)"
-            >
-              {formatShortDate(a.completedAt)}
-            </text>
-          ))}
-
-          {series.map(({ topic, points }) => {
-            const color = palette[topic]?.text ?? "var(--foreground)";
-            const path = points.map((p) => `${xFor(p.index)},${yFor(p.pct)}`).join(" ");
-            return (
-              <g key={topic}>
-                <polyline
-                  points={path}
-                  fill="none"
-                  stroke={color}
-                  strokeWidth={2}
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-                {points.map((p) => (
-                  <circle key={p.index} cx={xFor(p.index)} cy={yFor(p.pct)} r={3} fill={color}>
-                    <title>{`${topic}: ${p.pct}% — ${attempts[p.index].paperTitle}`}</title>
-                  </circle>
-                ))}
-              </g>
-            );
-          })}
-        </svg>
+      <div>
+        <div className="font-medium">{title}</div>
+        <p className="text-xs text-muted mt-0.5">% correct per category over time — higher is better</p>
       </div>
-      <div className="flex flex-wrap gap-x-4 gap-y-1.5 text-xs">
-        {series.map(({ topic }) => (
-          <span key={topic} className="flex items-center gap-1.5">
-            <span
-              className="inline-block h-2.5 w-2.5 rounded-full"
-              style={{ backgroundColor: palette[topic]?.text ?? "var(--foreground)" }}
-              aria-hidden
+      <div style={{ width: "100%", height: 400 }}>
+        <ResponsiveContainer width="100%" height="100%">
+          <LineChart data={data} margin={{ top: 8, right: 16, left: 0, bottom: 8 }}>
+            <CartesianGrid stroke="var(--border)" strokeDasharray="3 3" />
+            <XAxis dataKey="label" tick={{ fontSize: 11, fill: "var(--muted)" }} stroke="var(--border)" />
+            <YAxis
+              domain={[0, 100]}
+              tick={{ fontSize: 11, fill: "var(--muted)" }}
+              stroke="var(--border)"
+              label={{
+                value: "% correct",
+                angle: -90,
+                position: "insideLeft",
+                fill: "var(--muted)",
+                fontSize: 11,
+              }}
             />
-            {topic}
-          </span>
-        ))}
+            <Tooltip content={<ChartTooltip />} />
+            <Legend
+              onClick={(entry) => toggleTopic(String(entry.dataKey))}
+              wrapperStyle={{ cursor: "pointer", fontSize: 12 }}
+            />
+            {topicsPresent.map((topic) => (
+              <Line
+                key={topic}
+                type="monotone"
+                dataKey={topic}
+                stroke={palette[topic]?.text ?? "var(--foreground)"}
+                strokeWidth={3}
+                dot={{ r: 4 }}
+                activeDot={{ r: 6 }}
+                hide={hidden.has(topic)}
+                connectNulls
+              />
+            ))}
+          </LineChart>
+        </ResponsiveContainer>
       </div>
     </div>
   );

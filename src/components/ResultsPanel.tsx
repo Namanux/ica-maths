@@ -1,12 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import { useRouter } from "next/navigation";
 import type { Paper, AttemptResult, QuestionResult } from "@/lib/types";
 import { QuestionBody } from "@/components/QuestionBody";
 import { TopicBadge } from "@/components/TopicBadge";
 import { ReportIssueButton } from "@/components/ReportIssueButton";
 import { formatDuration, formatCompletedAt } from "@/lib/format";
-import Link from "next/link";
 
 function questionStatusColor(qr: QuestionResult | undefined): {
   bg: string;
@@ -208,6 +208,7 @@ function ResultsView({
   onResetAll?: () => void;
   onDelete?: () => void;
 }) {
+  const router = useRouter();
   const wrong = result.questionResults.filter(
     (r) => !r.isCorrect && r.userAnswer !== null && r.userAnswer !== undefined
   ).length;
@@ -217,15 +218,26 @@ function ResultsView({
   const circumference = 2 * Math.PI * radius;
   const offset = circumference * (1 - result.percentage / 100);
 
+  // Prefer going back in history so the papers list scroll position is
+  // restored — only fall back to a fresh navigation if this page was
+  // opened directly (e.g. a bookmark), where there's no history to return to.
+  const goBackToPapers = () => {
+    if (typeof window !== "undefined" && window.history.length > 1) {
+      router.back();
+    } else {
+      router.push(`/${profileSlug}/icas`);
+    }
+  };
+
   return (
     <div className="flex flex-col gap-8 print-results">
       <div className="flex items-center justify-between flex-wrap gap-3 no-print">
-        <Link
-          href={`/${profileSlug}/icas`}
+        <button
+          onClick={goBackToPapers}
           className="rounded-full border border-border px-4 py-2 text-sm font-medium hover:bg-surface transition-colors"
         >
           ← Back to papers
-        </Link>
+        </button>
         <h1 className="text-xl font-semibold tracking-tight">Results</h1>
         <div className="flex gap-2">
           <button

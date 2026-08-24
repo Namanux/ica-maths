@@ -3,8 +3,7 @@ import { getAllPapers } from "@/lib/papers";
 import { getProfile } from "@/lib/profiles";
 import { RecentAttempts } from "@/components/RecentAttempts";
 import { PaperListLinks } from "@/components/PaperListLinks";
-import { CategoryProgressPanel } from "@/components/CategoryProgressPanel";
-import { MarksLostPanel } from "@/components/MarksLostPanel";
+import { PerformancePanel } from "@/components/PerformancePanel";
 
 export default async function IcasHome({
   params,
@@ -28,9 +27,7 @@ export default async function IcasHome({
 
       <PaperListLinks papers={papers} slug={slug} />
 
-      <CategoryProgressPanel profileSlug={slug} />
-
-      <MarksLostPanel profileSlug={slug} />
+      <PerformancePanel profileSlug={slug} />
 
       <RecentAttempts profileSlug={slug} />
     </div>

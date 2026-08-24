@@ -152,10 +152,12 @@ export function MarksLostChart({ title, attempts }: { title: string; attempts: S
             {topicsPresent.map((topic) => (
               <Line
                 key={topic}
+                type="monotone"
                 dataKey={topic}
                 stroke={palette[topic]?.text ?? "var(--foreground)"}
-                strokeWidth={2}
-                dot={{ r: 3 }}
+                strokeWidth={3}
+                dot={{ r: 4 }}
+                activeDot={{ r: 6 }}
                 hide={hidden.has(topic)}
                 connectNulls
               />

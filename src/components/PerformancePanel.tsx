@@ -3,9 +3,9 @@
 import { useEffect, useState } from "react";
 import { getAttempts, type StoredAttempt } from "@/lib/attempts";
 import { getProfile, PROFILES } from "@/lib/profiles";
-import { MarksLostChart } from "@/components/MarksLostChart";
+import { ProfilePerformanceTabs } from "@/components/ProfilePerformanceTabs";
 
-export function MarksLostPanel({ profileSlug }: { profileSlug: string }) {
+export function PerformancePanel({ profileSlug }: { profileSlug: string }) {
   const [attempts, setAttempts] = useState<StoredAttempt[]>([]);
   const [loaded, setLoaded] = useState(false);
   const isAdmin = getProfile(profileSlug)?.role === "admin";
@@ -38,17 +38,14 @@ export function MarksLostPanel({ profileSlug }: { profileSlug: string }) {
   const orderedSlugs = PROFILES.map((p) => p.slug).filter((s) => byProfile.has(s));
 
   return (
-    <div className="flex flex-col gap-3">
-      <h2 className="font-medium">Marks left on the table</h2>
-      <div className="flex flex-col gap-4">
-        {orderedSlugs.map((slug) => (
-          <MarksLostChart
-            key={slug}
-            title={isAdmin ? (getProfile(slug)?.name ?? slug) : "Your marks lost"}
-            attempts={byProfile.get(slug)!}
-          />
-        ))}
-      </div>
+    <div className="flex flex-col gap-6">
+      {orderedSlugs.map((slug) => (
+        <ProfilePerformanceTabs
+          key={slug}
+          title={isAdmin ? (getProfile(slug)?.name ?? slug) : "Your progress"}
+          attempts={byProfile.get(slug)!}
+        />
+      ))}
     </div>
   );
 }
