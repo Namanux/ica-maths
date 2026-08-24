@@ -1,5 +1,6 @@
 import type { Paper, PaperSummary } from "./types";
 import sampleY5Paper1 from "@/data/papers/sample-y5-paper1.json";
+import icas2011PaperC from "@/data/papers/icas-2011-paper-c.json";
 import icas2012PaperC from "@/data/papers/icas-2012-paper-c.json";
 import icas2013PaperC from "@/data/papers/icas-2013-paper-c.json";
 import icas2014PaperC from "@/data/papers/icas-2014-paper-c.json";
@@ -10,6 +11,7 @@ import icas2018PaperC from "@/data/papers/icas-2018-paper-c.json";
 
 const papers: Paper[] = [
   sampleY5Paper1 as Paper,
+  icas2011PaperC as Paper,
   icas2012PaperC as Paper,
   icas2013PaperC as Paper,
   icas2014PaperC as Paper,

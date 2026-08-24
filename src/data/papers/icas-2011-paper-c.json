@@ -1,0 +1,655 @@
+{
+  "id": "icas-2011-paper-c",
+  "subject": "Mathematics",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS Mathematics 2011 — Paper C",
+  "year": 2011,
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "2011c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Anish found a caterpillar. What is the length of this caterpillar?",
+      "imageUrl": "/questions/icas-2011-paper-c/q1.png",
+      "options": [
+        { "label": "A", "text": "30 mm" },
+        { "label": "B", "text": "33 mm" },
+        { "label": "C", "text": "30 cm" },
+        { "label": "D", "text": "33 cm" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The caterpillar spans from 0 mm to 33 mm on the ruler.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2011c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Yara started training at 3:15 pm. She trained for one hour and 45 minutes. At what time did Yara finish?",
+      "options": [
+        { "label": "A", "text": "4:00 pm" },
+        { "label": "B", "text": "4:15 pm" },
+        { "label": "C", "text": "5:00 pm" },
+        { "label": "D", "text": "5:15 pm" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "3:15 pm plus 1 hour 45 minutes is 5:00 pm.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2011c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Joe is in box P1. Who is in box R2?",
+      "imageUrl": "/questions/icas-2011-paper-c/q3.png",
+      "options": [
+        { "label": "A", "text": "Ali" },
+        { "label": "B", "text": "Ella" },
+        { "label": "C", "text": "Mike" },
+        { "label": "D", "text": "Sue" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Reading across column R and down to row 2 lands on Sue.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2011c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Natalia is making cupcakes. She needs 60 g of butter to make 12 cupcakes. What is the largest number of cupcakes that Natalia can make with 120 g of butter?",
+      "options": [
+        { "label": "A", "text": "10" },
+        { "label": "B", "text": "24" },
+        { "label": "C", "text": "60" },
+        { "label": "D", "text": "132" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "60 g makes 12 cupcakes (5 g each). 120 g ÷ 5 g = 24 cupcakes.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2011c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Nick bought 6 packets of tennis balls. Each packet had 5 balls in it. Nick lost 7 tennis balls. How can he work out how many tennis balls he has left?",
+      "options": [
+        { "label": "A", "text": "6 × 5 − 7" },
+        { "label": "B", "text": "7 − 6 × 5" },
+        { "label": "C", "text": "7 × 5 − 6" },
+        { "label": "D", "text": "6 × 7 − 5" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "6 packets of 5 balls, minus the 7 lost: 6 × 5 − 7.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2011c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "The table shows how long four students took to run a 100 m race and a 400 m race at a sports event. Which student took less than 15 seconds to complete the 100 m race and less than 70 seconds to complete the 400 m race?",
+      "table": {
+        "headers": ["Name", "Time to complete 100 m race (seconds)", "Time to complete 400 m race (seconds)"],
+        "rows": [
+          ["Anish", "13.3", "74.7"],
+          ["Jess", "16.9", "69.5"],
+          ["Natalia", "14.5", "60.3"],
+          ["Tony", "19.4", "83.1"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "Anish" },
+        { "label": "B", "text": "Jess" },
+        { "label": "C", "text": "Natalia" },
+        { "label": "D", "text": "Tony" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Natalia's 14.5 s is under 15 s and her 60.3 s is under 70 s — the only student meeting both conditions.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2011c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "8806 − 2739 = ?",
+      "options": [
+        { "label": "A", "text": "6133" },
+        { "label": "B", "text": "6103" },
+        { "label": "C", "text": "6077" },
+        { "label": "D", "text": "6067" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "8806 − 2739 = 6067.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2011c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "How many minutes are there in five and a half hours?",
+      "options": [
+        { "label": "A", "text": "55" },
+        { "label": "B", "text": "300" },
+        { "label": "C", "text": "330" },
+        { "label": "D", "text": "550" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "5.5 × 60 = 330 minutes.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2011c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Tony has four parrots and five canaries in a cage. When Tony goes to feed his birds, he notices that one of them is missing. What is the chance that the missing bird is a canary?",
+      "options": [
+        { "label": "A", "text": "1 out of 2" },
+        { "label": "B", "text": "1 out of 5" },
+        { "label": "C", "text": "4 out of 9" },
+        { "label": "D", "text": "5 out of 9" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "5 of the 9 birds are canaries, so the chance is 5 out of 9.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2011c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Yara cut out a piece of cardboard and placed it near a line on grid paper. Which diagram shows Yara's piece of cardboard reflected in the line?",
+      "imageUrl": "/questions/icas-2011-paper-c/q10.png",
+      "optionsImageUrl": "/questions/icas-2011-paper-c/q10o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Option D correctly mirrors the cardboard shape across the diagonal line.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2011c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "The picture shows four objects on a tray. What is the approximate total mass of the objects on the tray?",
+      "imageUrl": "/questions/icas-2011-paper-c/q11.png",
+      "options": [
+        { "label": "A", "text": "250 grams" },
+        { "label": "B", "text": "250 tonnes" },
+        { "label": "C", "text": "250 kilograms" },
+        { "label": "D", "text": "250 milligrams" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "An apple, a tennis ball, a pencil and a paperclip together weigh in the order of a few hundred grams.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2011c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "This picture shows a wheel with a star on it. The wheel makes half a turn in the direction of the arrow and a quarter of a turn in the opposite direction, then stops. Which picture shows the wheel after it has stopped?",
+      "imageUrl": "/questions/icas-2011-paper-c/q12.png",
+      "optionsImageUrl": "/questions/icas-2011-paper-c/q12o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A half turn forward then a quarter turn back leaves the star a net quarter turn from its start, matching option A.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2011c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "The picture shows a stack of three dice. Each dice has the numbers 1 to 6 shown in dots on the faces. What is the sum of all of the numbers NOT shown in the picture?",
+      "imageUrl": "/questions/icas-2011-paper-c/q13.png",
+      "options": [
+        { "label": "A", "text": "63" },
+        { "label": "B", "text": "38" },
+        { "label": "C", "text": "25" },
+        { "label": "D", "text": "24" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Three dice have 18 faces totalling 3 × 21 = 63. Subtracting the faces visible in the picture leaves 38.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2011c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Ms Scott has 38 microscopes. She needs to have two sets of 28 for her science classes. How many more microscopes does Ms Scott need?",
+      "options": [
+        { "label": "A", "text": "10" },
+        { "label": "B", "text": "18" },
+        { "label": "C", "text": "20" },
+        { "label": "D", "text": "22" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Two sets of 28 = 56. 56 − 38 = 18 more microscopes needed.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2011c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Square numbers are numbers that can be represented by a square pattern of dots. The first three square numbers 1, 4 and 9 can be represented as shown. Which of the following is a square number?",
+      "imageUrl": "/questions/icas-2011-paper-c/q15.png",
+      "options": [
+        { "label": "A", "text": "10" },
+        { "label": "B", "text": "25" },
+        { "label": "C", "text": "27" },
+        { "label": "D", "text": "90" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "25 = 5 × 5, a square number.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2011c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Natalia drew four shapes. Which shapes have only one line of symmetry?",
+      "imageUrl": "/questions/icas-2011-paper-c/q16.png",
+      "options": [
+        { "label": "A", "text": "Shape 3 and Shape 4" },
+        { "label": "B", "text": "Shape 2 and Shape 3" },
+        { "label": "C", "text": "Shape 1 and Shape 3" },
+        { "label": "D", "text": "Shape 1 and Shape 2" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Shape 3 (the double diamond) and Shape 4 (the crescent) each have exactly one line of symmetry.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2011c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Four angles were drawn on square dot paper as shown below. Which is the largest angle?",
+      "imageUrl": "/questions/icas-2011-paper-c/q17.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Angle A opens the widest of the four angles drawn.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2011c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "How many of the small squares are needed to cover the big square?",
+      "imageUrl": "/questions/icas-2011-paper-c/q18.png",
+      "options": [
+        { "label": "A", "text": "7" },
+        { "label": "B", "text": "14" },
+        { "label": "C", "text": "25" },
+        { "label": "D", "text": "49" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The big square's side is 7 times the small square's side, so 7 × 7 = 49 small squares are needed.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2011c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "A local shop is offering one bouncy ball free with every five bouncy balls a customer pays for. Jess pays the normal price for 30 bouncy balls. How many bouncy balls will she receive in total?",
+      "options": [
+        { "label": "A", "text": "30" },
+        { "label": "B", "text": "31" },
+        { "label": "C", "text": "35" },
+        { "label": "D", "text": "36" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "30 paid balls earns 30 ÷ 5 = 6 free balls. 30 + 6 = 36 in total.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2011c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "Natalia made a model using cubes. She drew the front view and the top view of the model. Which of these could be Natalia's model?",
+      "imageUrl": "/questions/icas-2011-paper-c/q20.png",
+      "optionsImageUrl": "/questions/icas-2011-paper-c/q20o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Model A matches both the front view and the top view Natalia drew.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2011c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "Anish was trying to lose weight. At the beginning of summer he weighed 76.5 kg. At the end of summer he weighed 69.8 kg. How many kilograms did Anish lose?",
+      "options": [
+        { "label": "A", "text": "16.7" },
+        { "label": "B", "text": "13.3" },
+        { "label": "C", "text": "7.3" },
+        { "label": "D", "text": "6.7" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "76.5 − 69.8 = 6.7 kg.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2011c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "Mel recorded the results of 80 spins of a spinner: 29, 19, 21 and 11 for the four symbols shown. Which of these spinners is most likely to be the one Mel used?",
+      "imageUrl": "/questions/icas-2011-paper-c/q22.png",
+      "optionsImageUrl": "/questions/icas-2011-paper-c/q22o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Spinner C has section sizes proportioned closest to the recorded 29:19:21:11 spin results.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2011c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "Jess wants to make a cube so that the same number is written on opposite faces. Which of these could be the net of this cube?",
+      "imageUrl": "/questions/icas-2011-paper-c/q23.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Folding net A into a cube places each matching pair of numbers on opposite faces.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2011c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "Natalia had a sticker book with 31 pages. On the 1st page she put one sticker. On the 2nd page she put two stickers. She continued this pattern to the 31st page. How many stickers did Natalia put in her book altogether?",
+      "imageUrl": "/questions/icas-2011-paper-c/q24.png",
+      "options": [
+        { "label": "A", "text": "196" },
+        { "label": "B", "text": "306" },
+        { "label": "C", "text": "496" },
+        { "label": "D", "text": "961" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "1 + 2 + ... + 31 = 31 × 32 ÷ 2 = 496.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2011c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "Jackie can make 2 pies in 3 minutes. Lenny can make 3 pies in 2 minutes. How many pies can they make together in an hour?",
+      "options": [
+        { "label": "A", "text": "50" },
+        { "label": "B", "text": "100" },
+        { "label": "C", "text": "130" },
+        { "label": "D", "text": "150" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Jackie makes 40 pies an hour, Lenny makes 90 pies an hour. Together: 40 + 90 = 130.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2011c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "Yara was standing at point X. She walked 20 metres east. Then she walked 20 metres north. From there Yara walked a further 20 metres south-east. What was the final point that Yara reached at the end of her walk?",
+      "imageUrl": "/questions/icas-2011-paper-c/q26.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Plotting each leg of the walk on the grid (using the 10 m scale) lands Yara at point D.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2011c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "Jess arranged some shapes into a repeating pattern. Here are the first 12 shapes in the pattern. What will be the 46th shape in this pattern?",
+      "imageUrl": "/questions/icas-2011-paper-c/q27.png",
+      "optionsImageUrl": "/questions/icas-2011-paper-c/q27o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The pattern repeats every 12 shapes. 46 = 3 × 12 + 10, so the 46th shape matches the 10th shape in the pattern.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2011c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "Tony walked in a straight line from point A to point Z. The distance from A to Z is 2400 m. Tony stopped twice before reaching Z. First he stopped after 5000 cm at point B. Then after a further one km, he stopped at point C. How far did Tony walk from point C to point Z, in km?",
+      "imageUrl": "/questions/icas-2011-paper-c/q28.png",
+      "options": [
+        { "label": "A", "text": "0.90" },
+        { "label": "B", "text": "1.35" },
+        { "label": "C", "text": "2.25" },
+        { "label": "D", "text": "22.50" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "5000 cm = 50 m to B. A further 1 km (1000 m) puts C at 1050 m from A. C to Z = 2400 − 1050 = 1350 m = 1.35 km.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2011c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "Jess makes a scoop of ice-cream that has a volume of 85 mL. What is the largest number of scoops of this size that Jess could make from a 2 L tub of ice-cream?",
+      "options": [
+        { "label": "A", "text": "2" },
+        { "label": "B", "text": "23" },
+        { "label": "C", "text": "24" },
+        { "label": "D", "text": "42" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "2 L = 2000 mL. 2000 ÷ 85 ≈ 23.5, so only 23 full scoops can be made.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2011c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "Yara needs to complete this number sentence: 17 (?) (16 (?) 2) = 9, where each (?) is + , − , × or ÷. Which operation signs should Yara use to make it a correct number sentence?",
+      "options": [
+        { "label": "A", "text": "+ and ×" },
+        { "label": "B", "text": "+ and ÷" },
+        { "label": "C", "text": "− and ×" },
+        { "label": "D", "text": "− and ÷" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "17 − (16 ÷ 2) = 17 − 8 = 9.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2011c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "Students may play football, basketball or both sports at lunch time. The table shows the activities of 24 students at lunch time last Thursday. How many students played both football and basketball?",
+      "table": {
+        "headers": ["Activities", ""],
+        "rows": [
+          ["football", "13"],
+          ["basketball", "12"],
+          ["neither sport", "3"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "1" },
+        { "label": "B", "text": "4" },
+        { "label": "C", "text": "11" },
+        { "label": "D", "text": "25" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "24 − 3 = 21 students played at least one sport. 13 + 12 − 21 = 4 played both.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2011c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "Jess thought of a 2-digit number. The product of the digits of the number is equal to double the sum of the digits of the number. Which of the following could be the number Jess thought of?",
+      "options": [
+        { "label": "A", "text": "11" },
+        { "label": "B", "text": "22" },
+        { "label": "C", "text": "36" },
+        { "label": "D", "text": "42" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "For 36: digit product = 3×6 = 18, and double the digit sum = 2×(3+6) = 18. They match.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2011c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "The train from Canberra to Sydney leaves at 11:50 am and arrives at 3:05 pm. The bus from Canberra to Sydney leaves at 11:49 am and arrives at 4:08 pm. Which of these statements is true?",
+      "options": [
+        { "label": "A", "text": "The travelling time for the train is 3 h 55 min." },
+        { "label": "B", "text": "The travelling time for the bus is 5 h 41 min." },
+        { "label": "C", "text": "The train arrives in Sydney 63 minutes before the bus." },
+        { "label": "D", "text": "The travelling time for the bus is four minutes longer than the travelling time for the train." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The train arrives at 3:05 pm and the bus at 4:08 pm — a 63-minute gap. (The train actually takes 3 h 15 min and the bus 4 h 19 min.)",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2011c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "Yara wants to put a fence around this garden. Which expression shows how many metres of fencing she needs?",
+      "imageUrl": "/questions/icas-2011-paper-c/q34.png",
+      "options": [
+        { "label": "A", "text": "(10 × 10) + (32 × 12)" },
+        { "label": "B", "text": "(10 × 4) + (32 + 12) × 2" },
+        { "label": "C", "text": "(32 + 12) × 2 + (10 × 2)" },
+        { "label": "D", "text": "(32 + 12) × 2 + (10 × 3)" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The garden's outline can be measured by combining the long sides (32 + 12) × 2 with the remaining short notch sides, 10 × 2.",
+      "topic": "Measures & Units"
+    },
+    {
+      "id": "2011c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "Tony cut a square into two pieces. This is one of the pieces. Which of these is the other piece?",
+      "imageUrl": "/questions/icas-2011-paper-c/q35.png",
+      "optionsImageUrl": "/questions/icas-2011-paper-c/q35o.png",
+      "options": [
+        { "label": "A" },
+        { "label": "B" },
+        { "label": "C" },
+        { "label": "D" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Piece A fits exactly with the shown piece to complete the original square.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "2011c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "prompt": "What is the missing number in this number pattern? 6, 8, 12, ?, 36, 68",
+      "options": [
+        { "label": "A", "text": "28" },
+        { "label": "B", "text": "22" },
+        { "label": "C", "text": "20" },
+        { "label": "D", "text": "18" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The gaps between terms double each time (2, 4, 8, 16, 32): 12 + 8 = 20, and 20 + 16 = 36.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2011c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "prompt": "Tony's bike moves forward two metres every time its wheels complete one full turn. Tony was riding his bike in a race. When he had finished three-quarters of the race, his wheels had made 6000 full turns. What was the total length of the race, in metres?",
+      "options": [
+        { "label": "A", "text": "4000" },
+        { "label": "B", "text": "8000" },
+        { "label": "C", "text": "12000" },
+        { "label": "D", "text": "16000" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "6000 turns × 2 m = 12 000 m, which is 3/4 of the race. The full race is 12 000 ÷ 3 × 4 = 16 000 m.",
+      "topic": "Number & Arithmetic"
+    },
+    {
+      "id": "2011c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "prompt": "In a school merit award system, a student with 3 bronze awards receives a silver award. A student with 3 silver awards receives a gold award. A student with 3 gold awards receives a medallion. Tony has one silver award and one bronze award. How many more bronze awards does Tony need to receive a medallion?",
+      "options": [
+        { "label": "A", "text": "5" },
+        { "label": "B", "text": "15" },
+        { "label": "C", "text": "23" },
+        { "label": "D", "text": "27" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A medallion needs 3 gold = 9 silver = 27 bronze-equivalent. Tony already has 1 silver (3 bronze) + 1 bronze = 4, so he needs 27 − 4 = 23 more.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "2011c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "prompt": "A school is having a burger day. Each student gets a bread roll with meat. Each student can choose 0, 1, 2, 3 or 4 extras (from lettuce, tomato, onion and sauce). How many different choices of burgers are possible?",
+      "imageUrl": "/questions/icas-2011-paper-c/q39.png",
+      "options": [
+        { "label": "A", "text": "5" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "15" },
+        { "label": "D", "text": "16" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Each of the 4 extras can be included or not, giving 2⁴ = 16 possible combinations.",
+      "topic": "Chance & Data"
+    },
+    {
+      "id": "2011c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "prompt": "Anish has four different kinds of cubes (yellow: 60 g, 5 cm; blue: 130 g, 10 cm; red: 250 g, 20 cm; green: 450 g, 40 cm). Anish makes four stacks of cubes by placing one cube on top of another. Each stack is 120 cm high and made of only one colour. What is the colour of the stack with the greatest mass?",
+      "imageUrl": "/questions/icas-2011-paper-c/q40.png",
+      "options": [
+        { "label": "A", "text": "yellow" },
+        { "label": "B", "text": "blue" },
+        { "label": "C", "text": "red" },
+        { "label": "D", "text": "green" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Cubes per 120 cm stack: yellow 24 (1440 g), blue 12 (1560 g), red 6 (1500 g), green 3 (1350 g). The blue stack has the greatest mass.",
+      "topic": "Number & Arithmetic"
+    }
+  ]
+}
