@@ -11,6 +11,7 @@ export function SiteHeader() {
   const segments = pathname.split("/").filter(Boolean);
   const profile = segments.length > 0 ? getProfile(segments[0]) : undefined;
   const showTitle = segments.length > 1;
+  const inAbacus = segments[1] === "abacus";
 
   return (
     <div className="flex items-center justify-between">
@@ -25,10 +26,12 @@ export function SiteHeader() {
             </Link>
           )}
           <Link
-            href={profile ? `/${profile.slug}/icas` : "/"}
+            href={
+              profile ? `/${profile.slug}/${inAbacus ? "abacus" : "icas"}` : "/"
+            }
             className="font-semibold tracking-tight"
           >
-            ICAS Maths Simulator
+            {inAbacus ? "Abacus" : "ICAS Maths Simulator"}
           </Link>
         </div>
       ) : (
