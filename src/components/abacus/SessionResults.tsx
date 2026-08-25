@@ -7,6 +7,7 @@ export function SessionResults({
   xpEarned,
   totalXp,
   levelTitle,
+  outcomeMessage,
   onPlayAgain,
   onBack,
 }: {
@@ -16,6 +17,7 @@ export function SessionResults({
   xpEarned: number;
   totalXp: number;
   levelTitle: string;
+  outcomeMessage?: string;
   onPlayAgain: () => void;
   onBack: () => void;
 }) {
@@ -29,6 +31,8 @@ export function SessionResults({
       </div>
 
       <div className="text-5xl font-bold">{Math.round(accuracy)}%</div>
+
+      {outcomeMessage && <p className="font-medium">{outcomeMessage}</p>}
 
       <div className="rounded-lg border border-border p-5 w-full flex flex-col gap-2">
         <div className="flex justify-between">

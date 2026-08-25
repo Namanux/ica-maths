@@ -3,24 +3,41 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import { generateQuestions, type Question } from "@/lib/abacus/questionGenerator";
-import { getSessionConfig, updateTimeLimitFromPerformance } from "@/lib/abacus/sessionStorage";
-import { saveSession, updateStudentXp, getStudentProgress } from "@/lib/abacus/supabase";
+import { saveSession, saveProgressionResult, getStudentProgress } from "@/lib/abacus/supabase";
 import { getLevelTitle } from "@/lib/abacus/xp";
+import {
+  calculateNextPosition,
+  getContentSource,
+  type ProgressionResult,
+} from "@/lib/abacus/progressionEngine";
 import { TimeMonster } from "@/components/abacus/TimeMonster";
 import { QuestionDisplay } from "@/components/abacus/QuestionDisplay";
 import { SessionResults } from "@/components/abacus/SessionResults";
 
-const QUESTIONS_PER_SESSION = 10;
 const BASE_XP = 10;
 const FEEDBACK_DELAY_MS = 1000;
 
-type Phase = "playing" | "feedback" | "finished";
+// Used when a student has no progress row yet — mirrors abacus_progress's
+// own column defaults so a brand-new student's first session matches what
+// they'd get once that row exists.
+const DEFAULT_PROGRESS = {
+  contentBlock: 1,
+  speedSeconds: 15,
+  displayLevel: 1,
+  accuracyThreshold: 100,
+  questionsPerSession: 5,
+  totalXp: 0,
+};
 
-function buildSession(level: number, lesson: number) {
-  return {
-    config: getSessionConfig(),
-    questions: generateQuestions(level, lesson, QUESTIONS_PER_SESSION),
-  };
+type StartProgress = typeof DEFAULT_PROGRESS;
+
+type Phase = "loading" | "playing" | "feedback" | "finished";
+
+function outcomeMessage(progression: ProgressionResult): string {
+  if (progression.contentIncreased) return "🎉 New challenge unlocked!";
+  if (progression.speedIncreased && progression.timerReset) return "🎉 New challenge unlocked!";
+  if (progression.speedIncreased) return "⚡ Speed increased!";
+  return "Keep going — you're getting there! 💪";
 }
 
 export function PracticeSession({
@@ -33,56 +50,87 @@ export function PracticeSession({
   profileSlug: string;
 }) {
   const router = useRouter();
-  const [{ config, questions }, setSetup] = useState<{
-    config: { timeLimitSeconds: number };
-    questions: Question[];
-  }>(() => buildSession(level, lesson));
+  const [phase, setPhase] = useState<Phase>("loading");
+  const [startProgress, setStartProgress] = useState<StartProgress | null>(null);
+  const [questions, setQuestions] = useState<Question[]>([]);
 
   const [index, setIndex] = useState(0);
-  const [timeRemaining, setTimeRemaining] = useState(config.timeLimitSeconds);
-  const [phase, setPhase] = useState<Phase>("playing");
+  const [timeRemaining, setTimeRemaining] = useState(0);
   const [feedback, setFeedback] = useState<"correct" | "incorrect" | null>(null);
   const [isRetreating, setIsRetreating] = useState(false);
   const [correctCount, setCorrectCount] = useState(0);
   const [xpEarned, setXpEarned] = useState(0);
-  const [finalStats, setFinalStats] = useState<{ totalXp: number; levelTitle: string } | null>(
-    null
-  );
+  const [finalStats, setFinalStats] = useState<{
+    totalXp: number;
+    levelTitle: string;
+    message: string;
+  } | null>(null);
 
-  // Set for real when a question actually starts (playAgain, advance); the
-  // initial 0 is never read since the first question starts at time 0 too.
   const questionStartRef = useRef<number>(0);
   const responseTimesRef = useRef<number[]>([]);
   const currentQuestion = questions[index];
 
-  useEffect(() => {
+  const startSession = useCallback(async () => {
+    const progress = await getStudentProgress(profileSlug);
+    const position: StartProgress = progress
+      ? {
+          contentBlock: progress.contentBlock,
+          speedSeconds: progress.speedSeconds,
+          displayLevel: progress.displayLevel,
+          accuracyThreshold: progress.accuracyThreshold,
+          questionsPerSession: progress.questionsPerSession,
+          totalXp: progress.totalXp,
+        }
+      : DEFAULT_PROGRESS;
+
+    const { level: contentLevel, lesson: contentLesson } = getContentSource(
+      position.contentBlock
+    );
+
+    setStartProgress(position);
+    setQuestions(generateQuestions(contentLevel, contentLesson, position.questionsPerSession));
+    setTimeRemaining(position.speedSeconds);
+    responseTimesRef.current = [];
+    setIndex(0);
+    setCorrectCount(0);
+    setXpEarned(0);
+    setFeedback(null);
+    setIsRetreating(false);
+    setFinalStats(null);
     questionStartRef.current = Date.now();
-  }, []);
+    setPhase("playing");
+  }, [profileSlug]);
+
+  useEffect(() => {
+    const timeout = setTimeout(() => void startSession(), 0);
+    return () => clearTimeout(timeout);
+  }, [startSession]);
 
   const advance = useCallback(() => {
+    if (!startProgress) return;
     const nextIndex = index + 1;
     if (nextIndex >= questions.length) {
       setPhase("finished");
       return;
     }
     setIndex(nextIndex);
-    setTimeRemaining(config.timeLimitSeconds);
+    setTimeRemaining(startProgress.speedSeconds);
     setIsRetreating(false);
     setFeedback(null);
     setPhase("playing");
     questionStartRef.current = Date.now();
-  }, [index, questions.length, config.timeLimitSeconds]);
+  }, [index, questions.length, startProgress]);
 
   const handleAnswer = useCallback(
     (submitted: number | null) => {
-      if (phase !== "playing") return;
+      if (phase !== "playing" || !startProgress) return;
       const elapsedMs = Date.now() - questionStartRef.current;
       responseTimesRef.current.push(elapsedMs);
 
       const correct = submitted !== null && submitted === currentQuestion.answer;
       let multiplier = 0;
       if (correct) {
-        const fraction = timeRemaining / config.timeLimitSeconds;
+        const fraction = timeRemaining / startProgress.speedSeconds;
         if (fraction > 2 / 3) multiplier = 3;
         else if (fraction > 1 / 3) multiplier = 2;
         else multiplier = 1;
@@ -95,7 +143,7 @@ export function PracticeSession({
 
       setTimeout(advance, FEEDBACK_DELAY_MS);
     },
-    [phase, currentQuestion, timeRemaining, config.timeLimitSeconds, advance]
+    [phase, startProgress, currentQuestion, timeRemaining, advance]
   );
 
   useEffect(() => {
@@ -109,7 +157,7 @@ export function PracticeSession({
   }, [phase, timeRemaining, handleAnswer]);
 
   useEffect(() => {
-    if (phase !== "finished") return;
+    if (phase !== "finished" || !startProgress) return;
 
     const total = questions.length;
     const accuracy = (correctCount / total) * 100;
@@ -117,7 +165,17 @@ export function PracticeSession({
       responseTimesRef.current.reduce((a, b) => a + b, 0) /
       Math.max(responseTimesRef.current.length, 1);
 
-    updateTimeLimitFromPerformance(avgResponseTimeMs);
+    const progression = calculateNextPosition(
+      startProgress.contentBlock,
+      startProgress.speedSeconds,
+      startProgress.displayLevel,
+      {
+        accuracy,
+        avgResponseTimeMs,
+        speedSeconds: startProgress.speedSeconds,
+        accuracyThreshold: startProgress.accuracyThreshold,
+      }
+    );
 
     void (async () => {
       await saveSession({
@@ -130,29 +188,24 @@ export function PracticeSession({
         avgResponseTimeMs,
         questionsTotal: total,
         questionsCorrect: correctCount,
+        speedSeconds: startProgress.speedSeconds,
+        contentBlock: startProgress.contentBlock,
       });
-      await updateStudentXp(profileSlug, xpEarned, lesson, accuracy);
+      await saveProgressionResult(profileSlug, progression, xpEarned);
       const progress = await getStudentProgress(profileSlug);
-      const totalXp = progress?.totalXp ?? xpEarned;
-      setFinalStats({ totalXp, levelTitle: getLevelTitle(totalXp) });
+      const totalXp = progress?.totalXp ?? startProgress.totalXp + xpEarned;
+      setFinalStats({
+        totalXp,
+        levelTitle: getLevelTitle(totalXp),
+        message: outcomeMessage(progression),
+      });
     })();
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase]);
 
-  const playAgain = () => {
-    const next = buildSession(level, lesson);
-    responseTimesRef.current = [];
-    questionStartRef.current = Date.now();
-    setSetup(next);
-    setIndex(0);
-    setTimeRemaining(next.config.timeLimitSeconds);
-    setPhase("playing");
-    setFeedback(null);
-    setIsRetreating(false);
-    setCorrectCount(0);
-    setXpEarned(0);
-    setFinalStats(null);
-  };
+  if (phase === "loading" || !startProgress) {
+    return <div className="text-center text-muted py-12">Loading your session…</div>;
+  }
 
   if (phase === "finished") {
     if (!finalStats) {
@@ -166,7 +219,8 @@ export function PracticeSession({
         xpEarned={xpEarned}
         totalXp={finalStats.totalXp}
         levelTitle={finalStats.levelTitle}
-        onPlayAgain={playAgain}
+        outcomeMessage={finalStats.message}
+        onPlayAgain={() => void startSession()}
         onBack={() => router.push(`/${profileSlug}/abacus`)}
       />
     );
@@ -187,7 +241,7 @@ export function PracticeSession({
       />
 
       <TimeMonster
-        timeLimit={config.timeLimitSeconds}
+        timeLimit={startProgress.speedSeconds}
         timeRemaining={Math.max(timeRemaining, 0)}
         isRetreating={isRetreating}
       />

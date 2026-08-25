@@ -21,3 +21,11 @@ export function formatCompletedAt(iso: string): string {
   });
   return `${datePart} at ${timePart}`;
 }
+
+export function formatRelativeDate(iso: string): string {
+  const days = Math.floor((Date.now() - new Date(iso).getTime()) / 86_400_000);
+  if (days <= 0) return "Today";
+  if (days === 1) return "Yesterday";
+  if (days < 7) return `${days} days ago`;
+  return formatShortDate(iso);
+}
