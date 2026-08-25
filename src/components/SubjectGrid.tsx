@@ -49,7 +49,7 @@ export function SubjectGrid({
       {subjects.map((subject) => (
         <Link
           key={subject.slug}
-          href={subject.slug === "icas" ? `/${profileSlug}/icas` : `/${subject.slug}`}
+          href={subject.available ? `/${profileSlug}/${subject.slug}` : `/${subject.slug}`}
           onMouseEnter={() => setHovered(subject.name)}
           onMouseLeave={() => setHovered(null)}
           onFocus={() => setHovered(subject.name)}

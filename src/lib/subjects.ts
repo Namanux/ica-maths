@@ -16,7 +16,7 @@ export const SUBJECTS: Subject[] = [
     slug: "abacus",
     name: "Abacus",
     description: "Mental arithmetic and abacus practice.",
-    available: false,
+    available: true,
   },
   {
     slug: "naplan",
