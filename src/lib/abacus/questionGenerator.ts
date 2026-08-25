@@ -81,7 +81,108 @@ function buildLevel1Questions(lesson: number, count: number): Question[] {
   }
 }
 
-// Levels 2-5 are locked in the UI — these placeholders exist only so the
+type Pair = { a: number; b: number };
+
+function randomInt(min: number, max: number): number {
+  return Math.floor(Math.random() * (max - min + 1)) + min;
+}
+
+// Groups addition pairs by their sum, so a session never shows the same
+// total twice while still varying which pair of numbers produces it.
+function groupBySum(pairs: Pair[]): Map<number, Pair[]> {
+  const map = new Map<number, Pair[]>();
+  for (const pair of pairs) {
+    const sum = pair.a + pair.b;
+    const list = map.get(sum);
+    if (list) list.push(pair);
+    else map.set(sum, [pair]);
+  }
+  return map;
+}
+
+// a + b, both 1-4, staying at or below 4 — no complement technique needed,
+// just pushing beads straight down.
+function directAdditionPairs(): Pair[] {
+  const pairs: Pair[] = [];
+  for (let a = 1; a <= 4; a++) {
+    for (let b = 1; b <= 4; b++) {
+      if (a + b <= 4) pairs.push({ a, b });
+    }
+  }
+  return pairs;
+}
+
+// Sums that land on 5-9 without carrying into the tens — the "small
+// friends" (5's complement) range.
+function smallFriendsPairs(): Pair[] {
+  const pairs: Pair[] = [];
+  for (let a = 1; a <= 9; a++) {
+    for (let b = 1; b <= 4; b++) {
+      const sum = a + b;
+      if (sum >= 5 && sum <= 9) pairs.push({ a, b });
+    }
+  }
+  return pairs;
+}
+
+// Sums that carry into the tens — the "big friends" (10's complement) range.
+function bigFriendsPairs(): Pair[] {
+  const pairs: Pair[] = [];
+  for (let a = 1; a <= 9; a++) {
+    for (let b = 1; b <= 9; b++) {
+      const sum = a + b;
+      if (sum >= 10 && sum <= 18) pairs.push({ a, b });
+    }
+  }
+  return pairs;
+}
+
+function multiDigitPairs(): Pair[] {
+  return Array.from({ length: 60 }, () => ({ a: randomInt(10, 99), b: randomInt(10, 99) }));
+}
+
+// Picks `count` questions from a pool of addition pairs, grouped by sum so
+// answers don't repeat within a session where the pool allows it — reusing
+// the same cycling strategy as pickAnswers, but tracking which pair
+// produced each sum so the display varies even when a sum repeats.
+function pickAdditionQuestions(pairs: Pair[], count: number, prompt: string): Question[] {
+  const bySum = groupBySum(pairs);
+  const sums = pickAnswers(Array.from(bySum.keys()), count);
+  return sums.map((sum, i) => {
+    const candidates = bySum.get(sum) ?? [];
+    const pair = candidates[Math.floor(Math.random() * candidates.length)];
+    return {
+      id: i + 1,
+      prompt,
+      display: `${pair.a} + ${pair.b}`,
+      answer: sum,
+    };
+  });
+}
+
+function buildLevel2Questions(lesson: number, count: number): Question[] {
+  const prompt = "What is the total?";
+  switch (lesson) {
+    case 1:
+      return pickAdditionQuestions(directAdditionPairs(), count, prompt);
+    case 2:
+      return pickAdditionQuestions(smallFriendsPairs(), count, prompt);
+    case 3:
+      return pickAdditionQuestions(bigFriendsPairs(), count, prompt);
+    case 4:
+      return pickAdditionQuestions(
+        [...directAdditionPairs(), ...smallFriendsPairs(), ...bigFriendsPairs()],
+        count,
+        prompt
+      );
+    case 5:
+      return pickAdditionQuestions(multiDigitPairs(), count, prompt);
+    default:
+      return [];
+  }
+}
+
+// Levels 3-5 are locked in the UI — these placeholders exist only so the
 // generator stays total and typed without `any`.
 function buildPlaceholderQuestions(count: number): Question[] {
   return Array.from({ length: count }, (_, i) => ({
@@ -93,7 +194,9 @@ function buildPlaceholderQuestions(count: number): Question[] {
 }
 
 export function generateQuestions(level: number, lesson: number, count: number): Question[] {
-  const questions =
-    level === 1 ? buildLevel1Questions(lesson, count) : buildPlaceholderQuestions(count);
+  let questions: Question[];
+  if (level === 1) questions = buildLevel1Questions(lesson, count);
+  else if (level === 2) questions = buildLevel2Questions(lesson, count);
+  else questions = buildPlaceholderQuestions(count);
   return shuffle(questions);
 }

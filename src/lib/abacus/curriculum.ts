@@ -11,6 +11,15 @@ export type CurriculumLevel = {
   lessons: Lesson[];
 };
 
+// Level 1 is always open. Level 2 unlocks once lesson 1 of Level 1 has been
+// cleared at ≥80% accuracy (tracked as highestLessonUnlocked reaching 2).
+// Levels 3-5 have no real content yet, so they stay locked regardless.
+export function isLevelUnlocked(level: number, highestLessonUnlocked: number): boolean {
+  if (level === 1) return true;
+  if (level === 2) return highestLessonUnlocked >= 2;
+  return false;
+}
+
 export const CURRICULUM: CurriculumLevel[] = [
   {
     level: 1,

@@ -1,19 +1,21 @@
 "use client";
 
 import Link from "next/link";
-import type { CurriculumLevel } from "@/lib/abacus/curriculum";
+import { isLevelUnlocked, type CurriculumLevel } from "@/lib/abacus/curriculum";
 
 export function CurriculumLevels({
   levels,
   profileSlug,
+  highestLessonUnlocked,
 }: {
   levels: CurriculumLevel[];
   profileSlug: string;
+  highestLessonUnlocked: number;
 }) {
   return (
     <div className="flex flex-col gap-3">
       {levels.map((level) => {
-        const unlocked = level.level === 1;
+        const unlocked = isLevelUnlocked(level.level, highestLessonUnlocked);
 
         if (unlocked) {
           return (

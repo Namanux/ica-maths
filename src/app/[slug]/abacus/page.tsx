@@ -16,6 +16,7 @@ export default async function AbacusHome({
 
   const progress = await getStudentProgress(slug);
   const totalXp = progress?.totalXp ?? 0;
+  const highestLessonUnlocked = progress?.highestLessonUnlocked ?? 1;
 
   return (
     <div className="flex flex-col gap-6">
@@ -31,7 +32,11 @@ export default async function AbacusHome({
         </span>
       </div>
 
-      <CurriculumLevels levels={CURRICULUM} profileSlug={slug} />
+      <CurriculumLevels
+        levels={CURRICULUM}
+        profileSlug={slug}
+        highestLessonUnlocked={highestLessonUnlocked}
+      />
     </div>
   );
 }
