@@ -41,13 +41,16 @@ export function TimeMonster({
   timeRemaining: number;
   isRetreating: boolean;
 }) {
+  // Correct answer or timeout both end the creeper right where it's
+  // standing — freeze its position through the blast instead of sliding it
+  // back first, then let the next question's reset move it home.
   const progress = timeLimit > 0 ? 1 - Math.min(timeRemaining, timeLimit) / timeLimit : 0;
-  const leftPercent = isRetreating ? 88 : 88 - progress * 78;
-  const scale = isRetreating ? 0.85 : 0.85 + progress * 0.55;
+  const leftPercent = 88 - progress * 78;
+  const scale = 0.85 + progress * 0.55;
 
-  const urgent = !isRetreating && timeRemaining <= 5;
-  const warning = !isRetreating && !urgent && timeRemaining <= 10;
-  const isExploding = !isRetreating && timeRemaining <= 0;
+  const isExploding = isRetreating || timeRemaining <= 0;
+  const urgent = !isExploding && timeRemaining <= 5;
+  const warning = !isExploding && !urgent && timeRemaining <= 10;
 
   const glow = urgent
     ? "drop-shadow(0 0 14px rgba(239,68,68,0.85))"
