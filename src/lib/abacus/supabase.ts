@@ -128,10 +128,9 @@ export async function getStudentProgress(profileSlug: string): Promise<AbacusPro
 }
 
 // Sole writer of progression position + XP/session counters going forward.
-// Also bridges to the pre-existing highest_lesson_unlocked column (which
-// gates Level 2 on the curriculum home page) so that page keeps working
-// unchanged: reaching content block 5 (Level 2's first lesson) is the new
-// system's equivalent of "cleared Level 1".
+// Level unlocking on the curriculum home page reads content_block directly
+// (see isLevelUnlocked in curriculum.ts) rather than the older
+// highest_lesson_unlocked column, so this doesn't need to touch that field.
 export async function saveProgressionResult(
   studentId: string,
   result: ProgressionResult,
@@ -143,19 +142,11 @@ export async function saveProgressionResult(
   try {
     const { data } = await supabase
       .from("abacus_progress")
-      .select("total_xp, total_sessions, highest_lesson_unlocked")
+      .select("total_xp, total_sessions")
       .eq("profile_slug", studentId)
       .single();
 
-    const row = data as Pick<
-      AbacusProgressRow,
-      "total_xp" | "total_sessions" | "highest_lesson_unlocked"
-    > | null;
-
-    const highestLessonUnlocked = Math.max(
-      row?.highest_lesson_unlocked ?? 1,
-      result.newContentBlock >= 5 ? 2 : 1
-    );
+    const row = data as Pick<AbacusProgressRow, "total_xp" | "total_sessions"> | null;
 
     await supabase.from("abacus_progress").upsert(
       {
@@ -165,7 +156,6 @@ export async function saveProgressionResult(
         display_level: result.newDisplayLevel,
         total_xp: (row?.total_xp ?? 0) + xpEarned,
         total_sessions: (row?.total_sessions ?? 0) + 1,
-        highest_lesson_unlocked: highestLessonUnlocked,
         updated_at: new Date().toISOString(),
       },
       { onConflict: "profile_slug" }

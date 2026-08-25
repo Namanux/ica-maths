@@ -6,16 +6,16 @@ import { isLevelUnlocked, type CurriculumLevel } from "@/lib/abacus/curriculum";
 export function CurriculumLevels({
   levels,
   profileSlug,
-  highestLessonUnlocked,
+  contentBlock,
 }: {
   levels: CurriculumLevel[];
   profileSlug: string;
-  highestLessonUnlocked: number;
+  contentBlock: number;
 }) {
   return (
     <div className="flex flex-col gap-3">
       {levels.map((level) => {
-        const unlocked = isLevelUnlocked(level.level, highestLessonUnlocked);
+        const unlocked = isLevelUnlocked(level.level, contentBlock);
 
         if (unlocked) {
           return (

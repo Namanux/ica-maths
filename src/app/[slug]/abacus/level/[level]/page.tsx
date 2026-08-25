@@ -41,7 +41,7 @@ export default async function AbacusLevelPage({
 
   if (levelNumber === 2) {
     const progress = await getStudentProgress(slug);
-    const unlocked = isLevelUnlocked(2, progress?.highestLessonUnlocked ?? 1);
+    const unlocked = isLevelUnlocked(2, progress?.contentBlock ?? 1);
     if (!unlocked) {
       return (
         <ComingSoon

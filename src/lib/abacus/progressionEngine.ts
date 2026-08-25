@@ -17,7 +17,12 @@ export type ProgressionResult = {
   reason: string; // human-readable explanation for admin log
 };
 
-const MAX_CONTENT_BLOCK = 20;
+// The full curriculum design goes to 20, but only blocks 1-9 (Level 1 + 2)
+// have real question content built — see getContentSource below. Capping
+// auto-advancement here prevents a fast/accurate student from ever being
+// served the placeholder "coming soon" questions for blocks 10-20; raise
+// this once those blocks have real content.
+const MAX_AUTO_CONTENT_BLOCK = 9;
 const SPEED_LADDER = [15, 12, 9, 6] as const;
 
 const CONTENT_BLOCK_NAMES: Record<number, string> = {
@@ -89,7 +94,7 @@ export function calculateNextPosition(
 
   // Rule 2 — fast learner shortcut (checked before rule 3).
   if (isFastLearner(outcome.avgResponseTimeMs, outcome.speedSeconds)) {
-    const newContentBlock = Math.min(currentContentBlock + 1, MAX_CONTENT_BLOCK);
+    const newContentBlock = Math.min(currentContentBlock + 1, MAX_AUTO_CONTENT_BLOCK);
     return {
       newContentBlock,
       newSpeedSeconds: 15,
@@ -103,7 +108,7 @@ export function calculateNextPosition(
 
   // Rule 4 — mastered at 6s, content advances.
   if (outcome.speedSeconds === 6) {
-    const newContentBlock = Math.min(currentContentBlock + 1, MAX_CONTENT_BLOCK);
+    const newContentBlock = Math.min(currentContentBlock + 1, MAX_AUTO_CONTENT_BLOCK);
     return {
       newContentBlock,
       newSpeedSeconds: 15,
