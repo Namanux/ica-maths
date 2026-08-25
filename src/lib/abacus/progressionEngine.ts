@@ -25,6 +25,10 @@ export type ProgressionResult = {
 const MAX_AUTO_CONTENT_BLOCK = 9;
 const SPEED_LADDER = [15, 12, 9, 6] as const;
 
+// Block 5 (Direct Addition) is where Level 2 begins — see CURRICULUM in
+// curriculum.ts (Level 1 has 4 lessons, mapped to blocks 1-4).
+export const LEVEL_2_START_BLOCK = 5;
+
 const CONTENT_BLOCK_NAMES: Record<number, string> = {
   1: "Numbers 1–4",
   2: "Numbers 5–9",
@@ -92,9 +96,15 @@ export function calculateNextPosition(
     };
   }
 
-  // Rule 2 — fast learner shortcut (checked before rule 3).
+  // Rule 2 — fast learner shortcut (checked before rule 3). Within Level 1
+  // (blocks 1-4), a fast learner jumps straight to Level 2's first block
+  // instead of grinding through the remaining Level 1 blocks one at a time.
   if (isFastLearner(outcome.avgResponseTimeMs, outcome.speedSeconds)) {
-    const newContentBlock = Math.min(currentContentBlock + 1, MAX_AUTO_CONTENT_BLOCK);
+    const target =
+      currentContentBlock < LEVEL_2_START_BLOCK
+        ? LEVEL_2_START_BLOCK
+        : currentContentBlock + 1;
+    const newContentBlock = Math.min(target, MAX_AUTO_CONTENT_BLOCK);
     return {
       newContentBlock,
       newSpeedSeconds: 15,

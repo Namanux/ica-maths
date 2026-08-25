@@ -20,6 +20,16 @@ import { formatCompletedAt } from "@/lib/format";
 const SPEED_STEPS = [15, 12, 9, 6];
 const CONTENT_BLOCK_IDS = Array.from({ length: 20 }, (_, i) => i + 1);
 
+// Where each curriculum level's content blocks begin (see CURRICULUM in
+// curriculum.ts: Level 1 has 4 lessons, Level 2 has 5, and so on).
+const LEVEL_START_BLOCKS = [
+  { level: 1, block: 1 },
+  { level: 2, block: 5 },
+  { level: 3, block: 10 },
+  { level: 4, block: 14 },
+  { level: 5, block: 17 },
+];
+
 // A manual "force advance" should behave like a normal — not fast-learner —
 // clear, so it always takes exactly one step (speed up, or content advance
 // at 6s). Fast learner requires avgResponseTimeMs < 6000, so anything well
@@ -106,6 +116,7 @@ function StudentDashboard({ studentId }: { studentId: string }) {
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
   const [advancing, setAdvancing] = useState(false);
+  const [unlockingLevel, setUnlockingLevel] = useState<number | null>(null);
 
   const load = useCallback(async () => {
     const [students, studentProgress, studentSessions] = await Promise.all([
@@ -143,6 +154,16 @@ function StudentDashboard({ studentId }: { studentId: string }) {
       setTimeout(() => setSaved(false), 2000);
     } finally {
       setSaving(false);
+    }
+  };
+
+  const unlockLevel = async (startBlock: number) => {
+    setUnlockingLevel(startBlock);
+    try {
+      await updateStudentSettings(studentId, { contentBlock: startBlock, speedSeconds: 15 });
+      await load();
+    } finally {
+      setUnlockingLevel(null);
     }
   };
 
@@ -246,6 +267,31 @@ function StudentDashboard({ studentId }: { studentId: string }) {
           <span className="text-sm font-semibold tracking-wide uppercase text-muted">
             Teacher Controls
           </span>
+
+          <div className="flex flex-col gap-1 text-sm">
+            Unlock Level
+            <div className="flex flex-wrap gap-2">
+              {LEVEL_START_BLOCKS.map(({ level, block }) => (
+                <button
+                  key={level}
+                  type="button"
+                  onClick={() => void unlockLevel(block)}
+                  disabled={unlockingLevel !== null}
+                  className={`rounded-lg border px-3 py-2 text-sm font-medium transition-colors disabled:opacity-50 ${
+                    progress.contentBlock >= block
+                      ? "border-accent bg-accent text-background"
+                      : "border-border hover:bg-surface"
+                  }`}
+                >
+                  {unlockingLevel === block ? "…" : `Level ${level}`}
+                </button>
+              ))}
+            </div>
+            <span className="text-xs text-muted">
+              Jumps straight to that level&apos;s first content block. Levels 3-5 have no
+              real questions yet, so they&apos;ll show &quot;Coming soon&quot; if played.
+            </span>
+          </div>
 
           <label className="flex flex-col gap-1 text-sm">
             Content Block
