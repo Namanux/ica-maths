@@ -11,7 +11,7 @@ import {
   Legend,
   ResponsiveContainer,
 } from "recharts";
-import { TOPIC_ORDER } from "@/lib/scoring";
+import { topicsFromAttempts } from "@/lib/scoring";
 import { TOPIC_COLORS, TOPIC_COLORS_DARK } from "@/lib/topicColors";
 import { useTheme } from "@/lib/theme-provider";
 import { formatShortDate } from "@/lib/format";
@@ -30,7 +30,7 @@ interface ChartPoint {
  * questions on that paper) — generalised from a fixed /40, since papers
  * in this app range from 12 to 40 questions.
  */
-function buildChartData(attempts: StoredAttempt[]): ChartPoint[] {
+function buildChartData(attempts: StoredAttempt[], topics: string[]): ChartPoint[] {
   return attempts.map((a) => {
     const point: ChartPoint = {
       label: formatShortDate(a.completedAt),
@@ -38,7 +38,7 @@ function buildChartData(attempts: StoredAttempt[]): ChartPoint[] {
       raw: {},
     };
     let totalLost = 0;
-    for (const topic of TOPIC_ORDER) {
+    for (const topic of topics) {
       const cat = a.categoryBreakdown.find((c) => c.topic === topic);
       if (cat && cat.total > 0) {
         const lostPct = ((cat.total - cat.correct) / a.totalQuestions) * 100;
@@ -107,8 +107,9 @@ export function MarksLostChart({ title, attempts }: { title: string; attempts: S
     );
   }
 
-  const data = buildChartData(attempts);
-  const topicsPresent = TOPIC_ORDER.filter((t) => data.some((d) => typeof d[t] === "number"));
+  const topics = topicsFromAttempts(attempts);
+  const data = buildChartData(attempts, topics);
+  const topicsPresent = topics.filter((t) => data.some((d) => typeof d[t] === "number"));
 
   const toggleTopic = (topic: string) => {
     setHidden((prev) => {

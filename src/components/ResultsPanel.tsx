@@ -7,6 +7,7 @@ import { QuestionBody } from "@/components/QuestionBody";
 import { TopicBadge } from "@/components/TopicBadge";
 import { ReportIssueButton } from "@/components/ReportIssueButton";
 import { formatDuration, formatCompletedAt } from "@/lib/format";
+import { paperExam } from "@/lib/papers";
 
 function questionStatusColor(qr: QuestionResult | undefined): {
   bg: string;
@@ -225,7 +226,7 @@ function ResultsView({
     if (typeof window !== "undefined" && window.history.length > 1) {
       router.back();
     } else {
-      router.push(`/${profileSlug}/icas`);
+      router.push(`/${profileSlug}/${paperExam(paper)}`);
     }
   };
 

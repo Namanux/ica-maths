@@ -1,0 +1,1157 @@
+{
+  "id": "selective-pt3",
+  "exam": "selective-test",
+  "subject": "Mathematical Reasoning",
+  "yearLevel": 6,
+  "paperCode": "PT3",
+  "title": "NSW Selective - Mathematical Reasoning Practice Test 3",
+  "year": 2024,
+  "timeLimitMinutes": 40,
+  "questions": [
+    {
+      "id": "sel-pt3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Three packages are weighed together and their total mass is shown on the scale. Package 1 has a mass of 850 g and package 2 has a mass of 225 g. What is the mass of package 3?",
+      "imageUrl": "/questions/selective-pt3/q1.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "975 g"
+        },
+        {
+          "label": "B",
+          "text": "1175 g"
+        },
+        {
+          "label": "C",
+          "text": "1425 g"
+        },
+        {
+          "label": "D",
+          "text": "1525 g"
+        },
+        {
+          "label": "E",
+          "text": "2425 g"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The pointer is halfway between 2 kg and 3 kg, so the total is 2500 g. Package 3 = 2500 - 850 - 225 = 1425 g.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "At a garden shop, Claire is packing plants into boxes. Each box holds 6 plants. She has 149 plants and wants to fill 27 boxes. How many more plants does she need?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "13"
+        },
+        {
+          "label": "E",
+          "text": "17"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "27 boxes hold 27 x 6 = 162 plants. Claire needs 162 - 149 = 13 more.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "In this diagram: the number in the square is multiplied by 4, the number in the triangle is multiplied by 3, and the difference between these two results is written in the circle. The triangle contains 2 and the circle contains 14. The number in the square is greater than one. What is the number in the square?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "20"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Triangle x 3 = 6. Circle is 14, so square x 4 = 6 + 14 = 20, giving square = 5.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Rana, Penny and Joshua share a pizza. Rana eats 2/10 of the pizza, Penny eats 4/10, and Joshua eats 2/5. Statement 1: they eat the whole pizza. Statement 2: Joshua eats the least pizza. Statement 3: Penny eats twice as much pizza as Joshua. Which of these statements is/are correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "statement 1 only"
+        },
+        {
+          "label": "B",
+          "text": "statement 2 only"
+        },
+        {
+          "label": "C",
+          "text": "statements 1 and 2 only"
+        },
+        {
+          "label": "D",
+          "text": "statements 1 and 3 only"
+        },
+        {
+          "label": "E",
+          "text": "statements 2 and 3 only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "2/10 + 4/10 + 4/10 = 1, so statement 1 is correct. Joshua eats 4/10, more than Rana's 2/10, so statement 2 is wrong. Penny and Joshua both eat 4/10, so statement 3 is wrong.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Which of the following calculations shows how to work out the number of seconds in 24 days?",
+      "options": [
+        {
+          "label": "A",
+          "text": "24 x 24"
+        },
+        {
+          "label": "B",
+          "text": "24 x 60"
+        },
+        {
+          "label": "C",
+          "text": "24 x 24 x 60"
+        },
+        {
+          "label": "D",
+          "text": "24 x 60 x 60"
+        },
+        {
+          "label": "E",
+          "text": "24 x 24 x 60 x 60"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "1 day = 24 x 60 x 60 seconds, so 24 days = 24 x (24 x 60 x 60) = 24 x 24 x 60 x 60 seconds.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "There are 160 children in six classes in a school. The column graph shows the number of children in classes 1 to 5; the column for Class 6 has not been drawn. There are 30 children in Class 3. How many children are in Class 6?",
+      "imageUrl": "/questions/selective-pt3/q6.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "21"
+        },
+        {
+          "label": "B",
+          "text": "26"
+        },
+        {
+          "label": "C",
+          "text": "32"
+        },
+        {
+          "label": "D",
+          "text": "41"
+        },
+        {
+          "label": "E",
+          "text": "42"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Class 3's column is 15 divisions for 30 children, so each division is 2 children. Classes 1-5 total 64 divisions = 128 children, so Class 6 has 160 - 128 = 32.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "The total mass of the objects on the left side of the balancing scales equals the total mass on the right. Every triangle has equal mass and every square has equal mass. If the mass of a triangle is 6 grams, what is the mass of a square?",
+      "imageUrl": "/questions/selective-pt3/q7.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 g"
+        },
+        {
+          "label": "B",
+          "text": "7 1/2 g"
+        },
+        {
+          "label": "C",
+          "text": "8 g"
+        },
+        {
+          "label": "D",
+          "text": "9 g"
+        },
+        {
+          "label": "E",
+          "text": "18 g"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Removing one square and one triangle from each side leaves 2 squares balancing 3 triangles. 3 triangles = 18 g, so 2 squares = 18 g and one square = 9 g.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "The table shows the exact times taken by five racing drivers to complete one lap of a circuit. Who were the fastest three drivers, in order, starting with the fastest?",
+      "table": {
+        "headers": [
+          "name",
+          "time (seconds)"
+        ],
+        "rows": [
+          [
+            "Smith",
+            "58.117"
+          ],
+          [
+            "Cruz",
+            "58.208"
+          ],
+          [
+            "Adams",
+            "58.046"
+          ],
+          [
+            "Batra",
+            "58.2"
+          ],
+          [
+            "Evans",
+            "58.31"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "Evans, Cruz, Batra"
+        },
+        {
+          "label": "B",
+          "text": "Evans, Cruz, Smith"
+        },
+        {
+          "label": "C",
+          "text": "Batra, Evans, Adams"
+        },
+        {
+          "label": "D",
+          "text": "Adams, Smith, Evans"
+        },
+        {
+          "label": "E",
+          "text": "Adams, Smith, Batra"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Lowest times are fastest: Adams 58.046, then Smith 58.117, then Batra 58.200 (less than Cruz's 58.208).",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "A boy is standing at point P, facing east. He turns clockwise to face a house at point H. The diagram shows north, and the 60 degree angle between north and the direction of H from P. What is the angle of his turn?",
+      "imageUrl": "/questions/selective-pt3/q9.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "30 degrees"
+        },
+        {
+          "label": "B",
+          "text": "60 degrees"
+        },
+        {
+          "label": "C",
+          "text": "150 degrees"
+        },
+        {
+          "label": "D",
+          "text": "210 degrees"
+        },
+        {
+          "label": "E",
+          "text": "300 degrees"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The turn, plus 60 degrees, plus the 90 degrees between north and east, make a full revolution. So the turn is 360 - 60 - 90 = 210 degrees.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Alex had $76. He spent some of it in a shop, then gave half of what he had left to Charlie. Charlie spent a quarter of what Alex gave him on lunch. Charlie spent $9 on lunch. How much did Alex spend in the shop?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$4"
+        },
+        {
+          "label": "B",
+          "text": "$12"
+        },
+        {
+          "label": "C",
+          "text": "$14"
+        },
+        {
+          "label": "D",
+          "text": "$36"
+        },
+        {
+          "label": "E",
+          "text": "$40"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "$9 is a quarter of what Alex gave Charlie, so Alex gave $36. That was half of what Alex had left, so he had $72 left. He spent $76 - $72 = $4.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "A rectangular prism is made from identical small cubes. Each small cube is solid. The three diagrams show three different faces of the rectangular prism. How many small cubes is the rectangular prism made from?",
+      "imageUrl": "/questions/selective-pt3/q11.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "20"
+        },
+        {
+          "label": "B",
+          "text": "30"
+        },
+        {
+          "label": "C",
+          "text": "31"
+        },
+        {
+          "label": "D",
+          "text": "62"
+        },
+        {
+          "label": "E",
+          "text": "900"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The faces are 5 x 3, 5 x 2 and 3 x 2, so the prism is 5 by 3 by 2 cubes = 30 small cubes.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Jennifer wants to make a picture graph of her flower-bunch sales using only whole-flower and half-flower pictures (no other fractions). Which of these keys can she use to represent the data correctly? Key X: one flower represents 4 bunches. Key Y: one flower represents 8 bunches. Key Z: one flower represents 12 bunches.",
+      "table": {
+        "headers": [
+          "day",
+          "bunches of flowers sold"
+        ],
+        "rows": [
+          [
+            "Monday",
+            "24"
+          ],
+          [
+            "Tuesday",
+            "28"
+          ],
+          [
+            "Wednesday",
+            "36"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "none of them"
+        },
+        {
+          "label": "B",
+          "text": "key X or key Y only"
+        },
+        {
+          "label": "C",
+          "text": "key X or key Z only"
+        },
+        {
+          "label": "D",
+          "text": "key Y or key Z only"
+        },
+        {
+          "label": "E",
+          "text": "key X, Y or Z"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "24, 28 and 36 are all multiples of 4 (key X works). With key Y, 28 = 3 x 8 + 4 and 36 = 4 x 8 + 4, and 4 is half of 8, so key Y works. With key Z, 28 = 2 x 12 + 4, and 4 is not half of 12, so key Z fails.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Three different numbers are chosen from the numbers 3, 5, 6 and 8, then added together. Statement 1: the total cannot be a multiple of 8. Statement 2: the total can be a multiple of 3. Statement 3: the total is always odd. Which of these statements is/are correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "none of them"
+        },
+        {
+          "label": "B",
+          "text": "statement 1 only"
+        },
+        {
+          "label": "C",
+          "text": "statement 2 only"
+        },
+        {
+          "label": "D",
+          "text": "statement 3 only"
+        },
+        {
+          "label": "E",
+          "text": "statements 2 and 3 only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The four possible totals are 19, 17, 16 and 14. 16 is a multiple of 8 (so 1 is wrong), none is a multiple of 3 (so 2 is wrong), and 16 and 14 are even (so 3 is wrong).",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "A triangle is drawn inside a rectangle that measures 11 cm by 12 cm. The area shaded grey (the rectangle outside the triangle) is 84 cm2. What is the area of the triangle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "33 cm2"
+        },
+        {
+          "label": "B",
+          "text": "37 cm2"
+        },
+        {
+          "label": "C",
+          "text": "42 cm2"
+        },
+        {
+          "label": "D",
+          "text": "48 cm2"
+        },
+        {
+          "label": "E",
+          "text": "52 cm2"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Rectangle area = 11 x 12 = 132 cm2. Triangle area = 132 - 84 = 48 cm2.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Seo-Jung records rainfall by collecting it in a container that was empty at the start of week 1. The diagrams show the total volume in the container at the end of each of 5 weeks (no water is lost). During which two weeks was there exactly the same amount of rainfall?",
+      "imageUrl": "/questions/selective-pt3/q15.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "week 1 and week 2"
+        },
+        {
+          "label": "B",
+          "text": "week 1 and week 4"
+        },
+        {
+          "label": "C",
+          "text": "week 2 and week 3"
+        },
+        {
+          "label": "D",
+          "text": "week 2 and week 4"
+        },
+        {
+          "label": "E",
+          "text": "week 3 and week 5"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "End-of-week totals are 60, 100, 180, 220 and 360 mL. Weekly rainfall is 60, 40, 80, 40 and 140 mL, so weeks 2 and 4 both had 40 mL.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt3-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Brody is thinking of a quadrilateral that has: (1) no parallel sides, (2) two sides of 5 cm and two sides of 8 cm, and (3) exactly one right angle. How many lines of symmetry does Brody's quadrilateral have?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "1"
+        },
+        {
+          "label": "C",
+          "text": "2"
+        },
+        {
+          "label": "D",
+          "text": "3"
+        },
+        {
+          "label": "E",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "No parallel sides rules out squares, rectangles, parallelograms and trapeziums. Two pairs of equal adjacent sides makes it a kite, which has one line of symmetry.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "A gardener has a box of bulbs for a garden with three sections. She plants 1/2 of the bulbs in the first section, then 3/4 of the remaining bulbs in the second section. She has 6 bulbs left for the third section. How many bulbs were in the box at the start?",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "18"
+        },
+        {
+          "label": "C",
+          "text": "24"
+        },
+        {
+          "label": "D",
+          "text": "32"
+        },
+        {
+          "label": "E",
+          "text": "48"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "After the first section, half the bulbs remain. The 6 left are 1/4 of that half, so the half is 24, and the whole box was 48.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "A cube has been painted around one vertex, as shown. Which of the following diagrams could be a net for this cube?",
+      "imageUrl": "/questions/selective-pt3/q18.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "diagram 1 only"
+        },
+        {
+          "label": "B",
+          "text": "diagram 2 only"
+        },
+        {
+          "label": "C",
+          "text": "diagram 3 only"
+        },
+        {
+          "label": "D",
+          "text": "diagrams 1 and 2 only"
+        },
+        {
+          "label": "E",
+          "text": "diagrams 1 and 3 only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "When folded, only diagram 1 places the three painted triangles so they meet correctly around a single vertex; diagrams 2 and 3 put a painted triangle in the wrong place.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "A bag contains red, blue and yellow discs. There are an equal number of red discs and blue discs, and twice as many blue discs as yellow discs. One disc is selected without looking. What is the probability of selecting a blue disc?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1/5"
+        },
+        {
+          "label": "B",
+          "text": "1/4"
+        },
+        {
+          "label": "C",
+          "text": "1/3"
+        },
+        {
+          "label": "D",
+          "text": "2/5"
+        },
+        {
+          "label": "E",
+          "text": "2/3"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "For every yellow disc there are 2 blue and 2 red discs, so 2 of every 5 discs are blue: the probability is 2/5.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt3-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "On a torn cafe menu, the prices are missing. A burger and a drink cost $6.00 in total. Chips and a drink cost $3.75 in total. A burger, chips and a drink cost $8.50 in total. How much does a burger and chips cost in total?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$2.25"
+        },
+        {
+          "label": "B",
+          "text": "$4.75"
+        },
+        {
+          "label": "C",
+          "text": "$7.25"
+        },
+        {
+          "label": "D",
+          "text": "$7.75"
+        },
+        {
+          "label": "E",
+          "text": "$9.75"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Chips = $8.50 - $6.00 = $2.50. Burger = $8.50 - $3.75 = $4.75. Burger and chips = $4.75 + $2.50 = $7.25.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "Jason's clock was working normally until 7:05 am, showing the time in the first picture. At 7:05 am he dropped it, and for the rest of the day its hands turned twice as fast as normal. At 3:25 pm that day, what time did the clock show? (Choose the matching clock face.)",
+      "imageUrl": "/questions/selective-pt3/q21.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "Clock A"
+        },
+        {
+          "label": "B",
+          "text": "Clock B"
+        },
+        {
+          "label": "C",
+          "text": "Clock C"
+        },
+        {
+          "label": "D",
+          "text": "Clock D"
+        },
+        {
+          "label": "E",
+          "text": "Clock E"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "From 7:05 am to 3:25 pm is 8 hours 20 minutes. Turning twice as fast, the hands advance 16 hours 40 minutes, reaching 11:45 pm - the clock in option E.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "I have an equal number of $1 and $2 coins, with a total value of $54. A $1 coin weighs 9 grams and a $2 coin weighs 7 grams. What is the total weight of all my coins?",
+      "options": [
+        {
+          "label": "A",
+          "text": "144 g"
+        },
+        {
+          "label": "B",
+          "text": "288 g"
+        },
+        {
+          "label": "C",
+          "text": "414 g"
+        },
+        {
+          "label": "D",
+          "text": "432 g"
+        },
+        {
+          "label": "E",
+          "text": "576 g"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Each $1-and-$2 pair is worth $3, so there are 18 pairs: 18 coins of each kind. Weight = 18 x 9 + 18 x 7 = 162 + 126 = 288 g.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "Two statues are 8 kilometres 23 metres apart. A map-maker incorrectly labels the distance as 23 km 8 m. What is the difference between the correct and incorrect distances?",
+      "options": [
+        {
+          "label": "A",
+          "text": "14 km 85 m"
+        },
+        {
+          "label": "B",
+          "text": "14 km 985 m"
+        },
+        {
+          "label": "C",
+          "text": "15 km 15 m"
+        },
+        {
+          "label": "D",
+          "text": "15 km 85 m"
+        },
+        {
+          "label": "E",
+          "text": "15 km 985 m"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "23 km 8 m - 8 km 23 m = 15 008 m - 23 m = 14 985 m = 14 km 985 m.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "An island's area is made up of regions that are only hills, only bush, or both hills and bush. The total area of the island is 164 km2. The total area where there are hills is 132 km2. The total area where there is bush is 80 km2. What area of the island has both hills and bush?",
+      "options": [
+        {
+          "label": "A",
+          "text": "24 km2"
+        },
+        {
+          "label": "B",
+          "text": "32 km2"
+        },
+        {
+          "label": "C",
+          "text": "48 km2"
+        },
+        {
+          "label": "D",
+          "text": "52 km2"
+        },
+        {
+          "label": "E",
+          "text": "84 km2"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Hills area + bush area = 132 + 80 = 212 km2, which counts the 'both' region twice and the rest once. So 'both' = 212 - 164 = 48 km2.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "A display has three lights. The red light flashes every 2 minutes, the green light every 3 minutes and the blue light every 5 minutes. They all flash together at 7:00 am. How many times between 7:01 am and 9:59 am the same morning do the green and blue lights flash together without the red light also flashing?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "11"
+        },
+        {
+          "label": "E",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Green and blue flash together every 15 minutes. The red light also flashes at every even number of minutes, so it joins them only at 30, 60, 90 minutes and so on. Green and blue flash alone at 15, 45, 75, 105, 135 and 165 minutes after 7:00: 7:15, 7:45, 8:15, 8:45, 9:15 and 9:45 am - 6 times.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "Three planks of wood all have the same length. They are placed overlapping as shown, with the marked measurements of 40 cm, 5 cm and 135 cm. What is the length of one plank of wood?",
+      "imageUrl": "/questions/selective-pt3/q26.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "45 cm"
+        },
+        {
+          "label": "B",
+          "text": "50 cm"
+        },
+        {
+          "label": "C",
+          "text": "60 cm"
+        },
+        {
+          "label": "D",
+          "text": "75 cm"
+        },
+        {
+          "label": "E",
+          "text": "85 cm"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Sliding the planks apart so they line up end to end gives a total length of 135 + 40 + 5 = 180 cm for three planks, so one plank is 180 / 3 = 60 cm.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "Alison has shaded 3 small squares in the 4 by 4 grid shown. She wants to shade extra squares to make a pattern with exactly four lines of symmetry. What is the smallest number of extra squares she needs to shade?",
+      "imageUrl": "/questions/selective-pt3/q27.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "7"
+        },
+        {
+          "label": "D",
+          "text": "9"
+        },
+        {
+          "label": "E",
+          "text": "13"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Reaching two lines of symmetry needs 5 more squares; extending that to four lines of symmetry needs 4 more, giving 9 extra squares in total.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "Merindah sold orange and lemon drinks at a barbecue, 33 drinks altogether. Statement 1: she sold ten more orange drinks than lemon drinks. Statement 2: she sold twice as many orange drinks as lemon drinks. Statement 3: she sold five more lemon drinks than orange drinks. Which of these statements cannot be correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "statement 1 only"
+        },
+        {
+          "label": "B",
+          "text": "statement 2 only"
+        },
+        {
+          "label": "C",
+          "text": "statement 3 only"
+        },
+        {
+          "label": "D",
+          "text": "statements 1 and 2 only"
+        },
+        {
+          "label": "E",
+          "text": "statements 2 and 3 only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "33 = 11 + 22 fits 'twice as many' (statement 2 works) and 33 = 14 + 19 fits 'five more' (statement 3 works). No two whole numbers that differ by 10 add to 33, so only statement 1 cannot be correct.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "The shape shown is a trapezium with two right angles and the measurements 2 cm, 3 cm and 6 cm. Anna has a square piece of card with side length 24 cm. What is the greatest possible number of these trapeziums Anna can cut out from the card?",
+      "imageUrl": "/questions/selective-pt3/q29.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "24"
+        },
+        {
+          "label": "C",
+          "text": "32"
+        },
+        {
+          "label": "D",
+          "text": "48"
+        },
+        {
+          "label": "E",
+          "text": "64"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Two trapeziums join to make an 8 cm by 3 cm rectangle. That rectangle fits into the 24 cm square 3 x 8 = 24 times, giving 24 x 2 = 48 trapeziums.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "Jamal makes a number sequence. He chooses the 1st number, then repeatedly applies these two rules in turn: subtract 100 to get the next number, then add 10 to get the next number. The 6th number is 8451. What is the 1st number in Jamal's sequence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8171"
+        },
+        {
+          "label": "B",
+          "text": "8181"
+        },
+        {
+          "label": "C",
+          "text": "8711"
+        },
+        {
+          "label": "D",
+          "text": "8721"
+        },
+        {
+          "label": "E",
+          "text": "8731"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Working backwards from 8451: +100, -10, +100, -10, +100 gives 8551, 8541, 8641, 8631, 8731. The 1st number is 8731.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "A robot is facing south-east. It makes 58 quarter-turns clockwise, then 93 quarter-turns anti-clockwise. In which direction is the robot now facing?",
+      "options": [
+        {
+          "label": "A",
+          "text": "north"
+        },
+        {
+          "label": "B",
+          "text": "north-east"
+        },
+        {
+          "label": "C",
+          "text": "north-west"
+        },
+        {
+          "label": "D",
+          "text": "south-east"
+        },
+        {
+          "label": "E",
+          "text": "south-west"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "58 quarter-turns clockwise = 2 quarter-turns clockwise (ignoring full turns); 93 quarter-turns anti-clockwise = 1 quarter-turn anti-clockwise. The net effect is 1 quarter-turn clockwise from south-east, which faces south-west.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "The shape shown is made from rectangles, with all measurements marked. What is the perimeter of this shape?",
+      "imageUrl": "/questions/selective-pt3/q32.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "44 cm"
+        },
+        {
+          "label": "B",
+          "text": "52 cm"
+        },
+        {
+          "label": "C",
+          "text": "60 cm"
+        },
+        {
+          "label": "D",
+          "text": "64 cm"
+        },
+        {
+          "label": "E",
+          "text": "68 cm"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "The horizontal edges total 14 + 14 = 28 cm and the vertical edges total 16 + 16 = 32 cm, plus the small step edges 3 + 3 + 1 + 1 = 8 cm. Perimeter = 28 + 32 + 8 = 68 cm.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "Timothy writes 24, reverses the digits to get 42, and finds 42 is 18 more than 24. Nicole writes a whole number between 10 and 99, reverses its digits, and finds the new number is 72 more than her starting number. What was the last digit of Nicole's starting number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Reversing increases the number by 72 only when the ones digit is 8 more than the tens digit (80 - 8 = 72). The digits must be 1 and 9 (91 - 19 = 72), so the last digit of the starting number is 9.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt3-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "Harry has a large solid cube made from 64 small cubes. He removes some small cubes so that, looking at any of the six faces, he sees a 4 by 4 square with the central 2 by 2 removed (a square hole straight through). How many small cubes are in the object now?",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "36"
+        },
+        {
+          "label": "D",
+          "text": "40"
+        },
+        {
+          "label": "E",
+          "text": "72"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "He removes a square tunnel through the centre: 4 cubes from each of the 6 faces (24) plus the 2 by 2 by 2 block in the centre (8), which is 32 removed. 64 - 32 = 32 small cubes remain.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt3-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "How many whole numbers between 1 and 100 are multiples of 3 but not multiples of 8? (Include 3 itself.)",
+      "options": [
+        {
+          "label": "A",
+          "text": "21"
+        },
+        {
+          "label": "B",
+          "text": "25"
+        },
+        {
+          "label": "C",
+          "text": "27"
+        },
+        {
+          "label": "D",
+          "text": "29"
+        },
+        {
+          "label": "E",
+          "text": "33"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "There are 33 multiples of 3 up to 100. Four of them (24, 48, 72, 96) are also multiples of 8, leaving 33 - 4 = 29.",
+      "topic": "Number and algebra"
+    }
+  ]
+}

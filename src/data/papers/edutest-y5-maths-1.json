@@ -1,0 +1,341 @@
+{
+  "id": "edutest-y5-maths-1",
+  "exam": "edutest",
+  "subject": "Mathematics",
+  "yearLevel": 5,
+  "paperCode": "Y5-MATH-1",
+  "title": "EduTest-style Year 5 Mathematics — Practice Paper 1",
+  "year": 2026,
+  "timeLimitMinutes": 20,
+  "questions": [
+    {
+      "id": "edt-y5m1-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "47 + 86 + 59 =",
+      "options": [
+        { "label": "A", "text": "182" },
+        { "label": "B", "text": "186" },
+        { "label": "C", "text": "192" },
+        { "label": "D", "text": "202" },
+        { "label": "E", "text": "212" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "47 + 86 = 133, and 133 + 59 = 192.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m1-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "In the number 58 316, what is the value of the digit 8?",
+      "options": [
+        { "label": "A", "text": "8" },
+        { "label": "B", "text": "80" },
+        { "label": "C", "text": "800" },
+        { "label": "D", "text": "8000" },
+        { "label": "E", "text": "80 000" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The 8 is in the thousands column, so its value is 8 × 1000 = 8000.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m1-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "A number multiplied by 7 gives 350. What is the number?",
+      "options": [
+        { "label": "A", "text": "40" },
+        { "label": "B", "text": "45" },
+        { "label": "C", "text": "50" },
+        { "label": "D", "text": "55" },
+        { "label": "E", "text": "60" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "350 ÷ 7 = 50, because 7 × 50 = 350.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m1-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Which fraction is equal to 3/4?",
+      "options": [
+        { "label": "A", "text": "6/12" },
+        { "label": "B", "text": "9/12" },
+        { "label": "C", "text": "9/16" },
+        { "label": "D", "text": "12/15" },
+        { "label": "E", "text": "6/9" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Multiply the top and bottom of 3/4 by 3: 3/4 = 9/12.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m1-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "A pen costs $2.35. How much do 4 pens cost?",
+      "options": [
+        { "label": "A", "text": "$8.40" },
+        { "label": "B", "text": "$9.20" },
+        { "label": "C", "text": "$9.40" },
+        { "label": "D", "text": "$9.60" },
+        { "label": "E", "text": "$10.40" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "4 × $2.35 = $9.40 (4 × $2 = $8, 4 × $0.35 = $1.40, total $9.40).",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m1-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "What is the remainder when 100 is divided by 6?",
+      "options": [
+        { "label": "A", "text": "0" },
+        { "label": "B", "text": "2" },
+        { "label": "C", "text": "3" },
+        { "label": "D", "text": "4" },
+        { "label": "E", "text": "5" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "6 × 16 = 96, and 100 − 96 = 4, so the remainder is 4.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m1-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "6482 rounded to the nearest hundred is",
+      "options": [
+        { "label": "A", "text": "6000" },
+        { "label": "B", "text": "6400" },
+        { "label": "C", "text": "6480" },
+        { "label": "D", "text": "6500" },
+        { "label": "E", "text": "7000" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The tens digit is 8, which is 5 or more, so round up: 6482 → 6500.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m1-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "A movie starts at 2:45 pm and runs for 1 hour and 40 minutes. What time does it end?",
+      "options": [
+        { "label": "A", "text": "3:25 pm" },
+        { "label": "B", "text": "4:15 pm" },
+        { "label": "C", "text": "4:25 pm" },
+        { "label": "D", "text": "4:35 pm" },
+        { "label": "E", "text": "5:25 pm" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "2:45 pm + 1 hour = 3:45 pm. 3:45 pm + 40 min = 4:25 pm.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y5m1-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "How many millimetres are in 3.5 centimetres?",
+      "options": [
+        { "label": "A", "text": "0.35" },
+        { "label": "B", "text": "35" },
+        { "label": "C", "text": "350" },
+        { "label": "D", "text": "3500" },
+        { "label": "E", "text": "3.5" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "1 cm = 10 mm, so 3.5 cm = 3.5 × 10 = 35 mm.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y5m1-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "A recipe uses 250 g of flour. How many full serves of the recipe can be made from a 2 kg bag of flour?",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "8" },
+        { "label": "D", "text": "10" },
+        { "label": "E", "text": "20" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "2 kg = 2000 g, and 2000 ÷ 250 = 8.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y5m1-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "A rectangle is 8 cm long and 5 cm wide. What is its perimeter?",
+      "options": [
+        { "label": "A", "text": "13 cm" },
+        { "label": "B", "text": "18 cm" },
+        { "label": "C", "text": "26 cm" },
+        { "label": "D", "text": "40 cm" },
+        { "label": "E", "text": "52 cm" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Perimeter = 8 + 5 + 8 + 5 = 26 cm.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y5m1-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "A rectangle has an area of 36 cm² and a length of 9 cm. What is its width?",
+      "options": [
+        { "label": "A", "text": "4 cm" },
+        { "label": "B", "text": "6 cm" },
+        { "label": "C", "text": "9 cm" },
+        { "label": "D", "text": "18 cm" },
+        { "label": "E", "text": "27 cm" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Area = length × width, so width = 36 ÷ 9 = 4 cm.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y5m1-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Look at this pattern: 4, 9, 14, 19, ... What is the 7th number in the pattern?",
+      "options": [
+        { "label": "A", "text": "24" },
+        { "label": "B", "text": "29" },
+        { "label": "C", "text": "34" },
+        { "label": "D", "text": "39" },
+        { "label": "E", "text": "44" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The pattern adds 5 each time: 4, 9, 14, 19, 24, 29, 34. The 7th number is 34.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "edt-y5m1-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "What number is missing? 3, 6, 12, 24, __, 96",
+      "options": [
+        { "label": "A", "text": "36" },
+        { "label": "B", "text": "42" },
+        { "label": "C", "text": "48" },
+        { "label": "D", "text": "60" },
+        { "label": "E", "text": "72" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Each number is double the one before it: 24 × 2 = 48, and 48 × 2 = 96.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "edt-y5m1-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "If ▲ + ▲ + ▲ = 21, what is the value of ▲ + 5?",
+      "options": [
+        { "label": "A", "text": "7" },
+        { "label": "B", "text": "10" },
+        { "label": "C", "text": "12" },
+        { "label": "D", "text": "16" },
+        { "label": "E", "text": "26" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "3 × ▲ = 21, so ▲ = 7. Then ▲ + 5 = 7 + 5 = 12.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "edt-y5m1-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "How many faces does a rectangular prism have?",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "8" },
+        { "label": "E", "text": "12" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A rectangular prism has 6 faces: top and bottom, front and back, left and right.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "edt-y5m1-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "A door handle is turned through a right angle, and then turned a further 45°. What is the total turn?",
+      "options": [
+        { "label": "A", "text": "45°" },
+        { "label": "B", "text": "90°" },
+        { "label": "C", "text": "115°" },
+        { "label": "D", "text": "135°" },
+        { "label": "E", "text": "180°" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A right angle is 90°, so the total turn is 90° + 45° = 135°.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "edt-y5m1-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "How many lines of symmetry does a square have?",
+      "options": [
+        { "label": "A", "text": "1" },
+        { "label": "B", "text": "2" },
+        { "label": "C", "text": "3" },
+        { "label": "D", "text": "4" },
+        { "label": "E", "text": "8" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A square has 4 lines of symmetry: two through the middles of opposite sides and two along the diagonals.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "edt-y5m1-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "The table shows how many books each student read in a month. How many more books did Beth read than Cara?",
+      "table": {
+        "headers": ["Student", "Books read"],
+        "rows": [
+          ["Aran", "6"],
+          ["Beth", "9"],
+          ["Cara", "4"],
+          ["Dan", "5"]
+        ]
+      },
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "4" },
+        { "label": "C", "text": "5" },
+        { "label": "D", "text": "6" },
+        { "label": "E", "text": "13" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Beth read 9 and Cara read 4, so Beth read 9 − 4 = 5 more books.",
+      "topic": "Data & Statistics"
+    },
+    {
+      "id": "edt-y5m1-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "What is the mean (average) of 4, 7, 8 and 5?",
+      "options": [
+        { "label": "A", "text": "5" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "7" },
+        { "label": "D", "text": "8" },
+        { "label": "E", "text": "24" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Add the numbers: 4 + 7 + 8 + 5 = 24. Then divide by how many there are: 24 ÷ 4 = 6.",
+      "topic": "Data & Statistics"
+    }
+  ]
+}

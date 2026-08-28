@@ -21,20 +21,22 @@ export const SUBJECTS: Subject[] = [
   {
     slug: "naplan",
     name: "NAPLAN",
-    description: "NAPLAN-style practice tests.",
-    available: false,
+    description:
+      "NAPLAN-style Numeracy practice papers, timed like the real test.",
+    available: true,
   },
   {
     slug: "selective-test",
     name: "Selective Test",
-    description: "Selective school entry test practice.",
-    available: false,
+    description: "NSW Selective High School Placement — Mathematical Reasoning practice.",
+    available: true,
   },
   {
     slug: "edutest",
     name: "EduTest",
-    description: "EduTest-style practice papers.",
-    available: false,
+    description:
+      "EduTest-style scholarship & selective-entry practice — Mathematics and Numerical Reasoning, timed like the real test.",
+    available: true,
   },
 ];
 

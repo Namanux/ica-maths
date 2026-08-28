@@ -12,7 +12,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { useTheme } from "@/lib/theme-provider";
-import { TOPIC_ORDER } from "@/lib/scoring";
+import { topicsFromAttempts } from "@/lib/scoring";
 import { TOPIC_COLORS, TOPIC_COLORS_DARK } from "@/lib/topicColors";
 import { formatShortDate } from "@/lib/format";
 import type { StoredAttempt } from "@/lib/attempts";
@@ -23,10 +23,10 @@ interface ChartPoint {
   [topic: string]: unknown;
 }
 
-function buildChartData(attempts: StoredAttempt[]): ChartPoint[] {
+function buildChartData(attempts: StoredAttempt[], topics: string[]): ChartPoint[] {
   return attempts.map((a) => {
     const point: ChartPoint = { label: formatShortDate(a.completedAt), raw: {} };
-    for (const topic of TOPIC_ORDER) {
+    for (const topic of topics) {
       const cat = a.categoryBreakdown.find((c) => c.topic === topic);
       if (cat && cat.total > 0) {
         point[topic] = Math.round((cat.correct / cat.total) * 1000) / 10;
@@ -96,8 +96,9 @@ export function CategoryProgressChart({
     );
   }
 
-  const data = buildChartData(attempts);
-  const topicsPresent = TOPIC_ORDER.filter((t) => data.some((d) => typeof d[t] === "number"));
+  const topics = topicsFromAttempts(attempts);
+  const data = buildChartData(attempts, topics);
+  const topicsPresent = topics.filter((t) => data.some((d) => typeof d[t] === "number"));
 
   const toggleTopic = (topic: string) => {
     setHidden((prev) => {

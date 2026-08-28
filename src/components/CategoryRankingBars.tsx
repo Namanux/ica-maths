@@ -1,7 +1,7 @@
 "use client";
 
 import { useTheme } from "@/lib/theme-provider";
-import { TOPIC_ORDER } from "@/lib/scoring";
+import { topicsFromAttempts } from "@/lib/scoring";
 import { TOPIC_COLORS, TOPIC_COLORS_DARK } from "@/lib/topicColors";
 import type { StoredAttempt } from "@/lib/attempts";
 
@@ -11,7 +11,7 @@ interface RankRow {
 }
 
 function computeRows(attempts: StoredAttempt[], metric: "correctPct" | "lostPct"): RankRow[] {
-  return TOPIC_ORDER.map((topic) => {
+  return topicsFromAttempts(attempts).map((topic) => {
     const values: number[] = [];
     for (const a of attempts) {
       const cat = a.categoryBreakdown.find((c) => c.topic === topic);

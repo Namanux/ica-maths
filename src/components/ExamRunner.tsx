@@ -4,6 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Paper, AttemptResult } from "@/lib/types";
 import { scoreAttempt, isAnswerCorrect } from "@/lib/scoring";
+import { paperExam } from "@/lib/papers";
 import { saveAttempt } from "@/lib/attempts";
 import { reportLiveState } from "@/lib/liveSessions";
 import { getProfile } from "@/lib/profiles";
@@ -56,6 +57,12 @@ function formatTime(totalSeconds: number): string {
 
 export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: string }) {
   const router = useRouter();
+  const examSlug = paperExam(paper);
+  const sectionLabel =
+    { "selective-test": "Selective", edutest: "EduTest", naplan: "NAPLAN" }[
+      examSlug
+    ] ?? "ICAS";
+  const examHref = `/${profileSlug}/${examSlug}`;
   const [status, setStatus] = useState<Status>("intro");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string | null>>({});
@@ -111,7 +118,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
         void reportLiveState({
           profileSlug,
           profileName,
-          section: "ICAS",
+          section: sectionLabel,
           pageLabel: paper.title,
           paperId: paper.id,
           paperTitle: paper.title,
@@ -130,7 +137,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
       void reportLiveState({
         profileSlug,
         profileName,
-        section: "ICAS",
+        section: sectionLabel,
         pageLabel: paper.title,
         paperId: paper.id,
         paperTitle: paper.title,
@@ -144,7 +151,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
       });
     }, 400);
     return () => clearTimeout(timeout);
-  }, [status, currentIndex, answers, paper, profileSlug, reviewMode]);
+  }, [status, currentIndex, answers, paper, profileSlug, reviewMode, sectionLabel]);
 
   const startExam = (review: boolean) => {
     startTimeRef.current = Date.now();
@@ -155,7 +162,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
 
   const cancelExam = () => {
     if (!window.confirm("Cancel this exam? Your progress on this attempt will be lost.")) return;
-    router.push(`/${profileSlug}/icas`);
+    router.push(examHref);
   };
 
   const resetAll = () => {
@@ -206,8 +213,8 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
         e.preventDefault();
         goToIndex(currentIndex - 1);
       } else if (currentQuestion.type === "multiple_choice" && currentQuestion.options) {
-        const numIdx = ["1", "2", "3", "4"].indexOf(key);
-        const letterIdx = ["a", "b", "c", "d"].indexOf(key);
+        const numIdx = ["1", "2", "3", "4", "5"].indexOf(key);
+        const letterIdx = ["a", "b", "c", "d", "e"].indexOf(key);
         const pick = numIdx !== -1 ? numIdx : letterIdx;
         const option = pick !== -1 ? currentQuestion.options[pick] : undefined;
         if (option) selectAnswer(option.label);
@@ -248,7 +255,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
             Review Only
           </button>
           <Link
-            href={`/${profileSlug}/icas`}
+            href={examHref}
             className="rounded-full border border-border px-5 py-2.5 font-medium hover:bg-surface transition-colors"
           >
             Back

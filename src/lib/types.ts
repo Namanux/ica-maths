@@ -1,7 +1,7 @@
 export type QuestionType = "multiple_choice" | "free_response";
 
 export interface AnswerOption {
-  label: "A" | "B" | "C" | "D";
+  label: "A" | "B" | "C" | "D" | "E";
   text?: string;
   imageUrl?: string;
 }
@@ -15,6 +15,8 @@ export interface Question {
   id: string;
   number: number;
   type: QuestionType;
+  /** Reading stimulus shown above the prompt (e.g. a comprehension passage). */
+  passage?: string;
   prompt: string;
   imageUrl?: string;
   optionsImageUrl?: string;
@@ -28,6 +30,8 @@ export interface Question {
 
 export interface Paper {
   id: string;
+  /** Which exam section this paper belongs to. Defaults to "icas" when omitted. */
+  exam?: string;
   subject: string;
   yearLevel: number;
   paperCode: string;
@@ -39,6 +43,7 @@ export interface Paper {
 
 export interface PaperSummary {
   id: string;
+  exam?: string;
   subject: string;
   yearLevel: number;
   paperCode: string;

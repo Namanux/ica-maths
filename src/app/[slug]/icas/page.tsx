@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getAllPapers } from "@/lib/papers";
+import { getPapersByExam } from "@/lib/papers";
 import { getProfile } from "@/lib/profiles";
 import { RecentAttempts } from "@/components/RecentAttempts";
 import { PaperListLinks } from "@/components/PaperListLinks";
@@ -15,7 +15,7 @@ export default async function IcasHome({
   const profile = getProfile(slug);
   if (!profile) notFound();
 
-  const papers = getAllPapers();
+  const papers = getPapersByExam("icas");
 
   return (
     <div className="flex flex-col gap-6">

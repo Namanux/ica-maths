@@ -3,6 +3,12 @@ import type { Question } from "@/lib/types";
 export function QuestionBody({ question }: { question: Question }) {
   return (
     <>
+      {question.passage && (
+        <div className="rounded-lg border border-border bg-surface/50 p-4 text-sm leading-relaxed whitespace-pre-line max-h-[45vh] overflow-y-auto">
+          {question.passage}
+        </div>
+      )}
+
       <p className="whitespace-pre-line leading-relaxed">{question.prompt}</p>
 
       {question.table && (

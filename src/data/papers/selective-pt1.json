@@ -1,0 +1,1111 @@
+{
+  "id": "selective-pt1",
+  "exam": "selective-test",
+  "subject": "Mathematical Reasoning",
+  "yearLevel": 6,
+  "paperCode": "PT1",
+  "title": "NSW Selective - Mathematical Reasoning Practice Test 1",
+  "year": 2024,
+  "timeLimitMinutes": 40,
+  "questions": [
+    {
+      "id": "sel-pt1-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Sandy's watch reads 1850. What is the time one quarter of an hour later, in 12-hour format?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6:35 am"
+        },
+        {
+          "label": "B",
+          "text": "7:05 am"
+        },
+        {
+          "label": "C",
+          "text": "6:35 pm"
+        },
+        {
+          "label": "D",
+          "text": "6:45 pm"
+        },
+        {
+          "label": "E",
+          "text": "7:05 pm"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "1850 is 6:50 pm. One quarter of an hour is 15 minutes, and 6:50 pm + 15 min = 7:05 pm.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Jack divides a white wall into equal sections and paints some sections purple, as shown. He then paints 2/5 of the whole wall yellow, and paints the rest of the wall green. How many sections does he paint green?",
+      "imageUrl": "/questions/selective-pt1/q2.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        },
+        {
+          "label": "E",
+          "text": "5"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The wall has 10 sections, 5 painted purple. 2/5 of the wall is 4 sections (yellow). That leaves 10 - 5 - 4 = 1 section green.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Nicola multiplies the smallest four-digit whole number by the largest two-digit whole number. What is the answer?",
+      "options": [
+        {
+          "label": "A",
+          "text": "99 000"
+        },
+        {
+          "label": "B",
+          "text": "99 990"
+        },
+        {
+          "label": "C",
+          "text": "990 000"
+        },
+        {
+          "label": "D",
+          "text": "999 900"
+        },
+        {
+          "label": "E",
+          "text": "999 999"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "1000 x 99 = 99 000.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Rana needs 650 grams of cooking sauce. She places a glass jar of cooking sauce on a scale, as shown. The glass jar weighs 330 g when empty. How much more cooking sauce does Rana need?",
+      "imageUrl": "/questions/selective-pt1/q4.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "100 g"
+        },
+        {
+          "label": "B",
+          "text": "130 g"
+        },
+        {
+          "label": "C",
+          "text": "200 g"
+        },
+        {
+          "label": "D",
+          "text": "230 g"
+        },
+        {
+          "label": "E",
+          "text": "430 g"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The scale reads 750 g. Sauce = 750 - 330 = 420 g. Rana still needs 650 - 420 = 230 g.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "'Calculator numbers' are written in the style of digits on a calculator, as shown. The calculator number eleven is the smallest two-digit number with two lines of symmetry. Which of the numbers below is the largest two-digit calculator number that has just one line of symmetry?",
+      "imageUrl": "/questions/selective-pt1/q5.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "52"
+        },
+        {
+          "label": "B",
+          "text": "83"
+        },
+        {
+          "label": "C",
+          "text": "88"
+        },
+        {
+          "label": "D",
+          "text": "96"
+        },
+        {
+          "label": "E",
+          "text": "99"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "To be largest, try a 9 in the tens place - impossible to keep a line of symmetry. An 8 tens digit needs a ones digit with a horizontal line of symmetry (0, 1, 3 or 8); 88 has two lines, so 83 is the answer.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Kim and Jamie each think of a different whole number that is greater than zero and less than 50. Kim's number is a multiple of 5. Jamie's number is an even number which is a multiple of 7. What is the difference between the largest possible value of Kim's number and the smallest possible value of Jamie's number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "31"
+        },
+        {
+          "label": "B",
+          "text": "36"
+        },
+        {
+          "label": "C",
+          "text": "38"
+        },
+        {
+          "label": "D",
+          "text": "39"
+        },
+        {
+          "label": "E",
+          "text": "43"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Largest multiple of 5 under 50 is 45. Smallest positive even multiple of 7 is 14. 45 - 14 = 31.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Rectangles P and Q have the same area. Rectangle P is 10 cm long and 6 cm wide. Rectangle Q is 4 cm wide. What is the length of rectangle Q?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8 cm"
+        },
+        {
+          "label": "B",
+          "text": "12 cm"
+        },
+        {
+          "label": "C",
+          "text": "15 cm"
+        },
+        {
+          "label": "D",
+          "text": "32 cm"
+        },
+        {
+          "label": "E",
+          "text": "60 cm"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Area of P = 10 x 6 = 60 cm2. Length of Q = 60 / 4 = 15 cm.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Sooyoung has a glass containing 250 mL of cordial, with marks at 250 mL and 500 mL, and a bottle containing 1 litre of water. She drinks 10 mL of the cordial, then pours water from the bottle into the glass until the water reaches the 500 mL mark. How much water is left in the bottle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "240 mL"
+        },
+        {
+          "label": "B",
+          "text": "260 mL"
+        },
+        {
+          "label": "C",
+          "text": "740 mL"
+        },
+        {
+          "label": "D",
+          "text": "760 mL"
+        },
+        {
+          "label": "E",
+          "text": "990 mL"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "After drinking, the glass holds 240 mL. Water added = 500 - 240 = 260 mL. Bottle: 1000 - 260 = 740 mL.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "The square always represents the same number, and the triangle represents a different number. If 9 x square = 108, and triangle + square = 36, what is the value of the triangle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "24"
+        },
+        {
+          "label": "D",
+          "text": "28"
+        },
+        {
+          "label": "E",
+          "text": "48"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "square = 108 / 9 = 12, so triangle = 36 - 12 = 24.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Tahnee is making a pattern out of white and black tiles, shown here. She wants the finished pattern to have one vertical line of symmetry. What is the smallest number of tiles she needs to add onto the right of the pattern?",
+      "imageUrl": "/questions/selective-pt1/q10.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "3"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Placing the line of symmetry through the centre of the three black tiles, she needs to add one black then one white tile - two tiles.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Jessica has blue, green, red and yellow buttons in a bag. There are twice as many red buttons as blue buttons. The probability of taking a blue button is 0.2 and the probability of green is 0.3. What is the probability that Jessica takes out a yellow button?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0.1"
+        },
+        {
+          "label": "B",
+          "text": "0.3"
+        },
+        {
+          "label": "C",
+          "text": "0.5"
+        },
+        {
+          "label": "D",
+          "text": "0.7"
+        },
+        {
+          "label": "E",
+          "text": "0.9"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Red = 2 x 0.2 = 0.4. The four probabilities sum to 1, so yellow = 1 - 0.2 - 0.3 - 0.4 = 0.1.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt1-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "The graph shows the average monthly rainfall in Cairns for one year. Statement 1: June had more than twice as much rainfall as August. Statement 2: December had 9 cm more rainfall than November. Statement 3: The rainfall in February, March and April combined was more than 1 metre. Which of these statements are correct?",
+      "imageUrl": "/questions/selective-pt1/q12.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "statement 1 only"
+        },
+        {
+          "label": "B",
+          "text": "statement 2 only"
+        },
+        {
+          "label": "C",
+          "text": "statements 1 and 2 only"
+        },
+        {
+          "label": "D",
+          "text": "statements 2 and 3 only"
+        },
+        {
+          "label": "E",
+          "text": "statements 1, 2 and 3"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "June 70 mm is not more than twice August's 40 mm (statement 1 wrong). Dec 190 - Nov 100 = 90 mm = 9 cm (2 correct). 430 + 440 + 230 = 1100 mm > 1 m (3 correct).",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt1-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Alan had $10. He gave some of it to Kiana, then gave half of what he had left to Jason. Jason gave half of what he was given to Lenny, who received $1.60. How much did Alan give to Kiana?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$3.20"
+        },
+        {
+          "label": "B",
+          "text": "$3.60"
+        },
+        {
+          "label": "C",
+          "text": "$4.80"
+        },
+        {
+          "label": "D",
+          "text": "$6.40"
+        },
+        {
+          "label": "E",
+          "text": "$6.80"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Working back: Jason got $3.20, so Alan had $6.40 left, so Alan gave Kiana $10 - $6.40 = $3.60.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Noah is drawing an accurate copy of the shape shown, which has one line of symmetry. He starts drawing it with a protractor, as shown, marking lines at 30 degrees and 50 degrees. What is the size of angle S?",
+      "imageUrl": "/questions/selective-pt1/q14.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "50 degrees"
+        },
+        {
+          "label": "B",
+          "text": "80 degrees"
+        },
+        {
+          "label": "C",
+          "text": "90 degrees"
+        },
+        {
+          "label": "D",
+          "text": "100 degrees"
+        },
+        {
+          "label": "E",
+          "text": "130 degrees"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "By symmetry the angles along the straight line are 30, 20, S, 20, 30. So S = 180 - 30 - 20 - 20 - 30 = 80 degrees.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "When 117 chocolates are shared between 14 people, each person gets 8 chocolates and there are 5 chocolates left over. Which number sentence shows this information?",
+      "options": [
+        {
+          "label": "A",
+          "text": "14 + 8 x 5 = 117"
+        },
+        {
+          "label": "B",
+          "text": "14 x 5 - 8 = 117"
+        },
+        {
+          "label": "C",
+          "text": "14 x 5 + 8 = 117"
+        },
+        {
+          "label": "D",
+          "text": "14 x 8 - 5 = 117"
+        },
+        {
+          "label": "E",
+          "text": "14 x 8 + 5 = 117"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "14 people x 8 chocolates each, plus 5 left over, is 14 x 8 + 5 = 117.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "A large rectangle has sides 8 cm and 10 cm. Two smaller rectangles are removed from it, leaving the shaded shape shown. What is the perimeter of the shaded shape?",
+      "imageUrl": "/questions/selective-pt1/q16.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "30 cm"
+        },
+        {
+          "label": "B",
+          "text": "36 cm"
+        },
+        {
+          "label": "C",
+          "text": "39 cm"
+        },
+        {
+          "label": "D",
+          "text": "40 cm"
+        },
+        {
+          "label": "E",
+          "text": "42 cm"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "The horizontal edges total 10 + 10 cm and the vertical edges total 8 + 8 cm, plus the two 3 cm sides of the notch: 10 + 8 + 10 + 8 + 3 + 3 = 42 cm.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Andy, Bella and Carlo shared a chocolate bar. Andy ate 1/5 of the bar, Bella ate 2/5, and Carlo ate the rest. Statement 1: Carlo ate less than half of the bar. Statement 2: Andy ate more than one quarter of the bar. Statement 3: Andy and Bella together ate less than three quarters of the bar. Which statements are correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "statement 1 only"
+        },
+        {
+          "label": "B",
+          "text": "statement 2 only"
+        },
+        {
+          "label": "C",
+          "text": "statement 3 only"
+        },
+        {
+          "label": "D",
+          "text": "statements 1 and 2 only"
+        },
+        {
+          "label": "E",
+          "text": "statements 1 and 3 only"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Carlo ate 2/5 < 1/2 (1 correct). Andy ate 1/5 < 1/4 (2 wrong). Andy + Bella = 3/5 < 3/4 (3 correct).",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "In a 3 by 3 'magic square', each row, column and diagonal add up to the same total. The top row is 20, 15, 16. The middle row is completely empty. The bottom row is 18, then an empty cell, then a cell marked with a diamond. What is the missing number in the diamond cell?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "14"
+        },
+        {
+          "label": "C",
+          "text": "17"
+        },
+        {
+          "label": "D",
+          "text": "18"
+        },
+        {
+          "label": "E",
+          "text": "21"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The magic total is 20 + 15 + 16 = 51. The centre is 51 - 16 - 18 = 17, and the diamond is 51 - 20 - 17 = 14.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Chen has a spinner split into four equal sections showing the numbers 2, 3, 4 and 5. He spins it and it lands on 4. Emily then spins the same spinner once. Statement X: the probability Emily gets a 4 is 1/4. Statement Y: the probability Emily's number is less than Chen's is 1/2. Statement Z: the probability their scores add up to more than 5 is 3/4. Which statements are correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "none of them"
+        },
+        {
+          "label": "B",
+          "text": "statements X and Y only"
+        },
+        {
+          "label": "C",
+          "text": "statements X and Z only"
+        },
+        {
+          "label": "D",
+          "text": "statements Y and Z only"
+        },
+        {
+          "label": "E",
+          "text": "statements X, Y and Z"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "X is correct. Two of the four numbers (2 and 3) are less than 4, so Y is correct (1/2). Every possible total 4+2, 4+3, 4+4, 4+5 is more than 5, so that probability is 1, not 3/4 - Z is wrong.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt1-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "There is something wrong with these scales: with nothing on them the pointer does not start at 0 kg, as shown in the first picture. Otherwise they work normally. Two identical blocks are then placed on the scales, giving the second reading, and the pointer makes less than a full turn. What is the mass, in kg, of one block?",
+      "imageUrl": "/questions/selective-pt1/q20.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "13 kg"
+        },
+        {
+          "label": "B",
+          "text": "14 kg"
+        },
+        {
+          "label": "C",
+          "text": "18 kg"
+        },
+        {
+          "label": "D",
+          "text": "19 kg"
+        },
+        {
+          "label": "E",
+          "text": "22 kg"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Each mark is 2 kg. Empty, the pointer reads 8 kg; loaded it reads 44 kg. The two blocks are 44 - 8 = 36 kg, so one block is 18 kg.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "Alinta and Tau both round the number 4 850 000. Alinta rounds to the nearest million; Tau rounds to the nearest hundred thousand. What is the difference between their answers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "0"
+        },
+        {
+          "label": "B",
+          "text": "50 000"
+        },
+        {
+          "label": "C",
+          "text": "100 000"
+        },
+        {
+          "label": "D",
+          "text": "150 000"
+        },
+        {
+          "label": "E",
+          "text": "200 000"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Alinta gets 5 000 000; Tau gets 4 900 000. The difference is 100 000.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "The graph shows the outdoor temperature over a period of 9 hours. Statement 1: the temperature was 10 degrees C at four different times. Statement 2: the temperature change between 1 hour and 3 hours was greater than the change between 4 hours and 6 hours. Statement 3: the lowest temperature was 5 degrees C. Which statements are true?",
+      "imageUrl": "/questions/selective-pt1/q22.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "none of the statements"
+        },
+        {
+          "label": "B",
+          "text": "statements 1 and 2 only"
+        },
+        {
+          "label": "C",
+          "text": "statements 1 and 3 only"
+        },
+        {
+          "label": "D",
+          "text": "statements 2 and 3 only"
+        },
+        {
+          "label": "E",
+          "text": "statements 1, 2 and 3"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "The curve reads 10 degrees at four points (1). It rises 8 degrees from hour 1 to 3 but falls 7 degrees from hour 4 to 6 (2). Its lowest value is 5 degrees at hour 9 (3). All three are true.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt1-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "Quoc bought 4 pizzas to share with Amina, Fred and Sally. Amina ate 4/5 of a pizza, Fred ate 1 and 1/5 pizzas, and Sally ate 3/5 of a pizza. Quoc ate all the pizza that was left. How much more pizza did Quoc eat than Amina?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2/5"
+        },
+        {
+          "label": "B",
+          "text": "3/5"
+        },
+        {
+          "label": "C",
+          "text": "4/5"
+        },
+        {
+          "label": "D",
+          "text": "1 and 4/5"
+        },
+        {
+          "label": "E",
+          "text": "2 and 1/5"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Amina, Fred and Sally ate 4/5 + 6/5 + 3/5 = 13/5 pizzas, leaving 7/5 for Quoc. 7/5 - 4/5 = 3/5.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "Three different boxes are weighed in pairs. The three pairs have combined weights of 28 kg, 32 kg and 38 kg. When the three boxes are weighed together, what is their combined weight?",
+      "options": [
+        {
+          "label": "A",
+          "text": "49 kg"
+        },
+        {
+          "label": "B",
+          "text": "60 kg"
+        },
+        {
+          "label": "C",
+          "text": "66 kg"
+        },
+        {
+          "label": "D",
+          "text": "70 kg"
+        },
+        {
+          "label": "E",
+          "text": "98 kg"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Adding the three pair weights counts every box twice: 28 + 32 + 38 = 98, so the three boxes together weigh 98 / 2 = 49 kg.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "What is the sum of the number of faces, the number of edges and the number of vertices of a pyramid with a hexagonal base?",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "20"
+        },
+        {
+          "label": "C",
+          "text": "24"
+        },
+        {
+          "label": "D",
+          "text": "26"
+        },
+        {
+          "label": "E",
+          "text": "38"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A hexagonal pyramid has 7 faces, 12 edges and 7 vertices: 7 + 12 + 7 = 26.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "In the number 273 the digit 7 represents 70. In the number 30 060, how many times larger is the value represented by the digit 3 than the value represented by the digit 6?",
+      "options": [
+        {
+          "label": "A",
+          "text": "50 times"
+        },
+        {
+          "label": "B",
+          "text": "100 times"
+        },
+        {
+          "label": "C",
+          "text": "500 times"
+        },
+        {
+          "label": "D",
+          "text": "1000 times"
+        },
+        {
+          "label": "E",
+          "text": "2000 times"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The 3 represents 30 000 and the 6 represents 60. 30 000 / 60 = 500.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "Kylie lives in Las Vegas and visits her cousin in Sydney. She leaves Las Vegas on Friday at 1300 local time on a 6-hour flight to New York, spends 24 hours in New York, then catches a 20-hour flight to Sydney. The time in Las Vegas is 17 hours behind the time in Sydney. What time is it in Sydney when Kylie arrives?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Monday at 0800"
+        },
+        {
+          "label": "B",
+          "text": "Wednesday at 1100"
+        },
+        {
+          "label": "C",
+          "text": "Saturday at 2200"
+        },
+        {
+          "label": "D",
+          "text": "Sunday at 1500"
+        },
+        {
+          "label": "E",
+          "text": "Sunday at 2300"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The journey is 6 + 24 + 20 = 50 hours = 2 days 2 hours, reaching 1500 Sunday in Las Vegas time. Adding the 17-hour time difference gives 0800 Monday in Sydney.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "Here is a shape made of black and white parts, with the measurements shown. What is the total area that is black?",
+      "imageUrl": "/questions/selective-pt1/q28.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "14 cm2"
+        },
+        {
+          "label": "B",
+          "text": "15 cm2"
+        },
+        {
+          "label": "C",
+          "text": "20 cm2"
+        },
+        {
+          "label": "D",
+          "text": "22 cm2"
+        },
+        {
+          "label": "E",
+          "text": "24 cm2"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The whole shape is a 6 by 6 square (36 cm2). The white parts have areas 5 cm2 and 9 cm2, so the black area is 36 - 5 - 9 = 22 cm2.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "Jan is making a mixed fruit drink. She puts some orange juice into the jug, as shown, then adds 6 times as much apple juice. How many millilitres of fruit drink does Jan make?",
+      "imageUrl": "/questions/selective-pt1/q29.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "400 mL"
+        },
+        {
+          "label": "B",
+          "text": "525 mL"
+        },
+        {
+          "label": "C",
+          "text": "900 mL"
+        },
+        {
+          "label": "D",
+          "text": "1050 mL"
+        },
+        {
+          "label": "E",
+          "text": "1500 mL"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Each mark is 50 mL, so there is 150 mL of orange juice. Apple juice = 6 x 150 = 900 mL. Total = 150 + 900 = 1050 mL.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "The equilateral triangle shown is rotated anti-clockwise into the second position shown. Through what angle is it rotated anti-clockwise?",
+      "imageUrl": "/questions/selective-pt1/q30.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "60 degrees"
+        },
+        {
+          "label": "B",
+          "text": "120 degrees"
+        },
+        {
+          "label": "C",
+          "text": "180 degrees"
+        },
+        {
+          "label": "D",
+          "text": "240 degrees"
+        },
+        {
+          "label": "E",
+          "text": "300 degrees"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "An equilateral triangle maps onto itself every 120 degrees. The arrow ends up pointing after two such turns, so the rotation is 2 x 120 = 240 degrees.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "Vinayak's little brother tried to draw three different nets of a cube but drew only five squares for each. His three drawings are shown. Which of them can be made into a complete cube net by adding one more square?",
+      "imageUrl": "/questions/selective-pt1/q31.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "drawing 1 only"
+        },
+        {
+          "label": "B",
+          "text": "drawing 2 only"
+        },
+        {
+          "label": "C",
+          "text": "drawing 3 only"
+        },
+        {
+          "label": "D",
+          "text": "drawings 1 and 3 only"
+        },
+        {
+          "label": "E",
+          "text": "drawings 1, 2 and 3"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Folding drawings 1 and 3 makes two faces overlap, so no single square completes them. Only drawing 2 can be completed.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "Harry is making shapes from identical rectangular cards with the letter H on. He makes shape X, then adds another card to make shape Y, as shown. The perimeter of shape X is 64 cm and the perimeter of shape Y is 82 cm. What is the width of each of Harry's rectangles?",
+      "imageUrl": "/questions/selective-pt1/q32.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 cm"
+        },
+        {
+          "label": "B",
+          "text": "4 cm"
+        },
+        {
+          "label": "C",
+          "text": "5 cm"
+        },
+        {
+          "label": "D",
+          "text": "8 cm"
+        },
+        {
+          "label": "E",
+          "text": "9 cm"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Adding the extra card increases the perimeter by twice the width: 82 - 64 = 18, so the width is 18 / 2 = 9 cm.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt1-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "Claudia makes a number pattern: she chooses the first three numbers, then each later number is the sum of the three numbers before it. Her pattern with three missing numbers is  2, X, 0, Y, 6, Z. All the numbers are whole numbers. What number does Z represent?",
+      "options": [
+        {
+          "label": "A",
+          "text": "8"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "10"
+        },
+        {
+          "label": "D",
+          "text": "11"
+        },
+        {
+          "label": "E",
+          "text": "12"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "X + 0 + Y = 6 and 2 + X + 0 = Y, so X = 2 and Y = 4. Then Z = 0 + Y + 6 = 10.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "In a game, every star is worth the same number of points and every heart is worth a different fixed number of points. Collecting 3 stars and 5 hearts gives 27 points. Collecting 5 stars and 7 hearts gives 41 points. How many points do you get for 1 star and 1 heart?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "12"
+        },
+        {
+          "label": "C",
+          "text": "14"
+        },
+        {
+          "label": "D",
+          "text": "24"
+        },
+        {
+          "label": "E",
+          "text": "50"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The second haul has 2 more stars and 2 more hearts and is worth 14 more points, so 2 stars + 2 hearts = 14, meaning 1 star + 1 heart = 7 points.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt1-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "How many whole numbers between 1 and 100 are multiples of 3 but not multiples of 8? (Include 3 itself.)",
+      "options": [
+        {
+          "label": "A",
+          "text": "21"
+        },
+        {
+          "label": "B",
+          "text": "25"
+        },
+        {
+          "label": "C",
+          "text": "27"
+        },
+        {
+          "label": "D",
+          "text": "29"
+        },
+        {
+          "label": "E",
+          "text": "33"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "There are 33 multiples of 3 up to 100. Four of them (24, 48, 72, 96) are also multiples of 8, leaving 33 - 4 = 29.",
+      "topic": "Number and algebra"
+    }
+  ]
+}

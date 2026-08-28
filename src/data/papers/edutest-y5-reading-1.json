@@ -1,0 +1,318 @@
+{
+  "id": "edutest-y5-reading-1",
+  "exam": "edutest",
+  "subject": "Reading Comprehension",
+  "yearLevel": 5,
+  "paperCode": "Y5-RC-1",
+  "title": "EduTest-style Year 5 Reading Comprehension — Practice Paper 1",
+  "year": 2026,
+  "timeLimitMinutes": 25,
+  "questions": [
+    {
+      "id": "edt-y5rc1-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "The Lighthouse Steps\n\nMira had lived on the island her whole life, but she had never once climbed to the top of the lighthouse. Her grandfather kept its lamp burning every night, and every night he climbed the one hundred and twenty steps alone. \"When you are ready,\" he always said, \"the stairs will feel shorter.\"\n\nOne stormy evening, Grandfather's knee gave way on the bottom step. He sat down heavily, his face pale. \"The ships,\" he whispered. \"They need the light.\"\n\nMira looked up into the dark spiral. She thought of the fishing boats somewhere out on the black water, their crews watching the shore for a single yellow spark. She took the matches from Grandfather's coat pocket, and she began to climb. By the fortieth step her legs burned. By the eightieth she had stopped counting. When at last she reached the lamp and struck the match, the light leapt out across the waves like something alive.\n\nShe never did find the stairs shorter. But she climbed them every night after that.",
+      "prompt": "How many steps does the lighthouse have?",
+      "options": [
+        { "label": "A", "text": "40" },
+        { "label": "B", "text": "80" },
+        { "label": "C", "text": "100" },
+        { "label": "D", "text": "120" },
+        { "label": "E", "text": "150" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage says Grandfather \"climbed the one hundred and twenty steps alone\".",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "edt-y5rc1-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "The Lighthouse Steps\n\nMira had lived on the island her whole life, but she had never once climbed to the top of the lighthouse. Her grandfather kept its lamp burning every night, and every night he climbed the one hundred and twenty steps alone. \"When you are ready,\" he always said, \"the stairs will feel shorter.\"\n\nOne stormy evening, Grandfather's knee gave way on the bottom step. He sat down heavily, his face pale. \"The ships,\" he whispered. \"They need the light.\"\n\nMira looked up into the dark spiral. She thought of the fishing boats somewhere out on the black water, their crews watching the shore for a single yellow spark. She took the matches from Grandfather's coat pocket, and she began to climb. By the fortieth step her legs burned. By the eightieth she had stopped counting. When at last she reached the lamp and struck the match, the light leapt out across the waves like something alive.\n\nShe never did find the stairs shorter. But she climbed them every night after that.",
+      "prompt": "Why does Grandfather not climb the lighthouse that evening?",
+      "options": [
+        { "label": "A", "text": "The storm blew him off the step" },
+        { "label": "B", "text": "His knee gave way and he was hurt" },
+        { "label": "C", "text": "He wanted Mira to prove herself" },
+        { "label": "D", "text": "The lamp was already lit" },
+        { "label": "E", "text": "He had lost the matches" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The passage says \"Grandfather's knee gave way on the bottom step. He sat down heavily, his face pale.\"",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "edt-y5rc1-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "The Lighthouse Steps\n\nMira had lived on the island her whole life, but she had never once climbed to the top of the lighthouse. Her grandfather kept its lamp burning every night, and every night he climbed the one hundred and twenty steps alone. \"When you are ready,\" he always said, \"the stairs will feel shorter.\"\n\nOne stormy evening, Grandfather's knee gave way on the bottom step. He sat down heavily, his face pale. \"The ships,\" he whispered. \"They need the light.\"\n\nMira looked up into the dark spiral. She thought of the fishing boats somewhere out on the black water, their crews watching the shore for a single yellow spark. She took the matches from Grandfather's coat pocket, and she began to climb. By the fortieth step her legs burned. By the eightieth she had stopped counting. When at last she reached the lamp and struck the match, the light leapt out across the waves like something alive.\n\nShe never did find the stairs shorter. But she climbed them every night after that.",
+      "prompt": "\"By the eightieth she had stopped counting.\" This suggests that Mira was",
+      "options": [
+        { "label": "A", "text": "no longer able to count that high" },
+        { "label": "B", "text": "bored by the climb" },
+        { "label": "C", "text": "putting all her effort into keeping going" },
+        { "label": "D", "text": "planning to turn back" },
+        { "label": "E", "text": "enjoying the view from the stairs" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Just before, \"her legs burned\". Stopping counting shows she was concentrating on the effort of climbing rather than the number of steps.",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y5rc1-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "The Lighthouse Steps\n\nMira had lived on the island her whole life, but she had never once climbed to the top of the lighthouse. Her grandfather kept its lamp burning every night, and every night he climbed the one hundred and twenty steps alone. \"When you are ready,\" he always said, \"the stairs will feel shorter.\"\n\nOne stormy evening, Grandfather's knee gave way on the bottom step. He sat down heavily, his face pale. \"The ships,\" he whispered. \"They need the light.\"\n\nMira looked up into the dark spiral. She thought of the fishing boats somewhere out on the black water, their crews watching the shore for a single yellow spark. She took the matches from Grandfather's coat pocket, and she began to climb. By the fortieth step her legs burned. By the eightieth she had stopped counting. When at last she reached the lamp and struck the match, the light leapt out across the waves like something alive.\n\nShe never did find the stairs shorter. But she climbed them every night after that.",
+      "prompt": "In \"the light leapt out across the waves like something alive\", the word \"leapt\" makes the light seem",
+      "options": [
+        { "label": "A", "text": "dim and slow" },
+        { "label": "B", "text": "sudden and full of energy" },
+        { "label": "C", "text": "cold and distant" },
+        { "label": "D", "text": "weak and flickering" },
+        { "label": "E", "text": "dangerous and out of control" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Leapt\" is a quick, powerful movement, and \"like something alive\" adds energy, so the light seems to burst out suddenly and strongly.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "edt-y5rc1-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "The Lighthouse Steps\n\nMira had lived on the island her whole life, but she had never once climbed to the top of the lighthouse. Her grandfather kept its lamp burning every night, and every night he climbed the one hundred and twenty steps alone. \"When you are ready,\" he always said, \"the stairs will feel shorter.\"\n\nOne stormy evening, Grandfather's knee gave way on the bottom step. He sat down heavily, his face pale. \"The ships,\" he whispered. \"They need the light.\"\n\nMira looked up into the dark spiral. She thought of the fishing boats somewhere out on the black water, their crews watching the shore for a single yellow spark. She took the matches from Grandfather's coat pocket, and she began to climb. By the fortieth step her legs burned. By the eightieth she had stopped counting. When at last she reached the lamp and struck the match, the light leapt out across the waves like something alive.\n\nShe never did find the stairs shorter. But she climbed them every night after that.",
+      "prompt": "Grandfather said, \"When you are ready, the stairs will feel shorter.\" What does the ending of the story suggest about being \"ready\"?",
+      "options": [
+        { "label": "A", "text": "You become so strong that hard tasks turn easy" },
+        { "label": "B", "text": "You must wait until the weather is calm" },
+        { "label": "C", "text": "Being ready means doing a hard thing even if it never becomes easy" },
+        { "label": "D", "text": "You should only start once you have counted every step" },
+        { "label": "E", "text": "Being ready means someone older is there to help" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Mira \"never did find the stairs shorter\" but climbed them every night anyway. She was ready because she was willing to do the hard task, not because it stopped being hard.",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y5rc1-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "The Lighthouse Steps\n\nMira had lived on the island her whole life, but she had never once climbed to the top of the lighthouse. Her grandfather kept its lamp burning every night, and every night he climbed the one hundred and twenty steps alone. \"When you are ready,\" he always said, \"the stairs will feel shorter.\"\n\nOne stormy evening, Grandfather's knee gave way on the bottom step. He sat down heavily, his face pale. \"The ships,\" he whispered. \"They need the light.\"\n\nMira looked up into the dark spiral. She thought of the fishing boats somewhere out on the black water, their crews watching the shore for a single yellow spark. She took the matches from Grandfather's coat pocket, and she began to climb. By the fortieth step her legs burned. By the eightieth she had stopped counting. When at last she reached the lamp and struck the match, the light leapt out across the waves like something alive.\n\nShe never did find the stairs shorter. But she climbed them every night after that.",
+      "prompt": "The writer ends with two short sentences: \"She never did find the stairs shorter. But she climbed them every night after that.\" This ending mainly shows that Mira",
+      "options": [
+        { "label": "A", "text": "gave up on the lighthouse" },
+        { "label": "B", "text": "took on the task as her own from then on" },
+        { "label": "C", "text": "found the work pointless" },
+        { "label": "D", "text": "was forced to keep climbing against her wishes" },
+        { "label": "E", "text": "preferred fishing to keeping the lamp" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Every night after that\" shows the climb became a lasting responsibility that Mira chose to keep.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "edt-y5rc1-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "Why Sea Otters Matter\n\nSea otters are among the smallest marine mammals, but they have an enormous effect on the ocean around them. Off the Pacific coast of North America, otters feed on sea urchins. Sea urchins, in turn, feed on kelp — the tall, fast-growing seaweed that forms underwater forests.\n\nWhen otters are removed from an area, urchin numbers explode. The urchins graze the kelp forests down to bare rock, creating what scientists call \"urchin barrens\". Fish, crabs and seals that shelter in the kelp lose their home.\n\nWhere otters return, the balance is restored. Otters keep urchin numbers low, the kelp grows back, and dozens of other species return with it. Because a single animal holds the whole system together, scientists call the sea otter a \"keystone species\", after the central stone that keeps a stone arch from falling down.\n\nProtecting otters, it turns out, means protecting an entire forest.",
+      "prompt": "According to the passage, what do sea otters feed on?",
+      "options": [
+        { "label": "A", "text": "kelp" },
+        { "label": "B", "text": "fish" },
+        { "label": "C", "text": "sea urchins" },
+        { "label": "D", "text": "crabs" },
+        { "label": "E", "text": "seals" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage says \"otters feed on sea urchins\".",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "edt-y5rc1-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "Why Sea Otters Matter\n\nSea otters are among the smallest marine mammals, but they have an enormous effect on the ocean around them. Off the Pacific coast of North America, otters feed on sea urchins. Sea urchins, in turn, feed on kelp — the tall, fast-growing seaweed that forms underwater forests.\n\nWhen otters are removed from an area, urchin numbers explode. The urchins graze the kelp forests down to bare rock, creating what scientists call \"urchin barrens\". Fish, crabs and seals that shelter in the kelp lose their home.\n\nWhere otters return, the balance is restored. Otters keep urchin numbers low, the kelp grows back, and dozens of other species return with it. Because a single animal holds the whole system together, scientists call the sea otter a \"keystone species\", after the central stone that keeps a stone arch from falling down.\n\nProtecting otters, it turns out, means protecting an entire forest.",
+      "prompt": "What is an \"urchin barren\"?",
+      "options": [
+        { "label": "A", "text": "an area with a very large otter population" },
+        { "label": "B", "text": "a healthy underwater kelp forest" },
+        { "label": "C", "text": "an area stripped of kelp, leaving bare rock" },
+        { "label": "D", "text": "a kind of sea urchin found near the shore" },
+        { "label": "E", "text": "a zone where fishing is not allowed" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage says urchins \"graze the kelp forests down to bare rock, creating what scientists call 'urchin barrens'\".",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "edt-y5rc1-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "Why Sea Otters Matter\n\nSea otters are among the smallest marine mammals, but they have an enormous effect on the ocean around them. Off the Pacific coast of North America, otters feed on sea urchins. Sea urchins, in turn, feed on kelp — the tall, fast-growing seaweed that forms underwater forests.\n\nWhen otters are removed from an area, urchin numbers explode. The urchins graze the kelp forests down to bare rock, creating what scientists call \"urchin barrens\". Fish, crabs and seals that shelter in the kelp lose their home.\n\nWhere otters return, the balance is restored. Otters keep urchin numbers low, the kelp grows back, and dozens of other species return with it. Because a single animal holds the whole system together, scientists call the sea otter a \"keystone species\", after the central stone that keeps a stone arch from falling down.\n\nProtecting otters, it turns out, means protecting an entire forest.",
+      "prompt": "In this passage, \"urchin numbers explode\" means that the number of urchins",
+      "options": [
+        { "label": "A", "text": "bursts apart" },
+        { "label": "B", "text": "makes a loud noise" },
+        { "label": "C", "text": "increases very quickly" },
+        { "label": "D", "text": "suddenly disappears" },
+        { "label": "E", "text": "stays exactly the same" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Here \"explode\" is used to describe a very fast, large increase in the number of urchins.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "edt-y5rc1-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "Why Sea Otters Matter\n\nSea otters are among the smallest marine mammals, but they have an enormous effect on the ocean around them. Off the Pacific coast of North America, otters feed on sea urchins. Sea urchins, in turn, feed on kelp — the tall, fast-growing seaweed that forms underwater forests.\n\nWhen otters are removed from an area, urchin numbers explode. The urchins graze the kelp forests down to bare rock, creating what scientists call \"urchin barrens\". Fish, crabs and seals that shelter in the kelp lose their home.\n\nWhere otters return, the balance is restored. Otters keep urchin numbers low, the kelp grows back, and dozens of other species return with it. Because a single animal holds the whole system together, scientists call the sea otter a \"keystone species\", after the central stone that keeps a stone arch from falling down.\n\nProtecting otters, it turns out, means protecting an entire forest.",
+      "prompt": "Which sentence best states the main idea of the passage?",
+      "options": [
+        { "label": "A", "text": "Sea otters are the smallest of all the marine mammals." },
+        { "label": "B", "text": "Kelp is a type of seaweed that grows very quickly." },
+        { "label": "C", "text": "Protecting one key animal can protect a whole ecosystem." },
+        { "label": "D", "text": "Sea urchins are harmful animals that should be removed." },
+        { "label": "E", "text": "Scientists like to name animals after parts of buildings." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The whole passage explains how removing or returning otters changes the entire kelp ecosystem, and ends by saying protecting otters means protecting a whole forest.",
+      "topic": "Main Idea & Purpose"
+    },
+    {
+      "id": "edt-y5rc1-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "Why Sea Otters Matter\n\nSea otters are among the smallest marine mammals, but they have an enormous effect on the ocean around them. Off the Pacific coast of North America, otters feed on sea urchins. Sea urchins, in turn, feed on kelp — the tall, fast-growing seaweed that forms underwater forests.\n\nWhen otters are removed from an area, urchin numbers explode. The urchins graze the kelp forests down to bare rock, creating what scientists call \"urchin barrens\". Fish, crabs and seals that shelter in the kelp lose their home.\n\nWhere otters return, the balance is restored. Otters keep urchin numbers low, the kelp grows back, and dozens of other species return with it. Because a single animal holds the whole system together, scientists call the sea otter a \"keystone species\", after the central stone that keeps a stone arch from falling down.\n\nProtecting otters, it turns out, means protecting an entire forest.",
+      "prompt": "Why does the writer compare the sea otter to \"the central stone that keeps a stone arch from falling down\"?",
+      "options": [
+        { "label": "A", "text": "to show that otters are heavy animals" },
+        { "label": "B", "text": "to explain a keystone species using a familiar picture" },
+        { "label": "C", "text": "to prove that stone arches are very strong" },
+        { "label": "D", "text": "to describe exactly where otters live" },
+        { "label": "E", "text": "to suggest that otters build things underwater" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The comparison helps the reader picture how removing one central part can make a whole structure — or ecosystem — collapse.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "edt-y5rc1-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Why Sea Otters Matter\n\nSea otters are among the smallest marine mammals, but they have an enormous effect on the ocean around them. Off the Pacific coast of North America, otters feed on sea urchins. Sea urchins, in turn, feed on kelp — the tall, fast-growing seaweed that forms underwater forests.\n\nWhen otters are removed from an area, urchin numbers explode. The urchins graze the kelp forests down to bare rock, creating what scientists call \"urchin barrens\". Fish, crabs and seals that shelter in the kelp lose their home.\n\nWhere otters return, the balance is restored. Otters keep urchin numbers low, the kelp grows back, and dozens of other species return with it. Because a single animal holds the whole system together, scientists call the sea otter a \"keystone species\", after the central stone that keeps a stone arch from falling down.\n\nProtecting otters, it turns out, means protecting an entire forest.",
+      "prompt": "From the passage, if an area has very high numbers of sea urchins and almost no kelp, you can conclude that sea otters there are probably",
+      "options": [
+        { "label": "A", "text": "plentiful" },
+        { "label": "B", "text": "absent or very few" },
+        { "label": "C", "text": "busy hunting fish" },
+        { "label": "D", "text": "feeding on kelp" },
+        { "label": "E", "text": "larger than usual" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The passage says that when otters are removed, urchin numbers explode and the kelp is grazed to bare rock. That matches an area with few or no otters.",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y5rc1-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "Fog\n\nThe fog comes in on the morning tide,\ngrey as a gull, and just as wide.\nIt folds the hills and hides the bay,\nit swallows every path away.\n\nThe fishing boats stay tied to shore;\ntheir captains cannot see the door.\nThe seabirds wait on dripping posts\nlike rows of small, impatient ghosts.\n\nThen, slow as breath, the sun breaks through.\nThe fog pulls back. The world is new —\nthe hills unfold, the bay returns,\nand on each leaf a small sun burns.",
+      "prompt": "While the fog is thick, where do the fishing boats stay?",
+      "options": [
+        { "label": "A", "text": "far out at sea" },
+        { "label": "B", "text": "tied to the shore" },
+        { "label": "C", "text": "hidden in the bay" },
+        { "label": "D", "text": "up on the hills" },
+        { "label": "E", "text": "under the posts" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The poem says \"The fishing boats stay tied to shore\".",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "edt-y5rc1-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "Fog\n\nThe fog comes in on the morning tide,\ngrey as a gull, and just as wide.\nIt folds the hills and hides the bay,\nit swallows every path away.\n\nThe fishing boats stay tied to shore;\ntheir captains cannot see the door.\nThe seabirds wait on dripping posts\nlike rows of small, impatient ghosts.\n\nThen, slow as breath, the sun breaks through.\nThe fog pulls back. The world is new —\nthe hills unfold, the bay returns,\nand on each leaf a small sun burns.",
+      "prompt": "\"grey as a gull, and just as wide\" is an example of",
+      "options": [
+        { "label": "A", "text": "a rhyme" },
+        { "label": "B", "text": "a simile" },
+        { "label": "C", "text": "a question" },
+        { "label": "D", "text": "a command" },
+        { "label": "E", "text": "a list" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "It compares the fog to a gull using the word \"as\", which makes it a simile.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "edt-y5rc1-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "Fog\n\nThe fog comes in on the morning tide,\ngrey as a gull, and just as wide.\nIt folds the hills and hides the bay,\nit swallows every path away.\n\nThe fishing boats stay tied to shore;\ntheir captains cannot see the door.\nThe seabirds wait on dripping posts\nlike rows of small, impatient ghosts.\n\nThen, slow as breath, the sun breaks through.\nThe fog pulls back. The world is new —\nthe hills unfold, the bay returns,\nand on each leaf a small sun burns.",
+      "prompt": "The line \"it swallows every path away\" suggests that the fog",
+      "options": [
+        { "label": "A", "text": "eats the leaves on the paths" },
+        { "label": "B", "text": "makes the paths muddy and wet" },
+        { "label": "C", "text": "completely hides the paths from view" },
+        { "label": "D", "text": "creates brand new paths" },
+        { "label": "E", "text": "lifts away very quickly" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "\"Swallows every path away\" is a way of saying the paths can no longer be seen at all.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "edt-y5rc1-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Fog\n\nThe fog comes in on the morning tide,\ngrey as a gull, and just as wide.\nIt folds the hills and hides the bay,\nit swallows every path away.\n\nThe fishing boats stay tied to shore;\ntheir captains cannot see the door.\nThe seabirds wait on dripping posts\nlike rows of small, impatient ghosts.\n\nThen, slow as breath, the sun breaks through.\nThe fog pulls back. The world is new —\nthe hills unfold, the bay returns,\nand on each leaf a small sun burns.",
+      "prompt": "The seabirds are compared to \"small, impatient ghosts\" mainly to suggest that they are",
+      "options": [
+        { "label": "A", "text": "frightening to look at" },
+        { "label": "B", "text": "noisy and moving about" },
+        { "label": "C", "text": "pale, still and waiting" },
+        { "label": "D", "text": "hungry and hunting" },
+        { "label": "E", "text": "lost and far from home" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Ghosts are pale and still; \"waiting\" and \"impatient\" show the birds are sitting quietly, wanting the fog to clear.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "edt-y5rc1-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Fog\n\nThe fog comes in on the morning tide,\ngrey as a gull, and just as wide.\nIt folds the hills and hides the bay,\nit swallows every path away.\n\nThe fishing boats stay tied to shore;\ntheir captains cannot see the door.\nThe seabirds wait on dripping posts\nlike rows of small, impatient ghosts.\n\nThen, slow as breath, the sun breaks through.\nThe fog pulls back. The world is new —\nthe hills unfold, the bay returns,\nand on each leaf a small sun burns.",
+      "prompt": "When the fog lifts, the words \"The world is new\" suggest that the speaker feels",
+      "options": [
+        { "label": "A", "text": "confused about where everything is" },
+        { "label": "B", "text": "disappointed that the fog has gone" },
+        { "label": "C", "text": "refreshed, as if seeing the place for the first time" },
+        { "label": "D", "text": "bored by the same view returning" },
+        { "label": "E", "text": "afraid of the bright sunlight" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "After the grey, hidden world of the fog, everything reappearing in sunlight feels fresh and renewed to the speaker.",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y5rc1-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Fog\n\nThe fog comes in on the morning tide,\ngrey as a gull, and just as wide.\nIt folds the hills and hides the bay,\nit swallows every path away.\n\nThe fishing boats stay tied to shore;\ntheir captains cannot see the door.\nThe seabirds wait on dripping posts\nlike rows of small, impatient ghosts.\n\nThen, slow as breath, the sun breaks through.\nThe fog pulls back. The world is new —\nthe hills unfold, the bay returns,\nand on each leaf a small sun burns.",
+      "prompt": "What is the poem mainly about?",
+      "options": [
+        { "label": "A", "text": "the dangers of going fishing in bad weather" },
+        { "label": "B", "text": "the different ways that seabirds behave" },
+        { "label": "C", "text": "how fog hides a familiar place, then clears to reveal it anew" },
+        { "label": "D", "text": "the reasons the sun rises each morning" },
+        { "label": "E", "text": "a violent storm far out at sea" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The first two verses describe the fog covering everything; the last verse describes it clearing so the place returns looking fresh. That is the whole poem.",
+      "topic": "Main Idea & Purpose"
+    }
+  ]
+}

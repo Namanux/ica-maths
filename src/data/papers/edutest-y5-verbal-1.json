@@ -1,0 +1,332 @@
+{
+  "id": "edutest-y5-verbal-1",
+  "exam": "edutest",
+  "subject": "Verbal Reasoning",
+  "yearLevel": 5,
+  "paperCode": "Y5-VR-1",
+  "title": "EduTest-style Year 5 Verbal Reasoning — Practice Paper 1",
+  "year": 2026,
+  "timeLimitMinutes": 18,
+  "questions": [
+    {
+      "id": "edt-y5vr1-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Puppy is to dog as kitten is to ___",
+      "options": [
+        { "label": "A", "text": "cat" },
+        { "label": "B", "text": "pet" },
+        { "label": "C", "text": "mouse" },
+        { "label": "D", "text": "fur" },
+        { "label": "E", "text": "milk" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A puppy is a young dog, so a kitten is a young cat.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y5vr1-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Finger is to hand as toe is to ___",
+      "options": [
+        { "label": "A", "text": "leg" },
+        { "label": "B", "text": "foot" },
+        { "label": "C", "text": "nail" },
+        { "label": "D", "text": "shoe" },
+        { "label": "E", "text": "arm" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Fingers are part of a hand, so toes are part of a foot.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y5vr1-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Hot is to cold as generous is to ___",
+      "options": [
+        { "label": "A", "text": "kind" },
+        { "label": "B", "text": "mean" },
+        { "label": "C", "text": "rich" },
+        { "label": "D", "text": "warm" },
+        { "label": "E", "text": "giving" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Hot and cold are opposites. The opposite of generous is mean.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y5vr1-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Library is to books as gallery is to ___",
+      "options": [
+        { "label": "A", "text": "paintings" },
+        { "label": "B", "text": "artists" },
+        { "label": "C", "text": "visitors" },
+        { "label": "D", "text": "walls" },
+        { "label": "E", "text": "tickets" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A library is a place that holds books; a gallery is a place that holds paintings.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y5vr1-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Which word does NOT belong with the others?",
+      "options": [
+        { "label": "A", "text": "rose" },
+        { "label": "B", "text": "tulip" },
+        { "label": "C", "text": "daisy" },
+        { "label": "D", "text": "oak" },
+        { "label": "E", "text": "lily" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Rose, tulip, daisy and lily are all flowers. An oak is a tree.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y5vr1-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Which word does NOT belong with the others?",
+      "options": [
+        { "label": "A", "text": "square" },
+        { "label": "B", "text": "circle" },
+        { "label": "C", "text": "triangle" },
+        { "label": "D", "text": "rectangle" },
+        { "label": "E", "text": "cube" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Square, circle, triangle and rectangle are flat (2D) shapes. A cube is a solid (3D) shape.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y5vr1-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Which word does NOT belong with the others?",
+      "options": [
+        { "label": "A", "text": "copper" },
+        { "label": "B", "text": "iron" },
+        { "label": "C", "text": "gold" },
+        { "label": "D", "text": "plastic" },
+        { "label": "E", "text": "silver" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Copper, iron, gold and silver are all metals. Plastic is not a metal.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y5vr1-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Which word does NOT belong with the others?",
+      "options": [
+        { "label": "A", "text": "March" },
+        { "label": "B", "text": "June" },
+        { "label": "C", "text": "Monday" },
+        { "label": "D", "text": "October" },
+        { "label": "E", "text": "January" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "March, June, October and January are months. Monday is a day of the week.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y5vr1-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Which word means the OPPOSITE of \"ancient\"?",
+      "options": [
+        { "label": "A", "text": "old" },
+        { "label": "B", "text": "modern" },
+        { "label": "C", "text": "historic" },
+        { "label": "D", "text": "ruined" },
+        { "label": "E", "text": "aged" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Ancient\" means very old, so its opposite is \"modern\", meaning new or of the present time.",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y5vr1-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Which word is closest in meaning to \"rapid\"?",
+      "options": [
+        { "label": "A", "text": "slow" },
+        { "label": "B", "text": "quiet" },
+        { "label": "C", "text": "quick" },
+        { "label": "D", "text": "loud" },
+        { "label": "E", "text": "steady" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "\"Rapid\" means happening fast, which is closest to \"quick\".",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y5vr1-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Which word means about the same as \"brave\"?",
+      "options": [
+        { "label": "A", "text": "timid" },
+        { "label": "B", "text": "courageous" },
+        { "label": "C", "text": "careful" },
+        { "label": "D", "text": "foolish" },
+        { "label": "E", "text": "calm" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Brave\" and \"courageous\" both describe someone who faces danger or difficulty without fear.",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y5vr1-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "\"Reluctant\" most nearly means ___",
+      "options": [
+        { "label": "A", "text": "eager" },
+        { "label": "B", "text": "unwilling" },
+        { "label": "C", "text": "tired" },
+        { "label": "D", "text": "confused" },
+        { "label": "E", "text": "ready" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Someone who is reluctant does not want to do something, so \"reluctant\" means \"unwilling\".",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y5vr1-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Which letter comes next in this series?\nA, C, E, G, ___",
+      "options": [
+        { "label": "A", "text": "F" },
+        { "label": "B", "text": "H" },
+        { "label": "C", "text": "I" },
+        { "label": "D", "text": "J" },
+        { "label": "E", "text": "K" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The series skips one letter each time (A, _, C, _, E, _, G, _). After G, skipping H, comes I.",
+      "topic": "Letters, Codes & Series"
+    },
+    {
+      "id": "edt-y5vr1-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "If CAT is written in code as DBU, how is DOG written in the same code?",
+      "options": [
+        { "label": "A", "text": "EPH" },
+        { "label": "B", "text": "CPF" },
+        { "label": "C", "text": "EOH" },
+        { "label": "D", "text": "EPG" },
+        { "label": "E", "text": "FPH" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Each letter moves one place forward in the alphabet: C→D, A→B, T→U. So D→E, O→P, G→H gives EPH.",
+      "topic": "Letters, Codes & Series"
+    },
+    {
+      "id": "edt-y5vr1-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Which letter comes next in this series?\nZ, X, V, T, ___",
+      "options": [
+        { "label": "A", "text": "S" },
+        { "label": "B", "text": "R" },
+        { "label": "C", "text": "U" },
+        { "label": "D", "text": "Q" },
+        { "label": "E", "text": "P" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The series goes backwards through the alphabet, skipping one letter each time: Z, (Y), X, (W), V, (U), T, (S), R.",
+      "topic": "Letters, Codes & Series"
+    },
+    {
+      "id": "edt-y5vr1-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "In a code, MONDAY is written as NPOEBZ. How is FRIDAY written in the same code?",
+      "options": [
+        { "label": "A", "text": "GSJEBZ" },
+        { "label": "B", "text": "GSHEBX" },
+        { "label": "C", "text": "ESJEBZ" },
+        { "label": "D", "text": "GSJDBZ" },
+        { "label": "E", "text": "GSJECZ" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Each letter moves one place forward: M→N, O→P, N→O, D→E, A→B, Y→Z. Doing the same to FRIDAY gives G, S, J, E, B, Z.",
+      "topic": "Letters, Codes & Series"
+    },
+    {
+      "id": "edt-y5vr1-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Maya is older than Leo but younger than Kim. Who is the oldest?",
+      "options": [
+        { "label": "A", "text": "Maya" },
+        { "label": "B", "text": "Leo" },
+        { "label": "C", "text": "Kim" },
+        { "label": "D", "text": "They are all the same age" },
+        { "label": "E", "text": "It cannot be worked out" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Maya is younger than Kim, and Leo is younger than Maya. So Kim is the oldest.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y5vr1-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "In a race, Priya finished before Quinn. Quinn finished before Raj. Sara finished after Raj. Of these four runners, who finished last?",
+      "options": [
+        { "label": "A", "text": "Priya" },
+        { "label": "B", "text": "Quinn" },
+        { "label": "C", "text": "Raj" },
+        { "label": "D", "text": "Sara" },
+        { "label": "E", "text": "It cannot be worked out" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The order is Priya, Quinn, Raj, then Sara after Raj. Sara finished last.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y5vr1-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "All Zibs are Zabs. No Zabs are Zubs. Can a Zib be a Zub?",
+      "options": [
+        { "label": "A", "text": "Yes, always" },
+        { "label": "B", "text": "Yes, sometimes" },
+        { "label": "C", "text": "No, never" },
+        { "label": "D", "text": "Only if it is also a Zab" },
+        { "label": "E", "text": "It cannot be worked out" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Every Zib is a Zab, and no Zab is a Zub. So no Zib can be a Zub.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y5vr1-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "Three children stand in a line. Rob is shorter than Tom. Sam is shorter than Rob. Who is the tallest?",
+      "options": [
+        { "label": "A", "text": "Tom" },
+        { "label": "B", "text": "Rob" },
+        { "label": "C", "text": "Sam" },
+        { "label": "D", "text": "They are all the same height" },
+        { "label": "E", "text": "It cannot be worked out" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Sam is shorter than Rob, and Rob is shorter than Tom. So Tom is the tallest.",
+      "topic": "Logical Deduction"
+    }
+  ]
+}

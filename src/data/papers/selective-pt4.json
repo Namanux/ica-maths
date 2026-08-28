@@ -1,0 +1,1197 @@
+{
+  "id": "selective-pt4",
+  "exam": "selective-test",
+  "subject": "Mathematical Reasoning",
+  "yearLevel": 6,
+  "paperCode": "PT4",
+  "title": "NSW Selective - Mathematical Reasoning Practice Test 4",
+  "year": 2024,
+  "timeLimitMinutes": 40,
+  "questions": [
+    {
+      "id": "sel-pt4-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Here are the costs for a car park. Coen arrives at the car park at 3 pm and leaves at 9 pm on the same day. How much does he pay for parking?",
+      "table": {
+        "headers": [
+          "time",
+          "cost"
+        ],
+        "rows": [
+          [
+            "Between 0800 and 1700",
+            "$2.25 per hour"
+          ],
+          [
+            "Between 1700 and 2300",
+            "$1.00 per hour"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "$6.50"
+        },
+        {
+          "label": "B",
+          "text": "$8.50"
+        },
+        {
+          "label": "C",
+          "text": "$11.00"
+        },
+        {
+          "label": "D",
+          "text": "$13.00"
+        },
+        {
+          "label": "E",
+          "text": "$13.50"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "From 3 pm to 5 pm is 2 hours at $2.25 = $4.50. From 5 pm to 9 pm is 4 hours at $1.00 = $4.00. Total $8.50.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "A student is trying to measure the acute angle between two lines. They place a protractor over the lines as shown. What is the size of this angle, in degrees?",
+      "imageUrl": "/questions/selective-pt4/q2.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "66"
+        },
+        {
+          "label": "B",
+          "text": "79"
+        },
+        {
+          "label": "C",
+          "text": "81"
+        },
+        {
+          "label": "D",
+          "text": "87"
+        },
+        {
+          "label": "E",
+          "text": "93"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "One line crosses the scale at 118 degrees and the other at 37 degrees, so the angle between them is 118 - 37 = 81 degrees.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "What is the answer to the calculation below?  1/2 + 1/2 + 1/3 + 1/3 + 1/3 + 2/4 + 3/4",
+      "options": [
+        {
+          "label": "A",
+          "text": "10/9"
+        },
+        {
+          "label": "B",
+          "text": "10/21"
+        },
+        {
+          "label": "C",
+          "text": "2 1/4"
+        },
+        {
+          "label": "D",
+          "text": "2 5/8"
+        },
+        {
+          "label": "E",
+          "text": "3 1/4"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "1/2 + 1/2 = 1, and 1/3 + 1/3 + 1/3 = 1, and 2/4 + 3/4 = 1 1/4. Total = 3 1/4.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "92 people are going on a trip. First they will fill two large minibuses, each with space for 17 people. The rest of the people will travel in small minibuses, each with space for 8 people. How many minibuses do they need in total?",
+      "options": [
+        {
+          "label": "A",
+          "text": "7"
+        },
+        {
+          "label": "B",
+          "text": "8"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "11"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Two large minibuses carry 34 people, leaving 58. 58 people need 8 small minibuses (7 full plus 1 with 2 people). Total 2 + 8 = 10.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Which of the following calculations has the largest answer?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1 x 0.5"
+        },
+        {
+          "label": "B",
+          "text": "10 x 0.0127"
+        },
+        {
+          "label": "C",
+          "text": "10 x 0.052"
+        },
+        {
+          "label": "D",
+          "text": "100 x 0.0039"
+        },
+        {
+          "label": "E",
+          "text": "100 x 0.00074"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The values are 0.5, 0.127, 0.52, 0.39 and 0.074. The largest is 10 x 0.052 = 0.52.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Here is a number sentence:  456 + 456 + 456 = 6 x (a number).  What number goes in the box?",
+      "options": [
+        {
+          "label": "A",
+          "text": "223"
+        },
+        {
+          "label": "B",
+          "text": "228"
+        },
+        {
+          "label": "C",
+          "text": "912"
+        },
+        {
+          "label": "D",
+          "text": "4103"
+        },
+        {
+          "label": "E",
+          "text": "8208"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "456 + 456 + 456 = 1368, and 1368 / 6 = 228.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "On Monday, Monique had some money. On Tuesday she spent 4/5 of the money. After that she had $80 left. How much money did Monique have on Monday?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$20"
+        },
+        {
+          "label": "B",
+          "text": "$64"
+        },
+        {
+          "label": "C",
+          "text": "$100"
+        },
+        {
+          "label": "D",
+          "text": "$320"
+        },
+        {
+          "label": "E",
+          "text": "$400"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "The $80 left is 1/5 of the money, so Monique started with 5 x $80 = $400.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Here are the masses of five objects:  14 kg,  35 g,  0.3 kg,  25 g,  2.5 kg.  When the objects are placed in order from lightest to heaviest, what is the mass of the middle object?",
+      "options": [
+        {
+          "label": "A",
+          "text": "14 kg"
+        },
+        {
+          "label": "B",
+          "text": "35 g"
+        },
+        {
+          "label": "C",
+          "text": "0.3 kg"
+        },
+        {
+          "label": "D",
+          "text": "25 g"
+        },
+        {
+          "label": "E",
+          "text": "2.5 kg"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In grams the masses are 14000, 35, 300, 25 and 2500. In order: 25 g, 35 g, 0.3 kg, 2.5 kg, 14 kg. The middle one is 0.3 kg.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "The table shows the three types of vegetable in my garden and the months when I plant the seeds and pick the vegetables. Which of these statements is/are correct?  1. There are 7 months when I can pick both beetroot and eggplant.  2. There is only 1 month of the year when I cannot plant any of these vegetables.  3. If it is a month when I can plant beetroot, I can also plant carrots.",
+      "imageUrl": "/questions/selective-pt4/q9.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "none of them"
+        },
+        {
+          "label": "B",
+          "text": "statement 1 only"
+        },
+        {
+          "label": "C",
+          "text": "statement 3 only"
+        },
+        {
+          "label": "D",
+          "text": "statements 1 and 2 only"
+        },
+        {
+          "label": "E",
+          "text": "statements 2 and 3 only"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Beetroot and eggplant can both be picked only in February, March and April (3 months), so statement 1 is wrong. No vegetable can be planted in February to June (5 months), so statement 2 is wrong. Beetroot is planted in January, October, November and December, and carrots can be planted in all of those months, so statement 3 is correct.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt4-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Yesterday, Lan, Marco and Niki had 26 marbles in total. Lan and Marco had 20 marbles in total. Today, Marco gave 5 of his marbles to Niki. Now Marco and Niki both have the same number of marbles. How many marbles do Lan and Niki have in total now?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "17"
+        },
+        {
+          "label": "C",
+          "text": "19"
+        },
+        {
+          "label": "D",
+          "text": "20"
+        },
+        {
+          "label": "E",
+          "text": "25"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Niki started with 26 - 20 = 6 marbles, so after receiving 5 she has 11. Marco now has 11 too, so before giving them away he had 16, which means Lan had 20 - 16 = 4. Lan and Niki now have 4 + 11 = 15.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "In a video game, players collect coins. Kira scores 8 points for the first coin she collects. Then she scores 3 points for each coin she collects after that. She wants to score at least 120 points altogether. What is the smallest number of coins Kira must collect?",
+      "options": [
+        {
+          "label": "A",
+          "text": "15"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "37"
+        },
+        {
+          "label": "D",
+          "text": "38"
+        },
+        {
+          "label": "E",
+          "text": "39"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "After the first coin she has 8 points and needs 112 more. 112 / 3 is 37 remainder 1, so she needs 38 more coins, giving 1 + 38 = 39 coins in total (8 + 38 x 3 = 122 points).",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Five children take it in turn to do a balancing challenge, each completing it once. The first child balances for 12 minutes. After that, each child balances for half as long as the previous child. What is the total time the five children are balancing?",
+      "options": [
+        {
+          "label": "A",
+          "text": "21 minutes 30 seconds"
+        },
+        {
+          "label": "B",
+          "text": "22 minutes 15 seconds"
+        },
+        {
+          "label": "C",
+          "text": "22 minutes 30 seconds"
+        },
+        {
+          "label": "D",
+          "text": "23 minutes 15 seconds"
+        },
+        {
+          "label": "E",
+          "text": "23 minutes 45 seconds"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The times are 12, 6, 3, 1 1/2 and 3/4 minutes. The total is 23 1/4 minutes = 23 minutes 15 seconds.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Jonas writes each letter of the word CHEESE on a card (C, H, E, E, S, E). Keeva writes each letter of the word BEES on a card (B, E, E, S). Jonas and Keeva each pick one of their own cards at random. Which of these statements is/are correct?  1. The probability that Jonas will pick the letter C is 1/4.  2. The probability that Jonas will pick the letter S is the same as the probability that Keeva will pick the letter S.  3. It is more likely that Jonas will pick a letter E than Keeva will pick a letter E.",
+      "options": [
+        {
+          "label": "A",
+          "text": "none of them"
+        },
+        {
+          "label": "B",
+          "text": "statement 1 only"
+        },
+        {
+          "label": "C",
+          "text": "statement 2 only"
+        },
+        {
+          "label": "D",
+          "text": "statement 3 only"
+        },
+        {
+          "label": "E",
+          "text": "statements 2 and 3 only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Jonas has 6 cards: P(C) = 1/6, not 1/4 (statement 1 wrong). P(Jonas picks S) = 1/6 but P(Keeva picks S) = 1/4, not equal (statement 2 wrong). P(Jonas picks E) = 3/6 = 1/2 and P(Keeva picks E) = 2/4 = 1/2, equally likely (statement 3 wrong).",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt4-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Valerie says: \"I think of my favourite number, which is between 0 and 100. Then I subtract a multiple of 7 that is greater than zero. I get the answer 59.\" Stan wants to guess Valerie's favourite number and realises there is more than one possibility. How many possibilities are there?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        },
+        {
+          "label": "E",
+          "text": "8"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The favourite number is 59 plus a positive multiple of 7: 66, 73, 80, 87 or 94. (59 + 7 x 6 = 101 is more than 100.) So there are 5 possibilities.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Hal, Irene and Khaled decide to share 4 packets of stickers. In each packet there are 6 stickers. First, Hal takes 4/6 of the stickers from each of 3 packets. Then Irene and Khaled share all the remaining stickers. After this, Khaled has twice as many stickers as Irene. How many stickers does Irene have?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        },
+        {
+          "label": "E",
+          "text": "11"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "There are 24 stickers in total. Hal takes 4/6 of 6 from each of 3 packets = 4 x 3 = 12 stickers, leaving 12. Irene and Khaled share 12 in the ratio 1 : 2, so Irene gets 4.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Three identical rods are each 12 metres long. They are tied together with their ends overlapping, as shown. The whole arrangement is 26 metres long and the left-hand overlap is 2 metres. On the diagram, the triangle marks a distance. What distance does the triangle represent?",
+      "imageUrl": "/questions/selective-pt4/q16.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "3 m"
+        },
+        {
+          "label": "B",
+          "text": "4 m"
+        },
+        {
+          "label": "C",
+          "text": "6 m"
+        },
+        {
+          "label": "D",
+          "text": "7 m"
+        },
+        {
+          "label": "E",
+          "text": "8 m"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Three 12 m rods have 36 m of material in a span of 26 m, so the overlaps total 10 m. One overlap is 2 m, so the other (marked by the triangle) is 8 m.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Ishaan will choose a whole number that rounds to 800 to the nearest hundred. Jesse will choose a whole number that rounds to 1000 to the nearest hundred. What is the largest possible difference between Ishaan's number and Jesse's number?",
+      "options": [
+        {
+          "label": "A",
+          "text": "101"
+        },
+        {
+          "label": "B",
+          "text": "200"
+        },
+        {
+          "label": "C",
+          "text": "299"
+        },
+        {
+          "label": "D",
+          "text": "400"
+        },
+        {
+          "label": "E",
+          "text": "749"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Ishaan's number can be as small as 750 and Jesse's as large as 1049, so the largest difference is 1049 - 750 = 299.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "Nidhi and Chris each choose outfits by picking a T-shirt and a skirt. Nidhi has 3 T-shirts and some skirts. She can choose 24 different outfits. Chris has the same number of skirts as Nidhi. She also has 2 T-shirts. How many different outfits can Chris choose?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "16"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "23"
+        },
+        {
+          "label": "E",
+          "text": "25"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Nidhi has 24 / 3 = 8 skirts. Chris has 8 skirts and 2 T-shirts, so she can choose 8 x 2 = 16 outfits.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt4-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "The shape below is made up of identical equilateral triangles. Each equilateral triangle has a perimeter of 6 centimetres. What is the perimeter of the shape?",
+      "imageUrl": "/questions/selective-pt4/q19.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "22 cm"
+        },
+        {
+          "label": "B",
+          "text": "33 cm"
+        },
+        {
+          "label": "C",
+          "text": "38 cm"
+        },
+        {
+          "label": "D",
+          "text": "54 cm"
+        },
+        {
+          "label": "E",
+          "text": "66 cm"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Each triangle has sides of 2 cm. A strip of 9 triangles has 11 sides on its boundary, so the perimeter is 11 x 2 = 22 cm.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "A robot climbs all the way up and down a ladder repeatedly, without stopping. It takes the robot 10 seconds to go up and 8 seconds to come down each time. The robot starts at the bottom of the ladder each time. How many times will the robot reach the top of the ladder in the next 2 minutes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "11"
+        },
+        {
+          "label": "D",
+          "text": "12"
+        },
+        {
+          "label": "E",
+          "text": "13"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "One up-and-down trip takes 18 seconds and the robot reaches the top 10 seconds into each trip: at 10, 28, 46, 64, 82, 100 and 118 seconds. That is 7 times in 120 seconds.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "Michael has five straws with lengths 2 cm, 5 cm, 8 cm, 11 cm and 14 cm. He wants to choose three of the straws so that their lengths add up to an odd number of centimetres. In how many different ways can Michael do this?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "9"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "An odd total needs one odd straw and two even straws (there are only two odd straws, so three odds is impossible). Choose 1 of the 2 odd straws and 2 of the 3 even straws: 2 x 3 = 6 ways.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt4-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "Here are three shapes made of shaded squares on a 4 by 4 grid. Which of these shapes have/has rotational symmetry?",
+      "imageUrl": "/questions/selective-pt4/q22.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "shape 1 only"
+        },
+        {
+          "label": "B",
+          "text": "shape 2 only"
+        },
+        {
+          "label": "C",
+          "text": "shape 3 only"
+        },
+        {
+          "label": "D",
+          "text": "shapes 1 and 2 only"
+        },
+        {
+          "label": "E",
+          "text": "shapes 2 and 3 only"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Only shape 2 looks exactly the same after being turned half a turn (180 degrees).",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "Shireen asks some people how many pets they own. The table shows her results. What is the total number of pets owned by all these people?",
+      "table": {
+        "headers": [
+          "number of pets",
+          "number of people"
+        ],
+        "rows": [
+          [
+            "0",
+            "7"
+          ],
+          [
+            "1",
+            "12"
+          ],
+          [
+            "2",
+            "6"
+          ],
+          [
+            "3",
+            "9"
+          ],
+          [
+            "4",
+            "5"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "10"
+        },
+        {
+          "label": "B",
+          "text": "39"
+        },
+        {
+          "label": "C",
+          "text": "49"
+        },
+        {
+          "label": "D",
+          "text": "71"
+        },
+        {
+          "label": "E",
+          "text": "78"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "0 x 7 + 1 x 12 + 2 x 6 + 3 x 9 + 4 x 5 = 0 + 12 + 12 + 27 + 20 = 71.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt4-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "Jemima shades 4 squares on a square grid, as shown. Now Nate wants to shade some more squares so that the grid has exactly two lines of symmetry. What is the smallest number of squares Nate needs to shade?",
+      "imageUrl": "/questions/selective-pt4/q24.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        },
+        {
+          "label": "E",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "For a horizontal and a vertical line of symmetry, each shaded square must be matched by three others. Completing the sets started by the four shaded squares needs 2 + 3 + 3 = 8 more squares.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "Kingsley has a regular hexagon with an area of 48 square centimetres. He draws two dashed straight lines joining opposite corners of the hexagon, then cuts along the dashed lines to make four shapes. He joins 3 of the shapes to make a parallelogram, with no overlaps. What is the area of the parallelogram?",
+      "imageUrl": "/questions/selective-pt4/q25.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "24 cm2"
+        },
+        {
+          "label": "B",
+          "text": "28 cm2"
+        },
+        {
+          "label": "C",
+          "text": "32 cm2"
+        },
+        {
+          "label": "D",
+          "text": "36 cm2"
+        },
+        {
+          "label": "E",
+          "text": "40 cm2"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The two diagonals split the hexagon into a top piece and a bottom piece (16 cm2 each) and a left and a right triangle (8 cm2 each). Three of these four pieces form the parallelogram, leaving one 16 cm2 piece out: 48 - 16 = 32 cm2.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "Prem has a 3D object. All of its edges are the same length, and each edge is a whole number of centimetres long. The total length of all the edges is 48 cm. Which of the following is/are possibilities for Prem's object:  a triangular prism, a square pyramid, a triangular pyramid?",
+      "options": [
+        {
+          "label": "A",
+          "text": "none of them"
+        },
+        {
+          "label": "B",
+          "text": "triangular prism only"
+        },
+        {
+          "label": "C",
+          "text": "square pyramid and triangular pyramid only"
+        },
+        {
+          "label": "D",
+          "text": "triangular prism and triangular pyramid only"
+        },
+        {
+          "label": "E",
+          "text": "triangular prism, square pyramid and triangular pyramid"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A triangular prism has 9 edges (48 / 9 is not a whole number). A square pyramid has 8 edges (48 / 8 = 6 cm). A triangular pyramid has 6 edges (48 / 6 = 8 cm). So the square pyramid and the triangular pyramid are possible.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "The first three numbers in a number pattern are 16, 20, 24, ...  The last number is 404. How many numbers are in this number pattern?",
+      "options": [
+        {
+          "label": "A",
+          "text": "92"
+        },
+        {
+          "label": "B",
+          "text": "93"
+        },
+        {
+          "label": "C",
+          "text": "97"
+        },
+        {
+          "label": "D",
+          "text": "98"
+        },
+        {
+          "label": "E",
+          "text": "101"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The pattern goes up by 4 each time. (404 - 16) / 4 = 97, so there are 97 + 1 = 98 numbers.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "Milly goes swimming every 3rd day; her first two swimming days are 1st and 4th January. Konol goes swimming every 2nd day; his first two swimming days are 1st and 3rd January. They both go swimming on 1st January, which is a Monday. What is the date of the next Monday when they both go swimming?",
+      "imageUrl": "/questions/selective-pt4/q28.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "15th January"
+        },
+        {
+          "label": "B",
+          "text": "22nd January"
+        },
+        {
+          "label": "C",
+          "text": "29th January"
+        },
+        {
+          "label": "D",
+          "text": "5th February"
+        },
+        {
+          "label": "E",
+          "text": "12th February"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "They both swim on days that are 1 more than a multiple of 3 and also odd, i.e. days 1, 7, 13, 19, ... (one more than a multiple of 6). The Mondays are days 1, 8, 15, 22, 29, 36, 43, ... The first of these after day 1 that fits is day 43, which is 12th February.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "A large rectangle is divided into four smaller rectangles, as shown. The whole rectangle is 15 cm wide. The unshaded rectangles have areas 84 cm2, 40 cm2 and 20 cm2, and the bottom row of rectangles is 5 cm tall. What is the area of the shaded rectangle?",
+      "imageUrl": "/questions/selective-pt4/q29.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "15 cm2"
+        },
+        {
+          "label": "B",
+          "text": "21 cm2"
+        },
+        {
+          "label": "C",
+          "text": "30 cm2"
+        },
+        {
+          "label": "D",
+          "text": "36 cm2"
+        },
+        {
+          "label": "E",
+          "text": "48 cm2"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The 40 cm2 and 20 cm2 rectangles are 5 cm tall, so they are 8 cm and 4 cm wide, a total of 12 cm. The 84 cm2 rectangle is also 12 cm wide, so it is 7 cm tall, making the whole rectangle 12 cm tall. The shaded strip is 15 - 12 = 3 cm wide and 12 cm tall: area 36 cm2.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "Elias thinks of an even number. When he divides his number by 2 and then rounds the result to the nearest 10, he gets 50. He then works out the sum of the digits of his number. What is the largest possible value of this digit sum?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "9"
+        },
+        {
+          "label": "C",
+          "text": "13"
+        },
+        {
+          "label": "D",
+          "text": "17"
+        },
+        {
+          "label": "E",
+          "text": "18"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Half the number rounds to 50, so half the number is between 45 and 55, meaning the number is an even number from 90 to 108. The largest digit sum among these is 9 + 8 = 17 (from 98).",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt4-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "The net below is folded to form a cube. Which of the following statements about the cube is/are correct?  1. The faces labelled Q and T meet at one edge and two vertices.  2. The faces labelled P and U are opposite each other.  3. There is a vertex where the faces labelled P, R and U all meet.",
+      "imageUrl": "/questions/selective-pt4/q31.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "statement 1 only"
+        },
+        {
+          "label": "B",
+          "text": "statement 2 only"
+        },
+        {
+          "label": "C",
+          "text": "statements 1 and 2 only"
+        },
+        {
+          "label": "D",
+          "text": "statements 1 and 3 only"
+        },
+        {
+          "label": "E",
+          "text": "statements 2 and 3 only"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "When folded, the opposite pairs of faces are P and R, Q and S, and T and U. Q and T are next to each other, so they meet along one edge with two vertices (statement 1 correct). P is opposite R, not U (statement 2 wrong). P and R are opposite faces, so they share no vertex (statement 3 wrong).",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "The table shows the numbers of goals Desmond's soccer team scored in the past 3 years. Desmond wants to make a picture graph using only whole soccer balls and half soccer balls. Which of these keys is/are possible for Desmond to use?  Key 1: a whole ball represents 8 goals.  Key 2: a whole ball represents 12 goals.  Key 3: a whole ball represents 16 goals.",
+      "table": {
+        "headers": [
+          "year",
+          "number of goals"
+        ],
+        "rows": [
+          [
+            "2023",
+            "64"
+          ],
+          [
+            "2024",
+            "56"
+          ],
+          [
+            "2025",
+            "48"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "key 1 only"
+        },
+        {
+          "label": "B",
+          "text": "key 2 only"
+        },
+        {
+          "label": "C",
+          "text": "key 3 only"
+        },
+        {
+          "label": "D",
+          "text": "keys 1 and 2 only"
+        },
+        {
+          "label": "E",
+          "text": "keys 1 and 3 only"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Key 1: 64, 56 and 48 are all multiples of 8, so it works. Key 2: 56 = 4 x 12 + 8, and 8 is not 0 or half of 12, so it fails. Key 3: 64 = 4 x 16, 56 = 3 x 16 + 8 (a half ball) and 48 = 3 x 16, so it works.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt4-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "Elin has a measuring jug containing some water. She also has some identical blocks and some identical spheres, which sink. She puts some of the objects in the jug and records the water level. What is the level of the water when 1 block and 1 sphere are under the water?",
+      "table": {
+        "headers": [
+          "objects under the water",
+          "level of water in the jug"
+        ],
+        "rows": [
+          [
+            "2 blocks",
+            "54 mL"
+          ],
+          [
+            "1 block and 3 spheres",
+            "54 mL"
+          ],
+          [
+            "3 blocks and 3 spheres",
+            "66 mL"
+          ],
+          [
+            "1 block and 1 sphere",
+            "?"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "22 mL"
+        },
+        {
+          "label": "B",
+          "text": "36 mL"
+        },
+        {
+          "label": "C",
+          "text": "50 mL"
+        },
+        {
+          "label": "D",
+          "text": "51 mL"
+        },
+        {
+          "label": "E",
+          "text": "66 mL"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "From '2 blocks -> 54 mL' and '3 blocks and 3 spheres -> 66 mL' minus '1 block and 3 spheres -> 54 mL', two blocks add 12 mL, so a block is 6 mL and the water alone is 42 mL. Then a sphere is 2 mL. 1 block and 1 sphere give 42 + 6 + 2 = 50 mL.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "The diagram shows a shape on the number plane, with two vertices labelled P and Q. The shape is rotated a quarter-turn anti-clockwise, and then the rotated shape is translated. After this, the new coordinates of vertex P are (6, 3). What are the new coordinates of vertex Q?",
+      "imageUrl": "/questions/selective-pt4/q34.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "(4, 2)"
+        },
+        {
+          "label": "B",
+          "text": "(5, 1)"
+        },
+        {
+          "label": "C",
+          "text": "(5, 5)"
+        },
+        {
+          "label": "D",
+          "text": "(8, 2)"
+        },
+        {
+          "label": "E",
+          "text": "(8, 4)"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "P is at (2, 1) and Q at (1, 3), so the step from P to Q is (-1, 2). A quarter-turn anti-clockwise turns this step into (-2, -1). Adding it to the new P (6, 3) gives Q at (4, 2).",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt4-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "Below are four sets of scales. Objects that are the same shape always have the same mass. What is the total mass of the objects on the fourth scale (a star, a square and a star)?",
+      "imageUrl": "/questions/selective-pt4/q35.jpg",
+      "options": [
+        {
+          "label": "A",
+          "text": "13 kg"
+        },
+        {
+          "label": "B",
+          "text": "35 kg"
+        },
+        {
+          "label": "C",
+          "text": "36 kg"
+        },
+        {
+          "label": "D",
+          "text": "39 kg"
+        },
+        {
+          "label": "E",
+          "text": "45 kg"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Let the triangle, square and star masses be t, q and s. t + q + s = 32, t + 2q = 29 and 2t + s = 22 give q = 13, t = 3 and s = 16. The fourth scale holds 2s + q = 32 + 13 = 45 kg.",
+      "topic": "Number and algebra"
+    }
+  ]
+}

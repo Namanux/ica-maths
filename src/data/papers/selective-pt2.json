@@ -1,0 +1,490 @@
+{
+  "id": "selective-pt2",
+  "exam": "selective-test",
+  "subject": "Mathematical Reasoning",
+  "yearLevel": 6,
+  "paperCode": "PT2",
+  "title": "NSW Selective — Mathematical Reasoning Practice Test 2",
+  "year": 2024,
+  "timeLimitMinutes": 40,
+  "questions": [
+    {
+      "id": "sel-pt2-q1",
+      "number": 1,
+      "type": "free_response",
+      "prompt": "Four of the numbers on the cards have the same remainder when divided by 5. Which number has a different remainder?",
+      "imageUrl": "/questions/selective-pt2/q1.jpg",
+      "correctAnswer": "119",
+      "acceptedAnswers": [
+        "119"
+      ],
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q2",
+      "number": 2,
+      "type": "free_response",
+      "prompt": "What is the value of the missing number ▲ in this number pattern?  2, 6, ▲, 54, 162, …",
+      "correctAnswer": "18",
+      "acceptedAnswers": [
+        "18"
+      ],
+      "explanation": "Each term is 3 times the previous term: 2, 6, 18, 54, 162.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q3",
+      "number": 3,
+      "type": "free_response",
+      "prompt": "Bob is measuring the obtuse angle between the two straight sides of the blue shape. He places a protractor over the angle like this. What is the size of this angle?",
+      "imageUrl": "/questions/selective-pt2/q3.jpg",
+      "correctAnswer": "150°",
+      "acceptedAnswers": [
+        "150°",
+        "150",
+        "150 degrees"
+      ],
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q4",
+      "number": 4,
+      "type": "free_response",
+      "prompt": "Jason has 3 different pairs of trousers and 4 different shirts. Emily has 2 different pairs of trousers and 5 different shirts. Each person can make an outfit by choosing 1 pair of trousers and 1 shirt. Who has a larger number of possible outfits, and by how many?",
+      "correctAnswer": "Jason has 2 more outfits than Emily",
+      "acceptedAnswers": [
+        "Jason has 2 more outfits than Emily",
+        "Jason, by 2",
+        "Jason by 2",
+        "Jason has 2 more"
+      ],
+      "explanation": "Jason: 3 × 4 = 12 outfits. Emily: 2 × 5 = 10 outfits. Jason has 2 more.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt2-q5",
+      "number": 5,
+      "type": "free_response",
+      "prompt": "Container X has 1 litre 75 millilitres of water. Container Y has 3 litres 45 millilitres of water. Container Z has 1250 millilitres of water. If the water from all three containers is combined, what will its volume be, in litres (L) and millilitres (mL)?",
+      "correctAnswer": "5 L 370 mL",
+      "acceptedAnswers": [
+        "5 L 370 mL",
+        "5L 370mL",
+        "5 l 370 ml",
+        "5370 mL",
+        "5370 ml"
+      ],
+      "explanation": "1075 + 3045 + 1250 = 5370 mL = 5 L 370 mL.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q6",
+      "number": 6,
+      "type": "free_response",
+      "prompt": "Here are some number cards: 0.5, 0.6, 0.7, 0.65, 0.75, 0.56, 0.76, 0.57, 0.67. Mia arranges all the cards in a line, so that the numbers increase from left to right. Which number is on the middle card?",
+      "imageUrl": "/questions/selective-pt2/q6.jpg",
+      "correctAnswer": "0.65",
+      "acceptedAnswers": [
+        "0.65",
+        ".65"
+      ],
+      "explanation": "In order: 0.5, 0.56, 0.57, 0.6, 0.65, 0.67, 0.7, 0.75, 0.76. The 5th of 9 is 0.65.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q7",
+      "number": 7,
+      "type": "free_response",
+      "prompt": "Amrita has a bag of 36 marbles. Some are blue, some are red and the rest are yellow. There are 16 blue marbles in the bag. If she takes out a marble without looking, the probability that it is red is ½. How many yellow marbles are in the bag?",
+      "correctAnswer": "2",
+      "acceptedAnswers": [
+        "2"
+      ],
+      "explanation": "Red = ½ × 36 = 18. Yellow = 36 − 16 − 18 = 2.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt2-q8",
+      "number": 8,
+      "type": "free_response",
+      "prompt": "Bryony draws two right-angled isosceles triangles on the playground to make a parallelogram. She labels the corners J, K, L and M. The direction of north is shown. Bryony walks along the sides of the parallelogram, from J to K to L to M. Starting from J, which order of compass directions does she follow?",
+      "imageUrl": "/questions/selective-pt2/q8.jpg",
+      "correctAnswer": "SE, then E, then NW",
+      "acceptedAnswers": [
+        "SE, then E, then NW",
+        "SE then E then NW",
+        "south-east, east, north-west"
+      ],
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q9",
+      "number": 9,
+      "type": "free_response",
+      "prompt": "Which of these statements is/are correct? Statement X: one fraction is more than another fraction. Statement Y: one fraction is less than another fraction. Statement Z: one fraction is more than another fraction. (The specific fractions were not captured in the source.)",
+      "correctAnswer": "Statements X and Z only",
+      "acceptedAnswers": [
+        "Statements X and Z only",
+        "X and Z only",
+        "X and Z"
+      ],
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q10",
+      "number": 10,
+      "type": "free_response",
+      "prompt": "Here are 5 different nets. Which of the nets can be folded to make the triangular prism shown?",
+      "imageUrl": "/questions/selective-pt2/q10.jpg",
+      "correctAnswer": "Nets 2 and 4 only",
+      "acceptedAnswers": [
+        "Nets 2 and 4 only",
+        "2 and 4",
+        "nets 2 and 4"
+      ],
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q11",
+      "number": 11,
+      "type": "free_response",
+      "prompt": "The perimeter of a square is 32 cm. The square is cut into four smaller squares, as shown in the diagram. What is the perimeter of one of these pieces?",
+      "imageUrl": "/questions/selective-pt2/q11.jpg",
+      "correctAnswer": "16 cm",
+      "acceptedAnswers": [
+        "16 cm",
+        "16",
+        "16cm"
+      ],
+      "explanation": "The large square has side 8 cm, so each small square has side 4 cm and perimeter 16 cm.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q12",
+      "number": 12,
+      "type": "free_response",
+      "prompt": "When an even number is divided by 8, what are all of the possible remainders?",
+      "correctAnswer": "2, 4, 6",
+      "acceptedAnswers": [
+        "2, 4, 6",
+        "2,4,6",
+        "2 4 6",
+        "0, 2, 4, 6",
+        "0,2,4,6"
+      ],
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q13",
+      "number": 13,
+      "type": "free_response",
+      "prompt": "The time in Auckland is 13 hours ahead of the time in London. The time in Calgary is 7 hours behind the time in London. When it is 5 pm in Calgary, what time is it in Auckland?",
+      "correctAnswer": "1 pm",
+      "acceptedAnswers": [
+        "1 pm",
+        "1:00 pm",
+        "1pm",
+        "1:00pm",
+        "13:00"
+      ],
+      "explanation": "Calgary 5 pm → London midnight → Auckland 1 pm (next day).",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q14",
+      "number": 14,
+      "type": "free_response",
+      "prompt": "Four old units for capacity are: gill, pint, quart and peck. 4 gills equal 1 pint. 1 pint equals half a quart. 8 quarts equal 1 peck. How many gills equal 1 peck?",
+      "correctAnswer": "64",
+      "acceptedAnswers": [
+        "64"
+      ],
+      "explanation": "1 quart = 2 pints = 8 gills. 1 peck = 8 quarts = 64 gills.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q15",
+      "number": 15,
+      "type": "free_response",
+      "prompt": "A store sells oranges for $3.49 per kg. Sam buys 0.8 kg. How much does he pay (rounded to the nearest cent)?",
+      "correctAnswer": "$1.79",
+      "acceptedAnswers": [
+        "$1.79",
+        "1.79"
+      ],
+      "explanation": "Reconstructed from practice-test notes — verify wording and answer against the original test.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q16",
+      "number": 16,
+      "type": "free_response",
+      "prompt": "A dot plot shows the number of pets owned by children. How many children have exactly 2 pets?",
+      "correctAnswer": "8",
+      "acceptedAnswers": [
+        "8"
+      ],
+      "explanation": "Reconstructed from practice-test notes — the original diagram was not captured.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt2-q17",
+      "number": 17,
+      "type": "free_response",
+      "prompt": "A square garden has side length 8 m. A path 1 m wide runs around the inside of the garden. What is the area of the path?",
+      "correctAnswer": "16",
+      "acceptedAnswers": [
+        "16",
+        "16 m²",
+        "16 m2",
+        "16 square metres"
+      ],
+      "explanation": "Reconstructed from practice-test notes — verify wording and answer against the original test.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q18",
+      "number": 18,
+      "type": "free_response",
+      "prompt": "The graph shows information about students' test scores. Which statements are correct?",
+      "correctAnswer": "Statements 2 and 3 only",
+      "acceptedAnswers": [
+        "Statements 2 and 3 only",
+        "2 and 3 only",
+        "2 and 3"
+      ],
+      "explanation": "Reconstructed from practice-test notes — the original graph and statements were not captured.",
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt2-q19",
+      "number": 19,
+      "type": "free_response",
+      "prompt": "A large packet of biscuits holds 36 biscuits. Two large packets hold the same number of biscuits as three medium packets. Two medium packets hold the same number of biscuits as three small packets. How many biscuits does a small packet hold?",
+      "correctAnswer": "16",
+      "acceptedAnswers": [
+        "16"
+      ],
+      "explanation": "2 large = 72 = 3 medium → medium = 24. 2 medium = 48 = 3 small → small = 16.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q20",
+      "number": 20,
+      "type": "free_response",
+      "prompt": "In a shop, there are three ways to buy mandarins: 1 mandarin for $0.50; a bag of 10 mandarins for $4.50; a bag of 30 mandarins for $13.00. Jack has $25. What is the largest number of mandarins he can buy?",
+      "imageUrl": "/questions/selective-pt2/q20.jpg",
+      "correctAnswer": "56",
+      "acceptedAnswers": [
+        "56"
+      ],
+      "explanation": "$13.00 (30) + $4.50 (10) + $4.50 (10) = $22.00 for 50, then 6 singles for $3.00 → 56 mandarins for $25.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q21",
+      "number": 21,
+      "type": "free_response",
+      "prompt": "This graph shows what fraction of the air is made of different types of gas, at different heights above sea level. Which of these statements is/are correct? X: At any height above sea level, the fraction of nitrogen is higher than the fraction of helium. Y: There is more than one height at which the fractions of oxygen and helium are the same. Z: At 200 km above sea level the air is about half nitrogen and half oxygen.",
+      "imageUrl": "/questions/selective-pt2/q21.jpg",
+      "correctAnswer": "Statement Z only",
+      "acceptedAnswers": [
+        "Statement Z only",
+        "Z only",
+        "Z"
+      ],
+      "topic": "Statistics and probability"
+    },
+    {
+      "id": "sel-pt2-q22",
+      "number": 22,
+      "type": "free_response",
+      "prompt": "A movie theatre sold a total of 500 tickets in a week. It sold all of these tickets on Monday, Tuesday, Wednesday and Thursday. On Tuesday it sold half as many tickets as on Monday. On Wednesday it sold half as many tickets as on Tuesday. On Thursday it sold 80 tickets. How many tickets were sold on Monday?",
+      "correctAnswer": "240",
+      "acceptedAnswers": [
+        "240"
+      ],
+      "explanation": "Mon + Mon/2 + Mon/4 + 80 = 500 → 1.75 × Mon = 420 → Mon = 240.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q23",
+      "number": 23,
+      "type": "free_response",
+      "prompt": "A pattern of boxes is drawn on a grid. Box 1 is at grid reference B2, box 2 is at C3, and so on. If the pattern continues like this, what will be the grid reference of box 40?",
+      "imageUrl": "/questions/selective-pt2/q23.jpg",
+      "correctAnswer": "B41",
+      "acceptedAnswers": [
+        "B41",
+        "b41"
+      ],
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q24",
+      "number": 24,
+      "type": "free_response",
+      "prompt": "Write 70.5% as a decimal.",
+      "correctAnswer": "0.705",
+      "acceptedAnswers": [
+        "0.705",
+        ".705"
+      ],
+      "explanation": "70.5 ÷ 100 = 0.705.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q25",
+      "number": 25,
+      "type": "free_response",
+      "prompt": "On a map with scale 1:5000, two points are 7 cm apart. What is the actual distance?",
+      "correctAnswer": "350 m",
+      "acceptedAnswers": [
+        "350 m",
+        "350",
+        "350m",
+        "350 metres"
+      ],
+      "explanation": "7 cm × 5000 = 35 000 cm = 350 m.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q26",
+      "number": 26,
+      "type": "free_response",
+      "prompt": "How many different 3-digit numbers can be made using the digits 4, 5 and 6, each used once?",
+      "correctAnswer": "120",
+      "acceptedAnswers": [
+        "120"
+      ],
+      "explanation": "Reconstructed from practice-test notes — the recorded answer (120) does not match this wording (3! = 6), so verify against the original test.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q27",
+      "number": 27,
+      "type": "free_response",
+      "prompt": "A factory produces 360 items per day working 15 hours. At the same rate, how many items are produced in 1 hour?",
+      "correctAnswer": "24",
+      "acceptedAnswers": [
+        "24"
+      ],
+      "explanation": "360 ÷ 15 = 24 items per hour.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q28",
+      "number": 28,
+      "type": "free_response",
+      "prompt": "A recipe for 4 people uses 700 g of flour. How much flour is needed for 1 person?",
+      "correctAnswer": "175 g",
+      "acceptedAnswers": [
+        "175 g",
+        "175",
+        "175g",
+        "175 grams"
+      ],
+      "explanation": "700 ÷ 4 = 175 g.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q29",
+      "number": 29,
+      "type": "free_response",
+      "prompt": "A number is divided by 3, then 5 is subtracted, giving a result of 11. What is the number?",
+      "correctAnswer": "8",
+      "acceptedAnswers": [
+        "8"
+      ],
+      "explanation": "Reconstructed from practice-test notes — the recorded answer (8) does not match this wording (which gives 48), so verify against the original test.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q30",
+      "number": 30,
+      "type": "free_response",
+      "prompt": "Four identical rectangles measuring 4 cm × 9 cm are arranged inside a larger square, leaving a square gap in the centre. What is the area of the gap?",
+      "correctAnswer": "25 cm²",
+      "acceptedAnswers": [
+        "25 cm²",
+        "25",
+        "25 cm2",
+        "25 square cm"
+      ],
+      "explanation": "Outer square 13 × 13 = 169 cm². Four rectangles = 4 × 36 = 144 cm². Gap = 25 cm² (a 5 × 5 square).",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q31",
+      "number": 31,
+      "type": "free_response",
+      "prompt": "A train leaves City A at 09:25 and arrives at City B at 16:15. How long does the journey take?",
+      "correctAnswer": "6 hours 50 minutes",
+      "acceptedAnswers": [
+        "6 hours 50 minutes",
+        "6 h 50 min",
+        "6:50",
+        "6hr 50min",
+        "6 hours 50 min"
+      ],
+      "explanation": "16:15 − 09:25 = 6 hours 50 minutes.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q32",
+      "number": 32,
+      "type": "free_response",
+      "prompt": "A cylindrical container of syrup has markings on its side. Some syrup has been used. Using the density information given, what is the mass of the container with the remaining syrup?",
+      "correctAnswer": "90 g",
+      "acceptedAnswers": [
+        "90 g",
+        "90",
+        "90g",
+        "90 grams"
+      ],
+      "explanation": "Reconstructed from practice-test notes — the original diagram and figures were not captured.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q33",
+      "number": 33,
+      "type": "free_response",
+      "prompt": "Two straight lines meet. One of the angles formed is marked as 45°. What is the size of the reflex angle at the point where they meet?",
+      "correctAnswer": "135°",
+      "acceptedAnswers": [
+        "135°",
+        "135",
+        "135 degrees"
+      ],
+      "explanation": "Reconstructed from practice-test notes — the recorded answer (135°) is not the reflex angle for this wording, so verify against the original test.",
+      "topic": "Measurement and space"
+    },
+    {
+      "id": "sel-pt2-q34",
+      "number": 34,
+      "type": "free_response",
+      "prompt": "The sum of three consecutive even numbers is 90. What is the largest of the three numbers?",
+      "correctAnswer": "28",
+      "acceptedAnswers": [
+        "28"
+      ],
+      "explanation": "Reconstructed from practice-test notes — the recorded answer (28) is the middle number for this wording (28, 30, 32), so verify against the original test.",
+      "topic": "Number and algebra"
+    },
+    {
+      "id": "sel-pt2-q35",
+      "number": 35,
+      "type": "free_response",
+      "prompt": "A square piece of paper is folded so that both edges meet in the middle, and then folded in half again, as shown. A triangle is then cut right through the centre of the folded paper. Which of the following diagrams shows the paper when it is unfolded?",
+      "correctAnswer": "Option 1 (top-left diagram)",
+      "acceptedAnswers": [
+        "Option 1 (top-left diagram)",
+        "Option 1",
+        "1",
+        "top-left"
+      ],
+      "explanation": "The answer-choice diagrams were not captured — only the recorded answer (Option 1) is available.",
+      "topic": "Measurement and space"
+    }
+  ]
+}

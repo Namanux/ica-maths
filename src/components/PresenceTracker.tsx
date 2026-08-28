@@ -4,11 +4,22 @@ import { useEffect } from "react";
 import { usePathname } from "next/navigation";
 import { getProfile } from "@/lib/profiles";
 import { getSubject } from "@/lib/subjects";
-import { getPaperById } from "@/lib/papers";
+import { getPaperById, paperExam } from "@/lib/papers";
 import { reportLiveState } from "@/lib/liveSessions";
 
 const ACTIVE_PROFILE_KEY = "icas-active-profile";
 const HEARTBEAT_MS = 20000;
+
+// Exam sections that live at /[slug]/<section> alongside ICAS.
+const EXAM_SECTIONS: Record<string, string> = {
+  "selective-test": "Selective",
+  edutest: "EduTest",
+  naplan: "NAPLAN",
+};
+
+function sectionLabel(examSlug: string): string {
+  return EXAM_SECTIONS[examSlug] ?? "ICAS";
+}
 
 function resolveLocation(pathname: string): {
   profileSlug: string;
@@ -35,11 +46,17 @@ function resolveLocation(pathname: string): {
       };
     }
 
-    if (segments[1] === "icas" && segments.length === 2) {
+    if (
+      (segments[1] === "icas" ||
+        segments[1] === "selective-test" ||
+        segments[1] === "edutest" ||
+        segments[1] === "naplan") &&
+      segments.length === 2
+    ) {
       return {
         profileSlug: directProfile.slug,
         profileName: directProfile.name,
-        section: "ICAS",
+        section: sectionLabel(segments[1]),
         pageLabel: "Choosing a paper",
         isLiveExamPage: false,
       };
@@ -51,7 +68,7 @@ function resolveLocation(pathname: string): {
       return {
         profileSlug: directProfile.slug,
         profileName: directProfile.name,
-        section: "ICAS",
+        section: paper ? sectionLabel(paperExam(paper)) : "ICAS",
         pageLabel: isAttemptReview
           ? `Reviewing results — ${paper?.title ?? segments[2]}`
           : (paper?.title ?? segments[2]),

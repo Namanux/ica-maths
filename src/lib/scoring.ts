@@ -1,5 +1,8 @@
 import type { Paper, AttemptResult, QuestionResult, CategoryBreakdown } from "./types";
 
+// Canonical display order for the ICAS strands. Papers may also use other
+// category sets (e.g. the NSW Mathematics K–10 strands for Selective); those
+// are ordered by first appearance in the paper / in a profile's attempts.
 export const TOPIC_ORDER = [
   "Number & Arithmetic",
   "Algebra & Patterns",
@@ -10,6 +13,26 @@ export const TOPIC_ORDER = [
 
 function normalize(value: string): string {
   return value.trim().toLowerCase();
+}
+
+/**
+ * Distinct category labels across a set of scored attempts, ICAS strands first
+ * (in canonical order), then any other labels in the order they first appear.
+ * The category charts iterate this instead of a hard-coded list so non-ICAS
+ * papers (Selective, …) chart their own strands.
+ */
+export function topicsFromAttempts(
+  attempts: { categoryBreakdown: { topic: string }[] }[]
+): string[] {
+  const seen: string[] = [];
+  for (const a of attempts) {
+    for (const c of a.categoryBreakdown) {
+      if (c.topic && !seen.includes(c.topic)) seen.push(c.topic);
+    }
+  }
+  const canonical = (TOPIC_ORDER as readonly string[]).filter((t) => seen.includes(t));
+  const rest = seen.filter((t) => !(TOPIC_ORDER as readonly string[]).includes(t));
+  return [...canonical, ...rest];
 }
 
 export function isAnswerCorrect(userAnswer: string | null, question: Paper["questions"][number]): boolean {
@@ -42,7 +65,14 @@ export function scoreAttempt(
 
   const score = questionResults.filter((r) => r.isCorrect).length;
 
-  const categoryBreakdown: CategoryBreakdown[] = TOPIC_ORDER.map((topic) => {
+  // Categories come from the paper's own question topics, in order of first
+  // appearance — so each exam charts against its own strand set.
+  const topicsInPaper: string[] = [];
+  for (const q of paper.questions) {
+    if (q.topic && !topicsInPaper.includes(q.topic)) topicsInPaper.push(q.topic);
+  }
+
+  const categoryBreakdown: CategoryBreakdown[] = topicsInPaper.map((topic) => {
     const inTopic = questionResults.filter((r) => r.topic === topic);
     const timed = inTopic.filter((r) => typeof r.timeSpentSeconds === "number");
     const avgTimeSeconds =

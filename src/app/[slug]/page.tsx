@@ -38,7 +38,7 @@ export default async function SlugPage({
   }
 
   const subject = getSubject(slug);
-  if (subject && !subject.available) {
+  if (subject) {
     return (
       <div className="flex flex-col gap-6">
         <div>
@@ -46,13 +46,15 @@ export default async function SlugPage({
           <p className="text-muted mt-1">{subject.description}</p>
         </div>
         <div className="rounded-lg border border-border p-6 text-center text-muted">
-          {subject.name} practice is coming soon.
+          {subject.available
+            ? `Sign in with your name to start practising ${subject.name}.`
+            : `${subject.name} practice is coming soon.`}
         </div>
         <Link
           href="/"
           className="self-start rounded-full border border-border px-5 py-2.5 font-medium hover:bg-surface transition-colors"
         >
-          Back
+          {subject.available ? "Choose your profile" : "Back"}
         </Link>
       </div>
     );

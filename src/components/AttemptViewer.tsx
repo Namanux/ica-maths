@@ -5,6 +5,7 @@ import { useRouter } from "next/navigation";
 import type { Paper } from "@/lib/types";
 import { getAttemptById, deleteAttempt, type StoredAttempt } from "@/lib/attempts";
 import { getProfile } from "@/lib/profiles";
+import { paperExam } from "@/lib/papers";
 import { ResultsPanel } from "@/components/ResultsPanel";
 
 export function AttemptViewer({
@@ -38,7 +39,7 @@ export function AttemptViewer({
     if (typeof window !== "undefined" && window.history.length > 1) {
       router.back();
     } else {
-      router.push(`/${profileSlug}/icas`);
+      router.push(`/${profileSlug}/${paperExam(paper)}`);
     }
   };
 

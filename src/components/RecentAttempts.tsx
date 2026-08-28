@@ -4,9 +4,17 @@ import { useEffect, useState } from "react";
 import { getAttempts, deleteAttempt, type StoredAttempt } from "@/lib/attempts";
 import { formatDuration, formatCompletedAt } from "@/lib/format";
 import { getProfile } from "@/lib/profiles";
+import { getPaperById, paperExam } from "@/lib/papers";
 import Link from "next/link";
 
-export function RecentAttempts({ profileSlug }: { profileSlug: string }) {
+export function RecentAttempts({
+  profileSlug,
+  exam,
+}: {
+  profileSlug: string;
+  /** When set, only attempts on papers from this exam section are shown. */
+  exam?: string;
+}) {
   const [attempts, setAttempts] = useState<StoredAttempt[]>([]);
   const [loaded, setLoaded] = useState(false);
   const isAdmin = getProfile(profileSlug)?.role === "admin";
@@ -15,14 +23,20 @@ export function RecentAttempts({ profileSlug }: { profileSlug: string }) {
     let cancelled = false;
     getAttempts(profileSlug, isAdmin).then((data) => {
       if (!cancelled) {
-        setAttempts(data);
+        const filtered = exam
+          ? data.filter((a) => {
+              const paper = getPaperById(a.paperId);
+              return paper ? paperExam(paper) === exam : false;
+            })
+          : data;
+        setAttempts(filtered);
         setLoaded(true);
       }
     });
     return () => {
       cancelled = true;
     };
-  }, [profileSlug, isAdmin]);
+  }, [profileSlug, isAdmin, exam]);
 
   const handleDelete = async (id: string) => {
     if (!window.confirm("Delete this attempt? This can't be undone.")) return;
