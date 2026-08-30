@@ -1,10 +1,15 @@
 import { notFound } from "next/navigation";
-import { getPapersByExam } from "@/lib/papers";
+import Link from "next/link";
 import { getProfile } from "@/lib/profiles";
-import { RecentAttempts } from "@/components/RecentAttempts";
-import { PaperListLinks } from "@/components/PaperListLinks";
-import { PerformancePanel } from "@/components/PerformancePanel";
-import { ScrollRestoration } from "@/components/ScrollRestoration";
+
+const YEAR_LEVELS = [
+  {
+    slug: "year5",
+    name: "Year 5",
+    description: "ICAS-style practice papers for Year 5 students.",
+    available: true,
+  },
+];
 
 export default async function IcasHome({
   params,
@@ -15,23 +20,30 @@ export default async function IcasHome({
   const profile = getProfile(slug);
   if (!profile) notFound();
 
-  const papers = getPapersByExam("icas");
-
   return (
     <div className="flex flex-col gap-6">
-      <ScrollRestoration storageKey={`icas-scroll-${slug}`} />
       <div>
-        <h1 className="text-2xl font-semibold tracking-tight">Choose a paper</h1>
-        <p className="text-muted mt-1">
-          Full-length ICAS-style Mathematics practice papers, timed like the real exam.
-        </p>
+        <h1 className="text-2xl font-semibold tracking-tight">ICAS</h1>
+        <p className="text-muted mt-1">Choose a year level to practise.</p>
       </div>
 
-      <PaperListLinks papers={papers} slug={slug} />
-
-      <PerformancePanel profileSlug={slug} />
-
-      <RecentAttempts profileSlug={slug} />
+      <div className="flex flex-col gap-3">
+        {YEAR_LEVELS.map((yl) => (
+          <Link
+            key={yl.slug}
+            href={`/${slug}/icas/${yl.slug}`}
+            className="flex items-center justify-between rounded-lg border border-border p-4 hover:bg-surface transition-colors"
+          >
+            <div>
+              <div className="font-medium">{yl.name}</div>
+              <div className="text-sm text-muted mt-0.5">{yl.description}</div>
+            </div>
+            <span aria-hidden className="text-muted">
+              {yl.available ? "→" : "Coming soon"}
+            </span>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 }

@@ -48,7 +48,6 @@ function resolveLocation(pathname: string): {
 
     if (
       (segments[1] === "icas" ||
-        segments[1] === "selective-test" ||
         segments[1] === "edutest" ||
         segments[1] === "naplan") &&
       segments.length === 2
@@ -58,6 +57,17 @@ function resolveLocation(pathname: string): {
         profileName: directProfile.name,
         section: sectionLabel(segments[1]),
         pageLabel: "Choosing a paper",
+        isLiveExamPage: false,
+      };
+    }
+
+    if (segments[1] === "selective-test" && segments.length <= 3) {
+      return {
+        profileSlug: directProfile.slug,
+        profileName: directProfile.name,
+        section: sectionLabel("selective-test"),
+        pageLabel:
+          segments.length === 2 ? "Choosing a component" : "Choosing a paper",
         isLiveExamPage: false,
       };
     }

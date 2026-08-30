@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { getProfile } from "@/lib/profiles";
-import { getPaperById, paperExam } from "@/lib/papers";
+import { getPaperById, paperExam, examHomeSlug } from "@/lib/papers";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { AccountMenu } from "@/components/AccountMenu";
 
@@ -33,6 +33,9 @@ export function SiteHeader() {
     ? segments[1]
     : "icas";
   const sectionTitle = SECTION_TITLES[sectionSlug] ?? SECTION_TITLES.icas;
+  // Where the section title links to. On an exam route go to the paper's
+  // section home (for Selective that is the component sub-page).
+  const sectionHref = examPaper ? examHomeSlug(examPaper) : sectionSlug;
 
   return (
     <div className="flex items-center justify-between">
@@ -47,7 +50,7 @@ export function SiteHeader() {
             </Link>
           )}
           <Link
-            href={profile ? `/${profile.slug}/${sectionSlug}` : "/"}
+            href={profile ? `/${profile.slug}/${sectionHref}` : "/"}
             className="font-semibold tracking-tight"
           >
             {sectionTitle}

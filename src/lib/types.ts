@@ -32,6 +32,12 @@ export interface Paper {
   id: string;
   /** Which exam section this paper belongs to. Defaults to "icas" when omitted. */
   exam?: string;
+  /**
+   * For exams split into components (e.g. Selective: Mathematical Reasoning,
+   * Reading, …), which component this paper belongs to. Defaults to
+   * "mathematical-reasoning" for Selective papers.
+   */
+  component?: string;
   subject: string;
   yearLevel: number;
   paperCode: string;

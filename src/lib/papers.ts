@@ -45,6 +45,25 @@ export function paperExam(paper: Pick<Paper, "exam">): string {
   return paper.exam ?? DEFAULT_EXAM;
 }
 
+/**
+ * Path segment(s) under `/{profileSlug}/` for a paper's "section home" — the
+ * page a Back/Cancel button returns to. The Selective section is split by test
+ * component (Mathematical Reasoning, Reading, …), so its papers land on
+ * `selective-test/<component>` rather than plain `selective-test`. ICAS is
+ * split by year level then subject, so its papers land on
+ * `icas/<yearLevel>/<subject>` rather than plain `icas`.
+ */
+export function examHomeSlug(paper: Pick<Paper, "exam" | "component">): string {
+  const exam = paperExam(paper);
+  if (exam === "selective-test") {
+    return `selective-test/${paper.component ?? "mathematical-reasoning"}`;
+  }
+  if (exam === "icas") {
+    return "icas/year5/maths";
+  }
+  return exam;
+}
+
 function toSummary(p: Paper): PaperSummary {
   return {
     id: p.id,

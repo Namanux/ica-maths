@@ -4,7 +4,7 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useRouter } from "next/navigation";
 import type { Paper, AttemptResult } from "@/lib/types";
 import { scoreAttempt, isAnswerCorrect } from "@/lib/scoring";
-import { paperExam } from "@/lib/papers";
+import { paperExam, examHomeSlug } from "@/lib/papers";
 import { saveAttempt } from "@/lib/attempts";
 import { reportLiveState } from "@/lib/liveSessions";
 import { getProfile } from "@/lib/profiles";
@@ -62,7 +62,7 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
     { "selective-test": "Selective", edutest: "EduTest", naplan: "NAPLAN" }[
       examSlug
     ] ?? "ICAS";
-  const examHref = `/${profileSlug}/${examSlug}`;
+  const examHref = `/${profileSlug}/${examHomeSlug(paper)}`;
   const [status, setStatus] = useState<Status>("intro");
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState<Record<string, string | null>>({});
