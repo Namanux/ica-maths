@@ -470,6 +470,8 @@ export function KidDashboard(_props: { profileSlug: string }) {
     null,
   );
   const [undoingId, setUndoingId] = useState<string | null>(null);
+  // Task whose completion is being written — used to disable its Done button.
+  const [completingTaskId, setCompletingTaskId] = useState<string | null>(null);
   const photoInputRef = useRef<HTMLInputElement | null>(null);
 
   const [addTaskStep, setAddTaskStep] = useState<
@@ -652,6 +654,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
     const existing = completions.find((c) => c.task_id === task.id);
     if (existing) return;
     completingRef.current.add(task.id);
+    setCompletingTaskId(task.id);
 
     try {
     let coinsEarned = beehave.calculateCoins(task);
@@ -749,6 +752,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
     await refreshCurrentProfile();
     } finally {
       completingRef.current.delete(task.id);
+      setCompletingTaskId((id) => (id === task.id ? null : id));
     }
   }
 
@@ -1541,6 +1545,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
                 onStopSession={stopSessionTimer}
                 onDoneSession={doneSessionTimer}
                 uploadingPhoto={uploadingPhotoTaskId === task.id}
+                completing={completingTaskId === task.id}
               />
             ))}
           </>
@@ -1951,6 +1956,7 @@ function TaskCard({
   onStopSession,
   onDoneSession,
   uploadingPhoto,
+  completing,
 }: {
   task: TaskRow;
   viewDate: string;
@@ -1963,6 +1969,7 @@ function TaskCard({
   onStopSession: (task: TaskRow) => void;
   onDoneSession: (task: TaskRow) => void;
   uploadingPhoto: boolean;
+  completing: boolean;
 }) {
   const status = beehave.getTaskStatus(task, false, viewDate);
   const [countdown, setCountdown] = useState<number | null>(
@@ -2232,10 +2239,12 @@ function TaskCard({
               {!timer.running && timer.totalElapsed > 0 && (
                 <button
                   onClick={() => onDoneSession(task)}
-                  disabled={uploadingPhoto}
+                  disabled={uploadingPhoto || completing}
                   className="flex w-full items-center justify-center gap-1.5 border-t border-[#22c55e]/20 bg-[#22c55e]/15 p-2.5 text-[14px] font-extrabold text-[#22c55e] disabled:cursor-not-allowed disabled:opacity-50"
                 >
-                  {uploadingPhoto ? (
+                  {completing ? (
+                    "Saving…"
+                  ) : uploadingPhoto ? (
                     "📷 Uploading photo…"
                   ) : (
                     <>
@@ -2269,7 +2278,7 @@ function TaskCard({
             ) : (
               <button
                 onClick={() => onComplete(null)}
-                disabled={uploadingPhoto}
+                disabled={uploadingPhoto || completing}
                 className="rounded-xl px-4 py-3 text-[13px] font-bold disabled:cursor-not-allowed disabled:opacity-50"
                 style={
                   {
@@ -2285,7 +2294,9 @@ function TaskCard({
                   } as CSSProperties
                 }
               >
-                {uploadingPhoto
+                {completing
+                  ? "Saving…"
+                  : uploadingPhoto
                   ? "📷 Uploading…"
                   : task.requires_photo
                   ? "📷 Done"
@@ -2764,9 +2775,10 @@ export function buildPassbook(
 
 type SupabaseLike = NonNullable<ReturnType<typeof getSupabaseClient>>;
 
-// Reverse one Passbook line: undo its coin effect and delete the row.
+// Reverse one Passbook line: undo its coin effect and delete the row. The
+// task itself stays marked done (this is for cleaning up a stray/duplicate
+// coin line — to fully un-do a task use the "Undo" on the home task list).
 //  • policing rows reverse BOTH sides and drop the policing event
-//  • task-reward rows also delete the completion so the task can be redone
 export async function undoPassbookEntry(
   supabase: SupabaseLike,
   txnId: string,
@@ -2826,10 +2838,6 @@ export async function undoPassbookEntry(
     .update({ coin_balance: Math.max(0, bal - t.amount) })
     .eq("id", t.kid_id);
   await supabase.from("coin_transactions").delete().eq("id", t.id);
-
-  if (t.transaction_type === "task_reward" && t.reference_id) {
-    await supabase.from("task_completions").delete().eq("id", t.reference_id);
-  }
 }
 
 export function PassbookRow({
