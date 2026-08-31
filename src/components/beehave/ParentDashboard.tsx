@@ -16,6 +16,7 @@ import {
   buildPassbook,
   PassbookRow,
   PolicingTab,
+  undoPassbookEntry,
   REWARD_CATEGORIES,
   rewardCategory,
   sortRewards,
@@ -3908,6 +3909,17 @@ function ParentPassbookColumn({
     }
   }
 
+  async function undo(e: PbEntry) {
+    if (!supabase) return;
+    setBusy(e.id);
+    try {
+      await undoPassbookEntry(supabase, e.id);
+      await load();
+    } finally {
+      setBusy(null);
+    }
+  }
+
   const groups = buildPassbook(txns, reds, balance);
 
   return (
@@ -3958,6 +3970,9 @@ function ParentPassbookColumn({
                         actionable ? (note) => void accept(e, note) : undefined
                       }
                       onDecline={actionable ? () => void decline(e) : undefined}
+                      onUndo={
+                        e.kind === "txn" ? () => void undo(e) : undefined
+                      }
                     />
                   );
                 })}

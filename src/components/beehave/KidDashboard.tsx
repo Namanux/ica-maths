@@ -449,6 +449,9 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
   const lastInteractionRef = useRef(Date.now());
   const prevStatusMapRef = useRef<Record<string, string>>({});
+  // Task ids whose completion is in flight — blocks a rapid double/triple tap
+  // from minting the coins several times before React state catches up.
+  const completingRef = useRef<Set<string>>(new Set());
 
   const [sessionTimers, setSessionTimers] = useState<
     Record<string, SessionTimerState>
@@ -645,9 +648,12 @@ export function KidDashboard(_props: { profileSlug: string }) {
     photoPath: string | null = null,
   ) {
     if (!profile || !supabase) return;
+    if (completingRef.current.has(task.id)) return;
     const existing = completions.find((c) => c.task_id === task.id);
     if (existing) return;
+    completingRef.current.add(task.id);
 
+    try {
     let coinsEarned = beehave.calculateCoins(task);
     if (timeSpentSecs !== null && (task.target_duration ?? 0) > 0) {
       const ratio = Math.max(
@@ -660,7 +666,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
     const needsApproval = task.requires_approval === true || !!photoPath;
 
     if (needsApproval) {
-      await supabase.from("task_completions").insert({
+      const { error: apprErr } = await supabase.from("task_completions").insert({
         task_id: task.id,
         kid_id: profile.id,
         scheduled_date: viewDateRef.current,
@@ -668,6 +674,10 @@ export function KidDashboard(_props: { profileSlug: string }) {
         status: "pending_approval",
         photo_path: photoPath,
       });
+      if (apprErr) {
+        await loadTasks();
+        return;
+      }
       playSound("coin");
       popCoins(task.id, coinsEarned, true);
     } else {
@@ -679,7 +689,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
       const balanceBefore =
         (freshKid as { coin_balance?: number } | null)?.coin_balance || 0;
 
-      const { data: comp } = await supabase
+      const { data: comp, error: compErr } = await supabase
         .from("task_completions")
         .insert({
           task_id: task.id,
@@ -690,6 +700,11 @@ export function KidDashboard(_props: { profileSlug: string }) {
         })
         .select()
         .single();
+      if (compErr || !comp) {
+        // A concurrent tap already recorded this completion — don't double-pay.
+        await loadTasks();
+        return;
+      }
 
       await supabase.from("coin_transactions").insert({
         kid_id: profile.id,
@@ -732,6 +747,9 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
     await loadTasks();
     await refreshCurrentProfile();
+    } finally {
+      completingRef.current.delete(task.id);
+    }
   }
 
   // Undo an accidental completion — remove the completion row and reverse
@@ -2744,12 +2762,83 @@ export function buildPassbook(
   return groups;
 }
 
+type SupabaseLike = NonNullable<ReturnType<typeof getSupabaseClient>>;
+
+// Reverse one Passbook line: undo its coin effect and delete the row.
+//  • policing rows reverse BOTH sides and drop the policing event
+//  • task-reward rows also delete the completion so the task can be redone
+export async function undoPassbookEntry(
+  supabase: SupabaseLike,
+  txnId: string,
+): Promise<void> {
+  const { data } = await supabase
+    .from("coin_transactions")
+    .select("id, kid_id, amount, transaction_type, reference_id, reason")
+    .eq("id", txnId)
+    .single();
+  if (!data) return;
+  const t = data as {
+    id: string;
+    kid_id: string;
+    amount: number;
+    transaction_type: string;
+    reference_id: string | null;
+    reason: string | null;
+  };
+
+  const isPolicing =
+    typeof t.reason === "string" && t.reason.trimStart().startsWith("🚨");
+
+  if (isPolicing && t.reference_id) {
+    const { data: rows } = await supabase
+      .from("coin_transactions")
+      .select("kid_id, amount")
+      .eq("reference_id", t.reference_id);
+    for (const r of (rows as { kid_id: string; amount: number }[]) ?? []) {
+      const { data: p } = await supabase
+        .from("profiles")
+        .select("coin_balance")
+        .eq("id", r.kid_id)
+        .single();
+      const bal = (p as { coin_balance?: number } | null)?.coin_balance ?? 0;
+      // Policing allows overdraft, so reverse exactly (no clamp).
+      await supabase
+        .from("profiles")
+        .update({ coin_balance: bal - r.amount })
+        .eq("id", r.kid_id);
+    }
+    await supabase
+      .from("coin_transactions")
+      .delete()
+      .eq("reference_id", t.reference_id);
+    await supabase.from("policing_events").delete().eq("id", t.reference_id);
+    return;
+  }
+
+  const { data: p } = await supabase
+    .from("profiles")
+    .select("coin_balance")
+    .eq("id", t.kid_id)
+    .single();
+  const bal = (p as { coin_balance?: number } | null)?.coin_balance ?? 0;
+  await supabase
+    .from("profiles")
+    .update({ coin_balance: Math.max(0, bal - t.amount) })
+    .eq("id", t.kid_id);
+  await supabase.from("coin_transactions").delete().eq("id", t.id);
+
+  if (t.transaction_type === "task_reward" && t.reference_id) {
+    await supabase.from("task_completions").delete().eq("id", t.reference_id);
+  }
+}
+
 export function PassbookRow({
   e,
   border,
   onCancel,
   onAccept,
   onDecline,
+  onUndo,
   busy,
 }: {
   e: PbEntry;
@@ -2757,6 +2846,7 @@ export function PassbookRow({
   onCancel?: () => void;
   onAccept?: (note: string) => void;
   onDecline?: () => void;
+  onUndo?: () => void;
   busy?: boolean;
 }) {
   const [note, setNote] = useState("");
@@ -2801,6 +2891,15 @@ export function PassbookRow({
             className="shrink-0 rounded-md border border-[#ef4444]/30 bg-[#ef4444]/10 px-2 py-1 text-[11px] font-bold text-[#ef4444] disabled:opacity-40"
           >
             {busy ? "…" : "✕ Cancel"}
+          </button>
+        )}
+        {onUndo && (
+          <button
+            onClick={onUndo}
+            disabled={busy}
+            className="shrink-0 rounded-md border border-border bg-background px-2 py-1 text-[11px] font-bold text-muted hover:text-foreground disabled:opacity-40"
+          >
+            {busy ? "…" : "↩ Undo"}
           </button>
         )}
       </div>
@@ -2916,6 +3015,18 @@ function KidPassbook() {
     }
   }
 
+  async function undo(e: PbEntry) {
+    if (!supabase || !kidId) return;
+    setBusy(e.id);
+    try {
+      await undoPassbookEntry(supabase, e.id);
+      await refreshCurrentProfile();
+      await load();
+    } finally {
+      setBusy(null);
+    }
+  }
+
   const groups = buildPassbook(txns, reds, balance);
 
   return (
@@ -2967,6 +3078,11 @@ function KidPassbook() {
                   onCancel={
                     e.kind === "redemption" && e.status === "pending"
                       ? () => void cancel(e)
+                      : undefined
+                  }
+                  onUndo={
+                    e.kind === "txn" && e.amount >= 0
+                      ? () => void undo(e)
                       : undefined
                   }
                 />
