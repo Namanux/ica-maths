@@ -22,8 +22,8 @@ const SECTION_TITLES: Record<string, string> = {
 // The Beehave pill itself is the section home (tasks for kids, Overview for
 // admins), so it isn't listed here.
 // Same relative order for every user; each role shows its own subset.
-const ADMIN_BEEHAVE_TABS = ["Passbook", "Task", "Reward", "Message"];
-const KID_BEEHAVE_TABS = ["Passbook", "Reward"];
+const ADMIN_BEEHAVE_TABS = ["Passbook", "Task", "Reward", "Policing", "Message"];
+const KID_BEEHAVE_TABS = ["Passbook", "Reward", "Policing"];
 
 function pill(active: boolean) {
   return `whitespace-nowrap rounded-md px-2 py-1 text-[13px] transition-colors ${

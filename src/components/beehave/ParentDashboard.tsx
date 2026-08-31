@@ -15,6 +15,7 @@ import { beehave } from "@/lib/beehave";
 import {
   buildPassbook,
   PassbookRow,
+  PolicingTab,
   REWARD_CATEGORIES,
   rewardCategory,
   sortRewards,
@@ -23,6 +24,7 @@ import {
   type CoinTxn,
   type RedemptionRowLite,
   type RewardSort,
+  type PolicingTaskRow,
 } from "./KidDashboard";
 import * as XLSX from "xlsx";
 
@@ -211,7 +213,14 @@ function EmojiPicker({
   );
 }
 
-const TABS = ["Overview", "Task", "Reward", "Message", "Passbook"] as const;
+const TABS = [
+  "Overview",
+  "Task",
+  "Reward",
+  "Policing",
+  "Message",
+  "Passbook",
+] as const;
 type TabName = (typeof TABS)[number];
 
 // ─── Main ParentDashboard ────────────────────────────────────────────────────
@@ -255,6 +264,7 @@ export function ParentDashboard(_props: { profileSlug: string }) {
         {tab === "Overview" && <OverviewTab kids={kids} />}
         {tab === "Task" && <TasksTab kids={kids} />}
         {tab === "Reward" && <RewardsTab kids={kids} />}
+        {tab === "Policing" && <PolicingTab />}
         {tab === "Message" && <MessageTab kids={kids} profile={profile} />}
         {tab === "Passbook" && (
           <>
@@ -3209,9 +3219,108 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
     description: "",
   });
 
+  // ── Policing tasks (parent-defined, the inverse of rewards) ──
+  const [policing, setPolicing] = useState<PolicingTaskRow[]>([]);
+  const [showPolForm, setShowPolForm] = useState(false);
+  const blankPolicing = () => ({
+    name: "",
+    icon: "🚨",
+    coins: 20,
+    description: "",
+  });
+  const [polForm, setPolForm] = useState<{
+    id?: string;
+    name: string;
+    icon: string;
+    coins: number;
+    description: string;
+  }>(blankPolicing());
+  const polRowTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+  function polRowGesture(onEdit: () => void, onDelete: () => void) {
+    return {
+      onClick: () => {
+        if (polRowTimer.current) return;
+        polRowTimer.current = setTimeout(() => {
+          polRowTimer.current = null;
+          onEdit();
+        }, 220);
+      },
+      onDoubleClick: () => {
+        if (polRowTimer.current) {
+          clearTimeout(polRowTimer.current);
+          polRowTimer.current = null;
+        }
+        onDelete();
+      },
+    };
+  }
+
+  async function loadPolicing() {
+    if (!supabase) return;
+    const { data } = await supabase
+      .from("policing_tasks")
+      .select("*")
+      .eq("is_active", true)
+      .order("coins", { ascending: false });
+    setPolicing((data as PolicingTaskRow[]) || []);
+  }
+
+  async function savePolicing() {
+    if (!supabase || !polForm.name.trim()) return;
+    const payload = {
+      name: polForm.name.trim(),
+      icon: polForm.icon,
+      coins: polForm.coins,
+      description: polForm.description.trim() || null,
+    };
+    if (polForm.id) {
+      await supabase.from("policing_tasks").update(payload).eq("id", polForm.id);
+    } else {
+      await supabase.from("policing_tasks").insert(payload);
+    }
+    setShowPolForm(false);
+    setPolForm(blankPolicing());
+    void loadPolicing();
+  }
+
+  function startEditPolicing(p: PolicingTaskRow) {
+    setPolForm({
+      id: p.id,
+      name: p.name,
+      icon: p.icon,
+      coins: p.coins,
+      description: p.description ?? "",
+    });
+    setShowPolForm(true);
+  }
+
+  async function deletePolicing(p: PolicingTaskRow) {
+    if (!supabase) return;
+    if (!confirm(`Delete policing task "${p.name}"?`)) return;
+    await supabase
+      .from("policing_tasks")
+      .update({ is_active: false })
+      .eq("id", p.id);
+    void loadPolicing();
+  }
+
   useEffect(() => {
     void loadRewards();
+    void loadPolicing();
   }, []);
+
+  useEffect(() => {
+    if (!showPolForm) return;
+    const h = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setShowPolForm(false);
+        setPolForm(blankPolicing());
+      }
+    };
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showPolForm]);
 
   useEffect(() => {
     if (!showForm) return;
@@ -3383,38 +3492,102 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
     </div>
   );
 
-  return (
-    <div>
-      <div className="mb-4 flex items-center justify-between">
-        <h2 className="font-bold">Rewards</h2>
+  const policingForm = (
+    <div className={`${cardCls} mb-2`}>
+      <div className="mb-2.5 flex gap-2">
+        <EmojiPicker
+          value={polForm.icon}
+          onChange={(emoji) => setPolForm((f) => ({ ...f, icon: emoji }))}
+          emojis={TASK_EMOJIS}
+        />
+        <input
+          value={polForm.name}
+          placeholder="Policing task (e.g. Turn off the light)"
+          onChange={(e) =>
+            setPolForm((f) => ({ ...f, name: e.target.value }))
+          }
+          className="flex-1 rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
+        />
+      </div>
+      <input
+        value={polForm.description}
+        placeholder="What was missed (optional)"
+        onChange={(e) =>
+          setPolForm((f) => ({ ...f, description: e.target.value }))
+        }
+        className="mb-2.5 w-full rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
+      />
+      <div className="mb-3 flex items-center gap-2.5">
+        <span className="text-[16px] text-[#ef4444]">🚨 Coins:</span>
+        <input
+          type="number"
+          value={polForm.coins}
+          onChange={(e) =>
+            setPolForm((f) => ({ ...f, coins: parseInt(e.target.value) || 0 }))
+          }
+          className="w-[100px] rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
+        />
+        <span className="text-[12px] text-muted">
+          taken from whoever missed it, given to whoever does it
+        </span>
+      </div>
+      <div className="flex gap-2">
         <button
           onClick={() => {
-            setForm(blankReward());
-            setShowForm((v) => !v);
+            setShowPolForm(false);
+            setPolForm(blankPolicing());
           }}
-          className="rounded-[10px] bg-[#f5c518] px-[18px] py-2.5 text-[14px] font-semibold text-[#0f0f1a]"
+          className="rounded-[10px] border border-border bg-surface px-4 py-3 text-[14px] font-semibold text-muted"
         >
-          + New Reward
+          Cancel
+        </button>
+        <button
+          onClick={savePolicing}
+          className="flex-1 rounded-[10px] bg-[#f97316] px-6 py-3 font-semibold text-[#0f0f1a]"
+        >
+          {polForm.id ? "Update Policing Task" : "Save Policing Task"}
         </button>
       </div>
+    </div>
+  );
 
-      {showForm && !form.id && rewardForm}
-
-      <div className="mb-3 flex items-center gap-2 rounded-[10px] border border-border bg-surface px-3.5 py-2.5">
-        <span className="flex-1 text-[13px] text-muted">📊 Excel</span>
+  return (
+    <div>
+      <div className="mb-3 flex flex-wrap items-center gap-2">
+        <h2 className="mr-auto font-bold">Rewards</h2>
         <button
           onClick={exportRewards}
           disabled={rewards.length === 0}
-          className="rounded-lg border border-[#22c55e]/25 bg-[#22c55e]/[0.12] px-3.5 py-1.5 text-[13px] text-[#22c55e] disabled:opacity-50"
+          className="rounded-lg border border-[#22c55e]/25 bg-[#22c55e]/[0.12] px-3 py-2 text-[13px] text-[#22c55e] disabled:opacity-50"
         >
-          ↓ Export
+          📊 ↓
         </button>
         <button
           onClick={() => importRef.current?.click()}
           disabled={importing}
-          className="rounded-lg border border-[#4f8ef7]/25 bg-[#4f8ef7]/[0.12] px-3.5 py-1.5 text-[13px] text-[#4f8ef7] disabled:opacity-50"
+          className="rounded-lg border border-[#4f8ef7]/25 bg-[#4f8ef7]/[0.12] px-3 py-2 text-[13px] text-[#4f8ef7] disabled:opacity-50"
         >
-          {importing ? "Importing…" : "↑ Import"}
+          {importing ? "…" : "📊 ↑"}
+        </button>
+        <button
+          onClick={() => {
+            setPolForm(blankPolicing());
+            setShowPolForm((v) => !v);
+            setShowForm(false);
+          }}
+          className="rounded-[10px] border border-[#f97316]/40 bg-[#f97316]/15 px-3 py-2 text-[13px] font-semibold text-[#f97316]"
+        >
+          + Policing
+        </button>
+        <button
+          onClick={() => {
+            setForm(blankReward());
+            setShowForm((v) => !v);
+            setShowPolForm(false);
+          }}
+          className="rounded-[10px] bg-[#f5c518] px-3 py-2 text-[13px] font-semibold text-[#0f0f1a]"
+        >
+          + Reward
         </button>
         <input
           ref={importRef}
@@ -3425,18 +3598,12 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
         />
       </div>
 
-      <p className="mb-3 text-[13px] text-muted">
-        Redemptions land in the <span className="font-semibold">Passbook</span>{" "}
-        tab, where you accept or decline them.
-      </p>
+      {showPolForm && !polForm.id && policingForm}
+      {showForm && !form.id && rewardForm}
 
-      <div className="mb-1 flex items-center justify-between gap-2">
-        <h3 className="font-semibold text-muted">Available Rewards</h3>
+      <div className="mb-2.5 flex items-center justify-end">
         <RewardSortSelect value={sortBy} onChange={setSortBy} />
       </div>
-      <p className="mb-2.5 px-1 text-[11px] text-muted">
-        Click a reward to edit · double-click to delete
-      </p>
 
       {REWARD_CATEGORIES.map((cat) => {
         const items = sortRewards(
@@ -3493,6 +3660,41 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
           </div>
         );
       })}
+
+      <div className="mt-6 mb-1.5 px-1 text-[11px] font-bold uppercase tracking-wide text-muted">
+        Policing tasks
+      </div>
+      {policing.length === 0 ? (
+        <p className="px-1 text-[13px] text-muted">
+          None yet — use “+ New Policing” above.
+        </p>
+      ) : (
+        policing.map((p) =>
+          showPolForm && polForm.id === p.id ? (
+            <div key={p.id}>{policingForm}</div>
+          ) : (
+            <div
+              key={p.id}
+              {...polRowGesture(
+                () => startEditPolicing(p),
+                () => void deletePolicing(p),
+              )}
+              className={`${cardCls} mb-2 flex cursor-pointer select-none items-center gap-3`}
+            >
+              <span className="text-[28px]" style={{ fontFamily: EMOJI_FONT }}>
+                {p.icon}
+              </span>
+              <div className="flex-1">
+                <div className="font-semibold">{p.name}</div>
+                {p.description && (
+                  <div className="text-[13px] text-muted">{p.description}</div>
+                )}
+              </div>
+              <div className="font-bold text-[#ef4444]">−🪙 {p.coins}</div>
+            </div>
+          ),
+        )
+      )}
     </div>
   );
 }

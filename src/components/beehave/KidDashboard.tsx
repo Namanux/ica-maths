@@ -425,6 +425,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
   const activeTab = searchParams.get("tab");
   const rewardTab = activeTab === "Reward";
   const passbookTab = activeTab === "Passbook";
+  const policingTab = activeTab === "Policing";
 
   const [tasks, setTasks] = useState<TaskRow[]>([]);
   const [completions, setCompletions] = useState<CompletionRow[]>([]);
@@ -1203,6 +1204,14 @@ export function KidDashboard(_props: { profileSlug: string }) {
     return (
       <div className="flex flex-1 flex-col bg-background text-foreground">
         <KidRewards />
+      </div>
+    );
+  }
+
+  if (policingTab) {
+    return (
+      <div className="flex flex-1 flex-col bg-background text-foreground">
+        <PolicingTab />
       </div>
     );
   }
@@ -2911,6 +2920,364 @@ function KidPassbook() {
             </div>
           </div>
         ))
+      )}
+    </div>
+  );
+}
+
+// ─── Policing (the inverse of rewards) — shared by Kid and Parent views ──────
+export type PolicingTaskRow = {
+  id: string;
+  name: string;
+  icon: string;
+  coins: number;
+  description?: string | null;
+};
+
+type ActiveRemind = {
+  eventId: string;
+  targetId: string;
+  remindedAt: number;
+};
+
+export const POLICING_WAIT_SECS = 30;
+
+export function PolicingTab() {
+  const { profile, profiles, refreshCurrentProfile } = useBeehaveAuth();
+  const supabase = getSupabaseClient();
+
+  const me = profile?.id ?? "";
+  const others = profiles.filter((p) => !!p.id && p.id !== me);
+
+  const [tasks, setTasks] = useState<PolicingTaskRow[]>([]);
+  const [loaded, setLoaded] = useState(false);
+  const [pick, setPick] = useState<Record<string, string>>({});
+  const [active, setActive] = useState<Record<string, ActiveRemind>>({});
+  const [busy, setBusy] = useState<string | null>(null);
+  const [toast, setToast] = useState("");
+  const [nowMs, setNowMs] = useState(Date.now());
+
+  const tasksRef = useRef<PolicingTaskRow[]>([]);
+  useEffect(() => {
+    tasksRef.current = tasks;
+  }, [tasks]);
+
+  const anyActive = Object.keys(active).length > 0;
+  useEffect(() => {
+    if (!anyActive) return;
+    const t = setInterval(() => setNowMs(Date.now()), 500);
+    return () => clearInterval(t);
+  }, [anyActive]);
+
+  useEffect(() => {
+    if (!supabase || !me) return;
+    let cancelled = false;
+    void (async () => {
+      const [{ data: tk }, { data: ev }] = await Promise.all([
+        supabase
+          .from("policing_tasks")
+          .select("*")
+          .eq("is_active", true)
+          .order("coins", { ascending: false }),
+        supabase
+          .from("policing_events")
+          .select("*")
+          .eq("actor_id", me)
+          .eq("status", "reminded")
+          .gte("created_at", new Date(Date.now() - 15 * 60_000).toISOString()),
+      ]);
+      if (cancelled) return;
+      setTasks((tk as PolicingTaskRow[]) || []);
+      const restored: Record<string, ActiveRemind> = {};
+      for (const e of (ev as Record<string, unknown>[]) || []) {
+        restored[e.task_id as string] = {
+          eventId: e.id as string,
+          targetId: e.target_id as string,
+          remindedAt: new Date(e.created_at as string).getTime(),
+        };
+      }
+      setActive(restored);
+      setLoaded(true);
+    })();
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [me]);
+
+  // Someone is policing me → loud reminder on this device.
+  useEffect(() => {
+    if (!supabase || !me) return;
+    const ch = supabase
+      .channel(`beehave-policing-${me}`)
+      .on(
+        "postgres_changes",
+        {
+          event: "INSERT",
+          schema: "public",
+          table: "policing_events",
+          filter: `target_id=eq.${me}`,
+        },
+        (payload) => {
+          const e = payload.new as Record<string, unknown>;
+          if (e.status !== "reminded") return;
+          const task = tasksRef.current.find((t) => t.id === e.task_id);
+          const actor = profiles.find((p) => p.id === e.actor_id);
+          const label = task?.name ?? "a job";
+          const who = actor?.name ?? "Someone";
+          for (let i = 0; i < 3; i++) {
+            setTimeout(() => playSound("nudge"), i * 500);
+          }
+          speak(
+            `${profile?.name ?? "Hey"}! ${who} says: ${label}. Do it now or you lose ${e.coins} coins.`,
+          );
+          setToast(`⚠️ ${who}: ${label} — do it now!`);
+          setTimeout(() => setToast(""), 6000);
+        },
+      )
+      .subscribe();
+    return () => {
+      void ch.unsubscribe();
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [me, profiles, profile?.name]);
+
+  async function remind(task: PolicingTaskRow) {
+    if (!supabase || !me) return;
+    const targetId = pick[task.id];
+    if (!targetId) {
+      setToast("Pick who missed it first");
+      setTimeout(() => setToast(""), 2500);
+      return;
+    }
+    setBusy(task.id);
+    try {
+      const { data } = await supabase
+        .from("policing_events")
+        .insert({
+          task_id: task.id,
+          actor_id: me,
+          target_id: targetId,
+          coins: task.coins,
+          status: "reminded",
+        })
+        .select()
+        .single();
+      if (!data) return;
+      setActive((a) => ({
+        ...a,
+        [task.id]: {
+          eventId: (data as { id: string }).id,
+          targetId,
+          remindedAt: Date.now(),
+        },
+      }));
+      playSound("nudge");
+      setNowMs(Date.now());
+    } finally {
+      setBusy(null);
+    }
+  }
+
+  async function cancelRemind(taskId: string) {
+    const a = active[taskId];
+    if (!a || !supabase) return;
+    setBusy(taskId);
+    try {
+      await supabase
+        .from("policing_events")
+        .update({ status: "cancelled", resolved_at: new Date().toISOString() })
+        .eq("id", a.eventId);
+      setActive((m) => {
+        const n = { ...m };
+        delete n[taskId];
+        return n;
+      });
+    } finally {
+      setBusy(null);
+    }
+  }
+
+  async function settle(task: PolicingTaskRow) {
+    const a = active[task.id];
+    if (!a || !supabase) return;
+    const target = profiles.find((p) => p.id === a.targetId);
+    const actorIsKid = profile?.role !== "admin";
+    const targetIsKid = !!target && target.role !== "admin";
+    setBusy(task.id);
+    try {
+      if (targetIsKid && target) {
+        const { data } = await supabase
+          .from("profiles")
+          .select("coin_balance")
+          .eq("id", target.id)
+          .single();
+        const bal = (data as { coin_balance?: number } | null)?.coin_balance ?? 0;
+        // Overdraft is allowed for policing — no Math.max(0, …) here.
+        await supabase
+          .from("profiles")
+          .update({ coin_balance: bal - task.coins })
+          .eq("id", target.id);
+        await supabase.from("coin_transactions").insert({
+          kid_id: target.id,
+          amount: -task.coins,
+          reason: `🚨 ${task.name} — ${profile?.name ?? "someone"} did it for you`,
+          transaction_type: "penalty",
+          reference_id: a.eventId,
+        });
+      }
+      if (actorIsKid && me) {
+        const { data } = await supabase
+          .from("profiles")
+          .select("coin_balance")
+          .eq("id", me)
+          .single();
+        const bal = (data as { coin_balance?: number } | null)?.coin_balance ?? 0;
+        await supabase
+          .from("profiles")
+          .update({ coin_balance: bal + task.coins })
+          .eq("id", me);
+        await supabase.from("coin_transactions").insert({
+          kid_id: me,
+          amount: task.coins,
+          reason: `🚨 ${task.name} — you did it for ${target?.name ?? "someone"}`,
+          transaction_type: "bonus",
+          reference_id: a.eventId,
+        });
+      }
+      await supabase
+        .from("policing_events")
+        .update({ status: "done", resolved_at: new Date().toISOString() })
+        .eq("id", a.eventId);
+      setActive((m) => {
+        const n = { ...m };
+        delete n[task.id];
+        return n;
+      });
+      playSound("coin");
+      await refreshCurrentProfile();
+      const parts: string[] = [];
+      if (targetIsKid) parts.push(`−${task.coins} from ${target?.name}`);
+      if (actorIsKid) parts.push(`+${task.coins} to you`);
+      setToast(`✓ ${task.name}: ${parts.join(" · ") || "logged"}`);
+      setTimeout(() => setToast(""), 4000);
+    } finally {
+      setBusy(null);
+    }
+  }
+
+  const renderRow = (task: PolicingTaskRow) => {
+    const a = active[task.id];
+    const remaining = a
+      ? Math.max(
+          0,
+          POLICING_WAIT_SECS - Math.floor((nowMs - a.remindedAt) / 1000),
+        )
+      : 0;
+    const targetId = a?.targetId ?? pick[task.id] ?? "";
+    const targetName = profiles.find((p) => p.id === targetId)?.name;
+    return (
+      <div
+        key={task.id}
+        className="mb-2 rounded-2xl border border-border bg-surface p-3"
+      >
+        <div className="flex items-start gap-2.5">
+          <span className="text-[24px] leading-none">{task.icon}</span>
+          <div className="min-w-0 flex-1">
+            <div className="text-[14px] font-semibold">{task.name}</div>
+            {task.description && (
+              <div className="truncate text-[12px] text-muted">
+                {task.description}
+              </div>
+            )}
+            <div className="mt-0.5 flex items-center gap-1 text-[11px] font-bold text-[#ef4444]">
+              −{task.coins} <GoldCoin size={10} /> from them · +{task.coins} to
+              whoever does it
+            </div>
+          </div>
+        </div>
+
+        <div className="mt-2 flex items-center justify-end gap-2">
+          <select
+            value={targetId}
+            disabled={!!a}
+            onChange={(e) =>
+              setPick((p) => ({ ...p, [task.id]: e.target.value }))
+            }
+            className="min-w-0 flex-1 rounded-lg border border-border bg-background px-2 py-2 text-[13px] disabled:opacity-60"
+          >
+            <option value="">Who missed it?</option>
+            {others.map((p) => (
+              <option key={p.id} value={p.id}>
+                {(p as { avatar_emoji?: string }).avatar_emoji ?? "🙂"} {p.name}
+              </option>
+            ))}
+          </select>
+
+          {!a ? (
+            <button
+              onClick={() => void remind(task)}
+              disabled={busy === task.id || !targetId}
+              className="shrink-0 rounded-xl border border-[#f97316]/40 bg-[#f97316]/15 px-3.5 py-2 text-[13px] font-bold text-[#f97316] disabled:cursor-not-allowed disabled:opacity-40"
+            >
+              Remind
+            </button>
+          ) : remaining > 0 ? (
+            <>
+              <span className="shrink-0 text-[13px] font-bold tabular-nums text-muted">
+                {remaining}s
+              </span>
+              <button
+                onClick={() => void cancelRemind(task.id)}
+                disabled={busy === task.id}
+                className="shrink-0 rounded-lg border border-border bg-background px-2.5 py-2 text-[12px] font-bold text-muted"
+              >
+                ✕
+              </button>
+            </>
+          ) : (
+            <button
+              onClick={() => void settle(task)}
+              disabled={busy === task.id}
+              className="shrink-0 rounded-xl border border-[#22c55e]/40 bg-[#22c55e]/15 px-3.5 py-2 text-[13px] font-bold text-[#22c55e] disabled:opacity-40"
+            >
+              ✓ Did it — take {task.coins}
+            </button>
+          )}
+        </div>
+
+        {a && remaining > 0 && (
+          <div className="mt-1 text-right text-[11px] text-muted">
+            Reminding {targetName}… they hear it on their iPad
+          </div>
+        )}
+      </div>
+    );
+  };
+
+  return (
+    <div className="flex-1 overflow-y-auto px-3.5 pb-24 pt-3.5">
+      <h2 className="mb-1 text-[17px] font-extrabold">Policing</h2>
+      <p className="mb-3 text-[12px] text-muted">
+        Caught someone skipping a job? Pick them and hit Remind — they get a
+        loud reminder. After {POLICING_WAIT_SECS}s you can do it yourself and
+        take the coins.
+      </p>
+
+      {!loaded ? (
+        <p className="py-16 text-center text-sm text-muted">Loading…</p>
+      ) : tasks.length === 0 ? (
+        <p className="py-16 text-center text-sm text-muted">
+          No policing tasks yet.
+        </p>
+      ) : (
+        tasks.map(renderRow)
+      )}
+
+      {toast && (
+        <div className="fixed bottom-6 left-1/2 z-[200] max-w-[92vw] -translate-x-1/2 rounded-full bg-[#f97316]/95 px-4 py-2 text-center text-[13px] font-bold text-[#3b1300] shadow-lg">
+          {toast}
+        </div>
       )}
     </div>
   );

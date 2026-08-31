@@ -180,13 +180,41 @@ create table if not exists messages (
   created_at timestamptz default now()
 );
 
+-- ─── POLICING (inverse of rewards — see supabase/policing_migration.sql) ─
+create table if not exists policing_tasks (
+  id          uuid primary key default gen_random_uuid(),
+  name        text not null,
+  description text,
+  icon        text default '🚨',
+  coins       integer not null default 20,
+  is_active   boolean default true,
+  created_by  uuid references profiles(id),
+  created_at  timestamptz default now()
+);
+create table if not exists policing_events (
+  id          uuid primary key default gen_random_uuid(),
+  task_id     uuid references policing_tasks(id) on delete cascade,
+  actor_id    uuid references profiles(id) on delete cascade,
+  target_id   uuid references profiles(id) on delete cascade,
+  coins       integer not null,
+  status      text not null default 'reminded'
+              check (status in ('reminded','done','cancelled')),
+  created_at  timestamptz default now(),
+  resolved_at timestamptz
+);
+create index if not exists policing_events_target_idx
+  on policing_events (target_id, created_at desc);
+create index if not exists policing_events_actor_idx
+  on policing_events (actor_id, status, created_at desc);
+
 -- ─── ROW LEVEL SECURITY (permissive MVP — tighten before prod) ─
 do $$
 declare t text;
 begin
   foreach t in array array[
     'profiles','tasks','task_completions','coin_transactions','session_runs',
-    'initiatives','rewards','reward_redemptions','messages'
+    'initiatives','rewards','reward_redemptions','messages',
+    'policing_tasks','policing_events'
   ] loop
     execute format('alter table %I enable row level security', t);
     execute format('drop policy if exists allow_all on %I', t);
@@ -216,7 +244,7 @@ create policy "allow_all_task_photos_delete" on storage.objects
 do $$
 declare t text;
 begin
-  foreach t in array array['task_completions','messages','initiatives'] loop
+  foreach t in array array['task_completions','messages','initiatives','policing_events'] loop
     begin
       execute format('alter publication supabase_realtime add table public.%I', t);
     exception when duplicate_object then null;
@@ -243,6 +271,16 @@ insert into rewards (name, icon, coin_cost, description, reward_type, reward_val
   ('Choose dinner',      '🍕', 300, 'You pick what we eat tonight!',    'custom',      null),
   ('$1 pocket money',    '💵', 100, 'Real dollar in your piggy bank',   'money',       1.00),
   ('Stay up 30 min late','🌙', 250, 'Bedtime extended by 30 minutes',   'custom',      null)
+on conflict do nothing;
+
+-- ─── SEED: example policing tasks (edit / delete freely) ─────
+insert into policing_tasks (name, icon, coins, description) values
+  ('Turn off the light', '💡', 20, 'Left a light on after leaving the room'),
+  ('Close the fridge',   '🧊', 15, 'Fridge door left open'),
+  ('Put shoes away',     '👟', 10, 'Shoes left in the walkway'),
+  ('Flush / lid down',   '🚽', 15, 'Bathroom left in a state'),
+  ('Push the chair in',  '🪑', 10, 'Chair left out from the table'),
+  ('Clear your plate',   '🍽️', 15, 'Plate left on the table')
 on conflict do nothing;
 
 -- ============================================================
