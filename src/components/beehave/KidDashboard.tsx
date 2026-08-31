@@ -418,7 +418,8 @@ const KID_ICON_CHOICES = [
 
 // ─── Main KidDashboard ────────────────────────────────────────────────────────
 export function KidDashboard(_props: { profileSlug: string }) {
-  const { profile, logout, refreshCurrentProfile } = useBeehaveAuth();
+  const { profile, loading, error, logout, refreshCurrentProfile } =
+    useBeehaveAuth();
   const supabase = getSupabaseClient();
 
   const [tasks, setTasks] = useState<TaskRow[]>([]);
@@ -1122,11 +1123,25 @@ export function KidDashboard(_props: { profileSlug: string }) {
     return isToday ? `${label} · Today` : label;
   }
 
-  if (!profile) {
+  if (loading) {
     return (
       <div className="flex flex-col items-center justify-center gap-4 py-24 text-muted">
         <div className="text-5xl">🐝</div>
         <p className="text-sm">Loading Beehave…</p>
+      </div>
+    );
+  }
+
+  if (!profile) {
+    return (
+      <div className="flex flex-col items-center justify-center gap-3 py-24 text-center text-muted">
+        <div className="text-5xl">🐝</div>
+        <p className="text-sm font-medium text-foreground">
+          Beehave isn&apos;t set up yet
+        </p>
+        <p className="max-w-sm text-sm">
+          {error ?? "No Beehave profile is linked to this account."}
+        </p>
       </div>
     );
   }

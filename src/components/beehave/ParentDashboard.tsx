@@ -175,7 +175,7 @@ type TabName = (typeof TABS)[number];
 
 // ─── Main ParentDashboard ────────────────────────────────────────────────────
 export function ParentDashboard(_props: { profileSlug: string }) {
-  const { profile, profiles, logout } = useBeehaveAuth();
+  const { profile, profiles, loading, error, logout } = useBeehaveAuth();
   const [tab, setTab] = useState<TabName>("Overview");
   const [pendingCount, setPendingCount] = useState(0);
 
@@ -215,11 +215,25 @@ export function ParentDashboard(_props: { profileSlug: string }) {
 
   const kids = profiles.filter((p) => p.role === "kid") as KidRow[];
 
-  if (!profile) {
+  if (loading) {
     return (
       <div className="flex flex-col items-center justify-center gap-4 py-24 text-muted">
         <div className="text-5xl">🐝</div>
         <p className="text-sm">Loading Beehave…</p>
+      </div>
+    );
+  }
+
+  if (!profile) {
+    return (
+      <div className="flex flex-col items-center justify-center gap-3 py-24 text-center text-muted">
+        <div className="text-5xl">🐝</div>
+        <p className="text-sm font-medium text-foreground">
+          Beehave isn&apos;t set up yet
+        </p>
+        <p className="max-w-sm text-sm">
+          {error ?? "No Beehave profile is linked to this account."}
+        </p>
       </div>
     );
   }
