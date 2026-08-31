@@ -1,0 +1,3365 @@
+"use client";
+
+import {
+  useState,
+  useEffect,
+  useRef,
+  type CSSProperties,
+  type ChangeEvent,
+  type ReactNode,
+} from "react";
+import { useBeehaveAuth, type BeehaveProfile } from "@/lib/beehaveAuth";
+import { getSupabaseClient } from "@/lib/supabase";
+import { beehave } from "@/lib/beehave";
+import * as XLSX from "xlsx";
+
+const supabase = getSupabaseClient();
+
+// ─── Types ───────────────────────────────────────────────────────────────────
+type KidRow = BeehaveProfile & {
+  avatar_emoji?: string | null;
+  avatar_color?: string | null;
+  coin_balance: number;
+};
+
+type TaskRow = {
+  id: string;
+  name: string;
+  icon: string;
+  start_time: string;
+  expiry_time?: string | null;
+  deadline_time?: string | null;
+  end_time?: string | null;
+  target_duration?: number | null;
+  task_type?: string | null;
+  full_coins: number;
+  min_coins?: number | null;
+  penalty_coins: number;
+  days_of_week?: number[] | null;
+  assigned_to?: string;
+  requires_approval?: boolean | null;
+  requires_photo?: boolean | null;
+  approval?: string | null;
+  note?: string | null;
+  description?: string | null;
+  start_date?: string | null;
+  end_date?: string | null;
+  is_active?: boolean;
+  pending_parent_review?: boolean;
+  kid?: { name?: string; avatar_emoji?: string } | null;
+  [k: string]: unknown;
+};
+
+type CompletionRow = {
+  id: string;
+  task_id: string;
+  kid_id: string;
+  coins_earned: number;
+  status: string;
+  scheduled_date?: string;
+  completed_at?: string | null;
+  completion_count?: number | null;
+  photo_path?: string | null;
+  task?: TaskRow | null;
+  kid?: KidRow | null;
+};
+
+type InitiativeRow = {
+  id: string;
+  kid_id: string;
+  note?: string | null;
+  before_photo_path?: string | null;
+  after_photo_path?: string | null;
+  status: string;
+  created_at?: string;
+  kid?: KidRow | null;
+};
+
+type RewardRow = {
+  id: string;
+  name: string;
+  icon: string;
+  coin_cost: number;
+  description?: string | null;
+  is_active?: boolean;
+};
+
+type RedemptionRow = {
+  id: string;
+  kid_id: string;
+  coins_spent: number;
+  status: string;
+  kid?: { name?: string; avatar_emoji?: string } | null;
+  reward?: { name?: string; icon?: string } | null;
+};
+
+/* Emoji font stack — ensures emoji render as color glyphs, not CJK fallbacks */
+const EMOJI_FONT =
+  '"Apple Color Emoji","Segoe UI Emoji","Noto Color Emoji","Twemoji Mozilla",sans-serif';
+
+/* ─── Emoji Picker ─── */
+const TASK_EMOJIS = [
+  "✏️", "✒️", "✂️", "☑️", "❓", "❗", "➕", "➗", "⌚",
+  "☀️", "⭐", "☁️", "⛅", "☔", "❄️", "⚡", "☄️", "⛄",
+  "☯️", "☸️", "✝️", "☪️", "✡️", "⛩️", "☺️", "☹️", "❤️",
+  "⚽", "⚾", "⛳", "⛵", "⛷️", "⛸️", "⛹️", "⚔️",
+  "☕", "⛽", "⚗️",
+  "⚙️", "⚓", "⚖️", "⚛️", "✈️", "⛺", "⛲", "⛰️",
+  "✨", "♻️", "♿", "⚠️", "⛔", "✅", "❌",
+  "⬆️", "⬇️", "➡️", "↩️", "♾️",
+];
+
+function EmojiPicker({
+  value,
+  onChange,
+}: {
+  value: string;
+  onChange: (v: string) => void;
+}) {
+  const [open, setOpen] = useState(false);
+  return (
+    <div className="relative inline-block">
+      <button
+        type="button"
+        onClick={() => setOpen((o) => !o)}
+        title="Pick emoji"
+        className="flex h-[52px] w-16 items-center justify-center rounded-[10px] border bg-white/5 text-[24px] transition-colors"
+        style={{
+          borderColor: open ? "#f5c518" : "rgba(255,255,255,0.08)",
+          fontFamily: EMOJI_FONT,
+        }}
+      >
+        {value || "⭐"}
+      </button>
+
+      {open && (
+        <>
+          <div
+            onClick={() => setOpen(false)}
+            className="fixed inset-0 z-[90]"
+          />
+          <div
+            className="absolute left-0 top-full z-[100] mt-1 grid max-h-[220px] w-[296px] grid-cols-8 gap-0.5 overflow-y-auto rounded-xl border border-white/[0.12] bg-[#1a1a2e] p-2.5 shadow-2xl"
+          >
+            {TASK_EMOJIS.map((e) => (
+              <button
+                key={e}
+                type="button"
+                onClick={() => {
+                  onChange(e);
+                  setOpen(false);
+                }}
+                className="rounded-md px-0.5 py-[5px] text-[22px] leading-[1.2]"
+                style={{
+                  fontFamily: EMOJI_FONT,
+                  background:
+                    value === e ? "rgba(245,197,24,0.2)" : "transparent",
+                  border:
+                    value === e
+                      ? "1px solid rgba(245,197,24,0.4)"
+                      : "1px solid transparent",
+                }}
+              >
+                {e}
+              </button>
+            ))}
+          </div>
+        </>
+      )}
+    </div>
+  );
+}
+
+const TABS = ["Overview", "Approve", "Task", "Reward", "Message"] as const;
+type TabName = (typeof TABS)[number];
+
+// ─── Main ParentDashboard ────────────────────────────────────────────────────
+export function ParentDashboard(_props: { profileSlug: string }) {
+  const { profile, profiles, logout } = useBeehaveAuth();
+  const [tab, setTab] = useState<TabName>("Overview");
+  const [pendingCount, setPendingCount] = useState(0);
+
+  useEffect(() => {
+    if (!supabase) return;
+    const ch = supabase
+      .channel("beehave-parent-realtime")
+      .on(
+        "postgres_changes",
+        { event: "*", schema: "public", table: "task_completions" },
+        () => void loadPendingCount(),
+      )
+      .on(
+        "postgres_changes",
+        { event: "*", schema: "public", table: "initiatives" },
+        () => void loadPendingCount(),
+      )
+      .subscribe();
+    void loadPendingCount();
+    return () => {
+      void ch.unsubscribe();
+    };
+  }, []);
+
+  async function loadPendingCount() {
+    if (!supabase) return;
+    const { count: compCount } = await supabase
+      .from("task_completions")
+      .select("*", { count: "exact", head: true })
+      .eq("status", "pending_approval");
+    const { count: initCount } = await supabase
+      .from("initiatives")
+      .select("*", { count: "exact", head: true })
+      .eq("status", "pending");
+    setPendingCount((compCount || 0) + (initCount || 0));
+  }
+
+  const kids = profiles.filter((p) => p.role === "kid") as KidRow[];
+
+  if (!profile) {
+    return (
+      <div className="flex flex-col items-center justify-center gap-4 py-24 text-muted">
+        <div className="text-5xl">🐝</div>
+        <p className="text-sm">Loading Beehave…</p>
+      </div>
+    );
+  }
+
+  return (
+    <div className="flex flex-col -mx-4 -my-6 min-h-[calc(100vh-8rem)] bg-[#0f0f1a] text-[#f1f5f9]">
+      {/* ── Slim Navbar ── */}
+      <div
+        className="flex h-[52px] shrink-0 items-center gap-2 border-b border-white/10 px-4"
+        style={{
+          background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
+        }}
+      >
+        <div className="mr-1 whitespace-nowrap text-[15px] font-extrabold">
+          Hey {profile.name}! 👋
+        </div>
+
+        <div className="flex h-full flex-1 items-stretch gap-0.5 overflow-x-auto">
+          {TABS.map((t) => (
+            <button
+              key={t}
+              onClick={() => setTab(t)}
+              className="relative h-full whitespace-nowrap border-b-2 px-[13px] text-[13px]"
+              style={{
+                background: "transparent",
+                color: tab === t ? "#fff" : "#64748b",
+                fontWeight: tab === t ? 700 : 500,
+                borderColor: tab === t ? "#f5c518" : "transparent",
+              }}
+            >
+              {t}
+              {t === "Approve" && pendingCount > 0 && (
+                <span className="absolute right-0.5 top-2 flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#ef4444] text-[9px] font-extrabold text-white">
+                  {pendingCount}
+                </span>
+              )}
+            </button>
+          ))}
+        </div>
+
+        <button
+          onClick={logout}
+          className="shrink-0 whitespace-nowrap rounded-[7px] border border-white/10 bg-white/5 px-2.5 py-[5px] text-[11px] text-[#475569]"
+        >
+          Switch
+        </button>
+      </div>
+
+      {/* Content */}
+      <div className="flex-1 overflow-y-auto px-3.5 pt-3.5">
+        {tab === "Overview" && <OverviewTab kids={kids} />}
+        {tab === "Approve" && (
+          <ApproveTab onApprove={loadPendingCount} profile={profile} />
+        )}
+        {tab === "Task" && <TasksTab kids={kids} />}
+        {tab === "Reward" && <RewardsTab kids={kids} />}
+        {tab === "Message" && <MessageTab kids={kids} profile={profile} />}
+        <div className="h-[60px]" />
+      </div>
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════ OVERVIEW TAB ═══════════════════ */
+type ChartGroup = {
+  label: string;
+  date?: string;
+  kids: { name: string; color: string; done: number }[];
+};
+
+function OverviewTab({ kids }: { kids: KidRow[] }) {
+  const [period, setPeriod] = useState<"today" | "week" | "month">("today");
+  const [kidData, setKidData] = useState<
+    (KidRow & {
+      tasks: TaskRow[];
+      completions: CompletionRow[];
+      earnedToday: number;
+    })[]
+  >([]);
+  const [chartData, setChartData] = useState<ChartGroup[]>([]);
+
+  const today = new Date().toISOString().split("T")[0];
+  const kidColors = ["#ec4899", "#4f8ef7", "#a855f7", "#22c55e"];
+
+  useEffect(() => {
+    void loadData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [kids.length, period]);
+
+  async function loadData() {
+    if (!supabase) return;
+    const dayOfWeek = new Date().getDay();
+
+    const data = await Promise.all(
+      kids.map(async (kid) => {
+        const { data: tasks } = await supabase
+          .from("tasks")
+          .select("*")
+          .eq("assigned_to", kid.id)
+          .eq("is_active", true)
+          .contains("days_of_week", [dayOfWeek]);
+        const { data: comps } = await supabase
+          .from("task_completions")
+          .select("*")
+          .eq("kid_id", kid.id)
+          .eq("scheduled_date", today);
+        const startOfDay = today + "T00:00:00";
+        const { data: txns } = await supabase
+          .from("coin_transactions")
+          .select("amount")
+          .eq("kid_id", kid.id)
+          .gte("created_at", startOfDay)
+          .gt("amount", 0);
+        const earnedToday = ((txns as { amount: number }[]) || []).reduce(
+          (sum, t) => sum + t.amount,
+          0,
+        );
+        return {
+          ...kid,
+          tasks: (tasks as TaskRow[]) || [],
+          completions: (comps as CompletionRow[]) || [],
+          earnedToday,
+        };
+      }),
+    );
+    setKidData(data);
+
+    if (period !== "today") {
+      const days = period === "week" ? 7 : 30;
+      const dates = Array.from({ length: days }, (_, i) => {
+        const d = new Date();
+        d.setDate(d.getDate() - (days - 1 - i));
+        return d.toISOString().split("T")[0];
+      });
+      const startDate = dates[0];
+      const { data: allComps } = await supabase
+        .from("task_completions")
+        .select("kid_id, scheduled_date, status")
+        .in(
+          "kid_id",
+          kids.map((k) => k.id),
+        )
+        .gte("scheduled_date", startDate)
+        .lte("scheduled_date", today);
+
+      const grouped: ChartGroup[] = dates.map((date) => {
+        const d = new Date(date + "T12:00:00");
+        const label =
+          period === "week"
+            ? d.toLocaleDateString("en-AU", { weekday: "short" })
+            : d.toLocaleDateString("en-AU", { day: "numeric", month: "short" });
+        return {
+          label,
+          date,
+          kids: kids.map((kid, idx) => ({
+            name: kid.name,
+            color: kidColors[idx % kidColors.length],
+            done: (
+              (allComps as {
+                scheduled_date: string;
+                kid_id: string;
+                status: string;
+              }[]) || []
+            ).filter(
+              (c) =>
+                c.scheduled_date === date &&
+                c.kid_id === kid.id &&
+                c.status !== "rejected",
+            ).length,
+          })),
+        };
+      });
+      setChartData(grouped);
+    }
+  }
+
+  return (
+    <div>
+      <div className="mb-3.5 flex gap-1.5">
+        {(["today", "week", "month"] as const).map((p) => (
+          <button
+            key={p}
+            onClick={() => setPeriod(p)}
+            className="rounded-[20px] px-4 py-1.5 text-[13px] font-semibold capitalize"
+            style={{
+              background: period === p ? "#f5c518" : "rgba(255,255,255,0.06)",
+              color: period === p ? "#0f0f1a" : "#94a3b8",
+              border:
+                period === p ? "none" : "1px solid rgba(255,255,255,0.08)",
+            }}
+          >
+            {p === "today" ? "Today" : p === "week" ? "This Week" : "This Month"}
+          </button>
+        ))}
+      </div>
+
+      <div
+        className="mb-3.5 grid gap-2.5"
+        style={{ gridTemplateColumns: `repeat(${kids.length || 1}, 1fr)` }}
+      >
+        {kidData.map((kid, idx) => {
+          const level = beehave.coinsToLevel(kid.coin_balance || 0);
+          const done = kid.completions.filter(
+            (c) => c.status !== "rejected",
+          ).length;
+          const total = kid.tasks.length;
+          return (
+            <div
+              key={kid.id}
+              className="rounded-2xl border bg-[#1a1a2e] px-3.5 pb-3 pt-3.5"
+              style={{ borderColor: `${kidColors[idx % kidColors.length]}33` }}
+            >
+              <div className="mb-2.5 flex items-center gap-2">
+                <div
+                  className="flex h-9 w-9 items-center justify-center rounded-full text-[18px]"
+                  style={{
+                    background:
+                      kid.avatar_color || kidColors[idx % kidColors.length],
+                    border: `2px solid ${kidColors[idx % kidColors.length]}66`,
+                  }}
+                >
+                  {kid.avatar_emoji || "😊"}
+                </div>
+                <div>
+                  <div className="text-[14px] font-bold">{kid.name}</div>
+                  <div className="text-[11px] text-[#f5c518]">
+                    {level.emoji} {level.label}
+                  </div>
+                </div>
+              </div>
+
+              <div className="mb-2.5 h-[5px] overflow-hidden rounded-[3px] bg-white/10">
+                <div
+                  className="h-full rounded-[3px] transition-[width] duration-500"
+                  style={{
+                    width: total > 0 ? `${(done / total) * 100}%` : "0%",
+                    background:
+                      done === total && total > 0
+                        ? "#22c55e"
+                        : kidColors[idx % kidColors.length],
+                  }}
+                />
+              </div>
+
+              <div className="flex gap-1.5">
+                <StatChip
+                  label="Balance"
+                  value={`🪙 ${beehave.formatCoins(kid.coin_balance || 0)}`}
+                  color={kidColors[idx % kidColors.length]}
+                />
+                <StatChip
+                  label="Earned today"
+                  value={`+${kid.earnedToday}`}
+                  color="#f5c518"
+                />
+                <StatChip
+                  label="Done"
+                  value={`${done}/${total}`}
+                  color="#22c55e"
+                />
+              </div>
+            </div>
+          );
+        })}
+      </div>
+
+      {period === "today" && (
+        <CalendarGrid
+          kids={kids}
+          kidColors={kidColors}
+          onApprovalComplete={loadData}
+        />
+      )}
+
+      {period !== "today" && chartData.length > 0 && (
+        <CompletionChart
+          data={chartData}
+          period={period}
+          kids={kids}
+          kidColors={kidColors}
+        />
+      )}
+    </div>
+  );
+}
+
+function StatChip({
+  label,
+  value,
+  color,
+}: {
+  label: string;
+  value: string;
+  color: string;
+}) {
+  return (
+    <div
+      className="flex-1 rounded-lg px-1 py-1.5 text-center"
+      style={{ background: `${color}12`, border: `1px solid ${color}28` }}
+    >
+      <div className="text-[13px] font-extrabold" style={{ color }}>
+        {value}
+      </div>
+      <div className="mt-px text-[10px] text-[#64748b]">{label}</div>
+    </div>
+  );
+}
+
+/* ── Calendar constants ── */
+const PX_PER_HOUR = 120;
+const CAL_START = 5;
+const CAL_END = 22;
+const CAL_HOURS = Array.from(
+  { length: CAL_END - CAL_START },
+  (_, i) => i + CAL_START,
+);
+const TOTAL_H = (CAL_END - CAL_START) * PX_PER_HOUR;
+
+function hourLabel(h: number): string {
+  if (h === 0) return "12am";
+  if (h < 12) return `${h}am`;
+  if (h === 12) return "12pm";
+  return `${h - 12}pm`;
+}
+
+function timeToMinutes(t = "00:00"): number {
+  const [h, m] = t.split(":").map(Number);
+  return h * 60 + m;
+}
+
+function timeToY(t: string): number {
+  return (timeToMinutes(t) - CAL_START * 60) * (PX_PER_HOUR / 60);
+}
+
+type LaidOutTask = { task: TaskRow; col: number; totalCols: number };
+
+function layoutTasks(tasks: TaskRow[]): LaidOutTask[] {
+  if (!tasks.length) return [];
+
+  function rangeEnd(t: TaskRow): number {
+    if (
+      (t.task_type === "session" || t.task_type === "focus") &&
+      t.target_duration
+    ) {
+      return (
+        timeToMinutes(t.start_time) + Math.round(t.target_duration / 60)
+      );
+    }
+    const e = timeToMinutes(t.expiry_time || t.start_time);
+    return e > timeToMinutes(t.start_time)
+      ? e
+      : timeToMinutes(t.start_time) + 30;
+  }
+
+  const assigned = tasks.map((task) => {
+    const s = timeToMinutes(task.start_time);
+    const e = rangeEnd(task);
+
+    const group = tasks
+      .filter((other) => {
+        const os = timeToMinutes(other.start_time);
+        const oe = rangeEnd(other);
+        return os < e && oe > s;
+      })
+      .sort(
+        (a, b) =>
+          timeToMinutes(a.start_time) - timeToMinutes(b.start_time) ||
+          (a.id < b.id ? -1 : a.id > b.id ? 1 : 0),
+      );
+
+    const cols: number[] = [];
+    let myCol = 0;
+    for (const t of group) {
+      const ts = timeToMinutes(t.start_time);
+      let placed = false;
+      for (let c = 0; c < cols.length; c++) {
+        if (cols[c] <= ts) {
+          cols[c] = rangeEnd(t);
+          if (t.id === task.id) myCol = c;
+          placed = true;
+          break;
+        }
+      }
+      if (!placed) {
+        if (t.id === task.id) myCol = cols.length;
+        cols.push(rangeEnd(t));
+      }
+    }
+
+    return { task, col: myCol, totalCols: cols.length };
+  });
+
+  return assigned;
+}
+
+const QUICK_TASK_H = 13;
+const QUICK_TASK_GAP = 1;
+
+function stackQuickTasks(tasks: TaskRow[]): { task: TaskRow; y: number }[] {
+  if (!tasks.length) return [];
+  const sorted = [...tasks].sort(
+    (a, b) =>
+      timeToMinutes(a.start_time) - timeToMinutes(b.start_time) ||
+      (a.id > b.id ? 1 : -1),
+  );
+  let nextY = -Infinity;
+  return sorted.map((task) => {
+    const naturalY = timeToY(task.start_time);
+    const y = Math.max(naturalY, nextY);
+    nextY = y + QUICK_TASK_H + QUICK_TASK_GAP;
+    return { task, y };
+  });
+}
+
+const STATUS_META: Record<
+  string,
+  { label: string; color: string; bg: string; icon: string }
+> = {
+  done: { label: "Done", color: "#22c55e", bg: "rgba(34,197,94,0.18)", icon: "✅" },
+  active: { label: "Now", color: "#f5c518", bg: "rgba(245,197,24,0.18)", icon: "⏳" },
+  grace: { label: "Late", color: "#f97316", bg: "rgba(249,115,22,0.18)", icon: "⚠️" },
+  missed: { label: "Missed", color: "#ef4444", bg: "rgba(239,68,68,0.18)", icon: "❌" },
+  upcoming: { label: "Soon", color: "#475569", bg: "rgba(71,85,105,0.14)", icon: "🕐" },
+  pending: { label: "Review", color: "#a855f7", bg: "rgba(168,85,247,0.18)", icon: "👀" },
+};
+
+type CalendarKidData = KidRow & {
+  tasks: TaskRow[];
+  sessions: TaskRow[];
+  quickTasks: TaskRow[];
+  completions: CompletionRow[];
+  runsByTask: Record<string, number>;
+};
+
+type SheetState = {
+  task: TaskRow;
+  comp?: CompletionRow;
+  kid: CalendarKidData;
+};
+
+function CalendarGrid({
+  kids,
+  kidColors,
+  onApprovalComplete,
+}: {
+  kids: KidRow[];
+  kidColors: string[];
+  onApprovalComplete?: () => void;
+}) {
+  const todayStr = () => new Date().toISOString().split("T")[0];
+
+  const [selDate, setSelDate] = useState(new Date());
+  const [kidData, setKidData] = useState<CalendarKidData[]>([]);
+  const [nowY, setNowY] = useState<number | null>(null);
+  const [sheet, setSheet] = useState<SheetState | null>(null);
+  const scrollRef = useRef<HTMLDivElement | null>(null);
+
+  const dateStr = selDate.toISOString().split("T")[0];
+  const isToday = dateStr === todayStr();
+
+  useEffect(() => {
+    function tick() {
+      const n = new Date();
+      const y = timeToY(
+        `${String(n.getHours()).padStart(2, "0")}:${String(
+          n.getMinutes(),
+        ).padStart(2, "0")}`,
+      );
+      setNowY(y >= 0 && y <= TOTAL_H ? y : null);
+    }
+    tick();
+    const id = setInterval(tick, 60_000);
+    return () => clearInterval(id);
+  }, []);
+
+  useEffect(() => {
+    if (isToday && scrollRef.current && nowY !== null) {
+      scrollRef.current.scrollTop = Math.max(0, nowY - 120);
+    }
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [isToday, dateStr]);
+
+  useEffect(() => {
+    void loadData();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [kids.length, dateStr]);
+
+  async function loadData() {
+    if (!supabase) return;
+    const dow = selDate.getDay();
+    const data = await Promise.all(
+      kids.map(async (kid) => {
+        const { data: tasks } = await supabase
+          .from("tasks")
+          .select("*")
+          .eq("assigned_to", kid.id)
+          .eq("is_active", true)
+          .contains("days_of_week", [dow]);
+        const { data: comps } = await supabase
+          .from("task_completions")
+          .select("*")
+          .eq("kid_id", kid.id)
+          .eq("scheduled_date", dateStr);
+        const { data: runs } = await supabase
+          .from("session_runs")
+          .select("task_id, duration_secs")
+          .eq("kid_id", kid.id)
+          .eq("scheduled_date", dateStr);
+        const runsByTask: Record<string, number> = {};
+        for (const r of (runs as {
+          task_id: string;
+          duration_secs?: number;
+        }[]) || []) {
+          runsByTask[r.task_id] =
+            (runsByTask[r.task_id] || 0) + (r.duration_secs || 0);
+        }
+        const allTasks = (tasks as TaskRow[]) || [];
+        const sessions = allTasks.filter(
+          (t) => t.task_type === "session" || t.task_type === "focus",
+        );
+        const quickTasks = allTasks.filter(
+          (t) => t.task_type !== "session" && t.task_type !== "focus",
+        );
+        return {
+          ...kid,
+          tasks: allTasks,
+          sessions,
+          quickTasks,
+          completions: (comps as CompletionRow[]) || [],
+          runsByTask,
+        };
+      }),
+    );
+    setKidData(data);
+  }
+
+  function changeDate(delta: number) {
+    const d = new Date(selDate);
+    d.setDate(d.getDate() + delta);
+    setSelDate(d);
+  }
+
+  function taskStatus(task: TaskRow, comp?: CompletionRow): string {
+    if (!comp) return beehave.getTaskStatus(task);
+    if (comp.status === "rejected") return "missed";
+    if (comp.status === "pending_approval") return "pending";
+    return "done";
+  }
+
+  function blockHeight(task: TaskRow): number {
+    const isSession =
+      task.task_type === "session" || task.task_type === "focus";
+    if (isSession && task.target_duration) {
+      const mins = Math.round(task.target_duration / 60);
+      return Math.max(24, mins * (PX_PER_HOUR / 60));
+    }
+    const start = timeToMinutes(task.start_time || "00:00");
+    const end = timeToMinutes(
+      task.expiry_time || task.start_time || "00:30",
+    );
+    const diff = end - start;
+    return Math.max(24, diff > 0 ? diff * (PX_PER_HOUR / 60) : 30);
+  }
+
+  const dateLabel = isToday
+    ? "Today"
+    : selDate.toLocaleDateString("en-AU", {
+        weekday: "short",
+        day: "numeric",
+        month: "short",
+      });
+
+  async function handleApprove(coins: number) {
+    if (!supabase || !sheet) return;
+    const { comp, task } = sheet;
+    if (!comp) return;
+    await supabase
+      .from("task_completions")
+      .update({ status: "approved", coins_earned: coins })
+      .eq("id", comp.id);
+    await supabase.from("coin_transactions").insert({
+      kid_id: comp.kid_id,
+      amount: coins,
+      reason: `Approved: ${task.name}`,
+      transaction_type: "task_reward",
+      reference_id: comp.id,
+    });
+    const { data: kidRow } = await supabase
+      .from("profiles")
+      .select("coin_balance")
+      .eq("id", comp.kid_id)
+      .single();
+    await supabase
+      .from("profiles")
+      .update({
+        coin_balance: Math.max(
+          0,
+          ((kidRow as { coin_balance?: number } | null)?.coin_balance || 0) +
+            coins,
+        ),
+      })
+      .eq("id", comp.kid_id);
+    setSheet(null);
+    void loadData();
+    onApprovalComplete?.();
+  }
+
+  async function handleReject() {
+    if (!supabase || !sheet?.comp) return;
+    await supabase
+      .from("task_completions")
+      .update({ status: "rejected" })
+      .eq("id", sheet.comp.id);
+    setSheet(null);
+    void loadData();
+    onApprovalComplete?.();
+  }
+
+  const colCount = kidData.length;
+
+  return (
+    <div>
+      <div className="mb-2.5 flex items-center gap-2.5">
+        <button
+          onClick={() => changeDate(-1)}
+          className="flex h-[34px] w-[34px] items-center justify-center rounded-[10px] border border-white/10 bg-white/[0.07] text-[16px] text-[#e2e8f0]"
+        >
+          ‹
+        </button>
+        <div className="flex-1 text-center text-[14px] font-bold">
+          {dateLabel}
+          {!isToday && (
+            <span className="ml-1.5 text-[11px] text-[#475569]">
+              {selDate.toLocaleDateString("en-AU", {
+                day: "numeric",
+                month: "short",
+                year: "numeric",
+              })}
+            </span>
+          )}
+        </div>
+        <button
+          onClick={() => changeDate(1)}
+          className="flex h-[34px] w-[34px] items-center justify-center rounded-[10px] border border-white/10 bg-white/[0.07] text-[16px] text-[#e2e8f0]"
+        >
+          ›
+        </button>
+        {!isToday && (
+          <button
+            onClick={() => setSelDate(new Date())}
+            className="rounded-[10px] border border-[#f5c518]/30 bg-[#f5c518]/10 px-3 py-1.5 text-[12px] font-semibold text-[#f5c518]"
+          >
+            Today
+          </button>
+        )}
+      </div>
+
+      <div className="overflow-hidden rounded-2xl border border-white/10 bg-[#1a1a2e]">
+        <div
+          className="sticky top-0 z-20 grid border-b border-white/10 bg-white/[0.03]"
+          style={{ gridTemplateColumns: `44px repeat(${colCount || 1}, 1fr)` }}
+        >
+          <div />
+          {kidData.map((kid, idx) => (
+            <div
+              key={kid.id}
+              className="flex items-center gap-1.5 border-l border-white/[0.06] px-2 py-2.5 text-[13px] font-bold"
+              style={{ color: kidColors[idx % kidColors.length] }}
+            >
+              <span className="text-[16px]">{kid.avatar_emoji}</span>
+              {kid.name}
+            </div>
+          ))}
+        </div>
+
+        <div
+          ref={scrollRef}
+          className="overflow-y-auto"
+          style={{ maxHeight: "62vh" }}
+        >
+          <div className="relative" style={{ height: TOTAL_H }}>
+            <div
+              className="grid h-full"
+              style={{
+                gridTemplateColumns: `44px repeat(${colCount || 1}, 1fr)`,
+              }}
+            >
+              <div className="relative bg-black/[0.08]">
+                {CAL_HOURS.map((h) => (
+                  <div
+                    key={h}
+                    className="absolute right-1.5 select-none text-[10px]"
+                    style={{
+                      top: (h - CAL_START) * PX_PER_HOUR - 8,
+                      color:
+                        h === new Date().getHours() && isToday
+                          ? "#f5c518"
+                          : "#475569",
+                      fontWeight:
+                        h === new Date().getHours() && isToday ? 700 : 400,
+                    }}
+                  >
+                    {hourLabel(h)}
+                  </div>
+                ))}
+              </div>
+
+              {kidData.map((kid) => (
+                <div
+                  key={kid.id}
+                  className="relative border-l border-white/[0.06]"
+                >
+                  {CAL_HOURS.map((h) => (
+                    <div
+                      key={h}
+                      className="absolute left-0 right-0 h-px"
+                      style={{
+                        top: (h - CAL_START) * PX_PER_HOUR,
+                        background:
+                          h % 2 === 0
+                            ? "rgba(255,255,255,0.05)"
+                            : "rgba(255,255,255,0.02)",
+                      }}
+                    />
+                  ))}
+
+                  <div className="absolute bottom-0 left-1/2 top-0 z-[1] w-px bg-white/[0.04]" />
+
+                  {layoutTasks(kid.sessions || []).map(
+                    ({ task, col, totalCols }) => {
+                      const comp = kid.completions.find(
+                        (c) => c.task_id === task.id,
+                      );
+                      const status = taskStatus(task, comp);
+                      const meta = STATUS_META[status] || STATUS_META.upcoming;
+                      const top = timeToY(task.start_time);
+                      const h = blockHeight(task);
+                      const isMissed = status === "missed";
+                      const isPending = status === "pending";
+                      const totalSecs = kid.runsByTask?.[task.id] || 0;
+                      const scheduledMins = task.target_duration
+                        ? Math.round(task.target_duration / 60)
+                        : null;
+                      const GAP = 2;
+                      const halfW = 50;
+                      const laneW = `calc(${halfW / totalCols}% - ${GAP}px)`;
+                      const laneLeft = `calc(${
+                        (col / totalCols) * halfW
+                      }% + ${GAP / 2}px)`;
+                      return (
+                        <div
+                          key={task.id}
+                          onClick={() => setSheet({ task, comp, kid })}
+                          className="absolute z-[5] cursor-pointer overflow-hidden rounded-[5px] px-1.5 py-1"
+                          style={{
+                            top,
+                            height: h,
+                            left: laneLeft,
+                            width: laneW,
+                            background:
+                              status === "done"
+                                ? meta.bg
+                                : "rgba(79,142,247,0.14)",
+                            border: `1px solid ${
+                              status === "done"
+                                ? meta.color + "44"
+                                : "rgba(79,142,247,0.4)"
+                            }`,
+                            borderLeft: `3px solid ${
+                              status === "done" ? meta.color : "#4f8ef7"
+                            }`,
+                            opacity: isMissed ? 0.65 : 1,
+                            boxShadow: isPending
+                              ? `0 0 0 1px ${meta.color}66`
+                              : "none",
+                            boxSizing: "border-box",
+                          }}
+                        >
+                          <div className="flex h-full items-start gap-1">
+                            <span
+                              className="shrink-0 leading-[1.3]"
+                              style={{
+                                fontSize: h < 50 ? 11 : 14,
+                                fontFamily: EMOJI_FONT,
+                              }}
+                            >
+                              {task.icon}
+                            </span>
+                            <div className="min-w-0 flex-1">
+                              <div
+                                className="overflow-hidden text-ellipsis whitespace-nowrap font-bold leading-[1.25] text-[#e2e8f0]"
+                                style={{
+                                  fontSize: h < 50 ? 10 : 12,
+                                  textDecoration: isMissed
+                                    ? "line-through"
+                                    : "none",
+                                }}
+                              >
+                                {task.name}
+                              </div>
+                              {h >= 52 && (
+                                <div className="mt-0.5 text-[10px] text-[#64748b]">
+                                  {beehave.formatTime(task.start_time)}
+                                </div>
+                              )}
+                              {h >= 52 && totalSecs > 0 && scheduledMins && (
+                                <div className="mt-px text-[10px] text-[#4f8ef7]">
+                                  ⏱ {Math.round(totalSecs / 60)}/{scheduledMins}m
+                                </div>
+                              )}
+                            </div>
+                            {h >= 36 && (
+                              <span className="shrink-0 text-[10px]">
+                                {meta.icon}
+                              </span>
+                            )}
+                          </div>
+                        </div>
+                      );
+                    },
+                  )}
+
+                  {stackQuickTasks(kid.quickTasks || []).map(({ task, y }) => {
+                    const comp = kid.completions.find(
+                      (c) => c.task_id === task.id,
+                    );
+                    const status = taskStatus(task, comp);
+                    const meta = STATUS_META[status] || STATUS_META.upcoming;
+                    const isMissed = status === "missed";
+                    const isPending = status === "pending";
+                    return (
+                      <div
+                        key={task.id}
+                        onClick={() => setSheet({ task, comp, kid })}
+                        className="absolute z-[5] flex cursor-pointer items-center gap-1 overflow-hidden rounded-sm px-[3px]"
+                        style={{
+                          top: y,
+                          height: QUICK_TASK_H,
+                          left: "calc(50% + 2px)",
+                          right: 2,
+                          background: meta.bg,
+                          border: `1px solid ${meta.color}33`,
+                          borderLeft: `2px solid ${meta.color}`,
+                          opacity: isMissed ? 0.55 : 1,
+                          boxShadow: isPending
+                            ? `0 0 0 1px ${meta.color}55`
+                            : "none",
+                          boxSizing: "border-box",
+                        }}
+                      >
+                        <span
+                          className="shrink-0 text-[8px] leading-none"
+                          style={{ fontFamily: EMOJI_FONT }}
+                        >
+                          {task.icon}
+                        </span>
+                        <div
+                          className="min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap text-[8px] font-semibold leading-none"
+                          style={{
+                            color: meta.color,
+                            textDecoration: isMissed ? "line-through" : "none",
+                          }}
+                        >
+                          {task.name}
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              ))}
+            </div>
+
+            {isToday && nowY !== null && (
+              <div
+                className="pointer-events-none absolute left-11 right-0 z-[15] h-0.5 bg-[#ef4444]"
+                style={{ top: nowY }}
+              >
+                <div
+                  className="absolute -left-[5px] -top-1 h-2.5 w-2.5 rounded-full bg-[#ef4444]"
+                  style={{ boxShadow: "0 0 6px #ef4444" }}
+                />
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+
+      {sheet && (
+        <TaskSheet
+          sheet={sheet}
+          onClose={() => setSheet(null)}
+          onApprove={handleApprove}
+          onReject={handleReject}
+          taskStatus={taskStatus}
+        />
+      )}
+    </div>
+  );
+}
+
+function TaskSheet({
+  sheet,
+  onClose,
+  onApprove,
+  onReject,
+  taskStatus,
+}: {
+  sheet: SheetState;
+  onClose: () => void;
+  onApprove: (coins: number) => void;
+  onReject: () => void;
+  taskStatus: (task: TaskRow, comp?: CompletionRow) => string;
+}) {
+  const { task, comp, kid } = sheet;
+  const status = taskStatus(task, comp);
+  const meta = STATUS_META[status] || STATUS_META.upcoming;
+  const isPending = status === "pending";
+  const isSession =
+    task.task_type === "session" || task.task_type === "focus";
+
+  const defaultCoins = comp?.coins_earned ?? task.full_coins ?? 20;
+  const [coins, setCoins] = useState(defaultCoins);
+  const [note, setNote] = useState("");
+  const [sessionRuns, setSessionRuns] = useState<
+    { duration_secs?: number }[]
+  >([]);
+
+  useEffect(() => {
+    if (!isSession || !supabase) return;
+    const today = new Date().toISOString().split("T")[0];
+    supabase
+      .from("session_runs")
+      .select("*")
+      .eq("task_id", task.id)
+      .eq("kid_id", kid.id)
+      .eq("scheduled_date", today)
+      .order("started_at")
+      .then(({ data }) =>
+        setSessionRuns((data as { duration_secs?: number }[]) || []),
+      );
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [task.id]);
+
+  const totalSessionSecs = sessionRuns.reduce(
+    (s, r) => s + (r.duration_secs || 0),
+    0,
+  );
+  const scheduledMins = task.target_duration
+    ? Math.round(task.target_duration / 60)
+    : null;
+
+  const presetCoins = [0, task.min_coins, task.full_coins].filter(
+    (v): v is number => v !== undefined && v !== null,
+  );
+
+  return (
+    <div
+      onClick={onClose}
+      className="fixed inset-0 z-[300] flex items-end bg-black/[0.65]"
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="max-h-[70vh] w-full overflow-y-auto rounded-t-[20px] bg-[#1a1a2e] px-4 pb-9 pt-2"
+        style={{ borderTop: `3px solid ${meta.color}` }}
+      >
+        <div className="mx-auto mb-4 mt-2 h-1 w-9 rounded-sm bg-white/[0.15]" />
+
+        <div className="mb-4 flex items-center gap-3">
+          <div
+            className="flex h-11 w-11 items-center justify-center rounded-full text-[20px]"
+            style={{ background: kid.avatar_color || "#4f8ef7" }}
+          >
+            {kid.avatar_emoji}
+          </div>
+          <div className="flex-1">
+            <div className="text-[12px] text-[#64748b]">{kid.name}</div>
+            <div className="text-[17px] font-extrabold">
+              <span style={{ fontFamily: EMOJI_FONT }}>{task.icon}</span>{" "}
+              {task.name}
+            </div>
+            <div className="mt-0.5 text-[12px] text-[#94a3b8]">
+              {beehave.formatTime(task.start_time)}
+              {isSession &&
+                task.target_duration &&
+                ` → ${(() => {
+                  const [sh, sm] = (task.start_time || "00:00")
+                    .split(":")
+                    .map(Number);
+                  const total =
+                    sh * 60 + sm + Math.round((task.target_duration || 0) / 60);
+                  return `${String(Math.floor(total / 60) % 24).padStart(
+                    2,
+                    "0",
+                  )}:${String(total % 60).padStart(2, "0")}`;
+                })()}`}
+              {!isSession &&
+                task.expiry_time &&
+                ` (expires ${beehave.formatTime(task.expiry_time)})`}
+              {isSession && (
+                <span className="ml-1.5 text-[#4f8ef7]">⏱ Session</span>
+              )}
+            </div>
+            {isSession && totalSessionSecs > 0 && (
+              <div className="mt-2 flex items-center gap-2 rounded-lg border border-[#4f8ef7]/25 bg-[#4f8ef7]/10 px-2.5 py-1.5">
+                <span className="text-[13px] font-bold text-[#4f8ef7]">
+                  ⏱ {Math.round(totalSessionSecs / 60)} min studied
+                  {scheduledMins && ` of ${scheduledMins} min`}
+                </span>
+                {totalSessionSecs >= (task.target_duration || 0) &&
+                  (task.target_duration || 0) > 0 && (
+                    <span className="text-[12px] text-[#f5c518]">
+                      🏆 Full session!
+                    </span>
+                  )}
+              </div>
+            )}
+          </div>
+          <span
+            className="rounded-[20px] px-2.5 py-1 text-[11px] font-bold"
+            style={{
+              background: meta.bg,
+              color: meta.color,
+              border: `1px solid ${meta.color}44`,
+            }}
+          >
+            {meta.icon} {meta.label}
+          </span>
+        </div>
+
+        {comp && comp.completed_at && (
+          <div className="mb-3.5 rounded-[10px] border border-white/10 bg-white/[0.04] px-3.5 py-2.5 text-[13px] text-[#94a3b8]">
+            Marked done at{" "}
+            {new Date(comp.completed_at).toLocaleTimeString("en-AU", {
+              hour: "2-digit",
+              minute: "2-digit",
+            })}
+            {comp.completion_count && ` · Completion #${comp.completion_count}`}
+          </div>
+        )}
+
+        {isPending && (
+          <>
+            <div className="mb-3.5">
+              <p className="mb-2 text-[12px] text-[#94a3b8]">Coins to award</p>
+              <div className="mb-2.5 flex items-center gap-3">
+                <button
+                  onClick={() => setCoins((c) => Math.max(0, c - 5))}
+                  className="h-10 w-10 rounded-[10px] bg-white/[0.08] text-[20px] font-bold text-white"
+                >
+                  −
+                </button>
+                <div className="flex-1 text-center text-[28px] font-black text-[#f5c518]">
+                  🪙 {coins}
+                </div>
+                <button
+                  onClick={() => setCoins((c) => c + 5)}
+                  className="h-10 w-10 rounded-[10px] bg-white/[0.08] text-[20px] font-bold text-white"
+                >
+                  +
+                </button>
+              </div>
+              <div className="flex flex-wrap gap-2">
+                {presetCoins.map((v) => (
+                  <button
+                    key={v}
+                    onClick={() => setCoins(v)}
+                    className="rounded-[20px] px-3.5 py-[5px] text-[12px] font-semibold"
+                    style={{
+                      background:
+                        coins === v
+                          ? "rgba(245,197,24,0.2)"
+                          : "rgba(255,255,255,0.06)",
+                      border: `1px solid ${
+                        coins === v
+                          ? "rgba(245,197,24,0.4)"
+                          : "rgba(255,255,255,0.08)"
+                      }`,
+                      color: coins === v ? "#f5c518" : "#94a3b8",
+                    }}
+                  >
+                    {v === 0
+                      ? "0 (none)"
+                      : v === task.min_coins
+                      ? `${v} (min)`
+                      : `${v} (full)`}
+                  </button>
+                ))}
+              </div>
+            </div>
+
+            <input
+              placeholder="Note to kid (optional)"
+              value={note}
+              onChange={(e) => setNote(e.target.value)}
+              className="mb-3 w-full rounded-[10px] border border-white/10 bg-white/5 px-4 py-3.5 text-[14px] text-[#f1f5f9]"
+            />
+
+            <div className="flex gap-2.5">
+              <button
+                onClick={onReject}
+                className="flex-1 rounded-[10px] border border-[#ef4444]/30 bg-[#ef4444]/15 p-3.5 text-[15px] font-semibold text-[#ef4444]"
+              >
+                ❌ Reject
+              </button>
+              <button
+                onClick={() => onApprove(coins)}
+                className="flex-[2] rounded-[10px] border border-[#22c55e]/30 bg-[#22c55e]/15 p-3.5 text-[15px] font-extrabold text-[#22c55e]"
+              >
+                ✅ Approve 🪙 {coins}
+              </button>
+            </div>
+          </>
+        )}
+
+        {!isPending && (
+          <div className="flex gap-2.5">
+            {status === "done" && (
+              <div className="flex-1 rounded-xl border border-[#22c55e]/25 bg-[#22c55e]/10 px-4 py-3 text-center">
+                <div className="mb-1 text-[22px]">
+                  🪙 {comp?.coins_earned ?? "—"}
+                </div>
+                <div className="text-[12px] text-[#94a3b8]">Coins earned</div>
+              </div>
+            )}
+            {status === "missed" && (
+              <div className="flex-1 rounded-xl border border-[#ef4444]/20 bg-[#ef4444]/[0.08] px-4 py-3 text-center">
+                <div className="mb-1 text-[22px]">😔</div>
+                <div className="text-[12px] text-[#94a3b8]">
+                  Task was missed
+                </div>
+              </div>
+            )}
+            <div className="flex-1 rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3 text-center">
+              <div className="mb-1 text-[14px] font-bold text-[#f5c518]">
+                🪙 {task.full_coins}
+              </div>
+              <div className="text-[11px] text-[#64748b]">
+                Full · {task.min_coins} Min
+              </div>
+              {(task.penalty_coins || 0) > 0 && (
+                <div className="mt-0.5 text-[11px] text-[#ef4444]">
+                  −{task.penalty_coins} Penalty
+                </div>
+              )}
+            </div>
+          </div>
+        )}
+
+        <button
+          onClick={onClose}
+          className="mt-4 w-full rounded-xl border border-white/10 bg-white/[0.06] p-3 text-[14px] font-semibold text-[#64748b]"
+        >
+          Close
+        </button>
+      </div>
+    </div>
+  );
+}
+
+/* ── Bar Chart for week / month ── */
+function CompletionChart({
+  data,
+  period,
+  kids,
+  kidColors,
+}: {
+  data: ChartGroup[];
+  period: "week" | "month";
+  kids: KidRow[];
+  kidColors: string[];
+}) {
+  const displayData: ChartGroup[] =
+    period === "month"
+      ? (() => {
+          const weeks: ChartGroup[] = [];
+          for (let i = 0; i < data.length; i += 7) {
+            const chunk = data.slice(i, i + 7);
+            const label = chunk[0].label;
+            const kidTotals = kids.map((kid, idx) => ({
+              name: kid.name,
+              color: kidColors[idx % kidColors.length],
+              done: chunk.reduce(
+                (s, d) => s + (d.kids[idx]?.done || 0),
+                0,
+              ),
+            }));
+            weeks.push({ label, kids: kidTotals });
+          }
+          return weeks;
+        })()
+      : data;
+
+  const barW = period === "week" ? 28 : 18;
+  const groupGap = period === "week" ? 28 : 12;
+  const kidGap = 3;
+  const chartH = 140;
+  const leftPad = 32;
+  const rightPad = 12;
+  const totalGroupW = kids.length * barW + (kids.length - 1) * kidGap;
+  const totalW =
+    leftPad + displayData.length * (totalGroupW + groupGap) + rightPad;
+
+  const yMax = Math.max(
+    1,
+    ...displayData.flatMap((d) => d.kids.map((k) => k.done)),
+  );
+
+  return (
+    <div className="rounded-2xl border border-white/10 bg-[#1a1a2e] px-3.5 pb-2.5 pt-4">
+      <div className="mb-3 flex items-center gap-3">
+        <span className="text-[14px] font-bold">
+          {period === "week" ? "Weekly" : "Monthly"} Completion
+        </span>
+        <div className="flex gap-2.5">
+          {kids.map((kid, idx) => (
+            <div key={kid.id} className="flex items-center gap-1">
+              <div
+                className="h-2.5 w-2.5 rounded-sm"
+                style={{ background: kidColors[idx % kidColors.length] }}
+              />
+              <span className="text-[11px] text-[#94a3b8]">{kid.name}</span>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className="overflow-x-auto">
+        <svg
+          width={Math.max(totalW, 280)}
+          height={chartH + 28}
+          className="block"
+        >
+          {[0, 0.25, 0.5, 0.75, 1].map((f) => {
+            const y = chartH - f * chartH + 4;
+            return (
+              <g key={f}>
+                <line
+                  x1={leftPad - 4}
+                  y1={y}
+                  x2={totalW - rightPad}
+                  y2={y}
+                  stroke="rgba(255,255,255,0.06)"
+                  strokeWidth={1}
+                />
+                <text
+                  x={leftPad - 6}
+                  y={y + 4}
+                  textAnchor="end"
+                  fontSize={9}
+                  fill="#475569"
+                >
+                  {Math.round(f * yMax)}
+                </text>
+              </g>
+            );
+          })}
+
+          {displayData.map((group, gi) => {
+            const groupX = leftPad + gi * (totalGroupW + groupGap);
+            return (
+              <g key={gi}>
+                {group.kids.map((k, ki) => {
+                  const barH =
+                    yMax > 0
+                      ? Math.round((k.done / yMax) * (chartH - 8))
+                      : 0;
+                  const x = groupX + ki * (barW + kidGap);
+                  const y = chartH - barH + 4;
+                  return (
+                    <g key={ki}>
+                      <rect
+                        x={x}
+                        y={y}
+                        width={barW}
+                        height={barH}
+                        rx={3}
+                        fill={k.color}
+                        opacity={0.85}
+                      />
+                      {k.done > 0 && (
+                        <text
+                          x={x + barW / 2}
+                          y={y - 3}
+                          textAnchor="middle"
+                          fontSize={9}
+                          fill={k.color}
+                          fontWeight="700"
+                        >
+                          {k.done}
+                        </text>
+                      )}
+                    </g>
+                  );
+                })}
+                <text
+                  x={groupX + totalGroupW / 2}
+                  y={chartH + 18}
+                  textAnchor="middle"
+                  fontSize={9}
+                  fill="#64748b"
+                >
+                  {group.label}
+                </text>
+              </g>
+            );
+          })}
+        </svg>
+      </div>
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════ APPROVE TAB ═══════════════════ */
+function ApproveTab({
+  onApprove,
+  profile,
+}: {
+  onApprove: () => void;
+  profile: BeehaveProfile;
+}) {
+  const [queue, setQueue] = useState<CompletionRow[]>([]);
+  const [initiativeQueue, setInitiativeQueue] = useState<InitiativeRow[]>([]);
+
+  useEffect(() => {
+    void loadQueue();
+    void loadInitiativeQueue();
+  }, []);
+
+  async function loadQueue() {
+    if (!supabase) return;
+    const { data } = await supabase
+      .from("task_completions")
+      .select("*, task:task_id(*), kid:kid_id(*)")
+      .eq("status", "pending_approval")
+      .order("created_at");
+    setQueue((data as CompletionRow[]) || []);
+  }
+
+  async function loadInitiativeQueue() {
+    if (!supabase) return;
+    const { data } = await supabase
+      .from("initiatives")
+      .select("*, kid:kid_id(*)")
+      .eq("status", "pending")
+      .order("created_at");
+    setInitiativeQueue((data as InitiativeRow[]) || []);
+  }
+
+  async function deletePhotoEvidence(comp: CompletionRow) {
+    if (!comp.photo_path || !supabase) return;
+    await supabase.storage.from("task-photos").remove([comp.photo_path]);
+  }
+
+  async function approve(comp: CompletionRow, adjustedCoins: number) {
+    if (!supabase) return;
+    await supabase
+      .from("task_completions")
+      .update({
+        status: "approved",
+        coins_earned: adjustedCoins,
+        photo_path: null,
+      })
+      .eq("id", comp.id);
+    await supabase.from("coin_transactions").insert({
+      kid_id: comp.kid_id,
+      amount: adjustedCoins,
+      reason: `Approved: ${comp.task?.name}`,
+      transaction_type: "task_reward",
+      reference_id: comp.id,
+    });
+    const { data: kid } = await supabase
+      .from("profiles")
+      .select("coin_balance")
+      .eq("id", comp.kid_id)
+      .single();
+    await supabase
+      .from("profiles")
+      .update({
+        coin_balance: Math.max(
+          0,
+          ((kid as { coin_balance?: number } | null)?.coin_balance || 0) +
+            adjustedCoins,
+        ),
+      })
+      .eq("id", comp.kid_id);
+    await deletePhotoEvidence(comp);
+    void loadQueue();
+    onApprove();
+  }
+
+  async function reject(comp: CompletionRow) {
+    if (!supabase) return;
+    await supabase
+      .from("task_completions")
+      .update({ status: "rejected", photo_path: null })
+      .eq("id", comp.id);
+    await deletePhotoEvidence(comp);
+    void loadQueue();
+    onApprove();
+  }
+
+  async function deleteInitiativePhotos(init: InitiativeRow) {
+    const paths = [init.before_photo_path, init.after_photo_path].filter(
+      (p): p is string => Boolean(p),
+    );
+    if (paths.length && supabase)
+      await supabase.storage.from("task-photos").remove(paths);
+  }
+
+  async function approveInitiative(init: InitiativeRow, coins: number) {
+    if (!supabase) return;
+    await supabase
+      .from("initiatives")
+      .update({
+        status: "approved",
+        coins_awarded: coins,
+        decided_by: profile?.id,
+        decided_at: new Date().toISOString(),
+        before_photo_path: null,
+        after_photo_path: null,
+      })
+      .eq("id", init.id);
+    if (coins > 0) {
+      await supabase.from("coin_transactions").insert({
+        kid_id: init.kid_id,
+        amount: coins,
+        reason: "Initiative approved",
+        transaction_type: "bonus",
+        reference_id: init.id,
+      });
+      const { data: kid } = await supabase
+        .from("profiles")
+        .select("coin_balance")
+        .eq("id", init.kid_id)
+        .single();
+      await supabase
+        .from("profiles")
+        .update({
+          coin_balance: Math.max(
+            0,
+            ((kid as { coin_balance?: number } | null)?.coin_balance || 0) +
+              coins,
+          ),
+        })
+        .eq("id", init.kid_id);
+    }
+    await deleteInitiativePhotos(init);
+    void loadInitiativeQueue();
+    onApprove();
+  }
+
+  async function rejectInitiative(init: InitiativeRow) {
+    if (!supabase) return;
+    await supabase
+      .from("initiatives")
+      .update({
+        status: "rejected",
+        decided_by: profile?.id,
+        decided_at: new Date().toISOString(),
+        before_photo_path: null,
+        after_photo_path: null,
+      })
+      .eq("id", init.id);
+    await deleteInitiativePhotos(init);
+    void loadInitiativeQueue();
+    onApprove();
+  }
+
+  if (queue.length === 0 && initiativeQueue.length === 0)
+    return (
+      <div className="px-5 py-[60px] text-center text-[#475569]">
+        <div className="mb-3 text-[48px]">✅</div>
+        <p className="font-semibold">Nothing to approve</p>
+        <p className="mt-2 text-[14px]">You&apos;re all caught up!</p>
+      </div>
+    );
+
+  return (
+    <div>
+      {queue.length > 0 && (
+        <>
+          <h2 className="mb-4 font-bold">
+            Needs Your Review ({queue.length})
+          </h2>
+          {queue.map((comp) => (
+            <ApprovalCard
+              key={comp.id}
+              comp={comp}
+              onApprove={approve}
+              onReject={reject}
+            />
+          ))}
+        </>
+      )}
+
+      {initiativeQueue.length > 0 && (
+        <>
+          <h2
+            className="mb-4 font-bold text-[#a855f7]"
+            style={{ marginTop: queue.length > 0 ? 24 : 0 }}
+          >
+            🌟 Initiatives ({initiativeQueue.length})
+          </h2>
+          {initiativeQueue.map((init) => (
+            <InitiativeCard
+              key={init.id}
+              initiative={init}
+              onApprove={approveInitiative}
+              onReject={rejectInitiative}
+            />
+          ))}
+        </>
+      )}
+    </div>
+  );
+}
+
+const cardCls =
+  "mb-3 rounded-2xl border border-white/10 bg-[#1a1a2e] p-5";
+
+function ApprovalCard({
+  comp,
+  onApprove,
+  onReject,
+}: {
+  comp: CompletionRow;
+  onApprove: (comp: CompletionRow, coins: number) => void;
+  onReject: (comp: CompletionRow) => void;
+}) {
+  const [coins, setCoins] = useState(comp.coins_earned);
+  const [note, setNote] = useState("");
+  const [photoUrl, setPhotoUrl] = useState<string | null>(null);
+
+  useEffect(() => {
+    if (!comp.photo_path || !supabase) return;
+    let cancelled = false;
+    supabase.storage
+      .from("task-photos")
+      .createSignedUrl(comp.photo_path, 3600)
+      .then(({ data }) => {
+        if (!cancelled && data?.signedUrl) setPhotoUrl(data.signedUrl);
+      });
+    return () => {
+      cancelled = true;
+    };
+  }, [comp.photo_path]);
+
+  const presets = [0, comp.task?.min_coins, comp.task?.full_coins].filter(
+    (v): v is number => Boolean(v),
+  );
+
+  return (
+    <div className={cardCls}>
+      <div className="mb-3.5 flex items-center gap-3">
+        <div
+          className="flex h-12 w-12 items-center justify-center rounded-full text-[22px]"
+          style={{ background: comp.kid?.avatar_color || "#4f8ef7" }}
+        >
+          {comp.kid?.avatar_emoji || "😊"}
+        </div>
+        <div>
+          <div className="font-bold">{comp.kid?.name}</div>
+          <div className="text-[13px] text-[#94a3b8]">
+            {comp.task?.icon} {comp.task?.name}
+          </div>
+          <div className="mt-0.5 text-[12px] text-[#475569]">
+            Completion #{comp.completion_count} ·{" "}
+            {comp.completed_at &&
+              new Date(comp.completed_at).toLocaleTimeString("en-AU", {
+                hour: "2-digit",
+                minute: "2-digit",
+              })}
+          </div>
+        </div>
+      </div>
+
+      {comp.photo_path && (
+        <div className="mb-3.5">
+          <p className="mb-2 text-[13px] text-[#94a3b8]">📷 Photo evidence</p>
+          {photoUrl ? (
+            <a href={photoUrl} target="_blank" rel="noopener noreferrer">
+              {/* eslint-disable-next-line @next/next/no-img-element */}
+              <img
+                src={photoUrl}
+                alt="Task evidence"
+                className="block max-h-[320px] w-full rounded-xl border border-white/10 object-cover"
+              />
+            </a>
+          ) : (
+            <div className="rounded-xl border border-white/10 bg-white/[0.03] p-6 text-center text-[#475569]">
+              Loading photo…
+            </div>
+          )}
+          <p className="mt-1.5 text-[10px] text-[#475569]">
+            Tap to view full size · deleted automatically once you approve or
+            reject
+          </p>
+        </div>
+      )}
+
+      <div className="mb-3.5">
+        <p className="mb-2 text-[13px] text-[#94a3b8]">Coins to award</p>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => setCoins((c) => Math.max(0, c - 5))}
+            className="h-9 w-9 rounded-lg bg-white/[0.08] text-[18px] text-white"
+          >
+            −
+          </button>
+          <div className="flex-1 text-center text-[24px] font-extrabold text-[#f5c518]">
+            🪙 {coins}
+          </div>
+          <button
+            onClick={() => setCoins((c) => c + 5)}
+            className="h-9 w-9 rounded-lg bg-white/[0.08] text-[18px] text-white"
+          >
+            +
+          </button>
+        </div>
+        <div className="mt-2 flex flex-wrap gap-2">
+          {presets.map((v) => (
+            <button
+              key={v}
+              onClick={() => setCoins(v)}
+              className="rounded-[20px] px-3 py-1 text-[12px]"
+              style={{
+                background:
+                  coins === v
+                    ? "rgba(245,197,24,0.2)"
+                    : "rgba(255,255,255,0.06)",
+                border: `1px solid ${
+                  coins === v
+                    ? "rgba(245,197,24,0.4)"
+                    : "rgba(255,255,255,0.08)"
+                }`,
+                color: coins === v ? "#f5c518" : "#94a3b8",
+              }}
+            >
+              {v === 0
+                ? "0 (none)"
+                : v === comp.task?.min_coins
+                ? `${v} (min)`
+                : `${v} (full)`}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <input
+        placeholder="Add a note (optional)"
+        value={note}
+        onChange={(e) => setNote(e.target.value)}
+        className="mb-3 w-full rounded-[10px] border border-white/10 bg-white/5 px-4 py-3.5 text-[14px] text-[#f1f5f9]"
+      />
+
+      <div className="flex gap-2">
+        <button
+          onClick={() => onReject(comp)}
+          className="flex-1 rounded-[10px] border border-[#ef4444]/30 bg-[#ef4444]/15 px-6 py-3 font-semibold text-[#ef4444]"
+        >
+          Reject
+        </button>
+        <button
+          onClick={() => onApprove(comp, coins)}
+          className="flex-[2] rounded-[10px] border border-[#22c55e]/30 bg-[#22c55e]/15 px-6 py-3 font-semibold text-[#22c55e]"
+        >
+          Approve 🪙 {coins}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+function InitiativeCard({
+  initiative,
+  onApprove,
+  onReject,
+}: {
+  initiative: InitiativeRow;
+  onApprove: (init: InitiativeRow, coins: number) => void;
+  onReject: (init: InitiativeRow) => void;
+}) {
+  const [coins, setCoins] = useState(20);
+  const [beforeUrl, setBeforeUrl] = useState<string | null>(null);
+  const [afterUrl, setAfterUrl] = useState<string | null>(null);
+
+  useEffect(() => {
+    let cancelled = false;
+    if (initiative.before_photo_path && supabase) {
+      supabase.storage
+        .from("task-photos")
+        .createSignedUrl(initiative.before_photo_path, 3600)
+        .then(({ data }) => {
+          if (!cancelled && data?.signedUrl) setBeforeUrl(data.signedUrl);
+        });
+    }
+    if (initiative.after_photo_path && supabase) {
+      supabase.storage
+        .from("task-photos")
+        .createSignedUrl(initiative.after_photo_path, 3600)
+        .then(({ data }) => {
+          if (!cancelled && data?.signedUrl) setAfterUrl(data.signedUrl);
+        });
+    }
+    return () => {
+      cancelled = true;
+    };
+  }, [initiative.before_photo_path, initiative.after_photo_path]);
+
+  return (
+    <div className={`${cardCls} border-[#a855f7]/25`}>
+      <div className="mb-3.5 flex items-center gap-3">
+        <div
+          className="flex h-12 w-12 items-center justify-center rounded-full text-[22px]"
+          style={{ background: initiative.kid?.avatar_color || "#4f8ef7" }}
+        >
+          {initiative.kid?.avatar_emoji || "😊"}
+        </div>
+        <div>
+          <div className="font-bold">{initiative.kid?.name}</div>
+          <div className="text-[13px] text-[#a855f7]">
+            🌟 Started their own initiative
+          </div>
+          <div className="mt-0.5 text-[12px] text-[#475569]">
+            {initiative.created_at &&
+              new Date(initiative.created_at).toLocaleTimeString("en-AU", {
+                hour: "2-digit",
+                minute: "2-digit",
+              })}
+          </div>
+        </div>
+      </div>
+
+      <div className="mb-3.5 grid grid-cols-2 gap-2">
+        {(
+          [
+            ["Before", beforeUrl],
+            ["After", afterUrl],
+          ] as const
+        ).map(([label, url]) => (
+          <div key={label}>
+            <p className="mb-1.5 text-center text-[11px] text-[#94a3b8]">
+              {label}
+            </p>
+            {url ? (
+              <a href={url} target="_blank" rel="noopener noreferrer">
+                {/* eslint-disable-next-line @next/next/no-img-element */}
+                <img
+                  src={url}
+                  alt={label}
+                  className="block h-40 w-full rounded-xl border border-white/10 object-cover"
+                />
+              </a>
+            ) : (
+              <div className="h-40 rounded-xl border border-white/10 bg-white/[0.03]" />
+            )}
+          </div>
+        ))}
+      </div>
+      <p className="-mt-2 mb-3.5 text-[10px] text-[#475569]">
+        Tap a photo to view full size · deleted automatically once you approve or
+        reject
+      </p>
+
+      {initiative.note && (
+        <div className="mb-3.5 rounded-lg bg-white/[0.03] px-2.5 py-2 text-[13px] italic text-[#cbd5e1]">
+          &quot;{initiative.note}&quot;
+        </div>
+      )}
+
+      <div className="mb-3.5">
+        <p className="mb-2 text-[13px] text-[#94a3b8]">Coins to award</p>
+        <div className="flex items-center gap-3">
+          <button
+            onClick={() => setCoins((c) => Math.max(0, c - 5))}
+            className="h-9 w-9 rounded-lg bg-white/[0.08] text-[18px] text-white"
+          >
+            −
+          </button>
+          <div className="flex-1 text-center text-[24px] font-extrabold text-[#f5c518]">
+            🪙 {coins}
+          </div>
+          <button
+            onClick={() => setCoins((c) => c + 5)}
+            className="h-9 w-9 rounded-lg bg-white/[0.08] text-[18px] text-white"
+          >
+            +
+          </button>
+        </div>
+        <div className="mt-2 flex flex-wrap gap-2">
+          {[0, 10, 20, 30].map((v) => (
+            <button
+              key={v}
+              onClick={() => setCoins(v)}
+              className="rounded-[20px] px-3 py-1 text-[12px]"
+              style={{
+                background:
+                  coins === v
+                    ? "rgba(245,197,24,0.2)"
+                    : "rgba(255,255,255,0.06)",
+                border: `1px solid ${
+                  coins === v
+                    ? "rgba(245,197,24,0.4)"
+                    : "rgba(255,255,255,0.08)"
+                }`,
+                color: coins === v ? "#f5c518" : "#94a3b8",
+              }}
+            >
+              {v === 0 ? "0 (none)" : v}
+            </button>
+          ))}
+        </div>
+      </div>
+
+      <div className="flex gap-2">
+        <button
+          onClick={() => onReject(initiative)}
+          className="flex-1 rounded-[10px] border border-[#ef4444]/30 bg-[#ef4444]/15 px-6 py-3 font-semibold text-[#ef4444]"
+        >
+          Reject
+        </button>
+        <button
+          onClick={() => onApprove(initiative, coins)}
+          className="flex-[2] rounded-[10px] border border-[#22c55e]/30 bg-[#22c55e]/15 px-6 py-3 font-semibold text-[#22c55e]"
+        >
+          Approve 🪙 {coins}
+        </button>
+      </div>
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════ TASKS TAB ═════════════════════ */
+const DAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+
+function TasksTab({ kids }: { kids: KidRow[] }) {
+  const [tasks, setTasks] = useState<TaskRow[]>([]);
+  const [pendingKidTasks, setPendingKidTasks] = useState<TaskRow[]>([]);
+  const [form, setForm] = useState<Partial<TaskRow> | null>(null);
+  const [importing, setImporting] = useState(false);
+  const importRef = useRef<HTMLInputElement | null>(null);
+
+  useEffect(() => {
+    void loadTasks();
+    void loadPendingKidTasks();
+  }, []);
+
+  async function loadTasks() {
+    if (!supabase) return;
+    const { data } = await supabase
+      .from("tasks")
+      .select("*, kid:assigned_to(name, avatar_emoji)")
+      .neq("is_active", false)
+      .order("start_time");
+    setTasks((data as TaskRow[]) || []);
+  }
+
+  async function loadPendingKidTasks() {
+    if (!supabase) return;
+    const { data } = await supabase
+      .from("tasks")
+      .select("*, kid:assigned_to(name, avatar_emoji)")
+      .eq("pending_parent_review", true)
+      .order("created_at", { ascending: false });
+    setPendingKidTasks((data as TaskRow[]) || []);
+  }
+
+  async function approveKidTask(task: TaskRow) {
+    if (!supabase) return;
+    const { error } = await supabase
+      .from("tasks")
+      .update({ is_active: true, pending_parent_review: false })
+      .eq("id", task.id);
+    if (error) {
+      alert("Approve failed: " + error.message);
+      return;
+    }
+    void loadPendingKidTasks();
+    void loadTasks();
+  }
+
+  async function rejectKidTask(task: TaskRow) {
+    if (!supabase) return;
+    if (!confirm(`Reject "${task.name}"? This can't be undone.`)) return;
+    const { error } = await supabase.from("tasks").delete().eq("id", task.id);
+    if (error) {
+      alert("Reject failed: " + error.message);
+      return;
+    }
+    void loadPendingKidTasks();
+  }
+
+  async function saveTask(task: Partial<TaskRow>) {
+    if (!supabase) return;
+    let error;
+    if (task.id) {
+      ({ error } = await supabase
+        .from("tasks")
+        .update({ ...task, is_active: true })
+        .eq("id", task.id)
+        .select());
+    } else {
+      ({ error } = await supabase
+        .from("tasks")
+        .insert({ ...task, is_active: true })
+        .select());
+    }
+    if (error) {
+      alert("Save failed: " + error.message);
+      return;
+    }
+    setForm(null);
+    void loadTasks();
+  }
+
+  async function deleteTask(id: string) {
+    if (!supabase) return;
+    if (!confirm("Delete this task?")) return;
+    const { error } = await supabase
+      .from("tasks")
+      .update({ is_active: false })
+      .eq("id", id);
+    if (error) {
+      alert("Delete failed: " + error.message);
+      return;
+    }
+    void loadTasks();
+  }
+
+  function exportToExcel() {
+    const rows = tasks.map((t) => {
+      const isSession =
+        t.task_type === "session" || t.task_type === "focus";
+      return {
+        name: t.name,
+        icon: t.icon,
+        assigned_to: t.kid?.name || "",
+        days: (t.days_of_week || []).map((d) => DAY_NAMES[d]).join(","),
+        start_date: t.start_date || "",
+        end_date: t.end_date || "",
+        start_time: t.start_time,
+        end_time:
+          isSession && t.target_duration
+            ? (() => {
+                const [sh, sm] = (t.start_time || "00:00")
+                  .split(":")
+                  .map(Number);
+                const total =
+                  sh * 60 + sm + Math.round(t.target_duration / 60);
+                return `${String(Math.floor(total / 60) % 24).padStart(
+                  2,
+                  "0",
+                )}:${String(total % 60).padStart(2, "0")}`;
+              })()
+            : "",
+        expiry_time: !isSession ? t.expiry_time || "" : "",
+        full_coins: t.full_coins,
+        min_coins: t.min_coins,
+        penalty_coins: t.penalty_coins,
+        approval: t.approval || "auto",
+        task_type: t.task_type || "task",
+      };
+    });
+    const ws = XLSX.utils.json_to_sheet(rows);
+    ws["!cols"] = [20, 8, 14, 20, 12, 12, 14, 14, 12, 10, 14, 10].map((w) => ({
+      wch: w,
+    }));
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, "Tasks");
+    XLSX.writeFile(wb, "beehave-tasks.xlsx");
+  }
+
+  function excelTimeToHHMM(val: unknown): string | null {
+    if (!val && val !== 0) return null;
+    if (typeof val === "string" && val.includes(":")) return val.trim();
+    if (typeof val === "number") {
+      const totalMinutes = Math.round(val * 24 * 60);
+      const h = Math.floor(totalMinutes / 60) % 24;
+      const m = totalMinutes % 60;
+      return `${String(h).padStart(2, "0")}:${String(m).padStart(2, "0")}`;
+    }
+    return String(val).trim() || null;
+  }
+
+  async function importFromExcel(e: ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file || !supabase) return;
+    setImporting(true);
+    try {
+      const ab = await file.arrayBuffer();
+      const wb = XLSX.read(ab);
+      const ws = wb.Sheets[wb.SheetNames[0]];
+      const rows = XLSX.utils.sheet_to_json(ws) as Record<string, unknown>[];
+      let imported = 0;
+      let skipped = 0;
+      for (const row of rows) {
+        const kid = kids.find(
+          (k) =>
+            k.name.toLowerCase() ===
+            String(row.assigned_to || "").toLowerCase(),
+        );
+        if (!kid || !row.name) {
+          skipped++;
+          continue;
+        }
+        const days = String(row.days || "")
+          .split(",")
+          .map((d) => DAY_NAMES.indexOf(d.trim()))
+          .filter((d) => d >= 0);
+
+        const hasEndTime =
+          !!row.end_time && String(row.end_time).trim().length > 0;
+        const typeFromCol = String(row.task_type || "").toLowerCase();
+        const isSession = hasEndTime || typeFromCol === "session";
+
+        const startTime = excelTimeToHHMM(row.start_time) || "07:00";
+        const endTime = hasEndTime ? excelTimeToHHMM(row.end_time) : null;
+
+        let targetDuration: number | null = null;
+        if (isSession && startTime && endTime) {
+          const [sh, sm] = startTime.split(":").map(Number);
+          const [eh, em] = endTime.split(":").map(Number);
+          const secs = (eh * 60 + em - sh * 60 - sm) * 60;
+          if (secs > 0) targetDuration = secs;
+        }
+
+        const approvalVal =
+          String(row.approval || "").toLowerCase() === "review"
+            ? "review"
+            : "auto";
+        await supabase.from("tasks").insert({
+          name: String(row.name),
+          icon: String(row.icon || "⭐"),
+          assigned_to: kid.id,
+          days_of_week: days,
+          start_time: startTime,
+          start_date: row.start_date ? String(row.start_date) : null,
+          end_date: row.end_date ? String(row.end_date) : null,
+          expiry_time: isSession
+            ? null
+            : excelTimeToHHMM(row.expiry_time) || "08:00",
+          note: row.note ? String(row.note) : null,
+          full_coins: parseInt(String(row.full_coins)) || 20,
+          min_coins: parseInt(String(row.min_coins)) || 5,
+          penalty_coins: parseInt(String(row.penalty_coins)) || 10,
+          approval: approvalVal,
+          task_type: isSession ? "session" : "task",
+          target_duration: targetDuration,
+          is_active: true,
+        });
+        imported++;
+      }
+      alert(
+        `✅ Imported ${imported} task${imported !== 1 ? "s" : ""}${
+          skipped ? ` (${skipped} skipped — unknown kid name)` : ""
+        }.`,
+      );
+      void loadTasks();
+    } catch (err) {
+      alert("Import failed: " + (err as Error).message);
+    }
+    setImporting(false);
+    e.target.value = "";
+  }
+
+  if (form !== null)
+    return (
+      <TaskForm
+        task={form}
+        kids={kids}
+        onSave={saveTask}
+        onCancel={() => setForm(null)}
+      />
+    );
+
+  return (
+    <div>
+      <div className="mb-2 flex items-center justify-between">
+        <h2 className="font-bold">Tasks</h2>
+        <div className="flex gap-2">
+          {tasks.length > 0 && (
+            <button
+              onClick={async () => {
+                if (!supabase) return;
+                if (
+                  !confirm(
+                    `Delete all ${tasks.length} tasks? This cannot be undone.`,
+                  )
+                )
+                  return;
+                const { error } = await supabase
+                  .from("tasks")
+                  .update({ is_active: false })
+                  .not("id", "is", null);
+                if (error) {
+                  alert("Clear All failed: " + error.message);
+                  return;
+                }
+                void loadTasks();
+              }}
+              className="rounded-[10px] border border-[#ef4444]/30 bg-[#ef4444]/12 px-[18px] py-2.5 text-[14px] font-semibold text-[#ef4444]"
+            >
+              🗑 Clear All
+            </button>
+          )}
+          <button
+            onClick={() => setForm({})}
+            className="rounded-[10px] bg-[#f5c518] px-[18px] py-2.5 text-[14px] font-semibold text-[#0f0f1a]"
+          >
+            + New Task
+          </button>
+        </div>
+      </div>
+
+      {pendingKidTasks.length > 0 && (
+        <div className="mb-5">
+          <h3 className="mb-2.5 font-bold text-[#a855f7]">
+            💡 Pending from kids ({pendingKidTasks.length})
+          </h3>
+          {pendingKidTasks.map((task) => (
+            <div
+              key={task.id}
+              className={`${cardCls} mb-2.5 border-[#a855f7]/25 bg-[#a855f7]/[0.06]`}
+            >
+              <div className="flex items-center gap-3">
+                <span
+                  className="shrink-0 text-[28px]"
+                  style={{ fontFamily: EMOJI_FONT }}
+                >
+                  {task.icon}
+                </span>
+                <div className="flex-1">
+                  <div className="font-bold">{task.name}</div>
+                  <div className="text-[13px] text-[#94a3b8]">
+                    {task.kid?.avatar_emoji} {task.kid?.name} · wants to start{" "}
+                    {beehave.formatTime(task.start_time)}
+                  </div>
+                  <div className="mt-0.5 text-[12px] text-[#f5c518]">
+                    🪙 suggested {task.full_coins} coins
+                  </div>
+                </div>
+              </div>
+              {task.note && (
+                <div className="mt-2.5 rounded-lg bg-white/[0.03] px-2.5 py-2 text-[13px] italic text-[#cbd5e1]">
+                  &quot;{task.note}&quot;
+                </div>
+              )}
+              <div className="mt-3 flex gap-2">
+                <button
+                  onClick={() => rejectKidTask(task)}
+                  className="flex-1 rounded-[10px] border border-[#ef4444]/30 bg-[#ef4444]/15 px-6 py-3 font-semibold text-[#ef4444]"
+                >
+                  Reject
+                </button>
+                <button
+                  onClick={() => approveKidTask(task)}
+                  className="flex-[2] rounded-[10px] border border-[#22c55e]/30 bg-[#22c55e]/15 px-6 py-3 font-semibold text-[#22c55e]"
+                >
+                  Approve ✓
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <div className="mb-4 flex items-center gap-2 rounded-[10px] border border-white/10 bg-white/[0.03] px-3.5 py-2.5">
+        <span className="flex-1 text-[13px] text-[#94a3b8]">📊 Excel</span>
+        <button
+          onClick={exportToExcel}
+          disabled={tasks.length === 0}
+          className="rounded-lg border border-[#22c55e]/25 bg-[#22c55e]/12 px-3.5 py-1.5 text-[13px] text-[#22c55e] disabled:opacity-50"
+        >
+          ↓ Export
+        </button>
+        <button
+          onClick={() => importRef.current?.click()}
+          disabled={importing}
+          className="rounded-lg border border-[#4f8ef7]/25 bg-[#4f8ef7]/12 px-3.5 py-1.5 text-[13px] text-[#4f8ef7] disabled:opacity-50"
+        >
+          {importing ? "Importing…" : "↑ Import"}
+        </button>
+        <input
+          ref={importRef}
+          type="file"
+          accept=".xlsx,.xls"
+          className="hidden"
+          onChange={importFromExcel}
+        />
+      </div>
+
+      {tasks.map((task) => (
+        <div
+          key={task.id}
+          className={`${cardCls} flex items-center gap-3`}
+        >
+          <span
+            className="shrink-0 text-[28px]"
+            style={{ fontFamily: EMOJI_FONT }}
+          >
+            {task.icon}
+          </span>
+          <div className="flex-1">
+            <div className="flex flex-wrap items-center gap-2">
+              <span className="font-semibold">{task.name}</span>
+              {task.task_type === "session" || task.task_type === "focus" ? (
+                <span className="rounded-[10px] border border-[#4f8ef7]/30 bg-[#4f8ef7]/12 px-1.5 py-0.5 text-[10px] font-bold text-[#4f8ef7]">
+                  ⏱ Session
+                </span>
+              ) : (
+                <span className="rounded-[10px] border border-[#22c55e]/25 bg-[#22c55e]/12 px-1.5 py-0.5 text-[10px] font-bold text-[#22c55e]">
+                  ✓ Task
+                </span>
+              )}
+              {task.requires_approval ? (
+                <span className="rounded-[10px] border border-[#a855f7]/30 bg-[#a855f7]/15 px-1.5 py-0.5 text-[10px] font-bold text-[#a855f7]">
+                  👀 Review
+                </span>
+              ) : null}
+              {task.requires_photo ? (
+                <span className="rounded-[10px] border border-[#a855f7]/30 bg-[#a855f7]/15 px-1.5 py-0.5 text-[10px] font-bold text-[#a855f7]">
+                  📷 Photo
+                </span>
+              ) : null}
+            </div>
+            <div className="text-[13px] text-[#94a3b8]">
+              {task.kid?.avatar_emoji} {task.kid?.name} ·{" "}
+              {beehave.formatTime(task.start_time)}
+            </div>
+            <div className="mt-0.5 text-[12px] text-[#f5c518]">
+              🪙 {task.full_coins} full · {task.min_coins} min · −
+              {task.penalty_coins} penalty
+            </div>
+          </div>
+          <div className="flex gap-1.5">
+            <button
+              onClick={() => setForm(task)}
+              className="rounded-lg bg-white/[0.06] px-3 py-1.5 text-[13px] text-[#94a3b8]"
+            >
+              Edit
+            </button>
+            <button
+              onClick={() => deleteTask(task.id)}
+              className="rounded-lg bg-[#ef4444]/10 px-3 py-1.5 text-[13px] text-[#ef4444]"
+            >
+              Del
+            </button>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+function TaskFormIconRow({
+  icon,
+  children,
+  noBorder,
+}: {
+  icon: string;
+  children: ReactNode;
+  noBorder?: boolean;
+}) {
+  return (
+    <div
+      className="flex items-start gap-3.5 py-3"
+      style={{
+        borderBottom: noBorder ? "none" : "1px solid rgba(255,255,255,0.06)",
+      }}
+    >
+      <span className="mt-0.5 w-[22px] shrink-0 text-center text-[18px] opacity-60">
+        {icon}
+      </span>
+      <div className="flex-1">{children}</div>
+    </div>
+  );
+}
+
+type TaskFormState = {
+  name: string;
+  icon: string;
+  description: string;
+  assigned_to: string;
+  days_of_week: number[];
+  start_date: string;
+  end_date: string;
+  no_end_date: boolean;
+  start_time: string;
+  session_end_time: string;
+  expiry_time: string;
+  full_coins: number;
+  min_coins: number;
+  penalty_coins: number;
+  approval: string;
+  requires_photo: boolean;
+  id?: string;
+  task_type: string;
+  note: string;
+};
+
+function TaskForm({
+  task,
+  kids,
+  onSave,
+  onCancel,
+}: {
+  task: Partial<TaskRow>;
+  kids: KidRow[];
+  onSave: (task: Partial<TaskRow>) => void;
+  onCancel: () => void;
+}) {
+  const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const todayStr = new Date().toISOString().split("T")[0];
+  const [form, setForm] = useState<TaskFormState>({
+    name: task.name || "",
+    icon: task.icon || "⭐",
+    description: task.description || "",
+    assigned_to: task.assigned_to || kids[0]?.id || "",
+    days_of_week: task.days_of_week || [1, 2, 3, 4, 5],
+    start_date: task.start_date || todayStr,
+    end_date: task.end_date || "",
+    no_end_date: !task.end_date,
+    start_time: task.start_time || "07:00",
+    session_end_time: task.target_duration
+      ? (() => {
+          const [sh, sm] = (task.start_time || "07:00")
+            .split(":")
+            .map(Number);
+          const total =
+            sh * 60 + sm + Math.round((task.target_duration || 0) / 60);
+          return `${String(Math.floor(total / 60) % 24).padStart(
+            2,
+            "0",
+          )}:${String(total % 60).padStart(2, "0")}`;
+        })()
+      : "07:30",
+    expiry_time: task.expiry_time || "08:00",
+    full_coins: task.full_coins || 20,
+    min_coins: task.min_coins || 5,
+    penalty_coins: task.penalty_coins || 10,
+    approval: task.approval || "auto",
+    requires_photo: task.requires_photo || false,
+    id: task.id,
+    task_type: task.task_type || "task",
+    note: task.note || "",
+  });
+
+  function toggleDay(d: number) {
+    setForm((f) => ({
+      ...f,
+      days_of_week: f.days_of_week.includes(d)
+        ? f.days_of_week.filter((x) => x !== d)
+        : [...f.days_of_week, d],
+    }));
+  }
+
+  const formIsSession = form.task_type === "session";
+
+  function computeTargetDuration(
+    startTime: string,
+    endTime: string,
+  ): number | null {
+    if (!startTime || !endTime) return null;
+    const [sh, sm] = startTime.split(":").map(Number);
+    const [eh, em] = endTime.split(":").map(Number);
+    const secs = (eh * 60 + em - sh * 60 - sm) * 60;
+    return secs > 0 ? secs : null;
+  }
+
+  function handleSave() {
+    const taskData: Partial<TaskRow> = {
+      ...(form.id ? { id: form.id } : {}),
+      name: form.name,
+      description: form.description || null,
+      icon: form.icon,
+      note: form.note || null,
+      assigned_to: form.assigned_to,
+      days_of_week: form.days_of_week,
+      start_date: form.no_end_date
+        ? form.start_date
+        : form.start_date || null,
+      end_date: form.no_end_date ? null : form.end_date || null,
+      start_time: form.start_time,
+      expiry_time: formIsSession ? null : form.expiry_time || "08:00",
+      full_coins: form.full_coins,
+      min_coins: form.min_coins,
+      penalty_coins: form.penalty_coins,
+      approval: form.approval || "auto",
+      requires_photo: form.requires_photo,
+      task_type: formIsSession ? "session" : "task",
+      target_duration: formIsSession
+        ? computeTargetDuration(form.start_time, form.session_end_time)
+        : null,
+    };
+    onSave(taskData);
+  }
+
+  const IconRow = TaskFormIconRow;
+  const inputCls =
+    "w-full rounded-[10px] border border-white/10 bg-white/5 px-3 py-2.5 text-[14px] text-[#e2e8f0]";
+
+  return (
+    <div className="pb-4">
+      <div className="mb-4 flex items-center gap-2.5">
+        <button
+          onClick={onCancel}
+          className="flex h-8 w-8 items-center justify-center rounded-lg border border-white/10 bg-white/[0.06] text-[16px] text-[#94a3b8]"
+        >
+          ✕
+        </button>
+        <h2 className="flex-1 text-[18px] font-extrabold">
+          {form.id ? "Edit Task" : "New Task"}
+        </h2>
+        <button
+          onClick={handleSave}
+          className="rounded-[10px] bg-[#f5c518] px-6 py-2.5 text-[14px] font-semibold text-[#0f0f1a]"
+        >
+          {form.id ? "Save" : "Create"}
+        </button>
+      </div>
+
+      <div className="rounded-2xl border border-white/10 bg-[#1a1a2e] px-4 py-1">
+        <IconRow icon="✏️">
+          <div className="flex items-center gap-2">
+            <EmojiPicker
+              value={form.icon}
+              onChange={(emoji) => setForm((f) => ({ ...f, icon: emoji }))}
+            />
+            <input
+              value={form.name}
+              placeholder="Task name"
+              onChange={(e) =>
+                setForm((f) => ({ ...f, name: e.target.value }))
+              }
+              className="flex-1 border-0 border-b border-white/10 bg-transparent px-1 py-2.5 text-[18px] font-bold text-[#e2e8f0]"
+              autoFocus
+            />
+          </div>
+        </IconRow>
+
+        <IconRow icon="🎯">
+          <div className="mb-2 text-[12px] text-[#64748b]">Type</div>
+          <div className="flex gap-2">
+            {[
+              {
+                value: "task",
+                label: "✓ Task",
+                desc: "Quick checkbox — tap Done",
+                color: "#22c55e",
+              },
+              {
+                value: "session",
+                label: "⏱ Session",
+                desc: "Timed focus — Start / Stop",
+                color: "#4f8ef7",
+              },
+            ].map((opt) => (
+              <button
+                key={opt.value}
+                type="button"
+                onClick={() =>
+                  setForm((f) => ({ ...f, task_type: opt.value }))
+                }
+                className="flex-1 rounded-xl px-2 py-2.5 text-left"
+                style={{
+                  background:
+                    form.task_type === opt.value
+                      ? `${opt.color}15`
+                      : "rgba(255,255,255,0.03)",
+                  border: `1px solid ${
+                    form.task_type === opt.value
+                      ? opt.color + "55"
+                      : "rgba(255,255,255,0.08)"
+                  }`,
+                }}
+              >
+                <div
+                  className="text-[13px] font-bold"
+                  style={{
+                    color:
+                      form.task_type === opt.value ? opt.color : "#94a3b8",
+                  }}
+                >
+                  {opt.label}
+                </div>
+                <div className="mt-0.5 text-[10px] text-[#475569]">
+                  {opt.desc}
+                </div>
+              </button>
+            ))}
+          </div>
+        </IconRow>
+
+        <IconRow icon="👤">
+          <div className="flex flex-wrap gap-2">
+            {kids.map((k) => (
+              <button
+                key={k.id}
+                onClick={() =>
+                  setForm((f) => ({ ...f, assigned_to: k.id }))
+                }
+                className="flex items-center gap-1.5 rounded-[20px] px-3.5 py-2 text-[14px] font-semibold"
+                style={{
+                  background:
+                    form.assigned_to === k.id
+                      ? "rgba(245,197,24,0.18)"
+                      : "rgba(255,255,255,0.05)",
+                  border: `1px solid ${
+                    form.assigned_to === k.id
+                      ? "rgba(245,197,24,0.5)"
+                      : "rgba(255,255,255,0.08)"
+                  }`,
+                  color: form.assigned_to === k.id ? "#f5c518" : "#94a3b8",
+                }}
+              >
+                <span className="text-[16px]">{k.avatar_emoji}</span> {k.name}
+              </button>
+            ))}
+          </div>
+        </IconRow>
+
+        <IconRow icon="📅">
+          <div className="mb-1.5 text-[12px] text-[#64748b]">Repeats on</div>
+          <div className="flex flex-wrap gap-1.5">
+            {DAYS.map((d, i) => (
+              <button
+                key={i}
+                onClick={() => toggleDay(i)}
+                className="h-[38px] w-[38px] rounded-full text-[12px] font-bold"
+                style={{
+                  background: form.days_of_week.includes(i)
+                    ? "#4f8ef7"
+                    : "rgba(255,255,255,0.05)",
+                  border: `1px solid ${
+                    form.days_of_week.includes(i)
+                      ? "#4f8ef7"
+                      : "rgba(255,255,255,0.08)"
+                  }`,
+                  color: form.days_of_week.includes(i) ? "#fff" : "#94a3b8",
+                }}
+              >
+                {d}
+              </button>
+            ))}
+          </div>
+        </IconRow>
+
+        <IconRow icon="🗓">
+          <div className="mb-2 text-[12px] text-[#64748b]">Active dates</div>
+          <div className="flex flex-wrap items-center gap-2">
+            <div className="min-w-[130px] flex-1">
+              <div className="mb-1 text-[10px] text-[#94a3b8]">Start date</div>
+              <input
+                type="date"
+                value={form.start_date}
+                onChange={(e) =>
+                  setForm((f) => ({ ...f, start_date: e.target.value }))
+                }
+                className={inputCls}
+              />
+            </div>
+            <div className="mt-4 shrink-0 text-[14px] text-[#475569]">→</div>
+            <div className="min-w-[130px] flex-1">
+              <div className="mb-1 text-[10px] text-[#94a3b8]">End date</div>
+              {form.no_end_date ? (
+                <button
+                  onClick={() =>
+                    setForm((f) => ({
+                      ...f,
+                      no_end_date: false,
+                      end_date: f.start_date,
+                    }))
+                  }
+                  className="w-full rounded-[10px] border border-dashed border-white/15 bg-white/[0.03] px-3 py-2.5 text-left text-[14px] text-[#475569]"
+                >
+                  No end date
+                </button>
+              ) : (
+                <div className="relative">
+                  <input
+                    type="date"
+                    value={form.end_date}
+                    min={form.start_date}
+                    onChange={(e) =>
+                      setForm((f) => ({ ...f, end_date: e.target.value }))
+                    }
+                    className={inputCls}
+                  />
+                  <button
+                    onClick={() =>
+                      setForm((f) => ({
+                        ...f,
+                        no_end_date: true,
+                        end_date: "",
+                      }))
+                    }
+                    className="absolute right-2 top-1/2 -translate-y-1/2 text-[14px] leading-none text-[#475569]"
+                  >
+                    ✕
+                  </button>
+                </div>
+              )}
+            </div>
+          </div>
+        </IconRow>
+
+        <IconRow icon="⏰">
+          <div className="mb-2 text-[12px] text-[#64748b]">Schedule</div>
+
+          <div className="mb-2.5 flex items-center gap-2">
+            <div className="flex-1">
+              <div className="mb-1 text-[10px] text-[#475569]">Start</div>
+              <input
+                type="time"
+                value={form.start_time}
+                onChange={(e) =>
+                  setForm((f) => ({ ...f, start_time: e.target.value }))
+                }
+                className={inputCls}
+              />
+            </div>
+            {formIsSession && (
+              <>
+                <div className="mt-4 shrink-0 text-[14px] text-[#475569]">
+                  →
+                </div>
+                <div className="flex-1">
+                  <div className="mb-1 text-[10px] text-[#4f8ef7]">
+                    ⏱ Session end
+                  </div>
+                  <input
+                    type="time"
+                    value={form.session_end_time}
+                    onChange={(e) =>
+                      setForm((f) => ({
+                        ...f,
+                        session_end_time: e.target.value,
+                      }))
+                    }
+                    className={inputCls}
+                    style={{ borderColor: "rgba(79,142,247,0.3)" }}
+                  />
+                </div>
+              </>
+            )}
+          </div>
+
+          {formIsSession &&
+            form.start_time &&
+            form.session_end_time &&
+            (() => {
+              const dur = computeTargetDuration(
+                form.start_time,
+                form.session_end_time,
+              );
+              if (!dur || dur <= 0) return null;
+              const mins = Math.round(dur / 60);
+              return (
+                <div className="mb-2.5 pl-0.5 text-[12px] text-[#4f8ef7]">
+                  ⏱ {mins} minute session
+                </div>
+              );
+            })()}
+
+          {!formIsSession && (
+            <div className="flex items-center gap-2">
+              <div className="flex-1">
+                <div className="mb-1 text-[10px] text-[#ef4444]">
+                  ❌ Expires (missed after)
+                </div>
+                <input
+                  type="time"
+                  value={form.expiry_time}
+                  onChange={(e) =>
+                    setForm((f) => ({ ...f, expiry_time: e.target.value }))
+                  }
+                  className={inputCls}
+                  style={{ borderColor: "rgba(239,68,68,0.3)" }}
+                />
+              </div>
+              <div className="flex-1" />
+            </div>
+          )}
+        </IconRow>
+
+        <IconRow icon="🪙">
+          <div className="mb-2 text-[12px] text-[#64748b]">Coins</div>
+          <div className="grid grid-cols-3 gap-2">
+            {(
+              [
+                { label: "Full reward", key: "full_coins", accent: "#f5c518" },
+                { label: "Minimum", key: "min_coins", accent: "#94a3b8" },
+                {
+                  label: "Penalty",
+                  key: "penalty_coins",
+                  accent: "#ef4444",
+                },
+              ] as const
+            ).map(({ label, key, accent }) => (
+              <div
+                key={key}
+                className="rounded-[10px] bg-white/[0.04] px-2.5 pb-2 pt-2.5 text-center"
+                style={{ border: `1px solid ${accent}22` }}
+              >
+                <div
+                  className="mb-1.5 text-[10px] font-semibold"
+                  style={{ color: accent }}
+                >
+                  {label}
+                </div>
+                <input
+                  type="number"
+                  min={0}
+                  value={form[key]}
+                  onChange={(e) =>
+                    setForm((f) => ({
+                      ...f,
+                      [key]: parseInt(e.target.value) || 0,
+                    }))
+                  }
+                  className="w-full border-0 bg-transparent text-center text-[20px] font-extrabold outline-none"
+                  style={{ color: accent }}
+                />
+              </div>
+            ))}
+          </div>
+        </IconRow>
+
+        <IconRow icon="👀">
+          <div className="mb-2 text-[12px] text-[#64748b]">Approval</div>
+          <div className="flex gap-2">
+            {[
+              {
+                value: "auto",
+                label: "⚡ Auto",
+                desc: "Coins land instantly",
+                color: "#22c55e",
+              },
+              {
+                value: "review",
+                label: "👀 Review",
+                desc: "You approve first",
+                color: "#a855f7",
+              },
+            ].map((opt) => (
+              <button
+                key={opt.value}
+                type="button"
+                onClick={() =>
+                  setForm((f) => ({ ...f, approval: opt.value }))
+                }
+                className="flex-1 rounded-[10px] px-2 py-2.5 text-center"
+                style={{
+                  background:
+                    form.approval === opt.value
+                      ? `${opt.color}22`
+                      : "rgba(255,255,255,0.04)",
+                  border: `1px solid ${
+                    form.approval === opt.value
+                      ? opt.color + "66"
+                      : "rgba(255,255,255,0.08)"
+                  }`,
+                  color: form.approval === opt.value ? opt.color : "#94a3b8",
+                }}
+              >
+                <div className="text-[13px] font-bold">{opt.label}</div>
+                <div className="mt-0.5 text-[10px] opacity-70">{opt.desc}</div>
+              </button>
+            ))}
+          </div>
+        </IconRow>
+
+        <IconRow icon="📷">
+          <div className="mb-2 text-[12px] text-[#64748b]">Photo evidence</div>
+          <div className="flex gap-2">
+            {[
+              {
+                value: false,
+                label: "✓ No photo",
+                desc: "Just tap Done",
+                color: "#94a3b8",
+              },
+              {
+                value: true,
+                label: "📷 Required",
+                desc: "Kid must attach a photo",
+                color: "#a855f7",
+              },
+            ].map((opt) => (
+              <button
+                key={String(opt.value)}
+                type="button"
+                onClick={() =>
+                  setForm((f) => ({ ...f, requires_photo: opt.value }))
+                }
+                className="flex-1 rounded-[10px] px-2 py-2.5 text-center"
+                style={{
+                  background:
+                    form.requires_photo === opt.value
+                      ? `${opt.color}22`
+                      : "rgba(255,255,255,0.04)",
+                  border: `1px solid ${
+                    form.requires_photo === opt.value
+                      ? opt.color + "66"
+                      : "rgba(255,255,255,0.08)"
+                  }`,
+                  color:
+                    form.requires_photo === opt.value ? opt.color : "#94a3b8",
+                }}
+              >
+                <div className="text-[13px] font-bold">{opt.label}</div>
+                <div className="mt-0.5 text-[10px] opacity-70">{opt.desc}</div>
+              </button>
+            ))}
+          </div>
+          {form.requires_photo && (
+            <div className="mt-1.5 pl-0.5 text-[11px] text-[#a855f7]">
+              📷 Photo tasks always go to your Approve tab, even with Auto
+              approval
+            </div>
+          )}
+        </IconRow>
+
+        <IconRow icon="📝" noBorder>
+          <textarea
+            placeholder="Add a note (visible to the kid)…"
+            value={form.note}
+            onChange={(e) =>
+              setForm((f) => ({ ...f, note: e.target.value }))
+            }
+            rows={3}
+            className="w-full resize-none rounded-[10px] border border-white/10 bg-white/[0.04] px-3 py-2.5 text-[14px] text-[#e2e8f0]"
+          />
+        </IconRow>
+      </div>
+    </div>
+  );
+}
+
+function Row({ label, children }: { label: string; children: ReactNode }) {
+  return (
+    <div>
+      <label className="mb-1.5 block text-[13px] text-[#94a3b8]">{label}</label>
+      {children}
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════ REWARDS TAB ══════════════════ */
+function RewardsTab({ kids }: { kids: KidRow[] }) {
+  void kids;
+  const [rewards, setRewards] = useState<RewardRow[]>([]);
+  const [redemptions, setRedemptions] = useState<RedemptionRow[]>([]);
+  const [showForm, setShowForm] = useState(false);
+  const [form, setForm] = useState({
+    name: "",
+    icon: "🎁",
+    coin_cost: 100,
+    description: "",
+  });
+
+  useEffect(() => {
+    void loadRewards();
+    void loadRedemptions();
+  }, []);
+
+  async function loadRewards() {
+    if (!supabase) return;
+    const { data } = await supabase
+      .from("rewards")
+      .select("*")
+      .eq("is_active", true);
+    setRewards((data as RewardRow[]) || []);
+  }
+
+  async function loadRedemptions() {
+    if (!supabase) return;
+    const { data } = await supabase
+      .from("reward_redemptions")
+      .select("*, kid:kid_id(name, avatar_emoji), reward:reward_id(name, icon)")
+      .eq("status", "pending")
+      .order("created_at", { ascending: false });
+    setRedemptions((data as RedemptionRow[]) || []);
+  }
+
+  async function saveReward() {
+    if (!supabase) return;
+    await supabase.from("rewards").insert(form);
+    setShowForm(false);
+    setForm({ name: "", icon: "🎁", coin_cost: 100, description: "" });
+    void loadRewards();
+  }
+
+  async function approveRedemption(r: RedemptionRow) {
+    if (!supabase) return;
+    await supabase
+      .from("reward_redemptions")
+      .update({ status: "approved" })
+      .eq("id", r.id);
+    void loadRedemptions();
+  }
+
+  async function rejectRedemption(r: RedemptionRow) {
+    if (!supabase) return;
+    await supabase.from("coin_transactions").insert({
+      kid_id: r.kid_id,
+      amount: r.coins_spent,
+      reason: `Refund: ${r.reward?.name}`,
+      transaction_type: "adjustment",
+    });
+    const { data: kid } = await supabase
+      .from("profiles")
+      .select("coin_balance")
+      .eq("id", r.kid_id)
+      .single();
+    await supabase
+      .from("profiles")
+      .update({
+        coin_balance:
+          ((kid as { coin_balance?: number } | null)?.coin_balance || 0) +
+          r.coins_spent,
+      })
+      .eq("id", r.kid_id);
+    await supabase
+      .from("reward_redemptions")
+      .update({ status: "rejected" })
+      .eq("id", r.id);
+    void loadRedemptions();
+  }
+
+  return (
+    <div>
+      <div className="mb-4 flex items-center justify-between">
+        <h2 className="font-bold">Rewards</h2>
+        <button
+          onClick={() => setShowForm(!showForm)}
+          className="rounded-[10px] bg-[#f5c518] px-[18px] py-2.5 text-[14px] font-semibold text-[#0f0f1a]"
+        >
+          + New Reward
+        </button>
+      </div>
+
+      {showForm && (
+        <div className={cardCls}>
+          <div className="mb-2.5 flex gap-2">
+            <EmojiPicker
+              value={form.icon}
+              onChange={(emoji) => setForm((f) => ({ ...f, icon: emoji }))}
+            />
+            <input
+              value={form.name}
+              placeholder="Reward name"
+              onChange={(e) =>
+                setForm((f) => ({ ...f, name: e.target.value }))
+              }
+              className="flex-1 rounded-[10px] border border-white/10 bg-white/5 px-4 py-3.5 text-[14px] text-[#f1f5f9]"
+            />
+          </div>
+          <input
+            value={form.description}
+            placeholder="Description (optional)"
+            onChange={(e) =>
+              setForm((f) => ({ ...f, description: e.target.value }))
+            }
+            className="mb-2.5 w-full rounded-[10px] border border-white/10 bg-white/5 px-4 py-3.5 text-[14px] text-[#f1f5f9]"
+          />
+          <div className="mb-3 flex items-center gap-2.5">
+            <span className="text-[16px] text-[#f5c518]">🪙 Cost:</span>
+            <input
+              type="number"
+              value={form.coin_cost}
+              onChange={(e) =>
+                setForm((f) => ({
+                  ...f,
+                  coin_cost: parseInt(e.target.value) || 0,
+                }))
+              }
+              className="w-[100px] rounded-[10px] border border-white/10 bg-white/5 px-4 py-3.5 text-[14px] text-[#f1f5f9]"
+            />
+          </div>
+          <button
+            onClick={saveReward}
+            className="w-full rounded-[10px] bg-[#f5c518] px-6 py-3 font-semibold text-[#0f0f1a]"
+          >
+            Save Reward
+          </button>
+        </div>
+      )}
+
+      {redemptions.length > 0 && (
+        <div className="mb-5">
+          <h3 className="mb-2.5 font-semibold text-[#f97316]">
+            ⏳ Pending Redemptions
+          </h3>
+          {redemptions.map((r) => (
+            <div
+              key={r.id}
+              className={`${cardCls} mb-2 border-[#f97316]/20 bg-[#f97316]/[0.06]`}
+            >
+              <div className="flex items-center justify-between">
+                <div>
+                  <span className="font-bold">
+                    {r.kid?.avatar_emoji} {r.kid?.name}
+                  </span>
+                  <span className="ml-2 text-[#94a3b8]">
+                    wants {r.reward?.icon} {r.reward?.name}
+                  </span>
+                  <div className="mt-1 text-[13px] text-[#f5c518]">
+                    🪙 {r.coins_spent} coins
+                  </div>
+                </div>
+                <div className="flex gap-1.5">
+                  <button
+                    onClick={() => rejectRedemption(r)}
+                    className="rounded-[10px] border border-[#ef4444]/30 bg-[#ef4444]/15 px-3.5 py-2 text-[13px] font-semibold text-[#ef4444]"
+                  >
+                    Deny
+                  </button>
+                  <button
+                    onClick={() => approveRedemption(r)}
+                    className="rounded-[10px] border border-[#22c55e]/30 bg-[#22c55e]/15 px-3.5 py-2 text-[13px] font-semibold text-[#22c55e]"
+                  >
+                    Give
+                  </button>
+                </div>
+              </div>
+            </div>
+          ))}
+        </div>
+      )}
+
+      <h3 className="mb-2.5 font-semibold text-[#94a3b8]">Available Rewards</h3>
+      {rewards.map((r) => (
+        <div key={r.id} className={`${cardCls} mb-2 flex items-center gap-3`}>
+          <span className="text-[28px]" style={{ fontFamily: EMOJI_FONT }}>
+            {r.icon}
+          </span>
+          <div className="flex-1">
+            <div className="font-semibold">{r.name}</div>
+            {r.description && (
+              <div className="text-[13px] text-[#94a3b8]">{r.description}</div>
+            )}
+          </div>
+          <div className="font-bold text-[#f5c518]">🪙 {r.coin_cost}</div>
+        </div>
+      ))}
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════ MESSAGE TAB ══════════════════ */
+function MessageTab({
+  kids,
+  profile,
+}: {
+  kids: KidRow[];
+  profile: BeehaveProfile;
+}) {
+  const [to, setTo] = useState<string | null>(null);
+  const [text, setText] = useState("");
+  const [sent, setSent] = useState(false);
+
+  async function send() {
+    if (!text.trim() || !supabase) return;
+    await supabase.from("messages").insert({
+      from_id: profile.id,
+      to_id: to || null,
+      content: text.trim(),
+    });
+    setText("");
+    setSent(true);
+    setTimeout(() => setSent(false), 2000);
+  }
+
+  const pillCls = "rounded-[20px] px-4 py-2 text-[14px] font-semibold";
+
+  return (
+    <div>
+      <h2 className="mb-4 font-bold">Send a Message</h2>
+      <div className={cardCls}>
+        <Row label="To">
+          <div className="flex flex-wrap gap-2">
+            <button
+              onClick={() => setTo(null)}
+              className={pillCls}
+              style={{
+                background:
+                  to === null
+                    ? "rgba(245,197,24,0.2)"
+                    : "rgba(255,255,255,0.06)",
+                border: `1px solid ${
+                  to === null
+                    ? "rgba(245,197,24,0.5)"
+                    : "rgba(255,255,255,0.08)"
+                }`,
+                color: to === null ? "#f5c518" : "#94a3b8",
+              }}
+            >
+              All kids
+            </button>
+            {kids.map((k) => (
+              <button
+                key={k.id}
+                onClick={() => setTo(k.id)}
+                className={pillCls}
+                style={{
+                  background:
+                    to === k.id
+                      ? "rgba(245,197,24,0.2)"
+                      : "rgba(255,255,255,0.06)",
+                  border: `1px solid ${
+                    to === k.id
+                      ? "rgba(245,197,24,0.5)"
+                      : "rgba(255,255,255,0.08)"
+                  }`,
+                  color: to === k.id ? "#f5c518" : "#94a3b8",
+                }}
+              >
+                {k.avatar_emoji} {k.name}
+              </button>
+            ))}
+          </div>
+        </Row>
+        <div className="mt-3.5">
+          <textarea
+            placeholder="Type your message..."
+            value={text}
+            onChange={(e) => setText(e.target.value)}
+            rows={4}
+            className="w-full resize-none rounded-[10px] border border-white/10 bg-white/5 p-3.5 text-[15px] text-[#f1f5f9]"
+          />
+        </div>
+        <button
+          onClick={send}
+          disabled={!text.trim()}
+          className="mt-3 w-full rounded-[10px] bg-[#f5c518] px-6 py-3 font-semibold text-[#0f0f1a] disabled:opacity-50"
+        >
+          {sent ? "✅ Sent!" : "📨 Send Message"}
+        </button>
+      </div>
+    </div>
+  );
+}

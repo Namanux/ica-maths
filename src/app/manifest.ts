@@ -2,9 +2,9 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "ICAS Maths Simulator",
-    short_name: "ICAS Maths",
-    description: "Practice exam simulator for ICAS Mathematics past papers.",
+    name: "Honeycomb",
+    short_name: "Honeycomb",
+    description: "Your family learning and rewards hub",
     start_url: "/",
     display: "standalone",
     background_color: "#ffffff",

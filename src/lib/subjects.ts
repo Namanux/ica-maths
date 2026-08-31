@@ -38,6 +38,12 @@ export const SUBJECTS: Subject[] = [
       "EduTest-style scholarship & selective-entry practice — Mathematics and Numerical Reasoning, timed like the real test.",
     available: true,
   },
+  {
+    slug: "beehave",
+    name: "Beehave",
+    description: "Rewards & good behaviour",
+    available: true,
+  },
 ];
 
 export function getSubject(slug: string): Subject | undefined {

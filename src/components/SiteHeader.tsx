@@ -12,7 +12,8 @@ const SECTION_TITLES: Record<string, string> = {
   "selective-test": "Selective",
   edutest: "EduTest",
   naplan: "NAPLAN",
-  icas: "ICAS Maths Simulator",
+  beehave: "Beehave",
+  icas: "Honeycomb",
 };
 
 export function SiteHeader() {
@@ -29,7 +30,8 @@ export function SiteHeader() {
     : segments[1] === "abacus" ||
       segments[1] === "selective-test" ||
       segments[1] === "edutest" ||
-      segments[1] === "naplan"
+      segments[1] === "naplan" ||
+      segments[1] === "beehave"
     ? segments[1]
     : "icas";
   const sectionTitle = SECTION_TITLES[sectionSlug] ?? SECTION_TITLES.icas;

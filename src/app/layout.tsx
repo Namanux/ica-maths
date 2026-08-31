@@ -16,11 +16,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "ICAS Maths Simulator",
-  description: "Practice exam simulator for ICAS Mathematics past papers.",
+  title: "Honeycomb",
+  description: "Your family learning and rewards hub",
   appleWebApp: {
     capable: true,
-    title: "ICAS Maths",
+    title: "Honeycomb",
     statusBarStyle: "black-translucent",
   },
 };
@@ -32,7 +32,7 @@ export const viewport = {
 const themeInitScript = `
 (function() {
   try {
-    var stored = localStorage.getItem('icas-theme');
+    var stored = localStorage.getItem('honeycomb-theme');
     var theme = stored || (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
     if (theme === 'dark') document.documentElement.classList.add('dark');
   } catch (e) {}
