@@ -146,6 +146,18 @@ function EmojiPicker({
   emojis?: string[];
 }) {
   const [open, setOpen] = useState(false);
+  useEffect(() => {
+    if (!open) return;
+    const h = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        e.stopPropagation();
+        setOpen(false);
+      }
+    };
+    // Capture phase so this runs before a parent form's Esc handler.
+    window.addEventListener("keydown", h, true);
+    return () => window.removeEventListener("keydown", h, true);
+  }, [open]);
   return (
     <div className="relative inline-block">
       <button
@@ -2645,6 +2657,14 @@ function TaskForm({
     note: task.note || "",
   });
 
+  useEffect(() => {
+    const h = (e: KeyboardEvent) => {
+      if (e.key === "Escape") onCancel();
+    };
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
+  }, [onCancel]);
+
   function toggleDay(d: number) {
     setForm((f) => ({
       ...f,
@@ -3192,6 +3212,19 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
   useEffect(() => {
     void loadRewards();
   }, []);
+
+  useEffect(() => {
+    if (!showForm) return;
+    const h = (e: KeyboardEvent) => {
+      if (e.key === "Escape") {
+        setShowForm(false);
+        setForm(blankReward());
+      }
+    };
+    window.addEventListener("keydown", h);
+    return () => window.removeEventListener("keydown", h);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [showForm]);
 
   async function loadRewards() {
     if (!supabase) return;
