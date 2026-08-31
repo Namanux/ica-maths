@@ -3304,6 +3304,17 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
     void loadPolicing();
   }
 
+  async function duplicatePolicing(p: PolicingTaskRow) {
+    if (!supabase) return;
+    await supabase.from("policing_tasks").insert({
+      name: `${p.name} copy`,
+      icon: p.icon,
+      coins: p.coins,
+      description: p.description ?? null,
+    });
+    void loadPolicing();
+  }
+
   useEffect(() => {
     void loadRewards();
     void loadPolicing();
@@ -3708,6 +3719,15 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
                 )}
               </div>
               <div className="font-bold text-[#ef4444]">−🪙 {p.coins}</div>
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  void duplicatePolicing(p);
+                }}
+                className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
+              >
+                Duplicate
+              </button>
             </div>
           ),
         )
