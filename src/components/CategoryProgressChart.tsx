@@ -14,18 +14,26 @@ import {
 import { useTheme } from "@/lib/theme-provider";
 import { topicsFromAttempts } from "@/lib/scoring";
 import { TOPIC_COLORS, TOPIC_COLORS_DARK } from "@/lib/topicColors";
-import { formatShortDate } from "@/lib/format";
+import { formatCompletedAt } from "@/lib/format";
+import { paperChartLabel } from "@/lib/papers";
 import type { StoredAttempt } from "@/lib/attempts";
 
 interface ChartPoint {
   label: string;
+  paperTitle: string;
+  completedAt: string;
   raw: Record<string, { correct: number; total: number }>;
   [topic: string]: unknown;
 }
 
 function buildChartData(attempts: StoredAttempt[], topics: string[]): ChartPoint[] {
   return attempts.map((a) => {
-    const point: ChartPoint = { label: formatShortDate(a.completedAt), raw: {} };
+    const point: ChartPoint = {
+      label: paperChartLabel(a.paperId, a.paperTitle),
+      paperTitle: a.paperTitle,
+      completedAt: a.completedAt,
+      raw: {},
+    };
     for (const topic of topics) {
       const cat = a.categoryBreakdown.find((c) => c.topic === topic);
       if (cat && cat.total > 0) {
@@ -46,7 +54,6 @@ interface TooltipEntry {
 function ChartTooltip({
   active,
   payload,
-  label,
 }: {
   active?: boolean;
   payload?: TooltipEntry[];
@@ -56,7 +63,10 @@ function ChartTooltip({
   const point = (payload[0] as unknown as { payload: ChartPoint }).payload;
   return (
     <div className="rounded-lg border border-border bg-background px-3 py-2 text-xs shadow-lg flex flex-col gap-1">
-      <div className="font-medium">{label}</div>
+      <div>
+        <div className="font-medium">{point.paperTitle}</div>
+        <div className="text-muted">{formatCompletedAt(point.completedAt)}</div>
+      </div>
       {payload.map((entry) => {
         const raw = point.raw[entry.dataKey];
         return (
@@ -79,7 +89,8 @@ export function CategoryProgressChart({
   title,
   attempts,
 }: {
-  title: string;
+  /** Omit to skip the name label — e.g. when a profile picker above already shows it. */
+  title?: string;
   /** Must already be sorted oldest -> newest. */
   attempts: StoredAttempt[];
 }) {
@@ -90,7 +101,7 @@ export function CategoryProgressChart({
   if (attempts.length < 2) {
     return (
       <div className="rounded-lg border border-border p-4 text-sm">
-        <div className="font-medium mb-1">{title}</div>
+        {title && <div className="font-medium mb-1">{title}</div>}
         <p className="text-muted">Complete at least 2 papers to see a progress trend.</p>
       </div>
     );
@@ -112,14 +123,22 @@ export function CategoryProgressChart({
   return (
     <div className="rounded-lg border border-border p-4 flex flex-col gap-3">
       <div>
-        <div className="font-medium">{title}</div>
+        {title && <div className="font-medium">{title}</div>}
         <p className="text-xs text-muted mt-0.5">% correct per category over time — higher is better</p>
       </div>
       <div style={{ width: "100%", height: 400 }}>
         <ResponsiveContainer width="100%" height="100%">
-          <LineChart data={data} margin={{ top: 8, right: 16, left: 0, bottom: 8 }}>
+          <LineChart data={data} margin={{ top: 8, right: 16, left: 0, bottom: 24 }}>
             <CartesianGrid stroke="var(--border)" strokeDasharray="3 3" />
-            <XAxis dataKey="label" tick={{ fontSize: 11, fill: "var(--muted)" }} stroke="var(--border)" />
+            <XAxis
+              dataKey="label"
+              tick={{ fontSize: 11, fill: "var(--muted)" }}
+              stroke="var(--border)"
+              interval={0}
+              angle={-30}
+              textAnchor="end"
+              height={50}
+            />
             <YAxis
               domain={[0, 100]}
               tick={{ fontSize: 11, fill: "var(--muted)" }}

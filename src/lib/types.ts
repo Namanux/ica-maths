@@ -1,7 +1,7 @@
 export type QuestionType = "multiple_choice" | "free_response";
 
 export interface AnswerOption {
-  label: "A" | "B" | "C" | "D" | "E";
+  label: "A" | "B" | "C" | "D" | "E" | "F" | "G" | "H";
   text?: string;
   imageUrl?: string;
 }
@@ -50,6 +50,7 @@ export interface Paper {
 export interface PaperSummary {
   id: string;
   exam?: string;
+  component?: string;
   subject: string;
   yearLevel: number;
   paperCode: string;

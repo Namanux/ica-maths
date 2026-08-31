@@ -213,8 +213,8 @@ export function ExamRunner({ paper, profileSlug }: { paper: Paper; profileSlug: 
         e.preventDefault();
         goToIndex(currentIndex - 1);
       } else if (currentQuestion.type === "multiple_choice" && currentQuestion.options) {
-        const numIdx = ["1", "2", "3", "4", "5"].indexOf(key);
-        const letterIdx = ["a", "b", "c", "d", "e"].indexOf(key);
+        const numIdx = ["1", "2", "3", "4", "5", "6", "7", "8"].indexOf(key);
+        const letterIdx = ["a", "b", "c", "d", "e", "f", "g", "h"].indexOf(key);
         const pick = numIdx !== -1 ? numIdx : letterIdx;
         const option = pick !== -1 ? currentQuestion.options[pick] : undefined;
         if (option) selectAnswer(option.label);

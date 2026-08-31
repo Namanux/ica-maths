@@ -1,0 +1,1149 @@
+{
+  "id": "selective-reading-pt2",
+  "exam": "selective-test",
+  "component": "reading",
+  "subject": "Reading",
+  "yearLevel": 6,
+  "paperCode": "PT2",
+  "title": "NSW Selective - Reading Practice Test 2",
+  "year": 2024,
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "sel-reading-pt2-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the extract below then answer each question.\n\nFirst experience of Bombay\n\nA factory is going to be built in Thul, a small fishing village in India. The villagers fear it will change their traditional way of life, so a group of them, led by Adarkar, go to Bombay (the old name for Mumbai) to protest. The story is told from the point of view of Hari, a young boy who goes with them. Here they have just set off in boats from Rewas to Bombay.\n\n(1) By the time the sun was up, turning the dull sea into peacock blue and emerald green and lighting up the city of Bombay on the far shore like a white castle made of sand, or salt, blinding against the hot blue sky, all the boats had been loaded and were setting out like a shoal of dolphins over the waves.\n\n(2) It was fourteen kilometres from Rewas to Bombay. All the way they shouted and sang. Their voices rang from boat to boat. They were all in high spirits; it was such a rare outing for them who usually never gave up a day's work to leave their villages, it seemed almost like a holiday. Adarkar had to shout occasionally to remind the farmers and fishermen why they were going to Bombay. His voice was getting so hoarse, one of the older fishermen finally tugged at his shirt and said,\n\n(3) \"Sit down, son, sit for a while. Keep your breath for all the shouting you are going to do in Bombay. When we get there, we will shout so every man in the city hears us, never you fear. Sit and have a little rest. Give our brother some tea to drink,\" he called to the men in the boat. One of them produced a clay cup which was still half full of tea, the rest having spilt earlier. They passed it to their leader who sat down and drank gratefully. Another produced a sweet lime, peeled it and passed him the segments to suck. He was grateful to them and took their advice.\n\n(4) Hari, who had bought neither tea nor fruit at the pier nor food from home, sat very quietly on the floor of the boat and no one paid him any attention at all. There was no one else from Thul in his boat; it was full of strangers from other villages along the coast, and he sat listening to them feeling very hot, tired and thirsty, and very afraid of the journey he had undertaken, without thinking, simply because he had been upset and angry and simply could not bear to live another day in Thul in the old way. The time for change had come, he had felt that. He had had to make the break he had been thinking about for so long. Had he done wrong?\n\n(5) He was silenced by awe when he saw the city of Bombay looming over their boats and the oily green waves. He would have liked to stand and stare as he disembarked from the boat at the Sassoon docks, aching and stiff from the long ride in the jam-packed boat, but there was no time. His fellow passengers were pushing and shoving past him and he was carried along by them. They pushed and shoved because they were in turn being pushed and shoved by the Bombay crowds that thronged the docks - so many people in such a great hurry as the villagers had never seen before. It was only out of the corner of his eye that he saw, briefly, before being pushed on, the great looming sides of steamships berthed at the docks, cranes lifting and lowering huge bales, men bare-bodied and sweating carrying huge packing cases and baskets on their heads and shoulders, grunting as they hurried, women like the fisherwomen at home with their purple and green saris tucked up as they ran with baskets of shining, slithering fish from the boats to the market, straw and mud and fish scales making the ground dangerously slippery.\n\n(6) And now they were out through the gates and on the street and in the midst of the terrifying traffic. In all his life Hari had not seen so much traffic as he saw on that one street. In Thul there was only the occasional bus driving down the main road of the village to the highway, and very rarely a single dusty car. He clutched the arm of the man next to him in alarm and then was relieved to find it was a farmer, Mahe, from Thul.\n\n(7) \"Hurry, brother - we have to go to the Kala Ghoda, the Black Horse,\" Mahe panted, and together they dodged the traffic and ran into a huge red double decker bus that screeched to a halt just before their noses. The driver leant out of the window and bellowed at them. They stood transfixed, shaking.\n\nThen the police appeared. \"Where have you come from, fool?\" the policeman roared at Hari. \"Never seen traffic lights? Don't you know how to cross a street? Come straight from the pumpkin fields, have you?\"\n\nThe policeman laughed, held up his hand to keep the bus waiting and waved to the marchers to cross the road.\n\n\"We are farmers and fishermen from Alibagh,\" said Mahe quietly before he moved on. \"We have come to speak to the Chief Minister.\"\n\n\"You do that,\" the policeman told him. \"You do that - he is waiting for you with tea and a garland and a sweet for each of you.\" He burst out laughing again, winking at the bus driver as he did so, and then blew his whistle shrilly to make them move. Hari and his companion moved on, very hurt and offended.\n\n\"These Bombay-wallahs, the rudest people on earth,\" muttered Mahe, and Hari nodded.",
+      "prompt": "In the first paragraph, how does Bombay appear to Hari?",
+      "options": [
+        {
+          "label": "A",
+          "text": "vibrant with green and blue lights"
+        },
+        {
+          "label": "B",
+          "text": "gleaming and dazzling in the sun"
+        },
+        {
+          "label": "C",
+          "text": "surreal and unreachable by boat"
+        },
+        {
+          "label": "D",
+          "text": "distant and grey under a hot sky"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Bombay lights up 'like a white castle made of sand, or salt, blinding against the hot blue sky' - bright and dazzling.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt2-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the extract below then answer each question.\n\nFirst experience of Bombay\n\nA factory is going to be built in Thul, a small fishing village in India. The villagers fear it will change their traditional way of life, so a group of them, led by Adarkar, go to Bombay (the old name for Mumbai) to protest. The story is told from the point of view of Hari, a young boy who goes with them. Here they have just set off in boats from Rewas to Bombay.\n\n(1) By the time the sun was up, turning the dull sea into peacock blue and emerald green and lighting up the city of Bombay on the far shore like a white castle made of sand, or salt, blinding against the hot blue sky, all the boats had been loaded and were setting out like a shoal of dolphins over the waves.\n\n(2) It was fourteen kilometres from Rewas to Bombay. All the way they shouted and sang. Their voices rang from boat to boat. They were all in high spirits; it was such a rare outing for them who usually never gave up a day's work to leave their villages, it seemed almost like a holiday. Adarkar had to shout occasionally to remind the farmers and fishermen why they were going to Bombay. His voice was getting so hoarse, one of the older fishermen finally tugged at his shirt and said,\n\n(3) \"Sit down, son, sit for a while. Keep your breath for all the shouting you are going to do in Bombay. When we get there, we will shout so every man in the city hears us, never you fear. Sit and have a little rest. Give our brother some tea to drink,\" he called to the men in the boat. One of them produced a clay cup which was still half full of tea, the rest having spilt earlier. They passed it to their leader who sat down and drank gratefully. Another produced a sweet lime, peeled it and passed him the segments to suck. He was grateful to them and took their advice.\n\n(4) Hari, who had bought neither tea nor fruit at the pier nor food from home, sat very quietly on the floor of the boat and no one paid him any attention at all. There was no one else from Thul in his boat; it was full of strangers from other villages along the coast, and he sat listening to them feeling very hot, tired and thirsty, and very afraid of the journey he had undertaken, without thinking, simply because he had been upset and angry and simply could not bear to live another day in Thul in the old way. The time for change had come, he had felt that. He had had to make the break he had been thinking about for so long. Had he done wrong?\n\n(5) He was silenced by awe when he saw the city of Bombay looming over their boats and the oily green waves. He would have liked to stand and stare as he disembarked from the boat at the Sassoon docks, aching and stiff from the long ride in the jam-packed boat, but there was no time. His fellow passengers were pushing and shoving past him and he was carried along by them. They pushed and shoved because they were in turn being pushed and shoved by the Bombay crowds that thronged the docks - so many people in such a great hurry as the villagers had never seen before. It was only out of the corner of his eye that he saw, briefly, before being pushed on, the great looming sides of steamships berthed at the docks, cranes lifting and lowering huge bales, men bare-bodied and sweating carrying huge packing cases and baskets on their heads and shoulders, grunting as they hurried, women like the fisherwomen at home with their purple and green saris tucked up as they ran with baskets of shining, slithering fish from the boats to the market, straw and mud and fish scales making the ground dangerously slippery.\n\n(6) And now they were out through the gates and on the street and in the midst of the terrifying traffic. In all his life Hari had not seen so much traffic as he saw on that one street. In Thul there was only the occasional bus driving down the main road of the village to the highway, and very rarely a single dusty car. He clutched the arm of the man next to him in alarm and then was relieved to find it was a farmer, Mahe, from Thul.\n\n(7) \"Hurry, brother - we have to go to the Kala Ghoda, the Black Horse,\" Mahe panted, and together they dodged the traffic and ran into a huge red double decker bus that screeched to a halt just before their noses. The driver leant out of the window and bellowed at them. They stood transfixed, shaking.\n\nThen the police appeared. \"Where have you come from, fool?\" the policeman roared at Hari. \"Never seen traffic lights? Don't you know how to cross a street? Come straight from the pumpkin fields, have you?\"\n\nThe policeman laughed, held up his hand to keep the bus waiting and waved to the marchers to cross the road.\n\n\"We are farmers and fishermen from Alibagh,\" said Mahe quietly before he moved on. \"We have come to speak to the Chief Minister.\"\n\n\"You do that,\" the policeman told him. \"You do that - he is waiting for you with tea and a garland and a sweet for each of you.\" He burst out laughing again, winking at the bus driver as he did so, and then blew his whistle shrilly to make them move. Hari and his companion moved on, very hurt and offended.\n\n\"These Bombay-wallahs, the rudest people on earth,\" muttered Mahe, and Hari nodded.",
+      "prompt": "The farmers and fishermen sing and shout on the boats because",
+      "options": [
+        {
+          "label": "A",
+          "text": "they are nervous about the confrontation ahead."
+        },
+        {
+          "label": "B",
+          "text": "they want to practise for the procession."
+        },
+        {
+          "label": "C",
+          "text": "they need to show why they are there."
+        },
+        {
+          "label": "D",
+          "text": "they are enjoying being away from work."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'They were all in high spirits; it was such a rare outing... it seemed almost like a holiday.' Adarkar even has to remind them why they are going.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt2-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the extract below then answer each question.\n\nFirst experience of Bombay\n\nA factory is going to be built in Thul, a small fishing village in India. The villagers fear it will change their traditional way of life, so a group of them, led by Adarkar, go to Bombay (the old name for Mumbai) to protest. The story is told from the point of view of Hari, a young boy who goes with them. Here they have just set off in boats from Rewas to Bombay.\n\n(1) By the time the sun was up, turning the dull sea into peacock blue and emerald green and lighting up the city of Bombay on the far shore like a white castle made of sand, or salt, blinding against the hot blue sky, all the boats had been loaded and were setting out like a shoal of dolphins over the waves.\n\n(2) It was fourteen kilometres from Rewas to Bombay. All the way they shouted and sang. Their voices rang from boat to boat. They were all in high spirits; it was such a rare outing for them who usually never gave up a day's work to leave their villages, it seemed almost like a holiday. Adarkar had to shout occasionally to remind the farmers and fishermen why they were going to Bombay. His voice was getting so hoarse, one of the older fishermen finally tugged at his shirt and said,\n\n(3) \"Sit down, son, sit for a while. Keep your breath for all the shouting you are going to do in Bombay. When we get there, we will shout so every man in the city hears us, never you fear. Sit and have a little rest. Give our brother some tea to drink,\" he called to the men in the boat. One of them produced a clay cup which was still half full of tea, the rest having spilt earlier. They passed it to their leader who sat down and drank gratefully. Another produced a sweet lime, peeled it and passed him the segments to suck. He was grateful to them and took their advice.\n\n(4) Hari, who had bought neither tea nor fruit at the pier nor food from home, sat very quietly on the floor of the boat and no one paid him any attention at all. There was no one else from Thul in his boat; it was full of strangers from other villages along the coast, and he sat listening to them feeling very hot, tired and thirsty, and very afraid of the journey he had undertaken, without thinking, simply because he had been upset and angry and simply could not bear to live another day in Thul in the old way. The time for change had come, he had felt that. He had had to make the break he had been thinking about for so long. Had he done wrong?\n\n(5) He was silenced by awe when he saw the city of Bombay looming over their boats and the oily green waves. He would have liked to stand and stare as he disembarked from the boat at the Sassoon docks, aching and stiff from the long ride in the jam-packed boat, but there was no time. His fellow passengers were pushing and shoving past him and he was carried along by them. They pushed and shoved because they were in turn being pushed and shoved by the Bombay crowds that thronged the docks - so many people in such a great hurry as the villagers had never seen before. It was only out of the corner of his eye that he saw, briefly, before being pushed on, the great looming sides of steamships berthed at the docks, cranes lifting and lowering huge bales, men bare-bodied and sweating carrying huge packing cases and baskets on their heads and shoulders, grunting as they hurried, women like the fisherwomen at home with their purple and green saris tucked up as they ran with baskets of shining, slithering fish from the boats to the market, straw and mud and fish scales making the ground dangerously slippery.\n\n(6) And now they were out through the gates and on the street and in the midst of the terrifying traffic. In all his life Hari had not seen so much traffic as he saw on that one street. In Thul there was only the occasional bus driving down the main road of the village to the highway, and very rarely a single dusty car. He clutched the arm of the man next to him in alarm and then was relieved to find it was a farmer, Mahe, from Thul.\n\n(7) \"Hurry, brother - we have to go to the Kala Ghoda, the Black Horse,\" Mahe panted, and together they dodged the traffic and ran into a huge red double decker bus that screeched to a halt just before their noses. The driver leant out of the window and bellowed at them. They stood transfixed, shaking.\n\nThen the police appeared. \"Where have you come from, fool?\" the policeman roared at Hari. \"Never seen traffic lights? Don't you know how to cross a street? Come straight from the pumpkin fields, have you?\"\n\nThe policeman laughed, held up his hand to keep the bus waiting and waved to the marchers to cross the road.\n\n\"We are farmers and fishermen from Alibagh,\" said Mahe quietly before he moved on. \"We have come to speak to the Chief Minister.\"\n\n\"You do that,\" the policeman told him. \"You do that - he is waiting for you with tea and a garland and a sweet for each of you.\" He burst out laughing again, winking at the bus driver as he did so, and then blew his whistle shrilly to make them move. Hari and his companion moved on, very hurt and offended.\n\n\"These Bombay-wallahs, the rudest people on earth,\" muttered Mahe, and Hari nodded.",
+      "prompt": "In the third paragraph, who is referred to as 'our brother'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hari"
+        },
+        {
+          "label": "B",
+          "text": "the old fisherman"
+        },
+        {
+          "label": "C",
+          "text": "Adarkar"
+        },
+        {
+          "label": "D",
+          "text": "a stranger in the boat"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The tea is given to 'our brother', and 'They passed it to their leader' - the leader of the march is Adarkar.",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "sel-reading-pt2-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the extract below then answer each question.\n\nFirst experience of Bombay\n\nA factory is going to be built in Thul, a small fishing village in India. The villagers fear it will change their traditional way of life, so a group of them, led by Adarkar, go to Bombay (the old name for Mumbai) to protest. The story is told from the point of view of Hari, a young boy who goes with them. Here they have just set off in boats from Rewas to Bombay.\n\n(1) By the time the sun was up, turning the dull sea into peacock blue and emerald green and lighting up the city of Bombay on the far shore like a white castle made of sand, or salt, blinding against the hot blue sky, all the boats had been loaded and were setting out like a shoal of dolphins over the waves.\n\n(2) It was fourteen kilometres from Rewas to Bombay. All the way they shouted and sang. Their voices rang from boat to boat. They were all in high spirits; it was such a rare outing for them who usually never gave up a day's work to leave their villages, it seemed almost like a holiday. Adarkar had to shout occasionally to remind the farmers and fishermen why they were going to Bombay. His voice was getting so hoarse, one of the older fishermen finally tugged at his shirt and said,\n\n(3) \"Sit down, son, sit for a while. Keep your breath for all the shouting you are going to do in Bombay. When we get there, we will shout so every man in the city hears us, never you fear. Sit and have a little rest. Give our brother some tea to drink,\" he called to the men in the boat. One of them produced a clay cup which was still half full of tea, the rest having spilt earlier. They passed it to their leader who sat down and drank gratefully. Another produced a sweet lime, peeled it and passed him the segments to suck. He was grateful to them and took their advice.\n\n(4) Hari, who had bought neither tea nor fruit at the pier nor food from home, sat very quietly on the floor of the boat and no one paid him any attention at all. There was no one else from Thul in his boat; it was full of strangers from other villages along the coast, and he sat listening to them feeling very hot, tired and thirsty, and very afraid of the journey he had undertaken, without thinking, simply because he had been upset and angry and simply could not bear to live another day in Thul in the old way. The time for change had come, he had felt that. He had had to make the break he had been thinking about for so long. Had he done wrong?\n\n(5) He was silenced by awe when he saw the city of Bombay looming over their boats and the oily green waves. He would have liked to stand and stare as he disembarked from the boat at the Sassoon docks, aching and stiff from the long ride in the jam-packed boat, but there was no time. His fellow passengers were pushing and shoving past him and he was carried along by them. They pushed and shoved because they were in turn being pushed and shoved by the Bombay crowds that thronged the docks - so many people in such a great hurry as the villagers had never seen before. It was only out of the corner of his eye that he saw, briefly, before being pushed on, the great looming sides of steamships berthed at the docks, cranes lifting and lowering huge bales, men bare-bodied and sweating carrying huge packing cases and baskets on their heads and shoulders, grunting as they hurried, women like the fisherwomen at home with their purple and green saris tucked up as they ran with baskets of shining, slithering fish from the boats to the market, straw and mud and fish scales making the ground dangerously slippery.\n\n(6) And now they were out through the gates and on the street and in the midst of the terrifying traffic. In all his life Hari had not seen so much traffic as he saw on that one street. In Thul there was only the occasional bus driving down the main road of the village to the highway, and very rarely a single dusty car. He clutched the arm of the man next to him in alarm and then was relieved to find it was a farmer, Mahe, from Thul.\n\n(7) \"Hurry, brother - we have to go to the Kala Ghoda, the Black Horse,\" Mahe panted, and together they dodged the traffic and ran into a huge red double decker bus that screeched to a halt just before their noses. The driver leant out of the window and bellowed at them. They stood transfixed, shaking.\n\nThen the police appeared. \"Where have you come from, fool?\" the policeman roared at Hari. \"Never seen traffic lights? Don't you know how to cross a street? Come straight from the pumpkin fields, have you?\"\n\nThe policeman laughed, held up his hand to keep the bus waiting and waved to the marchers to cross the road.\n\n\"We are farmers and fishermen from Alibagh,\" said Mahe quietly before he moved on. \"We have come to speak to the Chief Minister.\"\n\n\"You do that,\" the policeman told him. \"You do that - he is waiting for you with tea and a garland and a sweet for each of you.\" He burst out laughing again, winking at the bus driver as he did so, and then blew his whistle shrilly to make them move. Hari and his companion moved on, very hurt and offended.\n\n\"These Bombay-wallahs, the rudest people on earth,\" muttered Mahe, and Hari nodded.",
+      "prompt": "In the fourth paragraph, the writer suggests that Hari is feeling",
+      "options": [
+        {
+          "label": "A",
+          "text": "worried about finding some food to eat."
+        },
+        {
+          "label": "B",
+          "text": "lonely amongst so many strangers."
+        },
+        {
+          "label": "C",
+          "text": "angry about what has happened in Thul."
+        },
+        {
+          "label": "D",
+          "text": "unsure about whether he should have come."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "He is 'very afraid of the journey he had undertaken, without thinking' and asks himself 'Had he done wrong?'",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt2-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the extract below then answer each question.\n\nFirst experience of Bombay\n\nA factory is going to be built in Thul, a small fishing village in India. The villagers fear it will change their traditional way of life, so a group of them, led by Adarkar, go to Bombay (the old name for Mumbai) to protest. The story is told from the point of view of Hari, a young boy who goes with them. Here they have just set off in boats from Rewas to Bombay.\n\n(1) By the time the sun was up, turning the dull sea into peacock blue and emerald green and lighting up the city of Bombay on the far shore like a white castle made of sand, or salt, blinding against the hot blue sky, all the boats had been loaded and were setting out like a shoal of dolphins over the waves.\n\n(2) It was fourteen kilometres from Rewas to Bombay. All the way they shouted and sang. Their voices rang from boat to boat. They were all in high spirits; it was such a rare outing for them who usually never gave up a day's work to leave their villages, it seemed almost like a holiday. Adarkar had to shout occasionally to remind the farmers and fishermen why they were going to Bombay. His voice was getting so hoarse, one of the older fishermen finally tugged at his shirt and said,\n\n(3) \"Sit down, son, sit for a while. Keep your breath for all the shouting you are going to do in Bombay. When we get there, we will shout so every man in the city hears us, never you fear. Sit and have a little rest. Give our brother some tea to drink,\" he called to the men in the boat. One of them produced a clay cup which was still half full of tea, the rest having spilt earlier. They passed it to their leader who sat down and drank gratefully. Another produced a sweet lime, peeled it and passed him the segments to suck. He was grateful to them and took their advice.\n\n(4) Hari, who had bought neither tea nor fruit at the pier nor food from home, sat very quietly on the floor of the boat and no one paid him any attention at all. There was no one else from Thul in his boat; it was full of strangers from other villages along the coast, and he sat listening to them feeling very hot, tired and thirsty, and very afraid of the journey he had undertaken, without thinking, simply because he had been upset and angry and simply could not bear to live another day in Thul in the old way. The time for change had come, he had felt that. He had had to make the break he had been thinking about for so long. Had he done wrong?\n\n(5) He was silenced by awe when he saw the city of Bombay looming over their boats and the oily green waves. He would have liked to stand and stare as he disembarked from the boat at the Sassoon docks, aching and stiff from the long ride in the jam-packed boat, but there was no time. His fellow passengers were pushing and shoving past him and he was carried along by them. They pushed and shoved because they were in turn being pushed and shoved by the Bombay crowds that thronged the docks - so many people in such a great hurry as the villagers had never seen before. It was only out of the corner of his eye that he saw, briefly, before being pushed on, the great looming sides of steamships berthed at the docks, cranes lifting and lowering huge bales, men bare-bodied and sweating carrying huge packing cases and baskets on their heads and shoulders, grunting as they hurried, women like the fisherwomen at home with their purple and green saris tucked up as they ran with baskets of shining, slithering fish from the boats to the market, straw and mud and fish scales making the ground dangerously slippery.\n\n(6) And now they were out through the gates and on the street and in the midst of the terrifying traffic. In all his life Hari had not seen so much traffic as he saw on that one street. In Thul there was only the occasional bus driving down the main road of the village to the highway, and very rarely a single dusty car. He clutched the arm of the man next to him in alarm and then was relieved to find it was a farmer, Mahe, from Thul.\n\n(7) \"Hurry, brother - we have to go to the Kala Ghoda, the Black Horse,\" Mahe panted, and together they dodged the traffic and ran into a huge red double decker bus that screeched to a halt just before their noses. The driver leant out of the window and bellowed at them. They stood transfixed, shaking.\n\nThen the police appeared. \"Where have you come from, fool?\" the policeman roared at Hari. \"Never seen traffic lights? Don't you know how to cross a street? Come straight from the pumpkin fields, have you?\"\n\nThe policeman laughed, held up his hand to keep the bus waiting and waved to the marchers to cross the road.\n\n\"We are farmers and fishermen from Alibagh,\" said Mahe quietly before he moved on. \"We have come to speak to the Chief Minister.\"\n\n\"You do that,\" the policeman told him. \"You do that - he is waiting for you with tea and a garland and a sweet for each of you.\" He burst out laughing again, winking at the bus driver as he did so, and then blew his whistle shrilly to make them move. Hari and his companion moved on, very hurt and offended.\n\n\"These Bombay-wallahs, the rudest people on earth,\" muttered Mahe, and Hari nodded.",
+      "prompt": "Look at the sentence beginning 'It was only out of the corner ...'. The length and structure of this sentence help to create the impression that Hari",
+      "options": [
+        {
+          "label": "A",
+          "text": "is terrified of getting lost in the chaos of Bombay."
+        },
+        {
+          "label": "B",
+          "text": "has difficulty seeing things because of the crowds."
+        },
+        {
+          "label": "C",
+          "text": "can barely register all the sights one after another."
+        },
+        {
+          "label": "D",
+          "text": "is worried about being pushed over by the crowd."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The single long, piled-up sentence rushes past steamships, cranes, sweating men and running women, mirroring how Hari glimpses each sight 'briefly, before being pushed on'.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "sel-reading-pt2-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the extract below then answer each question.\n\nFirst experience of Bombay\n\nA factory is going to be built in Thul, a small fishing village in India. The villagers fear it will change their traditional way of life, so a group of them, led by Adarkar, go to Bombay (the old name for Mumbai) to protest. The story is told from the point of view of Hari, a young boy who goes with them. Here they have just set off in boats from Rewas to Bombay.\n\n(1) By the time the sun was up, turning the dull sea into peacock blue and emerald green and lighting up the city of Bombay on the far shore like a white castle made of sand, or salt, blinding against the hot blue sky, all the boats had been loaded and were setting out like a shoal of dolphins over the waves.\n\n(2) It was fourteen kilometres from Rewas to Bombay. All the way they shouted and sang. Their voices rang from boat to boat. They were all in high spirits; it was such a rare outing for them who usually never gave up a day's work to leave their villages, it seemed almost like a holiday. Adarkar had to shout occasionally to remind the farmers and fishermen why they were going to Bombay. His voice was getting so hoarse, one of the older fishermen finally tugged at his shirt and said,\n\n(3) \"Sit down, son, sit for a while. Keep your breath for all the shouting you are going to do in Bombay. When we get there, we will shout so every man in the city hears us, never you fear. Sit and have a little rest. Give our brother some tea to drink,\" he called to the men in the boat. One of them produced a clay cup which was still half full of tea, the rest having spilt earlier. They passed it to their leader who sat down and drank gratefully. Another produced a sweet lime, peeled it and passed him the segments to suck. He was grateful to them and took their advice.\n\n(4) Hari, who had bought neither tea nor fruit at the pier nor food from home, sat very quietly on the floor of the boat and no one paid him any attention at all. There was no one else from Thul in his boat; it was full of strangers from other villages along the coast, and he sat listening to them feeling very hot, tired and thirsty, and very afraid of the journey he had undertaken, without thinking, simply because he had been upset and angry and simply could not bear to live another day in Thul in the old way. The time for change had come, he had felt that. He had had to make the break he had been thinking about for so long. Had he done wrong?\n\n(5) He was silenced by awe when he saw the city of Bombay looming over their boats and the oily green waves. He would have liked to stand and stare as he disembarked from the boat at the Sassoon docks, aching and stiff from the long ride in the jam-packed boat, but there was no time. His fellow passengers were pushing and shoving past him and he was carried along by them. They pushed and shoved because they were in turn being pushed and shoved by the Bombay crowds that thronged the docks - so many people in such a great hurry as the villagers had never seen before. It was only out of the corner of his eye that he saw, briefly, before being pushed on, the great looming sides of steamships berthed at the docks, cranes lifting and lowering huge bales, men bare-bodied and sweating carrying huge packing cases and baskets on their heads and shoulders, grunting as they hurried, women like the fisherwomen at home with their purple and green saris tucked up as they ran with baskets of shining, slithering fish from the boats to the market, straw and mud and fish scales making the ground dangerously slippery.\n\n(6) And now they were out through the gates and on the street and in the midst of the terrifying traffic. In all his life Hari had not seen so much traffic as he saw on that one street. In Thul there was only the occasional bus driving down the main road of the village to the highway, and very rarely a single dusty car. He clutched the arm of the man next to him in alarm and then was relieved to find it was a farmer, Mahe, from Thul.\n\n(7) \"Hurry, brother - we have to go to the Kala Ghoda, the Black Horse,\" Mahe panted, and together they dodged the traffic and ran into a huge red double decker bus that screeched to a halt just before their noses. The driver leant out of the window and bellowed at them. They stood transfixed, shaking.\n\nThen the police appeared. \"Where have you come from, fool?\" the policeman roared at Hari. \"Never seen traffic lights? Don't you know how to cross a street? Come straight from the pumpkin fields, have you?\"\n\nThe policeman laughed, held up his hand to keep the bus waiting and waved to the marchers to cross the road.\n\n\"We are farmers and fishermen from Alibagh,\" said Mahe quietly before he moved on. \"We have come to speak to the Chief Minister.\"\n\n\"You do that,\" the policeman told him. \"You do that - he is waiting for you with tea and a garland and a sweet for each of you.\" He burst out laughing again, winking at the bus driver as he did so, and then blew his whistle shrilly to make them move. Hari and his companion moved on, very hurt and offended.\n\n\"These Bombay-wallahs, the rudest people on earth,\" muttered Mahe, and Hari nodded.",
+      "prompt": "When the policeman says the Chief Minister 'is waiting for you with tea and a garland and a sweet for each of you', he is",
+      "options": [
+        {
+          "label": "A",
+          "text": "making fun of them."
+        },
+        {
+          "label": "B",
+          "text": "giving them some helpful advice."
+        },
+        {
+          "label": "C",
+          "text": "sympathising with their position."
+        },
+        {
+          "label": "D",
+          "text": "expressing a doubt about their approach."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "He 'burst out laughing again, winking at the bus driver' - he is mocking the villagers.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt2-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the extract below then answer each question.\n\nFirst experience of Bombay\n\nA factory is going to be built in Thul, a small fishing village in India. The villagers fear it will change their traditional way of life, so a group of them, led by Adarkar, go to Bombay (the old name for Mumbai) to protest. The story is told from the point of view of Hari, a young boy who goes with them. Here they have just set off in boats from Rewas to Bombay.\n\n(1) By the time the sun was up, turning the dull sea into peacock blue and emerald green and lighting up the city of Bombay on the far shore like a white castle made of sand, or salt, blinding against the hot blue sky, all the boats had been loaded and were setting out like a shoal of dolphins over the waves.\n\n(2) It was fourteen kilometres from Rewas to Bombay. All the way they shouted and sang. Their voices rang from boat to boat. They were all in high spirits; it was such a rare outing for them who usually never gave up a day's work to leave their villages, it seemed almost like a holiday. Adarkar had to shout occasionally to remind the farmers and fishermen why they were going to Bombay. His voice was getting so hoarse, one of the older fishermen finally tugged at his shirt and said,\n\n(3) \"Sit down, son, sit for a while. Keep your breath for all the shouting you are going to do in Bombay. When we get there, we will shout so every man in the city hears us, never you fear. Sit and have a little rest. Give our brother some tea to drink,\" he called to the men in the boat. One of them produced a clay cup which was still half full of tea, the rest having spilt earlier. They passed it to their leader who sat down and drank gratefully. Another produced a sweet lime, peeled it and passed him the segments to suck. He was grateful to them and took their advice.\n\n(4) Hari, who had bought neither tea nor fruit at the pier nor food from home, sat very quietly on the floor of the boat and no one paid him any attention at all. There was no one else from Thul in his boat; it was full of strangers from other villages along the coast, and he sat listening to them feeling very hot, tired and thirsty, and very afraid of the journey he had undertaken, without thinking, simply because he had been upset and angry and simply could not bear to live another day in Thul in the old way. The time for change had come, he had felt that. He had had to make the break he had been thinking about for so long. Had he done wrong?\n\n(5) He was silenced by awe when he saw the city of Bombay looming over their boats and the oily green waves. He would have liked to stand and stare as he disembarked from the boat at the Sassoon docks, aching and stiff from the long ride in the jam-packed boat, but there was no time. His fellow passengers were pushing and shoving past him and he was carried along by them. They pushed and shoved because they were in turn being pushed and shoved by the Bombay crowds that thronged the docks - so many people in such a great hurry as the villagers had never seen before. It was only out of the corner of his eye that he saw, briefly, before being pushed on, the great looming sides of steamships berthed at the docks, cranes lifting and lowering huge bales, men bare-bodied and sweating carrying huge packing cases and baskets on their heads and shoulders, grunting as they hurried, women like the fisherwomen at home with their purple and green saris tucked up as they ran with baskets of shining, slithering fish from the boats to the market, straw and mud and fish scales making the ground dangerously slippery.\n\n(6) And now they were out through the gates and on the street and in the midst of the terrifying traffic. In all his life Hari had not seen so much traffic as he saw on that one street. In Thul there was only the occasional bus driving down the main road of the village to the highway, and very rarely a single dusty car. He clutched the arm of the man next to him in alarm and then was relieved to find it was a farmer, Mahe, from Thul.\n\n(7) \"Hurry, brother - we have to go to the Kala Ghoda, the Black Horse,\" Mahe panted, and together they dodged the traffic and ran into a huge red double decker bus that screeched to a halt just before their noses. The driver leant out of the window and bellowed at them. They stood transfixed, shaking.\n\nThen the police appeared. \"Where have you come from, fool?\" the policeman roared at Hari. \"Never seen traffic lights? Don't you know how to cross a street? Come straight from the pumpkin fields, have you?\"\n\nThe policeman laughed, held up his hand to keep the bus waiting and waved to the marchers to cross the road.\n\n\"We are farmers and fishermen from Alibagh,\" said Mahe quietly before he moved on. \"We have come to speak to the Chief Minister.\"\n\n\"You do that,\" the policeman told him. \"You do that - he is waiting for you with tea and a garland and a sweet for each of you.\" He burst out laughing again, winking at the bus driver as he did so, and then blew his whistle shrilly to make them move. Hari and his companion moved on, very hurt and offended.\n\n\"These Bombay-wallahs, the rudest people on earth,\" muttered Mahe, and Hari nodded.",
+      "prompt": "At one point in this extract, the writer explicitly contrasts",
+      "options": [
+        {
+          "label": "A",
+          "text": "the police in Bombay and the police in Thul."
+        },
+        {
+          "label": "B",
+          "text": "the behaviour of the fishermen from Rewas and that of the farmers."
+        },
+        {
+          "label": "C",
+          "text": "the commotion in Bombay and the quiet of Thul."
+        },
+        {
+          "label": "D",
+          "text": "the people in the docks and the people on the streets."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The frantic Bombay traffic is set directly against Thul, where 'there was only the occasional bus... and very rarely a single dusty car'.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "sel-reading-pt2-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the extract below then answer each question.\n\nFirst experience of Bombay\n\nA factory is going to be built in Thul, a small fishing village in India. The villagers fear it will change their traditional way of life, so a group of them, led by Adarkar, go to Bombay (the old name for Mumbai) to protest. The story is told from the point of view of Hari, a young boy who goes with them. Here they have just set off in boats from Rewas to Bombay.\n\n(1) By the time the sun was up, turning the dull sea into peacock blue and emerald green and lighting up the city of Bombay on the far shore like a white castle made of sand, or salt, blinding against the hot blue sky, all the boats had been loaded and were setting out like a shoal of dolphins over the waves.\n\n(2) It was fourteen kilometres from Rewas to Bombay. All the way they shouted and sang. Their voices rang from boat to boat. They were all in high spirits; it was such a rare outing for them who usually never gave up a day's work to leave their villages, it seemed almost like a holiday. Adarkar had to shout occasionally to remind the farmers and fishermen why they were going to Bombay. His voice was getting so hoarse, one of the older fishermen finally tugged at his shirt and said,\n\n(3) \"Sit down, son, sit for a while. Keep your breath for all the shouting you are going to do in Bombay. When we get there, we will shout so every man in the city hears us, never you fear. Sit and have a little rest. Give our brother some tea to drink,\" he called to the men in the boat. One of them produced a clay cup which was still half full of tea, the rest having spilt earlier. They passed it to their leader who sat down and drank gratefully. Another produced a sweet lime, peeled it and passed him the segments to suck. He was grateful to them and took their advice.\n\n(4) Hari, who had bought neither tea nor fruit at the pier nor food from home, sat very quietly on the floor of the boat and no one paid him any attention at all. There was no one else from Thul in his boat; it was full of strangers from other villages along the coast, and he sat listening to them feeling very hot, tired and thirsty, and very afraid of the journey he had undertaken, without thinking, simply because he had been upset and angry and simply could not bear to live another day in Thul in the old way. The time for change had come, he had felt that. He had had to make the break he had been thinking about for so long. Had he done wrong?\n\n(5) He was silenced by awe when he saw the city of Bombay looming over their boats and the oily green waves. He would have liked to stand and stare as he disembarked from the boat at the Sassoon docks, aching and stiff from the long ride in the jam-packed boat, but there was no time. His fellow passengers were pushing and shoving past him and he was carried along by them. They pushed and shoved because they were in turn being pushed and shoved by the Bombay crowds that thronged the docks - so many people in such a great hurry as the villagers had never seen before. It was only out of the corner of his eye that he saw, briefly, before being pushed on, the great looming sides of steamships berthed at the docks, cranes lifting and lowering huge bales, men bare-bodied and sweating carrying huge packing cases and baskets on their heads and shoulders, grunting as they hurried, women like the fisherwomen at home with their purple and green saris tucked up as they ran with baskets of shining, slithering fish from the boats to the market, straw and mud and fish scales making the ground dangerously slippery.\n\n(6) And now they were out through the gates and on the street and in the midst of the terrifying traffic. In all his life Hari had not seen so much traffic as he saw on that one street. In Thul there was only the occasional bus driving down the main road of the village to the highway, and very rarely a single dusty car. He clutched the arm of the man next to him in alarm and then was relieved to find it was a farmer, Mahe, from Thul.\n\n(7) \"Hurry, brother - we have to go to the Kala Ghoda, the Black Horse,\" Mahe panted, and together they dodged the traffic and ran into a huge red double decker bus that screeched to a halt just before their noses. The driver leant out of the window and bellowed at them. They stood transfixed, shaking.\n\nThen the police appeared. \"Where have you come from, fool?\" the policeman roared at Hari. \"Never seen traffic lights? Don't you know how to cross a street? Come straight from the pumpkin fields, have you?\"\n\nThe policeman laughed, held up his hand to keep the bus waiting and waved to the marchers to cross the road.\n\n\"We are farmers and fishermen from Alibagh,\" said Mahe quietly before he moved on. \"We have come to speak to the Chief Minister.\"\n\n\"You do that,\" the policeman told him. \"You do that - he is waiting for you with tea and a garland and a sweet for each of you.\" He burst out laughing again, winking at the bus driver as he did so, and then blew his whistle shrilly to make them move. Hari and his companion moved on, very hurt and offended.\n\n\"These Bombay-wallahs, the rudest people on earth,\" muttered Mahe, and Hari nodded.",
+      "prompt": "Comparing the beginning and the end of this extract, what change occurs?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Morning goes to evening."
+        },
+        {
+          "label": "B",
+          "text": "The group goes from being united to being divided."
+        },
+        {
+          "label": "C",
+          "text": "Hari goes from overjoyed to anxious."
+        },
+        {
+          "label": "D",
+          "text": "The perception of Bombay goes from perfect to hostile."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Bombay first appears as a gleaming 'white castle'; by the end its people are called 'the rudest people on earth'.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt2-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nCat behaviour\n\nCats have been much (9) ...... throughout human history, typically regarded as devious, unfeeling and capricious. They have a somewhat unmerited reputation for doing what they want to do; their eyes, or so it seems to the casual onlooker, showing no (10) ...... of emotion. But actually, it would be wrong to (11) ...... human emotion onto a cat because cats simply can't conceptualise like a human. There is some truth in the claim that, unlike dogs - which after a (12) ...... understand their owners - cats behave towards us just as they do towards other cats! For example, an upright tail is an (13) ...... that they want to engage in friendly behaviour. Other cats return the tail 'salute' to show they're receptive to such an interaction. When (14) ...... a cat's mood, it's best to look hard at their body language. This includes their body shape. For instance, a cat makes itself bigger in self-defence, and the (15) ...... example would be when a cat hunches its back at the approach of a barking dog. An attack towards the aggressive dog is just possible, but very much a last (16) ...... !",
+      "prompt": "Which word best fits gap (9)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "slandered"
+        },
+        {
+          "label": "B",
+          "text": "maligned"
+        },
+        {
+          "label": "C",
+          "text": "smeared"
+        },
+        {
+          "label": "D",
+          "text": "disgraced"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'much maligned' is the set phrase - cats have been widely spoken ill of.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt2-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nCat behaviour\n\nCats have been much (9) ...... throughout human history, typically regarded as devious, unfeeling and capricious. They have a somewhat unmerited reputation for doing what they want to do; their eyes, or so it seems to the casual onlooker, showing no (10) ...... of emotion. But actually, it would be wrong to (11) ...... human emotion onto a cat because cats simply can't conceptualise like a human. There is some truth in the claim that, unlike dogs - which after a (12) ...... understand their owners - cats behave towards us just as they do towards other cats! For example, an upright tail is an (13) ...... that they want to engage in friendly behaviour. Other cats return the tail 'salute' to show they're receptive to such an interaction. When (14) ...... a cat's mood, it's best to look hard at their body language. This includes their body shape. For instance, a cat makes itself bigger in self-defence, and the (15) ...... example would be when a cat hunches its back at the approach of a barking dog. An attack towards the aggressive dog is just possible, but very much a last (16) ...... !",
+      "prompt": "Which word best fits gap (10)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "flicker"
+        },
+        {
+          "label": "B",
+          "text": "flutter"
+        },
+        {
+          "label": "C",
+          "text": "flare"
+        },
+        {
+          "label": "D",
+          "text": "flame"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'no flicker of emotion' - not the slightest trace of feeling.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt2-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nCat behaviour\n\nCats have been much (9) ...... throughout human history, typically regarded as devious, unfeeling and capricious. They have a somewhat unmerited reputation for doing what they want to do; their eyes, or so it seems to the casual onlooker, showing no (10) ...... of emotion. But actually, it would be wrong to (11) ...... human emotion onto a cat because cats simply can't conceptualise like a human. There is some truth in the claim that, unlike dogs - which after a (12) ...... understand their owners - cats behave towards us just as they do towards other cats! For example, an upright tail is an (13) ...... that they want to engage in friendly behaviour. Other cats return the tail 'salute' to show they're receptive to such an interaction. When (14) ...... a cat's mood, it's best to look hard at their body language. This includes their body shape. For instance, a cat makes itself bigger in self-defence, and the (15) ...... example would be when a cat hunches its back at the approach of a barking dog. An attack towards the aggressive dog is just possible, but very much a last (16) ...... !",
+      "prompt": "Which word best fits gap (11)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "assign"
+        },
+        {
+          "label": "B",
+          "text": "frame"
+        },
+        {
+          "label": "C",
+          "text": "project"
+        },
+        {
+          "label": "D",
+          "text": "extend"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "to 'project' human emotion onto a cat means to attribute your own feelings to it.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt2-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nCat behaviour\n\nCats have been much (9) ...... throughout human history, typically regarded as devious, unfeeling and capricious. They have a somewhat unmerited reputation for doing what they want to do; their eyes, or so it seems to the casual onlooker, showing no (10) ...... of emotion. But actually, it would be wrong to (11) ...... human emotion onto a cat because cats simply can't conceptualise like a human. There is some truth in the claim that, unlike dogs - which after a (12) ...... understand their owners - cats behave towards us just as they do towards other cats! For example, an upright tail is an (13) ...... that they want to engage in friendly behaviour. Other cats return the tail 'salute' to show they're receptive to such an interaction. When (14) ...... a cat's mood, it's best to look hard at their body language. This includes their body shape. For instance, a cat makes itself bigger in self-defence, and the (15) ...... example would be when a cat hunches its back at the approach of a barking dog. An attack towards the aggressive dog is just possible, but very much a last (16) ...... !",
+      "prompt": "Which word best fits gap (12)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "fashion"
+        },
+        {
+          "label": "B",
+          "text": "guise"
+        },
+        {
+          "label": "C",
+          "text": "manner"
+        },
+        {
+          "label": "D",
+          "text": "sort"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'after a fashion' is an idiom meaning 'to some extent' - dogs understand owners up to a point.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt2-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nCat behaviour\n\nCats have been much (9) ...... throughout human history, typically regarded as devious, unfeeling and capricious. They have a somewhat unmerited reputation for doing what they want to do; their eyes, or so it seems to the casual onlooker, showing no (10) ...... of emotion. But actually, it would be wrong to (11) ...... human emotion onto a cat because cats simply can't conceptualise like a human. There is some truth in the claim that, unlike dogs - which after a (12) ...... understand their owners - cats behave towards us just as they do towards other cats! For example, an upright tail is an (13) ...... that they want to engage in friendly behaviour. Other cats return the tail 'salute' to show they're receptive to such an interaction. When (14) ...... a cat's mood, it's best to look hard at their body language. This includes their body shape. For instance, a cat makes itself bigger in self-defence, and the (15) ...... example would be when a cat hunches its back at the approach of a barking dog. An attack towards the aggressive dog is just possible, but very much a last (16) ...... !",
+      "prompt": "Which word best fits gap (13)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "evidence"
+        },
+        {
+          "label": "B",
+          "text": "implication"
+        },
+        {
+          "label": "C",
+          "text": "expression"
+        },
+        {
+          "label": "D",
+          "text": "indication"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "an upright tail is 'an indication that' the cat wants friendly contact.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt2-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nCat behaviour\n\nCats have been much (9) ...... throughout human history, typically regarded as devious, unfeeling and capricious. They have a somewhat unmerited reputation for doing what they want to do; their eyes, or so it seems to the casual onlooker, showing no (10) ...... of emotion. But actually, it would be wrong to (11) ...... human emotion onto a cat because cats simply can't conceptualise like a human. There is some truth in the claim that, unlike dogs - which after a (12) ...... understand their owners - cats behave towards us just as they do towards other cats! For example, an upright tail is an (13) ...... that they want to engage in friendly behaviour. Other cats return the tail 'salute' to show they're receptive to such an interaction. When (14) ...... a cat's mood, it's best to look hard at their body language. This includes their body shape. For instance, a cat makes itself bigger in self-defence, and the (15) ...... example would be when a cat hunches its back at the approach of a barking dog. An attack towards the aggressive dog is just possible, but very much a last (16) ...... !",
+      "prompt": "Which word best fits gap (14)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "uncovering"
+        },
+        {
+          "label": "B",
+          "text": "rating"
+        },
+        {
+          "label": "C",
+          "text": "gauging"
+        },
+        {
+          "label": "D",
+          "text": "weighing"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'gauging a cat's mood' means working out or judging how it feels.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt2-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nCat behaviour\n\nCats have been much (9) ...... throughout human history, typically regarded as devious, unfeeling and capricious. They have a somewhat unmerited reputation for doing what they want to do; their eyes, or so it seems to the casual onlooker, showing no (10) ...... of emotion. But actually, it would be wrong to (11) ...... human emotion onto a cat because cats simply can't conceptualise like a human. There is some truth in the claim that, unlike dogs - which after a (12) ...... understand their owners - cats behave towards us just as they do towards other cats! For example, an upright tail is an (13) ...... that they want to engage in friendly behaviour. Other cats return the tail 'salute' to show they're receptive to such an interaction. When (14) ...... a cat's mood, it's best to look hard at their body language. This includes their body shape. For instance, a cat makes itself bigger in self-defence, and the (15) ...... example would be when a cat hunches its back at the approach of a barking dog. An attack towards the aggressive dog is just possible, but very much a last (16) ...... !",
+      "prompt": "Which word best fits gap (15)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "lasting"
+        },
+        {
+          "label": "B",
+          "text": "classic"
+        },
+        {
+          "label": "C",
+          "text": "model"
+        },
+        {
+          "label": "D",
+          "text": "representative"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'the classic example' is the usual collocation for a typical, well-known case.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt2-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nCat behaviour\n\nCats have been much (9) ...... throughout human history, typically regarded as devious, unfeeling and capricious. They have a somewhat unmerited reputation for doing what they want to do; their eyes, or so it seems to the casual onlooker, showing no (10) ...... of emotion. But actually, it would be wrong to (11) ...... human emotion onto a cat because cats simply can't conceptualise like a human. There is some truth in the claim that, unlike dogs - which after a (12) ...... understand their owners - cats behave towards us just as they do towards other cats! For example, an upright tail is an (13) ...... that they want to engage in friendly behaviour. Other cats return the tail 'salute' to show they're receptive to such an interaction. When (14) ...... a cat's mood, it's best to look hard at their body language. This includes their body shape. For instance, a cat makes itself bigger in self-defence, and the (15) ...... example would be when a cat hunches its back at the approach of a barking dog. An attack towards the aggressive dog is just possible, but very much a last (16) ...... !",
+      "prompt": "Which word best fits gap (16)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "resolution"
+        },
+        {
+          "label": "B",
+          "text": "refuge"
+        },
+        {
+          "label": "C",
+          "text": "retreat"
+        },
+        {
+          "label": "D",
+          "text": "resort"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'a last resort' is the idiom for something done only when nothing else is left.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt2-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem 'Drifters' below by Australian poet Bruce Dawe, then answer each question.\n\nDrifters\n\nOne day soon he'll tell her it's time to start packing,\nAnd the kids will yell \"Truly?\" and get wildly excited for no reason,\nAnd the brown kelpie pup will start dashing about, tripping everyone up,\nAnd she'll go out to the vegetable patch and pick all the green tomatoes from the vines,\nAnd notice how the oldest girl is close to tears because she was happy here,\nAnd how the youngest girl is beaming because she wasn't.\nAnd the first thing she'll put on the trailer will be\nThe bottling set she never unpacked from Grovedale,\nAnd when the loaded ute bumps down the drive past the blackberry canes with their last shrivelled fruit,\nShe won't even ask why they're leaving this time, or where they're heading for\n- she'll only remember how, when they came here,\nshe held out her hands bright with berries,\nthe first of the season, and said:\n\"Make a wish, Tom, make a wish.\"",
+      "prompt": "Who is the main focus of the poem?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the youngest daughter"
+        },
+        {
+          "label": "B",
+          "text": "the eldest daughter"
+        },
+        {
+          "label": "C",
+          "text": "the little dog"
+        },
+        {
+          "label": "D",
+          "text": "the mother of the family"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The poem follows 'she' - the mother - picking tomatoes, watching the girls, loading the trailer and remembering the day they arrived.",
+      "topic": "Main Idea & Purpose"
+    },
+    {
+      "id": "sel-reading-pt2-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem 'Drifters' below by Australian poet Bruce Dawe, then answer each question.\n\nDrifters\n\nOne day soon he'll tell her it's time to start packing,\nAnd the kids will yell \"Truly?\" and get wildly excited for no reason,\nAnd the brown kelpie pup will start dashing about, tripping everyone up,\nAnd she'll go out to the vegetable patch and pick all the green tomatoes from the vines,\nAnd notice how the oldest girl is close to tears because she was happy here,\nAnd how the youngest girl is beaming because she wasn't.\nAnd the first thing she'll put on the trailer will be\nThe bottling set she never unpacked from Grovedale,\nAnd when the loaded ute bumps down the drive past the blackberry canes with their last shrivelled fruit,\nShe won't even ask why they're leaving this time, or where they're heading for\n- she'll only remember how, when they came here,\nshe held out her hands bright with berries,\nthe first of the season, and said:\n\"Make a wish, Tom, make a wish.\"",
+      "prompt": "The writer refers to the green tomatoes to",
+      "options": [
+        {
+          "label": "A",
+          "text": "show that the move has come too soon."
+        },
+        {
+          "label": "B",
+          "text": "convey the family's enthusiasm for the move."
+        },
+        {
+          "label": "C",
+          "text": "show how imperfect life can be."
+        },
+        {
+          "label": "D",
+          "text": "reflect a wasted opportunity."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "She picks the tomatoes while they are still green - the family is leaving before anything has had time to ripen or come good.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "sel-reading-pt2-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem 'Drifters' below by Australian poet Bruce Dawe, then answer each question.\n\nDrifters\n\nOne day soon he'll tell her it's time to start packing,\nAnd the kids will yell \"Truly?\" and get wildly excited for no reason,\nAnd the brown kelpie pup will start dashing about, tripping everyone up,\nAnd she'll go out to the vegetable patch and pick all the green tomatoes from the vines,\nAnd notice how the oldest girl is close to tears because she was happy here,\nAnd how the youngest girl is beaming because she wasn't.\nAnd the first thing she'll put on the trailer will be\nThe bottling set she never unpacked from Grovedale,\nAnd when the loaded ute bumps down the drive past the blackberry canes with their last shrivelled fruit,\nShe won't even ask why they're leaving this time, or where they're heading for\n- she'll only remember how, when they came here,\nshe held out her hands bright with berries,\nthe first of the season, and said:\n\"Make a wish, Tom, make a wish.\"",
+      "prompt": "What is the effect of the repeated use of the word 'and' at the beginning of some of the lines?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It imitates the boring stability in the family's life."
+        },
+        {
+          "label": "B",
+          "text": "It emphasises the sudden haste following the father's decision."
+        },
+        {
+          "label": "C",
+          "text": "It indicates the careful planning that's going on."
+        },
+        {
+          "label": "D",
+          "text": "It hints at feelings of hope about the future."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The clauses pile up one after another, capturing the rushed scramble that follows once the father decides it is time to move.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "sel-reading-pt2-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem 'Drifters' below by Australian poet Bruce Dawe, then answer each question.\n\nDrifters\n\nOne day soon he'll tell her it's time to start packing,\nAnd the kids will yell \"Truly?\" and get wildly excited for no reason,\nAnd the brown kelpie pup will start dashing about, tripping everyone up,\nAnd she'll go out to the vegetable patch and pick all the green tomatoes from the vines,\nAnd notice how the oldest girl is close to tears because she was happy here,\nAnd how the youngest girl is beaming because she wasn't.\nAnd the first thing she'll put on the trailer will be\nThe bottling set she never unpacked from Grovedale,\nAnd when the loaded ute bumps down the drive past the blackberry canes with their last shrivelled fruit,\nShe won't even ask why they're leaving this time, or where they're heading for\n- she'll only remember how, when they came here,\nshe held out her hands bright with berries,\nthe first of the season, and said:\n\"Make a wish, Tom, make a wish.\"",
+      "prompt": "What does the phrase 'The bottling set she never unpacked' reveal about the family's life?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They waste money buying unnecessary items."
+        },
+        {
+          "label": "B",
+          "text": "They were too lazy to do the household chores."
+        },
+        {
+          "label": "C",
+          "text": "They move so often that they don't have time to put everything away."
+        },
+        {
+          "label": "D",
+          "text": "They were not interested in this hobby anymore."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The set was never unpacked 'from Grovedale', the previous home - the family moves on before they have properly settled in.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt2-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem 'Drifters' below by Australian poet Bruce Dawe, then answer each question.\n\nDrifters\n\nOne day soon he'll tell her it's time to start packing,\nAnd the kids will yell \"Truly?\" and get wildly excited for no reason,\nAnd the brown kelpie pup will start dashing about, tripping everyone up,\nAnd she'll go out to the vegetable patch and pick all the green tomatoes from the vines,\nAnd notice how the oldest girl is close to tears because she was happy here,\nAnd how the youngest girl is beaming because she wasn't.\nAnd the first thing she'll put on the trailer will be\nThe bottling set she never unpacked from Grovedale,\nAnd when the loaded ute bumps down the drive past the blackberry canes with their last shrivelled fruit,\nShe won't even ask why they're leaving this time, or where they're heading for\n- she'll only remember how, when they came here,\nshe held out her hands bright with berries,\nthe first of the season, and said:\n\"Make a wish, Tom, make a wish.\"",
+      "prompt": "Why does the woman decide not to ask any questions?",
+      "options": [
+        {
+          "label": "A",
+          "text": "She has given up trying to control where the family is headed."
+        },
+        {
+          "label": "B",
+          "text": "She is hoping her husband will change his mind."
+        },
+        {
+          "label": "C",
+          "text": "She is caught up in the general excitement surrounding the announcement."
+        },
+        {
+          "label": "D",
+          "text": "She is eager to leave as quickly as possible."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'She won't even ask why they're leaving this time, or where they're heading for' - she has stopped expecting any say in it.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt2-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem 'Drifters' below by Australian poet Bruce Dawe, then answer each question.\n\nDrifters\n\nOne day soon he'll tell her it's time to start packing,\nAnd the kids will yell \"Truly?\" and get wildly excited for no reason,\nAnd the brown kelpie pup will start dashing about, tripping everyone up,\nAnd she'll go out to the vegetable patch and pick all the green tomatoes from the vines,\nAnd notice how the oldest girl is close to tears because she was happy here,\nAnd how the youngest girl is beaming because she wasn't.\nAnd the first thing she'll put on the trailer will be\nThe bottling set she never unpacked from Grovedale,\nAnd when the loaded ute bumps down the drive past the blackberry canes with their last shrivelled fruit,\nShe won't even ask why they're leaving this time, or where they're heading for\n- she'll only remember how, when they came here,\nshe held out her hands bright with berries,\nthe first of the season, and said:\n\"Make a wish, Tom, make a wish.\"",
+      "prompt": "The phrase 'bright with berries' signifies",
+      "options": [
+        {
+          "label": "A",
+          "text": "the vibrant colours of the Australian bush."
+        },
+        {
+          "label": "B",
+          "text": "the rewards of growing your own food."
+        },
+        {
+          "label": "C",
+          "text": "the misleading nature of appearances."
+        },
+        {
+          "label": "D",
+          "text": "feelings of optimism for the future."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "It belongs to the memory of arriving here, hands full of the season's first berries, saying 'Make a wish' - a moment full of hope.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "sel-reading-pt2-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, six sentences have been removed from the text below. Choose from the sentences (A - G) the one which fits each gap. There is one extra sentence which you do not need to use.\n\nSentence options:\nA  The range only comprised vanilla, strawberry, chocolate and neapolitan (a combination of the three).\nB  The local influence is evident too, in the classic flavours the company sells today.\nC  The very suggestion prompts a sniff of scorn from certain dessert purists.\nD  He claimed that what passed for ice-cream in Australia \"was a strange, yellow, custard-like concoction\".\nE  Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home.\nF  The company's repertoire has expanded to include 100 flavours: all the favourites and a range of more exotic ones, such as Japanese green tea and wattleseed.\nG  The marketing has moved on but the brand is now owned by a multinational food giant and is still a leader in the industry.\n\nThe history of ice-cream in Australia\n\nAUSTRALIA has been a nation obsessed with consuming ice-cream from the moment it went on sale over a century ago. Behind this national addiction lies a fascinating history of immigration and changing tastes.\n\nIt's likely that American, Frederick Peters, filled the first churn for the ice-cream Australians enjoy today. He'd come to Australia to check a business investment, and began to hanker for the ice-cream his mother made while he was a child. (23) ............ . Hence, Frederick retrieved the recipes of his childhood after a visit back to the US and, in 1907, began producing ice-cream in a converted shed in Manly, Sydney, making his deliveries in the afternoon by horse and cart.\n\nAs demand grew, Peters established factories in other states. The introduction of dry ice meant ice-cream could be conveyed in ice-cream vans over long distances into the bush. \"The health food of a nation\" - the slogan proudly emblazoned on the side of Peters' vehicles from the early 1920s right through until the mid-1970s - is laughable today, given our calorific consciousness. (24) ............ .\n\nThe person credited with pioneering ice-cream of gourmet quality in Australia is Alix Mandelson, who arrived in the early 1960s with the US diplomatic service. \"If you wanted ice-cream you went down to the local milk bar and it was ordinary, commercial ice-cream, with about 10 per cent butterfat. I was rather disappointed,\" Mandelson recollects. She notes that the ice-cream on offer lacked richness and there was minimal choice of flavour. (25) ............ . Mandelson had childhood memories of using an old hand-churn to make ice-cream, often flavoured with fruit garnered from the nectarine tree that grew outside her family's California home.\n\nWith a hand-churn ordered from the US, she was soon catering for friends' dinner parties and, when an admirer wrote a newspaper article about Mandelson's ice-cream around 1965, Mandelson says \"the whole thing took off\". (26) ............ . Before long company headquarters -- its walls and shopfront plastered with awards -- had relocated to the Sydney suburb of Enmore, with Mandelson's daughter at the helm. At last count it was annually producing a quarter of a million litres of premium ice-cream for more than 800 appreciative customers, including restaurants, food stores, caterers and several airlines. (27) ............ .\n\nMandelson says Australian ice-cream has evolved through the influence of both American and Italian ice-cream traditions. \"The Italians make gelatos, which are not nearly as rich but very strong on flavour, whereas American ice-cream tends to be richer and heavier, more creamy.\" Cream? (28) ............ . Luigi Barosso, an Italian-born fourth-generation ice-cream maker explains, \"We never, ever use cream. To me, it simply doesn't fit the art of making ice-cream\".\n\nBarosso established Gigi's Ice Cream on the Sunshine Coast and was the first to make certified organic ice-cream in two flavours, most gluten free and some lactose free, which is now sold through selected outlets around the country.",
+      "prompt": "Choose the sentence (A - G) which best fits gap (23).",
+      "options": [
+        {
+          "label": "A",
+          "text": "The range only comprised vanilla, strawberry, chocolate and neapolitan (a combination of the three)."
+        },
+        {
+          "label": "B",
+          "text": "The local influence is evident too, in the classic flavours the company sells today."
+        },
+        {
+          "label": "C",
+          "text": "The very suggestion prompts a sniff of scorn from certain dessert purists."
+        },
+        {
+          "label": "D",
+          "text": "He claimed that what passed for ice-cream in Australia \"was a strange, yellow, custard-like concoction\"."
+        },
+        {
+          "label": "E",
+          "text": "Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home."
+        },
+        {
+          "label": "F",
+          "text": "The company's repertoire has expanded to include 100 flavours: all the favourites and a range of more exotic ones, such as Japanese green tea and wattleseed."
+        },
+        {
+          "label": "G",
+          "text": "The marketing has moved on but the brand is now owned by a multinational food giant and is still a leader in the industry."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Between hankering for his mother's ice-cream and 'Hence... retrieved the recipes', the gap needs his low opinion of Australian ice-cream: 'a strange, yellow, custard-like concoction'.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt2-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, six sentences have been removed from the text below. Choose from the sentences (A - G) the one which fits each gap. There is one extra sentence which you do not need to use.\n\nSentence options:\nA  The range only comprised vanilla, strawberry, chocolate and neapolitan (a combination of the three).\nB  The local influence is evident too, in the classic flavours the company sells today.\nC  The very suggestion prompts a sniff of scorn from certain dessert purists.\nD  He claimed that what passed for ice-cream in Australia \"was a strange, yellow, custard-like concoction\".\nE  Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home.\nF  The company's repertoire has expanded to include 100 flavours: all the favourites and a range of more exotic ones, such as Japanese green tea and wattleseed.\nG  The marketing has moved on but the brand is now owned by a multinational food giant and is still a leader in the industry.\n\nThe history of ice-cream in Australia\n\nAUSTRALIA has been a nation obsessed with consuming ice-cream from the moment it went on sale over a century ago. Behind this national addiction lies a fascinating history of immigration and changing tastes.\n\nIt's likely that American, Frederick Peters, filled the first churn for the ice-cream Australians enjoy today. He'd come to Australia to check a business investment, and began to hanker for the ice-cream his mother made while he was a child. (23) ............ . Hence, Frederick retrieved the recipes of his childhood after a visit back to the US and, in 1907, began producing ice-cream in a converted shed in Manly, Sydney, making his deliveries in the afternoon by horse and cart.\n\nAs demand grew, Peters established factories in other states. The introduction of dry ice meant ice-cream could be conveyed in ice-cream vans over long distances into the bush. \"The health food of a nation\" - the slogan proudly emblazoned on the side of Peters' vehicles from the early 1920s right through until the mid-1970s - is laughable today, given our calorific consciousness. (24) ............ .\n\nThe person credited with pioneering ice-cream of gourmet quality in Australia is Alix Mandelson, who arrived in the early 1960s with the US diplomatic service. \"If you wanted ice-cream you went down to the local milk bar and it was ordinary, commercial ice-cream, with about 10 per cent butterfat. I was rather disappointed,\" Mandelson recollects. She notes that the ice-cream on offer lacked richness and there was minimal choice of flavour. (25) ............ . Mandelson had childhood memories of using an old hand-churn to make ice-cream, often flavoured with fruit garnered from the nectarine tree that grew outside her family's California home.\n\nWith a hand-churn ordered from the US, she was soon catering for friends' dinner parties and, when an admirer wrote a newspaper article about Mandelson's ice-cream around 1965, Mandelson says \"the whole thing took off\". (26) ............ . Before long company headquarters -- its walls and shopfront plastered with awards -- had relocated to the Sydney suburb of Enmore, with Mandelson's daughter at the helm. At last count it was annually producing a quarter of a million litres of premium ice-cream for more than 800 appreciative customers, including restaurants, food stores, caterers and several airlines. (27) ............ .\n\nMandelson says Australian ice-cream has evolved through the influence of both American and Italian ice-cream traditions. \"The Italians make gelatos, which are not nearly as rich but very strong on flavour, whereas American ice-cream tends to be richer and heavier, more creamy.\" Cream? (28) ............ . Luigi Barosso, an Italian-born fourth-generation ice-cream maker explains, \"We never, ever use cream. To me, it simply doesn't fit the art of making ice-cream\".\n\nBarosso established Gigi's Ice Cream on the Sunshine Coast and was the first to make certified organic ice-cream in two flavours, most gluten free and some lactose free, which is now sold through selected outlets around the country.",
+      "prompt": "Choose the sentence (A - G) which best fits gap (24).",
+      "options": [
+        {
+          "label": "A",
+          "text": "The range only comprised vanilla, strawberry, chocolate and neapolitan (a combination of the three)."
+        },
+        {
+          "label": "B",
+          "text": "The local influence is evident too, in the classic flavours the company sells today."
+        },
+        {
+          "label": "C",
+          "text": "The very suggestion prompts a sniff of scorn from certain dessert purists."
+        },
+        {
+          "label": "D",
+          "text": "He claimed that what passed for ice-cream in Australia \"was a strange, yellow, custard-like concoction\"."
+        },
+        {
+          "label": "E",
+          "text": "Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home."
+        },
+        {
+          "label": "F",
+          "text": "The company's repertoire has expanded to include 100 flavours: all the favourites and a range of more exotic ones, such as Japanese green tea and wattleseed."
+        },
+        {
+          "label": "G",
+          "text": "The marketing has moved on but the brand is now owned by a multinational food giant and is still a leader in the industry."
+        }
+      ],
+      "correctAnswer": "G",
+      "explanation": "This closes the Peters story - the old slogan is gone but 'the brand is now owned by a multinational food giant and is still a leader in the industry'.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt2-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, six sentences have been removed from the text below. Choose from the sentences (A - G) the one which fits each gap. There is one extra sentence which you do not need to use.\n\nSentence options:\nA  The range only comprised vanilla, strawberry, chocolate and neapolitan (a combination of the three).\nB  The local influence is evident too, in the classic flavours the company sells today.\nC  The very suggestion prompts a sniff of scorn from certain dessert purists.\nD  He claimed that what passed for ice-cream in Australia \"was a strange, yellow, custard-like concoction\".\nE  Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home.\nF  The company's repertoire has expanded to include 100 flavours: all the favourites and a range of more exotic ones, such as Japanese green tea and wattleseed.\nG  The marketing has moved on but the brand is now owned by a multinational food giant and is still a leader in the industry.\n\nThe history of ice-cream in Australia\n\nAUSTRALIA has been a nation obsessed with consuming ice-cream from the moment it went on sale over a century ago. Behind this national addiction lies a fascinating history of immigration and changing tastes.\n\nIt's likely that American, Frederick Peters, filled the first churn for the ice-cream Australians enjoy today. He'd come to Australia to check a business investment, and began to hanker for the ice-cream his mother made while he was a child. (23) ............ . Hence, Frederick retrieved the recipes of his childhood after a visit back to the US and, in 1907, began producing ice-cream in a converted shed in Manly, Sydney, making his deliveries in the afternoon by horse and cart.\n\nAs demand grew, Peters established factories in other states. The introduction of dry ice meant ice-cream could be conveyed in ice-cream vans over long distances into the bush. \"The health food of a nation\" - the slogan proudly emblazoned on the side of Peters' vehicles from the early 1920s right through until the mid-1970s - is laughable today, given our calorific consciousness. (24) ............ .\n\nThe person credited with pioneering ice-cream of gourmet quality in Australia is Alix Mandelson, who arrived in the early 1960s with the US diplomatic service. \"If you wanted ice-cream you went down to the local milk bar and it was ordinary, commercial ice-cream, with about 10 per cent butterfat. I was rather disappointed,\" Mandelson recollects. She notes that the ice-cream on offer lacked richness and there was minimal choice of flavour. (25) ............ . Mandelson had childhood memories of using an old hand-churn to make ice-cream, often flavoured with fruit garnered from the nectarine tree that grew outside her family's California home.\n\nWith a hand-churn ordered from the US, she was soon catering for friends' dinner parties and, when an admirer wrote a newspaper article about Mandelson's ice-cream around 1965, Mandelson says \"the whole thing took off\". (26) ............ . Before long company headquarters -- its walls and shopfront plastered with awards -- had relocated to the Sydney suburb of Enmore, with Mandelson's daughter at the helm. At last count it was annually producing a quarter of a million litres of premium ice-cream for more than 800 appreciative customers, including restaurants, food stores, caterers and several airlines. (27) ............ .\n\nMandelson says Australian ice-cream has evolved through the influence of both American and Italian ice-cream traditions. \"The Italians make gelatos, which are not nearly as rich but very strong on flavour, whereas American ice-cream tends to be richer and heavier, more creamy.\" Cream? (28) ............ . Luigi Barosso, an Italian-born fourth-generation ice-cream maker explains, \"We never, ever use cream. To me, it simply doesn't fit the art of making ice-cream\".\n\nBarosso established Gigi's Ice Cream on the Sunshine Coast and was the first to make certified organic ice-cream in two flavours, most gluten free and some lactose free, which is now sold through selected outlets around the country.",
+      "prompt": "Choose the sentence (A - G) which best fits gap (25).",
+      "options": [
+        {
+          "label": "A",
+          "text": "The range only comprised vanilla, strawberry, chocolate and neapolitan (a combination of the three)."
+        },
+        {
+          "label": "B",
+          "text": "The local influence is evident too, in the classic flavours the company sells today."
+        },
+        {
+          "label": "C",
+          "text": "The very suggestion prompts a sniff of scorn from certain dessert purists."
+        },
+        {
+          "label": "D",
+          "text": "He claimed that what passed for ice-cream in Australia \"was a strange, yellow, custard-like concoction\"."
+        },
+        {
+          "label": "E",
+          "text": "Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home."
+        },
+        {
+          "label": "F",
+          "text": "The company's repertoire has expanded to include 100 flavours: all the favourites and a range of more exotic ones, such as Japanese green tea and wattleseed."
+        },
+        {
+          "label": "G",
+          "text": "The marketing has moved on but the brand is now owned by a multinational food giant and is still a leader in the industry."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "It spells out the 'minimal choice of flavour' just mentioned: only 'vanilla, strawberry, chocolate and neapolitan'.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt2-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, six sentences have been removed from the text below. Choose from the sentences (A - G) the one which fits each gap. There is one extra sentence which you do not need to use.\n\nSentence options:\nA  The range only comprised vanilla, strawberry, chocolate and neapolitan (a combination of the three).\nB  The local influence is evident too, in the classic flavours the company sells today.\nC  The very suggestion prompts a sniff of scorn from certain dessert purists.\nD  He claimed that what passed for ice-cream in Australia \"was a strange, yellow, custard-like concoction\".\nE  Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home.\nF  The company's repertoire has expanded to include 100 flavours: all the favourites and a range of more exotic ones, such as Japanese green tea and wattleseed.\nG  The marketing has moved on but the brand is now owned by a multinational food giant and is still a leader in the industry.\n\nThe history of ice-cream in Australia\n\nAUSTRALIA has been a nation obsessed with consuming ice-cream from the moment it went on sale over a century ago. Behind this national addiction lies a fascinating history of immigration and changing tastes.\n\nIt's likely that American, Frederick Peters, filled the first churn for the ice-cream Australians enjoy today. He'd come to Australia to check a business investment, and began to hanker for the ice-cream his mother made while he was a child. (23) ............ . Hence, Frederick retrieved the recipes of his childhood after a visit back to the US and, in 1907, began producing ice-cream in a converted shed in Manly, Sydney, making his deliveries in the afternoon by horse and cart.\n\nAs demand grew, Peters established factories in other states. The introduction of dry ice meant ice-cream could be conveyed in ice-cream vans over long distances into the bush. \"The health food of a nation\" - the slogan proudly emblazoned on the side of Peters' vehicles from the early 1920s right through until the mid-1970s - is laughable today, given our calorific consciousness. (24) ............ .\n\nThe person credited with pioneering ice-cream of gourmet quality in Australia is Alix Mandelson, who arrived in the early 1960s with the US diplomatic service. \"If you wanted ice-cream you went down to the local milk bar and it was ordinary, commercial ice-cream, with about 10 per cent butterfat. I was rather disappointed,\" Mandelson recollects. She notes that the ice-cream on offer lacked richness and there was minimal choice of flavour. (25) ............ . Mandelson had childhood memories of using an old hand-churn to make ice-cream, often flavoured with fruit garnered from the nectarine tree that grew outside her family's California home.\n\nWith a hand-churn ordered from the US, she was soon catering for friends' dinner parties and, when an admirer wrote a newspaper article about Mandelson's ice-cream around 1965, Mandelson says \"the whole thing took off\". (26) ............ . Before long company headquarters -- its walls and shopfront plastered with awards -- had relocated to the Sydney suburb of Enmore, with Mandelson's daughter at the helm. At last count it was annually producing a quarter of a million litres of premium ice-cream for more than 800 appreciative customers, including restaurants, food stores, caterers and several airlines. (27) ............ .\n\nMandelson says Australian ice-cream has evolved through the influence of both American and Italian ice-cream traditions. \"The Italians make gelatos, which are not nearly as rich but very strong on flavour, whereas American ice-cream tends to be richer and heavier, more creamy.\" Cream? (28) ............ . Luigi Barosso, an Italian-born fourth-generation ice-cream maker explains, \"We never, ever use cream. To me, it simply doesn't fit the art of making ice-cream\".\n\nBarosso established Gigi's Ice Cream on the Sunshine Coast and was the first to make certified organic ice-cream in two flavours, most gluten free and some lactose free, which is now sold through selected outlets around the country.",
+      "prompt": "Choose the sentence (A - G) which best fits gap (26).",
+      "options": [
+        {
+          "label": "A",
+          "text": "The range only comprised vanilla, strawberry, chocolate and neapolitan (a combination of the three)."
+        },
+        {
+          "label": "B",
+          "text": "The local influence is evident too, in the classic flavours the company sells today."
+        },
+        {
+          "label": "C",
+          "text": "The very suggestion prompts a sniff of scorn from certain dessert purists."
+        },
+        {
+          "label": "D",
+          "text": "He claimed that what passed for ice-cream in Australia \"was a strange, yellow, custard-like concoction\"."
+        },
+        {
+          "label": "E",
+          "text": "Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home."
+        },
+        {
+          "label": "F",
+          "text": "The company's repertoire has expanded to include 100 flavours: all the favourites and a range of more exotic ones, such as Japanese green tea and wattleseed."
+        },
+        {
+          "label": "G",
+          "text": "The marketing has moved on but the brand is now owned by a multinational food giant and is still a leader in the industry."
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "After the article means 'the whole thing took off', the gap names the result: 'Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home.'",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt2-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, six sentences have been removed from the text below. Choose from the sentences (A - G) the one which fits each gap. There is one extra sentence which you do not need to use.\n\nSentence options:\nA  The range only comprised vanilla, strawberry, chocolate and neapolitan (a combination of the three).\nB  The local influence is evident too, in the classic flavours the company sells today.\nC  The very suggestion prompts a sniff of scorn from certain dessert purists.\nD  He claimed that what passed for ice-cream in Australia \"was a strange, yellow, custard-like concoction\".\nE  Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home.\nF  The company's repertoire has expanded to include 100 flavours: all the favourites and a range of more exotic ones, such as Japanese green tea and wattleseed.\nG  The marketing has moved on but the brand is now owned by a multinational food giant and is still a leader in the industry.\n\nThe history of ice-cream in Australia\n\nAUSTRALIA has been a nation obsessed with consuming ice-cream from the moment it went on sale over a century ago. Behind this national addiction lies a fascinating history of immigration and changing tastes.\n\nIt's likely that American, Frederick Peters, filled the first churn for the ice-cream Australians enjoy today. He'd come to Australia to check a business investment, and began to hanker for the ice-cream his mother made while he was a child. (23) ............ . Hence, Frederick retrieved the recipes of his childhood after a visit back to the US and, in 1907, began producing ice-cream in a converted shed in Manly, Sydney, making his deliveries in the afternoon by horse and cart.\n\nAs demand grew, Peters established factories in other states. The introduction of dry ice meant ice-cream could be conveyed in ice-cream vans over long distances into the bush. \"The health food of a nation\" - the slogan proudly emblazoned on the side of Peters' vehicles from the early 1920s right through until the mid-1970s - is laughable today, given our calorific consciousness. (24) ............ .\n\nThe person credited with pioneering ice-cream of gourmet quality in Australia is Alix Mandelson, who arrived in the early 1960s with the US diplomatic service. \"If you wanted ice-cream you went down to the local milk bar and it was ordinary, commercial ice-cream, with about 10 per cent butterfat. I was rather disappointed,\" Mandelson recollects. She notes that the ice-cream on offer lacked richness and there was minimal choice of flavour. (25) ............ . Mandelson had childhood memories of using an old hand-churn to make ice-cream, often flavoured with fruit garnered from the nectarine tree that grew outside her family's California home.\n\nWith a hand-churn ordered from the US, she was soon catering for friends' dinner parties and, when an admirer wrote a newspaper article about Mandelson's ice-cream around 1965, Mandelson says \"the whole thing took off\". (26) ............ . Before long company headquarters -- its walls and shopfront plastered with awards -- had relocated to the Sydney suburb of Enmore, with Mandelson's daughter at the helm. At last count it was annually producing a quarter of a million litres of premium ice-cream for more than 800 appreciative customers, including restaurants, food stores, caterers and several airlines. (27) ............ .\n\nMandelson says Australian ice-cream has evolved through the influence of both American and Italian ice-cream traditions. \"The Italians make gelatos, which are not nearly as rich but very strong on flavour, whereas American ice-cream tends to be richer and heavier, more creamy.\" Cream? (28) ............ . Luigi Barosso, an Italian-born fourth-generation ice-cream maker explains, \"We never, ever use cream. To me, it simply doesn't fit the art of making ice-cream\".\n\nBarosso established Gigi's Ice Cream on the Sunshine Coast and was the first to make certified organic ice-cream in two flavours, most gluten free and some lactose free, which is now sold through selected outlets around the country.",
+      "prompt": "Choose the sentence (A - G) which best fits gap (27).",
+      "options": [
+        {
+          "label": "A",
+          "text": "The range only comprised vanilla, strawberry, chocolate and neapolitan (a combination of the three)."
+        },
+        {
+          "label": "B",
+          "text": "The local influence is evident too, in the classic flavours the company sells today."
+        },
+        {
+          "label": "C",
+          "text": "The very suggestion prompts a sniff of scorn from certain dessert purists."
+        },
+        {
+          "label": "D",
+          "text": "He claimed that what passed for ice-cream in Australia \"was a strange, yellow, custard-like concoction\"."
+        },
+        {
+          "label": "E",
+          "text": "Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home."
+        },
+        {
+          "label": "F",
+          "text": "The company's repertoire has expanded to include 100 flavours: all the favourites and a range of more exotic ones, such as Japanese green tea and wattleseed."
+        },
+        {
+          "label": "G",
+          "text": "The marketing has moved on but the brand is now owned by a multinational food giant and is still a leader in the industry."
+        }
+      ],
+      "correctAnswer": "F",
+      "explanation": "Following the company's output figures, the gap describes its growing range: 'expanded to include 100 flavours... such as Japanese green tea and wattleseed'.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt2-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, six sentences have been removed from the text below. Choose from the sentences (A - G) the one which fits each gap. There is one extra sentence which you do not need to use.\n\nSentence options:\nA  The range only comprised vanilla, strawberry, chocolate and neapolitan (a combination of the three).\nB  The local influence is evident too, in the classic flavours the company sells today.\nC  The very suggestion prompts a sniff of scorn from certain dessert purists.\nD  He claimed that what passed for ice-cream in Australia \"was a strange, yellow, custard-like concoction\".\nE  Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home.\nF  The company's repertoire has expanded to include 100 flavours: all the favourites and a range of more exotic ones, such as Japanese green tea and wattleseed.\nG  The marketing has moved on but the brand is now owned by a multinational food giant and is still a leader in the industry.\n\nThe history of ice-cream in Australia\n\nAUSTRALIA has been a nation obsessed with consuming ice-cream from the moment it went on sale over a century ago. Behind this national addiction lies a fascinating history of immigration and changing tastes.\n\nIt's likely that American, Frederick Peters, filled the first churn for the ice-cream Australians enjoy today. He'd come to Australia to check a business investment, and began to hanker for the ice-cream his mother made while he was a child. (23) ............ . Hence, Frederick retrieved the recipes of his childhood after a visit back to the US and, in 1907, began producing ice-cream in a converted shed in Manly, Sydney, making his deliveries in the afternoon by horse and cart.\n\nAs demand grew, Peters established factories in other states. The introduction of dry ice meant ice-cream could be conveyed in ice-cream vans over long distances into the bush. \"The health food of a nation\" - the slogan proudly emblazoned on the side of Peters' vehicles from the early 1920s right through until the mid-1970s - is laughable today, given our calorific consciousness. (24) ............ .\n\nThe person credited with pioneering ice-cream of gourmet quality in Australia is Alix Mandelson, who arrived in the early 1960s with the US diplomatic service. \"If you wanted ice-cream you went down to the local milk bar and it was ordinary, commercial ice-cream, with about 10 per cent butterfat. I was rather disappointed,\" Mandelson recollects. She notes that the ice-cream on offer lacked richness and there was minimal choice of flavour. (25) ............ . Mandelson had childhood memories of using an old hand-churn to make ice-cream, often flavoured with fruit garnered from the nectarine tree that grew outside her family's California home.\n\nWith a hand-churn ordered from the US, she was soon catering for friends' dinner parties and, when an admirer wrote a newspaper article about Mandelson's ice-cream around 1965, Mandelson says \"the whole thing took off\". (26) ............ . Before long company headquarters -- its walls and shopfront plastered with awards -- had relocated to the Sydney suburb of Enmore, with Mandelson's daughter at the helm. At last count it was annually producing a quarter of a million litres of premium ice-cream for more than 800 appreciative customers, including restaurants, food stores, caterers and several airlines. (27) ............ .\n\nMandelson says Australian ice-cream has evolved through the influence of both American and Italian ice-cream traditions. \"The Italians make gelatos, which are not nearly as rich but very strong on flavour, whereas American ice-cream tends to be richer and heavier, more creamy.\" Cream? (28) ............ . Luigi Barosso, an Italian-born fourth-generation ice-cream maker explains, \"We never, ever use cream. To me, it simply doesn't fit the art of making ice-cream\".\n\nBarosso established Gigi's Ice Cream on the Sunshine Coast and was the first to make certified organic ice-cream in two flavours, most gluten free and some lactose free, which is now sold through selected outlets around the country.",
+      "prompt": "Choose the sentence (A - G) which best fits gap (28).",
+      "options": [
+        {
+          "label": "A",
+          "text": "The range only comprised vanilla, strawberry, chocolate and neapolitan (a combination of the three)."
+        },
+        {
+          "label": "B",
+          "text": "The local influence is evident too, in the classic flavours the company sells today."
+        },
+        {
+          "label": "C",
+          "text": "The very suggestion prompts a sniff of scorn from certain dessert purists."
+        },
+        {
+          "label": "D",
+          "text": "He claimed that what passed for ice-cream in Australia \"was a strange, yellow, custard-like concoction\"."
+        },
+        {
+          "label": "E",
+          "text": "Thus Serendipity Ice-cream was founded in the kitchen of an inner-city home."
+        },
+        {
+          "label": "F",
+          "text": "The company's repertoire has expanded to include 100 flavours: all the favourites and a range of more exotic ones, such as Japanese green tea and wattleseed."
+        },
+        {
+          "label": "G",
+          "text": "The marketing has moved on but the brand is now owned by a multinational food giant and is still a leader in the industry."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The one-word question 'Cream?' is answered by 'The very suggestion prompts a sniff of scorn from certain dessert purists', leading into Barosso's 'We never, ever use cream'.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt2-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of belonging, then answer each question.\n\nExtract A\n\nDo you give much thought to whether you are an \"includer\" by nature - or not? This is something we can easily fail to develop in ourselves and may not value or develop in our children. Yet the capacity and willingness to think about others and include them makes a profound difference for people of all ages. It could be a child at pre-school who is willing to share, an adult at a party who keeps an eye out for anyone standing on their own, or a colleague who will take the time to show a newcomer around the workplace. In so many situations a moment of generosity and thoughtfulness can make all the difference between someone feeling like an outsider, with all the agonies that can produce, and feeling included.\n\nThe image of a child standing alone in a crowded playground, without the protection of company and friends, haunts many adults. Feeling included is vital for our emotional health and wellbeing and it will affect dramatically how we think about other people as well as ourselves. Because most of us underestimate our own personal power and overestimate other people's, we are likely to spend far more time worrying about being left out rather than whether and how we are including others.\n\nExtract B\n\nA sense of place is one of the most important pillars of our psyche, providing the base from which we grow and develop. My own sense of place is profoundly linked with the area I grew up in, the Grampians. Right now it is one of my favourite times of the year there -- the depths of winter -- and I have spent the last three weekends in its green and brown embrace. Granted, trekking through a damp forest is not everyone's cup of tea, and I've had the tracks largely to myself. It's been cold and sometimes wet, but also glorious.\n\nWhen things go wrong here it makes me angry. I don't like it when great strips of land are bulldozed to protect private property from fires, and I don't like the many fire tracks that criss-cross the landscape and break up the wilderness -- the legacy of a different era. I hate the rubbish people sometimes leave behind. It makes me angry because I feel a strong sense of belonging to the Grampians, this beautiful strip of mountains on a shimmering Wimmera plain, home of so many happy memories from the weekends and years spent amongst its rocky places.\n\nExtract C\n\nThink of a favourite lullaby or children's song passed down through the generations, or of crowds listening to the national anthem at a baseball game. Music is one way of communicating belonging, which may increase your sense of safety and obligation toward your group. When we discover that someone likes a piece of music that we like, we tend to think better of them -- as if musical preference had a deeper meaning than just entertainment. Music also influences how we think others will get along. In one recent study, participants listened to music or to silence while they watched videos in which three people were seen walking either in step or out of step with one another. The participants who listened to music reported seeing a greater sense of unity among the walkers than those participants who didn't listen to music. This suggests that music somehow enhances our view of social cohesion among people, perhaps through mistaking our own feelings for those of the people we observe.\n\nExtract D\n\nI get my Larrakia and Tiwi blood from my mother. My mum was, and still is, a staunch Aboriginal woman who loved her family fiercely. I get my predominantly Irish Roman Catholic heritage from my father. Dad is extremely affectionate and has a very good sense of humour, even if his jokes can be stereotypically Dad-like. At home I've never had to choose between my mother's Aboriginality or my father's European ancestry. My background doesn't dilute my lived experience or diminish my identity.\n\nThey say it takes a village to raise a child and that was certainly my experience. My grandparents, uncles and aunties always stepped in to babysit when my parents needed them to. My mother would take me out to protest meetings, the Larrakia having one of the longest ongoing land claims in Australia. Larrakia country covers most of the Darwin region. Many of the pictures of me as a baby were taken on a tarpaulin or a swag out bush when my family were camping or fishing.",
+      "prompt": "Which extract refers to pride in having a dual sense of belonging?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The writer of Extract D has Larrakia and Tiwi heritage from one parent and Irish Roman Catholic heritage from the other, and says 'My background doesn't dilute my lived experience or diminish my identity.'",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt2-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of belonging, then answer each question.\n\nExtract A\n\nDo you give much thought to whether you are an \"includer\" by nature - or not? This is something we can easily fail to develop in ourselves and may not value or develop in our children. Yet the capacity and willingness to think about others and include them makes a profound difference for people of all ages. It could be a child at pre-school who is willing to share, an adult at a party who keeps an eye out for anyone standing on their own, or a colleague who will take the time to show a newcomer around the workplace. In so many situations a moment of generosity and thoughtfulness can make all the difference between someone feeling like an outsider, with all the agonies that can produce, and feeling included.\n\nThe image of a child standing alone in a crowded playground, without the protection of company and friends, haunts many adults. Feeling included is vital for our emotional health and wellbeing and it will affect dramatically how we think about other people as well as ourselves. Because most of us underestimate our own personal power and overestimate other people's, we are likely to spend far more time worrying about being left out rather than whether and how we are including others.\n\nExtract B\n\nA sense of place is one of the most important pillars of our psyche, providing the base from which we grow and develop. My own sense of place is profoundly linked with the area I grew up in, the Grampians. Right now it is one of my favourite times of the year there -- the depths of winter -- and I have spent the last three weekends in its green and brown embrace. Granted, trekking through a damp forest is not everyone's cup of tea, and I've had the tracks largely to myself. It's been cold and sometimes wet, but also glorious.\n\nWhen things go wrong here it makes me angry. I don't like it when great strips of land are bulldozed to protect private property from fires, and I don't like the many fire tracks that criss-cross the landscape and break up the wilderness -- the legacy of a different era. I hate the rubbish people sometimes leave behind. It makes me angry because I feel a strong sense of belonging to the Grampians, this beautiful strip of mountains on a shimmering Wimmera plain, home of so many happy memories from the weekends and years spent amongst its rocky places.\n\nExtract C\n\nThink of a favourite lullaby or children's song passed down through the generations, or of crowds listening to the national anthem at a baseball game. Music is one way of communicating belonging, which may increase your sense of safety and obligation toward your group. When we discover that someone likes a piece of music that we like, we tend to think better of them -- as if musical preference had a deeper meaning than just entertainment. Music also influences how we think others will get along. In one recent study, participants listened to music or to silence while they watched videos in which three people were seen walking either in step or out of step with one another. The participants who listened to music reported seeing a greater sense of unity among the walkers than those participants who didn't listen to music. This suggests that music somehow enhances our view of social cohesion among people, perhaps through mistaking our own feelings for those of the people we observe.\n\nExtract D\n\nI get my Larrakia and Tiwi blood from my mother. My mum was, and still is, a staunch Aboriginal woman who loved her family fiercely. I get my predominantly Irish Roman Catholic heritage from my father. Dad is extremely affectionate and has a very good sense of humour, even if his jokes can be stereotypically Dad-like. At home I've never had to choose between my mother's Aboriginality or my father's European ancestry. My background doesn't dilute my lived experience or diminish my identity.\n\nThey say it takes a village to raise a child and that was certainly my experience. My grandparents, uncles and aunties always stepped in to babysit when my parents needed them to. My mother would take me out to protest meetings, the Larrakia having one of the longest ongoing land claims in Australia. Larrakia country covers most of the Darwin region. Many of the pictures of me as a baby were taken on a tarpaulin or a swag out bush when my family were camping or fishing.",
+      "prompt": "Which extract describes an experiment measuring different perceptions of belonging?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Extract C reports a study in which people who listened to music 'reported seeing a greater sense of unity among the walkers' than those who watched in silence.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt2-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of belonging, then answer each question.\n\nExtract A\n\nDo you give much thought to whether you are an \"includer\" by nature - or not? This is something we can easily fail to develop in ourselves and may not value or develop in our children. Yet the capacity and willingness to think about others and include them makes a profound difference for people of all ages. It could be a child at pre-school who is willing to share, an adult at a party who keeps an eye out for anyone standing on their own, or a colleague who will take the time to show a newcomer around the workplace. In so many situations a moment of generosity and thoughtfulness can make all the difference between someone feeling like an outsider, with all the agonies that can produce, and feeling included.\n\nThe image of a child standing alone in a crowded playground, without the protection of company and friends, haunts many adults. Feeling included is vital for our emotional health and wellbeing and it will affect dramatically how we think about other people as well as ourselves. Because most of us underestimate our own personal power and overestimate other people's, we are likely to spend far more time worrying about being left out rather than whether and how we are including others.\n\nExtract B\n\nA sense of place is one of the most important pillars of our psyche, providing the base from which we grow and develop. My own sense of place is profoundly linked with the area I grew up in, the Grampians. Right now it is one of my favourite times of the year there -- the depths of winter -- and I have spent the last three weekends in its green and brown embrace. Granted, trekking through a damp forest is not everyone's cup of tea, and I've had the tracks largely to myself. It's been cold and sometimes wet, but also glorious.\n\nWhen things go wrong here it makes me angry. I don't like it when great strips of land are bulldozed to protect private property from fires, and I don't like the many fire tracks that criss-cross the landscape and break up the wilderness -- the legacy of a different era. I hate the rubbish people sometimes leave behind. It makes me angry because I feel a strong sense of belonging to the Grampians, this beautiful strip of mountains on a shimmering Wimmera plain, home of so many happy memories from the weekends and years spent amongst its rocky places.\n\nExtract C\n\nThink of a favourite lullaby or children's song passed down through the generations, or of crowds listening to the national anthem at a baseball game. Music is one way of communicating belonging, which may increase your sense of safety and obligation toward your group. When we discover that someone likes a piece of music that we like, we tend to think better of them -- as if musical preference had a deeper meaning than just entertainment. Music also influences how we think others will get along. In one recent study, participants listened to music or to silence while they watched videos in which three people were seen walking either in step or out of step with one another. The participants who listened to music reported seeing a greater sense of unity among the walkers than those participants who didn't listen to music. This suggests that music somehow enhances our view of social cohesion among people, perhaps through mistaking our own feelings for those of the people we observe.\n\nExtract D\n\nI get my Larrakia and Tiwi blood from my mother. My mum was, and still is, a staunch Aboriginal woman who loved her family fiercely. I get my predominantly Irish Roman Catholic heritage from my father. Dad is extremely affectionate and has a very good sense of humour, even if his jokes can be stereotypically Dad-like. At home I've never had to choose between my mother's Aboriginality or my father's European ancestry. My background doesn't dilute my lived experience or diminish my identity.\n\nThey say it takes a village to raise a child and that was certainly my experience. My grandparents, uncles and aunties always stepped in to babysit when my parents needed them to. My mother would take me out to protest meetings, the Larrakia having one of the longest ongoing land claims in Australia. Larrakia country covers most of the Darwin region. Many of the pictures of me as a baby were taken on a tarpaulin or a swag out bush when my family were camping or fishing.",
+      "prompt": "Which extract is critical of modifications made to the landscape the writer loves?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Extract B objects to land being 'bulldozed' and to the 'many fire tracks that criss-cross the landscape and break up the wilderness'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt2-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of belonging, then answer each question.\n\nExtract A\n\nDo you give much thought to whether you are an \"includer\" by nature - or not? This is something we can easily fail to develop in ourselves and may not value or develop in our children. Yet the capacity and willingness to think about others and include them makes a profound difference for people of all ages. It could be a child at pre-school who is willing to share, an adult at a party who keeps an eye out for anyone standing on their own, or a colleague who will take the time to show a newcomer around the workplace. In so many situations a moment of generosity and thoughtfulness can make all the difference between someone feeling like an outsider, with all the agonies that can produce, and feeling included.\n\nThe image of a child standing alone in a crowded playground, without the protection of company and friends, haunts many adults. Feeling included is vital for our emotional health and wellbeing and it will affect dramatically how we think about other people as well as ourselves. Because most of us underestimate our own personal power and overestimate other people's, we are likely to spend far more time worrying about being left out rather than whether and how we are including others.\n\nExtract B\n\nA sense of place is one of the most important pillars of our psyche, providing the base from which we grow and develop. My own sense of place is profoundly linked with the area I grew up in, the Grampians. Right now it is one of my favourite times of the year there -- the depths of winter -- and I have spent the last three weekends in its green and brown embrace. Granted, trekking through a damp forest is not everyone's cup of tea, and I've had the tracks largely to myself. It's been cold and sometimes wet, but also glorious.\n\nWhen things go wrong here it makes me angry. I don't like it when great strips of land are bulldozed to protect private property from fires, and I don't like the many fire tracks that criss-cross the landscape and break up the wilderness -- the legacy of a different era. I hate the rubbish people sometimes leave behind. It makes me angry because I feel a strong sense of belonging to the Grampians, this beautiful strip of mountains on a shimmering Wimmera plain, home of so many happy memories from the weekends and years spent amongst its rocky places.\n\nExtract C\n\nThink of a favourite lullaby or children's song passed down through the generations, or of crowds listening to the national anthem at a baseball game. Music is one way of communicating belonging, which may increase your sense of safety and obligation toward your group. When we discover that someone likes a piece of music that we like, we tend to think better of them -- as if musical preference had a deeper meaning than just entertainment. Music also influences how we think others will get along. In one recent study, participants listened to music or to silence while they watched videos in which three people were seen walking either in step or out of step with one another. The participants who listened to music reported seeing a greater sense of unity among the walkers than those participants who didn't listen to music. This suggests that music somehow enhances our view of social cohesion among people, perhaps through mistaking our own feelings for those of the people we observe.\n\nExtract D\n\nI get my Larrakia and Tiwi blood from my mother. My mum was, and still is, a staunch Aboriginal woman who loved her family fiercely. I get my predominantly Irish Roman Catholic heritage from my father. Dad is extremely affectionate and has a very good sense of humour, even if his jokes can be stereotypically Dad-like. At home I've never had to choose between my mother's Aboriginality or my father's European ancestry. My background doesn't dilute my lived experience or diminish my identity.\n\nThey say it takes a village to raise a child and that was certainly my experience. My grandparents, uncles and aunties always stepped in to babysit when my parents needed them to. My mother would take me out to protest meetings, the Larrakia having one of the longest ongoing land claims in Australia. Larrakia country covers most of the Darwin region. Many of the pictures of me as a baby were taken on a tarpaulin or a swag out bush when my family were camping or fishing.",
+      "prompt": "Which extract refers to a commonly held belief about the best way to bring up children?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Extract D says 'They say it takes a village to raise a child and that was certainly my experience.'",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt2-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of belonging, then answer each question.\n\nExtract A\n\nDo you give much thought to whether you are an \"includer\" by nature - or not? This is something we can easily fail to develop in ourselves and may not value or develop in our children. Yet the capacity and willingness to think about others and include them makes a profound difference for people of all ages. It could be a child at pre-school who is willing to share, an adult at a party who keeps an eye out for anyone standing on their own, or a colleague who will take the time to show a newcomer around the workplace. In so many situations a moment of generosity and thoughtfulness can make all the difference between someone feeling like an outsider, with all the agonies that can produce, and feeling included.\n\nThe image of a child standing alone in a crowded playground, without the protection of company and friends, haunts many adults. Feeling included is vital for our emotional health and wellbeing and it will affect dramatically how we think about other people as well as ourselves. Because most of us underestimate our own personal power and overestimate other people's, we are likely to spend far more time worrying about being left out rather than whether and how we are including others.\n\nExtract B\n\nA sense of place is one of the most important pillars of our psyche, providing the base from which we grow and develop. My own sense of place is profoundly linked with the area I grew up in, the Grampians. Right now it is one of my favourite times of the year there -- the depths of winter -- and I have spent the last three weekends in its green and brown embrace. Granted, trekking through a damp forest is not everyone's cup of tea, and I've had the tracks largely to myself. It's been cold and sometimes wet, but also glorious.\n\nWhen things go wrong here it makes me angry. I don't like it when great strips of land are bulldozed to protect private property from fires, and I don't like the many fire tracks that criss-cross the landscape and break up the wilderness -- the legacy of a different era. I hate the rubbish people sometimes leave behind. It makes me angry because I feel a strong sense of belonging to the Grampians, this beautiful strip of mountains on a shimmering Wimmera plain, home of so many happy memories from the weekends and years spent amongst its rocky places.\n\nExtract C\n\nThink of a favourite lullaby or children's song passed down through the generations, or of crowds listening to the national anthem at a baseball game. Music is one way of communicating belonging, which may increase your sense of safety and obligation toward your group. When we discover that someone likes a piece of music that we like, we tend to think better of them -- as if musical preference had a deeper meaning than just entertainment. Music also influences how we think others will get along. In one recent study, participants listened to music or to silence while they watched videos in which three people were seen walking either in step or out of step with one another. The participants who listened to music reported seeing a greater sense of unity among the walkers than those participants who didn't listen to music. This suggests that music somehow enhances our view of social cohesion among people, perhaps through mistaking our own feelings for those of the people we observe.\n\nExtract D\n\nI get my Larrakia and Tiwi blood from my mother. My mum was, and still is, a staunch Aboriginal woman who loved her family fiercely. I get my predominantly Irish Roman Catholic heritage from my father. Dad is extremely affectionate and has a very good sense of humour, even if his jokes can be stereotypically Dad-like. At home I've never had to choose between my mother's Aboriginality or my father's European ancestry. My background doesn't dilute my lived experience or diminish my identity.\n\nThey say it takes a village to raise a child and that was certainly my experience. My grandparents, uncles and aunties always stepped in to babysit when my parents needed them to. My mother would take me out to protest meetings, the Larrakia having one of the longest ongoing land claims in Australia. Larrakia country covers most of the Darwin region. Many of the pictures of me as a baby were taken on a tarpaulin or a swag out bush when my family were camping or fishing.",
+      "prompt": "Which extract explains why making others feel welcome is a neglected skill?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Extract A says including others is 'something we can easily fail to develop in ourselves' because we worry more 'about being left out rather than whether and how we are including others'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt2-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of belonging, then answer each question.\n\nExtract A\n\nDo you give much thought to whether you are an \"includer\" by nature - or not? This is something we can easily fail to develop in ourselves and may not value or develop in our children. Yet the capacity and willingness to think about others and include them makes a profound difference for people of all ages. It could be a child at pre-school who is willing to share, an adult at a party who keeps an eye out for anyone standing on their own, or a colleague who will take the time to show a newcomer around the workplace. In so many situations a moment of generosity and thoughtfulness can make all the difference between someone feeling like an outsider, with all the agonies that can produce, and feeling included.\n\nThe image of a child standing alone in a crowded playground, without the protection of company and friends, haunts many adults. Feeling included is vital for our emotional health and wellbeing and it will affect dramatically how we think about other people as well as ourselves. Because most of us underestimate our own personal power and overestimate other people's, we are likely to spend far more time worrying about being left out rather than whether and how we are including others.\n\nExtract B\n\nA sense of place is one of the most important pillars of our psyche, providing the base from which we grow and develop. My own sense of place is profoundly linked with the area I grew up in, the Grampians. Right now it is one of my favourite times of the year there -- the depths of winter -- and I have spent the last three weekends in its green and brown embrace. Granted, trekking through a damp forest is not everyone's cup of tea, and I've had the tracks largely to myself. It's been cold and sometimes wet, but also glorious.\n\nWhen things go wrong here it makes me angry. I don't like it when great strips of land are bulldozed to protect private property from fires, and I don't like the many fire tracks that criss-cross the landscape and break up the wilderness -- the legacy of a different era. I hate the rubbish people sometimes leave behind. It makes me angry because I feel a strong sense of belonging to the Grampians, this beautiful strip of mountains on a shimmering Wimmera plain, home of so many happy memories from the weekends and years spent amongst its rocky places.\n\nExtract C\n\nThink of a favourite lullaby or children's song passed down through the generations, or of crowds listening to the national anthem at a baseball game. Music is one way of communicating belonging, which may increase your sense of safety and obligation toward your group. When we discover that someone likes a piece of music that we like, we tend to think better of them -- as if musical preference had a deeper meaning than just entertainment. Music also influences how we think others will get along. In one recent study, participants listened to music or to silence while they watched videos in which three people were seen walking either in step or out of step with one another. The participants who listened to music reported seeing a greater sense of unity among the walkers than those participants who didn't listen to music. This suggests that music somehow enhances our view of social cohesion among people, perhaps through mistaking our own feelings for those of the people we observe.\n\nExtract D\n\nI get my Larrakia and Tiwi blood from my mother. My mum was, and still is, a staunch Aboriginal woman who loved her family fiercely. I get my predominantly Irish Roman Catholic heritage from my father. Dad is extremely affectionate and has a very good sense of humour, even if his jokes can be stereotypically Dad-like. At home I've never had to choose between my mother's Aboriginality or my father's European ancestry. My background doesn't dilute my lived experience or diminish my identity.\n\nThey say it takes a village to raise a child and that was certainly my experience. My grandparents, uncles and aunties always stepped in to babysit when my parents needed them to. My mother would take me out to protest meetings, the Larrakia having one of the longest ongoing land claims in Australia. Larrakia country covers most of the Darwin region. Many of the pictures of me as a baby were taken on a tarpaulin or a swag out bush when my family were camping or fishing.",
+      "prompt": "Which extract says that liking the same thing helps to establish a sense of belonging?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Extract C: 'When we discover that someone likes a piece of music that we like, we tend to think better of them.'",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt2-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of belonging, then answer each question.\n\nExtract A\n\nDo you give much thought to whether you are an \"includer\" by nature - or not? This is something we can easily fail to develop in ourselves and may not value or develop in our children. Yet the capacity and willingness to think about others and include them makes a profound difference for people of all ages. It could be a child at pre-school who is willing to share, an adult at a party who keeps an eye out for anyone standing on their own, or a colleague who will take the time to show a newcomer around the workplace. In so many situations a moment of generosity and thoughtfulness can make all the difference between someone feeling like an outsider, with all the agonies that can produce, and feeling included.\n\nThe image of a child standing alone in a crowded playground, without the protection of company and friends, haunts many adults. Feeling included is vital for our emotional health and wellbeing and it will affect dramatically how we think about other people as well as ourselves. Because most of us underestimate our own personal power and overestimate other people's, we are likely to spend far more time worrying about being left out rather than whether and how we are including others.\n\nExtract B\n\nA sense of place is one of the most important pillars of our psyche, providing the base from which we grow and develop. My own sense of place is profoundly linked with the area I grew up in, the Grampians. Right now it is one of my favourite times of the year there -- the depths of winter -- and I have spent the last three weekends in its green and brown embrace. Granted, trekking through a damp forest is not everyone's cup of tea, and I've had the tracks largely to myself. It's been cold and sometimes wet, but also glorious.\n\nWhen things go wrong here it makes me angry. I don't like it when great strips of land are bulldozed to protect private property from fires, and I don't like the many fire tracks that criss-cross the landscape and break up the wilderness -- the legacy of a different era. I hate the rubbish people sometimes leave behind. It makes me angry because I feel a strong sense of belonging to the Grampians, this beautiful strip of mountains on a shimmering Wimmera plain, home of so many happy memories from the weekends and years spent amongst its rocky places.\n\nExtract C\n\nThink of a favourite lullaby or children's song passed down through the generations, or of crowds listening to the national anthem at a baseball game. Music is one way of communicating belonging, which may increase your sense of safety and obligation toward your group. When we discover that someone likes a piece of music that we like, we tend to think better of them -- as if musical preference had a deeper meaning than just entertainment. Music also influences how we think others will get along. In one recent study, participants listened to music or to silence while they watched videos in which three people were seen walking either in step or out of step with one another. The participants who listened to music reported seeing a greater sense of unity among the walkers than those participants who didn't listen to music. This suggests that music somehow enhances our view of social cohesion among people, perhaps through mistaking our own feelings for those of the people we observe.\n\nExtract D\n\nI get my Larrakia and Tiwi blood from my mother. My mum was, and still is, a staunch Aboriginal woman who loved her family fiercely. I get my predominantly Irish Roman Catholic heritage from my father. Dad is extremely affectionate and has a very good sense of humour, even if his jokes can be stereotypically Dad-like. At home I've never had to choose between my mother's Aboriginality or my father's European ancestry. My background doesn't dilute my lived experience or diminish my identity.\n\nThey say it takes a village to raise a child and that was certainly my experience. My grandparents, uncles and aunties always stepped in to babysit when my parents needed them to. My mother would take me out to protest meetings, the Larrakia having one of the longest ongoing land claims in Australia. Larrakia country covers most of the Darwin region. Many of the pictures of me as a baby were taken on a tarpaulin or a swag out bush when my family were camping or fishing.",
+      "prompt": "Which extract refers to a youthful experience that makes people sad to think about?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Extract A: 'The image of a child standing alone in a crowded playground... haunts many adults.'",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt2-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of belonging, then answer each question.\n\nExtract A\n\nDo you give much thought to whether you are an \"includer\" by nature - or not? This is something we can easily fail to develop in ourselves and may not value or develop in our children. Yet the capacity and willingness to think about others and include them makes a profound difference for people of all ages. It could be a child at pre-school who is willing to share, an adult at a party who keeps an eye out for anyone standing on their own, or a colleague who will take the time to show a newcomer around the workplace. In so many situations a moment of generosity and thoughtfulness can make all the difference between someone feeling like an outsider, with all the agonies that can produce, and feeling included.\n\nThe image of a child standing alone in a crowded playground, without the protection of company and friends, haunts many adults. Feeling included is vital for our emotional health and wellbeing and it will affect dramatically how we think about other people as well as ourselves. Because most of us underestimate our own personal power and overestimate other people's, we are likely to spend far more time worrying about being left out rather than whether and how we are including others.\n\nExtract B\n\nA sense of place is one of the most important pillars of our psyche, providing the base from which we grow and develop. My own sense of place is profoundly linked with the area I grew up in, the Grampians. Right now it is one of my favourite times of the year there -- the depths of winter -- and I have spent the last three weekends in its green and brown embrace. Granted, trekking through a damp forest is not everyone's cup of tea, and I've had the tracks largely to myself. It's been cold and sometimes wet, but also glorious.\n\nWhen things go wrong here it makes me angry. I don't like it when great strips of land are bulldozed to protect private property from fires, and I don't like the many fire tracks that criss-cross the landscape and break up the wilderness -- the legacy of a different era. I hate the rubbish people sometimes leave behind. It makes me angry because I feel a strong sense of belonging to the Grampians, this beautiful strip of mountains on a shimmering Wimmera plain, home of so many happy memories from the weekends and years spent amongst its rocky places.\n\nExtract C\n\nThink of a favourite lullaby or children's song passed down through the generations, or of crowds listening to the national anthem at a baseball game. Music is one way of communicating belonging, which may increase your sense of safety and obligation toward your group. When we discover that someone likes a piece of music that we like, we tend to think better of them -- as if musical preference had a deeper meaning than just entertainment. Music also influences how we think others will get along. In one recent study, participants listened to music or to silence while they watched videos in which three people were seen walking either in step or out of step with one another. The participants who listened to music reported seeing a greater sense of unity among the walkers than those participants who didn't listen to music. This suggests that music somehow enhances our view of social cohesion among people, perhaps through mistaking our own feelings for those of the people we observe.\n\nExtract D\n\nI get my Larrakia and Tiwi blood from my mother. My mum was, and still is, a staunch Aboriginal woman who loved her family fiercely. I get my predominantly Irish Roman Catholic heritage from my father. Dad is extremely affectionate and has a very good sense of humour, even if his jokes can be stereotypically Dad-like. At home I've never had to choose between my mother's Aboriginality or my father's European ancestry. My background doesn't dilute my lived experience or diminish my identity.\n\nThey say it takes a village to raise a child and that was certainly my experience. My grandparents, uncles and aunties always stepped in to babysit when my parents needed them to. My mother would take me out to protest meetings, the Larrakia having one of the longest ongoing land claims in Australia. Larrakia country covers most of the Darwin region. Many of the pictures of me as a baby were taken on a tarpaulin or a swag out bush when my family were camping or fishing.",
+      "prompt": "Which extract mentions an ongoing struggle to have land ownership officially recognised?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Extract D refers to 'the Larrakia having one of the longest ongoing land claims in Australia'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt2-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of belonging, then answer each question.\n\nExtract A\n\nDo you give much thought to whether you are an \"includer\" by nature - or not? This is something we can easily fail to develop in ourselves and may not value or develop in our children. Yet the capacity and willingness to think about others and include them makes a profound difference for people of all ages. It could be a child at pre-school who is willing to share, an adult at a party who keeps an eye out for anyone standing on their own, or a colleague who will take the time to show a newcomer around the workplace. In so many situations a moment of generosity and thoughtfulness can make all the difference between someone feeling like an outsider, with all the agonies that can produce, and feeling included.\n\nThe image of a child standing alone in a crowded playground, without the protection of company and friends, haunts many adults. Feeling included is vital for our emotional health and wellbeing and it will affect dramatically how we think about other people as well as ourselves. Because most of us underestimate our own personal power and overestimate other people's, we are likely to spend far more time worrying about being left out rather than whether and how we are including others.\n\nExtract B\n\nA sense of place is one of the most important pillars of our psyche, providing the base from which we grow and develop. My own sense of place is profoundly linked with the area I grew up in, the Grampians. Right now it is one of my favourite times of the year there -- the depths of winter -- and I have spent the last three weekends in its green and brown embrace. Granted, trekking through a damp forest is not everyone's cup of tea, and I've had the tracks largely to myself. It's been cold and sometimes wet, but also glorious.\n\nWhen things go wrong here it makes me angry. I don't like it when great strips of land are bulldozed to protect private property from fires, and I don't like the many fire tracks that criss-cross the landscape and break up the wilderness -- the legacy of a different era. I hate the rubbish people sometimes leave behind. It makes me angry because I feel a strong sense of belonging to the Grampians, this beautiful strip of mountains on a shimmering Wimmera plain, home of so many happy memories from the weekends and years spent amongst its rocky places.\n\nExtract C\n\nThink of a favourite lullaby or children's song passed down through the generations, or of crowds listening to the national anthem at a baseball game. Music is one way of communicating belonging, which may increase your sense of safety and obligation toward your group. When we discover that someone likes a piece of music that we like, we tend to think better of them -- as if musical preference had a deeper meaning than just entertainment. Music also influences how we think others will get along. In one recent study, participants listened to music or to silence while they watched videos in which three people were seen walking either in step or out of step with one another. The participants who listened to music reported seeing a greater sense of unity among the walkers than those participants who didn't listen to music. This suggests that music somehow enhances our view of social cohesion among people, perhaps through mistaking our own feelings for those of the people we observe.\n\nExtract D\n\nI get my Larrakia and Tiwi blood from my mother. My mum was, and still is, a staunch Aboriginal woman who loved her family fiercely. I get my predominantly Irish Roman Catholic heritage from my father. Dad is extremely affectionate and has a very good sense of humour, even if his jokes can be stereotypically Dad-like. At home I've never had to choose between my mother's Aboriginality or my father's European ancestry. My background doesn't dilute my lived experience or diminish my identity.\n\nThey say it takes a village to raise a child and that was certainly my experience. My grandparents, uncles and aunties always stepped in to babysit when my parents needed them to. My mother would take me out to protest meetings, the Larrakia having one of the longest ongoing land claims in Australia. Larrakia country covers most of the Darwin region. Many of the pictures of me as a baby were taken on a tarpaulin or a swag out bush when my family were camping or fishing.",
+      "prompt": "Which extract proposes that a connection to home is vital for your overall wellbeing?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Extract B calls a sense of place 'one of the most important pillars of our psyche, providing the base from which we grow and develop'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt2-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of belonging, then answer each question.\n\nExtract A\n\nDo you give much thought to whether you are an \"includer\" by nature - or not? This is something we can easily fail to develop in ourselves and may not value or develop in our children. Yet the capacity and willingness to think about others and include them makes a profound difference for people of all ages. It could be a child at pre-school who is willing to share, an adult at a party who keeps an eye out for anyone standing on their own, or a colleague who will take the time to show a newcomer around the workplace. In so many situations a moment of generosity and thoughtfulness can make all the difference between someone feeling like an outsider, with all the agonies that can produce, and feeling included.\n\nThe image of a child standing alone in a crowded playground, without the protection of company and friends, haunts many adults. Feeling included is vital for our emotional health and wellbeing and it will affect dramatically how we think about other people as well as ourselves. Because most of us underestimate our own personal power and overestimate other people's, we are likely to spend far more time worrying about being left out rather than whether and how we are including others.\n\nExtract B\n\nA sense of place is one of the most important pillars of our psyche, providing the base from which we grow and develop. My own sense of place is profoundly linked with the area I grew up in, the Grampians. Right now it is one of my favourite times of the year there -- the depths of winter -- and I have spent the last three weekends in its green and brown embrace. Granted, trekking through a damp forest is not everyone's cup of tea, and I've had the tracks largely to myself. It's been cold and sometimes wet, but also glorious.\n\nWhen things go wrong here it makes me angry. I don't like it when great strips of land are bulldozed to protect private property from fires, and I don't like the many fire tracks that criss-cross the landscape and break up the wilderness -- the legacy of a different era. I hate the rubbish people sometimes leave behind. It makes me angry because I feel a strong sense of belonging to the Grampians, this beautiful strip of mountains on a shimmering Wimmera plain, home of so many happy memories from the weekends and years spent amongst its rocky places.\n\nExtract C\n\nThink of a favourite lullaby or children's song passed down through the generations, or of crowds listening to the national anthem at a baseball game. Music is one way of communicating belonging, which may increase your sense of safety and obligation toward your group. When we discover that someone likes a piece of music that we like, we tend to think better of them -- as if musical preference had a deeper meaning than just entertainment. Music also influences how we think others will get along. In one recent study, participants listened to music or to silence while they watched videos in which three people were seen walking either in step or out of step with one another. The participants who listened to music reported seeing a greater sense of unity among the walkers than those participants who didn't listen to music. This suggests that music somehow enhances our view of social cohesion among people, perhaps through mistaking our own feelings for those of the people we observe.\n\nExtract D\n\nI get my Larrakia and Tiwi blood from my mother. My mum was, and still is, a staunch Aboriginal woman who loved her family fiercely. I get my predominantly Irish Roman Catholic heritage from my father. Dad is extremely affectionate and has a very good sense of humour, even if his jokes can be stereotypically Dad-like. At home I've never had to choose between my mother's Aboriginality or my father's European ancestry. My background doesn't dilute my lived experience or diminish my identity.\n\nThey say it takes a village to raise a child and that was certainly my experience. My grandparents, uncles and aunties always stepped in to babysit when my parents needed them to. My mother would take me out to protest meetings, the Larrakia having one of the longest ongoing land claims in Australia. Larrakia country covers most of the Darwin region. Many of the pictures of me as a baby were taken on a tarpaulin or a swag out bush when my family were camping or fishing.",
+      "prompt": "Which extract suggests that a favourite pastime might not give others a sense of belonging?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Extract B admits 'trekking through a damp forest is not everyone's cup of tea, and I've had the tracks largely to myself'.",
+      "topic": "Locating Information"
+    }
+  ]
+}

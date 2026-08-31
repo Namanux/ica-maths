@@ -2,7 +2,6 @@ import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getPapersByExam } from "@/lib/papers";
 import { getProfile } from "@/lib/profiles";
-import { RecentAttempts } from "@/components/RecentAttempts";
 import { PaperListLinks } from "@/components/PaperListLinks";
 import { PerformancePanel } from "@/components/PerformancePanel";
 import { ScrollRestoration } from "@/components/ScrollRestoration";
@@ -31,8 +30,6 @@ export default async function IcasYear5Maths({
       <PaperListLinks papers={papers} slug={slug} />
 
       <PerformancePanel profileSlug={slug} exam="icas" />
-
-      <RecentAttempts profileSlug={slug} exam="icas" />
 
       <Link
         href={`/${slug}/icas/year5`}

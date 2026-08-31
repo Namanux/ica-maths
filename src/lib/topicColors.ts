@@ -39,6 +39,11 @@ export const TOPIC_COLORS: Record<string, { bg: string; text: string }> = {
   "Logical Deduction": { bg: "#ede9fe", text: "#6d28d9" },
   "Logical Reasoning": { bg: "#ede9fe", text: "#6d28d9" },
   "Author's Craft": { bg: "#ede9fe", text: "#6d28d9" },
+  // Selective Reading extra sub-strands
+  "Text Structure": { bg: "#ffedd5", text: "#c2410c" },
+  "Locating Information": { bg: "#cffafe", text: "#0e7490" },
+  // Selective Thinking Skills — "Problem Solving" is shared with the block above
+  "Critical Thinking": { bg: "#ede9fe", text: "#6d28d9" },
 };
 
 export const TOPIC_COLORS_DARK: Record<string, { bg: string; text: string }> = {
@@ -76,4 +81,7 @@ export const TOPIC_COLORS_DARK: Record<string, { bg: string; text: string }> = {
   "Logical Deduction": { bg: "#2e2455", text: "#a78bfa" },
   "Logical Reasoning": { bg: "#2e2455", text: "#a78bfa" },
   "Author's Craft": { bg: "#2e2455", text: "#a78bfa" },
+  "Text Structure": { bg: "#4a2a10", text: "#fb923c" },
+  "Locating Information": { bg: "#164e57", text: "#22d3ee" },
+  "Critical Thinking": { bg: "#2e2455", text: "#a78bfa" },
 };

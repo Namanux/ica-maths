@@ -1,7 +1,6 @@
 import { notFound } from "next/navigation";
 import { getPapersByExam } from "@/lib/papers";
 import { getProfile } from "@/lib/profiles";
-import { RecentAttempts } from "@/components/RecentAttempts";
 import { PaperListLinks } from "@/components/PaperListLinks";
 import { PerformancePanel } from "@/components/PerformancePanel";
 import { ScrollRestoration } from "@/components/ScrollRestoration";
@@ -31,8 +30,6 @@ export default async function EduTestHome({
       <PaperListLinks papers={papers} slug={slug} />
 
       <PerformancePanel profileSlug={slug} exam="edutest" />
-
-      <RecentAttempts profileSlug={slug} exam="edutest" />
     </div>
   );
 }

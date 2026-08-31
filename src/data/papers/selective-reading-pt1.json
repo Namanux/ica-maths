@@ -1,0 +1,1149 @@
+{
+  "id": "selective-reading-pt1",
+  "exam": "selective-test",
+  "component": "reading",
+  "subject": "Reading",
+  "yearLevel": 6,
+  "paperCode": "PT1",
+  "title": "NSW Selective - Reading Practice Test 1",
+  "year": 2024,
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "sel-reading-pt1-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below then answer each question.\n\nExtract A: from Picnic at Hanging Rock by Joan Lindsay\n\nThey were off; the College already out of sight except for the tower through the trees as they bowled along the level Melbourne-Bendigo road, vibrating with particles of fine red dust. 'Get up Sailor, you lazy brute ... Prince, Belmonte, get back in your collars ...' For the first mile or two, the scenery was familiar through the girls' daily perambulation in crocodile formation. The passengers knew only too well, without bothering to look out, how the scraggy stringy bark forest lined the road on either side, now and then opening out onto a lighter patch of cleared land. The Comptons' whitewashed cottage whose sprawling quince trees supplied the College with jellies and jams, the clump of wayside willows at which the governess in charge would invariably call a halt and head for home. It was the same in Longman's Highroads of History, where the class were forever turning back for recapitulation at the death of King George the Fourth before starting off again with Edward the Third next term ... Now the willows in rich summer green were gaily passed and a sense of adventure ahead took over as heads began to peer through the buttoned tarpaulin flaps of the horse-drawn coach.\n\nAt Mrs Appleyard's college SILENCE WAS GOLDEN, written up in the corridors and often imposed. There was a delicious freedom about the swift steady motion of the coach and even in the warm dusty air blowing up in their faces that set the passengers chirping and chattering like budgerigars.\n\nThe road to Hanging Rock turns sharply away to the right a little way out of the township of Woodend. Here Mr Hussey pulled up outside the leading hotel to rest and water his horses before starting on the last lap of the drive. Already the heat inside the vehicle was oppressive and there was a wholesale peeling off of the obligatory gloves. 'Can't we take our hats off too, Mam'selle?' asked Irma whose ink-black curls were flowing out in a warm tide under the brim of her stiff school sailor. Mademoiselle smiled and looked across at Miss McCraw, sitting opposite, awake and vertical, but with two closed eyes, two puce kid hands locked together on her lap. 'Certainly not. Because we are on an excursion, there is no necessity to look like a wagon load of street urchins.'\n\nThe rhythmic beat of the horses' hooves combined with the close air of the coach was making them all sleepy. As it was still only eleven o'clock, with plenty of time in which to reach the picnic grounds for lunch, the governesses conferred and Mr Hussey was requested to let down the steps of the coach at a suitable spot off the road. In the shade of an old white gum the zinc-lined wicker basket that kept the milk and lemonade deliciously cool was taken out and unpacked, hats were removed without further comment and biscuits handed round.\n\nExtract B: from The Family Law by Benjamin Law\n\nMy family isn't the outdoors type. Despite being raised on the coast, Mum detested visits to the beach (all the sand it brought into the house), while Dad disapproved of wearing thongs ('It splits the toes'). We never camped. All those things involved in camping - pitching a tent; cooking on open fires; the insects; sleeping on rocks - they never appealed to us.\n\nWe preferred theme parks. For parents raising five children, theme parks made so much sense. They were clean and safe. There were clearly designated activities, and auditory and visual stimuli that transcended racial, language and age barriers. Also, you could buy heaps of useless souvenirs.\n\nIt was a family tradition that once a year, our family of seven (eight, including my grandmother) would cram ourselves into a 1990 grey five-seat automatic Honda. Faces smashed against glass; no leg room; the two smallest children illegally wedged between various legs - we travelled like this for a good three hours before we reached the Gold Coast. We'd nod off at such extreme angles that our spines contorted. When we woke up, our shirts would be covered in drool we weren't even sure was ours. By the time we got to the theme park, our limbs were numb, our nerve endings destroyed.\n\nOn the day of the trip, we'd wake before sunrise in order to get there by opening time. Despite the three hours of pain we'd endured, we'd feel an overwhelming sense of wonder as the Thunderbolt, Dreamworld's rollercoaster, painted with flames, emerged from the trees that bordered the Pacific Highway. It would appear so suddenly, like a strange apparition or a mirage. We would crane our necks back, trying to take in the sheer majesty of it.",
+      "prompt": "Both extracts mention that during the trip, the passengers",
+      "options": [
+        {
+          "label": "A",
+          "text": "were able to stop and have a snack."
+        },
+        {
+          "label": "B",
+          "text": "saw a spectacular landmark."
+        },
+        {
+          "label": "C",
+          "text": "experienced some discomfort."
+        },
+        {
+          "label": "D",
+          "text": "tried hard to stay awake."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Extract A describes the oppressive heat inside the coach; Extract B describes numb limbs and contorted spines. Only Extract A mentions a snack and only B a landmark.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt1-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below then answer each question.\n\nExtract A: from Picnic at Hanging Rock by Joan Lindsay\n\nThey were off; the College already out of sight except for the tower through the trees as they bowled along the level Melbourne-Bendigo road, vibrating with particles of fine red dust. 'Get up Sailor, you lazy brute ... Prince, Belmonte, get back in your collars ...' For the first mile or two, the scenery was familiar through the girls' daily perambulation in crocodile formation. The passengers knew only too well, without bothering to look out, how the scraggy stringy bark forest lined the road on either side, now and then opening out onto a lighter patch of cleared land. The Comptons' whitewashed cottage whose sprawling quince trees supplied the College with jellies and jams, the clump of wayside willows at which the governess in charge would invariably call a halt and head for home. It was the same in Longman's Highroads of History, where the class were forever turning back for recapitulation at the death of King George the Fourth before starting off again with Edward the Third next term ... Now the willows in rich summer green were gaily passed and a sense of adventure ahead took over as heads began to peer through the buttoned tarpaulin flaps of the horse-drawn coach.\n\nAt Mrs Appleyard's college SILENCE WAS GOLDEN, written up in the corridors and often imposed. There was a delicious freedom about the swift steady motion of the coach and even in the warm dusty air blowing up in their faces that set the passengers chirping and chattering like budgerigars.\n\nThe road to Hanging Rock turns sharply away to the right a little way out of the township of Woodend. Here Mr Hussey pulled up outside the leading hotel to rest and water his horses before starting on the last lap of the drive. Already the heat inside the vehicle was oppressive and there was a wholesale peeling off of the obligatory gloves. 'Can't we take our hats off too, Mam'selle?' asked Irma whose ink-black curls were flowing out in a warm tide under the brim of her stiff school sailor. Mademoiselle smiled and looked across at Miss McCraw, sitting opposite, awake and vertical, but with two closed eyes, two puce kid hands locked together on her lap. 'Certainly not. Because we are on an excursion, there is no necessity to look like a wagon load of street urchins.'\n\nThe rhythmic beat of the horses' hooves combined with the close air of the coach was making them all sleepy. As it was still only eleven o'clock, with plenty of time in which to reach the picnic grounds for lunch, the governesses conferred and Mr Hussey was requested to let down the steps of the coach at a suitable spot off the road. In the shade of an old white gum the zinc-lined wicker basket that kept the milk and lemonade deliciously cool was taken out and unpacked, hats were removed without further comment and biscuits handed round.\n\nExtract B: from The Family Law by Benjamin Law\n\nMy family isn't the outdoors type. Despite being raised on the coast, Mum detested visits to the beach (all the sand it brought into the house), while Dad disapproved of wearing thongs ('It splits the toes'). We never camped. All those things involved in camping - pitching a tent; cooking on open fires; the insects; sleeping on rocks - they never appealed to us.\n\nWe preferred theme parks. For parents raising five children, theme parks made so much sense. They were clean and safe. There were clearly designated activities, and auditory and visual stimuli that transcended racial, language and age barriers. Also, you could buy heaps of useless souvenirs.\n\nIt was a family tradition that once a year, our family of seven (eight, including my grandmother) would cram ourselves into a 1990 grey five-seat automatic Honda. Faces smashed against glass; no leg room; the two smallest children illegally wedged between various legs - we travelled like this for a good three hours before we reached the Gold Coast. We'd nod off at such extreme angles that our spines contorted. When we woke up, our shirts would be covered in drool we weren't even sure was ours. By the time we got to the theme park, our limbs were numb, our nerve endings destroyed.\n\nOn the day of the trip, we'd wake before sunrise in order to get there by opening time. Despite the three hours of pain we'd endured, we'd feel an overwhelming sense of wonder as the Thunderbolt, Dreamworld's rollercoaster, painted with flames, emerged from the trees that bordered the Pacific Highway. It would appear so suddenly, like a strange apparition or a mirage. We would crane our necks back, trying to take in the sheer majesty of it.",
+      "prompt": "Which group(s) of travellers passed the time by talking?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The College group"
+        },
+        {
+          "label": "B",
+          "text": "The Law family"
+        },
+        {
+          "label": "C",
+          "text": "Both"
+        },
+        {
+          "label": "D",
+          "text": "Neither"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The College passengers are 'chirping and chattering like budgerigars'. The Law family mostly slept.",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "sel-reading-pt1-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below then answer each question.\n\nExtract A: from Picnic at Hanging Rock by Joan Lindsay\n\nThey were off; the College already out of sight except for the tower through the trees as they bowled along the level Melbourne-Bendigo road, vibrating with particles of fine red dust. 'Get up Sailor, you lazy brute ... Prince, Belmonte, get back in your collars ...' For the first mile or two, the scenery was familiar through the girls' daily perambulation in crocodile formation. The passengers knew only too well, without bothering to look out, how the scraggy stringy bark forest lined the road on either side, now and then opening out onto a lighter patch of cleared land. The Comptons' whitewashed cottage whose sprawling quince trees supplied the College with jellies and jams, the clump of wayside willows at which the governess in charge would invariably call a halt and head for home. It was the same in Longman's Highroads of History, where the class were forever turning back for recapitulation at the death of King George the Fourth before starting off again with Edward the Third next term ... Now the willows in rich summer green were gaily passed and a sense of adventure ahead took over as heads began to peer through the buttoned tarpaulin flaps of the horse-drawn coach.\n\nAt Mrs Appleyard's college SILENCE WAS GOLDEN, written up in the corridors and often imposed. There was a delicious freedom about the swift steady motion of the coach and even in the warm dusty air blowing up in their faces that set the passengers chirping and chattering like budgerigars.\n\nThe road to Hanging Rock turns sharply away to the right a little way out of the township of Woodend. Here Mr Hussey pulled up outside the leading hotel to rest and water his horses before starting on the last lap of the drive. Already the heat inside the vehicle was oppressive and there was a wholesale peeling off of the obligatory gloves. 'Can't we take our hats off too, Mam'selle?' asked Irma whose ink-black curls were flowing out in a warm tide under the brim of her stiff school sailor. Mademoiselle smiled and looked across at Miss McCraw, sitting opposite, awake and vertical, but with two closed eyes, two puce kid hands locked together on her lap. 'Certainly not. Because we are on an excursion, there is no necessity to look like a wagon load of street urchins.'\n\nThe rhythmic beat of the horses' hooves combined with the close air of the coach was making them all sleepy. As it was still only eleven o'clock, with plenty of time in which to reach the picnic grounds for lunch, the governesses conferred and Mr Hussey was requested to let down the steps of the coach at a suitable spot off the road. In the shade of an old white gum the zinc-lined wicker basket that kept the milk and lemonade deliciously cool was taken out and unpacked, hats were removed without further comment and biscuits handed round.\n\nExtract B: from The Family Law by Benjamin Law\n\nMy family isn't the outdoors type. Despite being raised on the coast, Mum detested visits to the beach (all the sand it brought into the house), while Dad disapproved of wearing thongs ('It splits the toes'). We never camped. All those things involved in camping - pitching a tent; cooking on open fires; the insects; sleeping on rocks - they never appealed to us.\n\nWe preferred theme parks. For parents raising five children, theme parks made so much sense. They were clean and safe. There were clearly designated activities, and auditory and visual stimuli that transcended racial, language and age barriers. Also, you could buy heaps of useless souvenirs.\n\nIt was a family tradition that once a year, our family of seven (eight, including my grandmother) would cram ourselves into a 1990 grey five-seat automatic Honda. Faces smashed against glass; no leg room; the two smallest children illegally wedged between various legs - we travelled like this for a good three hours before we reached the Gold Coast. We'd nod off at such extreme angles that our spines contorted. When we woke up, our shirts would be covered in drool we weren't even sure was ours. By the time we got to the theme park, our limbs were numb, our nerve endings destroyed.\n\nOn the day of the trip, we'd wake before sunrise in order to get there by opening time. Despite the three hours of pain we'd endured, we'd feel an overwhelming sense of wonder as the Thunderbolt, Dreamworld's rollercoaster, painted with flames, emerged from the trees that bordered the Pacific Highway. It would appear so suddenly, like a strange apparition or a mirage. We would crane our necks back, trying to take in the sheer majesty of it.",
+      "prompt": "In which extract(s) do the people dislike spending time in natural surroundings?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Both"
+        },
+        {
+          "label": "D",
+          "text": "Neither"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Extract B opens 'My family isn't the outdoors type' and rejects camping. Extract A's characters enjoy the open air.",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "sel-reading-pt1-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below then answer each question.\n\nExtract A: from Picnic at Hanging Rock by Joan Lindsay\n\nThey were off; the College already out of sight except for the tower through the trees as they bowled along the level Melbourne-Bendigo road, vibrating with particles of fine red dust. 'Get up Sailor, you lazy brute ... Prince, Belmonte, get back in your collars ...' For the first mile or two, the scenery was familiar through the girls' daily perambulation in crocodile formation. The passengers knew only too well, without bothering to look out, how the scraggy stringy bark forest lined the road on either side, now and then opening out onto a lighter patch of cleared land. The Comptons' whitewashed cottage whose sprawling quince trees supplied the College with jellies and jams, the clump of wayside willows at which the governess in charge would invariably call a halt and head for home. It was the same in Longman's Highroads of History, where the class were forever turning back for recapitulation at the death of King George the Fourth before starting off again with Edward the Third next term ... Now the willows in rich summer green were gaily passed and a sense of adventure ahead took over as heads began to peer through the buttoned tarpaulin flaps of the horse-drawn coach.\n\nAt Mrs Appleyard's college SILENCE WAS GOLDEN, written up in the corridors and often imposed. There was a delicious freedom about the swift steady motion of the coach and even in the warm dusty air blowing up in their faces that set the passengers chirping and chattering like budgerigars.\n\nThe road to Hanging Rock turns sharply away to the right a little way out of the township of Woodend. Here Mr Hussey pulled up outside the leading hotel to rest and water his horses before starting on the last lap of the drive. Already the heat inside the vehicle was oppressive and there was a wholesale peeling off of the obligatory gloves. 'Can't we take our hats off too, Mam'selle?' asked Irma whose ink-black curls were flowing out in a warm tide under the brim of her stiff school sailor. Mademoiselle smiled and looked across at Miss McCraw, sitting opposite, awake and vertical, but with two closed eyes, two puce kid hands locked together on her lap. 'Certainly not. Because we are on an excursion, there is no necessity to look like a wagon load of street urchins.'\n\nThe rhythmic beat of the horses' hooves combined with the close air of the coach was making them all sleepy. As it was still only eleven o'clock, with plenty of time in which to reach the picnic grounds for lunch, the governesses conferred and Mr Hussey was requested to let down the steps of the coach at a suitable spot off the road. In the shade of an old white gum the zinc-lined wicker basket that kept the milk and lemonade deliciously cool was taken out and unpacked, hats were removed without further comment and biscuits handed round.\n\nExtract B: from The Family Law by Benjamin Law\n\nMy family isn't the outdoors type. Despite being raised on the coast, Mum detested visits to the beach (all the sand it brought into the house), while Dad disapproved of wearing thongs ('It splits the toes'). We never camped. All those things involved in camping - pitching a tent; cooking on open fires; the insects; sleeping on rocks - they never appealed to us.\n\nWe preferred theme parks. For parents raising five children, theme parks made so much sense. They were clean and safe. There were clearly designated activities, and auditory and visual stimuli that transcended racial, language and age barriers. Also, you could buy heaps of useless souvenirs.\n\nIt was a family tradition that once a year, our family of seven (eight, including my grandmother) would cram ourselves into a 1990 grey five-seat automatic Honda. Faces smashed against glass; no leg room; the two smallest children illegally wedged between various legs - we travelled like this for a good three hours before we reached the Gold Coast. We'd nod off at such extreme angles that our spines contorted. When we woke up, our shirts would be covered in drool we weren't even sure was ours. By the time we got to the theme park, our limbs were numb, our nerve endings destroyed.\n\nOn the day of the trip, we'd wake before sunrise in order to get there by opening time. Despite the three hours of pain we'd endured, we'd feel an overwhelming sense of wonder as the Thunderbolt, Dreamworld's rollercoaster, painted with flames, emerged from the trees that bordered the Pacific Highway. It would appear so suddenly, like a strange apparition or a mirage. We would crane our necks back, trying to take in the sheer majesty of it.",
+      "prompt": "In Extract A, why is 'the clump of wayside willows' significant for the students?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is the furthest point on their regular walks."
+        },
+        {
+          "label": "B",
+          "text": "They can buy homemade food there."
+        },
+        {
+          "label": "C",
+          "text": "It reminds them of a scene in their history book."
+        },
+        {
+          "label": "D",
+          "text": "They are allowed to go there alone."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The governess 'would invariably call a halt and head for home' at the willows, so it marks the limit of their daily walk.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt1-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below then answer each question.\n\nExtract A: from Picnic at Hanging Rock by Joan Lindsay\n\nThey were off; the College already out of sight except for the tower through the trees as they bowled along the level Melbourne-Bendigo road, vibrating with particles of fine red dust. 'Get up Sailor, you lazy brute ... Prince, Belmonte, get back in your collars ...' For the first mile or two, the scenery was familiar through the girls' daily perambulation in crocodile formation. The passengers knew only too well, without bothering to look out, how the scraggy stringy bark forest lined the road on either side, now and then opening out onto a lighter patch of cleared land. The Comptons' whitewashed cottage whose sprawling quince trees supplied the College with jellies and jams, the clump of wayside willows at which the governess in charge would invariably call a halt and head for home. It was the same in Longman's Highroads of History, where the class were forever turning back for recapitulation at the death of King George the Fourth before starting off again with Edward the Third next term ... Now the willows in rich summer green were gaily passed and a sense of adventure ahead took over as heads began to peer through the buttoned tarpaulin flaps of the horse-drawn coach.\n\nAt Mrs Appleyard's college SILENCE WAS GOLDEN, written up in the corridors and often imposed. There was a delicious freedom about the swift steady motion of the coach and even in the warm dusty air blowing up in their faces that set the passengers chirping and chattering like budgerigars.\n\nThe road to Hanging Rock turns sharply away to the right a little way out of the township of Woodend. Here Mr Hussey pulled up outside the leading hotel to rest and water his horses before starting on the last lap of the drive. Already the heat inside the vehicle was oppressive and there was a wholesale peeling off of the obligatory gloves. 'Can't we take our hats off too, Mam'selle?' asked Irma whose ink-black curls were flowing out in a warm tide under the brim of her stiff school sailor. Mademoiselle smiled and looked across at Miss McCraw, sitting opposite, awake and vertical, but with two closed eyes, two puce kid hands locked together on her lap. 'Certainly not. Because we are on an excursion, there is no necessity to look like a wagon load of street urchins.'\n\nThe rhythmic beat of the horses' hooves combined with the close air of the coach was making them all sleepy. As it was still only eleven o'clock, with plenty of time in which to reach the picnic grounds for lunch, the governesses conferred and Mr Hussey was requested to let down the steps of the coach at a suitable spot off the road. In the shade of an old white gum the zinc-lined wicker basket that kept the milk and lemonade deliciously cool was taken out and unpacked, hats were removed without further comment and biscuits handed round.\n\nExtract B: from The Family Law by Benjamin Law\n\nMy family isn't the outdoors type. Despite being raised on the coast, Mum detested visits to the beach (all the sand it brought into the house), while Dad disapproved of wearing thongs ('It splits the toes'). We never camped. All those things involved in camping - pitching a tent; cooking on open fires; the insects; sleeping on rocks - they never appealed to us.\n\nWe preferred theme parks. For parents raising five children, theme parks made so much sense. They were clean and safe. There were clearly designated activities, and auditory and visual stimuli that transcended racial, language and age barriers. Also, you could buy heaps of useless souvenirs.\n\nIt was a family tradition that once a year, our family of seven (eight, including my grandmother) would cram ourselves into a 1990 grey five-seat automatic Honda. Faces smashed against glass; no leg room; the two smallest children illegally wedged between various legs - we travelled like this for a good three hours before we reached the Gold Coast. We'd nod off at such extreme angles that our spines contorted. When we woke up, our shirts would be covered in drool we weren't even sure was ours. By the time we got to the theme park, our limbs were numb, our nerve endings destroyed.\n\nOn the day of the trip, we'd wake before sunrise in order to get there by opening time. Despite the three hours of pain we'd endured, we'd feel an overwhelming sense of wonder as the Thunderbolt, Dreamworld's rollercoaster, painted with flames, emerged from the trees that bordered the Pacific Highway. It would appear so suddenly, like a strange apparition or a mirage. We would crane our necks back, trying to take in the sheer majesty of it.",
+      "prompt": "In Extract A, who appears to be in charge on the excursion?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mr Hussey"
+        },
+        {
+          "label": "B",
+          "text": "Mademoiselle"
+        },
+        {
+          "label": "C",
+          "text": "Miss McCraw"
+        },
+        {
+          "label": "D",
+          "text": "Mrs Appleyard"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Irma asks Mademoiselle, who defers by looking across to Miss McCraw; the governesses 'conferred', and Miss McCraw is the senior mistress present.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt1-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below then answer each question.\n\nExtract A: from Picnic at Hanging Rock by Joan Lindsay\n\nThey were off; the College already out of sight except for the tower through the trees as they bowled along the level Melbourne-Bendigo road, vibrating with particles of fine red dust. 'Get up Sailor, you lazy brute ... Prince, Belmonte, get back in your collars ...' For the first mile or two, the scenery was familiar through the girls' daily perambulation in crocodile formation. The passengers knew only too well, without bothering to look out, how the scraggy stringy bark forest lined the road on either side, now and then opening out onto a lighter patch of cleared land. The Comptons' whitewashed cottage whose sprawling quince trees supplied the College with jellies and jams, the clump of wayside willows at which the governess in charge would invariably call a halt and head for home. It was the same in Longman's Highroads of History, where the class were forever turning back for recapitulation at the death of King George the Fourth before starting off again with Edward the Third next term ... Now the willows in rich summer green were gaily passed and a sense of adventure ahead took over as heads began to peer through the buttoned tarpaulin flaps of the horse-drawn coach.\n\nAt Mrs Appleyard's college SILENCE WAS GOLDEN, written up in the corridors and often imposed. There was a delicious freedom about the swift steady motion of the coach and even in the warm dusty air blowing up in their faces that set the passengers chirping and chattering like budgerigars.\n\nThe road to Hanging Rock turns sharply away to the right a little way out of the township of Woodend. Here Mr Hussey pulled up outside the leading hotel to rest and water his horses before starting on the last lap of the drive. Already the heat inside the vehicle was oppressive and there was a wholesale peeling off of the obligatory gloves. 'Can't we take our hats off too, Mam'selle?' asked Irma whose ink-black curls were flowing out in a warm tide under the brim of her stiff school sailor. Mademoiselle smiled and looked across at Miss McCraw, sitting opposite, awake and vertical, but with two closed eyes, two puce kid hands locked together on her lap. 'Certainly not. Because we are on an excursion, there is no necessity to look like a wagon load of street urchins.'\n\nThe rhythmic beat of the horses' hooves combined with the close air of the coach was making them all sleepy. As it was still only eleven o'clock, with plenty of time in which to reach the picnic grounds for lunch, the governesses conferred and Mr Hussey was requested to let down the steps of the coach at a suitable spot off the road. In the shade of an old white gum the zinc-lined wicker basket that kept the milk and lemonade deliciously cool was taken out and unpacked, hats were removed without further comment and biscuits handed round.\n\nExtract B: from The Family Law by Benjamin Law\n\nMy family isn't the outdoors type. Despite being raised on the coast, Mum detested visits to the beach (all the sand it brought into the house), while Dad disapproved of wearing thongs ('It splits the toes'). We never camped. All those things involved in camping - pitching a tent; cooking on open fires; the insects; sleeping on rocks - they never appealed to us.\n\nWe preferred theme parks. For parents raising five children, theme parks made so much sense. They were clean and safe. There were clearly designated activities, and auditory and visual stimuli that transcended racial, language and age barriers. Also, you could buy heaps of useless souvenirs.\n\nIt was a family tradition that once a year, our family of seven (eight, including my grandmother) would cram ourselves into a 1990 grey five-seat automatic Honda. Faces smashed against glass; no leg room; the two smallest children illegally wedged between various legs - we travelled like this for a good three hours before we reached the Gold Coast. We'd nod off at such extreme angles that our spines contorted. When we woke up, our shirts would be covered in drool we weren't even sure was ours. By the time we got to the theme park, our limbs were numb, our nerve endings destroyed.\n\nOn the day of the trip, we'd wake before sunrise in order to get there by opening time. Despite the three hours of pain we'd endured, we'd feel an overwhelming sense of wonder as the Thunderbolt, Dreamworld's rollercoaster, painted with flames, emerged from the trees that bordered the Pacific Highway. It would appear so suddenly, like a strange apparition or a mirage. We would crane our necks back, trying to take in the sheer majesty of it.",
+      "prompt": "In Extract A, what does the writer suggest by 'hats were removed without further comment'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The governesses did not notice what had happened."
+        },
+        {
+          "label": "B",
+          "text": "The girls rarely had the chance to wear their hats."
+        },
+        {
+          "label": "C",
+          "text": "Wearing a hat was optional outside the College grounds."
+        },
+        {
+          "label": "D",
+          "text": "College standards were now being relaxed."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Earlier Mademoiselle firmly refused the request to remove hats; now it happens with no objection, showing the rules loosening on the excursion.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "sel-reading-pt1-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below then answer each question.\n\nExtract A: from Picnic at Hanging Rock by Joan Lindsay\n\nThey were off; the College already out of sight except for the tower through the trees as they bowled along the level Melbourne-Bendigo road, vibrating with particles of fine red dust. 'Get up Sailor, you lazy brute ... Prince, Belmonte, get back in your collars ...' For the first mile or two, the scenery was familiar through the girls' daily perambulation in crocodile formation. The passengers knew only too well, without bothering to look out, how the scraggy stringy bark forest lined the road on either side, now and then opening out onto a lighter patch of cleared land. The Comptons' whitewashed cottage whose sprawling quince trees supplied the College with jellies and jams, the clump of wayside willows at which the governess in charge would invariably call a halt and head for home. It was the same in Longman's Highroads of History, where the class were forever turning back for recapitulation at the death of King George the Fourth before starting off again with Edward the Third next term ... Now the willows in rich summer green were gaily passed and a sense of adventure ahead took over as heads began to peer through the buttoned tarpaulin flaps of the horse-drawn coach.\n\nAt Mrs Appleyard's college SILENCE WAS GOLDEN, written up in the corridors and often imposed. There was a delicious freedom about the swift steady motion of the coach and even in the warm dusty air blowing up in their faces that set the passengers chirping and chattering like budgerigars.\n\nThe road to Hanging Rock turns sharply away to the right a little way out of the township of Woodend. Here Mr Hussey pulled up outside the leading hotel to rest and water his horses before starting on the last lap of the drive. Already the heat inside the vehicle was oppressive and there was a wholesale peeling off of the obligatory gloves. 'Can't we take our hats off too, Mam'selle?' asked Irma whose ink-black curls were flowing out in a warm tide under the brim of her stiff school sailor. Mademoiselle smiled and looked across at Miss McCraw, sitting opposite, awake and vertical, but with two closed eyes, two puce kid hands locked together on her lap. 'Certainly not. Because we are on an excursion, there is no necessity to look like a wagon load of street urchins.'\n\nThe rhythmic beat of the horses' hooves combined with the close air of the coach was making them all sleepy. As it was still only eleven o'clock, with plenty of time in which to reach the picnic grounds for lunch, the governesses conferred and Mr Hussey was requested to let down the steps of the coach at a suitable spot off the road. In the shade of an old white gum the zinc-lined wicker basket that kept the milk and lemonade deliciously cool was taken out and unpacked, hats were removed without further comment and biscuits handed round.\n\nExtract B: from The Family Law by Benjamin Law\n\nMy family isn't the outdoors type. Despite being raised on the coast, Mum detested visits to the beach (all the sand it brought into the house), while Dad disapproved of wearing thongs ('It splits the toes'). We never camped. All those things involved in camping - pitching a tent; cooking on open fires; the insects; sleeping on rocks - they never appealed to us.\n\nWe preferred theme parks. For parents raising five children, theme parks made so much sense. They were clean and safe. There were clearly designated activities, and auditory and visual stimuli that transcended racial, language and age barriers. Also, you could buy heaps of useless souvenirs.\n\nIt was a family tradition that once a year, our family of seven (eight, including my grandmother) would cram ourselves into a 1990 grey five-seat automatic Honda. Faces smashed against glass; no leg room; the two smallest children illegally wedged between various legs - we travelled like this for a good three hours before we reached the Gold Coast. We'd nod off at such extreme angles that our spines contorted. When we woke up, our shirts would be covered in drool we weren't even sure was ours. By the time we got to the theme park, our limbs were numb, our nerve endings destroyed.\n\nOn the day of the trip, we'd wake before sunrise in order to get there by opening time. Despite the three hours of pain we'd endured, we'd feel an overwhelming sense of wonder as the Thunderbolt, Dreamworld's rollercoaster, painted with flames, emerged from the trees that bordered the Pacific Highway. It would appear so suddenly, like a strange apparition or a mirage. We would crane our necks back, trying to take in the sheer majesty of it.",
+      "prompt": "How does the writer in Extract B feel when the rollercoaster comes into view?",
+      "options": [
+        {
+          "label": "A",
+          "text": "terrified"
+        },
+        {
+          "label": "B",
+          "text": "relieved"
+        },
+        {
+          "label": "C",
+          "text": "bewildered"
+        },
+        {
+          "label": "D",
+          "text": "awestruck"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The family feels 'an overwhelming sense of wonder' and cranes their necks 'to take in the sheer majesty of it'.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt1-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below then answer each question.\n\nExtract A: from Picnic at Hanging Rock by Joan Lindsay\n\nThey were off; the College already out of sight except for the tower through the trees as they bowled along the level Melbourne-Bendigo road, vibrating with particles of fine red dust. 'Get up Sailor, you lazy brute ... Prince, Belmonte, get back in your collars ...' For the first mile or two, the scenery was familiar through the girls' daily perambulation in crocodile formation. The passengers knew only too well, without bothering to look out, how the scraggy stringy bark forest lined the road on either side, now and then opening out onto a lighter patch of cleared land. The Comptons' whitewashed cottage whose sprawling quince trees supplied the College with jellies and jams, the clump of wayside willows at which the governess in charge would invariably call a halt and head for home. It was the same in Longman's Highroads of History, where the class were forever turning back for recapitulation at the death of King George the Fourth before starting off again with Edward the Third next term ... Now the willows in rich summer green were gaily passed and a sense of adventure ahead took over as heads began to peer through the buttoned tarpaulin flaps of the horse-drawn coach.\n\nAt Mrs Appleyard's college SILENCE WAS GOLDEN, written up in the corridors and often imposed. There was a delicious freedom about the swift steady motion of the coach and even in the warm dusty air blowing up in their faces that set the passengers chirping and chattering like budgerigars.\n\nThe road to Hanging Rock turns sharply away to the right a little way out of the township of Woodend. Here Mr Hussey pulled up outside the leading hotel to rest and water his horses before starting on the last lap of the drive. Already the heat inside the vehicle was oppressive and there was a wholesale peeling off of the obligatory gloves. 'Can't we take our hats off too, Mam'selle?' asked Irma whose ink-black curls were flowing out in a warm tide under the brim of her stiff school sailor. Mademoiselle smiled and looked across at Miss McCraw, sitting opposite, awake and vertical, but with two closed eyes, two puce kid hands locked together on her lap. 'Certainly not. Because we are on an excursion, there is no necessity to look like a wagon load of street urchins.'\n\nThe rhythmic beat of the horses' hooves combined with the close air of the coach was making them all sleepy. As it was still only eleven o'clock, with plenty of time in which to reach the picnic grounds for lunch, the governesses conferred and Mr Hussey was requested to let down the steps of the coach at a suitable spot off the road. In the shade of an old white gum the zinc-lined wicker basket that kept the milk and lemonade deliciously cool was taken out and unpacked, hats were removed without further comment and biscuits handed round.\n\nExtract B: from The Family Law by Benjamin Law\n\nMy family isn't the outdoors type. Despite being raised on the coast, Mum detested visits to the beach (all the sand it brought into the house), while Dad disapproved of wearing thongs ('It splits the toes'). We never camped. All those things involved in camping - pitching a tent; cooking on open fires; the insects; sleeping on rocks - they never appealed to us.\n\nWe preferred theme parks. For parents raising five children, theme parks made so much sense. They were clean and safe. There were clearly designated activities, and auditory and visual stimuli that transcended racial, language and age barriers. Also, you could buy heaps of useless souvenirs.\n\nIt was a family tradition that once a year, our family of seven (eight, including my grandmother) would cram ourselves into a 1990 grey five-seat automatic Honda. Faces smashed against glass; no leg room; the two smallest children illegally wedged between various legs - we travelled like this for a good three hours before we reached the Gold Coast. We'd nod off at such extreme angles that our spines contorted. When we woke up, our shirts would be covered in drool we weren't even sure was ours. By the time we got to the theme park, our limbs were numb, our nerve endings destroyed.\n\nOn the day of the trip, we'd wake before sunrise in order to get there by opening time. Despite the three hours of pain we'd endured, we'd feel an overwhelming sense of wonder as the Thunderbolt, Dreamworld's rollercoaster, painted with flames, emerged from the trees that bordered the Pacific Highway. It would appear so suddenly, like a strange apparition or a mirage. We would crane our necks back, trying to take in the sheer majesty of it.",
+      "prompt": "From the first two paragraphs of Extract B we get the impression that",
+      "options": [
+        {
+          "label": "A",
+          "text": "not every family member shared the parents' enthusiasm for theme parks."
+        },
+        {
+          "label": "B",
+          "text": "the writer is aware that others might find his family's love of theme parks puzzling."
+        },
+        {
+          "label": "C",
+          "text": "the writer regrets not experiencing camping trips when he was a child."
+        },
+        {
+          "label": "D",
+          "text": "theme parks are no longer as attractive to the writer as they used to be."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The writer explains at length why theme parks 'made so much sense' for his parents, anticipating that readers might not expect a family to prefer them to the outdoors.",
+      "topic": "Main Idea & Purpose"
+    },
+    {
+      "id": "sel-reading-pt1-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Tour de France\n\nWhen 60 cyclists set off from a cafe near Paris on a July day in 1903, little did they imagine they were (9) ...... one of the world's great sporting competitions. That initial race was an incredible test of endurance, featuring one stage of 467 kilometres, which had to be ridden non-stop, day and night. Under the (10) ...... of darkness, however, plenty of cheating went on; to curb that, the rules were changed to daylight-only riding from 1904 onwards.\n\nThe early bikes would seem extremely heavy to any of the cycling elite today who compete for the (11) ...... yellow jersey that (12) ...... the overall race leader. It may be hard to (13) ...... , but the first winner's bike actually had no brakes! He simply put his foot against the rim of the wheel and hoped that friction would slow him down. There are iconic pictures of early riders with spare inner tyres (14) ...... around their shoulders, whereas nowadays team mechanics think nothing of changing a wheel in a (15) ...... of seconds. And whereas early riders relied on (16) ...... amounts of water, today's riders benefit from all manner of protein drinks.",
+      "prompt": "Which word best fits gap (9)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "ordaining"
+        },
+        {
+          "label": "B",
+          "text": "inaugurating"
+        },
+        {
+          "label": "C",
+          "text": "consecrating"
+        },
+        {
+          "label": "D",
+          "text": "enthroning"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "To 'inaugurate' a competition means to begin or launch it. The others relate to religious or royal ceremony.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt1-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Tour de France\n\nWhen 60 cyclists set off from a cafe near Paris on a July day in 1903, little did they imagine they were (9) ...... one of the world's great sporting competitions. That initial race was an incredible test of endurance, featuring one stage of 467 kilometres, which had to be ridden non-stop, day and night. Under the (10) ...... of darkness, however, plenty of cheating went on; to curb that, the rules were changed to daylight-only riding from 1904 onwards.\n\nThe early bikes would seem extremely heavy to any of the cycling elite today who compete for the (11) ...... yellow jersey that (12) ...... the overall race leader. It may be hard to (13) ...... , but the first winner's bike actually had no brakes! He simply put his foot against the rim of the wheel and hoped that friction would slow him down. There are iconic pictures of early riders with spare inner tyres (14) ...... around their shoulders, whereas nowadays team mechanics think nothing of changing a wheel in a (15) ...... of seconds. And whereas early riders relied on (16) ...... amounts of water, today's riders benefit from all manner of protein drinks.",
+      "prompt": "Which word best fits gap (10)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "shield"
+        },
+        {
+          "label": "B",
+          "text": "tent"
+        },
+        {
+          "label": "C",
+          "text": "screen"
+        },
+        {
+          "label": "D",
+          "text": "cover"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Under the cover of darkness' is the set phrase meaning while hidden by the dark.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt1-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Tour de France\n\nWhen 60 cyclists set off from a cafe near Paris on a July day in 1903, little did they imagine they were (9) ...... one of the world's great sporting competitions. That initial race was an incredible test of endurance, featuring one stage of 467 kilometres, which had to be ridden non-stop, day and night. Under the (10) ...... of darkness, however, plenty of cheating went on; to curb that, the rules were changed to daylight-only riding from 1904 onwards.\n\nThe early bikes would seem extremely heavy to any of the cycling elite today who compete for the (11) ...... yellow jersey that (12) ...... the overall race leader. It may be hard to (13) ...... , but the first winner's bike actually had no brakes! He simply put his foot against the rim of the wheel and hoped that friction would slow him down. There are iconic pictures of early riders with spare inner tyres (14) ...... around their shoulders, whereas nowadays team mechanics think nothing of changing a wheel in a (15) ...... of seconds. And whereas early riders relied on (16) ...... amounts of water, today's riders benefit from all manner of protein drinks.",
+      "prompt": "Which word best fits gap (11)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "craved"
+        },
+        {
+          "label": "B",
+          "text": "envied"
+        },
+        {
+          "label": "C",
+          "text": "coveted"
+        },
+        {
+          "label": "D",
+          "text": "yearned"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Coveted' works as an adjective before 'yellow jersey' (much desired). 'Yearned' and 'craved' need 'for', and 'envied' has the wrong sense.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt1-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Tour de France\n\nWhen 60 cyclists set off from a cafe near Paris on a July day in 1903, little did they imagine they were (9) ...... one of the world's great sporting competitions. That initial race was an incredible test of endurance, featuring one stage of 467 kilometres, which had to be ridden non-stop, day and night. Under the (10) ...... of darkness, however, plenty of cheating went on; to curb that, the rules were changed to daylight-only riding from 1904 onwards.\n\nThe early bikes would seem extremely heavy to any of the cycling elite today who compete for the (11) ...... yellow jersey that (12) ...... the overall race leader. It may be hard to (13) ...... , but the first winner's bike actually had no brakes! He simply put his foot against the rim of the wheel and hoped that friction would slow him down. There are iconic pictures of early riders with spare inner tyres (14) ...... around their shoulders, whereas nowadays team mechanics think nothing of changing a wheel in a (15) ...... of seconds. And whereas early riders relied on (16) ...... amounts of water, today's riders benefit from all manner of protein drinks.",
+      "prompt": "Which word best fits gap (12)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "denotes"
+        },
+        {
+          "label": "B",
+          "text": "expresses"
+        },
+        {
+          "label": "C",
+          "text": "transmits"
+        },
+        {
+          "label": "D",
+          "text": "exhibits"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The jersey 'denotes' (indicates/signifies) the race leader.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt1-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Tour de France\n\nWhen 60 cyclists set off from a cafe near Paris on a July day in 1903, little did they imagine they were (9) ...... one of the world's great sporting competitions. That initial race was an incredible test of endurance, featuring one stage of 467 kilometres, which had to be ridden non-stop, day and night. Under the (10) ...... of darkness, however, plenty of cheating went on; to curb that, the rules were changed to daylight-only riding from 1904 onwards.\n\nThe early bikes would seem extremely heavy to any of the cycling elite today who compete for the (11) ...... yellow jersey that (12) ...... the overall race leader. It may be hard to (13) ...... , but the first winner's bike actually had no brakes! He simply put his foot against the rim of the wheel and hoped that friction would slow him down. There are iconic pictures of early riders with spare inner tyres (14) ...... around their shoulders, whereas nowadays team mechanics think nothing of changing a wheel in a (15) ...... of seconds. And whereas early riders relied on (16) ...... amounts of water, today's riders benefit from all manner of protein drinks.",
+      "prompt": "Which word best fits gap (13)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "assume"
+        },
+        {
+          "label": "B",
+          "text": "credit"
+        },
+        {
+          "label": "C",
+          "text": "reckon"
+        },
+        {
+          "label": "D",
+          "text": "gather"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Hard to credit' means hard to believe. The others do not fit this idiom.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt1-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Tour de France\n\nWhen 60 cyclists set off from a cafe near Paris on a July day in 1903, little did they imagine they were (9) ...... one of the world's great sporting competitions. That initial race was an incredible test of endurance, featuring one stage of 467 kilometres, which had to be ridden non-stop, day and night. Under the (10) ...... of darkness, however, plenty of cheating went on; to curb that, the rules were changed to daylight-only riding from 1904 onwards.\n\nThe early bikes would seem extremely heavy to any of the cycling elite today who compete for the (11) ...... yellow jersey that (12) ...... the overall race leader. It may be hard to (13) ...... , but the first winner's bike actually had no brakes! He simply put his foot against the rim of the wheel and hoped that friction would slow him down. There are iconic pictures of early riders with spare inner tyres (14) ...... around their shoulders, whereas nowadays team mechanics think nothing of changing a wheel in a (15) ...... of seconds. And whereas early riders relied on (16) ...... amounts of water, today's riders benefit from all manner of protein drinks.",
+      "prompt": "Which word best fits gap (14)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "adorned"
+        },
+        {
+          "label": "B",
+          "text": "folded"
+        },
+        {
+          "label": "C",
+          "text": "arrayed"
+        },
+        {
+          "label": "D",
+          "text": "draped"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Spare tyres 'draped around their shoulders' means loosely hung. 'Adorned/arrayed' suggest decoration; 'folded' does not suit 'around'.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt1-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Tour de France\n\nWhen 60 cyclists set off from a cafe near Paris on a July day in 1903, little did they imagine they were (9) ...... one of the world's great sporting competitions. That initial race was an incredible test of endurance, featuring one stage of 467 kilometres, which had to be ridden non-stop, day and night. Under the (10) ...... of darkness, however, plenty of cheating went on; to curb that, the rules were changed to daylight-only riding from 1904 onwards.\n\nThe early bikes would seem extremely heavy to any of the cycling elite today who compete for the (11) ...... yellow jersey that (12) ...... the overall race leader. It may be hard to (13) ...... , but the first winner's bike actually had no brakes! He simply put his foot against the rim of the wheel and hoped that friction would slow him down. There are iconic pictures of early riders with spare inner tyres (14) ...... around their shoulders, whereas nowadays team mechanics think nothing of changing a wheel in a (15) ...... of seconds. And whereas early riders relied on (16) ...... amounts of water, today's riders benefit from all manner of protein drinks.",
+      "prompt": "Which word best fits gap (15)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "moment"
+        },
+        {
+          "label": "B",
+          "text": "question"
+        },
+        {
+          "label": "C",
+          "text": "matter"
+        },
+        {
+          "label": "D",
+          "text": "period"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'In a matter of seconds' is the fixed phrase meaning very quickly.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt1-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Tour de France\n\nWhen 60 cyclists set off from a cafe near Paris on a July day in 1903, little did they imagine they were (9) ...... one of the world's great sporting competitions. That initial race was an incredible test of endurance, featuring one stage of 467 kilometres, which had to be ridden non-stop, day and night. Under the (10) ...... of darkness, however, plenty of cheating went on; to curb that, the rules were changed to daylight-only riding from 1904 onwards.\n\nThe early bikes would seem extremely heavy to any of the cycling elite today who compete for the (11) ...... yellow jersey that (12) ...... the overall race leader. It may be hard to (13) ...... , but the first winner's bike actually had no brakes! He simply put his foot against the rim of the wheel and hoped that friction would slow him down. There are iconic pictures of early riders with spare inner tyres (14) ...... around their shoulders, whereas nowadays team mechanics think nothing of changing a wheel in a (15) ...... of seconds. And whereas early riders relied on (16) ...... amounts of water, today's riders benefit from all manner of protein drinks.",
+      "prompt": "Which word best fits gap (16)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "bountiful"
+        },
+        {
+          "label": "B",
+          "text": "copious"
+        },
+        {
+          "label": "C",
+          "text": "flowing"
+        },
+        {
+          "label": "D",
+          "text": "profuse"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Copious amounts of water' (large quantities) is the natural collocation here.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt1-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem below by Marianne Moore then answer each question.\n\nThe Fish\n\nwade\nthrough black jade.\n   Of the crow-blue mussel-shells, one keeps\n   adjusting the ash-heaps;\n      opening and shutting itself like\nan\ninjured fan.\n   The barnacles which encrust the side\n   of the wave, cannot hide\n      there for the submerged shafts of the\nsun,\nsplit like spun\n   glass, move themselves with spotlight swiftness\n   into the crevices--\n      in and out, illuminating\nthe\nturquoise sea\n   of bodies. The water drives a wedge\n   of iron through the iron edge\n      of the cliff; whereupon the stars,\npink\nrice-grains, ink-\n   bespattered jelly fish, crabs like green\n   lilies, and submarine\n      toadstools, slide each on the other.\nAll\nexternal\n   marks of abuse are present on this\n   defiant edifice--\n      all the physical features of\nac-\ncident--lack\n   of cornice, dynamite grooves, burns, and\n   hatchet strokes, these things stand\n      out on it; the chasm-side is\ndead.\nRepeated\n   evidence has proved that it can live\n   on what can not revive\n      its youth. The sea grows old in it.",
+      "prompt": "The title of this poem",
+      "options": [
+        {
+          "label": "A",
+          "text": "prepares us for the important last line."
+        },
+        {
+          "label": "B",
+          "text": "contrasts with the overall theme."
+        },
+        {
+          "label": "C",
+          "text": "actually refers to a person."
+        },
+        {
+          "label": "D",
+          "text": "leads us into the poem itself."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'The Fish' runs straight on grammatically into the first lines, 'wade / through black jade', so the title is part of the sentence.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "sel-reading-pt1-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem below by Marianne Moore then answer each question.\n\nThe Fish\n\nwade\nthrough black jade.\n   Of the crow-blue mussel-shells, one keeps\n   adjusting the ash-heaps;\n      opening and shutting itself like\nan\ninjured fan.\n   The barnacles which encrust the side\n   of the wave, cannot hide\n      there for the submerged shafts of the\nsun,\nsplit like spun\n   glass, move themselves with spotlight swiftness\n   into the crevices--\n      in and out, illuminating\nthe\nturquoise sea\n   of bodies. The water drives a wedge\n   of iron through the iron edge\n      of the cliff; whereupon the stars,\npink\nrice-grains, ink-\n   bespattered jelly fish, crabs like green\n   lilies, and submarine\n      toadstools, slide each on the other.\nAll\nexternal\n   marks of abuse are present on this\n   defiant edifice--\n      all the physical features of\nac-\ncident--lack\n   of cornice, dynamite grooves, burns, and\n   hatchet strokes, these things stand\n      out on it; the chasm-side is\ndead.\nRepeated\n   evidence has proved that it can live\n   on what can not revive\n      its youth. The sea grows old in it.",
+      "prompt": "What is compared to 'an injured fan'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the sea"
+        },
+        {
+          "label": "B",
+          "text": "an ash heap"
+        },
+        {
+          "label": "C",
+          "text": "a mussel"
+        },
+        {
+          "label": "D",
+          "text": "a bird"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "One of the mussel-shells 'keeps... opening and shutting itself like an injured fan'.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "sel-reading-pt1-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem below by Marianne Moore then answer each question.\n\nThe Fish\n\nwade\nthrough black jade.\n   Of the crow-blue mussel-shells, one keeps\n   adjusting the ash-heaps;\n      opening and shutting itself like\nan\ninjured fan.\n   The barnacles which encrust the side\n   of the wave, cannot hide\n      there for the submerged shafts of the\nsun,\nsplit like spun\n   glass, move themselves with spotlight swiftness\n   into the crevices--\n      in and out, illuminating\nthe\nturquoise sea\n   of bodies. The water drives a wedge\n   of iron through the iron edge\n      of the cliff; whereupon the stars,\npink\nrice-grains, ink-\n   bespattered jelly fish, crabs like green\n   lilies, and submarine\n      toadstools, slide each on the other.\nAll\nexternal\n   marks of abuse are present on this\n   defiant edifice--\n      all the physical features of\nac-\ncident--lack\n   of cornice, dynamite grooves, burns, and\n   hatchet strokes, these things stand\n      out on it; the chasm-side is\ndead.\nRepeated\n   evidence has proved that it can live\n   on what can not revive\n      its youth. The sea grows old in it.",
+      "prompt": "What lights up the water?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the spun glass"
+        },
+        {
+          "label": "B",
+          "text": "the sunlight"
+        },
+        {
+          "label": "C",
+          "text": "the starlight"
+        },
+        {
+          "label": "D",
+          "text": "a spotlight"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The 'submerged shafts of the sun' move 'with spotlight swiftness... illuminating the turquoise sea'.",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "sel-reading-pt1-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem below by Marianne Moore then answer each question.\n\nThe Fish\n\nwade\nthrough black jade.\n   Of the crow-blue mussel-shells, one keeps\n   adjusting the ash-heaps;\n      opening and shutting itself like\nan\ninjured fan.\n   The barnacles which encrust the side\n   of the wave, cannot hide\n      there for the submerged shafts of the\nsun,\nsplit like spun\n   glass, move themselves with spotlight swiftness\n   into the crevices--\n      in and out, illuminating\nthe\nturquoise sea\n   of bodies. The water drives a wedge\n   of iron through the iron edge\n      of the cliff; whereupon the stars,\npink\nrice-grains, ink-\n   bespattered jelly fish, crabs like green\n   lilies, and submarine\n      toadstools, slide each on the other.\nAll\nexternal\n   marks of abuse are present on this\n   defiant edifice--\n      all the physical features of\nac-\ncident--lack\n   of cornice, dynamite grooves, burns, and\n   hatchet strokes, these things stand\n      out on it; the chasm-side is\ndead.\nRepeated\n   evidence has proved that it can live\n   on what can not revive\n      its youth. The sea grows old in it.",
+      "prompt": "In the way the writer uses the following words, which is the odd one out?",
+      "options": [
+        {
+          "label": "A",
+          "text": "lilies"
+        },
+        {
+          "label": "B",
+          "text": "crabs"
+        },
+        {
+          "label": "C",
+          "text": "jellyfish"
+        },
+        {
+          "label": "D",
+          "text": "toadstools"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Crabs, jellyfish and toadstools are named directly as things in the sea; 'lilies' appears only in the simile 'crabs like green lilies'.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "sel-reading-pt1-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem below by Marianne Moore then answer each question.\n\nThe Fish\n\nwade\nthrough black jade.\n   Of the crow-blue mussel-shells, one keeps\n   adjusting the ash-heaps;\n      opening and shutting itself like\nan\ninjured fan.\n   The barnacles which encrust the side\n   of the wave, cannot hide\n      there for the submerged shafts of the\nsun,\nsplit like spun\n   glass, move themselves with spotlight swiftness\n   into the crevices--\n      in and out, illuminating\nthe\nturquoise sea\n   of bodies. The water drives a wedge\n   of iron through the iron edge\n      of the cliff; whereupon the stars,\npink\nrice-grains, ink-\n   bespattered jelly fish, crabs like green\n   lilies, and submarine\n      toadstools, slide each on the other.\nAll\nexternal\n   marks of abuse are present on this\n   defiant edifice--\n      all the physical features of\nac-\ncident--lack\n   of cornice, dynamite grooves, burns, and\n   hatchet strokes, these things stand\n      out on it; the chasm-side is\ndead.\nRepeated\n   evidence has proved that it can live\n   on what can not revive\n      its youth. The sea grows old in it.",
+      "prompt": "The cliff has 'marks of abuse' caused by",
+      "options": [
+        {
+          "label": "A",
+          "text": "exposure to wet, windy weather."
+        },
+        {
+          "label": "B",
+          "text": "the movement of the sea."
+        },
+        {
+          "label": "C",
+          "text": "animals and vegetation."
+        },
+        {
+          "label": "D",
+          "text": "the actions of people."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The damage is listed as 'dynamite grooves, burns, and hatchet strokes' - all done by people.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt1-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem below by Marianne Moore then answer each question.\n\nThe Fish\n\nwade\nthrough black jade.\n   Of the crow-blue mussel-shells, one keeps\n   adjusting the ash-heaps;\n      opening and shutting itself like\nan\ninjured fan.\n   The barnacles which encrust the side\n   of the wave, cannot hide\n      there for the submerged shafts of the\nsun,\nsplit like spun\n   glass, move themselves with spotlight swiftness\n   into the crevices--\n      in and out, illuminating\nthe\nturquoise sea\n   of bodies. The water drives a wedge\n   of iron through the iron edge\n      of the cliff; whereupon the stars,\npink\nrice-grains, ink-\n   bespattered jelly fish, crabs like green\n   lilies, and submarine\n      toadstools, slide each on the other.\nAll\nexternal\n   marks of abuse are present on this\n   defiant edifice--\n      all the physical features of\nac-\ncident--lack\n   of cornice, dynamite grooves, burns, and\n   hatchet strokes, these things stand\n      out on it; the chasm-side is\ndead.\nRepeated\n   evidence has proved that it can live\n   on what can not revive\n      its youth. The sea grows old in it.",
+      "prompt": "What does the form of the poem as a whole reflect?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the scaly shape of a fish"
+        },
+        {
+          "label": "B",
+          "text": "the tiny movements of sea life"
+        },
+        {
+          "label": "C",
+          "text": "the movement of the waves"
+        },
+        {
+          "label": "D",
+          "text": "the destructive power of the sea"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The short, rising-and-falling lines of each stanza rock back and forth, echoing the motion of waves.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "sel-reading-pt1-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, read the text below. Six sentences have been removed. Choose from the sentences (A - G) the one which fits each gap (23 - 28). There is one extra sentence which you do not need to use.\n\nOctopus farming\n\nPlans to create octopus farms in coastal waters round the world have been denounced by an international group of researchers. They say the move is ethically inexcusable and environmentally dangerous, and have called on private companies, academic institutions and governments to block funding for these ventures.\n\nThe researchers say that farming octopuses would require the catching of vast amounts of fish and shellfish to feed them, putting further pressure on the planet's already threatened marine livestock. The group, led by Professor Jennifer Jacquet of New York University, argues that octopuses are highly developed and curious creatures. (23) ............ . 'We can see no reason why, in the 21st century, a sophisticated, complex animal should become the source of mass-produced food,' says Jacquet.\n\nThere are about 300 species of octopus and many behave in surprisingly sophisticated ways. In tests, some have been shown to use tools, for example. (24) ............ . 'Once octopuses have solved a problem, they retain a long-term memory of the solution,' the researchers state in a paper in Issues in Science and Technology.\n\nOctopuses are also a culinary delicacy. About 350,000 tonnes are caught every year and served in restaurants from Spain to Chile and from Mexico to Australia. However, numbers of octopus caught are reported to be in decline. (25) ............ . Wild-caught males and females are allowed to mate. Then their fertile eggs hatch out in containers and are grown into adults to be sold to markets round the globe.\n\n(26) ............ . This has made feeding them difficult and expensive. Keeping young animals in water whose salinity and temperature are carefully controlled has also proved tricky. These drawbacks have prevented octopus farms from making progress - until recently. Aquaculturists have learned that the young of some octopus species are less fussy about the food they eat and have used these species as basic stock for breeding. (27) ............ . As a result, companies in Australia, Japan and Mexico have said they are hatching octopus eggs in captivity and will soon be ready to sell farmed octopuses. (28) ............ . The main markets for the animals - the US, Europe, Japan and China - are areas where people are already well-fed.",
+      "prompt": "Choose the sentence (A - G) that best fits gap (23).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fish farmers have turned to the rearing of octopuses to try to replace these dwindling catches."
+        },
+        {
+          "label": "B",
+          "text": "But might this actually be the best way to protect the species over the long term?"
+        },
+        {
+          "label": "C",
+          "text": "Farming them intensively would probably cause large numbers of deaths from stress."
+        },
+        {
+          "label": "D",
+          "text": "There have also been advances in controlling the environments in which octopuses are raised."
+        },
+        {
+          "label": "E",
+          "text": "In one such experiment, scientists observed octopuses building shelters from pieces of coconut shell."
+        },
+        {
+          "label": "F",
+          "text": "But the case for octopus farming is weak, according to Jacquet and her co-authors."
+        },
+        {
+          "label": "G",
+          "text": "These efforts have foundered, however, because octopus larvae eat only live food."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The paragraph argues octopuses are complex creatures; C completes the point by saying intensive farming would cause many stress deaths, leading into Jacquet's quotation.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt1-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, read the text below. Six sentences have been removed. Choose from the sentences (A - G) the one which fits each gap (23 - 28). There is one extra sentence which you do not need to use.\n\nOctopus farming\n\nPlans to create octopus farms in coastal waters round the world have been denounced by an international group of researchers. They say the move is ethically inexcusable and environmentally dangerous, and have called on private companies, academic institutions and governments to block funding for these ventures.\n\nThe researchers say that farming octopuses would require the catching of vast amounts of fish and shellfish to feed them, putting further pressure on the planet's already threatened marine livestock. The group, led by Professor Jennifer Jacquet of New York University, argues that octopuses are highly developed and curious creatures. (23) ............ . 'We can see no reason why, in the 21st century, a sophisticated, complex animal should become the source of mass-produced food,' says Jacquet.\n\nThere are about 300 species of octopus and many behave in surprisingly sophisticated ways. In tests, some have been shown to use tools, for example. (24) ............ . 'Once octopuses have solved a problem, they retain a long-term memory of the solution,' the researchers state in a paper in Issues in Science and Technology.\n\nOctopuses are also a culinary delicacy. About 350,000 tonnes are caught every year and served in restaurants from Spain to Chile and from Mexico to Australia. However, numbers of octopus caught are reported to be in decline. (25) ............ . Wild-caught males and females are allowed to mate. Then their fertile eggs hatch out in containers and are grown into adults to be sold to markets round the globe.\n\n(26) ............ . This has made feeding them difficult and expensive. Keeping young animals in water whose salinity and temperature are carefully controlled has also proved tricky. These drawbacks have prevented octopus farms from making progress - until recently. Aquaculturists have learned that the young of some octopus species are less fussy about the food they eat and have used these species as basic stock for breeding. (27) ............ . As a result, companies in Australia, Japan and Mexico have said they are hatching octopus eggs in captivity and will soon be ready to sell farmed octopuses. (28) ............ . The main markets for the animals - the US, Europe, Japan and China - are areas where people are already well-fed.",
+      "prompt": "Choose the sentence (A - G) that best fits gap (24).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fish farmers have turned to the rearing of octopuses to try to replace these dwindling catches."
+        },
+        {
+          "label": "B",
+          "text": "But might this actually be the best way to protect the species over the long term?"
+        },
+        {
+          "label": "C",
+          "text": "Farming them intensively would probably cause large numbers of deaths from stress."
+        },
+        {
+          "label": "D",
+          "text": "There have also been advances in controlling the environments in which octopuses are raised."
+        },
+        {
+          "label": "E",
+          "text": "In one such experiment, scientists observed octopuses building shelters from pieces of coconut shell."
+        },
+        {
+          "label": "F",
+          "text": "But the case for octopus farming is weak, according to Jacquet and her co-authors."
+        },
+        {
+          "label": "G",
+          "text": "These efforts have foundered, however, because octopus larvae eat only live food."
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "This follows 'some have been shown to use tools, for example'; E gives such an example - building shelters from coconut shell.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt1-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, read the text below. Six sentences have been removed. Choose from the sentences (A - G) the one which fits each gap (23 - 28). There is one extra sentence which you do not need to use.\n\nOctopus farming\n\nPlans to create octopus farms in coastal waters round the world have been denounced by an international group of researchers. They say the move is ethically inexcusable and environmentally dangerous, and have called on private companies, academic institutions and governments to block funding for these ventures.\n\nThe researchers say that farming octopuses would require the catching of vast amounts of fish and shellfish to feed them, putting further pressure on the planet's already threatened marine livestock. The group, led by Professor Jennifer Jacquet of New York University, argues that octopuses are highly developed and curious creatures. (23) ............ . 'We can see no reason why, in the 21st century, a sophisticated, complex animal should become the source of mass-produced food,' says Jacquet.\n\nThere are about 300 species of octopus and many behave in surprisingly sophisticated ways. In tests, some have been shown to use tools, for example. (24) ............ . 'Once octopuses have solved a problem, they retain a long-term memory of the solution,' the researchers state in a paper in Issues in Science and Technology.\n\nOctopuses are also a culinary delicacy. About 350,000 tonnes are caught every year and served in restaurants from Spain to Chile and from Mexico to Australia. However, numbers of octopus caught are reported to be in decline. (25) ............ . Wild-caught males and females are allowed to mate. Then their fertile eggs hatch out in containers and are grown into adults to be sold to markets round the globe.\n\n(26) ............ . This has made feeding them difficult and expensive. Keeping young animals in water whose salinity and temperature are carefully controlled has also proved tricky. These drawbacks have prevented octopus farms from making progress - until recently. Aquaculturists have learned that the young of some octopus species are less fussy about the food they eat and have used these species as basic stock for breeding. (27) ............ . As a result, companies in Australia, Japan and Mexico have said they are hatching octopus eggs in captivity and will soon be ready to sell farmed octopuses. (28) ............ . The main markets for the animals - the US, Europe, Japan and China - are areas where people are already well-fed.",
+      "prompt": "Choose the sentence (A - G) that best fits gap (25).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fish farmers have turned to the rearing of octopuses to try to replace these dwindling catches."
+        },
+        {
+          "label": "B",
+          "text": "But might this actually be the best way to protect the species over the long term?"
+        },
+        {
+          "label": "C",
+          "text": "Farming them intensively would probably cause large numbers of deaths from stress."
+        },
+        {
+          "label": "D",
+          "text": "There have also been advances in controlling the environments in which octopuses are raised."
+        },
+        {
+          "label": "E",
+          "text": "In one such experiment, scientists observed octopuses building shelters from pieces of coconut shell."
+        },
+        {
+          "label": "F",
+          "text": "But the case for octopus farming is weak, according to Jacquet and her co-authors."
+        },
+        {
+          "label": "G",
+          "text": "These efforts have foundered, however, because octopus larvae eat only live food."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The previous sentence notes wild catches are 'in decline'; A explains that fish farmers turned to rearing octopuses to replace 'these dwindling catches'.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt1-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, read the text below. Six sentences have been removed. Choose from the sentences (A - G) the one which fits each gap (23 - 28). There is one extra sentence which you do not need to use.\n\nOctopus farming\n\nPlans to create octopus farms in coastal waters round the world have been denounced by an international group of researchers. They say the move is ethically inexcusable and environmentally dangerous, and have called on private companies, academic institutions and governments to block funding for these ventures.\n\nThe researchers say that farming octopuses would require the catching of vast amounts of fish and shellfish to feed them, putting further pressure on the planet's already threatened marine livestock. The group, led by Professor Jennifer Jacquet of New York University, argues that octopuses are highly developed and curious creatures. (23) ............ . 'We can see no reason why, in the 21st century, a sophisticated, complex animal should become the source of mass-produced food,' says Jacquet.\n\nThere are about 300 species of octopus and many behave in surprisingly sophisticated ways. In tests, some have been shown to use tools, for example. (24) ............ . 'Once octopuses have solved a problem, they retain a long-term memory of the solution,' the researchers state in a paper in Issues in Science and Technology.\n\nOctopuses are also a culinary delicacy. About 350,000 tonnes are caught every year and served in restaurants from Spain to Chile and from Mexico to Australia. However, numbers of octopus caught are reported to be in decline. (25) ............ . Wild-caught males and females are allowed to mate. Then their fertile eggs hatch out in containers and are grown into adults to be sold to markets round the globe.\n\n(26) ............ . This has made feeding them difficult and expensive. Keeping young animals in water whose salinity and temperature are carefully controlled has also proved tricky. These drawbacks have prevented octopus farms from making progress - until recently. Aquaculturists have learned that the young of some octopus species are less fussy about the food they eat and have used these species as basic stock for breeding. (27) ............ . As a result, companies in Australia, Japan and Mexico have said they are hatching octopus eggs in captivity and will soon be ready to sell farmed octopuses. (28) ............ . The main markets for the animals - the US, Europe, Japan and China - are areas where people are already well-fed.",
+      "prompt": "Choose the sentence (A - G) that best fits gap (26).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fish farmers have turned to the rearing of octopuses to try to replace these dwindling catches."
+        },
+        {
+          "label": "B",
+          "text": "But might this actually be the best way to protect the species over the long term?"
+        },
+        {
+          "label": "C",
+          "text": "Farming them intensively would probably cause large numbers of deaths from stress."
+        },
+        {
+          "label": "D",
+          "text": "There have also been advances in controlling the environments in which octopuses are raised."
+        },
+        {
+          "label": "E",
+          "text": "In one such experiment, scientists observed octopuses building shelters from pieces of coconut shell."
+        },
+        {
+          "label": "F",
+          "text": "But the case for octopus farming is weak, according to Jacquet and her co-authors."
+        },
+        {
+          "label": "G",
+          "text": "These efforts have foundered, however, because octopus larvae eat only live food."
+        }
+      ],
+      "correctAnswer": "G",
+      "explanation": "The gap starts a paragraph about why farming has been 'difficult and expensive'; G says the efforts 'foundered... because octopus larvae eat only live food', which 'This has made feeding them difficult' then refers back to.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt1-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, read the text below. Six sentences have been removed. Choose from the sentences (A - G) the one which fits each gap (23 - 28). There is one extra sentence which you do not need to use.\n\nOctopus farming\n\nPlans to create octopus farms in coastal waters round the world have been denounced by an international group of researchers. They say the move is ethically inexcusable and environmentally dangerous, and have called on private companies, academic institutions and governments to block funding for these ventures.\n\nThe researchers say that farming octopuses would require the catching of vast amounts of fish and shellfish to feed them, putting further pressure on the planet's already threatened marine livestock. The group, led by Professor Jennifer Jacquet of New York University, argues that octopuses are highly developed and curious creatures. (23) ............ . 'We can see no reason why, in the 21st century, a sophisticated, complex animal should become the source of mass-produced food,' says Jacquet.\n\nThere are about 300 species of octopus and many behave in surprisingly sophisticated ways. In tests, some have been shown to use tools, for example. (24) ............ . 'Once octopuses have solved a problem, they retain a long-term memory of the solution,' the researchers state in a paper in Issues in Science and Technology.\n\nOctopuses are also a culinary delicacy. About 350,000 tonnes are caught every year and served in restaurants from Spain to Chile and from Mexico to Australia. However, numbers of octopus caught are reported to be in decline. (25) ............ . Wild-caught males and females are allowed to mate. Then their fertile eggs hatch out in containers and are grown into adults to be sold to markets round the globe.\n\n(26) ............ . This has made feeding them difficult and expensive. Keeping young animals in water whose salinity and temperature are carefully controlled has also proved tricky. These drawbacks have prevented octopus farms from making progress - until recently. Aquaculturists have learned that the young of some octopus species are less fussy about the food they eat and have used these species as basic stock for breeding. (27) ............ . As a result, companies in Australia, Japan and Mexico have said they are hatching octopus eggs in captivity and will soon be ready to sell farmed octopuses. (28) ............ . The main markets for the animals - the US, Europe, Japan and China - are areas where people are already well-fed.",
+      "prompt": "Choose the sentence (A - G) that best fits gap (27).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fish farmers have turned to the rearing of octopuses to try to replace these dwindling catches."
+        },
+        {
+          "label": "B",
+          "text": "But might this actually be the best way to protect the species over the long term?"
+        },
+        {
+          "label": "C",
+          "text": "Farming them intensively would probably cause large numbers of deaths from stress."
+        },
+        {
+          "label": "D",
+          "text": "There have also been advances in controlling the environments in which octopuses are raised."
+        },
+        {
+          "label": "E",
+          "text": "In one such experiment, scientists observed octopuses building shelters from pieces of coconut shell."
+        },
+        {
+          "label": "F",
+          "text": "But the case for octopus farming is weak, according to Jacquet and her co-authors."
+        },
+        {
+          "label": "G",
+          "text": "These efforts have foundered, however, because octopus larvae eat only live food."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "After using less fussy species, the text needs a further advance; D adds progress in 'controlling the environments in which octopuses are raised'.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt1-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, read the text below. Six sentences have been removed. Choose from the sentences (A - G) the one which fits each gap (23 - 28). There is one extra sentence which you do not need to use.\n\nOctopus farming\n\nPlans to create octopus farms in coastal waters round the world have been denounced by an international group of researchers. They say the move is ethically inexcusable and environmentally dangerous, and have called on private companies, academic institutions and governments to block funding for these ventures.\n\nThe researchers say that farming octopuses would require the catching of vast amounts of fish and shellfish to feed them, putting further pressure on the planet's already threatened marine livestock. The group, led by Professor Jennifer Jacquet of New York University, argues that octopuses are highly developed and curious creatures. (23) ............ . 'We can see no reason why, in the 21st century, a sophisticated, complex animal should become the source of mass-produced food,' says Jacquet.\n\nThere are about 300 species of octopus and many behave in surprisingly sophisticated ways. In tests, some have been shown to use tools, for example. (24) ............ . 'Once octopuses have solved a problem, they retain a long-term memory of the solution,' the researchers state in a paper in Issues in Science and Technology.\n\nOctopuses are also a culinary delicacy. About 350,000 tonnes are caught every year and served in restaurants from Spain to Chile and from Mexico to Australia. However, numbers of octopus caught are reported to be in decline. (25) ............ . Wild-caught males and females are allowed to mate. Then their fertile eggs hatch out in containers and are grown into adults to be sold to markets round the globe.\n\n(26) ............ . This has made feeding them difficult and expensive. Keeping young animals in water whose salinity and temperature are carefully controlled has also proved tricky. These drawbacks have prevented octopus farms from making progress - until recently. Aquaculturists have learned that the young of some octopus species are less fussy about the food they eat and have used these species as basic stock for breeding. (27) ............ . As a result, companies in Australia, Japan and Mexico have said they are hatching octopus eggs in captivity and will soon be ready to sell farmed octopuses. (28) ............ . The main markets for the animals - the US, Europe, Japan and China - are areas where people are already well-fed.",
+      "prompt": "Choose the sentence (A - G) that best fits gap (28).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fish farmers have turned to the rearing of octopuses to try to replace these dwindling catches."
+        },
+        {
+          "label": "B",
+          "text": "But might this actually be the best way to protect the species over the long term?"
+        },
+        {
+          "label": "C",
+          "text": "Farming them intensively would probably cause large numbers of deaths from stress."
+        },
+        {
+          "label": "D",
+          "text": "There have also been advances in controlling the environments in which octopuses are raised."
+        },
+        {
+          "label": "E",
+          "text": "In one such experiment, scientists observed octopuses building shelters from pieces of coconut shell."
+        },
+        {
+          "label": "F",
+          "text": "But the case for octopus farming is weak, according to Jacquet and her co-authors."
+        },
+        {
+          "label": "G",
+          "text": "These efforts have foundered, however, because octopus larvae eat only live food."
+        }
+      ],
+      "correctAnswer": "F",
+      "explanation": "The final paragraph turns to the argument against farming; F ('But the case for octopus farming is weak, according to Jacquet') introduces that shift.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt1-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of dreams, then answer each question.\n\nExtract A\n\nLast night I dreamt I went to Manderley again. It seemed to me I stood by the iron gate leading to the drive, and for a while I could not enter, for the way was barred to me. There was a padlock and chain upon the gate. I called in my dream to the lodge-keeper, and had no answer, and peering closer through the rusted spokes of the gate I saw that the lodge was uninhabited. Then, like all dreamers, I was possessed of a sudden with supernatural powers and passed like a spirit through the barrier before me. The drive wound away in front of me, twisting and turning as it had always done, but as I advanced I was aware that a change had come upon it; it was narrow and unkempt, not the drive that we had known. At first I was puzzled, and it was only when I bent my head to avoid the low swinging branch of a tree that I realized what had happened. Nature had come into her own again and, little by little, in her stealthy, insidious way had encroached upon the drive with long, tenacious fingers.\n\nExtract B\n\nWhy do we feel the urge to talk about our dreams? We like to talk about dreams to help us prepare for how to act in dangerous situations in the future. Most of your dreams are going to seem pretty boring to most people. But if you're going to talk about some of your dreams, pick the ones in which you deal with a problem in some new way. This would make them more interesting than your happy dreams, and if you feel that you learned something about how to deal with a threat, maybe your audience will, too.\n\nWe tend to think of dreams as being really weird, but in truth, about 80 percent of dreams depict ordinary situations. We're just more likely to remember and talk about the strange or dangerous ones. Information we do not understand can often rouse our curiosity, particularly in the presence of strong emotion. The emotional pull of dreams makes even the strangest incongruities seem meaningful and worthy of discussion and interpretation.\n\nExtract C\n\nOne morning, when I was younger, I gave a detailed description of my previous night's dream to my mother. When I finished, she said, \"I'm going to tell you something. Don't ever share your dreams with anyone. It's boring to listen to other people's dreams.\" I was offended at first. But of course she was right; it's almost always deadly to hear other people talk about their dreams. As a rule, dreams die in the glare of the waking world, their shimmering aura evaporating in the harsh air outside the psyche. And yet, paradoxically, it's the emotional aura of dreams that makes them feel so urgently worth sharing in the first place.\n\nI still share my dreams - just not verbally. Like so many other writers (and artists too) I employ dreams in my creative work. They're an engine, a lending library. It's a thrill to awake with a strange, arresting image in mind, or still grasping the thread of an allegorical dream story.\n\nExtract D\n\nFor the first time in a long while, I had a dream which I feel like writing down. This was a dream where I was auditioning for an acting job, and the dream went lucid; I realized that what was going on was a dream. So, as I often do in these situations, I chilled out and tried not to actively do anything; I often like to just see what the dream reveals. A nondescript person came up to me and handed me a small white book with gold lettering. \"Remember this book,\" said the person, \"because when you wake up you're going to want to get a copy. Really remember it.\" I thanked them and looked at the book in my hand. There was a title and author's name written on it, but I couldn't interpret the text. I'd look at it, trying to remember what it said, then I'd look away, and when I looked back it said something completely different and I was unable to remember what I'd just read.\n\nThere's a great Batman episode all about this! Sometimes I can fully recall bits of dreamed text, but on waking after other dreams, it's all gone.",
+      "prompt": "Which extract describes a feeling of awareness of being in a dream?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In Extract D the writer says 'the dream went lucid; I realized that what was going on was a dream'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt1-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of dreams, then answer each question.\n\nExtract A\n\nLast night I dreamt I went to Manderley again. It seemed to me I stood by the iron gate leading to the drive, and for a while I could not enter, for the way was barred to me. There was a padlock and chain upon the gate. I called in my dream to the lodge-keeper, and had no answer, and peering closer through the rusted spokes of the gate I saw that the lodge was uninhabited. Then, like all dreamers, I was possessed of a sudden with supernatural powers and passed like a spirit through the barrier before me. The drive wound away in front of me, twisting and turning as it had always done, but as I advanced I was aware that a change had come upon it; it was narrow and unkempt, not the drive that we had known. At first I was puzzled, and it was only when I bent my head to avoid the low swinging branch of a tree that I realized what had happened. Nature had come into her own again and, little by little, in her stealthy, insidious way had encroached upon the drive with long, tenacious fingers.\n\nExtract B\n\nWhy do we feel the urge to talk about our dreams? We like to talk about dreams to help us prepare for how to act in dangerous situations in the future. Most of your dreams are going to seem pretty boring to most people. But if you're going to talk about some of your dreams, pick the ones in which you deal with a problem in some new way. This would make them more interesting than your happy dreams, and if you feel that you learned something about how to deal with a threat, maybe your audience will, too.\n\nWe tend to think of dreams as being really weird, but in truth, about 80 percent of dreams depict ordinary situations. We're just more likely to remember and talk about the strange or dangerous ones. Information we do not understand can often rouse our curiosity, particularly in the presence of strong emotion. The emotional pull of dreams makes even the strangest incongruities seem meaningful and worthy of discussion and interpretation.\n\nExtract C\n\nOne morning, when I was younger, I gave a detailed description of my previous night's dream to my mother. When I finished, she said, \"I'm going to tell you something. Don't ever share your dreams with anyone. It's boring to listen to other people's dreams.\" I was offended at first. But of course she was right; it's almost always deadly to hear other people talk about their dreams. As a rule, dreams die in the glare of the waking world, their shimmering aura evaporating in the harsh air outside the psyche. And yet, paradoxically, it's the emotional aura of dreams that makes them feel so urgently worth sharing in the first place.\n\nI still share my dreams - just not verbally. Like so many other writers (and artists too) I employ dreams in my creative work. They're an engine, a lending library. It's a thrill to awake with a strange, arresting image in mind, or still grasping the thread of an allegorical dream story.\n\nExtract D\n\nFor the first time in a long while, I had a dream which I feel like writing down. This was a dream where I was auditioning for an acting job, and the dream went lucid; I realized that what was going on was a dream. So, as I often do in these situations, I chilled out and tried not to actively do anything; I often like to just see what the dream reveals. A nondescript person came up to me and handed me a small white book with gold lettering. \"Remember this book,\" said the person, \"because when you wake up you're going to want to get a copy. Really remember it.\" I thanked them and looked at the book in my hand. There was a title and author's name written on it, but I couldn't interpret the text. I'd look at it, trying to remember what it said, then I'd look away, and when I looked back it said something completely different and I was unable to remember what I'd just read.\n\nThere's a great Batman episode all about this! Sometimes I can fully recall bits of dreamed text, but on waking after other dreams, it's all gone.",
+      "prompt": "Which extract refers to using dreams as a source of professional inspiration?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The writer of Extract C says 'like so many other writers... I employ dreams in my creative work'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt1-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of dreams, then answer each question.\n\nExtract A\n\nLast night I dreamt I went to Manderley again. It seemed to me I stood by the iron gate leading to the drive, and for a while I could not enter, for the way was barred to me. There was a padlock and chain upon the gate. I called in my dream to the lodge-keeper, and had no answer, and peering closer through the rusted spokes of the gate I saw that the lodge was uninhabited. Then, like all dreamers, I was possessed of a sudden with supernatural powers and passed like a spirit through the barrier before me. The drive wound away in front of me, twisting and turning as it had always done, but as I advanced I was aware that a change had come upon it; it was narrow and unkempt, not the drive that we had known. At first I was puzzled, and it was only when I bent my head to avoid the low swinging branch of a tree that I realized what had happened. Nature had come into her own again and, little by little, in her stealthy, insidious way had encroached upon the drive with long, tenacious fingers.\n\nExtract B\n\nWhy do we feel the urge to talk about our dreams? We like to talk about dreams to help us prepare for how to act in dangerous situations in the future. Most of your dreams are going to seem pretty boring to most people. But if you're going to talk about some of your dreams, pick the ones in which you deal with a problem in some new way. This would make them more interesting than your happy dreams, and if you feel that you learned something about how to deal with a threat, maybe your audience will, too.\n\nWe tend to think of dreams as being really weird, but in truth, about 80 percent of dreams depict ordinary situations. We're just more likely to remember and talk about the strange or dangerous ones. Information we do not understand can often rouse our curiosity, particularly in the presence of strong emotion. The emotional pull of dreams makes even the strangest incongruities seem meaningful and worthy of discussion and interpretation.\n\nExtract C\n\nOne morning, when I was younger, I gave a detailed description of my previous night's dream to my mother. When I finished, she said, \"I'm going to tell you something. Don't ever share your dreams with anyone. It's boring to listen to other people's dreams.\" I was offended at first. But of course she was right; it's almost always deadly to hear other people talk about their dreams. As a rule, dreams die in the glare of the waking world, their shimmering aura evaporating in the harsh air outside the psyche. And yet, paradoxically, it's the emotional aura of dreams that makes them feel so urgently worth sharing in the first place.\n\nI still share my dreams - just not verbally. Like so many other writers (and artists too) I employ dreams in my creative work. They're an engine, a lending library. It's a thrill to awake with a strange, arresting image in mind, or still grasping the thread of an allegorical dream story.\n\nExtract D\n\nFor the first time in a long while, I had a dream which I feel like writing down. This was a dream where I was auditioning for an acting job, and the dream went lucid; I realized that what was going on was a dream. So, as I often do in these situations, I chilled out and tried not to actively do anything; I often like to just see what the dream reveals. A nondescript person came up to me and handed me a small white book with gold lettering. \"Remember this book,\" said the person, \"because when you wake up you're going to want to get a copy. Really remember it.\" I thanked them and looked at the book in my hand. There was a title and author's name written on it, but I couldn't interpret the text. I'd look at it, trying to remember what it said, then I'd look away, and when I looked back it said something completely different and I was unable to remember what I'd just read.\n\nThere's a great Batman episode all about this! Sometimes I can fully recall bits of dreamed text, but on waking after other dreams, it's all gone.",
+      "prompt": "Which extract mentions being able to do something in a dream that would be impossible in real life?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In Extract A the dreamer 'passed like a spirit through the barrier' - a locked, chained gate.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt1-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of dreams, then answer each question.\n\nExtract A\n\nLast night I dreamt I went to Manderley again. It seemed to me I stood by the iron gate leading to the drive, and for a while I could not enter, for the way was barred to me. There was a padlock and chain upon the gate. I called in my dream to the lodge-keeper, and had no answer, and peering closer through the rusted spokes of the gate I saw that the lodge was uninhabited. Then, like all dreamers, I was possessed of a sudden with supernatural powers and passed like a spirit through the barrier before me. The drive wound away in front of me, twisting and turning as it had always done, but as I advanced I was aware that a change had come upon it; it was narrow and unkempt, not the drive that we had known. At first I was puzzled, and it was only when I bent my head to avoid the low swinging branch of a tree that I realized what had happened. Nature had come into her own again and, little by little, in her stealthy, insidious way had encroached upon the drive with long, tenacious fingers.\n\nExtract B\n\nWhy do we feel the urge to talk about our dreams? We like to talk about dreams to help us prepare for how to act in dangerous situations in the future. Most of your dreams are going to seem pretty boring to most people. But if you're going to talk about some of your dreams, pick the ones in which you deal with a problem in some new way. This would make them more interesting than your happy dreams, and if you feel that you learned something about how to deal with a threat, maybe your audience will, too.\n\nWe tend to think of dreams as being really weird, but in truth, about 80 percent of dreams depict ordinary situations. We're just more likely to remember and talk about the strange or dangerous ones. Information we do not understand can often rouse our curiosity, particularly in the presence of strong emotion. The emotional pull of dreams makes even the strangest incongruities seem meaningful and worthy of discussion and interpretation.\n\nExtract C\n\nOne morning, when I was younger, I gave a detailed description of my previous night's dream to my mother. When I finished, she said, \"I'm going to tell you something. Don't ever share your dreams with anyone. It's boring to listen to other people's dreams.\" I was offended at first. But of course she was right; it's almost always deadly to hear other people talk about their dreams. As a rule, dreams die in the glare of the waking world, their shimmering aura evaporating in the harsh air outside the psyche. And yet, paradoxically, it's the emotional aura of dreams that makes them feel so urgently worth sharing in the first place.\n\nI still share my dreams - just not verbally. Like so many other writers (and artists too) I employ dreams in my creative work. They're an engine, a lending library. It's a thrill to awake with a strange, arresting image in mind, or still grasping the thread of an allegorical dream story.\n\nExtract D\n\nFor the first time in a long while, I had a dream which I feel like writing down. This was a dream where I was auditioning for an acting job, and the dream went lucid; I realized that what was going on was a dream. So, as I often do in these situations, I chilled out and tried not to actively do anything; I often like to just see what the dream reveals. A nondescript person came up to me and handed me a small white book with gold lettering. \"Remember this book,\" said the person, \"because when you wake up you're going to want to get a copy. Really remember it.\" I thanked them and looked at the book in my hand. There was a title and author's name written on it, but I couldn't interpret the text. I'd look at it, trying to remember what it said, then I'd look away, and when I looked back it said something completely different and I was unable to remember what I'd just read.\n\nThere's a great Batman episode all about this! Sometimes I can fully recall bits of dreamed text, but on waking after other dreams, it's all gone.",
+      "prompt": "Which extract argues that dreams can teach us something useful?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Extract B says we talk about dreams 'to help us prepare for how to act in dangerous situations', and picking dreams where 'you learned something about how to deal with a threat'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt1-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of dreams, then answer each question.\n\nExtract A\n\nLast night I dreamt I went to Manderley again. It seemed to me I stood by the iron gate leading to the drive, and for a while I could not enter, for the way was barred to me. There was a padlock and chain upon the gate. I called in my dream to the lodge-keeper, and had no answer, and peering closer through the rusted spokes of the gate I saw that the lodge was uninhabited. Then, like all dreamers, I was possessed of a sudden with supernatural powers and passed like a spirit through the barrier before me. The drive wound away in front of me, twisting and turning as it had always done, but as I advanced I was aware that a change had come upon it; it was narrow and unkempt, not the drive that we had known. At first I was puzzled, and it was only when I bent my head to avoid the low swinging branch of a tree that I realized what had happened. Nature had come into her own again and, little by little, in her stealthy, insidious way had encroached upon the drive with long, tenacious fingers.\n\nExtract B\n\nWhy do we feel the urge to talk about our dreams? We like to talk about dreams to help us prepare for how to act in dangerous situations in the future. Most of your dreams are going to seem pretty boring to most people. But if you're going to talk about some of your dreams, pick the ones in which you deal with a problem in some new way. This would make them more interesting than your happy dreams, and if you feel that you learned something about how to deal with a threat, maybe your audience will, too.\n\nWe tend to think of dreams as being really weird, but in truth, about 80 percent of dreams depict ordinary situations. We're just more likely to remember and talk about the strange or dangerous ones. Information we do not understand can often rouse our curiosity, particularly in the presence of strong emotion. The emotional pull of dreams makes even the strangest incongruities seem meaningful and worthy of discussion and interpretation.\n\nExtract C\n\nOne morning, when I was younger, I gave a detailed description of my previous night's dream to my mother. When I finished, she said, \"I'm going to tell you something. Don't ever share your dreams with anyone. It's boring to listen to other people's dreams.\" I was offended at first. But of course she was right; it's almost always deadly to hear other people talk about their dreams. As a rule, dreams die in the glare of the waking world, their shimmering aura evaporating in the harsh air outside the psyche. And yet, paradoxically, it's the emotional aura of dreams that makes them feel so urgently worth sharing in the first place.\n\nI still share my dreams - just not verbally. Like so many other writers (and artists too) I employ dreams in my creative work. They're an engine, a lending library. It's a thrill to awake with a strange, arresting image in mind, or still grasping the thread of an allegorical dream story.\n\nExtract D\n\nFor the first time in a long while, I had a dream which I feel like writing down. This was a dream where I was auditioning for an acting job, and the dream went lucid; I realized that what was going on was a dream. So, as I often do in these situations, I chilled out and tried not to actively do anything; I often like to just see what the dream reveals. A nondescript person came up to me and handed me a small white book with gold lettering. \"Remember this book,\" said the person, \"because when you wake up you're going to want to get a copy. Really remember it.\" I thanked them and looked at the book in my hand. There was a title and author's name written on it, but I couldn't interpret the text. I'd look at it, trying to remember what it said, then I'd look away, and when I looked back it said something completely different and I was unable to remember what I'd just read.\n\nThere's a great Batman episode all about this! Sometimes I can fully recall bits of dreamed text, but on waking after other dreams, it's all gone.",
+      "prompt": "Which extract says that people mostly dream about everyday things?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Extract B states 'about 80 percent of dreams depict ordinary situations'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt1-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of dreams, then answer each question.\n\nExtract A\n\nLast night I dreamt I went to Manderley again. It seemed to me I stood by the iron gate leading to the drive, and for a while I could not enter, for the way was barred to me. There was a padlock and chain upon the gate. I called in my dream to the lodge-keeper, and had no answer, and peering closer through the rusted spokes of the gate I saw that the lodge was uninhabited. Then, like all dreamers, I was possessed of a sudden with supernatural powers and passed like a spirit through the barrier before me. The drive wound away in front of me, twisting and turning as it had always done, but as I advanced I was aware that a change had come upon it; it was narrow and unkempt, not the drive that we had known. At first I was puzzled, and it was only when I bent my head to avoid the low swinging branch of a tree that I realized what had happened. Nature had come into her own again and, little by little, in her stealthy, insidious way had encroached upon the drive with long, tenacious fingers.\n\nExtract B\n\nWhy do we feel the urge to talk about our dreams? We like to talk about dreams to help us prepare for how to act in dangerous situations in the future. Most of your dreams are going to seem pretty boring to most people. But if you're going to talk about some of your dreams, pick the ones in which you deal with a problem in some new way. This would make them more interesting than your happy dreams, and if you feel that you learned something about how to deal with a threat, maybe your audience will, too.\n\nWe tend to think of dreams as being really weird, but in truth, about 80 percent of dreams depict ordinary situations. We're just more likely to remember and talk about the strange or dangerous ones. Information we do not understand can often rouse our curiosity, particularly in the presence of strong emotion. The emotional pull of dreams makes even the strangest incongruities seem meaningful and worthy of discussion and interpretation.\n\nExtract C\n\nOne morning, when I was younger, I gave a detailed description of my previous night's dream to my mother. When I finished, she said, \"I'm going to tell you something. Don't ever share your dreams with anyone. It's boring to listen to other people's dreams.\" I was offended at first. But of course she was right; it's almost always deadly to hear other people talk about their dreams. As a rule, dreams die in the glare of the waking world, their shimmering aura evaporating in the harsh air outside the psyche. And yet, paradoxically, it's the emotional aura of dreams that makes them feel so urgently worth sharing in the first place.\n\nI still share my dreams - just not verbally. Like so many other writers (and artists too) I employ dreams in my creative work. They're an engine, a lending library. It's a thrill to awake with a strange, arresting image in mind, or still grasping the thread of an allegorical dream story.\n\nExtract D\n\nFor the first time in a long while, I had a dream which I feel like writing down. This was a dream where I was auditioning for an acting job, and the dream went lucid; I realized that what was going on was a dream. So, as I often do in these situations, I chilled out and tried not to actively do anything; I often like to just see what the dream reveals. A nondescript person came up to me and handed me a small white book with gold lettering. \"Remember this book,\" said the person, \"because when you wake up you're going to want to get a copy. Really remember it.\" I thanked them and looked at the book in my hand. There was a title and author's name written on it, but I couldn't interpret the text. I'd look at it, trying to remember what it said, then I'd look away, and when I looked back it said something completely different and I was unable to remember what I'd just read.\n\nThere's a great Batman episode all about this! Sometimes I can fully recall bits of dreamed text, but on waking after other dreams, it's all gone.",
+      "prompt": "Which extract states that dreams usually lose their power once the person wakes up?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Extract C: 'As a rule, dreams die in the glare of the waking world, their shimmering aura evaporating'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt1-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of dreams, then answer each question.\n\nExtract A\n\nLast night I dreamt I went to Manderley again. It seemed to me I stood by the iron gate leading to the drive, and for a while I could not enter, for the way was barred to me. There was a padlock and chain upon the gate. I called in my dream to the lodge-keeper, and had no answer, and peering closer through the rusted spokes of the gate I saw that the lodge was uninhabited. Then, like all dreamers, I was possessed of a sudden with supernatural powers and passed like a spirit through the barrier before me. The drive wound away in front of me, twisting and turning as it had always done, but as I advanced I was aware that a change had come upon it; it was narrow and unkempt, not the drive that we had known. At first I was puzzled, and it was only when I bent my head to avoid the low swinging branch of a tree that I realized what had happened. Nature had come into her own again and, little by little, in her stealthy, insidious way had encroached upon the drive with long, tenacious fingers.\n\nExtract B\n\nWhy do we feel the urge to talk about our dreams? We like to talk about dreams to help us prepare for how to act in dangerous situations in the future. Most of your dreams are going to seem pretty boring to most people. But if you're going to talk about some of your dreams, pick the ones in which you deal with a problem in some new way. This would make them more interesting than your happy dreams, and if you feel that you learned something about how to deal with a threat, maybe your audience will, too.\n\nWe tend to think of dreams as being really weird, but in truth, about 80 percent of dreams depict ordinary situations. We're just more likely to remember and talk about the strange or dangerous ones. Information we do not understand can often rouse our curiosity, particularly in the presence of strong emotion. The emotional pull of dreams makes even the strangest incongruities seem meaningful and worthy of discussion and interpretation.\n\nExtract C\n\nOne morning, when I was younger, I gave a detailed description of my previous night's dream to my mother. When I finished, she said, \"I'm going to tell you something. Don't ever share your dreams with anyone. It's boring to listen to other people's dreams.\" I was offended at first. But of course she was right; it's almost always deadly to hear other people talk about their dreams. As a rule, dreams die in the glare of the waking world, their shimmering aura evaporating in the harsh air outside the psyche. And yet, paradoxically, it's the emotional aura of dreams that makes them feel so urgently worth sharing in the first place.\n\nI still share my dreams - just not verbally. Like so many other writers (and artists too) I employ dreams in my creative work. They're an engine, a lending library. It's a thrill to awake with a strange, arresting image in mind, or still grasping the thread of an allegorical dream story.\n\nExtract D\n\nFor the first time in a long while, I had a dream which I feel like writing down. This was a dream where I was auditioning for an acting job, and the dream went lucid; I realized that what was going on was a dream. So, as I often do in these situations, I chilled out and tried not to actively do anything; I often like to just see what the dream reveals. A nondescript person came up to me and handed me a small white book with gold lettering. \"Remember this book,\" said the person, \"because when you wake up you're going to want to get a copy. Really remember it.\" I thanked them and looked at the book in my hand. There was a title and author's name written on it, but I couldn't interpret the text. I'd look at it, trying to remember what it said, then I'd look away, and when I looked back it said something completely different and I was unable to remember what I'd just read.\n\nThere's a great Batman episode all about this! Sometimes I can fully recall bits of dreamed text, but on waking after other dreams, it's all gone.",
+      "prompt": "Which extract mentions a place that looked different in a dream from its appearance in the writer's memory?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In Extract A the drive was 'narrow and unkempt, not the drive that we had known'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt1-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of dreams, then answer each question.\n\nExtract A\n\nLast night I dreamt I went to Manderley again. It seemed to me I stood by the iron gate leading to the drive, and for a while I could not enter, for the way was barred to me. There was a padlock and chain upon the gate. I called in my dream to the lodge-keeper, and had no answer, and peering closer through the rusted spokes of the gate I saw that the lodge was uninhabited. Then, like all dreamers, I was possessed of a sudden with supernatural powers and passed like a spirit through the barrier before me. The drive wound away in front of me, twisting and turning as it had always done, but as I advanced I was aware that a change had come upon it; it was narrow and unkempt, not the drive that we had known. At first I was puzzled, and it was only when I bent my head to avoid the low swinging branch of a tree that I realized what had happened. Nature had come into her own again and, little by little, in her stealthy, insidious way had encroached upon the drive with long, tenacious fingers.\n\nExtract B\n\nWhy do we feel the urge to talk about our dreams? We like to talk about dreams to help us prepare for how to act in dangerous situations in the future. Most of your dreams are going to seem pretty boring to most people. But if you're going to talk about some of your dreams, pick the ones in which you deal with a problem in some new way. This would make them more interesting than your happy dreams, and if you feel that you learned something about how to deal with a threat, maybe your audience will, too.\n\nWe tend to think of dreams as being really weird, but in truth, about 80 percent of dreams depict ordinary situations. We're just more likely to remember and talk about the strange or dangerous ones. Information we do not understand can often rouse our curiosity, particularly in the presence of strong emotion. The emotional pull of dreams makes even the strangest incongruities seem meaningful and worthy of discussion and interpretation.\n\nExtract C\n\nOne morning, when I was younger, I gave a detailed description of my previous night's dream to my mother. When I finished, she said, \"I'm going to tell you something. Don't ever share your dreams with anyone. It's boring to listen to other people's dreams.\" I was offended at first. But of course she was right; it's almost always deadly to hear other people talk about their dreams. As a rule, dreams die in the glare of the waking world, their shimmering aura evaporating in the harsh air outside the psyche. And yet, paradoxically, it's the emotional aura of dreams that makes them feel so urgently worth sharing in the first place.\n\nI still share my dreams - just not verbally. Like so many other writers (and artists too) I employ dreams in my creative work. They're an engine, a lending library. It's a thrill to awake with a strange, arresting image in mind, or still grasping the thread of an allegorical dream story.\n\nExtract D\n\nFor the first time in a long while, I had a dream which I feel like writing down. This was a dream where I was auditioning for an acting job, and the dream went lucid; I realized that what was going on was a dream. So, as I often do in these situations, I chilled out and tried not to actively do anything; I often like to just see what the dream reveals. A nondescript person came up to me and handed me a small white book with gold lettering. \"Remember this book,\" said the person, \"because when you wake up you're going to want to get a copy. Really remember it.\" I thanked them and looked at the book in my hand. There was a title and author's name written on it, but I couldn't interpret the text. I'd look at it, trying to remember what it said, then I'd look away, and when I looked back it said something completely different and I was unable to remember what I'd just read.\n\nThere's a great Batman episode all about this! Sometimes I can fully recall bits of dreamed text, but on waking after other dreams, it's all gone.",
+      "prompt": "Which extract describes how a strange occurrence prevented the writer from doing something?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "In Extract D the text on the book cover kept changing, so the writer 'was unable to remember what I'd just read'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt1-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of dreams, then answer each question.\n\nExtract A\n\nLast night I dreamt I went to Manderley again. It seemed to me I stood by the iron gate leading to the drive, and for a while I could not enter, for the way was barred to me. There was a padlock and chain upon the gate. I called in my dream to the lodge-keeper, and had no answer, and peering closer through the rusted spokes of the gate I saw that the lodge was uninhabited. Then, like all dreamers, I was possessed of a sudden with supernatural powers and passed like a spirit through the barrier before me. The drive wound away in front of me, twisting and turning as it had always done, but as I advanced I was aware that a change had come upon it; it was narrow and unkempt, not the drive that we had known. At first I was puzzled, and it was only when I bent my head to avoid the low swinging branch of a tree that I realized what had happened. Nature had come into her own again and, little by little, in her stealthy, insidious way had encroached upon the drive with long, tenacious fingers.\n\nExtract B\n\nWhy do we feel the urge to talk about our dreams? We like to talk about dreams to help us prepare for how to act in dangerous situations in the future. Most of your dreams are going to seem pretty boring to most people. But if you're going to talk about some of your dreams, pick the ones in which you deal with a problem in some new way. This would make them more interesting than your happy dreams, and if you feel that you learned something about how to deal with a threat, maybe your audience will, too.\n\nWe tend to think of dreams as being really weird, but in truth, about 80 percent of dreams depict ordinary situations. We're just more likely to remember and talk about the strange or dangerous ones. Information we do not understand can often rouse our curiosity, particularly in the presence of strong emotion. The emotional pull of dreams makes even the strangest incongruities seem meaningful and worthy of discussion and interpretation.\n\nExtract C\n\nOne morning, when I was younger, I gave a detailed description of my previous night's dream to my mother. When I finished, she said, \"I'm going to tell you something. Don't ever share your dreams with anyone. It's boring to listen to other people's dreams.\" I was offended at first. But of course she was right; it's almost always deadly to hear other people talk about their dreams. As a rule, dreams die in the glare of the waking world, their shimmering aura evaporating in the harsh air outside the psyche. And yet, paradoxically, it's the emotional aura of dreams that makes them feel so urgently worth sharing in the first place.\n\nI still share my dreams - just not verbally. Like so many other writers (and artists too) I employ dreams in my creative work. They're an engine, a lending library. It's a thrill to awake with a strange, arresting image in mind, or still grasping the thread of an allegorical dream story.\n\nExtract D\n\nFor the first time in a long while, I had a dream which I feel like writing down. This was a dream where I was auditioning for an acting job, and the dream went lucid; I realized that what was going on was a dream. So, as I often do in these situations, I chilled out and tried not to actively do anything; I often like to just see what the dream reveals. A nondescript person came up to me and handed me a small white book with gold lettering. \"Remember this book,\" said the person, \"because when you wake up you're going to want to get a copy. Really remember it.\" I thanked them and looked at the book in my hand. There was a title and author's name written on it, but I couldn't interpret the text. I'd look at it, trying to remember what it said, then I'd look away, and when I looked back it said something completely different and I was unable to remember what I'd just read.\n\nThere's a great Batman episode all about this! Sometimes I can fully recall bits of dreamed text, but on waking after other dreams, it's all gone.",
+      "prompt": "Which extract explains the reason we are willing to accept absurd things in our dreams as significant?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Extract B: 'The emotional pull of dreams makes even the strangest incongruities seem meaningful'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt1-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of dreams, then answer each question.\n\nExtract A\n\nLast night I dreamt I went to Manderley again. It seemed to me I stood by the iron gate leading to the drive, and for a while I could not enter, for the way was barred to me. There was a padlock and chain upon the gate. I called in my dream to the lodge-keeper, and had no answer, and peering closer through the rusted spokes of the gate I saw that the lodge was uninhabited. Then, like all dreamers, I was possessed of a sudden with supernatural powers and passed like a spirit through the barrier before me. The drive wound away in front of me, twisting and turning as it had always done, but as I advanced I was aware that a change had come upon it; it was narrow and unkempt, not the drive that we had known. At first I was puzzled, and it was only when I bent my head to avoid the low swinging branch of a tree that I realized what had happened. Nature had come into her own again and, little by little, in her stealthy, insidious way had encroached upon the drive with long, tenacious fingers.\n\nExtract B\n\nWhy do we feel the urge to talk about our dreams? We like to talk about dreams to help us prepare for how to act in dangerous situations in the future. Most of your dreams are going to seem pretty boring to most people. But if you're going to talk about some of your dreams, pick the ones in which you deal with a problem in some new way. This would make them more interesting than your happy dreams, and if you feel that you learned something about how to deal with a threat, maybe your audience will, too.\n\nWe tend to think of dreams as being really weird, but in truth, about 80 percent of dreams depict ordinary situations. We're just more likely to remember and talk about the strange or dangerous ones. Information we do not understand can often rouse our curiosity, particularly in the presence of strong emotion. The emotional pull of dreams makes even the strangest incongruities seem meaningful and worthy of discussion and interpretation.\n\nExtract C\n\nOne morning, when I was younger, I gave a detailed description of my previous night's dream to my mother. When I finished, she said, \"I'm going to tell you something. Don't ever share your dreams with anyone. It's boring to listen to other people's dreams.\" I was offended at first. But of course she was right; it's almost always deadly to hear other people talk about their dreams. As a rule, dreams die in the glare of the waking world, their shimmering aura evaporating in the harsh air outside the psyche. And yet, paradoxically, it's the emotional aura of dreams that makes them feel so urgently worth sharing in the first place.\n\nI still share my dreams - just not verbally. Like so many other writers (and artists too) I employ dreams in my creative work. They're an engine, a lending library. It's a thrill to awake with a strange, arresting image in mind, or still grasping the thread of an allegorical dream story.\n\nExtract D\n\nFor the first time in a long while, I had a dream which I feel like writing down. This was a dream where I was auditioning for an acting job, and the dream went lucid; I realized that what was going on was a dream. So, as I often do in these situations, I chilled out and tried not to actively do anything; I often like to just see what the dream reveals. A nondescript person came up to me and handed me a small white book with gold lettering. \"Remember this book,\" said the person, \"because when you wake up you're going to want to get a copy. Really remember it.\" I thanked them and looked at the book in my hand. There was a title and author's name written on it, but I couldn't interpret the text. I'd look at it, trying to remember what it said, then I'd look away, and when I looked back it said something completely different and I was unable to remember what I'd just read.\n\nThere's a great Batman episode all about this! Sometimes I can fully recall bits of dreamed text, but on waking after other dreams, it's all gone.",
+      "prompt": "Which extract discusses some advice about relaying dreams to others?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In Extract C the writer's mother advises: 'Don't ever share your dreams with anyone. It's boring to listen to other people's dreams.'",
+      "topic": "Locating Information"
+    }
+  ]
+}

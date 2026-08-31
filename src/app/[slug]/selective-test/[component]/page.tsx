@@ -1,17 +1,38 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getPapersByExam } from "@/lib/papers";
+import { getSelectivePapers } from "@/lib/papers";
 import { getProfile } from "@/lib/profiles";
-import { RecentAttempts } from "@/components/RecentAttempts";
 import { PaperListLinks } from "@/components/PaperListLinks";
 import { PerformancePanel } from "@/components/PerformancePanel";
 import { ScrollRestoration } from "@/components/ScrollRestoration";
 
-const COMPONENT_NAMES: Record<string, string> = {
-  "mathematical-reasoning": "Mathematical Reasoning",
-  reading: "Reading",
-  "thinking-skills": "Thinking Skills",
-  writing: "Writing",
+const COMPONENTS: Record<
+  string,
+  { name: string; blurb: string; hasPapers: boolean }
+> = {
+  "mathematical-reasoning": {
+    name: "Mathematical Reasoning",
+    blurb:
+      "NSW Selective High School Placement — Mathematical Reasoning practice papers, timed like the real test.",
+    hasPapers: true,
+  },
+  reading: {
+    name: "Reading",
+    blurb:
+      "NSW Selective High School Placement — Reading practice papers: comprehension across extracts, poetry, cloze and text-structure tasks.",
+    hasPapers: true,
+  },
+  "thinking-skills": {
+    name: "Thinking Skills",
+    blurb:
+      "NSW Selective High School Placement — Thinking Skills practice papers: critical thinking and problem solving, timed like the real test.",
+    hasPapers: true,
+  },
+  writing: {
+    name: "Writing",
+    blurb: "NSW Selective High School Placement — Writing.",
+    hasPapers: false,
+  },
 };
 
 export default async function SelectiveComponent({
@@ -21,29 +42,23 @@ export default async function SelectiveComponent({
 }) {
   const { slug, component } = await params;
   const profile = getProfile(slug);
-  const name = COMPONENT_NAMES[component];
-  if (!profile || !name) notFound();
+  const meta = COMPONENTS[component];
+  if (!profile || !meta) notFound();
 
-  if (component === "mathematical-reasoning") {
-    const papers = getPapersByExam("selective-test");
+  const papers = meta.hasPapers ? getSelectivePapers(component) : [];
+
+  if (meta.hasPapers && papers.length > 0) {
     return (
       <div className="flex flex-col gap-6">
-        <ScrollRestoration storageKey={`selective-mr-scroll-${slug}`} />
+        <ScrollRestoration storageKey={`selective-${component}-scroll-${slug}`} />
         <div>
-          <h1 className="text-2xl font-semibold tracking-tight">
-            Mathematical Reasoning
-          </h1>
-          <p className="text-muted mt-1">
-            NSW Selective High School Placement — Mathematical Reasoning practice
-            papers, timed like the real test.
-          </p>
+          <h1 className="text-2xl font-semibold tracking-tight">{meta.name}</h1>
+          <p className="text-muted mt-1">{meta.blurb}</p>
         </div>
 
         <PaperListLinks papers={papers} slug={slug} />
 
         <PerformancePanel profileSlug={slug} exam="selective-test" />
-
-        <RecentAttempts profileSlug={slug} exam="selective-test" />
       </div>
     );
   }
@@ -51,13 +66,11 @@ export default async function SelectiveComponent({
   return (
     <div className="flex flex-col gap-6">
       <div>
-        <h1 className="text-2xl font-semibold tracking-tight">{name}</h1>
-        <p className="text-muted mt-1">
-          NSW Selective High School Placement — {name}.
-        </p>
+        <h1 className="text-2xl font-semibold tracking-tight">{meta.name}</h1>
+        <p className="text-muted mt-1">{meta.blurb}</p>
       </div>
       <div className="rounded-lg border border-border p-6 text-center text-muted">
-        {name} practice is coming soon.
+        {meta.name} practice is coming soon.
       </div>
       <Link
         href={`/${slug}/selective-test`}

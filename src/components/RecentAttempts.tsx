@@ -10,10 +10,17 @@ import Link from "next/link";
 export function RecentAttempts({
   profileSlug,
   exam,
+  profileFilter,
 }: {
   profileSlug: string;
   /** When set, only attempts on papers from this exam section are shown. */
   exam?: string;
+  /**
+   * When set (typically from an admin's profile picker), only this profile's
+   * attempts are shown — narrowing an admin's cross-profile list down to one
+   * person, same as the chart above it.
+   */
+  profileFilter?: string;
 }) {
   const [attempts, setAttempts] = useState<StoredAttempt[]>([]);
   const [loaded, setLoaded] = useState(false);
@@ -38,19 +45,23 @@ export function RecentAttempts({
     };
   }, [profileSlug, isAdmin, exam]);
 
+  const visibleAttempts = profileFilter
+    ? attempts.filter((a) => a.profileSlug === profileFilter)
+    : attempts;
+
   const handleDelete = async (id: string) => {
     if (!window.confirm("Delete this attempt? This can't be undone.")) return;
     await deleteAttempt(id);
     setAttempts((prev) => prev.filter((a) => a.id !== id));
   };
 
-  if (!loaded || attempts.length === 0) return null;
+  if (!loaded || visibleAttempts.length === 0) return null;
 
   return (
     <div className="flex flex-col gap-3">
       <h2 className="font-medium">Recent attempts</h2>
       <div className="flex flex-col gap-2">
-        {attempts.slice(0, 20).map((a) => (
+        {visibleAttempts.slice(0, 20).map((a) => (
           <div
             key={a.id}
             className="flex flex-col gap-2 rounded-lg border border-border px-4 py-3 text-sm"

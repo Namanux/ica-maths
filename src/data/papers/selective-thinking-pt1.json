@@ -1,0 +1,1247 @@
+{
+  "id": "selective-thinking-pt1",
+  "exam": "selective-test",
+  "component": "thinking-skills",
+  "subject": "Thinking Skills",
+  "yearLevel": 6,
+  "paperCode": "PT1",
+  "title": "NSW Selective - Thinking Skills Practice Test 1",
+  "year": 2024,
+  "timeLimitMinutes": 40,
+  "questions": [
+    {
+      "id": "sel-thinking-pt1-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Kai, Joe and Alice have 30 marbles each. They take turns to roll a dice. If the number rolled is even, that player gives that many marbles to each of the other two players. If the number rolled is odd, that player receives that many marbles from each of the other two players. Kai rolls a 5. Joe rolls a 2. If the friends end up with 41, 20 and 29 marbles respectively, which number does Alice roll?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "After Kai's 5 and Joe's 2, Kai has 42, Joe has 21 and Alice has 27. Alice finishes on 29, so she received 2 marbles (one from each friend), which means she rolled an odd number: 1.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt1-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Tom told Aida he was thinking of giving up his hobby of drawing to focus on becoming an engineer. Aida said: \"You don't need to give up a hobby like drawing just because you want to work in engineering. It's good for you to have hobbies. They help keep you happy and relaxed so you can also study harder.\" Which statement, if true, most strengthens Aida's argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Artistic or creative skills are seen as important skills for engineers to have."
+        },
+        {
+          "label": "B",
+          "text": "Tom's latest school report said that he wasn't studying hard enough."
+        },
+        {
+          "label": "C",
+          "text": "Tom's school encourages its students to have at least one hobby."
+        },
+        {
+          "label": "D",
+          "text": "Learning to draw well also often takes hard work and concentration."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Aida's case is that keeping the hobby would benefit Tom. If creative skill is actually valuable to engineers, that gives a further reason not to drop drawing, strengthening her argument.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "\"Whoever stole the money must have had both an opportunity and a motive.\" If this is true, which one of these sentences must also be true?",
+      "options": [
+        {
+          "label": "A",
+          "text": "If Finn had both an opportunity and a motive, he must have stolen the money."
+        },
+        {
+          "label": "B",
+          "text": "If Finn did not steal the money, he cannot have had an opportunity."
+        },
+        {
+          "label": "C",
+          "text": "If Finn did not steal the money, he cannot have had a motive."
+        },
+        {
+          "label": "D",
+          "text": "If Finn did not have a motive, he cannot have stolen the money."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "If the thief needed both an opportunity and a motive, then anyone missing either one cannot be the thief. Lacking a motive therefore rules Finn out, which is option D.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "A seven-segment digital display shows the digits 0 to 9 in sequence, but two of its segments are not working. Two of the digits in the sequence appear on the faulty display as shown below (the first, then the second). What is the next number in the sequence, as shown by the faulty display?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The two digits shown can only be 2 then 3, so the broken segments are the top-right and bottom-right vertical bars. The next digit is 4; with those two segments off it appears as option A.",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt1/q4_seq.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt1/q4_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt1-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Mr Chen adds each student's reading score and writing score to get an overall English score. Last term Sara and Mila got the same overall score. Sara: \"If our writing scores were different, then our reading scores must have been different too.\" Mila: \"And if our reading scores were the same, then our writing scores must have been the same too.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sara only"
+        },
+        {
+          "label": "B",
+          "text": "Mila only"
+        },
+        {
+          "label": "C",
+          "text": "Both Sara and Mila"
+        },
+        {
+          "label": "D",
+          "text": "Neither Sara nor Mila"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The totals are equal. If writing differed but reading matched, the totals could not be equal, so Sara is right. If reading matched but writing differed, the totals again could not be equal, so Mila is right too.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Anita, Brian, Eric, Lee and Zara are in one family. Lee is 1 year younger than Eric. Brian and Eric are twins. Anita is 3 years older than Lee. Brian is 8 years old. Zara is older than Eric but younger than Anita. Only one of the following sentences is true. Which is it?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Eric is 11."
+        },
+        {
+          "label": "B",
+          "text": "Anita is 2 years older than Zara."
+        },
+        {
+          "label": "C",
+          "text": "All the children are 8 or older."
+        },
+        {
+          "label": "D",
+          "text": "Anita is 10."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Brian is 8, so his twin Eric is 8. Lee is 7 (one year younger than Eric) and Anita is 10 (three years older than Lee). Only \"Anita is 10\" is definitely true.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt1-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "A farmer has 245 female goats. This year all but 9 of them have had kids. None have had more than two kids. 357 kids have been born in total. How many of the goats have had one kid only?",
+      "options": [
+        {
+          "label": "A",
+          "text": "115"
+        },
+        {
+          "label": "B",
+          "text": "121"
+        },
+        {
+          "label": "C",
+          "text": "124"
+        },
+        {
+          "label": "D",
+          "text": "133"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "236 goats had at least one kid. If each had exactly one, that would be 236 kids; the extra 357 - 236 = 121 kids come from 121 goats that had two. So 236 - 121 = 115 goats had one kid.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt1-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Sanjay argued that wind farms will never meet all our energy needs because we cannot rely on a source that varies with the weather, yet we need power 24 hours a day, 7 days a week. Which statement, if true, most strengthens Sanjay's argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Scientists have found that global average wind speeds are increasing."
+        },
+        {
+          "label": "B",
+          "text": "There is no practical way to store the energy generated by wind turbines."
+        },
+        {
+          "label": "C",
+          "text": "Local residents often complain about wind turbines spoiling the landscape."
+        },
+        {
+          "label": "D",
+          "text": "A single wind turbine can generate the same energy as a thousand solar panels."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sanjay's worry is the uneven output. If stored energy could cover the calm periods his point would weaken; confirming that the energy cannot be stored removes that escape and strengthens it.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "In the Junior Golf Championship, prizes go to the players who finish first, second and third, and to anyone who scores a hole-in-one. Sam: \"I know one player scored a hole-in-one this year, so that means four players will get prizes.\" Which sentence shows the mistake Sam has made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Some players might deserve a prize even if they didn't score a hole-in-one."
+        },
+        {
+          "label": "B",
+          "text": "The hole-in-one might have been scored by a player who finished first, second, or third."
+        },
+        {
+          "label": "C",
+          "text": "Younger players might find it difficult to score a hole-in-one."
+        },
+        {
+          "label": "D",
+          "text": "We do not know the total number of players in the competition."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sam adds the hole-in-one prize to the three placing prizes, but the hole-in-one might have been scored by one of the top three, who would then get only one prize between the two categories.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "The three small pieces of a puzzle are shown. Which one of the big pieces (A-D) can be combined with the three small pieces to make a square?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The corners of the square must be formed by pairing up the 45-degree corners of the small pieces. Fitting the three small pieces that way leaves a gap that is filled exactly by option B.",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt1/q10_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt1/q10_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt1-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "To become a successful architect, you need to be creative and also have excellent attention to detail. Will: \"Sally is creative and always checks her written work carefully. She's sure to become a great architect.\" Evie: \"James has a vivid imagination but struggles with detailed tasks. Architecture is probably not for him.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Will only"
+        },
+        {
+          "label": "B",
+          "text": "Evie only"
+        },
+        {
+          "label": "C",
+          "text": "Both Will and Evie"
+        },
+        {
+          "label": "D",
+          "text": "Neither Will nor Evie"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The rule says both qualities are necessary, so someone lacking either cannot succeed - Evie's conclusion about James is sound. But meeting both conditions is not stated to be enough, so Will's confident conclusion about Sally is not justified.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Five houses stand in a row. One person lives in each; each likes a different sport; each uses a different form of transport. Mr Green likes tennis and lives next to Ms White, who is on the left end and drives a van. Dr Grey uses a taxi. The badminton player lives in the middle. Miss Orange drives a car and doesn't like swimming. The swimmer does not have a motorcycle. Mrs Black likes football; she lives next to Miss Orange and two houses from Dr Grey. The person who rides a bicycle also likes football. The golf player lives next to the badminton player. Who lives in the last house on the right?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dr Grey"
+        },
+        {
+          "label": "B",
+          "text": "Miss Orange"
+        },
+        {
+          "label": "C",
+          "text": "Mrs Black"
+        },
+        {
+          "label": "D",
+          "text": "Mr Green"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Ms White is house 1 and Mr Green house 2. Mrs Black likes football so she is not in the middle, and being two houses from Dr Grey she cannot be in house 4 - so she is in house 5.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt1-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Twelve students take three tests, each out of 100. Their scores in the first two tests are shown. A prize goes to the student with the highest combined total over all three tests; if two students tie for the highest, nobody wins. As the scores stand, one student can be sure of the prize with a high enough final score. What is the minimum final-test score that guarantees this student the prize?",
+      "options": [
+        {
+          "label": "A",
+          "text": "92"
+        },
+        {
+          "label": "B",
+          "text": "94"
+        },
+        {
+          "label": "C",
+          "text": "96"
+        },
+        {
+          "label": "D",
+          "text": "98"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The two highest two-test totals are James on 169 and Layla on 160. Layla could reach 260 by scoring 100, so James needs 261. He therefore needs at least 92 in the final test.",
+      "topic": "Problem Solving",
+      "table": {
+        "headers": [
+          "Student",
+          "test 1",
+          "test 2"
+        ],
+        "rows": [
+          [
+            "Tom",
+            "48",
+            "53"
+          ],
+          [
+            "James",
+            "83",
+            "86"
+          ],
+          [
+            "Alira",
+            "61",
+            "67"
+          ],
+          [
+            "Connor",
+            "73",
+            "54"
+          ],
+          [
+            "Edward",
+            "66",
+            "59"
+          ],
+          [
+            "Heidi",
+            "69",
+            "78"
+          ],
+          [
+            "Jo",
+            "33",
+            "98"
+          ],
+          [
+            "Kai",
+            "88",
+            "44"
+          ],
+          [
+            "Sarah",
+            "100",
+            "53"
+          ],
+          [
+            "Piper",
+            "75",
+            "78"
+          ],
+          [
+            "Layla",
+            "81",
+            "79"
+          ],
+          [
+            "Isabelle",
+            "57",
+            "65"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sel-thinking-pt1-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Anh's mother has written to the school suggesting that, for the children's safety, cars should be banned from the roads around the school at the start and end of the day, as there is a high risk of a child being involved in an accident. Which statement, if true, most strengthens her argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Parents who go to work after taking children to school may be late if they have to walk with their children."
+        },
+        {
+          "label": "B",
+          "text": "When people cannot find a place to park they can get very bad-tempered."
+        },
+        {
+          "label": "C",
+          "text": "Exhaust fumes from cars are invisible but very harmful to children."
+        },
+        {
+          "label": "D",
+          "text": "People who live close to the school have complained about the noise at the start and end of the day."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Her argument is that banning cars protects children from harm. Harm from exhaust fumes is a further way cars endanger the children, so it strengthens the case.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Ferdinand has an atlas he can use to look up any city in the world. Ferdinand: \"If you tell me the name of a city, you don't need to tell me which country it's in - I can look it up in my atlas.\" Which sentence shows the mistake Ferdinand has made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "There are some cities which have the same name as the country they are in."
+        },
+        {
+          "label": "B",
+          "text": "There are some cities which have the same name as each other."
+        },
+        {
+          "label": "C",
+          "text": "There are some countries which do not have any cities at all."
+        },
+        {
+          "label": "D",
+          "text": "There are some cities that have changed their name."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If two different cities share a name, the atlas would list both and Ferdinand could not tell which country was meant. His claim only works if every city name is unique.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Four identical tiles make a pattern on the floor, with a grey rectangle covering the centre so only part of the pattern is visible. Using the same orientation as the diagram, what is the pattern covered by the grey rectangle?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The visible corners show that each tile has a square in two corners, a triangle in one and a quarter-circle in the last. The covered corners are quarter-circle (top-left), triangle (top-right), triangle (bottom-left) and square (bottom-right), which is option A.",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt1/q16_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt1/q16_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt1-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "A school selecting students for a programming course looked at their existing programming knowledge, a maths test and a chess challenge. A student with at least some programming knowledge only had to pass the maths test. A student with none needed either an excellent maths score, or to do well in both the maths test and the chess challenge. Jun is an experienced programmer but failed to get a place. What must have been the reason?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He did badly in the chess challenge."
+        },
+        {
+          "label": "B",
+          "text": "He did not get an excellent score in maths."
+        },
+        {
+          "label": "C",
+          "text": "He failed his maths test."
+        },
+        {
+          "label": "D",
+          "text": "He did badly in both maths and chess."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Because Jun already knew programming, the chess result was irrelevant and he only needed to pass maths. Since he did not get a place, he must have failed the maths test.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "Monotremes are the only type of mammal that lay eggs. Jack: \"If you see a mammal laying an egg, you know it must be a monotreme.\" Amelia: \"And if you see an animal laying an egg, and you know it isn't a monotreme, then it can't be a mammal.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Jack only"
+        },
+        {
+          "label": "B",
+          "text": "Amelia only"
+        },
+        {
+          "label": "C",
+          "text": "Both Jack and Amelia"
+        },
+        {
+          "label": "D",
+          "text": "Neither Jack nor Amelia"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Since monotremes are the only egg-laying mammals, any egg-laying mammal is a monotreme (Jack is right), and any egg-layer that is not a monotreme cannot be a mammal (Amelia is right).",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "The prices for passes for a tourist bus are shown below. I will need a pass on these days of the month: 2, 3, 4, 6, 10, 11, 12, 14, 15, 16. How much is the cheapest valid combination I could use?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$30"
+        },
+        {
+          "label": "B",
+          "text": "$35"
+        },
+        {
+          "label": "C",
+          "text": "$40"
+        },
+        {
+          "label": "D",
+          "text": "$45"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Cover days 2-4 with a 4-day pass ($10), day 6 with a 1-day pass ($5), days 10-12 with a 4-day pass ($10) and days 14-16 with a 4-day pass ($10): total $35.",
+      "topic": "Problem Solving",
+      "table": {
+        "headers": [
+          "pass for 1 day",
+          "pass for 4 consecutive days",
+          "pass for 7 consecutive days"
+        ],
+        "rows": [
+          [
+            "$5",
+            "$10",
+            "$20"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sel-thinking-pt1-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "In some less economically developed countries a high birth rate is a worry. But in several rich countries the birth rate is falling while older people live longer. The argument says this stores up a future problem: many more old people needing care, and far fewer younger people to provide it. Which statement, if true, most strengthens this argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Parents who have fewer children can devote more time and energy to the children they do have."
+        },
+        {
+          "label": "B",
+          "text": "Older people have much greater health needs, especially when they are over 85."
+        },
+        {
+          "label": "C",
+          "text": "Older people do not always want to be dependent on their children and grandchildren."
+        },
+        {
+          "label": "D",
+          "text": "Young people should see care of their parents and grandparents as their duty."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The predicted problem is the growing care burden of a larger, longer-living elderly population. Evidence that the very old have much greater health needs makes that burden heavier and strengthens the argument.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "If Monti does not sleep well, then he's likely to be tired. If he is tired, then he will not perform well at the interview. If he performs well at the interview, then he might be offered the job; otherwise he doesn't stand a chance. If the above statements are correct, which one of the following is not possible?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Monti did not sleep well but got the job."
+        },
+        {
+          "label": "B",
+          "text": "Monti slept well but did not get the job."
+        },
+        {
+          "label": "C",
+          "text": "Monti performed well at interview but did not get offered the job."
+        },
+        {
+          "label": "D",
+          "text": "Monti was tired at the interview but still did well enough to get the job."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Being tired means he does not perform well, and not performing well means he has no chance of the job. So \"tired but still got the job\" is impossible.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "When viewed from above, an object looks like the picture shown (three roughly circular rings, one inside another). Which one of the options (A-D) is a possible view from the side?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The view from above shows outlines only where the object is at its widest - here three such levels. Only option B produces exactly three widest points when seen from the side.",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt1/q22_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt1/q22_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt1-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "Jarrah's music teacher promised that any students who did not get a chance to perform in the Spring concert would definitely be chosen for the Autumn concert. Jarrah: \"I did perform in Spring, so that means I definitely won't be chosen for Autumn.\" Which sentence shows the mistake Jarrah has made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Just because anyone who did not play in Spring will play in Autumn, it does not mean that anyone who played in Spring will not play in Autumn."
+        },
+        {
+          "label": "B",
+          "text": "Just because somebody is chosen for the concert, it does not mean they will actually perform."
+        },
+        {
+          "label": "C",
+          "text": "Just because Jarrah was chosen to perform at a concert in the past, it does not mean he will be chosen again in future."
+        },
+        {
+          "label": "D",
+          "text": "Just because someone did not perform in the Spring concert, it does not mean that they would not have liked to."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The promise only tells us what happens to students who missed Spring. It says nothing that prevents a Spring performer from also being chosen for Autumn.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "In a survey of television viewers, everyone who liked volleyball liked skiing. Everyone who liked skiing liked cycling, but no one who liked skiing liked gymnastics. Darren, Amanda, Lee and Jess all took part. Based on this information, which one of the following must be true?",
+      "options": [
+        {
+          "label": "A",
+          "text": "If Darren likes cycling, he also likes skiing."
+        },
+        {
+          "label": "B",
+          "text": "If Amanda does not like gymnastics, she does not like cycling."
+        },
+        {
+          "label": "C",
+          "text": "If Lee does not like volleyball, he does not like skiing."
+        },
+        {
+          "label": "D",
+          "text": "If Jess likes volleyball, she does not like gymnastics."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Liking volleyball means liking skiing, and liking skiing rules out liking gymnastics. So a volleyball fan cannot like gymnastics.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "A band performs at the local park. The first performance is on Saturday 1 August and the final one is on 31 August. There are two performances on every Monday and every Tuesday, no performances on 22 and 23 August, and one performance on each of the other days. How many performances will there be altogether?",
+      "options": [
+        {
+          "label": "A",
+          "text": "38"
+        },
+        {
+          "label": "B",
+          "text": "39"
+        },
+        {
+          "label": "C",
+          "text": "40"
+        },
+        {
+          "label": "D",
+          "text": "41"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Performances happen on 29 days (31 minus the two blank days). The nine Mondays and Tuesdays each have a second performance, giving 29 + 9 = 38.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt1-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "Why has Brazil produced such successful soccer teams and players? One theory is that its many very poor areas make people desperate to escape by becoming professionals. The passage says a better explanation is the popularity of futsal, played with a smaller, harder-to-control ball in smaller spaces that demand faster thinking and more accurate passing. Which statement, if true, most strengthens this argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ronaldinho played futsal extensively before turning to soccer."
+        },
+        {
+          "label": "B",
+          "text": "Ronaldinho is not the only successful Brazilian soccer player to have started by playing futsal."
+        },
+        {
+          "label": "C",
+          "text": "Some coaches in other countries also believe that futsal is the best way to improve soccer skills."
+        },
+        {
+          "label": "D",
+          "text": "There are many other countries with areas as poor as Brazil that have not had the same success in soccer."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The argument prefers the futsal explanation over the poverty explanation. Showing that equally poor countries have not matched Brazil's success undercuts the poverty theory and strengthens the case for futsal.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "Whenever the red light on the side of Yifan's computer flashes on and off, the processor is starting to overheat. Yifan: \"The red light isn't flashing, so the processor temperature must be fine.\" Ria: \"No - the light is on continuously, so the processor has already overheated!\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yifan only"
+        },
+        {
+          "label": "B",
+          "text": "Ria only"
+        },
+        {
+          "label": "C",
+          "text": "Both Yifan and Ria"
+        },
+        {
+          "label": "D",
+          "text": "Neither Yifan nor Ria"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A flashing light always means overheating, but nothing rules out overheating without the light flashing, so Yifan is wrong. Nothing at all is said about a continuous light, so Ria is wrong too.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "Ink has been spilt on a patterned carpet and the stain cannot be removed. Cutting a piece of carpet out around the stain, one of the spare offcuts will fit the gap exactly without disrupting the pattern. Which one of the offcuts (A-D) can be used to replace the stained piece?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Treating the repeating motif as a single line with a fixed starting corner, the two patterned squares beside the stain start from the same corner. Only option D matches this, fitting the gap when rotated 90 degrees anticlockwise.",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt1/q28_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt1/q28_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt1-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "Five children did a test with five hard questions. Hailey was faster than Gabriella but got three wrong. Adam got all five right but took the longest. Natalie finished second but got two wrong. Gabriella got more right than Natalie but finished after her. Kamilla wasn't as fast as Natalie, and Natalie wasn't as fast as Hailey. Only one of the sentences below cannot be true. Which one?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Gabriella got fewer questions right than Adam."
+        },
+        {
+          "label": "B",
+          "text": "Hailey was faster than Kamilla."
+        },
+        {
+          "label": "C",
+          "text": "Hailey was not first to finish."
+        },
+        {
+          "label": "D",
+          "text": "Hailey got fewest questions right."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Natalie finished second and was slower than Hailey, so Hailey must have finished first. Therefore \"Hailey was not first to finish\" cannot be true.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt1-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "An advertisement claimed: \"STAIN-GONE never fails to remove a stain.\" Four stained items were washed and two questions were asked in each case, with some answers missing (a-d). Which two of the missing answers must be known in order to test the truth of the claim?",
+      "options": [
+        {
+          "label": "A",
+          "text": "a and b"
+        },
+        {
+          "label": "B",
+          "text": "b and d"
+        },
+        {
+          "label": "C",
+          "text": "a and d"
+        },
+        {
+          "label": "D",
+          "text": "c and d"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The claim fails only if STAIN-GONE was used and the stain remained. We must check item 1 (STAIN-GONE used - was the stain removed? = a) and item 4 (stain not removed - was STAIN-GONE used? = d).",
+      "topic": "Critical Thinking",
+      "table": {
+        "headers": [
+          "item",
+          "Was STAIN-GONE used in the wash?",
+          "Was the stain removed?"
+        ],
+        "rows": [
+          [
+            "1",
+            "yes",
+            "(a)"
+          ],
+          [
+            "2",
+            "(b)",
+            "yes"
+          ],
+          [
+            "3",
+            "no",
+            "(c)"
+          ],
+          [
+            "4",
+            "(d)",
+            "no"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sel-thinking-pt1-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "Alana wants to buy 4 books and to spend as little as possible, buying all of them from the same shop. The shops, book prices and special offers are shown below. Which shop should Alana buy her books from?",
+      "options": [
+        {
+          "label": "A",
+          "text": "shop A"
+        },
+        {
+          "label": "B",
+          "text": "shop B"
+        },
+        {
+          "label": "C",
+          "text": "shop C"
+        },
+        {
+          "label": "D",
+          "text": "shop D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Shop A: 24 + 24 + 12 + 24 = $84. Shop B: 4 x 20 = $80. Shop C: pay for 3 at $26 = $78. Shop D: two pairs, each 25 + 12.50, = $75. Shop D is cheapest.",
+      "topic": "Problem Solving",
+      "table": {
+        "headers": [
+          "",
+          "standard price of a book",
+          "special offer"
+        ],
+        "rows": [
+          [
+            "shop A",
+            "$24",
+            "buy 2, get a 3rd one for half price"
+          ],
+          [
+            "shop B",
+            "$20",
+            "none"
+          ],
+          [
+            "shop C",
+            "$26",
+            "buy 3, get a 4th one free"
+          ],
+          [
+            "shop D",
+            "$25",
+            "buy 1, get a 2nd one for half price"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sel-thinking-pt1-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "Celebrities and politicians often boast about how little they sleep, implying their success comes from giving up sleep to work long hours. The passage argues the opposite: a group of Spanish psychologists interviewed many successful people over 30 years and most credited their achievements to plenty of rest and sleep. Which statement, if true, most strengthens this argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Average working hours have increased over the last ten years."
+        },
+        {
+          "label": "B",
+          "text": "People are as honest when interviewed by the press as when they are interviewed by researchers."
+        },
+        {
+          "label": "C",
+          "text": "Many people view public figures like celebrities and politicians as role models."
+        },
+        {
+          "label": "D",
+          "text": "Getting less than seven hours of sleep can reduce people's ability to make good decisions."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The conclusion is that enough sleep underpins success. Evidence that too little sleep harms decision-making supports the idea that low sleep would reduce a person's chances of succeeding.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "Brook and Joyce surveyed every student to find the most popular traditional game among Wulijini, Buroinjin, Koolchee and Keentan. Everyone who liked Wulijini also liked Koolchee. Some people liked both Koolchee and Buroinjin. No one liked both Buroinjin and Wulijini. More people only liked Koolchee than only liked Buroinjin. All Keentan fans were also Wulijini fans. Which was the most popular game?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Wulijini"
+        },
+        {
+          "label": "B",
+          "text": "Koolchee"
+        },
+        {
+          "label": "C",
+          "text": "Buroinjin"
+        },
+        {
+          "label": "D",
+          "text": "Keentan"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Every Keentan and Wulijini fan also likes Koolchee, so the winner is Koolchee or Buroinjin. Buroinjin fans never like Wulijini or Keentan, and more people only like Koolchee than only like Buroinjin, so Koolchee is the most popular.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "150 people named their favourite type of movie, with the results shown below. No other types were chosen. The data was entered into a computer to build a pie chart, but one type of movie was left out, producing the pie chart shown. Which type of movie was missed out?",
+      "options": [
+        {
+          "label": "A",
+          "text": "fantasy"
+        },
+        {
+          "label": "B",
+          "text": "comedy"
+        },
+        {
+          "label": "C",
+          "text": "romance"
+        },
+        {
+          "label": "D",
+          "text": "horror"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "One slice is exactly a quarter of the chart, with a smaller and a larger slice either side, so the quarter slice is comedy or romance. The largest slice is more than twice the quarter slice, which only works if the quarter is romance; the slices shown are then romance, fantasy and horror, so comedy was left out.",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt1/q34_pie.jpg",
+      "table": {
+        "headers": [
+          "type of movie",
+          "number of people"
+        ],
+        "rows": [
+          [
+            "fantasy",
+            "66"
+          ],
+          [
+            "comedy",
+            "42"
+          ],
+          [
+            "romance",
+            "27"
+          ],
+          [
+            "horror",
+            "15"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sel-thinking-pt1-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "The passage argues that because anything can now be looked up on the internet - even doctors use search engines to help diagnose patients - it is increasingly a waste of time to learn and memorise facts, and memorising facts should become a thing of the past. Which statement, if true, most weakens this argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Some doctors do not use the internet to assist them with their work."
+        },
+        {
+          "label": "B",
+          "text": "There is more information on the internet than any one human would be able to memorise."
+        },
+        {
+          "label": "C",
+          "text": "People need some existing knowledge in order to make sense of information they find online."
+        },
+        {
+          "label": "D",
+          "text": "In many jobs, practical skills are more valuable than knowing a lot of facts."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "If you need existing knowledge to make sense of what you look up, then memorising facts still serves a purpose that the internet cannot replace, which weakens the argument.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "prompt": "\"I am hiding in one of three rooms. On each door I have written two statements, some true and some false, but no more than one statement on each door is false. Room 1: 'My name is Aziz' / 'I am not in this room'. Room 2: 'I am not in this room' / 'I am in Room 3'. Room 3: 'My name is Luisa' / 'I am not in Room 1'.\" Which one of the following statements must be true?",
+      "options": [
+        {
+          "label": "A",
+          "text": "My name is Aziz."
+        },
+        {
+          "label": "B",
+          "text": "I'm in Room 1."
+        },
+        {
+          "label": "C",
+          "text": "I'm in Room 3."
+        },
+        {
+          "label": "D",
+          "text": "My name is Luisa."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "If I were in Room 2 both its statements would be false, which is not allowed. If I were in Room 1, its second statement is false so 'My name is Aziz' must be true - but then both Room 3 statements would be false. So I must be in Room 3.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt1-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "prompt": "In the dog park there were 8 dog owners exercising their dogs. Some owners had 1 dog and some had 2 dogs. Counting the legs of the dogs and the owners, there were 60 legs in total. All dogs have 4 legs and all owners have 2 legs. How many dog owners had only 1 dog?",
+      "options": [
+        {
+          "label": "A",
+          "text": "3"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "5"
+        },
+        {
+          "label": "D",
+          "text": "6"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The 8 owners account for 16 legs, leaving 44 legs for the dogs, so there are 11 dogs. That is 3 more than the number of owners, so 3 owners had 2 dogs and 8 - 3 = 5 owners had one dog.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt1-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "prompt": "There are two ways to qualify for the Grant County Athletics Championship: winning at least three local events during the year, or breaking a county record. This year 10 students from Lisa's school qualified. Lisa: \"A total of six county records were broken by our students this year, so more than half of our qualifiers must be record-breakers!\" Which sentence shows the mistake Lisa has made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Some of the students from Lisa's school may have broken more than one county record."
+        },
+        {
+          "label": "B",
+          "text": "Some county records may have been broken more than once."
+        },
+        {
+          "label": "C",
+          "text": "The number of county records broken this year may be higher than usual."
+        },
+        {
+          "label": "D",
+          "text": "Some students who broke county records may also have won three local events or more."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Six records broken does not mean six different students. If some students each broke more than one record, fewer than half of the qualifiers could be record-breakers.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "prompt": "A school tested the fittest sportspeople to see how different sports affected fitness. The fittest runners were fitter than the fittest swimmers. All the gymnasts were fitter than most of the runners. All the swimmers were fitter than all the gymnasts. Which one of these sentences can be concluded from the information?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The swimmers' average fitness level was better than those of the other groups."
+        },
+        {
+          "label": "B",
+          "text": "The range of fitness levels was the greatest amongst the runners."
+        },
+        {
+          "label": "C",
+          "text": "Runners and swimmers will generally be fitter than gymnasts."
+        },
+        {
+          "label": "D",
+          "text": "There was less of a range of fitness levels amongst the gymnasts than amongst the swimmers."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The fittest runner beat the fittest swimmer, so the fittest person overall was a runner; and the gymnasts (all below the swimmers) were fitter than most - not all - runners, so the least fit person was also a runner. The runners therefore had the widest range.",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt1-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "prompt": "Three different shapes are shown. Which one of the arrangements (A-D) cannot be made by putting these three shapes together?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Options A, B and C can each be assembled from the three shapes. Option D shows only one of the sloping sides, so it cannot be formed from the given pieces.",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt1/q40_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt1/q40_opts.jpg"
+    }
+  ]
+}

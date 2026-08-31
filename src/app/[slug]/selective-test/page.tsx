@@ -1,7 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import { getProfile } from "@/lib/profiles";
-import { getPapersByExam } from "@/lib/papers";
+import { getSelectivePapers } from "@/lib/papers";
 import { ScrollRestoration } from "@/components/ScrollRestoration";
 
 const COMPONENTS = [
@@ -14,14 +14,14 @@ const COMPONENTS = [
   {
     slug: "reading",
     name: "Reading",
-    description: "Comprehension across a range of text types.",
-    available: false,
+    description: "38 questions, 45 minutes — extracts, poetry, cloze and text-structure tasks.",
+    available: true,
   },
   {
     slug: "thinking-skills",
     name: "Thinking Skills",
-    description: "Critical thinking and problem solving.",
-    available: false,
+    description: "40 questions, 40 minutes — critical thinking and problem solving.",
+    available: true,
   },
   {
     slug: "writing",
@@ -40,7 +40,11 @@ export default async function SelectiveHome({
   const profile = getProfile(slug);
   if (!profile) notFound();
 
-  const paperCount = getPapersByExam("selective-test").length;
+  const counts: Record<string, number> = {
+    "mathematical-reasoning": getSelectivePapers("mathematical-reasoning").length,
+    reading: getSelectivePapers("reading").length,
+    "thinking-skills": getSelectivePapers("thinking-skills").length,
+  };
 
   return (
     <div className="flex flex-col gap-6">
@@ -56,8 +60,7 @@ export default async function SelectiveHome({
 
       <div className="flex flex-col gap-3">
         {COMPONENTS.map((c) => {
-          const count =
-            c.slug === "mathematical-reasoning" ? paperCount : 0;
+          const count = counts[c.slug] ?? 0;
           return (
             <Link
               key={c.slug}
@@ -68,7 +71,8 @@ export default async function SelectiveHome({
                 <div className="font-medium">{c.name}</div>
                 <div className="text-sm text-muted mt-0.5">
                   {c.description}
-                  {count > 0 && ` · ${count} practice ${count === 1 ? "test" : "tests"}`}
+                  {count > 0 &&
+                    ` · ${count} practice ${count === 1 ? "test" : "tests"}`}
                 </div>
               </div>
               <span aria-hidden className="text-muted">

@@ -17,6 +17,10 @@ import edutestY5Maths1 from "@/data/papers/edutest-y5-maths-1.json";
 import edutestY5Numerical1 from "@/data/papers/edutest-y5-numerical-1.json";
 import edutestY5Verbal1 from "@/data/papers/edutest-y5-verbal-1.json";
 import edutestY5Reading1 from "@/data/papers/edutest-y5-reading-1.json";
+import selectiveReadingPt1 from "@/data/papers/selective-reading-pt1.json";
+import selectiveReadingPt2 from "@/data/papers/selective-reading-pt2.json";
+import selectiveReadingPt3 from "@/data/papers/selective-reading-pt3.json";
+import selectiveThinkingPt1 from "@/data/papers/selective-thinking-pt1.json";
 
 const DEFAULT_EXAM = "icas";
 
@@ -35,6 +39,10 @@ const papers: Paper[] = [
   selectivePt2 as Paper,
   selectivePt3 as Paper,
   selectivePt4 as Paper,
+  selectiveReadingPt1 as Paper,
+  selectiveReadingPt2 as Paper,
+  selectiveReadingPt3 as Paper,
+  selectiveThinkingPt1 as Paper,
   edutestY5Maths1 as Paper,
   edutestY5Numerical1 as Paper,
   edutestY5Verbal1 as Paper,
@@ -64,10 +72,15 @@ export function examHomeSlug(paper: Pick<Paper, "exam" | "component">): string {
   return exam;
 }
 
+export function selectiveComponent(paper: Pick<Paper, "component">): string {
+  return paper.component ?? "mathematical-reasoning";
+}
+
 function toSummary(p: Paper): PaperSummary {
   return {
     id: p.id,
     exam: paperExam(p),
+    component: p.component,
     subject: p.subject,
     yearLevel: p.yearLevel,
     paperCode: p.paperCode,
@@ -86,6 +99,26 @@ export function getPapersByExam(exam: string): PaperSummary[] {
   return papers.filter((p) => paperExam(p) === exam).map(toSummary);
 }
 
+/** Selective papers for one test component ("mathematical-reasoning", "reading", …). */
+export function getSelectivePapers(component: string): PaperSummary[] {
+  return papers
+    .filter(
+      (p) => paperExam(p) === "selective-test" && selectiveComponent(p) === component
+    )
+    .map(toSummary);
+}
+
 export function getPaperById(id: string): Paper | undefined {
   return papers.find((p) => p.id === id);
+}
+
+/**
+ * Short, disambiguating chart-axis label for an attempt's paper — e.g. "2010 C"
+ * or "2024 PT1". Attempts are otherwise easy to mix up when a profile sits
+ * multiple papers on the same calendar day (or retakes the same paper), since
+ * a date-only label can't tell those points apart.
+ */
+export function paperChartLabel(paperId: string, fallbackTitle: string): string {
+  const paper = getPaperById(paperId);
+  return paper ? `${paper.year} ${paper.paperCode}` : fallbackTitle;
 }

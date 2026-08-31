@@ -1,0 +1,1149 @@
+{
+  "id": "selective-reading-pt3",
+  "exam": "selective-test",
+  "component": "reading",
+  "subject": "Reading",
+  "yearLevel": 6,
+  "paperCode": "PT3",
+  "title": "NSW Selective - Reading Practice Test 3",
+  "year": 2024,
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "sel-reading-pt3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below on the theme of dogs and their relationship with humans, then answer each question.\n\nExtract A: from The Call of the Wild by Jack London (1903)\n\nBuck the dog enjoys his new freedom after being rescued by John Thornton - a kind new master - having pulled a sled for thousands of miles.\n\nLying by the river bank through the long spring days, watching the running water, listening to the songs of birds and the hum of nature, Buck slowly won back his strength. It must be confessed that Buck waxed lazy as his wounds healed, his muscles swelled out, and the flesh came back to cover his bones. For that matter, they were all loafing - Buck, John Thornton, and Skeet - waiting for the raft to come that was to carry them down to Dawson. Skeet was a little Irish setter who early made friends with Buck, who, in a dying condition, was unable to resent her first advances. She had the doctor trait which some dogs possess, washing and cleansing Buck's wounds. Regularly, each morning, after he had finished his breakfast, she performed her self-appointed task, till he came to look for her ministrations as much as he did for Thornton's.\n\nTo Buck's surprise, Skeet manifested no jealousy towards him. She seemed to share the kindliness and largeness of John Thornton. As Buck grew stronger she enticed him into all sorts of ridiculous games, in which Thornton himself could not forbear to join; and in this fashion Buck romped through his convalescence and into a new existence.\n\nThornton was the ideal master. He never forgot a kindly greeting or a cheering word, and to sit down for a long talk with them was as much his delight as theirs. He had a way of taking Buck's head roughly between his hands, and resting his own head upon Buck's, the while calling him names that to Buck were love names. Buck knew no greater joy than that rough embrace and the sound of murmured oaths. With his mouth laughing, his eyes eloquent, his throat vibrant with unuttered sounds, John Thornton would reverently exclaim: 'God, you can all but speak!'\n\nBuck had a trick of love expression that was akin to hurt. He would often seize Thornton's hand in his mouth and close so fiercely that the flesh bore impress of his teeth for some time afterwards. And as Buck understood the oaths to be love words, so the man understood this feigned bite for a caress.\n\nFor the most part, however, Buck's love was expressed in adoration. While he went wild with happiness when Thornton touched him or spoke to him, he did not seek these tokens. Unlike Skeet, who was wont to shove her nose under Thornton's hand and nudge till petted, Buck was content to adore at a distance. He would lie by the hour, eager, alert, at Thornton's feet, looking up into his face, studying it, following with keenest interest each fleeting expression, every movement or change of feature.\n\nFor a long time after his rescue, Buck did not like Thornton to get out of his sight. From the moment he left the tent to when he entered it again, Buck would follow at his heels. His transient masters since he had come into the Northland had bred in him a fear that no master could be permanent. Even in the night, in his dreams, he was haunted by this fear.\n\nExtract B: from The effect of pets on humans by Marie Carter (2016)\n\nAnyone who has ever owned a pet knows they have the capacity for the kind of unconditional love that is seen otherwise only between a human and its offspring. The gentle nudge of a wet nose or a lick on the hand comes unbidden when we're upset or feeling down. The bounding dash to the door to greet us is also a demonstrable sign of the strength of the human-canine bond, in particular.\n\nDogs can be trained to recognise words through commands. Scientists agree that they can't actually 'understand' the words; what they hear is the emotion of the voice.\n\nStudies have also shown that looking a dog in the eyes can boost levels of oxytocin (a hormone involved in social bonding), in both the person and the dog. From the dog's perspective, it's not just 'cupboard love' triggered by a hungry belly. There is in fact nothing artificial that could ever replace that sheer authenticity of feeling. Dogs are the only species that, like a human child, will run to their human when frightened, anxious or just pleased to see them.\n\nThey are also the only animal, aside from other humans, that actively seek out eye contact with people, and truly want to be with us. Cats too come to us when we are down and will show they are pleased to see us with a lick on the hand or a gentle purr to express their own feelings of contentment.\n\nPets give people so much in terms of love and emotional support. Simply stroking a dog, for example, can lead to lower blood pressure and can combat stress. The feelings are reciprocated, as our touch can have therapeutic effects for our pets, particularly if they are feeling out of sorts.",
+      "prompt": "What theme is dealt with in both extracts?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the owner sensing that the dog is ill at ease"
+        },
+        {
+          "label": "B",
+          "text": "the mutual affection between dog and human"
+        },
+        {
+          "label": "C",
+          "text": "the jealousy dogs have of each other or other pets"
+        },
+        {
+          "label": "D",
+          "text": "the dog trying to warn its owner about something"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Both extracts are about the love and closeness between a dog and its human - Buck and Thornton in A, and the human-canine bond in B.",
+      "topic": "Main Idea & Purpose"
+    },
+    {
+      "id": "sel-reading-pt3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below on the theme of dogs and their relationship with humans, then answer each question.\n\nExtract A: from The Call of the Wild by Jack London (1903)\n\nBuck the dog enjoys his new freedom after being rescued by John Thornton - a kind new master - having pulled a sled for thousands of miles.\n\nLying by the river bank through the long spring days, watching the running water, listening to the songs of birds and the hum of nature, Buck slowly won back his strength. It must be confessed that Buck waxed lazy as his wounds healed, his muscles swelled out, and the flesh came back to cover his bones. For that matter, they were all loafing - Buck, John Thornton, and Skeet - waiting for the raft to come that was to carry them down to Dawson. Skeet was a little Irish setter who early made friends with Buck, who, in a dying condition, was unable to resent her first advances. She had the doctor trait which some dogs possess, washing and cleansing Buck's wounds. Regularly, each morning, after he had finished his breakfast, she performed her self-appointed task, till he came to look for her ministrations as much as he did for Thornton's.\n\nTo Buck's surprise, Skeet manifested no jealousy towards him. She seemed to share the kindliness and largeness of John Thornton. As Buck grew stronger she enticed him into all sorts of ridiculous games, in which Thornton himself could not forbear to join; and in this fashion Buck romped through his convalescence and into a new existence.\n\nThornton was the ideal master. He never forgot a kindly greeting or a cheering word, and to sit down for a long talk with them was as much his delight as theirs. He had a way of taking Buck's head roughly between his hands, and resting his own head upon Buck's, the while calling him names that to Buck were love names. Buck knew no greater joy than that rough embrace and the sound of murmured oaths. With his mouth laughing, his eyes eloquent, his throat vibrant with unuttered sounds, John Thornton would reverently exclaim: 'God, you can all but speak!'\n\nBuck had a trick of love expression that was akin to hurt. He would often seize Thornton's hand in his mouth and close so fiercely that the flesh bore impress of his teeth for some time afterwards. And as Buck understood the oaths to be love words, so the man understood this feigned bite for a caress.\n\nFor the most part, however, Buck's love was expressed in adoration. While he went wild with happiness when Thornton touched him or spoke to him, he did not seek these tokens. Unlike Skeet, who was wont to shove her nose under Thornton's hand and nudge till petted, Buck was content to adore at a distance. He would lie by the hour, eager, alert, at Thornton's feet, looking up into his face, studying it, following with keenest interest each fleeting expression, every movement or change of feature.\n\nFor a long time after his rescue, Buck did not like Thornton to get out of his sight. From the moment he left the tent to when he entered it again, Buck would follow at his heels. His transient masters since he had come into the Northland had bred in him a fear that no master could be permanent. Even in the night, in his dreams, he was haunted by this fear.\n\nExtract B: from The effect of pets on humans by Marie Carter (2016)\n\nAnyone who has ever owned a pet knows they have the capacity for the kind of unconditional love that is seen otherwise only between a human and its offspring. The gentle nudge of a wet nose or a lick on the hand comes unbidden when we're upset or feeling down. The bounding dash to the door to greet us is also a demonstrable sign of the strength of the human-canine bond, in particular.\n\nDogs can be trained to recognise words through commands. Scientists agree that they can't actually 'understand' the words; what they hear is the emotion of the voice.\n\nStudies have also shown that looking a dog in the eyes can boost levels of oxytocin (a hormone involved in social bonding), in both the person and the dog. From the dog's perspective, it's not just 'cupboard love' triggered by a hungry belly. There is in fact nothing artificial that could ever replace that sheer authenticity of feeling. Dogs are the only species that, like a human child, will run to their human when frightened, anxious or just pleased to see them.\n\nThey are also the only animal, aside from other humans, that actively seek out eye contact with people, and truly want to be with us. Cats too come to us when we are down and will show they are pleased to see us with a lick on the hand or a gentle purr to express their own feelings of contentment.\n\nPets give people so much in terms of love and emotional support. Simply stroking a dog, for example, can lead to lower blood pressure and can combat stress. The feelings are reciprocated, as our touch can have therapeutic effects for our pets, particularly if they are feeling out of sorts.",
+      "prompt": "What idea about dog behaviour present in Extract B is also in Extract A?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the way a dog communicates its support in a physical way"
+        },
+        {
+          "label": "B",
+          "text": "the pleasure of a dog on its owner's return"
+        },
+        {
+          "label": "C",
+          "text": "the beneficial effect of a dog on its owner's health"
+        },
+        {
+          "label": "D",
+          "text": "the way a dog may seek its owner's protection"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Extract B describes the nudge of a nose or a lick as physical support; in Extract A, Skeet 'washing and cleansing Buck's wounds' and nudging to be petted shows the same physical expression.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below on the theme of dogs and their relationship with humans, then answer each question.\n\nExtract A: from The Call of the Wild by Jack London (1903)\n\nBuck the dog enjoys his new freedom after being rescued by John Thornton - a kind new master - having pulled a sled for thousands of miles.\n\nLying by the river bank through the long spring days, watching the running water, listening to the songs of birds and the hum of nature, Buck slowly won back his strength. It must be confessed that Buck waxed lazy as his wounds healed, his muscles swelled out, and the flesh came back to cover his bones. For that matter, they were all loafing - Buck, John Thornton, and Skeet - waiting for the raft to come that was to carry them down to Dawson. Skeet was a little Irish setter who early made friends with Buck, who, in a dying condition, was unable to resent her first advances. She had the doctor trait which some dogs possess, washing and cleansing Buck's wounds. Regularly, each morning, after he had finished his breakfast, she performed her self-appointed task, till he came to look for her ministrations as much as he did for Thornton's.\n\nTo Buck's surprise, Skeet manifested no jealousy towards him. She seemed to share the kindliness and largeness of John Thornton. As Buck grew stronger she enticed him into all sorts of ridiculous games, in which Thornton himself could not forbear to join; and in this fashion Buck romped through his convalescence and into a new existence.\n\nThornton was the ideal master. He never forgot a kindly greeting or a cheering word, and to sit down for a long talk with them was as much his delight as theirs. He had a way of taking Buck's head roughly between his hands, and resting his own head upon Buck's, the while calling him names that to Buck were love names. Buck knew no greater joy than that rough embrace and the sound of murmured oaths. With his mouth laughing, his eyes eloquent, his throat vibrant with unuttered sounds, John Thornton would reverently exclaim: 'God, you can all but speak!'\n\nBuck had a trick of love expression that was akin to hurt. He would often seize Thornton's hand in his mouth and close so fiercely that the flesh bore impress of his teeth for some time afterwards. And as Buck understood the oaths to be love words, so the man understood this feigned bite for a caress.\n\nFor the most part, however, Buck's love was expressed in adoration. While he went wild with happiness when Thornton touched him or spoke to him, he did not seek these tokens. Unlike Skeet, who was wont to shove her nose under Thornton's hand and nudge till petted, Buck was content to adore at a distance. He would lie by the hour, eager, alert, at Thornton's feet, looking up into his face, studying it, following with keenest interest each fleeting expression, every movement or change of feature.\n\nFor a long time after his rescue, Buck did not like Thornton to get out of his sight. From the moment he left the tent to when he entered it again, Buck would follow at his heels. His transient masters since he had come into the Northland had bred in him a fear that no master could be permanent. Even in the night, in his dreams, he was haunted by this fear.\n\nExtract B: from The effect of pets on humans by Marie Carter (2016)\n\nAnyone who has ever owned a pet knows they have the capacity for the kind of unconditional love that is seen otherwise only between a human and its offspring. The gentle nudge of a wet nose or a lick on the hand comes unbidden when we're upset or feeling down. The bounding dash to the door to greet us is also a demonstrable sign of the strength of the human-canine bond, in particular.\n\nDogs can be trained to recognise words through commands. Scientists agree that they can't actually 'understand' the words; what they hear is the emotion of the voice.\n\nStudies have also shown that looking a dog in the eyes can boost levels of oxytocin (a hormone involved in social bonding), in both the person and the dog. From the dog's perspective, it's not just 'cupboard love' triggered by a hungry belly. There is in fact nothing artificial that could ever replace that sheer authenticity of feeling. Dogs are the only species that, like a human child, will run to their human when frightened, anxious or just pleased to see them.\n\nThey are also the only animal, aside from other humans, that actively seek out eye contact with people, and truly want to be with us. Cats too come to us when we are down and will show they are pleased to see us with a lick on the hand or a gentle purr to express their own feelings of contentment.\n\nPets give people so much in terms of love and emotional support. Simply stroking a dog, for example, can lead to lower blood pressure and can combat stress. The feelings are reciprocated, as our touch can have therapeutic effects for our pets, particularly if they are feeling out of sorts.",
+      "prompt": "What idea about communication is present in both extracts?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Humans sometimes call dogs names that they regret."
+        },
+        {
+          "label": "B",
+          "text": "Dogs recognise the feeling behind their owners' words."
+        },
+        {
+          "label": "C",
+          "text": "Dogs occasionally find it hard to hide their aggressive instincts."
+        },
+        {
+          "label": "D",
+          "text": "Humans are amazed at how many orders a dog can follow."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Extract B says dogs 'hear... the emotion of the voice'; in Extract A, Buck 'understood the oaths to be love words' from Thornton's tone.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below on the theme of dogs and their relationship with humans, then answer each question.\n\nExtract A: from The Call of the Wild by Jack London (1903)\n\nBuck the dog enjoys his new freedom after being rescued by John Thornton - a kind new master - having pulled a sled for thousands of miles.\n\nLying by the river bank through the long spring days, watching the running water, listening to the songs of birds and the hum of nature, Buck slowly won back his strength. It must be confessed that Buck waxed lazy as his wounds healed, his muscles swelled out, and the flesh came back to cover his bones. For that matter, they were all loafing - Buck, John Thornton, and Skeet - waiting for the raft to come that was to carry them down to Dawson. Skeet was a little Irish setter who early made friends with Buck, who, in a dying condition, was unable to resent her first advances. She had the doctor trait which some dogs possess, washing and cleansing Buck's wounds. Regularly, each morning, after he had finished his breakfast, she performed her self-appointed task, till he came to look for her ministrations as much as he did for Thornton's.\n\nTo Buck's surprise, Skeet manifested no jealousy towards him. She seemed to share the kindliness and largeness of John Thornton. As Buck grew stronger she enticed him into all sorts of ridiculous games, in which Thornton himself could not forbear to join; and in this fashion Buck romped through his convalescence and into a new existence.\n\nThornton was the ideal master. He never forgot a kindly greeting or a cheering word, and to sit down for a long talk with them was as much his delight as theirs. He had a way of taking Buck's head roughly between his hands, and resting his own head upon Buck's, the while calling him names that to Buck were love names. Buck knew no greater joy than that rough embrace and the sound of murmured oaths. With his mouth laughing, his eyes eloquent, his throat vibrant with unuttered sounds, John Thornton would reverently exclaim: 'God, you can all but speak!'\n\nBuck had a trick of love expression that was akin to hurt. He would often seize Thornton's hand in his mouth and close so fiercely that the flesh bore impress of his teeth for some time afterwards. And as Buck understood the oaths to be love words, so the man understood this feigned bite for a caress.\n\nFor the most part, however, Buck's love was expressed in adoration. While he went wild with happiness when Thornton touched him or spoke to him, he did not seek these tokens. Unlike Skeet, who was wont to shove her nose under Thornton's hand and nudge till petted, Buck was content to adore at a distance. He would lie by the hour, eager, alert, at Thornton's feet, looking up into his face, studying it, following with keenest interest each fleeting expression, every movement or change of feature.\n\nFor a long time after his rescue, Buck did not like Thornton to get out of his sight. From the moment he left the tent to when he entered it again, Buck would follow at his heels. His transient masters since he had come into the Northland had bred in him a fear that no master could be permanent. Even in the night, in his dreams, he was haunted by this fear.\n\nExtract B: from The effect of pets on humans by Marie Carter (2016)\n\nAnyone who has ever owned a pet knows they have the capacity for the kind of unconditional love that is seen otherwise only between a human and its offspring. The gentle nudge of a wet nose or a lick on the hand comes unbidden when we're upset or feeling down. The bounding dash to the door to greet us is also a demonstrable sign of the strength of the human-canine bond, in particular.\n\nDogs can be trained to recognise words through commands. Scientists agree that they can't actually 'understand' the words; what they hear is the emotion of the voice.\n\nStudies have also shown that looking a dog in the eyes can boost levels of oxytocin (a hormone involved in social bonding), in both the person and the dog. From the dog's perspective, it's not just 'cupboard love' triggered by a hungry belly. There is in fact nothing artificial that could ever replace that sheer authenticity of feeling. Dogs are the only species that, like a human child, will run to their human when frightened, anxious or just pleased to see them.\n\nThey are also the only animal, aside from other humans, that actively seek out eye contact with people, and truly want to be with us. Cats too come to us when we are down and will show they are pleased to see us with a lick on the hand or a gentle purr to express their own feelings of contentment.\n\nPets give people so much in terms of love and emotional support. Simply stroking a dog, for example, can lead to lower blood pressure and can combat stress. The feelings are reciprocated, as our touch can have therapeutic effects for our pets, particularly if they are feeling out of sorts.",
+      "prompt": "The phrase 'For that matter' in Extract A is used to",
+      "options": [
+        {
+          "label": "A",
+          "text": "introduce a contrast."
+        },
+        {
+          "label": "B",
+          "text": "intensify a positive description."
+        },
+        {
+          "label": "C",
+          "text": "widen out a criticism."
+        },
+        {
+          "label": "D",
+          "text": "give a reason for particular behaviour."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Having said Buck 'waxed lazy', the writer uses 'For that matter' to extend that mild criticism to the whole group: 'they were all loafing'.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "sel-reading-pt3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below on the theme of dogs and their relationship with humans, then answer each question.\n\nExtract A: from The Call of the Wild by Jack London (1903)\n\nBuck the dog enjoys his new freedom after being rescued by John Thornton - a kind new master - having pulled a sled for thousands of miles.\n\nLying by the river bank through the long spring days, watching the running water, listening to the songs of birds and the hum of nature, Buck slowly won back his strength. It must be confessed that Buck waxed lazy as his wounds healed, his muscles swelled out, and the flesh came back to cover his bones. For that matter, they were all loafing - Buck, John Thornton, and Skeet - waiting for the raft to come that was to carry them down to Dawson. Skeet was a little Irish setter who early made friends with Buck, who, in a dying condition, was unable to resent her first advances. She had the doctor trait which some dogs possess, washing and cleansing Buck's wounds. Regularly, each morning, after he had finished his breakfast, she performed her self-appointed task, till he came to look for her ministrations as much as he did for Thornton's.\n\nTo Buck's surprise, Skeet manifested no jealousy towards him. She seemed to share the kindliness and largeness of John Thornton. As Buck grew stronger she enticed him into all sorts of ridiculous games, in which Thornton himself could not forbear to join; and in this fashion Buck romped through his convalescence and into a new existence.\n\nThornton was the ideal master. He never forgot a kindly greeting or a cheering word, and to sit down for a long talk with them was as much his delight as theirs. He had a way of taking Buck's head roughly between his hands, and resting his own head upon Buck's, the while calling him names that to Buck were love names. Buck knew no greater joy than that rough embrace and the sound of murmured oaths. With his mouth laughing, his eyes eloquent, his throat vibrant with unuttered sounds, John Thornton would reverently exclaim: 'God, you can all but speak!'\n\nBuck had a trick of love expression that was akin to hurt. He would often seize Thornton's hand in his mouth and close so fiercely that the flesh bore impress of his teeth for some time afterwards. And as Buck understood the oaths to be love words, so the man understood this feigned bite for a caress.\n\nFor the most part, however, Buck's love was expressed in adoration. While he went wild with happiness when Thornton touched him or spoke to him, he did not seek these tokens. Unlike Skeet, who was wont to shove her nose under Thornton's hand and nudge till petted, Buck was content to adore at a distance. He would lie by the hour, eager, alert, at Thornton's feet, looking up into his face, studying it, following with keenest interest each fleeting expression, every movement or change of feature.\n\nFor a long time after his rescue, Buck did not like Thornton to get out of his sight. From the moment he left the tent to when he entered it again, Buck would follow at his heels. His transient masters since he had come into the Northland had bred in him a fear that no master could be permanent. Even in the night, in his dreams, he was haunted by this fear.\n\nExtract B: from The effect of pets on humans by Marie Carter (2016)\n\nAnyone who has ever owned a pet knows they have the capacity for the kind of unconditional love that is seen otherwise only between a human and its offspring. The gentle nudge of a wet nose or a lick on the hand comes unbidden when we're upset or feeling down. The bounding dash to the door to greet us is also a demonstrable sign of the strength of the human-canine bond, in particular.\n\nDogs can be trained to recognise words through commands. Scientists agree that they can't actually 'understand' the words; what they hear is the emotion of the voice.\n\nStudies have also shown that looking a dog in the eyes can boost levels of oxytocin (a hormone involved in social bonding), in both the person and the dog. From the dog's perspective, it's not just 'cupboard love' triggered by a hungry belly. There is in fact nothing artificial that could ever replace that sheer authenticity of feeling. Dogs are the only species that, like a human child, will run to their human when frightened, anxious or just pleased to see them.\n\nThey are also the only animal, aside from other humans, that actively seek out eye contact with people, and truly want to be with us. Cats too come to us when we are down and will show they are pleased to see us with a lick on the hand or a gentle purr to express their own feelings of contentment.\n\nPets give people so much in terms of love and emotional support. Simply stroking a dog, for example, can lead to lower blood pressure and can combat stress. The feelings are reciprocated, as our touch can have therapeutic effects for our pets, particularly if they are feeling out of sorts.",
+      "prompt": "In Extract A, what are we told about Buck and the female dog, Skeet?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Skeet was initially wary of approaching Buck."
+        },
+        {
+          "label": "B",
+          "text": "Buck was initially irritated by Skeet."
+        },
+        {
+          "label": "C",
+          "text": "Buck eventually appreciated Skeet's affection."
+        },
+        {
+          "label": "D",
+          "text": "Skeet eventually tired of Buck."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Buck 'was unable to resent her first advances', and in time 'came to look for her ministrations as much as he did for Thornton's'.",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "sel-reading-pt3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below on the theme of dogs and their relationship with humans, then answer each question.\n\nExtract A: from The Call of the Wild by Jack London (1903)\n\nBuck the dog enjoys his new freedom after being rescued by John Thornton - a kind new master - having pulled a sled for thousands of miles.\n\nLying by the river bank through the long spring days, watching the running water, listening to the songs of birds and the hum of nature, Buck slowly won back his strength. It must be confessed that Buck waxed lazy as his wounds healed, his muscles swelled out, and the flesh came back to cover his bones. For that matter, they were all loafing - Buck, John Thornton, and Skeet - waiting for the raft to come that was to carry them down to Dawson. Skeet was a little Irish setter who early made friends with Buck, who, in a dying condition, was unable to resent her first advances. She had the doctor trait which some dogs possess, washing and cleansing Buck's wounds. Regularly, each morning, after he had finished his breakfast, she performed her self-appointed task, till he came to look for her ministrations as much as he did for Thornton's.\n\nTo Buck's surprise, Skeet manifested no jealousy towards him. She seemed to share the kindliness and largeness of John Thornton. As Buck grew stronger she enticed him into all sorts of ridiculous games, in which Thornton himself could not forbear to join; and in this fashion Buck romped through his convalescence and into a new existence.\n\nThornton was the ideal master. He never forgot a kindly greeting or a cheering word, and to sit down for a long talk with them was as much his delight as theirs. He had a way of taking Buck's head roughly between his hands, and resting his own head upon Buck's, the while calling him names that to Buck were love names. Buck knew no greater joy than that rough embrace and the sound of murmured oaths. With his mouth laughing, his eyes eloquent, his throat vibrant with unuttered sounds, John Thornton would reverently exclaim: 'God, you can all but speak!'\n\nBuck had a trick of love expression that was akin to hurt. He would often seize Thornton's hand in his mouth and close so fiercely that the flesh bore impress of his teeth for some time afterwards. And as Buck understood the oaths to be love words, so the man understood this feigned bite for a caress.\n\nFor the most part, however, Buck's love was expressed in adoration. While he went wild with happiness when Thornton touched him or spoke to him, he did not seek these tokens. Unlike Skeet, who was wont to shove her nose under Thornton's hand and nudge till petted, Buck was content to adore at a distance. He would lie by the hour, eager, alert, at Thornton's feet, looking up into his face, studying it, following with keenest interest each fleeting expression, every movement or change of feature.\n\nFor a long time after his rescue, Buck did not like Thornton to get out of his sight. From the moment he left the tent to when he entered it again, Buck would follow at his heels. His transient masters since he had come into the Northland had bred in him a fear that no master could be permanent. Even in the night, in his dreams, he was haunted by this fear.\n\nExtract B: from The effect of pets on humans by Marie Carter (2016)\n\nAnyone who has ever owned a pet knows they have the capacity for the kind of unconditional love that is seen otherwise only between a human and its offspring. The gentle nudge of a wet nose or a lick on the hand comes unbidden when we're upset or feeling down. The bounding dash to the door to greet us is also a demonstrable sign of the strength of the human-canine bond, in particular.\n\nDogs can be trained to recognise words through commands. Scientists agree that they can't actually 'understand' the words; what they hear is the emotion of the voice.\n\nStudies have also shown that looking a dog in the eyes can boost levels of oxytocin (a hormone involved in social bonding), in both the person and the dog. From the dog's perspective, it's not just 'cupboard love' triggered by a hungry belly. There is in fact nothing artificial that could ever replace that sheer authenticity of feeling. Dogs are the only species that, like a human child, will run to their human when frightened, anxious or just pleased to see them.\n\nThey are also the only animal, aside from other humans, that actively seek out eye contact with people, and truly want to be with us. Cats too come to us when we are down and will show they are pleased to see us with a lick on the hand or a gentle purr to express their own feelings of contentment.\n\nPets give people so much in terms of love and emotional support. Simply stroking a dog, for example, can lead to lower blood pressure and can combat stress. The feelings are reciprocated, as our touch can have therapeutic effects for our pets, particularly if they are feeling out of sorts.",
+      "prompt": "In comparison with Skeet's, the expression of Buck's love for Thornton was",
+      "options": [
+        {
+          "label": "A",
+          "text": "more impulsive."
+        },
+        {
+          "label": "B",
+          "text": "less complicated."
+        },
+        {
+          "label": "C",
+          "text": "more erratic."
+        },
+        {
+          "label": "D",
+          "text": "less needy."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Skeet 'was wont to shove her nose under Thornton's hand and nudge till petted', while Buck 'was content to adore at a distance' and 'did not seek these tokens'.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below on the theme of dogs and their relationship with humans, then answer each question.\n\nExtract A: from The Call of the Wild by Jack London (1903)\n\nBuck the dog enjoys his new freedom after being rescued by John Thornton - a kind new master - having pulled a sled for thousands of miles.\n\nLying by the river bank through the long spring days, watching the running water, listening to the songs of birds and the hum of nature, Buck slowly won back his strength. It must be confessed that Buck waxed lazy as his wounds healed, his muscles swelled out, and the flesh came back to cover his bones. For that matter, they were all loafing - Buck, John Thornton, and Skeet - waiting for the raft to come that was to carry them down to Dawson. Skeet was a little Irish setter who early made friends with Buck, who, in a dying condition, was unable to resent her first advances. She had the doctor trait which some dogs possess, washing and cleansing Buck's wounds. Regularly, each morning, after he had finished his breakfast, she performed her self-appointed task, till he came to look for her ministrations as much as he did for Thornton's.\n\nTo Buck's surprise, Skeet manifested no jealousy towards him. She seemed to share the kindliness and largeness of John Thornton. As Buck grew stronger she enticed him into all sorts of ridiculous games, in which Thornton himself could not forbear to join; and in this fashion Buck romped through his convalescence and into a new existence.\n\nThornton was the ideal master. He never forgot a kindly greeting or a cheering word, and to sit down for a long talk with them was as much his delight as theirs. He had a way of taking Buck's head roughly between his hands, and resting his own head upon Buck's, the while calling him names that to Buck were love names. Buck knew no greater joy than that rough embrace and the sound of murmured oaths. With his mouth laughing, his eyes eloquent, his throat vibrant with unuttered sounds, John Thornton would reverently exclaim: 'God, you can all but speak!'\n\nBuck had a trick of love expression that was akin to hurt. He would often seize Thornton's hand in his mouth and close so fiercely that the flesh bore impress of his teeth for some time afterwards. And as Buck understood the oaths to be love words, so the man understood this feigned bite for a caress.\n\nFor the most part, however, Buck's love was expressed in adoration. While he went wild with happiness when Thornton touched him or spoke to him, he did not seek these tokens. Unlike Skeet, who was wont to shove her nose under Thornton's hand and nudge till petted, Buck was content to adore at a distance. He would lie by the hour, eager, alert, at Thornton's feet, looking up into his face, studying it, following with keenest interest each fleeting expression, every movement or change of feature.\n\nFor a long time after his rescue, Buck did not like Thornton to get out of his sight. From the moment he left the tent to when he entered it again, Buck would follow at his heels. His transient masters since he had come into the Northland had bred in him a fear that no master could be permanent. Even in the night, in his dreams, he was haunted by this fear.\n\nExtract B: from The effect of pets on humans by Marie Carter (2016)\n\nAnyone who has ever owned a pet knows they have the capacity for the kind of unconditional love that is seen otherwise only between a human and its offspring. The gentle nudge of a wet nose or a lick on the hand comes unbidden when we're upset or feeling down. The bounding dash to the door to greet us is also a demonstrable sign of the strength of the human-canine bond, in particular.\n\nDogs can be trained to recognise words through commands. Scientists agree that they can't actually 'understand' the words; what they hear is the emotion of the voice.\n\nStudies have also shown that looking a dog in the eyes can boost levels of oxytocin (a hormone involved in social bonding), in both the person and the dog. From the dog's perspective, it's not just 'cupboard love' triggered by a hungry belly. There is in fact nothing artificial that could ever replace that sheer authenticity of feeling. Dogs are the only species that, like a human child, will run to their human when frightened, anxious or just pleased to see them.\n\nThey are also the only animal, aside from other humans, that actively seek out eye contact with people, and truly want to be with us. Cats too come to us when we are down and will show they are pleased to see us with a lick on the hand or a gentle purr to express their own feelings of contentment.\n\nPets give people so much in terms of love and emotional support. Simply stroking a dog, for example, can lead to lower blood pressure and can combat stress. The feelings are reciprocated, as our touch can have therapeutic effects for our pets, particularly if they are feeling out of sorts.",
+      "prompt": "According to the last paragraph, Buck was haunted by the thought that",
+      "options": [
+        {
+          "label": "A",
+          "text": "his captors would return to claim him."
+        },
+        {
+          "label": "B",
+          "text": "he might never see the wild again."
+        },
+        {
+          "label": "C",
+          "text": "he would lose his way in this new land."
+        },
+        {
+          "label": "D",
+          "text": "his present owner would disappear from his life."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "His 'transient masters' had 'bred in him a fear that no master could be permanent'.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "For questions 1-8, read the two extracts below on the theme of dogs and their relationship with humans, then answer each question.\n\nExtract A: from The Call of the Wild by Jack London (1903)\n\nBuck the dog enjoys his new freedom after being rescued by John Thornton - a kind new master - having pulled a sled for thousands of miles.\n\nLying by the river bank through the long spring days, watching the running water, listening to the songs of birds and the hum of nature, Buck slowly won back his strength. It must be confessed that Buck waxed lazy as his wounds healed, his muscles swelled out, and the flesh came back to cover his bones. For that matter, they were all loafing - Buck, John Thornton, and Skeet - waiting for the raft to come that was to carry them down to Dawson. Skeet was a little Irish setter who early made friends with Buck, who, in a dying condition, was unable to resent her first advances. She had the doctor trait which some dogs possess, washing and cleansing Buck's wounds. Regularly, each morning, after he had finished his breakfast, she performed her self-appointed task, till he came to look for her ministrations as much as he did for Thornton's.\n\nTo Buck's surprise, Skeet manifested no jealousy towards him. She seemed to share the kindliness and largeness of John Thornton. As Buck grew stronger she enticed him into all sorts of ridiculous games, in which Thornton himself could not forbear to join; and in this fashion Buck romped through his convalescence and into a new existence.\n\nThornton was the ideal master. He never forgot a kindly greeting or a cheering word, and to sit down for a long talk with them was as much his delight as theirs. He had a way of taking Buck's head roughly between his hands, and resting his own head upon Buck's, the while calling him names that to Buck were love names. Buck knew no greater joy than that rough embrace and the sound of murmured oaths. With his mouth laughing, his eyes eloquent, his throat vibrant with unuttered sounds, John Thornton would reverently exclaim: 'God, you can all but speak!'\n\nBuck had a trick of love expression that was akin to hurt. He would often seize Thornton's hand in his mouth and close so fiercely that the flesh bore impress of his teeth for some time afterwards. And as Buck understood the oaths to be love words, so the man understood this feigned bite for a caress.\n\nFor the most part, however, Buck's love was expressed in adoration. While he went wild with happiness when Thornton touched him or spoke to him, he did not seek these tokens. Unlike Skeet, who was wont to shove her nose under Thornton's hand and nudge till petted, Buck was content to adore at a distance. He would lie by the hour, eager, alert, at Thornton's feet, looking up into his face, studying it, following with keenest interest each fleeting expression, every movement or change of feature.\n\nFor a long time after his rescue, Buck did not like Thornton to get out of his sight. From the moment he left the tent to when he entered it again, Buck would follow at his heels. His transient masters since he had come into the Northland had bred in him a fear that no master could be permanent. Even in the night, in his dreams, he was haunted by this fear.\n\nExtract B: from The effect of pets on humans by Marie Carter (2016)\n\nAnyone who has ever owned a pet knows they have the capacity for the kind of unconditional love that is seen otherwise only between a human and its offspring. The gentle nudge of a wet nose or a lick on the hand comes unbidden when we're upset or feeling down. The bounding dash to the door to greet us is also a demonstrable sign of the strength of the human-canine bond, in particular.\n\nDogs can be trained to recognise words through commands. Scientists agree that they can't actually 'understand' the words; what they hear is the emotion of the voice.\n\nStudies have also shown that looking a dog in the eyes can boost levels of oxytocin (a hormone involved in social bonding), in both the person and the dog. From the dog's perspective, it's not just 'cupboard love' triggered by a hungry belly. There is in fact nothing artificial that could ever replace that sheer authenticity of feeling. Dogs are the only species that, like a human child, will run to their human when frightened, anxious or just pleased to see them.\n\nThey are also the only animal, aside from other humans, that actively seek out eye contact with people, and truly want to be with us. Cats too come to us when we are down and will show they are pleased to see us with a lick on the hand or a gentle purr to express their own feelings of contentment.\n\nPets give people so much in terms of love and emotional support. Simply stroking a dog, for example, can lead to lower blood pressure and can combat stress. The feelings are reciprocated, as our touch can have therapeutic effects for our pets, particularly if they are feeling out of sorts.",
+      "prompt": "What does the writer of Extract B say about the stare a dog gives its owner?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is entirely genuine and earnest."
+        },
+        {
+          "label": "B",
+          "text": "It is something that parents will understand."
+        },
+        {
+          "label": "C",
+          "text": "It is motivated by a desire for food."
+        },
+        {
+          "label": "D",
+          "text": "It is shared in the animal kingdom only by cats."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The writer says 'it's not just \"cupboard love\" triggered by a hungry belly' and there is 'nothing artificial' about 'that sheer authenticity of feeling'.",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "sel-reading-pt3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Motorway Cafe\n\nTrinny (9) ...... residence against the far wall where she could observe what was going on in the cafe and its entrances and exits. She'd had a hard day in her (10) ...... as a saleswoman, driving to see customers in three cities, and now she was ready for a snack and a drink to break up her journey home. She ordered coffee and a cake from a disinterested waitress who made no eye contact and looked for all the (11) ...... like her thoughts were elsewhere. She was, in Trinny's imagination, already thinking ahead to that evening's art class where she could (12) ...... her fantasy of living on a Caribbean beach surrounded by coconut trees. Two colossal young men in working overalls were facing Trinny, stuffing sandwiches down their necks as if there was no (13) ...... . They're obviously in an (14) ...... haste as they're dying to get home to see their young kids, thought Trinny. One bore a large tattoo on his forearm, which Trinny decided was something he deeply regretted, a (15) ...... to a previous era and an old girlfriend who could not now be (16) ...... from his life.",
+      "prompt": "Which word best fits gap (9)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "came to"
+        },
+        {
+          "label": "B",
+          "text": "sat on"
+        },
+        {
+          "label": "C",
+          "text": "took up"
+        },
+        {
+          "label": "D",
+          "text": "put in"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'took up residence' is the set phrase meaning settled herself in a place.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Motorway Cafe\n\nTrinny (9) ...... residence against the far wall where she could observe what was going on in the cafe and its entrances and exits. She'd had a hard day in her (10) ...... as a saleswoman, driving to see customers in three cities, and now she was ready for a snack and a drink to break up her journey home. She ordered coffee and a cake from a disinterested waitress who made no eye contact and looked for all the (11) ...... like her thoughts were elsewhere. She was, in Trinny's imagination, already thinking ahead to that evening's art class where she could (12) ...... her fantasy of living on a Caribbean beach surrounded by coconut trees. Two colossal young men in working overalls were facing Trinny, stuffing sandwiches down their necks as if there was no (13) ...... . They're obviously in an (14) ...... haste as they're dying to get home to see their young kids, thought Trinny. One bore a large tattoo on his forearm, which Trinny decided was something he deeply regretted, a (15) ...... to a previous era and an old girlfriend who could not now be (16) ...... from his life.",
+      "prompt": "Which word best fits gap (10)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "service"
+        },
+        {
+          "label": "B",
+          "text": "capacity"
+        },
+        {
+          "label": "C",
+          "text": "province"
+        },
+        {
+          "label": "D",
+          "text": "function"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'in her capacity as a saleswoman' means in that role.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Motorway Cafe\n\nTrinny (9) ...... residence against the far wall where she could observe what was going on in the cafe and its entrances and exits. She'd had a hard day in her (10) ...... as a saleswoman, driving to see customers in three cities, and now she was ready for a snack and a drink to break up her journey home. She ordered coffee and a cake from a disinterested waitress who made no eye contact and looked for all the (11) ...... like her thoughts were elsewhere. She was, in Trinny's imagination, already thinking ahead to that evening's art class where she could (12) ...... her fantasy of living on a Caribbean beach surrounded by coconut trees. Two colossal young men in working overalls were facing Trinny, stuffing sandwiches down their necks as if there was no (13) ...... . They're obviously in an (14) ...... haste as they're dying to get home to see their young kids, thought Trinny. One bore a large tattoo on his forearm, which Trinny decided was something he deeply regretted, a (15) ...... to a previous era and an old girlfriend who could not now be (16) ...... from his life.",
+      "prompt": "Which word best fits gap (11)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "earth"
+        },
+        {
+          "label": "B",
+          "text": "globe"
+        },
+        {
+          "label": "C",
+          "text": "planet"
+        },
+        {
+          "label": "D",
+          "text": "world"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'for all the world like' is a fixed idiom meaning exactly as if.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Motorway Cafe\n\nTrinny (9) ...... residence against the far wall where she could observe what was going on in the cafe and its entrances and exits. She'd had a hard day in her (10) ...... as a saleswoman, driving to see customers in three cities, and now she was ready for a snack and a drink to break up her journey home. She ordered coffee and a cake from a disinterested waitress who made no eye contact and looked for all the (11) ...... like her thoughts were elsewhere. She was, in Trinny's imagination, already thinking ahead to that evening's art class where she could (12) ...... her fantasy of living on a Caribbean beach surrounded by coconut trees. Two colossal young men in working overalls were facing Trinny, stuffing sandwiches down their necks as if there was no (13) ...... . They're obviously in an (14) ...... haste as they're dying to get home to see their young kids, thought Trinny. One bore a large tattoo on his forearm, which Trinny decided was something he deeply regretted, a (15) ...... to a previous era and an old girlfriend who could not now be (16) ...... from his life.",
+      "prompt": "Which word best fits gap (12)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "indulge"
+        },
+        {
+          "label": "B",
+          "text": "foster"
+        },
+        {
+          "label": "C",
+          "text": "treat"
+        },
+        {
+          "label": "D",
+          "text": "pander"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "she could 'indulge her fantasy' - give free rein to it.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Motorway Cafe\n\nTrinny (9) ...... residence against the far wall where she could observe what was going on in the cafe and its entrances and exits. She'd had a hard day in her (10) ...... as a saleswoman, driving to see customers in three cities, and now she was ready for a snack and a drink to break up her journey home. She ordered coffee and a cake from a disinterested waitress who made no eye contact and looked for all the (11) ...... like her thoughts were elsewhere. She was, in Trinny's imagination, already thinking ahead to that evening's art class where she could (12) ...... her fantasy of living on a Caribbean beach surrounded by coconut trees. Two colossal young men in working overalls were facing Trinny, stuffing sandwiches down their necks as if there was no (13) ...... . They're obviously in an (14) ...... haste as they're dying to get home to see their young kids, thought Trinny. One bore a large tattoo on his forearm, which Trinny decided was something he deeply regretted, a (15) ...... to a previous era and an old girlfriend who could not now be (16) ...... from his life.",
+      "prompt": "Which word best fits gap (13)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "future"
+        },
+        {
+          "label": "B",
+          "text": "end"
+        },
+        {
+          "label": "C",
+          "text": "prospect"
+        },
+        {
+          "label": "D",
+          "text": "tomorrow"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'as if there was no tomorrow' is the idiom for doing something with total urgency.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Motorway Cafe\n\nTrinny (9) ...... residence against the far wall where she could observe what was going on in the cafe and its entrances and exits. She'd had a hard day in her (10) ...... as a saleswoman, driving to see customers in three cities, and now she was ready for a snack and a drink to break up her journey home. She ordered coffee and a cake from a disinterested waitress who made no eye contact and looked for all the (11) ...... like her thoughts were elsewhere. She was, in Trinny's imagination, already thinking ahead to that evening's art class where she could (12) ...... her fantasy of living on a Caribbean beach surrounded by coconut trees. Two colossal young men in working overalls were facing Trinny, stuffing sandwiches down their necks as if there was no (13) ...... . They're obviously in an (14) ...... haste as they're dying to get home to see their young kids, thought Trinny. One bore a large tattoo on his forearm, which Trinny decided was something he deeply regretted, a (15) ...... to a previous era and an old girlfriend who could not now be (16) ...... from his life.",
+      "prompt": "Which word best fits gap (14)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "indecent"
+        },
+        {
+          "label": "B",
+          "text": "impure"
+        },
+        {
+          "label": "C",
+          "text": "immodest"
+        },
+        {
+          "label": "D",
+          "text": "indelicate"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'in indecent haste' is the usual collocation, meaning improperly hurried.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Motorway Cafe\n\nTrinny (9) ...... residence against the far wall where she could observe what was going on in the cafe and its entrances and exits. She'd had a hard day in her (10) ...... as a saleswoman, driving to see customers in three cities, and now she was ready for a snack and a drink to break up her journey home. She ordered coffee and a cake from a disinterested waitress who made no eye contact and looked for all the (11) ...... like her thoughts were elsewhere. She was, in Trinny's imagination, already thinking ahead to that evening's art class where she could (12) ...... her fantasy of living on a Caribbean beach surrounded by coconut trees. Two colossal young men in working overalls were facing Trinny, stuffing sandwiches down their necks as if there was no (13) ...... . They're obviously in an (14) ...... haste as they're dying to get home to see their young kids, thought Trinny. One bore a large tattoo on his forearm, which Trinny decided was something he deeply regretted, a (15) ...... to a previous era and an old girlfriend who could not now be (16) ...... from his life.",
+      "prompt": "Which word best fits gap (15)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "recession"
+        },
+        {
+          "label": "B",
+          "text": "lapse"
+        },
+        {
+          "label": "C",
+          "text": "throwback"
+        },
+        {
+          "label": "D",
+          "text": "reversal"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "the tattoo is 'a throwback to a previous era' - a leftover from the past.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt3-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "For questions 9-16, read the text below and decide which answer best fits each gap.\n\nThe Motorway Cafe\n\nTrinny (9) ...... residence against the far wall where she could observe what was going on in the cafe and its entrances and exits. She'd had a hard day in her (10) ...... as a saleswoman, driving to see customers in three cities, and now she was ready for a snack and a drink to break up her journey home. She ordered coffee and a cake from a disinterested waitress who made no eye contact and looked for all the (11) ...... like her thoughts were elsewhere. She was, in Trinny's imagination, already thinking ahead to that evening's art class where she could (12) ...... her fantasy of living on a Caribbean beach surrounded by coconut trees. Two colossal young men in working overalls were facing Trinny, stuffing sandwiches down their necks as if there was no (13) ...... . They're obviously in an (14) ...... haste as they're dying to get home to see their young kids, thought Trinny. One bore a large tattoo on his forearm, which Trinny decided was something he deeply regretted, a (15) ...... to a previous era and an old girlfriend who could not now be (16) ...... from his life.",
+      "prompt": "Which word best fits gap (16)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "crossed"
+        },
+        {
+          "label": "B",
+          "text": "erased"
+        },
+        {
+          "label": "C",
+          "text": "abolished"
+        },
+        {
+          "label": "D",
+          "text": "rubbed"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "the old girlfriend 'could not now be erased from his life' - removed as if rubbed out.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "sel-reading-pt3-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem 'The Curtain' (2012) below by Australian poet Judith Wright, then answer each question.\n\nThe Curtain\n\nIt was the curtain, softly rising and falling,\n   reminded me you were home, who had been so long away;\n   and when I went to wake you, I stood in silence watching\n   your mouth softened in sleep, the lids where your eyes lay.\n\nSo grown you looked, in the same unaltered room,\n   so much of your childhood you were already forgetting,\n   while I remembered. Yet in the unforgetting dream\n   you will come here all your life for renewal and meeting.\n\nIt was your breath, so softly rising and falling,\n   that kept me silent. With your lids like buds unbroken\n   you watched on their curtain your life, a stream of shadows moving.\n   When I touched your shoulder, I too had a little dreamed and woken.",
+      "prompt": "In the first verse, what effect does the curtain have on the narrator?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It lifts the narrator's dwindling spirits."
+        },
+        {
+          "label": "B",
+          "text": "It urges the narrator to rouse the sleeper."
+        },
+        {
+          "label": "C",
+          "text": "It inspires the narrator to go on a journey."
+        },
+        {
+          "label": "D",
+          "text": "It prompts the narrator to recall something."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The curtain 'reminded me you were home, who had been so long away' - it triggers a memory.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt3-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem 'The Curtain' (2012) below by Australian poet Judith Wright, then answer each question.\n\nThe Curtain\n\nIt was the curtain, softly rising and falling,\n   reminded me you were home, who had been so long away;\n   and when I went to wake you, I stood in silence watching\n   your mouth softened in sleep, the lids where your eyes lay.\n\nSo grown you looked, in the same unaltered room,\n   so much of your childhood you were already forgetting,\n   while I remembered. Yet in the unforgetting dream\n   you will come here all your life for renewal and meeting.\n\nIt was your breath, so softly rising and falling,\n   that kept me silent. With your lids like buds unbroken\n   you watched on their curtain your life, a stream of shadows moving.\n   When I touched your shoulder, I too had a little dreamed and woken.",
+      "prompt": "When the narrator describes the sleeper in the first verse, we get the impression that",
+      "options": [
+        {
+          "label": "A",
+          "text": "the narrator is upset with the sleeper for being a burden."
+        },
+        {
+          "label": "B",
+          "text": "the sleeper's face is familiar and dear to the narrator."
+        },
+        {
+          "label": "C",
+          "text": "the sleeper is peaceful but troubled by their dreams."
+        },
+        {
+          "label": "D",
+          "text": "the narrator's feelings about the sleeper are complicated."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The tender, close attention to 'your mouth softened in sleep, the lids where your eyes lay' conveys deep familiarity and affection.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt3-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem 'The Curtain' (2012) below by Australian poet Judith Wright, then answer each question.\n\nThe Curtain\n\nIt was the curtain, softly rising and falling,\n   reminded me you were home, who had been so long away;\n   and when I went to wake you, I stood in silence watching\n   your mouth softened in sleep, the lids where your eyes lay.\n\nSo grown you looked, in the same unaltered room,\n   so much of your childhood you were already forgetting,\n   while I remembered. Yet in the unforgetting dream\n   you will come here all your life for renewal and meeting.\n\nIt was your breath, so softly rising and falling,\n   that kept me silent. With your lids like buds unbroken\n   you watched on their curtain your life, a stream of shadows moving.\n   When I touched your shoulder, I too had a little dreamed and woken.",
+      "prompt": "In the second verse, what observation does the narrator make?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The sleeper has not changed very much as they've grown."
+        },
+        {
+          "label": "B",
+          "text": "Both the sleeper and the narrator have forgotten so much."
+        },
+        {
+          "label": "C",
+          "text": "In dreams, the sleeper will always remember their youth."
+        },
+        {
+          "label": "D",
+          "text": "In the future, the sleeper and the narrator will meet again."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'in the unforgetting dream you will come here all your life for renewal and meeting'.",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "sel-reading-pt3-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem 'The Curtain' (2012) below by Australian poet Judith Wright, then answer each question.\n\nThe Curtain\n\nIt was the curtain, softly rising and falling,\n   reminded me you were home, who had been so long away;\n   and when I went to wake you, I stood in silence watching\n   your mouth softened in sleep, the lids where your eyes lay.\n\nSo grown you looked, in the same unaltered room,\n   so much of your childhood you were already forgetting,\n   while I remembered. Yet in the unforgetting dream\n   you will come here all your life for renewal and meeting.\n\nIt was your breath, so softly rising and falling,\n   that kept me silent. With your lids like buds unbroken\n   you watched on their curtain your life, a stream of shadows moving.\n   When I touched your shoulder, I too had a little dreamed and woken.",
+      "prompt": "Why are the sleeper's eyelids compared to 'buds' in line 10?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to show they are closed"
+        },
+        {
+          "label": "B",
+          "text": "to imply immaturity"
+        },
+        {
+          "label": "C",
+          "text": "to give the idea of new life"
+        },
+        {
+          "label": "D",
+          "text": "to describe their colour and texture"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'buds like buds unbroken' - a bud that has not opened, i.e. eyes still shut.",
+      "topic": "Author's Craft"
+    },
+    {
+      "id": "sel-reading-pt3-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem 'The Curtain' (2012) below by Australian poet Judith Wright, then answer each question.\n\nThe Curtain\n\nIt was the curtain, softly rising and falling,\n   reminded me you were home, who had been so long away;\n   and when I went to wake you, I stood in silence watching\n   your mouth softened in sleep, the lids where your eyes lay.\n\nSo grown you looked, in the same unaltered room,\n   so much of your childhood you were already forgetting,\n   while I remembered. Yet in the unforgetting dream\n   you will come here all your life for renewal and meeting.\n\nIt was your breath, so softly rising and falling,\n   that kept me silent. With your lids like buds unbroken\n   you watched on their curtain your life, a stream of shadows moving.\n   When I touched your shoulder, I too had a little dreamed and woken.",
+      "prompt": "What is the 'curtain' that is referred to in the final verse?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the wall of the bedroom"
+        },
+        {
+          "label": "B",
+          "text": "the shadows around the bed"
+        },
+        {
+          "label": "C",
+          "text": "the breaths taken by the sleeper"
+        },
+        {
+          "label": "D",
+          "text": "the inside of the sleeper's eyelids"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'you watched on their curtain your life' - the closed lids are the screen on which the sleeper's dream plays.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt3-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "For questions 17-22, read the poem 'The Curtain' (2012) below by Australian poet Judith Wright, then answer each question.\n\nThe Curtain\n\nIt was the curtain, softly rising and falling,\n   reminded me you were home, who had been so long away;\n   and when I went to wake you, I stood in silence watching\n   your mouth softened in sleep, the lids where your eyes lay.\n\nSo grown you looked, in the same unaltered room,\n   so much of your childhood you were already forgetting,\n   while I remembered. Yet in the unforgetting dream\n   you will come here all your life for renewal and meeting.\n\nIt was your breath, so softly rising and falling,\n   that kept me silent. With your lids like buds unbroken\n   you watched on their curtain your life, a stream of shadows moving.\n   When I touched your shoulder, I too had a little dreamed and woken.",
+      "prompt": "What is the most likely relationship between the poem's narrator and the sleeper?",
+      "options": [
+        {
+          "label": "A",
+          "text": "romantic partners"
+        },
+        {
+          "label": "B",
+          "text": "a parent and their adult child"
+        },
+        {
+          "label": "C",
+          "text": "childhood best friends"
+        },
+        {
+          "label": "D",
+          "text": "a grandparent and their small grandchild"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The narrator remembers the sleeper's childhood 'in the same unaltered room' yet sees them 'so grown' - a parent watching a grown child who has come home.",
+      "topic": "Inference"
+    },
+    {
+      "id": "sel-reading-pt3-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, read the text below, which consists of six paragraphs. Choose the option (A - G) which best summarises each paragraph. There is one extra option which you do not need to use.\n\nSummary options:\nA  Mars entering twentieth-century popular culture\nB  how new technology facilitated the earliest scientific observations of Mars\nC  recent evidence for the presence of water on Mars\nD  the idea that there are different perceptions of the planet Mars\nE  the reason why Mars began to be portrayed more realistically in movies and books\nF  an assumption about a geographical feature on Mars that was inaccurate\nG  the significance of Mars to earlier human societies\n\nOur Fascination with Mars\n\n(23) Mars, the fourth most distant planet from the sun in our solar system, is actually more than one place. There's the Mars that scientists study through telescopes and with robotic satellites and rovers, the destination in our solar system that astronauts will someday visit and colonise. There are also other versions of Mars, which have come from our imagination, throughout the course of history.\n\n(24) Mars is one of five planets which are visible to the unaided eye. Its reddish-orange hue inspired some civilisations in the past to imagine it as a symbol of war and violence. The ancient Mesopotamians linked Mars to Nergal, a god who was the symbol of hunting, and sometimes led the other gods into battle. In their city of Nineveh, they erected the Nergal Gate to show their reverence. The ancient Greeks associated the red planet with Ares, the warrior god who was the son of Zeus and his wife Hera. In Roman mythology, Ares became the war god Mars, who was so important to them that they dedicated March, the first month in their calendar year, to him.\n\n(25) Eventually, people started shifting from thinking of Mars as a mystical place to seeing it as a planet that was somewhat like their own. The development of telescopes in the 1600s enabled humans to see Mars and some of the details of its surface clearly for the first time. In 1659, the Dutch astronomer Christian Huygens drew one of the first accurate maps of the red planet, and figured out that it rotated in the same way that Earth did.\n\n(26) In 1877, the Italian astronomer Giovanni Schiaparelli observed lines in the planet's equatorial region, a phenomenon that also was noted by the American astronomer Percival Lowell. The term that Schiaparelli used - canali - sounded a lot like the English word canal, and that led some to mistakenly think that the red planet had waterways built by an alien civilisation.\n\n(27) Even after other scientists concluded that Mars' surface was probably not capable of supporting life, the idea of life on Mars fascinated people's imaginations. Writers of the new genre of science fiction and fantasy began to write about it in their stories. British author H.G. Wells' pioneering novel 'The War of the Worlds' depicted Mars as a dying planet whose technologically-advanced civilisation wanted to conquer Earth. It caused a sensation when adapted for a radio broadcast in 1938. 'The Martian Chronicles', Ray Bradbury's 1950 collection of stories, presented a planet filled with empty cities from a fallen civilisation. For Hollywood filmmakers, Mars also became a convenient setting for movies full of malevolent Martians and monsters, such as the 1960 film 'The Angry Red Planet'. There was even a television sitcom, 'My Favorite Martian', which featured a sarcastic secret visitor from Mars who pretended to be human.\n\n(28) All these sci-fi fantasies of Mars were dashed by the close-up images transmitted by the Mariner 4 unmanned space probe in 1964, which revealed it to be a cratered, moonlike planet, lacking in seas or vegetation. Those and later scientific discoveries about Mars seem to have influenced writers and filmmakers to change their depictions of the red planet - not as home to an alien civilisation, but a distant world that humans will someday visit and colonise. In more recent movies such as 1990's 'Total Recall' and 'The Martian' in 2015, Mars is depicted as a rugged, barren, dry planet with a thin atmosphere, where space colonists have to live in well-protected bases and wear spacesuits to survive.",
+      "prompt": "Choose the option (A - G) that best summarises paragraph (23).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mars entering twentieth-century popular culture"
+        },
+        {
+          "label": "B",
+          "text": "how new technology facilitated the earliest scientific observations of Mars"
+        },
+        {
+          "label": "C",
+          "text": "recent evidence for the presence of water on Mars"
+        },
+        {
+          "label": "D",
+          "text": "the idea that there are different perceptions of the planet Mars"
+        },
+        {
+          "label": "E",
+          "text": "the reason why Mars began to be portrayed more realistically in movies and books"
+        },
+        {
+          "label": "F",
+          "text": "an assumption about a geographical feature on Mars that was inaccurate"
+        },
+        {
+          "label": "G",
+          "text": "the significance of Mars to earlier human societies"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The paragraph says Mars 'is actually more than one place' - the scientific Mars and the imagined versions - i.e. different perceptions of the planet.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt3-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, read the text below, which consists of six paragraphs. Choose the option (A - G) which best summarises each paragraph. There is one extra option which you do not need to use.\n\nSummary options:\nA  Mars entering twentieth-century popular culture\nB  how new technology facilitated the earliest scientific observations of Mars\nC  recent evidence for the presence of water on Mars\nD  the idea that there are different perceptions of the planet Mars\nE  the reason why Mars began to be portrayed more realistically in movies and books\nF  an assumption about a geographical feature on Mars that was inaccurate\nG  the significance of Mars to earlier human societies\n\nOur Fascination with Mars\n\n(23) Mars, the fourth most distant planet from the sun in our solar system, is actually more than one place. There's the Mars that scientists study through telescopes and with robotic satellites and rovers, the destination in our solar system that astronauts will someday visit and colonise. There are also other versions of Mars, which have come from our imagination, throughout the course of history.\n\n(24) Mars is one of five planets which are visible to the unaided eye. Its reddish-orange hue inspired some civilisations in the past to imagine it as a symbol of war and violence. The ancient Mesopotamians linked Mars to Nergal, a god who was the symbol of hunting, and sometimes led the other gods into battle. In their city of Nineveh, they erected the Nergal Gate to show their reverence. The ancient Greeks associated the red planet with Ares, the warrior god who was the son of Zeus and his wife Hera. In Roman mythology, Ares became the war god Mars, who was so important to them that they dedicated March, the first month in their calendar year, to him.\n\n(25) Eventually, people started shifting from thinking of Mars as a mystical place to seeing it as a planet that was somewhat like their own. The development of telescopes in the 1600s enabled humans to see Mars and some of the details of its surface clearly for the first time. In 1659, the Dutch astronomer Christian Huygens drew one of the first accurate maps of the red planet, and figured out that it rotated in the same way that Earth did.\n\n(26) In 1877, the Italian astronomer Giovanni Schiaparelli observed lines in the planet's equatorial region, a phenomenon that also was noted by the American astronomer Percival Lowell. The term that Schiaparelli used - canali - sounded a lot like the English word canal, and that led some to mistakenly think that the red planet had waterways built by an alien civilisation.\n\n(27) Even after other scientists concluded that Mars' surface was probably not capable of supporting life, the idea of life on Mars fascinated people's imaginations. Writers of the new genre of science fiction and fantasy began to write about it in their stories. British author H.G. Wells' pioneering novel 'The War of the Worlds' depicted Mars as a dying planet whose technologically-advanced civilisation wanted to conquer Earth. It caused a sensation when adapted for a radio broadcast in 1938. 'The Martian Chronicles', Ray Bradbury's 1950 collection of stories, presented a planet filled with empty cities from a fallen civilisation. For Hollywood filmmakers, Mars also became a convenient setting for movies full of malevolent Martians and monsters, such as the 1960 film 'The Angry Red Planet'. There was even a television sitcom, 'My Favorite Martian', which featured a sarcastic secret visitor from Mars who pretended to be human.\n\n(28) All these sci-fi fantasies of Mars were dashed by the close-up images transmitted by the Mariner 4 unmanned space probe in 1964, which revealed it to be a cratered, moonlike planet, lacking in seas or vegetation. Those and later scientific discoveries about Mars seem to have influenced writers and filmmakers to change their depictions of the red planet - not as home to an alien civilisation, but a distant world that humans will someday visit and colonise. In more recent movies such as 1990's 'Total Recall' and 'The Martian' in 2015, Mars is depicted as a rugged, barren, dry planet with a thin atmosphere, where space colonists have to live in well-protected bases and wear spacesuits to survive.",
+      "prompt": "Choose the option (A - G) that best summarises paragraph (24).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mars entering twentieth-century popular culture"
+        },
+        {
+          "label": "B",
+          "text": "how new technology facilitated the earliest scientific observations of Mars"
+        },
+        {
+          "label": "C",
+          "text": "recent evidence for the presence of water on Mars"
+        },
+        {
+          "label": "D",
+          "text": "the idea that there are different perceptions of the planet Mars"
+        },
+        {
+          "label": "E",
+          "text": "the reason why Mars began to be portrayed more realistically in movies and books"
+        },
+        {
+          "label": "F",
+          "text": "an assumption about a geographical feature on Mars that was inaccurate"
+        },
+        {
+          "label": "G",
+          "text": "the significance of Mars to earlier human societies"
+        }
+      ],
+      "correctAnswer": "G",
+      "explanation": "It describes how ancient Mesopotamians, Greeks and Romans linked Mars to war gods and honoured it - its meaning for earlier societies.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt3-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, read the text below, which consists of six paragraphs. Choose the option (A - G) which best summarises each paragraph. There is one extra option which you do not need to use.\n\nSummary options:\nA  Mars entering twentieth-century popular culture\nB  how new technology facilitated the earliest scientific observations of Mars\nC  recent evidence for the presence of water on Mars\nD  the idea that there are different perceptions of the planet Mars\nE  the reason why Mars began to be portrayed more realistically in movies and books\nF  an assumption about a geographical feature on Mars that was inaccurate\nG  the significance of Mars to earlier human societies\n\nOur Fascination with Mars\n\n(23) Mars, the fourth most distant planet from the sun in our solar system, is actually more than one place. There's the Mars that scientists study through telescopes and with robotic satellites and rovers, the destination in our solar system that astronauts will someday visit and colonise. There are also other versions of Mars, which have come from our imagination, throughout the course of history.\n\n(24) Mars is one of five planets which are visible to the unaided eye. Its reddish-orange hue inspired some civilisations in the past to imagine it as a symbol of war and violence. The ancient Mesopotamians linked Mars to Nergal, a god who was the symbol of hunting, and sometimes led the other gods into battle. In their city of Nineveh, they erected the Nergal Gate to show their reverence. The ancient Greeks associated the red planet with Ares, the warrior god who was the son of Zeus and his wife Hera. In Roman mythology, Ares became the war god Mars, who was so important to them that they dedicated March, the first month in their calendar year, to him.\n\n(25) Eventually, people started shifting from thinking of Mars as a mystical place to seeing it as a planet that was somewhat like their own. The development of telescopes in the 1600s enabled humans to see Mars and some of the details of its surface clearly for the first time. In 1659, the Dutch astronomer Christian Huygens drew one of the first accurate maps of the red planet, and figured out that it rotated in the same way that Earth did.\n\n(26) In 1877, the Italian astronomer Giovanni Schiaparelli observed lines in the planet's equatorial region, a phenomenon that also was noted by the American astronomer Percival Lowell. The term that Schiaparelli used - canali - sounded a lot like the English word canal, and that led some to mistakenly think that the red planet had waterways built by an alien civilisation.\n\n(27) Even after other scientists concluded that Mars' surface was probably not capable of supporting life, the idea of life on Mars fascinated people's imaginations. Writers of the new genre of science fiction and fantasy began to write about it in their stories. British author H.G. Wells' pioneering novel 'The War of the Worlds' depicted Mars as a dying planet whose technologically-advanced civilisation wanted to conquer Earth. It caused a sensation when adapted for a radio broadcast in 1938. 'The Martian Chronicles', Ray Bradbury's 1950 collection of stories, presented a planet filled with empty cities from a fallen civilisation. For Hollywood filmmakers, Mars also became a convenient setting for movies full of malevolent Martians and monsters, such as the 1960 film 'The Angry Red Planet'. There was even a television sitcom, 'My Favorite Martian', which featured a sarcastic secret visitor from Mars who pretended to be human.\n\n(28) All these sci-fi fantasies of Mars were dashed by the close-up images transmitted by the Mariner 4 unmanned space probe in 1964, which revealed it to be a cratered, moonlike planet, lacking in seas or vegetation. Those and later scientific discoveries about Mars seem to have influenced writers and filmmakers to change their depictions of the red planet - not as home to an alien civilisation, but a distant world that humans will someday visit and colonise. In more recent movies such as 1990's 'Total Recall' and 'The Martian' in 2015, Mars is depicted as a rugged, barren, dry planet with a thin atmosphere, where space colonists have to live in well-protected bases and wear spacesuits to survive.",
+      "prompt": "Choose the option (A - G) that best summarises paragraph (25).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mars entering twentieth-century popular culture"
+        },
+        {
+          "label": "B",
+          "text": "how new technology facilitated the earliest scientific observations of Mars"
+        },
+        {
+          "label": "C",
+          "text": "recent evidence for the presence of water on Mars"
+        },
+        {
+          "label": "D",
+          "text": "the idea that there are different perceptions of the planet Mars"
+        },
+        {
+          "label": "E",
+          "text": "the reason why Mars began to be portrayed more realistically in movies and books"
+        },
+        {
+          "label": "F",
+          "text": "an assumption about a geographical feature on Mars that was inaccurate"
+        },
+        {
+          "label": "G",
+          "text": "the significance of Mars to earlier human societies"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "It explains that the telescopes of the 1600s let humans see Mars clearly for the first time and Huygens map it - new technology enabling early observation.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt3-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, read the text below, which consists of six paragraphs. Choose the option (A - G) which best summarises each paragraph. There is one extra option which you do not need to use.\n\nSummary options:\nA  Mars entering twentieth-century popular culture\nB  how new technology facilitated the earliest scientific observations of Mars\nC  recent evidence for the presence of water on Mars\nD  the idea that there are different perceptions of the planet Mars\nE  the reason why Mars began to be portrayed more realistically in movies and books\nF  an assumption about a geographical feature on Mars that was inaccurate\nG  the significance of Mars to earlier human societies\n\nOur Fascination with Mars\n\n(23) Mars, the fourth most distant planet from the sun in our solar system, is actually more than one place. There's the Mars that scientists study through telescopes and with robotic satellites and rovers, the destination in our solar system that astronauts will someday visit and colonise. There are also other versions of Mars, which have come from our imagination, throughout the course of history.\n\n(24) Mars is one of five planets which are visible to the unaided eye. Its reddish-orange hue inspired some civilisations in the past to imagine it as a symbol of war and violence. The ancient Mesopotamians linked Mars to Nergal, a god who was the symbol of hunting, and sometimes led the other gods into battle. In their city of Nineveh, they erected the Nergal Gate to show their reverence. The ancient Greeks associated the red planet with Ares, the warrior god who was the son of Zeus and his wife Hera. In Roman mythology, Ares became the war god Mars, who was so important to them that they dedicated March, the first month in their calendar year, to him.\n\n(25) Eventually, people started shifting from thinking of Mars as a mystical place to seeing it as a planet that was somewhat like their own. The development of telescopes in the 1600s enabled humans to see Mars and some of the details of its surface clearly for the first time. In 1659, the Dutch astronomer Christian Huygens drew one of the first accurate maps of the red planet, and figured out that it rotated in the same way that Earth did.\n\n(26) In 1877, the Italian astronomer Giovanni Schiaparelli observed lines in the planet's equatorial region, a phenomenon that also was noted by the American astronomer Percival Lowell. The term that Schiaparelli used - canali - sounded a lot like the English word canal, and that led some to mistakenly think that the red planet had waterways built by an alien civilisation.\n\n(27) Even after other scientists concluded that Mars' surface was probably not capable of supporting life, the idea of life on Mars fascinated people's imaginations. Writers of the new genre of science fiction and fantasy began to write about it in their stories. British author H.G. Wells' pioneering novel 'The War of the Worlds' depicted Mars as a dying planet whose technologically-advanced civilisation wanted to conquer Earth. It caused a sensation when adapted for a radio broadcast in 1938. 'The Martian Chronicles', Ray Bradbury's 1950 collection of stories, presented a planet filled with empty cities from a fallen civilisation. For Hollywood filmmakers, Mars also became a convenient setting for movies full of malevolent Martians and monsters, such as the 1960 film 'The Angry Red Planet'. There was even a television sitcom, 'My Favorite Martian', which featured a sarcastic secret visitor from Mars who pretended to be human.\n\n(28) All these sci-fi fantasies of Mars were dashed by the close-up images transmitted by the Mariner 4 unmanned space probe in 1964, which revealed it to be a cratered, moonlike planet, lacking in seas or vegetation. Those and later scientific discoveries about Mars seem to have influenced writers and filmmakers to change their depictions of the red planet - not as home to an alien civilisation, but a distant world that humans will someday visit and colonise. In more recent movies such as 1990's 'Total Recall' and 'The Martian' in 2015, Mars is depicted as a rugged, barren, dry planet with a thin atmosphere, where space colonists have to live in well-protected bases and wear spacesuits to survive.",
+      "prompt": "Choose the option (A - G) that best summarises paragraph (26).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mars entering twentieth-century popular culture"
+        },
+        {
+          "label": "B",
+          "text": "how new technology facilitated the earliest scientific observations of Mars"
+        },
+        {
+          "label": "C",
+          "text": "recent evidence for the presence of water on Mars"
+        },
+        {
+          "label": "D",
+          "text": "the idea that there are different perceptions of the planet Mars"
+        },
+        {
+          "label": "E",
+          "text": "the reason why Mars began to be portrayed more realistically in movies and books"
+        },
+        {
+          "label": "F",
+          "text": "an assumption about a geographical feature on Mars that was inaccurate"
+        },
+        {
+          "label": "G",
+          "text": "the significance of Mars to earlier human societies"
+        }
+      ],
+      "correctAnswer": "F",
+      "explanation": "Schiaparelli's word 'canali' was misread as 'canals', leading people to a wrong idea about a feature on Mars.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt3-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, read the text below, which consists of six paragraphs. Choose the option (A - G) which best summarises each paragraph. There is one extra option which you do not need to use.\n\nSummary options:\nA  Mars entering twentieth-century popular culture\nB  how new technology facilitated the earliest scientific observations of Mars\nC  recent evidence for the presence of water on Mars\nD  the idea that there are different perceptions of the planet Mars\nE  the reason why Mars began to be portrayed more realistically in movies and books\nF  an assumption about a geographical feature on Mars that was inaccurate\nG  the significance of Mars to earlier human societies\n\nOur Fascination with Mars\n\n(23) Mars, the fourth most distant planet from the sun in our solar system, is actually more than one place. There's the Mars that scientists study through telescopes and with robotic satellites and rovers, the destination in our solar system that astronauts will someday visit and colonise. There are also other versions of Mars, which have come from our imagination, throughout the course of history.\n\n(24) Mars is one of five planets which are visible to the unaided eye. Its reddish-orange hue inspired some civilisations in the past to imagine it as a symbol of war and violence. The ancient Mesopotamians linked Mars to Nergal, a god who was the symbol of hunting, and sometimes led the other gods into battle. In their city of Nineveh, they erected the Nergal Gate to show their reverence. The ancient Greeks associated the red planet with Ares, the warrior god who was the son of Zeus and his wife Hera. In Roman mythology, Ares became the war god Mars, who was so important to them that they dedicated March, the first month in their calendar year, to him.\n\n(25) Eventually, people started shifting from thinking of Mars as a mystical place to seeing it as a planet that was somewhat like their own. The development of telescopes in the 1600s enabled humans to see Mars and some of the details of its surface clearly for the first time. In 1659, the Dutch astronomer Christian Huygens drew one of the first accurate maps of the red planet, and figured out that it rotated in the same way that Earth did.\n\n(26) In 1877, the Italian astronomer Giovanni Schiaparelli observed lines in the planet's equatorial region, a phenomenon that also was noted by the American astronomer Percival Lowell. The term that Schiaparelli used - canali - sounded a lot like the English word canal, and that led some to mistakenly think that the red planet had waterways built by an alien civilisation.\n\n(27) Even after other scientists concluded that Mars' surface was probably not capable of supporting life, the idea of life on Mars fascinated people's imaginations. Writers of the new genre of science fiction and fantasy began to write about it in their stories. British author H.G. Wells' pioneering novel 'The War of the Worlds' depicted Mars as a dying planet whose technologically-advanced civilisation wanted to conquer Earth. It caused a sensation when adapted for a radio broadcast in 1938. 'The Martian Chronicles', Ray Bradbury's 1950 collection of stories, presented a planet filled with empty cities from a fallen civilisation. For Hollywood filmmakers, Mars also became a convenient setting for movies full of malevolent Martians and monsters, such as the 1960 film 'The Angry Red Planet'. There was even a television sitcom, 'My Favorite Martian', which featured a sarcastic secret visitor from Mars who pretended to be human.\n\n(28) All these sci-fi fantasies of Mars were dashed by the close-up images transmitted by the Mariner 4 unmanned space probe in 1964, which revealed it to be a cratered, moonlike planet, lacking in seas or vegetation. Those and later scientific discoveries about Mars seem to have influenced writers and filmmakers to change their depictions of the red planet - not as home to an alien civilisation, but a distant world that humans will someday visit and colonise. In more recent movies such as 1990's 'Total Recall' and 'The Martian' in 2015, Mars is depicted as a rugged, barren, dry planet with a thin atmosphere, where space colonists have to live in well-protected bases and wear spacesuits to survive.",
+      "prompt": "Choose the option (A - G) that best summarises paragraph (27).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mars entering twentieth-century popular culture"
+        },
+        {
+          "label": "B",
+          "text": "how new technology facilitated the earliest scientific observations of Mars"
+        },
+        {
+          "label": "C",
+          "text": "recent evidence for the presence of water on Mars"
+        },
+        {
+          "label": "D",
+          "text": "the idea that there are different perceptions of the planet Mars"
+        },
+        {
+          "label": "E",
+          "text": "the reason why Mars began to be portrayed more realistically in movies and books"
+        },
+        {
+          "label": "F",
+          "text": "an assumption about a geographical feature on Mars that was inaccurate"
+        },
+        {
+          "label": "G",
+          "text": "the significance of Mars to earlier human societies"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "It surveys Wells, Bradbury, Hollywood films and a sitcom - Mars becoming part of twentieth-century popular culture.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt3-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "For questions 23-28, read the text below, which consists of six paragraphs. Choose the option (A - G) which best summarises each paragraph. There is one extra option which you do not need to use.\n\nSummary options:\nA  Mars entering twentieth-century popular culture\nB  how new technology facilitated the earliest scientific observations of Mars\nC  recent evidence for the presence of water on Mars\nD  the idea that there are different perceptions of the planet Mars\nE  the reason why Mars began to be portrayed more realistically in movies and books\nF  an assumption about a geographical feature on Mars that was inaccurate\nG  the significance of Mars to earlier human societies\n\nOur Fascination with Mars\n\n(23) Mars, the fourth most distant planet from the sun in our solar system, is actually more than one place. There's the Mars that scientists study through telescopes and with robotic satellites and rovers, the destination in our solar system that astronauts will someday visit and colonise. There are also other versions of Mars, which have come from our imagination, throughout the course of history.\n\n(24) Mars is one of five planets which are visible to the unaided eye. Its reddish-orange hue inspired some civilisations in the past to imagine it as a symbol of war and violence. The ancient Mesopotamians linked Mars to Nergal, a god who was the symbol of hunting, and sometimes led the other gods into battle. In their city of Nineveh, they erected the Nergal Gate to show their reverence. The ancient Greeks associated the red planet with Ares, the warrior god who was the son of Zeus and his wife Hera. In Roman mythology, Ares became the war god Mars, who was so important to them that they dedicated March, the first month in their calendar year, to him.\n\n(25) Eventually, people started shifting from thinking of Mars as a mystical place to seeing it as a planet that was somewhat like their own. The development of telescopes in the 1600s enabled humans to see Mars and some of the details of its surface clearly for the first time. In 1659, the Dutch astronomer Christian Huygens drew one of the first accurate maps of the red planet, and figured out that it rotated in the same way that Earth did.\n\n(26) In 1877, the Italian astronomer Giovanni Schiaparelli observed lines in the planet's equatorial region, a phenomenon that also was noted by the American astronomer Percival Lowell. The term that Schiaparelli used - canali - sounded a lot like the English word canal, and that led some to mistakenly think that the red planet had waterways built by an alien civilisation.\n\n(27) Even after other scientists concluded that Mars' surface was probably not capable of supporting life, the idea of life on Mars fascinated people's imaginations. Writers of the new genre of science fiction and fantasy began to write about it in their stories. British author H.G. Wells' pioneering novel 'The War of the Worlds' depicted Mars as a dying planet whose technologically-advanced civilisation wanted to conquer Earth. It caused a sensation when adapted for a radio broadcast in 1938. 'The Martian Chronicles', Ray Bradbury's 1950 collection of stories, presented a planet filled with empty cities from a fallen civilisation. For Hollywood filmmakers, Mars also became a convenient setting for movies full of malevolent Martians and monsters, such as the 1960 film 'The Angry Red Planet'. There was even a television sitcom, 'My Favorite Martian', which featured a sarcastic secret visitor from Mars who pretended to be human.\n\n(28) All these sci-fi fantasies of Mars were dashed by the close-up images transmitted by the Mariner 4 unmanned space probe in 1964, which revealed it to be a cratered, moonlike planet, lacking in seas or vegetation. Those and later scientific discoveries about Mars seem to have influenced writers and filmmakers to change their depictions of the red planet - not as home to an alien civilisation, but a distant world that humans will someday visit and colonise. In more recent movies such as 1990's 'Total Recall' and 'The Martian' in 2015, Mars is depicted as a rugged, barren, dry planet with a thin atmosphere, where space colonists have to live in well-protected bases and wear spacesuits to survive.",
+      "prompt": "Choose the option (A - G) that best summarises paragraph (28).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mars entering twentieth-century popular culture"
+        },
+        {
+          "label": "B",
+          "text": "how new technology facilitated the earliest scientific observations of Mars"
+        },
+        {
+          "label": "C",
+          "text": "recent evidence for the presence of water on Mars"
+        },
+        {
+          "label": "D",
+          "text": "the idea that there are different perceptions of the planet Mars"
+        },
+        {
+          "label": "E",
+          "text": "the reason why Mars began to be portrayed more realistically in movies and books"
+        },
+        {
+          "label": "F",
+          "text": "an assumption about a geographical feature on Mars that was inaccurate"
+        },
+        {
+          "label": "G",
+          "text": "the significance of Mars to earlier human societies"
+        }
+      ],
+      "correctAnswer": "E",
+      "explanation": "The Mariner 4 images and later discoveries made writers and filmmakers portray Mars realistically as a barren world.",
+      "topic": "Text Structure"
+    },
+    {
+      "id": "sel-reading-pt3-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of heroes, then answer each question.\n\nExtract A\n\nIt took less than 50 seconds; 49.11 seconds to be exact, for Cathy Freeman to run into immortality. 49.11 seconds and 200 years. I was there in the Sydney Olympic Stadium on that cool evening, September 25, 2000. Me and 112,000 others, watching this one slight girl carry the hopes of an entire nation. I so wanted to feel what others were feeling, but something inside felt so empty. I knew for a fact that there was the same aching in Cathy's own soul. The same feeling of being Australian yet knowing the full cost of that allegiance. We had never talked about it - we had no need. It is something we share, Aboriginal people: an unspoken bond; the memories of lives on the outside looking in.\n\nThis moment was bigger than sport. This was about history; about healing; about reconciliation. But no, I wanted Cathy to run for all of our people who had never had a chance, for all of those who were still outside looking in.\n\nAs she took her victory lap, Cathy ran with two flags: the Australian flag with its debt to Britain and the red, black and yellow Aboriginal flag that honours the earth and the sun and the people. And there in that moment I could let go; I could be Australian and stand with other Australians. But you cannot erase two centuries in 49.11 seconds. When Cathy Freeman stood smiling on the medal dais, an Aboriginal expo outside the stadium told the story of the ongoing battle for justice.\n\nExtract B\n\nJust look at the plethora of heroes in movies these days and you can see how much we all love heroes. What makes certain people take heroic actions in the face of great danger? 'I don't feel like I did something spectacular; I just saw someone who needed help. I did what I felt was right,' Wesley Autrey told U.S. journalists after an incident in which he rescued a man who had fallen onto a train track.\n\n'True heroism is remarkably sober, very undramatic. It is not the urge to surpass all others at whatever cost, but the urge to serve others at whatever cost,' said Arthur Ashe, a professional tennis player.\n\nAccording to the Heroic Imagination Project, a non-profit organization that focuses on teaching people to become heroes in their everyday lives, heroism involves a behavior or action on behalf of another person or for a moral cause.\n\nExtract C\n\nThese days many people look up to celebrities like actors, sports stars or musicians as their heroes and role models. We now have the means to follow their lives and thoughts on social media - and this is serious. In fact, to my mind, one of the most horrific developments of our century has been the widespread acceptance of the notion that if someone is good at acting / sports / pop music this means the rest of us should listen to their opinions on climate change or politics.\n\nIf I hear an actor critiquing a film or a play or telling me why a certain script is a work of genius, of course I'm interested. I might learn something. As it happens, I care about animal rights. But I'm not sure why I am supposed to find the plight of animals any more or less poignant just because a movie star has given them a voice.\n\nOf course, many of these stars would say this is terribly mean-spirited. That they're just getting 'the message' out to a public who lack awareness. That they're using their platforms to do some good. I sort of get this, but I don't really buy it.\n\nExtract D\n\nI loved the 'Thundercats' superheroes cartoon as a child, watching cat-like humanoids fighting the forces of evil. Whenever their leader was in trouble, he'd unleash the Sword of Omens to gain 'sight beyond sight,' the ability to see events happening at faraway places, or bellow 'Thunder, Thunder, Thunder, Thundercats, Hooo!' to instantaneously summon his allies to his location. What kid didn't want those superpowers?\n\nA few months ago, my childhood dreams were at once destroyed and fulfilled. Standing in a line, I noticed that everyone was focused on their smartphones' screens. Suddenly it hit me: I already had Sword of Omens superpowers. With my smartphone, I can see video of faraway events and text my friends to meet up. Billions of people now have what used to be considered superpowers.\n\nThe physical superpowers may not be too far behind: I'm working on them in The Center for Rehabilitation Engineering & Assistive Technology at Vanderbilt University. Humanity has begun to enter the age of wearable exoskeletons and exosuits that offer support and strength to the bodies of those who have been weakened.",
+      "prompt": "Which writer is a research scientist?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The writer of Extract D works at 'The Center for Rehabilitation Engineering & Assistive Technology at Vanderbilt University'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt3-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of heroes, then answer each question.\n\nExtract A\n\nIt took less than 50 seconds; 49.11 seconds to be exact, for Cathy Freeman to run into immortality. 49.11 seconds and 200 years. I was there in the Sydney Olympic Stadium on that cool evening, September 25, 2000. Me and 112,000 others, watching this one slight girl carry the hopes of an entire nation. I so wanted to feel what others were feeling, but something inside felt so empty. I knew for a fact that there was the same aching in Cathy's own soul. The same feeling of being Australian yet knowing the full cost of that allegiance. We had never talked about it - we had no need. It is something we share, Aboriginal people: an unspoken bond; the memories of lives on the outside looking in.\n\nThis moment was bigger than sport. This was about history; about healing; about reconciliation. But no, I wanted Cathy to run for all of our people who had never had a chance, for all of those who were still outside looking in.\n\nAs she took her victory lap, Cathy ran with two flags: the Australian flag with its debt to Britain and the red, black and yellow Aboriginal flag that honours the earth and the sun and the people. And there in that moment I could let go; I could be Australian and stand with other Australians. But you cannot erase two centuries in 49.11 seconds. When Cathy Freeman stood smiling on the medal dais, an Aboriginal expo outside the stadium told the story of the ongoing battle for justice.\n\nExtract B\n\nJust look at the plethora of heroes in movies these days and you can see how much we all love heroes. What makes certain people take heroic actions in the face of great danger? 'I don't feel like I did something spectacular; I just saw someone who needed help. I did what I felt was right,' Wesley Autrey told U.S. journalists after an incident in which he rescued a man who had fallen onto a train track.\n\n'True heroism is remarkably sober, very undramatic. It is not the urge to surpass all others at whatever cost, but the urge to serve others at whatever cost,' said Arthur Ashe, a professional tennis player.\n\nAccording to the Heroic Imagination Project, a non-profit organization that focuses on teaching people to become heroes in their everyday lives, heroism involves a behavior or action on behalf of another person or for a moral cause.\n\nExtract C\n\nThese days many people look up to celebrities like actors, sports stars or musicians as their heroes and role models. We now have the means to follow their lives and thoughts on social media - and this is serious. In fact, to my mind, one of the most horrific developments of our century has been the widespread acceptance of the notion that if someone is good at acting / sports / pop music this means the rest of us should listen to their opinions on climate change or politics.\n\nIf I hear an actor critiquing a film or a play or telling me why a certain script is a work of genius, of course I'm interested. I might learn something. As it happens, I care about animal rights. But I'm not sure why I am supposed to find the plight of animals any more or less poignant just because a movie star has given them a voice.\n\nOf course, many of these stars would say this is terribly mean-spirited. That they're just getting 'the message' out to a public who lack awareness. That they're using their platforms to do some good. I sort of get this, but I don't really buy it.\n\nExtract D\n\nI loved the 'Thundercats' superheroes cartoon as a child, watching cat-like humanoids fighting the forces of evil. Whenever their leader was in trouble, he'd unleash the Sword of Omens to gain 'sight beyond sight,' the ability to see events happening at faraway places, or bellow 'Thunder, Thunder, Thunder, Thundercats, Hooo!' to instantaneously summon his allies to his location. What kid didn't want those superpowers?\n\nA few months ago, my childhood dreams were at once destroyed and fulfilled. Standing in a line, I noticed that everyone was focused on their smartphones' screens. Suddenly it hit me: I already had Sword of Omens superpowers. With my smartphone, I can see video of faraway events and text my friends to meet up. Billions of people now have what used to be considered superpowers.\n\nThe physical superpowers may not be too far behind: I'm working on them in The Center for Rehabilitation Engineering & Assistive Technology at Vanderbilt University. Humanity has begun to enter the age of wearable exoskeletons and exosuits that offer support and strength to the bodies of those who have been weakened.",
+      "prompt": "Which writer gives an indication that they know the hero mentioned?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Of Cathy Freeman the writer says 'We had never talked about it - we had no need. It is something we share, Aboriginal people'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt3-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of heroes, then answer each question.\n\nExtract A\n\nIt took less than 50 seconds; 49.11 seconds to be exact, for Cathy Freeman to run into immortality. 49.11 seconds and 200 years. I was there in the Sydney Olympic Stadium on that cool evening, September 25, 2000. Me and 112,000 others, watching this one slight girl carry the hopes of an entire nation. I so wanted to feel what others were feeling, but something inside felt so empty. I knew for a fact that there was the same aching in Cathy's own soul. The same feeling of being Australian yet knowing the full cost of that allegiance. We had never talked about it - we had no need. It is something we share, Aboriginal people: an unspoken bond; the memories of lives on the outside looking in.\n\nThis moment was bigger than sport. This was about history; about healing; about reconciliation. But no, I wanted Cathy to run for all of our people who had never had a chance, for all of those who were still outside looking in.\n\nAs she took her victory lap, Cathy ran with two flags: the Australian flag with its debt to Britain and the red, black and yellow Aboriginal flag that honours the earth and the sun and the people. And there in that moment I could let go; I could be Australian and stand with other Australians. But you cannot erase two centuries in 49.11 seconds. When Cathy Freeman stood smiling on the medal dais, an Aboriginal expo outside the stadium told the story of the ongoing battle for justice.\n\nExtract B\n\nJust look at the plethora of heroes in movies these days and you can see how much we all love heroes. What makes certain people take heroic actions in the face of great danger? 'I don't feel like I did something spectacular; I just saw someone who needed help. I did what I felt was right,' Wesley Autrey told U.S. journalists after an incident in which he rescued a man who had fallen onto a train track.\n\n'True heroism is remarkably sober, very undramatic. It is not the urge to surpass all others at whatever cost, but the urge to serve others at whatever cost,' said Arthur Ashe, a professional tennis player.\n\nAccording to the Heroic Imagination Project, a non-profit organization that focuses on teaching people to become heroes in their everyday lives, heroism involves a behavior or action on behalf of another person or for a moral cause.\n\nExtract C\n\nThese days many people look up to celebrities like actors, sports stars or musicians as their heroes and role models. We now have the means to follow their lives and thoughts on social media - and this is serious. In fact, to my mind, one of the most horrific developments of our century has been the widespread acceptance of the notion that if someone is good at acting / sports / pop music this means the rest of us should listen to their opinions on climate change or politics.\n\nIf I hear an actor critiquing a film or a play or telling me why a certain script is a work of genius, of course I'm interested. I might learn something. As it happens, I care about animal rights. But I'm not sure why I am supposed to find the plight of animals any more or less poignant just because a movie star has given them a voice.\n\nOf course, many of these stars would say this is terribly mean-spirited. That they're just getting 'the message' out to a public who lack awareness. That they're using their platforms to do some good. I sort of get this, but I don't really buy it.\n\nExtract D\n\nI loved the 'Thundercats' superheroes cartoon as a child, watching cat-like humanoids fighting the forces of evil. Whenever their leader was in trouble, he'd unleash the Sword of Omens to gain 'sight beyond sight,' the ability to see events happening at faraway places, or bellow 'Thunder, Thunder, Thunder, Thundercats, Hooo!' to instantaneously summon his allies to his location. What kid didn't want those superpowers?\n\nA few months ago, my childhood dreams were at once destroyed and fulfilled. Standing in a line, I noticed that everyone was focused on their smartphones' screens. Suddenly it hit me: I already had Sword of Omens superpowers. With my smartphone, I can see video of faraway events and text my friends to meet up. Billions of people now have what used to be considered superpowers.\n\nThe physical superpowers may not be too far behind: I'm working on them in The Center for Rehabilitation Engineering & Assistive Technology at Vanderbilt University. Humanity has begun to enter the age of wearable exoskeletons and exosuits that offer support and strength to the bodies of those who have been weakened.",
+      "prompt": "Which writer is of the opinion that we are wrong to see certain people as heroes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Extract C calls it 'one of the most horrific developments of our century' that we treat celebrities as people to listen to.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt3-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of heroes, then answer each question.\n\nExtract A\n\nIt took less than 50 seconds; 49.11 seconds to be exact, for Cathy Freeman to run into immortality. 49.11 seconds and 200 years. I was there in the Sydney Olympic Stadium on that cool evening, September 25, 2000. Me and 112,000 others, watching this one slight girl carry the hopes of an entire nation. I so wanted to feel what others were feeling, but something inside felt so empty. I knew for a fact that there was the same aching in Cathy's own soul. The same feeling of being Australian yet knowing the full cost of that allegiance. We had never talked about it - we had no need. It is something we share, Aboriginal people: an unspoken bond; the memories of lives on the outside looking in.\n\nThis moment was bigger than sport. This was about history; about healing; about reconciliation. But no, I wanted Cathy to run for all of our people who had never had a chance, for all of those who were still outside looking in.\n\nAs she took her victory lap, Cathy ran with two flags: the Australian flag with its debt to Britain and the red, black and yellow Aboriginal flag that honours the earth and the sun and the people. And there in that moment I could let go; I could be Australian and stand with other Australians. But you cannot erase two centuries in 49.11 seconds. When Cathy Freeman stood smiling on the medal dais, an Aboriginal expo outside the stadium told the story of the ongoing battle for justice.\n\nExtract B\n\nJust look at the plethora of heroes in movies these days and you can see how much we all love heroes. What makes certain people take heroic actions in the face of great danger? 'I don't feel like I did something spectacular; I just saw someone who needed help. I did what I felt was right,' Wesley Autrey told U.S. journalists after an incident in which he rescued a man who had fallen onto a train track.\n\n'True heroism is remarkably sober, very undramatic. It is not the urge to surpass all others at whatever cost, but the urge to serve others at whatever cost,' said Arthur Ashe, a professional tennis player.\n\nAccording to the Heroic Imagination Project, a non-profit organization that focuses on teaching people to become heroes in their everyday lives, heroism involves a behavior or action on behalf of another person or for a moral cause.\n\nExtract C\n\nThese days many people look up to celebrities like actors, sports stars or musicians as their heroes and role models. We now have the means to follow their lives and thoughts on social media - and this is serious. In fact, to my mind, one of the most horrific developments of our century has been the widespread acceptance of the notion that if someone is good at acting / sports / pop music this means the rest of us should listen to their opinions on climate change or politics.\n\nIf I hear an actor critiquing a film or a play or telling me why a certain script is a work of genius, of course I'm interested. I might learn something. As it happens, I care about animal rights. But I'm not sure why I am supposed to find the plight of animals any more or less poignant just because a movie star has given them a voice.\n\nOf course, many of these stars would say this is terribly mean-spirited. That they're just getting 'the message' out to a public who lack awareness. That they're using their platforms to do some good. I sort of get this, but I don't really buy it.\n\nExtract D\n\nI loved the 'Thundercats' superheroes cartoon as a child, watching cat-like humanoids fighting the forces of evil. Whenever their leader was in trouble, he'd unleash the Sword of Omens to gain 'sight beyond sight,' the ability to see events happening at faraway places, or bellow 'Thunder, Thunder, Thunder, Thundercats, Hooo!' to instantaneously summon his allies to his location. What kid didn't want those superpowers?\n\nA few months ago, my childhood dreams were at once destroyed and fulfilled. Standing in a line, I noticed that everyone was focused on their smartphones' screens. Suddenly it hit me: I already had Sword of Omens superpowers. With my smartphone, I can see video of faraway events and text my friends to meet up. Billions of people now have what used to be considered superpowers.\n\nThe physical superpowers may not be too far behind: I'm working on them in The Center for Rehabilitation Engineering & Assistive Technology at Vanderbilt University. Humanity has begun to enter the age of wearable exoskeletons and exosuits that offer support and strength to the bodies of those who have been weakened.",
+      "prompt": "Which writer refers to a heroic act to illustrate a particular interpretation of what heroism is?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Extract B uses Wesley Autrey's train-track rescue, plus Arthur Ashe's definition, to show that true heroism is 'the urge to serve others'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt3-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of heroes, then answer each question.\n\nExtract A\n\nIt took less than 50 seconds; 49.11 seconds to be exact, for Cathy Freeman to run into immortality. 49.11 seconds and 200 years. I was there in the Sydney Olympic Stadium on that cool evening, September 25, 2000. Me and 112,000 others, watching this one slight girl carry the hopes of an entire nation. I so wanted to feel what others were feeling, but something inside felt so empty. I knew for a fact that there was the same aching in Cathy's own soul. The same feeling of being Australian yet knowing the full cost of that allegiance. We had never talked about it - we had no need. It is something we share, Aboriginal people: an unspoken bond; the memories of lives on the outside looking in.\n\nThis moment was bigger than sport. This was about history; about healing; about reconciliation. But no, I wanted Cathy to run for all of our people who had never had a chance, for all of those who were still outside looking in.\n\nAs she took her victory lap, Cathy ran with two flags: the Australian flag with its debt to Britain and the red, black and yellow Aboriginal flag that honours the earth and the sun and the people. And there in that moment I could let go; I could be Australian and stand with other Australians. But you cannot erase two centuries in 49.11 seconds. When Cathy Freeman stood smiling on the medal dais, an Aboriginal expo outside the stadium told the story of the ongoing battle for justice.\n\nExtract B\n\nJust look at the plethora of heroes in movies these days and you can see how much we all love heroes. What makes certain people take heroic actions in the face of great danger? 'I don't feel like I did something spectacular; I just saw someone who needed help. I did what I felt was right,' Wesley Autrey told U.S. journalists after an incident in which he rescued a man who had fallen onto a train track.\n\n'True heroism is remarkably sober, very undramatic. It is not the urge to surpass all others at whatever cost, but the urge to serve others at whatever cost,' said Arthur Ashe, a professional tennis player.\n\nAccording to the Heroic Imagination Project, a non-profit organization that focuses on teaching people to become heroes in their everyday lives, heroism involves a behavior or action on behalf of another person or for a moral cause.\n\nExtract C\n\nThese days many people look up to celebrities like actors, sports stars or musicians as their heroes and role models. We now have the means to follow their lives and thoughts on social media - and this is serious. In fact, to my mind, one of the most horrific developments of our century has been the widespread acceptance of the notion that if someone is good at acting / sports / pop music this means the rest of us should listen to their opinions on climate change or politics.\n\nIf I hear an actor critiquing a film or a play or telling me why a certain script is a work of genius, of course I'm interested. I might learn something. As it happens, I care about animal rights. But I'm not sure why I am supposed to find the plight of animals any more or less poignant just because a movie star has given them a voice.\n\nOf course, many of these stars would say this is terribly mean-spirited. That they're just getting 'the message' out to a public who lack awareness. That they're using their platforms to do some good. I sort of get this, but I don't really buy it.\n\nExtract D\n\nI loved the 'Thundercats' superheroes cartoon as a child, watching cat-like humanoids fighting the forces of evil. Whenever their leader was in trouble, he'd unleash the Sword of Omens to gain 'sight beyond sight,' the ability to see events happening at faraway places, or bellow 'Thunder, Thunder, Thunder, Thundercats, Hooo!' to instantaneously summon his allies to his location. What kid didn't want those superpowers?\n\nA few months ago, my childhood dreams were at once destroyed and fulfilled. Standing in a line, I noticed that everyone was focused on their smartphones' screens. Suddenly it hit me: I already had Sword of Omens superpowers. With my smartphone, I can see video of faraway events and text my friends to meet up. Billions of people now have what used to be considered superpowers.\n\nThe physical superpowers may not be too far behind: I'm working on them in The Center for Rehabilitation Engineering & Assistive Technology at Vanderbilt University. Humanity has begun to enter the age of wearable exoskeletons and exosuits that offer support and strength to the bodies of those who have been weakened.",
+      "prompt": "Which writer observes a connection between a past hero and our human capabilities today?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Extract D links the Thundercats' 'Sword of Omens' powers to what a smartphone can now do for 'billions of people'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt3-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of heroes, then answer each question.\n\nExtract A\n\nIt took less than 50 seconds; 49.11 seconds to be exact, for Cathy Freeman to run into immortality. 49.11 seconds and 200 years. I was there in the Sydney Olympic Stadium on that cool evening, September 25, 2000. Me and 112,000 others, watching this one slight girl carry the hopes of an entire nation. I so wanted to feel what others were feeling, but something inside felt so empty. I knew for a fact that there was the same aching in Cathy's own soul. The same feeling of being Australian yet knowing the full cost of that allegiance. We had never talked about it - we had no need. It is something we share, Aboriginal people: an unspoken bond; the memories of lives on the outside looking in.\n\nThis moment was bigger than sport. This was about history; about healing; about reconciliation. But no, I wanted Cathy to run for all of our people who had never had a chance, for all of those who were still outside looking in.\n\nAs she took her victory lap, Cathy ran with two flags: the Australian flag with its debt to Britain and the red, black and yellow Aboriginal flag that honours the earth and the sun and the people. And there in that moment I could let go; I could be Australian and stand with other Australians. But you cannot erase two centuries in 49.11 seconds. When Cathy Freeman stood smiling on the medal dais, an Aboriginal expo outside the stadium told the story of the ongoing battle for justice.\n\nExtract B\n\nJust look at the plethora of heroes in movies these days and you can see how much we all love heroes. What makes certain people take heroic actions in the face of great danger? 'I don't feel like I did something spectacular; I just saw someone who needed help. I did what I felt was right,' Wesley Autrey told U.S. journalists after an incident in which he rescued a man who had fallen onto a train track.\n\n'True heroism is remarkably sober, very undramatic. It is not the urge to surpass all others at whatever cost, but the urge to serve others at whatever cost,' said Arthur Ashe, a professional tennis player.\n\nAccording to the Heroic Imagination Project, a non-profit organization that focuses on teaching people to become heroes in their everyday lives, heroism involves a behavior or action on behalf of another person or for a moral cause.\n\nExtract C\n\nThese days many people look up to celebrities like actors, sports stars or musicians as their heroes and role models. We now have the means to follow their lives and thoughts on social media - and this is serious. In fact, to my mind, one of the most horrific developments of our century has been the widespread acceptance of the notion that if someone is good at acting / sports / pop music this means the rest of us should listen to their opinions on climate change or politics.\n\nIf I hear an actor critiquing a film or a play or telling me why a certain script is a work of genius, of course I'm interested. I might learn something. As it happens, I care about animal rights. But I'm not sure why I am supposed to find the plight of animals any more or less poignant just because a movie star has given them a voice.\n\nOf course, many of these stars would say this is terribly mean-spirited. That they're just getting 'the message' out to a public who lack awareness. That they're using their platforms to do some good. I sort of get this, but I don't really buy it.\n\nExtract D\n\nI loved the 'Thundercats' superheroes cartoon as a child, watching cat-like humanoids fighting the forces of evil. Whenever their leader was in trouble, he'd unleash the Sword of Omens to gain 'sight beyond sight,' the ability to see events happening at faraway places, or bellow 'Thunder, Thunder, Thunder, Thundercats, Hooo!' to instantaneously summon his allies to his location. What kid didn't want those superpowers?\n\nA few months ago, my childhood dreams were at once destroyed and fulfilled. Standing in a line, I noticed that everyone was focused on their smartphones' screens. Suddenly it hit me: I already had Sword of Omens superpowers. With my smartphone, I can see video of faraway events and text my friends to meet up. Billions of people now have what used to be considered superpowers.\n\nThe physical superpowers may not be too far behind: I'm working on them in The Center for Rehabilitation Engineering & Assistive Technology at Vanderbilt University. Humanity has begun to enter the age of wearable exoskeletons and exosuits that offer support and strength to the bodies of those who have been weakened.",
+      "prompt": "Which writer mentions something a hero does which suddenly lightens the writer's mood?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "When Cathy runs her victory lap with both flags, the writer says 'there in that moment I could let go'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt3-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of heroes, then answer each question.\n\nExtract A\n\nIt took less than 50 seconds; 49.11 seconds to be exact, for Cathy Freeman to run into immortality. 49.11 seconds and 200 years. I was there in the Sydney Olympic Stadium on that cool evening, September 25, 2000. Me and 112,000 others, watching this one slight girl carry the hopes of an entire nation. I so wanted to feel what others were feeling, but something inside felt so empty. I knew for a fact that there was the same aching in Cathy's own soul. The same feeling of being Australian yet knowing the full cost of that allegiance. We had never talked about it - we had no need. It is something we share, Aboriginal people: an unspoken bond; the memories of lives on the outside looking in.\n\nThis moment was bigger than sport. This was about history; about healing; about reconciliation. But no, I wanted Cathy to run for all of our people who had never had a chance, for all of those who were still outside looking in.\n\nAs she took her victory lap, Cathy ran with two flags: the Australian flag with its debt to Britain and the red, black and yellow Aboriginal flag that honours the earth and the sun and the people. And there in that moment I could let go; I could be Australian and stand with other Australians. But you cannot erase two centuries in 49.11 seconds. When Cathy Freeman stood smiling on the medal dais, an Aboriginal expo outside the stadium told the story of the ongoing battle for justice.\n\nExtract B\n\nJust look at the plethora of heroes in movies these days and you can see how much we all love heroes. What makes certain people take heroic actions in the face of great danger? 'I don't feel like I did something spectacular; I just saw someone who needed help. I did what I felt was right,' Wesley Autrey told U.S. journalists after an incident in which he rescued a man who had fallen onto a train track.\n\n'True heroism is remarkably sober, very undramatic. It is not the urge to surpass all others at whatever cost, but the urge to serve others at whatever cost,' said Arthur Ashe, a professional tennis player.\n\nAccording to the Heroic Imagination Project, a non-profit organization that focuses on teaching people to become heroes in their everyday lives, heroism involves a behavior or action on behalf of another person or for a moral cause.\n\nExtract C\n\nThese days many people look up to celebrities like actors, sports stars or musicians as their heroes and role models. We now have the means to follow their lives and thoughts on social media - and this is serious. In fact, to my mind, one of the most horrific developments of our century has been the widespread acceptance of the notion that if someone is good at acting / sports / pop music this means the rest of us should listen to their opinions on climate change or politics.\n\nIf I hear an actor critiquing a film or a play or telling me why a certain script is a work of genius, of course I'm interested. I might learn something. As it happens, I care about animal rights. But I'm not sure why I am supposed to find the plight of animals any more or less poignant just because a movie star has given them a voice.\n\nOf course, many of these stars would say this is terribly mean-spirited. That they're just getting 'the message' out to a public who lack awareness. That they're using their platforms to do some good. I sort of get this, but I don't really buy it.\n\nExtract D\n\nI loved the 'Thundercats' superheroes cartoon as a child, watching cat-like humanoids fighting the forces of evil. Whenever their leader was in trouble, he'd unleash the Sword of Omens to gain 'sight beyond sight,' the ability to see events happening at faraway places, or bellow 'Thunder, Thunder, Thunder, Thundercats, Hooo!' to instantaneously summon his allies to his location. What kid didn't want those superpowers?\n\nA few months ago, my childhood dreams were at once destroyed and fulfilled. Standing in a line, I noticed that everyone was focused on their smartphones' screens. Suddenly it hit me: I already had Sword of Omens superpowers. With my smartphone, I can see video of faraway events and text my friends to meet up. Billions of people now have what used to be considered superpowers.\n\nThe physical superpowers may not be too far behind: I'm working on them in The Center for Rehabilitation Engineering & Assistive Technology at Vanderbilt University. Humanity has begun to enter the age of wearable exoskeletons and exosuits that offer support and strength to the bodies of those who have been weakened.",
+      "prompt": "Which writer refers to an attempt to help ordinary people act in a more selfless way?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Heroic Imagination Project 'focuses on teaching people to become heroes in their everyday lives'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt3-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of heroes, then answer each question.\n\nExtract A\n\nIt took less than 50 seconds; 49.11 seconds to be exact, for Cathy Freeman to run into immortality. 49.11 seconds and 200 years. I was there in the Sydney Olympic Stadium on that cool evening, September 25, 2000. Me and 112,000 others, watching this one slight girl carry the hopes of an entire nation. I so wanted to feel what others were feeling, but something inside felt so empty. I knew for a fact that there was the same aching in Cathy's own soul. The same feeling of being Australian yet knowing the full cost of that allegiance. We had never talked about it - we had no need. It is something we share, Aboriginal people: an unspoken bond; the memories of lives on the outside looking in.\n\nThis moment was bigger than sport. This was about history; about healing; about reconciliation. But no, I wanted Cathy to run for all of our people who had never had a chance, for all of those who were still outside looking in.\n\nAs she took her victory lap, Cathy ran with two flags: the Australian flag with its debt to Britain and the red, black and yellow Aboriginal flag that honours the earth and the sun and the people. And there in that moment I could let go; I could be Australian and stand with other Australians. But you cannot erase two centuries in 49.11 seconds. When Cathy Freeman stood smiling on the medal dais, an Aboriginal expo outside the stadium told the story of the ongoing battle for justice.\n\nExtract B\n\nJust look at the plethora of heroes in movies these days and you can see how much we all love heroes. What makes certain people take heroic actions in the face of great danger? 'I don't feel like I did something spectacular; I just saw someone who needed help. I did what I felt was right,' Wesley Autrey told U.S. journalists after an incident in which he rescued a man who had fallen onto a train track.\n\n'True heroism is remarkably sober, very undramatic. It is not the urge to surpass all others at whatever cost, but the urge to serve others at whatever cost,' said Arthur Ashe, a professional tennis player.\n\nAccording to the Heroic Imagination Project, a non-profit organization that focuses on teaching people to become heroes in their everyday lives, heroism involves a behavior or action on behalf of another person or for a moral cause.\n\nExtract C\n\nThese days many people look up to celebrities like actors, sports stars or musicians as their heroes and role models. We now have the means to follow their lives and thoughts on social media - and this is serious. In fact, to my mind, one of the most horrific developments of our century has been the widespread acceptance of the notion that if someone is good at acting / sports / pop music this means the rest of us should listen to their opinions on climate change or politics.\n\nIf I hear an actor critiquing a film or a play or telling me why a certain script is a work of genius, of course I'm interested. I might learn something. As it happens, I care about animal rights. But I'm not sure why I am supposed to find the plight of animals any more or less poignant just because a movie star has given them a voice.\n\nOf course, many of these stars would say this is terribly mean-spirited. That they're just getting 'the message' out to a public who lack awareness. That they're using their platforms to do some good. I sort of get this, but I don't really buy it.\n\nExtract D\n\nI loved the 'Thundercats' superheroes cartoon as a child, watching cat-like humanoids fighting the forces of evil. Whenever their leader was in trouble, he'd unleash the Sword of Omens to gain 'sight beyond sight,' the ability to see events happening at faraway places, or bellow 'Thunder, Thunder, Thunder, Thundercats, Hooo!' to instantaneously summon his allies to his location. What kid didn't want those superpowers?\n\nA few months ago, my childhood dreams were at once destroyed and fulfilled. Standing in a line, I noticed that everyone was focused on their smartphones' screens. Suddenly it hit me: I already had Sword of Omens superpowers. With my smartphone, I can see video of faraway events and text my friends to meet up. Billions of people now have what used to be considered superpowers.\n\nThe physical superpowers may not be too far behind: I'm working on them in The Center for Rehabilitation Engineering & Assistive Technology at Vanderbilt University. Humanity has begun to enter the age of wearable exoskeletons and exosuits that offer support and strength to the bodies of those who have been weakened.",
+      "prompt": "Which writer uses mocking humour when giving a view about today's heroes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Extract C mockingly lists the stars' defences ('just getting \"the message\" out') and then says 'I don't really buy it'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt3-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of heroes, then answer each question.\n\nExtract A\n\nIt took less than 50 seconds; 49.11 seconds to be exact, for Cathy Freeman to run into immortality. 49.11 seconds and 200 years. I was there in the Sydney Olympic Stadium on that cool evening, September 25, 2000. Me and 112,000 others, watching this one slight girl carry the hopes of an entire nation. I so wanted to feel what others were feeling, but something inside felt so empty. I knew for a fact that there was the same aching in Cathy's own soul. The same feeling of being Australian yet knowing the full cost of that allegiance. We had never talked about it - we had no need. It is something we share, Aboriginal people: an unspoken bond; the memories of lives on the outside looking in.\n\nThis moment was bigger than sport. This was about history; about healing; about reconciliation. But no, I wanted Cathy to run for all of our people who had never had a chance, for all of those who were still outside looking in.\n\nAs she took her victory lap, Cathy ran with two flags: the Australian flag with its debt to Britain and the red, black and yellow Aboriginal flag that honours the earth and the sun and the people. And there in that moment I could let go; I could be Australian and stand with other Australians. But you cannot erase two centuries in 49.11 seconds. When Cathy Freeman stood smiling on the medal dais, an Aboriginal expo outside the stadium told the story of the ongoing battle for justice.\n\nExtract B\n\nJust look at the plethora of heroes in movies these days and you can see how much we all love heroes. What makes certain people take heroic actions in the face of great danger? 'I don't feel like I did something spectacular; I just saw someone who needed help. I did what I felt was right,' Wesley Autrey told U.S. journalists after an incident in which he rescued a man who had fallen onto a train track.\n\n'True heroism is remarkably sober, very undramatic. It is not the urge to surpass all others at whatever cost, but the urge to serve others at whatever cost,' said Arthur Ashe, a professional tennis player.\n\nAccording to the Heroic Imagination Project, a non-profit organization that focuses on teaching people to become heroes in their everyday lives, heroism involves a behavior or action on behalf of another person or for a moral cause.\n\nExtract C\n\nThese days many people look up to celebrities like actors, sports stars or musicians as their heroes and role models. We now have the means to follow their lives and thoughts on social media - and this is serious. In fact, to my mind, one of the most horrific developments of our century has been the widespread acceptance of the notion that if someone is good at acting / sports / pop music this means the rest of us should listen to their opinions on climate change or politics.\n\nIf I hear an actor critiquing a film or a play or telling me why a certain script is a work of genius, of course I'm interested. I might learn something. As it happens, I care about animal rights. But I'm not sure why I am supposed to find the plight of animals any more or less poignant just because a movie star has given them a voice.\n\nOf course, many of these stars would say this is terribly mean-spirited. That they're just getting 'the message' out to a public who lack awareness. That they're using their platforms to do some good. I sort of get this, but I don't really buy it.\n\nExtract D\n\nI loved the 'Thundercats' superheroes cartoon as a child, watching cat-like humanoids fighting the forces of evil. Whenever their leader was in trouble, he'd unleash the Sword of Omens to gain 'sight beyond sight,' the ability to see events happening at faraway places, or bellow 'Thunder, Thunder, Thunder, Thundercats, Hooo!' to instantaneously summon his allies to his location. What kid didn't want those superpowers?\n\nA few months ago, my childhood dreams were at once destroyed and fulfilled. Standing in a line, I noticed that everyone was focused on their smartphones' screens. Suddenly it hit me: I already had Sword of Omens superpowers. With my smartphone, I can see video of faraway events and text my friends to meet up. Billions of people now have what used to be considered superpowers.\n\nThe physical superpowers may not be too far behind: I'm working on them in The Center for Rehabilitation Engineering & Assistive Technology at Vanderbilt University. Humanity has begun to enter the age of wearable exoskeletons and exosuits that offer support and strength to the bodies of those who have been weakened.",
+      "prompt": "Which writer invites readers to think about a common example of society putting great value on heroes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Extract B opens by pointing to 'the plethora of heroes in movies these days'.",
+      "topic": "Locating Information"
+    },
+    {
+      "id": "sel-reading-pt3-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "For questions 29-38, read the four extracts below on the theme of heroes, then answer each question.\n\nExtract A\n\nIt took less than 50 seconds; 49.11 seconds to be exact, for Cathy Freeman to run into immortality. 49.11 seconds and 200 years. I was there in the Sydney Olympic Stadium on that cool evening, September 25, 2000. Me and 112,000 others, watching this one slight girl carry the hopes of an entire nation. I so wanted to feel what others were feeling, but something inside felt so empty. I knew for a fact that there was the same aching in Cathy's own soul. The same feeling of being Australian yet knowing the full cost of that allegiance. We had never talked about it - we had no need. It is something we share, Aboriginal people: an unspoken bond; the memories of lives on the outside looking in.\n\nThis moment was bigger than sport. This was about history; about healing; about reconciliation. But no, I wanted Cathy to run for all of our people who had never had a chance, for all of those who were still outside looking in.\n\nAs she took her victory lap, Cathy ran with two flags: the Australian flag with its debt to Britain and the red, black and yellow Aboriginal flag that honours the earth and the sun and the people. And there in that moment I could let go; I could be Australian and stand with other Australians. But you cannot erase two centuries in 49.11 seconds. When Cathy Freeman stood smiling on the medal dais, an Aboriginal expo outside the stadium told the story of the ongoing battle for justice.\n\nExtract B\n\nJust look at the plethora of heroes in movies these days and you can see how much we all love heroes. What makes certain people take heroic actions in the face of great danger? 'I don't feel like I did something spectacular; I just saw someone who needed help. I did what I felt was right,' Wesley Autrey told U.S. journalists after an incident in which he rescued a man who had fallen onto a train track.\n\n'True heroism is remarkably sober, very undramatic. It is not the urge to surpass all others at whatever cost, but the urge to serve others at whatever cost,' said Arthur Ashe, a professional tennis player.\n\nAccording to the Heroic Imagination Project, a non-profit organization that focuses on teaching people to become heroes in their everyday lives, heroism involves a behavior or action on behalf of another person or for a moral cause.\n\nExtract C\n\nThese days many people look up to celebrities like actors, sports stars or musicians as their heroes and role models. We now have the means to follow their lives and thoughts on social media - and this is serious. In fact, to my mind, one of the most horrific developments of our century has been the widespread acceptance of the notion that if someone is good at acting / sports / pop music this means the rest of us should listen to their opinions on climate change or politics.\n\nIf I hear an actor critiquing a film or a play or telling me why a certain script is a work of genius, of course I'm interested. I might learn something. As it happens, I care about animal rights. But I'm not sure why I am supposed to find the plight of animals any more or less poignant just because a movie star has given them a voice.\n\nOf course, many of these stars would say this is terribly mean-spirited. That they're just getting 'the message' out to a public who lack awareness. That they're using their platforms to do some good. I sort of get this, but I don't really buy it.\n\nExtract D\n\nI loved the 'Thundercats' superheroes cartoon as a child, watching cat-like humanoids fighting the forces of evil. Whenever their leader was in trouble, he'd unleash the Sword of Omens to gain 'sight beyond sight,' the ability to see events happening at faraway places, or bellow 'Thunder, Thunder, Thunder, Thundercats, Hooo!' to instantaneously summon his allies to his location. What kid didn't want those superpowers?\n\nA few months ago, my childhood dreams were at once destroyed and fulfilled. Standing in a line, I noticed that everyone was focused on their smartphones' screens. Suddenly it hit me: I already had Sword of Omens superpowers. With my smartphone, I can see video of faraway events and text my friends to meet up. Billions of people now have what used to be considered superpowers.\n\nThe physical superpowers may not be too far behind: I'm working on them in The Center for Rehabilitation Engineering & Assistive Technology at Vanderbilt University. Humanity has begun to enter the age of wearable exoskeletons and exosuits that offer support and strength to the bodies of those who have been weakened.",
+      "prompt": "Which writer provides a detail which is a reminder of the hero's wider struggle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Extract A"
+        },
+        {
+          "label": "B",
+          "text": "Extract B"
+        },
+        {
+          "label": "C",
+          "text": "Extract C"
+        },
+        {
+          "label": "D",
+          "text": "Extract D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'an Aboriginal expo outside the stadium told the story of the ongoing battle for justice'.",
+      "topic": "Locating Information"
+    }
+  ]
+}

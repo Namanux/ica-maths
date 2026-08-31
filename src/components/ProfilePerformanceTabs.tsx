@@ -12,7 +12,8 @@ export function ProfilePerformanceTabs({
   title,
   attempts,
 }: {
-  title: string;
+  /** Omit to skip the name label — e.g. when a profile picker above already shows it. */
+  title?: string;
   /** Must already be sorted oldest -> newest. */
   attempts: StoredAttempt[];
 }) {
