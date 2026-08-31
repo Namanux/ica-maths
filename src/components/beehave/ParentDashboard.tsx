@@ -213,7 +213,9 @@ export function ParentDashboard(_props: { profileSlug: string }) {
       {/* Tabs live in the app header (SiteHeader); this view is just content. */}
       <div className="flex-1 overflow-y-auto px-3.5 pt-3.5">
         {tab === "Overview" && <OverviewTab kids={kids} />}
-        {tab === "Approve" && <ApproveTab onApprove={() => {}} profile={profile} />}
+        {tab === "Approve" && (
+          <ApproveTab onApprove={() => {}} profile={profile} kids={kids} />
+        )}
         {tab === "Task" && <TasksTab kids={kids} />}
         {tab === "Reward" && <RewardsTab kids={kids} />}
         {tab === "Message" && <MessageTab kids={kids} profile={profile} />}
@@ -1473,12 +1475,117 @@ function CompletionChart({
 }
 
 /* ═══════════════════════════════════════════ APPROVE TAB ═══════════════════ */
+function AwardCard({ kids }: { kids: KidRow[] }) {
+  const [kidId, setKidId] = useState(kids[0]?.id ?? "");
+  const [note, setNote] = useState("");
+  const [score, setScore] = useState("");
+  const [busy, setBusy] = useState(false);
+  const [done, setDone] = useState("");
+
+  const amount = parseInt(score, 10);
+  const valid = !busy && Number.isFinite(amount) && amount !== 0 && !!kidId;
+
+  async function award() {
+    if (!supabase || !valid) return;
+    setBusy(true);
+    try {
+      const { data: kid } = await supabase
+        .from("profiles")
+        .select("coin_balance")
+        .eq("id", kidId)
+        .single();
+      const before =
+        (kid as { coin_balance?: number } | null)?.coin_balance || 0;
+      await supabase
+        .from("profiles")
+        .update({ coin_balance: Math.max(0, before + amount) })
+        .eq("id", kidId);
+      await supabase.from("coin_transactions").insert({
+        kid_id: kidId,
+        amount,
+        reason: note.trim() || (amount >= 0 ? "Bonus" : "Deduction"),
+        transaction_type: amount >= 0 ? "bonus" : "penalty",
+      });
+      const k = kids.find((x) => x.id === kidId);
+      setDone(`${amount >= 0 ? "+" : ""}${amount} 🪙 → ${k?.name ?? "kid"}`);
+      setNote("");
+      setScore("");
+      setTimeout(() => setDone(""), 3000);
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  if (kids.length === 0) return null;
+
+  return (
+    <div className={cardCls}>
+      <div className="mb-3 flex items-center gap-2">
+        <span className="text-[16px]">⭐</span>
+        <h3 className="font-bold">Award coins</h3>
+      </div>
+
+      <div className="mb-2.5 flex flex-wrap gap-2">
+        {kids.map((k) => (
+          <button
+            key={k.id}
+            onClick={() => setKidId(k.id)}
+            className="flex items-center gap-1.5 rounded-[20px] px-3.5 py-2 text-[14px] font-semibold"
+            style={{
+              background:
+                kidId === k.id ? "rgba(245,197,24,0.18)" : "var(--surface)",
+              border: `1px solid ${
+                kidId === k.id ? "rgba(245,197,24,0.5)" : "var(--border)"
+              }`,
+              color: kidId === k.id ? "#f5c518" : "var(--muted)",
+            }}
+          >
+            <span className="text-[16px]">{k.avatar_emoji}</span> {k.name}
+          </button>
+        ))}
+      </div>
+
+      <input
+        value={note}
+        onChange={(e) => setNote(e.target.value)}
+        placeholder="Note (reason)"
+        className="mb-2.5 w-full rounded-[10px] border border-border bg-surface px-4 py-3 text-[14px] text-foreground"
+      />
+
+      <div className="flex items-center gap-2.5">
+        <input
+          type="number"
+          value={score}
+          onChange={(e) => setScore(e.target.value)}
+          placeholder="Score — use a minus sign to deduct"
+          className="flex-1 rounded-[10px] border border-border bg-surface px-4 py-3 text-[14px] text-foreground"
+        />
+        <button
+          onClick={award}
+          disabled={!valid}
+          className="shrink-0 rounded-[10px] bg-[#f5c518] px-6 py-3 text-[14px] font-semibold text-[#0f0f1a] disabled:opacity-40"
+        >
+          {busy ? "…" : "Award"}
+        </button>
+      </div>
+
+      {done && (
+        <div className="mt-2 text-[13px] font-semibold text-[#22c55e]">
+          ✅ Awarded {done}
+        </div>
+      )}
+    </div>
+  );
+}
+
 function ApproveTab({
   onApprove,
   profile,
+  kids,
 }: {
   onApprove: () => void;
   profile: BeehaveProfile;
+  kids: KidRow[];
 }) {
   const [queue, setQueue] = useState<CompletionRow[]>([]);
   const [initiativeQueue, setInitiativeQueue] = useState<InitiativeRow[]>([]);
@@ -1628,17 +1735,20 @@ function ApproveTab({
     onApprove();
   }
 
-  if (queue.length === 0 && initiativeQueue.length === 0)
-    return (
-      <div className="px-5 py-[60px] text-center text-muted">
-        <div className="mb-3 text-[48px]">✅</div>
-        <p className="font-semibold">Nothing to approve</p>
-        <p className="mt-2 text-[14px]">You&apos;re all caught up!</p>
-      </div>
-    );
+  const nothing = queue.length === 0 && initiativeQueue.length === 0;
 
   return (
     <div>
+      <AwardCard kids={kids} />
+
+      {nothing && (
+        <div className="px-5 py-[40px] text-center text-muted">
+          <div className="mb-3 text-[40px]">✅</div>
+          <p className="font-semibold">Nothing to approve</p>
+          <p className="mt-2 text-[14px]">You&apos;re all caught up!</p>
+        </div>
+      )}
+
       {queue.length > 0 && (
         <>
           <h2 className="mb-4 font-bold">
