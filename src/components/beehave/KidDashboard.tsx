@@ -2140,6 +2140,30 @@ type KidRewardRow = {
   description?: string | null;
 };
 
+// Pull a $ amount or a time span out of a reward name and scale it by the
+// selected quantity — e.g. "$1 Tuck shop Money" x2 → "$2", "30 min TV" x2 → "1 hour".
+function scaledRewardValue(name: string, qty: number): string | null {
+  const money = name.match(/\$\s?(\d+(?:\.\d+)?)/);
+  if (money) {
+    const v = parseFloat(money[1]) * qty;
+    return `$${Number.isInteger(v) ? v : v.toFixed(2)}`;
+  }
+  let mins = 0;
+  const hm = name.match(/(\d+)\s*:\s*(\d+)\s*(?:hours?|hrs?|h)\b/i);
+  const h = name.match(/(\d+(?:\.\d+)?)\s*(?:hours?|hrs?)\b/i);
+  const m = name.match(/(\d+)\s*(?:minutes?|mins?)\b/i);
+  if (hm) mins = parseInt(hm[1]) * 60 + parseInt(hm[2]);
+  else if (h) mins = Math.round(parseFloat(h[1]) * 60);
+  else if (m) mins = parseInt(m[1]);
+  if (mins <= 0) return null;
+  const total = mins * qty;
+  const hh = Math.floor(total / 60);
+  const mm = total % 60;
+  if (hh === 0) return `${mm} min`;
+  if (mm === 0) return `${hh} hour${hh > 1 ? "s" : ""}`;
+  return `${hh}h ${mm}m`;
+}
+
 function KidRewards() {
   const { profile, refreshCurrentProfile } = useBeehaveAuth();
   const supabase = getSupabaseClient();
@@ -2222,6 +2246,7 @@ function KidRewards() {
           const canAfford = balance >= r.coin_cost;
           const totalCost = n * r.coin_cost;
           const overBudget = totalCost > balance;
+          const val = scaledRewardValue(r.name, n);
           return (
             <div
               key={r.id}
@@ -2235,8 +2260,16 @@ function KidRewards() {
                 {r.description && (
                   <div className="text-[13px] text-muted">{r.description}</div>
                 )}
-                <div className="mt-0.5 flex items-center gap-1 text-[12px] text-[#f5c518]">
-                  <GoldCoin size={11} /> {r.coin_cost} each
+                <div className="mt-0.5 flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-[12px] text-[#f5c518]">
+                  <span className="flex items-center gap-1">
+                    <GoldCoin size={11} /> {r.coin_cost} each
+                  </span>
+                  {val && (
+                    <span className="font-bold">
+                      · {n > 1 ? `${n} = ` : ""}
+                      {val}
+                    </span>
+                  )}
                 </div>
               </div>
 
