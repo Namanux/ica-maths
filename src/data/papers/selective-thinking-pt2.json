@@ -1,0 +1,1288 @@
+{
+  "id": "selective-thinking-pt2",
+  "exam": "selective-test",
+  "component": "thinking-skills",
+  "subject": "Thinking Skills",
+  "yearLevel": 6,
+  "paperCode": "PT2",
+  "title": "NSW Selective - Thinking Skills Practice Test 2",
+  "year": 2024,
+  "timeLimitMinutes": 40,
+  "questions": [
+    {
+      "id": "sel-thinking-pt2-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "A rectangular piece of paper is folded in half, then in half again with the second fold at right angles to the first. A corner is cut off the folded paper, which is then completely unfolded. Which one of the options is NOT a possible appearance of the unfolded paper? (Dotted lines are the folds.)",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A single corner cut through four layers must unfold to a pattern that is symmetric across both fold lines. Option B has cuts at only two opposite outer corners plus a central mark, which lacks that symmetry. (Spatial-reasoning item; no official key exists for this paper, so treat this answer as a best determination.)",
+      "topic": "Problem Solving",
+      "optionsImageUrl": "/questions/selective-thinking-pt2/q1_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt2-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Four students raced to the top of a hill and back. No one arrived back after Bruce. Only one person was faster than Ethan. James finished after Ethan. Where did Stephen finish?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1st"
+        },
+        {
+          "label": "B",
+          "text": "2nd"
+        },
+        {
+          "label": "C",
+          "text": "3rd"
+        },
+        {
+          "label": "D",
+          "text": "4th"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Bruce is 4th and Ethan is 2nd. James finished after Ethan but is not last, so James is 3rd. That leaves Stephen in 1st. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt2-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Ms Walker splits her class by birthday - January-June students get milk with lunch, July-December students get juice - for a month, then gives a times-tables test. The milk group averages five marks higher. Ms Walker: \"So milk with lunch improves children's times tables!\" Which sentence shows the mistake she has made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Some of the students might drink a lot of milk or juice at home."
+        },
+        {
+          "label": "B",
+          "text": "The students who drank milk may have been better at times tables before the experiment started."
+        },
+        {
+          "label": "C",
+          "text": "The students who drank juice might do better in other kinds of activities."
+        },
+        {
+          "label": "D",
+          "text": "More of the students may have been born between January and June than between July and December."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The groups were not tested beforehand and were not formed randomly, so the milk group may simply have been better at times tables from the start. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Eleven students each had two attempts at a long jump; the longer of the two counts as their result. Which student came 5th?",
+      "options": [
+        {
+          "label": "A",
+          "text": "student 7"
+        },
+        {
+          "label": "B",
+          "text": "student 8"
+        },
+        {
+          "label": "C",
+          "text": "student 9"
+        },
+        {
+          "label": "D",
+          "text": "student 11"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Results (best of two): 5.9, 5.8, 5.7, 5.6, 5.5, 5.3, 5.1, 5.0, 4.9, 4.7, 4.5. The fifth best is 5.5, which is student 9. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving",
+      "table": {
+        "headers": [
+          "student",
+          "attempt 1 (m)",
+          "attempt 2 (m)"
+        ],
+        "rows": [
+          [
+            "1",
+            "4.9",
+            "5.0"
+          ],
+          [
+            "2",
+            "5.7",
+            "5.8"
+          ],
+          [
+            "3",
+            "4.8",
+            "4.9"
+          ],
+          [
+            "4",
+            "4.6",
+            "4.7"
+          ],
+          [
+            "5",
+            "5.0",
+            "5.1"
+          ],
+          [
+            "6",
+            "4.6",
+            "5.7"
+          ],
+          [
+            "7",
+            "5.6",
+            "5.4"
+          ],
+          [
+            "8",
+            "5.1",
+            "5.3"
+          ],
+          [
+            "9",
+            "5.5",
+            "4.8"
+          ],
+          [
+            "10",
+            "4.4",
+            "4.5"
+          ],
+          [
+            "11",
+            "5.9",
+            "5.2"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sel-thinking-pt2-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Gabriella says zoos should be banned because it is wrong to keep wild animals in captivity and animals should live in their natural habitats. Which statement, if true, most weakens her argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Zoos provide an opportunity for humans to see wild animals without having to go on safari."
+        },
+        {
+          "label": "B",
+          "text": "Modern zoos try to ensure animals are given some exercise and stimulation."
+        },
+        {
+          "label": "C",
+          "text": "Some wild animal species would die out completely if they were not bred in captivity."
+        },
+        {
+          "label": "D",
+          "text": "Wild animals kept in confined spaces can display extremely distressed behaviour."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "If some species would become extinct without captive breeding, banning zoos could destroy the very animals Gabriella wants to protect. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Berruga lizards mostly eat termites and ants, and sometimes other insects or snails. Indora lizards eat almost anything and especially like termites, but never eat ants (ants are poisonous to them). Keira: \"Feeding the rescued lizard only termites won't tell us which species it is.\" Jun: \"The only way to know for certain is to offer it some ants.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Keira only"
+        },
+        {
+          "label": "B",
+          "text": "Jun only"
+        },
+        {
+          "label": "C",
+          "text": "Both Keira and Jun"
+        },
+        {
+          "label": "D",
+          "text": "Neither Keira nor Jun"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Both species eat termites, so termites cannot distinguish them - Keira is right. Ants are the only food only one species will eat, so offering ants is the only test that can give certainty - Jun is right. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "A community garden has seven plots with the dimensions in the table (length is the longer side, width the shorter). Which one of the plans could show these seven plots fitting together?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The seven plots (total area 150) pack into a 15 m by 10 m garden as a top strip of the 7x4 plot and the two 4x4 plots, above a bottom strip of the 6x6 plot and the three 6x3 plots stood on end. Option A is the plan whose seven rectangles match those sizes. (Spatial-reasoning item; no official key exists for this paper, so treat this answer as a best determination.)",
+      "topic": "Problem Solving",
+      "optionsImageUrl": "/questions/selective-thinking-pt2/q7_opts.jpg",
+      "table": {
+        "headers": [
+          "",
+          "length (m)",
+          "width (m)"
+        ],
+        "rows": [
+          [
+            "plot 1",
+            "4",
+            "4"
+          ],
+          [
+            "plot 2",
+            "4",
+            "4"
+          ],
+          [
+            "plot 3",
+            "6",
+            "3"
+          ],
+          [
+            "plot 4",
+            "6",
+            "3"
+          ],
+          [
+            "plot 5",
+            "6",
+            "3"
+          ],
+          [
+            "plot 6",
+            "7",
+            "4"
+          ],
+          [
+            "plot 7",
+            "6",
+            "6"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sel-thinking-pt2-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "This morning you saw the sports coach opening the sports hall. The cleaner opens it every day except Sundays and Mondays, when it stays closed or the coach opens it. The coach is only there for training (mornings) and events (afternoons), arrives 15 minutes early, and never schedules both on the same day. Which one of the following must be correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Today is Sunday."
+        },
+        {
+          "label": "B",
+          "text": "The hall is open for training today."
+        },
+        {
+          "label": "C",
+          "text": "There is a competitive event today."
+        },
+        {
+          "label": "D",
+          "text": "The cleaner is unexpectedly away."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The coach opened it, so it is a Sunday or Monday, and it is the morning, so the coach is there for training. Nothing tells us which of the two days it is, and an event (afternoon) cannot also be on today. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt2-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "The waterfall at Blake's Point can only be seen from Dwarda's Crossing or from the lookout across the valley, and the lookout has been unreachable since the rope bridge fell two months ago. Ivy: \"I saw the waterfall about a month ago but can't remember where - it must have been Dwarda's Crossing.\" Annie: \"My brother painted the view of the waterfall from the lookout - that must have been more than two months ago.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Ivy only"
+        },
+        {
+          "label": "B",
+          "text": "Annie only"
+        },
+        {
+          "label": "C",
+          "text": "Both Ivy and Annie"
+        },
+        {
+          "label": "D",
+          "text": "Neither Ivy nor Annie"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A month ago the lookout was already cut off, so Ivy must have been at Dwarda's Crossing. The lookout painting needs the lookout to have been reachable, so it predates the bridge falling - more than two months ago. Both are right. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Mr Jackson hires out a party room (up to 25 children, up to 4 hours). Using the price table, what is the cost per child for a two-and-a-half-hour party for 12 children?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$11.40"
+        },
+        {
+          "label": "B",
+          "text": "$11.75"
+        },
+        {
+          "label": "C",
+          "text": "$12.50"
+        },
+        {
+          "label": "D",
+          "text": "$14.25"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "12 children falls in the 11-15 column; the 2 hours 30 minutes row is $171. $171 / 12 = $14.25. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving",
+      "table": {
+        "headers": [
+          "duration",
+          "6-10",
+          "11-15",
+          "16-20",
+          "21-25"
+        ],
+        "rows": [
+          [
+            "2 hours",
+            "$100",
+            "$150",
+            "$200",
+            "$250"
+          ],
+          [
+            "2 hours 30 minutes",
+            "$121",
+            "$171",
+            "$221",
+            "$271"
+          ],
+          [
+            "3 hours",
+            "$142",
+            "$192",
+            "$242",
+            "$292"
+          ],
+          [
+            "3 hours 30 minutes",
+            "$163",
+            "$213",
+            "$263",
+            "$313"
+          ],
+          [
+            "4 hours",
+            "$184",
+            "$234",
+            "$284",
+            "$334"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sel-thinking-pt2-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Four online shops sell the same television at different prices. Nathan wants it as quickly as possible but cannot afford the most expensive. KX Hi-Fi delivers slower than Brennan Audio but faster than Roberts Electricals. Roberts Electricals is cheaper than Brennan Audio. KX Hi-Fi costs more than Brennan Audio but less than Hughes Home. Which shop will Nathan choose?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Hughes Home"
+        },
+        {
+          "label": "B",
+          "text": "KX Hi-Fi"
+        },
+        {
+          "label": "C",
+          "text": "Brennan Audio"
+        },
+        {
+          "label": "D",
+          "text": "Roberts Electricals"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Hughes Home is dearest, so it is ruled out. Among the other three, Brennan Audio delivers fastest, so Nathan chooses Brennan Audio. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt2-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Over a year, every frog spotted on the Quilpie Nature Reserve was recorded: 113 red sentinels and only 15 speckled greenbacks. Melissa: \"That tells us red sentinels are much more common on the reserve and speckled greenbacks are quite rare.\" Which sentence shows the mistake Melissa has made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Just because red sentinels are more common in Quilpie does not mean that they are more common in other places."
+        },
+        {
+          "label": "B",
+          "text": "There may be other species of frog on the reserve that have not been discovered yet."
+        },
+        {
+          "label": "C",
+          "text": "Seasonal changes in weather may affect the two species of frogs differently."
+        },
+        {
+          "label": "D",
+          "text": "Red sentinels may be easier to spot than speckled greenbacks."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "If speckled greenbacks are harder to see, they would be under-counted, so the sightings do not reliably show the true numbers of each species. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "A piece of a puzzle is shown. Which one of the options will fit with it to make a complete cube?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The missing piece must carry the matching sloped face and the tab that fills the given piece's channel. Rotating the given piece keeps those cut faces aligned only with option B. (Spatial-reasoning item; no official key exists for this paper, so treat this answer as a best determination.)",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt2/q13_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt2/q13_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt2-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Nicole says dramatised violence on television is harmless because it is not real. Leo replies: \"What people see on television influences their attitudes and behaviour, so violent programmes can have serious consequences.\" Which statement, if true, most strengthens Leo's argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Violence is a fact of life, and banning it on television won't stop it happening."
+        },
+        {
+          "label": "B",
+          "text": "Seeing violence on television can help people understand its consequences."
+        },
+        {
+          "label": "C",
+          "text": "Television advertising is very effective in influencing people's behaviour."
+        },
+        {
+          "label": "D",
+          "text": "People who don't want to see violent programmes don't have to watch them."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Effective TV advertising is evidence that what people see on television really does change their behaviour, supporting Leo's claim. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "The Tang family will decide tomorrow's outing by the morning weather: sunny -> the aunt's house by the beach; raining -> the indoor market; overcast but not raining -> into town (maybe the indoor market, but definitely not the beach). The forecast is for sunshine. Victor: \"If you see the Tangs at the indoor market, it must have been raining.\" Aidan: \"If you see them at the beach, the forecast was correct.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Victor only"
+        },
+        {
+          "label": "B",
+          "text": "Aidan only"
+        },
+        {
+          "label": "C",
+          "text": "Both Victor and Aidan"
+        },
+        {
+          "label": "D",
+          "text": "Neither Victor nor Aidan"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "They go to the market if it rains OR if it is overcast, so the market does not prove rain - Victor is wrong. They only go to the beach if it is sunny, which is what the forecast said, so the beach means the forecast was right - Aidan is correct. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "At a summer school each student takes one class per day, morning or afternoon, from the day's list. Zach has chosen art, geography, maths, history and English (one each day, Monday to Friday) and wants Friday afternoon free. On which day must Zach do geography?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Monday"
+        },
+        {
+          "label": "B",
+          "text": "Tuesday"
+        },
+        {
+          "label": "C",
+          "text": "Thursday"
+        },
+        {
+          "label": "D",
+          "text": "Friday"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Friday must be a morning class, and of Zach's subjects only art runs Friday morning, so Friday = art. English only runs Monday, history only Tuesday, which leaves geography and maths for Wednesday and Thursday; geography runs only on Thursday of those two. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving",
+      "table": {
+        "headers": [
+          "",
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday"
+        ],
+        "rows": [
+          [
+            "morning",
+            "economics / geography / art",
+            "geography / science / art",
+            "economics / digital technologies / art",
+            "science / digital technologies / art",
+            "economics / sport / art"
+          ],
+          [
+            "afternoon",
+            "sport / English / digital technologies",
+            "sport / history / economics",
+            "maths / sport / science",
+            "maths / sport / geography",
+            "maths / history / geography"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sel-thinking-pt2-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "In a code the letters A-Z map to digits: A B C D E F G H I = 1 2 3 4 5 6 7 8 9, then J K L M N O P Q R S T U V W X Y Z = 0 1 2 3 4 5 6 7 8 9 0 1 2 3 4 5 6. (So BELL = 2-5-2-2.) Luke decodes four words as TOOK, DONE, HIGH and SORT, and is sure three are right but unsure of one. Which word is he unsure about?",
+      "options": [
+        {
+          "label": "A",
+          "text": "TOOK"
+        },
+        {
+          "label": "B",
+          "text": "DONE"
+        },
+        {
+          "label": "C",
+          "text": "HIGH"
+        },
+        {
+          "label": "D",
+          "text": "SORT"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "DONE encodes as 4-5-4-5, which also spells NODE, so that word is ambiguous. The other three have no valid alternative reading. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt2-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "To go on the school excursion, permission slips must be handed in by Friday; only the first 50 students to hand theirs in get a place. Megan: \"I've handed mine in, so I'll definitely get a place.\" Kate: \"I can't hand mine in until Friday, so I won't get a place.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Megan only"
+        },
+        {
+          "label": "B",
+          "text": "Kate only"
+        },
+        {
+          "label": "C",
+          "text": "Both Megan and Kate"
+        },
+        {
+          "label": "D",
+          "text": "Neither Megan nor Kate"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Megan does not know she is in the first 50, and Kate does not know that 50 slips were handed in before Friday, so neither conclusion is certain. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "The drawing shows an L-shaped box. Which one of the nets can NOT be folded up to form it?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Folding option C forces two faces to overlap while leaving a gap elsewhere, so it cannot close up into the L-shaped box. (Spatial-reasoning item; no official key exists for this paper, so treat this answer as a best determination.)",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt2/q19_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt2/q19_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt2-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "The Colby Street pie-eating contest has had a different winner each of the last five years. Two years ago Mr Green won and Mrs Black was runner-up. Last year the four contestants were Mr Green, Mrs Black, Miss Orange and Ms White. Ms White finished last. Mrs Black did not do as well as the previous year. Who was last year's runner-up?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mr Green"
+        },
+        {
+          "label": "B",
+          "text": "Mrs Black"
+        },
+        {
+          "label": "C",
+          "text": "Miss Orange"
+        },
+        {
+          "label": "D",
+          "text": "Ms White"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Mrs Black did worse than 2nd, so she was 3rd (Ms White was 4th). Mr Green cannot win again, so Miss Orange won and Mr Green was runner-up. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt2-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "Teams qualify for the Volleyball Trophy finals by meeting at least one of: (1) top two in their group, (2) 15+ match points, (3) winning the Fair Play Award. Lucy: \"Six groups give 12 top-two teams, 14 teams scored 15+ points, and one team won Fair Play, so plan for 27 teams.\" Which sentence shows Lucy's mistake?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The winner of the Fair Play Award may have scored fewer than 15 match points."
+        },
+        {
+          "label": "B",
+          "text": "Some teams may have met more than one of the conditions, so there will be fewer than 27 teams."
+        },
+        {
+          "label": "C",
+          "text": "Some teams may have scored a lot more than 15 match points."
+        },
+        {
+          "label": "D",
+          "text": "Some teams may have met more than one of the conditions, so there will be more than 27 teams."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A team that meets two or three conditions is being counted twice or three times, so the real number of qualifiers is fewer than 27. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "A six-digit bike-lock code has: the middle two digits equal to the first digit multiplied by the second digit; the last two digits equal to double the number formed by the middle two digits. The first digit is 7 and all six digits are different. What is the last digit of the code?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The second digit must be 4: middle = 7 x 4 = 28, last = 2 x 28 = 56, giving 742856 with all digits different. The last digit is 6. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt2-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "A famous archaeologist argues that, although public interest in archaeology should be encouraged, large numbers of visitors should not be allowed at historical sites because they cause lasting damage over the years. Which statement, if true, most strengthens the argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is possible to create accurate replicas of historical sites to satisfy the interest of the general public."
+        },
+        {
+          "label": "B",
+          "text": "People's fascination for experiencing the ancient world is an important part of tourism."
+        },
+        {
+          "label": "C",
+          "text": "Many historical sites around the world have already banned visitors in order to prevent damage."
+        },
+        {
+          "label": "D",
+          "text": "There is a growing interest in ancient history, especially among young people."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Accurate replicas would satisfy public interest without exposing the real sites to damage, supporting the call to keep large crowds away from the originals. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "Archer Bridge (cars and pedestrians) opens Mondays, Wednesdays and Saturdays and is one of Australia's highest bridges. Djorlom Bridge (cars only) opens Tuesdays, Thursdays and Fridays. The Korra Ferry (pedestrians only) runs Sundays, and other days only if the bridge that would normally be open is damaged. Amanda: \"If the ferry runs three days in a row, both bridges must be damaged.\" Declan: \"I have no car and I'm terrified of heights, so unless someone drives me I can only ever cross on a Sunday.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Amanda only"
+        },
+        {
+          "label": "B",
+          "text": "Declan only"
+        },
+        {
+          "label": "C",
+          "text": "Both Amanda and Declan"
+        },
+        {
+          "label": "D",
+          "text": "Neither Amanda nor Declan"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Saturday-Sunday-Monday ferry service needs only Archer Bridge damaged, so Amanda is wrong. And on any day a normally-open bridge is damaged the ferry runs, so Declan could cross on days other than Sunday - his \"only ever\" is wrong too. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "60 students named a favourite game, sorted into card, board, computer or other. 15 named a card game. Twice as many chose a computer game as chose a board game. Which one of the pie charts could correctly represent this?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Card games must be exactly a quarter of the pie (15 of 60), and the computer slice must be exactly double the board slice. Option C has a 90-degree card slice plus a 30-degree / 60-degree board-and-computer pair, with the rest as \"other\". (Spatial-reasoning item; no official key exists for this paper, so treat this answer as a best determination.)",
+      "topic": "Problem Solving",
+      "optionsImageUrl": "/questions/selective-thinking-pt2/q25_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt2-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "The school play is cancelled unless three quarters of tickets are sold. If it goes ahead and is a success, the principal might allow another play next summer; it will not be a success unless everyone works hard and learns their lines; and if it is not a success it will be their last play. Which one of the following outcomes is NOT possible?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The play did not go ahead even though they sold all the tickets."
+        },
+        {
+          "label": "B",
+          "text": "The play did not go ahead even though they all worked hard and learned their lines."
+        },
+        {
+          "label": "C",
+          "text": "The play was not a success even though they all worked hard and learned their lines."
+        },
+        {
+          "label": "D",
+          "text": "The principal let them put on another play even though they didn't all learn their lines."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Another play requires this one to be a success, and success requires everyone to have learned their lines - so \"another play but lines not learned\" cannot happen. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "The Port Sunday Canoe Race lets teams qualify by (a) coming first or second in a regional heat, (b) being last year's winners with exactly the same members, or (c) one random 'wild card' from teams that did not otherwise qualify. Glen and Hayden came third in their heat and won last year, but one member has left. Glen: \"Our only chance is to get her back.\" Hayden: \"If we get her back, our poor heat result won't matter.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Glen only"
+        },
+        {
+          "label": "B",
+          "text": "Hayden only"
+        },
+        {
+          "label": "C",
+          "text": "Both Glen and Hayden"
+        },
+        {
+          "label": "D",
+          "text": "Neither Glen nor Hayden"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Getting her back restores last year's exact team, so route (b) qualifies them regardless of the heat - Hayden is right. But they could still be picked as the wild card, so it is not their only chance - Glen is wrong. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "At a zoo there are snakes (no legs), horses (4 legs) and eagles (2 legs). There are 9 of these animals altogether, with 10 legs in total. What is the highest number of snakes that can be at the zoo?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "With horses h and eagles e, 4h + 2e = 10, so 2h + e = 5. Taking h = 2, e = 1 uses the fewest legged animals, leaving 9 - 3 = 6 snakes. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt2-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "Arthur, Bobby and Darren are suspects; exactly one is guilty. Darren says \"Bobby is guilty\", Bobby says \"I am not guilty\", Arthur says \"I am not guilty\". Only one of the three is telling the truth. Which one of the following must be true?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Darren is guilty."
+        },
+        {
+          "label": "B",
+          "text": "Bobby is lying."
+        },
+        {
+          "label": "C",
+          "text": "Arthur is not guilty."
+        },
+        {
+          "label": "D",
+          "text": "Darren is lying."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Only \"Arthur is guilty\" gives exactly one true statement (Bobby's). Then Darren's claim that Bobby is guilty is false, so Darren is lying. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt2-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "In five years, ticket inspectors on the Northern Intercity Railway have not caught a single person without a valid ticket. Linda: \"That shows the inspectors are a waste of money - they never catch anyone. The Railway should save the money or use them for something more useful.\" Which sentence shows the mistake Linda has made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Fear of being caught may be the reason that nobody tries to travel without a ticket."
+        },
+        {
+          "label": "B",
+          "text": "Just because nobody has been caught in the last five years does not mean they will not be in future."
+        },
+        {
+          "label": "C",
+          "text": "The Northern Intercity Railway may not have anything more useful to spend the money on."
+        },
+        {
+          "label": "D",
+          "text": "Just because the inspectors have not caught anyone does not mean that nobody has travelled without a valid ticket."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The inspectors may be working precisely because their presence deters people from travelling without a ticket, so catching no one can be a sign of success, not failure. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "A 6 by 6 square puzzle is made of four white pieces and one black piece. Which one of the black pieces will NOT fit with the four white pieces to make another 6 by 6 square?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The black region covers 12 cells. Only option C cannot be placed so that the four white pieces fill the rest of a 6 by 6 square. (Spatial-reasoning item; no official key exists for this paper, so treat this answer as a best determination.)",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt2/q31_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt2/q31_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt2-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "Natalie tells Olivia: \"More people are injured in car crashes between 4 pm and 7 pm than at other times, so you are more likely to be hurt in a crash then and should drive more carefully.\" Which statement, if true, most weakens Natalie's argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Many more people drive between 4 pm and 7 pm than at other times."
+        },
+        {
+          "label": "B",
+          "text": "Natalie has never driven a car herself."
+        },
+        {
+          "label": "C",
+          "text": "People can still have car crashes even when they are driving carefully."
+        },
+        {
+          "label": "D",
+          "text": "Olivia has no choice but to drive at that time, because she finishes work at 5 pm."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "If far more people are on the road at that time, more crashes and injuries are expected simply from the extra traffic, not because each driver is at greater risk. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "In the languages Mekani, Kaiana and Sekludi, any word that is the same in Mekani and Kaiana is also the same in Sekludi. Kaiana and Sekludi share many words but never words for animals. Words for animals are always different. Patricia: \"If a word is the same in Mekani and Kaiana, it can't be an animal.\" Yilin: \"If a word is the same in Mekani and Sekludi, it can't be an animal.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Patricia only"
+        },
+        {
+          "label": "B",
+          "text": "Yilin only"
+        },
+        {
+          "label": "C",
+          "text": "Both Patricia and Yilin"
+        },
+        {
+          "label": "D",
+          "text": "Neither Patricia nor Yilin"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Animal words differ in every language, so any word shared by two of the languages cannot be an animal. That covers both Patricia's case and Yilin's case. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "Izzie needs blank cards for her designs. Using the price table, what is the lowest amount she can pay for 67 small cards and 130 medium cards?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$48"
+        },
+        {
+          "label": "B",
+          "text": "$50"
+        },
+        {
+          "label": "C",
+          "text": "$60"
+        },
+        {
+          "label": "D",
+          "text": "$66"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Small: a pack of 100 covers 67 for $18. Medium: a pack of 100 plus a pack of 50 covers 130 for $20 + $12 = $32. Total $18 + $32 = $50. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving",
+      "table": {
+        "headers": [
+          "size",
+          "pack of 50",
+          "pack of 100",
+          "pack of 250",
+          "pack of 500"
+        ],
+        "rows": [
+          [
+            "small",
+            "$10",
+            "$18",
+            "$44",
+            "$80"
+          ],
+          [
+            "medium",
+            "$12",
+            "$20",
+            "$48",
+            "$90"
+          ],
+          [
+            "large",
+            "$15",
+            "$25",
+            "$58",
+            "$100"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sel-thinking-pt2-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "In end-of-year tests: everyone who passed Physics also passed at least one of Maths or Computing; no one who passed Maths failed Computing; no one passed all three; no one failed all three. Which one of the following is NOT possible for Luca?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Luca failed Physics and Maths."
+        },
+        {
+          "label": "B",
+          "text": "Luca passed Physics and Maths."
+        },
+        {
+          "label": "C",
+          "text": "Luca passed Physics and Computing."
+        },
+        {
+          "label": "D",
+          "text": "Luca passed either only Maths or only Computing."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Passing Maths means passing Computing, so passing Physics and Maths would mean passing all three - which is not allowed. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt2-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "prompt": "A survey of Year 5 found: everyone who had read Morning had also read Noon; most who had read Morning had also read Night; and no child had read Night without also reading Noon. Tim has read Noon. Which one of the following is true?",
+      "options": [
+        {
+          "label": "A",
+          "text": "We know that he has read Morning, but has not read Night."
+        },
+        {
+          "label": "B",
+          "text": "We know that he has read Night, but has not read Morning."
+        },
+        {
+          "label": "C",
+          "text": "We know that he has read both Morning and Night."
+        },
+        {
+          "label": "D",
+          "text": "We do not know whether he has read either Morning or Night."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Reading Noon says nothing about whether Tim has read Morning or Night; the rules only run the other way. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt2-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "prompt": "In the example, the right-hand row of shapes comes from the left-hand row by reordering the shapes and rotating two of them. Which one of the option pairs shows the same series of changes applied to its left-hand row?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The rule moves the last shape to the front (order 3, 1, 2) and turns the shapes that end up first and third by 180 degrees, leaving the middle one unturned. Option D follows exactly this. (Spatial-reasoning item; no official key exists for this paper, so treat this answer as a best determination.)",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt2/q37_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt2/q37_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt2-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "prompt": "In Bolivistan, whenever the national football team plays, shopkeepers always put the national flag in their windows. Rob: \"I thought the team were playing today but I see no flags, so I must have the date wrong.\" Paul: \"I saw flags last Wednesday, so that must have been when they played.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rob only"
+        },
+        {
+          "label": "B",
+          "text": "Paul only"
+        },
+        {
+          "label": "C",
+          "text": "Both Rob and Paul"
+        },
+        {
+          "label": "D",
+          "text": "Neither Rob nor Paul"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "No flags means the team is not playing, so Rob is right that he had the day wrong. But flags could be up for another reason, so seeing flags does not prove the team was playing - Paul is wrong. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt2-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "prompt": "Four students had a book-reading competition. Olivia did not read the fewest. Only two people read fewer books than Carlos. Bryan read fewer books than Sharon. Which one of the following must also be true?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Carlos read more books than Bryan."
+        },
+        {
+          "label": "B",
+          "text": "Bryan read more books than Carlos."
+        },
+        {
+          "label": "C",
+          "text": "Carlos read more books than Sharon."
+        },
+        {
+          "label": "D",
+          "text": "Sharon read more books than Carlos."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\"Only two read fewer than Carlos\" puts Carlos in 2nd place. Bryan is below Sharon and is not above Carlos, so Bryan is last - and Carlos read more than Bryan. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt2-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "prompt": "A sculpture sits inside a glass box in a museum and can be viewed from all sides. Which one of the options is NOT a possible view from one side of the glass box?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The sculpture's side views are a rectangle, a circle with a wedge removed, and a rectangle split by a line. The pointed lens shape in option A is not any of these. (Spatial-reasoning item; no official key exists for this paper, so treat this answer as a best determination.)",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt2/q40_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt2/q40_opts.jpg"
+    }
+  ]
+}

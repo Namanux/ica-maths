@@ -1,0 +1,1117 @@
+{
+  "id": "selective-thinking-pt3",
+  "exam": "selective-test",
+  "component": "thinking-skills",
+  "subject": "Thinking Skills",
+  "yearLevel": 6,
+  "paperCode": "PT3",
+  "title": "NSW Selective - Thinking Skills Practice Test 3",
+  "year": 2024,
+  "timeLimitMinutes": 40,
+  "questions": [
+    {
+      "id": "sel-thinking-pt3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "One piece of a puzzle is shown (a stepped solid). Which one of the options shows a view of the piece from above?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Seen from straight above, the piece keeps the full square footprint of its base, with the raised stepped block sitting inset from the edges - option A. (Spatial-reasoning item; no official key exists for this paper, so treat this answer as a best determination.)",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt3/q1_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt3/q1_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "The train from Jaspur to Salumbar stops at four other stations along the way. Jennifer boarded at Jaspur and got off at the second-last station. Kavali station is between Wadi and Gadarpur. The train stops at Wadi before Anjar. It stops at Anjar before Gadarpur. Which station did Jennifer get off at?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Anjar"
+        },
+        {
+          "label": "B",
+          "text": "Kavali"
+        },
+        {
+          "label": "C",
+          "text": "Wadi"
+        },
+        {
+          "label": "D",
+          "text": "Gadarpur"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Order of the six stops: Jaspur, Wadi, then Anjar and Kavali (both between Wadi and Gadarpur), then Gadarpur, then Salumbar. The second-last stop is Gadarpur. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "\"Taller adults tend to have larger feet.\" Monaro: \"Your dad wears size 9 shoes and he's not as tall as my dad, so my dad's shoe size must be at least 10.\" Kevin: \"No - my dad's feet might be bigger than your dad's.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Monaro only"
+        },
+        {
+          "label": "B",
+          "text": "Kevin only"
+        },
+        {
+          "label": "C",
+          "text": "Both Monaro and Kevin"
+        },
+        {
+          "label": "D",
+          "text": "Neither Monaro nor Kevin"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Tend to\" is only a trend, not a rule, so Monaro cannot conclude a definite size. Kevin only claims Monaro's dad's feet might be bigger, which is all the trend allows. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Entry to a club uses the sentence \"Only members will be allowed in.\" Each day everyone is given a starting position. When you arrive you are given two numbers and must say the letters that many places along, counting from that day's starting position. Today the first person was given 4 and 8 and correctly answered e and o. The second person is given 3 and 10. What should the response be?",
+      "options": [
+        {
+          "label": "A",
+          "text": "e and e"
+        },
+        {
+          "label": "B",
+          "text": "o and m"
+        },
+        {
+          "label": "C",
+          "text": "b and e"
+        },
+        {
+          "label": "D",
+          "text": "m and w"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Numbering the letters of the sentence 1-26, position 17 = e and position 21 = o, so the starting position is 14 (14+3 -> 17, 14+7 -> 21). For 3 and 10: 14+2 -> 16 = b and 14+9 -> 23 = e. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "A sanctuary tracks the treats its parrots eat. If a parrot eats apples it also eats carrots. If it eats carrots it also eats melons. No parrot that eats carrots also eats peas. Which one of the following must be true?",
+      "options": [
+        {
+          "label": "A",
+          "text": "If Cliff eats peas, he also eats apples."
+        },
+        {
+          "label": "B",
+          "text": "If Echo does not eat peas, he does not eat carrots."
+        },
+        {
+          "label": "C",
+          "text": "If Muse eats peas, she does not eat apples."
+        },
+        {
+          "label": "D",
+          "text": "If Sky does not eat apples, she does not eat carrots."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Eating peas rules out carrots, and not eating carrots rules out apples, so a pea-eater cannot eat apples. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "A principal argues PE should include non-competitive sports such as bushwalking and dance, not just competitive sports like football and tennis, because many students dislike playing against friends and it often leads to unhealthy rivalries. Which statement, if true, most strengthens the argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Playing a competitive sport is a great way to learn the importance of teamwork."
+        },
+        {
+          "label": "B",
+          "text": "Non-competitive sports are just as effective as competitive sports at improving fitness."
+        },
+        {
+          "label": "C",
+          "text": "PE classes are compulsory for students to attend."
+        },
+        {
+          "label": "D",
+          "text": "Students like to have a range of different sports that they can choose to play."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If non-competitive sports deliver the same fitness benefit, a key reason to keep competitive sports disappears, strengthening the case for including the non-competitive ones. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "A student on the far side of the road records, for each of five differently-coloured front doors, which doors are to its left and which are to its right. Using the table, which two houses are next to the yellow house?",
+      "options": [
+        {
+          "label": "A",
+          "text": "blue and pink"
+        },
+        {
+          "label": "B",
+          "text": "blue and red"
+        },
+        {
+          "label": "C",
+          "text": "green and pink"
+        },
+        {
+          "label": "D",
+          "text": "green and red"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Blue has no house to its left (position 1) and pink has all four to its left (position 5). Red has one to its left, yellow two, green three - giving the order blue, red, yellow, green, pink. Yellow sits between red and green. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving",
+      "table": {
+        "headers": [
+          "",
+          "blue",
+          "green",
+          "pink",
+          "red",
+          "yellow"
+        ],
+        "rows": [
+          [
+            "to the left",
+            "-",
+            "blue, red, yellow",
+            "blue, green, red, yellow",
+            "blue",
+            "blue, red"
+          ],
+          [
+            "to the right",
+            "green, pink, red, yellow",
+            "pink",
+            "-",
+            "green, pink, yellow",
+            "green, pink"
+          ]
+        ]
+      }
+    },
+    {
+      "id": "sel-thinking-pt3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "A survey at John's school found that children who read a lot at bedtime slept fewer hours per night, on average, than children who didn't. John: \"This shows that reading at night does not help you get to sleep.\" Which sentence shows the mistake John has made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It could be that people are reading more because they are having trouble sleeping."
+        },
+        {
+          "label": "B",
+          "text": "It could be that people who don't read as much spend more time playing computer games."
+        },
+        {
+          "label": "C",
+          "text": "It could be that some children are not allowed to stay up late reading books."
+        },
+        {
+          "label": "D",
+          "text": "It could be that some books are more exciting to read than others."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The cause and effect may run the other way: poor sleepers may read more precisely because they cannot get to sleep. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Fifteen cards each show a triangle, a square or a circle, with a number from 1 to 9 inside. No two cards are identical. The only number that appears in both a square and a circle is 7. Which one of the following must be true?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Each shape appears on five cards."
+        },
+        {
+          "label": "B",
+          "text": "There are at least five cards with triangles on them."
+        },
+        {
+          "label": "C",
+          "text": "There are at least five cards with squares on them."
+        },
+        {
+          "label": "D",
+          "text": "There are at least five cards with circles on them."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The square-numbers and circle-numbers overlap only at 7, so together they use at most nine numbers: squares + circles <= 10. With 15 cards in total, at least 5 must be triangles. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Hermione and her friends each had three shots at a four-zone target (the centre zone is worth the most, and each zone outward is worth less). Zoe scored 8, Bobby missed one shot and scored 4, and Gabi scored 11. Using where each person's shots landed, what did Hermione score?",
+      "options": [
+        {
+          "label": "A",
+          "text": "6"
+        },
+        {
+          "label": "B",
+          "text": "7"
+        },
+        {
+          "label": "C",
+          "text": "9"
+        },
+        {
+          "label": "D",
+          "text": "10"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Bobby's two hits (outer + third ring) give 1 + 3 = 4, so the zones are worth 1, 2, 3, 4 from outside in. Zoe: 1 + 3 + 4 = 8; Gabi: 3 + 4 + 4 = 11. Hermione's hits land in the outer, second and third rings: 1 + 2 + 3 = 6. (Spatial-reasoning item; no official key exists for this paper, so treat this answer as a best determination.)",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt3/q10_stim.jpg"
+    },
+    {
+      "id": "sel-thinking-pt3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Jake and Robert will not be allowed to the party tonight if they have not finished their homework. Natalie: \"Jake is coming but Robert is not, so Robert can't have finished his homework.\" Daniel: \"Jake must have finished his homework.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Natalie only"
+        },
+        {
+          "label": "B",
+          "text": "Daniel only"
+        },
+        {
+          "label": "C",
+          "text": "Both Natalie and Daniel"
+        },
+        {
+          "label": "D",
+          "text": "Neither Natalie nor Daniel"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Finishing homework is required to attend, so Jake (who is coming) must have finished - Daniel is right. Robert not coming does not prove he failed to finish; he might be staying home for another reason - Natalie is wrong. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Some sets of three-letter words can be ordered so that no two consecutive words share a letter (for example BOG, CAT, DOG, MET, SUP). Another such set is AGE, CAN, COT, PAD plus one missing word, not in order. Which one of the following could be the missing word?",
+      "options": [
+        {
+          "label": "A",
+          "text": "SUD"
+        },
+        {
+          "label": "B",
+          "text": "SUN"
+        },
+        {
+          "label": "C",
+          "text": "PAT"
+        },
+        {
+          "label": "D",
+          "text": "PET"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "CAN clashes (shares a letter) with AGE, COT and PAD, so it must sit next to the missing word, which therefore has no C, A or N. Only SUD works: CAN, SUD, AGE, COT, PAD has no shared letters between neighbours. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "In Oceantown there are 4 azzes in 1 bayo, 2 bayos in 1 cott, 2 cotts in 1 duit, and 4 duits in 1 enit. How many azzes are in 1 enit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "16"
+        },
+        {
+          "label": "B",
+          "text": "32"
+        },
+        {
+          "label": "C",
+          "text": "64"
+        },
+        {
+          "label": "D",
+          "text": "128"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "1 enit = 4 duits = 8 cotts = 16 bayos = 64 azzes. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Ying argues we should all buy soybean oil instead of palm oil, because growing palm-oil trees means clearing vast areas of rainforest, and we must stop buying palm oil to save the rainforests. Which statement, if true, most weakens Ying's argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Palm oil is also used in bath products such as shampoo."
+        },
+        {
+          "label": "B",
+          "text": "People are using less oil in cooking than they used to."
+        },
+        {
+          "label": "C",
+          "text": "Growing soybeans also involves the destruction of rainforests."
+        },
+        {
+          "label": "D",
+          "text": "Palm oil is more frequently listed in recipes than soybean oil."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "If growing soybeans also destroys rainforest, switching to soybean oil would not achieve Ying's goal of protecting the rainforests. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Anyone who can roller-blade can also roller-skate and ice-skate. Not everyone who can roller-skate can roller-blade. Anyone who can ice-skate can also roller-blade. Wei: \"Shane has ice-skated for years, so he'll have no trouble roller-skating.\" Talia: \"Hannah can't roller-blade, so she won't be able to roller-skate.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Wei only"
+        },
+        {
+          "label": "B",
+          "text": "Talia only"
+        },
+        {
+          "label": "C",
+          "text": "Both Wei and Talia"
+        },
+        {
+          "label": "D",
+          "text": "Neither Wei nor Talia"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Ice-skating implies roller-blading, which implies roller-skating, so Wei is right. But some people can roller-skate without roller-blading, so Hannah's inability to roller-blade does not stop her roller-skating - Talia is wrong. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "The string below uses only the symbols $, &, @ and #:\n\n# $ # & & @ # $ & @ $ # @ & # & @ @ $ @ & @\n\nWhich one of these four symbols can be added to the right-hand end so that no group of three consecutive symbols is ever repeated anywhere in the string?",
+      "options": [
+        {
+          "label": "A",
+          "text": "$"
+        },
+        {
+          "label": "B",
+          "text": "&"
+        },
+        {
+          "label": "C",
+          "text": "@"
+        },
+        {
+          "label": "D",
+          "text": "#"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The string already contains \"& @ #\", \"& @ $\" and \"& @ @\". Adding a symbol makes a new final trio \"& @ ?\"; to avoid repeating an existing trio the new symbol must be &. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Sara can only persuade her cousin Rhiannon to come to the school play if Sara's brother Sam is in the school band. The band is very hard to get into - even talented musicians are turned away - and you must really impress the music teacher at audition to stand a chance. Sam does not practise hard enough to reach that level. If this is correct, which one of the following is not possible?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sam impresses the music teacher at audition but is not invited to join the band."
+        },
+        {
+          "label": "B",
+          "text": "Sam practises hard but does not impress the music teacher at audition."
+        },
+        {
+          "label": "C",
+          "text": "Sam does not impress the music teacher at audition but Rhiannon still comes to the show."
+        },
+        {
+          "label": "D",
+          "text": "Sam is accepted into the band but Rhiannon does not come to the show."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Impressing the teacher is needed even to stand a chance of the band, and being in the band is the only way Rhiannon is persuaded. So if Sam does not impress the teacher, Rhiannon cannot come. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "Scientists found that some scrub jays move nuts they have buried if they see other scrub jays watching, and that only scrub jays that have themselves previously stolen nuts from others do this. Logan: \"So a scrub jay must be able to predict which other jays will steal its nuts.\" Kimberley: \"If a jay moves a buried nut, you can be sure its nuts have been stolen before.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Logan only"
+        },
+        {
+          "label": "B",
+          "text": "Kimberley only"
+        },
+        {
+          "label": "C",
+          "text": "Both Logan and Kimberley"
+        },
+        {
+          "label": "D",
+          "text": "Neither Logan nor Kimberley"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Nothing says the jays predict thieves - re-burying when watched is enough (Logan wrong). And the condition is having stolen from others, not having been stolen from, so Kimberley has it backwards. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "In 'Splott' there are tokens worth 2, 5 or 10 points. I have one pile of each, and every pile contains the same number of tokens. The combined total of two of the piles is 96 points. What is the total of the other pile?",
+      "options": [
+        {
+          "label": "A",
+          "text": "32 points"
+        },
+        {
+          "label": "B",
+          "text": "40 points"
+        },
+        {
+          "label": "C",
+          "text": "48 points"
+        },
+        {
+          "label": "D",
+          "text": "56 points"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Only 2n + 10n = 12n = 96 gives a whole number, so n = 8. The other pile is 5 x 8 = 40 points. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "The argument: space exploration is a waste of time, because money spent sending people into space is money not spent helping people in need, and scientists' space experiments would be more useful if they made life better here on Earth. Which statement, if true, most weakens this argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Governments worldwide are increasing levels of education spending."
+        },
+        {
+          "label": "B",
+          "text": "Work by space scientists on aviation has increased the safety of flying."
+        },
+        {
+          "label": "C",
+          "text": "The 1969 Moon landing cost over 280 billion dollars in today's money."
+        },
+        {
+          "label": "D",
+          "text": "Experiments on plants in space have shown how we could grow them on other planets."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Safer flying is a direct benefit to life on Earth from space science, countering the claim that such work does not improve life here. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "prompt": "Every member of the movie club gets one vote and must use it; the film with the most votes is watched. Tonight there are 21 people and 5 films. Kate: \"The film we watch will need at least 5 votes.\" Samira: \"If a film gets 11 votes then we will definitely watch it.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kate only"
+        },
+        {
+          "label": "B",
+          "text": "Samira only"
+        },
+        {
+          "label": "C",
+          "text": "Both Kate and Samira"
+        },
+        {
+          "label": "D",
+          "text": "Neither Kate nor Samira"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "With 21 votes across 5 films the top film must have at least 5 (Kate right). 11 votes is more than half, so no other film can beat it (Samira right). (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "prompt": "A room 3.2 m by 3 m is tiled with the square patterned tile shown (side 0.25 m). Tiles are laid in lines across the room and the last line has to be cut to fit. Which one of the options shows how the last tile could look?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "3.2 / 0.25 = 12.8, so the last tile keeps four of its five columns of pattern (one outer column is cut off), while the full height stays. Option D is the tile with one outer column removed. (Spatial-reasoning item; no official key exists for this paper, so treat this answer as a best determination.)",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt3/q22_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt3/q22_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt3-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "prompt": "To join the basketball team players must be at least 140 cm tall. Miriam: \"Lauren was 139 cm last year but has grown to 141 cm, so she will definitely be chosen for the team this year.\" Which sentence shows the mistake Miriam has made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Lauren might not actually enjoy playing basketball."
+        },
+        {
+          "label": "B",
+          "text": "There might not be enough players to form a complete basketball team."
+        },
+        {
+          "label": "C",
+          "text": "Height might not be the only thing used to choose players for the basketball team."
+        },
+        {
+          "label": "D",
+          "text": "Other sports teams might also have a height requirement."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Meeting the height rule only lets Lauren qualify; the selectors may also judge skill or other factors, so she is not guaranteed a place. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "prompt": "Three switches control four lights; changing a switch flips every light it controls. Switch one controls red and green; switch two controls red, green and blue; switch three controls blue and yellow. With all switches off, all lights are off. Which one of the following is true?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is not possible to have all four lights on."
+        },
+        {
+          "label": "B",
+          "text": "The blue light cannot be on when the yellow light is on."
+        },
+        {
+          "label": "C",
+          "text": "The green light cannot be on when the blue light is on."
+        },
+        {
+          "label": "D",
+          "text": "The red light cannot be on when the green light is off."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Red and green are both controlled by exactly switches one and two, so they are always in the same state. Red can never be on while green is off. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "prompt": "There are just 4 cards, each with a letter on both sides; no letter is repeated. The cards can be arranged to spell COAT, LACK, BOAT and SOCK. Which one of the following words could also be made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "BATS"
+        },
+        {
+          "label": "B",
+          "text": "BLOT"
+        },
+        {
+          "label": "C",
+          "text": "CABS"
+        },
+        {
+          "label": "D",
+          "text": "COST"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The cards must be {C,B}, {O,L}, {A,S} and {T,K}. COST takes C, O, S and T - one from each card - while BATS, BLOT and CABS each need two letters from the same card. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "prompt": "A theatre excursion is cancelled if fewer than twenty students sign up; even with twenty or more, there must be at least one teacher for every ten students. Rohan: \"As long as two teachers are available, the excursion can go ahead.\" Megan: \"If the excursion is cancelled, it must be because not enough students signed up.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Rohan only"
+        },
+        {
+          "label": "B",
+          "text": "Megan only"
+        },
+        {
+          "label": "C",
+          "text": "Both Rohan and Megan"
+        },
+        {
+          "label": "D",
+          "text": "Neither Rohan nor Megan"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Two teachers only cover up to twenty students; more students need more teachers, so Rohan is wrong. And the trip can also be cancelled for too few teachers, so Megan is wrong. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "prompt": "Four students compared how much they liked English, history and maths. Emily liked maths more than history. Only Gemma liked English more than history. Wesley and Rohit both liked maths more than English. No one liked history the least. What is the maximum number of students who could have liked maths the most?",
+      "options": [
+        {
+          "label": "A",
+          "text": "1"
+        },
+        {
+          "label": "B",
+          "text": "2"
+        },
+        {
+          "label": "C",
+          "text": "3"
+        },
+        {
+          "label": "D",
+          "text": "4"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "History is never last, so Gemma (English > history > maths) likes maths least. Emily, Wesley and Rohit can all rank maths first, giving a maximum of 3. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "prompt": "Five keys lie on a glass table; the image shows the view from above. Which one of the options shows the view from underneath the glass table?",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The underneath view is the mirror image (top and bottom swapped): the vertical key moves to the top-left with its bow now up, the large ornate key drops to the bottom-left, and each small key keeps its left-right orientation. Option B matches all five. (Spatial-reasoning item; no official key exists for this paper, so treat this answer as a best determination.)",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt3/q28_stim.jpg",
+      "optionsImageUrl": "/questions/selective-thinking-pt3/q28_opts.jpg"
+    },
+    {
+      "id": "sel-thinking-pt3-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "prompt": "Players are usually dropped from the football team because the coach thinks they have not been playing well enough; sometimes a player is dropped for missing weekly training. Kylie: \"The coach will drop Katya even though she's playing well, so she can't have been coming to every training session.\" Fiona: \"If she came to the sessions and played even better, the coach definitely wouldn't drop her.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kylie only"
+        },
+        {
+          "label": "B",
+          "text": "Fiona only"
+        },
+        {
+          "label": "C",
+          "text": "Both Kylie and Fiona"
+        },
+        {
+          "label": "D",
+          "text": "Neither Kylie nor Fiona"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "\"Usually\" and \"sometimes\" do not make those the only possible reasons, so neither Kylie's \"can't have\" nor Fiona's \"definitely wouldn't\" is justified. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "prompt": "The argument: glass is really a slow-moving liquid whose particles drift too slowly to see over many lifetimes; surviving medieval window glass is often thicker at the bottom than the top, which shows glass flows. Which statement, if true, most weakens the argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Glass can be melted, and melted glass, like every liquid, flows and takes the shape of its container."
+        },
+        {
+          "label": "B",
+          "text": "The human eye cannot detect tiny differences in the thickness of glass."
+        },
+        {
+          "label": "C",
+          "text": "Modern buildings such as skyscrapers are often constructed from glass."
+        },
+        {
+          "label": "D",
+          "text": "Glass objects from Ancient Egypt or Greece that have been untouched for millennia are not thicker at the bottom than at the top."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "If far older glass shows no sagging at all, the thicker-bottomed medieval panes must have another explanation (such as how they were installed), not slow flow. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "prompt": "Alice types dates as DDMMYYYY. She notices 12 February 2021 (12022021) reads as the same date when the calculator is turned upside down. Which one of these other dates also reads as the same date upside down?",
+      "options": [
+        {
+          "label": "A",
+          "text": "19th January 1061"
+        },
+        {
+          "label": "B",
+          "text": "26th November 1992"
+        },
+        {
+          "label": "C",
+          "text": "20th February 2020"
+        },
+        {
+          "label": "D",
+          "text": "8th March 3080"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Turning 19011061 upside down reverses the digits and flips each one (1->1, 6->9, 9->6, 0->0), giving 19011061 again. The other dates change or contain a digit that cannot be flipped. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "prompt": "Six friends stand in a circle facing inwards. Grace is on Catherine's left and opposite Willow. Max faces Karri and stands next to Catherine. Liam is between Willow and Karri. They pass a bean bag: each holder throws it to the person opposite, who then hands it to the friend on their left. After three repetitions Willow is holding it. Who held it at the start?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Grace"
+        },
+        {
+          "label": "B",
+          "text": "Karri"
+        },
+        {
+          "label": "C",
+          "text": "Willow"
+        },
+        {
+          "label": "D",
+          "text": "Catherine"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Each throw-then-hand moves the bean bag two places around the circle, so after three repetitions it has moved six places - a full circle - and is back where it started. So Willow held it at the start. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "prompt": "Matt and Yash play chess every lunchtime and have each won about half of their games. Mr Stead: \"I don't know how many games they played last week, but I know Matt won five, so they must have played about ten.\" Which sentence shows the mistake Mr Stead has made?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Either Matt or Yash might have played unusually well last week."
+        },
+        {
+          "label": "B",
+          "text": "The players have each won around half, not exactly half, of their games."
+        },
+        {
+          "label": "C",
+          "text": "Matt and Yash may have had lots of homework last week."
+        },
+        {
+          "label": "D",
+          "text": "It doesn't matter who wins, because the important thing is that they both have fun."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\"About half\" is only a long-run average; in a single week one player could win well over half, so five wins need not mean about ten games. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "prompt": "Jody and Todd write to each other in a code where every letter has its own symbol. \"Jody\" is $ ! @ = and \"Todd\" is ^ ! @ @. Asked her favourite season, Jody replied with a six-symbol message in which all six symbols are different and none is a symbol used in \"Jody\" or \"Todd\". What is Jody's favourite season?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Spring"
+        },
+        {
+          "label": "B",
+          "text": "Summer"
+        },
+        {
+          "label": "C",
+          "text": "Autumn"
+        },
+        {
+          "label": "D",
+          "text": "Winter"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Six different symbols mean six different letters, ruling out Summer and Autumn (repeated letters). The reply contains no 'T' symbol, ruling out Winter and Autumn. Only Spring fits. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving",
+      "imageUrl": "/questions/selective-thinking-pt3/q34_code.jpg"
+    },
+    {
+      "id": "sel-thinking-pt3-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "prompt": "A four-picture door code uses a bell, book, apple and cat. The bell is next to the book; the apple is somewhere between the bell and the cat; the book is somewhere to the right of the cat. You may ask one question and then must deduce the code. Which question lets you deduce it?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Is the apple next to the book?"
+        },
+        {
+          "label": "B",
+          "text": "Is the cat next to the apple?"
+        },
+        {
+          "label": "C",
+          "text": "Is the bell next to the cat?"
+        },
+        {
+          "label": "D",
+          "text": "Is the book next to the cat?"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The clues leave only two orders: cat, apple, bell, book and cat, apple, book, bell. \"Is the apple next to the book?\" is No for the first and Yes for the second, so it settles the code; the other questions give the same answer for both. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "prompt": "Many birds abandon a nest if it is disturbed, even after eggs have been laid. Lorenzo: \"My dad accidentally disturbed a nest cleaning the roof, so there's a good chance it's now abandoned.\" Katarina: \"There's an abandoned nest in our pomegranate tree, so that must have been disturbed too.\" Whose reasoning is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Lorenzo only"
+        },
+        {
+          "label": "B",
+          "text": "Katarina only"
+        },
+        {
+          "label": "C",
+          "text": "Both Lorenzo and Katarina"
+        },
+        {
+          "label": "D",
+          "text": "Neither Lorenzo nor Katarina"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Birds \"often\" abandon a disturbed nest, so Lorenzo's \"good chance\" is fair. But abandonment has other causes, so Katarina's \"must have been disturbed\" is too strong. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "prompt": "Six coins - large and small, each with a circular, square or star-shaped hole - are kept in identical boxes. Each box shows two symbols: one for the coin's size and one for its hole type, in either order. The large-circular box shows O and e; the small-square box shows H and D; a third box shows <> and H. Which coin could go in the third box?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The large coin with a square hole."
+        },
+        {
+          "label": "B",
+          "text": "The large coin with a star-shaped hole."
+        },
+        {
+          "label": "C",
+          "text": "The small coin with a circular hole."
+        },
+        {
+          "label": "D",
+          "text": "The small coin with a star-shaped hole."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "H is shared by the small-square box and the third box, so H means \"small\" (if it meant \"square\", the third box's other symbol would have to mean a size already taken). Then D means \"square\", so the new symbol <> means \"star\": the third box holds the small star-holed coin. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "prompt": "In an athletics competition there are four heats and every runner runs in two of them. The finalists are everyone who finished in the top two in at least one heat. Chloe: \"Tim beat Leon in the first heat, so if Leon qualifies for the final, so will Tim.\" Which sentence shows Chloe's mistake?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tim may not run as fast in his other heat."
+        },
+        {
+          "label": "B",
+          "text": "Leon may not race against Tim again in his other heat."
+        },
+        {
+          "label": "C",
+          "text": "Leon may qualify based on his performance in his other heat."
+        },
+        {
+          "label": "D",
+          "text": "Tim may have had more chance to practise for the competition than Leon."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Leon could reach the final through a top-two finish in his other heat, while Tim finishes lower in both of his - so beating Leon once does not guarantee Tim qualifies. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Critical Thinking"
+    },
+    {
+      "id": "sel-thinking-pt3-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "prompt": "P, Q, R, S and T each have blue or brown eyes and each enjoy two of: fishing, reading, piano, drawing. P likes reading and fishing. Q likes piano and fishing. S likes drawing. Everyone likes fishing except one person with blue eyes. Everyone with brown eyes likes reading. Which one of the following must be true?",
+      "options": [
+        {
+          "label": "A",
+          "text": "There are more people with brown than blue eyes in the group."
+        },
+        {
+          "label": "B",
+          "text": "Q and S have blue eyes."
+        },
+        {
+          "label": "C",
+          "text": "P and Q have brown eyes."
+        },
+        {
+          "label": "D",
+          "text": "T likes reading."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Q does not like reading, so Q cannot have brown eyes - Q is blue. S does not like reading either (S likes drawing plus one more), so if S fishes, S must be blue; and if S is the non-fisher, that person is blue. Either way S is blue. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "sel-thinking-pt3-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "prompt": "When the children arrived, 15 wore beanies, 8 wore scarves and 12 wore gloves. Every child with a scarf also wore gloves; half of the scarf-wearers also had a beanie. 4 children had a beanie and gloves but no scarf. 2 children had none of the three items. How many children arrived?",
+      "options": [
+        {
+          "label": "A",
+          "text": "18"
+        },
+        {
+          "label": "B",
+          "text": "19"
+        },
+        {
+          "label": "C",
+          "text": "20"
+        },
+        {
+          "label": "D",
+          "text": "21"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Scarf+beanie+gloves = 4; scarf+gloves only = 4; beanie+gloves only = 4; that already uses all 12 gloves, so gloves-only = 0. Beanie total 15 = 4 + 4 + beanie-only, so beanie-only = 7. Total = 4 + 4 + 4 + 7 + 2 = 21. (NSW publishes no answer key for this paper; this answer is worked from the question by Claude.)",
+      "topic": "Problem Solving"
+    }
+  ]
+}

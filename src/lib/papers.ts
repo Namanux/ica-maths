@@ -21,6 +21,8 @@ import selectiveReadingPt1 from "@/data/papers/selective-reading-pt1.json";
 import selectiveReadingPt2 from "@/data/papers/selective-reading-pt2.json";
 import selectiveReadingPt3 from "@/data/papers/selective-reading-pt3.json";
 import selectiveThinkingPt1 from "@/data/papers/selective-thinking-pt1.json";
+import selectiveThinkingPt2 from "@/data/papers/selective-thinking-pt2.json";
+import selectiveThinkingPt3 from "@/data/papers/selective-thinking-pt3.json";
 
 const DEFAULT_EXAM = "icas";
 
@@ -43,6 +45,8 @@ const papers: Paper[] = [
   selectiveReadingPt2 as Paper,
   selectiveReadingPt3 as Paper,
   selectiveThinkingPt1 as Paper,
+  selectiveThinkingPt2 as Paper,
+  selectiveThinkingPt3 as Paper,
   edutestY5Maths1 as Paper,
   edutestY5Numerical1 as Paper,
   edutestY5Verbal1 as Paper,
@@ -61,7 +65,9 @@ export function paperExam(paper: Pick<Paper, "exam">): string {
  * split by year level then subject, so its papers land on
  * `icas/<yearLevel>/<subject>` rather than plain `icas`.
  */
-export function examHomeSlug(paper: Pick<Paper, "exam" | "component">): string {
+export function examHomeSlug(
+  paper: Pick<Paper, "exam" | "component" | "subject">
+): string {
   const exam = paperExam(paper);
   if (exam === "selective-test") {
     return `selective-test/${paper.component ?? "mathematical-reasoning"}`;
@@ -69,7 +75,35 @@ export function examHomeSlug(paper: Pick<Paper, "exam" | "component">): string {
   if (exam === "icas") {
     return "icas/year5/maths";
   }
+  if (exam === "edutest") {
+    return `edutest/year5/${edutestSubjectSlug(paper)}`;
+  }
   return exam;
+}
+
+/**
+ * EduTest is split by year level, then by subject (Mathematics, Numerical
+ * Reasoning, Verbal Reasoning, Reading Comprehension). This maps a paper's
+ * `subject` to the URL segment used under `edutest/year5/`.
+ */
+const EDUTEST_SUBJECT_SLUGS: Record<string, string> = {
+  Mathematics: "maths",
+  "Numerical Reasoning": "numerical-reasoning",
+  "Verbal Reasoning": "verbal-reasoning",
+  "Reading Comprehension": "reading-comprehension",
+};
+
+export function edutestSubjectSlug(paper: Pick<Paper, "subject">): string {
+  return EDUTEST_SUBJECT_SLUGS[paper.subject] ?? "maths";
+}
+
+/** EduTest papers for one subject slug ("maths", "verbal-reasoning", …). */
+export function getEdutestPapers(subjectSlug: string): PaperSummary[] {
+  return papers
+    .filter(
+      (p) => paperExam(p) === "edutest" && edutestSubjectSlug(p) === subjectSlug
+    )
+    .map(toSummary);
 }
 
 export function selectiveComponent(paper: Pick<Paper, "component">): string {
