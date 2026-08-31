@@ -15,9 +15,14 @@ import { beehave } from "@/lib/beehave";
 import {
   buildPassbook,
   PassbookRow,
+  REWARD_CATEGORIES,
+  rewardCategory,
+  sortRewards,
+  RewardSortSelect,
   type PbEntry,
   type CoinTxn,
   type RedemptionRowLite,
+  type RewardSort,
 } from "./KidDashboard";
 import * as XLSX from "xlsx";
 
@@ -3149,6 +3154,9 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
   void kids;
   const [rewards, setRewards] = useState<RewardRow[]>([]);
   const [showForm, setShowForm] = useState(false);
+  const [sortBy, setSortBy] = useState<RewardSort>("cheap");
+  const [importing, setImporting] = useState(false);
+  const importRef = useRef<HTMLInputElement | null>(null);
   const [form, setForm] = useState<{
     id?: string;
     name: string;
@@ -3215,6 +3223,50 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
       description: r.description ?? null,
     });
     void loadRewards();
+  }
+
+  function exportRewards() {
+    const rows = rewards.map((r) => ({
+      name: r.name,
+      icon: r.icon,
+      coin_cost: r.coin_cost,
+      description: r.description || "",
+      category: rewardCategory(r.name, r.icon),
+    }));
+    const ws = XLSX.utils.json_to_sheet(rows);
+    ws["!cols"] = [26, 6, 10, 44, 14].map((w) => ({ wch: w }));
+    const wb = XLSX.utils.book_new();
+    XLSX.utils.book_append_sheet(wb, ws, "Rewards");
+    XLSX.writeFile(wb, "beehave-rewards.xlsx");
+  }
+
+  async function importRewards(e: ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file || !supabase) return;
+    setImporting(true);
+    try {
+      const ab = await file.arrayBuffer();
+      const wb = XLSX.read(ab);
+      const ws = wb.Sheets[wb.SheetNames[0]];
+      const rows = XLSX.utils.sheet_to_json(ws) as Record<string, unknown>[];
+      let imported = 0;
+      for (const row of rows) {
+        if (!row.name) continue;
+        await supabase.from("rewards").insert({
+          name: String(row.name),
+          icon: String(row.icon || "🎁"),
+          coin_cost: parseInt(String(row.coin_cost)) || 100,
+          description: row.description ? String(row.description) : null,
+        });
+        imported++;
+      }
+      alert(`✅ Imported ${imported} reward${imported !== 1 ? "s" : ""}.`);
+      void loadRewards();
+    } catch (err) {
+      alert("Import failed: " + (err as Error).message);
+    }
+    setImporting(false);
+    e.target.value = "";
   }
 
   async function deleteReward(r: RewardRow) {
@@ -3298,53 +3350,103 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
 
       {showForm && !form.id && rewardForm}
 
+      <div className="mb-3 flex items-center gap-2 rounded-[10px] border border-border bg-surface px-3.5 py-2.5">
+        <span className="flex-1 text-[13px] text-muted">📊 Excel</span>
+        <button
+          onClick={exportRewards}
+          disabled={rewards.length === 0}
+          className="rounded-lg border border-[#22c55e]/25 bg-[#22c55e]/[0.12] px-3.5 py-1.5 text-[13px] text-[#22c55e] disabled:opacity-50"
+        >
+          ↓ Export
+        </button>
+        <button
+          onClick={() => importRef.current?.click()}
+          disabled={importing}
+          className="rounded-lg border border-[#4f8ef7]/25 bg-[#4f8ef7]/[0.12] px-3.5 py-1.5 text-[13px] text-[#4f8ef7] disabled:opacity-50"
+        >
+          {importing ? "Importing…" : "↑ Import"}
+        </button>
+        <input
+          ref={importRef}
+          type="file"
+          accept=".xlsx,.xls"
+          className="hidden"
+          onChange={importRewards}
+        />
+      </div>
+
       <p className="mb-3 text-[13px] text-muted">
         Redemptions land in the <span className="font-semibold">Passbook</span>{" "}
         tab, where you accept or decline them.
       </p>
 
-      <h3 className="mb-2.5 font-semibold text-muted">Available Rewards</h3>
-      {rewards.map((r) =>
-        showForm && form.id === r.id ? (
-          <div key={r.id}>{rewardForm}</div>
-        ) : (
-          <div
-            key={r.id}
-            className={`${cardCls} mb-2 flex items-center gap-3`}
-          >
-            <span className="text-[28px]" style={{ fontFamily: EMOJI_FONT }}>
-              {r.icon}
-            </span>
-            <div className="flex-1">
-              <div className="font-semibold">{r.name}</div>
-              {r.description && (
-                <div className="text-[13px] text-muted">{r.description}</div>
-              )}
+      <div className="mb-2.5 flex items-center justify-between gap-2">
+        <h3 className="font-semibold text-muted">Available Rewards</h3>
+        <RewardSortSelect value={sortBy} onChange={setSortBy} />
+      </div>
+
+      {REWARD_CATEGORIES.map((cat) => {
+        const items = sortRewards(
+          rewards.filter((r) => rewardCategory(r.name, r.icon) === cat),
+          sortBy,
+        );
+        if (items.length === 0) return null;
+        return (
+          <div key={cat} className="mb-4">
+            <div className="mb-1.5 px-1 text-[11px] font-bold uppercase tracking-wide text-muted">
+              {cat}
             </div>
-            <div className="font-bold text-[#f5c518]">🪙 {r.coin_cost}</div>
-            <div className="flex gap-1.5">
-              <button
-                onClick={() => startEditReward(r)}
-                className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
-              >
-                Edit
-              </button>
-              <button
-                onClick={() => duplicateReward(r)}
-                className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
-              >
-                Duplicate
-              </button>
-              <button
-                onClick={() => deleteReward(r)}
-                className="rounded-lg bg-[#ef4444]/10 px-3 py-1.5 text-[13px] text-[#ef4444]"
-              >
-                Del
-              </button>
-            </div>
+            {items.map((r) =>
+              showForm && form.id === r.id ? (
+                <div key={r.id}>{rewardForm}</div>
+              ) : (
+                <div
+                  key={r.id}
+                  className={`${cardCls} mb-2 flex items-center gap-3`}
+                >
+                  <span
+                    className="text-[28px]"
+                    style={{ fontFamily: EMOJI_FONT }}
+                  >
+                    {r.icon}
+                  </span>
+                  <div className="flex-1">
+                    <div className="font-semibold">{r.name}</div>
+                    {r.description && (
+                      <div className="text-[13px] text-muted">
+                        {r.description}
+                      </div>
+                    )}
+                  </div>
+                  <div className="font-bold text-[#f5c518]">
+                    🪙 {r.coin_cost}
+                  </div>
+                  <div className="flex gap-1.5">
+                    <button
+                      onClick={() => startEditReward(r)}
+                      className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
+                    >
+                      Edit
+                    </button>
+                    <button
+                      onClick={() => duplicateReward(r)}
+                      className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
+                    >
+                      Duplicate
+                    </button>
+                    <button
+                      onClick={() => deleteReward(r)}
+                      className="rounded-lg bg-[#ef4444]/10 px-3 py-1.5 text-[13px] text-[#ef4444]"
+                    >
+                      Del
+                    </button>
+                  </div>
+                </div>
+              ),
+            )}
           </div>
-        ),
-      )}
+        );
+      })}
     </div>
   );
 }

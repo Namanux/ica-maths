@@ -2140,28 +2140,113 @@ type KidRewardRow = {
   description?: string | null;
 };
 
-// Pull a $ amount or a time span out of a reward name and scale it by the
-// selected quantity — e.g. "$1 Tuck shop Money" x2 → "$2", "30 min TV" x2 → "1 hour".
-function scaledRewardValue(name: string, qty: number): string | null {
+// ─── Reward value parsing / categorising (shared with the Parent view) ───────
+export function parseRewardValue(name: string): {
+  money?: number;
+  minutes?: number;
+} {
   const money = name.match(/\$\s?(\d+(?:\.\d+)?)/);
-  if (money) {
-    const v = parseFloat(money[1]) * qty;
-    return `$${Number.isInteger(v) ? v : v.toFixed(2)}`;
-  }
-  let mins = 0;
+  if (money) return { money: parseFloat(money[1]) };
   const hm = name.match(/(\d+)\s*:\s*(\d+)\s*(?:hours?|hrs?|h)\b/i);
   const h = name.match(/(\d+(?:\.\d+)?)\s*(?:hours?|hrs?)\b/i);
   const m = name.match(/(\d+)\s*(?:minutes?|mins?)\b/i);
-  if (hm) mins = parseInt(hm[1]) * 60 + parseInt(hm[2]);
-  else if (h) mins = Math.round(parseFloat(h[1]) * 60);
-  else if (m) mins = parseInt(m[1]);
-  if (mins <= 0) return null;
-  const total = mins * qty;
+  if (hm) return { minutes: parseInt(hm[1]) * 60 + parseInt(hm[2]) };
+  if (h) return { minutes: Math.round(parseFloat(h[1]) * 60) };
+  if (m) return { minutes: parseInt(m[1]) };
+  return {};
+}
+
+function fmtMinutes(total: number): string {
   const hh = Math.floor(total / 60);
   const mm = total % 60;
   if (hh === 0) return `${mm} min`;
   if (mm === 0) return `${hh} hour${hh > 1 ? "s" : ""}`;
   return `${hh}h ${mm}m`;
+}
+
+// Scale a reward's $/time value by the selected quantity — e.g.
+// "$1 Tuck shop Money" x2 → "$2", "30 min TV" x2 → "1 hour".
+export function scaledRewardValue(name: string, qty: number): string | null {
+  const v = parseRewardValue(name);
+  if (v.money !== undefined) {
+    const t = v.money * qty;
+    return `$${Number.isInteger(t) ? t : t.toFixed(2)}`;
+  }
+  if (v.minutes !== undefined && v.minutes > 0) return fmtMinutes(v.minutes * qty);
+  return null;
+}
+
+export const REWARD_CATEGORIES = [
+  "Screen time",
+  "Money",
+  "Experiences",
+  "Other",
+] as const;
+
+export function rewardCategory(name: string, icon: string): string {
+  const s = `${name} ${icon}`.toLowerCase();
+  if (/\$|money|voucher|cash|pocket|dollar|piggy|💵|💰|💴|💶|💷|🪙/.test(s))
+    return "Money";
+  if (
+    /tv|screen|movie|film|cinema|docum|minecraf|roblox|fortnite|game|gaming|youtube|netflix|disney|ipad|tablet|device|console|phone|📱|💻|📺|🎮|🕹️|🎬|🍿/.test(
+      s,
+    )
+  )
+    return "Screen time";
+  if (
+    /massage|play|park|outing|trip|dinner|choose|late|bedtime|stay up|sleepover|adventure|zoo|swim|bowling|arcade|beach|camp|fish|paint|music|craft|🎡|🎢|🎠|🏖️|⛺|🎣|🎨|🎤|🎸|🥁|🧸|🚲|⚽|🏀/.test(
+      s,
+    )
+  )
+    return "Experiences";
+  return "Other";
+}
+
+// Higher = more value per coin (only meaningful within one category).
+export function rewardValueScore(
+  name: string,
+  coinCost: number,
+): number {
+  if (coinCost <= 0) return 0;
+  const v = parseRewardValue(name);
+  const unit = v.money ?? v.minutes ?? 0;
+  return unit / coinCost;
+}
+
+export type RewardSort = "cheap" | "expensive" | "value";
+
+export function sortRewards<T extends { name: string; coin_cost: number }>(
+  list: T[],
+  by: RewardSort,
+): T[] {
+  return [...list].sort((a, b) => {
+    if (by === "cheap") return a.coin_cost - b.coin_cost;
+    if (by === "expensive") return b.coin_cost - a.coin_cost;
+    return (
+      rewardValueScore(b.name, b.coin_cost) -
+      rewardValueScore(a.name, a.coin_cost)
+    );
+  });
+}
+
+export function RewardSortSelect({
+  value,
+  onChange,
+}: {
+  value: RewardSort;
+  onChange: (v: RewardSort) => void;
+}) {
+  return (
+    <select
+      value={value}
+      onChange={(e) => onChange(e.target.value as RewardSort)}
+      className="rounded-lg border border-border bg-surface px-2.5 py-1.5 text-[12px] text-foreground"
+    >
+      <option value="cheap">Cheapest first</option>
+      <option value="expensive">Most expensive first</option>
+      <option value="value">Best value per coin</option>
+    </select>
+  );
 }
 
 function KidRewards() {
@@ -2172,6 +2257,7 @@ function KidRewards() {
   const [qty, setQty] = useState<Record<string, number>>({});
   const [busy, setBusy] = useState<string | null>(null);
   const [toast, setToast] = useState("");
+  const [sortBy, setSortBy] = useState<RewardSort>("cheap");
 
   const balance = profile?.coin_balance ?? 0;
 
@@ -2225,6 +2311,81 @@ function KidRewards() {
     }
   }
 
+  const renderRow = (r: KidRewardRow) => {
+    const n = qty[r.id] || 1;
+    const canAfford = balance >= r.coin_cost;
+    const totalCost = n * r.coin_cost;
+    const overBudget = totalCost > balance;
+    const val = scaledRewardValue(r.name, n);
+    return (
+      <div
+        key={r.id}
+        className={`mb-2 flex items-center gap-3 rounded-2xl border border-border bg-surface p-4 ${
+          canAfford ? "" : "opacity-50"
+        }`}
+      >
+        <span className="text-[28px]">{r.icon}</span>
+        <div className="min-w-0 flex-1">
+          <div className="text-[15px] font-semibold">{r.name}</div>
+          {r.description && (
+            <div className="text-[13px] text-muted">{r.description}</div>
+          )}
+          <div className="mt-0.5 flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-[12px] text-[#f5c518]">
+            <span className="flex items-center gap-1">
+              <GoldCoin size={11} /> {r.coin_cost} each
+            </span>
+            {val && (
+              <span className="font-bold">
+                · {n > 1 ? `${n} = ` : ""}
+                {val}
+              </span>
+            )}
+          </div>
+        </div>
+
+        <div className="flex shrink-0 items-center gap-1.5">
+          <button
+            onClick={() => setQ(r.id, n - 1)}
+            disabled={!canAfford || n <= 1}
+            className="h-7 w-7 rounded-lg border border-border bg-background text-[16px] font-bold disabled:opacity-30"
+          >
+            −
+          </button>
+          <span className="w-5 text-center text-[14px] font-bold tabular-nums">
+            {n}
+          </span>
+          <button
+            onClick={() => setQ(r.id, n + 1)}
+            disabled={!canAfford || (n + 1) * r.coin_cost > balance}
+            className="h-7 w-7 rounded-lg border border-border bg-background text-[16px] font-bold disabled:opacity-30"
+          >
+            +
+          </button>
+        </div>
+
+        <button
+          onClick={() => redeem(r)}
+          disabled={!canAfford || overBudget || busy === r.id}
+          className="shrink-0 rounded-xl border border-[#22c55e]/40 bg-[#22c55e]/15 px-3.5 py-2 text-[13px] font-bold text-[#22c55e] disabled:cursor-not-allowed disabled:opacity-40"
+        >
+          {busy === r.id
+            ? "…"
+            : !canAfford
+            ? "Not enough 🪙"
+            : `Redeem ${totalCost}`}
+        </button>
+      </div>
+    );
+  };
+
+  const groups = REWARD_CATEGORIES.map((cat) => ({
+    cat,
+    items: sortRewards(
+      rewards.filter((r) => rewardCategory(r.name, r.icon) === cat),
+      sortBy,
+    ),
+  })).filter((g) => g.items.length > 0);
+
   return (
     <div className="flex-1 overflow-y-auto px-3.5 pb-24 pt-3.5">
       <div className="mb-3 flex items-center justify-between">
@@ -2234,79 +2395,24 @@ function KidRewards() {
         </span>
       </div>
 
-      <p className="mb-3 text-[12px] text-muted">
-        Redeeming sends the request to your parent — track it in your Passbook.
-      </p>
+      <div className="mb-3 flex items-center justify-between gap-2">
+        <p className="text-[12px] text-muted">
+          Redeeming sends the request to your parent.
+        </p>
+        <RewardSortSelect value={sortBy} onChange={setSortBy} />
+      </div>
 
       {rewards.length === 0 ? (
         <p className="py-16 text-center text-sm text-muted">No rewards yet.</p>
       ) : (
-        rewards.map((r) => {
-          const n = qty[r.id] || 1;
-          const canAfford = balance >= r.coin_cost;
-          const totalCost = n * r.coin_cost;
-          const overBudget = totalCost > balance;
-          const val = scaledRewardValue(r.name, n);
-          return (
-            <div
-              key={r.id}
-              className={`mb-2 flex items-center gap-3 rounded-2xl border border-border bg-surface p-4 ${
-                canAfford ? "" : "opacity-50"
-              }`}
-            >
-              <span className="text-[28px]">{r.icon}</span>
-              <div className="min-w-0 flex-1">
-                <div className="text-[15px] font-semibold">{r.name}</div>
-                {r.description && (
-                  <div className="text-[13px] text-muted">{r.description}</div>
-                )}
-                <div className="mt-0.5 flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-[12px] text-[#f5c518]">
-                  <span className="flex items-center gap-1">
-                    <GoldCoin size={11} /> {r.coin_cost} each
-                  </span>
-                  {val && (
-                    <span className="font-bold">
-                      · {n > 1 ? `${n} = ` : ""}
-                      {val}
-                    </span>
-                  )}
-                </div>
-              </div>
-
-              <div className="flex shrink-0 items-center gap-1.5">
-                <button
-                  onClick={() => setQ(r.id, n - 1)}
-                  disabled={!canAfford || n <= 1}
-                  className="h-7 w-7 rounded-lg border border-border bg-background text-[16px] font-bold disabled:opacity-30"
-                >
-                  −
-                </button>
-                <span className="w-5 text-center text-[14px] font-bold tabular-nums">
-                  {n}
-                </span>
-                <button
-                  onClick={() => setQ(r.id, n + 1)}
-                  disabled={!canAfford || (n + 1) * r.coin_cost > balance}
-                  className="h-7 w-7 rounded-lg border border-border bg-background text-[16px] font-bold disabled:opacity-30"
-                >
-                  +
-                </button>
-              </div>
-
-              <button
-                onClick={() => redeem(r)}
-                disabled={!canAfford || overBudget || busy === r.id}
-                className="shrink-0 rounded-xl border border-[#22c55e]/40 bg-[#22c55e]/15 px-3.5 py-2 text-[13px] font-bold text-[#22c55e] disabled:cursor-not-allowed disabled:opacity-40"
-              >
-                {busy === r.id
-                  ? "…"
-                  : !canAfford
-                  ? "Not enough 🪙"
-                  : `Redeem ${totalCost}`}
-              </button>
-            </div>
-          );
-        })
+        groups.map((g) => (
+          <div key={g.cat} className="mb-4">
+            <h3 className="mb-1.5 px-1 text-[11px] font-bold uppercase tracking-wide text-muted">
+              {g.cat}
+            </h3>
+            {g.items.map(renderRow)}
+          </div>
+        ))
       )}
 
       {toast && (
