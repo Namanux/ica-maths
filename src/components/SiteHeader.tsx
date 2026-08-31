@@ -20,13 +20,8 @@ const SECTION_TITLES: Record<string, string> = {
 
 // The Beehave pill itself is the section home (tasks for kids, Overview for
 // admins), so it isn't listed here.
-const ADMIN_BEEHAVE_TABS = [
-  "Approve",
-  "Task",
-  "Reward",
-  "Message",
-  "Passbook",
-];
+// Same relative order for every user; each role shows its own subset.
+const ADMIN_BEEHAVE_TABS = ["Passbook", "Task", "Reward", "Message"];
 const KID_BEEHAVE_TABS = ["Passbook", "Reward"];
 
 function pill(active: boolean) {
@@ -181,7 +176,9 @@ export function SiteHeader() {
                     className={`relative ${pill(active)}`}
                   >
                     {t}
-                    {t === "Approve" && pending > 0 && (
+                    {t === "Passbook" &&
+                      profile.role === "admin" &&
+                      pending > 0 && (
                       <span className="absolute -right-1 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-incorrect px-1 text-[10px] font-bold text-background">
                         {pending}
                       </span>

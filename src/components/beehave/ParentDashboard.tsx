@@ -12,6 +12,13 @@ import { useSearchParams } from "next/navigation";
 import { useBeehaveAuth, type BeehaveProfile } from "@/lib/beehaveAuth";
 import { getSupabaseClient } from "@/lib/supabase";
 import { beehave } from "@/lib/beehave";
+import {
+  buildPassbook,
+  PassbookRow,
+  type PbEntry,
+  type CoinTxn,
+  type RedemptionRowLite,
+} from "./KidDashboard";
 import * as XLSX from "xlsx";
 
 const supabase = getSupabaseClient();
@@ -171,14 +178,7 @@ function EmojiPicker({
   );
 }
 
-const TABS = [
-  "Overview",
-  "Approve",
-  "Task",
-  "Reward",
-  "Message",
-  "Passbook",
-] as const;
+const TABS = ["Overview", "Task", "Reward", "Message", "Passbook"] as const;
 type TabName = (typeof TABS)[number];
 
 // ─── Main ParentDashboard ────────────────────────────────────────────────────
@@ -220,13 +220,15 @@ export function ParentDashboard(_props: { profileSlug: string }) {
       {/* Tabs live in the app header (SiteHeader); this view is just content. */}
       <div className="flex-1 overflow-y-auto px-3.5 pt-3.5">
         {tab === "Overview" && <OverviewTab kids={kids} />}
-        {tab === "Approve" && (
-          <ApproveTab onApprove={() => {}} profile={profile} kids={kids} />
-        )}
         {tab === "Task" && <TasksTab kids={kids} />}
         {tab === "Reward" && <RewardsTab kids={kids} />}
         {tab === "Message" && <MessageTab kids={kids} profile={profile} />}
-        {tab === "Passbook" && <ParentPassbooks kids={kids} />}
+        {tab === "Passbook" && (
+          <>
+            <ApproveTab onApprove={() => {}} profile={profile} kids={kids} />
+            <ParentPassbooks kids={kids} profile={profile} />
+          </>
+        )}
         <div className="h-[60px]" />
       </div>
     </div>
@@ -3130,7 +3132,6 @@ function Row({ label, children }: { label: string; children: ReactNode }) {
 function RewardsTab({ kids }: { kids: KidRow[] }) {
   void kids;
   const [rewards, setRewards] = useState<RewardRow[]>([]);
-  const [redemptions, setRedemptions] = useState<RedemptionRow[]>([]);
   const [showForm, setShowForm] = useState(false);
   const [form, setForm] = useState<{
     id?: string;
@@ -3149,7 +3150,6 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
 
   useEffect(() => {
     void loadRewards();
-    void loadRedemptions();
   }, []);
 
   async function loadRewards() {
@@ -3159,16 +3159,6 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
       .select("*")
       .eq("is_active", true);
     setRewards((data as RewardRow[]) || []);
-  }
-
-  async function loadRedemptions() {
-    if (!supabase) return;
-    const { data } = await supabase
-      .from("reward_redemptions")
-      .select("*, kid:kid_id(name, avatar_emoji), reward:reward_id(name, icon)")
-      .eq("status", "pending")
-      .order("created_at", { ascending: false });
-    setRedemptions((data as RedemptionRow[]) || []);
   }
 
   async function saveReward() {
@@ -3205,43 +3195,6 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
     if (!confirm(`Delete reward "${r.name}"?`)) return;
     await supabase.from("rewards").update({ is_active: false }).eq("id", r.id);
     void loadRewards();
-  }
-
-  async function approveRedemption(r: RedemptionRow) {
-    if (!supabase) return;
-    await supabase
-      .from("reward_redemptions")
-      .update({ status: "approved" })
-      .eq("id", r.id);
-    void loadRedemptions();
-  }
-
-  async function rejectRedemption(r: RedemptionRow) {
-    if (!supabase) return;
-    await supabase.from("coin_transactions").insert({
-      kid_id: r.kid_id,
-      amount: r.coins_spent,
-      reason: `Refund: ${r.reward?.name}`,
-      transaction_type: "adjustment",
-    });
-    const { data: kid } = await supabase
-      .from("profiles")
-      .select("coin_balance")
-      .eq("id", r.kid_id)
-      .single();
-    await supabase
-      .from("profiles")
-      .update({
-        coin_balance:
-          ((kid as { coin_balance?: number } | null)?.coin_balance || 0) +
-          r.coins_spent,
-      })
-      .eq("id", r.kid_id);
-    await supabase
-      .from("reward_redemptions")
-      .update({ status: "rejected" })
-      .eq("id", r.id);
-    void loadRedemptions();
   }
 
   return (
@@ -3306,47 +3259,10 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
         </div>
       )}
 
-      {redemptions.length > 0 && (
-        <div className="mb-5">
-          <h3 className="mb-2.5 font-semibold text-[#f97316]">
-            ⏳ Pending Redemptions
-          </h3>
-          {redemptions.map((r) => (
-            <div
-              key={r.id}
-              className={`${cardCls} mb-2 border-[#f97316]/20 bg-[#f97316]/[0.06]`}
-            >
-              <div className="flex items-center justify-between">
-                <div>
-                  <span className="font-bold">
-                    {r.kid?.avatar_emoji} {r.kid?.name}
-                  </span>
-                  <span className="ml-2 text-muted">
-                    wants {r.reward?.icon} {r.reward?.name}
-                  </span>
-                  <div className="mt-1 text-[13px] text-[#f5c518]">
-                    🪙 {r.coins_spent} coins
-                  </div>
-                </div>
-                <div className="flex gap-1.5">
-                  <button
-                    onClick={() => rejectRedemption(r)}
-                    className="rounded-[10px] border border-[#ef4444]/30 bg-[#ef4444]/15 px-3.5 py-2 text-[13px] font-semibold text-[#ef4444]"
-                  >
-                    Deny
-                  </button>
-                  <button
-                    onClick={() => approveRedemption(r)}
-                    className="rounded-[10px] border border-[#22c55e]/30 bg-[#22c55e]/15 px-3.5 py-2 text-[13px] font-semibold text-[#22c55e]"
-                  >
-                    Give
-                  </button>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-      )}
+      <p className="mb-3 text-[13px] text-muted">
+        Redemptions land in the <span className="font-semibold">Passbook</span>{" "}
+        tab, where you accept or decline them.
+      </p>
 
       <h3 className="mb-2.5 font-semibold text-muted">Available Rewards</h3>
       {rewards.map((r) => (
@@ -3476,111 +3392,105 @@ function MessageTab({
 }
 
 /* ═══════════════════════════════════════════ PASSBOOK TAB ═════════════════ */
-type PbTxn = {
-  id: string;
-  amount: number;
-  reason: string;
-  transaction_type: string;
-  created_at: string;
-};
-
-const PB_META: Record<string, { icon: string; label: string }> = {
-  task_reward: { icon: "✅", label: "Task" },
-  bonus: { icon: "⭐", label: "Award" },
-  penalty: { icon: "⚠️", label: "Deduction" },
-  redemption: { icon: "🎁", label: "Reward" },
-  adjustment: { icon: "↩️", label: "Refund" },
-  refund: { icon: "↩️", label: "Refund" },
-};
-
-function pbDayLabel(d: Date): string {
-  const iso = (x: Date) =>
-    `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, "0")}-${String(
-      x.getDate(),
-    ).padStart(2, "0")}`;
-  const t = new Date();
-  const y = new Date();
-  y.setDate(y.getDate() - 1);
-  if (iso(d) === iso(t)) return "Today";
-  if (iso(d) === iso(y)) return "Yesterday";
-  return d.toLocaleDateString("en-AU", {
-    weekday: "short",
-    day: "numeric",
-    month: "short",
-  });
-}
-
-function ParentPassbookColumn({ kid }: { kid: KidRow }) {
-  const [txns, setTxns] = useState<PbTxn[]>([]);
+function ParentPassbookColumn({
+  kid,
+  profile,
+}: {
+  kid: KidRow;
+  profile: BeehaveProfile;
+}) {
+  const [txns, setTxns] = useState<CoinTxn[]>([]);
+  const [reds, setReds] = useState<RedemptionRowLite[]>([]);
   const [balance, setBalance] = useState(kid.coin_balance || 0);
   const [loaded, setLoaded] = useState(false);
+  const [busy, setBusy] = useState<string | null>(null);
+
+  const load = async () => {
+    if (!supabase) return;
+    const [{ data: bal }, { data: t }, { data: r }] = await Promise.all([
+      supabase.from("profiles").select("coin_balance").eq("id", kid.id).single(),
+      supabase
+        .from("coin_transactions")
+        .select("id, amount, reason, transaction_type, created_at")
+        .eq("kid_id", kid.id)
+        .order("created_at", { ascending: false })
+        .limit(200),
+      supabase
+        .from("reward_redemptions")
+        .select("*, reward:reward_id(name, icon)")
+        .eq("kid_id", kid.id)
+        .in("status", ["pending", "approved"])
+        .order("created_at", { ascending: false }),
+    ]);
+    setBalance((bal as { coin_balance?: number } | null)?.coin_balance ?? 0);
+    setTxns((t as CoinTxn[]) || []);
+    setReds((r as RedemptionRowLite[]) || []);
+    setLoaded(true);
+  };
 
   useEffect(() => {
     if (!supabase) return;
-    let cancelled = false;
-    const load = async () => {
-      const [{ data: bal }, { data }] = await Promise.all([
-        supabase
-          .from("profiles")
-          .select("coin_balance")
-          .eq("id", kid.id)
-          .single(),
-        supabase
-          .from("coin_transactions")
-          .select("id, amount, reason, transaction_type, created_at")
-          .eq("kid_id", kid.id)
-          .order("created_at", { ascending: false })
-          .limit(200),
-      ]);
-      if (!cancelled) {
-        setBalance(
-          (bal as { coin_balance?: number } | null)?.coin_balance ?? 0,
-        );
-        setTxns((data as PbTxn[]) || []);
-        setLoaded(true);
-      }
-    };
     void load();
     const ch = supabase
       .channel(`beehave-pb-${kid.id}`)
       .on(
         "postgres_changes",
-        {
-          event: "*",
-          schema: "public",
-          table: "coin_transactions",
-          filter: `kid_id=eq.${kid.id}`,
-        },
+        { event: "*", schema: "public", table: "coin_transactions", filter: `kid_id=eq.${kid.id}` },
+        () => void load(),
+      )
+      .on(
+        "postgres_changes",
+        { event: "*", schema: "public", table: "reward_redemptions", filter: `kid_id=eq.${kid.id}` },
         () => void load(),
       )
       .subscribe();
     return () => {
-      cancelled = true;
       void ch.unsubscribe();
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [kid.id]);
 
-  let after = balance;
-  const rows = txns.map((t) => {
-    const r = { ...t, after };
-    after = Math.max(0, after - t.amount);
-    return r;
-  });
-  const groups: {
-    day: string;
-    net: number;
-    items: (PbTxn & { after: number })[];
-  }[] = [];
-  for (const r of rows) {
-    const day = pbDayLabel(new Date(r.created_at));
-    let g = groups[groups.length - 1];
-    if (!g || g.day !== day) {
-      g = { day, net: 0, items: [] };
-      groups.push(g);
+  async function accept(e: PbEntry, note: string) {
+    if (!supabase) return;
+    setBusy(e.id);
+    try {
+      await supabase
+        .from("reward_redemptions")
+        .update({
+          status: "approved",
+          parent_note: note.trim() || null,
+          approved_by: profile.id,
+          approved_at: new Date().toISOString(),
+        })
+        .eq("id", e.id);
+      await load();
+    } finally {
+      setBusy(null);
     }
-    g.items.push(r);
-    g.net += r.amount;
   }
+
+  async function decline(e: PbEntry) {
+    if (!supabase) return;
+    setBusy(e.id);
+    try {
+      await supabase.from("reward_redemptions").delete().eq("id", e.id);
+      const { data: k } = await supabase
+        .from("profiles")
+        .select("coin_balance")
+        .eq("id", kid.id)
+        .single();
+      const before = (k as { coin_balance?: number } | null)?.coin_balance ?? 0;
+      await supabase
+        .from("profiles")
+        .update({ coin_balance: before + Math.abs(e.amount) })
+        .eq("id", kid.id);
+      await load();
+    } finally {
+      setBusy(null);
+    }
+  }
+
+  const groups = buildPassbook(txns, reds, balance);
 
   return (
     <div className="overflow-hidden rounded-2xl border border-border bg-surface">
@@ -3617,46 +3527,20 @@ function ParentPassbookColumn({ kid }: { kid: KidRow }) {
                 </span>
               </div>
               <div className="overflow-hidden rounded-xl border border-border">
-                {g.items.map((t, i) => {
-                  const m = PB_META[t.transaction_type] ?? {
-                    icon: "•",
-                    label: "Activity",
-                  };
-                  const pos = t.amount >= 0;
+                {g.items.map((e, i) => {
+                  const actionable =
+                    e.kind === "redemption" && e.status === "pending";
                   return (
-                    <div
-                      key={t.id}
-                      className={`flex items-center gap-2 px-3 py-2 ${
-                        i > 0 ? "border-t border-border" : ""
-                      }`}
-                    >
-                      <span className="text-[15px]">{m.icon}</span>
-                      <div className="min-w-0 flex-1">
-                        <div className="truncate text-[12px] font-medium">
-                          {t.reason || m.label}
-                        </div>
-                        <div className="text-[10px] text-muted">
-                          {m.label} ·{" "}
-                          {new Date(t.created_at).toLocaleTimeString("en-AU", {
-                            hour: "2-digit",
-                            minute: "2-digit",
-                          })}
-                        </div>
-                      </div>
-                      <div className="shrink-0 text-right">
-                        <div
-                          className={`text-[12px] font-bold tabular-nums ${
-                            pos ? "text-[#22c55e]" : "text-[#ef4444]"
-                          }`}
-                        >
-                          {pos ? "+" : ""}
-                          {t.amount}
-                        </div>
-                        <div className="text-[10px] tabular-nums text-muted">
-                          bal {t.after}
-                        </div>
-                      </div>
-                    </div>
+                    <PassbookRow
+                      key={e.id}
+                      e={e}
+                      border={i > 0}
+                      busy={busy === e.id}
+                      onAccept={
+                        actionable ? (note) => void accept(e, note) : undefined
+                      }
+                      onDecline={actionable ? () => void decline(e) : undefined}
+                    />
                   );
                 })}
               </div>
@@ -3668,19 +3552,23 @@ function ParentPassbookColumn({ kid }: { kid: KidRow }) {
   );
 }
 
-function ParentPassbooks({ kids }: { kids: KidRow[] }) {
+function ParentPassbooks({
+  kids,
+  profile,
+}: {
+  kids: KidRow[];
+  profile: BeehaveProfile;
+}) {
   if (kids.length === 0) {
-    return (
-      <p className="py-16 text-center text-sm text-muted">No kids yet.</p>
-    );
+    return <p className="py-16 text-center text-sm text-muted">No kids yet.</p>;
   }
   return (
     <div
-      className="grid gap-3"
+      className="mt-3 grid gap-3"
       style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}
     >
       {kids.map((k) => (
-        <ParentPassbookColumn key={k.id} kid={k} />
+        <ParentPassbookColumn key={k.id} kid={k} profile={profile} />
       ))}
     </div>
   );

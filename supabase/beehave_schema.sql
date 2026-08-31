@@ -163,10 +163,12 @@ create table if not exists reward_redemptions (
   reward_id   uuid references rewards(id),
   coins_spent integer not null,
   status      text default 'pending' check (status in ('pending','approved','rejected')),
+  parent_note text,                         -- note left when the parent accepts
   approved_by uuid references profiles(id),
   approved_at timestamptz,
   created_at  timestamptz default now()
 );
+alter table reward_redemptions add column if not exists parent_note text;
 
 -- ─── MESSAGES ────────────────────────────────────────────────
 create table if not exists messages (
