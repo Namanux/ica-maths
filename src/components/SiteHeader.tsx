@@ -18,8 +18,10 @@ const SECTION_TITLES: Record<string, string> = {
   icas: "Honeycomb",
 };
 
-// "Overview" is reached via the Beehave pill itself, so it's not listed here.
-const BEEHAVE_TABS = ["Approve", "Task", "Reward", "Message"] as const;
+// The Beehave pill itself is the section home (tasks for kids, Overview for
+// admins), so it isn't listed here.
+const ADMIN_BEEHAVE_TABS = ["Approve", "Task", "Reward", "Message"];
+const KID_BEEHAVE_TABS = ["Reward"];
 
 function pill(active: boolean) {
   return `whitespace-nowrap rounded-md px-2.5 py-1 text-sm transition-colors ${
@@ -56,11 +58,12 @@ export function SiteHeader() {
   const inBeehave = sectionSlug === "beehave";
   const inOtherSection = showTitle && !inBeehave;
   const isAdmin = profile?.role === "admin";
-  const showBeehaveTabs = inBeehave && isAdmin;
+  const showBeehaveTabs = inBeehave && isAdmin; // gates the Approve-badge fetch
   const activeTab = searchParams.get("tab") ?? "Overview";
-  // The Beehave pill doubles as the Overview tab for admins.
+  const beehaveSubTabs = isAdmin ? ADMIN_BEEHAVE_TABS : KID_BEEHAVE_TABS;
+  // The Beehave pill = the section home; highlighted unless a sub-tab is active.
   const beehavePillActive =
-    inBeehave && (!showBeehaveTabs || activeTab === "Overview");
+    inBeehave && !beehaveSubTabs.includes(activeTab);
 
   // Live coin score for the current profile — shown on the Beehave nav item.
   const [coins, setCoins] = useState<number | null>(null);
@@ -162,8 +165,8 @@ export function SiteHeader() {
               )}
             </Link>
 
-            {showBeehaveTabs &&
-              BEEHAVE_TABS.map((t) => {
+            {inBeehave &&
+              beehaveSubTabs.map((t) => {
                 const active = activeTab === t;
                 return (
                   <Link

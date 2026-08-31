@@ -7,6 +7,7 @@ import {
   type CSSProperties,
   type ChangeEvent,
 } from "react";
+import { useSearchParams } from "next/navigation";
 import { useBeehaveAuth, type BeehaveProfile } from "@/lib/beehaveAuth";
 import { getSupabaseClient } from "@/lib/supabase";
 import { beehave } from "@/lib/beehave";
@@ -420,6 +421,8 @@ const KID_ICON_CHOICES = [
 export function KidDashboard(_props: { profileSlug: string }) {
   const { profile, loading, error, refreshCurrentProfile } = useBeehaveAuth();
   const supabase = getSupabaseClient();
+  const searchParams = useSearchParams();
+  const rewardTab = searchParams.get("tab") === "Reward";
 
   const [tasks, setTasks] = useState<TaskRow[]>([]);
   const [completions, setCompletions] = useState<CompletionRow[]>([]);
@@ -1141,6 +1144,14 @@ export function KidDashboard(_props: { profileSlug: string }) {
         <p className="max-w-sm text-sm">
           {error ?? "No Beehave profile is linked to this account."}
         </p>
+      </div>
+    );
+  }
+
+  if (rewardTab) {
+    return (
+      <div className="flex flex-1 flex-col bg-background text-foreground">
+        <KidRewards />
       </div>
     );
   }
@@ -2106,6 +2117,189 @@ function TaskCard({
           </div>
         )}
       </div>
+    </div>
+  );
+}
+
+// ─── Kid Rewards tab ─────────────────────────────────────────────────────────
+type KidRewardRow = {
+  id: string;
+  name: string;
+  icon: string;
+  coin_cost: number;
+  description?: string | null;
+};
+
+type KidPendingRedemption = {
+  id: string;
+  coins_spent: number;
+  reward?: { name?: string; icon?: string } | null;
+};
+
+function KidRewards() {
+  const { profile, refreshCurrentProfile } = useBeehaveAuth();
+  const supabase = getSupabaseClient();
+
+  const [rewards, setRewards] = useState<KidRewardRow[]>([]);
+  const [pending, setPending] = useState<KidPendingRedemption[]>([]);
+  const [qty, setQty] = useState<Record<string, number>>({});
+  const [busy, setBusy] = useState<string | null>(null);
+  const [toast, setToast] = useState("");
+
+  const balance = profile?.coin_balance ?? 0;
+
+  const load = async () => {
+    if (!supabase || !profile) return;
+    const [{ data: rw }, { data: pd }] = await Promise.all([
+      supabase.from("rewards").select("*").eq("is_active", true).order("coin_cost"),
+      supabase
+        .from("reward_redemptions")
+        .select("*, reward:reward_id(name, icon)")
+        .eq("kid_id", profile.id)
+        .eq("status", "pending")
+        .order("created_at", { ascending: false }),
+    ]);
+    setRewards((rw as KidRewardRow[]) || []);
+    setPending((pd as KidPendingRedemption[]) || []);
+  };
+
+  useEffect(() => {
+    void load();
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [profile?.id]);
+
+  function setQ(id: string, n: number) {
+    setQty((m) => ({ ...m, [id]: Math.max(1, n) }));
+  }
+
+  async function redeem(r: KidRewardRow) {
+    if (!supabase || !profile) return;
+    const n = qty[r.id] || 1;
+    const cost = n * r.coin_cost;
+    if (n < 1 || cost > balance) return;
+    setBusy(r.id);
+    try {
+      await supabase.from("reward_redemptions").insert({
+        kid_id: profile.id,
+        reward_id: r.id,
+        coins_spent: cost,
+        status: "pending",
+      });
+      await supabase.from("coin_transactions").insert({
+        kid_id: profile.id,
+        amount: -cost,
+        reason: `Redeemed: ${r.name}${n > 1 ? ` x${n}` : ""}`,
+        transaction_type: "redemption",
+      });
+      await supabase
+        .from("profiles")
+        .update({ coin_balance: Math.max(0, balance - cost) })
+        .eq("id", profile.id);
+      playSound("coin");
+      await refreshCurrentProfile();
+      await load();
+      setQ(r.id, 1);
+      setToast(`Sent to your parent — ${r.icon} ${r.name}${n > 1 ? ` x${n}` : ""}`);
+      setTimeout(() => setToast(""), 3000);
+    } finally {
+      setBusy(null);
+    }
+  }
+
+  return (
+    <div className="flex-1 overflow-y-auto px-3.5 pb-24 pt-3.5">
+      <div className="mb-3 flex items-center justify-between">
+        <h2 className="text-[17px] font-extrabold">Rewards</h2>
+        <span className="flex items-center gap-1 text-[14px] font-bold text-[#f5c518]">
+          <GoldCoin size={14} /> {balance}
+        </span>
+      </div>
+
+      {pending.length > 0 && (
+        <div className="mb-4 flex flex-col gap-1.5">
+          {pending.map((p) => (
+            <div
+              key={p.id}
+              className="flex items-center justify-between rounded-lg border border-[#a855f7]/30 bg-[#a855f7]/10 px-3 py-2 text-[12px]"
+            >
+              <span className="font-medium text-[#a855f7]">
+                ⏳ {p.reward?.icon} {p.reward?.name} — waiting for parent
+              </span>
+              <span className="flex items-center gap-1 text-[#f5c518]">
+                <GoldCoin size={10} /> {p.coins_spent}
+              </span>
+            </div>
+          ))}
+        </div>
+      )}
+
+      {rewards.length === 0 ? (
+        <p className="py-16 text-center text-sm text-muted">No rewards yet.</p>
+      ) : (
+        rewards.map((r) => {
+          const n = qty[r.id] || 1;
+          const canAfford = balance >= r.coin_cost;
+          const totalCost = n * r.coin_cost;
+          const overBudget = totalCost > balance;
+          return (
+            <div
+              key={r.id}
+              className={`mb-2 flex items-center gap-3 rounded-2xl border border-border bg-surface p-4 ${
+                canAfford ? "" : "opacity-50"
+              }`}
+            >
+              <span className="text-[28px]">{r.icon}</span>
+              <div className="min-w-0 flex-1">
+                <div className="text-[15px] font-semibold">{r.name}</div>
+                {r.description && (
+                  <div className="text-[13px] text-muted">{r.description}</div>
+                )}
+                <div className="mt-0.5 flex items-center gap-1 text-[12px] text-[#f5c518]">
+                  <GoldCoin size={11} /> {r.coin_cost} each
+                </div>
+              </div>
+
+              <div className="flex shrink-0 items-center gap-1.5">
+                <button
+                  onClick={() => setQ(r.id, n - 1)}
+                  disabled={!canAfford || n <= 1}
+                  className="h-7 w-7 rounded-lg border border-border bg-background text-[16px] font-bold disabled:opacity-30"
+                >
+                  −
+                </button>
+                <span className="w-5 text-center text-[14px] font-bold tabular-nums">
+                  {n}
+                </span>
+                <button
+                  onClick={() => setQ(r.id, n + 1)}
+                  disabled={!canAfford || (n + 1) * r.coin_cost > balance}
+                  className="h-7 w-7 rounded-lg border border-border bg-background text-[16px] font-bold disabled:opacity-30"
+                >
+                  +
+                </button>
+              </div>
+
+              <button
+                onClick={() => redeem(r)}
+                disabled={!canAfford || overBudget || busy === r.id}
+                className="shrink-0 rounded-xl border border-[#22c55e]/40 bg-[#22c55e]/15 px-3.5 py-2 text-[13px] font-bold text-[#22c55e] disabled:cursor-not-allowed disabled:opacity-40"
+              >
+                {busy === r.id
+                  ? "…"
+                  : !canAfford
+                  ? "Not enough 🪙"
+                  : `Redeem ${totalCost}`}
+              </button>
+            </div>
+          );
+        })
+      )}
+
+      {toast && (
+        <div className="fixed bottom-6 left-1/2 z-[200] -translate-x-1/2 whitespace-nowrap rounded-full bg-[#22c55e]/95 px-4 py-2 text-[13px] font-bold text-[#052e16] shadow-lg">
+          🎁 {toast}
+        </div>
+      )}
     </div>
   );
 }
