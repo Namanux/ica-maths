@@ -1551,17 +1551,14 @@ function AwardCard({ kids }: { kids: KidRow[] }) {
 
   return (
     <div className={cardCls}>
-      <div className="mb-3 flex items-center gap-2">
-        <span className="text-[16px]">⭐</span>
-        <h3 className="font-bold">Award coins</h3>
-      </div>
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="shrink-0 text-[15px] font-bold">⭐ Award</span>
 
-      <div className="mb-2.5 flex flex-wrap gap-2">
         {kids.map((k) => (
           <button
             key={k.id}
             onClick={() => setKidId(k.id)}
-            className="flex items-center gap-1.5 rounded-[20px] px-3.5 py-2 text-[14px] font-semibold"
+            className="flex shrink-0 items-center gap-1 rounded-full px-2.5 py-1.5 text-[13px] font-semibold"
             style={{
               background:
                 kidId === k.id ? "rgba(245,197,24,0.18)" : "var(--surface)",
@@ -1571,30 +1568,27 @@ function AwardCard({ kids }: { kids: KidRow[] }) {
               color: kidId === k.id ? "#f5c518" : "var(--muted)",
             }}
           >
-            <span className="text-[16px]">{k.avatar_emoji}</span> {k.name}
+            <span className="text-[14px]">{k.avatar_emoji}</span> {k.name}
           </button>
         ))}
-      </div>
 
-      <input
-        value={note}
-        onChange={(e) => setNote(e.target.value)}
-        placeholder="Note (reason)"
-        className="mb-2.5 w-full rounded-[10px] border border-border bg-surface px-4 py-3 text-[14px] text-foreground"
-      />
-
-      <div className="flex items-center gap-2.5">
+        <input
+          value={note}
+          onChange={(e) => setNote(e.target.value)}
+          placeholder="Note (reason)"
+          className="min-w-[110px] flex-1 rounded-[10px] border border-border bg-surface px-3 py-2 text-[13px] text-foreground"
+        />
         <input
           type="number"
           value={score}
           onChange={(e) => setScore(e.target.value)}
-          placeholder="Score — use a minus sign to deduct"
-          className="flex-1 rounded-[10px] border border-border bg-surface px-4 py-3 text-[14px] text-foreground"
+          placeholder="Score (– to deduct)"
+          className="w-[140px] shrink-0 rounded-[10px] border border-border bg-surface px-3 py-2 text-[13px] text-foreground"
         />
         <button
           onClick={award}
           disabled={!valid}
-          className="shrink-0 rounded-[10px] bg-[#f5c518] px-6 py-3 text-[14px] font-semibold text-[#0f0f1a] disabled:opacity-40"
+          className="shrink-0 rounded-[10px] bg-[#f5c518] px-5 py-2 text-[13px] font-semibold text-[#0f0f1a] disabled:opacity-40"
         >
           {busy ? "…" : "Award"}
         </button>
