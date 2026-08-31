@@ -194,7 +194,7 @@ export function SiteHeader() {
             className="flex items-center gap-1.5 text-sm text-muted hover:text-foreground transition-colors"
           >
             <span className="h-1.5 w-1.5 rounded-full bg-correct" aria-hidden />
-            Live activity
+            Live
           </Link>
         )}
         <ThemeToggle />
