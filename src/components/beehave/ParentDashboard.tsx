@@ -1766,19 +1766,9 @@ function ApproveTab({
     onApprove();
   }
 
-  const nothing = queue.length === 0 && initiativeQueue.length === 0;
-
   return (
     <div>
       <AwardCard kids={kids} />
-
-      {nothing && (
-        <div className="px-5 py-[40px] text-center text-muted">
-          <div className="mb-3 text-[40px]">✅</div>
-          <p className="font-semibold">Nothing to approve</p>
-          <p className="mt-2 text-[14px]">You&apos;re all caught up!</p>
-        </div>
-      )}
 
       {queue.length > 0 && (
         <>
