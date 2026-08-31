@@ -2126,6 +2126,26 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
   const [form, setForm] = useState<Partial<TaskRow> | null>(null);
   const [importing, setImporting] = useState(false);
   const importRef = useRef<HTMLInputElement | null>(null);
+  const rowTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  function rowGesture(onEdit: () => void, onDelete: () => void) {
+    return {
+      onClick: () => {
+        if (rowTimer.current) return;
+        rowTimer.current = setTimeout(() => {
+          rowTimer.current = null;
+          onEdit();
+        }, 220);
+      },
+      onDoubleClick: () => {
+        if (rowTimer.current) {
+          clearTimeout(rowTimer.current);
+          rowTimer.current = null;
+        }
+        onDelete();
+      },
+    };
+  }
 
   useEffect(() => {
     void loadTasks();
@@ -2476,10 +2496,17 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
         />
       </div>
 
+      <p className="mb-2 px-1 text-[11px] text-muted">
+        Click a task to edit · double-click to delete
+      </p>
       {tasks.map((task) => (
         <div
           key={task.id}
-          className={`${cardCls} flex items-center gap-3`}
+          {...rowGesture(
+            () => setForm(task),
+            () => void deleteTask(task.id),
+          )}
+          className={`${cardCls} flex cursor-pointer select-none items-center gap-3`}
         >
           <span
             className="shrink-0 text-[28px]"
@@ -2518,20 +2545,6 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
               🪙 {task.full_coins} full · {task.min_coins} min · −
               {task.penalty_coins} penalty
             </div>
-          </div>
-          <div className="flex gap-1.5">
-            <button
-              onClick={() => setForm(task)}
-              className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
-            >
-              Edit
-            </button>
-            <button
-              onClick={() => deleteTask(task.id)}
-              className="rounded-lg bg-[#ef4444]/10 px-3 py-1.5 text-[13px] text-[#ef4444]"
-            >
-              Del
-            </button>
           </div>
         </div>
       ))}
@@ -3141,6 +3154,26 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
   const [sortBy, setSortBy] = useState<RewardSort>("cheap");
   const [importing, setImporting] = useState(false);
   const importRef = useRef<HTMLInputElement | null>(null);
+  const rowTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  function rowGesture(onEdit: () => void, onDelete: () => void) {
+    return {
+      onClick: () => {
+        if (rowTimer.current) return;
+        rowTimer.current = setTimeout(() => {
+          rowTimer.current = null;
+          onEdit();
+        }, 220);
+      },
+      onDoubleClick: () => {
+        if (rowTimer.current) {
+          clearTimeout(rowTimer.current);
+          rowTimer.current = null;
+        }
+        onDelete();
+      },
+    };
+  }
   const [form, setForm] = useState<{
     id?: string;
     name: string;
@@ -3364,10 +3397,13 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
         tab, where you accept or decline them.
       </p>
 
-      <div className="mb-2.5 flex items-center justify-between gap-2">
+      <div className="mb-1 flex items-center justify-between gap-2">
         <h3 className="font-semibold text-muted">Available Rewards</h3>
         <RewardSortSelect value={sortBy} onChange={setSortBy} />
       </div>
+      <p className="mb-2.5 px-1 text-[11px] text-muted">
+        Click a reward to edit · double-click to delete
+      </p>
 
       {REWARD_CATEGORIES.map((cat) => {
         const items = sortRewards(
@@ -3386,7 +3422,11 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
               ) : (
                 <div
                   key={r.id}
-                  className={`${cardCls} mb-2 flex items-center gap-3`}
+                  {...rowGesture(
+                    () => startEditReward(r),
+                    () => void deleteReward(r),
+                  )}
+                  className={`${cardCls} mb-2 flex cursor-pointer select-none items-center gap-3`}
                 >
                   <span
                     className="text-[28px]"
@@ -3405,26 +3445,15 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
                   <div className="font-bold text-[#f5c518]">
                     🪙 {r.coin_cost}
                   </div>
-                  <div className="flex gap-1.5">
-                    <button
-                      onClick={() => startEditReward(r)}
-                      className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
-                    >
-                      Edit
-                    </button>
-                    <button
-                      onClick={() => duplicateReward(r)}
-                      className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
-                    >
-                      Duplicate
-                    </button>
-                    <button
-                      onClick={() => deleteReward(r)}
-                      className="rounded-lg bg-[#ef4444]/10 px-3 py-1.5 text-[13px] text-[#ef4444]"
-                    >
-                      Del
-                    </button>
-                  </div>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      void duplicateReward(r);
+                    }}
+                    className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
+                  >
+                    Duplicate
+                  </button>
                 </div>
               ),
             )}
