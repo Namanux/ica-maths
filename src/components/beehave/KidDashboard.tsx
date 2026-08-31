@@ -2177,9 +2177,9 @@ export function scaledRewardValue(name: string, qty: number): string | null {
 }
 
 export const REWARD_CATEGORIES = [
-  "Screen time",
-  "Money",
   "Experiences",
+  "Money",
+  "Screen time",
   "Other",
 ] as const;
 
@@ -2353,56 +2353,61 @@ function KidRewards() {
     return (
       <div
         key={r.id}
-        className={`mb-2 flex items-center gap-3 rounded-2xl border border-border bg-surface p-4 ${
+        className={`mb-2 rounded-2xl border border-border bg-surface p-3 ${
           canAfford ? "" : "opacity-50"
         }`}
       >
-        <span className="text-[28px]">{r.icon}</span>
-        <div className="min-w-0 flex-1">
-          <div className="text-[15px] font-semibold">{r.name}</div>
-          {r.description && (
-            <div className="text-[13px] text-muted">{r.description}</div>
-          )}
-          <div className="mt-0.5 flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-[12px] text-[#f5c518]">
-            <span className="flex items-center gap-1">
-              <GoldCoin size={11} /> {r.coin_cost} each
-            </span>
-            {val && (
-              <span className="font-bold">
-                · {n > 1 ? `${n} = ` : ""}
-                {val}
-              </span>
+        <div className="flex items-start gap-2.5">
+          <span className="text-[24px] leading-none">{r.icon}</span>
+          <div className="min-w-0 flex-1">
+            <div className="text-[14px] font-semibold">{r.name}</div>
+            {r.description && (
+              <div className="truncate text-[12px] text-muted">
+                {r.description}
+              </div>
             )}
+            <div className="mt-0.5 flex flex-wrap items-center gap-x-1.5 gap-y-0.5 text-[11px] text-[#f5c518]">
+              <span className="flex items-center gap-1">
+                <GoldCoin size={10} /> {r.coin_cost} each
+              </span>
+              {val && (
+                <span className="font-bold">
+                  · {n > 1 ? `${n} = ` : ""}
+                  {val}
+                </span>
+              )}
+            </div>
           </div>
         </div>
 
-        <div className="flex shrink-0 items-center gap-1.5">
+        <div className="mt-2 flex items-center justify-end gap-2">
+          <div className="flex items-center gap-1.5">
+            <button
+              onClick={() => setQ(r.id, n - 1)}
+              disabled={!canAfford || n <= 1}
+              className="h-7 w-7 rounded-lg border border-border bg-background text-[16px] font-bold disabled:opacity-30"
+            >
+              −
+            </button>
+            <span className="w-5 text-center text-[14px] font-bold tabular-nums">
+              {n}
+            </span>
+            <button
+              onClick={() => setQ(r.id, n + 1)}
+              disabled={!canAfford || (n + 1) * r.coin_cost > balance}
+              className="h-7 w-7 rounded-lg border border-border bg-background text-[16px] font-bold disabled:opacity-30"
+            >
+              +
+            </button>
+          </div>
           <button
-            onClick={() => setQ(r.id, n - 1)}
-            disabled={!canAfford || n <= 1}
-            className="h-7 w-7 rounded-lg border border-border bg-background text-[16px] font-bold disabled:opacity-30"
+            onClick={() => redeem(r)}
+            disabled={!canAfford || overBudget}
+            className="rounded-xl border border-[#22c55e]/40 bg-[#22c55e]/15 px-3.5 py-2 text-[13px] font-bold text-[#22c55e] disabled:cursor-not-allowed disabled:opacity-40"
           >
-            −
-          </button>
-          <span className="w-5 text-center text-[14px] font-bold tabular-nums">
-            {n}
-          </span>
-          <button
-            onClick={() => setQ(r.id, n + 1)}
-            disabled={!canAfford || (n + 1) * r.coin_cost > balance}
-            className="h-7 w-7 rounded-lg border border-border bg-background text-[16px] font-bold disabled:opacity-30"
-          >
-            +
+            {!canAfford ? "Not enough 🪙" : `Redeem ${totalCost}`}
           </button>
         </div>
-
-        <button
-          onClick={() => redeem(r)}
-          disabled={!canAfford || overBudget}
-          className="shrink-0 rounded-xl border border-[#22c55e]/40 bg-[#22c55e]/15 px-3.5 py-2 text-[13px] font-bold text-[#22c55e] disabled:cursor-not-allowed disabled:opacity-40"
-        >
-          {!canAfford ? "Not enough 🪙" : `Redeem ${totalCost}`}
-        </button>
       </div>
     );
   };

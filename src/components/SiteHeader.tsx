@@ -26,7 +26,7 @@ const ADMIN_BEEHAVE_TABS = ["Passbook", "Task", "Reward", "Message"];
 const KID_BEEHAVE_TABS = ["Passbook", "Reward"];
 
 function pill(active: boolean) {
-  return `whitespace-nowrap rounded-md px-2.5 py-1 text-sm transition-colors ${
+  return `whitespace-nowrap rounded-md px-2 py-1 text-[13px] transition-colors ${
     active
       ? "bg-surface font-semibold text-foreground"
       : "text-muted hover:text-foreground"
@@ -189,8 +189,8 @@ export function SiteHeader() {
   }, [pathname, activeTab]);
 
   return (
-    <div className="flex items-center justify-between gap-3">
-      <nav className="flex min-w-0 items-center gap-1 overflow-x-auto">
+    <div className="flex items-center justify-between gap-2">
+      <nav className="flex min-w-0 flex-wrap items-center gap-x-1 gap-y-1">
         {profile && (
           <>
             <Link href={`/${profile.slug}`} className={pill(isHome)}>

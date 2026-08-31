@@ -50,7 +50,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       <head>
         <script dangerouslySetInnerHTML={{ __html: themeInitScript }} />
       </head>
-      <body className="min-h-full flex flex-col bg-background text-foreground">
+      <body className="min-h-full flex flex-col overflow-x-hidden bg-background text-foreground">
         <ThemeProvider>
           <PresenceTracker />
           <header className="sticky top-0 z-10 border-b border-border bg-background no-print">
