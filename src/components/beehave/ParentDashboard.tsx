@@ -117,12 +117,28 @@ const TASK_EMOJIS = [
   "⬆️", "⬇️", "➡️", "↩️", "♾️",
 ];
 
+// Kid- / money- / reward-focused set for the Rewards form.
+const REWARD_EMOJIS = [
+  "🎁", "🎀", "🏆", "🥇", "🎖️", "⭐", "🌟", "✨",
+  "🎉", "🎊", "🎈", "💯", "💎", "💰", "💵", "🪙",
+  "🛍️", "🛒", "🎮", "🕹️", "📱", "💻", "📺", "🎧",
+  "🎬", "🍿", "🎟️", "🎡", "🎢", "🎠", "🏰", "🧸",
+  "🚲", "🛴", "🛹", "⚽", "🏀", "🎾", "🏓", "🎯",
+  "🎨", "🖍️", "🎤", "🎸", "🥁", "🎲", "🧩", "📚",
+  "🍦", "🍩", "🍪", "🎂", "🧁", "🍫", "🍭", "🍕",
+  "🍔", "🍟", "🥤", "🧃", "🍉", "🍓", "🐶", "🐱",
+  "🐰", "🦄", "🐢", "🌈", "🔥", "🏖️", "⛺", "🎣",
+  "🚗", "✈️", "🎓", "🛌", "⏰", "🕐", "😴", "🎵",
+];
+
 function EmojiPicker({
   value,
   onChange,
+  emojis = TASK_EMOJIS,
 }: {
   value: string;
   onChange: (v: string) => void;
+  emojis?: string[];
 }) {
   const [open, setOpen] = useState(false);
   return (
@@ -149,7 +165,7 @@ function EmojiPicker({
           <div
             className="absolute left-0 top-full z-[100] mt-1 grid max-h-[220px] w-[296px] grid-cols-8 gap-0.5 overflow-y-auto rounded-xl border border-border bg-surface p-2.5 shadow-2xl"
           >
-            {TASK_EMOJIS.map((e) => (
+            {emojis.map((e) => (
               <button
                 key={e}
                 type="button"
@@ -3197,6 +3213,63 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
     void loadRewards();
   }
 
+  const rewardForm = (
+    <div className={`${cardCls} mb-2`}>
+      <div className="mb-2.5 flex gap-2">
+        <EmojiPicker
+          value={form.icon}
+          onChange={(emoji) => setForm((f) => ({ ...f, icon: emoji }))}
+          emojis={REWARD_EMOJIS}
+        />
+        <input
+          value={form.name}
+          placeholder="Reward name"
+          onChange={(e) => setForm((f) => ({ ...f, name: e.target.value }))}
+          className="flex-1 rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
+        />
+      </div>
+      <input
+        value={form.description}
+        placeholder="Description (optional)"
+        onChange={(e) =>
+          setForm((f) => ({ ...f, description: e.target.value }))
+        }
+        className="mb-2.5 w-full rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
+      />
+      <div className="mb-3 flex items-center gap-2.5">
+        <span className="text-[16px] text-[#f5c518]">🪙 Cost:</span>
+        <input
+          type="number"
+          value={form.coin_cost}
+          onChange={(e) =>
+            setForm((f) => ({
+              ...f,
+              coin_cost: parseInt(e.target.value) || 0,
+            }))
+          }
+          className="w-[100px] rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
+        />
+      </div>
+      <div className="flex gap-2">
+        <button
+          onClick={() => {
+            setShowForm(false);
+            setForm(blankReward());
+          }}
+          className="rounded-[10px] border border-border bg-surface px-4 py-3 text-[14px] font-semibold text-muted"
+        >
+          Cancel
+        </button>
+        <button
+          onClick={saveReward}
+          className="flex-1 rounded-[10px] bg-[#f5c518] px-6 py-3 font-semibold text-[#0f0f1a]"
+        >
+          {form.id ? "Update Reward" : "Save Reward"}
+        </button>
+      </div>
+    </div>
+  );
+
   return (
     <div>
       <div className="mb-4 flex items-center justify-between">
@@ -3212,52 +3285,7 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
         </button>
       </div>
 
-      {showForm && (
-        <div className={cardCls}>
-          <div className="mb-2.5 flex gap-2">
-            <EmojiPicker
-              value={form.icon}
-              onChange={(emoji) => setForm((f) => ({ ...f, icon: emoji }))}
-            />
-            <input
-              value={form.name}
-              placeholder="Reward name"
-              onChange={(e) =>
-                setForm((f) => ({ ...f, name: e.target.value }))
-              }
-              className="flex-1 rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
-            />
-          </div>
-          <input
-            value={form.description}
-            placeholder="Description (optional)"
-            onChange={(e) =>
-              setForm((f) => ({ ...f, description: e.target.value }))
-            }
-            className="mb-2.5 w-full rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
-          />
-          <div className="mb-3 flex items-center gap-2.5">
-            <span className="text-[16px] text-[#f5c518]">🪙 Cost:</span>
-            <input
-              type="number"
-              value={form.coin_cost}
-              onChange={(e) =>
-                setForm((f) => ({
-                  ...f,
-                  coin_cost: parseInt(e.target.value) || 0,
-                }))
-              }
-              className="w-[100px] rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
-            />
-          </div>
-          <button
-            onClick={saveReward}
-            className="w-full rounded-[10px] bg-[#f5c518] px-6 py-3 font-semibold text-[#0f0f1a]"
-          >
-            {form.id ? "Update Reward" : "Save Reward"}
-          </button>
-        </div>
-      )}
+      {showForm && !form.id && rewardForm}
 
       <p className="mb-3 text-[13px] text-muted">
         Redemptions land in the <span className="font-semibold">Passbook</span>{" "}
@@ -3265,34 +3293,41 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
       </p>
 
       <h3 className="mb-2.5 font-semibold text-muted">Available Rewards</h3>
-      {rewards.map((r) => (
-        <div key={r.id} className={`${cardCls} mb-2 flex items-center gap-3`}>
-          <span className="text-[28px]" style={{ fontFamily: EMOJI_FONT }}>
-            {r.icon}
-          </span>
-          <div className="flex-1">
-            <div className="font-semibold">{r.name}</div>
-            {r.description && (
-              <div className="text-[13px] text-muted">{r.description}</div>
-            )}
+      {rewards.map((r) =>
+        showForm && form.id === r.id ? (
+          <div key={r.id}>{rewardForm}</div>
+        ) : (
+          <div
+            key={r.id}
+            className={`${cardCls} mb-2 flex items-center gap-3`}
+          >
+            <span className="text-[28px]" style={{ fontFamily: EMOJI_FONT }}>
+              {r.icon}
+            </span>
+            <div className="flex-1">
+              <div className="font-semibold">{r.name}</div>
+              {r.description && (
+                <div className="text-[13px] text-muted">{r.description}</div>
+              )}
+            </div>
+            <div className="font-bold text-[#f5c518]">🪙 {r.coin_cost}</div>
+            <div className="flex gap-1.5">
+              <button
+                onClick={() => startEditReward(r)}
+                className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
+              >
+                Edit
+              </button>
+              <button
+                onClick={() => deleteReward(r)}
+                className="rounded-lg bg-[#ef4444]/10 px-3 py-1.5 text-[13px] text-[#ef4444]"
+              >
+                Del
+              </button>
+            </div>
           </div>
-          <div className="font-bold text-[#f5c518]">🪙 {r.coin_cost}</div>
-          <div className="flex gap-1.5">
-            <button
-              onClick={() => startEditReward(r)}
-              className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
-            >
-              Edit
-            </button>
-            <button
-              onClick={() => deleteReward(r)}
-              className="rounded-lg bg-[#ef4444]/10 px-3 py-1.5 text-[13px] text-[#ef4444]"
-            >
-              Del
-            </button>
-          </div>
-        </div>
-      ))}
+        ),
+      )}
     </div>
   );
 }
