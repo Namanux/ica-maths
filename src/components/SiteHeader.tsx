@@ -160,7 +160,8 @@ export function SiteHeader() {
     };
   }, [showBeehaveTabs]);
 
-  // Pin the coin score into the header once the big in-page one scrolls away.
+  // Pin the coin score into the header the moment the big in-page one slips
+  // under the sticky nav bar's bottom edge (not when it's fully off-screen).
   const [coinPinned, setCoinPinned] = useState(false);
   useEffect(() => {
     let io: IntersectionObserver | null = null;
@@ -169,9 +170,12 @@ export function SiteHeader() {
     const attach = () => {
       const el = document.getElementById("beehave-coin-big");
       if (el) {
+        const headerH = Math.ceil(
+          document.querySelector("header")?.getBoundingClientRect().height ?? 0,
+        );
         io = new IntersectionObserver(
-          ([e]) => setCoinPinned(!e.isIntersecting),
-          { threshold: 0 },
+          ([e]) => setCoinPinned(e.intersectionRatio < 1),
+          { threshold: [0, 1], rootMargin: `-${headerH}px 0px 0px 0px` },
         );
         io.observe(el);
       } else if (tries++ < 20) {
