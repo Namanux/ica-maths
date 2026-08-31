@@ -1,9 +1,8 @@
 "use client";
 
 import { useEffect, useState, type FormEvent } from "react";
-import Link from "next/link";
 import { useRouter } from "next/navigation";
-import { PROFILES, getProfile, type Profile } from "@/lib/profiles";
+import { PROFILES, getProfile } from "@/lib/profiles";
 
 export const REMEMBER_KEY = "honeycomb-profile";
 
@@ -12,16 +11,24 @@ export default function ProfilePicker() {
   const [username, setUsername] = useState("");
   const [password, setPassword] = useState("");
   const [error, setError] = useState("");
-  const [remembered, setRemembered] = useState<Profile | null>(null);
+  // "checking" until we know whether to auto-resume; "name" while redirecting.
+  const [autoName, setAutoName] = useState<string | null>(null);
+  const [checked, setChecked] = useState(false);
 
   useEffect(() => {
+    let slug: string | null = null;
     try {
-      const slug = localStorage.getItem(REMEMBER_KEY);
-      if (slug) setRemembered(getProfile(slug) ?? null);
+      slug = localStorage.getItem(REMEMBER_KEY);
     } catch {
       /* storage unavailable */
     }
-  }, []);
+    const profile = slug ? getProfile(slug) : undefined;
+    if (profile) {
+      setAutoName(profile.name);
+      router.replace(`/${profile.slug}`);
+    }
+    setChecked(true);
+  }, [router]);
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
@@ -41,27 +48,23 @@ export default function ProfilePicker() {
     router.push(`/${profile.slug}`);
   };
 
+  if (!checked || autoName) {
+    return (
+      <div className="flex flex-col items-center justify-center gap-3 py-24 text-muted">
+        <div className="text-4xl">🍯</div>
+        <p className="text-sm">
+          {autoName ? `Signing in as ${autoName}…` : "…"}
+        </p>
+      </div>
+    );
+  }
+
   return (
     <div className="flex flex-col gap-6">
       <div>
         <h1 className="text-2xl font-semibold tracking-tight">Who&apos;s practising?</h1>
         <p className="text-muted mt-1">Sign in with your name.</p>
       </div>
-
-      {remembered && (
-        <Link
-          href={`/${remembered.slug}`}
-          className="flex items-center justify-between rounded-lg border border-accent bg-accent/10 p-5 hover:bg-accent/20 transition-colors"
-        >
-          <span className="flex items-center gap-3">
-            <span className="flex h-10 w-10 items-center justify-center rounded-full bg-surface text-lg font-semibold">
-              {remembered.name.charAt(0).toUpperCase()}
-            </span>
-            <span className="font-medium">Continue as {remembered.name}</span>
-          </span>
-          <span aria-hidden className="text-muted">→</span>
-        </Link>
-      )}
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-3 rounded-lg border border-border p-6">
         <label className="flex flex-col gap-1 text-sm font-medium">
@@ -94,7 +97,7 @@ export default function ProfilePicker() {
           type="submit"
           className="mt-2 rounded-full bg-accent text-background px-5 py-2.5 font-medium hover:opacity-90 transition-opacity"
         >
-          {remembered ? "Switch profile" : "Log in"}
+          Log in
         </button>
       </form>
     </div>
