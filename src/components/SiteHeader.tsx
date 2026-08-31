@@ -20,11 +20,21 @@ const SECTION_TITLES: Record<string, string> = {
 
 const BEEHAVE_TABS = ["Overview", "Approve", "Task", "Reward", "Message"] as const;
 
+function pill(active: boolean) {
+  return `whitespace-nowrap rounded-md px-2.5 py-1 text-sm transition-colors ${
+    active
+      ? "bg-surface font-semibold text-foreground"
+      : "text-muted hover:text-foreground"
+  }`;
+}
+
 export function SiteHeader() {
   const pathname = usePathname();
   const searchParams = useSearchParams();
   const segments = pathname.split("/").filter(Boolean);
   const profile = segments.length > 0 ? getProfile(segments[0]) : undefined;
+
+  const isHome = segments.length === 1;
   const showTitle = segments.length > 1;
 
   // On an exam route the section comes from the paper; otherwise it's the
@@ -43,10 +53,12 @@ export function SiteHeader() {
   const sectionHref = examPaper ? examHomeSlug(examPaper) : sectionSlug;
 
   const inBeehave = sectionSlug === "beehave";
-  const showBeehaveTabs = inBeehave && profile?.role === "admin";
+  const inOtherSection = showTitle && !inBeehave;
+  const isAdmin = profile?.role === "admin";
+  const showBeehaveTabs = inBeehave && isAdmin;
   const activeTab = searchParams.get("tab") ?? "Overview";
 
-  // Live coin score for the current profile — shown beside the Beehave link.
+  // Live coin score for the current profile — shown on the Beehave nav item.
   const [coins, setCoins] = useState<number | null>(null);
   useEffect(() => {
     const supabase = getSupabaseClient();
@@ -130,65 +142,55 @@ export function SiteHeader() {
 
   return (
     <div className="flex items-center justify-between gap-3">
-      <div className="flex min-w-0 items-center gap-3">
-        {showTitle && profile && (
-          <Link
-            href={`/${profile.slug}`}
-            className="shrink-0 text-sm text-muted hover:text-foreground transition-colors"
-          >
-            Home
-          </Link>
-        )}
+      <nav className="flex min-w-0 items-center gap-1 overflow-x-auto">
+        {profile && (
+          <>
+            <Link href={`/${profile.slug}`} className={pill(isHome)}>
+              Home
+            </Link>
+            <Link
+              href={`/${profile.slug}/beehave`}
+              className={`flex items-center gap-1.5 ${pill(inBeehave)}`}
+            >
+              <span>Beehave</span>
+              {coins !== null && (
+                <span className="font-medium text-[#f5c518]">🪙 {coins}</span>
+              )}
+            </Link>
 
-        {inBeehave && profile?.role === "admin" ? (
-          <nav className="flex items-center gap-1 overflow-x-auto">
-            {BEEHAVE_TABS.map((t) => {
-              const active = activeTab === t;
-              return (
-                <Link
-                  key={t}
-                  href={`/${profile.slug}/beehave?tab=${t}`}
-                  className={`relative whitespace-nowrap rounded-md px-2.5 py-1 text-sm transition-colors ${
-                    active
-                      ? "bg-surface font-semibold text-foreground"
-                      : "text-muted hover:text-foreground"
-                  }`}
-                >
-                  {t}
-                  {t === "Approve" && pending > 0 && (
-                    <span className="absolute -right-1 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-incorrect px-1 text-[10px] font-bold text-background">
-                      {pending}
-                    </span>
-                  )}
-                </Link>
-              );
-            })}
-          </nav>
-        ) : showTitle ? (
-          <Link
-            href={profile ? `/${profile.slug}/${sectionHref}` : "/"}
-            className="shrink-0 font-semibold tracking-tight"
-          >
-            {sectionTitle}
-          </Link>
-        ) : (
-          <span />
+            {showBeehaveTabs &&
+              BEEHAVE_TABS.map((t) => {
+                const active = activeTab === t;
+                return (
+                  <Link
+                    key={t}
+                    href={`/${profile.slug}/beehave?tab=${t}`}
+                    className={`relative ${pill(active)}`}
+                  >
+                    {t}
+                    {t === "Approve" && pending > 0 && (
+                      <span className="absolute -right-1 -top-1 flex h-4 min-w-4 items-center justify-center rounded-full bg-incorrect px-1 text-[10px] font-bold text-background">
+                        {pending}
+                      </span>
+                    )}
+                  </Link>
+                );
+              })}
+
+            {inOtherSection && (
+              <Link
+                href={`/${profile.slug}/${sectionHref}`}
+                className={pill(true)}
+              >
+                {sectionTitle}
+              </Link>
+            )}
+          </>
         )}
-      </div>
+      </nav>
 
       <div className="flex shrink-0 items-center gap-3">
-        {profile && !inBeehave && (
-          <Link
-            href={`/${profile.slug}/beehave`}
-            className="flex items-center gap-1.5 text-sm text-muted hover:text-foreground transition-colors"
-          >
-            <span>Beehave</span>
-            {coins !== null && (
-              <span className="font-medium text-[#f5c518]">🪙 {coins}</span>
-            )}
-          </Link>
-        )}
-        {profile?.role === "admin" && (
+        {isAdmin && profile && (
           <Link
             href={`/${profile.slug}/live`}
             className="flex items-center gap-1.5 text-sm text-muted hover:text-foreground transition-colors"
