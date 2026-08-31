@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { Suspense } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/lib/theme-provider";
@@ -54,7 +55,9 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <PresenceTracker />
           <header className="sticky top-0 z-10 border-b border-border bg-background no-print">
             <div className="mx-auto max-w-4xl px-4 py-3">
-              <SiteHeader />
+              <Suspense fallback={<div className="h-9" />}>
+                <SiteHeader />
+              </Suspense>
             </div>
           </header>
           <main className="flex-1 mx-auto w-full max-w-4xl px-4 py-6">

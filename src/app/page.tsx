@@ -1,11 +1,8 @@
 "use client";
 
-import Link from "next/link";
 import { useState, type FormEvent } from "react";
 import { useRouter } from "next/navigation";
 import { PROFILES } from "@/lib/profiles";
-
-const guestProfile = PROFILES.find((p) => p.slug === "guest")!;
 
 export default function ProfilePicker() {
   const router = useRouter();
@@ -20,7 +17,7 @@ export default function ProfilePicker() {
       (p) => p.slug === query || p.name.toLowerCase() === query
     );
     if (!profile) {
-      setError("We couldn't find that name. Check the spelling or continue as Guest.");
+      setError("We couldn't find that name. Check the spelling and try again.");
       return;
     }
     router.push(`/${profile.slug}`);
@@ -30,7 +27,7 @@ export default function ProfilePicker() {
     <div className="flex flex-col gap-6">
       <div>
         <h1 className="text-2xl font-semibold tracking-tight">Who&apos;s practising?</h1>
-        <p className="text-muted mt-1">Sign in with your name, or continue as Guest.</p>
+        <p className="text-muted mt-1">Sign in with your name.</p>
       </div>
 
       <form onSubmit={handleSubmit} className="flex flex-col gap-3 rounded-lg border border-border p-6">
@@ -67,22 +64,6 @@ export default function ProfilePicker() {
           Log in
         </button>
       </form>
-
-      <div className="flex items-center gap-3 text-muted text-sm">
-        <div className="h-px flex-1 bg-border" />
-        or
-        <div className="h-px flex-1 bg-border" />
-      </div>
-
-      <Link
-        href={`/${guestProfile.slug}`}
-        className="flex flex-col items-center justify-center gap-2 rounded-lg border border-border p-6 hover:bg-surface transition-colors"
-      >
-        <span className="flex h-12 w-12 items-center justify-center rounded-full bg-surface text-lg font-semibold">
-          {guestProfile.name.charAt(0)}
-        </span>
-        <span className="font-medium">{guestProfile.name}</span>
-      </Link>
     </div>
   );
 }

@@ -418,8 +418,7 @@ const KID_ICON_CHOICES = [
 
 // ─── Main KidDashboard ────────────────────────────────────────────────────────
 export function KidDashboard(_props: { profileSlug: string }) {
-  const { profile, loading, error, logout, refreshCurrentProfile } =
-    useBeehaveAuth();
+  const { profile, loading, error, refreshCurrentProfile } = useBeehaveAuth();
   const supabase = getSupabaseClient();
 
   const [tasks, setTasks] = useState<TaskRow[]>([]);
@@ -1170,7 +1169,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
   return (
     <div
-      className="flex flex-col -mx-4 -my-6 min-h-[calc(100vh-8rem)] bg-background text-foreground"
+      className="flex flex-1 flex-col bg-background text-foreground"
       onClick={touchInteraction}
     >
       <ConfettiCanvas active={!!celebration} />
@@ -1219,12 +1218,6 @@ export function KidDashboard(_props: { profileSlug: string }) {
             className="flex h-[26px] w-[26px] items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
           >
             ›
-          </button>
-          <button
-            onClick={logout}
-            className="ml-1 rounded-md border border-border bg-surface px-2 py-1 text-[11px] text-muted"
-          >
-            Switch
           </button>
         </div>
 

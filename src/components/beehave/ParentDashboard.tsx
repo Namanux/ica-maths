@@ -8,6 +8,7 @@ import {
   type ChangeEvent,
   type ReactNode,
 } from "react";
+import { useSearchParams } from "next/navigation";
 import { useBeehaveAuth, type BeehaveProfile } from "@/lib/beehaveAuth";
 import { getSupabaseClient } from "@/lib/supabase";
 import { beehave } from "@/lib/beehave";
@@ -175,43 +176,12 @@ type TabName = (typeof TABS)[number];
 
 // ─── Main ParentDashboard ────────────────────────────────────────────────────
 export function ParentDashboard(_props: { profileSlug: string }) {
-  const { profile, profiles, loading, error, logout } = useBeehaveAuth();
-  const [tab, setTab] = useState<TabName>("Overview");
-  const [pendingCount, setPendingCount] = useState(0);
-
-  useEffect(() => {
-    if (!supabase) return;
-    const ch = supabase
-      .channel("beehave-parent-realtime")
-      .on(
-        "postgres_changes",
-        { event: "*", schema: "public", table: "task_completions" },
-        () => void loadPendingCount(),
-      )
-      .on(
-        "postgres_changes",
-        { event: "*", schema: "public", table: "initiatives" },
-        () => void loadPendingCount(),
-      )
-      .subscribe();
-    void loadPendingCount();
-    return () => {
-      void ch.unsubscribe();
-    };
-  }, []);
-
-  async function loadPendingCount() {
-    if (!supabase) return;
-    const { count: compCount } = await supabase
-      .from("task_completions")
-      .select("*", { count: "exact", head: true })
-      .eq("status", "pending_approval");
-    const { count: initCount } = await supabase
-      .from("initiatives")
-      .select("*", { count: "exact", head: true })
-      .eq("status", "pending");
-    setPendingCount((compCount || 0) + (initCount || 0));
-  }
+  const { profile, profiles, loading, error } = useBeehaveAuth();
+  const searchParams = useSearchParams();
+  const rawTab = searchParams.get("tab") ?? "";
+  const tab: TabName = (TABS as readonly string[]).includes(rawTab)
+    ? (rawTab as TabName)
+    : "Overview";
 
   const kids = profiles.filter((p) => p.role === "kid") as KidRow[];
 
@@ -239,50 +209,11 @@ export function ParentDashboard(_props: { profileSlug: string }) {
   }
 
   return (
-    <div className="flex flex-col -mx-4 -my-6 min-h-[calc(100vh-8rem)] bg-background text-foreground">
-      {/* ── Slim Navbar ── */}
-      <div className="flex h-[52px] shrink-0 items-center gap-2 border-b border-border bg-surface px-4">
-        <div className="mr-1 whitespace-nowrap text-[15px] font-extrabold">
-          Hey {profile.name}! 👋
-        </div>
-
-        <div className="flex h-full flex-1 items-stretch gap-0.5 overflow-x-auto">
-          {TABS.map((t) => (
-            <button
-              key={t}
-              onClick={() => setTab(t)}
-              className="relative h-full whitespace-nowrap border-b-2 px-[13px] text-[13px]"
-              style={{
-                background: "transparent",
-                color: tab === t ? "var(--foreground)" : "var(--muted)",
-                fontWeight: tab === t ? 700 : 500,
-                borderColor: tab === t ? "#f5c518" : "transparent",
-              }}
-            >
-              {t}
-              {t === "Approve" && pendingCount > 0 && (
-                <span className="absolute right-0.5 top-2 flex h-3.5 w-3.5 items-center justify-center rounded-full bg-[#ef4444] text-[9px] font-extrabold text-white">
-                  {pendingCount}
-                </span>
-              )}
-            </button>
-          ))}
-        </div>
-
-        <button
-          onClick={logout}
-          className="shrink-0 whitespace-nowrap rounded-[7px] border border-border bg-surface px-2.5 py-[5px] text-[11px] text-muted"
-        >
-          Switch
-        </button>
-      </div>
-
-      {/* Content */}
+    <div className="flex flex-1 flex-col bg-background text-foreground">
+      {/* Tabs live in the app header (SiteHeader); this view is just content. */}
       <div className="flex-1 overflow-y-auto px-3.5 pt-3.5">
         {tab === "Overview" && <OverviewTab kids={kids} />}
-        {tab === "Approve" && (
-          <ApproveTab onApprove={loadPendingCount} profile={profile} />
-        )}
+        {tab === "Approve" && <ApproveTab onApprove={() => {}} profile={profile} />}
         {tab === "Task" && <TasksTab kids={kids} />}
         {tab === "Reward" && <RewardsTab kids={kids} />}
         {tab === "Message" && <MessageTab kids={kids} profile={profile} />}
