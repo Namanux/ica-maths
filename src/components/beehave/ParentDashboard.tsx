@@ -1634,6 +1634,7 @@ function ApproveTab({
   profile: BeehaveProfile;
   kids: KidRow[];
 }) {
+  void kids;
   const [queue, setQueue] = useState<CompletionRow[]>([]);
   const [initiativeQueue, setInitiativeQueue] = useState<InitiativeRow[]>([]);
 
@@ -1784,8 +1785,6 @@ function ApproveTab({
 
   return (
     <div>
-      <AwardCard kids={kids} />
-
       {queue.length > 0 && (
         <>
           <h2 className="mb-4 font-bold">
@@ -3178,9 +3177,9 @@ function Row({ label, children }: { label: string; children: ReactNode }) {
 
 /* ═══════════════════════════════════════════ REWARDS TAB ══════════════════ */
 function RewardsTab({ kids }: { kids: KidRow[] }) {
-  void kids;
   const [rewards, setRewards] = useState<RewardRow[]>([]);
   const [showForm, setShowForm] = useState(false);
+  const [showAward, setShowAward] = useState(false);
   const [sortBy, setSortBy] = useState<RewardSort>("cheap");
   const [importing, setImporting] = useState(false);
   const importRef = useRef<HTMLInputElement | null>(null);
@@ -3574,6 +3573,7 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
             setPolForm(blankPolicing());
             setShowPolForm((v) => !v);
             setShowForm(false);
+            setShowAward(false);
           }}
           className="rounded-[10px] border border-[#f97316]/40 bg-[#f97316]/15 px-3 py-2 text-[13px] font-semibold text-[#f97316]"
         >
@@ -3584,10 +3584,21 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
             setForm(blankReward());
             setShowForm((v) => !v);
             setShowPolForm(false);
+            setShowAward(false);
           }}
           className="rounded-[10px] bg-[#f5c518] px-3 py-2 text-[13px] font-semibold text-[#0f0f1a]"
         >
           + Reward
+        </button>
+        <button
+          onClick={() => {
+            setShowAward((v) => !v);
+            setShowForm(false);
+            setShowPolForm(false);
+          }}
+          className="rounded-[10px] border border-[#f5c518]/50 bg-[#f5c518]/15 px-3 py-2 text-[13px] font-semibold text-[#f5c518]"
+        >
+          + Award
         </button>
         <input
           ref={importRef}
@@ -3598,6 +3609,11 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
         />
       </div>
 
+      {showAward && (
+        <div className="mb-2">
+          <AwardCard kids={kids} />
+        </div>
+      )}
       {showPolForm && !polForm.id && policingForm}
       {showForm && !form.id && rewardForm}
 

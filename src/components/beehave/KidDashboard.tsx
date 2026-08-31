@@ -56,6 +56,11 @@ type SessionTimerState = {
   running?: boolean;
   remaining: number;
   totalElapsed: number;
+  // Wall-clock anchor for the running segment, so the timer stays accurate
+  // even when the tab is backgrounded and setInterval is throttled/paused.
+  anchorEpoch?: number | null; // ms — when the current running segment began
+  anchorElapsed?: number; // seconds already banked before this segment
+  durationSecs?: number; // session length, for the remaining calc
 };
 
 type CoinPop = { id: number; taskId: string; amount: number; pending: boolean };
@@ -979,41 +984,74 @@ export function KidDashboard(_props: { profileSlug: string }) {
     }
   }
 
-  // Ticks the one active session's timer
+  // Keeps the one active session's timer in sync with the wall clock. Because
+  // it recomputes from an epoch anchor rather than counting +1 per tick, it
+  // self-corrects the moment the tab is foregrounded again — even if the
+  // interval was frozen for minutes while the kid was out of the page.
   useEffect(() => {
     if (!activeSessionTaskId) return;
-    const t = setInterval(() => {
+    const sync = () => {
       setSessionTimers((prev) => {
         const cur = prev[activeSessionTaskId];
-        if (!cur) return prev;
+        if (!cur || !cur.running || cur.anchorEpoch == null) return prev;
+        const live = Math.max(
+          0,
+          Math.round((Date.now() - cur.anchorEpoch) / 1000),
+        );
+        const total = (cur.anchorElapsed ?? 0) + live;
+        const dur = cur.durationSecs ?? 0;
+        const remaining = dur > 0 ? Math.max(0, dur - total) : cur.remaining;
+        if (total === cur.totalElapsed && remaining === cur.remaining) {
+          return prev;
+        }
         return {
           ...prev,
-          [activeSessionTaskId]: {
-            ...cur,
-            remaining: Math.max(0, cur.remaining - 1),
-            totalElapsed: cur.totalElapsed + 1,
-          },
+          [activeSessionTaskId]: { ...cur, totalElapsed: total, remaining },
         };
       });
-    }, 1000);
-    return () => clearInterval(t);
+    };
+    const onVisible = () => {
+      if (!document.hidden) sync();
+    };
+    const t = setInterval(sync, 1000);
+    document.addEventListener("visibilitychange", onVisible);
+    window.addEventListener("focus", sync);
+    window.addEventListener("pageshow", sync);
+    sync();
+    return () => {
+      clearInterval(t);
+      document.removeEventListener("visibilitychange", onVisible);
+      window.removeEventListener("focus", sync);
+      window.removeEventListener("pageshow", sync);
+    };
   }, [activeSessionTaskId]);
 
   function startSessionTimer(task: TaskRow) {
     if (activeSessionTaskId && activeSessionTaskId !== task.id) return;
+    const dur = getSessionDuration(task);
     activeRunStartedAtRef.current = new Date().toISOString();
     setActiveSessionTaskId(task.id);
-    setSessionTimers((prev) => ({
-      ...prev,
-      [task.id]: {
-        ...(prev[task.id] || {
-          remaining: getSessionDuration(task),
-          totalElapsed: 0,
-        }),
-        running: true,
-        hasStarted: true,
-      },
-    }));
+    setSessionTimers((prev) => {
+      const base = prev[task.id]?.totalElapsed ?? 0;
+      return {
+        ...prev,
+        [task.id]: {
+          hasStarted: true,
+          running: true,
+          durationSecs: dur,
+          anchorEpoch: Date.now(),
+          anchorElapsed: base,
+          totalElapsed: base,
+          remaining: Math.max(0, dur - base),
+        },
+      };
+    });
+  }
+
+  // Wall-clock elapsed for the segment that is running right now.
+  function liveSegmentSecs(state?: SessionTimerState): number {
+    if (!state || !state.running || state.anchorEpoch == null) return 0;
+    return Math.max(0, Math.round((Date.now() - state.anchorEpoch) / 1000));
   }
 
   async function stopSessionTimer(task: TaskRow) {
@@ -1022,10 +1060,23 @@ export function KidDashboard(_props: { profileSlug: string }) {
     const endedAt = new Date().toISOString();
     activeRunStartedAtRef.current = null;
     setActiveSessionTaskId(null);
-    setSessionTimers((prev) => ({
-      ...prev,
-      [task.id]: { ...prev[task.id], running: false },
-    }));
+    setSessionTimers((prev) => {
+      const cur = prev[task.id];
+      if (!cur) return prev;
+      const total = (cur.anchorElapsed ?? cur.totalElapsed ?? 0) +
+        liveSegmentSecs(cur);
+      const dur = cur.durationSecs ?? 0;
+      return {
+        ...prev,
+        [task.id]: {
+          ...cur,
+          running: false,
+          anchorEpoch: null,
+          totalElapsed: total,
+          remaining: dur > 0 ? Math.max(0, dur - total) : cur.remaining,
+        },
+      };
+    });
     if (startedAt) {
       const runSecs = Math.round(
         (new Date(endedAt).getTime() - new Date(startedAt).getTime()) / 1000,
@@ -1050,7 +1101,11 @@ export function KidDashboard(_props: { profileSlug: string }) {
     const wasRunning = activeSessionTaskId === task.id;
     activeRunStartedAtRef.current = null;
     setActiveSessionTaskId(null);
-    let finalElapsed = sessionTimers[task.id]?.totalElapsed || 0;
+    const cur = sessionTimers[task.id];
+    // Wall-clock total across every segment — no double counting.
+    const finalElapsed = wasRunning
+      ? (cur?.anchorElapsed ?? cur?.totalElapsed ?? 0) + liveSegmentSecs(cur)
+      : cur?.totalElapsed || 0;
     if (startedAt && wasRunning) {
       const runSecs = Math.round(
         (new Date(endedAt).getTime() - new Date(startedAt).getTime()) / 1000,
@@ -1064,7 +1119,6 @@ export function KidDashboard(_props: { profileSlug: string }) {
           ended_at: endedAt,
           duration_secs: runSecs,
         });
-        finalElapsed += runSecs;
       }
     }
     setSessionTimers((prev) => ({
