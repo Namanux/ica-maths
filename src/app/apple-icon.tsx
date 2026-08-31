@@ -3,6 +3,7 @@ import { ImageResponse } from "next/og";
 export const size = { width: 180, height: 180 };
 export const contentType = "image/png";
 
+// Solid amber honeycomb cell on a dark tile.
 export default function AppleIcon() {
   return new ImageResponse(
     (
@@ -15,11 +16,11 @@ export default function AppleIcon() {
         >
           <rect width="100" height="100" fill="#111111" />
           <polygon
-            points="90,50 70,84.6 30,84.6 10,50 30,15.4 70,15.4"
+            points="50,8 86,29 86,71 50,92 14,71 14,29"
             fill="#f5c518"
           />
           <polygon
-            points="72,50 61,69 39,69 28,50 39,31 61,31"
+            points="50,34 64,42 64,58 50,66 36,58 36,42"
             fill="#111111"
           />
         </svg>
