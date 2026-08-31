@@ -3206,6 +3206,17 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
     setShowForm(true);
   }
 
+  async function duplicateReward(r: RewardRow) {
+    if (!supabase) return;
+    await supabase.from("rewards").insert({
+      name: `${r.name} copy`,
+      icon: r.icon,
+      coin_cost: r.coin_cost,
+      description: r.description ?? null,
+    });
+    void loadRewards();
+  }
+
   async function deleteReward(r: RewardRow) {
     if (!supabase) return;
     if (!confirm(`Delete reward "${r.name}"?`)) return;
@@ -3317,6 +3328,12 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
                 className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
               >
                 Edit
+              </button>
+              <button
+                onClick={() => duplicateReward(r)}
+                className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
+              >
+                Duplicate
               </button>
               <button
                 onClick={() => deleteReward(r)}
