@@ -2154,6 +2154,7 @@ function KidRewards() {
   const [pending, setPending] = useState<KidPendingRedemption[]>([]);
   const [qty, setQty] = useState<Record<string, number>>({});
   const [busy, setBusy] = useState<string | null>(null);
+  const [cancelBusy, setCancelBusy] = useState<string | null>(null);
   const [toast, setToast] = useState("");
 
   const balance = profile?.coin_balance ?? 0;
@@ -2180,6 +2181,35 @@ function KidRewards() {
 
   function setQ(id: string, n: number) {
     setQty((m) => ({ ...m, [id]: Math.max(1, n) }));
+  }
+
+  async function cancelRedemption(p: KidPendingRedemption) {
+    if (!supabase || !profile) return;
+    setCancelBusy(p.id);
+    try {
+      await supabase.from("reward_redemptions").delete().eq("id", p.id);
+      const { data: k } = await supabase
+        .from("profiles")
+        .select("coin_balance")
+        .eq("id", profile.id)
+        .single();
+      const before = (k as { coin_balance?: number } | null)?.coin_balance ?? 0;
+      await supabase
+        .from("profiles")
+        .update({ coin_balance: before + p.coins_spent })
+        .eq("id", profile.id);
+      await supabase.from("coin_transactions").insert({
+        kid_id: profile.id,
+        amount: p.coins_spent,
+        reason: `Cancelled: ${p.reward?.name ?? "reward"}`,
+        transaction_type: "refund",
+      });
+      playSound("coin");
+      await refreshCurrentProfile();
+      await load();
+    } finally {
+      setCancelBusy(null);
+    }
   }
 
   async function redeem(r: KidRewardRow) {
@@ -2230,14 +2260,21 @@ function KidRewards() {
           {pending.map((p) => (
             <div
               key={p.id}
-              className="flex items-center justify-between rounded-lg border border-[#a855f7]/30 bg-[#a855f7]/10 px-3 py-2 text-[12px]"
+              className="flex items-center gap-2 rounded-lg border border-[#a855f7]/30 bg-[#a855f7]/10 px-3 py-2 text-[12px]"
             >
-              <span className="font-medium text-[#a855f7]">
+              <span className="min-w-0 flex-1 truncate font-medium text-[#a855f7]">
                 ⏳ {p.reward?.icon} {p.reward?.name} — waiting for parent
               </span>
-              <span className="flex items-center gap-1 text-[#f5c518]">
+              <span className="flex shrink-0 items-center gap-1 text-[#f5c518]">
                 <GoldCoin size={10} /> {p.coins_spent}
               </span>
+              <button
+                onClick={() => cancelRedemption(p)}
+                disabled={cancelBusy === p.id}
+                className="shrink-0 rounded-md border border-[#ef4444]/30 bg-[#ef4444]/10 px-2 py-1 text-[11px] font-bold text-[#ef4444] disabled:opacity-40"
+              >
+                {cancelBusy === p.id ? "…" : "✕ Cancel"}
+              </button>
             </div>
           ))}
         </div>

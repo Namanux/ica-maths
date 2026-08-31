@@ -20,7 +20,13 @@ const SECTION_TITLES: Record<string, string> = {
 
 // The Beehave pill itself is the section home (tasks for kids, Overview for
 // admins), so it isn't listed here.
-const ADMIN_BEEHAVE_TABS = ["Approve", "Task", "Reward", "Message"];
+const ADMIN_BEEHAVE_TABS = [
+  "Approve",
+  "Task",
+  "Reward",
+  "Message",
+  "Passbook",
+];
 const KID_BEEHAVE_TABS = ["Passbook", "Reward"];
 
 function pill(active: boolean) {

@@ -171,7 +171,14 @@ function EmojiPicker({
   );
 }
 
-const TABS = ["Overview", "Approve", "Task", "Reward", "Message"] as const;
+const TABS = [
+  "Overview",
+  "Approve",
+  "Task",
+  "Reward",
+  "Message",
+  "Passbook",
+] as const;
 type TabName = (typeof TABS)[number];
 
 // ─── Main ParentDashboard ────────────────────────────────────────────────────
@@ -219,6 +226,7 @@ export function ParentDashboard(_props: { profileSlug: string }) {
         {tab === "Task" && <TasksTab kids={kids} />}
         {tab === "Reward" && <RewardsTab kids={kids} />}
         {tab === "Message" && <MessageTab kids={kids} profile={profile} />}
+        {tab === "Passbook" && <ParentPassbooks kids={kids} />}
         <div className="h-[60px]" />
       </div>
     </div>
@@ -3463,6 +3471,217 @@ function MessageTab({
           {sent ? "✅ Sent!" : "📨 Send Message"}
         </button>
       </div>
+    </div>
+  );
+}
+
+/* ═══════════════════════════════════════════ PASSBOOK TAB ═════════════════ */
+type PbTxn = {
+  id: string;
+  amount: number;
+  reason: string;
+  transaction_type: string;
+  created_at: string;
+};
+
+const PB_META: Record<string, { icon: string; label: string }> = {
+  task_reward: { icon: "✅", label: "Task" },
+  bonus: { icon: "⭐", label: "Award" },
+  penalty: { icon: "⚠️", label: "Deduction" },
+  redemption: { icon: "🎁", label: "Reward" },
+  adjustment: { icon: "↩️", label: "Refund" },
+  refund: { icon: "↩️", label: "Refund" },
+};
+
+function pbDayLabel(d: Date): string {
+  const iso = (x: Date) =>
+    `${x.getFullYear()}-${String(x.getMonth() + 1).padStart(2, "0")}-${String(
+      x.getDate(),
+    ).padStart(2, "0")}`;
+  const t = new Date();
+  const y = new Date();
+  y.setDate(y.getDate() - 1);
+  if (iso(d) === iso(t)) return "Today";
+  if (iso(d) === iso(y)) return "Yesterday";
+  return d.toLocaleDateString("en-AU", {
+    weekday: "short",
+    day: "numeric",
+    month: "short",
+  });
+}
+
+function ParentPassbookColumn({ kid }: { kid: KidRow }) {
+  const [txns, setTxns] = useState<PbTxn[]>([]);
+  const [balance, setBalance] = useState(kid.coin_balance || 0);
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    if (!supabase) return;
+    let cancelled = false;
+    const load = async () => {
+      const [{ data: bal }, { data }] = await Promise.all([
+        supabase
+          .from("profiles")
+          .select("coin_balance")
+          .eq("id", kid.id)
+          .single(),
+        supabase
+          .from("coin_transactions")
+          .select("id, amount, reason, transaction_type, created_at")
+          .eq("kid_id", kid.id)
+          .order("created_at", { ascending: false })
+          .limit(200),
+      ]);
+      if (!cancelled) {
+        setBalance(
+          (bal as { coin_balance?: number } | null)?.coin_balance ?? 0,
+        );
+        setTxns((data as PbTxn[]) || []);
+        setLoaded(true);
+      }
+    };
+    void load();
+    const ch = supabase
+      .channel(`beehave-pb-${kid.id}`)
+      .on(
+        "postgres_changes",
+        {
+          event: "*",
+          schema: "public",
+          table: "coin_transactions",
+          filter: `kid_id=eq.${kid.id}`,
+        },
+        () => void load(),
+      )
+      .subscribe();
+    return () => {
+      cancelled = true;
+      void ch.unsubscribe();
+    };
+  }, [kid.id]);
+
+  let after = balance;
+  const rows = txns.map((t) => {
+    const r = { ...t, after };
+    after = Math.max(0, after - t.amount);
+    return r;
+  });
+  const groups: {
+    day: string;
+    net: number;
+    items: (PbTxn & { after: number })[];
+  }[] = [];
+  for (const r of rows) {
+    const day = pbDayLabel(new Date(r.created_at));
+    let g = groups[groups.length - 1];
+    if (!g || g.day !== day) {
+      g = { day, net: 0, items: [] };
+      groups.push(g);
+    }
+    g.items.push(r);
+    g.net += r.amount;
+  }
+
+  return (
+    <div className="overflow-hidden rounded-2xl border border-border bg-surface">
+      <div className="flex items-center justify-between border-b border-border px-4 py-3">
+        <div className="flex items-center gap-2">
+          <span className="text-[18px]">{kid.avatar_emoji}</span>
+          <span className="font-bold">{kid.name}</span>
+        </div>
+        <span className="text-[15px] font-black text-[#f5c518]">
+          🪙 {balance}
+        </span>
+      </div>
+      <div className="max-h-[64vh] overflow-y-auto p-3">
+        {!loaded ? (
+          <p className="py-10 text-center text-[13px] text-muted">Loading…</p>
+        ) : groups.length === 0 ? (
+          <p className="py-10 text-center text-[13px] text-muted">
+            No activity yet.
+          </p>
+        ) : (
+          groups.map((g) => (
+            <div key={g.day} className="mb-3">
+              <div className="mb-1 flex items-center justify-between px-1">
+                <span className="text-[10px] font-bold uppercase tracking-wide text-muted">
+                  {g.day}
+                </span>
+                <span
+                  className={`text-[11px] font-bold ${
+                    g.net >= 0 ? "text-[#22c55e]" : "text-[#ef4444]"
+                  }`}
+                >
+                  {g.net >= 0 ? "+" : ""}
+                  {g.net} 🪙
+                </span>
+              </div>
+              <div className="overflow-hidden rounded-xl border border-border">
+                {g.items.map((t, i) => {
+                  const m = PB_META[t.transaction_type] ?? {
+                    icon: "•",
+                    label: "Activity",
+                  };
+                  const pos = t.amount >= 0;
+                  return (
+                    <div
+                      key={t.id}
+                      className={`flex items-center gap-2 px-3 py-2 ${
+                        i > 0 ? "border-t border-border" : ""
+                      }`}
+                    >
+                      <span className="text-[15px]">{m.icon}</span>
+                      <div className="min-w-0 flex-1">
+                        <div className="truncate text-[12px] font-medium">
+                          {t.reason || m.label}
+                        </div>
+                        <div className="text-[10px] text-muted">
+                          {m.label} ·{" "}
+                          {new Date(t.created_at).toLocaleTimeString("en-AU", {
+                            hour: "2-digit",
+                            minute: "2-digit",
+                          })}
+                        </div>
+                      </div>
+                      <div className="shrink-0 text-right">
+                        <div
+                          className={`text-[12px] font-bold tabular-nums ${
+                            pos ? "text-[#22c55e]" : "text-[#ef4444]"
+                          }`}
+                        >
+                          {pos ? "+" : ""}
+                          {t.amount}
+                        </div>
+                        <div className="text-[10px] tabular-nums text-muted">
+                          bal {t.after}
+                        </div>
+                      </div>
+                    </div>
+                  );
+                })}
+              </div>
+            </div>
+          ))
+        )}
+      </div>
+    </div>
+  );
+}
+
+function ParentPassbooks({ kids }: { kids: KidRow[] }) {
+  if (kids.length === 0) {
+    return (
+      <p className="py-16 text-center text-sm text-muted">No kids yet.</p>
+    );
+  }
+  return (
+    <div
+      className="grid gap-3"
+      style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}
+    >
+      {kids.map((k) => (
+        <ParentPassbookColumn key={k.id} kid={k} />
+      ))}
     </div>
   );
 }
