@@ -2598,9 +2598,9 @@ export function PassbookRow({
   return (
     <div className={`px-4 py-3 ${border ? "border-t border-border" : ""}`}>
       <div className="flex items-center gap-3">
-        <span className="text-[18px]">{e.icon}</span>
+        <span className="text-[22px] leading-none">{e.icon}</span>
         <div className="min-w-0 flex-1">
-          <div className="truncate text-[14px] font-medium">{e.title}</div>
+          <div className="truncate text-[14px] font-semibold">{e.title}</div>
           <div className="text-[11px] text-muted">
             {pending
               ? "⏳ Pending approval"
@@ -2750,13 +2750,15 @@ function KidPassbook() {
 
   return (
     <div className="flex-1 overflow-y-auto px-3.5 pb-24 pt-3.5">
-      <div className="mb-4 rounded-2xl border border-border bg-surface p-4">
-        <div className="text-[11px] font-semibold uppercase tracking-wide text-muted">
-          Balance
-        </div>
-        <div className="mt-1 flex items-center gap-1.5 text-[28px] font-black text-[#f5c518]">
-          <GoldCoin size={22} /> {balance}
-        </div>
+      <div className="mb-3 flex items-center gap-2">
+        <h2 className="shrink-0 text-[17px] font-extrabold">Passbook</h2>
+        <span
+          id="beehave-coin-big"
+          className="flex flex-1 items-center justify-center gap-1.5 text-[22px] font-black text-[#f5c518]"
+        >
+          <GoldCoin size={20} /> {balance}
+        </span>
+        <span className="w-[72px] shrink-0" aria-hidden />
       </div>
 
       {!loaded ? (
