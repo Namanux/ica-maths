@@ -123,9 +123,9 @@ function EmojiPicker({
         type="button"
         onClick={() => setOpen((o) => !o)}
         title="Pick emoji"
-        className="flex h-[52px] w-16 items-center justify-center rounded-[10px] border bg-white/5 text-[24px] transition-colors"
+        className="flex h-[52px] w-16 items-center justify-center rounded-[10px] border bg-surface text-[24px] transition-colors"
         style={{
-          borderColor: open ? "#f5c518" : "rgba(255,255,255,0.08)",
+          borderColor: open ? "#f5c518" : "var(--border)",
           fontFamily: EMOJI_FONT,
         }}
       >
@@ -139,7 +139,7 @@ function EmojiPicker({
             className="fixed inset-0 z-[90]"
           />
           <div
-            className="absolute left-0 top-full z-[100] mt-1 grid max-h-[220px] w-[296px] grid-cols-8 gap-0.5 overflow-y-auto rounded-xl border border-white/[0.12] bg-[#1a1a2e] p-2.5 shadow-2xl"
+            className="absolute left-0 top-full z-[100] mt-1 grid max-h-[220px] w-[296px] grid-cols-8 gap-0.5 overflow-y-auto rounded-xl border border-border bg-surface p-2.5 shadow-2xl"
           >
             {TASK_EMOJIS.map((e) => (
               <button
@@ -239,14 +239,9 @@ export function ParentDashboard(_props: { profileSlug: string }) {
   }
 
   return (
-    <div className="flex flex-col -mx-4 -my-6 min-h-[calc(100vh-8rem)] bg-[#0f0f1a] text-[#f1f5f9]">
+    <div className="flex flex-col -mx-4 -my-6 min-h-[calc(100vh-8rem)] bg-background text-foreground">
       {/* ── Slim Navbar ── */}
-      <div
-        className="flex h-[52px] shrink-0 items-center gap-2 border-b border-white/10 px-4"
-        style={{
-          background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
-        }}
-      >
+      <div className="flex h-[52px] shrink-0 items-center gap-2 border-b border-border bg-surface px-4">
         <div className="mr-1 whitespace-nowrap text-[15px] font-extrabold">
           Hey {profile.name}! 👋
         </div>
@@ -259,7 +254,7 @@ export function ParentDashboard(_props: { profileSlug: string }) {
               className="relative h-full whitespace-nowrap border-b-2 px-[13px] text-[13px]"
               style={{
                 background: "transparent",
-                color: tab === t ? "#fff" : "#64748b",
+                color: tab === t ? "var(--foreground)" : "var(--muted)",
                 fontWeight: tab === t ? 700 : 500,
                 borderColor: tab === t ? "#f5c518" : "transparent",
               }}
@@ -276,7 +271,7 @@ export function ParentDashboard(_props: { profileSlug: string }) {
 
         <button
           onClick={logout}
-          className="shrink-0 whitespace-nowrap rounded-[7px] border border-white/10 bg-white/5 px-2.5 py-[5px] text-[11px] text-[#475569]"
+          className="shrink-0 whitespace-nowrap rounded-[7px] border border-border bg-surface px-2.5 py-[5px] text-[11px] text-muted"
         >
           Switch
         </button>
@@ -419,10 +414,10 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
             onClick={() => setPeriod(p)}
             className="rounded-[20px] px-4 py-1.5 text-[13px] font-semibold capitalize"
             style={{
-              background: period === p ? "#f5c518" : "rgba(255,255,255,0.06)",
-              color: period === p ? "#0f0f1a" : "#94a3b8",
+              background: period === p ? "#f5c518" : "var(--border)",
+              color: period === p ? "#0f0f1a" : "var(--muted)",
               border:
-                period === p ? "none" : "1px solid rgba(255,255,255,0.08)",
+                period === p ? "none" : "1px solid var(--border)",
             }}
           >
             {p === "today" ? "Today" : p === "week" ? "This Week" : "This Month"}
@@ -443,7 +438,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
           return (
             <div
               key={kid.id}
-              className="rounded-2xl border bg-[#1a1a2e] px-3.5 pb-3 pt-3.5"
+              className="rounded-2xl border bg-surface px-3.5 pb-3 pt-3.5"
               style={{ borderColor: `${kidColors[idx % kidColors.length]}33` }}
             >
               <div className="mb-2.5 flex items-center gap-2">
@@ -465,7 +460,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
                 </div>
               </div>
 
-              <div className="mb-2.5 h-[5px] overflow-hidden rounded-[3px] bg-white/10">
+              <div className="mb-2.5 h-[5px] overflow-hidden rounded-[3px] bg-border">
                 <div
                   className="h-full rounded-[3px] transition-[width] duration-500"
                   style={{
@@ -537,7 +532,7 @@ function StatChip({
       <div className="text-[13px] font-extrabold" style={{ color }}>
         {value}
       </div>
-      <div className="mt-px text-[10px] text-[#64748b]">{label}</div>
+      <div className="mt-px text-[10px] text-muted">{label}</div>
     </div>
   );
 }
@@ -859,14 +854,14 @@ function CalendarGrid({
       <div className="mb-2.5 flex items-center gap-2.5">
         <button
           onClick={() => changeDate(-1)}
-          className="flex h-[34px] w-[34px] items-center justify-center rounded-[10px] border border-white/10 bg-white/[0.07] text-[16px] text-[#e2e8f0]"
+          className="flex h-[34px] w-[34px] items-center justify-center rounded-[10px] border border-border bg-surface text-[16px] text-foreground"
         >
           ‹
         </button>
         <div className="flex-1 text-center text-[14px] font-bold">
           {dateLabel}
           {!isToday && (
-            <span className="ml-1.5 text-[11px] text-[#475569]">
+            <span className="ml-1.5 text-[11px] text-muted">
               {selDate.toLocaleDateString("en-AU", {
                 day: "numeric",
                 month: "short",
@@ -877,7 +872,7 @@ function CalendarGrid({
         </div>
         <button
           onClick={() => changeDate(1)}
-          className="flex h-[34px] w-[34px] items-center justify-center rounded-[10px] border border-white/10 bg-white/[0.07] text-[16px] text-[#e2e8f0]"
+          className="flex h-[34px] w-[34px] items-center justify-center rounded-[10px] border border-border bg-surface text-[16px] text-foreground"
         >
           ›
         </button>
@@ -891,16 +886,16 @@ function CalendarGrid({
         )}
       </div>
 
-      <div className="overflow-hidden rounded-2xl border border-white/10 bg-[#1a1a2e]">
+      <div className="overflow-hidden rounded-2xl border border-border bg-surface">
         <div
-          className="sticky top-0 z-20 grid border-b border-white/10 bg-white/[0.03]"
+          className="sticky top-0 z-20 grid border-b border-border bg-surface"
           style={{ gridTemplateColumns: `44px repeat(${colCount || 1}, 1fr)` }}
         >
           <div />
           {kidData.map((kid, idx) => (
             <div
               key={kid.id}
-              className="flex items-center gap-1.5 border-l border-white/[0.06] px-2 py-2.5 text-[13px] font-bold"
+              className="flex items-center gap-1.5 border-l border-border px-2 py-2.5 text-[13px] font-bold"
               style={{ color: kidColors[idx % kidColors.length] }}
             >
               <span className="text-[16px]">{kid.avatar_emoji}</span>
@@ -921,7 +916,7 @@ function CalendarGrid({
                 gridTemplateColumns: `44px repeat(${colCount || 1}, 1fr)`,
               }}
             >
-              <div className="relative bg-black/[0.08]">
+              <div className="relative bg-surface">
                 {CAL_HOURS.map((h) => (
                   <div
                     key={h}
@@ -944,7 +939,7 @@ function CalendarGrid({
               {kidData.map((kid) => (
                 <div
                   key={kid.id}
-                  className="relative border-l border-white/[0.06]"
+                  className="relative border-l border-border"
                 >
                   {CAL_HOURS.map((h) => (
                     <div
@@ -954,13 +949,13 @@ function CalendarGrid({
                         top: (h - CAL_START) * PX_PER_HOUR,
                         background:
                           h % 2 === 0
-                            ? "rgba(255,255,255,0.05)"
-                            : "rgba(255,255,255,0.02)",
+                            ? "var(--border)"
+                            : "transparent",
                       }}
                     />
                   ))}
 
-                  <div className="absolute bottom-0 left-1/2 top-0 z-[1] w-px bg-white/[0.04]" />
+                  <div className="absolute bottom-0 left-1/2 top-0 z-[1] w-px bg-surface" />
 
                   {layoutTasks(kid.sessions || []).map(
                     ({ task, col, totalCols }) => {
@@ -1024,7 +1019,7 @@ function CalendarGrid({
                             </span>
                             <div className="min-w-0 flex-1">
                               <div
-                                className="overflow-hidden text-ellipsis whitespace-nowrap font-bold leading-[1.25] text-[#e2e8f0]"
+                                className="overflow-hidden text-ellipsis whitespace-nowrap font-bold leading-[1.25] text-foreground"
                                 style={{
                                   fontSize: h < 50 ? 10 : 12,
                                   textDecoration: isMissed
@@ -1035,7 +1030,7 @@ function CalendarGrid({
                                 {task.name}
                               </div>
                               {h >= 52 && (
-                                <div className="mt-0.5 text-[10px] text-[#64748b]">
+                                <div className="mt-0.5 text-[10px] text-muted">
                                   {beehave.formatTime(task.start_time)}
                                 </div>
                               )}
@@ -1196,10 +1191,10 @@ function TaskSheet({
     >
       <div
         onClick={(e) => e.stopPropagation()}
-        className="max-h-[70vh] w-full overflow-y-auto rounded-t-[20px] bg-[#1a1a2e] px-4 pb-9 pt-2"
+        className="max-h-[70vh] w-full overflow-y-auto rounded-t-[20px] bg-surface px-4 pb-9 pt-2"
         style={{ borderTop: `3px solid ${meta.color}` }}
       >
-        <div className="mx-auto mb-4 mt-2 h-1 w-9 rounded-sm bg-white/[0.15]" />
+        <div className="mx-auto mb-4 mt-2 h-1 w-9 rounded-sm bg-border" />
 
         <div className="mb-4 flex items-center gap-3">
           <div
@@ -1209,12 +1204,12 @@ function TaskSheet({
             {kid.avatar_emoji}
           </div>
           <div className="flex-1">
-            <div className="text-[12px] text-[#64748b]">{kid.name}</div>
+            <div className="text-[12px] text-muted">{kid.name}</div>
             <div className="text-[17px] font-extrabold">
               <span style={{ fontFamily: EMOJI_FONT }}>{task.icon}</span>{" "}
               {task.name}
             </div>
-            <div className="mt-0.5 text-[12px] text-[#94a3b8]">
+            <div className="mt-0.5 text-[12px] text-muted">
               {beehave.formatTime(task.start_time)}
               {isSession &&
                 task.target_duration &&
@@ -1264,7 +1259,7 @@ function TaskSheet({
         </div>
 
         {comp && comp.completed_at && (
-          <div className="mb-3.5 rounded-[10px] border border-white/10 bg-white/[0.04] px-3.5 py-2.5 text-[13px] text-[#94a3b8]">
+          <div className="mb-3.5 rounded-[10px] border border-border bg-surface px-3.5 py-2.5 text-[13px] text-muted">
             Marked done at{" "}
             {new Date(comp.completed_at).toLocaleTimeString("en-AU", {
               hour: "2-digit",
@@ -1277,11 +1272,11 @@ function TaskSheet({
         {isPending && (
           <>
             <div className="mb-3.5">
-              <p className="mb-2 text-[12px] text-[#94a3b8]">Coins to award</p>
+              <p className="mb-2 text-[12px] text-muted">Coins to award</p>
               <div className="mb-2.5 flex items-center gap-3">
                 <button
                   onClick={() => setCoins((c) => Math.max(0, c - 5))}
-                  className="h-10 w-10 rounded-[10px] bg-white/[0.08] text-[20px] font-bold text-white"
+                  className="h-10 w-10 rounded-[10px] bg-surface text-[20px] font-bold text-white"
                 >
                   −
                 </button>
@@ -1290,7 +1285,7 @@ function TaskSheet({
                 </div>
                 <button
                   onClick={() => setCoins((c) => c + 5)}
-                  className="h-10 w-10 rounded-[10px] bg-white/[0.08] text-[20px] font-bold text-white"
+                  className="h-10 w-10 rounded-[10px] bg-surface text-[20px] font-bold text-white"
                 >
                   +
                 </button>
@@ -1305,11 +1300,11 @@ function TaskSheet({
                       background:
                         coins === v
                           ? "rgba(245,197,24,0.2)"
-                          : "rgba(255,255,255,0.06)",
+                          : "var(--border)",
                       border: `1px solid ${
                         coins === v
                           ? "rgba(245,197,24,0.4)"
-                          : "rgba(255,255,255,0.08)"
+                          : "var(--border)"
                       }`,
                       color: coins === v ? "#f5c518" : "#94a3b8",
                     }}
@@ -1328,7 +1323,7 @@ function TaskSheet({
               placeholder="Note to kid (optional)"
               value={note}
               onChange={(e) => setNote(e.target.value)}
-              className="mb-3 w-full rounded-[10px] border border-white/10 bg-white/5 px-4 py-3.5 text-[14px] text-[#f1f5f9]"
+              className="mb-3 w-full rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
             />
 
             <div className="flex gap-2.5">
@@ -1355,22 +1350,22 @@ function TaskSheet({
                 <div className="mb-1 text-[22px]">
                   🪙 {comp?.coins_earned ?? "—"}
                 </div>
-                <div className="text-[12px] text-[#94a3b8]">Coins earned</div>
+                <div className="text-[12px] text-muted">Coins earned</div>
               </div>
             )}
             {status === "missed" && (
               <div className="flex-1 rounded-xl border border-[#ef4444]/20 bg-[#ef4444]/[0.08] px-4 py-3 text-center">
                 <div className="mb-1 text-[22px]">😔</div>
-                <div className="text-[12px] text-[#94a3b8]">
+                <div className="text-[12px] text-muted">
                   Task was missed
                 </div>
               </div>
             )}
-            <div className="flex-1 rounded-xl border border-white/10 bg-white/[0.04] px-4 py-3 text-center">
+            <div className="flex-1 rounded-xl border border-border bg-surface px-4 py-3 text-center">
               <div className="mb-1 text-[14px] font-bold text-[#f5c518]">
                 🪙 {task.full_coins}
               </div>
-              <div className="text-[11px] text-[#64748b]">
+              <div className="text-[11px] text-muted">
                 Full · {task.min_coins} Min
               </div>
               {(task.penalty_coins || 0) > 0 && (
@@ -1384,7 +1379,7 @@ function TaskSheet({
 
         <button
           onClick={onClose}
-          className="mt-4 w-full rounded-xl border border-white/10 bg-white/[0.06] p-3 text-[14px] font-semibold text-[#64748b]"
+          className="mt-4 w-full rounded-xl border border-border bg-surface p-3 text-[14px] font-semibold text-muted"
         >
           Close
         </button>
@@ -1442,7 +1437,7 @@ function CompletionChart({
   );
 
   return (
-    <div className="rounded-2xl border border-white/10 bg-[#1a1a2e] px-3.5 pb-2.5 pt-4">
+    <div className="rounded-2xl border border-border bg-surface px-3.5 pb-2.5 pt-4">
       <div className="mb-3 flex items-center gap-3">
         <span className="text-[14px] font-bold">
           {period === "week" ? "Weekly" : "Monthly"} Completion
@@ -1454,7 +1449,7 @@ function CompletionChart({
                 className="h-2.5 w-2.5 rounded-sm"
                 style={{ background: kidColors[idx % kidColors.length] }}
               />
-              <span className="text-[11px] text-[#94a3b8]">{kid.name}</span>
+              <span className="text-[11px] text-muted">{kid.name}</span>
             </div>
           ))}
         </div>
@@ -1475,7 +1470,7 @@ function CompletionChart({
                   y1={y}
                   x2={totalW - rightPad}
                   y2={y}
-                  stroke="rgba(255,255,255,0.06)"
+                  stroke="var(--border)"
                   strokeWidth={1}
                 />
                 <text
@@ -1704,7 +1699,7 @@ function ApproveTab({
 
   if (queue.length === 0 && initiativeQueue.length === 0)
     return (
-      <div className="px-5 py-[60px] text-center text-[#475569]">
+      <div className="px-5 py-[60px] text-center text-muted">
         <div className="mb-3 text-[48px]">✅</div>
         <p className="font-semibold">Nothing to approve</p>
         <p className="mt-2 text-[14px]">You&apos;re all caught up!</p>
@@ -1752,7 +1747,7 @@ function ApproveTab({
 }
 
 const cardCls =
-  "mb-3 rounded-2xl border border-white/10 bg-[#1a1a2e] p-5";
+  "mb-3 rounded-2xl border border-border bg-surface p-5";
 
 function ApprovalCard({
   comp,
@@ -1796,10 +1791,10 @@ function ApprovalCard({
         </div>
         <div>
           <div className="font-bold">{comp.kid?.name}</div>
-          <div className="text-[13px] text-[#94a3b8]">
+          <div className="text-[13px] text-muted">
             {comp.task?.icon} {comp.task?.name}
           </div>
-          <div className="mt-0.5 text-[12px] text-[#475569]">
+          <div className="mt-0.5 text-[12px] text-muted">
             Completion #{comp.completion_count} ·{" "}
             {comp.completed_at &&
               new Date(comp.completed_at).toLocaleTimeString("en-AU", {
@@ -1812,22 +1807,22 @@ function ApprovalCard({
 
       {comp.photo_path && (
         <div className="mb-3.5">
-          <p className="mb-2 text-[13px] text-[#94a3b8]">📷 Photo evidence</p>
+          <p className="mb-2 text-[13px] text-muted">📷 Photo evidence</p>
           {photoUrl ? (
             <a href={photoUrl} target="_blank" rel="noopener noreferrer">
               {/* eslint-disable-next-line @next/next/no-img-element */}
               <img
                 src={photoUrl}
                 alt="Task evidence"
-                className="block max-h-[320px] w-full rounded-xl border border-white/10 object-cover"
+                className="block max-h-[320px] w-full rounded-xl border border-border object-cover"
               />
             </a>
           ) : (
-            <div className="rounded-xl border border-white/10 bg-white/[0.03] p-6 text-center text-[#475569]">
+            <div className="rounded-xl border border-border bg-surface p-6 text-center text-muted">
               Loading photo…
             </div>
           )}
-          <p className="mt-1.5 text-[10px] text-[#475569]">
+          <p className="mt-1.5 text-[10px] text-muted">
             Tap to view full size · deleted automatically once you approve or
             reject
           </p>
@@ -1835,11 +1830,11 @@ function ApprovalCard({
       )}
 
       <div className="mb-3.5">
-        <p className="mb-2 text-[13px] text-[#94a3b8]">Coins to award</p>
+        <p className="mb-2 text-[13px] text-muted">Coins to award</p>
         <div className="flex items-center gap-3">
           <button
             onClick={() => setCoins((c) => Math.max(0, c - 5))}
-            className="h-9 w-9 rounded-lg bg-white/[0.08] text-[18px] text-white"
+            className="h-9 w-9 rounded-lg bg-surface text-[18px] text-white"
           >
             −
           </button>
@@ -1848,7 +1843,7 @@ function ApprovalCard({
           </div>
           <button
             onClick={() => setCoins((c) => c + 5)}
-            className="h-9 w-9 rounded-lg bg-white/[0.08] text-[18px] text-white"
+            className="h-9 w-9 rounded-lg bg-surface text-[18px] text-white"
           >
             +
           </button>
@@ -1863,11 +1858,11 @@ function ApprovalCard({
                 background:
                   coins === v
                     ? "rgba(245,197,24,0.2)"
-                    : "rgba(255,255,255,0.06)",
+                    : "var(--border)",
                 border: `1px solid ${
                   coins === v
                     ? "rgba(245,197,24,0.4)"
-                    : "rgba(255,255,255,0.08)"
+                    : "var(--border)"
                 }`,
                 color: coins === v ? "#f5c518" : "#94a3b8",
               }}
@@ -1886,7 +1881,7 @@ function ApprovalCard({
         placeholder="Add a note (optional)"
         value={note}
         onChange={(e) => setNote(e.target.value)}
-        className="mb-3 w-full rounded-[10px] border border-white/10 bg-white/5 px-4 py-3.5 text-[14px] text-[#f1f5f9]"
+        className="mb-3 w-full rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
       />
 
       <div className="flex gap-2">
@@ -1957,7 +1952,7 @@ function InitiativeCard({
           <div className="text-[13px] text-[#a855f7]">
             🌟 Started their own initiative
           </div>
-          <div className="mt-0.5 text-[12px] text-[#475569]">
+          <div className="mt-0.5 text-[12px] text-muted">
             {initiative.created_at &&
               new Date(initiative.created_at).toLocaleTimeString("en-AU", {
                 hour: "2-digit",
@@ -1975,7 +1970,7 @@ function InitiativeCard({
           ] as const
         ).map(([label, url]) => (
           <div key={label}>
-            <p className="mb-1.5 text-center text-[11px] text-[#94a3b8]">
+            <p className="mb-1.5 text-center text-[11px] text-muted">
               {label}
             </p>
             {url ? (
@@ -1984,32 +1979,32 @@ function InitiativeCard({
                 <img
                   src={url}
                   alt={label}
-                  className="block h-40 w-full rounded-xl border border-white/10 object-cover"
+                  className="block h-40 w-full rounded-xl border border-border object-cover"
                 />
               </a>
             ) : (
-              <div className="h-40 rounded-xl border border-white/10 bg-white/[0.03]" />
+              <div className="h-40 rounded-xl border border-border bg-surface" />
             )}
           </div>
         ))}
       </div>
-      <p className="-mt-2 mb-3.5 text-[10px] text-[#475569]">
+      <p className="-mt-2 mb-3.5 text-[10px] text-muted">
         Tap a photo to view full size · deleted automatically once you approve or
         reject
       </p>
 
       {initiative.note && (
-        <div className="mb-3.5 rounded-lg bg-white/[0.03] px-2.5 py-2 text-[13px] italic text-[#cbd5e1]">
+        <div className="mb-3.5 rounded-lg bg-surface px-2.5 py-2 text-[13px] italic text-foreground">
           &quot;{initiative.note}&quot;
         </div>
       )}
 
       <div className="mb-3.5">
-        <p className="mb-2 text-[13px] text-[#94a3b8]">Coins to award</p>
+        <p className="mb-2 text-[13px] text-muted">Coins to award</p>
         <div className="flex items-center gap-3">
           <button
             onClick={() => setCoins((c) => Math.max(0, c - 5))}
-            className="h-9 w-9 rounded-lg bg-white/[0.08] text-[18px] text-white"
+            className="h-9 w-9 rounded-lg bg-surface text-[18px] text-white"
           >
             −
           </button>
@@ -2018,7 +2013,7 @@ function InitiativeCard({
           </div>
           <button
             onClick={() => setCoins((c) => c + 5)}
-            className="h-9 w-9 rounded-lg bg-white/[0.08] text-[18px] text-white"
+            className="h-9 w-9 rounded-lg bg-surface text-[18px] text-white"
           >
             +
           </button>
@@ -2033,11 +2028,11 @@ function InitiativeCard({
                 background:
                   coins === v
                     ? "rgba(245,197,24,0.2)"
-                    : "rgba(255,255,255,0.06)",
+                    : "var(--border)",
                 border: `1px solid ${
                   coins === v
                     ? "rgba(245,197,24,0.4)"
-                    : "rgba(255,255,255,0.08)"
+                    : "var(--border)"
                 }`,
                 color: coins === v ? "#f5c518" : "#94a3b8",
               }}
@@ -2367,7 +2362,7 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
                 </span>
                 <div className="flex-1">
                   <div className="font-bold">{task.name}</div>
-                  <div className="text-[13px] text-[#94a3b8]">
+                  <div className="text-[13px] text-muted">
                     {task.kid?.avatar_emoji} {task.kid?.name} · wants to start{" "}
                     {beehave.formatTime(task.start_time)}
                   </div>
@@ -2377,7 +2372,7 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
                 </div>
               </div>
               {task.note && (
-                <div className="mt-2.5 rounded-lg bg-white/[0.03] px-2.5 py-2 text-[13px] italic text-[#cbd5e1]">
+                <div className="mt-2.5 rounded-lg bg-surface px-2.5 py-2 text-[13px] italic text-foreground">
                   &quot;{task.note}&quot;
                 </div>
               )}
@@ -2400,8 +2395,8 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
         </div>
       )}
 
-      <div className="mb-4 flex items-center gap-2 rounded-[10px] border border-white/10 bg-white/[0.03] px-3.5 py-2.5">
-        <span className="flex-1 text-[13px] text-[#94a3b8]">📊 Excel</span>
+      <div className="mb-4 flex items-center gap-2 rounded-[10px] border border-border bg-surface px-3.5 py-2.5">
+        <span className="flex-1 text-[13px] text-muted">📊 Excel</span>
         <button
           onClick={exportToExcel}
           disabled={tasks.length === 0}
@@ -2459,7 +2454,7 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
                 </span>
               ) : null}
             </div>
-            <div className="text-[13px] text-[#94a3b8]">
+            <div className="text-[13px] text-muted">
               {task.kid?.avatar_emoji} {task.kid?.name} ·{" "}
               {beehave.formatTime(task.start_time)}
             </div>
@@ -2471,7 +2466,7 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
           <div className="flex gap-1.5">
             <button
               onClick={() => setForm(task)}
-              className="rounded-lg bg-white/[0.06] px-3 py-1.5 text-[13px] text-[#94a3b8]"
+              className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
             >
               Edit
             </button>
@@ -2501,7 +2496,7 @@ function TaskFormIconRow({
     <div
       className="flex items-start gap-3.5 py-3"
       style={{
-        borderBottom: noBorder ? "none" : "1px solid rgba(255,255,255,0.06)",
+        borderBottom: noBorder ? "none" : "1px solid var(--border)",
       }}
     >
       <span className="mt-0.5 w-[22px] shrink-0 text-center text-[18px] opacity-60">
@@ -2633,14 +2628,14 @@ function TaskForm({
 
   const IconRow = TaskFormIconRow;
   const inputCls =
-    "w-full rounded-[10px] border border-white/10 bg-white/5 px-3 py-2.5 text-[14px] text-[#e2e8f0]";
+    "w-full rounded-[10px] border border-border bg-surface px-3 py-2.5 text-[14px] text-foreground";
 
   return (
     <div className="pb-4">
       <div className="mb-4 flex items-center gap-2.5">
         <button
           onClick={onCancel}
-          className="flex h-8 w-8 items-center justify-center rounded-lg border border-white/10 bg-white/[0.06] text-[16px] text-[#94a3b8]"
+          className="flex h-8 w-8 items-center justify-center rounded-lg border border-border bg-surface text-[16px] text-muted"
         >
           ✕
         </button>
@@ -2655,7 +2650,7 @@ function TaskForm({
         </button>
       </div>
 
-      <div className="rounded-2xl border border-white/10 bg-[#1a1a2e] px-4 py-1">
+      <div className="rounded-2xl border border-border bg-surface px-4 py-1">
         <IconRow icon="✏️">
           <div className="flex items-center gap-2">
             <EmojiPicker
@@ -2668,14 +2663,14 @@ function TaskForm({
               onChange={(e) =>
                 setForm((f) => ({ ...f, name: e.target.value }))
               }
-              className="flex-1 border-0 border-b border-white/10 bg-transparent px-1 py-2.5 text-[18px] font-bold text-[#e2e8f0]"
+              className="flex-1 border-0 border-b border-border bg-transparent px-1 py-2.5 text-[18px] font-bold text-foreground"
               autoFocus
             />
           </div>
         </IconRow>
 
         <IconRow icon="🎯">
-          <div className="mb-2 text-[12px] text-[#64748b]">Type</div>
+          <div className="mb-2 text-[12px] text-muted">Type</div>
           <div className="flex gap-2">
             {[
               {
@@ -2702,11 +2697,11 @@ function TaskForm({
                   background:
                     form.task_type === opt.value
                       ? `${opt.color}15`
-                      : "rgba(255,255,255,0.03)",
+                      : "var(--surface)",
                   border: `1px solid ${
                     form.task_type === opt.value
                       ? opt.color + "55"
-                      : "rgba(255,255,255,0.08)"
+                      : "var(--border)"
                   }`,
                 }}
               >
@@ -2719,7 +2714,7 @@ function TaskForm({
                 >
                   {opt.label}
                 </div>
-                <div className="mt-0.5 text-[10px] text-[#475569]">
+                <div className="mt-0.5 text-[10px] text-muted">
                   {opt.desc}
                 </div>
               </button>
@@ -2740,11 +2735,11 @@ function TaskForm({
                   background:
                     form.assigned_to === k.id
                       ? "rgba(245,197,24,0.18)"
-                      : "rgba(255,255,255,0.05)",
+                      : "var(--border)",
                   border: `1px solid ${
                     form.assigned_to === k.id
                       ? "rgba(245,197,24,0.5)"
-                      : "rgba(255,255,255,0.08)"
+                      : "var(--border)"
                   }`,
                   color: form.assigned_to === k.id ? "#f5c518" : "#94a3b8",
                 }}
@@ -2756,7 +2751,7 @@ function TaskForm({
         </IconRow>
 
         <IconRow icon="📅">
-          <div className="mb-1.5 text-[12px] text-[#64748b]">Repeats on</div>
+          <div className="mb-1.5 text-[12px] text-muted">Repeats on</div>
           <div className="flex flex-wrap gap-1.5">
             {DAYS.map((d, i) => (
               <button
@@ -2766,13 +2761,13 @@ function TaskForm({
                 style={{
                   background: form.days_of_week.includes(i)
                     ? "#4f8ef7"
-                    : "rgba(255,255,255,0.05)",
+                    : "var(--border)",
                   border: `1px solid ${
                     form.days_of_week.includes(i)
                       ? "#4f8ef7"
-                      : "rgba(255,255,255,0.08)"
+                      : "var(--border)"
                   }`,
-                  color: form.days_of_week.includes(i) ? "#fff" : "#94a3b8",
+                  color: form.days_of_week.includes(i) ? "#fff" : "var(--muted)",
                 }}
               >
                 {d}
@@ -2782,10 +2777,10 @@ function TaskForm({
         </IconRow>
 
         <IconRow icon="🗓">
-          <div className="mb-2 text-[12px] text-[#64748b]">Active dates</div>
+          <div className="mb-2 text-[12px] text-muted">Active dates</div>
           <div className="flex flex-wrap items-center gap-2">
             <div className="min-w-[130px] flex-1">
-              <div className="mb-1 text-[10px] text-[#94a3b8]">Start date</div>
+              <div className="mb-1 text-[10px] text-muted">Start date</div>
               <input
                 type="date"
                 value={form.start_date}
@@ -2795,9 +2790,9 @@ function TaskForm({
                 className={inputCls}
               />
             </div>
-            <div className="mt-4 shrink-0 text-[14px] text-[#475569]">→</div>
+            <div className="mt-4 shrink-0 text-[14px] text-muted">→</div>
             <div className="min-w-[130px] flex-1">
-              <div className="mb-1 text-[10px] text-[#94a3b8]">End date</div>
+              <div className="mb-1 text-[10px] text-muted">End date</div>
               {form.no_end_date ? (
                 <button
                   onClick={() =>
@@ -2807,7 +2802,7 @@ function TaskForm({
                       end_date: f.start_date,
                     }))
                   }
-                  className="w-full rounded-[10px] border border-dashed border-white/15 bg-white/[0.03] px-3 py-2.5 text-left text-[14px] text-[#475569]"
+                  className="w-full rounded-[10px] border border-dashed border-border bg-surface px-3 py-2.5 text-left text-[14px] text-muted"
                 >
                   No end date
                 </button>
@@ -2830,7 +2825,7 @@ function TaskForm({
                         end_date: "",
                       }))
                     }
-                    className="absolute right-2 top-1/2 -translate-y-1/2 text-[14px] leading-none text-[#475569]"
+                    className="absolute right-2 top-1/2 -translate-y-1/2 text-[14px] leading-none text-muted"
                   >
                     ✕
                   </button>
@@ -2841,11 +2836,11 @@ function TaskForm({
         </IconRow>
 
         <IconRow icon="⏰">
-          <div className="mb-2 text-[12px] text-[#64748b]">Schedule</div>
+          <div className="mb-2 text-[12px] text-muted">Schedule</div>
 
           <div className="mb-2.5 flex items-center gap-2">
             <div className="flex-1">
-              <div className="mb-1 text-[10px] text-[#475569]">Start</div>
+              <div className="mb-1 text-[10px] text-muted">Start</div>
               <input
                 type="time"
                 value={form.start_time}
@@ -2857,7 +2852,7 @@ function TaskForm({
             </div>
             {formIsSession && (
               <>
-                <div className="mt-4 shrink-0 text-[14px] text-[#475569]">
+                <div className="mt-4 shrink-0 text-[14px] text-muted">
                   →
                 </div>
                 <div className="flex-1">
@@ -2920,7 +2915,7 @@ function TaskForm({
         </IconRow>
 
         <IconRow icon="🪙">
-          <div className="mb-2 text-[12px] text-[#64748b]">Coins</div>
+          <div className="mb-2 text-[12px] text-muted">Coins</div>
           <div className="grid grid-cols-3 gap-2">
             {(
               [
@@ -2935,7 +2930,7 @@ function TaskForm({
             ).map(({ label, key, accent }) => (
               <div
                 key={key}
-                className="rounded-[10px] bg-white/[0.04] px-2.5 pb-2 pt-2.5 text-center"
+                className="rounded-[10px] bg-surface px-2.5 pb-2 pt-2.5 text-center"
                 style={{ border: `1px solid ${accent}22` }}
               >
                 <div
@@ -2963,7 +2958,7 @@ function TaskForm({
         </IconRow>
 
         <IconRow icon="👀">
-          <div className="mb-2 text-[12px] text-[#64748b]">Approval</div>
+          <div className="mb-2 text-[12px] text-muted">Approval</div>
           <div className="flex gap-2">
             {[
               {
@@ -2990,11 +2985,11 @@ function TaskForm({
                   background:
                     form.approval === opt.value
                       ? `${opt.color}22`
-                      : "rgba(255,255,255,0.04)",
+                      : "var(--surface)",
                   border: `1px solid ${
                     form.approval === opt.value
                       ? opt.color + "66"
-                      : "rgba(255,255,255,0.08)"
+                      : "var(--border)"
                   }`,
                   color: form.approval === opt.value ? opt.color : "#94a3b8",
                 }}
@@ -3007,14 +3002,14 @@ function TaskForm({
         </IconRow>
 
         <IconRow icon="📷">
-          <div className="mb-2 text-[12px] text-[#64748b]">Photo evidence</div>
+          <div className="mb-2 text-[12px] text-muted">Photo evidence</div>
           <div className="flex gap-2">
             {[
               {
                 value: false,
                 label: "✓ No photo",
                 desc: "Just tap Done",
-                color: "#94a3b8",
+                color: "var(--muted)",
               },
               {
                 value: true,
@@ -3034,11 +3029,11 @@ function TaskForm({
                   background:
                     form.requires_photo === opt.value
                       ? `${opt.color}22`
-                      : "rgba(255,255,255,0.04)",
+                      : "var(--surface)",
                   border: `1px solid ${
                     form.requires_photo === opt.value
                       ? opt.color + "66"
-                      : "rgba(255,255,255,0.08)"
+                      : "var(--border)"
                   }`,
                   color:
                     form.requires_photo === opt.value ? opt.color : "#94a3b8",
@@ -3065,7 +3060,7 @@ function TaskForm({
               setForm((f) => ({ ...f, note: e.target.value }))
             }
             rows={3}
-            className="w-full resize-none rounded-[10px] border border-white/10 bg-white/[0.04] px-3 py-2.5 text-[14px] text-[#e2e8f0]"
+            className="w-full resize-none rounded-[10px] border border-border bg-surface px-3 py-2.5 text-[14px] text-foreground"
           />
         </IconRow>
       </div>
@@ -3076,7 +3071,7 @@ function TaskForm({
 function Row({ label, children }: { label: string; children: ReactNode }) {
   return (
     <div>
-      <label className="mb-1.5 block text-[13px] text-[#94a3b8]">{label}</label>
+      <label className="mb-1.5 block text-[13px] text-muted">{label}</label>
       {children}
     </div>
   );
@@ -3189,7 +3184,7 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
               onChange={(e) =>
                 setForm((f) => ({ ...f, name: e.target.value }))
               }
-              className="flex-1 rounded-[10px] border border-white/10 bg-white/5 px-4 py-3.5 text-[14px] text-[#f1f5f9]"
+              className="flex-1 rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
             />
           </div>
           <input
@@ -3198,7 +3193,7 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
             onChange={(e) =>
               setForm((f) => ({ ...f, description: e.target.value }))
             }
-            className="mb-2.5 w-full rounded-[10px] border border-white/10 bg-white/5 px-4 py-3.5 text-[14px] text-[#f1f5f9]"
+            className="mb-2.5 w-full rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
           />
           <div className="mb-3 flex items-center gap-2.5">
             <span className="text-[16px] text-[#f5c518]">🪙 Cost:</span>
@@ -3211,7 +3206,7 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
                   coin_cost: parseInt(e.target.value) || 0,
                 }))
               }
-              className="w-[100px] rounded-[10px] border border-white/10 bg-white/5 px-4 py-3.5 text-[14px] text-[#f1f5f9]"
+              className="w-[100px] rounded-[10px] border border-border bg-surface px-4 py-3.5 text-[14px] text-foreground"
             />
           </div>
           <button
@@ -3238,7 +3233,7 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
                   <span className="font-bold">
                     {r.kid?.avatar_emoji} {r.kid?.name}
                   </span>
-                  <span className="ml-2 text-[#94a3b8]">
+                  <span className="ml-2 text-muted">
                     wants {r.reward?.icon} {r.reward?.name}
                   </span>
                   <div className="mt-1 text-[13px] text-[#f5c518]">
@@ -3265,7 +3260,7 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
         </div>
       )}
 
-      <h3 className="mb-2.5 font-semibold text-[#94a3b8]">Available Rewards</h3>
+      <h3 className="mb-2.5 font-semibold text-muted">Available Rewards</h3>
       {rewards.map((r) => (
         <div key={r.id} className={`${cardCls} mb-2 flex items-center gap-3`}>
           <span className="text-[28px]" style={{ fontFamily: EMOJI_FONT }}>
@@ -3274,7 +3269,7 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
           <div className="flex-1">
             <div className="font-semibold">{r.name}</div>
             {r.description && (
-              <div className="text-[13px] text-[#94a3b8]">{r.description}</div>
+              <div className="text-[13px] text-muted">{r.description}</div>
             )}
           </div>
           <div className="font-bold text-[#f5c518]">🪙 {r.coin_cost}</div>
@@ -3323,11 +3318,11 @@ function MessageTab({
                 background:
                   to === null
                     ? "rgba(245,197,24,0.2)"
-                    : "rgba(255,255,255,0.06)",
+                    : "var(--border)",
                 border: `1px solid ${
                   to === null
                     ? "rgba(245,197,24,0.5)"
-                    : "rgba(255,255,255,0.08)"
+                    : "var(--border)"
                 }`,
                 color: to === null ? "#f5c518" : "#94a3b8",
               }}
@@ -3343,11 +3338,11 @@ function MessageTab({
                   background:
                     to === k.id
                       ? "rgba(245,197,24,0.2)"
-                      : "rgba(255,255,255,0.06)",
+                      : "var(--border)",
                   border: `1px solid ${
                     to === k.id
                       ? "rgba(245,197,24,0.5)"
-                      : "rgba(255,255,255,0.08)"
+                      : "var(--border)"
                   }`,
                   color: to === k.id ? "#f5c518" : "#94a3b8",
                 }}
@@ -3363,7 +3358,7 @@ function MessageTab({
             value={text}
             onChange={(e) => setText(e.target.value)}
             rows={4}
-            className="w-full resize-none rounded-[10px] border border-white/10 bg-white/5 p-3.5 text-[15px] text-[#f1f5f9]"
+            className="w-full resize-none rounded-[10px] border border-border bg-surface p-3.5 text-[15px] text-foreground"
           />
         </div>
         <button

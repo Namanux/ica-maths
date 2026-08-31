@@ -331,7 +331,7 @@ function CelebrationOverlay({
         style={{
           textAlign: "center",
           padding: "40px 48px",
-          background: "linear-gradient(135deg, #1a1a2e, #16213e)",
+          background: "var(--surface)",
           border: `2px solid ${accent}`,
           borderRadius: 24,
           boxShadow: `0 0 60px ${accent}44`,
@@ -356,14 +356,14 @@ function CelebrationOverlay({
           style={{
             fontSize: 22,
             fontWeight: 700,
-            color: "#f1f5f9",
+            color: "var(--foreground)",
             marginBottom: 4,
           }}
         >
           {isLevelUp ? celebration.label : milestone?.msg}
         </div>
         {isLevelUp && (
-          <div style={{ fontSize: 16, color: "#94a3b8", marginTop: 8 }}>
+          <div style={{ fontSize: 16, color: "var(--muted)", marginTop: 8 }}>
             You&apos;re now a{" "}
             <span style={{ color: accent, fontWeight: 700 }}>
               {celebration.label}
@@ -372,11 +372,11 @@ function CelebrationOverlay({
           </div>
         )}
         {!isLevelUp && (
-          <div style={{ fontSize: 14, color: "#94a3b8", marginTop: 8 }}>
+          <div style={{ fontSize: 14, color: "var(--muted)", marginTop: 8 }}>
             Keep going — you&apos;re crushing it!
           </div>
         )}
-        <div style={{ fontSize: 12, color: "#475569", marginTop: 20 }}>
+        <div style={{ fontSize: 12, color: "var(--muted)", marginTop: 20 }}>
           Tap to continue
         </div>
       </div>
@@ -1170,7 +1170,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
   return (
     <div
-      className="flex flex-col -mx-4 -my-6 min-h-[calc(100vh-8rem)] bg-[#0f0f1a] text-[#f1f5f9]"
+      className="flex flex-col -mx-4 -my-6 min-h-[calc(100vh-8rem)] bg-background text-foreground"
       onClick={touchInteraction}
     >
       <ConfettiCanvas active={!!celebration} />
@@ -1197,23 +1197,18 @@ export function KidDashboard(_props: { profileSlug: string }) {
       />
 
       {/* ── Compact header ── */}
-      <div
-        className="shrink-0 border-b border-white/10 px-3.5 pt-2.5"
-        style={{
-          background: "linear-gradient(135deg, #1a1a2e 0%, #16213e 100%)",
-        }}
-      >
+      <div className="shrink-0 border-b border-border bg-surface px-3.5 pt-2.5">
         <div className="mb-2 flex items-center gap-1.5">
           <button
             onClick={(e) => {
               e.stopPropagation();
               shiftDate(-1);
             }}
-            className="flex h-[26px] w-[26px] items-center justify-center rounded-[7px] border border-white/10 bg-white/5 text-[15px] text-[#94a3b8]"
+            className="flex h-[26px] w-[26px] items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
           >
             ‹
           </button>
-          <span className="flex-1 text-center text-xs text-[#94a3b8]">
+          <span className="flex-1 text-center text-xs text-muted">
             {formatViewDate()}
           </span>
           <button
@@ -1221,13 +1216,13 @@ export function KidDashboard(_props: { profileSlug: string }) {
               e.stopPropagation();
               shiftDate(1);
             }}
-            className="flex h-[26px] w-[26px] items-center justify-center rounded-[7px] border border-white/10 bg-white/5 text-[15px] text-[#94a3b8]"
+            className="flex h-[26px] w-[26px] items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
           >
             ›
           </button>
           <button
             onClick={logout}
-            className="ml-1 rounded-md border border-white/10 bg-white/5 px-2 py-1 text-[11px] text-[#475569]"
+            className="ml-1 rounded-md border border-border bg-surface px-2 py-1 text-[11px] text-muted"
           >
             Switch
           </button>
@@ -1258,7 +1253,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
             </button>
           )}
 
-          <span className="text-[14px] text-[#475569]">|</span>
+          <span className="text-[14px] text-muted">|</span>
 
           <div className="flex shrink-0 items-center gap-1">
             <span className="text-[15px]">{level.emoji}</span>
@@ -1268,28 +1263,28 @@ export function KidDashboard(_props: { profileSlug: string }) {
             </span>
           </div>
 
-          <span className="text-[14px] text-[#475569]">|</span>
+          <span className="text-[14px] text-muted">|</span>
 
           <div className="flex shrink-0 items-center gap-[3px]">
             <GoldCoin size={11} />
             <span className="text-[13px] font-semibold text-[#f5c518]">
               {todayCoinsEarned}
             </span>
-            <span className="text-[12px] text-[#475569]">/{todayPossible}</span>
+            <span className="text-[12px] text-muted">/{todayPossible}</span>
           </div>
 
-          <span className="text-[14px] text-[#475569]">|</span>
+          <span className="text-[14px] text-muted">|</span>
 
           <div className="flex shrink-0 items-center gap-[3px]">
             <span className="text-[13px]">✅</span>
             <span className="text-[13px] font-semibold text-[#22c55e]">
               {doneTasks}
             </span>
-            <span className="text-[12px] text-[#475569]">/{totalTasks}</span>
+            <span className="text-[12px] text-muted">/{totalTasks}</span>
           </div>
         </div>
 
-        <div className="-mx-3.5 h-[3px] overflow-hidden bg-white/5">
+        <div className="-mx-3.5 h-[3px] overflow-hidden bg-surface">
           <div
             className="h-full transition-[width] duration-500"
             style={{
@@ -1353,19 +1348,19 @@ export function KidDashboard(_props: { profileSlug: string }) {
             <div className="mb-2 text-[24px] font-black text-[#f5c518]">
               All done for today!
             </div>
-            <div className="mb-4 text-[15px] text-[#94a3b8]">
+            <div className="mb-4 text-[15px] text-muted">
               You earned{" "}
               <span className="font-bold text-[#f5c518]">
                 {todayCoinsEarned}
               </span>{" "}
               coins today.
             </div>
-            <div className="text-[13px] text-[#475569]">
+            <div className="text-[13px] text-muted">
               Tasks sent to parent for approval.
             </div>
           </div>
         ) : tasks.length === 0 ? (
-          <div className="px-5 py-[60px] text-center text-[#475569]">
+          <div className="px-5 py-[60px] text-center text-muted">
             <div className="mb-3 text-[48px]">🎉</div>
             <p className="text-[18px] font-semibold">
               No tasks{isToday ? " today" : " this day"}!
@@ -1433,7 +1428,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="max-h-[85vh] w-full max-w-[480px] overflow-y-auto rounded-t-[20px] border border-white/10 border-b-0 bg-[#16213e] px-[18px] pb-6 pt-5"
+            className="max-h-[85vh] w-full max-w-[480px] overflow-y-auto rounded-t-[20px] border border-border border-b-0 bg-surface px-[18px] pb-6 pt-5"
           >
             {addTaskStep === "templates" && (
               <>
@@ -1443,12 +1438,12 @@ export function KidDashboard(_props: { profileSlug: string }) {
                   </span>
                   <button
                     onClick={closeAddTask}
-                    className="h-8 w-8 rounded-lg bg-white/[0.06] text-[16px] text-[#94a3b8]"
+                    className="h-8 w-8 rounded-lg bg-surface text-[16px] text-muted"
                   >
                     ✕
                   </button>
                 </div>
-                <div className="mb-3.5 text-[13px] text-[#94a3b8]">
+                <div className="mb-3.5 text-[13px] text-muted">
                   Pick something you want to do — your parent checks it before it
                   counts!
                 </div>
@@ -1457,7 +1452,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
                     <button
                       key={t.name}
                       onClick={() => pickTemplate(t)}
-                      className="flex flex-col items-center gap-1 rounded-[14px] border border-white/10 bg-white/[0.04] px-2 py-3.5"
+                      className="flex flex-col items-center gap-1 rounded-[14px] border border-border bg-surface px-2 py-3.5"
                     >
                       <span className="text-[26px]">{t.icon}</span>
                       <span className="text-center text-[12px] font-semibold">
@@ -1480,7 +1475,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
                 <div className="mb-4 flex items-center">
                   <button
                     onClick={() => setAddTaskStep("templates")}
-                    className="mr-2 h-8 w-8 rounded-lg bg-white/[0.06] text-[16px] text-[#94a3b8]"
+                    className="mr-2 h-8 w-8 rounded-lg bg-surface text-[16px] text-muted"
                   >
                     ‹
                   </button>
@@ -1489,13 +1484,13 @@ export function KidDashboard(_props: { profileSlug: string }) {
                   </span>
                   <button
                     onClick={closeAddTask}
-                    className="h-8 w-8 rounded-lg bg-white/[0.06] text-[16px] text-[#94a3b8]"
+                    className="h-8 w-8 rounded-lg bg-surface text-[16px] text-muted"
                   >
                     ✕
                   </button>
                 </div>
 
-                <div className="mb-1.5 text-[12px] text-[#64748b]">
+                <div className="mb-1.5 text-[12px] text-muted">
                   Pick an icon
                 </div>
                 <div className="mb-3.5 flex flex-wrap gap-1.5">
@@ -1510,11 +1505,11 @@ export function KidDashboard(_props: { profileSlug: string }) {
                         background:
                           addTaskForm.icon === ic
                             ? "rgba(245,197,24,0.25)"
-                            : "rgba(255,255,255,0.05)",
+                            : "var(--surface)",
                         border: `1px solid ${
                           addTaskForm.icon === ic
                             ? "rgba(245,197,24,0.5)"
-                            : "rgba(255,255,255,0.08)"
+                            : "var(--border)"
                         }`,
                       }}
                     >
@@ -1523,7 +1518,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
                   ))}
                 </div>
 
-                <div className="mb-1.5 text-[12px] text-[#64748b]">
+                <div className="mb-1.5 text-[12px] text-muted">
                   What do you want to do?
                 </div>
                 <input
@@ -1535,10 +1530,10 @@ export function KidDashboard(_props: { profileSlug: string }) {
                   }
                   placeholder="Task name"
                   autoFocus
-                  className="mb-3.5 w-full rounded-xl border border-white/10 bg-white/5 px-3.5 py-3 text-[15px] text-[#e2e8f0]"
+                  className="mb-3.5 w-full rounded-xl border border-border bg-surface px-3.5 py-3 text-[15px] text-foreground"
                 />
 
-                <div className="mb-1.5 text-[12px] text-[#64748b]">When?</div>
+                <div className="mb-1.5 text-[12px] text-muted">When?</div>
                 <input
                   type="time"
                   value={addTaskForm.time}
@@ -1547,10 +1542,10 @@ export function KidDashboard(_props: { profileSlug: string }) {
                       f ? { ...f, time: e.target.value } : f,
                     )
                   }
-                  className="mb-3.5 rounded-xl border border-white/10 bg-white/5 px-3.5 py-3 text-[15px] text-[#e2e8f0]"
+                  className="mb-3.5 rounded-xl border border-border bg-surface px-3.5 py-3 text-[15px] text-foreground"
                 />
 
-                <div className="mb-1.5 text-[12px] text-[#64748b]">
+                <div className="mb-1.5 text-[12px] text-muted">
                   Tell your parent why (optional)
                 </div>
                 <textarea
@@ -1562,7 +1557,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
                   }
                   rows={2}
                   placeholder="I want to help out because…"
-                  className="mb-[18px] w-full resize-none rounded-xl border border-white/10 bg-white/5 px-3.5 py-2.5 text-[14px] text-[#e2e8f0]"
+                  className="mb-[18px] w-full resize-none rounded-xl border border-border bg-surface px-3.5 py-2.5 text-[14px] text-foreground"
                 />
 
                 <button
@@ -1593,7 +1588,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
         >
           <div
             onClick={(e) => e.stopPropagation()}
-            className="max-h-[85vh] w-full max-w-[480px] overflow-y-auto rounded-t-[20px] border border-white/10 border-b-0 bg-[#16213e] px-[18px] pb-6 pt-5"
+            className="max-h-[85vh] w-full max-w-[480px] overflow-y-auto rounded-t-[20px] border border-border border-b-0 bg-surface px-[18px] pb-6 pt-5"
           >
             <div className="mb-4 flex items-center">
               <span className="flex-1 text-[18px] font-extrabold">
@@ -1601,7 +1596,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
               </span>
               <button
                 onClick={closeInitiative}
-                className="h-8 w-8 rounded-lg bg-white/[0.06] text-[16px] text-[#94a3b8]"
+                className="h-8 w-8 rounded-lg bg-surface text-[16px] text-muted"
               >
                 ✕
               </button>
@@ -1619,7 +1614,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
                         : ["before", "note", "after"].indexOf(s) <
                           ["before", "note", "after"].indexOf(initiativeStep)
                         ? "rgba(168,85,247,0.4)"
-                        : "rgba(255,255,255,0.08)",
+                        : "var(--border)",
                   }}
                 />
               ))}
@@ -1627,7 +1622,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
             {initiativeStep === "before" && (
               <>
-                <div className="mb-3.5 text-[14px] text-[#cbd5e1]">
+                <div className="mb-3.5 text-[14px] text-foreground">
                   Doing something on your own? Show us what you&apos;re starting
                   with!
                 </div>
@@ -1637,12 +1632,12 @@ export function KidDashboard(_props: { profileSlug: string }) {
                     <img
                       src={initiativeData.beforePreview}
                       alt="Before"
-                      className="mb-3 max-h-[260px] w-full rounded-[14px] border border-white/10 object-cover"
+                      className="mb-3 max-h-[260px] w-full rounded-[14px] border border-border object-cover"
                     />
                     <div className="flex gap-2">
                       <button
                         onClick={() => captureInitiativePhoto("before")}
-                        className="flex-1 rounded-xl border border-white/10 bg-white/[0.06] p-3 font-semibold text-[#94a3b8]"
+                        className="flex-1 rounded-xl border border-border bg-surface p-3 font-semibold text-muted"
                       >
                         ↺ Retake
                       </button>
@@ -1667,7 +1662,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
             {initiativeStep === "note" && (
               <>
-                <div className="mb-3.5 text-[14px] text-[#cbd5e1]">
+                <div className="mb-3.5 text-[14px] text-foreground">
                   What are you doing?
                 </div>
                 <textarea
@@ -1680,12 +1675,12 @@ export function KidDashboard(_props: { profileSlug: string }) {
                   rows={3}
                   autoFocus
                   placeholder="Tell your parent what you're up to… (optional)"
-                  className="mb-[18px] w-full resize-none rounded-xl border border-white/10 bg-white/5 px-3.5 py-2.5 text-[14px] text-[#e2e8f0]"
+                  className="mb-[18px] w-full resize-none rounded-xl border border-border bg-surface px-3.5 py-2.5 text-[14px] text-foreground"
                 />
                 <div className="flex gap-2">
                   <button
                     onClick={() => setInitiativeStep("before")}
-                    className="flex-1 rounded-xl border border-white/10 bg-white/[0.06] p-3 font-semibold text-[#94a3b8]"
+                    className="flex-1 rounded-xl border border-border bg-surface p-3 font-semibold text-muted"
                   >
                     ← Back
                   </button>
@@ -1701,7 +1696,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
             {initiativeStep === "after" && (
               <>
-                <div className="mb-3.5 text-[14px] text-[#cbd5e1]">
+                <div className="mb-3.5 text-[14px] text-foreground">
                   Now show us when you&apos;re done! 🎉
                 </div>
                 {initiativeData.afterPreview ? (
@@ -1710,13 +1705,13 @@ export function KidDashboard(_props: { profileSlug: string }) {
                     <img
                       src={initiativeData.afterPreview}
                       alt="After"
-                      className="mb-3 max-h-[260px] w-full rounded-[14px] border border-white/10 object-cover"
+                      className="mb-3 max-h-[260px] w-full rounded-[14px] border border-border object-cover"
                     />
                     <div className="flex gap-2">
                       <button
                         onClick={() => captureInitiativePhoto("after")}
                         disabled={submittingInitiative}
-                        className="flex-1 rounded-xl border border-white/10 bg-white/[0.06] p-3 font-semibold text-[#94a3b8]"
+                        className="flex-1 rounded-xl border border-border bg-surface p-3 font-semibold text-muted"
                       >
                         ↺ Retake
                       </button>
@@ -1739,7 +1734,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
                     </button>
                     <button
                       onClick={() => setInitiativeStep("note")}
-                      className="w-full rounded-xl border border-white/10 bg-white/[0.06] p-3 font-semibold text-[#94a3b8]"
+                      className="w-full rounded-xl border border-border bg-surface p-3 font-semibold text-muted"
                     >
                       ← Back
                     </button>
@@ -1826,8 +1821,8 @@ function TaskCard({
     { bg: string; border: string; label: string; labelColor: string; icon: string }
   > = {
     upcoming: {
-      bg: "rgba(255,255,255,0.03)",
-      border: "rgba(255,255,255,0.08)",
+      bg: "var(--surface)",
+      border: "var(--border)",
       label: "Upcoming",
       labelColor: "#94a3b8",
       icon: "⏰",
@@ -1901,7 +1896,7 @@ function TaskCard({
             background:
               status === "missed"
                 ? "rgba(239,68,68,0.15)"
-                : "rgba(255,255,255,0.06)",
+                : "var(--surface)",
           }}
         >
           {task.icon}
@@ -1959,7 +1954,7 @@ function TaskCard({
           </div>
 
           <div className="flex flex-wrap items-center gap-2.5">
-            <span className="text-[12px] text-[#94a3b8]">
+            <span className="text-[12px] text-muted">
               {beehave.formatTime(task.start_time)} –{" "}
               {beehave.formatTime(task.deadline_time)}
             </span>
@@ -2004,7 +1999,7 @@ function TaskCard({
             <div
               className="mt-2 overflow-hidden rounded-[10px]"
               style={{
-                background: "rgba(0,0,0,0.3)",
+                background: "var(--surface)",
                 border: `1px solid ${timerColor}44`,
               }}
             >
@@ -2021,14 +2016,14 @@ function TaskCard({
                   >
                     {formatDuration(timer.remaining)}
                   </span>
-                  <span className="text-[10px] text-[#475569]">remaining</span>
+                  <span className="text-[10px] text-muted">remaining</span>
                 </div>
                 {timer.totalElapsed > 0 && (
                   <div className="ml-1">
                     <span className="block text-[14px] font-bold text-[#4f8ef7]">
                       {formatDuration(timer.totalElapsed)}
                     </span>
-                    <span className="text-[10px] text-[#475569]">
+                    <span className="text-[10px] text-muted">
                       studied so far
                     </span>
                   </div>
