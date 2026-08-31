@@ -3985,6 +3985,26 @@ function ParentPassbookColumn({
   );
 }
 
+// Coerce an Excel "when" cell (Date, serial number, or string) → ISO string.
+function excelWhen(val: unknown): string {
+  if (val instanceof Date && !isNaN(val.getTime())) return val.toISOString();
+  if (typeof val === "number" && isFinite(val)) {
+    return new Date(Math.round((val - 25569) * 86400 * 1000)).toISOString();
+  }
+  const s = String(val ?? "").trim();
+  const d = s ? new Date(s) : null;
+  return d && !isNaN(d.getTime()) ? d.toISOString() : new Date().toISOString();
+}
+
+const TXN_TYPES = [
+  "task_reward",
+  "penalty",
+  "redemption",
+  "bonus",
+  "adjustment",
+  "refund",
+];
+
 function ParentPassbooks({
   kids,
   profile,
@@ -3992,17 +4012,217 @@ function ParentPassbooks({
   kids: KidRow[];
   profile: BeehaveProfile;
 }) {
+  const [busy, setBusy] = useState<"export" | "import" | null>(null);
+  const [reloadKey, setReloadKey] = useState(0);
+  const importRef = useRef<HTMLInputElement | null>(null);
+
+  async function exportPassbook() {
+    if (!supabase) return;
+    setBusy("export");
+    try {
+      const wb = XLSX.utils.book_new();
+      for (const k of kids) {
+        const [{ data: txns }, { data: reds }] = await Promise.all([
+          supabase
+            .from("coin_transactions")
+            .select("id, amount, reason, transaction_type, created_at")
+            .eq("kid_id", k.id)
+            .order("created_at", { ascending: true }),
+          supabase
+            .from("reward_redemptions")
+            .select("id, coins_spent, status, created_at, reward:reward_id(name)")
+            .eq("kid_id", k.id)
+            .in("status", ["pending", "approved"])
+            .order("created_at", { ascending: true }),
+        ]);
+        const rows: Record<string, unknown>[] = [
+          ...(((txns as Record<string, unknown>[]) || []).map((t) => ({
+            id: t.id,
+            source: "txn",
+            when: t.created_at,
+            type: t.transaction_type,
+            amount: t.amount,
+            reason: t.reason || "",
+          }))),
+          ...(((reds as Record<string, unknown>[]) || []).map((r) => ({
+            id: r.id,
+            source: "redemption",
+            when: r.created_at,
+            type: r.status,
+            amount: -(Number(r.coins_spent) || 0),
+            reason: `Redeemed: ${
+              (r.reward as { name?: string } | null)?.name ?? "reward"
+            }`,
+          }))),
+        ].sort((a, b) => String(a.when).localeCompare(String(b.when)));
+        const ws = XLSX.utils.json_to_sheet(
+          rows.length
+            ? rows
+            : [
+                {
+                  id: "",
+                  source: "txn",
+                  when: "",
+                  type: "adjustment",
+                  amount: 0,
+                  reason: "Opening balance",
+                },
+              ],
+        );
+        ws["!cols"] = [38, 12, 24, 14, 10, 40].map((w) => ({ wch: w }));
+        XLSX.utils.book_append_sheet(wb, ws, k.name.slice(0, 31));
+      }
+      XLSX.writeFile(wb, "beehave-passbook.xlsx");
+    } finally {
+      setBusy(null);
+    }
+  }
+
+  async function importPassbook(e: ChangeEvent<HTMLInputElement>) {
+    const file = e.target.files?.[0];
+    if (!file || !supabase) return;
+    setBusy("import");
+    try {
+      const ab = await file.arrayBuffer();
+      const wb = XLSX.read(ab, { cellDates: true });
+      const report: string[] = [];
+      for (const sheetName of wb.SheetNames) {
+        const kid = kids.find(
+          (k) => k.name.toLowerCase() === sheetName.trim().toLowerCase(),
+        );
+        if (!kid) continue;
+        const rows = XLSX.utils.sheet_to_json(
+          wb.Sheets[sheetName],
+        ) as Record<string, unknown>[];
+        const clean = rows.filter(
+          (r) =>
+            r.amount !== undefined &&
+            r.amount !== "" &&
+            Number.isFinite(Number(r.amount)),
+        );
+        const txnRows = clean.filter(
+          (r) => String(r.source ?? "txn").toLowerCase() !== "redemption",
+        );
+        const redRows = clean.filter(
+          (r) => String(r.source ?? "").toLowerCase() === "redemption",
+        );
+
+        // Rebuild the coin ledger from the sheet.
+        await supabase.from("coin_transactions").delete().eq("kid_id", kid.id);
+        const inserts = txnRows.map((r) => {
+          const t = String(r.type ?? "adjustment").toLowerCase();
+          return {
+            kid_id: kid.id,
+            amount: Math.round(Number(r.amount)),
+            reason: String(r.reason ?? "Adjustment") || "Adjustment",
+            transaction_type: TXN_TYPES.includes(t) ? t : "adjustment",
+            created_at: excelWhen(r.when),
+          };
+        });
+        if (inserts.length) {
+          await supabase.from("coin_transactions").insert(inserts);
+        }
+
+        // Drop any redemption the user removed from the sheet.
+        const keepIds = new Set(
+          redRows.map((r) => String(r.id ?? "")).filter(Boolean),
+        );
+        const { data: existingReds } = await supabase
+          .from("reward_redemptions")
+          .select("id")
+          .eq("kid_id", kid.id)
+          .in("status", ["pending", "approved"]);
+        const toDrop = ((existingReds as { id: string }[]) || [])
+          .map((r) => r.id)
+          .filter((id) => !keepIds.has(id));
+        if (toDrop.length) {
+          await supabase.from("reward_redemptions").delete().in("id", toDrop);
+        }
+
+        // Recompute the balance: everything earned minus redemptions still held.
+        const [{ data: sumT }, { data: sumR }] = await Promise.all([
+          supabase
+            .from("coin_transactions")
+            .select("amount")
+            .eq("kid_id", kid.id),
+          supabase
+            .from("reward_redemptions")
+            .select("coins_spent")
+            .eq("kid_id", kid.id)
+            .in("status", ["pending", "approved"]),
+        ]);
+        const earned = ((sumT as { amount: number }[]) || []).reduce(
+          (s, x) => s + (x.amount || 0),
+          0,
+        );
+        const held = ((sumR as { coins_spent: number }[]) || []).reduce(
+          (s, x) => s + (x.coins_spent || 0),
+          0,
+        );
+        const balance = Math.max(0, earned - held);
+        await supabase
+          .from("profiles")
+          .update({ coin_balance: balance })
+          .eq("id", kid.id);
+        report.push(`${kid.name}: ${inserts.length} rows → balance ${balance}`);
+      }
+      alert(
+        report.length
+          ? `✅ Passbook updated\n\n${report.join("\n")}`
+          : "No matching sheets — name each sheet after a kid.",
+      );
+      setReloadKey((k) => k + 1);
+    } catch (err) {
+      alert("Import failed: " + (err as Error).message);
+    } finally {
+      setBusy(null);
+      e.target.value = "";
+    }
+  }
+
   if (kids.length === 0) {
     return <p className="py-16 text-center text-sm text-muted">No kids yet.</p>;
   }
   return (
-    <div
-      className="mt-3 grid gap-3"
-      style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}
-    >
-      {kids.map((k) => (
-        <ParentPassbookColumn key={k.id} kid={k} profile={profile} />
-      ))}
-    </div>
+    <>
+      <div className="mb-3 mt-3 flex items-center gap-2 rounded-[10px] border border-border bg-surface px-3.5 py-2.5">
+        <span className="flex-1 text-[13px] text-muted">
+          📊 Passbook — export, fix in Excel, re-upload
+        </span>
+        <button
+          onClick={exportPassbook}
+          disabled={busy !== null}
+          className="rounded-lg border border-[#22c55e]/25 bg-[#22c55e]/[0.12] px-3 py-1.5 text-[13px] text-[#22c55e] disabled:opacity-50"
+        >
+          {busy === "export" ? "…" : "↓ Export"}
+        </button>
+        <button
+          onClick={() => importRef.current?.click()}
+          disabled={busy !== null}
+          className="rounded-lg border border-[#4f8ef7]/25 bg-[#4f8ef7]/[0.12] px-3 py-1.5 text-[13px] text-[#4f8ef7] disabled:opacity-50"
+        >
+          {busy === "import" ? "Importing…" : "↑ Import"}
+        </button>
+        <input
+          ref={importRef}
+          type="file"
+          accept=".xlsx,.xls"
+          className="hidden"
+          onChange={importPassbook}
+        />
+      </div>
+      <div
+        className="grid gap-3"
+        style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}
+      >
+        {kids.map((k) => (
+          <ParentPassbookColumn
+            key={`${k.id}-${reloadKey}`}
+            kid={k}
+            profile={profile}
+          />
+        ))}
+      </div>
+    </>
   );
 }
