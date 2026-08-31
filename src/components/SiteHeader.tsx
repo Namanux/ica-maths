@@ -62,6 +62,23 @@ export function SiteHeader() {
         <span />
       )}
       <div className="flex items-center gap-3">
+        {profile && sectionSlug !== "beehave" && (
+          <Link
+            href={`/${profile.slug}/beehave`}
+            className="text-sm text-muted hover:text-foreground transition-colors"
+          >
+            Beehave
+          </Link>
+        )}
+        {profile?.role === "admin" && (
+          <Link
+            href={`/${profile.slug}/live`}
+            className="flex items-center gap-1.5 text-sm text-muted hover:text-foreground transition-colors"
+          >
+            <span className="h-1.5 w-1.5 rounded-full bg-correct" aria-hidden />
+            Live activity
+          </Link>
+        )}
         <ThemeToggle />
         {profile && <AccountMenu profile={profile} />}
       </div>
