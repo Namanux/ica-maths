@@ -3014,7 +3014,15 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
   const [rewards, setRewards] = useState<RewardRow[]>([]);
   const [redemptions, setRedemptions] = useState<RedemptionRow[]>([]);
   const [showForm, setShowForm] = useState(false);
-  const [form, setForm] = useState({
+  const [form, setForm] = useState<{
+    id?: string;
+    name: string;
+    icon: string;
+    coin_cost: number;
+    description: string;
+  }>({ name: "", icon: "🎁", coin_cost: 100, description: "" });
+
+  const blankReward = () => ({
     name: "",
     icon: "🎁",
     coin_cost: 100,
@@ -3046,10 +3054,38 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
   }
 
   async function saveReward() {
-    if (!supabase) return;
-    await supabase.from("rewards").insert(form);
+    if (!supabase || !form.name.trim()) return;
+    const payload = {
+      name: form.name.trim(),
+      icon: form.icon,
+      coin_cost: form.coin_cost,
+      description: form.description.trim() || null,
+    };
+    if (form.id) {
+      await supabase.from("rewards").update(payload).eq("id", form.id);
+    } else {
+      await supabase.from("rewards").insert(payload);
+    }
     setShowForm(false);
-    setForm({ name: "", icon: "🎁", coin_cost: 100, description: "" });
+    setForm(blankReward());
+    void loadRewards();
+  }
+
+  function startEditReward(r: RewardRow) {
+    setForm({
+      id: r.id,
+      name: r.name,
+      icon: r.icon,
+      coin_cost: r.coin_cost,
+      description: r.description ?? "",
+    });
+    setShowForm(true);
+  }
+
+  async function deleteReward(r: RewardRow) {
+    if (!supabase) return;
+    if (!confirm(`Delete reward "${r.name}"?`)) return;
+    await supabase.from("rewards").update({ is_active: false }).eq("id", r.id);
     void loadRewards();
   }
 
@@ -3095,7 +3131,10 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
       <div className="mb-4 flex items-center justify-between">
         <h2 className="font-bold">Rewards</h2>
         <button
-          onClick={() => setShowForm(!showForm)}
+          onClick={() => {
+            setForm(blankReward());
+            setShowForm((v) => !v);
+          }}
           className="rounded-[10px] bg-[#f5c518] px-[18px] py-2.5 text-[14px] font-semibold text-[#0f0f1a]"
         >
           + New Reward
@@ -3144,7 +3183,7 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
             onClick={saveReward}
             className="w-full rounded-[10px] bg-[#f5c518] px-6 py-3 font-semibold text-[#0f0f1a]"
           >
-            Save Reward
+            {form.id ? "Update Reward" : "Save Reward"}
           </button>
         </div>
       )}
@@ -3204,6 +3243,20 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
             )}
           </div>
           <div className="font-bold text-[#f5c518]">🪙 {r.coin_cost}</div>
+          <div className="flex gap-1.5">
+            <button
+              onClick={() => startEditReward(r)}
+              className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
+            >
+              Edit
+            </button>
+            <button
+              onClick={() => deleteReward(r)}
+              className="rounded-lg bg-[#ef4444]/10 px-3 py-1.5 text-[13px] text-[#ef4444]"
+            >
+              Del
+            </button>
+          </div>
         </div>
       ))}
     </div>
