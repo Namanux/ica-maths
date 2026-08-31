@@ -18,7 +18,8 @@ const SECTION_TITLES: Record<string, string> = {
   icas: "Honeycomb",
 };
 
-const BEEHAVE_TABS = ["Overview", "Approve", "Task", "Reward", "Message"] as const;
+// "Overview" is reached via the Beehave pill itself, so it's not listed here.
+const BEEHAVE_TABS = ["Approve", "Task", "Reward", "Message"] as const;
 
 function pill(active: boolean) {
   return `whitespace-nowrap rounded-md px-2.5 py-1 text-sm transition-colors ${
@@ -57,6 +58,9 @@ export function SiteHeader() {
   const isAdmin = profile?.role === "admin";
   const showBeehaveTabs = inBeehave && isAdmin;
   const activeTab = searchParams.get("tab") ?? "Overview";
+  // The Beehave pill doubles as the Overview tab for admins.
+  const beehavePillActive =
+    inBeehave && (!showBeehaveTabs || activeTab === "Overview");
 
   // Live coin score for the current profile — shown on the Beehave nav item.
   const [coins, setCoins] = useState<number | null>(null);
@@ -150,7 +154,7 @@ export function SiteHeader() {
             </Link>
             <Link
               href={`/${profile.slug}/beehave`}
-              className={`flex items-center gap-1.5 ${pill(inBeehave)}`}
+              className={`flex items-center gap-1.5 ${pill(beehavePillActive)}`}
             >
               <span>Beehave</span>
               {coins !== null && (
