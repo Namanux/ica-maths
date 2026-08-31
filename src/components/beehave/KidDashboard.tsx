@@ -422,7 +422,9 @@ export function KidDashboard(_props: { profileSlug: string }) {
   const { profile, loading, error, refreshCurrentProfile } = useBeehaveAuth();
   const supabase = getSupabaseClient();
   const searchParams = useSearchParams();
-  const rewardTab = searchParams.get("tab") === "Reward";
+  const activeTab = searchParams.get("tab");
+  const rewardTab = activeTab === "Reward";
+  const passbookTab = activeTab === "Passbook";
 
   const [tasks, setTasks] = useState<TaskRow[]>([]);
   const [completions, setCompletions] = useState<CompletionRow[]>([]);
@@ -1144,6 +1146,14 @@ export function KidDashboard(_props: { profileSlug: string }) {
         <p className="max-w-sm text-sm">
           {error ?? "No Beehave profile is linked to this account."}
         </p>
+      </div>
+    );
+  }
+
+  if (passbookTab) {
+    return (
+      <div className="flex flex-1 flex-col bg-background text-foreground">
+        <KidPassbook />
       </div>
     );
   }
@@ -2299,6 +2309,193 @@ function KidRewards() {
         <div className="fixed bottom-6 left-1/2 z-[200] -translate-x-1/2 whitespace-nowrap rounded-full bg-[#22c55e]/95 px-4 py-2 text-[13px] font-bold text-[#052e16] shadow-lg">
           🎁 {toast}
         </div>
+      )}
+    </div>
+  );
+}
+
+// ─── Kid Passbook (coin statement) ───────────────────────────────────────────
+type CoinTxn = {
+  id: string;
+  amount: number;
+  reason: string;
+  transaction_type: string;
+  created_at: string;
+};
+
+const TXN_META: Record<string, { icon: string; label: string }> = {
+  task_reward: { icon: "✅", label: "Task" },
+  bonus: { icon: "⭐", label: "Award" },
+  penalty: { icon: "⚠️", label: "Deduction" },
+  redemption: { icon: "🎁", label: "Reward" },
+  adjustment: { icon: "↩️", label: "Refund" },
+  refund: { icon: "↩️", label: "Refund" },
+};
+
+function passbookDayLabel(d: Date): string {
+  const today = new Date();
+  const yest = new Date();
+  yest.setDate(yest.getDate() - 1);
+  const s = localDateStr(d);
+  if (s === localDateStr(today)) return "Today";
+  if (s === localDateStr(yest)) return "Yesterday";
+  return d.toLocaleDateString("en-AU", {
+    weekday: "short",
+    day: "numeric",
+    month: "short",
+  });
+}
+
+function KidPassbook() {
+  const { profile, refreshCurrentProfile } = useBeehaveAuth();
+  const supabase = getSupabaseClient();
+  const [txns, setTxns] = useState<CoinTxn[]>([]);
+  const [loaded, setLoaded] = useState(false);
+
+  const balance = profile?.coin_balance ?? 0;
+
+  useEffect(() => {
+    if (!supabase || !profile) return;
+    const kidId = profile.id;
+    let cancelled = false;
+    const load = async () => {
+      const { data } = await supabase
+        .from("coin_transactions")
+        .select("id, amount, reason, transaction_type, created_at")
+        .eq("kid_id", kidId)
+        .order("created_at", { ascending: false })
+        .limit(200);
+      if (!cancelled) {
+        setTxns((data as CoinTxn[]) || []);
+        setLoaded(true);
+      }
+    };
+    void load();
+    const ch = supabase
+      .channel(`beehave-passbook-${kidId}`)
+      .on(
+        "postgres_changes",
+        {
+          event: "*",
+          schema: "public",
+          table: "coin_transactions",
+          filter: `kid_id=eq.${kidId}`,
+        },
+        () => {
+          void load();
+          void refreshCurrentProfile();
+        },
+      )
+      .subscribe();
+    return () => {
+      cancelled = true;
+      void ch.unsubscribe();
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [profile?.id]);
+
+  // Running balance, newest first — best effort (the real balance is clamped
+  // at 0 in a few places, so very old rows can be approximate).
+  let after = balance;
+  const rows = txns.map((t) => {
+    const row = { ...t, after };
+    after = Math.max(0, after - t.amount);
+    return row;
+  });
+
+  const groups: {
+    day: string;
+    net: number;
+    items: (CoinTxn & { after: number })[];
+  }[] = [];
+  for (const r of rows) {
+    const day = passbookDayLabel(new Date(r.created_at));
+    let g = groups[groups.length - 1];
+    if (!g || g.day !== day) {
+      g = { day, net: 0, items: [] };
+      groups.push(g);
+    }
+    g.items.push(r);
+    g.net += r.amount;
+  }
+
+  return (
+    <div className="flex-1 overflow-y-auto px-3.5 pb-24 pt-3.5">
+      <div className="mb-4 rounded-2xl border border-border bg-surface p-4">
+        <div className="text-[11px] font-semibold uppercase tracking-wide text-muted">
+          Balance
+        </div>
+        <div className="mt-1 flex items-center gap-1.5 text-[28px] font-black text-[#f5c518]">
+          <GoldCoin size={22} /> {balance}
+        </div>
+      </div>
+
+      {!loaded ? (
+        <p className="py-16 text-center text-sm text-muted">Loading…</p>
+      ) : groups.length === 0 ? (
+        <p className="py-16 text-center text-sm text-muted">No activity yet.</p>
+      ) : (
+        groups.map((g) => (
+          <div key={g.day} className="mb-4">
+            <div className="mb-1.5 flex items-center justify-between px-1">
+              <span className="text-[11px] font-bold uppercase tracking-wide text-muted">
+                {g.day}
+              </span>
+              <span
+                className={`text-[12px] font-bold ${
+                  g.net >= 0 ? "text-[#22c55e]" : "text-[#ef4444]"
+                }`}
+              >
+                {g.net >= 0 ? "+" : ""}
+                {g.net} 🪙
+              </span>
+            </div>
+            <div className="overflow-hidden rounded-2xl border border-border bg-surface">
+              {g.items.map((t, i) => {
+                const meta = TXN_META[t.transaction_type] ?? {
+                  icon: "•",
+                  label: "Activity",
+                };
+                const pos = t.amount >= 0;
+                return (
+                  <div
+                    key={t.id}
+                    className={`flex items-center gap-3 px-4 py-3 ${
+                      i > 0 ? "border-t border-border" : ""
+                    }`}
+                  >
+                    <span className="text-[18px]">{meta.icon}</span>
+                    <div className="min-w-0 flex-1">
+                      <div className="truncate text-[14px] font-medium">
+                        {t.reason || meta.label}
+                      </div>
+                      <div className="text-[11px] text-muted">
+                        {meta.label} ·{" "}
+                        {new Date(t.created_at).toLocaleTimeString("en-AU", {
+                          hour: "2-digit",
+                          minute: "2-digit",
+                        })}
+                      </div>
+                    </div>
+                    <div className="shrink-0 text-right">
+                      <div
+                        className={`text-[14px] font-bold tabular-nums ${
+                          pos ? "text-[#22c55e]" : "text-[#ef4444]"
+                        }`}
+                      >
+                        {pos ? "+" : ""}
+                        {t.amount}
+                      </div>
+                      <div className="text-[11px] tabular-nums text-muted">
+                        bal {t.after}
+                      </div>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        ))
       )}
     </div>
   );
