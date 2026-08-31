@@ -3617,7 +3617,7 @@ function ParentPassbookColumn({
         .limit(200),
       supabase
         .from("reward_redemptions")
-        .select("*, reward:reward_id(name, icon)")
+        .select("*, reward:reward_id(name, icon, coin_cost)")
         .eq("kid_id", kid.id)
         .in("status", ["pending", "approved"])
         .order("created_at", { ascending: false }),

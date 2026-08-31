@@ -2255,9 +2255,9 @@ function KidRewards() {
 
   const [rewards, setRewards] = useState<KidRewardRow[]>([]);
   const [qty, setQty] = useState<Record<string, number>>({});
-  const [busy, setBusy] = useState<string | null>(null);
   const [toast, setToast] = useState("");
   const [sortBy, setSortBy] = useState<RewardSort>("cheap");
+  const redeemChain = useRef<Record<string, Promise<void>>>({});
 
   const balance = profile?.coin_balance ?? 0;
 
@@ -2281,34 +2281,67 @@ function KidRewards() {
     setQty((m) => ({ ...m, [id]: Math.max(1, n) }));
   }
 
-  async function redeem(r: KidRewardRow) {
-    if (!supabase || !profile) return;
+  // Serialise redeem taps per reward so repeated taps accumulate cleanly
+  // (fresh balance + fresh coins_spent each time — no lost updates).
+  function redeem(r: KidRewardRow) {
     const n = qty[r.id] || 1;
     const cost = n * r.coin_cost;
-    if (n < 1 || cost > balance) return;
-    setBusy(r.id);
-    try {
-      // A pending redemption: coins are held now, parent approves in Passbook.
+    if (n < 1) return;
+    redeemChain.current[r.id] = (
+      redeemChain.current[r.id] ?? Promise.resolve()
+    ).then(() => doRedeem(r, cost));
+  }
+
+  async function doRedeem(r: KidRewardRow, cost: number) {
+    if (!supabase || !profile) return;
+    const { data: me } = await supabase
+      .from("profiles")
+      .select("coin_balance")
+      .eq("id", profile.id)
+      .single();
+    const bal = (me as { coin_balance?: number } | null)?.coin_balance ?? 0;
+    if (cost > bal) {
+      setToast("Not enough 🪙");
+      setTimeout(() => setToast(""), 2000);
+      return;
+    }
+    // Coins held now; parent approves in the Passbook. Top up an existing
+    // pending request for this reward instead of creating a second row —
+    // so repeated Redeem taps show as ×2, ×3, … while pending.
+    const { data: existing } = await supabase
+      .from("reward_redemptions")
+      .select("id, coins_spent")
+      .eq("kid_id", profile.id)
+      .eq("reward_id", r.id)
+      .eq("status", "pending")
+      .order("created_at", { ascending: true })
+      .limit(1)
+      .maybeSingle();
+    if (existing) {
+      await supabase
+        .from("reward_redemptions")
+        .update({
+          coins_spent:
+            ((existing as { coins_spent?: number }).coins_spent || 0) + cost,
+        })
+        .eq("id", (existing as { id: string }).id);
+    } else {
       await supabase.from("reward_redemptions").insert({
         kid_id: profile.id,
         reward_id: r.id,
         coins_spent: cost,
         status: "pending",
       });
-      await supabase
-        .from("profiles")
-        .update({ coin_balance: Math.max(0, balance - cost) })
-        .eq("id", profile.id);
-      playSound("coin");
-      await refreshCurrentProfile();
-      setQ(r.id, 1);
-      setToast(
-        `Sent to your parent — ${r.icon} ${r.name}${n > 1 ? ` x${n}` : ""}`,
-      );
-      setTimeout(() => setToast(""), 3000);
-    } finally {
-      setBusy(null);
     }
+    await supabase
+      .from("profiles")
+      .update({ coin_balance: Math.max(0, bal - cost) })
+      .eq("id", profile.id);
+    playSound("coin");
+    await refreshCurrentProfile();
+    setQ(r.id, 1);
+    setToast(`Sent to your parent — ${r.icon} ${r.name}`);
+    setTimeout(() => setToast(""), 3000);
   }
 
   const renderRow = (r: KidRewardRow) => {
@@ -2365,14 +2398,10 @@ function KidRewards() {
 
         <button
           onClick={() => redeem(r)}
-          disabled={!canAfford || overBudget || busy === r.id}
+          disabled={!canAfford || overBudget}
           className="shrink-0 rounded-xl border border-[#22c55e]/40 bg-[#22c55e]/15 px-3.5 py-2 text-[13px] font-bold text-[#22c55e] disabled:cursor-not-allowed disabled:opacity-40"
         >
-          {busy === r.id
-            ? "…"
-            : !canAfford
-            ? "Not enough 🪙"
-            : `Redeem ${totalCost}`}
+          {!canAfford ? "Not enough 🪙" : `Redeem ${totalCost}`}
         </button>
       </div>
     );
@@ -2462,7 +2491,7 @@ export type RedemptionRowLite = {
   status: string;
   parent_note?: string | null;
   created_at: string;
-  reward?: { name?: string; icon?: string } | null;
+  reward?: { name?: string; icon?: string; coin_cost?: number } | null;
 };
 
 export type PbEntry = {
@@ -2501,17 +2530,21 @@ export function buildPassbook(
           kind: "txn" as const,
         };
       }),
-    ...redemptions.map((r) => ({
-      id: r.id,
-      created_at: r.created_at,
-      amount: -r.coins_spent,
-      title: `Redeemed: ${r.reward?.name ?? "reward"}`,
-      icon: r.reward?.icon || "🎁",
-      label: "Reward",
-      kind: "redemption" as const,
-      status: r.status,
-      parentNote: r.parent_note,
-    })),
+    ...redemptions.map((r) => {
+      const cost = r.reward?.coin_cost ?? 0;
+      const q = cost > 0 ? Math.max(1, Math.round(r.coins_spent / cost)) : 1;
+      return {
+        id: r.id,
+        created_at: r.created_at,
+        amount: -r.coins_spent,
+        title: `Redeemed: ${r.reward?.name ?? "reward"}${q > 1 ? ` ×${q}` : ""}`,
+        icon: r.reward?.icon || "🎁",
+        label: "Reward",
+        kind: "redemption" as const,
+        status: r.status,
+        parentNote: r.parent_note,
+      };
+    }),
   ].sort(
     (a, b) =>
       new Date(b.created_at).getTime() - new Date(a.created_at).getTime(),
@@ -2649,7 +2682,7 @@ function KidPassbook() {
         .limit(200),
       supabase
         .from("reward_redemptions")
-        .select("*, reward:reward_id(name, icon)")
+        .select("*, reward:reward_id(name, icon, coin_cost)")
         .eq("kid_id", kidId)
         .in("status", ["pending", "approved"])
         .order("created_at", { ascending: false }),
