@@ -26,8 +26,8 @@ const COMPONENTS = [
   {
     slug: "writing",
     name: "Writing",
-    description: "One extended writing task.",
-    available: false,
+    description: "3 tasks, 30 minutes each — one extended writing task, timed but not marked.",
+    available: true,
   },
 ];
 
