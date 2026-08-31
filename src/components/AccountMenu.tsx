@@ -21,6 +21,11 @@ export function AccountMenu({ profile }: { profile: Profile }) {
 
   const signOut = () => {
     setOpen(false);
+    try {
+      localStorage.removeItem("honeycomb-profile");
+    } catch {
+      /* storage unavailable */
+    }
     router.push("/");
   };
 

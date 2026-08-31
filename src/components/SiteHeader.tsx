@@ -14,6 +14,7 @@ const SECTION_TITLES: Record<string, string> = {
   "selective-test": "Selective",
   edutest: "EduTest",
   naplan: "NAPLAN",
+  writing: "Writing practice",
   beehave: "Beehave",
   icas: "Honeycomb",
 };
@@ -50,11 +51,22 @@ export function SiteHeader() {
       segments[1] === "selective-test" ||
       segments[1] === "edutest" ||
       segments[1] === "naplan" ||
+      segments[1] === "writing" ||
       segments[1] === "beehave"
     ? segments[1]
     : "icas";
   const sectionTitle = SECTION_TITLES[sectionSlug] ?? SECTION_TITLES.icas;
   const sectionHref = examPaper ? examHomeSlug(examPaper) : sectionSlug;
+
+  // Remember the last profile used so "/" can offer "Continue as …".
+  useEffect(() => {
+    if (!profile) return;
+    try {
+      localStorage.setItem("honeycomb-profile", profile.slug);
+    } catch {
+      /* storage unavailable */
+    }
+  }, [profile?.slug, profile]);
 
   const inBeehave = sectionSlug === "beehave";
   const inOtherSection = showTitle && !inBeehave;
