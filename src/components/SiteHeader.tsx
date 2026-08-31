@@ -160,6 +160,34 @@ export function SiteHeader() {
     };
   }, [showBeehaveTabs]);
 
+  // Pin the coin score into the header once the big in-page one scrolls away.
+  const [coinPinned, setCoinPinned] = useState(false);
+  useEffect(() => {
+    let io: IntersectionObserver | null = null;
+    let timer: number | undefined;
+    let tries = 0;
+    const attach = () => {
+      const el = document.getElementById("beehave-coin-big");
+      if (el) {
+        io = new IntersectionObserver(
+          ([e]) => setCoinPinned(!e.isIntersecting),
+          { threshold: 0 },
+        );
+        io.observe(el);
+      } else if (tries++ < 20) {
+        timer = window.setTimeout(attach, 100);
+      } else {
+        setCoinPinned(false);
+      }
+    };
+    timer = window.setTimeout(attach, 0);
+    return () => {
+      if (timer) clearTimeout(timer);
+      io?.disconnect();
+      setCoinPinned(false);
+    };
+  }, [pathname, activeTab]);
+
   return (
     <div className="flex items-center justify-between gap-3">
       <nav className="flex min-w-0 items-center gap-1 overflow-x-auto">
@@ -170,12 +198,9 @@ export function SiteHeader() {
             </Link>
             <Link
               href={`/${profile.slug}/beehave`}
-              className={`flex items-center gap-1.5 ${pill(beehavePillActive)}`}
+              className={pill(beehavePillActive)}
             >
-              <span>Beehave</span>
-              {coins !== null && (
-                <span className="font-medium text-[#f5c518]">🪙 {coins}</span>
-              )}
+              Beehave
             </Link>
 
             {inBeehave &&
@@ -212,6 +237,11 @@ export function SiteHeader() {
       </nav>
 
       <div className="flex shrink-0 items-center gap-3">
+        {coinPinned && coins !== null && (
+          <span className="flex items-center gap-1 text-[13px] font-bold text-[#f5c518]">
+            🪙 {coins}
+          </span>
+        )}
         {isAdmin && profile && (
           <Link
             href={`/${profile.slug}/live`}

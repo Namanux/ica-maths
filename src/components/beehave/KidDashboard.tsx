@@ -2417,18 +2417,17 @@ function KidRewards() {
 
   return (
     <div className="flex-1 overflow-y-auto px-3.5 pb-24 pt-3.5">
-      <div className="mb-3 flex items-center justify-between">
-        <h2 className="text-[17px] font-extrabold">Rewards</h2>
-        <span className="flex items-center gap-1 text-[14px] font-bold text-[#f5c518]">
-          <GoldCoin size={14} /> {balance}
+      <div className="mb-3 flex items-center gap-2">
+        <h2 className="shrink-0 text-[17px] font-extrabold">Rewards</h2>
+        <span
+          id="beehave-coin-big"
+          className="flex flex-1 items-center justify-center gap-1.5 text-[22px] font-black text-[#f5c518]"
+        >
+          <GoldCoin size={20} /> {balance}
         </span>
-      </div>
-
-      <div className="mb-3 flex items-center justify-between gap-2">
-        <p className="text-[12px] text-muted">
-          Redeeming sends the request to your parent.
-        </p>
-        <RewardSortSelect value={sortBy} onChange={setSortBy} />
+        <div className="shrink-0">
+          <RewardSortSelect value={sortBy} onChange={setSortBy} />
+        </div>
       </div>
 
       {rewards.length === 0 ? (
