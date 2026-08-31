@@ -192,6 +192,13 @@ export function SiteHeader() {
     };
   }, [pathname, activeTab]);
 
+  // Tell the in-page views to hide their big coin while the header copy shows.
+  useEffect(() => {
+    window.dispatchEvent(
+      new CustomEvent("beehave:coinpinned", { detail: coinPinned }),
+    );
+  }, [coinPinned]);
+
   return (
     <div className="flex items-center justify-between gap-2">
       <nav className="flex min-w-0 flex-wrap items-center gap-x-1 gap-y-1">

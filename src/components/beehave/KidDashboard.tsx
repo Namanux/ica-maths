@@ -460,6 +460,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
   const [uploadingPhotoTaskId, setUploadingPhotoTaskId] = useState<string | null>(
     null,
   );
+  const [undoingId, setUndoingId] = useState<string | null>(null);
   const photoInputRef = useRef<HTMLInputElement | null>(null);
 
   const [addTaskStep, setAddTaskStep] = useState<
@@ -725,6 +726,46 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
     await loadTasks();
     await refreshCurrentProfile();
+  }
+
+  // Undo an accidental completion — remove the completion row and reverse
+  // whatever coins were tied to it (auto-approved or parent-approved alike).
+  async function undoTask(comp: CompletionRow) {
+    if (!profile || !supabase || undoingId) return;
+    setUndoingId(comp.id);
+    try {
+      const { data: txs } = await supabase
+        .from("coin_transactions")
+        .select("amount")
+        .eq("reference_id", comp.id);
+      const refunded = (txs as { amount?: number }[] | null)?.reduce(
+        (s, t) => s + (t.amount || 0),
+        0,
+      );
+      await supabase
+        .from("coin_transactions")
+        .delete()
+        .eq("reference_id", comp.id);
+      if (refunded) {
+        const { data: freshKid } = await supabase
+          .from("profiles")
+          .select("coin_balance")
+          .eq("id", profile.id)
+          .single();
+        const bal =
+          (freshKid as { coin_balance?: number } | null)?.coin_balance || 0;
+        await supabase
+          .from("profiles")
+          .update({ coin_balance: Math.max(0, bal - refunded) })
+          .eq("id", profile.id);
+      }
+      await supabase.from("task_completions").delete().eq("id", comp.id);
+      playSound("nudge");
+      await loadTasks();
+      await refreshCurrentProfile();
+    } finally {
+      setUndoingId(null);
+    }
   }
 
   function requestPhotoThenComplete(
@@ -1172,6 +1213,13 @@ export function KidDashboard(_props: { profileSlug: string }) {
   const totalTasks = tasks.length;
   const doneTasks = tasks.filter((t) => completedIds.has(t.id)).length;
   const pendingTasks = tasks.filter((t) => !completedIds.has(t.id));
+  const completedTasks = tasks
+    .filter((t) => completedIds.has(t.id))
+    .map((t) => ({
+      task: t,
+      comp: completions.find((c) => c.task_id === t.id) as CompletionRow,
+    }))
+    .filter((x) => x.comp);
   const todayCoinsEarned = completions.reduce(
     (s, c) => s + (c.coins_earned || 0),
     0,
@@ -1415,6 +1463,45 @@ export function KidDashboard(_props: { profileSlug: string }) {
               />
             ))}
           </>
+        )}
+
+        {completedTasks.length > 0 && (
+          <div className="mb-3 mt-1">
+            <div className="mb-1.5 px-1 text-[11px] font-bold uppercase tracking-wide text-muted">
+              Done{isToday ? " today" : ""}
+            </div>
+            {completedTasks.map(({ task, comp }) => {
+              const pendingApproval = comp.status === "pending_approval";
+              return (
+                <div
+                  key={comp.id}
+                  className="mb-2 flex items-center gap-3 rounded-2xl border border-border bg-surface px-4 py-3"
+                >
+                  <span className="text-[20px] leading-none">
+                    {pendingApproval ? "⏳" : "✅"}
+                  </span>
+                  <div className="min-w-0 flex-1">
+                    <div className="truncate text-[14px] font-semibold text-muted line-through">
+                      {task.name}
+                    </div>
+                    <div className="text-[11px] text-muted">
+                      {pendingApproval ? "Waiting for parent" : "Completed"} · +
+                      {comp.coins_earned} 🪙
+                    </div>
+                  </div>
+                  {isToday && (
+                    <button
+                      onClick={() => void undoTask(comp)}
+                      disabled={undoingId === comp.id}
+                      className="shrink-0 rounded-lg border border-border bg-background px-3 py-1.5 text-[12px] font-bold text-muted hover:text-foreground disabled:opacity-40"
+                    >
+                      {undoingId === comp.id ? "…" : "↩ Undo"}
+                    </button>
+                  )}
+                </div>
+              );
+            })}
+          </div>
         )}
 
         <div className="h-20" />
@@ -2249,6 +2336,18 @@ export function RewardSortSelect({
   );
 }
 
+// True while SiteHeader is showing the pinned coin — the in-page big coin
+// hides itself so the score never appears in two places at once.
+function useCoinPinned() {
+  const [pinned, setPinned] = useState(false);
+  useEffect(() => {
+    const h = (e: Event) => setPinned(!!(e as CustomEvent).detail);
+    window.addEventListener("beehave:coinpinned", h);
+    return () => window.removeEventListener("beehave:coinpinned", h);
+  }, []);
+  return pinned;
+}
+
 function KidRewards() {
   const { profile, refreshCurrentProfile } = useBeehaveAuth();
   const supabase = getSupabaseClient();
@@ -2258,6 +2357,7 @@ function KidRewards() {
   const [toast, setToast] = useState("");
   const [sortBy, setSortBy] = useState<RewardSort>("cheap");
   const redeemChain = useRef<Record<string, Promise<void>>>({});
+  const coinPinned = useCoinPinned();
 
   const balance = profile?.coin_balance ?? 0;
 
@@ -2428,7 +2528,13 @@ function KidRewards() {
           id="beehave-coin-big"
           className="flex flex-1 items-center justify-center gap-1.5 text-[22px] font-black text-[#f5c518]"
         >
-          <GoldCoin size={20} /> {balance}
+          <span
+            className={`inline-flex items-center gap-1.5 ${
+              coinPinned ? "invisible" : ""
+            }`}
+          >
+            <GoldCoin size={20} /> {balance}
+          </span>
         </span>
         <div className="shrink-0">
           <RewardSortSelect value={sortBy} onChange={setSortBy} />
@@ -2671,6 +2777,7 @@ function KidPassbook() {
   const [reds, setReds] = useState<RedemptionRowLite[]>([]);
   const [loaded, setLoaded] = useState(false);
   const [busy, setBusy] = useState<string | null>(null);
+  const coinPinned = useCoinPinned();
 
   const balance = profile?.coin_balance ?? 0;
   const kidId = profile?.id ?? "";
@@ -2756,7 +2863,13 @@ function KidPassbook() {
           id="beehave-coin-big"
           className="flex flex-1 items-center justify-center gap-1.5 text-[22px] font-black text-[#f5c518]"
         >
-          <GoldCoin size={20} /> {balance}
+          <span
+            className={`inline-flex items-center gap-1.5 ${
+              coinPinned ? "invisible" : ""
+            }`}
+          >
+            <GoldCoin size={20} /> {balance}
+          </span>
         </span>
         <span className="w-[72px] shrink-0" aria-hidden />
       </div>
