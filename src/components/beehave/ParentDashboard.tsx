@@ -763,12 +763,16 @@ function CalendarGrid({
     window.addEventListener("pointercancel", onUp);
   }
 
-  async function commitReschedule(task: TaskRow, deltaMin: number) {
-    if (!supabase) return;
+  const [reschedule, setReschedule] = useState<{
+    task: TaskRow;
+    newStartMin: number;
+    patch: Record<string, string>;
+  } | null>(null);
+
+  function commitReschedule(task: TaskRow, deltaMin: number) {
     const span = taskSpanMinutes(task);
     const origStart = timeToMinutes(task.start_time);
-    let newStart =
-      Math.round((origStart + deltaMin) / SNAP_MIN) * SNAP_MIN;
+    let newStart = Math.round((origStart + deltaMin) / SNAP_MIN) * SNAP_MIN;
     newStart = Math.max(
       CAL_START * 60,
       Math.min(CAL_END * 60 - span, newStart),
@@ -786,6 +790,7 @@ function CalendarGrid({
       patch.deadline_time = minutesToTime(
         timeToMinutes(task.deadline_time) + shift,
       );
+    // Keep the block where it was dropped while we ask about scope.
     setKidData((prev) =>
       prev.map((k) => ({
         ...k,
@@ -797,20 +802,39 @@ function CalendarGrid({
         ),
       })),
     );
-    const { error } = await supabase
-      .from("tasks")
-      .update(patch)
-      .eq("id", task.id);
+    setReschedule({ task, newStartMin: newStart, patch });
+  }
+
+  async function applyReschedule(scope: "single" | "future") {
+    if (!supabase || !reschedule) return;
+    const { task, patch } = reschedule;
+    let error;
+    if (scope === "future") {
+      ({ error } = await supabase.from("tasks").update(patch).eq("id", task.id));
+    } else {
+      ({ error } = await supabase.from("task_overrides").upsert(
+        { task_id: task.id, date: dateStr, ...patch },
+        { onConflict: "task_id,date" },
+      ));
+    }
     if (error) alert("Reschedule failed: " + error.message);
+    setReschedule(null);
     void loadData();
   }
 
   async function saveEditedTask(t: Partial<TaskRow>) {
-    if (!supabase || !t.id) return;
-    const { error } = await supabase
-      .from("tasks")
-      .update({ ...t, is_active: true })
-      .eq("id", t.id);
+    if (!supabase) return;
+    let error;
+    if (t.id) {
+      ({ error } = await supabase
+        .from("tasks")
+        .update({ ...t, is_active: true })
+        .eq("id", t.id));
+    } else {
+      ({ error } = await supabase
+        .from("tasks")
+        .insert({ ...t, is_active: true }));
+    }
     if (error) {
       alert("Save failed: " + error.message);
       return;
@@ -825,6 +849,66 @@ function CalendarGrid({
     await supabase.from("tasks").update({ is_active: false }).eq("id", id);
     setEditTask(null);
     void loadData();
+  }
+
+  // Undo a completion straight from the calendar block: drop the completion
+  // row and reverse whatever coins it earned.
+  async function undoCompletion(comp: CompletionRow) {
+    if (!supabase) return;
+    const { data: txs } = await supabase
+      .from("coin_transactions")
+      .select("amount")
+      .eq("reference_id", comp.id);
+    const refunded = ((txs as { amount?: number }[]) || []).reduce(
+      (s, x) => s + (x.amount || 0),
+      0,
+    );
+    await supabase
+      .from("coin_transactions")
+      .delete()
+      .eq("reference_id", comp.id);
+    if (refunded) {
+      const { data: k } = await supabase
+        .from("profiles")
+        .select("coin_balance")
+        .eq("id", comp.kid_id)
+        .single();
+      const bal = (k as { coin_balance?: number } | null)?.coin_balance ?? 0;
+      await supabase
+        .from("profiles")
+        .update({ coin_balance: Math.max(0, bal - refunded) })
+        .eq("id", comp.kid_id);
+    }
+    await supabase.from("task_completions").delete().eq("id", comp.id);
+    void loadData();
+    onApprovalComplete?.();
+  }
+
+  function blankTaskAt(kidId: string, startMin?: number, session = false) {
+    return {
+      assigned_to: kidId,
+      task_type: session ? "session" : "task",
+      start_time:
+        startMin !== undefined
+          ? minutesToTime(Math.round(startMin / SNAP_MIN) * SNAP_MIN)
+          : undefined,
+    } as Partial<TaskRow>;
+  }
+
+  // Right-click / double-click an empty slot → quick "new task/session here".
+  const [ctxMenu, setCtxMenu] = useState<{
+    x: number;
+    y: number;
+    kidId: string;
+    startMin: number;
+  } | null>(null);
+
+  function openCtxMenu(e: React.MouseEvent, kidId: string) {
+    e.preventDefault();
+    const rect = e.currentTarget.getBoundingClientRect();
+    const yInCol = e.clientY - rect.top;
+    const startMin = yInCol / PX_PER_MIN + CAL_START * 60;
+    setCtxMenu({ x: e.clientX, y: e.clientY, kidId, startMin });
   }
 
   const dateStr = localDateStr(selDate);
@@ -886,7 +970,33 @@ function CalendarGrid({
           runsByTask[r.task_id] =
             (runsByTask[r.task_id] || 0) + (r.duration_secs || 0);
         }
-        const allTasks = (tasks as TaskRow[]) || [];
+        const rawTasks = (tasks as TaskRow[]) || [];
+        // Per-day time overrides ("just today" drags). Missing table -> ignored.
+        const { data: ovs } = await supabase
+          .from("task_overrides")
+          .select("task_id, start_time, expiry_time, deadline_time")
+          .eq("date", dateStr)
+          .in(
+            "task_id",
+            rawTasks.map((t) => t.id),
+          );
+        const ovMap = new Map(
+          ((ovs as Record<string, string | null>[]) || []).map((o) => [
+            o.task_id,
+            o,
+          ]),
+        );
+        const allTasks = rawTasks.map((t) => {
+          const o = ovMap.get(t.id);
+          return o
+            ? {
+                ...t,
+                start_time: o.start_time || t.start_time,
+                expiry_time: o.expiry_time ?? t.expiry_time,
+                deadline_time: o.deadline_time ?? t.deadline_time,
+              }
+            : t;
+        });
         const sessions = allTasks.filter(
           (t) => t.task_type === "session" || t.task_type === "focus",
         );
@@ -1025,6 +1135,12 @@ function CalendarGrid({
             Today
           </button>
         )}
+        <button
+          onClick={() => setEditTask(blankTaskAt(kids[0]?.id ?? ""))}
+          className="rounded-[10px] bg-[#f5c518] px-3 py-1.5 text-[12px] font-semibold text-[#0f0f1a]"
+        >
+          + New Task
+        </button>
       </div>
 
       <div className="overflow-hidden rounded-2xl border border-border bg-surface">
@@ -1081,6 +1197,8 @@ function CalendarGrid({
                 <div
                   key={kid.id}
                   className="relative border-l border-border"
+                  onContextMenu={(e) => openCtxMenu(e, kid.id)}
+                  onDoubleClick={(e) => openCtxMenu(e, kid.id)}
                 >
                   {CAL_HOURS.map((h) => (
                     <div
@@ -1136,6 +1254,8 @@ function CalendarGrid({
                         <div
                           key={task.id}
                           onPointerDown={(e) => beginPress(task, e)}
+                          onContextMenu={(e) => e.stopPropagation()}
+                          onDoubleClick={(e) => e.stopPropagation()}
                           onClick={() => {
                             if (dragMovedRef.current) {
                               dragMovedRef.current = false;
@@ -1221,11 +1341,25 @@ function CalendarGrid({
                                 {meta.icon}
                               </span>
                             )}
+                            {comp && (
+                              <button
+                                onClick={(e) => {
+                                  e.stopPropagation();
+                                  void undoCompletion(comp);
+                                }}
+                                onPointerDown={(e) => e.stopPropagation()}
+                                title="Undo completion"
+                                className="shrink-0 rounded bg-black/25 px-0.5 text-[10px] leading-none"
+                              >
+                                ↩
+                              </button>
+                            )}
                             <button
                               onClick={(e) => {
                                 e.stopPropagation();
                                 setEditTask(task);
                               }}
+                              onPointerDown={(e) => e.stopPropagation()}
                               title="Edit task"
                               className="shrink-0 rounded bg-black/25 px-0.5 text-[10px] leading-none"
                             >
@@ -1249,6 +1383,8 @@ function CalendarGrid({
                       <div
                         key={task.id}
                         onClick={() => setSheet({ task, comp, kid })}
+                        onContextMenu={(e) => e.stopPropagation()}
+                        onDoubleClick={(e) => e.stopPropagation()}
                         className="absolute z-[5] flex cursor-pointer items-center gap-1 overflow-hidden rounded-sm px-[3px]"
                         style={{
                           top: y,
@@ -1280,6 +1416,18 @@ function CalendarGrid({
                         >
                           {task.name}
                         </div>
+                        {comp && (
+                          <button
+                            onClick={(e) => {
+                              e.stopPropagation();
+                              void undoCompletion(comp);
+                            }}
+                            title="Undo completion"
+                            className="shrink-0 text-[9px] leading-none opacity-70"
+                          >
+                            ↩
+                          </button>
+                        )}
                         <button
                           onClick={(e) => {
                             e.stopPropagation();
@@ -1346,6 +1494,103 @@ function CalendarGrid({
                   : undefined
               }
             />
+          </div>
+        </div>
+      )}
+
+      {ctxMenu && (
+        <>
+          <div
+            className="fixed inset-0 z-[320]"
+            onClick={() => setCtxMenu(null)}
+            onContextMenu={(e) => {
+              e.preventDefault();
+              setCtxMenu(null);
+            }}
+          />
+          <div
+            className="fixed z-[321] overflow-hidden rounded-[10px] border border-border bg-surface text-[13px] shadow-xl"
+            style={{
+              left: Math.min(ctxMenu.x, window.innerWidth - 180),
+              top: Math.min(ctxMenu.y, window.innerHeight - 100),
+            }}
+          >
+            <div className="border-b border-border px-3 py-1.5 text-[11px] text-muted">
+              {beehave.formatTime(
+                minutesToTime(
+                  Math.round(ctxMenu.startMin / SNAP_MIN) * SNAP_MIN,
+                ),
+              )}
+            </div>
+            <button
+              onClick={() => {
+                setEditTask(
+                  blankTaskAt(ctxMenu.kidId, ctxMenu.startMin, false),
+                );
+                setCtxMenu(null);
+              }}
+              className="block w-full px-3 py-2 text-left hover:bg-background"
+            >
+              ✓ New task here
+            </button>
+            <button
+              onClick={() => {
+                setEditTask(
+                  blankTaskAt(ctxMenu.kidId, ctxMenu.startMin, true),
+                );
+                setCtxMenu(null);
+              }}
+              className="block w-full px-3 py-2 text-left hover:bg-background"
+            >
+              ⏱ New session here
+            </button>
+          </div>
+        </>
+      )}
+
+      {reschedule && (
+        <div
+          className="fixed inset-0 z-[330] flex items-center justify-center bg-black/60 p-4"
+          onClick={() => {
+            setReschedule(null);
+            void loadData();
+          }}
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="w-full max-w-[320px] rounded-2xl border border-border bg-surface p-4"
+          >
+            <div className="text-[15px] font-bold">
+              Move “{reschedule.task.name}”
+            </div>
+            <div className="mb-3 mt-0.5 text-[13px] text-muted">
+              to{" "}
+              {beehave.formatTime(minutesToTime(reschedule.newStartMin))} —
+              change…
+            </div>
+            <div className="flex flex-col gap-2">
+              <button
+                onClick={() => void applyReschedule("single")}
+                className="rounded-xl border border-border bg-background px-4 py-2.5 text-[14px] font-semibold"
+              >
+                Just {isToday ? "today" : dateLabel}
+              </button>
+              <button
+                onClick={() => void applyReschedule("future")}
+                className="rounded-xl bg-[#f5c518] px-4 py-2.5 text-[14px] font-semibold text-[#0f0f1a]"
+              >
+                This &amp; all future days
+              </button>
+              <button
+                onClick={() => {
+                  setReschedule(null);
+                  void loadData();
+                }}
+                className="px-4 py-1 text-[13px] text-muted"
+              >
+                Cancel
+              </button>
+            </div>
           </div>
         </div>
       )}

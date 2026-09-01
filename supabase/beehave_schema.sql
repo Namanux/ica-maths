@@ -207,6 +207,18 @@ create index if not exists policing_events_target_idx
 create index if not exists policing_events_actor_idx
   on policing_events (actor_id, status, created_at desc);
 
+-- ─── TASK OVERRIDES (per-day "just today" schedule changes) ──
+create table if not exists task_overrides (
+  id            uuid primary key default gen_random_uuid(),
+  task_id       uuid references tasks(id) on delete cascade,
+  date          date not null,
+  start_time    time,
+  expiry_time   time,
+  deadline_time time,
+  created_at    timestamptz default now(),
+  unique (task_id, date)
+);
+
 -- ─── ROW LEVEL SECURITY (permissive MVP — tighten before prod) ─
 do $$
 declare t text;
@@ -214,7 +226,7 @@ begin
   foreach t in array array[
     'profiles','tasks','task_completions','coin_transactions','session_runs',
     'initiatives','rewards','reward_redemptions','messages',
-    'policing_tasks','policing_events'
+    'policing_tasks','policing_events','task_overrides'
   ] loop
     execute format('alter table %I enable row level security', t);
     execute format('drop policy if exists allow_all on %I', t);
