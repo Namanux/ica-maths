@@ -17,6 +17,8 @@ import {
   PassbookRow,
   PolicingTab,
   undoPassbookEntry,
+  localDateStr,
+  localStartOfDayISO,
   REWARD_CATEGORIES,
   rewardCategory,
   sortRewards,
@@ -297,7 +299,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
   >([]);
   const [chartData, setChartData] = useState<ChartGroup[]>([]);
 
-  const today = new Date().toISOString().split("T")[0];
+  const today = localDateStr(new Date());
   const kidColors = ["#ec4899", "#4f8ef7", "#a855f7", "#22c55e"];
 
   useEffect(() => {
@@ -322,12 +324,11 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
           .select("*")
           .eq("kid_id", kid.id)
           .eq("scheduled_date", today);
-        const startOfDay = today + "T00:00:00";
         const { data: txns } = await supabase
           .from("coin_transactions")
           .select("amount")
           .eq("kid_id", kid.id)
-          .gte("created_at", startOfDay)
+          .gte("created_at", localStartOfDayISO())
           .gt("amount", 0);
         const earnedToday = ((txns as { amount: number }[]) || []).reduce(
           (sum, t) => sum + t.amount,
@@ -348,7 +349,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
       const dates = Array.from({ length: days }, (_, i) => {
         const d = new Date();
         d.setDate(d.getDate() - (days - 1 - i));
-        return d.toISOString().split("T")[0];
+        return localDateStr(d);
       });
       const startDate = dates[0];
       const { data: allComps } = await supabase
@@ -665,7 +666,7 @@ function CalendarGrid({
   kidColors: string[];
   onApprovalComplete?: () => void;
 }) {
-  const todayStr = () => new Date().toISOString().split("T")[0];
+  const todayStr = () => localDateStr(new Date());
 
   const [selDate, setSelDate] = useState(new Date());
   const [kidData, setKidData] = useState<CalendarKidData[]>([]);
@@ -696,7 +697,7 @@ function CalendarGrid({
     void loadData();
   }
 
-  const dateStr = selDate.toISOString().split("T")[0];
+  const dateStr = localDateStr(selDate);
   const isToday = dateStr === todayStr();
 
   useEffect(() => {
@@ -1198,7 +1199,7 @@ function TaskSheet({
 
   useEffect(() => {
     if (!isSession || !supabase) return;
-    const today = new Date().toISOString().split("T")[0];
+    const today = localDateStr(new Date());
     supabase
       .from("session_runs")
       .select("*")
@@ -2684,7 +2685,7 @@ function TaskForm({
   onDelete?: () => void;
 }) {
   const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
-  const todayStr = new Date().toISOString().split("T")[0];
+  const todayStr = localDateStr(new Date());
   const [form, setForm] = useState<TaskFormState>({
     name: task.name || "",
     icon: task.icon || "⭐",

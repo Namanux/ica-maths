@@ -86,10 +86,17 @@ type InitiativeData = {
 };
 
 // ─── Local date helper (Brisbane-safe, avoids UTC midnight bug) ───────────────
-function localDateStr(d: Date): string {
+export function localDateStr(d: Date): string {
   return `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, "0")}-${String(
     d.getDate(),
   ).padStart(2, "0")}`;
+}
+
+// UTC instant of local midnight today — for `created_at >= …` filters.
+export function localStartOfDayISO(): string {
+  const d = new Date();
+  d.setHours(0, 0, 0, 0);
+  return d.toISOString();
 }
 
 // ─── GoldCoin component (cross-platform, replaces 🪙 emoji) ──────────────────
