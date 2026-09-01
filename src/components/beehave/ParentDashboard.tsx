@@ -1056,6 +1056,16 @@ function CalendarGrid({
                                 {meta.icon}
                               </span>
                             )}
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                setEditTask(task);
+                              }}
+                              title="Edit task"
+                              className="shrink-0 rounded bg-black/25 px-0.5 text-[10px] leading-none"
+                            >
+                              ✏️
+                            </button>
                           </div>
                         </div>
                       );
@@ -1105,6 +1115,16 @@ function CalendarGrid({
                         >
                           {task.name}
                         </div>
+                        <button
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            setEditTask(task);
+                          }}
+                          title="Edit task"
+                          className="shrink-0 text-[9px] leading-none opacity-70"
+                        >
+                          ✏️
+                        </button>
                       </div>
                     );
                   })}
