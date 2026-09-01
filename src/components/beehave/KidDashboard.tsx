@@ -10,7 +10,9 @@ import {
 import { useSearchParams } from "next/navigation";
 import { useBeehaveAuth, type BeehaveProfile } from "@/lib/beehaveAuth";
 import { getSupabaseClient } from "@/lib/supabase";
+import { useActiveSession } from "@/lib/activeSession";
 import { beehave } from "@/lib/beehave";
+import { CalendarGrid, type KidRow } from "./ParentDashboard";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 type TaskRow = {
@@ -56,10 +58,6 @@ type SessionTimerState = {
   running?: boolean;
   remaining: number;
   totalElapsed: number;
-  // Wall-clock anchor for the running segment, so the timer stays accurate
-  // even when the tab is backgrounded and setInterval is throttled/paused.
-  anchorEpoch?: number | null; // ms — when the current running segment began
-  anchorElapsed?: number; // seconds already banked before this segment
   durationSecs?: number; // session length, for the remaining calc
 };
 
@@ -463,10 +461,21 @@ export function KidDashboard(_props: { profileSlug: string }) {
   const [sessionTimers, setSessionTimers] = useState<
     Record<string, SessionTimerState>
   >({});
-  const [activeSessionTaskId, setActiveSessionTaskId] = useState<string | null>(
-    null,
-  );
-  const activeRunStartedAtRef = useRef<string | null>(null);
+  // The running session lives in root layout (see src/lib/activeSession.tsx)
+  // so it keeps ticking — visible in the header — across navigation and
+  // logout instead of dying with this component. Only treat it as "mine" to
+  // lock/drive this dashboard's own buttons when it belongs to this kid.
+  const {
+    session: globalSession,
+    elapsed: globalElapsed,
+    remaining: globalRemaining,
+    startSession: startGlobalSession,
+    stopAndRecord,
+  } = useActiveSession();
+  const activeSessionTaskId =
+    globalSession && globalSession.kidSlug === profile?.slug
+      ? globalSession.taskId
+      : null;
   const orphanRecoveryDone = useRef(false);
 
   const [photoCapture, setPhotoCapture] = useState<{
@@ -480,6 +489,25 @@ export function KidDashboard(_props: { profileSlug: string }) {
   // Task whose completion is being written — used to disable its Done button.
   const [completingTaskId, setCompletingTaskId] = useState<string | null>(null);
   const photoInputRef = useRef<HTMLInputElement | null>(null);
+
+  // List / calendar / split view (remembered per device).
+  const [view, setView] = useState<"list" | "calendar" | "split">("list");
+  useEffect(() => {
+    try {
+      const v = localStorage.getItem("beehave-kid-view");
+      if (v === "list" || v === "calendar" || v === "split") setView(v);
+    } catch {
+      /* storage unavailable */
+    }
+  }, []);
+  function pickView(v: "list" | "calendar" | "split") {
+    setView(v);
+    try {
+      localStorage.setItem("beehave-kid-view", v);
+    } catch {
+      /* storage unavailable */
+    }
+  }
 
   const [addTaskStep, setAddTaskStep] = useState<
     null | "templates" | "form"
@@ -1013,143 +1041,60 @@ export function KidDashboard(_props: { profileSlug: string }) {
     }
   }
 
-  // Keeps the one active session's timer in sync with the wall clock. Because
-  // it recomputes from an epoch anchor rather than counting +1 per tick, it
-  // self-corrects the moment the tab is foregrounded again — even if the
-  // interval was frozen for minutes while the kid was out of the page.
-  useEffect(() => {
-    if (!activeSessionTaskId) return;
-    const sync = () => {
-      setSessionTimers((prev) => {
-        const cur = prev[activeSessionTaskId];
-        if (!cur || !cur.running || cur.anchorEpoch == null) return prev;
-        const live = Math.max(
-          0,
-          Math.round((Date.now() - cur.anchorEpoch) / 1000),
-        );
-        const total = (cur.anchorElapsed ?? 0) + live;
-        const dur = cur.durationSecs ?? 0;
-        const remaining = dur > 0 ? Math.max(0, dur - total) : cur.remaining;
-        if (total === cur.totalElapsed && remaining === cur.remaining) {
-          return prev;
-        }
-        return {
-          ...prev,
-          [activeSessionTaskId]: { ...cur, totalElapsed: total, remaining },
-        };
-      });
-    };
-    const onVisible = () => {
-      if (!document.hidden) sync();
-    };
-    const t = setInterval(sync, 1000);
-    document.addEventListener("visibilitychange", onVisible);
-    window.addEventListener("focus", sync);
-    window.addEventListener("pageshow", sync);
-    sync();
-    return () => {
-      clearInterval(t);
-      document.removeEventListener("visibilitychange", onVisible);
-      window.removeEventListener("focus", sync);
-      window.removeEventListener("pageshow", sync);
-    };
-  }, [activeSessionTaskId]);
-
   function startSessionTimer(task: TaskRow) {
     if (activeSessionTaskId && activeSessionTaskId !== task.id) return;
+    if (!profile) return;
     const dur = getSessionDuration(task);
-    activeRunStartedAtRef.current = new Date().toISOString();
-    setActiveSessionTaskId(task.id);
-    setSessionTimers((prev) => {
-      const base = prev[task.id]?.totalElapsed ?? 0;
-      return {
-        ...prev,
-        [task.id]: {
-          hasStarted: true,
-          running: true,
-          durationSecs: dur,
-          anchorEpoch: Date.now(),
-          anchorElapsed: base,
-          totalElapsed: base,
-          remaining: Math.max(0, dur - base),
-        },
-      };
+    const base = sessionTimers[task.id]?.totalElapsed ?? 0;
+    startGlobalSession({
+      kidSlug: profile.slug,
+      kidId: profile.id,
+      kidName: profile.name,
+      taskId: task.id,
+      taskName: task.name,
+      taskIcon: task.icon,
+      scheduledDate: viewDateRef.current,
+      durationSecs: dur,
+      totalElapsed: base,
     });
+    setSessionTimers((prev) => ({
+      ...prev,
+      [task.id]: {
+        hasStarted: true,
+        running: true,
+        durationSecs: dur,
+        totalElapsed: base,
+        remaining: Math.max(0, dur - base),
+      },
+    }));
   }
 
-  // Wall-clock elapsed for the segment that is running right now.
-  function liveSegmentSecs(state?: SessionTimerState): number {
-    if (!state || !state.running || state.anchorEpoch == null) return 0;
-    return Math.max(0, Math.round((Date.now() - state.anchorEpoch) / 1000));
-  }
-
+  // Ends the running segment (recorded to session_runs by the global
+  // context) and folds the final elapsed time into this task's local entry
+  // so a "Resume"/"Done" row still renders after stopping.
   async function stopSessionTimer(task: TaskRow) {
-    if (!profile || !supabase) return;
-    const startedAt = activeRunStartedAtRef.current;
-    const endedAt = new Date().toISOString();
-    activeRunStartedAtRef.current = null;
-    setActiveSessionTaskId(null);
+    const finalElapsed = await stopAndRecord();
     setSessionTimers((prev) => {
       const cur = prev[task.id];
-      if (!cur) return prev;
-      const total = (cur.anchorElapsed ?? cur.totalElapsed ?? 0) +
-        liveSegmentSecs(cur);
-      const dur = cur.durationSecs ?? 0;
+      const dur = cur?.durationSecs ?? getSessionDuration(task);
       return {
         ...prev,
         [task.id]: {
           ...cur,
+          hasStarted: true,
           running: false,
-          anchorEpoch: null,
-          totalElapsed: total,
-          remaining: dur > 0 ? Math.max(0, dur - total) : cur.remaining,
+          totalElapsed: finalElapsed,
+          remaining: dur > 0 ? Math.max(0, dur - finalElapsed) : 0,
         },
       };
     });
-    if (startedAt) {
-      const runSecs = Math.round(
-        (new Date(endedAt).getTime() - new Date(startedAt).getTime()) / 1000,
-      );
-      if (runSecs > 0) {
-        await supabase.from("session_runs").insert({
-          task_id: task.id,
-          kid_id: profile.id,
-          scheduled_date: viewDateRef.current,
-          started_at: startedAt,
-          ended_at: endedAt,
-          duration_secs: runSecs,
-        });
-      }
-    }
   }
 
   async function doneSessionTimer(task: TaskRow) {
-    if (!profile || !supabase) return;
-    const startedAt = activeRunStartedAtRef.current;
-    const endedAt = new Date().toISOString();
     const wasRunning = activeSessionTaskId === task.id;
-    activeRunStartedAtRef.current = null;
-    setActiveSessionTaskId(null);
-    const cur = sessionTimers[task.id];
-    // Wall-clock total across every segment — no double counting.
     const finalElapsed = wasRunning
-      ? (cur?.anchorElapsed ?? cur?.totalElapsed ?? 0) + liveSegmentSecs(cur)
-      : cur?.totalElapsed || 0;
-    if (startedAt && wasRunning) {
-      const runSecs = Math.round(
-        (new Date(endedAt).getTime() - new Date(startedAt).getTime()) / 1000,
-      );
-      if (runSecs > 0) {
-        await supabase.from("session_runs").insert({
-          task_id: task.id,
-          kid_id: profile.id,
-          scheduled_date: viewDateRef.current,
-          started_at: startedAt,
-          ended_at: endedAt,
-          duration_secs: runSecs,
-        });
-      }
-    }
+      ? await stopAndRecord()
+      : sessionTimers[task.id]?.totalElapsed || 0;
     setSessionTimers((prev) => ({
       ...prev,
       [task.id]: { ...prev[task.id], running: false },
@@ -1159,6 +1104,23 @@ export function KidDashboard(_props: { profileSlug: string }) {
     } else {
       await completeTask(task, finalElapsed);
     }
+  }
+
+  // The currently-running task's live numbers come straight from the global
+  // session (ticking every second in root layout); any other task falls
+  // back to its last locally-known state (e.g. right after a Stop).
+  function sessionStateFor(task: TaskRow): SessionTimerState | undefined {
+    if (activeSessionTaskId === task.id && globalSession) {
+      const dur = globalSession.durationSecs;
+      return {
+        hasStarted: true,
+        running: true,
+        durationSecs: dur,
+        totalElapsed: globalElapsed,
+        remaining: globalRemaining ?? Math.max(0, dur - globalElapsed),
+      };
+    }
+    return sessionTimers[task.id];
   }
 
   async function recoverOrphanedSessions(taskList: TaskRow[]) {
@@ -1451,8 +1413,28 @@ export function KidDashboard(_props: { profileSlug: string }) {
         </div>
       </div>
 
+      {/* View switch */}
+      <div className="flex shrink-0 items-center gap-1 border-b border-border bg-surface px-3.5 py-1.5">
+        {(["list", "calendar", "split"] as const).map((v) => (
+          <button
+            key={v}
+            onClick={(e) => {
+              e.stopPropagation();
+              pickView(v);
+            }}
+            className={`rounded-md px-2.5 py-1 text-[12px] font-semibold transition-colors ${
+              view === v
+                ? "bg-[#f5c518] text-[#0f0f1a]"
+                : "border border-border text-muted"
+            }`}
+          >
+            {v === "list" ? "📋 List" : v === "calendar" ? "📅 Calendar" : "⧉ Split"}
+          </button>
+        ))}
+      </div>
+
       {/* Messages banner */}
-      {messages.length > 0 && (
+      {messages.length > 0 && view !== "calendar" && (
         <div className="shrink-0 px-3.5 pt-2">
           {messages.map((msg) => (
             <div
@@ -1489,8 +1471,22 @@ export function KidDashboard(_props: { profileSlug: string }) {
         </div>
       )}
 
-      {/* Task list */}
-      <div className="flex-1 overflow-y-auto px-3.5 pt-2.5">
+      {/* Task list / calendar */}
+      <div
+        className={
+          view === "split"
+            ? "flex flex-col lg:min-h-0 lg:flex-1 lg:flex-row"
+            : "flex min-h-0 flex-1 flex-col"
+        }
+      >
+      {view !== "calendar" && (
+      <div
+        className={`overflow-y-auto px-3.5 pt-2.5 ${
+          view === "split"
+            ? "max-h-[46vh] lg:max-h-none lg:min-h-0 lg:flex-1"
+            : "min-h-0 flex-1"
+        }`}
+      >
         {allDone && isToday ? (
           <div className="flex h-full flex-col items-center justify-center p-8 text-center">
             <div
@@ -1546,7 +1542,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
                     : completeTask(task, timeSpentSecs)
                 }
                 isToday={isToday}
-                sessionState={sessionTimers[task.id]}
+                sessionState={sessionStateFor(task)}
                 activeSessionTaskId={activeSessionTaskId}
                 onStartSession={startSessionTimer}
                 onStopSession={stopSessionTimer}
@@ -1599,9 +1595,34 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
         <div className="h-20" />
       </div>
+      )}
+
+      {view !== "list" && (
+        <div
+          className={`overflow-hidden ${
+            view === "split"
+              ? "border-t border-border pt-1 lg:min-h-0 lg:flex-1 lg:border-l lg:border-t-0 lg:pl-1 lg:pt-0"
+              : "min-h-0 flex-1"
+          }`}
+        >
+          <CalendarGrid
+            kids={[
+              {
+                ...(profile as unknown as KidRow),
+                avatar_emoji: avatarEmoji,
+                avatar_color: avatarColor,
+                coin_balance: coinBalance,
+              },
+            ]}
+            kidColors={[avatarColor]}
+            canApprove={false}
+          />
+        </div>
+      )}
+      </div>
 
       {/* "+" FAB */}
-      {isToday && (
+      {isToday && view === "list" && (
         <button
           onClick={openAddTask}
           className="fixed bottom-6 right-[18px] z-[150] flex h-14 w-14 items-center justify-center rounded-full text-[28px] font-black text-[#1a1a2e]"

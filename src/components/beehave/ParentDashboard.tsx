@@ -34,7 +34,7 @@ import * as XLSX from "xlsx";
 const supabase = getSupabaseClient();
 
 // ─── Types ───────────────────────────────────────────────────────────────────
-type KidRow = BeehaveProfile & {
+export type KidRow = BeehaveProfile & {
   avatar_emoji?: string | null;
   avatar_color?: string | null;
   coin_balance: number;
@@ -682,14 +682,16 @@ type SheetState = {
   kid: CalendarKidData;
 };
 
-function CalendarGrid({
+export function CalendarGrid({
   kids,
   kidColors,
   onApprovalComplete,
+  canApprove = true,
 }: {
   kids: KidRow[];
   kidColors: string[];
   onApprovalComplete?: () => void;
+  canApprove?: boolean;
 }) {
   const todayStr = () => localDateStr(new Date());
 
@@ -1466,6 +1468,7 @@ function CalendarGrid({
           onClose={() => setSheet(null)}
           onApprove={handleApprove}
           onReject={handleReject}
+          canApprove={canApprove}
           onEdit={() => {
             setEditTask(sheet.task);
             setSheet(null);
@@ -1605,6 +1608,7 @@ function TaskSheet({
   onReject,
   onEdit,
   taskStatus,
+  canApprove = true,
 }: {
   sheet: SheetState;
   onClose: () => void;
@@ -1612,6 +1616,7 @@ function TaskSheet({
   onReject: () => void;
   onEdit: () => void;
   taskStatus: (task: TaskRow, comp?: CompletionRow) => string;
+  canApprove?: boolean;
 }) {
   const { task, comp, kid } = sheet;
   const status = taskStatus(task, comp);
@@ -1740,7 +1745,7 @@ function TaskSheet({
           </div>
         )}
 
-        {isPending && (
+        {canApprove && isPending && (
           <>
             <div className="mb-3.5">
               <p className="mb-2 text-[12px] text-muted">Coins to award</p>
