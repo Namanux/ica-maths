@@ -492,6 +492,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
   // List / calendar / split view (remembered per device).
   const [view, setView] = useState<"list" | "calendar" | "split">("list");
+  const [newTaskSig, setNewTaskSig] = useState(0);
   useEffect(() => {
     try {
       const v = localStorage.getItem("beehave-kid-view");
@@ -1320,7 +1321,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
       {/* ── Compact header ── */}
       <div className="shrink-0 border-b border-border bg-surface px-3.5 pt-2.5">
-        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 pb-2">
+        <div className="mb-2 flex items-center gap-1.5">
           <button
             onClick={(e) => {
               e.stopPropagation();
@@ -1330,7 +1331,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
           >
             ‹
           </button>
-          <span className="shrink-0 whitespace-nowrap text-xs text-muted">
+          <span className="flex-1 text-center text-xs text-muted">
             {formatViewDate()}
           </span>
           <button
@@ -1342,9 +1343,9 @@ export function KidDashboard(_props: { profileSlug: string }) {
           >
             ›
           </button>
+        </div>
 
-          <span className="text-[14px] text-muted">|</span>
-
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 pb-2">
           <div
             className="flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-full text-[20px]"
             style={{
@@ -1400,6 +1401,17 @@ export function KidDashboard(_props: { profileSlug: string }) {
           </div>
 
           <div className="ml-auto flex shrink-0 items-center gap-1">
+            {view !== "list" && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setNewTaskSig((n) => n + 1);
+                }}
+                className="rounded-md bg-[#f5c518] px-2 py-1 text-[12px] font-semibold text-[#0f0f1a]"
+              >
+                + New Task
+              </button>
+            )}
             {(["list", "calendar", "split"] as const).map((v) => (
               <button
                 key={v}
@@ -1612,6 +1624,13 @@ export function KidDashboard(_props: { profileSlug: string }) {
             kidColors={[avatarColor]}
             canApprove={false}
             fill
+            hideToolbar
+            externalDate={(() => {
+              const [y, m, d] = viewDate.split("-").map(Number);
+              return new Date(y, m - 1, d, 12, 0, 0);
+            })()}
+            onExternalDateChange={(dt) => setViewDate(localDateStr(dt))}
+            newTaskSignal={newTaskSig}
           />
         </div>
       )}

@@ -812,16 +812,27 @@ export function CalendarGrid({
   onApprovalComplete,
   canApprove = true,
   fill = false,
+  hideToolbar = false,
+  externalDate,
+  onExternalDateChange,
+  newTaskSignal,
 }: {
   kids: KidRow[];
   kidColors: string[];
   onApprovalComplete?: () => void;
   canApprove?: boolean;
   fill?: boolean;
+  hideToolbar?: boolean; // hide the internal ‹ date › + New Task strip
+  externalDate?: Date; // drive the day from outside
+  onExternalDateChange?: (d: Date) => void;
+  newTaskSignal?: number; // bump to open a blank task editor
 }) {
   const todayStr = () => localDateStr(new Date());
 
-  const [selDate, setSelDate] = useState(new Date());
+  const [innerDate, setInnerDate] = useState(new Date());
+  const selDate = externalDate ?? innerDate;
+  const setSelDate = (d: Date) =>
+    onExternalDateChange ? onExternalDateChange(d) : setInnerDate(d);
   const [kidData, setKidData] = useState<CalendarKidData[]>([]);
   const [nowY, setNowY] = useState<number | null>(null);
   const [sheet, setSheet] = useState<SheetState | null>(null);
@@ -1150,6 +1161,12 @@ export function CalendarGrid({
     setSelDate(d);
   }
 
+  // Parent asks for a new task via the shared header button.
+  useEffect(() => {
+    if (newTaskSignal) setEditTask(blankTaskAt(kids[0]?.id ?? ""));
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [newTaskSignal]);
+
   function taskStatus(task: TaskRow, comp?: CompletionRow): string {
     if (!comp) return beehave.getTaskStatus(task);
     if (comp.status === "rejected") return "missed";
@@ -1230,46 +1247,48 @@ export function CalendarGrid({
 
   return (
     <div className={fill ? "flex min-h-0 flex-1 flex-col" : ""}>
-      <div className="mb-2.5 flex shrink-0 flex-wrap items-center gap-2 px-1">
-        <button
-          onClick={() => changeDate(-1)}
-          className="flex h-[34px] w-[34px] items-center justify-center rounded-[10px] border border-border bg-surface text-[16px] text-foreground"
-        >
-          ‹
-        </button>
-        <div className="flex-1 text-center text-[14px] font-bold">
-          {dateLabel}
-          {!isToday && (
-            <span className="ml-1.5 text-[11px] text-muted">
-              {selDate.toLocaleDateString("en-AU", {
-                day: "numeric",
-                month: "short",
-                year: "numeric",
-              })}
-            </span>
-          )}
-        </div>
-        <button
-          onClick={() => changeDate(1)}
-          className="flex h-[34px] w-[34px] items-center justify-center rounded-[10px] border border-border bg-surface text-[16px] text-foreground"
-        >
-          ›
-        </button>
-        {!isToday && (
+      {!hideToolbar && (
+        <div className="mb-2.5 flex shrink-0 flex-wrap items-center gap-2 px-1">
           <button
-            onClick={() => setSelDate(new Date())}
-            className="rounded-[10px] border border-[#f5c518]/30 bg-[#f5c518]/10 px-3 py-1.5 text-[12px] font-semibold text-[#f5c518]"
+            onClick={() => changeDate(-1)}
+            className="flex h-[34px] w-[34px] items-center justify-center rounded-[10px] border border-border bg-surface text-[16px] text-foreground"
           >
-            Today
+            ‹
           </button>
-        )}
-        <button
-          onClick={() => setEditTask(blankTaskAt(kids[0]?.id ?? ""))}
-          className="rounded-[10px] bg-[#f5c518] px-3 py-1.5 text-[12px] font-semibold text-[#0f0f1a]"
-        >
-          + New Task
-        </button>
-      </div>
+          <div className="flex-1 text-center text-[14px] font-bold">
+            {dateLabel}
+            {!isToday && (
+              <span className="ml-1.5 text-[11px] text-muted">
+                {selDate.toLocaleDateString("en-AU", {
+                  day: "numeric",
+                  month: "short",
+                  year: "numeric",
+                })}
+              </span>
+            )}
+          </div>
+          <button
+            onClick={() => changeDate(1)}
+            className="flex h-[34px] w-[34px] items-center justify-center rounded-[10px] border border-border bg-surface text-[16px] text-foreground"
+          >
+            ›
+          </button>
+          {!isToday && (
+            <button
+              onClick={() => setSelDate(new Date())}
+              className="rounded-[10px] border border-[#f5c518]/30 bg-[#f5c518]/10 px-3 py-1.5 text-[12px] font-semibold text-[#f5c518]"
+            >
+              Today
+            </button>
+          )}
+          <button
+            onClick={() => setEditTask(blankTaskAt(kids[0]?.id ?? ""))}
+            className="rounded-[10px] bg-[#f5c518] px-3 py-1.5 text-[12px] font-semibold text-[#0f0f1a]"
+          >
+            + New Task
+          </button>
+        </div>
+      )}
 
       <div
         className={`overflow-hidden rounded-2xl border border-border bg-surface ${
