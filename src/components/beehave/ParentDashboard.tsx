@@ -551,6 +551,31 @@ function timeToY(t: string): number {
   return (timeToMinutes(t) - CAL_START * 60) * (PX_PER_HOUR / 60);
 }
 
+const PX_PER_MIN = PX_PER_HOUR / 60;
+const SNAP_MIN = 5; // drag snaps to 5-minute steps
+
+function minutesToTime(min: number): string {
+  const c = Math.max(0, Math.min(24 * 60 - 1, Math.round(min)));
+  return `${String(Math.floor(c / 60)).padStart(2, "0")}:${String(
+    c % 60,
+  ).padStart(2, "0")}`;
+}
+
+// How long a block occupies the grid, in minutes.
+function taskSpanMinutes(task: TaskRow): number {
+  if (
+    (task.task_type === "session" || task.task_type === "focus") &&
+    task.target_duration
+  ) {
+    return Math.max(5, Math.round(task.target_duration / 60));
+  }
+  const s = timeToMinutes(task.start_time);
+  const e = timeToMinutes(
+    task.expiry_time || task.deadline_time || task.start_time,
+  );
+  return e > s ? e - s : 30;
+}
+
 type LaidOutTask = { task: TaskRow; col: number; totalCols: number };
 
 function layoutTasks(tasks: TaskRow[]): LaidOutTask[] {
@@ -674,6 +699,111 @@ function CalendarGrid({
   const [sheet, setSheet] = useState<SheetState | null>(null);
   const [editTask, setEditTask] = useState<Partial<TaskRow> | null>(null);
   const scrollRef = useRef<HTMLDivElement | null>(null);
+
+  // ── Drag-to-reschedule (long-press then drag up/down) ──
+  const [drag, setDrag] = useState<{
+    taskId: string;
+    deltaPx: number;
+    origStartMin: number;
+    spanMin: number;
+  } | null>(null);
+  const dragMovedRef = useRef(false);
+
+  function beginPress(task: TaskRow, e: React.PointerEvent) {
+    if (e.button && e.button !== 0) return;
+    if (!isToday && dateStr < todayStr()) return; // don't reschedule past days
+    const startY = e.clientY;
+    const isMouse = e.pointerType === "mouse";
+    dragMovedRef.current = false;
+    // Mouse: drag right away. Touch/pen: hold ~240ms first so a swipe
+    // still scrolls the calendar.
+    let armed = isMouse;
+    const snapshot = {
+      taskId: task.id,
+      deltaPx: 0,
+      origStartMin: timeToMinutes(task.start_time),
+      spanMin: taskSpanMinutes(task),
+    };
+    const cleanup = () => {
+      window.removeEventListener("pointermove", onMove);
+      window.removeEventListener("pointerup", onUp);
+      window.removeEventListener("pointercancel", onUp);
+      if (timer) clearTimeout(timer);
+    };
+    const onMove = (ev: PointerEvent) => {
+      const raw = ev.clientY - startY;
+      if (!armed) {
+        if (Math.abs(raw) > 8) cleanup(); // it was a scroll, not a hold
+        return;
+      }
+      if (!dragMovedRef.current && Math.abs(raw) < 3) return; // click jitter
+      dragMovedRef.current = true;
+      const snapped =
+        Math.round(raw / (SNAP_MIN * PX_PER_MIN)) * (SNAP_MIN * PX_PER_MIN);
+      setDrag((d) => ({
+        ...(d && d.taskId === task.id ? d : snapshot),
+        deltaPx: snapped,
+      }));
+    };
+    const onUp = () => {
+      cleanup();
+      setDrag((d) => {
+        if (d && d.taskId === task.id && d.deltaPx !== 0) {
+          void commitReschedule(task, d.deltaPx / PX_PER_MIN);
+        }
+        return null;
+      });
+    };
+    const timer = isMouse ? undefined : setTimeout(() => {
+      armed = true;
+      setDrag(snapshot);
+    }, 240);
+    window.addEventListener("pointermove", onMove);
+    window.addEventListener("pointerup", onUp);
+    window.addEventListener("pointercancel", onUp);
+  }
+
+  async function commitReschedule(task: TaskRow, deltaMin: number) {
+    if (!supabase) return;
+    const span = taskSpanMinutes(task);
+    const origStart = timeToMinutes(task.start_time);
+    let newStart =
+      Math.round((origStart + deltaMin) / SNAP_MIN) * SNAP_MIN;
+    newStart = Math.max(
+      CAL_START * 60,
+      Math.min(CAL_END * 60 - span, newStart),
+    );
+    const shift = newStart - origStart;
+    if (shift === 0) return;
+    const patch: Record<string, string> = {
+      start_time: minutesToTime(newStart),
+    };
+    if (task.expiry_time)
+      patch.expiry_time = minutesToTime(
+        timeToMinutes(task.expiry_time) + shift,
+      );
+    if (task.deadline_time)
+      patch.deadline_time = minutesToTime(
+        timeToMinutes(task.deadline_time) + shift,
+      );
+    setKidData((prev) =>
+      prev.map((k) => ({
+        ...k,
+        sessions: k.sessions.map((t) =>
+          t.id === task.id ? { ...t, ...patch } : t,
+        ),
+        quickTasks: k.quickTasks.map((t) =>
+          t.id === task.id ? { ...t, ...patch } : t,
+        ),
+      })),
+    );
+    const { error } = await supabase
+      .from("tasks")
+      .update(patch)
+      .eq("id", task.id);
+    if (error) alert("Reschedule failed: " + error.message);
+    void loadData();
+  }
 
   async function saveEditedTask(t: Partial<TaskRow>) {
     if (!supabase || !t.id) return;
@@ -989,16 +1119,44 @@ function CalendarGrid({
                       const laneLeft = `calc(${
                         (col / totalCols) * halfW
                       }% + ${GAP / 2}px)`;
+                      const isDragging = drag?.taskId === task.id;
+                      const previewMin = isDragging
+                        ? Math.max(
+                            CAL_START * 60,
+                            Math.min(
+                              CAL_END * 60 - drag.spanMin,
+                              Math.round(
+                                (drag.origStartMin + drag.deltaPx / PX_PER_MIN) /
+                                  SNAP_MIN,
+                              ) * SNAP_MIN,
+                            ),
+                          )
+                        : 0;
                       return (
                         <div
                           key={task.id}
-                          onClick={() => setSheet({ task, comp, kid })}
-                          className="absolute z-[5] cursor-pointer overflow-hidden rounded-[5px] px-1.5 py-1"
+                          onPointerDown={(e) => beginPress(task, e)}
+                          onClick={() => {
+                            if (dragMovedRef.current) {
+                              dragMovedRef.current = false;
+                              return;
+                            }
+                            setSheet({ task, comp, kid });
+                          }}
+                          className={`absolute z-[5] select-none rounded-[5px] px-1.5 py-1 ${
+                            isDragging ? "overflow-visible" : "overflow-hidden"
+                          }`}
                           style={{
                             top,
                             height: h,
                             left: laneLeft,
                             width: laneW,
+                            transform: isDragging
+                              ? `translateY(${drag.deltaPx}px)`
+                              : undefined,
+                            touchAction: isDragging ? "none" : undefined,
+                            cursor: isDragging ? "grabbing" : "grab",
+                            zIndex: isDragging ? 20 : 5,
                             background:
                               status === "done"
                                 ? meta.bg
@@ -1011,13 +1169,20 @@ function CalendarGrid({
                             borderLeft: `3px solid ${
                               status === "done" ? meta.color : "#4f8ef7"
                             }`,
-                            opacity: isMissed ? 0.65 : 1,
-                            boxShadow: isPending
+                            opacity: isMissed ? 0.65 : isDragging ? 0.92 : 1,
+                            boxShadow: isDragging
+                              ? "0 6px 20px rgba(0,0,0,0.45)"
+                              : isPending
                               ? `0 0 0 1px ${meta.color}66`
                               : "none",
                             boxSizing: "border-box",
                           }}
                         >
+                          {isDragging && (
+                            <div className="absolute -top-4 left-0 rounded bg-[#4f8ef7] px-1 text-[10px] font-bold text-white">
+                              {beehave.formatTime(minutesToTime(previewMin))}
+                            </div>
+                          )}
                           <div className="flex h-full items-start gap-1">
                             <span
                               className="shrink-0 leading-[1.3]"
