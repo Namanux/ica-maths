@@ -261,22 +261,27 @@ export function ParentDashboard(_props: { profileSlug: string }) {
   }
 
   return (
-    <div className="flex flex-1 flex-col bg-background text-foreground">
+    <div className="flex min-h-0 flex-1 flex-col bg-background text-foreground">
       {/* Tabs live in the app header (SiteHeader); this view is just content. */}
-      <div className="flex-1 overflow-y-auto px-3.5 pt-3.5">
-        {tab === "Overview" && <OverviewTab kids={kids} />}
-        {tab === "Task" && <TasksTab kids={kids} />}
-        {tab === "Reward" && <RewardsTab kids={kids} />}
-        {tab === "Policing" && <PolicingTab />}
-        {tab === "Message" && <MessageTab kids={kids} profile={profile} />}
-        {tab === "Passbook" && (
-          <>
-            <ApproveTab onApprove={() => {}} profile={profile} kids={kids} />
-            <ParentPassbooks kids={kids} profile={profile} />
-          </>
-        )}
-        <div className="h-[60px]" />
-      </div>
+      {tab === "Overview" ? (
+        <div className="flex min-h-0 flex-1 flex-col px-3.5 pt-3.5">
+          <OverviewTab kids={kids} />
+        </div>
+      ) : (
+        <div className="flex-1 overflow-y-auto px-3.5 pt-3.5">
+          {tab === "Task" && <TasksTab kids={kids} />}
+          {tab === "Reward" && <RewardsTab kids={kids} />}
+          {tab === "Policing" && <PolicingTab />}
+          {tab === "Message" && <MessageTab kids={kids} profile={profile} />}
+          {tab === "Passbook" && (
+            <>
+              <ApproveTab onApprove={() => {}} profile={profile} kids={kids} />
+              <ParentPassbooks kids={kids} profile={profile} />
+            </>
+          )}
+          <div className="h-[60px]" />
+        </div>
+      )}
     </div>
   );
 }
@@ -301,6 +306,41 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
 
   const today = localDateStr(new Date());
   const kidColors = ["#ec4899", "#4f8ef7", "#a855f7", "#22c55e"];
+
+  // List / calendar / split view (remembered per device).
+  const [view, setView] = useState<"list" | "calendar" | "split">("split");
+  // Which kids' columns to show (empty = all).
+  const [shown, setShown] = useState<Set<string>>(new Set());
+  useEffect(() => {
+    try {
+      const v = localStorage.getItem("beehave-admin-view");
+      if (v === "list" || v === "calendar" || v === "split") setView(v);
+    } catch {
+      /* storage unavailable */
+    }
+  }, []);
+  function pickView(v: "list" | "calendar" | "split") {
+    setView(v);
+    try {
+      localStorage.setItem("beehave-admin-view", v);
+    } catch {
+      /* storage unavailable */
+    }
+  }
+  function toggleKid(id: string) {
+    setShown((prev) => {
+      const next = new Set(prev.size ? prev : kids.map((k) => k.id));
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      // Never leave zero selected.
+      return next.size ? next : new Set(kids.map((k) => k.id));
+    });
+  }
+  const isShown = (id: string) => shown.size === 0 || shown.has(id);
+  const shownKids = kids.filter((k) => isShown(k.id));
+  const shownColors = kids
+    .map((k, i) => (isShown(k.id) ? kidColors[i % kidColors.length] : null))
+    .filter((c): c is string => c !== null);
 
   useEffect(() => {
     void loadData();
@@ -393,31 +433,20 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
     }
   }
 
-  return (
-    <div>
-      <div className="mb-3.5 flex gap-1.5">
-        {(["today", "week", "month"] as const).map((p) => (
-          <button
-            key={p}
-            onClick={() => setPeriod(p)}
-            className="rounded-[20px] px-4 py-1.5 text-[13px] font-semibold capitalize"
-            style={{
-              background: period === p ? "#f5c518" : "var(--border)",
-              color: period === p ? "#0f0f1a" : "var(--muted)",
-              border:
-                period === p ? "none" : "1px solid var(--border)",
-            }}
-          >
-            {p === "today" ? "Today" : p === "week" ? "This Week" : "This Month"}
-          </button>
-        ))}
-      </div>
-
-      <div
-        className="mb-3.5 grid gap-2.5"
-        style={{ gridTemplateColumns: `repeat(${kids.length || 1}, 1fr)` }}
-      >
-        {kidData.map((kid, idx) => {
+  const cards = (
+    <div
+      className="mb-3.5 grid gap-2.5"
+      style={{
+        gridTemplateColumns:
+          view === "split"
+            ? "1fr"
+            : `repeat(${shownKids.length || 1}, 1fr)`,
+      }}
+    >
+      {kidData
+        .filter((k) => isShown(k.id))
+        .map((kid) => {
+          const idx = kids.findIndex((k) => k.id === kid.id);
           const level = beehave.coinsToLevel(kid.coin_balance || 0);
           const done = kid.completions.filter(
             (c) => c.status !== "rejected",
@@ -481,23 +510,118 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
             </div>
           );
         })}
+    </div>
+  );
+
+  const chart = period !== "today" && chartData.length > 0 && (
+    <CompletionChart
+      data={chartData}
+      period={period}
+      kids={shownKids}
+      kidColors={shownColors}
+    />
+  );
+
+  const calendar = (
+    <CalendarGrid
+      kids={shownKids}
+      kidColors={shownColors}
+      onApprovalComplete={loadData}
+      fill
+    />
+  );
+
+  return (
+    <div className="flex min-h-0 flex-1 flex-col">
+      {/* Controls — all on one row */}
+      <div className="mb-2.5 flex shrink-0 flex-wrap items-center gap-x-2 gap-y-1.5">
+        <div className="flex items-center gap-1">
+          {(["list", "calendar", "split"] as const).map((v) => (
+            <button
+              key={v}
+              onClick={() => pickView(v)}
+              title={v}
+              className={`rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
+                view === v
+                  ? "bg-[#f5c518] text-[#0f0f1a]"
+                  : "border border-border text-muted"
+              }`}
+            >
+              {v === "list" ? "📋" : v === "calendar" ? "📅" : "⧉"}
+              <span className="ml-1 hidden sm:inline">
+                {v === "list" ? "List" : v === "calendar" ? "Calendar" : "Split"}
+              </span>
+            </button>
+          ))}
+        </div>
+
+        {kids.length > 1 && (
+          <div className="flex items-center gap-1">
+            {kids.map((k, i) => (
+              <button
+                key={k.id}
+                onClick={() => toggleKid(k.id)}
+                className={`flex items-center gap-1 rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
+                  isShown(k.id)
+                    ? "text-[#0f0f1a]"
+                    : "border border-border text-muted"
+                }`}
+                style={
+                  isShown(k.id)
+                    ? { background: kidColors[i % kidColors.length] }
+                    : undefined
+                }
+              >
+                <span>{k.avatar_emoji ?? "🙂"}</span>
+                {k.name}
+              </button>
+            ))}
+          </div>
+        )}
+
+        {view !== "calendar" && (
+          <div className="flex items-center gap-1">
+            {(["today", "week", "month"] as const).map((p) => (
+              <button
+                key={p}
+                onClick={() => setPeriod(p)}
+                className="rounded-[20px] px-3 py-1 text-[12px] font-semibold capitalize"
+                style={{
+                  background: period === p ? "#f5c518" : "var(--border)",
+                  color: period === p ? "#0f0f1a" : "var(--muted)",
+                  border: period === p ? "none" : "1px solid var(--border)",
+                }}
+              >
+                {p === "today" ? "Today" : p === "week" ? "Week" : "Month"}
+              </button>
+            ))}
+          </div>
+        )}
       </div>
 
-      {period === "today" && (
-        <CalendarGrid
-          kids={kids}
-          kidColors={kidColors}
-          onApprovalComplete={loadData}
-        />
+      {view === "list" && (
+        <div className="min-h-0 flex-1 overflow-y-auto">
+          {cards}
+          {chart}
+          <div className="h-[60px]" />
+        </div>
       )}
 
-      {period !== "today" && chartData.length > 0 && (
-        <CompletionChart
-          data={chartData}
-          period={period}
-          kids={kids}
-          kidColors={kidColors}
-        />
+      {view === "calendar" && (
+        <div className="min-h-0 flex-1">{calendar}</div>
+      )}
+
+      {view === "split" && (
+        <div className="flex min-h-0 flex-1 flex-col lg:flex-row lg:gap-2">
+          <div className="min-h-0 flex-1 overflow-y-auto lg:max-w-[340px]">
+            {cards}
+            {chart}
+            <div className="h-4" />
+          </div>
+          <div className="min-h-0 flex-1 lg:border-l lg:border-border lg:pl-2">
+            {calendar}
+          </div>
+        </div>
       )}
     </div>
   );
@@ -687,11 +811,13 @@ export function CalendarGrid({
   kidColors,
   onApprovalComplete,
   canApprove = true,
+  fill = false,
 }: {
   kids: KidRow[];
   kidColors: string[];
   onApprovalComplete?: () => void;
   canApprove?: boolean;
+  fill?: boolean;
 }) {
   const todayStr = () => localDateStr(new Date());
 
@@ -1103,8 +1229,8 @@ export function CalendarGrid({
   const colCount = kidData.length;
 
   return (
-    <div>
-      <div className="mb-2.5 flex items-center gap-2.5">
+    <div className={fill ? "flex min-h-0 flex-1 flex-col" : ""}>
+      <div className="mb-2.5 flex shrink-0 flex-wrap items-center gap-2 px-1">
         <button
           onClick={() => changeDate(-1)}
           className="flex h-[34px] w-[34px] items-center justify-center rounded-[10px] border border-border bg-surface text-[16px] text-foreground"
@@ -1145,9 +1271,13 @@ export function CalendarGrid({
         </button>
       </div>
 
-      <div className="overflow-hidden rounded-2xl border border-border bg-surface">
+      <div
+        className={`overflow-hidden rounded-2xl border border-border bg-surface ${
+          fill ? "flex min-h-0 flex-1 flex-col" : ""
+        }`}
+      >
         <div
-          className="sticky top-0 z-20 grid border-b border-border bg-surface"
+          className="sticky top-0 z-20 grid shrink-0 border-b border-border bg-surface"
           style={{ gridTemplateColumns: `44px repeat(${colCount || 1}, 1fr)` }}
         >
           <div />
@@ -1165,8 +1295,8 @@ export function CalendarGrid({
 
         <div
           ref={scrollRef}
-          className="overflow-y-auto"
-          style={{ maxHeight: "62vh" }}
+          className={fill ? "min-h-0 flex-1 overflow-y-auto" : "overflow-y-auto"}
+          style={fill ? undefined : { maxHeight: "62vh" }}
         >
           <div className="relative" style={{ height: TOTAL_H }}>
             <div

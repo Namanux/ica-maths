@@ -1239,7 +1239,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
   if (passbookTab) {
     return (
-      <div className="flex flex-1 flex-col bg-background text-foreground">
+      <div className="flex min-h-0 flex-1 flex-col bg-background text-foreground">
         <KidPassbook />
       </div>
     );
@@ -1247,7 +1247,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
   if (rewardTab) {
     return (
-      <div className="flex flex-1 flex-col bg-background text-foreground">
+      <div className="flex min-h-0 flex-1 flex-col bg-background text-foreground">
         <KidRewards />
       </div>
     );
@@ -1255,7 +1255,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
   if (policingTab) {
     return (
-      <div className="flex flex-1 flex-col bg-background text-foreground">
+      <div className="flex min-h-0 flex-1 flex-col bg-background text-foreground">
         <PolicingTab />
       </div>
     );
@@ -1292,7 +1292,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
   return (
     <div
-      className="flex flex-1 flex-col bg-background text-foreground"
+      className="flex min-h-0 flex-1 flex-col bg-background text-foreground"
       onClick={touchInteraction}
     >
       <ConfettiCanvas active={!!celebration} />
@@ -1320,17 +1320,17 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
       {/* ── Compact header ── */}
       <div className="shrink-0 border-b border-border bg-surface px-3.5 pt-2.5">
-        <div className="mb-2 flex items-center gap-1.5">
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 pb-2">
           <button
             onClick={(e) => {
               e.stopPropagation();
               shiftDate(-1);
             }}
-            className="flex h-[26px] w-[26px] items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
+            className="flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
           >
             ‹
           </button>
-          <span className="flex-1 text-center text-xs text-muted">
+          <span className="shrink-0 whitespace-nowrap text-xs text-muted">
             {formatViewDate()}
           </span>
           <button
@@ -1338,13 +1338,13 @@ export function KidDashboard(_props: { profileSlug: string }) {
               e.stopPropagation();
               shiftDate(1);
             }}
-            className="flex h-[26px] w-[26px] items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
+            className="flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
           >
             ›
           </button>
-        </div>
 
-        <div className="flex items-center gap-2.5 pb-2">
+          <span className="text-[14px] text-muted">|</span>
+
           <div
             className="flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-full text-[20px]"
             style={{
@@ -1398,6 +1398,29 @@ export function KidDashboard(_props: { profileSlug: string }) {
             </span>
             <span className="text-[12px] text-muted">/{totalTasks}</span>
           </div>
+
+          <div className="ml-auto flex shrink-0 items-center gap-1">
+            {(["list", "calendar", "split"] as const).map((v) => (
+              <button
+                key={v}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  pickView(v);
+                }}
+                title={v}
+                className={`rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
+                  view === v
+                    ? "bg-[#f5c518] text-[#0f0f1a]"
+                    : "border border-border text-muted"
+                }`}
+              >
+                {v === "list" ? "📋" : v === "calendar" ? "📅" : "⧉"}
+                <span className="ml-1 hidden sm:inline">
+                  {v === "list" ? "List" : v === "calendar" ? "Calendar" : "Split"}
+                </span>
+              </button>
+            ))}
+          </div>
         </div>
 
         <div className="-mx-3.5 h-[3px] overflow-hidden bg-surface">
@@ -1411,26 +1434,6 @@ export function KidDashboard(_props: { profileSlug: string }) {
             }}
           />
         </div>
-      </div>
-
-      {/* View switch */}
-      <div className="flex shrink-0 items-center gap-1 border-b border-border bg-surface px-3.5 py-1.5">
-        {(["list", "calendar", "split"] as const).map((v) => (
-          <button
-            key={v}
-            onClick={(e) => {
-              e.stopPropagation();
-              pickView(v);
-            }}
-            className={`rounded-md px-2.5 py-1 text-[12px] font-semibold transition-colors ${
-              view === v
-                ? "bg-[#f5c518] text-[#0f0f1a]"
-                : "border border-border text-muted"
-            }`}
-          >
-            {v === "list" ? "📋 List" : v === "calendar" ? "📅 Calendar" : "⧉ Split"}
-          </button>
-        ))}
       </div>
 
       {/* Messages banner */}
@@ -1473,20 +1476,12 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
       {/* Task list / calendar */}
       <div
-        className={
-          view === "split"
-            ? "flex flex-col lg:min-h-0 lg:flex-1 lg:flex-row"
-            : "flex min-h-0 flex-1 flex-col"
-        }
-      >
-      {view !== "calendar" && (
-      <div
-        className={`overflow-y-auto px-3.5 pt-2.5 ${
-          view === "split"
-            ? "max-h-[46vh] lg:max-h-none lg:min-h-0 lg:flex-1"
-            : "min-h-0 flex-1"
+        className={`flex min-h-0 flex-1 ${
+          view === "split" ? "flex-col lg:flex-row" : "flex-col"
         }`}
       >
+      {view !== "calendar" && (
+      <div className="min-h-0 flex-1 overflow-y-auto px-3.5 pt-2.5">
         {allDone && isToday ? (
           <div className="flex h-full flex-col items-center justify-center p-8 text-center">
             <div
@@ -1599,10 +1594,10 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
       {view !== "list" && (
         <div
-          className={`overflow-hidden ${
+          className={`flex min-h-0 flex-1 flex-col overflow-hidden p-2 ${
             view === "split"
-              ? "border-t border-border pt-1 lg:min-h-0 lg:flex-1 lg:border-l lg:border-t-0 lg:pl-1 lg:pt-0"
-              : "min-h-0 flex-1"
+              ? "border-t border-border lg:border-l lg:border-t-0"
+              : ""
           }`}
         >
           <CalendarGrid
@@ -1616,6 +1611,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
             ]}
             kidColors={[avatarColor]}
             canApprove={false}
+            fill
           />
         </div>
       )}
