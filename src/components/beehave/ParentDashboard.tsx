@@ -671,7 +671,30 @@ function CalendarGrid({
   const [kidData, setKidData] = useState<CalendarKidData[]>([]);
   const [nowY, setNowY] = useState<number | null>(null);
   const [sheet, setSheet] = useState<SheetState | null>(null);
+  const [editTask, setEditTask] = useState<Partial<TaskRow> | null>(null);
   const scrollRef = useRef<HTMLDivElement | null>(null);
+
+  async function saveEditedTask(t: Partial<TaskRow>) {
+    if (!supabase || !t.id) return;
+    const { error } = await supabase
+      .from("tasks")
+      .update({ ...t, is_active: true })
+      .eq("id", t.id);
+    if (error) {
+      alert("Save failed: " + error.message);
+      return;
+    }
+    setEditTask(null);
+    void loadData();
+  }
+
+  async function deleteEditedTask(id: string) {
+    if (!supabase) return;
+    if (!confirm("Delete this task?")) return;
+    await supabase.from("tasks").update({ is_active: false }).eq("id", id);
+    setEditTask(null);
+    void loadData();
+  }
 
   const dateStr = selDate.toISOString().split("T")[0];
   const isToday = dateStr === todayStr();
@@ -1109,8 +1132,36 @@ function CalendarGrid({
           onClose={() => setSheet(null)}
           onApprove={handleApprove}
           onReject={handleReject}
+          onEdit={() => {
+            setEditTask(sheet.task);
+            setSheet(null);
+          }}
           taskStatus={taskStatus}
         />
+      )}
+
+      {editTask && (
+        <div
+          onClick={() => setEditTask(null)}
+          className="fixed inset-0 z-[310] flex items-end bg-black/[0.65]"
+        >
+          <div
+            onClick={(e) => e.stopPropagation()}
+            className="mx-auto max-h-[88vh] w-full max-w-[600px] overflow-y-auto overflow-x-hidden rounded-t-[20px] border-t border-border bg-background px-4 pb-8 pt-4"
+          >
+            <TaskForm
+              task={editTask}
+              kids={kids}
+              onSave={saveEditedTask}
+              onCancel={() => setEditTask(null)}
+              onDelete={
+                editTask.id
+                  ? () => void deleteEditedTask(editTask.id as string)
+                  : undefined
+              }
+            />
+          </div>
+        </div>
       )}
     </div>
   );
@@ -1121,12 +1172,14 @@ function TaskSheet({
   onClose,
   onApprove,
   onReject,
+  onEdit,
   taskStatus,
 }: {
   sheet: SheetState;
   onClose: () => void;
   onApprove: (coins: number) => void;
   onReject: () => void;
+  onEdit: () => void;
   taskStatus: (task: TaskRow, comp?: CompletionRow) => string;
 }) {
   const { task, comp, kid } = sheet;
@@ -1364,12 +1417,20 @@ function TaskSheet({
           </div>
         )}
 
-        <button
-          onClick={onClose}
-          className="mt-4 w-full rounded-xl border border-border bg-surface p-3 text-[14px] font-semibold text-muted"
-        >
-          Close
-        </button>
+        <div className="mt-4 flex gap-2">
+          <button
+            onClick={onEdit}
+            className="flex-1 rounded-xl border border-[#f5c518]/40 bg-[#f5c518]/12 p-3 text-[14px] font-semibold text-[#f5c518]"
+          >
+            ✏️ Edit task
+          </button>
+          <button
+            onClick={onClose}
+            className="flex-1 rounded-xl border border-border bg-surface p-3 text-[14px] font-semibold text-muted"
+          >
+            Close
+          </button>
+        </div>
       </div>
     </div>
   );
@@ -2148,25 +2209,9 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
   const [form, setForm] = useState<Partial<TaskRow> | null>(null);
   const [importing, setImporting] = useState(false);
   const importRef = useRef<HTMLInputElement | null>(null);
-  const rowTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-
-  function rowGesture(onEdit: () => void, onDelete: () => void) {
-    return {
-      onClick: () => {
-        if (rowTimer.current) return;
-        rowTimer.current = setTimeout(() => {
-          rowTimer.current = null;
-          onEdit();
-        }, 220);
-      },
-      onDoubleClick: () => {
-        if (rowTimer.current) {
-          clearTimeout(rowTimer.current);
-          rowTimer.current = null;
-        }
-        onDelete();
-      },
-    };
+  // Double-click a list item to edit it. (Delete lives inside the editor.)
+  function rowGesture(onEdit: () => void) {
+    return { onDoubleClick: onEdit };
   }
 
   useEffect(() => {
@@ -2399,6 +2444,14 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
         kids={kids}
         onSave={saveTask}
         onCancel={() => setForm(null)}
+        onDelete={
+          form.id
+            ? async () => {
+                await deleteTask(form.id as string);
+                setForm(null);
+              }
+            : undefined
+        }
       />
     );
 
@@ -2519,15 +2572,12 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
       </div>
 
       <p className="mb-2 px-1 text-[11px] text-muted">
-        Click a task to edit · double-click to delete
+        Double-click a task to edit it
       </p>
       {tasks.map((task) => (
         <div
           key={task.id}
-          {...rowGesture(
-            () => setForm(task),
-            () => void deleteTask(task.id),
-          )}
+          {...rowGesture(() => setForm(task))}
           className={`${cardCls} flex cursor-pointer select-none items-center gap-3`}
         >
           <span
@@ -2625,11 +2675,13 @@ function TaskForm({
   kids,
   onSave,
   onCancel,
+  onDelete,
 }: {
   task: Partial<TaskRow>;
   kids: KidRow[];
   onSave: (task: Partial<TaskRow>) => void;
   onCancel: () => void;
+  onDelete?: () => void;
 }) {
   const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   const todayStr = new Date().toISOString().split("T")[0];
@@ -2731,7 +2783,7 @@ function TaskForm({
 
   return (
     <div className="pb-4">
-      <div className="mb-4 flex items-center gap-2.5">
+      <div className="mb-4 flex flex-wrap items-center gap-2.5">
         <button
           onClick={onCancel}
           className="flex h-8 w-8 items-center justify-center rounded-lg border border-border bg-surface text-[16px] text-muted"
@@ -2741,6 +2793,14 @@ function TaskForm({
         <h2 className="flex-1 text-[18px] font-extrabold">
           {form.id ? "Edit Task" : "New Task"}
         </h2>
+        {form.id && onDelete && (
+          <button
+            onClick={onDelete}
+            className="rounded-[10px] border border-[#ef4444]/40 bg-[#ef4444]/10 px-4 py-2.5 text-[14px] font-semibold text-[#ef4444]"
+          >
+            Delete
+          </button>
+        )}
         <button
           onClick={handleSave}
           className="rounded-[10px] bg-[#f5c518] px-6 py-2.5 text-[14px] font-semibold text-[#0f0f1a]"
@@ -3184,25 +3244,10 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
   const [sortBy, setSortBy] = useState<RewardSort>("cheap");
   const [importing, setImporting] = useState(false);
   const importRef = useRef<HTMLInputElement | null>(null);
-  const rowTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  function rowGesture(onEdit: () => void, onDelete: () => void) {
-    return {
-      onClick: () => {
-        if (rowTimer.current) return;
-        rowTimer.current = setTimeout(() => {
-          rowTimer.current = null;
-          onEdit();
-        }, 220);
-      },
-      onDoubleClick: () => {
-        if (rowTimer.current) {
-          clearTimeout(rowTimer.current);
-          rowTimer.current = null;
-        }
-        onDelete();
-      },
-    };
+  // Double-click a list item to edit it. (Delete lives inside the editor.)
+  function rowGesture(onEdit: () => void) {
+    return { onDoubleClick: onEdit };
   }
   const [form, setForm] = useState<{
     id?: string;
@@ -3235,24 +3280,8 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
     coins: number;
     description: string;
   }>(blankPolicing());
-  const polRowTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
-  function polRowGesture(onEdit: () => void, onDelete: () => void) {
-    return {
-      onClick: () => {
-        if (polRowTimer.current) return;
-        polRowTimer.current = setTimeout(() => {
-          polRowTimer.current = null;
-          onEdit();
-        }, 220);
-      },
-      onDoubleClick: () => {
-        if (polRowTimer.current) {
-          clearTimeout(polRowTimer.current);
-          polRowTimer.current = null;
-        }
-        onDelete();
-      },
-    };
+  function polRowGesture(onEdit: () => void) {
+    return { onDoubleClick: onEdit };
   }
 
   async function loadPolicing() {
@@ -3493,6 +3522,21 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
         >
           Cancel
         </button>
+        {form.id && (
+          <button
+            onClick={() => {
+              void deleteReward({
+                id: form.id,
+                name: form.name,
+              } as RewardRow);
+              setShowForm(false);
+              setForm(blankReward());
+            }}
+            className="rounded-[10px] border border-[#ef4444]/40 bg-[#ef4444]/10 px-4 py-3 text-[14px] font-semibold text-[#ef4444]"
+          >
+            Delete
+          </button>
+        )}
         <button
           onClick={saveReward}
           className="flex-1 rounded-[10px] bg-[#f5c518] px-6 py-3 font-semibold text-[#0f0f1a]"
@@ -3552,6 +3596,21 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
         >
           Cancel
         </button>
+        {polForm.id && (
+          <button
+            onClick={() => {
+              void deletePolicing({
+                id: polForm.id,
+                name: polForm.name,
+              } as PolicingTaskRow);
+              setShowPolForm(false);
+              setPolForm(blankPolicing());
+            }}
+            className="rounded-[10px] border border-[#ef4444]/40 bg-[#ef4444]/10 px-4 py-3 text-[14px] font-semibold text-[#ef4444]"
+          >
+            Delete
+          </button>
+        )}
         <button
           onClick={savePolicing}
           className="flex-1 rounded-[10px] bg-[#f97316] px-6 py-3 font-semibold text-[#0f0f1a]"
@@ -3629,7 +3688,10 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
       {showPolForm && !polForm.id && policingForm}
       {showForm && !form.id && rewardForm}
 
-      <div className="mb-2.5 flex items-center justify-end">
+      <div className="mb-2.5 flex items-center justify-between gap-2">
+        <span className="px-1 text-[11px] text-muted">
+          Double-click an item to edit it
+        </span>
         <RewardSortSelect value={sortBy} onChange={setSortBy} />
       </div>
 
@@ -3650,10 +3712,7 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
               ) : (
                 <div
                   key={r.id}
-                  {...rowGesture(
-                    () => startEditReward(r),
-                    () => void deleteReward(r),
-                  )}
+                  {...rowGesture(() => startEditReward(r))}
                   className={`${cardCls} mb-2 flex cursor-pointer select-none items-center gap-3`}
                 >
                   <span
@@ -3703,10 +3762,7 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
           ) : (
             <div
               key={p.id}
-              {...polRowGesture(
-                () => startEditPolicing(p),
-                () => void deletePolicing(p),
-              )}
+              {...polRowGesture(() => startEditPolicing(p))}
               className={`${cardCls} mb-2 flex cursor-pointer select-none items-center gap-3`}
             >
               <span className="text-[28px]" style={{ fontFamily: EMOJI_FONT }}>
