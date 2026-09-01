@@ -2573,7 +2573,7 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
       </div>
 
       <p className="mb-2 px-1 text-[11px] text-muted">
-        Double-click a task to edit it
+        Tap Edit, or double-click a task
       </p>
       {tasks.map((task) => (
         <div
@@ -2619,6 +2619,15 @@ function TasksTab({ kids }: { kids: KidRow[] }) {
               {task.penalty_coins} penalty
             </div>
           </div>
+          <button
+            onClick={(e) => {
+              e.stopPropagation();
+              setForm(task);
+            }}
+            className="shrink-0 rounded-lg border border-[#f5c518]/40 bg-[#f5c518]/12 px-3 py-1.5 text-[13px] font-semibold text-[#f5c518]"
+          >
+            Edit
+          </button>
         </div>
       ))}
     </div>
@@ -3691,7 +3700,7 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
 
       <div className="mb-2.5 flex items-center justify-between gap-2">
         <span className="px-1 text-[11px] text-muted">
-          Double-click an item to edit it
+          Tap Edit, or double-click an item
         </span>
         <RewardSortSelect value={sortBy} onChange={setSortBy} />
       </div>
@@ -3736,6 +3745,15 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
                   <button
                     onClick={(e) => {
                       e.stopPropagation();
+                      startEditReward(r);
+                    }}
+                    className="rounded-lg border border-[#f5c518]/40 bg-[#f5c518]/12 px-3 py-1.5 text-[13px] font-semibold text-[#f5c518]"
+                  >
+                    Edit
+                  </button>
+                  <button
+                    onClick={(e) => {
+                      e.stopPropagation();
                       void duplicateReward(r);
                     }}
                     className="rounded-lg bg-surface px-3 py-1.5 text-[13px] text-muted"
@@ -3776,6 +3794,15 @@ function RewardsTab({ kids }: { kids: KidRow[] }) {
                 )}
               </div>
               <div className="font-bold text-[#ef4444]">−🪙 {p.coins}</div>
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  startEditPolicing(p);
+                }}
+                className="rounded-lg border border-[#f5c518]/40 bg-[#f5c518]/12 px-3 py-1.5 text-[13px] font-semibold text-[#f5c518]"
+              >
+                Edit
+              </button>
               <button
                 onClick={(e) => {
                   e.stopPropagation();
