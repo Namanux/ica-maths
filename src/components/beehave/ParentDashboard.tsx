@@ -483,6 +483,78 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
   const today = localDateStr(new Date());
   const kidColors = ["#ec4899", "#4f8ef7", "#a855f7", "#22c55e"];
 
+  // Calendar column order — drag the chips to rearrange; remembered per device.
+  const [order, setOrder] = useState<string[]>([]);
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem("beehave-admin-cal-order");
+      if (raw) setOrder(JSON.parse(raw) as string[]);
+    } catch {
+      /* storage unavailable / bad json */
+    }
+  }, []);
+  function saveOrder(next: string[]) {
+    setOrder(next);
+    try {
+      localStorage.setItem("beehave-admin-cal-order", JSON.stringify(next));
+    } catch {
+      /* storage unavailable */
+    }
+  }
+  // kids sorted by the saved order; anything not in `order` (new calendars)
+  // keeps its natural position at the end.
+  const orderedKids = [...kids].sort((a, b) => {
+    const ia = order.indexOf(a.id);
+    const ib = order.indexOf(b.id);
+    return (
+      (ia === -1 ? order.length + kids.indexOf(a) : ia) -
+      (ib === -1 ? order.length + kids.indexOf(b) : ib)
+    );
+  });
+  const [draggingId, setDraggingId] = useState<string | null>(null);
+  const chipMovedRef = useRef(false);
+
+  function beginChipDrag(e: React.PointerEvent, id: string) {
+    if (e.button && e.button !== 0) return;
+    chipMovedRef.current = false;
+    const startX = e.clientX;
+    const isMouse = e.pointerType === "mouse";
+    let armed = isMouse;
+    const hold = isMouse
+      ? undefined
+      : window.setTimeout(() => {
+          armed = true;
+          setDraggingId(id);
+        }, 180);
+    const move = (ev: PointerEvent) => {
+      if (!armed) return;
+      if (!chipMovedRef.current && Math.abs(ev.clientX - startX) > 6) {
+        chipMovedRef.current = true;
+        setDraggingId(id);
+      }
+    };
+    const up = (ev: PointerEvent) => {
+      window.removeEventListener("pointermove", move);
+      window.removeEventListener("pointerup", up);
+      if (hold) clearTimeout(hold);
+      if (chipMovedRef.current) {
+        const el = document.elementFromPoint(ev.clientX, ev.clientY);
+        const targetId = (el as HTMLElement | null)
+          ?.closest("[data-chip-id]")
+          ?.getAttribute("data-chip-id");
+        const cur = orderedKids.map((k) => k.id);
+        if (targetId && targetId !== id && cur.includes(targetId)) {
+          cur.splice(cur.indexOf(id), 1);
+          cur.splice(cur.indexOf(targetId), 0, id);
+          saveOrder(cur);
+        }
+      }
+      setDraggingId(null);
+    };
+    window.addEventListener("pointermove", move);
+    window.addEventListener("pointerup", up);
+  }
+
   // List / calendar / split view (remembered per device).
   const [view, setView] = useState<"list" | "calendar" | "split">("split");
   // Which kids' columns to show (empty = all).
@@ -533,8 +605,8 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
     });
   }
   const isShown = (id: string) => shown.size === 0 || shown.has(id);
-  const shownKids = kids.filter((k) => isShown(k.id));
-  const shownColors = kids
+  const shownKids = orderedKids.filter((k) => isShown(k.id));
+  const shownColors = orderedKids
     .map((k, i) => (isShown(k.id) ? kidColors[i % kidColors.length] : null))
     .filter((c): c is string => c !== null);
 
@@ -558,7 +630,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
   useEffect(() => {
     void loadData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [kids.length, period]);
+  }, [kids.length, period, order.join(",")]);
 
   async function loadData() {
     if (!supabase) return;
@@ -626,7 +698,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
         return {
           label,
           date,
-          kids: kids.map((kid, idx) => ({
+          kids: orderedKids.map((kid, idx) => ({
             name: kid.name,
             color: kidColors[idx % kidColors.length],
             done: (
@@ -658,10 +730,12 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
             : `repeat(${shownKids.length || 1}, 1fr)`,
       }}
     >
-      {kidData
+      {orderedKids
         .filter((k) => isShown(k.id))
+        .map((ok) => kidData.find((d) => d.id === ok.id))
+        .filter((kid): kid is (typeof kidData)[number] => Boolean(kid))
         .map((kid) => {
-          const idx = kids.findIndex((k) => k.id === kid.id);
+          const idx = orderedKids.findIndex((k) => k.id === kid.id);
           const level = beehave.coinsToLevel(kid.coin_balance || 0);
           const done = kid.completions.filter(
             (c) => c.status !== "rejected",
@@ -783,22 +857,32 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
       {/* Controls — one wrapping row: [kids + period]  ‹ date ›  [+ New Task · view] */}
       <div className="mb-2.5 flex shrink-0 flex-wrap items-center gap-x-2 gap-y-2 pb-1">
         <div className="flex flex-wrap items-center gap-1">
-          {kids.length > 1 &&
-            kids.map((k, i) => (
+          {orderedKids.length > 1 &&
+            orderedKids.map((k, i) => (
               <button
                 key={k.id}
-                onClick={() => toggleKid(k.id)}
-                className={`flex items-center gap-1 rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
+                data-chip-id={k.id}
+                onPointerDown={(e) => beginChipDrag(e, k.id)}
+                onClick={() => {
+                  if (chipMovedRef.current) {
+                    chipMovedRef.current = false;
+                    return;
+                  }
+                  toggleKid(k.id);
+                }}
+                title="Tap to show/hide · drag to reorder"
+                className={`flex touch-none items-center gap-1 rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
                   isShown(k.id)
                     ? "text-[#0f0f1a]"
                     : "border border-border text-muted"
-                }`}
+                } ${draggingId === k.id ? "opacity-50" : ""}`}
                 style={
                   isShown(k.id)
                     ? { background: kidColors[i % kidColors.length] }
                     : undefined
                 }
               >
+                <span className="cursor-grab select-none opacity-60">⠿</span>
                 <span>{k.avatar_emoji ?? "🙂"}</span>
                 {k.name}
               </button>
