@@ -2035,7 +2035,12 @@ export function CalendarGrid({
     onApprovalComplete?.();
   }
 
-  const colCount = kidData.length;
+  // Render columns in the order of the `kids` prop (which the overview
+  // reorders live), not the order `kidData` happened to load in.
+  const orderedKidData = kids
+    .map((k) => kidData.find((d) => d.id === k.id))
+    .filter((d): d is CalendarKidData => Boolean(d));
+  const colCount = orderedKidData.length;
 
   return (
     <div className={fill ? "flex min-h-0 flex-1 flex-col" : ""}>
@@ -2095,7 +2100,7 @@ export function CalendarGrid({
             }}
           >
             <div />
-            {kidData.map((kid, idx) => (
+            {orderedKidData.map((kid, idx) => (
               <div
                 key={kid.id}
                 className="flex items-center gap-1.5 border-l border-border px-2 py-2.5 text-[13px] font-bold"
@@ -2140,7 +2145,7 @@ export function CalendarGrid({
                 ))}
               </div>
 
-              {kidData.map((kid) => (
+              {orderedKidData.map((kid) => (
                 <div
                   key={kid.id}
                   className="relative border-l border-border"
