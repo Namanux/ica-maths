@@ -482,6 +482,12 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
 
   const today = localDateStr(new Date());
   const kidColors = ["#ec4899", "#4f8ef7", "#a855f7", "#22c55e"];
+  // Each calendar keeps its own colour as it's moved around — its saved
+  // avatar_color, falling back to a slot from the palette.
+  const colorOf = (
+    k: { avatar_color?: string | null },
+    fallbackIdx: number,
+  ): string => k.avatar_color || kidColors[fallbackIdx % kidColors.length];
 
   // Calendar column order — drag the chips to rearrange; remembered per device.
   const [order, setOrder] = useState<string[]>([]);
@@ -607,7 +613,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
   const isShown = (id: string) => shown.size === 0 || shown.has(id);
   const shownKids = orderedKids.filter((k) => isShown(k.id));
   const shownColors = orderedKids
-    .map((k, i) => (isShown(k.id) ? kidColors[i % kidColors.length] : null))
+    .map((k, i) => (isShown(k.id) ? colorOf(k, i) : null))
     .filter((c): c is string => c !== null);
 
   // Day shown in the calendar (also drives the "today" summary query).
@@ -700,7 +706,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
           date,
           kids: orderedKids.map((kid, idx) => ({
             name: kid.name,
-            color: kidColors[idx % kidColors.length],
+            color: colorOf(kid, idx),
             done: (
               (allComps as {
                 scheduled_date: string;
@@ -741,19 +747,19 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
             (c) => c.status !== "rejected",
           ).length;
           const total = kid.tasks.length;
+          const kc = colorOf(kid, idx);
           return (
             <div
               key={kid.id}
               className="rounded-2xl border bg-surface px-3.5 pb-3 pt-3.5"
-              style={{ borderColor: `${kidColors[idx % kidColors.length]}33` }}
+              style={{ borderColor: `${kc}33` }}
             >
               <div className="mb-2.5 flex items-center gap-2">
                 <div
                   className="flex h-9 w-9 items-center justify-center rounded-full text-[18px]"
                   style={{
-                    background:
-                      kid.avatar_color || kidColors[idx % kidColors.length],
-                    border: `2px solid ${kidColors[idx % kidColors.length]}66`,
+                    background: kc,
+                    border: `2px solid ${kc}66`,
                   }}
                 >
                   {kid.avatar_emoji || "😊"}
@@ -772,9 +778,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
                   style={{
                     width: total > 0 ? `${(done / total) * 100}%` : "0%",
                     background:
-                      done === total && total > 0
-                        ? "#22c55e"
-                        : kidColors[idx % kidColors.length],
+                      done === total && total > 0 ? "#22c55e" : kc,
                   }}
                 />
               </div>
@@ -783,7 +787,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
                 <StatChip
                   label="Balance"
                   value={`🪙 ${beehave.formatCoins(kid.coin_balance || 0)}`}
-                  color={kidColors[idx % kidColors.length]}
+                  color={kc}
                 />
                 <StatChip
                   label="Earned today"
@@ -878,7 +882,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
                 } ${draggingId === k.id ? "opacity-50" : ""}`}
                 style={
                   isShown(k.id)
-                    ? { background: kidColors[i % kidColors.length] }
+                    ? { background: colorOf(k, i) }
                     : undefined
                 }
               >
