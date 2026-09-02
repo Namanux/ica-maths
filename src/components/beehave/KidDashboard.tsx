@@ -1178,6 +1178,15 @@ export function KidDashboard(_props: { profileSlug: string }) {
       started_at: string;
       scheduled_date: string;
     }>) {
+      // Leave the row that belongs to the session that's still legitimately
+      // running (hydrated into the global context) — its heartbeat owns it.
+      if (
+        globalSession &&
+        (run.id === globalSession.runId ||
+          globalSession.taskId === run.task_id)
+      ) {
+        continue;
+      }
       const endedAt = new Date().toISOString();
       const durationSecs = Math.max(
         0,

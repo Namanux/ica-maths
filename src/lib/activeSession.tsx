@@ -41,9 +41,29 @@ export type ActiveSession = {
   totalElapsed: number; // seconds banked before the segment running now
   anchorEpoch: number; // ms — when the current running segment began
   startedAt: string; // ISO version of anchorEpoch, for the DB row
+  runId: string; // stable id for this segment's session_runs row
 };
 
-type StartOptions = Omit<ActiveSession, "anchorEpoch" | "startedAt">;
+type StartOptions = Omit<
+  ActiveSession,
+  "anchorEpoch" | "startedAt" | "runId"
+>;
+
+function newRunId(): string {
+  try {
+    if (typeof crypto?.randomUUID === "function") return crypto.randomUUID();
+    const b = crypto.getRandomValues(new Uint8Array(16));
+    b[6] = (b[6] & 0x0f) | 0x40;
+    b[8] = (b[8] & 0x3f) | 0x80;
+    const h = [...b].map((x) => x.toString(16).padStart(2, "0")).join("");
+    return `${h.slice(0, 8)}-${h.slice(8, 12)}-${h.slice(12, 16)}-${h.slice(
+      16,
+      20,
+    )}-${h.slice(20)}`;
+  } catch {
+    return `${Date.now()}-${Math.random().toString(36).slice(2)}`;
+  }
+}
 
 type ActiveSessionContextValue = {
   session: ActiveSession | null;
@@ -109,9 +129,76 @@ export function ActiveSessionProvider({ children }: { children: ReactNode }) {
     return () => clearInterval(id);
   }, [session]);
 
+  // iOS suspends timers (and often the whole tab) while the iPad is asleep or
+  // Safari is backgrounded. The moment we're visible again, recompute from the
+  // wall clock so the timer snaps to the right value instead of sitting frozen
+  // until the next interval fires.
+  useEffect(() => {
+    if (!session) return;
+    const wake = () => forceTick((t) => t + 1);
+    document.addEventListener("visibilitychange", wake);
+    window.addEventListener("pageshow", wake);
+    window.addEventListener("focus", wake);
+    window.addEventListener("online", wake);
+    return () => {
+      document.removeEventListener("visibilitychange", wake);
+      window.removeEventListener("pageshow", wake);
+      window.removeEventListener("focus", wake);
+      window.removeEventListener("online", wake);
+    };
+  }, [session]);
+
+  // Heartbeat: while a session runs, keep an open row in `session_runs`
+  // (ended_at null) up to date every 15s and once immediately. If the tab is
+  // killed and localStorage is later wiped, the run is still on the server and
+  // KidDashboard's orphan-recovery folds it back in. `stopAndRecord` closes
+  // this same row.
+  useEffect(() => {
+    if (!session) return;
+    const s = session;
+    const supabase = getSupabaseClient();
+    if (!supabase) return;
+    let cancelled = false;
+    const beat = async () => {
+      const liveSecs = Math.max(
+        0,
+        Math.round((Date.now() - s.anchorEpoch) / 1000),
+      );
+      try {
+        await supabase.from("session_runs").upsert(
+          {
+            id: s.runId,
+            task_id: s.taskId,
+            kid_id: s.kidId,
+            scheduled_date: s.scheduledDate,
+            started_at: s.startedAt,
+            ended_at: null,
+            duration_secs: liveSecs,
+          },
+          { onConflict: "id" },
+        );
+      } catch {
+        /* best-effort */
+      }
+    };
+    void beat();
+    const id = setInterval(() => {
+      if (!cancelled) void beat();
+    }, 15000);
+    return () => {
+      cancelled = true;
+      clearInterval(id);
+    };
+  }, [session]);
+
   const startSession = useCallback((opts: StartOptions) => {
     const now = Date.now();
-    setSession({ ...opts, anchorEpoch: now, startedAt: new Date(now).toISOString() });
+    setSession({
+      ...opts,
+      anchorEpoch: now,
+      startedAt: new Date(now).toISOString(),
+      runId: newRunId(),
+    });
   }, []);
 
   const stopAndRecord = useCallback(async () => {
@@ -124,21 +211,25 @@ export function ActiveSessionProvider({ children }: { children: ReactNode }) {
     );
     const finalElapsed = s.totalElapsed + liveSecs;
     setSession(null);
-    if (liveSecs > 0) {
-      const supabase = getSupabaseClient();
-      if (supabase) {
-        try {
-          await supabase.from("session_runs").insert({
+    const supabase = getSupabaseClient();
+    if (supabase) {
+      try {
+        // Close the heartbeat row for this segment (upsert so it works whether
+        // or not a heartbeat already created it).
+        await supabase.from("session_runs").upsert(
+          {
+            id: s.runId,
             task_id: s.taskId,
             kid_id: s.kidId,
             scheduled_date: s.scheduledDate,
             started_at: s.startedAt,
             ended_at: endedAt.toISOString(),
             duration_secs: liveSecs,
-          });
-        } catch {
-          // Best-effort — don't block on a network/DB error.
-        }
+          },
+          { onConflict: "id" },
+        );
+      } catch {
+        // Best-effort — don't block on a network/DB error.
       }
     }
     return finalElapsed;
