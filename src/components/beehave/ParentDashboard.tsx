@@ -2292,27 +2292,25 @@ export function CalendarGrid({
                               {task.icon}
                             </span>
                             <div className="min-w-0 flex-1">
-                              <div
-                                className="overflow-hidden text-ellipsis whitespace-nowrap font-bold leading-[1.25] text-foreground"
-                                style={{
-                                  fontSize: h < 50 ? 13 : 15,
-                                  textDecoration: isMissed
-                                    ? "line-through"
-                                    : "none",
-                                }}
-                              >
-                                {task.name}
+                              <div className="flex items-baseline gap-1.5">
+                                <div
+                                  className="min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap font-bold leading-[1.25] text-foreground"
+                                  style={{
+                                    fontSize: h < 50 ? 13 : 15,
+                                    textDecoration: isMissed
+                                      ? "line-through"
+                                      : "none",
+                                  }}
+                                >
+                                  {task.name}
+                                </div>
+                                <span className="shrink-0 text-[12px] font-bold leading-none text-[#f5c518]">
+                                  🪙{task.full_coins}
+                                </span>
                               </div>
-                              {h >= 30 && (
-                                <div className="mt-0.5 flex flex-wrap items-center gap-x-2 text-[12px] leading-tight">
-                                  <span className="font-semibold text-[#f5c518]">
-                                    🪙 {task.full_coins}
-                                  </span>
-                                  {h >= 52 && (
-                                    <span className="text-muted">
-                                      {beehave.formatTime(task.start_time)}
-                                    </span>
-                                  )}
+                              {h >= 52 && (
+                                <div className="mt-0.5 text-[12px] text-muted">
+                                  {beehave.formatTime(task.start_time)}
                                 </div>
                               )}
                               {h >= 52 && totalSecs > 0 && scheduledMins && (
