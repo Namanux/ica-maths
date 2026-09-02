@@ -42,6 +42,7 @@ type CompletionRow = {
   photo_path?: string | null;
   completed_at?: string | null;
   completion_count?: number | null;
+  time_spent_secs?: number | null;
 };
 
 type MessageRow = {
@@ -685,6 +686,21 @@ export function KidDashboard(_props: { profileSlug: string }) {
     setMessages((m) => m.filter((x) => x.id !== id));
   }
 
+  // Best-effort: stamp how long a session ran onto its completion row so the
+  // parent's approval card can show it. Silently skipped if the column
+  // isn't there yet (migration not applied).
+  async function recordTimeSpent(compId: string | undefined, secs: number) {
+    if (!compId || !supabase) return;
+    try {
+      await supabase
+        .from("task_completions")
+        .update({ time_spent_secs: secs })
+        .eq("id", compId);
+    } catch {
+      /* column missing — non-fatal */
+    }
+  }
+
   async function completeTask(
     task: TaskRow,
     timeSpentSecs: number | null = null,
@@ -698,29 +714,44 @@ export function KidDashboard(_props: { profileSlug: string }) {
     setCompletingTaskId(task.id);
 
     try {
-    let coinsEarned = beehave.calculateCoins(task);
-    if (timeSpentSecs !== null && (task.target_duration ?? 0) > 0) {
-      const ratio = Math.max(
-        0.5,
-        timeSpentSecs / (task.target_duration as number),
-      );
-      coinsEarned = Math.round(coinsEarned * Math.min(1, ratio));
-    }
+    const isSession =
+      task.task_type === "session" || task.task_type === "focus";
+    const timedSession =
+      isSession && timeSpentSecs !== null && (task.target_duration ?? 0) > 0;
 
-    const needsApproval = task.requires_approval === true || !!photoPath;
+    // Sessions are scored purely on time spent vs. the allocated target
+    // (linear, no cap). Everything else uses the time-of-day reward.
+    const coinsEarned = timedSession
+      ? beehave.sessionCoins(task, timeSpentSecs as number)
+      : beehave.calculateCoins(task);
+
+    const overran =
+      timedSession && beehave.sessionOverran(task, timeSpentSecs as number);
+    const needsApproval =
+      task.requires_approval === true || !!photoPath || overran;
 
     if (needsApproval) {
-      const { error: apprErr } = await supabase.from("task_completions").insert({
-        task_id: task.id,
-        kid_id: profile.id,
-        scheduled_date: viewDateRef.current,
-        coins_earned: coinsEarned,
-        status: "pending_approval",
-        photo_path: photoPath,
-      });
+      const { data: apprComp, error: apprErr } = await supabase
+        .from("task_completions")
+        .insert({
+          task_id: task.id,
+          kid_id: profile.id,
+          scheduled_date: viewDateRef.current,
+          coins_earned: coinsEarned,
+          status: "pending_approval",
+          photo_path: photoPath,
+        })
+        .select("id")
+        .single();
       if (apprErr) {
         await loadTasks();
         return;
+      }
+      if (isSession && timeSpentSecs != null) {
+        await recordTimeSpent(
+          (apprComp as { id?: string } | null)?.id,
+          timeSpentSecs,
+        );
       }
       playSound("coin");
       popCoins(task.id, coinsEarned, true);
@@ -748,6 +779,9 @@ export function KidDashboard(_props: { profileSlug: string }) {
         // A concurrent tap already recorded this completion — don't double-pay.
         await loadTasks();
         return;
+      }
+      if (isSession && timeSpentSecs != null) {
+        await recordTimeSpent((comp as { id?: string }).id, timeSpentSecs);
       }
 
       await supabase.from("coin_transactions").insert({
@@ -2230,8 +2264,22 @@ function TaskCard({
                     1,
                     Math.floor(task.full_coins / 2),
                   )} coins — late`
+                : isFocus && sessionDuration > 0
+                ? `+${beehave.sessionCoins(
+                    task,
+                    timer.totalElapsed > 0
+                      ? timer.totalElapsed
+                      : sessionDuration,
+                  )} coins`
                 : `+${previewCoins} coins`}
-              {task.requires_approval ? " · needs approval" : ""}
+              {isFocus &&
+              sessionDuration > 0 &&
+              timer.totalElapsed > 0 &&
+              beehave.sessionOverran(task, timer.totalElapsed)
+                ? " · needs approval (ran 10+ min over)"
+                : task.requires_approval
+                ? " · needs approval"
+                : ""}
               {isFocus &&
                 sessionDuration > 0 &&
                 ` · ${formatDuration(sessionDuration)} session`}

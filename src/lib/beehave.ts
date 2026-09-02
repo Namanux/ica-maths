@@ -64,6 +64,28 @@ function calculatePenalty(task: BeehaveTask): number {
 }
 
 /**
+ * Session coins scale linearly with time actually spent versus the allocated
+ * target: run the full target and earn 100% of `full_coins`; finish in half
+ * the time and earn 50%; run 150% of the time and earn 150%. No upper cap.
+ * A minimum of 1 coin once any time has been logged.
+ */
+function sessionCoins(task: BeehaveTask, timeSpentSecs: number): number {
+  const target = task.target_duration ?? 0;
+  if (target <= 0) return task.full_coins; // untimed session → full reward
+  const raw = Math.round((task.full_coins * timeSpentSecs) / target);
+  return timeSpentSecs > 0 ? Math.max(1, raw) : 0;
+}
+
+// A session that ran more than this far past its target must be approved by
+// a parent before the coins land, even on "auto" tasks.
+const SESSION_OVERRUN_GRACE_SECS = 10 * 60;
+
+function sessionOverran(task: BeehaveTask, timeSpentSecs: number): boolean {
+  const target = task.target_duration ?? 0;
+  return target > 0 && timeSpentSecs > target + SESSION_OVERRUN_GRACE_SECS;
+}
+
+/**
  * Current task status based on time of day.
  */
 function getTaskStatus(
@@ -170,9 +192,13 @@ function formatCountdown(seconds: number): string {
   return `${m}:${String(s).padStart(2, "0")}`;
 }
 
+export const SESSION_OVERRUN_GRACE_MINS = SESSION_OVERRUN_GRACE_SECS / 60;
+
 export const beehave = {
   calculateCoins,
   calculatePenalty,
+  sessionCoins,
+  sessionOverran,
   getTaskStatus,
   secondsUntilChange,
   formatCoins,

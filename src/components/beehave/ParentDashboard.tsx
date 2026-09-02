@@ -81,6 +81,7 @@ type CompletionRow = {
   completed_at?: string | null;
   completion_count?: number | null;
   photo_path?: string | null;
+  time_spent_secs?: number | null;
   task?: TaskRow | null;
   kid?: KidRow | null;
 };
@@ -1624,7 +1625,11 @@ export function CalendarGrid({
   // completeTask). Photo tasks can't be finished here — open the sheet instead.
   async function completeFromCalendar(task: TaskRow, kid: CalendarKidData) {
     if (!supabase) return;
-    if (task.requires_photo) {
+    // Sessions are timer-scored — a kid can't finish one with a tap; and
+    // photo tasks need the capture flow. Both open the detail sheet instead.
+    const isSession =
+      task.task_type === "session" || task.task_type === "focus";
+    if (isSession || task.requires_photo) {
       setSheet({ task, kid });
       return;
     }
@@ -1696,12 +1701,15 @@ export function CalendarGrid({
     const prev = kidTapRef.current[task.id];
     if (prev) clearTimeout(prev.timer);
     const count = (prev?.count || 0) + 1;
+    const isSession =
+      task.task_type === "session" || task.task_type === "focus";
     const timer = setTimeout(() => {
       delete kidTapRef.current[task.id];
       if (count >= 3) setEditTask(task);
       else if (count === 2) {
         if (comp) void undoCompletion(comp);
-      } else if (!comp) void completeFromCalendar(task, kid);
+      } else if (isSession) setSheet({ task, comp, kid });
+      else if (!comp) void completeFromCalendar(task, kid);
     }, 320);
     kidTapRef.current[task.id] = { count, timer };
   }
@@ -3244,6 +3252,24 @@ function ApprovalCard({
                 minute: "2-digit",
               })}
           </div>
+          {comp.time_spent_secs != null && comp.task?.target_duration ? (
+            (() => {
+              const over = beehave.sessionOverran(
+                comp.task as never,
+                comp.time_spent_secs,
+              );
+              return (
+                <div
+                  className="mt-0.5 text-[12px] font-semibold"
+                  style={{ color: over ? "#f97316" : "#4f8ef7" }}
+                >
+                  ⏱ ran {Math.round(comp.time_spent_secs / 60)} min /{" "}
+                  {Math.round(comp.task.target_duration / 60)} min target
+                  {over && " — 10+ min over"}
+                </div>
+              );
+            })()
+          ) : null}
         </div>
       </div>
 

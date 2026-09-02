@@ -101,6 +101,7 @@ create table if not exists task_completions (
   status           text not null default 'auto_approved'
                    check (status in ('auto_approved','pending_approval','approved','rejected')),
   completion_count integer,
+  time_spent_secs  integer,                  -- session run length at completion
   photo_path       text,
   approved_by      uuid references profiles(id),
   approved_at      timestamptz,
@@ -109,6 +110,7 @@ create table if not exists task_completions (
   unique (task_id, kid_id, scheduled_date)
 );
 alter table task_completions add column if not exists photo_path text;
+alter table task_completions add column if not exists time_spent_secs integer;
 
 -- ─── COIN TRANSACTIONS ───────────────────────────────────────
 create table if not exists coin_transactions (
