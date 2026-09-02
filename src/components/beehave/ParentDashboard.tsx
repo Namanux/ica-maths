@@ -806,8 +806,8 @@ function layoutTasks(tasks: TaskRow[]): LaidOutTask[] {
   return assigned;
 }
 
-const QUICK_TASK_H = 13;
-const QUICK_TASK_GAP = 1;
+const QUICK_TASK_H = 18;
+const QUICK_TASK_GAP = 2;
 
 function stackQuickTasks(
   tasks: TaskRow[],
@@ -1375,29 +1375,6 @@ export function CalendarGrid({
           fill ? "flex min-h-0 flex-1 flex-col" : ""
         }`}
       >
-        {/* Vertical zoom — taller / shorter rows */}
-        <div className="absolute bottom-3 right-3 z-30 flex flex-col items-stretch overflow-hidden rounded-lg border border-border bg-surface/95 shadow-lg backdrop-blur">
-          <button
-            onClick={() => nudgeZoom(0.2)}
-            disabled={zoom >= CAL_ZOOM_MAX}
-            title="Taller rows"
-            className="px-2 py-1 text-[15px] font-bold leading-none text-foreground disabled:opacity-30"
-          >
-            ＋
-          </button>
-          <div className="border-y border-border px-1 py-0.5 text-center text-[9px] font-bold tabular-nums text-muted">
-            {Math.round(zoom * 100)}%
-          </div>
-          <button
-            onClick={() => nudgeZoom(-0.2)}
-            disabled={zoom <= CAL_ZOOM_MIN}
-            title="Shorter rows"
-            className="px-2 py-1 text-[15px] font-bold leading-none text-foreground disabled:opacity-30"
-          >
-            －
-          </button>
-        </div>
-
         {!hideColumnHeaders && (
           <div
             className="sticky top-0 z-20 grid shrink-0 border-b border-border bg-surface"
@@ -1435,7 +1412,7 @@ export function CalendarGrid({
                 {CAL_HOURS.map((h) => (
                   <div
                     key={h}
-                    className="absolute right-1.5 select-none text-[10px]"
+                    className="absolute right-1.5 select-none text-[11px]"
                     style={{
                       top: (h - CAL_START) * pxh - 8,
                       color:
@@ -1565,7 +1542,7 @@ export function CalendarGrid({
                             <span
                               className="shrink-0 leading-[1.3]"
                               style={{
-                                fontSize: h < 50 ? 11 : 14,
+                                fontSize: h < 50 ? 13 : 16,
                                 fontFamily: EMOJI_FONT,
                               }}
                             >
@@ -1575,7 +1552,7 @@ export function CalendarGrid({
                               <div
                                 className="overflow-hidden text-ellipsis whitespace-nowrap font-bold leading-[1.25] text-foreground"
                                 style={{
-                                  fontSize: h < 50 ? 10 : 12,
+                                  fontSize: h < 50 ? 12 : 14,
                                   textDecoration: isMissed
                                     ? "line-through"
                                     : "none",
@@ -1584,18 +1561,18 @@ export function CalendarGrid({
                                 {task.name}
                               </div>
                               {h >= 52 && (
-                                <div className="mt-0.5 text-[10px] text-muted">
+                                <div className="mt-0.5 text-[11px] text-muted">
                                   {beehave.formatTime(task.start_time)}
                                 </div>
                               )}
                               {h >= 52 && totalSecs > 0 && scheduledMins && (
-                                <div className="mt-px text-[10px] text-[#4f8ef7]">
+                                <div className="mt-px text-[11px] text-[#4f8ef7]">
                                   ⏱ {Math.round(totalSecs / 60)}/{scheduledMins}m
                                 </div>
                               )}
                             </div>
                             {h >= 36 && (
-                              <span className="shrink-0 text-[10px]">
+                              <span className="shrink-0 text-[11px]">
                                 {meta.icon}
                               </span>
                             )}
@@ -1660,13 +1637,13 @@ export function CalendarGrid({
                         }}
                       >
                         <span
-                          className="shrink-0 text-[8px] leading-none"
+                          className="shrink-0 text-[11px] leading-none"
                           style={{ fontFamily: EMOJI_FONT }}
                         >
                           {task.icon}
                         </span>
                         <div
-                          className="min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap text-[8px] font-semibold leading-none"
+                          className="min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap text-[11px] font-semibold leading-none"
                           style={{
                             color: meta.color,
                             textDecoration: isMissed ? "line-through" : "none",
@@ -1681,7 +1658,7 @@ export function CalendarGrid({
                               void undoCompletion(comp);
                             }}
                             title="Undo completion"
-                            className="shrink-0 text-[9px] leading-none opacity-70"
+                            className="shrink-0 text-[11px] leading-none opacity-70"
                           >
                             ↩
                           </button>
@@ -1692,7 +1669,7 @@ export function CalendarGrid({
                             setEditTask(task);
                           }}
                           title="Edit task"
-                          className="shrink-0 text-[9px] leading-none opacity-70"
+                          className="shrink-0 text-[11px] leading-none opacity-70"
                         >
                           ✏️
                         </button>
@@ -1714,6 +1691,31 @@ export function CalendarGrid({
                 />
               </div>
             )}
+          </div>
+
+          {/* Vertical zoom — floats in the calendar's corner, always in view */}
+          <div className="pointer-events-none sticky bottom-0 z-30 flex h-0 items-end justify-end pr-3">
+            <div className="pointer-events-auto mb-3 flex flex-col items-stretch overflow-hidden rounded-lg border border-border bg-surface/95 shadow-lg backdrop-blur">
+              <button
+                onClick={() => nudgeZoom(0.2)}
+                disabled={zoom >= CAL_ZOOM_MAX}
+                title="Taller rows"
+                className="px-2.5 py-1.5 text-[17px] font-bold leading-none text-foreground disabled:opacity-30"
+              >
+                ＋
+              </button>
+              <div className="border-y border-border px-1 py-0.5 text-center text-[10px] font-bold tabular-nums text-muted">
+                {Math.round(zoom * 100)}%
+              </div>
+              <button
+                onClick={() => nudgeZoom(-0.2)}
+                disabled={zoom <= CAL_ZOOM_MIN}
+                title="Shorter rows"
+                className="px-2.5 py-1.5 text-[17px] font-bold leading-none text-foreground disabled:opacity-30"
+              >
+                －
+              </button>
+            </div>
           </div>
         </div>
       </div>
