@@ -873,7 +873,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
       )}
 
       {view === "calendar" && (
-        <div className="min-h-0 flex-1">{calendar}</div>
+        <div className="flex min-h-0 flex-1 flex-col">{calendar}</div>
       )}
 
       {view === "split" && (
@@ -888,7 +888,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
             {listBody}
             <div className="h-4" />
           </div>
-          <div className="min-h-0 flex-1 lg:border-l lg:border-border lg:pl-2">
+          <div className="flex min-h-0 flex-1 flex-col lg:border-l lg:border-border lg:pl-2">
             {calendar}
           </div>
         </div>
@@ -1031,7 +1031,7 @@ function layoutTasks(tasks: TaskRow[]): LaidOutTask[] {
   return assigned;
 }
 
-const QUICK_TASK_H = 18;
+const QUICK_TASK_H = 22;
 const QUICK_TASK_GAP = 2;
 
 function stackQuickTasks(
@@ -1353,6 +1353,19 @@ export function CalendarGrid({
     setCtxMenu({ x: e.clientX, y: e.clientY, kidId, startMin });
   }
 
+  // Single click on empty calendar space → open a blank task editor at that
+  // time (Google-Calendar style). Task blocks stopPropagation so only genuine
+  // empty-space clicks land here.
+  function openNewTaskAt(e: React.MouseEvent, kidId: string) {
+    if (dragMovedRef.current) {
+      dragMovedRef.current = false;
+      return;
+    }
+    const rect = e.currentTarget.getBoundingClientRect();
+    const startMin = (e.clientY - rect.top) / pxm + CAL_START * 60;
+    setEditTask(blankTaskAt(kidId, startMin, false));
+  }
+
   const dateStr = localDateStr(selDate);
   const isToday = dateStr === todayStr();
 
@@ -1657,8 +1670,8 @@ export function CalendarGrid({
                 <div
                   key={kid.id}
                   className="relative border-l border-border"
+                  onClick={(e) => openNewTaskAt(e, kid.id)}
                   onContextMenu={(e) => openCtxMenu(e, kid.id)}
-                  onDoubleClick={(e) => openCtxMenu(e, kid.id)}
                 >
                   {CAL_HOURS.map((h) => (
                     <div
@@ -1716,7 +1729,8 @@ export function CalendarGrid({
                           onPointerDown={(e) => beginPress(task, e)}
                           onContextMenu={(e) => e.stopPropagation()}
                           onDoubleClick={(e) => e.stopPropagation()}
-                          onClick={() => {
+                          onClick={(e) => {
+                            e.stopPropagation();
                             if (dragMovedRef.current) {
                               dragMovedRef.current = false;
                               return;
@@ -1767,7 +1781,7 @@ export function CalendarGrid({
                             <span
                               className="shrink-0 leading-[1.3]"
                               style={{
-                                fontSize: h < 50 ? 13 : 16,
+                                fontSize: h < 50 ? 14 : 17,
                                 fontFamily: EMOJI_FONT,
                               }}
                             >
@@ -1777,7 +1791,7 @@ export function CalendarGrid({
                               <div
                                 className="overflow-hidden text-ellipsis whitespace-nowrap font-bold leading-[1.25] text-foreground"
                                 style={{
-                                  fontSize: h < 50 ? 12 : 14,
+                                  fontSize: h < 50 ? 13 : 15,
                                   textDecoration: isMissed
                                     ? "line-through"
                                     : "none",
@@ -1786,22 +1800,22 @@ export function CalendarGrid({
                                 {task.name}
                               </div>
                               {h >= 52 && (
-                                <div className="mt-0.5 text-[11px] text-muted">
+                                <div className="mt-0.5 text-[12px] text-muted">
                                   {beehave.formatTime(task.start_time)}
                                 </div>
                               )}
                               {h >= 52 && totalSecs > 0 && scheduledMins && (
-                                <div className="mt-px text-[11px] text-[#4f8ef7]">
+                                <div className="mt-px text-[12px] text-[#4f8ef7]">
                                   ⏱ {Math.round(totalSecs / 60)}/{scheduledMins}m
                                 </div>
                               )}
                             </div>
                             {h >= 36 && (
-                              <span className="shrink-0 text-[11px]">
+                              <span className="shrink-0 text-[12px]">
                                 {meta.icon}
                               </span>
                             )}
-                            {comp && (
+                            {canApprove && comp && (
                               <button
                                 onClick={(e) => {
                                   e.stopPropagation();
@@ -1809,22 +1823,11 @@ export function CalendarGrid({
                                 }}
                                 onPointerDown={(e) => e.stopPropagation()}
                                 title="Undo completion"
-                                className="shrink-0 rounded bg-black/25 px-0.5 text-[10px] leading-none"
+                                className="ml-1 shrink-0 self-start rounded-md bg-black/35 px-1.5 py-0.5 text-[13px] font-bold leading-none hover:bg-black/50"
                               >
                                 ↩
                               </button>
                             )}
-                            <button
-                              onClick={(e) => {
-                                e.stopPropagation();
-                                setEditTask(task);
-                              }}
-                              onPointerDown={(e) => e.stopPropagation()}
-                              title="Edit task"
-                              className="shrink-0 rounded bg-black/25 px-0.5 text-[10px] leading-none"
-                            >
-                              ✏️
-                            </button>
                           </div>
                         </div>
                       );
@@ -1842,7 +1845,10 @@ export function CalendarGrid({
                     return (
                       <div
                         key={task.id}
-                        onClick={() => setSheet({ task, comp, kid })}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setSheet({ task, comp, kid });
+                        }}
                         onContextMenu={(e) => e.stopPropagation()}
                         onDoubleClick={(e) => e.stopPropagation()}
                         className="absolute z-[5] flex cursor-pointer items-center gap-1 overflow-hidden rounded-sm px-[3px]"
@@ -1862,13 +1868,13 @@ export function CalendarGrid({
                         }}
                       >
                         <span
-                          className="shrink-0 text-[11px] leading-none"
+                          className="shrink-0 text-[12px] leading-none"
                           style={{ fontFamily: EMOJI_FONT }}
                         >
                           {task.icon}
                         </span>
                         <div
-                          className="min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap text-[11px] font-semibold leading-none"
+                          className="min-w-0 flex-1 overflow-hidden text-ellipsis whitespace-nowrap text-[12px] font-semibold leading-none"
                           style={{
                             color: meta.color,
                             textDecoration: isMissed ? "line-through" : "none",
@@ -1876,28 +1882,19 @@ export function CalendarGrid({
                         >
                           {task.name}
                         </div>
-                        {comp && (
+                        {canApprove && comp && (
                           <button
                             onClick={(e) => {
                               e.stopPropagation();
                               void undoCompletion(comp);
                             }}
+                            onPointerDown={(e) => e.stopPropagation()}
                             title="Undo completion"
-                            className="shrink-0 text-[11px] leading-none opacity-70"
+                            className="ml-1 shrink-0 rounded bg-black/30 px-1 py-0.5 text-[12px] font-bold leading-none hover:bg-black/45"
                           >
                             ↩
                           </button>
                         )}
-                        <button
-                          onClick={(e) => {
-                            e.stopPropagation();
-                            setEditTask(task);
-                          }}
-                          title="Edit task"
-                          className="shrink-0 text-[11px] leading-none opacity-70"
-                        >
-                          ✏️
-                        </button>
                       </div>
                     );
                   })}
@@ -1918,29 +1915,32 @@ export function CalendarGrid({
             )}
           </div>
 
-          {/* Vertical zoom — floats in the calendar's corner, always in view */}
-          <div className="pointer-events-none sticky bottom-0 z-30 flex h-0 items-end justify-end pr-3">
-            <div className="pointer-events-auto mb-3 flex flex-col items-stretch overflow-hidden rounded-lg border border-border bg-surface/95 shadow-lg backdrop-blur">
-              <button
-                onClick={() => nudgeZoom(0.2)}
-                disabled={zoom >= CAL_ZOOM_MAX}
-                title="Taller rows"
-                className="px-2.5 py-1.5 text-[17px] font-bold leading-none text-foreground disabled:opacity-30"
-              >
-                ＋
-              </button>
-              <div className="border-y border-border px-1 py-0.5 text-center text-[10px] font-bold tabular-nums text-muted">
-                {Math.round(zoom * 100)}%
-              </div>
-              <button
-                onClick={() => nudgeZoom(-0.2)}
-                disabled={zoom <= CAL_ZOOM_MIN}
-                title="Shorter rows"
-                className="px-2.5 py-1.5 text-[17px] font-bold leading-none text-foreground disabled:opacity-30"
-              >
-                －
-              </button>
+        </div>
+
+        {/* Vertical zoom — fixed to the viewport corner so it's always
+            reachable no matter how the calendar scrolls or how tall the
+            app header wraps. */}
+        <div className="pointer-events-none fixed bottom-4 right-4 z-[120] flex justify-end">
+          <div className="pointer-events-auto flex flex-col items-stretch overflow-hidden rounded-xl border border-border bg-surface/95 shadow-xl backdrop-blur">
+            <button
+              onClick={() => nudgeZoom(0.2)}
+              disabled={zoom >= CAL_ZOOM_MAX}
+              title="Taller rows"
+              className="px-3 py-2 text-[18px] font-bold leading-none text-foreground disabled:opacity-30"
+            >
+              ＋
+            </button>
+            <div className="border-y border-border px-1 py-1 text-center text-[11px] font-bold tabular-nums text-muted">
+              {Math.round(zoom * 100)}%
             </div>
+            <button
+              onClick={() => nudgeZoom(-0.2)}
+              disabled={zoom <= CAL_ZOOM_MIN}
+              title="Shorter rows"
+              className="px-3 py-2 text-[18px] font-bold leading-none text-foreground disabled:opacity-30"
+            >
+              －
+            </button>
           </div>
         </div>
       </div>
