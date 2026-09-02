@@ -279,7 +279,12 @@ export function ParentDashboard(_props: { profileSlug: string }) {
           {tab === "Message" && <MessageTab kids={kids} profile={profile} />}
           {tab === "Passbook" && (
             <>
-              <ApproveTab onApprove={() => {}} profile={profile} kids={kids} />
+              <ApproveTab
+                onApprove={() => {}}
+                profile={profile}
+                kids={kids}
+                photoOnly
+              />
               <ParentPassbooks kids={kids} profile={profile} />
             </>
           )}
@@ -328,7 +333,7 @@ function ApprovalsBanner({ onChange }: { onChange?: () => void }) {
       .from("task_completions")
       .select("*, task:task_id(*), kid:kid_id(*)")
       .eq("status", "pending_approval")
-      .order("created_at");
+      .order("completed_at");
     setQueue((data as CompletionRow[]) || []);
   }
 
@@ -3163,10 +3168,14 @@ function ApproveTab({
   onApprove,
   profile,
   kids,
+  photoOnly = false,
 }: {
   onApprove: () => void;
   profile: BeehaveProfile;
   kids: KidRow[];
+  // On the Passbook page the plain (no-photo) pending items live pinned in
+  // each kid's column, so only surface photo-evidence ones here.
+  photoOnly?: boolean;
 }) {
   void kids;
   const [queue, setQueue] = useState<CompletionRow[]>([]);
@@ -3175,15 +3184,17 @@ function ApproveTab({
   useEffect(() => {
     void loadQueue();
     void loadInitiativeQueue();
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [photoOnly]);
 
   async function loadQueue() {
     if (!supabase) return;
-    const { data } = await supabase
+    let q = supabase
       .from("task_completions")
       .select("*, task:task_id(*), kid:kid_id(*)")
-      .eq("status", "pending_approval")
-      .order("created_at");
+      .eq("status", "pending_approval");
+    if (photoOnly) q = q.not("photo_path", "is", null);
+    const { data } = await q.order("completed_at");
     setQueue((data as CompletionRow[]) || []);
   }
 
@@ -5597,6 +5608,21 @@ function MessageTab({
 }
 
 /* ═══════════════════════════════════════════ PASSBOOK TAB ═════════════════ */
+type PendingComp = {
+  id: string;
+  coins_earned: number;
+  scheduled_date: string;
+  completed_at?: string | null;
+  photo_path?: string | null;
+  task?: {
+    name?: string;
+    icon?: string;
+    task_type?: string | null;
+    target_duration?: number | null;
+    full_coins?: number | null;
+  } | null;
+};
+
 function ParentPassbookColumn({
   kid,
   profile,
@@ -5608,30 +5634,45 @@ function ParentPassbookColumn({
 }) {
   const [txns, setTxns] = useState<CoinTxn[]>([]);
   const [reds, setReds] = useState<RedemptionRowLite[]>([]);
+  const [pending, setPending] = useState<PendingComp[]>([]);
   const [balance, setBalance] = useState(kid.coin_balance || 0);
   const [loaded, setLoaded] = useState(false);
   const [busy, setBusy] = useState<string | null>(null);
 
   const load = async () => {
     if (!supabase) return;
-    const [{ data: bal }, { data: t }, { data: r }] = await Promise.all([
-      supabase.from("profiles").select("coin_balance").eq("id", kid.id).single(),
-      supabase
-        .from("coin_transactions")
-        .select("id, amount, reason, transaction_type, created_at")
-        .eq("kid_id", kid.id)
-        .order("created_at", { ascending: false })
-        .limit(200),
-      supabase
-        .from("reward_redemptions")
-        .select("*, reward:reward_id(name, icon, coin_cost)")
-        .eq("kid_id", kid.id)
-        .in("status", ["pending", "approved"])
-        .order("created_at", { ascending: false }),
-    ]);
+    const [{ data: bal }, { data: t }, { data: r }, { data: p }] =
+      await Promise.all([
+        supabase
+          .from("profiles")
+          .select("coin_balance")
+          .eq("id", kid.id)
+          .single(),
+        supabase
+          .from("coin_transactions")
+          .select("id, amount, reason, transaction_type, created_at")
+          .eq("kid_id", kid.id)
+          .order("created_at", { ascending: false })
+          .limit(200),
+        supabase
+          .from("reward_redemptions")
+          .select("*, reward:reward_id(name, icon, coin_cost)")
+          .eq("kid_id", kid.id)
+          .in("status", ["pending", "approved"])
+          .order("created_at", { ascending: false }),
+        supabase
+          .from("task_completions")
+          .select(
+            "id, coins_earned, scheduled_date, completed_at, photo_path, task:task_id(name, icon, task_type, target_duration, full_coins)",
+          )
+          .eq("kid_id", kid.id)
+          .eq("status", "pending_approval")
+          .order("completed_at", { ascending: false }),
+      ]);
     setBalance((bal as { coin_balance?: number } | null)?.coin_balance ?? 0);
     setTxns((t as CoinTxn[]) || []);
     setReds((r as RedemptionRowLite[]) || []);
+    setPending((p as PendingComp[]) || []);
     setLoaded(true);
   };
 
@@ -5650,12 +5691,68 @@ function ParentPassbookColumn({
         { event: "*", schema: "public", table: "reward_redemptions", filter: `kid_id=eq.${kid.id}` },
         () => void load(),
       )
+      .on(
+        "postgres_changes",
+        { event: "*", schema: "public", table: "task_completions", filter: `kid_id=eq.${kid.id}` },
+        () => void load(),
+      )
       .subscribe();
     return () => {
       void ch.unsubscribe();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [kid.id]);
+
+  async function approvePending(p: PendingComp) {
+    if (!supabase || busy) return;
+    setBusy(p.id);
+    try {
+      const coins = p.coins_earned;
+      await supabase
+        .from("task_completions")
+        .update({ status: "approved", coins_earned: coins, photo_path: null })
+        .eq("id", p.id);
+      await supabase.from("coin_transactions").insert({
+        kid_id: kid.id,
+        amount: coins,
+        reason: `Approved: ${p.task?.name ?? "task"}`,
+        transaction_type: "task_reward",
+        reference_id: p.id,
+      });
+      const { data: fresh } = await supabase
+        .from("profiles")
+        .select("coin_balance")
+        .eq("id", kid.id)
+        .single();
+      const b = (fresh as { coin_balance?: number } | null)?.coin_balance || 0;
+      await supabase
+        .from("profiles")
+        .update({ coin_balance: Math.max(0, b + coins) })
+        .eq("id", kid.id);
+      if (p.photo_path)
+        await supabase.storage.from("task-photos").remove([p.photo_path]);
+      await load();
+    } finally {
+      setBusy(null);
+    }
+  }
+
+  async function declinePending(p: PendingComp) {
+    if (!supabase || busy) return;
+    if (!confirm(`Decline "${p.task?.name ?? "this task"}"?`)) return;
+    setBusy(p.id);
+    try {
+      await supabase
+        .from("task_completions")
+        .update({ status: "rejected", photo_path: null })
+        .eq("id", p.id);
+      if (p.photo_path)
+        await supabase.storage.from("task-photos").remove([p.photo_path]);
+      await load();
+    } finally {
+      setBusy(null);
+    }
+  }
 
   async function accept(e: PbEntry, note: string) {
     if (!supabase) return;
@@ -5727,9 +5824,101 @@ function ParentPassbookColumn({
         </span>
       </div>
       <div className="max-h-[64vh] overflow-y-auto p-3">
+        {pending.length > 0 && (
+          <div className="mb-3">
+            <div className="mb-1 px-1 text-[10px] font-bold uppercase tracking-wide text-[#a855f7]">
+              ⏳ Pending your approval ({pending.length})
+            </div>
+            <div className="overflow-hidden rounded-xl border border-[#a855f7]/40 bg-[#a855f7]/[0.06]">
+              {pending.map((p, i) => {
+                const isSession =
+                  p.task?.task_type === "session" ||
+                  p.task?.task_type === "focus";
+                const targetMins = p.task?.target_duration
+                  ? Math.round(p.task.target_duration / 60)
+                  : null;
+                const ranMins =
+                  isSession && p.task?.full_coins && p.task?.target_duration
+                    ? Math.round(
+                        (p.coins_earned / p.task.full_coins) *
+                          (p.task.target_duration / 60),
+                      )
+                    : null;
+                const over =
+                  ranMins != null &&
+                  targetMins != null &&
+                  ranMins > targetMins + 10;
+                const b = busy === p.id;
+                return (
+                  <div
+                    key={p.id}
+                    className={`px-3 py-2.5 ${
+                      i > 0 ? "border-t border-border/50" : ""
+                    }`}
+                  >
+                    <div className="flex items-start gap-2">
+                      <span
+                        className="text-[16px] leading-none"
+                        style={{ fontFamily: EMOJI_FONT }}
+                      >
+                        {p.task?.icon ?? "⏳"}
+                      </span>
+                      <div className="min-w-0 flex-1">
+                        <div className="truncate text-[13px] font-semibold">
+                          {p.task?.name ?? "Task"}
+                        </div>
+                        <div className="text-[11px] text-muted">
+                          proposes 🪙 {p.coins_earned}
+                          {p.completed_at &&
+                            ` · ${new Date(p.completed_at).toLocaleTimeString(
+                              "en-AU",
+                              { hour: "2-digit", minute: "2-digit" },
+                            )}`}
+                          {p.photo_path ? " · 📷" : ""}
+                        </div>
+                        {ranMins != null && (
+                          <div
+                            className="text-[11px] font-semibold"
+                            style={{ color: over ? "#f97316" : "#4f8ef7" }}
+                          >
+                            ⏱ ran ~{ranMins} min / {targetMins} min target
+                            {over ? " — 10+ min over" : ""}
+                          </div>
+                        )}
+                      </div>
+                    </div>
+                    <div className="mt-2 flex gap-1.5">
+                      <button
+                        onClick={() => void declinePending(p)}
+                        disabled={b}
+                        className="flex-1 rounded-lg border border-[#ef4444]/30 bg-[#ef4444]/12 px-2 py-1.5 text-[12px] font-semibold text-[#ef4444] disabled:opacity-40"
+                      >
+                        Decline
+                      </button>
+                      {p.photo_path ? (
+                        <span className="flex-[2] rounded-lg border border-border px-2 py-1.5 text-center text-[11px] text-muted">
+                          📷 approve from the review card above
+                        </span>
+                      ) : (
+                        <button
+                          onClick={() => void approvePending(p)}
+                          disabled={b}
+                          className="flex-[2] rounded-lg border border-[#22c55e]/30 bg-[#22c55e]/15 px-2 py-1.5 text-[12px] font-semibold text-[#22c55e] disabled:opacity-40"
+                        >
+                          {b ? "…" : `✓ Approve 🪙${p.coins_earned}`}
+                        </button>
+                      )}
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          </div>
+        )}
+
         {!loaded ? (
           <p className="py-10 text-center text-[13px] text-muted">Loading…</p>
-        ) : groups.length === 0 ? (
+        ) : groups.length === 0 && pending.length === 0 ? (
           <p className="py-10 text-center text-[13px] text-muted">
             No activity yet.
           </p>
