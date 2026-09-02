@@ -467,6 +467,144 @@ function ApprovalsBanner({ onChange }: { onChange?: () => void }) {
   );
 }
 
+/* ─── Shared calendar/passbook ordering ──────────────────────────────────────
+   The admin drags the kid chips to set a column order; it's remembered per
+   device and reused wherever kids are listed side by side (Overview + Passbook).
+   Each calendar keeps its own colour (its avatar_color) as it's moved. */
+const CHIP_PALETTE = ["#ec4899", "#4f8ef7", "#a855f7", "#22c55e"];
+const KID_ORDER_KEY = "beehave-admin-cal-order";
+
+function kidColorAt(k: { avatar_color?: string | null }, idx: number): string {
+  return k.avatar_color || CHIP_PALETTE[idx % CHIP_PALETTE.length];
+}
+
+function useKidOrder(kids: KidRow[]) {
+  const [order, setOrder] = useState<string[]>([]);
+  useEffect(() => {
+    try {
+      const raw = localStorage.getItem(KID_ORDER_KEY);
+      if (raw) setOrder(JSON.parse(raw) as string[]);
+    } catch {
+      /* storage unavailable / bad json */
+    }
+  }, []);
+  const saveOrder = (next: string[]) => {
+    setOrder(next);
+    try {
+      localStorage.setItem(KID_ORDER_KEY, JSON.stringify(next));
+    } catch {
+      /* storage unavailable */
+    }
+  };
+  const orderedKids = [...kids].sort((a, b) => {
+    const ia = order.indexOf(a.id);
+    const ib = order.indexOf(b.id);
+    return (
+      (ia === -1 ? order.length + kids.indexOf(a) : ia) -
+      (ib === -1 ? order.length + kids.indexOf(b) : ib)
+    );
+  });
+  return { order, saveOrder, orderedKids };
+}
+
+function KidChips({
+  orderedKids,
+  onReorder,
+  shown,
+  onToggle,
+  trailing,
+}: {
+  orderedKids: KidRow[];
+  onReorder: (ids: string[]) => void;
+  shown?: (id: string) => boolean; // omit → every chip shown, no toggle
+  onToggle?: (id: string) => void;
+  trailing?: ReactNode;
+}) {
+  const [draggingId, setDraggingId] = useState<string | null>(null);
+  const movedRef = useRef(false);
+
+  function beginDrag(e: React.PointerEvent, id: string) {
+    if (e.button && e.button !== 0) return;
+    movedRef.current = false;
+    const startX = e.clientX;
+    const isMouse = e.pointerType === "mouse";
+    let armed = isMouse;
+    const hold = isMouse
+      ? undefined
+      : window.setTimeout(() => {
+          armed = true;
+          setDraggingId(id);
+        }, 180);
+    const move = (ev: PointerEvent) => {
+      if (!armed) return;
+      if (!movedRef.current && Math.abs(ev.clientX - startX) > 6) {
+        movedRef.current = true;
+        setDraggingId(id);
+      }
+    };
+    const up = (ev: PointerEvent) => {
+      window.removeEventListener("pointermove", move);
+      window.removeEventListener("pointerup", up);
+      if (hold) clearTimeout(hold);
+      if (movedRef.current) {
+        const tgt = (
+          document.elementFromPoint(ev.clientX, ev.clientY) as HTMLElement | null
+        )
+          ?.closest("[data-chip-id]")
+          ?.getAttribute("data-chip-id");
+        const cur = orderedKids.map((k) => k.id);
+        if (tgt && tgt !== id && cur.includes(tgt)) {
+          cur.splice(cur.indexOf(id), 1);
+          cur.splice(cur.indexOf(tgt), 0, id);
+          onReorder(cur);
+        }
+      }
+      setDraggingId(null);
+    };
+    window.addEventListener("pointermove", move);
+    window.addEventListener("pointerup", up);
+  }
+
+  if (orderedKids.length < 2 && !trailing) return null;
+  const isShown = (id: string) => (shown ? shown(id) : true);
+
+  return (
+    <div className="flex flex-wrap items-center gap-1">
+      {orderedKids.length > 1 &&
+        orderedKids.map((k, i) => (
+          <button
+            key={k.id}
+            data-chip-id={k.id}
+            onPointerDown={(e) => beginDrag(e, k.id)}
+            onClick={() => {
+              if (movedRef.current) {
+                movedRef.current = false;
+                return;
+              }
+              onToggle?.(k.id);
+            }}
+            title={
+              onToggle ? "Tap to show/hide · drag to reorder" : "Drag to reorder"
+            }
+            className={`flex touch-none items-center gap-1 rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
+              isShown(k.id)
+                ? "text-[#0f0f1a]"
+                : "border border-border text-muted"
+            } ${draggingId === k.id ? "opacity-50" : ""}`}
+            style={
+              isShown(k.id) ? { background: kidColorAt(k, i) } : undefined
+            }
+          >
+            <span className="cursor-grab select-none opacity-60">⠿</span>
+            <span>{k.avatar_emoji ?? "🙂"}</span>
+            {k.name}
+          </button>
+        ))}
+      {trailing}
+    </div>
+  );
+}
+
 function OverviewTab({ kids }: { kids: KidRow[] }) {
   const { refreshCurrentProfile } = useBeehaveAuth();
   const [showAddCal, setShowAddCal] = useState(false);
@@ -481,85 +619,10 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
   const [chartData, setChartData] = useState<ChartGroup[]>([]);
 
   const today = localDateStr(new Date());
-  const kidColors = ["#ec4899", "#4f8ef7", "#a855f7", "#22c55e"];
-  // Each calendar keeps its own colour as it's moved around — its saved
-  // avatar_color, falling back to a slot from the palette.
-  const colorOf = (
-    k: { avatar_color?: string | null },
-    fallbackIdx: number,
-  ): string => k.avatar_color || kidColors[fallbackIdx % kidColors.length];
+  const colorOf = kidColorAt;
 
-  // Calendar column order — drag the chips to rearrange; remembered per device.
-  const [order, setOrder] = useState<string[]>([]);
-  useEffect(() => {
-    try {
-      const raw = localStorage.getItem("beehave-admin-cal-order");
-      if (raw) setOrder(JSON.parse(raw) as string[]);
-    } catch {
-      /* storage unavailable / bad json */
-    }
-  }, []);
-  function saveOrder(next: string[]) {
-    setOrder(next);
-    try {
-      localStorage.setItem("beehave-admin-cal-order", JSON.stringify(next));
-    } catch {
-      /* storage unavailable */
-    }
-  }
-  // kids sorted by the saved order; anything not in `order` (new calendars)
-  // keeps its natural position at the end.
-  const orderedKids = [...kids].sort((a, b) => {
-    const ia = order.indexOf(a.id);
-    const ib = order.indexOf(b.id);
-    return (
-      (ia === -1 ? order.length + kids.indexOf(a) : ia) -
-      (ib === -1 ? order.length + kids.indexOf(b) : ib)
-    );
-  });
-  const [draggingId, setDraggingId] = useState<string | null>(null);
-  const chipMovedRef = useRef(false);
-
-  function beginChipDrag(e: React.PointerEvent, id: string) {
-    if (e.button && e.button !== 0) return;
-    chipMovedRef.current = false;
-    const startX = e.clientX;
-    const isMouse = e.pointerType === "mouse";
-    let armed = isMouse;
-    const hold = isMouse
-      ? undefined
-      : window.setTimeout(() => {
-          armed = true;
-          setDraggingId(id);
-        }, 180);
-    const move = (ev: PointerEvent) => {
-      if (!armed) return;
-      if (!chipMovedRef.current && Math.abs(ev.clientX - startX) > 6) {
-        chipMovedRef.current = true;
-        setDraggingId(id);
-      }
-    };
-    const up = (ev: PointerEvent) => {
-      window.removeEventListener("pointermove", move);
-      window.removeEventListener("pointerup", up);
-      if (hold) clearTimeout(hold);
-      if (chipMovedRef.current) {
-        const el = document.elementFromPoint(ev.clientX, ev.clientY);
-        const targetId = (el as HTMLElement | null)
-          ?.closest("[data-chip-id]")
-          ?.getAttribute("data-chip-id");
-        const cur = orderedKids.map((k) => k.id);
-        if (targetId && targetId !== id && cur.includes(targetId)) {
-          cur.splice(cur.indexOf(id), 1);
-          cur.splice(cur.indexOf(targetId), 0, id);
-          saveOrder(cur);
-        }
-      }
-      setDraggingId(null);
-    };
-    window.addEventListener("pointermove", move);
-    window.addEventListener("pointerup", up);
-  }
+  // Column order — drag the chips to rearrange; shared with the Passbook tab.
+  const { order, saveOrder, orderedKids } = useKidOrder(kids);
 
   // List / calendar / split view (remembered per device).
   const [view, setView] = useState<"list" | "calendar" | "split">("split");
@@ -861,44 +924,21 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
       {/* Controls — one wrapping row: [kids + period]  ‹ date ›  [+ New Task · view] */}
       <div className="mb-2.5 flex shrink-0 flex-wrap items-center gap-x-2 gap-y-2 pb-1">
         <div className="flex flex-wrap items-center gap-1">
-          {orderedKids.length > 1 &&
-            orderedKids.map((k, i) => (
+          <KidChips
+            orderedKids={orderedKids}
+            onReorder={saveOrder}
+            shown={isShown}
+            onToggle={toggleKid}
+            trailing={
               <button
-                key={k.id}
-                data-chip-id={k.id}
-                onPointerDown={(e) => beginChipDrag(e, k.id)}
-                onClick={() => {
-                  if (chipMovedRef.current) {
-                    chipMovedRef.current = false;
-                    return;
-                  }
-                  toggleKid(k.id);
-                }}
-                title="Tap to show/hide · drag to reorder"
-                className={`flex touch-none items-center gap-1 rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
-                  isShown(k.id)
-                    ? "text-[#0f0f1a]"
-                    : "border border-border text-muted"
-                } ${draggingId === k.id ? "opacity-50" : ""}`}
-                style={
-                  isShown(k.id)
-                    ? { background: colorOf(k, i) }
-                    : undefined
-                }
+                onClick={() => setShowAddCal(true)}
+                title="Add a kid or a personal calendar"
+                className="rounded-md border border-dashed border-border px-2 py-1 text-[12px] font-semibold text-muted hover:text-foreground"
               >
-                <span className="cursor-grab select-none opacity-60">⠿</span>
-                <span>{k.avatar_emoji ?? "🙂"}</span>
-                {k.name}
+                + Calendar
               </button>
-            ))}
-
-          <button
-            onClick={() => setShowAddCal(true)}
-            title="Add a kid or a personal calendar"
-            className="rounded-md border border-dashed border-border px-2 py-1 text-[12px] font-semibold text-muted hover:text-foreground"
-          >
-            + Calendar
-          </button>
+            }
+          />
 
           {view !== "calendar" &&
             listMode === "summary" &&
@@ -5560,9 +5600,11 @@ function MessageTab({
 function ParentPassbookColumn({
   kid,
   profile,
+  color = "#4f8ef7",
 }: {
   kid: KidRow;
   profile: BeehaveProfile;
+  color?: string;
 }) {
   const [txns, setTxns] = useState<CoinTxn[]>([]);
   const [reds, setReds] = useState<RedemptionRowLite[]>([]);
@@ -5669,11 +5711,16 @@ function ParentPassbookColumn({
   const groups = buildPassbook(txns, reds, balance);
 
   return (
-    <div className="overflow-hidden rounded-2xl border border-border bg-surface">
+    <div
+      className="overflow-hidden rounded-2xl border border-border bg-surface"
+      style={{ borderTop: `3px solid ${color}` }}
+    >
       <div className="flex items-center justify-between border-b border-border px-4 py-3">
         <div className="flex items-center gap-2">
           <span className="text-[18px]">{kid.avatar_emoji}</span>
-          <span className="font-bold">{kid.name}</span>
+          <span className="font-bold" style={{ color }}>
+            {kid.name}
+          </span>
         </div>
         <span className="text-[15px] font-black text-[#f5c518]">
           🪙 {balance}
@@ -5761,6 +5808,7 @@ function ParentPassbooks({
   const [busy, setBusy] = useState<"export" | "import" | null>(null);
   const [reloadKey, setReloadKey] = useState(0);
   const importRef = useRef<HTMLInputElement | null>(null);
+  const { saveOrder, orderedKids } = useKidOrder(kids);
 
   async function exportPassbook() {
     if (!supabase) return;
@@ -5931,6 +5979,11 @@ function ParentPassbooks({
   }
   return (
     <>
+      {orderedKids.length > 1 && (
+        <div className="mb-2 mt-3">
+          <KidChips orderedKids={orderedKids} onReorder={saveOrder} />
+        </div>
+      )}
       <div className="mb-3 mt-3 flex items-center gap-2 rounded-[10px] border border-border bg-surface px-3.5 py-2.5">
         <span className="flex-1 text-[13px] text-muted">
           📊 Passbook — export, fix in Excel, re-upload
@@ -5961,11 +6014,12 @@ function ParentPassbooks({
         className="grid gap-3"
         style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}
       >
-        {kids.map((k) => (
+        {orderedKids.map((k, i) => (
           <ParentPassbookColumn
             key={`${k.id}-${reloadKey}`}
             kid={k}
             profile={profile}
+            color={kidColorAt(k, i)}
           />
         ))}
       </div>
