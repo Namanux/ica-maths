@@ -8,7 +8,7 @@ import {
   type ChangeEvent,
   type ReactNode,
 } from "react";
-import { useSearchParams } from "next/navigation";
+import { useSearchParams, useRouter } from "next/navigation";
 import { useBeehaveAuth, type BeehaveProfile } from "@/lib/beehaveAuth";
 import { getSupabaseClient } from "@/lib/supabase";
 import { beehave } from "@/lib/beehave";
@@ -293,6 +293,176 @@ type ChartGroup = {
   kids: { name: string; color: string; done: number }[];
 };
 
+/* Collapsible strip at the top of the Overview list: the kids' task
+   completions waiting for a parent's approval. Photo-evidence rows link out
+   to the full Passbook review flow; the rest can be approved/rejected inline. */
+function ApprovalsBanner({ onChange }: { onChange?: () => void }) {
+  const router = useRouter();
+  const [queue, setQueue] = useState<CompletionRow[]>([]);
+  const [open, setOpen] = useState(false);
+  const [busyId, setBusyId] = useState<string | null>(null);
+
+  useEffect(() => {
+    void load();
+    if (!supabase) return;
+    const ch = supabase
+      .channel("beehave-overview-approvals")
+      .on(
+        "postgres_changes",
+        { event: "*", schema: "public", table: "task_completions" },
+        () => void load(),
+      )
+      .subscribe();
+    return () => {
+      void ch.unsubscribe();
+    };
+  }, []);
+
+  async function load() {
+    if (!supabase) return;
+    const { data } = await supabase
+      .from("task_completions")
+      .select("*, task:task_id(*), kid:kid_id(*)")
+      .eq("status", "pending_approval")
+      .order("created_at");
+    setQueue((data as CompletionRow[]) || []);
+  }
+
+  async function quickApprove(comp: CompletionRow) {
+    if (!supabase || busyId) return;
+    setBusyId(comp.id);
+    try {
+      const coins = comp.coins_earned;
+      await supabase
+        .from("task_completions")
+        .update({ status: "approved", coins_earned: coins, photo_path: null })
+        .eq("id", comp.id);
+      await supabase.from("coin_transactions").insert({
+        kid_id: comp.kid_id,
+        amount: coins,
+        reason: `Approved: ${comp.task?.name ?? "task"}`,
+        transaction_type: "task_reward",
+        reference_id: comp.id,
+      });
+      const { data: kid } = await supabase
+        .from("profiles")
+        .select("coin_balance")
+        .eq("id", comp.kid_id)
+        .single();
+      await supabase
+        .from("profiles")
+        .update({
+          coin_balance: Math.max(
+            0,
+            ((kid as { coin_balance?: number } | null)?.coin_balance || 0) +
+              coins,
+          ),
+        })
+        .eq("id", comp.kid_id);
+      await load();
+      onChange?.();
+    } finally {
+      setBusyId(null);
+    }
+  }
+
+  async function quickReject(comp: CompletionRow) {
+    if (!supabase || busyId) return;
+    if (!confirm(`Reject "${comp.task?.name ?? "this task"}"?`)) return;
+    setBusyId(comp.id);
+    try {
+      await supabase
+        .from("task_completions")
+        .update({ status: "rejected", photo_path: null })
+        .eq("id", comp.id);
+      await load();
+      onChange?.();
+    } finally {
+      setBusyId(null);
+    }
+  }
+
+  if (queue.length === 0) return null;
+
+  return (
+    <div className="mb-3 overflow-hidden rounded-xl border border-[#f5c518]/35 bg-[#f5c518]/[0.07]">
+      <button
+        onClick={() => setOpen((o) => !o)}
+        className="flex w-full items-center gap-2 px-3 py-2 text-left"
+      >
+        <span className="text-[14px]">🔔</span>
+        <span className="flex-1 text-[13px] font-bold text-[#f5c518]">
+          {queue.length} task{queue.length !== 1 ? "s" : ""} waiting for approval
+        </span>
+        <span className="text-[11px] text-muted">{open ? "▲ hide" : "▼ show"}</span>
+      </button>
+
+      {open && (
+        <div className="border-t border-[#f5c518]/20 px-3 pb-2 pt-1">
+          {queue.map((comp) => {
+            const hasPhoto = !!comp.photo_path;
+            const busy = busyId === comp.id;
+            return (
+              <div
+                key={comp.id}
+                className="flex items-center gap-2 border-b border-border/50 py-2 last:border-0"
+              >
+                <span
+                  className="shrink-0 text-[18px]"
+                  style={{ fontFamily: EMOJI_FONT }}
+                >
+                  {comp.task?.icon ?? "✅"}
+                </span>
+                <div className="min-w-0 flex-1">
+                  <div className="truncate text-[13px] font-semibold">
+                    {comp.task?.name ?? "Task"}
+                  </div>
+                  <div className="text-[11px] text-muted">
+                    {comp.kid?.avatar_emoji} {comp.kid?.name} · 🪙{" "}
+                    {comp.coins_earned}
+                    {hasPhoto ? " · 📷 photo" : ""}
+                  </div>
+                </div>
+                {hasPhoto ? (
+                  <button
+                    onClick={() => router.push("?tab=Passbook")}
+                    className="shrink-0 rounded-lg border border-[#4f8ef7]/30 bg-[#4f8ef7]/12 px-2.5 py-1 text-[12px] font-semibold text-[#4f8ef7]"
+                  >
+                    Review →
+                  </button>
+                ) : (
+                  <>
+                    <button
+                      onClick={() => quickReject(comp)}
+                      disabled={busy}
+                      className="shrink-0 rounded-lg border border-[#ef4444]/30 bg-[#ef4444]/12 px-2 py-1 text-[12px] font-semibold text-[#ef4444] disabled:opacity-40"
+                    >
+                      ✗
+                    </button>
+                    <button
+                      onClick={() => quickApprove(comp)}
+                      disabled={busy}
+                      className="shrink-0 rounded-lg border border-[#22c55e]/30 bg-[#22c55e]/12 px-2.5 py-1 text-[12px] font-semibold text-[#22c55e] disabled:opacity-40"
+                    >
+                      {busy ? "…" : "✓ Approve"}
+                    </button>
+                  </>
+                )}
+              </div>
+            );
+          })}
+          <button
+            onClick={() => router.push("?tab=Passbook")}
+            className="mt-2 w-full rounded-lg py-1.5 text-[12px] font-semibold text-[#4f8ef7] hover:underline"
+          >
+            Review all in Passbook (photos · coin tweaks · notes) →
+          </button>
+        </div>
+      )}
+    </div>
+  );
+}
+
 function OverviewTab({ kids }: { kids: KidRow[] }) {
   const [period, setPeriod] = useState<"today" | "week" | "month">("today");
   const [kidData, setKidData] = useState<
@@ -323,6 +493,26 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
     setView(v);
     try {
       localStorage.setItem("beehave-admin-view", v);
+    } catch {
+      /* storage unavailable */
+    }
+  }
+  // The list pane shows either the per-kid summary cards or the full task
+  // manager (create / edit / Excel / clear-all — every kid, ignores the
+  // chip + period filters).
+  const [listMode, setListMode] = useState<"summary" | "tasks">("summary");
+  useEffect(() => {
+    try {
+      const m = localStorage.getItem("beehave-admin-listmode");
+      if (m === "summary" || m === "tasks") setListMode(m);
+    } catch {
+      /* storage unavailable */
+    }
+  }, []);
+  function pickListMode(m: "summary" | "tasks") {
+    setListMode(m);
+    try {
+      localStorage.setItem("beehave-admin-listmode", m);
     } catch {
       /* storage unavailable */
     }
@@ -552,6 +742,34 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
     />
   );
 
+  const listModeToggle = (
+    <div className="mb-2.5 flex items-center gap-1">
+      {(["summary", "tasks"] as const).map((m) => (
+        <button
+          key={m}
+          onClick={() => pickListMode(m)}
+          className={`rounded-md px-2.5 py-1 text-[12px] font-semibold transition-colors ${
+            listMode === m
+              ? "bg-[#f5c518] text-[#0f0f1a]"
+              : "border border-border text-muted"
+          }`}
+        >
+          {m === "summary" ? "📊 Summary" : "📋 All tasks"}
+        </button>
+      ))}
+    </div>
+  );
+
+  const listBody =
+    listMode === "tasks" ? (
+      <TaskManagerPanel kids={kids} />
+    ) : (
+      <>
+        {cards}
+        {chart}
+      </>
+    );
+
   return (
     <div className="flex min-h-0 flex-1 flex-col">
       {/* Controls — one wrapping row: [kids + period]  ‹ date ›  [+ New Task · view] */}
@@ -579,6 +797,7 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
             ))}
 
           {view !== "calendar" &&
+            listMode === "summary" &&
             (["today", "week", "month"] as const).map((p) => (
               <button
                 key={p}
@@ -646,8 +865,9 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
 
       {view === "list" && (
         <div className="min-h-0 flex-1 overflow-y-auto">
-          {cards}
-          {chart}
+          <ApprovalsBanner onChange={loadData} />
+          {listModeToggle}
+          {listBody}
           <div className="h-[60px]" />
         </div>
       )}
@@ -658,9 +878,14 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
 
       {view === "split" && (
         <div className="flex min-h-0 flex-1 flex-col lg:flex-row lg:gap-2">
-          <div className="min-h-0 flex-1 overflow-y-auto lg:max-w-[340px]">
-            {cards}
-            {chart}
+          <div
+            className={`min-h-0 flex-1 overflow-y-auto ${
+              listMode === "tasks" ? "lg:max-w-[440px]" : "lg:max-w-[340px]"
+            }`}
+          >
+            <ApprovalsBanner onChange={loadData} />
+            {listModeToggle}
+            {listBody}
             <div className="h-4" />
           </div>
           <div className="min-h-0 flex-1 lg:border-l lg:border-border lg:pl-2">
@@ -2897,7 +3122,13 @@ function InitiativeCard({
 /* ═══════════════════════════════════════════ TASKS TAB ═════════════════════ */
 const DAY_NAMES = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
 
+// Thin wrapper kept for the standalone ?tab=Task page. The body now lives in
+// TaskManagerPanel so the Overview "All tasks" mode can reuse it verbatim.
 function TasksTab({ kids }: { kids: KidRow[] }) {
+  return <TaskManagerPanel kids={kids} />;
+}
+
+function TaskManagerPanel({ kids }: { kids: KidRow[] }) {
   const [tasks, setTasks] = useState<TaskRow[]>([]);
   const [pendingKidTasks, setPendingKidTasks] = useState<TaskRow[]>([]);
   const [form, setForm] = useState<Partial<TaskRow> | null>(null);
