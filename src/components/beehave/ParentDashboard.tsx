@@ -342,6 +342,23 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
     .map((k, i) => (isShown(k.id) ? kidColors[i % kidColors.length] : null))
     .filter((c): c is string => c !== null);
 
+  // Day shown in the calendar (also drives the "today" summary query).
+  const [calDate, setCalDate] = useState(new Date());
+  const calIsToday = localDateStr(calDate) === localDateStr(new Date());
+  function shiftCalDate(delta: number) {
+    const d = new Date(calDate);
+    d.setDate(d.getDate() + delta);
+    setCalDate(d);
+  }
+  const calLabel = calIsToday
+    ? "Today"
+    : calDate.toLocaleDateString("en-AU", {
+        weekday: "short",
+        day: "numeric",
+        month: "short",
+      });
+  const [newTaskSig, setNewTaskSig] = useState(0);
+
   useEffect(() => {
     void loadData();
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -528,36 +545,20 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
       kidColors={shownColors}
       onApprovalComplete={loadData}
       fill
+      hideToolbar
+      externalDate={calDate}
+      onExternalDateChange={setCalDate}
+      newTaskSignal={newTaskSig}
     />
   );
 
   return (
     <div className="flex min-h-0 flex-1 flex-col">
-      {/* Controls — all on one row */}
-      <div className="mb-2.5 flex shrink-0 flex-wrap items-center gap-x-2 gap-y-1.5">
-        <div className="flex items-center gap-1">
-          {(["list", "calendar", "split"] as const).map((v) => (
-            <button
-              key={v}
-              onClick={() => pickView(v)}
-              title={v}
-              className={`rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
-                view === v
-                  ? "bg-[#f5c518] text-[#0f0f1a]"
-                  : "border border-border text-muted"
-              }`}
-            >
-              {v === "list" ? "📋" : v === "calendar" ? "📅" : "⧉"}
-              <span className="ml-1 hidden sm:inline">
-                {v === "list" ? "List" : v === "calendar" ? "Calendar" : "Split"}
-              </span>
-            </button>
-          ))}
-        </div>
-
-        {kids.length > 1 && (
-          <div className="flex items-center gap-1">
-            {kids.map((k, i) => (
+      {/* Controls — one wrapping row: [kids + period]  ‹ date ›  [+ New Task · view] */}
+      <div className="mb-2.5 flex shrink-0 flex-wrap items-center gap-x-2 gap-y-2 pb-1">
+        <div className="flex flex-wrap items-center gap-1">
+          {kids.length > 1 &&
+            kids.map((k, i) => (
               <button
                 key={k.id}
                 onClick={() => toggleKid(k.id)}
@@ -576,16 +577,13 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
                 {k.name}
               </button>
             ))}
-          </div>
-        )}
 
-        {view !== "calendar" && (
-          <div className="flex items-center gap-1">
-            {(["today", "week", "month"] as const).map((p) => (
+          {view !== "calendar" &&
+            (["today", "week", "month"] as const).map((p) => (
               <button
                 key={p}
                 onClick={() => setPeriod(p)}
-                className="rounded-[20px] px-3 py-1 text-[12px] font-semibold capitalize"
+                className="rounded-md px-2.5 py-1 text-[12px] font-semibold capitalize"
                 style={{
                   background: period === p ? "#f5c518" : "var(--border)",
                   color: period === p ? "#0f0f1a" : "var(--muted)",
@@ -595,8 +593,55 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
                 {p === "today" ? "Today" : p === "week" ? "Week" : "Month"}
               </button>
             ))}
+        </div>
+
+        {view !== "list" && (
+          <div className="flex flex-1 items-center justify-center gap-1.5">
+            <button
+              onClick={() => shiftCalDate(-1)}
+              className="flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
+            >
+              ‹
+            </button>
+            <span className="shrink-0 whitespace-nowrap text-xs text-muted">
+              {calLabel}
+            </span>
+            <button
+              onClick={() => shiftCalDate(1)}
+              className="flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
+            >
+              ›
+            </button>
           </div>
         )}
+
+        <div className="ml-auto flex flex-wrap items-center gap-1">
+          {view !== "list" && (
+            <button
+              onClick={() => setNewTaskSig((n) => n + 1)}
+              className="shrink-0 rounded-md bg-[#f5c518] px-2 py-1 text-[12px] font-semibold text-[#0f0f1a]"
+            >
+              + New Task
+            </button>
+          )}
+          {(["list", "calendar", "split"] as const).map((v) => (
+            <button
+              key={v}
+              onClick={() => pickView(v)}
+              title={v}
+              className={`shrink-0 rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
+                view === v
+                  ? "bg-[#f5c518] text-[#0f0f1a]"
+                  : "border border-border text-muted"
+              }`}
+            >
+              {v === "list" ? "📋" : v === "calendar" ? "📅" : "⧉"}
+              <span className="ml-1">
+                {v === "list" ? "List" : v === "calendar" ? "Calendar" : "Split"}
+              </span>
+            </button>
+          ))}
+        </div>
       </div>
 
       {view === "list" && (
@@ -813,6 +858,7 @@ export function CalendarGrid({
   canApprove = true,
   fill = false,
   hideToolbar = false,
+  hideColumnHeaders = false,
   externalDate,
   onExternalDateChange,
   newTaskSignal,
@@ -823,6 +869,7 @@ export function CalendarGrid({
   canApprove?: boolean;
   fill?: boolean;
   hideToolbar?: boolean; // hide the internal ‹ date › + New Task strip
+  hideColumnHeaders?: boolean; // hide the per-kid column name row
   externalDate?: Date; // drive the day from outside
   onExternalDateChange?: (d: Date) => void;
   newTaskSignal?: number; // bump to open a blank task editor
@@ -1295,22 +1342,26 @@ export function CalendarGrid({
           fill ? "flex min-h-0 flex-1 flex-col" : ""
         }`}
       >
-        <div
-          className="sticky top-0 z-20 grid shrink-0 border-b border-border bg-surface"
-          style={{ gridTemplateColumns: `44px repeat(${colCount || 1}, 1fr)` }}
-        >
-          <div />
-          {kidData.map((kid, idx) => (
-            <div
-              key={kid.id}
-              className="flex items-center gap-1.5 border-l border-border px-2 py-2.5 text-[13px] font-bold"
-              style={{ color: kidColors[idx % kidColors.length] }}
-            >
-              <span className="text-[16px]">{kid.avatar_emoji}</span>
-              {kid.name}
-            </div>
-          ))}
-        </div>
+        {!hideColumnHeaders && (
+          <div
+            className="sticky top-0 z-20 grid shrink-0 border-b border-border bg-surface"
+            style={{
+              gridTemplateColumns: `44px repeat(${colCount || 1}, 1fr)`,
+            }}
+          >
+            <div />
+            {kidData.map((kid, idx) => (
+              <div
+                key={kid.id}
+                className="flex items-center gap-1.5 border-l border-border px-2 py-2.5 text-[13px] font-bold"
+                style={{ color: kidColors[idx % kidColors.length] }}
+              >
+                <span className="text-[16px]">{kid.avatar_emoji}</span>
+                {kid.name}
+              </div>
+            ))}
+          </div>
+        )}
 
         <div
           ref={scrollRef}

@@ -1321,119 +1321,123 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
       {/* ── Compact header ── */}
       <div className="shrink-0 border-b border-border bg-surface px-3.5 pt-2.5">
-        <div className="mb-1.5 flex flex-wrap items-center gap-x-2 gap-y-1">
-          <button
-            onClick={(e) => {
-              e.stopPropagation();
-              shiftDate(-1);
-            }}
-            className="flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
-          >
-            ‹
-          </button>
-          <span className="shrink-0 whitespace-nowrap text-xs text-muted">
-            {formatViewDate()}
-          </span>
-          <button
-            onClick={(e) => {
-              e.stopPropagation();
-              shiftDate(1);
-            }}
-            className="flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
-          >
-            ›
-          </button>
-
-          <span className="text-[14px] text-muted">|</span>
-
-          <div
-            className="flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-full text-[20px]"
-            style={{
-              background: `${avatarColor}33`,
-              border: `2px solid ${avatarColor}`,
-            }}
-          >
-            {avatarEmoji}
-          </div>
-
-          <span className="shrink-0 text-[17px] font-extrabold">
-            {profile.name}
-          </span>
-
-          {isToday && (
-            <button
-              onClick={openInitiative}
-              title="Start a new initiative"
-              className="flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-[7px] border border-[#a855f7]/40 bg-[#a855f7]/15 text-[13px] text-[#a855f7]"
-            >
-              📸
-            </button>
-          )}
-
-          <span className="text-[14px] text-muted">|</span>
-
-          <div className="flex shrink-0 items-center gap-1">
-            <span className="text-[15px]">{level.emoji}</span>
-            <GoldCoin size={13} />
-            <span className="text-[14px] font-bold text-[#f5c518]">
-              {beehave.formatCoins(coinBalance)}
-            </span>
-          </div>
-
-          <span className="text-[14px] text-muted">|</span>
-
-          <div className="flex shrink-0 items-center gap-[3px]">
-            <GoldCoin size={11} />
-            <span className="text-[13px] font-semibold text-[#f5c518]">
-              {todayCoinsEarned}
-            </span>
-            <span className="text-[12px] text-muted">/{todayPossible}</span>
-          </div>
-
-          <span className="text-[14px] text-muted">|</span>
-
-          <div className="flex shrink-0 items-center gap-[3px]">
-            <span className="text-[13px]">✅</span>
-            <span className="text-[13px] font-semibold text-[#22c55e]">
-              {doneTasks}
-            </span>
-            <span className="text-[12px] text-muted">/{totalTasks}</span>
-          </div>
-        </div>
-
-        {/* Controls strip — between the header and the content */}
-        <div className="flex flex-wrap items-center gap-1 pb-2">
-          {view !== "list" && (
-            <button
-              onClick={(e) => {
-                e.stopPropagation();
-                setNewTaskSig((n) => n + 1);
+        <div className="flex flex-wrap items-center gap-x-2 gap-y-2 pb-2">
+          {/* left — identity + stats */}
+          <div className="flex flex-wrap items-center gap-x-2 gap-y-1">
+            <div
+              className="flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-full text-[20px]"
+              style={{
+                background: `${avatarColor}33`,
+                border: `2px solid ${avatarColor}`,
               }}
-              className="rounded-md bg-[#f5c518] px-2 py-1 text-[12px] font-semibold text-[#0f0f1a]"
             >
-              + New Task
-            </button>
-          )}
-          {(["list", "calendar", "split"] as const).map((v) => (
-            <button
-              key={v}
-              onClick={(e) => {
-                e.stopPropagation();
-                pickView(v);
-              }}
-              title={v}
-              className={`rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
-                view === v
-                  ? "bg-[#f5c518] text-[#0f0f1a]"
-                  : "border border-border text-muted"
-              }`}
-            >
-              {v === "list" ? "📋" : v === "calendar" ? "📅" : "⧉"}
-              <span className="ml-1">
-                {v === "list" ? "List" : v === "calendar" ? "Calendar" : "Split"}
+              {avatarEmoji}
+            </div>
+
+            <span className="shrink-0 text-[17px] font-extrabold">
+              {profile.name}
+            </span>
+
+            {isToday && (
+              <button
+                onClick={openInitiative}
+                title="Start a new initiative"
+                className="flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-[7px] border border-[#a855f7]/40 bg-[#a855f7]/15 text-[13px] text-[#a855f7]"
+              >
+                📸
+              </button>
+            )}
+
+            <span className="text-[14px] text-muted">|</span>
+
+            <div className="flex shrink-0 items-center gap-1">
+              <span className="text-[15px]">{level.emoji}</span>
+              <GoldCoin size={13} />
+              <span className="text-[14px] font-bold text-[#f5c518]">
+                {beehave.formatCoins(coinBalance)}
               </span>
+            </div>
+
+            <span className="text-[14px] text-muted">|</span>
+
+            <div className="flex shrink-0 items-center gap-[3px]">
+              <GoldCoin size={11} />
+              <span className="text-[13px] font-semibold text-[#f5c518]">
+                {todayCoinsEarned}
+              </span>
+              <span className="text-[12px] text-muted">/{todayPossible}</span>
+            </div>
+
+            <span className="text-[14px] text-muted">|</span>
+
+            <div className="flex shrink-0 items-center gap-[3px]">
+              <span className="text-[13px]">✅</span>
+              <span className="text-[13px] font-semibold text-[#22c55e]">
+                {doneTasks}
+              </span>
+              <span className="text-[12px] text-muted">/{totalTasks}</span>
+            </div>
+          </div>
+
+          {/* middle — date, centered */}
+          <div className="flex flex-1 items-center justify-center gap-1.5">
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                shiftDate(-1);
+              }}
+              className="flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
+            >
+              ‹
             </button>
-          ))}
+            <span className="shrink-0 whitespace-nowrap text-xs text-muted">
+              {formatViewDate()}
+            </span>
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                shiftDate(1);
+              }}
+              className="flex h-[26px] w-[26px] shrink-0 items-center justify-center rounded-[7px] border border-border bg-surface text-[15px] text-muted"
+            >
+              ›
+            </button>
+          </div>
+
+          {/* right — new task + view switch */}
+          <div className="ml-auto flex flex-wrap items-center gap-1">
+            {view !== "list" && (
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setNewTaskSig((n) => n + 1);
+                }}
+                className="shrink-0 rounded-md bg-[#f5c518] px-2 py-1 text-[12px] font-semibold text-[#0f0f1a]"
+              >
+                + New Task
+              </button>
+            )}
+            {(["list", "calendar", "split"] as const).map((v) => (
+              <button
+                key={v}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  pickView(v);
+                }}
+                title={v}
+                className={`shrink-0 rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
+                  view === v
+                    ? "bg-[#f5c518] text-[#0f0f1a]"
+                    : "border border-border text-muted"
+                }`}
+              >
+                {v === "list" ? "📋" : v === "calendar" ? "📅" : "⧉"}
+                <span className="ml-1">
+                  {v === "list" ? "List" : v === "calendar" ? "Calendar" : "Split"}
+                </span>
+              </button>
+            ))}
+          </div>
         </div>
 
         <div className="-mx-3.5 h-[3px] overflow-hidden bg-surface">
@@ -1626,6 +1630,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
             canApprove={false}
             fill
             hideToolbar
+            hideColumnHeaders
             externalDate={(() => {
               const [y, m, d] = viewDate.split("-").map(Number);
               return new Date(y, m - 1, d, 12, 0, 0);
