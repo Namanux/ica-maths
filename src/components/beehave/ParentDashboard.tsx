@@ -695,14 +695,15 @@ function StatChip({
 }
 
 /* ── Calendar constants ── */
-const PX_PER_HOUR = 120;
+const PX_PER_HOUR = 120; // base row height (zoom = 1)
+const CAL_ZOOM_MIN = 0.6;
+const CAL_ZOOM_MAX = 2.2;
 const CAL_START = 5;
 const CAL_END = 22;
 const CAL_HOURS = Array.from(
   { length: CAL_END - CAL_START },
   (_, i) => i + CAL_START,
 );
-const TOTAL_H = (CAL_END - CAL_START) * PX_PER_HOUR;
 
 function hourLabel(h: number): string {
   if (h === 0) return "12am";
@@ -716,11 +717,10 @@ function timeToMinutes(t = "00:00"): number {
   return h * 60 + m;
 }
 
-function timeToY(t: string): number {
-  return (timeToMinutes(t) - CAL_START * 60) * (PX_PER_HOUR / 60);
+function timeToY(t: string, pxPerHour = PX_PER_HOUR): number {
+  return (timeToMinutes(t) - CAL_START * 60) * (pxPerHour / 60);
 }
 
-const PX_PER_MIN = PX_PER_HOUR / 60;
 const SNAP_MIN = 5; // drag snaps to 5-minute steps
 
 function minutesToTime(min: number): string {
@@ -809,7 +809,10 @@ function layoutTasks(tasks: TaskRow[]): LaidOutTask[] {
 const QUICK_TASK_H = 13;
 const QUICK_TASK_GAP = 1;
 
-function stackQuickTasks(tasks: TaskRow[]): { task: TaskRow; y: number }[] {
+function stackQuickTasks(
+  tasks: TaskRow[],
+  pxPerHour = PX_PER_HOUR,
+): { task: TaskRow; y: number }[] {
   if (!tasks.length) return [];
   const sorted = [...tasks].sort(
     (a, b) =>
@@ -818,7 +821,7 @@ function stackQuickTasks(tasks: TaskRow[]): { task: TaskRow; y: number }[] {
   );
   let nextY = -Infinity;
   return sorted.map((task) => {
-    const naturalY = timeToY(task.start_time);
+    const naturalY = timeToY(task.start_time, pxPerHour);
     const y = Math.max(naturalY, nextY);
     nextY = y + QUICK_TASK_H + QUICK_TASK_GAP;
     return { task, y };
@@ -886,6 +889,34 @@ export function CalendarGrid({
   const [editTask, setEditTask] = useState<Partial<TaskRow> | null>(null);
   const scrollRef = useRef<HTMLDivElement | null>(null);
 
+  // Vertical zoom — how tall an hour is (remembered per device).
+  const [zoom, setZoom] = useState(1);
+  useEffect(() => {
+    try {
+      const z = parseFloat(localStorage.getItem("beehave-cal-zoom") || "");
+      if (z >= CAL_ZOOM_MIN && z <= CAL_ZOOM_MAX) setZoom(z);
+    } catch {
+      /* storage unavailable */
+    }
+  }, []);
+  function nudgeZoom(delta: number) {
+    setZoom((z) => {
+      const next = Math.min(
+        CAL_ZOOM_MAX,
+        Math.max(CAL_ZOOM_MIN, Math.round((z + delta) * 10) / 10),
+      );
+      try {
+        localStorage.setItem("beehave-cal-zoom", String(next));
+      } catch {
+        /* storage unavailable */
+      }
+      return next;
+    });
+  }
+  const pxh = PX_PER_HOUR * zoom; // px per hour
+  const pxm = pxh / 60; // px per minute
+  const totalH = (CAL_END - CAL_START) * pxh;
+
   // ── Drag-to-reschedule (long-press then drag up/down) ──
   const [drag, setDrag] = useState<{
     taskId: string;
@@ -925,7 +956,7 @@ export function CalendarGrid({
       if (!dragMovedRef.current && Math.abs(raw) < 3) return; // click jitter
       dragMovedRef.current = true;
       const snapped =
-        Math.round(raw / (SNAP_MIN * PX_PER_MIN)) * (SNAP_MIN * PX_PER_MIN);
+        Math.round(raw / (SNAP_MIN * pxm)) * (SNAP_MIN * pxm);
       setDrag((d) => ({
         ...(d && d.taskId === task.id ? d : snapshot),
         deltaPx: snapped,
@@ -935,7 +966,7 @@ export function CalendarGrid({
       cleanup();
       setDrag((d) => {
         if (d && d.taskId === task.id && d.deltaPx !== 0) {
-          void commitReschedule(task, d.deltaPx / PX_PER_MIN);
+          void commitReschedule(task, d.deltaPx / pxm);
         }
         return null;
       });
@@ -1093,7 +1124,7 @@ export function CalendarGrid({
     e.preventDefault();
     const rect = e.currentTarget.getBoundingClientRect();
     const yInCol = e.clientY - rect.top;
-    const startMin = yInCol / PX_PER_MIN + CAL_START * 60;
+    const startMin = yInCol / pxm + CAL_START * 60;
     setCtxMenu({ x: e.clientX, y: e.clientY, kidId, startMin });
   }
 
@@ -1107,13 +1138,15 @@ export function CalendarGrid({
         `${String(n.getHours()).padStart(2, "0")}:${String(
           n.getMinutes(),
         ).padStart(2, "0")}`,
+        pxh,
       );
-      setNowY(y >= 0 && y <= TOTAL_H ? y : null);
+      setNowY(y >= 0 && y <= totalH ? y : null);
     }
     tick();
     const id = setInterval(tick, 60_000);
     return () => clearInterval(id);
-  }, []);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pxh, totalH]);
 
   useEffect(() => {
     if (isToday && scrollRef.current && nowY !== null) {
@@ -1226,14 +1259,14 @@ export function CalendarGrid({
       task.task_type === "session" || task.task_type === "focus";
     if (isSession && task.target_duration) {
       const mins = Math.round(task.target_duration / 60);
-      return Math.max(24, mins * (PX_PER_HOUR / 60));
+      return Math.max(24, mins * pxm);
     }
     const start = timeToMinutes(task.start_time || "00:00");
     const end = timeToMinutes(
       task.expiry_time || task.start_time || "00:30",
     );
     const diff = end - start;
-    return Math.max(24, diff > 0 ? diff * (PX_PER_HOUR / 60) : 30);
+    return Math.max(24, diff > 0 ? diff * pxm : 30);
   }
 
   const dateLabel = isToday
@@ -1338,10 +1371,33 @@ export function CalendarGrid({
       )}
 
       <div
-        className={`overflow-hidden rounded-2xl border border-border bg-surface ${
+        className={`relative overflow-hidden rounded-2xl border border-border bg-surface ${
           fill ? "flex min-h-0 flex-1 flex-col" : ""
         }`}
       >
+        {/* Vertical zoom — taller / shorter rows */}
+        <div className="absolute bottom-3 right-3 z-30 flex flex-col items-stretch overflow-hidden rounded-lg border border-border bg-surface/95 shadow-lg backdrop-blur">
+          <button
+            onClick={() => nudgeZoom(0.2)}
+            disabled={zoom >= CAL_ZOOM_MAX}
+            title="Taller rows"
+            className="px-2 py-1 text-[15px] font-bold leading-none text-foreground disabled:opacity-30"
+          >
+            ＋
+          </button>
+          <div className="border-y border-border px-1 py-0.5 text-center text-[9px] font-bold tabular-nums text-muted">
+            {Math.round(zoom * 100)}%
+          </div>
+          <button
+            onClick={() => nudgeZoom(-0.2)}
+            disabled={zoom <= CAL_ZOOM_MIN}
+            title="Shorter rows"
+            className="px-2 py-1 text-[15px] font-bold leading-none text-foreground disabled:opacity-30"
+          >
+            －
+          </button>
+        </div>
+
         {!hideColumnHeaders && (
           <div
             className="sticky top-0 z-20 grid shrink-0 border-b border-border bg-surface"
@@ -1368,7 +1424,7 @@ export function CalendarGrid({
           className={fill ? "min-h-0 flex-1 overflow-y-auto" : "overflow-y-auto"}
           style={fill ? undefined : { maxHeight: "62vh" }}
         >
-          <div className="relative" style={{ height: TOTAL_H }}>
+          <div className="relative" style={{ height: totalH }}>
             <div
               className="grid h-full"
               style={{
@@ -1381,7 +1437,7 @@ export function CalendarGrid({
                     key={h}
                     className="absolute right-1.5 select-none text-[10px]"
                     style={{
-                      top: (h - CAL_START) * PX_PER_HOUR - 8,
+                      top: (h - CAL_START) * pxh - 8,
                       color:
                         h === new Date().getHours() && isToday
                           ? "#f5c518"
@@ -1407,7 +1463,7 @@ export function CalendarGrid({
                       key={h}
                       className="absolute left-0 right-0 h-px"
                       style={{
-                        top: (h - CAL_START) * PX_PER_HOUR,
+                        top: (h - CAL_START) * pxh,
                         background:
                           h % 2 === 0
                             ? "var(--border)"
@@ -1425,7 +1481,7 @@ export function CalendarGrid({
                       );
                       const status = taskStatus(task, comp);
                       const meta = STATUS_META[status] || STATUS_META.upcoming;
-                      const top = timeToY(task.start_time);
+                      const top = timeToY(task.start_time, pxh);
                       const h = blockHeight(task);
                       const isMissed = status === "missed";
                       const isPending = status === "pending";
@@ -1446,7 +1502,7 @@ export function CalendarGrid({
                             Math.min(
                               CAL_END * 60 - drag.spanMin,
                               Math.round(
-                                (drag.origStartMin + drag.deltaPx / PX_PER_MIN) /
+                                (drag.origStartMin + drag.deltaPx / pxm) /
                                   SNAP_MIN,
                               ) * SNAP_MIN,
                             ),
@@ -1573,7 +1629,7 @@ export function CalendarGrid({
                     },
                   )}
 
-                  {stackQuickTasks(kid.quickTasks || []).map(({ task, y }) => {
+                  {stackQuickTasks(kid.quickTasks || [], pxh).map(({ task, y }) => {
                     const comp = kid.completions.find(
                       (c) => c.task_id === task.id,
                     );
