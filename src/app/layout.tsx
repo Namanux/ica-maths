@@ -3,6 +3,7 @@ import { Suspense } from "react";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/lib/theme-provider";
+import { ActiveSessionProvider } from "@/lib/activeSession";
 import { SiteHeader } from "@/components/SiteHeader";
 import { PresenceTracker } from "@/components/PresenceTracker";
 
@@ -52,17 +53,19 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       </head>
       <body className="min-h-full flex flex-col overflow-x-hidden bg-background text-foreground">
         <ThemeProvider>
-          <PresenceTracker />
-          <header className="sticky top-0 z-10 border-b border-border bg-background no-print">
-            <div className="mx-auto max-w-4xl px-4 py-3">
-              <Suspense fallback={<div className="h-9" />}>
-                <SiteHeader />
-              </Suspense>
-            </div>
-          </header>
-          <main className="flex-1 mx-auto w-full max-w-4xl px-4 py-6">
-            {children}
-          </main>
+          <ActiveSessionProvider>
+            <PresenceTracker />
+            <header className="sticky top-0 z-10 border-b border-border bg-background no-print">
+              <div className="mx-auto max-w-4xl px-4 py-3">
+                <Suspense fallback={<div className="h-9" />}>
+                  <SiteHeader />
+                </Suspense>
+              </div>
+            </header>
+            <main className="flex-1 mx-auto w-full max-w-4xl px-4 py-6">
+              {children}
+            </main>
+          </ActiveSessionProvider>
         </ThemeProvider>
       </body>
     </html>
