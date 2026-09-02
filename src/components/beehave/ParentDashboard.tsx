@@ -1210,6 +1210,10 @@ function minutesToTime(min: number): string {
   ).padStart(2, "0")}`;
 }
 
+function addMinutesToTime(t: string, mins: number): string {
+  return minutesToTime(timeToMinutes(t) + mins);
+}
+
 // How long a block occupies the grid, in minutes.
 function taskSpanMinutes(task: TaskRow): number {
   if (
@@ -1325,6 +1329,19 @@ function weekStart(d: Date): Date {
   x.setDate(x.getDate() - x.getDay());
   return x;
 }
+// First real occurrence on/after the anchor: the earliest selected weekday
+// that isn't before the start date. "Every 2 weeks on Tue" starting on a
+// Wednesday then counts its cycle from that first Tuesday, not from the
+// start-date's (occurrence-less) week.
+function firstWeeklyOn(anchor: Date, days: number[]): Date {
+  const d = new Date(anchor);
+  d.setHours(12, 0, 0, 0);
+  for (let i = 0; i < 7; i++) {
+    if (days.includes(d.getDay())) return d;
+    d.setDate(d.getDate() + 1);
+  }
+  return anchor;
+}
 
 // Rough date of the Nth occurrence (1-indexed) — used only as an "ends after
 // N times" cap, so a slightly generous estimate is fine.
@@ -1332,7 +1349,7 @@ function nthOccurrenceDate(
   anchor: Date,
   freq: string,
   interval: number,
-  weekdayCount: number,
+  days: number[],
   n: number,
 ): Date {
   const d = new Date(anchor);
@@ -1343,9 +1360,11 @@ function nthOccurrenceDate(
   else if (freq === "none") {
     /* single occurrence — anchor */
   } else {
-    // weekly: weekdayCount hits per active week
-    const weeks = Math.ceil(n / Math.max(1, weekdayCount)) * interval;
-    d.setDate(d.getDate() + weeks * 7);
+    // weekly: count from the first real occurrence, ~days.length hits/week
+    const first = firstWeeklyOn(anchor, days);
+    const weeks = Math.ceil(n / Math.max(1, days.length)) * interval;
+    first.setDate(first.getDate() + weeks * 7);
+    return first;
   }
   return d;
 }
@@ -1364,7 +1383,7 @@ export function taskOccursOn(task: TaskRow, date: Date): boolean {
   let end: Date | null = task.end_date ? ymdToNoon(String(task.end_date)) : null;
   const count = task.repeat_count ? Number(task.repeat_count) : null;
   if (count && anchor) {
-    const nth = nthOccurrenceDate(anchor, freq, interval, days.length, count);
+    const nth = nthOccurrenceDate(anchor, freq, interval, days, count);
     if (!end || nth < end) end = nth;
   }
   if (end && target > end) return false;
@@ -1396,8 +1415,9 @@ export function taskOccursOn(task: TaskRow, date: Date): boolean {
       // weekly
       if (!days.includes(target.getDay())) return false;
       if (!anchor || interval === 1) return true;
+      const cycleStart = weekStart(firstWeeklyOn(anchor, days));
       const weeks = Math.round(
-        daysApart(weekStart(target), weekStart(anchor)) / 7,
+        daysApart(weekStart(target), cycleStart) / 7,
       );
       return weeks >= 0 && weeks % interval === 0;
     }
@@ -4259,7 +4279,13 @@ function TaskForm({
           ? Math.max(1, form.repeat_count || 1)
           : null,
       start_time: form.start_time,
-      expiry_time: formIsSession ? null : form.expiry_time || "08:00",
+      // A task with no "missed after" set: default to an hour past the start
+      // (never earlier than it, which would flag the task missed on sight).
+      expiry_time: formIsSession
+        ? null
+        : form.expiry_time && form.expiry_time > form.start_time
+        ? form.expiry_time
+        : addMinutesToTime(form.start_time || "07:00", 60),
       full_coins: form.full_coins,
       min_coins: form.min_coins,
       penalty_coins: form.penalty_coins,
