@@ -1321,7 +1321,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
 
       {/* ── Compact header ── */}
       <div className="shrink-0 border-b border-border bg-surface px-3.5 pt-2.5">
-        <div className="mb-2 flex items-center gap-1.5">
+        <div className="mb-1.5 flex flex-wrap items-center gap-x-2 gap-y-1">
           <button
             onClick={(e) => {
               e.stopPropagation();
@@ -1331,7 +1331,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
           >
             ‹
           </button>
-          <span className="flex-1 text-center text-xs text-muted">
+          <span className="shrink-0 whitespace-nowrap text-xs text-muted">
             {formatViewDate()}
           </span>
           <button
@@ -1343,9 +1343,9 @@ export function KidDashboard(_props: { profileSlug: string }) {
           >
             ›
           </button>
-        </div>
 
-        <div className="flex flex-wrap items-center gap-x-2 gap-y-1 pb-2">
+          <span className="text-[14px] text-muted">|</span>
+
           <div
             className="flex h-[38px] w-[38px] shrink-0 items-center justify-center rounded-full text-[20px]"
             style={{
@@ -1399,40 +1399,41 @@ export function KidDashboard(_props: { profileSlug: string }) {
             </span>
             <span className="text-[12px] text-muted">/{totalTasks}</span>
           </div>
+        </div>
 
-          <div className="ml-auto flex shrink-0 items-center gap-1">
-            {view !== "list" && (
-              <button
-                onClick={(e) => {
-                  e.stopPropagation();
-                  setNewTaskSig((n) => n + 1);
-                }}
-                className="rounded-md bg-[#f5c518] px-2 py-1 text-[12px] font-semibold text-[#0f0f1a]"
-              >
-                + New Task
-              </button>
-            )}
-            {(["list", "calendar", "split"] as const).map((v) => (
-              <button
-                key={v}
-                onClick={(e) => {
-                  e.stopPropagation();
-                  pickView(v);
-                }}
-                title={v}
-                className={`rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
-                  view === v
-                    ? "bg-[#f5c518] text-[#0f0f1a]"
-                    : "border border-border text-muted"
-                }`}
-              >
-                {v === "list" ? "📋" : v === "calendar" ? "📅" : "⧉"}
-                <span className="ml-1 hidden sm:inline">
-                  {v === "list" ? "List" : v === "calendar" ? "Calendar" : "Split"}
-                </span>
-              </button>
-            ))}
-          </div>
+        {/* Controls strip — between the header and the content */}
+        <div className="flex flex-wrap items-center gap-1 pb-2">
+          {view !== "list" && (
+            <button
+              onClick={(e) => {
+                e.stopPropagation();
+                setNewTaskSig((n) => n + 1);
+              }}
+              className="rounded-md bg-[#f5c518] px-2 py-1 text-[12px] font-semibold text-[#0f0f1a]"
+            >
+              + New Task
+            </button>
+          )}
+          {(["list", "calendar", "split"] as const).map((v) => (
+            <button
+              key={v}
+              onClick={(e) => {
+                e.stopPropagation();
+                pickView(v);
+              }}
+              title={v}
+              className={`rounded-md px-2 py-1 text-[12px] font-semibold transition-colors ${
+                view === v
+                  ? "bg-[#f5c518] text-[#0f0f1a]"
+                  : "border border-border text-muted"
+              }`}
+            >
+              {v === "list" ? "📋" : v === "calendar" ? "📅" : "⧉"}
+              <span className="ml-1">
+                {v === "list" ? "List" : v === "calendar" ? "Calendar" : "Split"}
+              </span>
+            </button>
+          ))}
         </div>
 
         <div className="-mx-3.5 h-[3px] overflow-hidden bg-surface">
