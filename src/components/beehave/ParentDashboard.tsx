@@ -5805,7 +5805,11 @@ function ParentPassbookColumn({
     }
   }
 
+  // Pending reward redemptions get pinned to the top alongside pending
+  // task completions (and are hidden from the day groups below).
+  const pendingReds = reds.filter((r) => r.status === "pending");
   const groups = buildPassbook(txns, reds, balance);
+  const pendingCount = pending.length + pendingReds.length;
 
   return (
     <div
@@ -5824,12 +5828,72 @@ function ParentPassbookColumn({
         </span>
       </div>
       <div className="max-h-[64vh] overflow-y-auto p-3">
-        {pending.length > 0 && (
+        {pendingCount > 0 && (
           <div className="mb-3">
             <div className="mb-1 px-1 text-[10px] font-bold uppercase tracking-wide text-[#a855f7]">
-              ⏳ Pending your approval ({pending.length})
+              ⏳ Pending your approval ({pendingCount})
             </div>
             <div className="overflow-hidden rounded-xl border border-[#a855f7]/40 bg-[#a855f7]/[0.06]">
+              {pendingReds.map((r, ri) => {
+                const b = busy === r.id;
+                const cost = r.reward?.coin_cost ?? 0;
+                const qty =
+                  cost > 0 ? Math.max(1, Math.round(r.coins_spent / cost)) : 1;
+                return (
+                  <div
+                    key={r.id}
+                    className={`px-3 py-2.5 ${
+                      ri > 0 ? "border-t border-border/50" : ""
+                    }`}
+                  >
+                    <div className="flex items-start gap-2">
+                      <span
+                        className="text-[16px] leading-none"
+                        style={{ fontFamily: EMOJI_FONT }}
+                      >
+                        {r.reward?.icon ?? "🎁"}
+                      </span>
+                      <div className="min-w-0 flex-1">
+                        <div className="truncate text-[13px] font-semibold">
+                          {r.reward?.name ?? "Reward"}
+                          {qty > 1 ? ` ×${qty}` : ""}
+                        </div>
+                        <div className="text-[11px] text-muted">
+                          spends 🪙 {r.coins_spent}
+                          {r.created_at &&
+                            ` · ${new Date(r.created_at).toLocaleTimeString(
+                              "en-AU",
+                              { hour: "2-digit", minute: "2-digit" },
+                            )}`}
+                        </div>
+                      </div>
+                    </div>
+                    <div className="mt-2 flex gap-1.5">
+                      <button
+                        onClick={() =>
+                          void decline({
+                            id: r.id,
+                            amount: -(r.coins_spent || 0),
+                          } as PbEntry)
+                        }
+                        disabled={b}
+                        className="flex-1 rounded-lg border border-[#ef4444]/30 bg-[#ef4444]/12 px-2 py-1.5 text-[12px] font-semibold text-[#ef4444] disabled:opacity-40"
+                      >
+                        Decline
+                      </button>
+                      <button
+                        onClick={() =>
+                          void accept({ id: r.id } as PbEntry, "")
+                        }
+                        disabled={b}
+                        className="flex-[2] rounded-lg border border-[#22c55e]/30 bg-[#22c55e]/15 px-2 py-1.5 text-[12px] font-semibold text-[#22c55e] disabled:opacity-40"
+                      >
+                        {b ? "…" : `✓ Approve 🪙${r.coins_spent}`}
+                      </button>
+                    </div>
+                  </div>
+                );
+              })}
               {pending.map((p, i) => {
                 const isSession =
                   p.task?.task_type === "session" ||
@@ -5853,7 +5917,9 @@ function ParentPassbookColumn({
                   <div
                     key={p.id}
                     className={`px-3 py-2.5 ${
-                      i > 0 ? "border-t border-border/50" : ""
+                      i > 0 || pendingReds.length > 0
+                        ? "border-t border-border/50"
+                        : ""
                     }`}
                   >
                     <div className="flex items-start gap-2">
@@ -5918,28 +5984,39 @@ function ParentPassbookColumn({
 
         {!loaded ? (
           <p className="py-10 text-center text-[13px] text-muted">Loading…</p>
-        ) : groups.length === 0 && pending.length === 0 ? (
+        ) : groups.length === 0 && pendingCount === 0 ? (
           <p className="py-10 text-center text-[13px] text-muted">
             No activity yet.
           </p>
         ) : (
-          groups.map((g) => (
-            <div key={g.day} className="mb-3">
-              <div className="mb-1 flex items-center justify-between px-1">
-                <span className="text-[10px] font-bold uppercase tracking-wide text-muted">
-                  {g.day}
-                </span>
-                <span
-                  className={`text-[11px] font-bold ${
-                    g.net >= 0 ? "text-[#22c55e]" : "text-[#ef4444]"
-                  }`}
-                >
-                  {g.net >= 0 ? "+" : ""}
-                  {g.net} 🪙
-                </span>
-              </div>
-              <div className="overflow-hidden rounded-xl border border-border">
-                {g.items.map((e, i) => {
+          groups
+            .map((g) => ({
+              ...g,
+              items: g.items.filter(
+                (e) =>
+                  !(e.kind === "redemption" && e.status === "pending"),
+              ),
+            }))
+            .filter((g) => g.items.length > 0)
+            .map((g) => {
+              const net = g.items.reduce((s, e) => s + e.amount, 0);
+              return (
+                <div key={g.day} className="mb-3">
+                  <div className="mb-1 flex items-center justify-between px-1">
+                    <span className="text-[10px] font-bold uppercase tracking-wide text-muted">
+                      {g.day}
+                    </span>
+                    <span
+                      className={`text-[11px] font-bold ${
+                        net >= 0 ? "text-[#22c55e]" : "text-[#ef4444]"
+                      }`}
+                    >
+                      {net >= 0 ? "+" : ""}
+                      {net} 🪙
+                    </span>
+                  </div>
+                  <div className="overflow-hidden rounded-xl border border-border">
+                    {g.items.map((e, i) => {
                   const actionable =
                     e.kind === "redemption" && e.status === "pending";
                   return (
@@ -5957,10 +6034,11 @@ function ParentPassbookColumn({
                       }
                     />
                   );
-                })}
-              </div>
-            </div>
-          ))
+                    })}
+                  </div>
+                </div>
+              );
+            })
         )}
       </div>
     </div>
