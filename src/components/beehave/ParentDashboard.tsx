@@ -2190,9 +2190,16 @@ export function CalendarGrid({
                               >
                                 {task.name}
                               </div>
-                              {h >= 52 && (
-                                <div className="mt-0.5 text-[12px] text-muted">
-                                  {beehave.formatTime(task.start_time)}
+                              {h >= 30 && (
+                                <div className="mt-0.5 flex flex-wrap items-center gap-x-2 text-[12px] leading-tight">
+                                  <span className="font-semibold text-[#f5c518]">
+                                    🪙 {task.full_coins}
+                                  </span>
+                                  {h >= 52 && (
+                                    <span className="text-muted">
+                                      {beehave.formatTime(task.start_time)}
+                                    </span>
+                                  )}
                                 </div>
                               )}
                               {h >= 52 && totalSecs > 0 && scheduledMins && (
@@ -2274,6 +2281,9 @@ export function CalendarGrid({
                         >
                           {task.name}
                         </div>
+                        <span className="shrink-0 text-[11px] font-bold leading-none text-[#f5c518]">
+                          🪙{task.full_coins}
+                        </span>
                         {canApprove && comp && (
                           <button
                             onClick={(e) => {
