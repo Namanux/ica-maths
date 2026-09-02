@@ -85,11 +85,74 @@ export function formatClock(totalSeconds: number): string {
   return `${m}:${String(s).padStart(2, "0")}`;
 }
 
+// ─── End-of-session alarm ────────────────────────────────────────────────────
+let _alarmCtx: AudioContext | null = null;
+function alarmCtx(): AudioContext | null {
+  try {
+    const w = window as unknown as { webkitAudioContext?: typeof AudioContext };
+    const Ctx = window.AudioContext || w.webkitAudioContext;
+    if (!Ctx) return null;
+    if (!_alarmCtx) _alarmCtx = new Ctx();
+    if (_alarmCtx.state === "suspended") void _alarmCtx.resume();
+    return _alarmCtx;
+  } catch {
+    return null;
+  }
+}
+
+/** A short repeating alarm — beeps, a buzz, and a spoken "time's up". */
+export function playSessionAlarm(taskName?: string) {
+  try {
+    const ctx = alarmCtx();
+    if (ctx) {
+      const t0 = ctx.currentTime;
+      const beep = (freq: number, at: number, dur = 0.16, gain = 0.4) => {
+        const osc = ctx.createOscillator();
+        const g = ctx.createGain();
+        osc.connect(g);
+        g.connect(ctx.destination);
+        osc.type = "square";
+        osc.frequency.setValueAtTime(freq, t0 + at);
+        g.gain.setValueAtTime(gain, t0 + at);
+        g.gain.exponentialRampToValueAtTime(0.001, t0 + at + dur);
+        osc.start(t0 + at);
+        osc.stop(t0 + at + dur);
+      };
+      // three rising double-beeps — old alarm-clock cadence
+      for (let r = 0; r < 3; r++) {
+        beep(880, r * 0.6);
+        beep(1175, r * 0.6 + 0.22);
+      }
+    }
+  } catch {
+    /* audio unavailable */
+  }
+  try {
+    navigator.vibrate?.([250, 120, 250, 120, 250]); // no-op on iOS Safari
+  } catch {
+    /* not supported */
+  }
+  try {
+    if (window.speechSynthesis) {
+      window.speechSynthesis.cancel();
+      const u = new SpeechSynthesisUtterance(
+        taskName ? `Time's up for ${taskName}` : "Session finished",
+      );
+      u.rate = 0.95;
+      u.volume = 1;
+      window.speechSynthesis.speak(u);
+    }
+  } catch {
+    /* not supported */
+  }
+}
+
 export function ActiveSessionProvider({ children }: { children: ReactNode }) {
   const [session, setSession] = useState<ActiveSession | null>(null);
   const sessionRef = useRef<ActiveSession | null>(null);
   const [, forceTick] = useState(0);
   const hydrated = useRef(false);
+  const alarmedRunId = useRef<string | null>(null);
 
   useEffect(() => {
     sessionRef.current = session;
@@ -243,6 +306,17 @@ export function ActiveSessionProvider({ children }: { children: ReactNode }) {
     session && session.durationSecs > 0
       ? Math.max(0, session.durationSecs - elapsed)
       : null;
+
+  // Alarm once the instant a timed session reaches the end of its allocated
+  // time. Also covers "the iPad was asleep when it ran out" — the wake
+  // listeners tick, `remaining` recomputes to 0, and this fires on the way in.
+  useEffect(() => {
+    if (!session || session.durationSecs <= 0) return;
+    if (remaining === 0 && alarmedRunId.current !== session.runId) {
+      alarmedRunId.current = session.runId;
+      playSessionAlarm(session.taskName);
+    }
+  }, [remaining, session]);
 
   return (
     <ActiveSessionContext.Provider
