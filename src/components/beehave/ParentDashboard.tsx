@@ -2218,7 +2218,7 @@ export function CalendarGrid({
                               dragMovedRef.current = false;
                               return;
                             }
-                            if (canApprove) setSheet({ task, comp, kid });
+                            if (canApprove) setEditTask(task);
                             else handleKidTap(task, kid, comp);
                           }}
                           className={`absolute z-[5] select-none rounded-[5px] px-1.5 py-1 ${
