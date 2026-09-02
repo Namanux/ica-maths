@@ -5809,6 +5809,17 @@ function ParentPassbooks({
   const [reloadKey, setReloadKey] = useState(0);
   const importRef = useRef<HTMLInputElement | null>(null);
   const { saveOrder, orderedKids } = useKidOrder(kids);
+  // Tap a chip to show / hide that passbook (empty set = all shown).
+  const [shown, setShown] = useState<Set<string>>(new Set());
+  const isShown = (id: string) => shown.size === 0 || shown.has(id);
+  function toggleKid(id: string) {
+    setShown((prev) => {
+      const next = new Set(prev.size ? prev : kids.map((k) => k.id));
+      if (next.has(id)) next.delete(id);
+      else next.add(id);
+      return next.size ? next : new Set(kids.map((k) => k.id));
+    });
+  }
 
   async function exportPassbook() {
     if (!supabase) return;
@@ -5981,7 +5992,12 @@ function ParentPassbooks({
     <>
       {orderedKids.length > 1 && (
         <div className="mb-2 mt-3">
-          <KidChips orderedKids={orderedKids} onReorder={saveOrder} />
+          <KidChips
+            orderedKids={orderedKids}
+            onReorder={saveOrder}
+            shown={isShown}
+            onToggle={toggleKid}
+          />
         </div>
       )}
       <div className="mb-3 mt-3 flex items-center gap-2 rounded-[10px] border border-border bg-surface px-3.5 py-2.5">
@@ -6014,14 +6030,16 @@ function ParentPassbooks({
         className="grid gap-3"
         style={{ gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))" }}
       >
-        {orderedKids.map((k, i) => (
-          <ParentPassbookColumn
-            key={`${k.id}-${reloadKey}`}
-            kid={k}
-            profile={profile}
-            color={kidColorAt(k, i)}
-          />
-        ))}
+        {orderedKids
+          .filter((k) => isShown(k.id))
+          .map((k) => (
+            <ParentPassbookColumn
+              key={`${k.id}-${reloadKey}`}
+              kid={k}
+              profile={profile}
+              color={kidColorAt(k, orderedKids.indexOf(k))}
+            />
+          ))}
       </div>
     </>
   );
