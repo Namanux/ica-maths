@@ -62,6 +62,9 @@ type TaskRow = {
   description?: string | null;
   start_date?: string | null;
   end_date?: string | null;
+  repeat_freq?: string | null; // null|'none'|'day'|'week'|'month'|'year'
+  repeat_interval?: number | null;
+  repeat_count?: number | null;
   is_active?: boolean;
   pending_parent_review?: boolean;
   kid?: { name?: string; avatar_emoji?: string } | null;
@@ -464,6 +467,8 @@ function ApprovalsBanner({ onChange }: { onChange?: () => void }) {
 }
 
 function OverviewTab({ kids }: { kids: KidRow[] }) {
+  const { refreshCurrentProfile } = useBeehaveAuth();
+  const [showAddCal, setShowAddCal] = useState(false);
   const [period, setPeriod] = useState<"today" | "week" | "month">("today");
   const [kidData, setKidData] = useState<
     (KidRow & {
@@ -583,7 +588,9 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
         );
         return {
           ...kid,
-          tasks: (tasks as TaskRow[]) || [],
+          tasks: ((tasks as TaskRow[]) || []).filter((t) =>
+            taskOccursOn(t, new Date()),
+          ),
           completions: (comps as CompletionRow[]) || [],
           earnedToday,
         };
@@ -796,6 +803,14 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
               </button>
             ))}
 
+          <button
+            onClick={() => setShowAddCal(true)}
+            title="Add a kid or a personal calendar"
+            className="rounded-md border border-dashed border-border px-2 py-1 text-[12px] font-semibold text-muted hover:text-foreground"
+          >
+            + Calendar
+          </button>
+
           {view !== "calendar" &&
             listMode === "summary" &&
             (["today", "week", "month"] as const).map((p) => (
@@ -893,6 +908,157 @@ function OverviewTab({ kids }: { kids: KidRow[] }) {
           </div>
         </div>
       )}
+
+      {showAddCal && (
+        <AddCalendarModal
+          onClose={() => setShowAddCal(false)}
+          onCreated={() => void refreshCurrentProfile()}
+        />
+      )}
+    </div>
+  );
+}
+
+function AddCalendarModal({
+  onClose,
+  onCreated,
+}: {
+  onClose: () => void;
+  onCreated: () => void;
+}) {
+  const [name, setName] = useState("");
+  const [emoji, setEmoji] = useState("🧒");
+  const [color, setColor] = useState("#4f8ef7");
+  const [kind, setKind] = useState<"kid" | "personal">("kid");
+  const [busy, setBusy] = useState(false);
+  const [err, setErr] = useState<string | null>(null);
+  const COLORS = [
+    "#ec4899",
+    "#4f8ef7",
+    "#a855f7",
+    "#22c55e",
+    "#f97316",
+    "#f5c518",
+    "#ef4444",
+  ];
+
+  async function create() {
+    if (!supabase || !name.trim() || busy) return;
+    setBusy(true);
+    setErr(null);
+    const base =
+      name
+        .trim()
+        .toLowerCase()
+        .replace(/[^a-z0-9]+/g, "-")
+        .replace(/(^-|-$)/g, "") || "calendar";
+    const slug = `${base}-${Math.random().toString(36).slice(2, 6)}`;
+    const { error } = await supabase.from("profiles").insert({
+      name: name.trim(),
+      role: "kid",
+      slug,
+      avatar_emoji: emoji || "🧒",
+      avatar_color: color,
+      coin_balance: 0,
+      is_personal: kind === "personal",
+    });
+    setBusy(false);
+    if (error) {
+      setErr(error.message);
+      return;
+    }
+    onCreated();
+    onClose();
+  }
+
+  return (
+    <div
+      onClick={onClose}
+      className="fixed inset-0 z-[320] flex items-center justify-center bg-black/60 p-4"
+    >
+      <div
+        onClick={(e) => e.stopPropagation()}
+        className="w-full max-w-[360px] rounded-2xl border border-border bg-background p-4"
+      >
+        <div className="mb-3 flex items-center gap-2">
+          <h3 className="flex-1 text-[16px] font-bold">Add a calendar</h3>
+          <button onClick={onClose} className="text-[16px] text-muted">
+            ✕
+          </button>
+        </div>
+
+        <div className="mb-3 flex gap-2">
+          {(["kid", "personal"] as const).map((k) => (
+            <button
+              key={k}
+              onClick={() => setKind(k)}
+              className="flex-1 rounded-xl border px-2.5 py-2 text-left"
+              style={{
+                borderColor: kind === k ? "#f5c518" : "var(--border)",
+                background:
+                  kind === k ? "rgba(245,197,24,0.12)" : "transparent",
+              }}
+            >
+              <div className="text-[12px] font-bold">
+                {k === "kid" ? "🧒 Kid" : "🗓️ Personal"}
+              </div>
+              <div className="mt-0.5 text-[10px] text-muted">
+                {k === "kid"
+                  ? "Earns & spends coins"
+                  : "Just scheduling — yours"}
+              </div>
+            </button>
+          ))}
+        </div>
+
+        <input
+          value={name}
+          onChange={(e) => setName(e.target.value)}
+          placeholder="Name"
+          autoFocus
+          className="mb-2 w-full rounded-[10px] border border-border bg-surface px-3 py-2.5 text-[14px] text-foreground"
+        />
+
+        <div className="mb-3 flex items-center gap-2">
+          <input
+            value={emoji}
+            onChange={(e) => setEmoji(e.target.value.slice(0, 2))}
+            maxLength={2}
+            className="w-14 rounded-[10px] border border-border bg-surface px-2 py-2 text-center text-[18px]"
+          />
+          <div className="flex flex-wrap gap-1.5">
+            {COLORS.map((c) => (
+              <button
+                key={c}
+                onClick={() => setColor(c)}
+                className="h-7 w-7 rounded-full"
+                style={{
+                  background: c,
+                  outline:
+                    color === c ? "2px solid var(--foreground)" : "none",
+                  outlineOffset: 2,
+                }}
+              />
+            ))}
+          </div>
+        </div>
+
+        {err && (
+          <div className="mb-2 text-[12px] text-[#ef4444]">{err}</div>
+        )}
+
+        <button
+          onClick={create}
+          disabled={!name.trim() || busy}
+          className="w-full rounded-[10px] bg-[#f5c518] px-4 py-2.5 text-[14px] font-semibold text-[#0f0f1a] disabled:opacity-50"
+        >
+          {busy ? "Creating…" : "Create calendar"}
+        </button>
+        <p className="mt-2 text-[11px] text-muted">
+          Shows as a column straight away. A dedicated login page for a new
+          kid still needs adding to the app&apos;s profile list.
+        </p>
+      </div>
     </div>
   );
 }
@@ -1051,6 +1217,134 @@ function stackQuickTasks(
     nextY = y + QUICK_TASK_H + QUICK_TASK_GAP;
     return { task, y };
   });
+}
+
+/* ─── Recurrence ───────────────────────────────────────────────────────────
+   A task's schedule is: an anchor (start_date), a frequency, an interval, a
+   set of weekdays (weekly only), and an end (a date and/or an occurrence
+   count). `repeat_freq` null means the legacy "weekly on days_of_week". */
+function ymdToNoon(s: string): Date {
+  const [y, m, d] = s.split("-").map(Number);
+  return new Date(y, (m || 1) - 1, d || 1, 12, 0, 0);
+}
+function daysApart(a: Date, b: Date): number {
+  return Math.round((a.getTime() - b.getTime()) / 86_400_000);
+}
+function weekStart(d: Date): Date {
+  const x = new Date(d);
+  x.setHours(12, 0, 0, 0);
+  x.setDate(x.getDate() - x.getDay());
+  return x;
+}
+
+// Rough date of the Nth occurrence (1-indexed) — used only as an "ends after
+// N times" cap, so a slightly generous estimate is fine.
+function nthOccurrenceDate(
+  anchor: Date,
+  freq: string,
+  interval: number,
+  weekdayCount: number,
+  n: number,
+): Date {
+  const d = new Date(anchor);
+  const steps = Math.max(0, n - 1);
+  if (freq === "day") d.setDate(d.getDate() + steps * interval);
+  else if (freq === "month") d.setMonth(d.getMonth() + steps * interval);
+  else if (freq === "year") d.setFullYear(d.getFullYear() + steps * interval);
+  else if (freq === "none") {
+    /* single occurrence — anchor */
+  } else {
+    // weekly: weekdayCount hits per active week
+    const weeks = Math.ceil(n / Math.max(1, weekdayCount)) * interval;
+    d.setDate(d.getDate() + weeks * 7);
+  }
+  return d;
+}
+
+// Does this task have an occurrence on `date` (a Date; time part ignored)?
+export function taskOccursOn(task: TaskRow, date: Date): boolean {
+  const target = new Date(date);
+  target.setHours(12, 0, 0, 0);
+  const anchor = task.start_date ? ymdToNoon(String(task.start_date)) : null;
+  if (anchor && target < anchor) return false;
+
+  const freq = (task.repeat_freq as string | null) || "week";
+  const interval = Math.max(1, Number(task.repeat_interval) || 1);
+  const days = (task.days_of_week as number[] | null) || [1, 2, 3, 4, 5];
+
+  let end: Date | null = task.end_date ? ymdToNoon(String(task.end_date)) : null;
+  const count = task.repeat_count ? Number(task.repeat_count) : null;
+  if (count && anchor) {
+    const nth = nthOccurrenceDate(anchor, freq, interval, days.length, count);
+    if (!end || nth < end) end = nth;
+  }
+  if (end && target > end) return false;
+
+  switch (freq) {
+    case "none":
+      return !!anchor && daysApart(target, anchor) === 0;
+    case "day":
+      return anchor ? daysApart(target, anchor) % interval === 0 : true;
+    case "month": {
+      if (!anchor) return target.getDate() === 1;
+      if (target.getDate() !== anchor.getDate()) return false;
+      const months =
+        (target.getFullYear() - anchor.getFullYear()) * 12 +
+        (target.getMonth() - anchor.getMonth());
+      return months >= 0 && months % interval === 0;
+    }
+    case "year": {
+      if (!anchor) return false;
+      if (
+        target.getMonth() !== anchor.getMonth() ||
+        target.getDate() !== anchor.getDate()
+      )
+        return false;
+      const years = target.getFullYear() - anchor.getFullYear();
+      return years >= 0 && years % interval === 0;
+    }
+    default: {
+      // weekly
+      if (!days.includes(target.getDay())) return false;
+      if (!anchor || interval === 1) return true;
+      const weeks = Math.round(
+        daysApart(weekStart(target), weekStart(anchor)) / 7,
+      );
+      return weeks >= 0 && weeks % interval === 0;
+    }
+  }
+}
+
+// Short human summary for the collapsed recurrence row.
+export function recurrenceSummary(task: {
+  repeat_freq?: string | null;
+  repeat_interval?: number | null;
+  days_of_week?: number[] | null;
+  end_date?: string | null;
+  repeat_count?: number | null;
+}): string {
+  const DOW = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  const freq = task.repeat_freq || "week";
+  const n = Math.max(1, Number(task.repeat_interval) || 1);
+  if (freq === "none") return "Does not repeat";
+  let base: string;
+  if (freq === "day") base = n === 1 ? "Daily" : `Every ${n} days`;
+  else if (freq === "month")
+    base = n === 1 ? "Monthly" : `Every ${n} months`;
+  else if (freq === "year") base = n === 1 ? "Annually" : `Every ${n} years`;
+  else {
+    const days = (task.days_of_week || []).slice().sort((a, b) => a - b);
+    const label =
+      days.length === 7
+        ? "every day"
+        : days.length === 5 && days.every((d) => d >= 1 && d <= 5)
+        ? "Mon–Fri"
+        : days.map((d) => DOW[d]).join(", ") || "—";
+    base = n === 1 ? `Weekly · ${label}` : `Every ${n} weeks · ${label}`;
+  }
+  if (task.repeat_count) base += ` · ${task.repeat_count}×`;
+  else if (task.end_date) base += ` · until ${task.end_date}`;
+  return base;
 }
 
 const STATUS_META: Record<
@@ -1326,6 +1620,92 @@ export function CalendarGrid({
     onApprovalComplete?.();
   }
 
+  // Mark a task done straight from a kid's calendar (mirrors KidDashboard's
+  // completeTask). Photo tasks can't be finished here — open the sheet instead.
+  async function completeFromCalendar(task: TaskRow, kid: CalendarKidData) {
+    if (!supabase) return;
+    if (task.requires_photo) {
+      setSheet({ task, kid });
+      return;
+    }
+    if (kid.completions.find((c) => c.task_id === task.id)) return;
+    const coins = beehave.calculateCoins(task as never);
+    if (task.requires_approval === true) {
+      await supabase.from("task_completions").insert({
+        task_id: task.id,
+        kid_id: kid.id,
+        scheduled_date: dateStr,
+        coins_earned: coins,
+        status: "pending_approval",
+      });
+    } else {
+      const { data: fresh } = await supabase
+        .from("profiles")
+        .select("coin_balance")
+        .eq("id", kid.id)
+        .single();
+      const bal =
+        (fresh as { coin_balance?: number } | null)?.coin_balance || 0;
+      const { data: comp, error } = await supabase
+        .from("task_completions")
+        .insert({
+          task_id: task.id,
+          kid_id: kid.id,
+          scheduled_date: dateStr,
+          coins_earned: coins,
+          status: "auto_approved",
+        })
+        .select()
+        .single();
+      if (error || !comp) {
+        void loadData();
+        return;
+      }
+      await supabase.from("coin_transactions").insert({
+        kid_id: kid.id,
+        amount: coins,
+        reason: `Completed: ${task.name}`,
+        transaction_type: "task_reward",
+        reference_id: (comp as { id?: string }).id,
+      });
+      await supabase
+        .from("profiles")
+        .update({ coin_balance: bal + coins })
+        .eq("id", kid.id);
+    }
+    void loadData();
+    onApprovalComplete?.();
+  }
+
+  // Kid calendar gesture: 1 tap = done, 2 = undo, 3 = edit. Resolved once the
+  // click burst settles.
+  const kidTapRef = useRef<
+    Record<string, { count: number; timer: ReturnType<typeof setTimeout> }>
+  >({});
+  useEffect(
+    () => () => {
+      Object.values(kidTapRef.current).forEach((r) => clearTimeout(r.timer));
+    },
+    [],
+  );
+  function handleKidTap(
+    task: TaskRow,
+    kid: CalendarKidData,
+    comp?: CompletionRow,
+  ) {
+    const prev = kidTapRef.current[task.id];
+    if (prev) clearTimeout(prev.timer);
+    const count = (prev?.count || 0) + 1;
+    const timer = setTimeout(() => {
+      delete kidTapRef.current[task.id];
+      if (count >= 3) setEditTask(task);
+      else if (count === 2) {
+        if (comp) void undoCompletion(comp);
+      } else if (!comp) void completeFromCalendar(task, kid);
+    }, 320);
+    kidTapRef.current[task.id] = { count, timer };
+  }
+
   function blankTaskAt(kidId: string, startMin?: number, session = false) {
     return {
       assigned_to: kidId,
@@ -1427,7 +1807,9 @@ export function CalendarGrid({
           runsByTask[r.task_id] =
             (runsByTask[r.task_id] || 0) + (r.duration_secs || 0);
         }
-        const rawTasks = (tasks as TaskRow[]) || [];
+        const rawTasks = ((tasks as TaskRow[]) || []).filter((t) =>
+          taskOccursOn(t, selDate),
+        );
         // Per-day time overrides ("just today" drags). Missing table -> ignored.
         const { data: ovs } = await supabase
           .from("task_overrides")
@@ -1735,7 +2117,8 @@ export function CalendarGrid({
                               dragMovedRef.current = false;
                               return;
                             }
-                            setSheet({ task, comp, kid });
+                            if (canApprove) setSheet({ task, comp, kid });
+                            else handleKidTap(task, kid, comp);
                           }}
                           className={`absolute z-[5] select-none rounded-[5px] px-1.5 py-1 ${
                             isDragging ? "overflow-visible" : "overflow-hidden"
@@ -1847,7 +2230,8 @@ export function CalendarGrid({
                         key={task.id}
                         onClick={(e) => {
                           e.stopPropagation();
-                          setSheet({ task, comp, kid });
+                          if (canApprove) setSheet({ task, comp, kid });
+                          else handleKidTap(task, kid, comp);
                         }}
                         onContextMenu={(e) => e.stopPropagation()}
                         onDoubleClick={(e) => e.stopPropagation()}
@@ -3582,6 +3966,8 @@ function TaskFormIconRow({
   );
 }
 
+type RepeatFreq = "none" | "day" | "week" | "month" | "year";
+
 type TaskFormState = {
   name: string;
   icon: string;
@@ -3589,8 +3975,6 @@ type TaskFormState = {
   assigned_to: string;
   days_of_week: number[];
   start_date: string;
-  end_date: string;
-  no_end_date: boolean;
   start_time: string;
   session_end_time: string;
   expiry_time: string;
@@ -3602,6 +3986,12 @@ type TaskFormState = {
   id?: string;
   task_type: string;
   note: string;
+  // Recurrence
+  repeat_freq: RepeatFreq;
+  repeat_interval: number;
+  ends_mode: "never" | "on" | "after";
+  end_date: string;
+  repeat_count: number;
 };
 
 function TaskForm({
@@ -3624,10 +4014,11 @@ function TaskForm({
     icon: task.icon || "⭐",
     description: task.description || "",
     assigned_to: task.assigned_to || kids[0]?.id || "",
-    days_of_week: task.days_of_week || [1, 2, 3, 4, 5],
+    days_of_week:
+      task.days_of_week && task.days_of_week.length
+        ? task.days_of_week
+        : [1, 2, 3, 4, 5],
     start_date: task.start_date || todayStr,
-    end_date: task.end_date || "",
-    no_end_date: !task.end_date,
     start_time: task.start_time || "07:00",
     session_end_time: task.target_duration
       ? (() => {
@@ -3651,7 +4042,13 @@ function TaskForm({
     id: task.id,
     task_type: task.task_type || "task",
     note: task.note || "",
+    repeat_freq: (task.repeat_freq as RepeatFreq) || "week",
+    repeat_interval: Math.max(1, Number(task.repeat_interval) || 1),
+    ends_mode: task.repeat_count ? "after" : task.end_date ? "on" : "never",
+    end_date: task.end_date || "",
+    repeat_count: Number(task.repeat_count) || 13,
   });
+  const [showRepeat, setShowRepeat] = useState(false);
 
   useEffect(() => {
     const h = (e: KeyboardEvent) => {
@@ -3683,7 +4080,35 @@ function TaskForm({
     return secs > 0 ? secs : null;
   }
 
+  function setPreset(freq: RepeatFreq, interval = 1, days?: number[]) {
+    setForm((f) => ({
+      ...f,
+      repeat_freq: freq,
+      repeat_interval: interval,
+      ...(days ? { days_of_week: days } : {}),
+    }));
+  }
+
+  const repeatSummary = recurrenceSummary({
+    repeat_freq: form.repeat_freq,
+    repeat_interval: form.repeat_interval,
+    days_of_week: form.days_of_week,
+    end_date: form.ends_mode === "on" ? form.end_date : null,
+    repeat_count: form.ends_mode === "after" ? form.repeat_count : null,
+  });
+
   function handleSave() {
+    const freq = form.repeat_freq;
+    const once = freq === "none";
+    const weekly = freq === "week";
+    const anchorDow = ymdToNoon(form.start_date || todayStr).getDay();
+    const dow = weekly
+      ? form.days_of_week.length
+        ? form.days_of_week
+        : [1, 2, 3, 4, 5]
+      : once
+      ? [anchorDow]
+      : [0, 1, 2, 3, 4, 5, 6];
     const taskData: Partial<TaskRow> = {
       ...(form.id ? { id: form.id } : {}),
       name: form.name,
@@ -3691,11 +4116,19 @@ function TaskForm({
       icon: form.icon,
       note: form.note || null,
       assigned_to: form.assigned_to,
-      days_of_week: form.days_of_week,
-      start_date: form.no_end_date
-        ? form.start_date
-        : form.start_date || null,
-      end_date: form.no_end_date ? null : form.end_date || null,
+      days_of_week: dow,
+      start_date: form.start_date || null,
+      end_date: once
+        ? form.start_date || null
+        : form.ends_mode === "on"
+        ? form.end_date || null
+        : null,
+      repeat_freq: freq,
+      repeat_interval: Math.max(1, form.repeat_interval || 1),
+      repeat_count:
+        !once && form.ends_mode === "after"
+          ? Math.max(1, form.repeat_count || 1)
+          : null,
       start_time: form.start_time,
       expiry_time: formIsSession ? null : form.expiry_time || "08:00",
       full_coins: form.full_coins,
@@ -3843,89 +4276,221 @@ function TaskForm({
           </div>
         </IconRow>
 
-        <IconRow icon="📅">
-          <div className="mb-1.5 text-[12px] text-muted">Repeats on</div>
-          <div className="flex flex-wrap gap-1.5">
-            {DAYS.map((d, i) => (
-              <button
-                key={i}
-                onClick={() => toggleDay(i)}
-                className="h-[38px] w-[38px] rounded-full text-[12px] font-bold"
-                style={{
-                  background: form.days_of_week.includes(i)
-                    ? "#4f8ef7"
-                    : "var(--border)",
-                  border: `1px solid ${
-                    form.days_of_week.includes(i)
-                      ? "#4f8ef7"
-                      : "var(--border)"
-                  }`,
-                  color: form.days_of_week.includes(i) ? "#fff" : "var(--muted)",
-                }}
-              >
-                {d}
-              </button>
-            ))}
-          </div>
+        <IconRow icon="🗓">
+          <div className="mb-1 text-[12px] text-muted">Starts</div>
+          <input
+            type="date"
+            value={form.start_date}
+            onChange={(e) =>
+              setForm((f) => ({ ...f, start_date: e.target.value }))
+            }
+            className={inputCls}
+          />
         </IconRow>
 
-        <IconRow icon="🗓">
-          <div className="mb-2 text-[12px] text-muted">Active dates</div>
-          <div className="flex flex-wrap items-center gap-2">
-            <div className="min-w-[130px] flex-1">
-              <div className="mb-1 text-[10px] text-muted">Start date</div>
-              <input
-                type="date"
-                value={form.start_date}
-                onChange={(e) =>
-                  setForm((f) => ({ ...f, start_date: e.target.value }))
-                }
-                className={inputCls}
-              />
-            </div>
-            <div className="mt-4 shrink-0 text-[14px] text-muted">→</div>
-            <div className="min-w-[130px] flex-1">
-              <div className="mb-1 text-[10px] text-muted">End date</div>
-              {form.no_end_date ? (
-                <button
-                  onClick={() =>
-                    setForm((f) => ({
-                      ...f,
-                      no_end_date: false,
-                      end_date: f.start_date,
-                    }))
-                  }
-                  className="w-full rounded-[10px] border border-dashed border-border bg-surface px-3 py-2.5 text-left text-[14px] text-muted"
-                >
-                  No end date
-                </button>
-              ) : (
-                <div className="relative">
-                  <input
-                    type="date"
-                    value={form.end_date}
-                    min={form.start_date}
-                    onChange={(e) =>
-                      setForm((f) => ({ ...f, end_date: e.target.value }))
-                    }
-                    className={inputCls}
-                  />
+        <IconRow icon="🔁">
+          <button
+            type="button"
+            onClick={() => setShowRepeat((s) => !s)}
+            className="flex w-full items-center justify-between rounded-[10px] border border-border bg-surface px-3 py-2.5 text-left text-[14px] text-foreground"
+          >
+            <span>{repeatSummary}</span>
+            <span className="text-[12px] text-muted">
+              {showRepeat ? "▲" : "▼"}
+            </span>
+          </button>
+
+          {showRepeat && (
+            <div className="mt-2.5 rounded-[12px] border border-border bg-background p-3">
+              <div className="mb-3 flex flex-wrap gap-1.5">
+                {(
+                  [
+                    { label: "Does not repeat", fn: () => setPreset("none", 1) },
+                    { label: "Daily", fn: () => setPreset("day", 1) },
+                    {
+                      label: "Weekdays",
+                      fn: () => setPreset("week", 1, [1, 2, 3, 4, 5]),
+                    },
+                    {
+                      label: "Weekly",
+                      fn: () =>
+                        setPreset(
+                          "week",
+                          1,
+                          form.days_of_week.length
+                            ? form.days_of_week
+                            : [ymdToNoon(form.start_date || todayStr).getDay()],
+                        ),
+                    },
+                    { label: "Monthly", fn: () => setPreset("month", 1) },
+                  ] as const
+                ).map((p) => (
                   <button
-                    onClick={() =>
-                      setForm((f) => ({
-                        ...f,
-                        no_end_date: true,
-                        end_date: "",
-                      }))
-                    }
-                    className="absolute right-2 top-1/2 -translate-y-1/2 text-[14px] leading-none text-muted"
+                    key={p.label}
+                    type="button"
+                    onClick={p.fn}
+                    className="rounded-full border border-border px-2.5 py-1 text-[11px] font-semibold text-muted hover:text-foreground"
                   >
-                    ✕
+                    {p.label}
                   </button>
-                </div>
+                ))}
+              </div>
+
+              {form.repeat_freq !== "none" && (
+                <>
+                  <div className="mb-3 flex items-center gap-2 text-[13px]">
+                    <span className="text-muted">Repeat every</span>
+                    <input
+                      type="number"
+                      min={1}
+                      value={form.repeat_interval}
+                      onChange={(e) =>
+                        setForm((f) => ({
+                          ...f,
+                          repeat_interval: Math.max(
+                            1,
+                            parseInt(e.target.value) || 1,
+                          ),
+                        }))
+                      }
+                      className="w-14 rounded-lg border border-border bg-surface px-2 py-1.5 text-center"
+                    />
+                    <select
+                      value={form.repeat_freq}
+                      onChange={(e) =>
+                        setForm((f) => ({
+                          ...f,
+                          repeat_freq: e.target.value as RepeatFreq,
+                        }))
+                      }
+                      className="rounded-lg border border-border bg-surface px-2 py-1.5"
+                    >
+                      <option value="day">
+                        {form.repeat_interval === 1 ? "day" : "days"}
+                      </option>
+                      <option value="week">
+                        {form.repeat_interval === 1 ? "week" : "weeks"}
+                      </option>
+                      <option value="month">
+                        {form.repeat_interval === 1 ? "month" : "months"}
+                      </option>
+                      <option value="year">
+                        {form.repeat_interval === 1 ? "year" : "years"}
+                      </option>
+                    </select>
+                  </div>
+
+                  {form.repeat_freq === "week" && (
+                    <div className="mb-3">
+                      <div className="mb-1.5 text-[11px] text-muted">
+                        Repeat on
+                      </div>
+                      <div className="flex flex-wrap gap-1.5">
+                        {DAYS.map((d, i) => (
+                          <button
+                            key={i}
+                            type="button"
+                            onClick={() => toggleDay(i)}
+                            className="h-[34px] w-[34px] rounded-full text-[11px] font-bold"
+                            style={{
+                              background: form.days_of_week.includes(i)
+                                ? "#4f8ef7"
+                                : "var(--border)",
+                              border: `1px solid ${
+                                form.days_of_week.includes(i)
+                                  ? "#4f8ef7"
+                                  : "var(--border)"
+                              }`,
+                              color: form.days_of_week.includes(i)
+                                ? "#fff"
+                                : "var(--muted)",
+                            }}
+                          >
+                            {d[0]}
+                          </button>
+                        ))}
+                      </div>
+                    </div>
+                  )}
+
+                  <div>
+                    <div className="mb-1.5 text-[11px] text-muted">Ends</div>
+                    <div className="flex flex-col gap-2 text-[13px]">
+                      <label className="flex items-center gap-2">
+                        <input
+                          type="radio"
+                          name="ends"
+                          checked={form.ends_mode === "never"}
+                          onChange={() =>
+                            setForm((f) => ({ ...f, ends_mode: "never" }))
+                          }
+                        />
+                        Never
+                      </label>
+                      <label className="flex items-center gap-2">
+                        <input
+                          type="radio"
+                          name="ends"
+                          checked={form.ends_mode === "on"}
+                          onChange={() =>
+                            setForm((f) => ({
+                              ...f,
+                              ends_mode: "on",
+                              end_date: f.end_date || f.start_date,
+                            }))
+                          }
+                        />
+                        On
+                        <input
+                          type="date"
+                          value={form.end_date}
+                          min={form.start_date}
+                          disabled={form.ends_mode !== "on"}
+                          onChange={(e) =>
+                            setForm((f) => ({
+                              ...f,
+                              end_date: e.target.value,
+                              ends_mode: "on",
+                            }))
+                          }
+                          className="rounded-lg border border-border bg-surface px-2 py-1 disabled:opacity-40"
+                        />
+                      </label>
+                      <label className="flex items-center gap-2">
+                        <input
+                          type="radio"
+                          name="ends"
+                          checked={form.ends_mode === "after"}
+                          onChange={() =>
+                            setForm((f) => ({ ...f, ends_mode: "after" }))
+                          }
+                        />
+                        After
+                        <input
+                          type="number"
+                          min={1}
+                          value={form.repeat_count}
+                          disabled={form.ends_mode !== "after"}
+                          onChange={(e) =>
+                            setForm((f) => ({
+                              ...f,
+                              repeat_count: Math.max(
+                                1,
+                                parseInt(e.target.value) || 1,
+                              ),
+                              ends_mode: "after",
+                            }))
+                          }
+                          className="w-16 rounded-lg border border-border bg-surface px-2 py-1 text-center disabled:opacity-40"
+                        />
+                        occurrences
+                      </label>
+                    </div>
+                  </div>
+                </>
               )}
             </div>
-          </div>
+          )}
         </IconRow>
 
         <IconRow icon="⏰">

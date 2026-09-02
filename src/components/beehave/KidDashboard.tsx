@@ -12,7 +12,7 @@ import { useBeehaveAuth, type BeehaveProfile } from "@/lib/beehaveAuth";
 import { getSupabaseClient } from "@/lib/supabase";
 import { useActiveSession } from "@/lib/activeSession";
 import { beehave } from "@/lib/beehave";
-import { CalendarGrid, type KidRow } from "./ParentDashboard";
+import { CalendarGrid, taskOccursOn, type KidRow } from "./ParentDashboard";
 
 // ─── Types ───────────────────────────────────────────────────────────────────
 type TaskRow = {
@@ -650,6 +650,7 @@ export function KidDashboard(_props: { profileSlug: string }) {
       .eq("is_active", true)
       .contains("days_of_week", [dayOfWeek])
       .order("start_time");
+    const viewDateObj = new Date(y, m - 1, d, 12, 0, 0);
 
     const { data: compData } = await supabase
       .from("task_completions")
@@ -657,7 +658,11 @@ export function KidDashboard(_props: { profileSlug: string }) {
       .eq("kid_id", profile.id)
       .eq("scheduled_date", vd);
 
-    setTasks((taskData as TaskRow[]) || []);
+    setTasks(
+      ((taskData as TaskRow[]) || []).filter((t) =>
+        taskOccursOn(t as never, viewDateObj),
+      ),
+    );
     setCompletions((compData as CompletionRow[]) || []);
     void refreshCurrentProfile();
   }

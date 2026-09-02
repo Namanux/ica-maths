@@ -32,6 +32,7 @@ create table if not exists profiles (
 );
 -- If the table already existed without slug:
 alter table profiles add column if not exists slug text;
+alter table profiles add column if not exists is_personal boolean not null default false;
 do $$ begin
   alter table profiles add constraint profiles_slug_key unique (slug);
 exception when duplicate_table or duplicate_object then null;
@@ -54,6 +55,9 @@ create table if not exists tasks (
   task_type                text not null default 'task'
                            check (task_type in ('task','session','focus')),
   target_duration          integer,                  -- session length, seconds
+  repeat_freq              text check (repeat_freq is null or repeat_freq in ('none','day','week','month','year')),
+  repeat_interval          integer not null default 1,   -- "every N <freq>"
+  repeat_count             integer,                      -- ends after N occurrences
   full_coins               integer not null default 20,
   min_coins                integer not null default 5,
   penalty_coins            integer not null default 10,
@@ -80,6 +84,9 @@ alter table tasks add column if not exists requires_photo boolean not null defau
 alter table tasks add column if not exists created_by_kid boolean not null default false;
 alter table tasks add column if not exists is_kid_created boolean not null default false;
 alter table tasks add column if not exists pending_parent_review boolean not null default false;
+alter table tasks add column if not exists repeat_freq text;
+alter table tasks add column if not exists repeat_interval integer not null default 1;
+alter table tasks add column if not exists repeat_count integer;
 alter table tasks alter column deadline_time drop not null;
 alter table tasks alter column expiry_time drop not null;
 
