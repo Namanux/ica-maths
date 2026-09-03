@@ -7,6 +7,8 @@ import { getPaperById, getAllPapers } from "@/lib/papers";
 import { isAnswerCorrect } from "@/lib/scoring";
 import { formatDuration } from "@/lib/format";
 import { subscribeLiveSessions, type LiveSession } from "@/lib/liveSessions";
+import { QuestionBody } from "@/components/QuestionBody";
+import type { Paper, Question } from "@/lib/types";
 
 const ONLINE_MS = 45_000;
 
@@ -164,13 +166,41 @@ function LiveStudentPanel({
   setRef: (el: HTMLDivElement | null) => void;
 }) {
   const paper = session?.paperId ? getPaperById(session.paperId) : undefined;
+  const liveIndex =
+    paper && session?.questionNumber ? session.questionNumber - 1 : null;
+
+  // "live" always follows wherever the kid currently is; "history" pins the
+  // view to a question the parent picked, so stepping away and coming back
+  // (or just clicking an old question in the map) doesn't get yanked back
+  // to whatever the kid is doing right now.
+  const [viewMode, setViewMode] = useState<"live" | "history">("live");
+  const [historyIndex, setHistoryIndex] = useState<number | null>(null);
+
+  // A new paper (or the kid isn't testing anymore) makes stale history
+  // pointless — snap back to following live.
+  useEffect(() => {
+    setViewMode("live");
+    setHistoryIndex(null);
+  }, [session?.paperId]);
+
+  const viewingIndex =
+    viewMode === "history" && historyIndex !== null ? historyIndex : liveIndex;
   const question =
-    paper && session?.questionNumber ? paper.questions[session.questionNumber - 1] : undefined;
+    paper && viewingIndex !== null ? paper.questions[viewingIndex] : undefined;
+
+  const viewHistory = (i: number) => {
+    setHistoryIndex(i);
+    setViewMode("history");
+  };
+  const goLive = () => {
+    setViewMode("live");
+    setHistoryIndex(null);
+  };
 
   return (
     <div
       ref={setRef}
-      className="rounded-lg border border-border bg-background p-4 flex flex-col gap-3 overflow-y-auto"
+      className="rounded-lg border border-border bg-background p-4 flex flex-col gap-3 overflow-y-auto [&:fullscreen]:max-w-3xl [&:fullscreen]:mx-auto [&:fullscreen]:p-6"
     >
       <div className="flex items-center justify-between gap-2">
         <div className="flex items-center gap-2 min-w-0">
@@ -185,6 +215,34 @@ function LiveStudentPanel({
           </div>
         </div>
         <div className="flex items-center gap-1.5 shrink-0">
+          {paper && (
+            <button
+              onClick={viewMode === "live" ? () => viewHistory(liveIndex ?? 0) : goLive}
+              aria-pressed={viewMode === "live"}
+              title={
+                viewMode === "live"
+                  ? "Ticked: glued to their live question. Click to untick and browse freely."
+                  : "Unticked: browsing history. Click to re-tick and jump back to live."
+              }
+              className={`rounded-full border pl-1.5 pr-2.5 h-7 flex items-center gap-1.5 text-[11px] font-medium transition-colors ${
+                viewMode === "live"
+                  ? "border-correct text-correct"
+                  : "border-border text-muted hover:text-foreground"
+              }`}
+            >
+              <span
+                className={`flex h-3.5 w-3.5 shrink-0 items-center justify-center rounded-sm border text-[9px] leading-none ${
+                  viewMode === "live"
+                    ? "border-correct bg-correct text-background"
+                    : "border-muted"
+                }`}
+                aria-hidden
+              >
+                {viewMode === "live" ? "✓" : ""}
+              </span>
+              Live
+            </button>
+          )}
           <button
             onClick={onFullscreen}
             title="Full screen"
@@ -264,7 +322,9 @@ function LiveStudentPanel({
             <div>
               <div className="flex justify-between text-xs text-muted mb-1">
                 <span>
-                  Question {session.questionNumber} of {session.totalQuestions}
+                  {viewMode === "history" && viewingIndex !== null
+                    ? `Viewing question ${viewingIndex + 1} of ${session.totalQuestions} — they're on ${session.questionNumber}`
+                    : `Question ${session.questionNumber} of ${session.totalQuestions}`}
                 </span>
                 <span className="flex items-center gap-2">
                   {session.examStatus === "finished" && (
@@ -289,103 +349,177 @@ function LiveStudentPanel({
           )}
 
           {question && (
-            <div className="rounded-lg border border-border p-3 flex flex-col gap-2 text-sm">
-              <p className="whitespace-pre-line leading-relaxed">{question.prompt}</p>
-
-              {(question.imageUrl || question.optionsImageUrl) && (
-                <div className="flex flex-wrap justify-center items-start gap-2">
-                  {question.imageUrl && (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={question.imageUrl}
-                      alt=""
-                      className="question-image max-w-[48%] max-h-40 w-auto object-contain"
-                    />
-                  )}
-                  {question.optionsImageUrl && (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
-                      src={question.optionsImageUrl}
-                      alt=""
-                      className="question-image max-w-[48%] max-h-40 w-auto object-contain"
-                    />
-                  )}
-                </div>
-              )}
-
-              {question.type === "multiple_choice" && question.options && (
-                <div className="flex flex-col gap-1.5">
-                  {question.options.map((opt) => {
-                    const picked = session.lastAnswerLabel === opt.label;
-                    const correct = picked && isAnswerCorrect(opt.label, question);
-                    return (
-                      <div
-                        key={opt.label}
-                        className={`flex items-center gap-2 rounded-md border px-3 py-1.5 ${
-                          picked
-                            ? correct
-                              ? "border-correct bg-correct/10"
-                              : "border-incorrect bg-incorrect/10"
-                            : "border-border"
-                        }`}
-                      >
-                        <span className="font-mono font-medium text-xs">{opt.label}</span>
-                        <span className="truncate">{opt.text}</span>
-                        {picked && (
-                          <span
-                            className={`ml-auto text-xs font-medium ${
-                              correct ? "text-correct" : "text-incorrect"
-                            }`}
-                          >
-                            {correct ? "Correct" : "Incorrect"}
-                          </span>
-                        )}
-                      </div>
-                    );
-                  })}
-                </div>
-              )}
-
-              {question.type === "free_response" && (
-                <div
-                  className={`rounded-md border px-3 py-1.5 ${
-                    session.lastAnswerLabel
-                      ? session.lastAnswerCorrect
-                        ? "border-correct bg-correct/10 text-correct"
-                        : "border-incorrect bg-incorrect/10 text-incorrect"
-                      : "border-border text-muted"
-                  }`}
-                >
-                  {session.lastAnswerLabel || "No answer yet"}
-                </div>
-              )}
-            </div>
+            <LiveQuestionCard
+              question={question}
+              userAnswer={session.answers?.[question.id] ?? null}
+              studentName={name}
+            />
           )}
 
-          {session.answers && paper && (
-            <div className="flex flex-wrap gap-1">
-              {paper.questions.map((q, i) => {
-                const answered = session.answers?.[q.id] != null;
-                const isCurrent = i + 1 === session.questionNumber;
-                return (
-                  <span
-                    key={q.id}
-                    className={`h-5 w-5 text-[10px] rounded border flex items-center justify-center ${
-                      isCurrent
-                        ? "border-accent bg-accent text-background"
-                        : answered
-                        ? "border-border text-blue-600 dark:text-blue-400"
-                        : "border-border text-muted"
-                    }`}
-                  >
-                    {q.number}
-                  </span>
-                );
-              })}
-            </div>
+          {paper && (
+            <LiveQuestionMap
+              paper={paper}
+              answers={session.answers ?? null}
+              liveIndex={liveIndex}
+              viewingIndex={viewingIndex}
+              onSelect={viewHistory}
+            />
           )}
         </>
       )}
+    </div>
+  );
+}
+
+// Mirrors the historical attempt-review card (see ResultsPanel's
+// ReviewQuestionView) so the parent sees the same layout live: the correct
+// option always outlined green (an answer key, parent-only), the kid's pick
+// outlined red if it's wrong, and the explanation as a standing hint — none
+// of which the kid's own exam screen ever shows.
+function LiveQuestionCard({
+  question,
+  userAnswer,
+  studentName,
+}: {
+  question: Question;
+  userAnswer: string | null;
+  studentName: string;
+}) {
+  return (
+    <div className="rounded-lg border border-border p-3 flex flex-col gap-2 text-sm">
+      {/* Same prompt/passage/table/image rendering as the kid's own exam
+          screen and the historical attempt-review page, so nothing here
+          (e.g. a reading passage) is ever missing or drifts out of sync. */}
+      <QuestionBody question={question} />
+
+      {question.type === "multiple_choice" && question.options && (
+        <div className="flex flex-col gap-1.5">
+          {question.options.map((opt) => {
+            const isUser = userAnswer === opt.label;
+            const isCorrectOpt = question.correctAnswer === opt.label;
+            let borderColor = "var(--border)";
+            if (isCorrectOpt) borderColor = "var(--correct)";
+            else if (isUser) borderColor = "var(--incorrect)";
+            return (
+              <div
+                key={opt.label}
+                style={{ borderColor }}
+                className={`flex items-center gap-2 rounded-md border-2 px-3 py-1.5 ${
+                  isCorrectOpt ? "bg-correct/10" : isUser ? "bg-incorrect/10" : ""
+                }`}
+              >
+                <span className="font-mono font-medium text-xs">{opt.label}</span>
+                <span className="truncate">{opt.text}</span>
+                {isCorrectOpt && (
+                  <span className="ml-auto text-xs font-medium shrink-0" style={{ color: "var(--correct)" }}>
+                    Correct answer
+                  </span>
+                )}
+                {isUser && !isCorrectOpt && (
+                  <span className="ml-auto text-xs font-medium shrink-0" style={{ color: "var(--incorrect)" }}>
+                    {studentName} picked this
+                  </span>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      )}
+
+      {question.type === "free_response" && (
+        <div className="flex flex-col gap-1.5">
+          <div
+            className="rounded-md border-2 px-3 py-1.5 bg-correct/10"
+            style={{ borderColor: "var(--correct)" }}
+          >
+            <span className="font-mono">{question.correctAnswer}</span>
+            <span className="ml-2 text-xs font-medium" style={{ color: "var(--correct)" }}>
+              Correct answer
+            </span>
+          </div>
+          {userAnswer && !isAnswerCorrect(userAnswer, question) && (
+            <div
+              className="rounded-md border-2 px-3 py-1.5 bg-incorrect/10"
+              style={{ borderColor: "var(--incorrect)" }}
+            >
+              <span className="font-mono">{userAnswer}</span>
+              <span className="ml-2 text-xs font-medium" style={{ color: "var(--incorrect)" }}>
+                {studentName}&apos;s answer
+              </span>
+            </div>
+          )}
+          {!userAnswer && (
+            <p className="text-xs text-muted">No answer yet.</p>
+          )}
+        </div>
+      )}
+
+      {question.explanation && (
+        <p className="text-xs text-muted border-t border-border pt-2">
+          💡 {question.explanation}
+        </p>
+      )}
+    </div>
+  );
+}
+
+// Every question, colored by correctness (not just answered/unanswered) and
+// clickable — this is the "history" browser: click any past question to
+// pin the view there regardless of where the kid currently is.
+function LiveQuestionMap({
+  paper,
+  answers,
+  liveIndex,
+  viewingIndex,
+  onSelect,
+}: {
+  paper: Paper;
+  answers: Record<string, string | null> | null;
+  liveIndex: number | null;
+  viewingIndex: number | null;
+  onSelect: (index: number) => void;
+}) {
+  return (
+    <div className="flex flex-wrap gap-1">
+      {paper.questions.map((q, i) => {
+        const ans = answers?.[q.id];
+        const answered = ans != null;
+        const correct = answered ? isAnswerCorrect(ans, q) : false;
+        const isLive = i === liveIndex;
+        const isViewing = i === viewingIndex;
+        return (
+          <button
+            key={q.id}
+            onClick={() => onSelect(i)}
+            title={answered ? (correct ? "Correct" : "Incorrect") : "Not answered yet"}
+            style={{
+              borderColor: isViewing
+                ? "var(--accent)"
+                : answered
+                ? correct
+                  ? "var(--correct)"
+                  : "var(--incorrect)"
+                : "var(--border)",
+              borderWidth: isViewing ? 2 : 1,
+              background: answered
+                ? correct
+                  ? "var(--correct)"
+                  : "var(--incorrect)"
+                : "transparent",
+              color: answered ? "var(--background)" : "var(--foreground)",
+            }}
+            className="relative h-6 w-6 text-[10px] font-semibold rounded border flex items-center justify-center transition-transform hover:scale-110"
+          >
+            {q.number}
+            {isLive && (
+              <span
+                className="absolute -top-1 -right-1 h-2 w-2 rounded-full bg-accent ring-2 ring-background"
+                aria-hidden
+              />
+            )}
+          </button>
+        );
+      })}
     </div>
   );
 }
