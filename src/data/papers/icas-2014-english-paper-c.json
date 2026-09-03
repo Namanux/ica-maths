@@ -1,0 +1,1411 @@
+{
+  "id": "icas-2014-english-paper-c",
+  "subject": "English",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS English 2014 — Paper C",
+  "year": 2014,
+  "timeLimitMinutes": 50,
+  "questions": [
+    {
+      "id": "eng2014c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "Read How I build a sandcastle and answer questions 1 to 7.\n\nHow I build a sandcastle\n\nIt all seems fairly simple, really: scoop some wet sand into a bucket, flip the bucket over, give the bottom a firm tap with your hand (or a little shovel, if you want to be fancy about it), and ta-da! You've got yourself a sandcastle. Mine's the lopsided one over on the left, in case you were wondering.\n\nHow do other people build a sandcastle?\n\nClearly, some people take sandcastle building far more seriously than I do. These people know a thing or two about sand! Sand grains vary quite a bit in size, but technically speaking, to actually count as sand, a particle has to measure between 0.0625 mm and 2 mm across. Anything bigger than that is a pebble or a small rock, not sand at all. Professional sand sculptors use sand with square-edged grains, since this type of sand, when packed down while very damp, can be carved and shaped into genuinely amazing structures. For those of us who don't bring a microscope to the beach to inspect grain shape, the real trick, according to the experts, is simply to use very wet sand - it holds its shape far better.\n\nA short history of sand\n\nSand is created when rocks, coral and shells are gradually broken down into tiny fragments by the constant action of wind and water. These fragments get carried along by wind or washed down rivers into the ocean. Looking at individual grains of sand under a microscope can actually reveal a surprising amount about where they came from. Quartz sand that has broken down from granite, for example, tends to have sharp, angular edges, while sand that has travelled a long way usually ends up rounder and smoother. The sand on your local beach has probably spent thousands of years tumbling around in the ocean, which is why it's usually fairly rounded. This matters for serious sandcastle builders: larger grains don't stick together easily, and rounded grains don't hold together nearly as well as sharper, more angular ones do.",
+      "prompt": "What does the word 'tap' show?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the sound of the hand hitting the bucket"
+        },
+        {
+          "label": "B",
+          "text": "how angry the writer is when building sandcastles"
+        },
+        {
+          "label": "C",
+          "text": "when to remove the sand from the bucket"
+        },
+        {
+          "label": "D",
+          "text": "what the writer says while building"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Tap' describes the light striking sound made when releasing the sand.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2014c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "Read How I build a sandcastle and answer questions 1 to 7.\n\nHow I build a sandcastle\n\nIt all seems fairly simple, really: scoop some wet sand into a bucket, flip the bucket over, give the bottom a firm tap with your hand (or a little shovel, if you want to be fancy about it), and ta-da! You've got yourself a sandcastle. Mine's the lopsided one over on the left, in case you were wondering.\n\nHow do other people build a sandcastle?\n\nClearly, some people take sandcastle building far more seriously than I do. These people know a thing or two about sand! Sand grains vary quite a bit in size, but technically speaking, to actually count as sand, a particle has to measure between 0.0625 mm and 2 mm across. Anything bigger than that is a pebble or a small rock, not sand at all. Professional sand sculptors use sand with square-edged grains, since this type of sand, when packed down while very damp, can be carved and shaped into genuinely amazing structures. For those of us who don't bring a microscope to the beach to inspect grain shape, the real trick, according to the experts, is simply to use very wet sand - it holds its shape far better.\n\nA short history of sand\n\nSand is created when rocks, coral and shells are gradually broken down into tiny fragments by the constant action of wind and water. These fragments get carried along by wind or washed down rivers into the ocean. Looking at individual grains of sand under a microscope can actually reveal a surprising amount about where they came from. Quartz sand that has broken down from granite, for example, tends to have sharp, angular edges, while sand that has travelled a long way usually ends up rounder and smoother. The sand on your local beach has probably spent thousands of years tumbling around in the ocean, which is why it's usually fairly rounded. This matters for serious sandcastle builders: larger grains don't stick together easily, and rounded grains don't hold together nearly as well as sharper, more angular ones do.",
+      "prompt": "The writer uses the words 'ta-da!' in the first paragraph to suggest",
+      "options": [
+        {
+          "label": "A",
+          "text": "that she is a beginner at building sandcastles."
+        },
+        {
+          "label": "B",
+          "text": "how quick and easy it is for her to make a sandcastle."
+        },
+        {
+          "label": "C",
+          "text": "that making a sandcastle is a matter of luck."
+        },
+        {
+          "label": "D",
+          "text": "why she feels excited about building sandcastles."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Ta-da!' has a light, triumphant tone suggesting the castle appears with hardly any effort.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2014c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "Read How I build a sandcastle and answer questions 1 to 7.\n\nHow I build a sandcastle\n\nIt all seems fairly simple, really: scoop some wet sand into a bucket, flip the bucket over, give the bottom a firm tap with your hand (or a little shovel, if you want to be fancy about it), and ta-da! You've got yourself a sandcastle. Mine's the lopsided one over on the left, in case you were wondering.\n\nHow do other people build a sandcastle?\n\nClearly, some people take sandcastle building far more seriously than I do. These people know a thing or two about sand! Sand grains vary quite a bit in size, but technically speaking, to actually count as sand, a particle has to measure between 0.0625 mm and 2 mm across. Anything bigger than that is a pebble or a small rock, not sand at all. Professional sand sculptors use sand with square-edged grains, since this type of sand, when packed down while very damp, can be carved and shaped into genuinely amazing structures. For those of us who don't bring a microscope to the beach to inspect grain shape, the real trick, according to the experts, is simply to use very wet sand - it holds its shape far better.\n\nA short history of sand\n\nSand is created when rocks, coral and shells are gradually broken down into tiny fragments by the constant action of wind and water. These fragments get carried along by wind or washed down rivers into the ocean. Looking at individual grains of sand under a microscope can actually reveal a surprising amount about where they came from. Quartz sand that has broken down from granite, for example, tends to have sharp, angular edges, while sand that has travelled a long way usually ends up rounder and smoother. The sand on your local beach has probably spent thousands of years tumbling around in the ocean, which is why it's usually fairly rounded. This matters for serious sandcastle builders: larger grains don't stick together easily, and rounded grains don't hold together nearly as well as sharper, more angular ones do.",
+      "prompt": "The writer says, 'Mine's the lopsided one over on the left, in case you were wondering,' because",
+      "options": [
+        {
+          "label": "A",
+          "text": "she wants to show off her sandcastle-building skills."
+        },
+        {
+          "label": "B",
+          "text": "she wants to prove that she can build a sandcastle."
+        },
+        {
+          "label": "C",
+          "text": "she thinks the sandcastle she built is amusing."
+        },
+        {
+          "label": "D",
+          "text": "she thinks readers need help identifying which one is hers."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Calling her own castle 'lopsided' shows she finds her own effort amusing rather than impressive.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "Read How I build a sandcastle and answer questions 1 to 7.\n\nHow I build a sandcastle\n\nIt all seems fairly simple, really: scoop some wet sand into a bucket, flip the bucket over, give the bottom a firm tap with your hand (or a little shovel, if you want to be fancy about it), and ta-da! You've got yourself a sandcastle. Mine's the lopsided one over on the left, in case you were wondering.\n\nHow do other people build a sandcastle?\n\nClearly, some people take sandcastle building far more seriously than I do. These people know a thing or two about sand! Sand grains vary quite a bit in size, but technically speaking, to actually count as sand, a particle has to measure between 0.0625 mm and 2 mm across. Anything bigger than that is a pebble or a small rock, not sand at all. Professional sand sculptors use sand with square-edged grains, since this type of sand, when packed down while very damp, can be carved and shaped into genuinely amazing structures. For those of us who don't bring a microscope to the beach to inspect grain shape, the real trick, according to the experts, is simply to use very wet sand - it holds its shape far better.\n\nA short history of sand\n\nSand is created when rocks, coral and shells are gradually broken down into tiny fragments by the constant action of wind and water. These fragments get carried along by wind or washed down rivers into the ocean. Looking at individual grains of sand under a microscope can actually reveal a surprising amount about where they came from. Quartz sand that has broken down from granite, for example, tends to have sharp, angular edges, while sand that has travelled a long way usually ends up rounder and smoother. The sand on your local beach has probably spent thousands of years tumbling around in the ocean, which is why it's usually fairly rounded. This matters for serious sandcastle builders: larger grains don't stick together easily, and rounded grains don't hold together nearly as well as sharper, more angular ones do.",
+      "prompt": "What is the writer's attitude towards the skills of professional sand sculptors?",
+      "options": [
+        {
+          "label": "A",
+          "text": "She is jealous of their skills."
+        },
+        {
+          "label": "B",
+          "text": "She is enchanted by their skills."
+        },
+        {
+          "label": "C",
+          "text": "She is annoyed by their skills."
+        },
+        {
+          "label": "D",
+          "text": "She is impressed by their skills."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "She describes their sculptures as 'genuinely amazing', showing admiration rather than jealousy or annoyance.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "Read How I build a sandcastle and answer questions 1 to 7.\n\nHow I build a sandcastle\n\nIt all seems fairly simple, really: scoop some wet sand into a bucket, flip the bucket over, give the bottom a firm tap with your hand (or a little shovel, if you want to be fancy about it), and ta-da! You've got yourself a sandcastle. Mine's the lopsided one over on the left, in case you were wondering.\n\nHow do other people build a sandcastle?\n\nClearly, some people take sandcastle building far more seriously than I do. These people know a thing or two about sand! Sand grains vary quite a bit in size, but technically speaking, to actually count as sand, a particle has to measure between 0.0625 mm and 2 mm across. Anything bigger than that is a pebble or a small rock, not sand at all. Professional sand sculptors use sand with square-edged grains, since this type of sand, when packed down while very damp, can be carved and shaped into genuinely amazing structures. For those of us who don't bring a microscope to the beach to inspect grain shape, the real trick, according to the experts, is simply to use very wet sand - it holds its shape far better.\n\nA short history of sand\n\nSand is created when rocks, coral and shells are gradually broken down into tiny fragments by the constant action of wind and water. These fragments get carried along by wind or washed down rivers into the ocean. Looking at individual grains of sand under a microscope can actually reveal a surprising amount about where they came from. Quartz sand that has broken down from granite, for example, tends to have sharp, angular edges, while sand that has travelled a long way usually ends up rounder and smoother. The sand on your local beach has probably spent thousands of years tumbling around in the ocean, which is why it's usually fairly rounded. This matters for serious sandcastle builders: larger grains don't stick together easily, and rounded grains don't hold together nearly as well as sharper, more angular ones do.",
+      "prompt": "The word 'fancy', as it is used in the text, means",
+      "options": [
+        {
+          "label": "A",
+          "text": "elaborate."
+        },
+        {
+          "label": "B",
+          "text": "able."
+        },
+        {
+          "label": "C",
+          "text": "energetic."
+        },
+        {
+          "label": "D",
+          "text": "scientific."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'If you want to be fancy about it' means doing something in a more elaborate or sophisticated way.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2014c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "Read How I build a sandcastle and answer questions 1 to 7.\n\nHow I build a sandcastle\n\nIt all seems fairly simple, really: scoop some wet sand into a bucket, flip the bucket over, give the bottom a firm tap with your hand (or a little shovel, if you want to be fancy about it), and ta-da! You've got yourself a sandcastle. Mine's the lopsided one over on the left, in case you were wondering.\n\nHow do other people build a sandcastle?\n\nClearly, some people take sandcastle building far more seriously than I do. These people know a thing or two about sand! Sand grains vary quite a bit in size, but technically speaking, to actually count as sand, a particle has to measure between 0.0625 mm and 2 mm across. Anything bigger than that is a pebble or a small rock, not sand at all. Professional sand sculptors use sand with square-edged grains, since this type of sand, when packed down while very damp, can be carved and shaped into genuinely amazing structures. For those of us who don't bring a microscope to the beach to inspect grain shape, the real trick, according to the experts, is simply to use very wet sand - it holds its shape far better.\n\nA short history of sand\n\nSand is created when rocks, coral and shells are gradually broken down into tiny fragments by the constant action of wind and water. These fragments get carried along by wind or washed down rivers into the ocean. Looking at individual grains of sand under a microscope can actually reveal a surprising amount about where they came from. Quartz sand that has broken down from granite, for example, tends to have sharp, angular edges, while sand that has travelled a long way usually ends up rounder and smoother. The sand on your local beach has probably spent thousands of years tumbling around in the ocean, which is why it's usually fairly rounded. This matters for serious sandcastle builders: larger grains don't stick together easily, and rounded grains don't hold together nearly as well as sharper, more angular ones do.",
+      "prompt": "What advice is given to people who would like to build a sandcastle but do not know a lot about sand?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Examine sand grains with a microscope."
+        },
+        {
+          "label": "B",
+          "text": "Use very wet sand."
+        },
+        {
+          "label": "C",
+          "text": "Choose wind-blown sand."
+        },
+        {
+          "label": "D",
+          "text": "Mould the sand carefully."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text says 'the real trick... is simply to use very wet sand.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "Read How I build a sandcastle and answer questions 1 to 7.\n\nHow I build a sandcastle\n\nIt all seems fairly simple, really: scoop some wet sand into a bucket, flip the bucket over, give the bottom a firm tap with your hand (or a little shovel, if you want to be fancy about it), and ta-da! You've got yourself a sandcastle. Mine's the lopsided one over on the left, in case you were wondering.\n\nHow do other people build a sandcastle?\n\nClearly, some people take sandcastle building far more seriously than I do. These people know a thing or two about sand! Sand grains vary quite a bit in size, but technically speaking, to actually count as sand, a particle has to measure between 0.0625 mm and 2 mm across. Anything bigger than that is a pebble or a small rock, not sand at all. Professional sand sculptors use sand with square-edged grains, since this type of sand, when packed down while very damp, can be carved and shaped into genuinely amazing structures. For those of us who don't bring a microscope to the beach to inspect grain shape, the real trick, according to the experts, is simply to use very wet sand - it holds its shape far better.\n\nA short history of sand\n\nSand is created when rocks, coral and shells are gradually broken down into tiny fragments by the constant action of wind and water. These fragments get carried along by wind or washed down rivers into the ocean. Looking at individual grains of sand under a microscope can actually reveal a surprising amount about where they came from. Quartz sand that has broken down from granite, for example, tends to have sharp, angular edges, while sand that has travelled a long way usually ends up rounder and smoother. The sand on your local beach has probably spent thousands of years tumbling around in the ocean, which is why it's usually fairly rounded. This matters for serious sandcastle builders: larger grains don't stick together easily, and rounded grains don't hold together nearly as well as sharper, more angular ones do.",
+      "prompt": "Which is the best material to use for making a sandcastle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 mm pieces of granite with square-shaped grains"
+        },
+        {
+          "label": "B",
+          "text": "2 mm rounded pieces of shell or coral"
+        },
+        {
+          "label": "C",
+          "text": "1.5 mm quartz grains with angular shapes"
+        },
+        {
+          "label": "D",
+          "text": "3 mm wet grains of rounded quartz"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Only this option is genuinely 'sand' (under 2 mm) and has the angular shape the text says sticks together best.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "Read In her own words and answer questions 8 to 13.\n\nIn her own words\n\nMy teacher says\nI write beautiful stories.\nEssays too. He loves\nreading my work.\nBut he doesn't understand my poems.\n\nHa, I think to myself.\nWhat would he know?\nI love writing poems.\nHe wants\nrhyme and rhythm\nand neat, happy endings\n\nbut my poems\ndon't rhyme,\ncan't rhyme,\nshouldn't rhyme.\n\nRhyme\nisn't what makes a poem.\n\nDad makes a small sound\nof surprise.\nHe didn't know\nhis daughter wrote poems.\nI never show him my notebooks.\nI never showed my grandpa either.\n\nWrong, Dad!\nGrandpa knew.\n\nOn slow afternoons\nwhen you were at work\nand Grandpa and I\nhad the house to ourselves,\n\nI would read him my poems\nand he would read me his.\n\nOne afternoon\nGrandpa read me\na poem\nabout a fox stealing an egg.\n\nGrandpa, I asked him,\nwhy doesn't this poem rhyme?\n\nGrandpa laughed.\n\nWhy, Amira, he said,\ndidn't you know\na poem doesn't have to rhyme?\nIt doesn't have to look\na certain way,\nfollow a certain rule.\n\nNo.\nA poem arrives\nexactly when it's needed\nand writes itself\nin whatever shape\nit needs\nto say what it means.",
+      "prompt": "In the title of the text, the words 'In her own words' suggest that",
+      "options": [
+        {
+          "label": "A",
+          "text": "Amira is very competitive about her writing."
+        },
+        {
+          "label": "B",
+          "text": "Amira has written poetry for a long time."
+        },
+        {
+          "label": "C",
+          "text": "Amira prefers to keep her poems secret."
+        },
+        {
+          "label": "D",
+          "text": "some people do not understand Amira's poems."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The title hints that Amira's poetry follows her own rules, which others (like her teacher) don't always understand.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2014c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "Read In her own words and answer questions 8 to 13.\n\nIn her own words\n\nMy teacher says\nI write beautiful stories.\nEssays too. He loves\nreading my work.\nBut he doesn't understand my poems.\n\nHa, I think to myself.\nWhat would he know?\nI love writing poems.\nHe wants\nrhyme and rhythm\nand neat, happy endings\n\nbut my poems\ndon't rhyme,\ncan't rhyme,\nshouldn't rhyme.\n\nRhyme\nisn't what makes a poem.\n\nDad makes a small sound\nof surprise.\nHe didn't know\nhis daughter wrote poems.\nI never show him my notebooks.\nI never showed my grandpa either.\n\nWrong, Dad!\nGrandpa knew.\n\nOn slow afternoons\nwhen you were at work\nand Grandpa and I\nhad the house to ourselves,\n\nI would read him my poems\nand he would read me his.\n\nOne afternoon\nGrandpa read me\na poem\nabout a fox stealing an egg.\n\nGrandpa, I asked him,\nwhy doesn't this poem rhyme?\n\nGrandpa laughed.\n\nWhy, Amira, he said,\ndidn't you know\na poem doesn't have to rhyme?\nIt doesn't have to look\na certain way,\nfollow a certain rule.\n\nNo.\nA poem arrives\nexactly when it's needed\nand writes itself\nin whatever shape\nit needs\nto say what it means.",
+      "prompt": "Amira's teacher assumed she disliked poetry because",
+      "options": [
+        {
+          "label": "A",
+          "text": "Amira wrote poetry in a form her teacher did not appreciate."
+        },
+        {
+          "label": "B",
+          "text": "Amira wrote essays when she should have been writing poems."
+        },
+        {
+          "label": "C",
+          "text": "Amira misbehaved during poetry lessons."
+        },
+        {
+          "label": "D",
+          "text": "Amira did not know how to write poems that rhyme."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Her teacher only values rhyming poetry, not recognising Amira's non-rhyming style as poetry at all.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "Read In her own words and answer questions 8 to 13.\n\nIn her own words\n\nMy teacher says\nI write beautiful stories.\nEssays too. He loves\nreading my work.\nBut he doesn't understand my poems.\n\nHa, I think to myself.\nWhat would he know?\nI love writing poems.\nHe wants\nrhyme and rhythm\nand neat, happy endings\n\nbut my poems\ndon't rhyme,\ncan't rhyme,\nshouldn't rhyme.\n\nRhyme\nisn't what makes a poem.\n\nDad makes a small sound\nof surprise.\nHe didn't know\nhis daughter wrote poems.\nI never show him my notebooks.\nI never showed my grandpa either.\n\nWrong, Dad!\nGrandpa knew.\n\nOn slow afternoons\nwhen you were at work\nand Grandpa and I\nhad the house to ourselves,\n\nI would read him my poems\nand he would read me his.\n\nOne afternoon\nGrandpa read me\na poem\nabout a fox stealing an egg.\n\nGrandpa, I asked him,\nwhy doesn't this poem rhyme?\n\nGrandpa laughed.\n\nWhy, Amira, he said,\ndidn't you know\na poem doesn't have to rhyme?\nIt doesn't have to look\na certain way,\nfollow a certain rule.\n\nNo.\nA poem arrives\nexactly when it's needed\nand writes itself\nin whatever shape\nit needs\nto say what it means.",
+      "prompt": "In the third stanza, the words 'a small sound of surprise' suggest that Amira's father",
+      "options": [
+        {
+          "label": "A",
+          "text": "keeps quiet about what he is really thinking."
+        },
+        {
+          "label": "B",
+          "text": "is genuinely astonished by the news."
+        },
+        {
+          "label": "C",
+          "text": "is trying to hide his surprise from Amira."
+        },
+        {
+          "label": "D",
+          "text": "already suspected Amira wrote poetry."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "His small sound of surprise shows he genuinely didn't know his daughter wrote poems.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "Read In her own words and answer questions 8 to 13.\n\nIn her own words\n\nMy teacher says\nI write beautiful stories.\nEssays too. He loves\nreading my work.\nBut he doesn't understand my poems.\n\nHa, I think to myself.\nWhat would he know?\nI love writing poems.\nHe wants\nrhyme and rhythm\nand neat, happy endings\n\nbut my poems\ndon't rhyme,\ncan't rhyme,\nshouldn't rhyme.\n\nRhyme\nisn't what makes a poem.\n\nDad makes a small sound\nof surprise.\nHe didn't know\nhis daughter wrote poems.\nI never show him my notebooks.\nI never showed my grandpa either.\n\nWrong, Dad!\nGrandpa knew.\n\nOn slow afternoons\nwhen you were at work\nand Grandpa and I\nhad the house to ourselves,\n\nI would read him my poems\nand he would read me his.\n\nOne afternoon\nGrandpa read me\na poem\nabout a fox stealing an egg.\n\nGrandpa, I asked him,\nwhy doesn't this poem rhyme?\n\nGrandpa laughed.\n\nWhy, Amira, he said,\ndidn't you know\na poem doesn't have to rhyme?\nIt doesn't have to look\na certain way,\nfollow a certain rule.\n\nNo.\nA poem arrives\nexactly when it's needed\nand writes itself\nin whatever shape\nit needs\nto say what it means.",
+      "prompt": "'Why, Amira, didn't you know a poem doesn't have to rhyme?' Why did Grandpa laugh before he said this?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He thought Amira was unusual because she knew so little about poetry."
+        },
+        {
+          "label": "B",
+          "text": "He believed Amira was joking about the poem he had just read."
+        },
+        {
+          "label": "C",
+          "text": "He was genuinely surprised Amira thought poems needed to rhyme."
+        },
+        {
+          "label": "D",
+          "text": "He realised Amira was pretending not to know about poetry."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "His laugh reflects gentle surprise at Amira's assumption that all poems must rhyme.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Read In her own words and answer questions 8 to 13.\n\nIn her own words\n\nMy teacher says\nI write beautiful stories.\nEssays too. He loves\nreading my work.\nBut he doesn't understand my poems.\n\nHa, I think to myself.\nWhat would he know?\nI love writing poems.\nHe wants\nrhyme and rhythm\nand neat, happy endings\n\nbut my poems\ndon't rhyme,\ncan't rhyme,\nshouldn't rhyme.\n\nRhyme\nisn't what makes a poem.\n\nDad makes a small sound\nof surprise.\nHe didn't know\nhis daughter wrote poems.\nI never show him my notebooks.\nI never showed my grandpa either.\n\nWrong, Dad!\nGrandpa knew.\n\nOn slow afternoons\nwhen you were at work\nand Grandpa and I\nhad the house to ourselves,\n\nI would read him my poems\nand he would read me his.\n\nOne afternoon\nGrandpa read me\na poem\nabout a fox stealing an egg.\n\nGrandpa, I asked him,\nwhy doesn't this poem rhyme?\n\nGrandpa laughed.\n\nWhy, Amira, he said,\ndidn't you know\na poem doesn't have to rhyme?\nIt doesn't have to look\na certain way,\nfollow a certain rule.\n\nNo.\nA poem arrives\nexactly when it's needed\nand writes itself\nin whatever shape\nit needs\nto say what it means.",
+      "prompt": "Some parts of the text are set apart with extra spacing because",
+      "options": [
+        {
+          "label": "A",
+          "text": "they express the characters' feelings."
+        },
+        {
+          "label": "B",
+          "text": "they show the conflict between Amira and her teacher."
+        },
+        {
+          "label": "C",
+          "text": "they show what happened in the past."
+        },
+        {
+          "label": "D",
+          "text": "they are words spoken aloud by the characters."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The set-apart lines represent actual dialogue spoken between the characters.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2014c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "Read In her own words and answer questions 8 to 13.\n\nIn her own words\n\nMy teacher says\nI write beautiful stories.\nEssays too. He loves\nreading my work.\nBut he doesn't understand my poems.\n\nHa, I think to myself.\nWhat would he know?\nI love writing poems.\nHe wants\nrhyme and rhythm\nand neat, happy endings\n\nbut my poems\ndon't rhyme,\ncan't rhyme,\nshouldn't rhyme.\n\nRhyme\nisn't what makes a poem.\n\nDad makes a small sound\nof surprise.\nHe didn't know\nhis daughter wrote poems.\nI never show him my notebooks.\nI never showed my grandpa either.\n\nWrong, Dad!\nGrandpa knew.\n\nOn slow afternoons\nwhen you were at work\nand Grandpa and I\nhad the house to ourselves,\n\nI would read him my poems\nand he would read me his.\n\nOne afternoon\nGrandpa read me\na poem\nabout a fox stealing an egg.\n\nGrandpa, I asked him,\nwhy doesn't this poem rhyme?\n\nGrandpa laughed.\n\nWhy, Amira, he said,\ndidn't you know\na poem doesn't have to rhyme?\nIt doesn't have to look\na certain way,\nfollow a certain rule.\n\nNo.\nA poem arrives\nexactly when it's needed\nand writes itself\nin whatever shape\nit needs\nto say what it means.",
+      "prompt": "Amira gained the confidence to write her own style of poetry after",
+      "options": [
+        {
+          "label": "A",
+          "text": "Grandpa explained that there are many ways to write poetry."
+        },
+        {
+          "label": "B",
+          "text": "her father expressed surprise at the quality of her writing."
+        },
+        {
+          "label": "C",
+          "text": "she heard that her teacher liked her stories."
+        },
+        {
+          "label": "D",
+          "text": "she worked out how to improve her rhymes."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Grandpa's explanation that poems don't need to follow rules gives Amira confidence in her own style.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "Read A day at the reptile park and answer questions 14 to 20.\n\nA day at the reptile park\n\nThis is an extract from the novel The Curious Case of Nadia Finch, by Priya Talwar.\n\nSister Constance is the name Nadia and Farhan have secretly given to the strict nun who supervises them at St Aloysius School.\n\nOrdinarily, Nadia and Farhan would have sat as far away as physically possible from Sister Constance. If the nun took a seat at the front of the bus, they'd happily have squeezed in right at the back, practically in a different postcode. But today was different - today, they needed to be close to the action.\n\nTheir eyes were fixed on Sister Constance's built-up shoe, and the faint clicking sound it made with every step. Nadia was thrilled that her theory about the shoe had finally been confirmed. The only question now was how long it would take to find out exactly what was hidden inside it.\n\nThe clicking might stop suddenly, or it might carry on for the whole excursion - there was no way to know for certain. Both girls agreed to keep a close eye on things; it might take a while.\n\nIn the meantime, Nadia was determined to actually enjoy her day at the reptile park.\n\nThey arrived, and Sister Constance clapped her hands sharply and herded the class into two straight lines. Blowing a shrill whistle, she marched at the very front of the group. She'd deliberately separated Nadia and Farhan to stop them whispering and giggling together. These two, she'd decided, had an irritating habit of enjoying themselves far too much, and she wasn't going to allow that kind of nonsense in her class - it needed to be stamped out entirely.\n\nBut it would take more than a bit of hand-clapping and whistle-blowing to stop Nadia from having fun. She wanted to wander freely and look at all the different reptiles on display. Sister Constance, however, had the whole day planned down to the last detail, and marched everyone straight towards the crocodile enclosure.\n\nNadia had no interest in that at all, and as the group rounded a corner, she slipped behind a large potted fern. Turning around, she found herself face to face with a lizard peering back at her through the glass of its tank.",
+      "prompt": "Nadia and Farhan changed their usual seating arrangement because",
+      "options": [
+        {
+          "label": "A",
+          "text": "they wanted a better view of the scenery."
+        },
+        {
+          "label": "B",
+          "text": "they wanted to watch Sister Constance's shoe."
+        },
+        {
+          "label": "C",
+          "text": "Sister Constance told them to sit close to her."
+        },
+        {
+          "label": "D",
+          "text": "they wanted to be first off the bus at the park."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "They needed to be close to observe the clicking sound coming from her shoe.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "Read A day at the reptile park and answer questions 14 to 20.\n\nA day at the reptile park\n\nThis is an extract from the novel The Curious Case of Nadia Finch, by Priya Talwar.\n\nSister Constance is the name Nadia and Farhan have secretly given to the strict nun who supervises them at St Aloysius School.\n\nOrdinarily, Nadia and Farhan would have sat as far away as physically possible from Sister Constance. If the nun took a seat at the front of the bus, they'd happily have squeezed in right at the back, practically in a different postcode. But today was different - today, they needed to be close to the action.\n\nTheir eyes were fixed on Sister Constance's built-up shoe, and the faint clicking sound it made with every step. Nadia was thrilled that her theory about the shoe had finally been confirmed. The only question now was how long it would take to find out exactly what was hidden inside it.\n\nThe clicking might stop suddenly, or it might carry on for the whole excursion - there was no way to know for certain. Both girls agreed to keep a close eye on things; it might take a while.\n\nIn the meantime, Nadia was determined to actually enjoy her day at the reptile park.\n\nThey arrived, and Sister Constance clapped her hands sharply and herded the class into two straight lines. Blowing a shrill whistle, she marched at the very front of the group. She'd deliberately separated Nadia and Farhan to stop them whispering and giggling together. These two, she'd decided, had an irritating habit of enjoying themselves far too much, and she wasn't going to allow that kind of nonsense in her class - it needed to be stamped out entirely.\n\nBut it would take more than a bit of hand-clapping and whistle-blowing to stop Nadia from having fun. She wanted to wander freely and look at all the different reptiles on display. Sister Constance, however, had the whole day planned down to the last detail, and marched everyone straight towards the crocodile enclosure.\n\nNadia had no interest in that at all, and as the group rounded a corner, she slipped behind a large potted fern. Turning around, she found herself face to face with a lizard peering back at her through the glass of its tank.",
+      "prompt": "Nadia's plan to confirm her theory about the shoe involved",
+      "options": [
+        {
+          "label": "A",
+          "text": "asking Sister Constance directly."
+        },
+        {
+          "label": "B",
+          "text": "getting Farhan to follow her around."
+        },
+        {
+          "label": "C",
+          "text": "listening for a clicking sound."
+        },
+        {
+          "label": "D",
+          "text": "making Sister Constance walk faster."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The girls fixed their attention on the clicking sound the shoe made with every step.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Read A day at the reptile park and answer questions 14 to 20.\n\nA day at the reptile park\n\nThis is an extract from the novel The Curious Case of Nadia Finch, by Priya Talwar.\n\nSister Constance is the name Nadia and Farhan have secretly given to the strict nun who supervises them at St Aloysius School.\n\nOrdinarily, Nadia and Farhan would have sat as far away as physically possible from Sister Constance. If the nun took a seat at the front of the bus, they'd happily have squeezed in right at the back, practically in a different postcode. But today was different - today, they needed to be close to the action.\n\nTheir eyes were fixed on Sister Constance's built-up shoe, and the faint clicking sound it made with every step. Nadia was thrilled that her theory about the shoe had finally been confirmed. The only question now was how long it would take to find out exactly what was hidden inside it.\n\nThe clicking might stop suddenly, or it might carry on for the whole excursion - there was no way to know for certain. Both girls agreed to keep a close eye on things; it might take a while.\n\nIn the meantime, Nadia was determined to actually enjoy her day at the reptile park.\n\nThey arrived, and Sister Constance clapped her hands sharply and herded the class into two straight lines. Blowing a shrill whistle, she marched at the very front of the group. She'd deliberately separated Nadia and Farhan to stop them whispering and giggling together. These two, she'd decided, had an irritating habit of enjoying themselves far too much, and she wasn't going to allow that kind of nonsense in her class - it needed to be stamped out entirely.\n\nBut it would take more than a bit of hand-clapping and whistle-blowing to stop Nadia from having fun. She wanted to wander freely and look at all the different reptiles on display. Sister Constance, however, had the whole day planned down to the last detail, and marched everyone straight towards the crocodile enclosure.\n\nNadia had no interest in that at all, and as the group rounded a corner, she slipped behind a large potted fern. Turning around, she found herself face to face with a lizard peering back at her through the glass of its tank.",
+      "prompt": "Which word is NOT used as a verb in the first paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'fixed'"
+        },
+        {
+          "label": "B",
+          "text": "'confirmed'"
+        },
+        {
+          "label": "C",
+          "text": "'thrilled'"
+        },
+        {
+          "label": "D",
+          "text": "'theory'"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Theory' is a noun in this paragraph, describing Nadia's idea rather than an action.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2014c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Read A day at the reptile park and answer questions 14 to 20.\n\nA day at the reptile park\n\nThis is an extract from the novel The Curious Case of Nadia Finch, by Priya Talwar.\n\nSister Constance is the name Nadia and Farhan have secretly given to the strict nun who supervises them at St Aloysius School.\n\nOrdinarily, Nadia and Farhan would have sat as far away as physically possible from Sister Constance. If the nun took a seat at the front of the bus, they'd happily have squeezed in right at the back, practically in a different postcode. But today was different - today, they needed to be close to the action.\n\nTheir eyes were fixed on Sister Constance's built-up shoe, and the faint clicking sound it made with every step. Nadia was thrilled that her theory about the shoe had finally been confirmed. The only question now was how long it would take to find out exactly what was hidden inside it.\n\nThe clicking might stop suddenly, or it might carry on for the whole excursion - there was no way to know for certain. Both girls agreed to keep a close eye on things; it might take a while.\n\nIn the meantime, Nadia was determined to actually enjoy her day at the reptile park.\n\nThey arrived, and Sister Constance clapped her hands sharply and herded the class into two straight lines. Blowing a shrill whistle, she marched at the very front of the group. She'd deliberately separated Nadia and Farhan to stop them whispering and giggling together. These two, she'd decided, had an irritating habit of enjoying themselves far too much, and she wasn't going to allow that kind of nonsense in her class - it needed to be stamped out entirely.\n\nBut it would take more than a bit of hand-clapping and whistle-blowing to stop Nadia from having fun. She wanted to wander freely and look at all the different reptiles on display. Sister Constance, however, had the whole day planned down to the last detail, and marched everyone straight towards the crocodile enclosure.\n\nNadia had no interest in that at all, and as the group rounded a corner, she slipped behind a large potted fern. Turning around, she found herself face to face with a lizard peering back at her through the glass of its tank.",
+      "prompt": "The sentence 'there was no way to know for certain' is",
+      "options": [
+        {
+          "label": "A",
+          "text": "something that Nadia thought."
+        },
+        {
+          "label": "B",
+          "text": "the writer's observation."
+        },
+        {
+          "label": "C",
+          "text": "a concern that Farhan had."
+        },
+        {
+          "label": "D",
+          "text": "advice for the reader."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "This reflects Nadia's own uncertain thoughts about how long the mystery might take to solve.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Read A day at the reptile park and answer questions 14 to 20.\n\nA day at the reptile park\n\nThis is an extract from the novel The Curious Case of Nadia Finch, by Priya Talwar.\n\nSister Constance is the name Nadia and Farhan have secretly given to the strict nun who supervises them at St Aloysius School.\n\nOrdinarily, Nadia and Farhan would have sat as far away as physically possible from Sister Constance. If the nun took a seat at the front of the bus, they'd happily have squeezed in right at the back, practically in a different postcode. But today was different - today, they needed to be close to the action.\n\nTheir eyes were fixed on Sister Constance's built-up shoe, and the faint clicking sound it made with every step. Nadia was thrilled that her theory about the shoe had finally been confirmed. The only question now was how long it would take to find out exactly what was hidden inside it.\n\nThe clicking might stop suddenly, or it might carry on for the whole excursion - there was no way to know for certain. Both girls agreed to keep a close eye on things; it might take a while.\n\nIn the meantime, Nadia was determined to actually enjoy her day at the reptile park.\n\nThey arrived, and Sister Constance clapped her hands sharply and herded the class into two straight lines. Blowing a shrill whistle, she marched at the very front of the group. She'd deliberately separated Nadia and Farhan to stop them whispering and giggling together. These two, she'd decided, had an irritating habit of enjoying themselves far too much, and she wasn't going to allow that kind of nonsense in her class - it needed to be stamped out entirely.\n\nBut it would take more than a bit of hand-clapping and whistle-blowing to stop Nadia from having fun. She wanted to wander freely and look at all the different reptiles on display. Sister Constance, however, had the whole day planned down to the last detail, and marched everyone straight towards the crocodile enclosure.\n\nNadia had no interest in that at all, and as the group rounded a corner, she slipped behind a large potted fern. Turning around, she found herself face to face with a lizard peering back at her through the glass of its tank.",
+      "prompt": "What does 'it might take a while' refer to?",
+      "options": [
+        {
+          "label": "A",
+          "text": "a specific place"
+        },
+        {
+          "label": "B",
+          "text": "finding out what was in the shoe"
+        },
+        {
+          "label": "C",
+          "text": "a particular time"
+        },
+        {
+          "label": "D",
+          "text": "an ongoing event"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "It refers to how long it might take to discover the shoe's secret.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "Read A day at the reptile park and answer questions 14 to 20.\n\nA day at the reptile park\n\nThis is an extract from the novel The Curious Case of Nadia Finch, by Priya Talwar.\n\nSister Constance is the name Nadia and Farhan have secretly given to the strict nun who supervises them at St Aloysius School.\n\nOrdinarily, Nadia and Farhan would have sat as far away as physically possible from Sister Constance. If the nun took a seat at the front of the bus, they'd happily have squeezed in right at the back, practically in a different postcode. But today was different - today, they needed to be close to the action.\n\nTheir eyes were fixed on Sister Constance's built-up shoe, and the faint clicking sound it made with every step. Nadia was thrilled that her theory about the shoe had finally been confirmed. The only question now was how long it would take to find out exactly what was hidden inside it.\n\nThe clicking might stop suddenly, or it might carry on for the whole excursion - there was no way to know for certain. Both girls agreed to keep a close eye on things; it might take a while.\n\nIn the meantime, Nadia was determined to actually enjoy her day at the reptile park.\n\nThey arrived, and Sister Constance clapped her hands sharply and herded the class into two straight lines. Blowing a shrill whistle, she marched at the very front of the group. She'd deliberately separated Nadia and Farhan to stop them whispering and giggling together. These two, she'd decided, had an irritating habit of enjoying themselves far too much, and she wasn't going to allow that kind of nonsense in her class - it needed to be stamped out entirely.\n\nBut it would take more than a bit of hand-clapping and whistle-blowing to stop Nadia from having fun. She wanted to wander freely and look at all the different reptiles on display. Sister Constance, however, had the whole day planned down to the last detail, and marched everyone straight towards the crocodile enclosure.\n\nNadia had no interest in that at all, and as the group rounded a corner, she slipped behind a large potted fern. Turning around, she found herself face to face with a lizard peering back at her through the glass of its tank.",
+      "prompt": "The writer uses the word 'herded' to reinforce the idea that the students were",
+      "options": [
+        {
+          "label": "A",
+          "text": "willing to do anything to please their teacher."
+        },
+        {
+          "label": "B",
+          "text": "about to undertake special duties at the park."
+        },
+        {
+          "label": "C",
+          "text": "being strictly controlled by their teacher."
+        },
+        {
+          "label": "D",
+          "text": "going on a tour with a zookeeper."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Herded' compares the students to animals being driven, emphasising strict control.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2014c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "Read A day at the reptile park and answer questions 14 to 20.\n\nA day at the reptile park\n\nThis is an extract from the novel The Curious Case of Nadia Finch, by Priya Talwar.\n\nSister Constance is the name Nadia and Farhan have secretly given to the strict nun who supervises them at St Aloysius School.\n\nOrdinarily, Nadia and Farhan would have sat as far away as physically possible from Sister Constance. If the nun took a seat at the front of the bus, they'd happily have squeezed in right at the back, practically in a different postcode. But today was different - today, they needed to be close to the action.\n\nTheir eyes were fixed on Sister Constance's built-up shoe, and the faint clicking sound it made with every step. Nadia was thrilled that her theory about the shoe had finally been confirmed. The only question now was how long it would take to find out exactly what was hidden inside it.\n\nThe clicking might stop suddenly, or it might carry on for the whole excursion - there was no way to know for certain. Both girls agreed to keep a close eye on things; it might take a while.\n\nIn the meantime, Nadia was determined to actually enjoy her day at the reptile park.\n\nThey arrived, and Sister Constance clapped her hands sharply and herded the class into two straight lines. Blowing a shrill whistle, she marched at the very front of the group. She'd deliberately separated Nadia and Farhan to stop them whispering and giggling together. These two, she'd decided, had an irritating habit of enjoying themselves far too much, and she wasn't going to allow that kind of nonsense in her class - it needed to be stamped out entirely.\n\nBut it would take more than a bit of hand-clapping and whistle-blowing to stop Nadia from having fun. She wanted to wander freely and look at all the different reptiles on display. Sister Constance, however, had the whole day planned down to the last detail, and marched everyone straight towards the crocodile enclosure.\n\nNadia had no interest in that at all, and as the group rounded a corner, she slipped behind a large potted fern. Turning around, she found herself face to face with a lizard peering back at her through the glass of its tank.",
+      "prompt": "In order for readers to understand the students' feelings about Sister Constance, they must know",
+      "options": [
+        {
+          "label": "A",
+          "text": "how she got her built-up shoe."
+        },
+        {
+          "label": "B",
+          "text": "the name of the school they attend."
+        },
+        {
+          "label": "C",
+          "text": "that nuns are generally strict."
+        },
+        {
+          "label": "D",
+          "text": "how long she has taught their class."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Understanding how long she has supervised them helps explain the depth of their secretive dislike.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "Sea spiders are able to feed on sea anemones because",
+      "options": [
+        {
+          "label": "A",
+          "text": "they have soft bodies."
+        },
+        {
+          "label": "B",
+          "text": "they have thin bodies."
+        },
+        {
+          "label": "C",
+          "text": "they are larger than their predators."
+        },
+        {
+          "label": "D",
+          "text": "they are able to survive after being attacked."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The proboscis is inserted into 'the soft body' of the prey — that's what makes them able to be fed on this way.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "What is the meaning of the word 'gruesome'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "frequent"
+        },
+        {
+          "label": "B",
+          "text": "horrifying"
+        },
+        {
+          "label": "C",
+          "text": "unexpected"
+        },
+        {
+          "label": "D",
+          "text": "sudden"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Gruesome' describes something shocking or horrifying to witness.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2014c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "Sea spiders breathe by diffusion. This allows them to",
+      "options": [
+        {
+          "label": "A",
+          "text": "store oxygen in their legs."
+        },
+        {
+          "label": "B",
+          "text": "control their own respiratory system."
+        },
+        {
+          "label": "C",
+          "text": "take in oxygen through their skin."
+        },
+        {
+          "label": "D",
+          "text": "absorb oxygen from their prey."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text explains that oxygen 'passes straight through their skin' rather than through lungs or gills.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "'Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.' Which word or words could be placed at the beginning of this sentence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "As a result"
+        },
+        {
+          "label": "B",
+          "text": "However"
+        },
+        {
+          "label": "C",
+          "text": "Yet"
+        },
+        {
+          "label": "D",
+          "text": "In addition"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This sentence adds another unusual fact to the list, so 'In addition' fits best.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2014c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "Why are sea spiders described in the text as difficult to classify?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are arthropods with an unusual feeding organ."
+        },
+        {
+          "label": "B",
+          "text": "They are arachnids that also breathe by diffusion."
+        },
+        {
+          "label": "C",
+          "text": "They are invertebrates that are also carnivorous."
+        },
+        {
+          "label": "D",
+          "text": "They can live in both deep and shallow water."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "They fit the broad arthropod group, but their strange proboscis makes their exact classification tricky.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "What is the main purpose of the final paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to scare readers away from ever going near sea spiders"
+        },
+        {
+          "label": "B",
+          "text": "to reassure readers that sea spiders are unlikely to threaten them"
+        },
+        {
+          "label": "C",
+          "text": "to encourage readers to research Antarctic sea spiders themselves"
+        },
+        {
+          "label": "D",
+          "text": "to warn readers about the risks of exploring rock pools"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The paragraph reassures readers that the largest sea spiders live far away in Antarctica, not at their local beach.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "What is the text beneath a photograph in an article usually called?",
+      "options": [
+        {
+          "label": "A",
+          "text": "label"
+        },
+        {
+          "label": "B",
+          "text": "subheading"
+        },
+        {
+          "label": "C",
+          "text": "caption"
+        },
+        {
+          "label": "D",
+          "text": "glossary"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Short explanatory text under an image is called a caption.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "What does the writer assume about readers of this text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They already know what a sea spider looks like."
+        },
+        {
+          "label": "B",
+          "text": "They understand what a proboscis is."
+        },
+        {
+          "label": "C",
+          "text": "They have visited Antarctica before."
+        },
+        {
+          "label": "D",
+          "text": "They are scared of spiders."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The reassuring tone, especially the ending, implies the writer expects readers to feel uneasy about spiders.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2014c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "Read Living bridges and answer questions 29 to 35.\n\nLiving bridges\n\nGrowing a lawn or a garden is easy enough - but what about growing a bridge? In a small corner of north-eastern India, in the hill town of Cherrapunji, local people have been shaping the roots of the Ficus elastica, or Indian rubber tree, into strong, living bridges for well over 500 years. The process is simple enough, once you know what you're doing.\n\nSupporting roots growing out from the trunk of a young rubber tree are carefully guided through the hollow centre of an old tree trunk laid across a river or gully. Over time, the roots keep growing until they reach the far bank and take hold there. Add a few more roots to thicken the floor, a few more for handrails, and - remarkably - you have yourself a living bridge.\n\nBecause these bridges are made of living wood, they don't rot away the way ordinary timber bridges eventually do. In fact, many of them actually get stronger with age, as the roots forming their structure continue to thicken. Some root bridges stretch close to 30 metres and can hold the weight of 50 people at once.\n\nThese extraordinary bridges have existed in this remote part of India for centuries, though the wider world has only recently heard about them. These days, the villagers responsible for growing and maintaining the bridges do so with a real awareness of how unique and precious their creations are.\n\n'Going green' might be a fashionable goal for modern architects trying to reduce their environmental footprint, but few could ever hope to match the quiet ingenuity of the people of Cherrapunji.",
+      "prompt": "In the first sentence, the writer says 'but what about growing a bridge?' because",
+      "options": [
+        {
+          "label": "A",
+          "text": "he wants to interest readers in the idea of growing a bridge."
+        },
+        {
+          "label": "B",
+          "text": "he thinks bridges are useful garden features."
+        },
+        {
+          "label": "C",
+          "text": "he wants to challenge readers to grow bridges."
+        },
+        {
+          "label": "D",
+          "text": "he is undecided if it is possible to grow a bridge."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The surprising question hooks readers' curiosity about an unusual idea.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2014c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "Read Living bridges and answer questions 29 to 35.\n\nLiving bridges\n\nGrowing a lawn or a garden is easy enough - but what about growing a bridge? In a small corner of north-eastern India, in the hill town of Cherrapunji, local people have been shaping the roots of the Ficus elastica, or Indian rubber tree, into strong, living bridges for well over 500 years. The process is simple enough, once you know what you're doing.\n\nSupporting roots growing out from the trunk of a young rubber tree are carefully guided through the hollow centre of an old tree trunk laid across a river or gully. Over time, the roots keep growing until they reach the far bank and take hold there. Add a few more roots to thicken the floor, a few more for handrails, and - remarkably - you have yourself a living bridge.\n\nBecause these bridges are made of living wood, they don't rot away the way ordinary timber bridges eventually do. In fact, many of them actually get stronger with age, as the roots forming their structure continue to thicken. Some root bridges stretch close to 30 metres and can hold the weight of 50 people at once.\n\nThese extraordinary bridges have existed in this remote part of India for centuries, though the wider world has only recently heard about them. These days, the villagers responsible for growing and maintaining the bridges do so with a real awareness of how unique and precious their creations are.\n\n'Going green' might be a fashionable goal for modern architects trying to reduce their environmental footprint, but few could ever hope to match the quiet ingenuity of the people of Cherrapunji.",
+      "prompt": "The first step in building a living bridge involves",
+      "options": [
+        {
+          "label": "A",
+          "text": "locating a gully 30 metres wide."
+        },
+        {
+          "label": "B",
+          "text": "guiding supporting roots to grow through a hollow trunk."
+        },
+        {
+          "label": "C",
+          "text": "laying a hollow log across a gap."
+        },
+        {
+          "label": "D",
+          "text": "weaving tree roots to form a floor."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text describes roots being 'carefully guided through the hollow centre' of a laid trunk as the first step.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "Read Living bridges and answer questions 29 to 35.\n\nLiving bridges\n\nGrowing a lawn or a garden is easy enough - but what about growing a bridge? In a small corner of north-eastern India, in the hill town of Cherrapunji, local people have been shaping the roots of the Ficus elastica, or Indian rubber tree, into strong, living bridges for well over 500 years. The process is simple enough, once you know what you're doing.\n\nSupporting roots growing out from the trunk of a young rubber tree are carefully guided through the hollow centre of an old tree trunk laid across a river or gully. Over time, the roots keep growing until they reach the far bank and take hold there. Add a few more roots to thicken the floor, a few more for handrails, and - remarkably - you have yourself a living bridge.\n\nBecause these bridges are made of living wood, they don't rot away the way ordinary timber bridges eventually do. In fact, many of them actually get stronger with age, as the roots forming their structure continue to thicken. Some root bridges stretch close to 30 metres and can hold the weight of 50 people at once.\n\nThese extraordinary bridges have existed in this remote part of India for centuries, though the wider world has only recently heard about them. These days, the villagers responsible for growing and maintaining the bridges do so with a real awareness of how unique and precious their creations are.\n\n'Going green' might be a fashionable goal for modern architects trying to reduce their environmental footprint, but few could ever hope to match the quiet ingenuity of the people of Cherrapunji.",
+      "prompt": "According to the text, which feature of the Ficus elastica makes it suitable for building living bridges?",
+      "options": [
+        {
+          "label": "A",
+          "text": "its rubbery bark"
+        },
+        {
+          "label": "B",
+          "text": "its hollow trunk"
+        },
+        {
+          "label": "C",
+          "text": "its supporting roots"
+        },
+        {
+          "label": "D",
+          "text": "the size of its leaves"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The tree's supporting roots are what get guided and shaped into the bridge structure.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "Read Living bridges and answer questions 29 to 35.\n\nLiving bridges\n\nGrowing a lawn or a garden is easy enough - but what about growing a bridge? In a small corner of north-eastern India, in the hill town of Cherrapunji, local people have been shaping the roots of the Ficus elastica, or Indian rubber tree, into strong, living bridges for well over 500 years. The process is simple enough, once you know what you're doing.\n\nSupporting roots growing out from the trunk of a young rubber tree are carefully guided through the hollow centre of an old tree trunk laid across a river or gully. Over time, the roots keep growing until they reach the far bank and take hold there. Add a few more roots to thicken the floor, a few more for handrails, and - remarkably - you have yourself a living bridge.\n\nBecause these bridges are made of living wood, they don't rot away the way ordinary timber bridges eventually do. In fact, many of them actually get stronger with age, as the roots forming their structure continue to thicken. Some root bridges stretch close to 30 metres and can hold the weight of 50 people at once.\n\nThese extraordinary bridges have existed in this remote part of India for centuries, though the wider world has only recently heard about them. These days, the villagers responsible for growing and maintaining the bridges do so with a real awareness of how unique and precious their creations are.\n\n'Going green' might be a fashionable goal for modern architects trying to reduce their environmental footprint, but few could ever hope to match the quiet ingenuity of the people of Cherrapunji.",
+      "prompt": "In the first sentence of the third paragraph, which word could replace 'Because' and retain the same meaning?",
+      "options": [
+        {
+          "label": "A",
+          "text": "When"
+        },
+        {
+          "label": "B",
+          "text": "Although"
+        },
+        {
+          "label": "C",
+          "text": "Whereas"
+        },
+        {
+          "label": "D",
+          "text": "Since"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Since' introduces a reason, matching the meaning of 'Because' in this sentence.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2014c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "Read Living bridges and answer questions 29 to 35.\n\nLiving bridges\n\nGrowing a lawn or a garden is easy enough - but what about growing a bridge? In a small corner of north-eastern India, in the hill town of Cherrapunji, local people have been shaping the roots of the Ficus elastica, or Indian rubber tree, into strong, living bridges for well over 500 years. The process is simple enough, once you know what you're doing.\n\nSupporting roots growing out from the trunk of a young rubber tree are carefully guided through the hollow centre of an old tree trunk laid across a river or gully. Over time, the roots keep growing until they reach the far bank and take hold there. Add a few more roots to thicken the floor, a few more for handrails, and - remarkably - you have yourself a living bridge.\n\nBecause these bridges are made of living wood, they don't rot away the way ordinary timber bridges eventually do. In fact, many of them actually get stronger with age, as the roots forming their structure continue to thicken. Some root bridges stretch close to 30 metres and can hold the weight of 50 people at once.\n\nThese extraordinary bridges have existed in this remote part of India for centuries, though the wider world has only recently heard about them. These days, the villagers responsible for growing and maintaining the bridges do so with a real awareness of how unique and precious their creations are.\n\n'Going green' might be a fashionable goal for modern architects trying to reduce their environmental footprint, but few could ever hope to match the quiet ingenuity of the people of Cherrapunji.",
+      "prompt": "What is the main idea of the third paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the benefits of a living bridge compared with a wooden one"
+        },
+        {
+          "label": "B",
+          "text": "the types of roots that form the living bridges"
+        },
+        {
+          "label": "C",
+          "text": "why living bridges are easier to build than wooden ones"
+        },
+        {
+          "label": "D",
+          "text": "how modern bridges can be strengthened using tree roots"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The paragraph contrasts living bridges (which strengthen over time) with wooden ones (which eventually rot).",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "Read Living bridges and answer questions 29 to 35.\n\nLiving bridges\n\nGrowing a lawn or a garden is easy enough - but what about growing a bridge? In a small corner of north-eastern India, in the hill town of Cherrapunji, local people have been shaping the roots of the Ficus elastica, or Indian rubber tree, into strong, living bridges for well over 500 years. The process is simple enough, once you know what you're doing.\n\nSupporting roots growing out from the trunk of a young rubber tree are carefully guided through the hollow centre of an old tree trunk laid across a river or gully. Over time, the roots keep growing until they reach the far bank and take hold there. Add a few more roots to thicken the floor, a few more for handrails, and - remarkably - you have yourself a living bridge.\n\nBecause these bridges are made of living wood, they don't rot away the way ordinary timber bridges eventually do. In fact, many of them actually get stronger with age, as the roots forming their structure continue to thicken. Some root bridges stretch close to 30 metres and can hold the weight of 50 people at once.\n\nThese extraordinary bridges have existed in this remote part of India for centuries, though the wider world has only recently heard about them. These days, the villagers responsible for growing and maintaining the bridges do so with a real awareness of how unique and precious their creations are.\n\n'Going green' might be a fashionable goal for modern architects trying to reduce their environmental footprint, but few could ever hope to match the quiet ingenuity of the people of Cherrapunji.",
+      "prompt": "Based on information in the last paragraph, what is one result of the bridges becoming more widely known?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Engineers around the world are now attempting to copy the living bridges."
+        },
+        {
+          "label": "B",
+          "text": "The bridge builders now realise their bridges are exceptional and worth protecting."
+        },
+        {
+          "label": "C",
+          "text": "The bridge builders now charge tourists to access the bridges."
+        },
+        {
+          "label": "D",
+          "text": "The people of Cherrapunji have begun building bridges only for tourists."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text says villagers now maintain the bridges 'with a real awareness of' their unique value.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "Read Living bridges and answer questions 29 to 35.\n\nLiving bridges\n\nGrowing a lawn or a garden is easy enough - but what about growing a bridge? In a small corner of north-eastern India, in the hill town of Cherrapunji, local people have been shaping the roots of the Ficus elastica, or Indian rubber tree, into strong, living bridges for well over 500 years. The process is simple enough, once you know what you're doing.\n\nSupporting roots growing out from the trunk of a young rubber tree are carefully guided through the hollow centre of an old tree trunk laid across a river or gully. Over time, the roots keep growing until they reach the far bank and take hold there. Add a few more roots to thicken the floor, a few more for handrails, and - remarkably - you have yourself a living bridge.\n\nBecause these bridges are made of living wood, they don't rot away the way ordinary timber bridges eventually do. In fact, many of them actually get stronger with age, as the roots forming their structure continue to thicken. Some root bridges stretch close to 30 metres and can hold the weight of 50 people at once.\n\nThese extraordinary bridges have existed in this remote part of India for centuries, though the wider world has only recently heard about them. These days, the villagers responsible for growing and maintaining the bridges do so with a real awareness of how unique and precious their creations are.\n\n'Going green' might be a fashionable goal for modern architects trying to reduce their environmental footprint, but few could ever hope to match the quiet ingenuity of the people of Cherrapunji.",
+      "prompt": "The phrase 'with a real awareness of' most nearly means",
+      "options": [
+        {
+          "label": "A",
+          "text": "worrying about."
+        },
+        {
+          "label": "B",
+          "text": "arguing for."
+        },
+        {
+          "label": "C",
+          "text": "knowing and appreciating."
+        },
+        {
+          "label": "D",
+          "text": "profiting from."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Awareness of' something's value means understanding and appreciating it.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2014c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "What do the words 'recently-inherited' suggest about Tobias's cape?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Nobody else was allowed to wear a cape."
+        },
+        {
+          "label": "B",
+          "text": "He had worked hard to earn the cape."
+        },
+        {
+          "label": "C",
+          "text": "The cape had been passed down for generations."
+        },
+        {
+          "label": "D",
+          "text": "He had just been given it."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Recently-inherited' simply means he received the cape not long ago.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "'Clearly, encouragement was not a skill Tobias had yet developed.' Which word best describes the narrator's tone in this sentence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "sarcastic"
+        },
+        {
+          "label": "B",
+          "text": "admiring"
+        },
+        {
+          "label": "C",
+          "text": "sympathetic"
+        },
+        {
+          "label": "D",
+          "text": "doubtful"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The narrator says the opposite of what she means for ironic, sarcastic effect.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2014c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "When Priya described the tower as looking 'designed by a toddler with a grudge,' she meant that it was",
+      "options": [
+        {
+          "label": "A",
+          "text": "ruined."
+        },
+        {
+          "label": "B",
+          "text": "messy and uneven."
+        },
+        {
+          "label": "C",
+          "text": "dangerously tall."
+        },
+        {
+          "label": "D",
+          "text": "beautifully creative."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The comparison suggests the tower was built clumsily and unevenly.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2014c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "According to Priya, why did the other children go along with Tobias's plans?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He had the loudest voice."
+        },
+        {
+          "label": "B",
+          "text": "He had the most sensible ideas."
+        },
+        {
+          "label": "C",
+          "text": "They simply agreed with whatever he said, without question."
+        },
+        {
+          "label": "D",
+          "text": "Nobody else wanted the responsibility of being captain."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Yes, Tobias. Whatever you say, Tobias' shows the children simply agreeing, rather than genuinely being persuaded.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "The writer changes from a narrative style to a numbered list in order to",
+      "options": [
+        {
+          "label": "A",
+          "text": "imitate the way Tobias liked to give instructions"
+        },
+        {
+          "label": "B",
+          "text": "provide an alternative, more official-sounding account of events"
+        },
+        {
+          "label": "C",
+          "text": "show how many separate mistakes were made that day"
+        },
+        {
+          "label": "D",
+          "text": "make the retelling of events seem completely objective."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The plain, numbered 'mission log' format makes the events sound neutral and factual, distancing the children from blame.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2014c-q41",
+      "number": 41,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "Which point in the mission log supports the idea that the log was written without Tobias's knowledge?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Point 5, because it reveals that Tobias ran away first."
+        },
+        {
+          "label": "B",
+          "text": "Point 1, because it says the brick gathered speed by itself."
+        },
+        {
+          "label": "C",
+          "text": "Point 3, because it says the foundation 'shifted' rather than collapsed."
+        },
+        {
+          "label": "D",
+          "text": "Point 4, because it blames the bricks rather than the children."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Tobias would be unlikely to record that he fled the scene first, since it makes him look bad.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q42",
+      "number": 42,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "Which is NOT a possible reason for Mr Yorke's explanation for the toppled tower?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He wanted to protect his son from blame."
+        },
+        {
+          "label": "B",
+          "text": "He wanted to impress the other parents with his knowledge of weather."
+        },
+        {
+          "label": "C",
+          "text": "He was trying to reassure the worried neighbours."
+        },
+        {
+          "label": "D",
+          "text": "He genuinely believed a gust of wind was responsible."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Nothing in the text suggests Mr Yorke was trying to show off his weather knowledge.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q43",
+      "number": 43,
+      "type": "multiple_choice",
+      "passage": "Read the letter to the editor and answer questions 43 to 48.\n\nThe Daily Journal\nLetters to the editor\n\nThunderdrop\n15 September\n\nI rode the new Thunderdrop that Marcus Webb complained about in his letter to your newspaper (Letters, 12 September). It was every bit as 'fast and jarring' as Mr Webb described - which, frankly, is exactly what a theme park ride is supposed to be!\n\nI suspect Mr Webb's real problem is that this ride was unlike anything he'd experienced before. It's fairly obvious he hasn't set foot in a theme park for a very long time. In a way, I understand the complaint: a hundred and fifty years ago, a horse-drawn carousel seemed thrilling, and people were nervous of anything that spun too fast. When the first roller coasters appeared in the early 1900s, they caused a genuine sensation. For Mr Webb, Thunderdrop is simply the modern equivalent - a little frightening, because it's unfamiliar.\n\nOf course, times have changed. Old-fashioned carousels are considered tame now, and if you climb aboard a drop ride, you should expect your stomach to lurch. Carousels are for toddlers, grandparents and the faint-hearted - the Marcus Webbs of the world. Not for me, though.\n\nThis is exactly why Mr Webb's claim that something is wrong with Thunderdrop completely misses the point. He was frightened - 'terrified out of my wits' were his exact words. He went on an extreme drop ride and, unsurprisingly, felt extreme. That doesn't mean the ride is faulty or unsafe - it's meant to feel intense. That's how it was built, how it was advertised, and exactly how people my age (myself included) like it.\n\nThunderdrop Fan",
+      "prompt": "How does the writer introduce his argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He makes use of Marcus Webb's words to present his point of view."
+        },
+        {
+          "label": "B",
+          "text": "He uses words from advertising material that promotes the ride."
+        },
+        {
+          "label": "C",
+          "text": "He refers to his personal experience on the ride."
+        },
+        {
+          "label": "D",
+          "text": "He rejects Marcus Webb's opinion by stating a fact."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The writer opens by describing his own ride on Thunderdrop.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q44",
+      "number": 44,
+      "type": "multiple_choice",
+      "passage": "Read the letter to the editor and answer questions 43 to 48.\n\nThe Daily Journal\nLetters to the editor\n\nThunderdrop\n15 September\n\nI rode the new Thunderdrop that Marcus Webb complained about in his letter to your newspaper (Letters, 12 September). It was every bit as 'fast and jarring' as Mr Webb described - which, frankly, is exactly what a theme park ride is supposed to be!\n\nI suspect Mr Webb's real problem is that this ride was unlike anything he'd experienced before. It's fairly obvious he hasn't set foot in a theme park for a very long time. In a way, I understand the complaint: a hundred and fifty years ago, a horse-drawn carousel seemed thrilling, and people were nervous of anything that spun too fast. When the first roller coasters appeared in the early 1900s, they caused a genuine sensation. For Mr Webb, Thunderdrop is simply the modern equivalent - a little frightening, because it's unfamiliar.\n\nOf course, times have changed. Old-fashioned carousels are considered tame now, and if you climb aboard a drop ride, you should expect your stomach to lurch. Carousels are for toddlers, grandparents and the faint-hearted - the Marcus Webbs of the world. Not for me, though.\n\nThis is exactly why Mr Webb's claim that something is wrong with Thunderdrop completely misses the point. He was frightened - 'terrified out of my wits' were his exact words. He went on an extreme drop ride and, unsurprisingly, felt extreme. That doesn't mean the ride is faulty or unsafe - it's meant to feel intense. That's how it was built, how it was advertised, and exactly how people my age (myself included) like it.\n\nThunderdrop Fan",
+      "prompt": "The dashes in the first paragraph are used to",
+      "options": [
+        {
+          "label": "A",
+          "text": "present a contradictory idea."
+        },
+        {
+          "label": "B",
+          "text": "summarise Marcus Webb's ideas."
+        },
+        {
+          "label": "C",
+          "text": "quote information from the original article."
+        },
+        {
+          "label": "D",
+          "text": "insert a comment by the writer."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The dash sets off the writer's own aside about what a ride 'is supposed to be'.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2014c-q45",
+      "number": 45,
+      "type": "multiple_choice",
+      "passage": "Read the letter to the editor and answer questions 43 to 48.\n\nThe Daily Journal\nLetters to the editor\n\nThunderdrop\n15 September\n\nI rode the new Thunderdrop that Marcus Webb complained about in his letter to your newspaper (Letters, 12 September). It was every bit as 'fast and jarring' as Mr Webb described - which, frankly, is exactly what a theme park ride is supposed to be!\n\nI suspect Mr Webb's real problem is that this ride was unlike anything he'd experienced before. It's fairly obvious he hasn't set foot in a theme park for a very long time. In a way, I understand the complaint: a hundred and fifty years ago, a horse-drawn carousel seemed thrilling, and people were nervous of anything that spun too fast. When the first roller coasters appeared in the early 1900s, they caused a genuine sensation. For Mr Webb, Thunderdrop is simply the modern equivalent - a little frightening, because it's unfamiliar.\n\nOf course, times have changed. Old-fashioned carousels are considered tame now, and if you climb aboard a drop ride, you should expect your stomach to lurch. Carousels are for toddlers, grandparents and the faint-hearted - the Marcus Webbs of the world. Not for me, though.\n\nThis is exactly why Mr Webb's claim that something is wrong with Thunderdrop completely misses the point. He was frightened - 'terrified out of my wits' were his exact words. He went on an extreme drop ride and, unsurprisingly, felt extreme. That doesn't mean the ride is faulty or unsafe - it's meant to feel intense. That's how it was built, how it was advertised, and exactly how people my age (myself included) like it.\n\nThunderdrop Fan",
+      "prompt": "Which word could replace 'genuine' in the text and retain the same meaning?",
+      "options": [
+        {
+          "label": "A",
+          "text": "real"
+        },
+        {
+          "label": "B",
+          "text": "vital"
+        },
+        {
+          "label": "C",
+          "text": "realistic"
+        },
+        {
+          "label": "D",
+          "text": "important"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Genuine problem' means a real problem.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2014c-q46",
+      "number": 46,
+      "type": "multiple_choice",
+      "passage": "Read the letter to the editor and answer questions 43 to 48.\n\nThe Daily Journal\nLetters to the editor\n\nThunderdrop\n15 September\n\nI rode the new Thunderdrop that Marcus Webb complained about in his letter to your newspaper (Letters, 12 September). It was every bit as 'fast and jarring' as Mr Webb described - which, frankly, is exactly what a theme park ride is supposed to be!\n\nI suspect Mr Webb's real problem is that this ride was unlike anything he'd experienced before. It's fairly obvious he hasn't set foot in a theme park for a very long time. In a way, I understand the complaint: a hundred and fifty years ago, a horse-drawn carousel seemed thrilling, and people were nervous of anything that spun too fast. When the first roller coasters appeared in the early 1900s, they caused a genuine sensation. For Mr Webb, Thunderdrop is simply the modern equivalent - a little frightening, because it's unfamiliar.\n\nOf course, times have changed. Old-fashioned carousels are considered tame now, and if you climb aboard a drop ride, you should expect your stomach to lurch. Carousels are for toddlers, grandparents and the faint-hearted - the Marcus Webbs of the world. Not for me, though.\n\nThis is exactly why Mr Webb's claim that something is wrong with Thunderdrop completely misses the point. He was frightened - 'terrified out of my wits' were his exact words. He went on an extreme drop ride and, unsurprisingly, felt extreme. That doesn't mean the ride is faulty or unsafe - it's meant to feel intense. That's how it was built, how it was advertised, and exactly how people my age (myself included) like it.\n\nThunderdrop Fan",
+      "prompt": "The word 'sensation', as it is used in the text, means",
+      "options": [
+        {
+          "label": "A",
+          "text": "confusion."
+        },
+        {
+          "label": "B",
+          "text": "great excitement."
+        },
+        {
+          "label": "C",
+          "text": "dispute."
+        },
+        {
+          "label": "D",
+          "text": "movement."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Causing a 'sensation' means creating great public excitement or interest.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2014c-q47",
+      "number": 47,
+      "type": "multiple_choice",
+      "passage": "Read the letter to the editor and answer questions 43 to 48.\n\nThe Daily Journal\nLetters to the editor\n\nThunderdrop\n15 September\n\nI rode the new Thunderdrop that Marcus Webb complained about in his letter to your newspaper (Letters, 12 September). It was every bit as 'fast and jarring' as Mr Webb described - which, frankly, is exactly what a theme park ride is supposed to be!\n\nI suspect Mr Webb's real problem is that this ride was unlike anything he'd experienced before. It's fairly obvious he hasn't set foot in a theme park for a very long time. In a way, I understand the complaint: a hundred and fifty years ago, a horse-drawn carousel seemed thrilling, and people were nervous of anything that spun too fast. When the first roller coasters appeared in the early 1900s, they caused a genuine sensation. For Mr Webb, Thunderdrop is simply the modern equivalent - a little frightening, because it's unfamiliar.\n\nOf course, times have changed. Old-fashioned carousels are considered tame now, and if you climb aboard a drop ride, you should expect your stomach to lurch. Carousels are for toddlers, grandparents and the faint-hearted - the Marcus Webbs of the world. Not for me, though.\n\nThis is exactly why Mr Webb's claim that something is wrong with Thunderdrop completely misses the point. He was frightened - 'terrified out of my wits' were his exact words. He went on an extreme drop ride and, unsurprisingly, felt extreme. That doesn't mean the ride is faulty or unsafe - it's meant to feel intense. That's how it was built, how it was advertised, and exactly how people my age (myself included) like it.\n\nThunderdrop Fan",
+      "prompt": "The writer's tone in the third paragraph could be described as",
+      "options": [
+        {
+          "label": "A",
+          "text": "indignant."
+        },
+        {
+          "label": "B",
+          "text": "sincere."
+        },
+        {
+          "label": "C",
+          "text": "condescending."
+        },
+        {
+          "label": "D",
+          "text": "outraged."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Dismissing Mr Webb as one of the 'faint-hearted' comes across as condescending.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2014c-q48",
+      "number": 48,
+      "type": "multiple_choice",
+      "passage": "Read the letter to the editor and answer questions 43 to 48.\n\nThe Daily Journal\nLetters to the editor\n\nThunderdrop\n15 September\n\nI rode the new Thunderdrop that Marcus Webb complained about in his letter to your newspaper (Letters, 12 September). It was every bit as 'fast and jarring' as Mr Webb described - which, frankly, is exactly what a theme park ride is supposed to be!\n\nI suspect Mr Webb's real problem is that this ride was unlike anything he'd experienced before. It's fairly obvious he hasn't set foot in a theme park for a very long time. In a way, I understand the complaint: a hundred and fifty years ago, a horse-drawn carousel seemed thrilling, and people were nervous of anything that spun too fast. When the first roller coasters appeared in the early 1900s, they caused a genuine sensation. For Mr Webb, Thunderdrop is simply the modern equivalent - a little frightening, because it's unfamiliar.\n\nOf course, times have changed. Old-fashioned carousels are considered tame now, and if you climb aboard a drop ride, you should expect your stomach to lurch. Carousels are for toddlers, grandparents and the faint-hearted - the Marcus Webbs of the world. Not for me, though.\n\nThis is exactly why Mr Webb's claim that something is wrong with Thunderdrop completely misses the point. He was frightened - 'terrified out of my wits' were his exact words. He went on an extreme drop ride and, unsurprisingly, felt extreme. That doesn't mean the ride is faulty or unsafe - it's meant to feel intense. That's how it was built, how it was advertised, and exactly how people my age (myself included) like it.\n\nThunderdrop Fan",
+      "prompt": "The main emphasis of the writer's argument is that",
+      "options": [
+        {
+          "label": "A",
+          "text": "Thunderdrop is purposely designed to be frightening."
+        },
+        {
+          "label": "B",
+          "text": "the advertising for Thunderdrop should have discouraged Marcus Webb from trying it."
+        },
+        {
+          "label": "C",
+          "text": "Thunderdrop is designed so there is no risk to riders."
+        },
+        {
+          "label": "D",
+          "text": "Thunderdrop is meant to feel intense, and that isn't a fault."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The writer insists the ride's intensity is intentional and not a flaw.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2014c-q49",
+      "number": 49,
+      "type": "multiple_choice",
+      "passage": "Read the passage and answer questions 49 and 50.\n\nLiving fossils\n\nPalaeontologists regularly dig up fossils: the ancient remains of plants and animals that have gradually turned to stone over millions of years. (49) ________, there is another kind of 'fossil' found on Earth today - living things that have barely changed in millions of years. These are known as 'living fossils', and they're more common than most people realise. The horseshoe crab, for instance, closely (50) ________ a very ancient creature called a trilobite, which became extinct around 250 million years ago.",
+      "prompt": "Choose the best word to complete gap (49).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yet"
+        },
+        {
+          "label": "B",
+          "text": "Whereas"
+        },
+        {
+          "label": "C",
+          "text": "Even if"
+        },
+        {
+          "label": "D",
+          "text": "Despite this"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Yet' smoothly introduces a surprising extra fact, contrasting ordinary fossils with 'living fossils.'",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2014c-q50",
+      "number": 50,
+      "type": "multiple_choice",
+      "passage": "Read the passage and answer questions 49 and 50.\n\nLiving fossils\n\nPalaeontologists regularly dig up fossils: the ancient remains of plants and animals that have gradually turned to stone over millions of years. (49) ________, there is another kind of 'fossil' found on Earth today - living things that have barely changed in millions of years. These are known as 'living fossils', and they're more common than most people realise. The horseshoe crab, for instance, closely (50) ________ a very ancient creature called a trilobite, which became extinct around 250 million years ago.",
+      "prompt": "Choose the best word to complete gap (50).",
+      "options": [
+        {
+          "label": "A",
+          "text": "resemble"
+        },
+        {
+          "label": "B",
+          "text": "resembles"
+        },
+        {
+          "label": "C",
+          "text": "resembling"
+        },
+        {
+          "label": "D",
+          "text": "resembled"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The singular subject 'the horseshoe crab' needs the singular verb form 'resembles.'",
+      "topic": "Syntax"
+    }
+  ]
+}

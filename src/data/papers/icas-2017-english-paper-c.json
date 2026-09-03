@@ -1,0 +1,1411 @@
+{
+  "id": "icas-2017-english-paper-c",
+  "subject": "English",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS English 2017 — Paper C",
+  "year": 2017,
+  "timeLimitMinutes": 50,
+  "questions": [
+    {
+      "id": "eng2017c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 6.\n\nThe Amazing Echo\n\nAt one o'clock, Priya was finally allowed to put on her costume. She pulled on some grey leggings and a grey long-sleeved top. For her hands there were grey mittens with little felt claws sewn onto the fingertips.\n\nShe looked at her homemade mask and the row of cardboard spikes glued along the hood and hoped they looked at least a little bit like an echidna. The last thing she had to put on was a cape which her father had sewn out of an old brown bedsheet. On the back was a huge letter 'E' painted in bright orange.\n\nWhen she was ready, she curled herself into a tight ball and rolled across the lounge room floor before her mum scooped her up and stood her on the ottoman.\n\n'Look! Down on the ground! Is it a soccer ball? Is it a hedgehog?'\n\nPriya's father answered, 'No, it's the Amazing Echo!'\n\nPriya jumped down from the ottoman and pulled off her mask. She was feeling a bit grumpy. 'I'd still rather have a real echidna than pretend to be one,' she muttered.\n\nHer parents looked at each other. Her mum patted the spare cushion on the couch and said, 'Come and sit down, Echo. We've got some good news for you.' She nudged her husband. 'You tell her, Raj.'\n\nAs Priya sat down, her father put his arm around her and said, 'When you get home from the party, there'll be a surprise waiting for you. Mum's going out soon and she'll bring it back with her.'\n\nPriya immediately began bouncing on the cushion, yelling, 'No way, no way! I can't wait!' Then she stopped long enough to ask, 'What is it? Is it a pet? An echidna? It is, isn't it?'\n\nBut her mum only winked at her and said, 'You'll just have to wait and see, munchkin. By the way, bring the birthday boy's present with you - I think he'll want to see your costume too.'\n\nPriya jumped up. 'Can I go over and tell Oscar now? He asked me to get there early.'\n\n'Well, it won't take you long to walk next door,' said her dad. 'But I think you're forgetting something.'\n\n'What?'\n\n'The present.'\n\n'Whoops, sorry.' She picked up a parcel from the coffee table and hugged her dad. He straightened her cardboard spikes.\n\n'Now don't forget to say thank you to Oscar's mother, and be careful not to trip on your cape,' he said.\n\n'Have a good time, Echo,' said her mum, 'and don't curl up into a ball in the middle of the party.'",
+      "prompt": "According to the text, which parts of Priya's costume were homemade?",
+      "options": [
+        {
+          "label": "A",
+          "text": "mask, spikes and cape"
+        },
+        {
+          "label": "B",
+          "text": "top, mittens and cape"
+        },
+        {
+          "label": "C",
+          "text": "leggings, top and mittens"
+        },
+        {
+          "label": "D",
+          "text": "leggings, mask and spikes"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text specifies the mask, cardboard spikes and cape (sewn by her father) were homemade.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 6.\n\nThe Amazing Echo\n\nAt one o'clock, Priya was finally allowed to put on her costume. She pulled on some grey leggings and a grey long-sleeved top. For her hands there were grey mittens with little felt claws sewn onto the fingertips.\n\nShe looked at her homemade mask and the row of cardboard spikes glued along the hood and hoped they looked at least a little bit like an echidna. The last thing she had to put on was a cape which her father had sewn out of an old brown bedsheet. On the back was a huge letter 'E' painted in bright orange.\n\nWhen she was ready, she curled herself into a tight ball and rolled across the lounge room floor before her mum scooped her up and stood her on the ottoman.\n\n'Look! Down on the ground! Is it a soccer ball? Is it a hedgehog?'\n\nPriya's father answered, 'No, it's the Amazing Echo!'\n\nPriya jumped down from the ottoman and pulled off her mask. She was feeling a bit grumpy. 'I'd still rather have a real echidna than pretend to be one,' she muttered.\n\nHer parents looked at each other. Her mum patted the spare cushion on the couch and said, 'Come and sit down, Echo. We've got some good news for you.' She nudged her husband. 'You tell her, Raj.'\n\nAs Priya sat down, her father put his arm around her and said, 'When you get home from the party, there'll be a surprise waiting for you. Mum's going out soon and she'll bring it back with her.'\n\nPriya immediately began bouncing on the cushion, yelling, 'No way, no way! I can't wait!' Then she stopped long enough to ask, 'What is it? Is it a pet? An echidna? It is, isn't it?'\n\nBut her mum only winked at her and said, 'You'll just have to wait and see, munchkin. By the way, bring the birthday boy's present with you - I think he'll want to see your costume too.'\n\nPriya jumped up. 'Can I go over and tell Oscar now? He asked me to get there early.'\n\n'Well, it won't take you long to walk next door,' said her dad. 'But I think you're forgetting something.'\n\n'What?'\n\n'The present.'\n\n'Whoops, sorry.' She picked up a parcel from the coffee table and hugged her dad. He straightened her cardboard spikes.\n\n'Now don't forget to say thank you to Oscar's mother, and be careful not to trip on your cape,' he said.\n\n'Have a good time, Echo,' said her mum, 'and don't curl up into a ball in the middle of the party.'",
+      "prompt": "The word 'grumpy' means that Priya was feeling",
+      "options": [
+        {
+          "label": "A",
+          "text": "tired."
+        },
+        {
+          "label": "B",
+          "text": "moody."
+        },
+        {
+          "label": "C",
+          "text": "bored."
+        },
+        {
+          "label": "D",
+          "text": "serious."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Grumpy' describes an irritable, moody mood, matching Priya's complaint straight after.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 6.\n\nThe Amazing Echo\n\nAt one o'clock, Priya was finally allowed to put on her costume. She pulled on some grey leggings and a grey long-sleeved top. For her hands there were grey mittens with little felt claws sewn onto the fingertips.\n\nShe looked at her homemade mask and the row of cardboard spikes glued along the hood and hoped they looked at least a little bit like an echidna. The last thing she had to put on was a cape which her father had sewn out of an old brown bedsheet. On the back was a huge letter 'E' painted in bright orange.\n\nWhen she was ready, she curled herself into a tight ball and rolled across the lounge room floor before her mum scooped her up and stood her on the ottoman.\n\n'Look! Down on the ground! Is it a soccer ball? Is it a hedgehog?'\n\nPriya's father answered, 'No, it's the Amazing Echo!'\n\nPriya jumped down from the ottoman and pulled off her mask. She was feeling a bit grumpy. 'I'd still rather have a real echidna than pretend to be one,' she muttered.\n\nHer parents looked at each other. Her mum patted the spare cushion on the couch and said, 'Come and sit down, Echo. We've got some good news for you.' She nudged her husband. 'You tell her, Raj.'\n\nAs Priya sat down, her father put his arm around her and said, 'When you get home from the party, there'll be a surprise waiting for you. Mum's going out soon and she'll bring it back with her.'\n\nPriya immediately began bouncing on the cushion, yelling, 'No way, no way! I can't wait!' Then she stopped long enough to ask, 'What is it? Is it a pet? An echidna? It is, isn't it?'\n\nBut her mum only winked at her and said, 'You'll just have to wait and see, munchkin. By the way, bring the birthday boy's present with you - I think he'll want to see your costume too.'\n\nPriya jumped up. 'Can I go over and tell Oscar now? He asked me to get there early.'\n\n'Well, it won't take you long to walk next door,' said her dad. 'But I think you're forgetting something.'\n\n'What?'\n\n'The present.'\n\n'Whoops, sorry.' She picked up a parcel from the coffee table and hugged her dad. He straightened her cardboard spikes.\n\n'Now don't forget to say thank you to Oscar's mother, and be careful not to trip on your cape,' he said.\n\n'Have a good time, Echo,' said her mum, 'and don't curl up into a ball in the middle of the party.'",
+      "prompt": "What did Priya want?",
+      "options": [
+        {
+          "label": "A",
+          "text": "a different costume"
+        },
+        {
+          "label": "B",
+          "text": "a birthday party"
+        },
+        {
+          "label": "C",
+          "text": "a pet"
+        },
+        {
+          "label": "D",
+          "text": "a friend"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Priya says she'd rather have a real echidna than pretend to be one, and gets excited about a possible pet surprise.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 6.\n\nThe Amazing Echo\n\nAt one o'clock, Priya was finally allowed to put on her costume. She pulled on some grey leggings and a grey long-sleeved top. For her hands there were grey mittens with little felt claws sewn onto the fingertips.\n\nShe looked at her homemade mask and the row of cardboard spikes glued along the hood and hoped they looked at least a little bit like an echidna. The last thing she had to put on was a cape which her father had sewn out of an old brown bedsheet. On the back was a huge letter 'E' painted in bright orange.\n\nWhen she was ready, she curled herself into a tight ball and rolled across the lounge room floor before her mum scooped her up and stood her on the ottoman.\n\n'Look! Down on the ground! Is it a soccer ball? Is it a hedgehog?'\n\nPriya's father answered, 'No, it's the Amazing Echo!'\n\nPriya jumped down from the ottoman and pulled off her mask. She was feeling a bit grumpy. 'I'd still rather have a real echidna than pretend to be one,' she muttered.\n\nHer parents looked at each other. Her mum patted the spare cushion on the couch and said, 'Come and sit down, Echo. We've got some good news for you.' She nudged her husband. 'You tell her, Raj.'\n\nAs Priya sat down, her father put his arm around her and said, 'When you get home from the party, there'll be a surprise waiting for you. Mum's going out soon and she'll bring it back with her.'\n\nPriya immediately began bouncing on the cushion, yelling, 'No way, no way! I can't wait!' Then she stopped long enough to ask, 'What is it? Is it a pet? An echidna? It is, isn't it?'\n\nBut her mum only winked at her and said, 'You'll just have to wait and see, munchkin. By the way, bring the birthday boy's present with you - I think he'll want to see your costume too.'\n\nPriya jumped up. 'Can I go over and tell Oscar now? He asked me to get there early.'\n\n'Well, it won't take you long to walk next door,' said her dad. 'But I think you're forgetting something.'\n\n'What?'\n\n'The present.'\n\n'Whoops, sorry.' She picked up a parcel from the coffee table and hugged her dad. He straightened her cardboard spikes.\n\n'Now don't forget to say thank you to Oscar's mother, and be careful not to trip on your cape,' he said.\n\n'Have a good time, Echo,' said her mum, 'and don't curl up into a ball in the middle of the party.'",
+      "prompt": "By winking at his daughter, Priya's mother was being",
+      "options": [
+        {
+          "label": "A",
+          "text": "careful."
+        },
+        {
+          "label": "B",
+          "text": "dishonest."
+        },
+        {
+          "label": "C",
+          "text": "patient."
+        },
+        {
+          "label": "D",
+          "text": "secretive."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The wink signals she's keeping the surprise a secret rather than revealing it.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 6.\n\nThe Amazing Echo\n\nAt one o'clock, Priya was finally allowed to put on her costume. She pulled on some grey leggings and a grey long-sleeved top. For her hands there were grey mittens with little felt claws sewn onto the fingertips.\n\nShe looked at her homemade mask and the row of cardboard spikes glued along the hood and hoped they looked at least a little bit like an echidna. The last thing she had to put on was a cape which her father had sewn out of an old brown bedsheet. On the back was a huge letter 'E' painted in bright orange.\n\nWhen she was ready, she curled herself into a tight ball and rolled across the lounge room floor before her mum scooped her up and stood her on the ottoman.\n\n'Look! Down on the ground! Is it a soccer ball? Is it a hedgehog?'\n\nPriya's father answered, 'No, it's the Amazing Echo!'\n\nPriya jumped down from the ottoman and pulled off her mask. She was feeling a bit grumpy. 'I'd still rather have a real echidna than pretend to be one,' she muttered.\n\nHer parents looked at each other. Her mum patted the spare cushion on the couch and said, 'Come and sit down, Echo. We've got some good news for you.' She nudged her husband. 'You tell her, Raj.'\n\nAs Priya sat down, her father put his arm around her and said, 'When you get home from the party, there'll be a surprise waiting for you. Mum's going out soon and she'll bring it back with her.'\n\nPriya immediately began bouncing on the cushion, yelling, 'No way, no way! I can't wait!' Then she stopped long enough to ask, 'What is it? Is it a pet? An echidna? It is, isn't it?'\n\nBut her mum only winked at her and said, 'You'll just have to wait and see, munchkin. By the way, bring the birthday boy's present with you - I think he'll want to see your costume too.'\n\nPriya jumped up. 'Can I go over and tell Oscar now? He asked me to get there early.'\n\n'Well, it won't take you long to walk next door,' said her dad. 'But I think you're forgetting something.'\n\n'What?'\n\n'The present.'\n\n'Whoops, sorry.' She picked up a parcel from the coffee table and hugged her dad. He straightened her cardboard spikes.\n\n'Now don't forget to say thank you to Oscar's mother, and be careful not to trip on your cape,' he said.\n\n'Have a good time, Echo,' said her mum, 'and don't curl up into a ball in the middle of the party.'",
+      "prompt": "'don't curl up into a ball in the middle of the party' Priya's mother meant this to be",
+      "options": [
+        {
+          "label": "A",
+          "text": "a joke."
+        },
+        {
+          "label": "B",
+          "text": "a warning."
+        },
+        {
+          "label": "C",
+          "text": "a suggestion."
+        },
+        {
+          "label": "D",
+          "text": "an observation."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "This is a lighthearted, teasing remark referencing Priya's echidna costume, not a genuine warning.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 6.\n\nThe Amazing Echo\n\nAt one o'clock, Priya was finally allowed to put on her costume. She pulled on some grey leggings and a grey long-sleeved top. For her hands there were grey mittens with little felt claws sewn onto the fingertips.\n\nShe looked at her homemade mask and the row of cardboard spikes glued along the hood and hoped they looked at least a little bit like an echidna. The last thing she had to put on was a cape which her father had sewn out of an old brown bedsheet. On the back was a huge letter 'E' painted in bright orange.\n\nWhen she was ready, she curled herself into a tight ball and rolled across the lounge room floor before her mum scooped her up and stood her on the ottoman.\n\n'Look! Down on the ground! Is it a soccer ball? Is it a hedgehog?'\n\nPriya's father answered, 'No, it's the Amazing Echo!'\n\nPriya jumped down from the ottoman and pulled off her mask. She was feeling a bit grumpy. 'I'd still rather have a real echidna than pretend to be one,' she muttered.\n\nHer parents looked at each other. Her mum patted the spare cushion on the couch and said, 'Come and sit down, Echo. We've got some good news for you.' She nudged her husband. 'You tell her, Raj.'\n\nAs Priya sat down, her father put his arm around her and said, 'When you get home from the party, there'll be a surprise waiting for you. Mum's going out soon and she'll bring it back with her.'\n\nPriya immediately began bouncing on the cushion, yelling, 'No way, no way! I can't wait!' Then she stopped long enough to ask, 'What is it? Is it a pet? An echidna? It is, isn't it?'\n\nBut her mum only winked at her and said, 'You'll just have to wait and see, munchkin. By the way, bring the birthday boy's present with you - I think he'll want to see your costume too.'\n\nPriya jumped up. 'Can I go over and tell Oscar now? He asked me to get there early.'\n\n'Well, it won't take you long to walk next door,' said her dad. 'But I think you're forgetting something.'\n\n'What?'\n\n'The present.'\n\n'Whoops, sorry.' She picked up a parcel from the coffee table and hugged her dad. He straightened her cardboard spikes.\n\n'Now don't forget to say thank you to Oscar's mother, and be careful not to trip on your cape,' he said.\n\n'Have a good time, Echo,' said her mum, 'and don't curl up into a ball in the middle of the party.'",
+      "prompt": "What was the atmosphere in Priya's family?",
+      "options": [
+        {
+          "label": "A",
+          "text": "busy"
+        },
+        {
+          "label": "B",
+          "text": "playful"
+        },
+        {
+          "label": "C",
+          "text": "polite"
+        },
+        {
+          "label": "D",
+          "text": "forgetful"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The teasing, joking dialogue throughout shows a warm, playful family dynamic.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 7 to 12.\n\nHow to build a castle\n\nIn 1997, a man named Michel Guyot decided he wanted to find out exactly how medieval castles were built - so he set out to build one himself, entirely from scratch. He chose an abandoned quarry site in the Guedelon forest, in the Burgundy region of France, as the location for his thirteenth-century-style castle.\n\nA team of around fifty people began the enormous task of bringing the castle to life. It wasn't simply a matter of drawing up plans and hiring workers, though: Guyot wanted the build to be as historically authentic as possible, so he insisted that only tools and techniques available in the Middle Ages could be used. He estimated the whole project would take around twenty-five years, meaning the castle wouldn't be finished until sometime in the 2020s.\n\nDecades later, work is still underway. Visitors walking through the site today see workers shaping stone and timber entirely by hand, using no electric tools at all. Following medieval methods, the builders construct simple wooden pulleys* to hoist heavy stone blocks up to the level they're working on. Blacksmiths hand-forge the chisels used to shape timber beams, and labourers form human chains to carry baskets of earth up handmade staircases to build up the floor of the Great Hall. Inside, the stone walls are rendered** with lime to create a weatherproof seal, then smoothed with plaster, and finally decorated first with detailed line drawings and then with colourful murals painted using natural dyes. Elsewhere, the floors are being laid with kiln-fired tiles, while carpenters and blacksmiths work on the castle's doors.\n\nBeyond the castle walls and the workers' huts lies a recreated thirteenth-century farm, where sheep wander freely, chickens scatter noisily, and pigs wallow in the mud, seemingly unbothered by the crowds of curious visitors who come to watch. Cattle and horses are kept secure inside handmade wooden fences.\n\nWalking around the site really does feel like stepping back into the Middle Ages. Which, of course, is exactly the point.\n\n* wheels used with ropes or chains to lift or lower heavy objects\n** covered",
+      "prompt": "According to the text, why did Michel Guyot decide to build a thirteenth-century-style castle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to build the first castle in the region"
+        },
+        {
+          "label": "B",
+          "text": "to make use of an abandoned piece of land"
+        },
+        {
+          "label": "C",
+          "text": "to find out for himself how it was actually done"
+        },
+        {
+          "label": "D",
+          "text": "to fulfil a childhood dream"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text says he 'wanted to find out exactly how medieval castles were built.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 7 to 12.\n\nHow to build a castle\n\nIn 1997, a man named Michel Guyot decided he wanted to find out exactly how medieval castles were built - so he set out to build one himself, entirely from scratch. He chose an abandoned quarry site in the Guedelon forest, in the Burgundy region of France, as the location for his thirteenth-century-style castle.\n\nA team of around fifty people began the enormous task of bringing the castle to life. It wasn't simply a matter of drawing up plans and hiring workers, though: Guyot wanted the build to be as historically authentic as possible, so he insisted that only tools and techniques available in the Middle Ages could be used. He estimated the whole project would take around twenty-five years, meaning the castle wouldn't be finished until sometime in the 2020s.\n\nDecades later, work is still underway. Visitors walking through the site today see workers shaping stone and timber entirely by hand, using no electric tools at all. Following medieval methods, the builders construct simple wooden pulleys* to hoist heavy stone blocks up to the level they're working on. Blacksmiths hand-forge the chisels used to shape timber beams, and labourers form human chains to carry baskets of earth up handmade staircases to build up the floor of the Great Hall. Inside, the stone walls are rendered** with lime to create a weatherproof seal, then smoothed with plaster, and finally decorated first with detailed line drawings and then with colourful murals painted using natural dyes. Elsewhere, the floors are being laid with kiln-fired tiles, while carpenters and blacksmiths work on the castle's doors.\n\nBeyond the castle walls and the workers' huts lies a recreated thirteenth-century farm, where sheep wander freely, chickens scatter noisily, and pigs wallow in the mud, seemingly unbothered by the crowds of curious visitors who come to watch. Cattle and horses are kept secure inside handmade wooden fences.\n\nWalking around the site really does feel like stepping back into the Middle Ages. Which, of course, is exactly the point.\n\n* wheels used with ropes or chains to lift or lower heavy objects\n** covered",
+      "prompt": "What does the word 'authentic' mean in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "historic"
+        },
+        {
+          "label": "B",
+          "text": "complete"
+        },
+        {
+          "label": "C",
+          "text": "official"
+        },
+        {
+          "label": "D",
+          "text": "genuine"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Authentic' means genuine or true to the original, matching the goal of historical accuracy.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 7 to 12.\n\nHow to build a castle\n\nIn 1997, a man named Michel Guyot decided he wanted to find out exactly how medieval castles were built - so he set out to build one himself, entirely from scratch. He chose an abandoned quarry site in the Guedelon forest, in the Burgundy region of France, as the location for his thirteenth-century-style castle.\n\nA team of around fifty people began the enormous task of bringing the castle to life. It wasn't simply a matter of drawing up plans and hiring workers, though: Guyot wanted the build to be as historically authentic as possible, so he insisted that only tools and techniques available in the Middle Ages could be used. He estimated the whole project would take around twenty-five years, meaning the castle wouldn't be finished until sometime in the 2020s.\n\nDecades later, work is still underway. Visitors walking through the site today see workers shaping stone and timber entirely by hand, using no electric tools at all. Following medieval methods, the builders construct simple wooden pulleys* to hoist heavy stone blocks up to the level they're working on. Blacksmiths hand-forge the chisels used to shape timber beams, and labourers form human chains to carry baskets of earth up handmade staircases to build up the floor of the Great Hall. Inside, the stone walls are rendered** with lime to create a weatherproof seal, then smoothed with plaster, and finally decorated first with detailed line drawings and then with colourful murals painted using natural dyes. Elsewhere, the floors are being laid with kiln-fired tiles, while carpenters and blacksmiths work on the castle's doors.\n\nBeyond the castle walls and the workers' huts lies a recreated thirteenth-century farm, where sheep wander freely, chickens scatter noisily, and pigs wallow in the mud, seemingly unbothered by the crowds of curious visitors who come to watch. Cattle and horses are kept secure inside handmade wooden fences.\n\nWalking around the site really does feel like stepping back into the Middle Ages. Which, of course, is exactly the point.\n\n* wheels used with ropes or chains to lift or lower heavy objects\n** covered",
+      "prompt": "Based on information in the text, why is the castle taking so long to build?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The builders are not using modern methods or electric tools."
+        },
+        {
+          "label": "B",
+          "text": "Michel Guyot's architectural plan is inaccurate."
+        },
+        {
+          "label": "C",
+          "text": "It is difficult to find experienced builders."
+        },
+        {
+          "label": "D",
+          "text": "There are many problems that Michel Guyot did not plan for."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The insistence on only medieval tools and techniques is given as the reason for the long timeline.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 7 to 12.\n\nHow to build a castle\n\nIn 1997, a man named Michel Guyot decided he wanted to find out exactly how medieval castles were built - so he set out to build one himself, entirely from scratch. He chose an abandoned quarry site in the Guedelon forest, in the Burgundy region of France, as the location for his thirteenth-century-style castle.\n\nA team of around fifty people began the enormous task of bringing the castle to life. It wasn't simply a matter of drawing up plans and hiring workers, though: Guyot wanted the build to be as historically authentic as possible, so he insisted that only tools and techniques available in the Middle Ages could be used. He estimated the whole project would take around twenty-five years, meaning the castle wouldn't be finished until sometime in the 2020s.\n\nDecades later, work is still underway. Visitors walking through the site today see workers shaping stone and timber entirely by hand, using no electric tools at all. Following medieval methods, the builders construct simple wooden pulleys* to hoist heavy stone blocks up to the level they're working on. Blacksmiths hand-forge the chisels used to shape timber beams, and labourers form human chains to carry baskets of earth up handmade staircases to build up the floor of the Great Hall. Inside, the stone walls are rendered** with lime to create a weatherproof seal, then smoothed with plaster, and finally decorated first with detailed line drawings and then with colourful murals painted using natural dyes. Elsewhere, the floors are being laid with kiln-fired tiles, while carpenters and blacksmiths work on the castle's doors.\n\nBeyond the castle walls and the workers' huts lies a recreated thirteenth-century farm, where sheep wander freely, chickens scatter noisily, and pigs wallow in the mud, seemingly unbothered by the crowds of curious visitors who come to watch. Cattle and horses are kept secure inside handmade wooden fences.\n\nWalking around the site really does feel like stepping back into the Middle Ages. Which, of course, is exactly the point.\n\n* wheels used with ropes or chains to lift or lower heavy objects\n** covered",
+      "prompt": "Based on information in the text, what is the last step in completing the castle walls?",
+      "options": [
+        {
+          "label": "A",
+          "text": "decorate with line drawings"
+        },
+        {
+          "label": "B",
+          "text": "paint with murals"
+        },
+        {
+          "label": "C",
+          "text": "coat with lime"
+        },
+        {
+          "label": "D",
+          "text": "smooth with plaster"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The order given is: coat with lime, smooth with plaster, decorate with line drawings, then paint murals last.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 7 to 12.\n\nHow to build a castle\n\nIn 1997, a man named Michel Guyot decided he wanted to find out exactly how medieval castles were built - so he set out to build one himself, entirely from scratch. He chose an abandoned quarry site in the Guedelon forest, in the Burgundy region of France, as the location for his thirteenth-century-style castle.\n\nA team of around fifty people began the enormous task of bringing the castle to life. It wasn't simply a matter of drawing up plans and hiring workers, though: Guyot wanted the build to be as historically authentic as possible, so he insisted that only tools and techniques available in the Middle Ages could be used. He estimated the whole project would take around twenty-five years, meaning the castle wouldn't be finished until sometime in the 2020s.\n\nDecades later, work is still underway. Visitors walking through the site today see workers shaping stone and timber entirely by hand, using no electric tools at all. Following medieval methods, the builders construct simple wooden pulleys* to hoist heavy stone blocks up to the level they're working on. Blacksmiths hand-forge the chisels used to shape timber beams, and labourers form human chains to carry baskets of earth up handmade staircases to build up the floor of the Great Hall. Inside, the stone walls are rendered** with lime to create a weatherproof seal, then smoothed with plaster, and finally decorated first with detailed line drawings and then with colourful murals painted using natural dyes. Elsewhere, the floors are being laid with kiln-fired tiles, while carpenters and blacksmiths work on the castle's doors.\n\nBeyond the castle walls and the workers' huts lies a recreated thirteenth-century farm, where sheep wander freely, chickens scatter noisily, and pigs wallow in the mud, seemingly unbothered by the crowds of curious visitors who come to watch. Cattle and horses are kept secure inside handmade wooden fences.\n\nWalking around the site really does feel like stepping back into the Middle Ages. Which, of course, is exactly the point.\n\n* wheels used with ropes or chains to lift or lower heavy objects\n** covered",
+      "prompt": "'Which, of course, is exactly the point.' What does 'the point' refer to in this quotation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the Middle Ages was a very long time ago"
+        },
+        {
+          "label": "B",
+          "text": "the castle was actually built in the Middle Ages"
+        },
+        {
+          "label": "C",
+          "text": "the site is meant to feel like it is from the Middle Ages"
+        },
+        {
+          "label": "D",
+          "text": "buildings from the Middle Ages still look impressive today"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The whole project is designed to recreate the feeling of the Middle Ages, which 'the point' refers back to.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2017c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 7 to 12.\n\nHow to build a castle\n\nIn 1997, a man named Michel Guyot decided he wanted to find out exactly how medieval castles were built - so he set out to build one himself, entirely from scratch. He chose an abandoned quarry site in the Guedelon forest, in the Burgundy region of France, as the location for his thirteenth-century-style castle.\n\nA team of around fifty people began the enormous task of bringing the castle to life. It wasn't simply a matter of drawing up plans and hiring workers, though: Guyot wanted the build to be as historically authentic as possible, so he insisted that only tools and techniques available in the Middle Ages could be used. He estimated the whole project would take around twenty-five years, meaning the castle wouldn't be finished until sometime in the 2020s.\n\nDecades later, work is still underway. Visitors walking through the site today see workers shaping stone and timber entirely by hand, using no electric tools at all. Following medieval methods, the builders construct simple wooden pulleys* to hoist heavy stone blocks up to the level they're working on. Blacksmiths hand-forge the chisels used to shape timber beams, and labourers form human chains to carry baskets of earth up handmade staircases to build up the floor of the Great Hall. Inside, the stone walls are rendered** with lime to create a weatherproof seal, then smoothed with plaster, and finally decorated first with detailed line drawings and then with colourful murals painted using natural dyes. Elsewhere, the floors are being laid with kiln-fired tiles, while carpenters and blacksmiths work on the castle's doors.\n\nBeyond the castle walls and the workers' huts lies a recreated thirteenth-century farm, where sheep wander freely, chickens scatter noisily, and pigs wallow in the mud, seemingly unbothered by the crowds of curious visitors who come to watch. Cattle and horses are kept secure inside handmade wooden fences.\n\nWalking around the site really does feel like stepping back into the Middle Ages. Which, of course, is exactly the point.\n\n* wheels used with ropes or chains to lift or lower heavy objects\n** covered",
+      "prompt": "There are two footnotes in the text, marked with asterisks. What is the purpose of the footnotes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to add extra details about the construction process"
+        },
+        {
+          "label": "B",
+          "text": "to help readers imagine the work happening on the site"
+        },
+        {
+          "label": "C",
+          "text": "to identify parts of the castle still used today"
+        },
+        {
+          "label": "D",
+          "text": "to provide definitions of technical terms"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Both footnotes simply define an unfamiliar word ('pulleys', 'rendered') used in the main text.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nThe signal\n\nI was the first to stop running. I had to stop. My legs felt ready to give out, burning with every step. Bent forward, hands on my knees, I tried to focus on slowing my breathing. Then Priya and Noah caught up, red-faced and puffing hard. We looked at each other, then back the way we'd come. Nobody in sight; that had to be a good thing.\n\nAfter all the scheming we'd done to get this far, I was fairly confident nobody would guess which path we'd taken.\n\n'We can't stop here,' said Priya, her voice low but firm. 'We're too close, and it's too open. We'll rest properly once we reach the fence line, okay? Get our heads straight.'\n\nWe looked at each other and nodded in silent agreement.\n\nWe walked three abreast now, side by side, with steady, careful steps. Nobody spoke. I, for one, was glad of the quiet. I was still trying to process what we'd just pulled off.\n\nI glanced left, then right. Priya's serious expression cracked for just a second as she flashed me a quick, reassuring grin. Her face was streaked with dust, but she looked completely unshaken. Noah marched on without a word, his scuffed sneakers thudding steadily, giving nothing away. Braver than I'd realised, now that I thought about it. Both of them were.\n\nReaching the crest of the hill, we all stopped at once, as if by silent agreement. Far below, the school oval and the tiny, ant-sized figures of the other team were scattered like pieces of an abandoned board game. Not far from the truth, I thought, and found myself grinning despite everything. As we watched, three small, blue-shirted figures broke away from the sleepy scene below. Too far away to recognise individually, but I had a fair idea who they were. I wondered whether a glance upward from them might be enough to give us away, but almost laughed at the thought. We'd left nothing to chance this time, and there was no way the Blues were losing again.\n\nWe turned together and kept walking, but something had shifted. No longer the underdogs - every step felt lighter, buzzing with the anticipation of the win that lay ahead.",
+      "prompt": "At the beginning of the text, what caused the writer to stop?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He was out of breath after running."
+        },
+        {
+          "label": "B",
+          "text": "He was waiting for the others to catch up."
+        },
+        {
+          "label": "C",
+          "text": "He did not know where he was going."
+        },
+        {
+          "label": "D",
+          "text": "He had reached his destination."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'My legs felt ready to give out, burning with every step' shows he stopped from exhaustion.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nThe signal\n\nI was the first to stop running. I had to stop. My legs felt ready to give out, burning with every step. Bent forward, hands on my knees, I tried to focus on slowing my breathing. Then Priya and Noah caught up, red-faced and puffing hard. We looked at each other, then back the way we'd come. Nobody in sight; that had to be a good thing.\n\nAfter all the scheming we'd done to get this far, I was fairly confident nobody would guess which path we'd taken.\n\n'We can't stop here,' said Priya, her voice low but firm. 'We're too close, and it's too open. We'll rest properly once we reach the fence line, okay? Get our heads straight.'\n\nWe looked at each other and nodded in silent agreement.\n\nWe walked three abreast now, side by side, with steady, careful steps. Nobody spoke. I, for one, was glad of the quiet. I was still trying to process what we'd just pulled off.\n\nI glanced left, then right. Priya's serious expression cracked for just a second as she flashed me a quick, reassuring grin. Her face was streaked with dust, but she looked completely unshaken. Noah marched on without a word, his scuffed sneakers thudding steadily, giving nothing away. Braver than I'd realised, now that I thought about it. Both of them were.\n\nReaching the crest of the hill, we all stopped at once, as if by silent agreement. Far below, the school oval and the tiny, ant-sized figures of the other team were scattered like pieces of an abandoned board game. Not far from the truth, I thought, and found myself grinning despite everything. As we watched, three small, blue-shirted figures broke away from the sleepy scene below. Too far away to recognise individually, but I had a fair idea who they were. I wondered whether a glance upward from them might be enough to give us away, but almost laughed at the thought. We'd left nothing to chance this time, and there was no way the Blues were losing again.\n\nWe turned together and kept walking, but something had shifted. No longer the underdogs - every step felt lighter, buzzing with the anticipation of the win that lay ahead.",
+      "prompt": "Which word could best replace 'firm' as it is used in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "distressed"
+        },
+        {
+          "label": "B",
+          "text": "determined"
+        },
+        {
+          "label": "C",
+          "text": "stubborn"
+        },
+        {
+          "label": "D",
+          "text": "aggressive"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Priya's 'low but firm' voice shows calm determination, not distress or aggression.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nThe signal\n\nI was the first to stop running. I had to stop. My legs felt ready to give out, burning with every step. Bent forward, hands on my knees, I tried to focus on slowing my breathing. Then Priya and Noah caught up, red-faced and puffing hard. We looked at each other, then back the way we'd come. Nobody in sight; that had to be a good thing.\n\nAfter all the scheming we'd done to get this far, I was fairly confident nobody would guess which path we'd taken.\n\n'We can't stop here,' said Priya, her voice low but firm. 'We're too close, and it's too open. We'll rest properly once we reach the fence line, okay? Get our heads straight.'\n\nWe looked at each other and nodded in silent agreement.\n\nWe walked three abreast now, side by side, with steady, careful steps. Nobody spoke. I, for one, was glad of the quiet. I was still trying to process what we'd just pulled off.\n\nI glanced left, then right. Priya's serious expression cracked for just a second as she flashed me a quick, reassuring grin. Her face was streaked with dust, but she looked completely unshaken. Noah marched on without a word, his scuffed sneakers thudding steadily, giving nothing away. Braver than I'd realised, now that I thought about it. Both of them were.\n\nReaching the crest of the hill, we all stopped at once, as if by silent agreement. Far below, the school oval and the tiny, ant-sized figures of the other team were scattered like pieces of an abandoned board game. Not far from the truth, I thought, and found myself grinning despite everything. As we watched, three small, blue-shirted figures broke away from the sleepy scene below. Too far away to recognise individually, but I had a fair idea who they were. I wondered whether a glance upward from them might be enough to give us away, but almost laughed at the thought. We'd left nothing to chance this time, and there was no way the Blues were losing again.\n\nWe turned together and kept walking, but something had shifted. No longer the underdogs - every step felt lighter, buzzing with the anticipation of the win that lay ahead.",
+      "prompt": "Noah was described as giving 'nothing away' because he",
+      "options": [
+        {
+          "label": "A",
+          "text": "tried to ignore what was happening."
+        },
+        {
+          "label": "B",
+          "text": "was unsure of what he should be doing."
+        },
+        {
+          "label": "C",
+          "text": "appeared to be walking without showing his feelings."
+        },
+        {
+          "label": "D",
+          "text": "felt scared about what might happen next."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "His face 'not giving anything away' means his expression revealed nothing about his feelings.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nThe signal\n\nI was the first to stop running. I had to stop. My legs felt ready to give out, burning with every step. Bent forward, hands on my knees, I tried to focus on slowing my breathing. Then Priya and Noah caught up, red-faced and puffing hard. We looked at each other, then back the way we'd come. Nobody in sight; that had to be a good thing.\n\nAfter all the scheming we'd done to get this far, I was fairly confident nobody would guess which path we'd taken.\n\n'We can't stop here,' said Priya, her voice low but firm. 'We're too close, and it's too open. We'll rest properly once we reach the fence line, okay? Get our heads straight.'\n\nWe looked at each other and nodded in silent agreement.\n\nWe walked three abreast now, side by side, with steady, careful steps. Nobody spoke. I, for one, was glad of the quiet. I was still trying to process what we'd just pulled off.\n\nI glanced left, then right. Priya's serious expression cracked for just a second as she flashed me a quick, reassuring grin. Her face was streaked with dust, but she looked completely unshaken. Noah marched on without a word, his scuffed sneakers thudding steadily, giving nothing away. Braver than I'd realised, now that I thought about it. Both of them were.\n\nReaching the crest of the hill, we all stopped at once, as if by silent agreement. Far below, the school oval and the tiny, ant-sized figures of the other team were scattered like pieces of an abandoned board game. Not far from the truth, I thought, and found myself grinning despite everything. As we watched, three small, blue-shirted figures broke away from the sleepy scene below. Too far away to recognise individually, but I had a fair idea who they were. I wondered whether a glance upward from them might be enough to give us away, but almost laughed at the thought. We'd left nothing to chance this time, and there was no way the Blues were losing again.\n\nWe turned together and kept walking, but something had shifted. No longer the underdogs - every step felt lighter, buzzing with the anticipation of the win that lay ahead.",
+      "prompt": "Which option correctly shows what the school oval was described as, and what technique the writer used?",
+      "options": [
+        {
+          "label": "A",
+          "text": "an ant colony - exaggeration"
+        },
+        {
+          "label": "B",
+          "text": "a battlefield - metaphor"
+        },
+        {
+          "label": "C",
+          "text": "a set of game pieces - alliteration"
+        },
+        {
+          "label": "D",
+          "text": "an abandoned board game - simile"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Scattered like pieces of an abandoned board game' compares two things using 'like' - a simile.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nThe signal\n\nI was the first to stop running. I had to stop. My legs felt ready to give out, burning with every step. Bent forward, hands on my knees, I tried to focus on slowing my breathing. Then Priya and Noah caught up, red-faced and puffing hard. We looked at each other, then back the way we'd come. Nobody in sight; that had to be a good thing.\n\nAfter all the scheming we'd done to get this far, I was fairly confident nobody would guess which path we'd taken.\n\n'We can't stop here,' said Priya, her voice low but firm. 'We're too close, and it's too open. We'll rest properly once we reach the fence line, okay? Get our heads straight.'\n\nWe looked at each other and nodded in silent agreement.\n\nWe walked three abreast now, side by side, with steady, careful steps. Nobody spoke. I, for one, was glad of the quiet. I was still trying to process what we'd just pulled off.\n\nI glanced left, then right. Priya's serious expression cracked for just a second as she flashed me a quick, reassuring grin. Her face was streaked with dust, but she looked completely unshaken. Noah marched on without a word, his scuffed sneakers thudding steadily, giving nothing away. Braver than I'd realised, now that I thought about it. Both of them were.\n\nReaching the crest of the hill, we all stopped at once, as if by silent agreement. Far below, the school oval and the tiny, ant-sized figures of the other team were scattered like pieces of an abandoned board game. Not far from the truth, I thought, and found myself grinning despite everything. As we watched, three small, blue-shirted figures broke away from the sleepy scene below. Too far away to recognise individually, but I had a fair idea who they were. I wondered whether a glance upward from them might be enough to give us away, but almost laughed at the thought. We'd left nothing to chance this time, and there was no way the Blues were losing again.\n\nWe turned together and kept walking, but something had shifted. No longer the underdogs - every step felt lighter, buzzing with the anticipation of the win that lay ahead.",
+      "prompt": "Who were the 'three small, blue-shirted figures'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "members of the opposing team"
+        },
+        {
+          "label": "B",
+          "text": "the writer, Priya and Noah"
+        },
+        {
+          "label": "C",
+          "text": "visitors to the school"
+        },
+        {
+          "label": "D",
+          "text": "friends from another class"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Context (the Blues 'losing again', the secretive mission) shows these are the rival team.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nThe signal\n\nI was the first to stop running. I had to stop. My legs felt ready to give out, burning with every step. Bent forward, hands on my knees, I tried to focus on slowing my breathing. Then Priya and Noah caught up, red-faced and puffing hard. We looked at each other, then back the way we'd come. Nobody in sight; that had to be a good thing.\n\nAfter all the scheming we'd done to get this far, I was fairly confident nobody would guess which path we'd taken.\n\n'We can't stop here,' said Priya, her voice low but firm. 'We're too close, and it's too open. We'll rest properly once we reach the fence line, okay? Get our heads straight.'\n\nWe looked at each other and nodded in silent agreement.\n\nWe walked three abreast now, side by side, with steady, careful steps. Nobody spoke. I, for one, was glad of the quiet. I was still trying to process what we'd just pulled off.\n\nI glanced left, then right. Priya's serious expression cracked for just a second as she flashed me a quick, reassuring grin. Her face was streaked with dust, but she looked completely unshaken. Noah marched on without a word, his scuffed sneakers thudding steadily, giving nothing away. Braver than I'd realised, now that I thought about it. Both of them were.\n\nReaching the crest of the hill, we all stopped at once, as if by silent agreement. Far below, the school oval and the tiny, ant-sized figures of the other team were scattered like pieces of an abandoned board game. Not far from the truth, I thought, and found myself grinning despite everything. As we watched, three small, blue-shirted figures broke away from the sleepy scene below. Too far away to recognise individually, but I had a fair idea who they were. I wondered whether a glance upward from them might be enough to give us away, but almost laughed at the thought. We'd left nothing to chance this time, and there was no way the Blues were losing again.\n\nWe turned together and kept walking, but something had shifted. No longer the underdogs - every step felt lighter, buzzing with the anticipation of the win that lay ahead.",
+      "prompt": "'there was no way the Blues were losing again' Which pronoun could be used to replace 'the Blues'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "you"
+        },
+        {
+          "label": "B",
+          "text": "they"
+        },
+        {
+          "label": "C",
+          "text": "it"
+        },
+        {
+          "label": "D",
+          "text": "we"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'The Blues' is a group being referred to in the third person, so 'they' is the correct pronoun.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2017c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nThe signal\n\nI was the first to stop running. I had to stop. My legs felt ready to give out, burning with every step. Bent forward, hands on my knees, I tried to focus on slowing my breathing. Then Priya and Noah caught up, red-faced and puffing hard. We looked at each other, then back the way we'd come. Nobody in sight; that had to be a good thing.\n\nAfter all the scheming we'd done to get this far, I was fairly confident nobody would guess which path we'd taken.\n\n'We can't stop here,' said Priya, her voice low but firm. 'We're too close, and it's too open. We'll rest properly once we reach the fence line, okay? Get our heads straight.'\n\nWe looked at each other and nodded in silent agreement.\n\nWe walked three abreast now, side by side, with steady, careful steps. Nobody spoke. I, for one, was glad of the quiet. I was still trying to process what we'd just pulled off.\n\nI glanced left, then right. Priya's serious expression cracked for just a second as she flashed me a quick, reassuring grin. Her face was streaked with dust, but she looked completely unshaken. Noah marched on without a word, his scuffed sneakers thudding steadily, giving nothing away. Braver than I'd realised, now that I thought about it. Both of them were.\n\nReaching the crest of the hill, we all stopped at once, as if by silent agreement. Far below, the school oval and the tiny, ant-sized figures of the other team were scattered like pieces of an abandoned board game. Not far from the truth, I thought, and found myself grinning despite everything. As we watched, three small, blue-shirted figures broke away from the sleepy scene below. Too far away to recognise individually, but I had a fair idea who they were. I wondered whether a glance upward from them might be enough to give us away, but almost laughed at the thought. We'd left nothing to chance this time, and there was no way the Blues were losing again.\n\nWe turned together and kept walking, but something had shifted. No longer the underdogs - every step felt lighter, buzzing with the anticipation of the win that lay ahead.",
+      "prompt": "Which option best describes an 'underdog' in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "someone who refuses to take part"
+        },
+        {
+          "label": "B",
+          "text": "a person who is less privileged"
+        },
+        {
+          "label": "C",
+          "text": "a participant who is unlikely to win"
+        },
+        {
+          "label": "D",
+          "text": "someone who always tries their best"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "An 'underdog' is a competitor expected to lose, matching the team's earlier position.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nThe signal\n\nI was the first to stop running. I had to stop. My legs felt ready to give out, burning with every step. Bent forward, hands on my knees, I tried to focus on slowing my breathing. Then Priya and Noah caught up, red-faced and puffing hard. We looked at each other, then back the way we'd come. Nobody in sight; that had to be a good thing.\n\nAfter all the scheming we'd done to get this far, I was fairly confident nobody would guess which path we'd taken.\n\n'We can't stop here,' said Priya, her voice low but firm. 'We're too close, and it's too open. We'll rest properly once we reach the fence line, okay? Get our heads straight.'\n\nWe looked at each other and nodded in silent agreement.\n\nWe walked three abreast now, side by side, with steady, careful steps. Nobody spoke. I, for one, was glad of the quiet. I was still trying to process what we'd just pulled off.\n\nI glanced left, then right. Priya's serious expression cracked for just a second as she flashed me a quick, reassuring grin. Her face was streaked with dust, but she looked completely unshaken. Noah marched on without a word, his scuffed sneakers thudding steadily, giving nothing away. Braver than I'd realised, now that I thought about it. Both of them were.\n\nReaching the crest of the hill, we all stopped at once, as if by silent agreement. Far below, the school oval and the tiny, ant-sized figures of the other team were scattered like pieces of an abandoned board game. Not far from the truth, I thought, and found myself grinning despite everything. As we watched, three small, blue-shirted figures broke away from the sleepy scene below. Too far away to recognise individually, but I had a fair idea who they were. I wondered whether a glance upward from them might be enough to give us away, but almost laughed at the thought. We'd left nothing to chance this time, and there was no way the Blues were losing again.\n\nWe turned together and kept walking, but something had shifted. No longer the underdogs - every step felt lighter, buzzing with the anticipation of the win that lay ahead.",
+      "prompt": "What were the characters most likely doing in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They were acting in a play."
+        },
+        {
+          "label": "B",
+          "text": "They were on a bushwalk."
+        },
+        {
+          "label": "C",
+          "text": "They were performing a military drill."
+        },
+        {
+          "label": "D",
+          "text": "They were playing an organised game."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "References to 'teams', 'the Blues losing again' and a 'signal' point to an organised game, not a real mission.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nIsland restoration\n\nEver since rats began travelling the world alongside human sailors, they have caused enormous damage to the natural world. Rats don't just spread disease and raid human food stores - they also prey on smaller native animals, particularly on islands where local wildlife often has no natural defences against them.\n\nIslands are especially vulnerable to this kind of damage. Because of their isolation, a very high proportion of island species are endemic, meaning they are found nowhere else on Earth. Although islands make up only around 5% of the planet's total land area, they are home to roughly 20% of all mammal, reptile and bird species. Tragically, about 75% of all animal extinctions recorded since the year 1600 have happened on islands, and introduced rats are usually the main culprit.\n\nIn recent decades, a growing conservation movement has worked to remove rats and other introduced predators from islands entirely, giving native wildlife a genuine chance to recover. This process is known as island restoration, and the basic idea is simple: eliminate the introduced predators, then reintroduce native species if they haven't already disappeared. New Zealand leads the world in this work, having successfully cleared rats from more than 40 islands since the 1960s. Today, roughly 800 islands worldwide are considered rodent-free, and on most of them, native animal populations have bounced back strongly.\n\nOne of the largest and most expensive island restoration projects ever attempted took place on remote South Georgia Island, near Antarctica, where an international team used a ship, three helicopters and around 100 tonnes of rat bait to eliminate the island's rat population. The project was approved because rats had already wiped out roughly 90% of the island's seabirds, and melting glaciers - retreating faster than expected - were opening up access to the last remaining safe breeding colonies.\n\nDespite its successes, island restoration isn't without its critics. Some animal-rights advocates argue it's wrong to kill one group of animals to fix a problem that humans caused in the first place. Others point to the enormous cost involved: transporting equipment to remote islands is expensive, many islands have inaccessible terrain where rodents can hide, and specially trained detector dogs are often required to confirm a project's success. There are also concerns about the unintended effects of large-scale poisoning - in some past projects, native rodents and even land crabs were accidentally poisoned, and on the Aleutian Islands, birds of prey were poisoned after eating already-poisoned rats.\n\nHowever you view it, island restoration involves deliberately killing some animals to save others. But when the alternative may be permanent extinction for many island species that exist nowhere else on Earth, is it really the wrong choice to make?",
+      "prompt": "According to the text, how are rats usually able to reach new lands?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They travel as stowaways on human transport."
+        },
+        {
+          "label": "B",
+          "text": "They are strong swimmers."
+        },
+        {
+          "label": "C",
+          "text": "They can survive on almost any food source."
+        },
+        {
+          "label": "D",
+          "text": "They follow migrating seabirds."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text says rats began 'travelling the world alongside human sailors.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nIsland restoration\n\nEver since rats began travelling the world alongside human sailors, they have caused enormous damage to the natural world. Rats don't just spread disease and raid human food stores - they also prey on smaller native animals, particularly on islands where local wildlife often has no natural defences against them.\n\nIslands are especially vulnerable to this kind of damage. Because of their isolation, a very high proportion of island species are endemic, meaning they are found nowhere else on Earth. Although islands make up only around 5% of the planet's total land area, they are home to roughly 20% of all mammal, reptile and bird species. Tragically, about 75% of all animal extinctions recorded since the year 1600 have happened on islands, and introduced rats are usually the main culprit.\n\nIn recent decades, a growing conservation movement has worked to remove rats and other introduced predators from islands entirely, giving native wildlife a genuine chance to recover. This process is known as island restoration, and the basic idea is simple: eliminate the introduced predators, then reintroduce native species if they haven't already disappeared. New Zealand leads the world in this work, having successfully cleared rats from more than 40 islands since the 1960s. Today, roughly 800 islands worldwide are considered rodent-free, and on most of them, native animal populations have bounced back strongly.\n\nOne of the largest and most expensive island restoration projects ever attempted took place on remote South Georgia Island, near Antarctica, where an international team used a ship, three helicopters and around 100 tonnes of rat bait to eliminate the island's rat population. The project was approved because rats had already wiped out roughly 90% of the island's seabirds, and melting glaciers - retreating faster than expected - were opening up access to the last remaining safe breeding colonies.\n\nDespite its successes, island restoration isn't without its critics. Some animal-rights advocates argue it's wrong to kill one group of animals to fix a problem that humans caused in the first place. Others point to the enormous cost involved: transporting equipment to remote islands is expensive, many islands have inaccessible terrain where rodents can hide, and specially trained detector dogs are often required to confirm a project's success. There are also concerns about the unintended effects of large-scale poisoning - in some past projects, native rodents and even land crabs were accidentally poisoned, and on the Aleutian Islands, birds of prey were poisoned after eating already-poisoned rats.\n\nHowever you view it, island restoration involves deliberately killing some animals to save others. But when the alternative may be permanent extinction for many island species that exist nowhere else on Earth, is it really the wrong choice to make?",
+      "prompt": "Based on information in the text, why have so many of Earth's animal extinctions occurred on islands?",
+      "options": [
+        {
+          "label": "A",
+          "text": "islands make up only 5% of Earth's landmass."
+        },
+        {
+          "label": "B",
+          "text": "island species are often found nowhere else and have no defence against rats."
+        },
+        {
+          "label": "C",
+          "text": "islands provide an unusually ideal environment for animals."
+        },
+        {
+          "label": "D",
+          "text": "islands generally have more species than other environments."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Endemic species with no natural defences against introduced rats are especially vulnerable to extinction.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nIsland restoration\n\nEver since rats began travelling the world alongside human sailors, they have caused enormous damage to the natural world. Rats don't just spread disease and raid human food stores - they also prey on smaller native animals, particularly on islands where local wildlife often has no natural defences against them.\n\nIslands are especially vulnerable to this kind of damage. Because of their isolation, a very high proportion of island species are endemic, meaning they are found nowhere else on Earth. Although islands make up only around 5% of the planet's total land area, they are home to roughly 20% of all mammal, reptile and bird species. Tragically, about 75% of all animal extinctions recorded since the year 1600 have happened on islands, and introduced rats are usually the main culprit.\n\nIn recent decades, a growing conservation movement has worked to remove rats and other introduced predators from islands entirely, giving native wildlife a genuine chance to recover. This process is known as island restoration, and the basic idea is simple: eliminate the introduced predators, then reintroduce native species if they haven't already disappeared. New Zealand leads the world in this work, having successfully cleared rats from more than 40 islands since the 1960s. Today, roughly 800 islands worldwide are considered rodent-free, and on most of them, native animal populations have bounced back strongly.\n\nOne of the largest and most expensive island restoration projects ever attempted took place on remote South Georgia Island, near Antarctica, where an international team used a ship, three helicopters and around 100 tonnes of rat bait to eliminate the island's rat population. The project was approved because rats had already wiped out roughly 90% of the island's seabirds, and melting glaciers - retreating faster than expected - were opening up access to the last remaining safe breeding colonies.\n\nDespite its successes, island restoration isn't without its critics. Some animal-rights advocates argue it's wrong to kill one group of animals to fix a problem that humans caused in the first place. Others point to the enormous cost involved: transporting equipment to remote islands is expensive, many islands have inaccessible terrain where rodents can hide, and specially trained detector dogs are often required to confirm a project's success. There are also concerns about the unintended effects of large-scale poisoning - in some past projects, native rodents and even land crabs were accidentally poisoned, and on the Aleutian Islands, birds of prey were poisoned after eating already-poisoned rats.\n\nHowever you view it, island restoration involves deliberately killing some animals to save others. But when the alternative may be permanent extinction for many island species that exist nowhere else on Earth, is it really the wrong choice to make?",
+      "prompt": "What is the main purpose of the second paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to highlight New Zealand's role in island restoration"
+        },
+        {
+          "label": "B",
+          "text": "to name the countries involved in conservation"
+        },
+        {
+          "label": "C",
+          "text": "to outline why islands are especially vulnerable to introduced predators"
+        },
+        {
+          "label": "D",
+          "text": "to describe the process used in island restoration"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The paragraph explains endemism and vulnerability, setting up why island restoration matters.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nIsland restoration\n\nEver since rats began travelling the world alongside human sailors, they have caused enormous damage to the natural world. Rats don't just spread disease and raid human food stores - they also prey on smaller native animals, particularly on islands where local wildlife often has no natural defences against them.\n\nIslands are especially vulnerable to this kind of damage. Because of their isolation, a very high proportion of island species are endemic, meaning they are found nowhere else on Earth. Although islands make up only around 5% of the planet's total land area, they are home to roughly 20% of all mammal, reptile and bird species. Tragically, about 75% of all animal extinctions recorded since the year 1600 have happened on islands, and introduced rats are usually the main culprit.\n\nIn recent decades, a growing conservation movement has worked to remove rats and other introduced predators from islands entirely, giving native wildlife a genuine chance to recover. This process is known as island restoration, and the basic idea is simple: eliminate the introduced predators, then reintroduce native species if they haven't already disappeared. New Zealand leads the world in this work, having successfully cleared rats from more than 40 islands since the 1960s. Today, roughly 800 islands worldwide are considered rodent-free, and on most of them, native animal populations have bounced back strongly.\n\nOne of the largest and most expensive island restoration projects ever attempted took place on remote South Georgia Island, near Antarctica, where an international team used a ship, three helicopters and around 100 tonnes of rat bait to eliminate the island's rat population. The project was approved because rats had already wiped out roughly 90% of the island's seabirds, and melting glaciers - retreating faster than expected - were opening up access to the last remaining safe breeding colonies.\n\nDespite its successes, island restoration isn't without its critics. Some animal-rights advocates argue it's wrong to kill one group of animals to fix a problem that humans caused in the first place. Others point to the enormous cost involved: transporting equipment to remote islands is expensive, many islands have inaccessible terrain where rodents can hide, and specially trained detector dogs are often required to confirm a project's success. There are also concerns about the unintended effects of large-scale poisoning - in some past projects, native rodents and even land crabs were accidentally poisoned, and on the Aleutian Islands, birds of prey were poisoned after eating already-poisoned rats.\n\nHowever you view it, island restoration involves deliberately killing some animals to save others. But when the alternative may be permanent extinction for many island species that exist nowhere else on Earth, is it really the wrong choice to make?",
+      "prompt": "Which of the following is NOT mentioned in the case study of South Georgia Island?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the cost of restoring remote areas"
+        },
+        {
+          "label": "B",
+          "text": "the urgency caused by melting glaciers"
+        },
+        {
+          "label": "C",
+          "text": "the type of equipment used"
+        },
+        {
+          "label": "D",
+          "text": "the impact of freezing temperatures on the seabirds"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The case study mentions cost, melting glaciers and equipment (ship, helicopters, bait), but not the direct effect of cold temperatures on seabirds.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nIsland restoration\n\nEver since rats began travelling the world alongside human sailors, they have caused enormous damage to the natural world. Rats don't just spread disease and raid human food stores - they also prey on smaller native animals, particularly on islands where local wildlife often has no natural defences against them.\n\nIslands are especially vulnerable to this kind of damage. Because of their isolation, a very high proportion of island species are endemic, meaning they are found nowhere else on Earth. Although islands make up only around 5% of the planet's total land area, they are home to roughly 20% of all mammal, reptile and bird species. Tragically, about 75% of all animal extinctions recorded since the year 1600 have happened on islands, and introduced rats are usually the main culprit.\n\nIn recent decades, a growing conservation movement has worked to remove rats and other introduced predators from islands entirely, giving native wildlife a genuine chance to recover. This process is known as island restoration, and the basic idea is simple: eliminate the introduced predators, then reintroduce native species if they haven't already disappeared. New Zealand leads the world in this work, having successfully cleared rats from more than 40 islands since the 1960s. Today, roughly 800 islands worldwide are considered rodent-free, and on most of them, native animal populations have bounced back strongly.\n\nOne of the largest and most expensive island restoration projects ever attempted took place on remote South Georgia Island, near Antarctica, where an international team used a ship, three helicopters and around 100 tonnes of rat bait to eliminate the island's rat population. The project was approved because rats had already wiped out roughly 90% of the island's seabirds, and melting glaciers - retreating faster than expected - were opening up access to the last remaining safe breeding colonies.\n\nDespite its successes, island restoration isn't without its critics. Some animal-rights advocates argue it's wrong to kill one group of animals to fix a problem that humans caused in the first place. Others point to the enormous cost involved: transporting equipment to remote islands is expensive, many islands have inaccessible terrain where rodents can hide, and specially trained detector dogs are often required to confirm a project's success. There are also concerns about the unintended effects of large-scale poisoning - in some past projects, native rodents and even land crabs were accidentally poisoned, and on the Aleutian Islands, birds of prey were poisoned after eating already-poisoned rats.\n\nHowever you view it, island restoration involves deliberately killing some animals to save others. But when the alternative may be permanent extinction for many island species that exist nowhere else on Earth, is it really the wrong choice to make?",
+      "prompt": "Which word from the text is different in meaning from the others?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'bounced back'"
+        },
+        {
+          "label": "B",
+          "text": "'eliminate'"
+        },
+        {
+          "label": "C",
+          "text": "'wiped out'"
+        },
+        {
+          "label": "D",
+          "text": "'killing'"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Bounced back' means recovering, while the other three all relate to removing or destroying something.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nIsland restoration\n\nEver since rats began travelling the world alongside human sailors, they have caused enormous damage to the natural world. Rats don't just spread disease and raid human food stores - they also prey on smaller native animals, particularly on islands where local wildlife often has no natural defences against them.\n\nIslands are especially vulnerable to this kind of damage. Because of their isolation, a very high proportion of island species are endemic, meaning they are found nowhere else on Earth. Although islands make up only around 5% of the planet's total land area, they are home to roughly 20% of all mammal, reptile and bird species. Tragically, about 75% of all animal extinctions recorded since the year 1600 have happened on islands, and introduced rats are usually the main culprit.\n\nIn recent decades, a growing conservation movement has worked to remove rats and other introduced predators from islands entirely, giving native wildlife a genuine chance to recover. This process is known as island restoration, and the basic idea is simple: eliminate the introduced predators, then reintroduce native species if they haven't already disappeared. New Zealand leads the world in this work, having successfully cleared rats from more than 40 islands since the 1960s. Today, roughly 800 islands worldwide are considered rodent-free, and on most of them, native animal populations have bounced back strongly.\n\nOne of the largest and most expensive island restoration projects ever attempted took place on remote South Georgia Island, near Antarctica, where an international team used a ship, three helicopters and around 100 tonnes of rat bait to eliminate the island's rat population. The project was approved because rats had already wiped out roughly 90% of the island's seabirds, and melting glaciers - retreating faster than expected - were opening up access to the last remaining safe breeding colonies.\n\nDespite its successes, island restoration isn't without its critics. Some animal-rights advocates argue it's wrong to kill one group of animals to fix a problem that humans caused in the first place. Others point to the enormous cost involved: transporting equipment to remote islands is expensive, many islands have inaccessible terrain where rodents can hide, and specially trained detector dogs are often required to confirm a project's success. There are also concerns about the unintended effects of large-scale poisoning - in some past projects, native rodents and even land crabs were accidentally poisoned, and on the Aleutian Islands, birds of prey were poisoned after eating already-poisoned rats.\n\nHowever you view it, island restoration involves deliberately killing some animals to save others. But when the alternative may be permanent extinction for many island species that exist nowhere else on Earth, is it really the wrong choice to make?",
+      "prompt": "Which option could best replace the phrase 'However you view it'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "In relation to this"
+        },
+        {
+          "label": "B",
+          "text": "No matter your opinion"
+        },
+        {
+          "label": "C",
+          "text": "As an alternative to this"
+        },
+        {
+          "label": "D",
+          "text": "Without considering this"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'However you view it' means regardless of one's opinion, closest to 'No matter your opinion.'",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2017c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nIsland restoration\n\nEver since rats began travelling the world alongside human sailors, they have caused enormous damage to the natural world. Rats don't just spread disease and raid human food stores - they also prey on smaller native animals, particularly on islands where local wildlife often has no natural defences against them.\n\nIslands are especially vulnerable to this kind of damage. Because of their isolation, a very high proportion of island species are endemic, meaning they are found nowhere else on Earth. Although islands make up only around 5% of the planet's total land area, they are home to roughly 20% of all mammal, reptile and bird species. Tragically, about 75% of all animal extinctions recorded since the year 1600 have happened on islands, and introduced rats are usually the main culprit.\n\nIn recent decades, a growing conservation movement has worked to remove rats and other introduced predators from islands entirely, giving native wildlife a genuine chance to recover. This process is known as island restoration, and the basic idea is simple: eliminate the introduced predators, then reintroduce native species if they haven't already disappeared. New Zealand leads the world in this work, having successfully cleared rats from more than 40 islands since the 1960s. Today, roughly 800 islands worldwide are considered rodent-free, and on most of them, native animal populations have bounced back strongly.\n\nOne of the largest and most expensive island restoration projects ever attempted took place on remote South Georgia Island, near Antarctica, where an international team used a ship, three helicopters and around 100 tonnes of rat bait to eliminate the island's rat population. The project was approved because rats had already wiped out roughly 90% of the island's seabirds, and melting glaciers - retreating faster than expected - were opening up access to the last remaining safe breeding colonies.\n\nDespite its successes, island restoration isn't without its critics. Some animal-rights advocates argue it's wrong to kill one group of animals to fix a problem that humans caused in the first place. Others point to the enormous cost involved: transporting equipment to remote islands is expensive, many islands have inaccessible terrain where rodents can hide, and specially trained detector dogs are often required to confirm a project's success. There are also concerns about the unintended effects of large-scale poisoning - in some past projects, native rodents and even land crabs were accidentally poisoned, and on the Aleutian Islands, birds of prey were poisoned after eating already-poisoned rats.\n\nHowever you view it, island restoration involves deliberately killing some animals to save others. But when the alternative may be permanent extinction for many island species that exist nowhere else on Earth, is it really the wrong choice to make?",
+      "prompt": "What does the word 'permanent' mean as it is used in the final paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "happening at a set time"
+        },
+        {
+          "label": "B",
+          "text": "following a predictable pattern"
+        },
+        {
+          "label": "C",
+          "text": "impossible to reverse"
+        },
+        {
+          "label": "D",
+          "text": "occurring gradually"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Permanent extinction' means an outcome that cannot be undone.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nIsland restoration\n\nEver since rats began travelling the world alongside human sailors, they have caused enormous damage to the natural world. Rats don't just spread disease and raid human food stores - they also prey on smaller native animals, particularly on islands where local wildlife often has no natural defences against them.\n\nIslands are especially vulnerable to this kind of damage. Because of their isolation, a very high proportion of island species are endemic, meaning they are found nowhere else on Earth. Although islands make up only around 5% of the planet's total land area, they are home to roughly 20% of all mammal, reptile and bird species. Tragically, about 75% of all animal extinctions recorded since the year 1600 have happened on islands, and introduced rats are usually the main culprit.\n\nIn recent decades, a growing conservation movement has worked to remove rats and other introduced predators from islands entirely, giving native wildlife a genuine chance to recover. This process is known as island restoration, and the basic idea is simple: eliminate the introduced predators, then reintroduce native species if they haven't already disappeared. New Zealand leads the world in this work, having successfully cleared rats from more than 40 islands since the 1960s. Today, roughly 800 islands worldwide are considered rodent-free, and on most of them, native animal populations have bounced back strongly.\n\nOne of the largest and most expensive island restoration projects ever attempted took place on remote South Georgia Island, near Antarctica, where an international team used a ship, three helicopters and around 100 tonnes of rat bait to eliminate the island's rat population. The project was approved because rats had already wiped out roughly 90% of the island's seabirds, and melting glaciers - retreating faster than expected - were opening up access to the last remaining safe breeding colonies.\n\nDespite its successes, island restoration isn't without its critics. Some animal-rights advocates argue it's wrong to kill one group of animals to fix a problem that humans caused in the first place. Others point to the enormous cost involved: transporting equipment to remote islands is expensive, many islands have inaccessible terrain where rodents can hide, and specially trained detector dogs are often required to confirm a project's success. There are also concerns about the unintended effects of large-scale poisoning - in some past projects, native rodents and even land crabs were accidentally poisoned, and on the Aleutian Islands, birds of prey were poisoned after eating already-poisoned rats.\n\nHowever you view it, island restoration involves deliberately killing some animals to save others. But when the alternative may be permanent extinction for many island species that exist nowhere else on Earth, is it really the wrong choice to make?",
+      "prompt": "What is the main purpose of the final paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to encourage alternatives to island restoration"
+        },
+        {
+          "label": "B",
+          "text": "to question whether island restoration is ever justified"
+        },
+        {
+          "label": "C",
+          "text": "to prove island restoration always succeeds"
+        },
+        {
+          "label": "D",
+          "text": "to argue that saving island species justifies the cost"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The closing rhetorical question suggests the benefit (preventing extinction) outweighs the cost (selective killing).",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nStormy\n\nIt was a wild, blustery evening in a small coastal town.\n\nIn her bedroom upstairs, Nadia sat cross-legged on her bed, an old woollen blanket draped over her shoulders, watching the palm trees thrash wildly outside her window. Behind them, ragged clouds tore across the sky. Every so often the moon broke through, throwing pale, flickering shadows across the lawn.\n\nThe window rattled in its frame.\n\nWrapped in her blanket, Nadia shivered.\n\nShe wasn't usually bothered by storms. It's not really the storm, she thought. It's the storm on top of everything else. On top of today. On top of getting everything wrong.\n\nSchool had been a disaster. She'd been moved down into the lower reading group that morning. One of her teachers had said, not unkindly but firmly, 'Nadia, I know you can do better than this. If things don't improve, we may need to look at extra support next term.'\n\nAt lunch, trying to laugh it off, she'd said something silly, and one of the older girls had rolled her eyes and said, 'Honestly, Nadia, we're not little kids anymore. Why do you always act like one?'\n\nThen on the walk home, arms full of books, one of the boys from her class had said something about her 'annoying little brother'. She'd dropped every single book onto the footpath and shoved him hard enough that he'd stumbled backwards into a hedge. She'd arrived home with a grass stain on her sleeve and her hair sticking up on one side.\n\nHer younger twin brothers, Milo and Theo, who always got home from school half an hour before her, were unimpressed. 'Let us handle the fighting when it's actually necessary,' they told her solemnly.\n\nI'm basically a delinquent, she thought grimly. That's probably what they'll say next. Not Mum. But everyone else.",
+      "prompt": "What does the word 'ragged' mean as it is used in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "irregular and messy"
+        },
+        {
+          "label": "B",
+          "text": "torn"
+        },
+        {
+          "label": "C",
+          "text": "exhausted"
+        },
+        {
+          "label": "D",
+          "text": "colourful"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Ragged clouds' describes their uneven, messy shapes as they moved across the sky.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nStormy\n\nIt was a wild, blustery evening in a small coastal town.\n\nIn her bedroom upstairs, Nadia sat cross-legged on her bed, an old woollen blanket draped over her shoulders, watching the palm trees thrash wildly outside her window. Behind them, ragged clouds tore across the sky. Every so often the moon broke through, throwing pale, flickering shadows across the lawn.\n\nThe window rattled in its frame.\n\nWrapped in her blanket, Nadia shivered.\n\nShe wasn't usually bothered by storms. It's not really the storm, she thought. It's the storm on top of everything else. On top of today. On top of getting everything wrong.\n\nSchool had been a disaster. She'd been moved down into the lower reading group that morning. One of her teachers had said, not unkindly but firmly, 'Nadia, I know you can do better than this. If things don't improve, we may need to look at extra support next term.'\n\nAt lunch, trying to laugh it off, she'd said something silly, and one of the older girls had rolled her eyes and said, 'Honestly, Nadia, we're not little kids anymore. Why do you always act like one?'\n\nThen on the walk home, arms full of books, one of the boys from her class had said something about her 'annoying little brother'. She'd dropped every single book onto the footpath and shoved him hard enough that he'd stumbled backwards into a hedge. She'd arrived home with a grass stain on her sleeve and her hair sticking up on one side.\n\nHer younger twin brothers, Milo and Theo, who always got home from school half an hour before her, were unimpressed. 'Let us handle the fighting when it's actually necessary,' they told her solemnly.\n\nI'm basically a delinquent, she thought grimly. That's probably what they'll say next. Not Mum. But everyone else.",
+      "prompt": "In the fourth paragraph, what is the purpose of the repetition of the words 'on top'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It reveals that Nadia feels superior to other people."
+        },
+        {
+          "label": "B",
+          "text": "It highlights how overwhelmed Nadia feels."
+        },
+        {
+          "label": "C",
+          "text": "It reinforces Nadia's feelings of confidence."
+        },
+        {
+          "label": "D",
+          "text": "It emphasises how attached Nadia feels to her blanket."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The stacking repetition of 'on top of' mirrors Nadia's sense of piling problems and being overwhelmed.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nStormy\n\nIt was a wild, blustery evening in a small coastal town.\n\nIn her bedroom upstairs, Nadia sat cross-legged on her bed, an old woollen blanket draped over her shoulders, watching the palm trees thrash wildly outside her window. Behind them, ragged clouds tore across the sky. Every so often the moon broke through, throwing pale, flickering shadows across the lawn.\n\nThe window rattled in its frame.\n\nWrapped in her blanket, Nadia shivered.\n\nShe wasn't usually bothered by storms. It's not really the storm, she thought. It's the storm on top of everything else. On top of today. On top of getting everything wrong.\n\nSchool had been a disaster. She'd been moved down into the lower reading group that morning. One of her teachers had said, not unkindly but firmly, 'Nadia, I know you can do better than this. If things don't improve, we may need to look at extra support next term.'\n\nAt lunch, trying to laugh it off, she'd said something silly, and one of the older girls had rolled her eyes and said, 'Honestly, Nadia, we're not little kids anymore. Why do you always act like one?'\n\nThen on the walk home, arms full of books, one of the boys from her class had said something about her 'annoying little brother'. She'd dropped every single book onto the footpath and shoved him hard enough that he'd stumbled backwards into a hedge. She'd arrived home with a grass stain on her sleeve and her hair sticking up on one side.\n\nHer younger twin brothers, Milo and Theo, who always got home from school half an hour before her, were unimpressed. 'Let us handle the fighting when it's actually necessary,' they told her solemnly.\n\nI'm basically a delinquent, she thought grimly. That's probably what they'll say next. Not Mum. But everyone else.",
+      "prompt": "'School had been a disaster.' The paragraph starting with this sentence is best described as",
+      "options": [
+        {
+          "label": "A",
+          "text": "an introduction to Nadia's teacher."
+        },
+        {
+          "label": "B",
+          "text": "a promise that something will happen."
+        },
+        {
+          "label": "C",
+          "text": "a flashback to something that had already happened."
+        },
+        {
+          "label": "D",
+          "text": "an argument about school rules."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The paragraph recounts events from earlier in the day - a flashback.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nStormy\n\nIt was a wild, blustery evening in a small coastal town.\n\nIn her bedroom upstairs, Nadia sat cross-legged on her bed, an old woollen blanket draped over her shoulders, watching the palm trees thrash wildly outside her window. Behind them, ragged clouds tore across the sky. Every so often the moon broke through, throwing pale, flickering shadows across the lawn.\n\nThe window rattled in its frame.\n\nWrapped in her blanket, Nadia shivered.\n\nShe wasn't usually bothered by storms. It's not really the storm, she thought. It's the storm on top of everything else. On top of today. On top of getting everything wrong.\n\nSchool had been a disaster. She'd been moved down into the lower reading group that morning. One of her teachers had said, not unkindly but firmly, 'Nadia, I know you can do better than this. If things don't improve, we may need to look at extra support next term.'\n\nAt lunch, trying to laugh it off, she'd said something silly, and one of the older girls had rolled her eyes and said, 'Honestly, Nadia, we're not little kids anymore. Why do you always act like one?'\n\nThen on the walk home, arms full of books, one of the boys from her class had said something about her 'annoying little brother'. She'd dropped every single book onto the footpath and shoved him hard enough that he'd stumbled backwards into a hedge. She'd arrived home with a grass stain on her sleeve and her hair sticking up on one side.\n\nHer younger twin brothers, Milo and Theo, who always got home from school half an hour before her, were unimpressed. 'Let us handle the fighting when it's actually necessary,' they told her solemnly.\n\nI'm basically a delinquent, she thought grimly. That's probably what they'll say next. Not Mum. But everyone else.",
+      "prompt": "Which word from the text is a verb?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'wild'"
+        },
+        {
+          "label": "B",
+          "text": "'grass'"
+        },
+        {
+          "label": "C",
+          "text": "'annoying'"
+        },
+        {
+          "label": "D",
+          "text": "'shivered'"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Shivered' is an action word - a verb - while the others are an adjective, a noun, and an adjective.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2017c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nStormy\n\nIt was a wild, blustery evening in a small coastal town.\n\nIn her bedroom upstairs, Nadia sat cross-legged on her bed, an old woollen blanket draped over her shoulders, watching the palm trees thrash wildly outside her window. Behind them, ragged clouds tore across the sky. Every so often the moon broke through, throwing pale, flickering shadows across the lawn.\n\nThe window rattled in its frame.\n\nWrapped in her blanket, Nadia shivered.\n\nShe wasn't usually bothered by storms. It's not really the storm, she thought. It's the storm on top of everything else. On top of today. On top of getting everything wrong.\n\nSchool had been a disaster. She'd been moved down into the lower reading group that morning. One of her teachers had said, not unkindly but firmly, 'Nadia, I know you can do better than this. If things don't improve, we may need to look at extra support next term.'\n\nAt lunch, trying to laugh it off, she'd said something silly, and one of the older girls had rolled her eyes and said, 'Honestly, Nadia, we're not little kids anymore. Why do you always act like one?'\n\nThen on the walk home, arms full of books, one of the boys from her class had said something about her 'annoying little brother'. She'd dropped every single book onto the footpath and shoved him hard enough that he'd stumbled backwards into a hedge. She'd arrived home with a grass stain on her sleeve and her hair sticking up on one side.\n\nHer younger twin brothers, Milo and Theo, who always got home from school half an hour before her, were unimpressed. 'Let us handle the fighting when it's actually necessary,' they told her solemnly.\n\nI'm basically a delinquent, she thought grimly. That's probably what they'll say next. Not Mum. But everyone else.",
+      "prompt": "Which option best describes other people's attitudes towards Nadia?",
+      "options": [
+        {
+          "label": "A",
+          "text": "her teacher: firm - her brothers: unimpressed"
+        },
+        {
+          "label": "B",
+          "text": "her teacher: cruel - her brothers: furious"
+        },
+        {
+          "label": "C",
+          "text": "her teacher: arrogant - her brothers: fearful"
+        },
+        {
+          "label": "D",
+          "text": "her teacher: insulting - her brothers: annoyed"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The teacher speaks 'not unkindly but firmly', and the brothers are simply 'unimpressed', not furious or fearful.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nStormy\n\nIt was a wild, blustery evening in a small coastal town.\n\nIn her bedroom upstairs, Nadia sat cross-legged on her bed, an old woollen blanket draped over her shoulders, watching the palm trees thrash wildly outside her window. Behind them, ragged clouds tore across the sky. Every so often the moon broke through, throwing pale, flickering shadows across the lawn.\n\nThe window rattled in its frame.\n\nWrapped in her blanket, Nadia shivered.\n\nShe wasn't usually bothered by storms. It's not really the storm, she thought. It's the storm on top of everything else. On top of today. On top of getting everything wrong.\n\nSchool had been a disaster. She'd been moved down into the lower reading group that morning. One of her teachers had said, not unkindly but firmly, 'Nadia, I know you can do better than this. If things don't improve, we may need to look at extra support next term.'\n\nAt lunch, trying to laugh it off, she'd said something silly, and one of the older girls had rolled her eyes and said, 'Honestly, Nadia, we're not little kids anymore. Why do you always act like one?'\n\nThen on the walk home, arms full of books, one of the boys from her class had said something about her 'annoying little brother'. She'd dropped every single book onto the footpath and shoved him hard enough that he'd stumbled backwards into a hedge. She'd arrived home with a grass stain on her sleeve and her hair sticking up on one side.\n\nHer younger twin brothers, Milo and Theo, who always got home from school half an hour before her, were unimpressed. 'Let us handle the fighting when it's actually necessary,' they told her solemnly.\n\nI'm basically a delinquent, she thought grimly. That's probably what they'll say next. Not Mum. But everyone else.",
+      "prompt": "In the last paragraph, as Nadia sat wrapped in her blanket, she was",
+      "options": [
+        {
+          "label": "A",
+          "text": "planning what she would say to people."
+        },
+        {
+          "label": "B",
+          "text": "predicting what people would say about her."
+        },
+        {
+          "label": "C",
+          "text": "preparing to face her mother."
+        },
+        {
+          "label": "D",
+          "text": "pretending that she was upset."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "She imagines being called a 'delinquent' and predicts what 'they'll' say next.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nStormy\n\nIt was a wild, blustery evening in a small coastal town.\n\nIn her bedroom upstairs, Nadia sat cross-legged on her bed, an old woollen blanket draped over her shoulders, watching the palm trees thrash wildly outside her window. Behind them, ragged clouds tore across the sky. Every so often the moon broke through, throwing pale, flickering shadows across the lawn.\n\nThe window rattled in its frame.\n\nWrapped in her blanket, Nadia shivered.\n\nShe wasn't usually bothered by storms. It's not really the storm, she thought. It's the storm on top of everything else. On top of today. On top of getting everything wrong.\n\nSchool had been a disaster. She'd been moved down into the lower reading group that morning. One of her teachers had said, not unkindly but firmly, 'Nadia, I know you can do better than this. If things don't improve, we may need to look at extra support next term.'\n\nAt lunch, trying to laugh it off, she'd said something silly, and one of the older girls had rolled her eyes and said, 'Honestly, Nadia, we're not little kids anymore. Why do you always act like one?'\n\nThen on the walk home, arms full of books, one of the boys from her class had said something about her 'annoying little brother'. She'd dropped every single book onto the footpath and shoved him hard enough that he'd stumbled backwards into a hedge. She'd arrived home with a grass stain on her sleeve and her hair sticking up on one side.\n\nHer younger twin brothers, Milo and Theo, who always got home from school half an hour before her, were unimpressed. 'Let us handle the fighting when it's actually necessary,' they told her solemnly.\n\nI'm basically a delinquent, she thought grimly. That's probably what they'll say next. Not Mum. But everyone else.",
+      "prompt": "In the last paragraph, Nadia believed that her mother would",
+      "options": [
+        {
+          "label": "A",
+          "text": "ignore her."
+        },
+        {
+          "label": "B",
+          "text": "scold her."
+        },
+        {
+          "label": "C",
+          "text": "support her."
+        },
+        {
+          "label": "D",
+          "text": "tease her."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "She distinguishes her mother ('Not Mum') from 'everyone else' who might judge her, implying she expects her mother's support.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "The word 'founder', as it is used in the text, means that Genghis Khan",
+      "options": [
+        {
+          "label": "A",
+          "text": "located the Mongol Empire."
+        },
+        {
+          "label": "B",
+          "text": "discovered the Mongol Empire."
+        },
+        {
+          "label": "C",
+          "text": "inherited the Mongol Empire."
+        },
+        {
+          "label": "D",
+          "text": "established the Mongol Empire."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A 'founder' is someone who establishes or creates something.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "In the second paragraph, the word 'cruelly' is used to",
+      "options": [
+        {
+          "label": "A",
+          "text": "express the writer's opinion about what happened."
+        },
+        {
+          "label": "B",
+          "text": "provide additional information about the rival clan."
+        },
+        {
+          "label": "C",
+          "text": "emphasise that the event definitely occurred."
+        },
+        {
+          "label": "D",
+          "text": "highlight that this detail is essential to remember."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Cruelly' is a judgment word revealing the writer's view that abandoning the family was unjust.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "In the second paragraph, what is the purpose of the word 'possible'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to present an argument supported by clear fact"
+        },
+        {
+          "label": "B",
+          "text": "to offer a possibility for readers to consider"
+        },
+        {
+          "label": "C",
+          "text": "to introduce a series of unrelated ideas"
+        },
+        {
+          "label": "D",
+          "text": "to show that one fact is more certain than another"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'It's possible' signals speculation, offering an idea rather than a proven fact.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "In the phrase 'anyone who resisted him', what do the words 'who' and 'him' refer to?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'who' = clans, 'him' = a rival leader"
+        },
+        {
+          "label": "B",
+          "text": "'who' = nomads, 'him' = Genghis Khan"
+        },
+        {
+          "label": "C",
+          "text": "'who' = enemies, 'him' = Genghis Khan"
+        },
+        {
+          "label": "D",
+          "text": "'who' = Genghis Khan, 'him' = a rival leader"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Who' refers to anyone opposing him, and 'him' refers back to Genghis Khan, the subject of the sentence.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2017c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "What is the 'mystery' referred to at the beginning of the final paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Genghis Khan was more famous in life than in death."
+        },
+        {
+          "label": "B",
+          "text": "Genghis Khan had an eventful life but an ordinary death."
+        },
+        {
+          "label": "C",
+          "text": "Genghis Khan lived through many battles but died from a simple wound."
+        },
+        {
+          "label": "D",
+          "text": "Genghis Khan's life is well documented, but little is known about his burial site."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The paragraph directly contrasts his well-known life with the unknown location of his grave.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q41",
+      "number": 41,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "'later used by other famous military leaders as well' Why does the writer include this information?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to emphasise the lasting effectiveness of Genghis's strategy"
+        },
+        {
+          "label": "B",
+          "text": "to compare the military power of different leaders"
+        },
+        {
+          "label": "C",
+          "text": "to show how far the Mongol Empire eventually spread"
+        },
+        {
+          "label": "D",
+          "text": "to prove that later leaders were smarter than Genghis"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Noting that later leaders reused the strategy underscores just how effective it was.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017c-q42",
+      "number": 42,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "Which of the following questions can be answered using only information from this text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Who helped Genghis Khan lead the Mongols?"
+        },
+        {
+          "label": "B",
+          "text": "What is the general location of Genghis Khan's birthplace?"
+        },
+        {
+          "label": "C",
+          "text": "Who inspired Genghis Khan's 'divide and conquer' strategy?"
+        },
+        {
+          "label": "D",
+          "text": "Why exactly did Genghis Khan want an unmarked grave?"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text explicitly states he was born 'near the Khentii Mountains... in north-central Mongolia.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q43",
+      "number": 43,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe Orchard\n\nThe orchard hums with cicadas, rows of old apple trees leaning slightly in the afternoon heat, oblivious to the kestrel circling lazily overhead and the sparrows squabbling through the grass. Beneath the trees, the dog dozes, stretches, or watches nothing at all, lost in some private dog-thought. Daydreaming.\n\nThe orchard speaks in its own way, the branches creaking soft syllables in the breeze. Light spills between the leaves, shifting, scattering, revealing the twisted shapes of old roots pushing up through the soil. Wind moves through the grass, ruffling it like fur. It cools Tomas's neck, runs curious fingers through his hair. And the whole time, the orchard seems to be talking to him.\n\nEvery afternoon he wanders past the same rows, where the old ewes chew steadily at the grass, barely looking up. This evening, once the light softens, he'll bring his ladder and pick the last of the season's apples. Maybe there will be enough left to sell a proper crate at the market.\n\nHe knows things haven't been easy for his family lately. His mother has already sold off the back paddock to the family next door, a retired couple wanting more space for their garden. Tomas's older sister sometimes helps out at their big house, which Tomas has only ever seen from the fence line. Their shed alone is bigger than the house Tomas lives in.\n\nWhen Tomas gets home, the table is already set for dinner. He can smell onions frying and hear the kettle starting to whistle on the stove.\n\n'Rice again?' his father asks. He nods. 'Careful with that peeler,' his father reminds him, passing it over. Butter sits softening in a small dish.\n\n'I want to go out later.'\n\n'Not this evening, not with the ladder. Your mother wants to talk to you.'\n\nTomas feels his shoulders tighten. The night before, through the thin wall between their rooms, he'd caught fragments of a conversation: 'price', 'can't wait much longer', 'might have to'. He'd turned over and pulled the pillow tighter around his ears, his heart thudding.\n\nNow, in the hour before dusk, the orchard is loud with insects. He can see his father crouched in the vegetable patch, pulling weeds, the chickens trailing behind him hopefully. His mother must still be in the shed, fixing the mower again. Grabbing his ladder, Tomas quietly lets the screen door swing shut behind him. Glancing back, he sees the windows glowing gold with the last of the sun, as though the house itself were on fire. He turns away from the brightness and walks back towards the orchard's quiet hum.",
+      "prompt": "Tomas hoped to pick enough apples to sell because it would",
+      "options": [
+        {
+          "label": "A",
+          "text": "impress the neighbours."
+        },
+        {
+          "label": "B",
+          "text": "prove his gardening skills."
+        },
+        {
+          "label": "C",
+          "text": "help his family financially."
+        },
+        {
+          "label": "D",
+          "text": "keep him busy after school."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Given the family's financial troubles, selling a crate of apples would help with money.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q44",
+      "number": 44,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe Orchard\n\nThe orchard hums with cicadas, rows of old apple trees leaning slightly in the afternoon heat, oblivious to the kestrel circling lazily overhead and the sparrows squabbling through the grass. Beneath the trees, the dog dozes, stretches, or watches nothing at all, lost in some private dog-thought. Daydreaming.\n\nThe orchard speaks in its own way, the branches creaking soft syllables in the breeze. Light spills between the leaves, shifting, scattering, revealing the twisted shapes of old roots pushing up through the soil. Wind moves through the grass, ruffling it like fur. It cools Tomas's neck, runs curious fingers through his hair. And the whole time, the orchard seems to be talking to him.\n\nEvery afternoon he wanders past the same rows, where the old ewes chew steadily at the grass, barely looking up. This evening, once the light softens, he'll bring his ladder and pick the last of the season's apples. Maybe there will be enough left to sell a proper crate at the market.\n\nHe knows things haven't been easy for his family lately. His mother has already sold off the back paddock to the family next door, a retired couple wanting more space for their garden. Tomas's older sister sometimes helps out at their big house, which Tomas has only ever seen from the fence line. Their shed alone is bigger than the house Tomas lives in.\n\nWhen Tomas gets home, the table is already set for dinner. He can smell onions frying and hear the kettle starting to whistle on the stove.\n\n'Rice again?' his father asks. He nods. 'Careful with that peeler,' his father reminds him, passing it over. Butter sits softening in a small dish.\n\n'I want to go out later.'\n\n'Not this evening, not with the ladder. Your mother wants to talk to you.'\n\nTomas feels his shoulders tighten. The night before, through the thin wall between their rooms, he'd caught fragments of a conversation: 'price', 'can't wait much longer', 'might have to'. He'd turned over and pulled the pillow tighter around his ears, his heart thudding.\n\nNow, in the hour before dusk, the orchard is loud with insects. He can see his father crouched in the vegetable patch, pulling weeds, the chickens trailing behind him hopefully. His mother must still be in the shed, fixing the mower again. Grabbing his ladder, Tomas quietly lets the screen door swing shut behind him. Glancing back, he sees the windows glowing gold with the last of the sun, as though the house itself were on fire. He turns away from the brightness and walks back towards the orchard's quiet hum.",
+      "prompt": "What comparison is drawn between Tomas's family and their neighbours?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Tomas's family has more animals but the neighbours have none."
+        },
+        {
+          "label": "B",
+          "text": "Tomas's family works outdoors while the neighbours stay inside."
+        },
+        {
+          "label": "C",
+          "text": "Tomas's family is larger than the neighbours' family."
+        },
+        {
+          "label": "D",
+          "text": "Tomas's family struggles financially while the neighbours are comfortable."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Selling off land and the neighbours' much bigger shed both point to a wealth contrast.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q45",
+      "number": 45,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe Orchard\n\nThe orchard hums with cicadas, rows of old apple trees leaning slightly in the afternoon heat, oblivious to the kestrel circling lazily overhead and the sparrows squabbling through the grass. Beneath the trees, the dog dozes, stretches, or watches nothing at all, lost in some private dog-thought. Daydreaming.\n\nThe orchard speaks in its own way, the branches creaking soft syllables in the breeze. Light spills between the leaves, shifting, scattering, revealing the twisted shapes of old roots pushing up through the soil. Wind moves through the grass, ruffling it like fur. It cools Tomas's neck, runs curious fingers through his hair. And the whole time, the orchard seems to be talking to him.\n\nEvery afternoon he wanders past the same rows, where the old ewes chew steadily at the grass, barely looking up. This evening, once the light softens, he'll bring his ladder and pick the last of the season's apples. Maybe there will be enough left to sell a proper crate at the market.\n\nHe knows things haven't been easy for his family lately. His mother has already sold off the back paddock to the family next door, a retired couple wanting more space for their garden. Tomas's older sister sometimes helps out at their big house, which Tomas has only ever seen from the fence line. Their shed alone is bigger than the house Tomas lives in.\n\nWhen Tomas gets home, the table is already set for dinner. He can smell onions frying and hear the kettle starting to whistle on the stove.\n\n'Rice again?' his father asks. He nods. 'Careful with that peeler,' his father reminds him, passing it over. Butter sits softening in a small dish.\n\n'I want to go out later.'\n\n'Not this evening, not with the ladder. Your mother wants to talk to you.'\n\nTomas feels his shoulders tighten. The night before, through the thin wall between their rooms, he'd caught fragments of a conversation: 'price', 'can't wait much longer', 'might have to'. He'd turned over and pulled the pillow tighter around his ears, his heart thudding.\n\nNow, in the hour before dusk, the orchard is loud with insects. He can see his father crouched in the vegetable patch, pulling weeds, the chickens trailing behind him hopefully. His mother must still be in the shed, fixing the mower again. Grabbing his ladder, Tomas quietly lets the screen door swing shut behind him. Glancing back, he sees the windows glowing gold with the last of the sun, as though the house itself were on fire. He turns away from the brightness and walks back towards the orchard's quiet hum.",
+      "prompt": "How did Tomas feel when his father told him his mother wanted to talk to him?",
+      "options": [
+        {
+          "label": "A",
+          "text": "anxious"
+        },
+        {
+          "label": "B",
+          "text": "detached"
+        },
+        {
+          "label": "C",
+          "text": "confused"
+        },
+        {
+          "label": "D",
+          "text": "irritated"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Tomas feels his shoulders tighten' and recalls worrying overheard words - signs of anxiety.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q46",
+      "number": 46,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe Orchard\n\nThe orchard hums with cicadas, rows of old apple trees leaning slightly in the afternoon heat, oblivious to the kestrel circling lazily overhead and the sparrows squabbling through the grass. Beneath the trees, the dog dozes, stretches, or watches nothing at all, lost in some private dog-thought. Daydreaming.\n\nThe orchard speaks in its own way, the branches creaking soft syllables in the breeze. Light spills between the leaves, shifting, scattering, revealing the twisted shapes of old roots pushing up through the soil. Wind moves through the grass, ruffling it like fur. It cools Tomas's neck, runs curious fingers through his hair. And the whole time, the orchard seems to be talking to him.\n\nEvery afternoon he wanders past the same rows, where the old ewes chew steadily at the grass, barely looking up. This evening, once the light softens, he'll bring his ladder and pick the last of the season's apples. Maybe there will be enough left to sell a proper crate at the market.\n\nHe knows things haven't been easy for his family lately. His mother has already sold off the back paddock to the family next door, a retired couple wanting more space for their garden. Tomas's older sister sometimes helps out at their big house, which Tomas has only ever seen from the fence line. Their shed alone is bigger than the house Tomas lives in.\n\nWhen Tomas gets home, the table is already set for dinner. He can smell onions frying and hear the kettle starting to whistle on the stove.\n\n'Rice again?' his father asks. He nods. 'Careful with that peeler,' his father reminds him, passing it over. Butter sits softening in a small dish.\n\n'I want to go out later.'\n\n'Not this evening, not with the ladder. Your mother wants to talk to you.'\n\nTomas feels his shoulders tighten. The night before, through the thin wall between their rooms, he'd caught fragments of a conversation: 'price', 'can't wait much longer', 'might have to'. He'd turned over and pulled the pillow tighter around his ears, his heart thudding.\n\nNow, in the hour before dusk, the orchard is loud with insects. He can see his father crouched in the vegetable patch, pulling weeds, the chickens trailing behind him hopefully. His mother must still be in the shed, fixing the mower again. Grabbing his ladder, Tomas quietly lets the screen door swing shut behind him. Glancing back, he sees the windows glowing gold with the last of the sun, as though the house itself were on fire. He turns away from the brightness and walks back towards the orchard's quiet hum.",
+      "prompt": "Based on information in the text, what was Tomas's mother likely to talk to him about?",
+      "options": [
+        {
+          "label": "A",
+          "text": "that Tomas wasn't allowed to use the ladder alone"
+        },
+        {
+          "label": "B",
+          "text": "that the family might have to sell more land or move"
+        },
+        {
+          "label": "C",
+          "text": "that she had found him a new after-school job"
+        },
+        {
+          "label": "D",
+          "text": "that the orchard would be demolished soon"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The overheard words ('price', 'can't wait much longer') suggest a difficult financial decision, like selling more land.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q47",
+      "number": 47,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe Orchard\n\nThe orchard hums with cicadas, rows of old apple trees leaning slightly in the afternoon heat, oblivious to the kestrel circling lazily overhead and the sparrows squabbling through the grass. Beneath the trees, the dog dozes, stretches, or watches nothing at all, lost in some private dog-thought. Daydreaming.\n\nThe orchard speaks in its own way, the branches creaking soft syllables in the breeze. Light spills between the leaves, shifting, scattering, revealing the twisted shapes of old roots pushing up through the soil. Wind moves through the grass, ruffling it like fur. It cools Tomas's neck, runs curious fingers through his hair. And the whole time, the orchard seems to be talking to him.\n\nEvery afternoon he wanders past the same rows, where the old ewes chew steadily at the grass, barely looking up. This evening, once the light softens, he'll bring his ladder and pick the last of the season's apples. Maybe there will be enough left to sell a proper crate at the market.\n\nHe knows things haven't been easy for his family lately. His mother has already sold off the back paddock to the family next door, a retired couple wanting more space for their garden. Tomas's older sister sometimes helps out at their big house, which Tomas has only ever seen from the fence line. Their shed alone is bigger than the house Tomas lives in.\n\nWhen Tomas gets home, the table is already set for dinner. He can smell onions frying and hear the kettle starting to whistle on the stove.\n\n'Rice again?' his father asks. He nods. 'Careful with that peeler,' his father reminds him, passing it over. Butter sits softening in a small dish.\n\n'I want to go out later.'\n\n'Not this evening, not with the ladder. Your mother wants to talk to you.'\n\nTomas feels his shoulders tighten. The night before, through the thin wall between their rooms, he'd caught fragments of a conversation: 'price', 'can't wait much longer', 'might have to'. He'd turned over and pulled the pillow tighter around his ears, his heart thudding.\n\nNow, in the hour before dusk, the orchard is loud with insects. He can see his father crouched in the vegetable patch, pulling weeds, the chickens trailing behind him hopefully. His mother must still be in the shed, fixing the mower again. Grabbing his ladder, Tomas quietly lets the screen door swing shut behind him. Glancing back, he sees the windows glowing gold with the last of the sun, as though the house itself were on fire. He turns away from the brightness and walks back towards the orchard's quiet hum.",
+      "prompt": "In the second-last paragraph, the word 'he'd' stands for",
+      "options": [
+        {
+          "label": "A",
+          "text": "he did."
+        },
+        {
+          "label": "B",
+          "text": "he could."
+        },
+        {
+          "label": "C",
+          "text": "he had."
+        },
+        {
+          "label": "D",
+          "text": "he would."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'He'd caught fragments... He'd turned over' both use the past perfect 'he had.'",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2017c-q48",
+      "number": 48,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe Orchard\n\nThe orchard hums with cicadas, rows of old apple trees leaning slightly in the afternoon heat, oblivious to the kestrel circling lazily overhead and the sparrows squabbling through the grass. Beneath the trees, the dog dozes, stretches, or watches nothing at all, lost in some private dog-thought. Daydreaming.\n\nThe orchard speaks in its own way, the branches creaking soft syllables in the breeze. Light spills between the leaves, shifting, scattering, revealing the twisted shapes of old roots pushing up through the soil. Wind moves through the grass, ruffling it like fur. It cools Tomas's neck, runs curious fingers through his hair. And the whole time, the orchard seems to be talking to him.\n\nEvery afternoon he wanders past the same rows, where the old ewes chew steadily at the grass, barely looking up. This evening, once the light softens, he'll bring his ladder and pick the last of the season's apples. Maybe there will be enough left to sell a proper crate at the market.\n\nHe knows things haven't been easy for his family lately. His mother has already sold off the back paddock to the family next door, a retired couple wanting more space for their garden. Tomas's older sister sometimes helps out at their big house, which Tomas has only ever seen from the fence line. Their shed alone is bigger than the house Tomas lives in.\n\nWhen Tomas gets home, the table is already set for dinner. He can smell onions frying and hear the kettle starting to whistle on the stove.\n\n'Rice again?' his father asks. He nods. 'Careful with that peeler,' his father reminds him, passing it over. Butter sits softening in a small dish.\n\n'I want to go out later.'\n\n'Not this evening, not with the ladder. Your mother wants to talk to you.'\n\nTomas feels his shoulders tighten. The night before, through the thin wall between their rooms, he'd caught fragments of a conversation: 'price', 'can't wait much longer', 'might have to'. He'd turned over and pulled the pillow tighter around his ears, his heart thudding.\n\nNow, in the hour before dusk, the orchard is loud with insects. He can see his father crouched in the vegetable patch, pulling weeds, the chickens trailing behind him hopefully. His mother must still be in the shed, fixing the mower again. Grabbing his ladder, Tomas quietly lets the screen door swing shut behind him. Glancing back, he sees the windows glowing gold with the last of the sun, as though the house itself were on fire. He turns away from the brightness and walks back towards the orchard's quiet hum.",
+      "prompt": "How does the description in the first two paragraphs relate to the rest of the narrative?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It explains what first attracted Tomas to gardening."
+        },
+        {
+          "label": "B",
+          "text": "It suggests reasons why the family had to sell their land."
+        },
+        {
+          "label": "C",
+          "text": "It highlights how close the family is to their land."
+        },
+        {
+          "label": "D",
+          "text": "It contrasts the calm of nature with the tension within the family."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The peaceful, dreamy orchard description sets up a clear contrast with the tense family conversation that follows.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q49",
+      "number": 49,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe Orchard\n\nThe orchard hums with cicadas, rows of old apple trees leaning slightly in the afternoon heat, oblivious to the kestrel circling lazily overhead and the sparrows squabbling through the grass. Beneath the trees, the dog dozes, stretches, or watches nothing at all, lost in some private dog-thought. Daydreaming.\n\nThe orchard speaks in its own way, the branches creaking soft syllables in the breeze. Light spills between the leaves, shifting, scattering, revealing the twisted shapes of old roots pushing up through the soil. Wind moves through the grass, ruffling it like fur. It cools Tomas's neck, runs curious fingers through his hair. And the whole time, the orchard seems to be talking to him.\n\nEvery afternoon he wanders past the same rows, where the old ewes chew steadily at the grass, barely looking up. This evening, once the light softens, he'll bring his ladder and pick the last of the season's apples. Maybe there will be enough left to sell a proper crate at the market.\n\nHe knows things haven't been easy for his family lately. His mother has already sold off the back paddock to the family next door, a retired couple wanting more space for their garden. Tomas's older sister sometimes helps out at their big house, which Tomas has only ever seen from the fence line. Their shed alone is bigger than the house Tomas lives in.\n\nWhen Tomas gets home, the table is already set for dinner. He can smell onions frying and hear the kettle starting to whistle on the stove.\n\n'Rice again?' his father asks. He nods. 'Careful with that peeler,' his father reminds him, passing it over. Butter sits softening in a small dish.\n\n'I want to go out later.'\n\n'Not this evening, not with the ladder. Your mother wants to talk to you.'\n\nTomas feels his shoulders tighten. The night before, through the thin wall between their rooms, he'd caught fragments of a conversation: 'price', 'can't wait much longer', 'might have to'. He'd turned over and pulled the pillow tighter around his ears, his heart thudding.\n\nNow, in the hour before dusk, the orchard is loud with insects. He can see his father crouched in the vegetable patch, pulling weeds, the chickens trailing behind him hopefully. His mother must still be in the shed, fixing the mower again. Grabbing his ladder, Tomas quietly lets the screen door swing shut behind him. Glancing back, he sees the windows glowing gold with the last of the sun, as though the house itself were on fire. He turns away from the brightness and walks back towards the orchard's quiet hum.",
+      "prompt": "Throughout the narrative, the orchard is described as if",
+      "options": [
+        {
+          "label": "A",
+          "text": "it is Tomas's companion."
+        },
+        {
+          "label": "B",
+          "text": "it is quietly dangerous."
+        },
+        {
+          "label": "C",
+          "text": "it is pressuring Tomas."
+        },
+        {
+          "label": "D",
+          "text": "it is hiding a secret."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The orchard 'speaks' to Tomas and seems to comfort him, like a companion.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017c-q50",
+      "number": 50,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe Orchard\n\nThe orchard hums with cicadas, rows of old apple trees leaning slightly in the afternoon heat, oblivious to the kestrel circling lazily overhead and the sparrows squabbling through the grass. Beneath the trees, the dog dozes, stretches, or watches nothing at all, lost in some private dog-thought. Daydreaming.\n\nThe orchard speaks in its own way, the branches creaking soft syllables in the breeze. Light spills between the leaves, shifting, scattering, revealing the twisted shapes of old roots pushing up through the soil. Wind moves through the grass, ruffling it like fur. It cools Tomas's neck, runs curious fingers through his hair. And the whole time, the orchard seems to be talking to him.\n\nEvery afternoon he wanders past the same rows, where the old ewes chew steadily at the grass, barely looking up. This evening, once the light softens, he'll bring his ladder and pick the last of the season's apples. Maybe there will be enough left to sell a proper crate at the market.\n\nHe knows things haven't been easy for his family lately. His mother has already sold off the back paddock to the family next door, a retired couple wanting more space for their garden. Tomas's older sister sometimes helps out at their big house, which Tomas has only ever seen from the fence line. Their shed alone is bigger than the house Tomas lives in.\n\nWhen Tomas gets home, the table is already set for dinner. He can smell onions frying and hear the kettle starting to whistle on the stove.\n\n'Rice again?' his father asks. He nods. 'Careful with that peeler,' his father reminds him, passing it over. Butter sits softening in a small dish.\n\n'I want to go out later.'\n\n'Not this evening, not with the ladder. Your mother wants to talk to you.'\n\nTomas feels his shoulders tighten. The night before, through the thin wall between their rooms, he'd caught fragments of a conversation: 'price', 'can't wait much longer', 'might have to'. He'd turned over and pulled the pillow tighter around his ears, his heart thudding.\n\nNow, in the hour before dusk, the orchard is loud with insects. He can see his father crouched in the vegetable patch, pulling weeds, the chickens trailing behind him hopefully. His mother must still be in the shed, fixing the mower again. Grabbing his ladder, Tomas quietly lets the screen door swing shut behind him. Glancing back, he sees the windows glowing gold with the last of the sun, as though the house itself were on fire. He turns away from the brightness and walks back towards the orchard's quiet hum.",
+      "prompt": "What effect does the use of the present tense have in this text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It makes Tomas seem more honest."
+        },
+        {
+          "label": "B",
+          "text": "It creates a sense of closeness between the reader and Tomas."
+        },
+        {
+          "label": "C",
+          "text": "It proves that the events described are real."
+        },
+        {
+          "label": "D",
+          "text": "It shows that events are happening very quickly."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Present tense narration makes the events feel immediate, drawing the reader closer to Tomas's experience.",
+      "topic": "Text comprehension"
+    }
+  ]
+}

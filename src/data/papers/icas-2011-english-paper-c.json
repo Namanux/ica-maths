@@ -1,0 +1,1409 @@
+{
+  "id": "icas-2011-english-paper-c",
+  "subject": "English",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS English 2011 — Paper C",
+  "year": 2011,
+  "timeLimitMinutes": 50,
+  "questions": [
+    {
+      "id": "eng2011c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 8.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "What is the meaning of Erdene's name?",
+      "options": [
+        {
+          "label": "A",
+          "text": "treasure"
+        },
+        {
+          "label": "B",
+          "text": "Mongolia"
+        },
+        {
+          "label": "C",
+          "text": "reindeer boy"
+        },
+        {
+          "label": "D",
+          "text": "peaceful paradise"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text says Erdene's own name means 'treasure'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 8.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "In the first paragraph, the word 'river' is used as",
+      "options": [
+        {
+          "label": "A",
+          "text": "a conjunction."
+        },
+        {
+          "label": "B",
+          "text": "an adjective."
+        },
+        {
+          "label": "C",
+          "text": "a preposition."
+        },
+        {
+          "label": "D",
+          "text": "an adverb."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'River stones' — 'river' describes the noun 'stones', making it an adjective here.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2011c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 8.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "The Tsaatan homeland in north-western Mongolia can best be described as",
+      "options": [
+        {
+          "label": "A",
+          "text": "a frozen wasteland."
+        },
+        {
+          "label": "B",
+          "text": "a wildlife sanctuary."
+        },
+        {
+          "label": "C",
+          "text": "an isolated wilderness."
+        },
+        {
+          "label": "D",
+          "text": "a polluted environment."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Only reachable by horseback or helicopter, the region is remote and isolated.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 8.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "What is NOT mentioned in the text as being part of Erdene's diet?",
+      "options": [
+        {
+          "label": "A",
+          "text": "meat"
+        },
+        {
+          "label": "B",
+          "text": "rice and flour"
+        },
+        {
+          "label": "C",
+          "text": "dairy products"
+        },
+        {
+          "label": "D",
+          "text": "vegetables"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The text mentions meat, rice, flour, milk and cheese — never vegetables.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 8.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "The words 'at least' mean",
+      "options": [
+        {
+          "label": "A",
+          "text": "a minimum of."
+        },
+        {
+          "label": "B",
+          "text": "no more than."
+        },
+        {
+          "label": "C",
+          "text": "an average of."
+        },
+        {
+          "label": "D",
+          "text": "approximately."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'At least 100' sets a minimum requirement, not an average or approximation.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2011c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 8.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "Which of the following is closest in meaning to the word 'sustain'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "enjoy"
+        },
+        {
+          "label": "B",
+          "text": "support"
+        },
+        {
+          "label": "C",
+          "text": "remember"
+        },
+        {
+          "label": "D",
+          "text": "afford"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "To 'sustain' a way of life is to keep it going or support it.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2011c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 8.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "According to the text, why are people abandoning the area?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The rivers they rely on for water have frozen over."
+        },
+        {
+          "label": "B",
+          "text": "They want to shift their herd of reindeer to a new location."
+        },
+        {
+          "label": "C",
+          "text": "Their survival is threatened by the decreasing animal population."
+        },
+        {
+          "label": "D",
+          "text": "Their homeland is only accessible by helicopter and horseback."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The shrinking reindeer population and disappearing wildlife threaten the herders' livelihood.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 8.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "Which phrase best describes Erdene's attitude?",
+      "options": [
+        {
+          "label": "A",
+          "text": "anxious about the reindeer"
+        },
+        {
+          "label": "B",
+          "text": "curious about his ancestors"
+        },
+        {
+          "label": "C",
+          "text": "discouraged by his surroundings"
+        },
+        {
+          "label": "D",
+          "text": "unconcerned about the future"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The text says Erdene 'doesn't dwell on his family's hardships', showing he isn't worried about the future.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "Read The old tortoise and answer questions 9 to 13.\n\nThe old tortoise\n\nyour wrinkled shell is\na cracked and sun-baked shield,\nmoss-covered, salt-stained.\nYou shuffle-plod forward\non stone-still legs\nand never hurry.\n\nOld, patient tortoise,\nyour eyes are dark, still ponds,\nclouded colours drifting.\nYour window to the world\nhas dimmed with time\nbut you never hurry.\n\nWise old creature,\nancient wanderer,\nif only I could learn\nyour patience\nand hear the whisper of\na hundred quiet years\nthat you carry still.",
+      "prompt": "In this poem the tortoise's shell is compared to",
+      "options": [
+        {
+          "label": "A",
+          "text": "a cracked shield."
+        },
+        {
+          "label": "B",
+          "text": "a still pond."
+        },
+        {
+          "label": "C",
+          "text": "a stone."
+        },
+        {
+          "label": "D",
+          "text": "a shadow."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'a cracked and sun-baked shield' is the comparison used for the shell.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2011c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "Read The old tortoise and answer questions 9 to 13.\n\nThe old tortoise\n\nyour wrinkled shell is\na cracked and sun-baked shield,\nmoss-covered, salt-stained.\nYou shuffle-plod forward\non stone-still legs\nand never hurry.\n\nOld, patient tortoise,\nyour eyes are dark, still ponds,\nclouded colours drifting.\nYour window to the world\nhas dimmed with time\nbut you never hurry.\n\nWise old creature,\nancient wanderer,\nif only I could learn\nyour patience\nand hear the whisper of\na hundred quiet years\nthat you carry still.",
+      "prompt": "In the line 'You shuffle-plod forward' the poet is referring to the way the tortoise",
+      "options": [
+        {
+          "label": "A",
+          "text": "feels."
+        },
+        {
+          "label": "B",
+          "text": "moves."
+        },
+        {
+          "label": "C",
+          "text": "thinks."
+        },
+        {
+          "label": "D",
+          "text": "remembers."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Shuffle-plod forward' describes the tortoise's slow, heavy movement.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "Read The old tortoise and answer questions 9 to 13.\n\nThe old tortoise\n\nyour wrinkled shell is\na cracked and sun-baked shield,\nmoss-covered, salt-stained.\nYou shuffle-plod forward\non stone-still legs\nand never hurry.\n\nOld, patient tortoise,\nyour eyes are dark, still ponds,\nclouded colours drifting.\nYour window to the world\nhas dimmed with time\nbut you never hurry.\n\nWise old creature,\nancient wanderer,\nif only I could learn\nyour patience\nand hear the whisper of\na hundred quiet years\nthat you carry still.",
+      "prompt": "When the poet refers to the tortoise's legs as 'stone-still', she is making a comment about",
+      "options": [
+        {
+          "label": "A",
+          "text": "how wise the tortoise is."
+        },
+        {
+          "label": "B",
+          "text": "how healthy the tortoise is."
+        },
+        {
+          "label": "C",
+          "text": "how slowly the tortoise moves."
+        },
+        {
+          "label": "D",
+          "text": "the colour of the tortoise."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Stone-still' legs suggest a heavy, unhurried, slow way of moving.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Read The old tortoise and answer questions 9 to 13.\n\nThe old tortoise\n\nyour wrinkled shell is\na cracked and sun-baked shield,\nmoss-covered, salt-stained.\nYou shuffle-plod forward\non stone-still legs\nand never hurry.\n\nOld, patient tortoise,\nyour eyes are dark, still ponds,\nclouded colours drifting.\nYour window to the world\nhas dimmed with time\nbut you never hurry.\n\nWise old creature,\nancient wanderer,\nif only I could learn\nyour patience\nand hear the whisper of\na hundred quiet years\nthat you carry still.",
+      "prompt": "What do the words 'ancient wanderer' suggest about the tortoise?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The tortoise is harmless despite its size."
+        },
+        {
+          "label": "B",
+          "text": "The tortoise is feared by other animals."
+        },
+        {
+          "label": "C",
+          "text": "The tortoise is livelier than its age suggests."
+        },
+        {
+          "label": "D",
+          "text": "The tortoise has travelled far over its long life."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Wanderer' suggests a life spent roaming and travelling widely.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "Read The old tortoise and answer questions 9 to 13.\n\nThe old tortoise\n\nyour wrinkled shell is\na cracked and sun-baked shield,\nmoss-covered, salt-stained.\nYou shuffle-plod forward\non stone-still legs\nand never hurry.\n\nOld, patient tortoise,\nyour eyes are dark, still ponds,\nclouded colours drifting.\nYour window to the world\nhas dimmed with time\nbut you never hurry.\n\nWise old creature,\nancient wanderer,\nif only I could learn\nyour patience\nand hear the whisper of\na hundred quiet years\nthat you carry still.",
+      "prompt": "Which of the following statements is TRUE?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The poet thinks the tortoise has learned a lot over its long life."
+        },
+        {
+          "label": "B",
+          "text": "The poet thinks the tortoise has been poorly treated."
+        },
+        {
+          "label": "C",
+          "text": "The poet wants to visit the place where the tortoise was born."
+        },
+        {
+          "label": "D",
+          "text": "The poet wants to find out where the tortoise came from."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The poet wants to 'learn your patience' and hear the tortoise's accumulated wisdom.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Choose the sentence which contains NO ERRORS.",
+      "options": [
+        {
+          "label": "A",
+          "text": "When Jon came home in the holidays, I knew he won't go swimming."
+        },
+        {
+          "label": "B",
+          "text": "When Jon came home in the holidays, I knew he wouldn't go swimming."
+        },
+        {
+          "label": "C",
+          "text": "When Jon comes home in the holidays, I know he won't go swimming."
+        },
+        {
+          "label": "D",
+          "text": "When Jon comes home in the holidays, I knew he wouldn't go swimming."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Past tense 'came' and 'knew' correctly pair with 'wouldn't', keeping tense consistent throughout.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2011c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Choose the sentence which contains NO ERRORS.",
+      "options": [
+        {
+          "label": "A",
+          "text": "I hope that Louise will meet my uncle when he arrived at the airport."
+        },
+        {
+          "label": "B",
+          "text": "I hope that Louise would meet my uncle when he had arrived at the airport."
+        },
+        {
+          "label": "C",
+          "text": "I hoped that Louise would meet my uncle when he arrived at the airport."
+        },
+        {
+          "label": "D",
+          "text": "I hoped that Louise will meet my uncle when he had arrived at the airport."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Past tense 'hoped' correctly pairs with 'would meet' and 'arrived', keeping tense consistent.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2011c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Read Deep Cover and answer questions 16 to 21.\n\nDeep Cover\n\nMira watched through the open cargo door as the small twin-engine plane banked low over the dense canopy of the Amazon jungle. The tangled treetops rushed past beneath them like an endless green ocean, each leaf catching the last of the afternoon light. They were flying so low that Mira felt she could almost reach out and skim her fingers across the leaves. She fixed her eyes on the jungle below and thought to herself that whoever had designed this part of the world had clearly been showing off.\n\nWithout warning the plane dropped sideways as it hit a pocket of turbulence. Mira's shoulder slammed into the cold metal wall as the enormous man overseeing the mission launched into another furious rant at the pilot.\n\n'Where'd you get your licence, out of a cereal box? My nephew could fly better than this, and he's six.'\n\nMira was almost impressed. She'd dealt with plenty of Vantage's men over the years, and 'licence' was the longest word she'd ever heard one of them use correctly.\n\nThe pilot's expression didn't change at all. He'd clearly been warned about this particular passenger and had stuffed his ears with cotton wool so the shouting couldn't reach him.\n\nThe well-dressed heavy beside him tightened his seatbelt and pulled out an embroidered handkerchief to mop his forehead. The smaller man next to him eyed it doubtfully.\n\n'Embroidered?' he smirked.\n\n'A gift from my daughter,' the first man snapped, in a tone that was clearly meant as a warning, his nerves showing more than usual.\n\nHe'd been on edge since take-off, and if Mira's instincts were right, the pilot was an expert and was thoroughly enjoying every bit of 'accidental' turbulence along the way.\n\nJust then, the smaller man doubled over and filled another paper bag with the contents of his lunch. Mira caught the ghost of a smile crossing the pilot's face.\n\nShe adjusted the small parachute strapped to her back and crawled quietly across the floor of the cargo hold, past crates stacked like oversized dice. Taking out her multitool, she carefully worked the seal off one of the crates until she found it: a small metal case that, if she was right, held exactly what she'd been sent to find - and it was her job to get it before the plane landed and delivered it straight into Vantage's hands.",
+      "prompt": "The writer compares the jungle to an ocean because of its",
+      "options": [
+        {
+          "label": "A",
+          "text": "power."
+        },
+        {
+          "label": "B",
+          "text": "sound."
+        },
+        {
+          "label": "C",
+          "text": "stillness."
+        },
+        {
+          "label": "D",
+          "text": "size."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'an endless green ocean' emphasises the vast size of the jungle canopy.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2011c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Read Deep Cover and answer questions 16 to 21.\n\nDeep Cover\n\nMira watched through the open cargo door as the small twin-engine plane banked low over the dense canopy of the Amazon jungle. The tangled treetops rushed past beneath them like an endless green ocean, each leaf catching the last of the afternoon light. They were flying so low that Mira felt she could almost reach out and skim her fingers across the leaves. She fixed her eyes on the jungle below and thought to herself that whoever had designed this part of the world had clearly been showing off.\n\nWithout warning the plane dropped sideways as it hit a pocket of turbulence. Mira's shoulder slammed into the cold metal wall as the enormous man overseeing the mission launched into another furious rant at the pilot.\n\n'Where'd you get your licence, out of a cereal box? My nephew could fly better than this, and he's six.'\n\nMira was almost impressed. She'd dealt with plenty of Vantage's men over the years, and 'licence' was the longest word she'd ever heard one of them use correctly.\n\nThe pilot's expression didn't change at all. He'd clearly been warned about this particular passenger and had stuffed his ears with cotton wool so the shouting couldn't reach him.\n\nThe well-dressed heavy beside him tightened his seatbelt and pulled out an embroidered handkerchief to mop his forehead. The smaller man next to him eyed it doubtfully.\n\n'Embroidered?' he smirked.\n\n'A gift from my daughter,' the first man snapped, in a tone that was clearly meant as a warning, his nerves showing more than usual.\n\nHe'd been on edge since take-off, and if Mira's instincts were right, the pilot was an expert and was thoroughly enjoying every bit of 'accidental' turbulence along the way.\n\nJust then, the smaller man doubled over and filled another paper bag with the contents of his lunch. Mira caught the ghost of a smile crossing the pilot's face.\n\nShe adjusted the small parachute strapped to her back and crawled quietly across the floor of the cargo hold, past crates stacked like oversized dice. Taking out her multitool, she carefully worked the seal off one of the crates until she found it: a small metal case that, if she was right, held exactly what she'd been sent to find - and it was her job to get it before the plane landed and delivered it straight into Vantage's hands.",
+      "prompt": "Which word in the first paragraph does NOT indicate the movement of the plane?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'canopy'"
+        },
+        {
+          "label": "B",
+          "text": "'banked'"
+        },
+        {
+          "label": "C",
+          "text": "'rushed'"
+        },
+        {
+          "label": "D",
+          "text": "'skim'"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Canopy' names the treetops themselves; it doesn't describe movement.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2011c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Read Deep Cover and answer questions 16 to 21.\n\nDeep Cover\n\nMira watched through the open cargo door as the small twin-engine plane banked low over the dense canopy of the Amazon jungle. The tangled treetops rushed past beneath them like an endless green ocean, each leaf catching the last of the afternoon light. They were flying so low that Mira felt she could almost reach out and skim her fingers across the leaves. She fixed her eyes on the jungle below and thought to herself that whoever had designed this part of the world had clearly been showing off.\n\nWithout warning the plane dropped sideways as it hit a pocket of turbulence. Mira's shoulder slammed into the cold metal wall as the enormous man overseeing the mission launched into another furious rant at the pilot.\n\n'Where'd you get your licence, out of a cereal box? My nephew could fly better than this, and he's six.'\n\nMira was almost impressed. She'd dealt with plenty of Vantage's men over the years, and 'licence' was the longest word she'd ever heard one of them use correctly.\n\nThe pilot's expression didn't change at all. He'd clearly been warned about this particular passenger and had stuffed his ears with cotton wool so the shouting couldn't reach him.\n\nThe well-dressed heavy beside him tightened his seatbelt and pulled out an embroidered handkerchief to mop his forehead. The smaller man next to him eyed it doubtfully.\n\n'Embroidered?' he smirked.\n\n'A gift from my daughter,' the first man snapped, in a tone that was clearly meant as a warning, his nerves showing more than usual.\n\nHe'd been on edge since take-off, and if Mira's instincts were right, the pilot was an expert and was thoroughly enjoying every bit of 'accidental' turbulence along the way.\n\nJust then, the smaller man doubled over and filled another paper bag with the contents of his lunch. Mira caught the ghost of a smile crossing the pilot's face.\n\nShe adjusted the small parachute strapped to her back and crawled quietly across the floor of the cargo hold, past crates stacked like oversized dice. Taking out her multitool, she carefully worked the seal off one of the crates until she found it: a small metal case that, if she was right, held exactly what she'd been sent to find - and it was her job to get it before the plane landed and delivered it straight into Vantage's hands.",
+      "prompt": "How did Mira feel in the first paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "excited about the adventure ahead"
+        },
+        {
+          "label": "B",
+          "text": "preoccupied with her mission"
+        },
+        {
+          "label": "C",
+          "text": "amazed by the jungle's natural beauty"
+        },
+        {
+          "label": "D",
+          "text": "respectful of nature's destructive power"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Her focus stays on the mission and the jungle's scale, not on excitement or wonder.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "Read Deep Cover and answer questions 16 to 21.\n\nDeep Cover\n\nMira watched through the open cargo door as the small twin-engine plane banked low over the dense canopy of the Amazon jungle. The tangled treetops rushed past beneath them like an endless green ocean, each leaf catching the last of the afternoon light. They were flying so low that Mira felt she could almost reach out and skim her fingers across the leaves. She fixed her eyes on the jungle below and thought to herself that whoever had designed this part of the world had clearly been showing off.\n\nWithout warning the plane dropped sideways as it hit a pocket of turbulence. Mira's shoulder slammed into the cold metal wall as the enormous man overseeing the mission launched into another furious rant at the pilot.\n\n'Where'd you get your licence, out of a cereal box? My nephew could fly better than this, and he's six.'\n\nMira was almost impressed. She'd dealt with plenty of Vantage's men over the years, and 'licence' was the longest word she'd ever heard one of them use correctly.\n\nThe pilot's expression didn't change at all. He'd clearly been warned about this particular passenger and had stuffed his ears with cotton wool so the shouting couldn't reach him.\n\nThe well-dressed heavy beside him tightened his seatbelt and pulled out an embroidered handkerchief to mop his forehead. The smaller man next to him eyed it doubtfully.\n\n'Embroidered?' he smirked.\n\n'A gift from my daughter,' the first man snapped, in a tone that was clearly meant as a warning, his nerves showing more than usual.\n\nHe'd been on edge since take-off, and if Mira's instincts were right, the pilot was an expert and was thoroughly enjoying every bit of 'accidental' turbulence along the way.\n\nJust then, the smaller man doubled over and filled another paper bag with the contents of his lunch. Mira caught the ghost of a smile crossing the pilot's face.\n\nShe adjusted the small parachute strapped to her back and crawled quietly across the floor of the cargo hold, past crates stacked like oversized dice. Taking out her multitool, she carefully worked the seal off one of the crates until she found it: a small metal case that, if she was right, held exactly what she'd been sent to find - and it was her job to get it before the plane landed and delivered it straight into Vantage's hands.",
+      "prompt": "The word 'accidental' is written in quotation marks in the text to show that the turbulence",
+      "options": [
+        {
+          "label": "A",
+          "text": "was the result of a technical error."
+        },
+        {
+          "label": "B",
+          "text": "was caused by the passengers."
+        },
+        {
+          "label": "C",
+          "text": "was deliberately caused by the pilot."
+        },
+        {
+          "label": "D",
+          "text": "was frightening for Mira."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The quotation marks signal irony — the turbulence wasn't really accidental at all.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2011c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "Read Deep Cover and answer questions 16 to 21.\n\nDeep Cover\n\nMira watched through the open cargo door as the small twin-engine plane banked low over the dense canopy of the Amazon jungle. The tangled treetops rushed past beneath them like an endless green ocean, each leaf catching the last of the afternoon light. They were flying so low that Mira felt she could almost reach out and skim her fingers across the leaves. She fixed her eyes on the jungle below and thought to herself that whoever had designed this part of the world had clearly been showing off.\n\nWithout warning the plane dropped sideways as it hit a pocket of turbulence. Mira's shoulder slammed into the cold metal wall as the enormous man overseeing the mission launched into another furious rant at the pilot.\n\n'Where'd you get your licence, out of a cereal box? My nephew could fly better than this, and he's six.'\n\nMira was almost impressed. She'd dealt with plenty of Vantage's men over the years, and 'licence' was the longest word she'd ever heard one of them use correctly.\n\nThe pilot's expression didn't change at all. He'd clearly been warned about this particular passenger and had stuffed his ears with cotton wool so the shouting couldn't reach him.\n\nThe well-dressed heavy beside him tightened his seatbelt and pulled out an embroidered handkerchief to mop his forehead. The smaller man next to him eyed it doubtfully.\n\n'Embroidered?' he smirked.\n\n'A gift from my daughter,' the first man snapped, in a tone that was clearly meant as a warning, his nerves showing more than usual.\n\nHe'd been on edge since take-off, and if Mira's instincts were right, the pilot was an expert and was thoroughly enjoying every bit of 'accidental' turbulence along the way.\n\nJust then, the smaller man doubled over and filled another paper bag with the contents of his lunch. Mira caught the ghost of a smile crossing the pilot's face.\n\nShe adjusted the small parachute strapped to her back and crawled quietly across the floor of the cargo hold, past crates stacked like oversized dice. Taking out her multitool, she carefully worked the seal off one of the crates until she found it: a small metal case that, if she was right, held exactly what she'd been sent to find - and it was her job to get it before the plane landed and delivered it straight into Vantage's hands.",
+      "prompt": "What did Mira think of Vantage's men?",
+      "options": [
+        {
+          "label": "A",
+          "text": "cunning but lazy"
+        },
+        {
+          "label": "B",
+          "text": "evil and intelligent"
+        },
+        {
+          "label": "C",
+          "text": "grumpy but trusting"
+        },
+        {
+          "label": "D",
+          "text": "rough and comical"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Her amused reaction to the thug's rant shows she finds his rough manner comical.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "Read Deep Cover and answer questions 16 to 21.\n\nDeep Cover\n\nMira watched through the open cargo door as the small twin-engine plane banked low over the dense canopy of the Amazon jungle. The tangled treetops rushed past beneath them like an endless green ocean, each leaf catching the last of the afternoon light. They were flying so low that Mira felt she could almost reach out and skim her fingers across the leaves. She fixed her eyes on the jungle below and thought to herself that whoever had designed this part of the world had clearly been showing off.\n\nWithout warning the plane dropped sideways as it hit a pocket of turbulence. Mira's shoulder slammed into the cold metal wall as the enormous man overseeing the mission launched into another furious rant at the pilot.\n\n'Where'd you get your licence, out of a cereal box? My nephew could fly better than this, and he's six.'\n\nMira was almost impressed. She'd dealt with plenty of Vantage's men over the years, and 'licence' was the longest word she'd ever heard one of them use correctly.\n\nThe pilot's expression didn't change at all. He'd clearly been warned about this particular passenger and had stuffed his ears with cotton wool so the shouting couldn't reach him.\n\nThe well-dressed heavy beside him tightened his seatbelt and pulled out an embroidered handkerchief to mop his forehead. The smaller man next to him eyed it doubtfully.\n\n'Embroidered?' he smirked.\n\n'A gift from my daughter,' the first man snapped, in a tone that was clearly meant as a warning, his nerves showing more than usual.\n\nHe'd been on edge since take-off, and if Mira's instincts were right, the pilot was an expert and was thoroughly enjoying every bit of 'accidental' turbulence along the way.\n\nJust then, the smaller man doubled over and filled another paper bag with the contents of his lunch. Mira caught the ghost of a smile crossing the pilot's face.\n\nShe adjusted the small parachute strapped to her back and crawled quietly across the floor of the cargo hold, past crates stacked like oversized dice. Taking out her multitool, she carefully worked the seal off one of the crates until she found it: a small metal case that, if she was right, held exactly what she'd been sent to find - and it was her job to get it before the plane landed and delivered it straight into Vantage's hands.",
+      "prompt": "What was Mira's mission on the plane?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to retrieve a case before it could be delivered to Vantage"
+        },
+        {
+          "label": "B",
+          "text": "to hide in a crate so she would be taken to Vantage's hideout"
+        },
+        {
+          "label": "C",
+          "text": "to discover why Vantage's men were travelling into the Amazon"
+        },
+        {
+          "label": "D",
+          "text": "to disable the plane before it could land"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Mira searches the crates for a case she must retrieve before it reaches Vantage.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "Read Book reviews and answer questions 22 to 28.\n\nBook reviews\n\nFrostbound by Elena Marsh\n\nKai has spent his whole life terrified of the wolves that prowl beyond the village fence. His grandfather has always told him that one day he will have to face one alone. Yet even in a land of endless snow and ice, life still finds ways to surprise a person. To succeed, Kai will need to be as brave as his grandfather and as clever as the wolves themselves.\n\nMarsh draws readers into Kai's frozen world with vivid, sensory description and a character it's impossible not to root for. Kai desperately wants to prove his courage, without realising that real bravery isn't the absence of fear - it's moving forward in spite of it.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+\n\nThe Clockwork Sparrow by Tomas Reeve\n\nWren lives quietly on her uncle's sprawling estate while he travels the world studying rare machines. Her parents disappeared when she was small. Now her uncle has vanished too, and she must journey into a frozen mountain city to find him. Guided by a small mechanical bird that seems to have a mind of its own, and accompanied by Finch, a servant who is far more than he first appears, Wren battles bravely against an enemy determined to bring the whole city to a standstill. Driven by her love for her uncle, and willing to risk everything, Wren refuses to be stopped by the ruthless agents who serve the mysterious Clockmaster.\n\nReeve has skilfully woven real clockwork history into his richly imagined fantasy world, so convincingly that it all feels entirely possible. His writing has the precision of a fine machine and the warmth of a well-told story.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+",
+      "prompt": "Based on the review, what type of book is Frostbound?",
+      "options": [
+        {
+          "label": "A",
+          "text": "romance"
+        },
+        {
+          "label": "B",
+          "text": "adventure"
+        },
+        {
+          "label": "C",
+          "text": "non-fiction"
+        },
+        {
+          "label": "D",
+          "text": "science fiction"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A boy facing wolves and proving his courage points to an adventure story.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "Read Book reviews and answer questions 22 to 28.\n\nBook reviews\n\nFrostbound by Elena Marsh\n\nKai has spent his whole life terrified of the wolves that prowl beyond the village fence. His grandfather has always told him that one day he will have to face one alone. Yet even in a land of endless snow and ice, life still finds ways to surprise a person. To succeed, Kai will need to be as brave as his grandfather and as clever as the wolves themselves.\n\nMarsh draws readers into Kai's frozen world with vivid, sensory description and a character it's impossible not to root for. Kai desperately wants to prove his courage, without realising that real bravery isn't the absence of fear - it's moving forward in spite of it.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+\n\nThe Clockwork Sparrow by Tomas Reeve\n\nWren lives quietly on her uncle's sprawling estate while he travels the world studying rare machines. Her parents disappeared when she was small. Now her uncle has vanished too, and she must journey into a frozen mountain city to find him. Guided by a small mechanical bird that seems to have a mind of its own, and accompanied by Finch, a servant who is far more than he first appears, Wren battles bravely against an enemy determined to bring the whole city to a standstill. Driven by her love for her uncle, and willing to risk everything, Wren refuses to be stopped by the ruthless agents who serve the mysterious Clockmaster.\n\nReeve has skilfully woven real clockwork history into his richly imagined fantasy world, so convincingly that it all feels entirely possible. His writing has the precision of a fine machine and the warmth of a well-told story.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+",
+      "prompt": "The reviewer thinks that Frostbound is an excellent book because",
+      "options": [
+        {
+          "label": "A",
+          "text": "the reader learns to appreciate old people."
+        },
+        {
+          "label": "B",
+          "text": "it is important to learn about other cultures."
+        },
+        {
+          "label": "C",
+          "text": "the author describes Kai's world vividly."
+        },
+        {
+          "label": "D",
+          "text": "the animals that feature will appeal to readers."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The review praises Marsh's 'vivid, sensory description' of Kai's world.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "Read Book reviews and answer questions 22 to 28.\n\nBook reviews\n\nFrostbound by Elena Marsh\n\nKai has spent his whole life terrified of the wolves that prowl beyond the village fence. His grandfather has always told him that one day he will have to face one alone. Yet even in a land of endless snow and ice, life still finds ways to surprise a person. To succeed, Kai will need to be as brave as his grandfather and as clever as the wolves themselves.\n\nMarsh draws readers into Kai's frozen world with vivid, sensory description and a character it's impossible not to root for. Kai desperately wants to prove his courage, without realising that real bravery isn't the absence of fear - it's moving forward in spite of it.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+\n\nThe Clockwork Sparrow by Tomas Reeve\n\nWren lives quietly on her uncle's sprawling estate while he travels the world studying rare machines. Her parents disappeared when she was small. Now her uncle has vanished too, and she must journey into a frozen mountain city to find him. Guided by a small mechanical bird that seems to have a mind of its own, and accompanied by Finch, a servant who is far more than he first appears, Wren battles bravely against an enemy determined to bring the whole city to a standstill. Driven by her love for her uncle, and willing to risk everything, Wren refuses to be stopped by the ruthless agents who serve the mysterious Clockmaster.\n\nReeve has skilfully woven real clockwork history into his richly imagined fantasy world, so convincingly that it all feels entirely possible. His writing has the precision of a fine machine and the warmth of a well-told story.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+",
+      "prompt": "In the review of The Clockwork Sparrow, why has the reviewer included details about Wren's parents?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to summarise one exciting chapter in the book"
+        },
+        {
+          "label": "B",
+          "text": "to recount an interesting event from the book"
+        },
+        {
+          "label": "C",
+          "text": "to explain part of the Clockmaster's history"
+        },
+        {
+          "label": "D",
+          "text": "to give background information about the main character"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This detail establishes who Wren is and why she must act, before the plot is described.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "Read Book reviews and answer questions 22 to 28.\n\nBook reviews\n\nFrostbound by Elena Marsh\n\nKai has spent his whole life terrified of the wolves that prowl beyond the village fence. His grandfather has always told him that one day he will have to face one alone. Yet even in a land of endless snow and ice, life still finds ways to surprise a person. To succeed, Kai will need to be as brave as his grandfather and as clever as the wolves themselves.\n\nMarsh draws readers into Kai's frozen world with vivid, sensory description and a character it's impossible not to root for. Kai desperately wants to prove his courage, without realising that real bravery isn't the absence of fear - it's moving forward in spite of it.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+\n\nThe Clockwork Sparrow by Tomas Reeve\n\nWren lives quietly on her uncle's sprawling estate while he travels the world studying rare machines. Her parents disappeared when she was small. Now her uncle has vanished too, and she must journey into a frozen mountain city to find him. Guided by a small mechanical bird that seems to have a mind of its own, and accompanied by Finch, a servant who is far more than he first appears, Wren battles bravely against an enemy determined to bring the whole city to a standstill. Driven by her love for her uncle, and willing to risk everything, Wren refuses to be stopped by the ruthless agents who serve the mysterious Clockmaster.\n\nReeve has skilfully woven real clockwork history into his richly imagined fantasy world, so convincingly that it all feels entirely possible. His writing has the precision of a fine machine and the warmth of a well-told story.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+",
+      "prompt": "In the review of The Clockwork Sparrow, the words 'His writing has the precision of a fine machine' are an example of",
+      "options": [
+        {
+          "label": "A",
+          "text": "a simile."
+        },
+        {
+          "label": "B",
+          "text": "a pun."
+        },
+        {
+          "label": "C",
+          "text": "alliteration."
+        },
+        {
+          "label": "D",
+          "text": "personification."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The comparison uses 'the precision of', functioning as a simile.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2011c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "Read Book reviews and answer questions 22 to 28.\n\nBook reviews\n\nFrostbound by Elena Marsh\n\nKai has spent his whole life terrified of the wolves that prowl beyond the village fence. His grandfather has always told him that one day he will have to face one alone. Yet even in a land of endless snow and ice, life still finds ways to surprise a person. To succeed, Kai will need to be as brave as his grandfather and as clever as the wolves themselves.\n\nMarsh draws readers into Kai's frozen world with vivid, sensory description and a character it's impossible not to root for. Kai desperately wants to prove his courage, without realising that real bravery isn't the absence of fear - it's moving forward in spite of it.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+\n\nThe Clockwork Sparrow by Tomas Reeve\n\nWren lives quietly on her uncle's sprawling estate while he travels the world studying rare machines. Her parents disappeared when she was small. Now her uncle has vanished too, and she must journey into a frozen mountain city to find him. Guided by a small mechanical bird that seems to have a mind of its own, and accompanied by Finch, a servant who is far more than he first appears, Wren battles bravely against an enemy determined to bring the whole city to a standstill. Driven by her love for her uncle, and willing to risk everything, Wren refuses to be stopped by the ruthless agents who serve the mysterious Clockmaster.\n\nReeve has skilfully woven real clockwork history into his richly imagined fantasy world, so convincingly that it all feels entirely possible. His writing has the precision of a fine machine and the warmth of a well-told story.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+",
+      "prompt": "Which quotation from the review best describes the icy setting for The Clockwork Sparrow?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'sprawling estate'"
+        },
+        {
+          "label": "B",
+          "text": "'frozen mountain city'"
+        },
+        {
+          "label": "C",
+          "text": "'rare machines'"
+        },
+        {
+          "label": "D",
+          "text": "'serve the mysterious Clockmaster'"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Frozen mountain city' directly describes the icy setting.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "Read Book reviews and answer questions 22 to 28.\n\nBook reviews\n\nFrostbound by Elena Marsh\n\nKai has spent his whole life terrified of the wolves that prowl beyond the village fence. His grandfather has always told him that one day he will have to face one alone. Yet even in a land of endless snow and ice, life still finds ways to surprise a person. To succeed, Kai will need to be as brave as his grandfather and as clever as the wolves themselves.\n\nMarsh draws readers into Kai's frozen world with vivid, sensory description and a character it's impossible not to root for. Kai desperately wants to prove his courage, without realising that real bravery isn't the absence of fear - it's moving forward in spite of it.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+\n\nThe Clockwork Sparrow by Tomas Reeve\n\nWren lives quietly on her uncle's sprawling estate while he travels the world studying rare machines. Her parents disappeared when she was small. Now her uncle has vanished too, and she must journey into a frozen mountain city to find him. Guided by a small mechanical bird that seems to have a mind of its own, and accompanied by Finch, a servant who is far more than he first appears, Wren battles bravely against an enemy determined to bring the whole city to a standstill. Driven by her love for her uncle, and willing to risk everything, Wren refuses to be stopped by the ruthless agents who serve the mysterious Clockmaster.\n\nReeve has skilfully woven real clockwork history into his richly imagined fantasy world, so convincingly that it all feels entirely possible. His writing has the precision of a fine machine and the warmth of a well-told story.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+",
+      "prompt": "Kai and Wren are similar because they both",
+      "options": [
+        {
+          "label": "A",
+          "text": "love remote landscapes."
+        },
+        {
+          "label": "B",
+          "text": "live with their grandparents."
+        },
+        {
+          "label": "C",
+          "text": "need to show courage."
+        },
+        {
+          "label": "D",
+          "text": "come from mountain villages."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Both characters must be brave to overcome the challenges in their stories.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "Read Book reviews and answer questions 22 to 28.\n\nBook reviews\n\nFrostbound by Elena Marsh\n\nKai has spent his whole life terrified of the wolves that prowl beyond the village fence. His grandfather has always told him that one day he will have to face one alone. Yet even in a land of endless snow and ice, life still finds ways to surprise a person. To succeed, Kai will need to be as brave as his grandfather and as clever as the wolves themselves.\n\nMarsh draws readers into Kai's frozen world with vivid, sensory description and a character it's impossible not to root for. Kai desperately wants to prove his courage, without realising that real bravery isn't the absence of fear - it's moving forward in spite of it.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+\n\nThe Clockwork Sparrow by Tomas Reeve\n\nWren lives quietly on her uncle's sprawling estate while he travels the world studying rare machines. Her parents disappeared when she was small. Now her uncle has vanished too, and she must journey into a frozen mountain city to find him. Guided by a small mechanical bird that seems to have a mind of its own, and accompanied by Finch, a servant who is far more than he first appears, Wren battles bravely against an enemy determined to bring the whole city to a standstill. Driven by her love for her uncle, and willing to risk everything, Wren refuses to be stopped by the ruthless agents who serve the mysterious Clockmaster.\n\nReeve has skilfully woven real clockwork history into his richly imagined fantasy world, so convincingly that it all feels entirely possible. His writing has the precision of a fine machine and the warmth of a well-told story.\n\n★★★★\nReviewed by Alina Cho\nAge guide 10+",
+      "prompt": "What is the common feature of these two book reviews?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They describe all the characters in detail."
+        },
+        {
+          "label": "B",
+          "text": "They give information about how to buy the book."
+        },
+        {
+          "label": "C",
+          "text": "They describe the strengths and weaknesses of each book."
+        },
+        {
+          "label": "D",
+          "text": "They give brief information about the plot."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Both reviews briefly summarise the plot before commenting on the book's quality.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "Read Living lights of the deep and answer questions 29 to 35.\n\nLiving lights of the deep\n\nFar below the ocean's surface, where sunlight never reaches, an eerie kind of light still glows in the darkness. This natural light, produced by living creatures, is called bioluminescence, and scientists estimate that as many as 90 per cent of deep-sea animals are able to produce it in some way.\n\nBioluminescence happens when a chemical inside an animal's body reacts with oxygen, producing light without producing much heat at all - unlike a lightbulb, which wastes most of its energy as heat instead of light. Different creatures use this glow for very different reasons. Some, like the anglerfish, dangle a glowing lure above their mouths to attract curious prey close enough to snap up. Others use bioluminescence purely for defence: certain species of squid release a glowing cloud of ink instead of a dark one, momentarily blinding a predator so the squid can escape unseen.\n\nPerhaps the most surprising use of bioluminescence is for communication. Some species of deep-sea fish flash complex patterns of light to attract a mate, not unlike the way fireflies flicker to one another on a summer evening above ground. Scientists studying these light patterns have discovered that many species produce a light unique to them, almost like a signature, allowing individuals to recognise their own kind in the pitch-black water.\n\nNot all bioluminescent creatures live in the deep sea, either. Certain kinds of plankton, tiny organisms drifting near the ocean's surface, glow brightly when disturbed by movement in the water. On some beaches at night, waves breaking on the shore can trigger a shimmering blue glow along the water's edge, an effect that has drawn curious visitors to certain coastlines for generations.\n\nDespite decades of study, scientists believe there is still a great deal to learn about bioluminescence. New deep-sea expeditions continue to discover previously unknown glowing species living at depths humans have only recently been able to explore.",
+      "prompt": "According to the text, what is bioluminescence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "light produced by a chemical reaction inside a living creature"
+        },
+        {
+          "label": "B",
+          "text": "light reflected off the scales of deep-sea fish"
+        },
+        {
+          "label": "C",
+          "text": "light created by friction between water and an animal's skin"
+        },
+        {
+          "label": "D",
+          "text": "light absorbed from the sun and released later"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text defines it as light from 'a chemical inside an animal's body' reacting with oxygen.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "Read Living lights of the deep and answer questions 29 to 35.\n\nLiving lights of the deep\n\nFar below the ocean's surface, where sunlight never reaches, an eerie kind of light still glows in the darkness. This natural light, produced by living creatures, is called bioluminescence, and scientists estimate that as many as 90 per cent of deep-sea animals are able to produce it in some way.\n\nBioluminescence happens when a chemical inside an animal's body reacts with oxygen, producing light without producing much heat at all - unlike a lightbulb, which wastes most of its energy as heat instead of light. Different creatures use this glow for very different reasons. Some, like the anglerfish, dangle a glowing lure above their mouths to attract curious prey close enough to snap up. Others use bioluminescence purely for defence: certain species of squid release a glowing cloud of ink instead of a dark one, momentarily blinding a predator so the squid can escape unseen.\n\nPerhaps the most surprising use of bioluminescence is for communication. Some species of deep-sea fish flash complex patterns of light to attract a mate, not unlike the way fireflies flicker to one another on a summer evening above ground. Scientists studying these light patterns have discovered that many species produce a light unique to them, almost like a signature, allowing individuals to recognise their own kind in the pitch-black water.\n\nNot all bioluminescent creatures live in the deep sea, either. Certain kinds of plankton, tiny organisms drifting near the ocean's surface, glow brightly when disturbed by movement in the water. On some beaches at night, waves breaking on the shore can trigger a shimmering blue glow along the water's edge, an effect that has drawn curious visitors to certain coastlines for generations.\n\nDespite decades of study, scientists believe there is still a great deal to learn about bioluminescence. New deep-sea expeditions continue to discover previously unknown glowing species living at depths humans have only recently been able to explore.",
+      "prompt": "How does the anglerfish use bioluminescence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to blind approaching predators"
+        },
+        {
+          "label": "B",
+          "text": "to attract prey close enough to catch"
+        },
+        {
+          "label": "C",
+          "text": "to recognise other anglerfish in the dark"
+        },
+        {
+          "label": "D",
+          "text": "to warm its body in cold water"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The anglerfish dangles a glowing lure to attract curious prey.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "Read Living lights of the deep and answer questions 29 to 35.\n\nLiving lights of the deep\n\nFar below the ocean's surface, where sunlight never reaches, an eerie kind of light still glows in the darkness. This natural light, produced by living creatures, is called bioluminescence, and scientists estimate that as many as 90 per cent of deep-sea animals are able to produce it in some way.\n\nBioluminescence happens when a chemical inside an animal's body reacts with oxygen, producing light without producing much heat at all - unlike a lightbulb, which wastes most of its energy as heat instead of light. Different creatures use this glow for very different reasons. Some, like the anglerfish, dangle a glowing lure above their mouths to attract curious prey close enough to snap up. Others use bioluminescence purely for defence: certain species of squid release a glowing cloud of ink instead of a dark one, momentarily blinding a predator so the squid can escape unseen.\n\nPerhaps the most surprising use of bioluminescence is for communication. Some species of deep-sea fish flash complex patterns of light to attract a mate, not unlike the way fireflies flicker to one another on a summer evening above ground. Scientists studying these light patterns have discovered that many species produce a light unique to them, almost like a signature, allowing individuals to recognise their own kind in the pitch-black water.\n\nNot all bioluminescent creatures live in the deep sea, either. Certain kinds of plankton, tiny organisms drifting near the ocean's surface, glow brightly when disturbed by movement in the water. On some beaches at night, waves breaking on the shore can trigger a shimmering blue glow along the water's edge, an effect that has drawn curious visitors to certain coastlines for generations.\n\nDespite decades of study, scientists believe there is still a great deal to learn about bioluminescence. New deep-sea expeditions continue to discover previously unknown glowing species living at depths humans have only recently been able to explore.",
+      "prompt": "Why does the writer compare deep-sea fish flashing light patterns to fireflies?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to show that both creatures live in similar environments"
+        },
+        {
+          "label": "B",
+          "text": "to prove that fireflies and deep-sea fish are closely related"
+        },
+        {
+          "label": "C",
+          "text": "to help readers picture an unfamiliar use of light with something familiar"
+        },
+        {
+          "label": "D",
+          "text": "to explain why fireflies also live underwater"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Comparing to fireflies helps readers relate an unfamiliar deep-sea behaviour to something they already know.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2011c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "Read Living lights of the deep and answer questions 29 to 35.\n\nLiving lights of the deep\n\nFar below the ocean's surface, where sunlight never reaches, an eerie kind of light still glows in the darkness. This natural light, produced by living creatures, is called bioluminescence, and scientists estimate that as many as 90 per cent of deep-sea animals are able to produce it in some way.\n\nBioluminescence happens when a chemical inside an animal's body reacts with oxygen, producing light without producing much heat at all - unlike a lightbulb, which wastes most of its energy as heat instead of light. Different creatures use this glow for very different reasons. Some, like the anglerfish, dangle a glowing lure above their mouths to attract curious prey close enough to snap up. Others use bioluminescence purely for defence: certain species of squid release a glowing cloud of ink instead of a dark one, momentarily blinding a predator so the squid can escape unseen.\n\nPerhaps the most surprising use of bioluminescence is for communication. Some species of deep-sea fish flash complex patterns of light to attract a mate, not unlike the way fireflies flicker to one another on a summer evening above ground. Scientists studying these light patterns have discovered that many species produce a light unique to them, almost like a signature, allowing individuals to recognise their own kind in the pitch-black water.\n\nNot all bioluminescent creatures live in the deep sea, either. Certain kinds of plankton, tiny organisms drifting near the ocean's surface, glow brightly when disturbed by movement in the water. On some beaches at night, waves breaking on the shore can trigger a shimmering blue glow along the water's edge, an effect that has drawn curious visitors to certain coastlines for generations.\n\nDespite decades of study, scientists believe there is still a great deal to learn about bioluminescence. New deep-sea expeditions continue to discover previously unknown glowing species living at depths humans have only recently been able to explore.",
+      "prompt": "What does the text suggest scientists have learned from studying fish light patterns?",
+      "options": [
+        {
+          "label": "A",
+          "text": "All deep-sea fish produce exactly the same light pattern."
+        },
+        {
+          "label": "B",
+          "text": "Light patterns are only used to attract prey."
+        },
+        {
+          "label": "C",
+          "text": "Light patterns change depending on water temperature."
+        },
+        {
+          "label": "D",
+          "text": "Each species may produce a light pattern unique to itself."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The text says many species produce a light 'almost like a signature', unique to them.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "Read Living lights of the deep and answer questions 29 to 35.\n\nLiving lights of the deep\n\nFar below the ocean's surface, where sunlight never reaches, an eerie kind of light still glows in the darkness. This natural light, produced by living creatures, is called bioluminescence, and scientists estimate that as many as 90 per cent of deep-sea animals are able to produce it in some way.\n\nBioluminescence happens when a chemical inside an animal's body reacts with oxygen, producing light without producing much heat at all - unlike a lightbulb, which wastes most of its energy as heat instead of light. Different creatures use this glow for very different reasons. Some, like the anglerfish, dangle a glowing lure above their mouths to attract curious prey close enough to snap up. Others use bioluminescence purely for defence: certain species of squid release a glowing cloud of ink instead of a dark one, momentarily blinding a predator so the squid can escape unseen.\n\nPerhaps the most surprising use of bioluminescence is for communication. Some species of deep-sea fish flash complex patterns of light to attract a mate, not unlike the way fireflies flicker to one another on a summer evening above ground. Scientists studying these light patterns have discovered that many species produce a light unique to them, almost like a signature, allowing individuals to recognise their own kind in the pitch-black water.\n\nNot all bioluminescent creatures live in the deep sea, either. Certain kinds of plankton, tiny organisms drifting near the ocean's surface, glow brightly when disturbed by movement in the water. On some beaches at night, waves breaking on the shore can trigger a shimmering blue glow along the water's edge, an effect that has drawn curious visitors to certain coastlines for generations.\n\nDespite decades of study, scientists believe there is still a great deal to learn about bioluminescence. New deep-sea expeditions continue to discover previously unknown glowing species living at depths humans have only recently been able to explore.",
+      "prompt": "According to the text, when might plankton near the ocean's surface glow?",
+      "options": [
+        {
+          "label": "A",
+          "text": "when they are disturbed by movement in the water"
+        },
+        {
+          "label": "B",
+          "text": "only during a full moon"
+        },
+        {
+          "label": "C",
+          "text": "only in the deepest parts of the ocean"
+        },
+        {
+          "label": "D",
+          "text": "when the water temperature drops suddenly"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text says plankton 'glow brightly when disturbed by movement in the water.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "Read Living lights of the deep and answer questions 29 to 35.\n\nLiving lights of the deep\n\nFar below the ocean's surface, where sunlight never reaches, an eerie kind of light still glows in the darkness. This natural light, produced by living creatures, is called bioluminescence, and scientists estimate that as many as 90 per cent of deep-sea animals are able to produce it in some way.\n\nBioluminescence happens when a chemical inside an animal's body reacts with oxygen, producing light without producing much heat at all - unlike a lightbulb, which wastes most of its energy as heat instead of light. Different creatures use this glow for very different reasons. Some, like the anglerfish, dangle a glowing lure above their mouths to attract curious prey close enough to snap up. Others use bioluminescence purely for defence: certain species of squid release a glowing cloud of ink instead of a dark one, momentarily blinding a predator so the squid can escape unseen.\n\nPerhaps the most surprising use of bioluminescence is for communication. Some species of deep-sea fish flash complex patterns of light to attract a mate, not unlike the way fireflies flicker to one another on a summer evening above ground. Scientists studying these light patterns have discovered that many species produce a light unique to them, almost like a signature, allowing individuals to recognise their own kind in the pitch-black water.\n\nNot all bioluminescent creatures live in the deep sea, either. Certain kinds of plankton, tiny organisms drifting near the ocean's surface, glow brightly when disturbed by movement in the water. On some beaches at night, waves breaking on the shore can trigger a shimmering blue glow along the water's edge, an effect that has drawn curious visitors to certain coastlines for generations.\n\nDespite decades of study, scientists believe there is still a great deal to learn about bioluminescence. New deep-sea expeditions continue to discover previously unknown glowing species living at depths humans have only recently been able to explore.",
+      "prompt": "What is the main purpose of the final paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to argue that bioluminescence research should stop"
+        },
+        {
+          "label": "B",
+          "text": "to show that there is still more to discover about bioluminescence"
+        },
+        {
+          "label": "C",
+          "text": "to suggest that everything about bioluminescence is already known"
+        },
+        {
+          "label": "D",
+          "text": "to compare bioluminescence in different ocean depths"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The paragraph states scientists believe 'there is still a great deal to learn'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "Read Living lights of the deep and answer questions 29 to 35.\n\nLiving lights of the deep\n\nFar below the ocean's surface, where sunlight never reaches, an eerie kind of light still glows in the darkness. This natural light, produced by living creatures, is called bioluminescence, and scientists estimate that as many as 90 per cent of deep-sea animals are able to produce it in some way.\n\nBioluminescence happens when a chemical inside an animal's body reacts with oxygen, producing light without producing much heat at all - unlike a lightbulb, which wastes most of its energy as heat instead of light. Different creatures use this glow for very different reasons. Some, like the anglerfish, dangle a glowing lure above their mouths to attract curious prey close enough to snap up. Others use bioluminescence purely for defence: certain species of squid release a glowing cloud of ink instead of a dark one, momentarily blinding a predator so the squid can escape unseen.\n\nPerhaps the most surprising use of bioluminescence is for communication. Some species of deep-sea fish flash complex patterns of light to attract a mate, not unlike the way fireflies flicker to one another on a summer evening above ground. Scientists studying these light patterns have discovered that many species produce a light unique to them, almost like a signature, allowing individuals to recognise their own kind in the pitch-black water.\n\nNot all bioluminescent creatures live in the deep sea, either. Certain kinds of plankton, tiny organisms drifting near the ocean's surface, glow brightly when disturbed by movement in the water. On some beaches at night, waves breaking on the shore can trigger a shimmering blue glow along the water's edge, an effect that has drawn curious visitors to certain coastlines for generations.\n\nDespite decades of study, scientists believe there is still a great deal to learn about bioluminescence. New deep-sea expeditions continue to discover previously unknown glowing species living at depths humans have only recently been able to explore.",
+      "prompt": "What is the overall purpose of this text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to persuade readers to visit glowing beaches"
+        },
+        {
+          "label": "B",
+          "text": "to argue that bioluminescence is dangerous"
+        },
+        {
+          "label": "C",
+          "text": "to explain a natural phenomenon and its uses"
+        },
+        {
+          "label": "D",
+          "text": "to recount a scientist's personal discovery"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text explains what bioluminescence is and the different ways creatures use it.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "Read Teachers can be replaced by computers and answer questions 36 to 43.\n\nTeachers can be replaced by computers\n\nThe case for\nGiven how quickly technology keeps advancing, it wouldn't be surprising if classroom teachers were eventually replaced by computers altogether. Today's children are far more comfortable with gaming and digital devices than most adults are, and they're likely to be more engaged and motivated by a fast internet connection and a screen than by sitting at a desk facing a blackboard all day. The internet has become such a powerful and constant resource that students no longer really need a teacher as their main source of facts - a few clicks can answer almost any question.\n\nIn fact, with online forums and digital learning platforms, students barely need to attend a physical classroom at all anymore. Virtual classrooms could easily replace physical ones, and online discussions could replace face-to-face ones. Learning this way also lets children practise essential twenty-first-century skills like online safety and digital etiquette.\n\nAs workplaces and everyday life become increasingly reliant on computers, the traditional classroom, with its chalk-wielding teacher, is starting to feel outdated.\n\nMs Byte\n\nThe case against\nUnless we want to raise a generation with no real human connection, the relationship between a teacher and their students can never truly be replaced by a computer. At the heart of every classroom is a teacher working to bring out each student's potential and support their academic and emotional growth. Children need encouragement to succeed and support when they struggle - neither of which a computer could ever genuinely provide.\n\nNo online platform can replicate the social experience of a real classroom or playground. An actual excursion to a museum will always beat a virtual tour of the same place.\n\nThe internet is undeniably a powerful tool for research and learning, but children still need an experienced teacher to help them use it well - to separate fact from fiction and make sound judgements about what they read online. Teachers also make sure students stay safe while interacting with others on the internet.\n\nWe shouldn't hand our children over to machines. They need the guidance and commitment that only a real teacher can offer.\n\nMr Sage",
+      "prompt": "The word 'engaged' means",
+      "options": [
+        {
+          "label": "A",
+          "text": "skilful."
+        },
+        {
+          "label": "B",
+          "text": "reliable."
+        },
+        {
+          "label": "C",
+          "text": "qualified."
+        },
+        {
+          "label": "D",
+          "text": "interested."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "To be 'engaged' in learning means to be interested and involved in it.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2011c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "Read Teachers can be replaced by computers and answer questions 36 to 43.\n\nTeachers can be replaced by computers\n\nThe case for\nGiven how quickly technology keeps advancing, it wouldn't be surprising if classroom teachers were eventually replaced by computers altogether. Today's children are far more comfortable with gaming and digital devices than most adults are, and they're likely to be more engaged and motivated by a fast internet connection and a screen than by sitting at a desk facing a blackboard all day. The internet has become such a powerful and constant resource that students no longer really need a teacher as their main source of facts - a few clicks can answer almost any question.\n\nIn fact, with online forums and digital learning platforms, students barely need to attend a physical classroom at all anymore. Virtual classrooms could easily replace physical ones, and online discussions could replace face-to-face ones. Learning this way also lets children practise essential twenty-first-century skills like online safety and digital etiquette.\n\nAs workplaces and everyday life become increasingly reliant on computers, the traditional classroom, with its chalk-wielding teacher, is starting to feel outdated.\n\nMs Byte\n\nThe case against\nUnless we want to raise a generation with no real human connection, the relationship between a teacher and their students can never truly be replaced by a computer. At the heart of every classroom is a teacher working to bring out each student's potential and support their academic and emotional growth. Children need encouragement to succeed and support when they struggle - neither of which a computer could ever genuinely provide.\n\nNo online platform can replicate the social experience of a real classroom or playground. An actual excursion to a museum will always beat a virtual tour of the same place.\n\nThe internet is undeniably a powerful tool for research and learning, but children still need an experienced teacher to help them use it well - to separate fact from fiction and make sound judgements about what they read online. Teachers also make sure students stay safe while interacting with others on the internet.\n\nWe shouldn't hand our children over to machines. They need the guidance and commitment that only a real teacher can offer.\n\nMr Sage",
+      "prompt": "According to Ms Byte, children will be more keen to learn if",
+      "options": [
+        {
+          "label": "A",
+          "text": "they are given a computer with a fast internet connection."
+        },
+        {
+          "label": "B",
+          "text": "the internet is provided for free."
+        },
+        {
+          "label": "C",
+          "text": "blackboards are no longer used."
+        },
+        {
+          "label": "D",
+          "text": "teachers have better technology skills."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Ms Byte argues children are more motivated by 'a fast internet connection and a screen'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "Read Teachers can be replaced by computers and answer questions 36 to 43.\n\nTeachers can be replaced by computers\n\nThe case for\nGiven how quickly technology keeps advancing, it wouldn't be surprising if classroom teachers were eventually replaced by computers altogether. Today's children are far more comfortable with gaming and digital devices than most adults are, and they're likely to be more engaged and motivated by a fast internet connection and a screen than by sitting at a desk facing a blackboard all day. The internet has become such a powerful and constant resource that students no longer really need a teacher as their main source of facts - a few clicks can answer almost any question.\n\nIn fact, with online forums and digital learning platforms, students barely need to attend a physical classroom at all anymore. Virtual classrooms could easily replace physical ones, and online discussions could replace face-to-face ones. Learning this way also lets children practise essential twenty-first-century skills like online safety and digital etiquette.\n\nAs workplaces and everyday life become increasingly reliant on computers, the traditional classroom, with its chalk-wielding teacher, is starting to feel outdated.\n\nMs Byte\n\nThe case against\nUnless we want to raise a generation with no real human connection, the relationship between a teacher and their students can never truly be replaced by a computer. At the heart of every classroom is a teacher working to bring out each student's potential and support their academic and emotional growth. Children need encouragement to succeed and support when they struggle - neither of which a computer could ever genuinely provide.\n\nNo online platform can replicate the social experience of a real classroom or playground. An actual excursion to a museum will always beat a virtual tour of the same place.\n\nThe internet is undeniably a powerful tool for research and learning, but children still need an experienced teacher to help them use it well - to separate fact from fiction and make sound judgements about what they read online. Teachers also make sure students stay safe while interacting with others on the internet.\n\nWe shouldn't hand our children over to machines. They need the guidance and commitment that only a real teacher can offer.\n\nMr Sage",
+      "prompt": "Ms Byte argues that the internet can help children in their learning by",
+      "options": [
+        {
+          "label": "A",
+          "text": "monitoring them closely."
+        },
+        {
+          "label": "B",
+          "text": "providing almost any answer they need."
+        },
+        {
+          "label": "C",
+          "text": "accelerating their reading progress."
+        },
+        {
+          "label": "D",
+          "text": "allowing more physical space for classroom discussions."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "She says 'a few clicks can answer almost any question.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "passage": "Read Teachers can be replaced by computers and answer questions 36 to 43.\n\nTeachers can be replaced by computers\n\nThe case for\nGiven how quickly technology keeps advancing, it wouldn't be surprising if classroom teachers were eventually replaced by computers altogether. Today's children are far more comfortable with gaming and digital devices than most adults are, and they're likely to be more engaged and motivated by a fast internet connection and a screen than by sitting at a desk facing a blackboard all day. The internet has become such a powerful and constant resource that students no longer really need a teacher as their main source of facts - a few clicks can answer almost any question.\n\nIn fact, with online forums and digital learning platforms, students barely need to attend a physical classroom at all anymore. Virtual classrooms could easily replace physical ones, and online discussions could replace face-to-face ones. Learning this way also lets children practise essential twenty-first-century skills like online safety and digital etiquette.\n\nAs workplaces and everyday life become increasingly reliant on computers, the traditional classroom, with its chalk-wielding teacher, is starting to feel outdated.\n\nMs Byte\n\nThe case against\nUnless we want to raise a generation with no real human connection, the relationship between a teacher and their students can never truly be replaced by a computer. At the heart of every classroom is a teacher working to bring out each student's potential and support their academic and emotional growth. Children need encouragement to succeed and support when they struggle - neither of which a computer could ever genuinely provide.\n\nNo online platform can replicate the social experience of a real classroom or playground. An actual excursion to a museum will always beat a virtual tour of the same place.\n\nThe internet is undeniably a powerful tool for research and learning, but children still need an experienced teacher to help them use it well - to separate fact from fiction and make sound judgements about what they read online. Teachers also make sure students stay safe while interacting with others on the internet.\n\nWe shouldn't hand our children over to machines. They need the guidance and commitment that only a real teacher can offer.\n\nMr Sage",
+      "prompt": "What is Ms Byte's opinion about how children learn online safety and etiquette?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Children learn through research."
+        },
+        {
+          "label": "B",
+          "text": "Instruction from a teacher is required."
+        },
+        {
+          "label": "C",
+          "text": "Children learn by doing."
+        },
+        {
+          "label": "D",
+          "text": "Online forums offer adequate guidance."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "She says learning online 'lets children practise' these skills directly, i.e. by doing.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "passage": "Read Teachers can be replaced by computers and answer questions 36 to 43.\n\nTeachers can be replaced by computers\n\nThe case for\nGiven how quickly technology keeps advancing, it wouldn't be surprising if classroom teachers were eventually replaced by computers altogether. Today's children are far more comfortable with gaming and digital devices than most adults are, and they're likely to be more engaged and motivated by a fast internet connection and a screen than by sitting at a desk facing a blackboard all day. The internet has become such a powerful and constant resource that students no longer really need a teacher as their main source of facts - a few clicks can answer almost any question.\n\nIn fact, with online forums and digital learning platforms, students barely need to attend a physical classroom at all anymore. Virtual classrooms could easily replace physical ones, and online discussions could replace face-to-face ones. Learning this way also lets children practise essential twenty-first-century skills like online safety and digital etiquette.\n\nAs workplaces and everyday life become increasingly reliant on computers, the traditional classroom, with its chalk-wielding teacher, is starting to feel outdated.\n\nMs Byte\n\nThe case against\nUnless we want to raise a generation with no real human connection, the relationship between a teacher and their students can never truly be replaced by a computer. At the heart of every classroom is a teacher working to bring out each student's potential and support their academic and emotional growth. Children need encouragement to succeed and support when they struggle - neither of which a computer could ever genuinely provide.\n\nNo online platform can replicate the social experience of a real classroom or playground. An actual excursion to a museum will always beat a virtual tour of the same place.\n\nThe internet is undeniably a powerful tool for research and learning, but children still need an experienced teacher to help them use it well - to separate fact from fiction and make sound judgements about what they read online. Teachers also make sure students stay safe while interacting with others on the internet.\n\nWe shouldn't hand our children over to machines. They need the guidance and commitment that only a real teacher can offer.\n\nMr Sage",
+      "prompt": "Mr Sage uses the word 'we' in his opening sentence in order to",
+      "options": [
+        {
+          "label": "A",
+          "text": "encourage students to be responsible for their education."
+        },
+        {
+          "label": "B",
+          "text": "indicate that teachers should be included in the discussion."
+        },
+        {
+          "label": "C",
+          "text": "highlight the difference between his opinion and Ms Byte's."
+        },
+        {
+          "label": "D",
+          "text": "make readers feel that this issue directly affects them."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'We' draws readers in, making the issue feel shared and personally relevant.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2011c-q41",
+      "number": 41,
+      "type": "multiple_choice",
+      "passage": "Read Teachers can be replaced by computers and answer questions 36 to 43.\n\nTeachers can be replaced by computers\n\nThe case for\nGiven how quickly technology keeps advancing, it wouldn't be surprising if classroom teachers were eventually replaced by computers altogether. Today's children are far more comfortable with gaming and digital devices than most adults are, and they're likely to be more engaged and motivated by a fast internet connection and a screen than by sitting at a desk facing a blackboard all day. The internet has become such a powerful and constant resource that students no longer really need a teacher as their main source of facts - a few clicks can answer almost any question.\n\nIn fact, with online forums and digital learning platforms, students barely need to attend a physical classroom at all anymore. Virtual classrooms could easily replace physical ones, and online discussions could replace face-to-face ones. Learning this way also lets children practise essential twenty-first-century skills like online safety and digital etiquette.\n\nAs workplaces and everyday life become increasingly reliant on computers, the traditional classroom, with its chalk-wielding teacher, is starting to feel outdated.\n\nMs Byte\n\nThe case against\nUnless we want to raise a generation with no real human connection, the relationship between a teacher and their students can never truly be replaced by a computer. At the heart of every classroom is a teacher working to bring out each student's potential and support their academic and emotional growth. Children need encouragement to succeed and support when they struggle - neither of which a computer could ever genuinely provide.\n\nNo online platform can replicate the social experience of a real classroom or playground. An actual excursion to a museum will always beat a virtual tour of the same place.\n\nThe internet is undeniably a powerful tool for research and learning, but children still need an experienced teacher to help them use it well - to separate fact from fiction and make sound judgements about what they read online. Teachers also make sure students stay safe while interacting with others on the internet.\n\nWe shouldn't hand our children over to machines. They need the guidance and commitment that only a real teacher can offer.\n\nMr Sage",
+      "prompt": "According to Mr Sage, what might happen if computers replaced teachers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Children would not learn how to interact with other people."
+        },
+        {
+          "label": "B",
+          "text": "Robots would discipline children."
+        },
+        {
+          "label": "C",
+          "text": "Children would no longer use the playground."
+        },
+        {
+          "label": "D",
+          "text": "Teachers would be forced to work harder to keep their jobs."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Mr Sage warns of 'a generation with no real human connection' if teachers are replaced.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q42",
+      "number": 42,
+      "type": "multiple_choice",
+      "passage": "Read Teachers can be replaced by computers and answer questions 36 to 43.\n\nTeachers can be replaced by computers\n\nThe case for\nGiven how quickly technology keeps advancing, it wouldn't be surprising if classroom teachers were eventually replaced by computers altogether. Today's children are far more comfortable with gaming and digital devices than most adults are, and they're likely to be more engaged and motivated by a fast internet connection and a screen than by sitting at a desk facing a blackboard all day. The internet has become such a powerful and constant resource that students no longer really need a teacher as their main source of facts - a few clicks can answer almost any question.\n\nIn fact, with online forums and digital learning platforms, students barely need to attend a physical classroom at all anymore. Virtual classrooms could easily replace physical ones, and online discussions could replace face-to-face ones. Learning this way also lets children practise essential twenty-first-century skills like online safety and digital etiquette.\n\nAs workplaces and everyday life become increasingly reliant on computers, the traditional classroom, with its chalk-wielding teacher, is starting to feel outdated.\n\nMs Byte\n\nThe case against\nUnless we want to raise a generation with no real human connection, the relationship between a teacher and their students can never truly be replaced by a computer. At the heart of every classroom is a teacher working to bring out each student's potential and support their academic and emotional growth. Children need encouragement to succeed and support when they struggle - neither of which a computer could ever genuinely provide.\n\nNo online platform can replicate the social experience of a real classroom or playground. An actual excursion to a museum will always beat a virtual tour of the same place.\n\nThe internet is undeniably a powerful tool for research and learning, but children still need an experienced teacher to help them use it well - to separate fact from fiction and make sound judgements about what they read online. Teachers also make sure students stay safe while interacting with others on the internet.\n\nWe shouldn't hand our children over to machines. They need the guidance and commitment that only a real teacher can offer.\n\nMr Sage",
+      "prompt": "In the text, the phrase 'At the heart of' refers to",
+      "options": [
+        {
+          "label": "A",
+          "text": "the robots."
+        },
+        {
+          "label": "B",
+          "text": "the teacher."
+        },
+        {
+          "label": "C",
+          "text": "the children."
+        },
+        {
+          "label": "D",
+          "text": "the computer."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'At the heart of every classroom is a teacher' — the phrase refers to the teacher's central role.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2011c-q43",
+      "number": 43,
+      "type": "multiple_choice",
+      "passage": "Read Teachers can be replaced by computers and answer questions 36 to 43.\n\nTeachers can be replaced by computers\n\nThe case for\nGiven how quickly technology keeps advancing, it wouldn't be surprising if classroom teachers were eventually replaced by computers altogether. Today's children are far more comfortable with gaming and digital devices than most adults are, and they're likely to be more engaged and motivated by a fast internet connection and a screen than by sitting at a desk facing a blackboard all day. The internet has become such a powerful and constant resource that students no longer really need a teacher as their main source of facts - a few clicks can answer almost any question.\n\nIn fact, with online forums and digital learning platforms, students barely need to attend a physical classroom at all anymore. Virtual classrooms could easily replace physical ones, and online discussions could replace face-to-face ones. Learning this way also lets children practise essential twenty-first-century skills like online safety and digital etiquette.\n\nAs workplaces and everyday life become increasingly reliant on computers, the traditional classroom, with its chalk-wielding teacher, is starting to feel outdated.\n\nMs Byte\n\nThe case against\nUnless we want to raise a generation with no real human connection, the relationship between a teacher and their students can never truly be replaced by a computer. At the heart of every classroom is a teacher working to bring out each student's potential and support their academic and emotional growth. Children need encouragement to succeed and support when they struggle - neither of which a computer could ever genuinely provide.\n\nNo online platform can replicate the social experience of a real classroom or playground. An actual excursion to a museum will always beat a virtual tour of the same place.\n\nThe internet is undeniably a powerful tool for research and learning, but children still need an experienced teacher to help them use it well - to separate fact from fiction and make sound judgements about what they read online. Teachers also make sure students stay safe while interacting with others on the internet.\n\nWe shouldn't hand our children over to machines. They need the guidance and commitment that only a real teacher can offer.\n\nMr Sage",
+      "prompt": "What is the main argument that Mr Sage presents?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The number of computers in schools should be limited."
+        },
+        {
+          "label": "B",
+          "text": "The advantages of computers for children are not clear."
+        },
+        {
+          "label": "C",
+          "text": "Computers have benefits but teacher guidance is still required."
+        },
+        {
+          "label": "D",
+          "text": "Children need teachers because the internet poses many dangers."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Mr Sage acknowledges the internet is 'a powerful tool' but insists teacher guidance is still essential.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q44",
+      "number": 44,
+      "type": "multiple_choice",
+      "passage": "Read Through the gap and answer questions 44 to 50.\n\nThrough the gap\n\nThe tunnel twisted and dipped, opened briefly into a small hollow, then narrowed again into a gap that Priya could barely squeeze through. Beyond it lay another long, crooked passage that led back down, in a series of rough steps, to the cave they'd first entered. Tired, confused and more than a little disappointed, Priya stumbled out onto the hillside, her friends trailing behind her. Her torch flickered and died, leaving them shivering in the moonlit dark.\n\n'Did it just loop back around?' asked Tess. 'Or did we take a wrong turn somewhere?'\n\n'Should we go back through?' said Ben. 'Maybe we missed a turn.'\n\n'I don't think we did,' Marcus said quietly. 'Look!'\n\nThey all turned and looked out over the valley.\n\nThe lake gleamed silver under the moon, its familiar dark islands scattered like lumps of coal. They could see the same snow-capped ridge and the same distant hills to the west, just as they'd seen them a thousand times before.\n\nWhat was different was Fenwick House. There was no mismatched roofline, no tangled garden hedges. Where the crumbling ruin usually stood was a tall, grim stone tower, with narrow slit windows and a moat of dark water.\n\n'We actually did it,' Priya breathed. 'I can't believe it.'\n\nA sudden rush of excitement overtook the four friends, and they whooped and spun in circles, their packs banging against their backs. Just as suddenly, seriousness settled back over them. What had they actually done?\n\nIn that moment, all four realised they hadn't truly believed it was possible to travel back in time. The whole thing had felt like a game, something they'd pretended to believe while secretly knowing it was made up. Now, though, they understood it wasn't a game at all. They had left their own time behind and stepped into a world with entirely different rules. They could easily get hurt here, or trapped forever with no way home. It was a terrifying thought, one none of them wanted to face directly.",
+      "prompt": "Why were Priya and her friends disappointed with the passageway they had followed?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They could not light their torches in the cave."
+        },
+        {
+          "label": "B",
+          "text": "They had become separated from one another."
+        },
+        {
+          "label": "C",
+          "text": "They had climbed up the wrong steps to the top."
+        },
+        {
+          "label": "D",
+          "text": "They thought they were back where they started."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage led back down to the same cave they had first entered.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q45",
+      "number": 45,
+      "type": "multiple_choice",
+      "passage": "Read Through the gap and answer questions 44 to 50.\n\nThrough the gap\n\nThe tunnel twisted and dipped, opened briefly into a small hollow, then narrowed again into a gap that Priya could barely squeeze through. Beyond it lay another long, crooked passage that led back down, in a series of rough steps, to the cave they'd first entered. Tired, confused and more than a little disappointed, Priya stumbled out onto the hillside, her friends trailing behind her. Her torch flickered and died, leaving them shivering in the moonlit dark.\n\n'Did it just loop back around?' asked Tess. 'Or did we take a wrong turn somewhere?'\n\n'Should we go back through?' said Ben. 'Maybe we missed a turn.'\n\n'I don't think we did,' Marcus said quietly. 'Look!'\n\nThey all turned and looked out over the valley.\n\nThe lake gleamed silver under the moon, its familiar dark islands scattered like lumps of coal. They could see the same snow-capped ridge and the same distant hills to the west, just as they'd seen them a thousand times before.\n\nWhat was different was Fenwick House. There was no mismatched roofline, no tangled garden hedges. Where the crumbling ruin usually stood was a tall, grim stone tower, with narrow slit windows and a moat of dark water.\n\n'We actually did it,' Priya breathed. 'I can't believe it.'\n\nA sudden rush of excitement overtook the four friends, and they whooped and spun in circles, their packs banging against their backs. Just as suddenly, seriousness settled back over them. What had they actually done?\n\nIn that moment, all four realised they hadn't truly believed it was possible to travel back in time. The whole thing had felt like a game, something they'd pretended to believe while secretly knowing it was made up. Now, though, they understood it wasn't a game at all. They had left their own time behind and stepped into a world with entirely different rules. They could easily get hurt here, or trapped forever with no way home. It was a terrifying thought, one none of them wanted to face directly.",
+      "prompt": "When the friends came out of the cave, which of the following happened first?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Priya's torch light went out."
+        },
+        {
+          "label": "B",
+          "text": "Ben decided to return to the passageway."
+        },
+        {
+          "label": "C",
+          "text": "Marcus walked towards the lake."
+        },
+        {
+          "label": "D",
+          "text": "Tess looked around the hillside."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text says Priya's torch 'flickered and died' as soon as they stumbled outside.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q46",
+      "number": 46,
+      "type": "multiple_choice",
+      "passage": "Read Through the gap and answer questions 44 to 50.\n\nThrough the gap\n\nThe tunnel twisted and dipped, opened briefly into a small hollow, then narrowed again into a gap that Priya could barely squeeze through. Beyond it lay another long, crooked passage that led back down, in a series of rough steps, to the cave they'd first entered. Tired, confused and more than a little disappointed, Priya stumbled out onto the hillside, her friends trailing behind her. Her torch flickered and died, leaving them shivering in the moonlit dark.\n\n'Did it just loop back around?' asked Tess. 'Or did we take a wrong turn somewhere?'\n\n'Should we go back through?' said Ben. 'Maybe we missed a turn.'\n\n'I don't think we did,' Marcus said quietly. 'Look!'\n\nThey all turned and looked out over the valley.\n\nThe lake gleamed silver under the moon, its familiar dark islands scattered like lumps of coal. They could see the same snow-capped ridge and the same distant hills to the west, just as they'd seen them a thousand times before.\n\nWhat was different was Fenwick House. There was no mismatched roofline, no tangled garden hedges. Where the crumbling ruin usually stood was a tall, grim stone tower, with narrow slit windows and a moat of dark water.\n\n'We actually did it,' Priya breathed. 'I can't believe it.'\n\nA sudden rush of excitement overtook the four friends, and they whooped and spun in circles, their packs banging against their backs. Just as suddenly, seriousness settled back over them. What had they actually done?\n\nIn that moment, all four realised they hadn't truly believed it was possible to travel back in time. The whole thing had felt like a game, something they'd pretended to believe while secretly knowing it was made up. Now, though, they understood it wasn't a game at all. They had left their own time behind and stepped into a world with entirely different rules. They could easily get hurt here, or trapped forever with no way home. It was a terrifying thought, one none of them wanted to face directly.",
+      "prompt": "The islands are described as scattered 'like lumps of coal'. What colour is coal?",
+      "options": [
+        {
+          "label": "A",
+          "text": "silver"
+        },
+        {
+          "label": "B",
+          "text": "black"
+        },
+        {
+          "label": "C",
+          "text": "white"
+        },
+        {
+          "label": "D",
+          "text": "green"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Coal is black, matching the dark shapes of the islands.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2011c-q47",
+      "number": 47,
+      "type": "multiple_choice",
+      "passage": "Read Through the gap and answer questions 44 to 50.\n\nThrough the gap\n\nThe tunnel twisted and dipped, opened briefly into a small hollow, then narrowed again into a gap that Priya could barely squeeze through. Beyond it lay another long, crooked passage that led back down, in a series of rough steps, to the cave they'd first entered. Tired, confused and more than a little disappointed, Priya stumbled out onto the hillside, her friends trailing behind her. Her torch flickered and died, leaving them shivering in the moonlit dark.\n\n'Did it just loop back around?' asked Tess. 'Or did we take a wrong turn somewhere?'\n\n'Should we go back through?' said Ben. 'Maybe we missed a turn.'\n\n'I don't think we did,' Marcus said quietly. 'Look!'\n\nThey all turned and looked out over the valley.\n\nThe lake gleamed silver under the moon, its familiar dark islands scattered like lumps of coal. They could see the same snow-capped ridge and the same distant hills to the west, just as they'd seen them a thousand times before.\n\nWhat was different was Fenwick House. There was no mismatched roofline, no tangled garden hedges. Where the crumbling ruin usually stood was a tall, grim stone tower, with narrow slit windows and a moat of dark water.\n\n'We actually did it,' Priya breathed. 'I can't believe it.'\n\nA sudden rush of excitement overtook the four friends, and they whooped and spun in circles, their packs banging against their backs. Just as suddenly, seriousness settled back over them. What had they actually done?\n\nIn that moment, all four realised they hadn't truly believed it was possible to travel back in time. The whole thing had felt like a game, something they'd pretended to believe while secretly knowing it was made up. Now, though, they understood it wasn't a game at all. They had left their own time behind and stepped into a world with entirely different rules. They could easily get hurt here, or trapped forever with no way home. It was a terrifying thought, one none of them wanted to face directly.",
+      "prompt": "What did the friends see that made them realise Fenwick House had changed?",
+      "options": [
+        {
+          "label": "A",
+          "text": "mismatched roofline"
+        },
+        {
+          "label": "B",
+          "text": "tangled garden hedges"
+        },
+        {
+          "label": "C",
+          "text": "a grim stone tower"
+        },
+        {
+          "label": "D",
+          "text": "narrow slit windows"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "In place of the usual ruin stood 'a tall, grim stone tower' — a clear, visible change.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q48",
+      "number": 48,
+      "type": "multiple_choice",
+      "passage": "Read Through the gap and answer questions 44 to 50.\n\nThrough the gap\n\nThe tunnel twisted and dipped, opened briefly into a small hollow, then narrowed again into a gap that Priya could barely squeeze through. Beyond it lay another long, crooked passage that led back down, in a series of rough steps, to the cave they'd first entered. Tired, confused and more than a little disappointed, Priya stumbled out onto the hillside, her friends trailing behind her. Her torch flickered and died, leaving them shivering in the moonlit dark.\n\n'Did it just loop back around?' asked Tess. 'Or did we take a wrong turn somewhere?'\n\n'Should we go back through?' said Ben. 'Maybe we missed a turn.'\n\n'I don't think we did,' Marcus said quietly. 'Look!'\n\nThey all turned and looked out over the valley.\n\nThe lake gleamed silver under the moon, its familiar dark islands scattered like lumps of coal. They could see the same snow-capped ridge and the same distant hills to the west, just as they'd seen them a thousand times before.\n\nWhat was different was Fenwick House. There was no mismatched roofline, no tangled garden hedges. Where the crumbling ruin usually stood was a tall, grim stone tower, with narrow slit windows and a moat of dark water.\n\n'We actually did it,' Priya breathed. 'I can't believe it.'\n\nA sudden rush of excitement overtook the four friends, and they whooped and spun in circles, their packs banging against their backs. Just as suddenly, seriousness settled back over them. What had they actually done?\n\nIn that moment, all four realised they hadn't truly believed it was possible to travel back in time. The whole thing had felt like a game, something they'd pretended to believe while secretly knowing it was made up. Now, though, they understood it wasn't a game at all. They had left their own time behind and stepped into a world with entirely different rules. They could easily get hurt here, or trapped forever with no way home. It was a terrifying thought, one none of them wanted to face directly.",
+      "prompt": "What is the meaning of 'seriousness', as it is used in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "doubt"
+        },
+        {
+          "label": "B",
+          "text": "catastrophe"
+        },
+        {
+          "label": "C",
+          "text": "disappointment"
+        },
+        {
+          "label": "D",
+          "text": "sombreness"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Seriousness settled back over them' means their mood turned solemn and sombre.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2011c-q49",
+      "number": 49,
+      "type": "multiple_choice",
+      "passage": "Read Through the gap and answer questions 44 to 50.\n\nThrough the gap\n\nThe tunnel twisted and dipped, opened briefly into a small hollow, then narrowed again into a gap that Priya could barely squeeze through. Beyond it lay another long, crooked passage that led back down, in a series of rough steps, to the cave they'd first entered. Tired, confused and more than a little disappointed, Priya stumbled out onto the hillside, her friends trailing behind her. Her torch flickered and died, leaving them shivering in the moonlit dark.\n\n'Did it just loop back around?' asked Tess. 'Or did we take a wrong turn somewhere?'\n\n'Should we go back through?' said Ben. 'Maybe we missed a turn.'\n\n'I don't think we did,' Marcus said quietly. 'Look!'\n\nThey all turned and looked out over the valley.\n\nThe lake gleamed silver under the moon, its familiar dark islands scattered like lumps of coal. They could see the same snow-capped ridge and the same distant hills to the west, just as they'd seen them a thousand times before.\n\nWhat was different was Fenwick House. There was no mismatched roofline, no tangled garden hedges. Where the crumbling ruin usually stood was a tall, grim stone tower, with narrow slit windows and a moat of dark water.\n\n'We actually did it,' Priya breathed. 'I can't believe it.'\n\nA sudden rush of excitement overtook the four friends, and they whooped and spun in circles, their packs banging against their backs. Just as suddenly, seriousness settled back over them. What had they actually done?\n\nIn that moment, all four realised they hadn't truly believed it was possible to travel back in time. The whole thing had felt like a game, something they'd pretended to believe while secretly knowing it was made up. Now, though, they understood it wasn't a game at all. They had left their own time behind and stepped into a world with entirely different rules. They could easily get hurt here, or trapped forever with no way home. It was a terrifying thought, one none of them wanted to face directly.",
+      "prompt": "What conclusion can be drawn from the last paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The friends were fearful that there may be no escape from this new world."
+        },
+        {
+          "label": "B",
+          "text": "The friends were furious that Priya had changed the rules of their game."
+        },
+        {
+          "label": "C",
+          "text": "The friends were keen for adventure in this new world."
+        },
+        {
+          "label": "D",
+          "text": "The friends were excited about their new lives."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "They realise they 'could easily get hurt here, or trapped forever with no way home' — a fearful realisation.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2011c-q50",
+      "number": 50,
+      "type": "multiple_choice",
+      "passage": "Read Through the gap and answer questions 44 to 50.\n\nThrough the gap\n\nThe tunnel twisted and dipped, opened briefly into a small hollow, then narrowed again into a gap that Priya could barely squeeze through. Beyond it lay another long, crooked passage that led back down, in a series of rough steps, to the cave they'd first entered. Tired, confused and more than a little disappointed, Priya stumbled out onto the hillside, her friends trailing behind her. Her torch flickered and died, leaving them shivering in the moonlit dark.\n\n'Did it just loop back around?' asked Tess. 'Or did we take a wrong turn somewhere?'\n\n'Should we go back through?' said Ben. 'Maybe we missed a turn.'\n\n'I don't think we did,' Marcus said quietly. 'Look!'\n\nThey all turned and looked out over the valley.\n\nThe lake gleamed silver under the moon, its familiar dark islands scattered like lumps of coal. They could see the same snow-capped ridge and the same distant hills to the west, just as they'd seen them a thousand times before.\n\nWhat was different was Fenwick House. There was no mismatched roofline, no tangled garden hedges. Where the crumbling ruin usually stood was a tall, grim stone tower, with narrow slit windows and a moat of dark water.\n\n'We actually did it,' Priya breathed. 'I can't believe it.'\n\nA sudden rush of excitement overtook the four friends, and they whooped and spun in circles, their packs banging against their backs. Just as suddenly, seriousness settled back over them. What had they actually done?\n\nIn that moment, all four realised they hadn't truly believed it was possible to travel back in time. The whole thing had felt like a game, something they'd pretended to believe while secretly knowing it was made up. Now, though, they understood it wasn't a game at all. They had left their own time behind and stepped into a world with entirely different rules. They could easily get hurt here, or trapped forever with no way home. It was a terrifying thought, one none of them wanted to face directly.",
+      "prompt": "Which of these is a main clause?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'that Priya could barely squeeze through'"
+        },
+        {
+          "label": "B",
+          "text": "'they whooped and spun in circles'"
+        },
+        {
+          "label": "C",
+          "text": "'her friends trailing behind her'"
+        },
+        {
+          "label": "D",
+          "text": "'just as they'd seen them a thousand times before'"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Only this option can stand alone as a complete sentence — a main clause.",
+      "topic": "Syntax"
+    }
+  ]
+}

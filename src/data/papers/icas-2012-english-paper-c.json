@@ -1,0 +1,1411 @@
+{
+  "id": "icas-2012-english-paper-c",
+  "subject": "English",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS English 2012 — Paper C",
+  "year": 2012,
+  "timeLimitMinutes": 50,
+  "questions": [
+    {
+      "id": "eng2012c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "Read Fire ants! and answer questions 1 to 6.\n\nFire ants!\n\nIt wasn't until we were right underneath the tree that I finally spotted the sloth. It dangled upside down from a branch about three metres above our canoe, the long motorised boat that had brought us all the way up the river from the coast. Now I understood why I hadn't seen it earlier.\n\n'It's green!' I said.\n\nUncle Dean nodded. 'At certain times of year they get algae - kind of like moss - growing in their fur. Want to get a photo?'\n\nI pulled my new camera out of its waterproof case. It was an early birthday present from my parents, who thought it would come in handy on this trip with my botanist uncle. So far we'd seen caimans, capybaras, freshwater dolphins, giant otters, four kinds of monkey and about a million birds - but this was my first sloth.\n\nI tried to find it on the screen. 'Can we go forwards a bit? There are too many leaves in the way.'\n\nRavi hauled sideways on the outboard motor. It had a long propeller shaft and was hard to steer.\n\nBump! The front of the canoe hit a submerged log and began to spin around in the current. Uncle Dean grasped an overhead branch to steady us. But the branch was hollow; it snapped off in his hand. And out of its honeycombed interior came a shower of squirming brown insects.\n\n'Fire ants!' cried Ravi. 'Look out!'\n\nHis warning came too late. Already Uncle Dean was covered from head to foot in a blanket of fire ants. Their stings are worse than bees.\n\nRavi didn't hesitate. Scrambling forward, he grabbed Uncle Dean around the middle, lifted him out of his seat and rolled over the side with a huge, two-man splash.",
+      "prompt": "What is the setting of the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "a remote part of a river deep in the rainforest"
+        },
+        {
+          "label": "B",
+          "text": "a remote part of the Amazon River"
+        },
+        {
+          "label": "C",
+          "text": "near the source of a major river"
+        },
+        {
+          "label": "D",
+          "text": "where two rivers meet"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The story is set on a boat travelling up a remote river through the rainforest.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "Read Fire ants! and answer questions 1 to 6.\n\nFire ants!\n\nIt wasn't until we were right underneath the tree that I finally spotted the sloth. It dangled upside down from a branch about three metres above our canoe, the long motorised boat that had brought us all the way up the river from the coast. Now I understood why I hadn't seen it earlier.\n\n'It's green!' I said.\n\nUncle Dean nodded. 'At certain times of year they get algae - kind of like moss - growing in their fur. Want to get a photo?'\n\nI pulled my new camera out of its waterproof case. It was an early birthday present from my parents, who thought it would come in handy on this trip with my botanist uncle. So far we'd seen caimans, capybaras, freshwater dolphins, giant otters, four kinds of monkey and about a million birds - but this was my first sloth.\n\nI tried to find it on the screen. 'Can we go forwards a bit? There are too many leaves in the way.'\n\nRavi hauled sideways on the outboard motor. It had a long propeller shaft and was hard to steer.\n\nBump! The front of the canoe hit a submerged log and began to spin around in the current. Uncle Dean grasped an overhead branch to steady us. But the branch was hollow; it snapped off in his hand. And out of its honeycombed interior came a shower of squirming brown insects.\n\n'Fire ants!' cried Ravi. 'Look out!'\n\nHis warning came too late. Already Uncle Dean was covered from head to foot in a blanket of fire ants. Their stings are worse than bees.\n\nRavi didn't hesitate. Scrambling forward, he grabbed Uncle Dean around the middle, lifted him out of his seat and rolled over the side with a huge, two-man splash.",
+      "prompt": "Based on information in the text, the narrator's parents could be described as",
+      "options": [
+        {
+          "label": "A",
+          "text": "cold and distant."
+        },
+        {
+          "label": "B",
+          "text": "thoughtful and practical."
+        },
+        {
+          "label": "C",
+          "text": "anxious and fearful."
+        },
+        {
+          "label": "D",
+          "text": "positive and excitable."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Giving a practical, useful gift (a camera) for this specific trip shows thoughtfulness.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "Read Fire ants! and answer questions 1 to 6.\n\nFire ants!\n\nIt wasn't until we were right underneath the tree that I finally spotted the sloth. It dangled upside down from a branch about three metres above our canoe, the long motorised boat that had brought us all the way up the river from the coast. Now I understood why I hadn't seen it earlier.\n\n'It's green!' I said.\n\nUncle Dean nodded. 'At certain times of year they get algae - kind of like moss - growing in their fur. Want to get a photo?'\n\nI pulled my new camera out of its waterproof case. It was an early birthday present from my parents, who thought it would come in handy on this trip with my botanist uncle. So far we'd seen caimans, capybaras, freshwater dolphins, giant otters, four kinds of monkey and about a million birds - but this was my first sloth.\n\nI tried to find it on the screen. 'Can we go forwards a bit? There are too many leaves in the way.'\n\nRavi hauled sideways on the outboard motor. It had a long propeller shaft and was hard to steer.\n\nBump! The front of the canoe hit a submerged log and began to spin around in the current. Uncle Dean grasped an overhead branch to steady us. But the branch was hollow; it snapped off in his hand. And out of its honeycombed interior came a shower of squirming brown insects.\n\n'Fire ants!' cried Ravi. 'Look out!'\n\nHis warning came too late. Already Uncle Dean was covered from head to foot in a blanket of fire ants. Their stings are worse than bees.\n\nRavi didn't hesitate. Scrambling forward, he grabbed Uncle Dean around the middle, lifted him out of his seat and rolled over the side with a huge, two-man splash.",
+      "prompt": "Why did the narrator say, 'Can we go forwards a bit?'",
+      "options": [
+        {
+          "label": "A",
+          "text": "He was anxious to avoid the fire ants."
+        },
+        {
+          "label": "B",
+          "text": "He wanted to dodge the submerged log."
+        },
+        {
+          "label": "C",
+          "text": "He wanted to get into a good position for a photo."
+        },
+        {
+          "label": "D",
+          "text": "He was impatient to continue on the journey."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The narrator wanted a clearer view of the sloth to take a photo.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "Read Fire ants! and answer questions 1 to 6.\n\nFire ants!\n\nIt wasn't until we were right underneath the tree that I finally spotted the sloth. It dangled upside down from a branch about three metres above our canoe, the long motorised boat that had brought us all the way up the river from the coast. Now I understood why I hadn't seen it earlier.\n\n'It's green!' I said.\n\nUncle Dean nodded. 'At certain times of year they get algae - kind of like moss - growing in their fur. Want to get a photo?'\n\nI pulled my new camera out of its waterproof case. It was an early birthday present from my parents, who thought it would come in handy on this trip with my botanist uncle. So far we'd seen caimans, capybaras, freshwater dolphins, giant otters, four kinds of monkey and about a million birds - but this was my first sloth.\n\nI tried to find it on the screen. 'Can we go forwards a bit? There are too many leaves in the way.'\n\nRavi hauled sideways on the outboard motor. It had a long propeller shaft and was hard to steer.\n\nBump! The front of the canoe hit a submerged log and began to spin around in the current. Uncle Dean grasped an overhead branch to steady us. But the branch was hollow; it snapped off in his hand. And out of its honeycombed interior came a shower of squirming brown insects.\n\n'Fire ants!' cried Ravi. 'Look out!'\n\nHis warning came too late. Already Uncle Dean was covered from head to foot in a blanket of fire ants. Their stings are worse than bees.\n\nRavi didn't hesitate. Scrambling forward, he grabbed Uncle Dean around the middle, lifted him out of his seat and rolled over the side with a huge, two-man splash.",
+      "prompt": "Onomatopoeia is when a word sounds like the thing it describes. Which word from the text is an example of onomatopoeia?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'spin'"
+        },
+        {
+          "label": "B",
+          "text": "'shower'"
+        },
+        {
+          "label": "C",
+          "text": "'squirming'"
+        },
+        {
+          "label": "D",
+          "text": "'snapped'"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Snapped' imitates the sharp cracking sound of the branch breaking.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2012c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "Read Fire ants! and answer questions 1 to 6.\n\nFire ants!\n\nIt wasn't until we were right underneath the tree that I finally spotted the sloth. It dangled upside down from a branch about three metres above our canoe, the long motorised boat that had brought us all the way up the river from the coast. Now I understood why I hadn't seen it earlier.\n\n'It's green!' I said.\n\nUncle Dean nodded. 'At certain times of year they get algae - kind of like moss - growing in their fur. Want to get a photo?'\n\nI pulled my new camera out of its waterproof case. It was an early birthday present from my parents, who thought it would come in handy on this trip with my botanist uncle. So far we'd seen caimans, capybaras, freshwater dolphins, giant otters, four kinds of monkey and about a million birds - but this was my first sloth.\n\nI tried to find it on the screen. 'Can we go forwards a bit? There are too many leaves in the way.'\n\nRavi hauled sideways on the outboard motor. It had a long propeller shaft and was hard to steer.\n\nBump! The front of the canoe hit a submerged log and began to spin around in the current. Uncle Dean grasped an overhead branch to steady us. But the branch was hollow; it snapped off in his hand. And out of its honeycombed interior came a shower of squirming brown insects.\n\n'Fire ants!' cried Ravi. 'Look out!'\n\nHis warning came too late. Already Uncle Dean was covered from head to foot in a blanket of fire ants. Their stings are worse than bees.\n\nRavi didn't hesitate. Scrambling forward, he grabbed Uncle Dean around the middle, lifted him out of his seat and rolled over the side with a huge, two-man splash.",
+      "prompt": "The word 'submerged' means that the log",
+      "options": [
+        {
+          "label": "A",
+          "text": "was completely underwater."
+        },
+        {
+          "label": "B",
+          "text": "lay close to the river bank."
+        },
+        {
+          "label": "C",
+          "text": "had recently fallen into the river."
+        },
+        {
+          "label": "D",
+          "text": "was rotten and filled with insects."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Submerged' means fully underwater and therefore hidden from view.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2012c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "Read Fire ants! and answer questions 1 to 6.\n\nFire ants!\n\nIt wasn't until we were right underneath the tree that I finally spotted the sloth. It dangled upside down from a branch about three metres above our canoe, the long motorised boat that had brought us all the way up the river from the coast. Now I understood why I hadn't seen it earlier.\n\n'It's green!' I said.\n\nUncle Dean nodded. 'At certain times of year they get algae - kind of like moss - growing in their fur. Want to get a photo?'\n\nI pulled my new camera out of its waterproof case. It was an early birthday present from my parents, who thought it would come in handy on this trip with my botanist uncle. So far we'd seen caimans, capybaras, freshwater dolphins, giant otters, four kinds of monkey and about a million birds - but this was my first sloth.\n\nI tried to find it on the screen. 'Can we go forwards a bit? There are too many leaves in the way.'\n\nRavi hauled sideways on the outboard motor. It had a long propeller shaft and was hard to steer.\n\nBump! The front of the canoe hit a submerged log and began to spin around in the current. Uncle Dean grasped an overhead branch to steady us. But the branch was hollow; it snapped off in his hand. And out of its honeycombed interior came a shower of squirming brown insects.\n\n'Fire ants!' cried Ravi. 'Look out!'\n\nHis warning came too late. Already Uncle Dean was covered from head to foot in a blanket of fire ants. Their stings are worse than bees.\n\nRavi didn't hesitate. Scrambling forward, he grabbed Uncle Dean around the middle, lifted him out of his seat and rolled over the side with a huge, two-man splash.",
+      "prompt": "Which of the following best describes the situation at the end of the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "a tense standoff"
+        },
+        {
+          "label": "B",
+          "text": "a dramatic complication"
+        },
+        {
+          "label": "C",
+          "text": "a satisfying resolution"
+        },
+        {
+          "label": "D",
+          "text": "a conflict between the characters"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The ant attack is a sudden dramatic problem, not yet resolved by the story's end.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "Read The Trojan Horse and answer questions 7 to 13.\n\nThe Trojan Horse\n\nKryson crouched low in the shadow of Troy's massive stone walls, silently going over his lines one more time. Everything depended on whether he could convince the Trojans that the Greek army had truly given up their ten-year siege and sailed home at last.\n\nHe glanced sideways at the enormous wooden horse the crafty Greeks had built and left standing just outside the city gates. Somewhere inside its huge hollow belly, his fellow soldiers were waiting in the heat and the dark. He didn't envy them.\n\nEventually a few curious Trojans noticed the strange wooden structure and crept closer to investigate. For the first time in a decade, the Greek camp beyond the walls stood completely empty and silent. Was the war really over? And what exactly was this towering horse supposed to mean? Taking a breath, Kryson stepped out of hiding and began his carefully rehearsed story.\n\n'Please, spare me!' he cried out. 'My own countrymen abandoned me when they sailed for home. They've finally accepted they could never conquer Troy. This horse was built as a gift - an offering to your city's strength, left behind as a token of respect.'\n\nExhausted after years of war, the Trojans were easily won over by Kryson's dramatic performance. Desperate to believe their enemy had truly given up, they decided to haul the horse inside the city walls as a trophy of their victory.\n\nNot everyone was convinced. A handful of Trojans eyed the strange wooden creature with unease and argued against bringing it inside at all, but their warnings were drowned out by the noise of celebration. Thick ropes were tied to the horse, and crowds of excited citizens pushed forward, each eager for the honour of helping pull it through the gates.\n\nAnd so, without realising it, the Trojans dragged their own enemy straight into the heart of their city. Once night fell, the hidden soldiers climbed down from inside the horse, threw open the gates, and let in the waiting Greek army. Troy fell that same night. Ever since, the phrase 'wooden horse' has come to describe any gift that looks beguiling but ultimately leads to disaster.",
+      "prompt": "What does the word 'crafty' mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "spiteful"
+        },
+        {
+          "label": "B",
+          "text": "defeated"
+        },
+        {
+          "label": "C",
+          "text": "cunning"
+        },
+        {
+          "label": "D",
+          "text": "frightened"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Crafty' describes the Greeks' clever, cunning plan.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2012c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "Read The Trojan Horse and answer questions 7 to 13.\n\nThe Trojan Horse\n\nKryson crouched low in the shadow of Troy's massive stone walls, silently going over his lines one more time. Everything depended on whether he could convince the Trojans that the Greek army had truly given up their ten-year siege and sailed home at last.\n\nHe glanced sideways at the enormous wooden horse the crafty Greeks had built and left standing just outside the city gates. Somewhere inside its huge hollow belly, his fellow soldiers were waiting in the heat and the dark. He didn't envy them.\n\nEventually a few curious Trojans noticed the strange wooden structure and crept closer to investigate. For the first time in a decade, the Greek camp beyond the walls stood completely empty and silent. Was the war really over? And what exactly was this towering horse supposed to mean? Taking a breath, Kryson stepped out of hiding and began his carefully rehearsed story.\n\n'Please, spare me!' he cried out. 'My own countrymen abandoned me when they sailed for home. They've finally accepted they could never conquer Troy. This horse was built as a gift - an offering to your city's strength, left behind as a token of respect.'\n\nExhausted after years of war, the Trojans were easily won over by Kryson's dramatic performance. Desperate to believe their enemy had truly given up, they decided to haul the horse inside the city walls as a trophy of their victory.\n\nNot everyone was convinced. A handful of Trojans eyed the strange wooden creature with unease and argued against bringing it inside at all, but their warnings were drowned out by the noise of celebration. Thick ropes were tied to the horse, and crowds of excited citizens pushed forward, each eager for the honour of helping pull it through the gates.\n\nAnd so, without realising it, the Trojans dragged their own enemy straight into the heart of their city. Once night fell, the hidden soldiers climbed down from inside the horse, threw open the gates, and let in the waiting Greek army. Troy fell that same night. Ever since, the phrase 'wooden horse' has come to describe any gift that looks beguiling but ultimately leads to disaster.",
+      "prompt": "Which word best describes Kryson's feelings about his task?",
+      "options": [
+        {
+          "label": "A",
+          "text": "despairing"
+        },
+        {
+          "label": "B",
+          "text": "resentful"
+        },
+        {
+          "label": "C",
+          "text": "impatient"
+        },
+        {
+          "label": "D",
+          "text": "anxious"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Rehearsing his lines nervously shows Kryson is anxious about the deception ahead.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "Read The Trojan Horse and answer questions 7 to 13.\n\nThe Trojan Horse\n\nKryson crouched low in the shadow of Troy's massive stone walls, silently going over his lines one more time. Everything depended on whether he could convince the Trojans that the Greek army had truly given up their ten-year siege and sailed home at last.\n\nHe glanced sideways at the enormous wooden horse the crafty Greeks had built and left standing just outside the city gates. Somewhere inside its huge hollow belly, his fellow soldiers were waiting in the heat and the dark. He didn't envy them.\n\nEventually a few curious Trojans noticed the strange wooden structure and crept closer to investigate. For the first time in a decade, the Greek camp beyond the walls stood completely empty and silent. Was the war really over? And what exactly was this towering horse supposed to mean? Taking a breath, Kryson stepped out of hiding and began his carefully rehearsed story.\n\n'Please, spare me!' he cried out. 'My own countrymen abandoned me when they sailed for home. They've finally accepted they could never conquer Troy. This horse was built as a gift - an offering to your city's strength, left behind as a token of respect.'\n\nExhausted after years of war, the Trojans were easily won over by Kryson's dramatic performance. Desperate to believe their enemy had truly given up, they decided to haul the horse inside the city walls as a trophy of their victory.\n\nNot everyone was convinced. A handful of Trojans eyed the strange wooden creature with unease and argued against bringing it inside at all, but their warnings were drowned out by the noise of celebration. Thick ropes were tied to the horse, and crowds of excited citizens pushed forward, each eager for the honour of helping pull it through the gates.\n\nAnd so, without realising it, the Trojans dragged their own enemy straight into the heart of their city. Once night fell, the hidden soldiers climbed down from inside the horse, threw open the gates, and let in the waiting Greek army. Troy fell that same night. Ever since, the phrase 'wooden horse' has come to describe any gift that looks beguiling but ultimately leads to disaster.",
+      "prompt": "Who asked the question, 'Was the war really over?'",
+      "options": [
+        {
+          "label": "A",
+          "text": "the Trojans"
+        },
+        {
+          "label": "B",
+          "text": "Kryson"
+        },
+        {
+          "label": "C",
+          "text": "the Greek army"
+        },
+        {
+          "label": "D",
+          "text": "Kryson's fellow soldiers"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The Trojans, seeing the empty camp, are the ones wondering if the siege had ended.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "Read The Trojan Horse and answer questions 7 to 13.\n\nThe Trojan Horse\n\nKryson crouched low in the shadow of Troy's massive stone walls, silently going over his lines one more time. Everything depended on whether he could convince the Trojans that the Greek army had truly given up their ten-year siege and sailed home at last.\n\nHe glanced sideways at the enormous wooden horse the crafty Greeks had built and left standing just outside the city gates. Somewhere inside its huge hollow belly, his fellow soldiers were waiting in the heat and the dark. He didn't envy them.\n\nEventually a few curious Trojans noticed the strange wooden structure and crept closer to investigate. For the first time in a decade, the Greek camp beyond the walls stood completely empty and silent. Was the war really over? And what exactly was this towering horse supposed to mean? Taking a breath, Kryson stepped out of hiding and began his carefully rehearsed story.\n\n'Please, spare me!' he cried out. 'My own countrymen abandoned me when they sailed for home. They've finally accepted they could never conquer Troy. This horse was built as a gift - an offering to your city's strength, left behind as a token of respect.'\n\nExhausted after years of war, the Trojans were easily won over by Kryson's dramatic performance. Desperate to believe their enemy had truly given up, they decided to haul the horse inside the city walls as a trophy of their victory.\n\nNot everyone was convinced. A handful of Trojans eyed the strange wooden creature with unease and argued against bringing it inside at all, but their warnings were drowned out by the noise of celebration. Thick ropes were tied to the horse, and crowds of excited citizens pushed forward, each eager for the honour of helping pull it through the gates.\n\nAnd so, without realising it, the Trojans dragged their own enemy straight into the heart of their city. Once night fell, the hidden soldiers climbed down from inside the horse, threw open the gates, and let in the waiting Greek army. Troy fell that same night. Ever since, the phrase 'wooden horse' has come to describe any gift that looks beguiling but ultimately leads to disaster.",
+      "prompt": "The Trojans were ready to believe Kryson's story because",
+      "options": [
+        {
+          "label": "A",
+          "text": "they knew the Greeks had left."
+        },
+        {
+          "label": "B",
+          "text": "they were tired of battling the Greeks."
+        },
+        {
+          "label": "C",
+          "text": "their gods had told them they would win."
+        },
+        {
+          "label": "D",
+          "text": "they were looking for an excuse to celebrate."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text says the Trojans were 'exhausted after years of war.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "Read The Trojan Horse and answer questions 7 to 13.\n\nThe Trojan Horse\n\nKryson crouched low in the shadow of Troy's massive stone walls, silently going over his lines one more time. Everything depended on whether he could convince the Trojans that the Greek army had truly given up their ten-year siege and sailed home at last.\n\nHe glanced sideways at the enormous wooden horse the crafty Greeks had built and left standing just outside the city gates. Somewhere inside its huge hollow belly, his fellow soldiers were waiting in the heat and the dark. He didn't envy them.\n\nEventually a few curious Trojans noticed the strange wooden structure and crept closer to investigate. For the first time in a decade, the Greek camp beyond the walls stood completely empty and silent. Was the war really over? And what exactly was this towering horse supposed to mean? Taking a breath, Kryson stepped out of hiding and began his carefully rehearsed story.\n\n'Please, spare me!' he cried out. 'My own countrymen abandoned me when they sailed for home. They've finally accepted they could never conquer Troy. This horse was built as a gift - an offering to your city's strength, left behind as a token of respect.'\n\nExhausted after years of war, the Trojans were easily won over by Kryson's dramatic performance. Desperate to believe their enemy had truly given up, they decided to haul the horse inside the city walls as a trophy of their victory.\n\nNot everyone was convinced. A handful of Trojans eyed the strange wooden creature with unease and argued against bringing it inside at all, but their warnings were drowned out by the noise of celebration. Thick ropes were tied to the horse, and crowds of excited citizens pushed forward, each eager for the honour of helping pull it through the gates.\n\nAnd so, without realising it, the Trojans dragged their own enemy straight into the heart of their city. Once night fell, the hidden soldiers climbed down from inside the horse, threw open the gates, and let in the waiting Greek army. Troy fell that same night. Ever since, the phrase 'wooden horse' has come to describe any gift that looks beguiling but ultimately leads to disaster.",
+      "prompt": "Which piece of information is missing from the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "which side won the war"
+        },
+        {
+          "label": "B",
+          "text": "where Kryson was hiding outside Troy"
+        },
+        {
+          "label": "C",
+          "text": "why Kryson was chosen to perform the task"
+        },
+        {
+          "label": "D",
+          "text": "how the wooden horse was taken inside the city"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text never explains why Kryson specifically was chosen for this role.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Read The Trojan Horse and answer questions 7 to 13.\n\nThe Trojan Horse\n\nKryson crouched low in the shadow of Troy's massive stone walls, silently going over his lines one more time. Everything depended on whether he could convince the Trojans that the Greek army had truly given up their ten-year siege and sailed home at last.\n\nHe glanced sideways at the enormous wooden horse the crafty Greeks had built and left standing just outside the city gates. Somewhere inside its huge hollow belly, his fellow soldiers were waiting in the heat and the dark. He didn't envy them.\n\nEventually a few curious Trojans noticed the strange wooden structure and crept closer to investigate. For the first time in a decade, the Greek camp beyond the walls stood completely empty and silent. Was the war really over? And what exactly was this towering horse supposed to mean? Taking a breath, Kryson stepped out of hiding and began his carefully rehearsed story.\n\n'Please, spare me!' he cried out. 'My own countrymen abandoned me when they sailed for home. They've finally accepted they could never conquer Troy. This horse was built as a gift - an offering to your city's strength, left behind as a token of respect.'\n\nExhausted after years of war, the Trojans were easily won over by Kryson's dramatic performance. Desperate to believe their enemy had truly given up, they decided to haul the horse inside the city walls as a trophy of their victory.\n\nNot everyone was convinced. A handful of Trojans eyed the strange wooden creature with unease and argued against bringing it inside at all, but their warnings were drowned out by the noise of celebration. Thick ropes were tied to the horse, and crowds of excited citizens pushed forward, each eager for the honour of helping pull it through the gates.\n\nAnd so, without realising it, the Trojans dragged their own enemy straight into the heart of their city. Once night fell, the hidden soldiers climbed down from inside the horse, threw open the gates, and let in the waiting Greek army. Troy fell that same night. Ever since, the phrase 'wooden horse' has come to describe any gift that looks beguiling but ultimately leads to disaster.",
+      "prompt": "Which of the following could replace the word 'beguiling', as it is used in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "attractive"
+        },
+        {
+          "label": "B",
+          "text": "enormous"
+        },
+        {
+          "label": "C",
+          "text": "threatening"
+        },
+        {
+          "label": "D",
+          "text": "deceptive"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Beguiling' describes something that seems appealing but is actually deceptive.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2012c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "Read The Trojan Horse and answer questions 7 to 13.\n\nThe Trojan Horse\n\nKryson crouched low in the shadow of Troy's massive stone walls, silently going over his lines one more time. Everything depended on whether he could convince the Trojans that the Greek army had truly given up their ten-year siege and sailed home at last.\n\nHe glanced sideways at the enormous wooden horse the crafty Greeks had built and left standing just outside the city gates. Somewhere inside its huge hollow belly, his fellow soldiers were waiting in the heat and the dark. He didn't envy them.\n\nEventually a few curious Trojans noticed the strange wooden structure and crept closer to investigate. For the first time in a decade, the Greek camp beyond the walls stood completely empty and silent. Was the war really over? And what exactly was this towering horse supposed to mean? Taking a breath, Kryson stepped out of hiding and began his carefully rehearsed story.\n\n'Please, spare me!' he cried out. 'My own countrymen abandoned me when they sailed for home. They've finally accepted they could never conquer Troy. This horse was built as a gift - an offering to your city's strength, left behind as a token of respect.'\n\nExhausted after years of war, the Trojans were easily won over by Kryson's dramatic performance. Desperate to believe their enemy had truly given up, they decided to haul the horse inside the city walls as a trophy of their victory.\n\nNot everyone was convinced. A handful of Trojans eyed the strange wooden creature with unease and argued against bringing it inside at all, but their warnings were drowned out by the noise of celebration. Thick ropes were tied to the horse, and crowds of excited citizens pushed forward, each eager for the honour of helping pull it through the gates.\n\nAnd so, without realising it, the Trojans dragged their own enemy straight into the heart of their city. Once night fell, the hidden soldiers climbed down from inside the horse, threw open the gates, and let in the waiting Greek army. Troy fell that same night. Ever since, the phrase 'wooden horse' has come to describe any gift that looks beguiling but ultimately leads to disaster.",
+      "prompt": "Which of the following sayings is NOT a lesson that can be drawn from the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The prize always goes to the strongest."
+        },
+        {
+          "label": "B",
+          "text": "Always question flattery."
+        },
+        {
+          "label": "C",
+          "text": "Only celebrate a real victory."
+        },
+        {
+          "label": "D",
+          "text": "Some things are just too good to be true."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Troy fell despite appearing to win, showing strength alone doesn't guarantee the prize.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "Read Q & A with Rosa Kade and answer questions 14 to 22.\n\nQ & A with Rosa Kade\n\nQ. You are co-writing your new series, Storm Twins, with your friend Devon Lowe. Is it hard to write a book with someone else when you are used to writing on your own? How does co-writing a book work?\n\nA. It's actually been a lot of fun working on the book with Devon. While there are many different ways to co-write books, we've developed a process that basically starts with the two of us working out the story in detail, accompanied by a whiteboard and numerous cups of tea (me) and soy hot chocolate (Devon). After that, we work up a chapter outline in even more detail, sending it back and forth until we're both happy with it. Then I write the first chapter and send it to Devon, who very speedily writes a first draft of the rest of the book. That comes back to me, and I revise and expand upon it, adding in detail and so on. Then I send that back to Devon, who does another revision, and we kick it backwards and forwards for more revisions until it's done. At the end, it's very difficult for either of us to identify even a single sentence that we individually wrote, which is good. It makes it a real co-operative work.\n\nQ. Where did the idea for Storm Twins come from?\n\nA. I had a very basic idea that I described to Devon, who instantly added in some more ideas, and then we added in a lot more, and from there went on to actually develop those basic ideas into a story.\n\nQ. Have you and Devon mapped out the complete Storm Twins series, or are some things left to chance?\n\nA. We've outlined five books in some detail, but, as always, when you come to write them, things change, new and better ideas come along, characters turn out differently than they were envisaged, and so on. That's part of the fun of writing.\n\nSTORM TWINS: BOOK 1\nRosa Kade and Devon Lowe\nPaperback RRP $15.99\n\nIn the first book in the new series, twins Nora and Jack Rennick move to a small coastal town to live with their eccentric grandmother. Soon they are drawn into an age-old struggle against an ancient entity called The Hollow, and in the process discover their own magical gifts and heritage. This story has magical antiques, difficult cats, hordes of rats and a lighthouse!",
+      "prompt": "The words 'back and forth' indicate that Kade and Lowe",
+      "options": [
+        {
+          "label": "A",
+          "text": "had not written all the chapters together."
+        },
+        {
+          "label": "B",
+          "text": "kept improving each other's work."
+        },
+        {
+          "label": "C",
+          "text": "travelled to and from each other's homes."
+        },
+        {
+          "label": "D",
+          "text": "preferred to work at a different pace to each other."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Sending drafts 'backwards and forwards for more revisions' means they kept refining the work together.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "Read Q & A with Rosa Kade and answer questions 14 to 22.\n\nQ & A with Rosa Kade\n\nQ. You are co-writing your new series, Storm Twins, with your friend Devon Lowe. Is it hard to write a book with someone else when you are used to writing on your own? How does co-writing a book work?\n\nA. It's actually been a lot of fun working on the book with Devon. While there are many different ways to co-write books, we've developed a process that basically starts with the two of us working out the story in detail, accompanied by a whiteboard and numerous cups of tea (me) and soy hot chocolate (Devon). After that, we work up a chapter outline in even more detail, sending it back and forth until we're both happy with it. Then I write the first chapter and send it to Devon, who very speedily writes a first draft of the rest of the book. That comes back to me, and I revise and expand upon it, adding in detail and so on. Then I send that back to Devon, who does another revision, and we kick it backwards and forwards for more revisions until it's done. At the end, it's very difficult for either of us to identify even a single sentence that we individually wrote, which is good. It makes it a real co-operative work.\n\nQ. Where did the idea for Storm Twins come from?\n\nA. I had a very basic idea that I described to Devon, who instantly added in some more ideas, and then we added in a lot more, and from there went on to actually develop those basic ideas into a story.\n\nQ. Have you and Devon mapped out the complete Storm Twins series, or are some things left to chance?\n\nA. We've outlined five books in some detail, but, as always, when you come to write them, things change, new and better ideas come along, characters turn out differently than they were envisaged, and so on. That's part of the fun of writing.\n\nSTORM TWINS: BOOK 1\nRosa Kade and Devon Lowe\nPaperback RRP $15.99\n\nIn the first book in the new series, twins Nora and Jack Rennick move to a small coastal town to live with their eccentric grandmother. Soon they are drawn into an age-old struggle against an ancient entity called The Hollow, and in the process discover their own magical gifts and heritage. This story has magical antiques, difficult cats, hordes of rats and a lighthouse!",
+      "prompt": "Which of the following connectives is NOT used in the text to indicate time?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'After that'"
+        },
+        {
+          "label": "B",
+          "text": "'Then'"
+        },
+        {
+          "label": "C",
+          "text": "'While'"
+        },
+        {
+          "label": "D",
+          "text": "'At the end'"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'While' signals a contrast in this text, not a point in time, unlike the other three.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2012c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Read Q & A with Rosa Kade and answer questions 14 to 22.\n\nQ & A with Rosa Kade\n\nQ. You are co-writing your new series, Storm Twins, with your friend Devon Lowe. Is it hard to write a book with someone else when you are used to writing on your own? How does co-writing a book work?\n\nA. It's actually been a lot of fun working on the book with Devon. While there are many different ways to co-write books, we've developed a process that basically starts with the two of us working out the story in detail, accompanied by a whiteboard and numerous cups of tea (me) and soy hot chocolate (Devon). After that, we work up a chapter outline in even more detail, sending it back and forth until we're both happy with it. Then I write the first chapter and send it to Devon, who very speedily writes a first draft of the rest of the book. That comes back to me, and I revise and expand upon it, adding in detail and so on. Then I send that back to Devon, who does another revision, and we kick it backwards and forwards for more revisions until it's done. At the end, it's very difficult for either of us to identify even a single sentence that we individually wrote, which is good. It makes it a real co-operative work.\n\nQ. Where did the idea for Storm Twins come from?\n\nA. I had a very basic idea that I described to Devon, who instantly added in some more ideas, and then we added in a lot more, and from there went on to actually develop those basic ideas into a story.\n\nQ. Have you and Devon mapped out the complete Storm Twins series, or are some things left to chance?\n\nA. We've outlined five books in some detail, but, as always, when you come to write them, things change, new and better ideas come along, characters turn out differently than they were envisaged, and so on. That's part of the fun of writing.\n\nSTORM TWINS: BOOK 1\nRosa Kade and Devon Lowe\nPaperback RRP $15.99\n\nIn the first book in the new series, twins Nora and Jack Rennick move to a small coastal town to live with their eccentric grandmother. Soon they are drawn into an age-old struggle against an ancient entity called The Hollow, and in the process discover their own magical gifts and heritage. This story has magical antiques, difficult cats, hordes of rats and a lighthouse!",
+      "prompt": "Why does Kade say that both she and Lowe would find it hard to recognise a single sentence that each has written?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Both Kade and Lowe no longer have their original drafts."
+        },
+        {
+          "label": "B",
+          "text": "Kade and Lowe finished writing the book some time ago."
+        },
+        {
+          "label": "C",
+          "text": "The complicated details of the story have caused confusion."
+        },
+        {
+          "label": "D",
+          "text": "Writing co-operatively has resulted in many changes to their work."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Constant revision back and forth blends both writers' contributions together.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Read Q & A with Rosa Kade and answer questions 14 to 22.\n\nQ & A with Rosa Kade\n\nQ. You are co-writing your new series, Storm Twins, with your friend Devon Lowe. Is it hard to write a book with someone else when you are used to writing on your own? How does co-writing a book work?\n\nA. It's actually been a lot of fun working on the book with Devon. While there are many different ways to co-write books, we've developed a process that basically starts with the two of us working out the story in detail, accompanied by a whiteboard and numerous cups of tea (me) and soy hot chocolate (Devon). After that, we work up a chapter outline in even more detail, sending it back and forth until we're both happy with it. Then I write the first chapter and send it to Devon, who very speedily writes a first draft of the rest of the book. That comes back to me, and I revise and expand upon it, adding in detail and so on. Then I send that back to Devon, who does another revision, and we kick it backwards and forwards for more revisions until it's done. At the end, it's very difficult for either of us to identify even a single sentence that we individually wrote, which is good. It makes it a real co-operative work.\n\nQ. Where did the idea for Storm Twins come from?\n\nA. I had a very basic idea that I described to Devon, who instantly added in some more ideas, and then we added in a lot more, and from there went on to actually develop those basic ideas into a story.\n\nQ. Have you and Devon mapped out the complete Storm Twins series, or are some things left to chance?\n\nA. We've outlined five books in some detail, but, as always, when you come to write them, things change, new and better ideas come along, characters turn out differently than they were envisaged, and so on. That's part of the fun of writing.\n\nSTORM TWINS: BOOK 1\nRosa Kade and Devon Lowe\nPaperback RRP $15.99\n\nIn the first book in the new series, twins Nora and Jack Rennick move to a small coastal town to live with their eccentric grandmother. Soon they are drawn into an age-old struggle against an ancient entity called The Hollow, and in the process discover their own magical gifts and heritage. This story has magical antiques, difficult cats, hordes of rats and a lighthouse!",
+      "prompt": "The word 'envisaged', as it is used in the text, is closest in meaning to",
+      "options": [
+        {
+          "label": "A",
+          "text": "intended."
+        },
+        {
+          "label": "B",
+          "text": "revised."
+        },
+        {
+          "label": "C",
+          "text": "approved."
+        },
+        {
+          "label": "D",
+          "text": "observed."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Envisaged' means originally planned or imagined.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2012c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Read Q & A with Rosa Kade and answer questions 14 to 22.\n\nQ & A with Rosa Kade\n\nQ. You are co-writing your new series, Storm Twins, with your friend Devon Lowe. Is it hard to write a book with someone else when you are used to writing on your own? How does co-writing a book work?\n\nA. It's actually been a lot of fun working on the book with Devon. While there are many different ways to co-write books, we've developed a process that basically starts with the two of us working out the story in detail, accompanied by a whiteboard and numerous cups of tea (me) and soy hot chocolate (Devon). After that, we work up a chapter outline in even more detail, sending it back and forth until we're both happy with it. Then I write the first chapter and send it to Devon, who very speedily writes a first draft of the rest of the book. That comes back to me, and I revise and expand upon it, adding in detail and so on. Then I send that back to Devon, who does another revision, and we kick it backwards and forwards for more revisions until it's done. At the end, it's very difficult for either of us to identify even a single sentence that we individually wrote, which is good. It makes it a real co-operative work.\n\nQ. Where did the idea for Storm Twins come from?\n\nA. I had a very basic idea that I described to Devon, who instantly added in some more ideas, and then we added in a lot more, and from there went on to actually develop those basic ideas into a story.\n\nQ. Have you and Devon mapped out the complete Storm Twins series, or are some things left to chance?\n\nA. We've outlined five books in some detail, but, as always, when you come to write them, things change, new and better ideas come along, characters turn out differently than they were envisaged, and so on. That's part of the fun of writing.\n\nSTORM TWINS: BOOK 1\nRosa Kade and Devon Lowe\nPaperback RRP $15.99\n\nIn the first book in the new series, twins Nora and Jack Rennick move to a small coastal town to live with their eccentric grandmother. Soon they are drawn into an age-old struggle against an ancient entity called The Hollow, and in the process discover their own magical gifts and heritage. This story has magical antiques, difficult cats, hordes of rats and a lighthouse!",
+      "prompt": "'That's part of the fun of writing.' What does 'That' refer to?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the ability to write successfully in partnership with a friend"
+        },
+        {
+          "label": "B",
+          "text": "how the creative process shapes the final story"
+        },
+        {
+          "label": "C",
+          "text": "the planning of the storyline of the books in a series"
+        },
+        {
+          "label": "D",
+          "text": "how an outline of a book provides direction"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'That' refers back to how the story changes and develops unexpectedly during writing.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2012c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "Read Q & A with Rosa Kade and answer questions 14 to 22.\n\nQ & A with Rosa Kade\n\nQ. You are co-writing your new series, Storm Twins, with your friend Devon Lowe. Is it hard to write a book with someone else when you are used to writing on your own? How does co-writing a book work?\n\nA. It's actually been a lot of fun working on the book with Devon. While there are many different ways to co-write books, we've developed a process that basically starts with the two of us working out the story in detail, accompanied by a whiteboard and numerous cups of tea (me) and soy hot chocolate (Devon). After that, we work up a chapter outline in even more detail, sending it back and forth until we're both happy with it. Then I write the first chapter and send it to Devon, who very speedily writes a first draft of the rest of the book. That comes back to me, and I revise and expand upon it, adding in detail and so on. Then I send that back to Devon, who does another revision, and we kick it backwards and forwards for more revisions until it's done. At the end, it's very difficult for either of us to identify even a single sentence that we individually wrote, which is good. It makes it a real co-operative work.\n\nQ. Where did the idea for Storm Twins come from?\n\nA. I had a very basic idea that I described to Devon, who instantly added in some more ideas, and then we added in a lot more, and from there went on to actually develop those basic ideas into a story.\n\nQ. Have you and Devon mapped out the complete Storm Twins series, or are some things left to chance?\n\nA. We've outlined five books in some detail, but, as always, when you come to write them, things change, new and better ideas come along, characters turn out differently than they were envisaged, and so on. That's part of the fun of writing.\n\nSTORM TWINS: BOOK 1\nRosa Kade and Devon Lowe\nPaperback RRP $15.99\n\nIn the first book in the new series, twins Nora and Jack Rennick move to a small coastal town to live with their eccentric grandmother. Soon they are drawn into an age-old struggle against an ancient entity called The Hollow, and in the process discover their own magical gifts and heritage. This story has magical antiques, difficult cats, hordes of rats and a lighthouse!",
+      "prompt": "What is Kade's opinion of co-authoring the book with Lowe?",
+      "options": [
+        {
+          "label": "A",
+          "text": "She believed it was too time consuming."
+        },
+        {
+          "label": "B",
+          "text": "She resented her inability to decide details in the book."
+        },
+        {
+          "label": "C",
+          "text": "She found it stimulating and enjoyable."
+        },
+        {
+          "label": "D",
+          "text": "She was pleased she could write other books at the same time."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "She describes it as 'a lot of fun' throughout the interview.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "Read Q & A with Rosa Kade and answer questions 14 to 22.\n\nQ & A with Rosa Kade\n\nQ. You are co-writing your new series, Storm Twins, with your friend Devon Lowe. Is it hard to write a book with someone else when you are used to writing on your own? How does co-writing a book work?\n\nA. It's actually been a lot of fun working on the book with Devon. While there are many different ways to co-write books, we've developed a process that basically starts with the two of us working out the story in detail, accompanied by a whiteboard and numerous cups of tea (me) and soy hot chocolate (Devon). After that, we work up a chapter outline in even more detail, sending it back and forth until we're both happy with it. Then I write the first chapter and send it to Devon, who very speedily writes a first draft of the rest of the book. That comes back to me, and I revise and expand upon it, adding in detail and so on. Then I send that back to Devon, who does another revision, and we kick it backwards and forwards for more revisions until it's done. At the end, it's very difficult for either of us to identify even a single sentence that we individually wrote, which is good. It makes it a real co-operative work.\n\nQ. Where did the idea for Storm Twins come from?\n\nA. I had a very basic idea that I described to Devon, who instantly added in some more ideas, and then we added in a lot more, and from there went on to actually develop those basic ideas into a story.\n\nQ. Have you and Devon mapped out the complete Storm Twins series, or are some things left to chance?\n\nA. We've outlined five books in some detail, but, as always, when you come to write them, things change, new and better ideas come along, characters turn out differently than they were envisaged, and so on. That's part of the fun of writing.\n\nSTORM TWINS: BOOK 1\nRosa Kade and Devon Lowe\nPaperback RRP $15.99\n\nIn the first book in the new series, twins Nora and Jack Rennick move to a small coastal town to live with their eccentric grandmother. Soon they are drawn into an age-old struggle against an ancient entity called The Hollow, and in the process discover their own magical gifts and heritage. This story has magical antiques, difficult cats, hordes of rats and a lighthouse!",
+      "prompt": "Which literary device is used in the series title Storm Twins?",
+      "options": [
+        {
+          "label": "A",
+          "text": "rhyme"
+        },
+        {
+          "label": "B",
+          "text": "contrast"
+        },
+        {
+          "label": "C",
+          "text": "simile"
+        },
+        {
+          "label": "D",
+          "text": "alliteration"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Storm' and 'Twins' both begin with similar consonant sounds, giving it alliterative appeal.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2012c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "Read Q & A with Rosa Kade and answer questions 14 to 22.\n\nQ & A with Rosa Kade\n\nQ. You are co-writing your new series, Storm Twins, with your friend Devon Lowe. Is it hard to write a book with someone else when you are used to writing on your own? How does co-writing a book work?\n\nA. It's actually been a lot of fun working on the book with Devon. While there are many different ways to co-write books, we've developed a process that basically starts with the two of us working out the story in detail, accompanied by a whiteboard and numerous cups of tea (me) and soy hot chocolate (Devon). After that, we work up a chapter outline in even more detail, sending it back and forth until we're both happy with it. Then I write the first chapter and send it to Devon, who very speedily writes a first draft of the rest of the book. That comes back to me, and I revise and expand upon it, adding in detail and so on. Then I send that back to Devon, who does another revision, and we kick it backwards and forwards for more revisions until it's done. At the end, it's very difficult for either of us to identify even a single sentence that we individually wrote, which is good. It makes it a real co-operative work.\n\nQ. Where did the idea for Storm Twins come from?\n\nA. I had a very basic idea that I described to Devon, who instantly added in some more ideas, and then we added in a lot more, and from there went on to actually develop those basic ideas into a story.\n\nQ. Have you and Devon mapped out the complete Storm Twins series, or are some things left to chance?\n\nA. We've outlined five books in some detail, but, as always, when you come to write them, things change, new and better ideas come along, characters turn out differently than they were envisaged, and so on. That's part of the fun of writing.\n\nSTORM TWINS: BOOK 1\nRosa Kade and Devon Lowe\nPaperback RRP $15.99\n\nIn the first book in the new series, twins Nora and Jack Rennick move to a small coastal town to live with their eccentric grandmother. Soon they are drawn into an age-old struggle against an ancient entity called The Hollow, and in the process discover their own magical gifts and heritage. This story has magical antiques, difficult cats, hordes of rats and a lighthouse!",
+      "prompt": "Which of the following quotations is a colloquial expression?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'we kick it backwards and forwards'"
+        },
+        {
+          "label": "B",
+          "text": "'It's actually been a lot of fun'"
+        },
+        {
+          "label": "C",
+          "text": "'but, as always'"
+        },
+        {
+          "label": "D",
+          "text": "'In the first book in the new series'"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Kick it backwards and forwards' is an informal, everyday expression rather than formal language.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2012c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "Read Q & A with Rosa Kade and answer questions 14 to 22.\n\nQ & A with Rosa Kade\n\nQ. You are co-writing your new series, Storm Twins, with your friend Devon Lowe. Is it hard to write a book with someone else when you are used to writing on your own? How does co-writing a book work?\n\nA. It's actually been a lot of fun working on the book with Devon. While there are many different ways to co-write books, we've developed a process that basically starts with the two of us working out the story in detail, accompanied by a whiteboard and numerous cups of tea (me) and soy hot chocolate (Devon). After that, we work up a chapter outline in even more detail, sending it back and forth until we're both happy with it. Then I write the first chapter and send it to Devon, who very speedily writes a first draft of the rest of the book. That comes back to me, and I revise and expand upon it, adding in detail and so on. Then I send that back to Devon, who does another revision, and we kick it backwards and forwards for more revisions until it's done. At the end, it's very difficult for either of us to identify even a single sentence that we individually wrote, which is good. It makes it a real co-operative work.\n\nQ. Where did the idea for Storm Twins come from?\n\nA. I had a very basic idea that I described to Devon, who instantly added in some more ideas, and then we added in a lot more, and from there went on to actually develop those basic ideas into a story.\n\nQ. Have you and Devon mapped out the complete Storm Twins series, or are some things left to chance?\n\nA. We've outlined five books in some detail, but, as always, when you come to write them, things change, new and better ideas come along, characters turn out differently than they were envisaged, and so on. That's part of the fun of writing.\n\nSTORM TWINS: BOOK 1\nRosa Kade and Devon Lowe\nPaperback RRP $15.99\n\nIn the first book in the new series, twins Nora and Jack Rennick move to a small coastal town to live with their eccentric grandmother. Soon they are drawn into an age-old struggle against an ancient entity called The Hollow, and in the process discover their own magical gifts and heritage. This story has magical antiques, difficult cats, hordes of rats and a lighthouse!",
+      "prompt": "What genre is Storm Twins: Book 1?",
+      "options": [
+        {
+          "label": "A",
+          "text": "historical fiction"
+        },
+        {
+          "label": "B",
+          "text": "fantasy"
+        },
+        {
+          "label": "C",
+          "text": "science fiction"
+        },
+        {
+          "label": "D",
+          "text": "crime"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Magical gifts, an ancient entity and heritage all point to a fantasy story.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "Read Kit's Cradle and answer questions 23 to 27.\n\nKit's Cradle\n\nThey've taken the cosy bed away\nThat I made myself with the Shetland shawl,\nAnd set me a hamper of scratchy hay,\nBy that great black stove in the entrance-hall.\n\nI won't sleep there; I'm resolved on that!\nThey may think I will, but they little know\nThere's a soft persistence about a cat\nThat even a little kitten can show.\n\nI wish I knew what to do but pout,\nAnd spit at the dogs and refuse my tea;\nMy fur's feeling rough, and I rather doubt\nWhether stolen sausage agrees with me.\n\nOn the drawing-room sofa they've closed the door,\nThey've turned me out of the easy-chairs;\nI wonder it never struck me before\nThat they make their beds for themselves up-stairs.\n\nI've found a crib where they won't find me,\nThough they're crying 'Kitty!' all over the house.\nHunt for the slipper! And riddle-my-ree!\nA cat can keep as still as a mouse.\n\nIt's rather unwise perhaps to purr,\nBut they'll never think of the wardrobe-shelves.\nI'm happy in every hair of my fur;\nThey may keep the hamper and hay themselves.\n\nJuliana Horatia Ewing",
+      "prompt": "Which word in the poem indicates uncertainty?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'won't' (line 5)"
+        },
+        {
+          "label": "B",
+          "text": "'rather' (line 11)"
+        },
+        {
+          "label": "C",
+          "text": "'perhaps' (line 21)"
+        },
+        {
+          "label": "D",
+          "text": "'never' (line 15)"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Perhaps' signals doubt or uncertainty, unlike the other, more definite words.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2012c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "Read Kit's Cradle and answer questions 23 to 27.\n\nKit's Cradle\n\nThey've taken the cosy bed away\nThat I made myself with the Shetland shawl,\nAnd set me a hamper of scratchy hay,\nBy that great black stove in the entrance-hall.\n\nI won't sleep there; I'm resolved on that!\nThey may think I will, but they little know\nThere's a soft persistence about a cat\nThat even a little kitten can show.\n\nI wish I knew what to do but pout,\nAnd spit at the dogs and refuse my tea;\nMy fur's feeling rough, and I rather doubt\nWhether stolen sausage agrees with me.\n\nOn the drawing-room sofa they've closed the door,\nThey've turned me out of the easy-chairs;\nI wonder it never struck me before\nThat they make their beds for themselves up-stairs.\n\nI've found a crib where they won't find me,\nThough they're crying 'Kitty!' all over the house.\nHunt for the slipper! And riddle-my-ree!\nA cat can keep as still as a mouse.\n\nIt's rather unwise perhaps to purr,\nBut they'll never think of the wardrobe-shelves.\nI'm happy in every hair of my fur;\nThey may keep the hamper and hay themselves.\n\nJuliana Horatia Ewing",
+      "prompt": "'There's a soft persistence about a cat / That even a little kitten can show.' (lines 7-8) The word 'even' is used here to emphasise that",
+      "options": [
+        {
+          "label": "A",
+          "text": "cats are the most determined of all animals."
+        },
+        {
+          "label": "B",
+          "text": "not all small kittens are as determined as this one."
+        },
+        {
+          "label": "C",
+          "text": "kittens are more likely than cats to get their own way."
+        },
+        {
+          "label": "D",
+          "text": "age is no barrier to a small kitten getting its own way."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Even' emphasises that this trait isn't limited to grown cats — a young kitten has it too.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2012c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "Read Kit's Cradle and answer questions 23 to 27.\n\nKit's Cradle\n\nThey've taken the cosy bed away\nThat I made myself with the Shetland shawl,\nAnd set me a hamper of scratchy hay,\nBy that great black stove in the entrance-hall.\n\nI won't sleep there; I'm resolved on that!\nThey may think I will, but they little know\nThere's a soft persistence about a cat\nThat even a little kitten can show.\n\nI wish I knew what to do but pout,\nAnd spit at the dogs and refuse my tea;\nMy fur's feeling rough, and I rather doubt\nWhether stolen sausage agrees with me.\n\nOn the drawing-room sofa they've closed the door,\nThey've turned me out of the easy-chairs;\nI wonder it never struck me before\nThat they make their beds for themselves up-stairs.\n\nI've found a crib where they won't find me,\nThough they're crying 'Kitty!' all over the house.\nHunt for the slipper! And riddle-my-ree!\nA cat can keep as still as a mouse.\n\nIt's rather unwise perhaps to purr,\nBut they'll never think of the wardrobe-shelves.\nI'm happy in every hair of my fur;\nThey may keep the hamper and hay themselves.\n\nJuliana Horatia Ewing",
+      "prompt": "In the third stanza the kitten describes",
+      "options": [
+        {
+          "label": "A",
+          "text": "how it expressed its displeasure."
+        },
+        {
+          "label": "B",
+          "text": "how the family mistreated it."
+        },
+        {
+          "label": "C",
+          "text": "how it had to steal food to survive."
+        },
+        {
+          "label": "D",
+          "text": "how the dogs had become its enemy."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Pouting, spitting at the dogs and refusing tea are all ways the kitten shows its displeasure.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "Read Kit's Cradle and answer questions 23 to 27.\n\nKit's Cradle\n\nThey've taken the cosy bed away\nThat I made myself with the Shetland shawl,\nAnd set me a hamper of scratchy hay,\nBy that great black stove in the entrance-hall.\n\nI won't sleep there; I'm resolved on that!\nThey may think I will, but they little know\nThere's a soft persistence about a cat\nThat even a little kitten can show.\n\nI wish I knew what to do but pout,\nAnd spit at the dogs and refuse my tea;\nMy fur's feeling rough, and I rather doubt\nWhether stolen sausage agrees with me.\n\nOn the drawing-room sofa they've closed the door,\nThey've turned me out of the easy-chairs;\nI wonder it never struck me before\nThat they make their beds for themselves up-stairs.\n\nI've found a crib where they won't find me,\nThough they're crying 'Kitty!' all over the house.\nHunt for the slipper! And riddle-my-ree!\nA cat can keep as still as a mouse.\n\nIt's rather unwise perhaps to purr,\nBut they'll never think of the wardrobe-shelves.\nI'm happy in every hair of my fur;\nThey may keep the hamper and hay themselves.\n\nJuliana Horatia Ewing",
+      "prompt": "In line 21 why did the kitten say, 'It's rather unwise perhaps to purr'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It did not want the family to know it was no longer cross."
+        },
+        {
+          "label": "B",
+          "text": "It did not want the family to find it."
+        },
+        {
+          "label": "C",
+          "text": "It thought purring might stop it going to sleep."
+        },
+        {
+          "label": "D",
+          "text": "It was pretending to be a mouse."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Purring might give away its hiding spot in the wardrobe to the searching family.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "Read Kit's Cradle and answer questions 23 to 27.\n\nKit's Cradle\n\nThey've taken the cosy bed away\nThat I made myself with the Shetland shawl,\nAnd set me a hamper of scratchy hay,\nBy that great black stove in the entrance-hall.\n\nI won't sleep there; I'm resolved on that!\nThey may think I will, but they little know\nThere's a soft persistence about a cat\nThat even a little kitten can show.\n\nI wish I knew what to do but pout,\nAnd spit at the dogs and refuse my tea;\nMy fur's feeling rough, and I rather doubt\nWhether stolen sausage agrees with me.\n\nOn the drawing-room sofa they've closed the door,\nThey've turned me out of the easy-chairs;\nI wonder it never struck me before\nThat they make their beds for themselves up-stairs.\n\nI've found a crib where they won't find me,\nThough they're crying 'Kitty!' all over the house.\nHunt for the slipper! And riddle-my-ree!\nA cat can keep as still as a mouse.\n\nIt's rather unwise perhaps to purr,\nBut they'll never think of the wardrobe-shelves.\nI'm happy in every hair of my fur;\nThey may keep the hamper and hay themselves.\n\nJuliana Horatia Ewing",
+      "prompt": "Which of the following statements about the rhyming pattern in the poem is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "There is only one rhyme in each stanza."
+        },
+        {
+          "label": "B",
+          "text": "The first lines of each stanza rhyme with each other."
+        },
+        {
+          "label": "C",
+          "text": "The rhymes occur in alternate lines in each stanza."
+        },
+        {
+          "label": "D",
+          "text": "The last lines of each stanza rhyme with each other."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Each stanza follows an ABAB pattern, with alternating lines rhyming.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2012c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "Read How the air became perfect and answer questions 28 to 35.\n\nHow the air became perfect\n\nEarth's air has exactly the right mixture of gases you need to live. How do you think this perfect arrangement came to be?\n\nLet's imagine we could board a timeship and travel back about 2.5 billion years, as life was just beginning to take hold on Earth. Stepping out of the timeship, we see a landscape of bare rock and murky water, with no trees, plants or even soil anywhere. But we don't have time to explore, because in two minutes we would be dead! Why? Because the air has almost no oxygen in it. Not only that, we'd be roasted, because the temperature is so high.\n\nLet's say we're wearing oxygen tanks and heat-protector suits. We walk along and come to an ocean. Fortunately, our suits are equipped for deep-sea diving, and we've brought underwater microscopes to help us see super-tiny things. We dive down to the ocean floor and find a world of strange, microscopic creatures. There are beings with tails that whip them along, and others with rows of little bristles moving like oars. There are creatures with shells and spikes. Mixed into this zoo are some blue-green organisms - the ancestors of plants. Over many millions of years, these tiny, plant-like forms have slowly released oxygen into the water and air. But the air still contains too little oxygen to support any but the smallest, simplest creatures.\n\nLet's get back in the timeship and travel forward several hundred million years. Now when we step outside, things are more interesting. The Earth's crust has been moving, draining oceans and exposing their plant-rich floors. Plants have spread across the land. There are all kinds of plants now, and they're all releasing oxygen into the air. We can take off our oxygen masks and just breathe. Because the temperature is cooler now, we can also take off our heat-protector suits.\n\nWe can see animals too. They breathe in oxygen and breathe out carbon dioxide. The plants take in carbon dioxide and release oxygen. What a great, harmonious system!\n\nLet's get back in the timeship for our last trip, forward to our own time. Now we see a vast array of different plants and trees, still taking in carbon dioxide and supplying the air with oxygen. Billions of years ago, their ancestors changed the Earth's air by sending oxygen into it. By doing so, they created the essential conditions for life in all its glorious forms.",
+      "prompt": "The word 'exactly', as it is used in the text, means",
+      "options": [
+        {
+          "label": "A",
+          "text": "uniformly."
+        },
+        {
+          "label": "B",
+          "text": "faultlessly."
+        },
+        {
+          "label": "C",
+          "text": "comparatively."
+        },
+        {
+          "label": "D",
+          "text": "precisely."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Exactly the right mixture' means precisely the right mixture.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2012c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "Read How the air became perfect and answer questions 28 to 35.\n\nHow the air became perfect\n\nEarth's air has exactly the right mixture of gases you need to live. How do you think this perfect arrangement came to be?\n\nLet's imagine we could board a timeship and travel back about 2.5 billion years, as life was just beginning to take hold on Earth. Stepping out of the timeship, we see a landscape of bare rock and murky water, with no trees, plants or even soil anywhere. But we don't have time to explore, because in two minutes we would be dead! Why? Because the air has almost no oxygen in it. Not only that, we'd be roasted, because the temperature is so high.\n\nLet's say we're wearing oxygen tanks and heat-protector suits. We walk along and come to an ocean. Fortunately, our suits are equipped for deep-sea diving, and we've brought underwater microscopes to help us see super-tiny things. We dive down to the ocean floor and find a world of strange, microscopic creatures. There are beings with tails that whip them along, and others with rows of little bristles moving like oars. There are creatures with shells and spikes. Mixed into this zoo are some blue-green organisms - the ancestors of plants. Over many millions of years, these tiny, plant-like forms have slowly released oxygen into the water and air. But the air still contains too little oxygen to support any but the smallest, simplest creatures.\n\nLet's get back in the timeship and travel forward several hundred million years. Now when we step outside, things are more interesting. The Earth's crust has been moving, draining oceans and exposing their plant-rich floors. Plants have spread across the land. There are all kinds of plants now, and they're all releasing oxygen into the air. We can take off our oxygen masks and just breathe. Because the temperature is cooler now, we can also take off our heat-protector suits.\n\nWe can see animals too. They breathe in oxygen and breathe out carbon dioxide. The plants take in carbon dioxide and release oxygen. What a great, harmonious system!\n\nLet's get back in the timeship for our last trip, forward to our own time. Now we see a vast array of different plants and trees, still taking in carbon dioxide and supplying the air with oxygen. Billions of years ago, their ancestors changed the Earth's air by sending oxygen into it. By doing so, they created the essential conditions for life in all its glorious forms.",
+      "prompt": "What is the purpose of the question in the first paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to preview the topic of the text for the reader"
+        },
+        {
+          "label": "B",
+          "text": "to discover if the reader knows the answer"
+        },
+        {
+          "label": "C",
+          "text": "to encourage the reader to challenge information in the text"
+        },
+        {
+          "label": "D",
+          "text": "to show the reader that the writer is uncertain about the answer"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The opening question introduces the topic the rest of the text goes on to explain.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2012c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "Read How the air became perfect and answer questions 28 to 35.\n\nHow the air became perfect\n\nEarth's air has exactly the right mixture of gases you need to live. How do you think this perfect arrangement came to be?\n\nLet's imagine we could board a timeship and travel back about 2.5 billion years, as life was just beginning to take hold on Earth. Stepping out of the timeship, we see a landscape of bare rock and murky water, with no trees, plants or even soil anywhere. But we don't have time to explore, because in two minutes we would be dead! Why? Because the air has almost no oxygen in it. Not only that, we'd be roasted, because the temperature is so high.\n\nLet's say we're wearing oxygen tanks and heat-protector suits. We walk along and come to an ocean. Fortunately, our suits are equipped for deep-sea diving, and we've brought underwater microscopes to help us see super-tiny things. We dive down to the ocean floor and find a world of strange, microscopic creatures. There are beings with tails that whip them along, and others with rows of little bristles moving like oars. There are creatures with shells and spikes. Mixed into this zoo are some blue-green organisms - the ancestors of plants. Over many millions of years, these tiny, plant-like forms have slowly released oxygen into the water and air. But the air still contains too little oxygen to support any but the smallest, simplest creatures.\n\nLet's get back in the timeship and travel forward several hundred million years. Now when we step outside, things are more interesting. The Earth's crust has been moving, draining oceans and exposing their plant-rich floors. Plants have spread across the land. There are all kinds of plants now, and they're all releasing oxygen into the air. We can take off our oxygen masks and just breathe. Because the temperature is cooler now, we can also take off our heat-protector suits.\n\nWe can see animals too. They breathe in oxygen and breathe out carbon dioxide. The plants take in carbon dioxide and release oxygen. What a great, harmonious system!\n\nLet's get back in the timeship for our last trip, forward to our own time. Now we see a vast array of different plants and trees, still taking in carbon dioxide and supplying the air with oxygen. Billions of years ago, their ancestors changed the Earth's air by sending oxygen into it. By doing so, they created the essential conditions for life in all its glorious forms.",
+      "prompt": "'But we don't have time to explore because in two minutes we would be dead!' The writer says this in order to",
+      "options": [
+        {
+          "label": "A",
+          "text": "point out the importance of the timeship."
+        },
+        {
+          "label": "B",
+          "text": "highlight the nature of the Earth's environment at that time."
+        },
+        {
+          "label": "C",
+          "text": "emphasise the need for adequate personal protection."
+        },
+        {
+          "label": "D",
+          "text": "reinforce the idea that the only safe place is underwater."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "This dramatic statement emphasises just how hostile early Earth's atmosphere really was.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2012c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "Read How the air became perfect and answer questions 28 to 35.\n\nHow the air became perfect\n\nEarth's air has exactly the right mixture of gases you need to live. How do you think this perfect arrangement came to be?\n\nLet's imagine we could board a timeship and travel back about 2.5 billion years, as life was just beginning to take hold on Earth. Stepping out of the timeship, we see a landscape of bare rock and murky water, with no trees, plants or even soil anywhere. But we don't have time to explore, because in two minutes we would be dead! Why? Because the air has almost no oxygen in it. Not only that, we'd be roasted, because the temperature is so high.\n\nLet's say we're wearing oxygen tanks and heat-protector suits. We walk along and come to an ocean. Fortunately, our suits are equipped for deep-sea diving, and we've brought underwater microscopes to help us see super-tiny things. We dive down to the ocean floor and find a world of strange, microscopic creatures. There are beings with tails that whip them along, and others with rows of little bristles moving like oars. There are creatures with shells and spikes. Mixed into this zoo are some blue-green organisms - the ancestors of plants. Over many millions of years, these tiny, plant-like forms have slowly released oxygen into the water and air. But the air still contains too little oxygen to support any but the smallest, simplest creatures.\n\nLet's get back in the timeship and travel forward several hundred million years. Now when we step outside, things are more interesting. The Earth's crust has been moving, draining oceans and exposing their plant-rich floors. Plants have spread across the land. There are all kinds of plants now, and they're all releasing oxygen into the air. We can take off our oxygen masks and just breathe. Because the temperature is cooler now, we can also take off our heat-protector suits.\n\nWe can see animals too. They breathe in oxygen and breathe out carbon dioxide. The plants take in carbon dioxide and release oxygen. What a great, harmonious system!\n\nLet's get back in the timeship for our last trip, forward to our own time. Now we see a vast array of different plants and trees, still taking in carbon dioxide and supplying the air with oxygen. Billions of years ago, their ancestors changed the Earth's air by sending oxygen into it. By doing so, they created the essential conditions for life in all its glorious forms.",
+      "prompt": "Which quotation from the text describes the early life forms from which plants evolved?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'beings with tails that whip them along'"
+        },
+        {
+          "label": "B",
+          "text": "'others with rows of little bristles moving like oars'"
+        },
+        {
+          "label": "C",
+          "text": "'blue-green organisms'"
+        },
+        {
+          "label": "D",
+          "text": "'creatures with shells and spikes'"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text specifically names the 'blue-green organisms' as the ancestors of plants.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "Read How the air became perfect and answer questions 28 to 35.\n\nHow the air became perfect\n\nEarth's air has exactly the right mixture of gases you need to live. How do you think this perfect arrangement came to be?\n\nLet's imagine we could board a timeship and travel back about 2.5 billion years, as life was just beginning to take hold on Earth. Stepping out of the timeship, we see a landscape of bare rock and murky water, with no trees, plants or even soil anywhere. But we don't have time to explore, because in two minutes we would be dead! Why? Because the air has almost no oxygen in it. Not only that, we'd be roasted, because the temperature is so high.\n\nLet's say we're wearing oxygen tanks and heat-protector suits. We walk along and come to an ocean. Fortunately, our suits are equipped for deep-sea diving, and we've brought underwater microscopes to help us see super-tiny things. We dive down to the ocean floor and find a world of strange, microscopic creatures. There are beings with tails that whip them along, and others with rows of little bristles moving like oars. There are creatures with shells and spikes. Mixed into this zoo are some blue-green organisms - the ancestors of plants. Over many millions of years, these tiny, plant-like forms have slowly released oxygen into the water and air. But the air still contains too little oxygen to support any but the smallest, simplest creatures.\n\nLet's get back in the timeship and travel forward several hundred million years. Now when we step outside, things are more interesting. The Earth's crust has been moving, draining oceans and exposing their plant-rich floors. Plants have spread across the land. There are all kinds of plants now, and they're all releasing oxygen into the air. We can take off our oxygen masks and just breathe. Because the temperature is cooler now, we can also take off our heat-protector suits.\n\nWe can see animals too. They breathe in oxygen and breathe out carbon dioxide. The plants take in carbon dioxide and release oxygen. What a great, harmonious system!\n\nLet's get back in the timeship for our last trip, forward to our own time. Now we see a vast array of different plants and trees, still taking in carbon dioxide and supplying the air with oxygen. Billions of years ago, their ancestors changed the Earth's air by sending oxygen into it. By doing so, they created the essential conditions for life in all its glorious forms.",
+      "prompt": "The word 'harmonious', as it is used in the text, means that",
+      "options": [
+        {
+          "label": "A",
+          "text": "the system has enough oxygen to support life."
+        },
+        {
+          "label": "B",
+          "text": "the system has finally allowed animals to evolve."
+        },
+        {
+          "label": "C",
+          "text": "the numbers of plants and animals in the system are balanced."
+        },
+        {
+          "label": "D",
+          "text": "the different parts of the system are working well together."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Harmonious' describes plants and animals exchanging gases in a smoothly working cycle.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2012c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "Read How the air became perfect and answer questions 28 to 35.\n\nHow the air became perfect\n\nEarth's air has exactly the right mixture of gases you need to live. How do you think this perfect arrangement came to be?\n\nLet's imagine we could board a timeship and travel back about 2.5 billion years, as life was just beginning to take hold on Earth. Stepping out of the timeship, we see a landscape of bare rock and murky water, with no trees, plants or even soil anywhere. But we don't have time to explore, because in two minutes we would be dead! Why? Because the air has almost no oxygen in it. Not only that, we'd be roasted, because the temperature is so high.\n\nLet's say we're wearing oxygen tanks and heat-protector suits. We walk along and come to an ocean. Fortunately, our suits are equipped for deep-sea diving, and we've brought underwater microscopes to help us see super-tiny things. We dive down to the ocean floor and find a world of strange, microscopic creatures. There are beings with tails that whip them along, and others with rows of little bristles moving like oars. There are creatures with shells and spikes. Mixed into this zoo are some blue-green organisms - the ancestors of plants. Over many millions of years, these tiny, plant-like forms have slowly released oxygen into the water and air. But the air still contains too little oxygen to support any but the smallest, simplest creatures.\n\nLet's get back in the timeship and travel forward several hundred million years. Now when we step outside, things are more interesting. The Earth's crust has been moving, draining oceans and exposing their plant-rich floors. Plants have spread across the land. There are all kinds of plants now, and they're all releasing oxygen into the air. We can take off our oxygen masks and just breathe. Because the temperature is cooler now, we can also take off our heat-protector suits.\n\nWe can see animals too. They breathe in oxygen and breathe out carbon dioxide. The plants take in carbon dioxide and release oxygen. What a great, harmonious system!\n\nLet's get back in the timeship for our last trip, forward to our own time. Now we see a vast array of different plants and trees, still taking in carbon dioxide and supplying the air with oxygen. Billions of years ago, their ancestors changed the Earth's air by sending oxygen into it. By doing so, they created the essential conditions for life in all its glorious forms.",
+      "prompt": "What is the most likely reason that the writer includes a timeship in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to enable science to be explained in a narrative form"
+        },
+        {
+          "label": "B",
+          "text": "to create a context for the oxygen tanks and heat-protector suits"
+        },
+        {
+          "label": "C",
+          "text": "to prove that time is required to get the right mixture of gases"
+        },
+        {
+          "label": "D",
+          "text": "to let readers know that this is an imaginative text"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The timeship device turns a scientific explanation into an engaging, story-like journey.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2012c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "Read How the air became perfect and answer questions 28 to 35.\n\nHow the air became perfect\n\nEarth's air has exactly the right mixture of gases you need to live. How do you think this perfect arrangement came to be?\n\nLet's imagine we could board a timeship and travel back about 2.5 billion years, as life was just beginning to take hold on Earth. Stepping out of the timeship, we see a landscape of bare rock and murky water, with no trees, plants or even soil anywhere. But we don't have time to explore, because in two minutes we would be dead! Why? Because the air has almost no oxygen in it. Not only that, we'd be roasted, because the temperature is so high.\n\nLet's say we're wearing oxygen tanks and heat-protector suits. We walk along and come to an ocean. Fortunately, our suits are equipped for deep-sea diving, and we've brought underwater microscopes to help us see super-tiny things. We dive down to the ocean floor and find a world of strange, microscopic creatures. There are beings with tails that whip them along, and others with rows of little bristles moving like oars. There are creatures with shells and spikes. Mixed into this zoo are some blue-green organisms - the ancestors of plants. Over many millions of years, these tiny, plant-like forms have slowly released oxygen into the water and air. But the air still contains too little oxygen to support any but the smallest, simplest creatures.\n\nLet's get back in the timeship and travel forward several hundred million years. Now when we step outside, things are more interesting. The Earth's crust has been moving, draining oceans and exposing their plant-rich floors. Plants have spread across the land. There are all kinds of plants now, and they're all releasing oxygen into the air. We can take off our oxygen masks and just breathe. Because the temperature is cooler now, we can also take off our heat-protector suits.\n\nWe can see animals too. They breathe in oxygen and breathe out carbon dioxide. The plants take in carbon dioxide and release oxygen. What a great, harmonious system!\n\nLet's get back in the timeship for our last trip, forward to our own time. Now we see a vast array of different plants and trees, still taking in carbon dioxide and supplying the air with oxygen. Billions of years ago, their ancestors changed the Earth's air by sending oxygen into it. By doing so, they created the essential conditions for life in all its glorious forms.",
+      "prompt": "Which statement is supported by information in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Movements in the Earth's crust are responsible for changing the air."
+        },
+        {
+          "label": "B",
+          "text": "Plants have contributed most to changing the proportion of gases in the air."
+        },
+        {
+          "label": "C",
+          "text": "Air temperatures are responsible for creating the right mixture of gases."
+        },
+        {
+          "label": "D",
+          "text": "Animals are more important than plants in maintaining the balance of gases in the air."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text credits plants, from ancient blue-green organisms onward, with releasing the oxygen that changed the air.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "Read How the air became perfect and answer questions 28 to 35.\n\nHow the air became perfect\n\nEarth's air has exactly the right mixture of gases you need to live. How do you think this perfect arrangement came to be?\n\nLet's imagine we could board a timeship and travel back about 2.5 billion years, as life was just beginning to take hold on Earth. Stepping out of the timeship, we see a landscape of bare rock and murky water, with no trees, plants or even soil anywhere. But we don't have time to explore, because in two minutes we would be dead! Why? Because the air has almost no oxygen in it. Not only that, we'd be roasted, because the temperature is so high.\n\nLet's say we're wearing oxygen tanks and heat-protector suits. We walk along and come to an ocean. Fortunately, our suits are equipped for deep-sea diving, and we've brought underwater microscopes to help us see super-tiny things. We dive down to the ocean floor and find a world of strange, microscopic creatures. There are beings with tails that whip them along, and others with rows of little bristles moving like oars. There are creatures with shells and spikes. Mixed into this zoo are some blue-green organisms - the ancestors of plants. Over many millions of years, these tiny, plant-like forms have slowly released oxygen into the water and air. But the air still contains too little oxygen to support any but the smallest, simplest creatures.\n\nLet's get back in the timeship and travel forward several hundred million years. Now when we step outside, things are more interesting. The Earth's crust has been moving, draining oceans and exposing their plant-rich floors. Plants have spread across the land. There are all kinds of plants now, and they're all releasing oxygen into the air. We can take off our oxygen masks and just breathe. Because the temperature is cooler now, we can also take off our heat-protector suits.\n\nWe can see animals too. They breathe in oxygen and breathe out carbon dioxide. The plants take in carbon dioxide and release oxygen. What a great, harmonious system!\n\nLet's get back in the timeship for our last trip, forward to our own time. Now we see a vast array of different plants and trees, still taking in carbon dioxide and supplying the air with oxygen. Billions of years ago, their ancestors changed the Earth's air by sending oxygen into it. By doing so, they created the essential conditions for life in all its glorious forms.",
+      "prompt": "Which word best describes the style of the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "poetic"
+        },
+        {
+          "label": "B",
+          "text": "formal"
+        },
+        {
+          "label": "C",
+          "text": "conversational"
+        },
+        {
+          "label": "D",
+          "text": "sentimental"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Phrases like 'Let's imagine' and 'What a great, harmonious system!' create a chatty, conversational tone.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2012c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "Read Lost and answer questions 36 to 40.\n\nLost\n\nPanting, I stared through the mass of purple blooms hanging from the curving branches of the trees like crystals on a chandelier. The petals trembled in the cool wind curling unseen along the riverbank. I felt strangely energetic - nerves, fear, yearning - all tangled together inside my head.\n\nI stepped down the bank carefully, the pebbles slipping under my bare feet. I knew she was there somewhere. I could hear her faint cries, sounds so small, as though someone was playing a piano very softly so as not to wake anyone.\n\nThe bank was steep, my movement slow. When I reached the river I stood still, my toes under the surface of the cold, bubbling water. I stretched them out like the fingers of a hand, pushing them into the chocolatey mud and thick strands of weed, and listened for the tiny bleating. Where was she?\n\nI knew this part of the river well. It was where I would come and read when I wanted to get away from home. Here by the river, my back against a tree, my eyes fixed on black printed words, I could sit peacefully, surrounded by a natural world that didn't care who I was at all. Ironically, this lack of concern comforted me. Home was not like that. At home I gasped for breath through the smog of raised voices, banging doors, running feet, the screaming kettle, the arguments, even the laughter.\n\nDown by the river there was none of that. There was only music - ordered, melancholy music - where each instrument took its part and chimed or plucked or sang, without conflict or even emotion. Croaking, piping, humming, hooting, rustling, rippling, splashing - if there were any struggles out here by the river, I couldn't tell. But now, as I stood listening for the little lost creature, I wondered.",
+      "prompt": "The narrator was 'panting' at the beginning of the text because she was",
+      "options": [
+        {
+          "label": "A",
+          "text": "running away from home."
+        },
+        {
+          "label": "B",
+          "text": "anxious about crossing the river."
+        },
+        {
+          "label": "C",
+          "text": "nervous about falling down the bank."
+        },
+        {
+          "label": "D",
+          "text": "running after an animal."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "She is searching urgently for a lost creature, having hurried to reach the riverbank.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "Read Lost and answer questions 36 to 40.\n\nLost\n\nPanting, I stared through the mass of purple blooms hanging from the curving branches of the trees like crystals on a chandelier. The petals trembled in the cool wind curling unseen along the riverbank. I felt strangely energetic - nerves, fear, yearning - all tangled together inside my head.\n\nI stepped down the bank carefully, the pebbles slipping under my bare feet. I knew she was there somewhere. I could hear her faint cries, sounds so small, as though someone was playing a piano very softly so as not to wake anyone.\n\nThe bank was steep, my movement slow. When I reached the river I stood still, my toes under the surface of the cold, bubbling water. I stretched them out like the fingers of a hand, pushing them into the chocolatey mud and thick strands of weed, and listened for the tiny bleating. Where was she?\n\nI knew this part of the river well. It was where I would come and read when I wanted to get away from home. Here by the river, my back against a tree, my eyes fixed on black printed words, I could sit peacefully, surrounded by a natural world that didn't care who I was at all. Ironically, this lack of concern comforted me. Home was not like that. At home I gasped for breath through the smog of raised voices, banging doors, running feet, the screaming kettle, the arguments, even the laughter.\n\nDown by the river there was none of that. There was only music - ordered, melancholy music - where each instrument took its part and chimed or plucked or sang, without conflict or even emotion. Croaking, piping, humming, hooting, rustling, rippling, splashing - if there were any struggles out here by the river, I couldn't tell. But now, as I stood listening for the little lost creature, I wondered.",
+      "prompt": "Why did the narrator describe stepping into the water in such detail?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to invite the reader to share her experience"
+        },
+        {
+          "label": "B",
+          "text": "to prove that she was adventurous"
+        },
+        {
+          "label": "C",
+          "text": "to show that she was thinking deeply"
+        },
+        {
+          "label": "D",
+          "text": "to explain why her experience was important"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The rich sensory detail draws readers into the experience alongside the narrator.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2012c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "Read Lost and answer questions 36 to 40.\n\nLost\n\nPanting, I stared through the mass of purple blooms hanging from the curving branches of the trees like crystals on a chandelier. The petals trembled in the cool wind curling unseen along the riverbank. I felt strangely energetic - nerves, fear, yearning - all tangled together inside my head.\n\nI stepped down the bank carefully, the pebbles slipping under my bare feet. I knew she was there somewhere. I could hear her faint cries, sounds so small, as though someone was playing a piano very softly so as not to wake anyone.\n\nThe bank was steep, my movement slow. When I reached the river I stood still, my toes under the surface of the cold, bubbling water. I stretched them out like the fingers of a hand, pushing them into the chocolatey mud and thick strands of weed, and listened for the tiny bleating. Where was she?\n\nI knew this part of the river well. It was where I would come and read when I wanted to get away from home. Here by the river, my back against a tree, my eyes fixed on black printed words, I could sit peacefully, surrounded by a natural world that didn't care who I was at all. Ironically, this lack of concern comforted me. Home was not like that. At home I gasped for breath through the smog of raised voices, banging doors, running feet, the screaming kettle, the arguments, even the laughter.\n\nDown by the river there was none of that. There was only music - ordered, melancholy music - where each instrument took its part and chimed or plucked or sang, without conflict or even emotion. Croaking, piping, humming, hooting, rustling, rippling, splashing - if there were any struggles out here by the river, I couldn't tell. But now, as I stood listening for the little lost creature, I wondered.",
+      "prompt": "The river was a favourite place for the narrator because",
+      "options": [
+        {
+          "label": "A",
+          "text": "the complete silence was enjoyable."
+        },
+        {
+          "label": "B",
+          "text": "there were few interruptions."
+        },
+        {
+          "label": "C",
+          "text": "it was a good place to listen to music."
+        },
+        {
+          "label": "D",
+          "text": "there were many lost animals nearby."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Unlike her noisy, chaotic home, the river offers her peace and few interruptions.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "passage": "Read Lost and answer questions 36 to 40.\n\nLost\n\nPanting, I stared through the mass of purple blooms hanging from the curving branches of the trees like crystals on a chandelier. The petals trembled in the cool wind curling unseen along the riverbank. I felt strangely energetic - nerves, fear, yearning - all tangled together inside my head.\n\nI stepped down the bank carefully, the pebbles slipping under my bare feet. I knew she was there somewhere. I could hear her faint cries, sounds so small, as though someone was playing a piano very softly so as not to wake anyone.\n\nThe bank was steep, my movement slow. When I reached the river I stood still, my toes under the surface of the cold, bubbling water. I stretched them out like the fingers of a hand, pushing them into the chocolatey mud and thick strands of weed, and listened for the tiny bleating. Where was she?\n\nI knew this part of the river well. It was where I would come and read when I wanted to get away from home. Here by the river, my back against a tree, my eyes fixed on black printed words, I could sit peacefully, surrounded by a natural world that didn't care who I was at all. Ironically, this lack of concern comforted me. Home was not like that. At home I gasped for breath through the smog of raised voices, banging doors, running feet, the screaming kettle, the arguments, even the laughter.\n\nDown by the river there was none of that. There was only music - ordered, melancholy music - where each instrument took its part and chimed or plucked or sang, without conflict or even emotion. Croaking, piping, humming, hooting, rustling, rippling, splashing - if there were any struggles out here by the river, I couldn't tell. But now, as I stood listening for the little lost creature, I wondered.",
+      "prompt": "Which of the underlined words in the second-last paragraph is an adjective?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'only'"
+        },
+        {
+          "label": "B",
+          "text": "'without'"
+        },
+        {
+          "label": "C",
+          "text": "'ordered'"
+        },
+        {
+          "label": "D",
+          "text": "'emotion'"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Ordered' describes the music, making it the adjective among these options.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2012c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "passage": "Read Lost and answer questions 36 to 40.\n\nLost\n\nPanting, I stared through the mass of purple blooms hanging from the curving branches of the trees like crystals on a chandelier. The petals trembled in the cool wind curling unseen along the riverbank. I felt strangely energetic - nerves, fear, yearning - all tangled together inside my head.\n\nI stepped down the bank carefully, the pebbles slipping under my bare feet. I knew she was there somewhere. I could hear her faint cries, sounds so small, as though someone was playing a piano very softly so as not to wake anyone.\n\nThe bank was steep, my movement slow. When I reached the river I stood still, my toes under the surface of the cold, bubbling water. I stretched them out like the fingers of a hand, pushing them into the chocolatey mud and thick strands of weed, and listened for the tiny bleating. Where was she?\n\nI knew this part of the river well. It was where I would come and read when I wanted to get away from home. Here by the river, my back against a tree, my eyes fixed on black printed words, I could sit peacefully, surrounded by a natural world that didn't care who I was at all. Ironically, this lack of concern comforted me. Home was not like that. At home I gasped for breath through the smog of raised voices, banging doors, running feet, the screaming kettle, the arguments, even the laughter.\n\nDown by the river there was none of that. There was only music - ordered, melancholy music - where each instrument took its part and chimed or plucked or sang, without conflict or even emotion. Croaking, piping, humming, hooting, rustling, rippling, splashing - if there were any struggles out here by the river, I couldn't tell. But now, as I stood listening for the little lost creature, I wondered.",
+      "prompt": "This text is an extract from a longer narrative. The purpose of this extract is to",
+      "options": [
+        {
+          "label": "A",
+          "text": "resolve a situation."
+        },
+        {
+          "label": "B",
+          "text": "expand a complication."
+        },
+        {
+          "label": "C",
+          "text": "describe the climax of the plot."
+        },
+        {
+          "label": "D",
+          "text": "develop characterisation and setting."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The extract builds a picture of the narrator's character and the contrasting settings of home and river.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q41",
+      "number": 41,
+      "type": "multiple_choice",
+      "passage": "For questions 41 to 43, choose the best option to complete the passage.\n\nA Möbius strip is a twisted loop with unusual properties. You can examine its properties (41) ________ a ribbon or strip of paper, giving it a half twist and taping the ends together. (42) ________ a ribbon or paper, the Möbius strip has only one side. If you draw a line down the middle of the strip until you reach your starting point, you will find that you (43) ________ on both sides of the strip!",
+      "prompt": "Choose the best option to complete gap (41).",
+      "options": [
+        {
+          "label": "A",
+          "text": "if you use"
+        },
+        {
+          "label": "B",
+          "text": "to use"
+        },
+        {
+          "label": "C",
+          "text": "when using"
+        },
+        {
+          "label": "D",
+          "text": "first you use"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'if you use a ribbon...' correctly forms a conditional instruction matching the rest of the sentence.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2012c-q42",
+      "number": 42,
+      "type": "multiple_choice",
+      "passage": "For questions 41 to 43, choose the best option to complete the passage.\n\nA Möbius strip is a twisted loop with unusual properties. You can examine its properties (41) ________ a ribbon or strip of paper, giving it a half twist and taping the ends together. (42) ________ a ribbon or paper, the Möbius strip has only one side. If you draw a line down the middle of the strip until you reach your starting point, you will find that you (43) ________ on both sides of the strip!",
+      "prompt": "Choose the best option to complete gap (42).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Either"
+        },
+        {
+          "label": "B",
+          "text": "Unlike"
+        },
+        {
+          "label": "C",
+          "text": "Other than"
+        },
+        {
+          "label": "D",
+          "text": "When comparing"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Unlike a ribbon or paper' correctly sets up the contrast with an ordinary loop.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2012c-q43",
+      "number": 43,
+      "type": "multiple_choice",
+      "passage": "For questions 41 to 43, choose the best option to complete the passage.\n\nA Möbius strip is a twisted loop with unusual properties. You can examine its properties (41) ________ a ribbon or strip of paper, giving it a half twist and taping the ends together. (42) ________ a ribbon or paper, the Möbius strip has only one side. If you draw a line down the middle of the strip until you reach your starting point, you will find that you (43) ________ on both sides of the strip!",
+      "prompt": "Choose the best option to complete gap (43).",
+      "options": [
+        {
+          "label": "A",
+          "text": "drew"
+        },
+        {
+          "label": "B",
+          "text": "could draw"
+        },
+        {
+          "label": "C",
+          "text": "have drawn"
+        },
+        {
+          "label": "D",
+          "text": "were drawing"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'You will find that you have drawn on both sides' correctly uses the present perfect tense.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2012c-q44",
+      "number": 44,
+      "type": "multiple_choice",
+      "passage": "Read Blood for dinner and answer questions 44 to 50.\n\nBlood for dinner\n\nThere are three species of bats that survive entirely by feeding on blood: the common vampire bat, the hairy-legged vampire bat and the white-winged vampire bat. Don't worry, though - all three species are native to the Americas, so you won't find them creeping up on you in the middle of the night as you sleep safely in your bed.\n\nWhen a vampire bat wakes up and emerges from its dark cave, it hunts for warm-blooded prey, usually sleeping cattle or horses. Once it finds a meal, the bat flies down and lands quietly near the unsuspecting animal, creeping towards it using its legs and wing-covered arms. Using heat sensors on its nose, the bat locates where blood is flowing close to the skin. If the victim is particularly hairy, the vampire bat uses its teeth to shave away the fur. The bat then uses its razor-sharp incisors to slice a small, precise cut, and once blood is freely seeping from its victim, it begins lapping it up.\n\nThe vampire bat is well adapted to this liquid diet. Its saliva contains a chemical that stops the prey's blood from clotting as it flows out of the wound, as well as compounds that prevent blood vessels near the wound from tightening, so the blood keeps flowing for the bat to drink.\n\nThe vampire bat's digestive system processes its meal so quickly that it can start excreting urine within minutes of feeding. This is necessary because a vampire bat weighs only about 40 grams but can drink more than 20 grams of blood in one sitting - so it must lose some of that weight quickly if it wants to be light enough to fly back to its cave. The trick is to rapidly get rid of the blood plasma, which has no nutritional value. The stomach lining rapidly absorbs the plasma, which is then transported to the kidneys and bladder. Within minutes, the bat is excreting plasma-rich urine and losing enough weight to launch itself back into the night sky.\n\nThis blood-feeding habit is called hematophagy, and it isn't limited to vampire bats - certain species of leeches, fish and worms also feed this way.",
+      "prompt": "Which of the following quotations best supports the idea expressed in the title Blood for dinner?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'blood is freely seeping from its victim'"
+        },
+        {
+          "label": "B",
+          "text": "'the blood keeps flowing'"
+        },
+        {
+          "label": "C",
+          "text": "'this blood-feeding habit is called hematophagy'"
+        },
+        {
+          "label": "D",
+          "text": "'it hunts for warm-blooded prey'"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Hunting for a blood 'meal' most directly supports the idea of blood as its dinner.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q45",
+      "number": 45,
+      "type": "multiple_choice",
+      "passage": "Read Blood for dinner and answer questions 44 to 50.\n\nBlood for dinner\n\nThere are three species of bats that survive entirely by feeding on blood: the common vampire bat, the hairy-legged vampire bat and the white-winged vampire bat. Don't worry, though - all three species are native to the Americas, so you won't find them creeping up on you in the middle of the night as you sleep safely in your bed.\n\nWhen a vampire bat wakes up and emerges from its dark cave, it hunts for warm-blooded prey, usually sleeping cattle or horses. Once it finds a meal, the bat flies down and lands quietly near the unsuspecting animal, creeping towards it using its legs and wing-covered arms. Using heat sensors on its nose, the bat locates where blood is flowing close to the skin. If the victim is particularly hairy, the vampire bat uses its teeth to shave away the fur. The bat then uses its razor-sharp incisors to slice a small, precise cut, and once blood is freely seeping from its victim, it begins lapping it up.\n\nThe vampire bat is well adapted to this liquid diet. Its saliva contains a chemical that stops the prey's blood from clotting as it flows out of the wound, as well as compounds that prevent blood vessels near the wound from tightening, so the blood keeps flowing for the bat to drink.\n\nThe vampire bat's digestive system processes its meal so quickly that it can start excreting urine within minutes of feeding. This is necessary because a vampire bat weighs only about 40 grams but can drink more than 20 grams of blood in one sitting - so it must lose some of that weight quickly if it wants to be light enough to fly back to its cave. The trick is to rapidly get rid of the blood plasma, which has no nutritional value. The stomach lining rapidly absorbs the plasma, which is then transported to the kidneys and bladder. Within minutes, the bat is excreting plasma-rich urine and losing enough weight to launch itself back into the night sky.\n\nThis blood-feeding habit is called hematophagy, and it isn't limited to vampire bats - certain species of leeches, fish and worms also feed this way.",
+      "prompt": "Which of the following describes the stages of feeding of a vampire bat?",
+      "options": [
+        {
+          "label": "A",
+          "text": "locate victim → land → locate blood → cut skin → feed"
+        },
+        {
+          "label": "B",
+          "text": "land → locate victim → locate blood → cut skin → feed"
+        },
+        {
+          "label": "C",
+          "text": "locate victim → land → cut skin → locate blood → feed"
+        },
+        {
+          "label": "D",
+          "text": "land → locate victim → cut skin → locate blood → feed"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text describes finding prey, landing nearby, locating blood flow, then cutting and feeding, in that order.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q46",
+      "number": 46,
+      "type": "multiple_choice",
+      "passage": "Read Blood for dinner and answer questions 44 to 50.\n\nBlood for dinner\n\nThere are three species of bats that survive entirely by feeding on blood: the common vampire bat, the hairy-legged vampire bat and the white-winged vampire bat. Don't worry, though - all three species are native to the Americas, so you won't find them creeping up on you in the middle of the night as you sleep safely in your bed.\n\nWhen a vampire bat wakes up and emerges from its dark cave, it hunts for warm-blooded prey, usually sleeping cattle or horses. Once it finds a meal, the bat flies down and lands quietly near the unsuspecting animal, creeping towards it using its legs and wing-covered arms. Using heat sensors on its nose, the bat locates where blood is flowing close to the skin. If the victim is particularly hairy, the vampire bat uses its teeth to shave away the fur. The bat then uses its razor-sharp incisors to slice a small, precise cut, and once blood is freely seeping from its victim, it begins lapping it up.\n\nThe vampire bat is well adapted to this liquid diet. Its saliva contains a chemical that stops the prey's blood from clotting as it flows out of the wound, as well as compounds that prevent blood vessels near the wound from tightening, so the blood keeps flowing for the bat to drink.\n\nThe vampire bat's digestive system processes its meal so quickly that it can start excreting urine within minutes of feeding. This is necessary because a vampire bat weighs only about 40 grams but can drink more than 20 grams of blood in one sitting - so it must lose some of that weight quickly if it wants to be light enough to fly back to its cave. The trick is to rapidly get rid of the blood plasma, which has no nutritional value. The stomach lining rapidly absorbs the plasma, which is then transported to the kidneys and bladder. Within minutes, the bat is excreting plasma-rich urine and losing enough weight to launch itself back into the night sky.\n\nThis blood-feeding habit is called hematophagy, and it isn't limited to vampire bats - certain species of leeches, fish and worms also feed this way.",
+      "prompt": "Which of the following summarises the third paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Types of prey"
+        },
+        {
+          "label": "B",
+          "text": "Special adaptations"
+        },
+        {
+          "label": "C",
+          "text": "Feeding method"
+        },
+        {
+          "label": "D",
+          "text": "Food preferences"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The paragraph explains the bat's saliva chemicals — special bodily adaptations for feeding on blood.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q47",
+      "number": 47,
+      "type": "multiple_choice",
+      "passage": "Read Blood for dinner and answer questions 44 to 50.\n\nBlood for dinner\n\nThere are three species of bats that survive entirely by feeding on blood: the common vampire bat, the hairy-legged vampire bat and the white-winged vampire bat. Don't worry, though - all three species are native to the Americas, so you won't find them creeping up on you in the middle of the night as you sleep safely in your bed.\n\nWhen a vampire bat wakes up and emerges from its dark cave, it hunts for warm-blooded prey, usually sleeping cattle or horses. Once it finds a meal, the bat flies down and lands quietly near the unsuspecting animal, creeping towards it using its legs and wing-covered arms. Using heat sensors on its nose, the bat locates where blood is flowing close to the skin. If the victim is particularly hairy, the vampire bat uses its teeth to shave away the fur. The bat then uses its razor-sharp incisors to slice a small, precise cut, and once blood is freely seeping from its victim, it begins lapping it up.\n\nThe vampire bat is well adapted to this liquid diet. Its saliva contains a chemical that stops the prey's blood from clotting as it flows out of the wound, as well as compounds that prevent blood vessels near the wound from tightening, so the blood keeps flowing for the bat to drink.\n\nThe vampire bat's digestive system processes its meal so quickly that it can start excreting urine within minutes of feeding. This is necessary because a vampire bat weighs only about 40 grams but can drink more than 20 grams of blood in one sitting - so it must lose some of that weight quickly if it wants to be light enough to fly back to its cave. The trick is to rapidly get rid of the blood plasma, which has no nutritional value. The stomach lining rapidly absorbs the plasma, which is then transported to the kidneys and bladder. Within minutes, the bat is excreting plasma-rich urine and losing enough weight to launch itself back into the night sky.\n\nThis blood-feeding habit is called hematophagy, and it isn't limited to vampire bats - certain species of leeches, fish and worms also feed this way.",
+      "prompt": "According to the text, why is a vampire bat vulnerable immediately after feeding?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It loses its sense of direction."
+        },
+        {
+          "label": "B",
+          "text": "Its kidneys and bladder are under stress."
+        },
+        {
+          "label": "C",
+          "text": "It is too heavy to fly."
+        },
+        {
+          "label": "D",
+          "text": "Its digestive system is unable to deal with plasma."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Having drunk so much blood, the bat is temporarily too heavy to fly until it excretes excess plasma.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q48",
+      "number": 48,
+      "type": "multiple_choice",
+      "passage": "Read Blood for dinner and answer questions 44 to 50.\n\nBlood for dinner\n\nThere are three species of bats that survive entirely by feeding on blood: the common vampire bat, the hairy-legged vampire bat and the white-winged vampire bat. Don't worry, though - all three species are native to the Americas, so you won't find them creeping up on you in the middle of the night as you sleep safely in your bed.\n\nWhen a vampire bat wakes up and emerges from its dark cave, it hunts for warm-blooded prey, usually sleeping cattle or horses. Once it finds a meal, the bat flies down and lands quietly near the unsuspecting animal, creeping towards it using its legs and wing-covered arms. Using heat sensors on its nose, the bat locates where blood is flowing close to the skin. If the victim is particularly hairy, the vampire bat uses its teeth to shave away the fur. The bat then uses its razor-sharp incisors to slice a small, precise cut, and once blood is freely seeping from its victim, it begins lapping it up.\n\nThe vampire bat is well adapted to this liquid diet. Its saliva contains a chemical that stops the prey's blood from clotting as it flows out of the wound, as well as compounds that prevent blood vessels near the wound from tightening, so the blood keeps flowing for the bat to drink.\n\nThe vampire bat's digestive system processes its meal so quickly that it can start excreting urine within minutes of feeding. This is necessary because a vampire bat weighs only about 40 grams but can drink more than 20 grams of blood in one sitting - so it must lose some of that weight quickly if it wants to be light enough to fly back to its cave. The trick is to rapidly get rid of the blood plasma, which has no nutritional value. The stomach lining rapidly absorbs the plasma, which is then transported to the kidneys and bladder. Within minutes, the bat is excreting plasma-rich urine and losing enough weight to launch itself back into the night sky.\n\nThis blood-feeding habit is called hematophagy, and it isn't limited to vampire bats - certain species of leeches, fish and worms also feed this way.",
+      "prompt": "What does the writer assume about readers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are not afraid of the dark."
+        },
+        {
+          "label": "B",
+          "text": "They understand that vampire bats are sneaky."
+        },
+        {
+          "label": "C",
+          "text": "They know that there are three species of vampire bats."
+        },
+        {
+          "label": "D",
+          "text": "They do not live in the Americas."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The writer reassures readers early on that these bats are native to the Americas, implying most readers live elsewhere.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2012c-q49",
+      "number": 49,
+      "type": "multiple_choice",
+      "passage": "Read Blood for dinner and answer questions 44 to 50.\n\nBlood for dinner\n\nThere are three species of bats that survive entirely by feeding on blood: the common vampire bat, the hairy-legged vampire bat and the white-winged vampire bat. Don't worry, though - all three species are native to the Americas, so you won't find them creeping up on you in the middle of the night as you sleep safely in your bed.\n\nWhen a vampire bat wakes up and emerges from its dark cave, it hunts for warm-blooded prey, usually sleeping cattle or horses. Once it finds a meal, the bat flies down and lands quietly near the unsuspecting animal, creeping towards it using its legs and wing-covered arms. Using heat sensors on its nose, the bat locates where blood is flowing close to the skin. If the victim is particularly hairy, the vampire bat uses its teeth to shave away the fur. The bat then uses its razor-sharp incisors to slice a small, precise cut, and once blood is freely seeping from its victim, it begins lapping it up.\n\nThe vampire bat is well adapted to this liquid diet. Its saliva contains a chemical that stops the prey's blood from clotting as it flows out of the wound, as well as compounds that prevent blood vessels near the wound from tightening, so the blood keeps flowing for the bat to drink.\n\nThe vampire bat's digestive system processes its meal so quickly that it can start excreting urine within minutes of feeding. This is necessary because a vampire bat weighs only about 40 grams but can drink more than 20 grams of blood in one sitting - so it must lose some of that weight quickly if it wants to be light enough to fly back to its cave. The trick is to rapidly get rid of the blood plasma, which has no nutritional value. The stomach lining rapidly absorbs the plasma, which is then transported to the kidneys and bladder. Within minutes, the bat is excreting plasma-rich urine and losing enough weight to launch itself back into the night sky.\n\nThis blood-feeding habit is called hematophagy, and it isn't limited to vampire bats - certain species of leeches, fish and worms also feed this way.",
+      "prompt": "Which of the following is an example of a metaphor?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'life-sustaining nectar'"
+        },
+        {
+          "label": "B",
+          "text": "'wing-covered arms'"
+        },
+        {
+          "label": "C",
+          "text": "'starts lapping up the blood'"
+        },
+        {
+          "label": "D",
+          "text": "'quickly transported to the kidneys'"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Calling blood 'nectar' is a metaphor, directly renaming one thing as another.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2012c-q50",
+      "number": 50,
+      "type": "multiple_choice",
+      "passage": "Read Blood for dinner and answer questions 44 to 50.\n\nBlood for dinner\n\nThere are three species of bats that survive entirely by feeding on blood: the common vampire bat, the hairy-legged vampire bat and the white-winged vampire bat. Don't worry, though - all three species are native to the Americas, so you won't find them creeping up on you in the middle of the night as you sleep safely in your bed.\n\nWhen a vampire bat wakes up and emerges from its dark cave, it hunts for warm-blooded prey, usually sleeping cattle or horses. Once it finds a meal, the bat flies down and lands quietly near the unsuspecting animal, creeping towards it using its legs and wing-covered arms. Using heat sensors on its nose, the bat locates where blood is flowing close to the skin. If the victim is particularly hairy, the vampire bat uses its teeth to shave away the fur. The bat then uses its razor-sharp incisors to slice a small, precise cut, and once blood is freely seeping from its victim, it begins lapping it up.\n\nThe vampire bat is well adapted to this liquid diet. Its saliva contains a chemical that stops the prey's blood from clotting as it flows out of the wound, as well as compounds that prevent blood vessels near the wound from tightening, so the blood keeps flowing for the bat to drink.\n\nThe vampire bat's digestive system processes its meal so quickly that it can start excreting urine within minutes of feeding. This is necessary because a vampire bat weighs only about 40 grams but can drink more than 20 grams of blood in one sitting - so it must lose some of that weight quickly if it wants to be light enough to fly back to its cave. The trick is to rapidly get rid of the blood plasma, which has no nutritional value. The stomach lining rapidly absorbs the plasma, which is then transported to the kidneys and bladder. Within minutes, the bat is excreting plasma-rich urine and losing enough weight to launch itself back into the night sky.\n\nThis blood-feeding habit is called hematophagy, and it isn't limited to vampire bats - certain species of leeches, fish and worms also feed this way.",
+      "prompt": "Based on the language used, the text is most likely to appear in",
+      "options": [
+        {
+          "label": "A",
+          "text": "a scientific journal."
+        },
+        {
+          "label": "B",
+          "text": "a children's magazine."
+        },
+        {
+          "label": "C",
+          "text": "a daily newspaper."
+        },
+        {
+          "label": "D",
+          "text": "a science encyclopedia."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The playful, informal tone ('Don't worry, though') suits a children's magazine rather than a formal publication.",
+      "topic": "Text comprehension"
+    }
+  ]
+}

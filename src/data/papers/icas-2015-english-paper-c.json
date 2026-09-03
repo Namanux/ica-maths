@@ -1,0 +1,1411 @@
+{
+  "id": "icas-2015-english-paper-c",
+  "subject": "English",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS English 2015 — Paper C",
+  "year": 2015,
+  "timeLimitMinutes": 50,
+  "questions": [
+    {
+      "id": "eng2015c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 7.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "What is the meaning of Erdene's name?",
+      "options": [
+        {
+          "label": "A",
+          "text": "treasure"
+        },
+        {
+          "label": "B",
+          "text": "Mongolia"
+        },
+        {
+          "label": "C",
+          "text": "reindeer boy"
+        },
+        {
+          "label": "D",
+          "text": "peaceful paradise"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text says Erdene's own name means 'treasure'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 7.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "In the first paragraph, the word 'river' is used as",
+      "options": [
+        {
+          "label": "A",
+          "text": "a conjunction."
+        },
+        {
+          "label": "B",
+          "text": "an adjective."
+        },
+        {
+          "label": "C",
+          "text": "a preposition."
+        },
+        {
+          "label": "D",
+          "text": "an adverb."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'River stones' — 'river' describes the noun 'stones', making it an adjective here.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2015c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 7.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "The Tsaatan homeland in north-western Mongolia can best be described as",
+      "options": [
+        {
+          "label": "A",
+          "text": "a frozen wasteland."
+        },
+        {
+          "label": "B",
+          "text": "a wildlife sanctuary."
+        },
+        {
+          "label": "C",
+          "text": "an isolated wilderness."
+        },
+        {
+          "label": "D",
+          "text": "a polluted environment."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Only reachable by horseback or helicopter, the region is remote and isolated.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 7.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "What is NOT mentioned in the text as being part of Erdene's diet?",
+      "options": [
+        {
+          "label": "A",
+          "text": "meat"
+        },
+        {
+          "label": "B",
+          "text": "rice and flour"
+        },
+        {
+          "label": "C",
+          "text": "dairy products"
+        },
+        {
+          "label": "D",
+          "text": "vegetables"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The text mentions meat, rice, flour, milk and cheese — never vegetables.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 7.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "The words 'at least' mean",
+      "options": [
+        {
+          "label": "A",
+          "text": "a minimum of."
+        },
+        {
+          "label": "B",
+          "text": "no more than."
+        },
+        {
+          "label": "C",
+          "text": "an average of."
+        },
+        {
+          "label": "D",
+          "text": "approximately."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'At least 100' sets a minimum requirement, not an average or approximation.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2015c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 7.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "According to the text, why are people abandoning the area?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The rivers they rely on for water have frozen over."
+        },
+        {
+          "label": "B",
+          "text": "Their survival is threatened by the decreasing animal population."
+        },
+        {
+          "label": "C",
+          "text": "They want to shift their herd of reindeer to a new location."
+        },
+        {
+          "label": "D",
+          "text": "Their homeland is only accessible by helicopter and horseback."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The shrinking reindeer population and disappearing wildlife threaten the herders' livelihood.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "Read Reindeer herders of Mongolia and answer questions 1 to 7.\n\nReindeer herders of Mongolia\n\n'Reindeer boy' is the nickname some people jokingly use for Erdene, a cheerful ten-year-old from a family of reindeer herders. Erdene lives in a remote region of north-western Mongolia that can only be reached by horseback or helicopter. Each morning, he wakes to the sound of water trickling over smooth river stones. He crawls out of his family's branch-framed tepee and walks down to the stream, cupping his hands to splash the cold, clear water over his face. The place feels like a quiet paradise - fitting, since Erdene's own name means 'treasure'.\n\nErdene's diet consists mostly of hunted meat, rice and flour. In winter, once the snow has frozen everything solid, his mother collects water by melting blocks of ice chopped from the frozen river.\n\nThe family's herd of reindeer grazes on wild mushrooms and the leaves of red and yellow shrubs and willow trees. The reindeer provide milk and cheese, and carry the herders deep into the forest to hunt. But the reindeer population is shrinking, and the surrounding wildlife is disappearing too. A family needs at least 100 reindeer to sustain their way of life; right now, families average only around 14. Many of these reindeer-herding families, known as the Tsaatan people, have given up and abandoned a lifestyle that stretches back for centuries.\n\nErdene doesn't dwell on his family's hardships. He helps out around the tepee - cleaning, chopping firewood, milking the reindeer. Once the snow melts, he loves riding a trotting reindeer, laughing as he tries to keep up with the herd.",
+      "prompt": "Which phrase best describes Erdene's attitude?",
+      "options": [
+        {
+          "label": "A",
+          "text": "anxious about the reindeer"
+        },
+        {
+          "label": "B",
+          "text": "curious about his ancestors"
+        },
+        {
+          "label": "C",
+          "text": "unconcerned about the future"
+        },
+        {
+          "label": "D",
+          "text": "discouraged by his surroundings"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text says Erdene 'doesn't dwell on his family's hardships.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "Read Little master to his big dog and answer questions 8 to 13.\n\nLittle master to his big dog\n\nOh, how greedy you look as you stare at my plate,\nYour mouth waters so, and your big tail is drumming\nFlop! flop! flop! on the carpet, and yet if you'll wait,\nWhen we have quite finished, your dinner is coming.\n\nYes! I know what you mean, though you don't speak a word;\nYou say that you wish that I kindly would let you\nTake your meals with the family, which is absurd,\nAnd on a tall chair like a gentleman set you.\n\nBut how little you think, my dear dog, when you talk;\nYou've no 'table manners', you bolt meat, you gobble;\nAnd how could you eat bones with a knife, spoon, and fork?\nYou would be in a most inconvenient hobble.\n\nAnd yet, once on a time it is certainly true,\nMy own manners wanted no little refining;\nFor I gobbled, and spilled, and was greedy like you,\nAnd had no idea of good manners when dining.\n\nSo that when I consider the tricks you have caught,\nTo sit or shake paws with the utmost good breeding,\nI must own it quite possible you may be taught\nThe use of a plate, and a nice style of feeding.\n\nTherefore try to learn manners, and eat as I do;\nDon't glare at the joint, and as soon as you're able\nTo behave like the rest, you shall feed with us too,\nAnd dine like a gentleman sitting at table.\n\nJuliana Horatia Ewing",
+      "prompt": "Which word has the same meaning as 'absurd' (line 7)?",
+      "options": [
+        {
+          "label": "A",
+          "text": "funny"
+        },
+        {
+          "label": "B",
+          "text": "pointless"
+        },
+        {
+          "label": "C",
+          "text": "unhappy"
+        },
+        {
+          "label": "D",
+          "text": "ridiculous"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Absurd' means ridiculous or laughably unreasonable.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2015c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "Read Little master to his big dog and answer questions 8 to 13.\n\nLittle master to his big dog\n\nOh, how greedy you look as you stare at my plate,\nYour mouth waters so, and your big tail is drumming\nFlop! flop! flop! on the carpet, and yet if you'll wait,\nWhen we have quite finished, your dinner is coming.\n\nYes! I know what you mean, though you don't speak a word;\nYou say that you wish that I kindly would let you\nTake your meals with the family, which is absurd,\nAnd on a tall chair like a gentleman set you.\n\nBut how little you think, my dear dog, when you talk;\nYou've no 'table manners', you bolt meat, you gobble;\nAnd how could you eat bones with a knife, spoon, and fork?\nYou would be in a most inconvenient hobble.\n\nAnd yet, once on a time it is certainly true,\nMy own manners wanted no little refining;\nFor I gobbled, and spilled, and was greedy like you,\nAnd had no idea of good manners when dining.\n\nSo that when I consider the tricks you have caught,\nTo sit or shake paws with the utmost good breeding,\nI must own it quite possible you may be taught\nThe use of a plate, and a nice style of feeding.\n\nTherefore try to learn manners, and eat as I do;\nDon't glare at the joint, and as soon as you're able\nTo behave like the rest, you shall feed with us too,\nAnd dine like a gentleman sitting at table.\n\nJuliana Horatia Ewing",
+      "prompt": "In the third stanza, what does the boy describe as an 'inconvenient hobble'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "eating a bone with utensils"
+        },
+        {
+          "label": "B",
+          "text": "eating with one's mouth open"
+        },
+        {
+          "label": "C",
+          "text": "making sounds while eating"
+        },
+        {
+          "label": "D",
+          "text": "eating a bone while sitting at the table"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The boy imagines how awkward it would be for the dog to eat a bone 'with a knife, spoon, and fork.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "Read Little master to his big dog and answer questions 8 to 13.\n\nLittle master to his big dog\n\nOh, how greedy you look as you stare at my plate,\nYour mouth waters so, and your big tail is drumming\nFlop! flop! flop! on the carpet, and yet if you'll wait,\nWhen we have quite finished, your dinner is coming.\n\nYes! I know what you mean, though you don't speak a word;\nYou say that you wish that I kindly would let you\nTake your meals with the family, which is absurd,\nAnd on a tall chair like a gentleman set you.\n\nBut how little you think, my dear dog, when you talk;\nYou've no 'table manners', you bolt meat, you gobble;\nAnd how could you eat bones with a knife, spoon, and fork?\nYou would be in a most inconvenient hobble.\n\nAnd yet, once on a time it is certainly true,\nMy own manners wanted no little refining;\nFor I gobbled, and spilled, and was greedy like you,\nAnd had no idea of good manners when dining.\n\nSo that when I consider the tricks you have caught,\nTo sit or shake paws with the utmost good breeding,\nI must own it quite possible you may be taught\nThe use of a plate, and a nice style of feeding.\n\nTherefore try to learn manners, and eat as I do;\nDon't glare at the joint, and as soon as you're able\nTo behave like the rest, you shall feed with us too,\nAnd dine like a gentleman sitting at table.\n\nJuliana Horatia Ewing",
+      "prompt": "In the fourth stanza, the boy compares the dog's eating habits with",
+      "options": [
+        {
+          "label": "A",
+          "text": "the way a grown-up eats."
+        },
+        {
+          "label": "B",
+          "text": "his own eating habits when he was younger."
+        },
+        {
+          "label": "C",
+          "text": "the way the rest of the family eats."
+        },
+        {
+          "label": "D",
+          "text": "his current eating habits."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "He admits he too 'gobbled, and spilled, and was greedy' when he was younger.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "Read Little master to his big dog and answer questions 8 to 13.\n\nLittle master to his big dog\n\nOh, how greedy you look as you stare at my plate,\nYour mouth waters so, and your big tail is drumming\nFlop! flop! flop! on the carpet, and yet if you'll wait,\nWhen we have quite finished, your dinner is coming.\n\nYes! I know what you mean, though you don't speak a word;\nYou say that you wish that I kindly would let you\nTake your meals with the family, which is absurd,\nAnd on a tall chair like a gentleman set you.\n\nBut how little you think, my dear dog, when you talk;\nYou've no 'table manners', you bolt meat, you gobble;\nAnd how could you eat bones with a knife, spoon, and fork?\nYou would be in a most inconvenient hobble.\n\nAnd yet, once on a time it is certainly true,\nMy own manners wanted no little refining;\nFor I gobbled, and spilled, and was greedy like you,\nAnd had no idea of good manners when dining.\n\nSo that when I consider the tricks you have caught,\nTo sit or shake paws with the utmost good breeding,\nI must own it quite possible you may be taught\nThe use of a plate, and a nice style of feeding.\n\nTherefore try to learn manners, and eat as I do;\nDon't glare at the joint, and as soon as you're able\nTo behave like the rest, you shall feed with us too,\nAnd dine like a gentleman sitting at table.\n\nJuliana Horatia Ewing",
+      "prompt": "When a word sounds like its meaning (for example, 'hiss'), it is known as onomatopoeia. Which word used in the poem is an example of onomatopoeia?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'drumming' (line 2)"
+        },
+        {
+          "label": "B",
+          "text": "'spilled' (line 15)"
+        },
+        {
+          "label": "C",
+          "text": "'flop' (line 3)"
+        },
+        {
+          "label": "D",
+          "text": "'shake' (line 18)"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Flop' imitates the actual sound of the tail hitting the carpet.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Read Little master to his big dog and answer questions 8 to 13.\n\nLittle master to his big dog\n\nOh, how greedy you look as you stare at my plate,\nYour mouth waters so, and your big tail is drumming\nFlop! flop! flop! on the carpet, and yet if you'll wait,\nWhen we have quite finished, your dinner is coming.\n\nYes! I know what you mean, though you don't speak a word;\nYou say that you wish that I kindly would let you\nTake your meals with the family, which is absurd,\nAnd on a tall chair like a gentleman set you.\n\nBut how little you think, my dear dog, when you talk;\nYou've no 'table manners', you bolt meat, you gobble;\nAnd how could you eat bones with a knife, spoon, and fork?\nYou would be in a most inconvenient hobble.\n\nAnd yet, once on a time it is certainly true,\nMy own manners wanted no little refining;\nFor I gobbled, and spilled, and was greedy like you,\nAnd had no idea of good manners when dining.\n\nSo that when I consider the tricks you have caught,\nTo sit or shake paws with the utmost good breeding,\nI must own it quite possible you may be taught\nThe use of a plate, and a nice style of feeding.\n\nTherefore try to learn manners, and eat as I do;\nDon't glare at the joint, and as soon as you're able\nTo behave like the rest, you shall feed with us too,\nAnd dine like a gentleman sitting at table.\n\nJuliana Horatia Ewing",
+      "prompt": "Why does the boy think it is possible for the dog to learn table manners?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The boy explains things patiently to the dog."
+        },
+        {
+          "label": "B",
+          "text": "The boy always knows what the dog is thinking."
+        },
+        {
+          "label": "C",
+          "text": "The dog will do whatever the boy tells him to do."
+        },
+        {
+          "label": "D",
+          "text": "The dog has been taught how to sit and shake paws."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Since the dog has already learned to sit and shake paws, the boy believes more manners can be taught too.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "Read Little master to his big dog and answer questions 8 to 13.\n\nLittle master to his big dog\n\nOh, how greedy you look as you stare at my plate,\nYour mouth waters so, and your big tail is drumming\nFlop! flop! flop! on the carpet, and yet if you'll wait,\nWhen we have quite finished, your dinner is coming.\n\nYes! I know what you mean, though you don't speak a word;\nYou say that you wish that I kindly would let you\nTake your meals with the family, which is absurd,\nAnd on a tall chair like a gentleman set you.\n\nBut how little you think, my dear dog, when you talk;\nYou've no 'table manners', you bolt meat, you gobble;\nAnd how could you eat bones with a knife, spoon, and fork?\nYou would be in a most inconvenient hobble.\n\nAnd yet, once on a time it is certainly true,\nMy own manners wanted no little refining;\nFor I gobbled, and spilled, and was greedy like you,\nAnd had no idea of good manners when dining.\n\nSo that when I consider the tricks you have caught,\nTo sit or shake paws with the utmost good breeding,\nI must own it quite possible you may be taught\nThe use of a plate, and a nice style of feeding.\n\nTherefore try to learn manners, and eat as I do;\nDon't glare at the joint, and as soon as you're able\nTo behave like the rest, you shall feed with us too,\nAnd dine like a gentleman sitting at table.\n\nJuliana Horatia Ewing",
+      "prompt": "The way the poem is written suggests that the boy is",
+      "options": [
+        {
+          "label": "A",
+          "text": "speaking to his pet."
+        },
+        {
+          "label": "B",
+          "text": "reading it aloud."
+        },
+        {
+          "label": "C",
+          "text": "writing it down."
+        },
+        {
+          "label": "D",
+          "text": "entertaining his family."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The poem directly addresses 'you', the dog, as if the boy is speaking to his pet.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "Read Overcoming your fear of flying and answer questions 14 to 20.\n\nOvercoming your fear of flying\n\nThe airline staff strap me into my seat, click the seatbelt shut, and lock it with a special buckle. Which is reassuring. I once read online about a plane that hit an air pocket over the Andes and dropped almost two thousand metres in eight seconds, and the seatbelt of a forty-year-old man popped open completely on its own. After the plane had already landed safely, luckily, but still.\n\nWaiting for take-off is never easy. Anxious thoughts buzz around my head like a plane with a dodgy engine, no working lights, and only one wing. Have they checked the wheels properly? I wonder. Did someone remember to close the fuel cap? Where exactly is our nearest exit, and how would I even measure the distance to it in an emergency?\n\nSuddenly we're moving, taxiing backwards and then speeding down the runway, with no time left to check the life jackets for holes or test whether the oxygen mask actually works. Before I can ask a flight attendant to hand me a spare life raft so I can practise inflating it, there's a deep roar, everything shudders, and I'm shoved back into my seat - and not by a flight attendant.\n\nSuddenly we're airborne. I keep my eyes shut for a long time. A very long time. Eventually I peel the safety card from between my teeth and mutter a silent thank you that somebody, somewhere, remembered to check absolutely everything.\n\nI glance across the aisle at Mum and Dad, both calmly reading their books. Beside me, my little brother Tama is folding his own safety card into a paper plane. Everyone around us looks completely relaxed. I take a few slow breaths. Actually, this isn't so bad. I'm starting to feel properly relaxed myself.\n\nI unclip my seatbelt, lean forward and slide my backpack out from under the seat ahead of me. I pull out the book Dad bought me at the airport and tuck it back into the pocket. I check that my wallet, with all my holiday money inside, is still safely zipped in there too. I'm glad I didn't waste my savings on a torch or a tyre gauge.\n\nIt really is a great book - Fear of Flying and How to Beat It - all about using your imagination to distract yourself in the nervous minutes before take-off. I don't think I'll need it any more, though, because it actually worked. Here I am, on my very first flight, eight thousand metres up with no rope ladder, no parachute and no pile of soft cushions anywhere nearby, sitting here completely calm with my eyes wide open. Not scared of flying at all. Imagine that.",
+      "prompt": "Which word is closest in meaning to 'dropped' as it is used in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "bounced"
+        },
+        {
+          "label": "B",
+          "text": "plummeted"
+        },
+        {
+          "label": "C",
+          "text": "skidded"
+        },
+        {
+          "label": "D",
+          "text": "glided"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Plummeted' means to fall suddenly and steeply, matching 'dropped'.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2015c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "Read Overcoming your fear of flying and answer questions 14 to 20.\n\nOvercoming your fear of flying\n\nThe airline staff strap me into my seat, click the seatbelt shut, and lock it with a special buckle. Which is reassuring. I once read online about a plane that hit an air pocket over the Andes and dropped almost two thousand metres in eight seconds, and the seatbelt of a forty-year-old man popped open completely on its own. After the plane had already landed safely, luckily, but still.\n\nWaiting for take-off is never easy. Anxious thoughts buzz around my head like a plane with a dodgy engine, no working lights, and only one wing. Have they checked the wheels properly? I wonder. Did someone remember to close the fuel cap? Where exactly is our nearest exit, and how would I even measure the distance to it in an emergency?\n\nSuddenly we're moving, taxiing backwards and then speeding down the runway, with no time left to check the life jackets for holes or test whether the oxygen mask actually works. Before I can ask a flight attendant to hand me a spare life raft so I can practise inflating it, there's a deep roar, everything shudders, and I'm shoved back into my seat - and not by a flight attendant.\n\nSuddenly we're airborne. I keep my eyes shut for a long time. A very long time. Eventually I peel the safety card from between my teeth and mutter a silent thank you that somebody, somewhere, remembered to check absolutely everything.\n\nI glance across the aisle at Mum and Dad, both calmly reading their books. Beside me, my little brother Tama is folding his own safety card into a paper plane. Everyone around us looks completely relaxed. I take a few slow breaths. Actually, this isn't so bad. I'm starting to feel properly relaxed myself.\n\nI unclip my seatbelt, lean forward and slide my backpack out from under the seat ahead of me. I pull out the book Dad bought me at the airport and tuck it back into the pocket. I check that my wallet, with all my holiday money inside, is still safely zipped in there too. I'm glad I didn't waste my savings on a torch or a tyre gauge.\n\nIt really is a great book - Fear of Flying and How to Beat It - all about using your imagination to distract yourself in the nervous minutes before take-off. I don't think I'll need it any more, though, because it actually worked. Here I am, on my very first flight, eight thousand metres up with no rope ladder, no parachute and no pile of soft cushions anywhere nearby, sitting here completely calm with my eyes wide open. Not scared of flying at all. Imagine that.",
+      "prompt": "The phrase 'popped open completely on its own' means that the seatbelt opened",
+      "options": [
+        {
+          "label": "A",
+          "text": "because of the design."
+        },
+        {
+          "label": "B",
+          "text": "when the flight was over."
+        },
+        {
+          "label": "C",
+          "text": "by itself."
+        },
+        {
+          "label": "D",
+          "text": "at the same time."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'On its own' means without anyone touching it — by itself.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2015c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Read Overcoming your fear of flying and answer questions 14 to 20.\n\nOvercoming your fear of flying\n\nThe airline staff strap me into my seat, click the seatbelt shut, and lock it with a special buckle. Which is reassuring. I once read online about a plane that hit an air pocket over the Andes and dropped almost two thousand metres in eight seconds, and the seatbelt of a forty-year-old man popped open completely on its own. After the plane had already landed safely, luckily, but still.\n\nWaiting for take-off is never easy. Anxious thoughts buzz around my head like a plane with a dodgy engine, no working lights, and only one wing. Have they checked the wheels properly? I wonder. Did someone remember to close the fuel cap? Where exactly is our nearest exit, and how would I even measure the distance to it in an emergency?\n\nSuddenly we're moving, taxiing backwards and then speeding down the runway, with no time left to check the life jackets for holes or test whether the oxygen mask actually works. Before I can ask a flight attendant to hand me a spare life raft so I can practise inflating it, there's a deep roar, everything shudders, and I'm shoved back into my seat - and not by a flight attendant.\n\nSuddenly we're airborne. I keep my eyes shut for a long time. A very long time. Eventually I peel the safety card from between my teeth and mutter a silent thank you that somebody, somewhere, remembered to check absolutely everything.\n\nI glance across the aisle at Mum and Dad, both calmly reading their books. Beside me, my little brother Tama is folding his own safety card into a paper plane. Everyone around us looks completely relaxed. I take a few slow breaths. Actually, this isn't so bad. I'm starting to feel properly relaxed myself.\n\nI unclip my seatbelt, lean forward and slide my backpack out from under the seat ahead of me. I pull out the book Dad bought me at the airport and tuck it back into the pocket. I check that my wallet, with all my holiday money inside, is still safely zipped in there too. I'm glad I didn't waste my savings on a torch or a tyre gauge.\n\nIt really is a great book - Fear of Flying and How to Beat It - all about using your imagination to distract yourself in the nervous minutes before take-off. I don't think I'll need it any more, though, because it actually worked. Here I am, on my very first flight, eight thousand metres up with no rope ladder, no parachute and no pile of soft cushions anywhere nearby, sitting here completely calm with my eyes wide open. Not scared of flying at all. Imagine that.",
+      "prompt": "In the second paragraph, why has the narrator used a series of questions?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to suggest that planes often have problems"
+        },
+        {
+          "label": "B",
+          "text": "to allow for answers later in the text"
+        },
+        {
+          "label": "C",
+          "text": "to change the pace of the story"
+        },
+        {
+          "label": "D",
+          "text": "to emphasise his state of mind"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The rapid, anxious questions convey his nervous, spiralling state of mind before take-off.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Read Overcoming your fear of flying and answer questions 14 to 20.\n\nOvercoming your fear of flying\n\nThe airline staff strap me into my seat, click the seatbelt shut, and lock it with a special buckle. Which is reassuring. I once read online about a plane that hit an air pocket over the Andes and dropped almost two thousand metres in eight seconds, and the seatbelt of a forty-year-old man popped open completely on its own. After the plane had already landed safely, luckily, but still.\n\nWaiting for take-off is never easy. Anxious thoughts buzz around my head like a plane with a dodgy engine, no working lights, and only one wing. Have they checked the wheels properly? I wonder. Did someone remember to close the fuel cap? Where exactly is our nearest exit, and how would I even measure the distance to it in an emergency?\n\nSuddenly we're moving, taxiing backwards and then speeding down the runway, with no time left to check the life jackets for holes or test whether the oxygen mask actually works. Before I can ask a flight attendant to hand me a spare life raft so I can practise inflating it, there's a deep roar, everything shudders, and I'm shoved back into my seat - and not by a flight attendant.\n\nSuddenly we're airborne. I keep my eyes shut for a long time. A very long time. Eventually I peel the safety card from between my teeth and mutter a silent thank you that somebody, somewhere, remembered to check absolutely everything.\n\nI glance across the aisle at Mum and Dad, both calmly reading their books. Beside me, my little brother Tama is folding his own safety card into a paper plane. Everyone around us looks completely relaxed. I take a few slow breaths. Actually, this isn't so bad. I'm starting to feel properly relaxed myself.\n\nI unclip my seatbelt, lean forward and slide my backpack out from under the seat ahead of me. I pull out the book Dad bought me at the airport and tuck it back into the pocket. I check that my wallet, with all my holiday money inside, is still safely zipped in there too. I'm glad I didn't waste my savings on a torch or a tyre gauge.\n\nIt really is a great book - Fear of Flying and How to Beat It - all about using your imagination to distract yourself in the nervous minutes before take-off. I don't think I'll need it any more, though, because it actually worked. Here I am, on my very first flight, eight thousand metres up with no rope ladder, no parachute and no pile of soft cushions anywhere nearby, sitting here completely calm with my eyes wide open. Not scared of flying at all. Imagine that.",
+      "prompt": "'I'm shoved back into my seat' What caused this to happen to the narrator?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the plane taking off"
+        },
+        {
+          "label": "B",
+          "text": "his seatbelt holding him down"
+        },
+        {
+          "label": "C",
+          "text": "his parents pushing him"
+        },
+        {
+          "label": "D",
+          "text": "the flight attendant forcing him to sit"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The force of take-off is what pushes him back into his seat.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Read Overcoming your fear of flying and answer questions 14 to 20.\n\nOvercoming your fear of flying\n\nThe airline staff strap me into my seat, click the seatbelt shut, and lock it with a special buckle. Which is reassuring. I once read online about a plane that hit an air pocket over the Andes and dropped almost two thousand metres in eight seconds, and the seatbelt of a forty-year-old man popped open completely on its own. After the plane had already landed safely, luckily, but still.\n\nWaiting for take-off is never easy. Anxious thoughts buzz around my head like a plane with a dodgy engine, no working lights, and only one wing. Have they checked the wheels properly? I wonder. Did someone remember to close the fuel cap? Where exactly is our nearest exit, and how would I even measure the distance to it in an emergency?\n\nSuddenly we're moving, taxiing backwards and then speeding down the runway, with no time left to check the life jackets for holes or test whether the oxygen mask actually works. Before I can ask a flight attendant to hand me a spare life raft so I can practise inflating it, there's a deep roar, everything shudders, and I'm shoved back into my seat - and not by a flight attendant.\n\nSuddenly we're airborne. I keep my eyes shut for a long time. A very long time. Eventually I peel the safety card from between my teeth and mutter a silent thank you that somebody, somewhere, remembered to check absolutely everything.\n\nI glance across the aisle at Mum and Dad, both calmly reading their books. Beside me, my little brother Tama is folding his own safety card into a paper plane. Everyone around us looks completely relaxed. I take a few slow breaths. Actually, this isn't so bad. I'm starting to feel properly relaxed myself.\n\nI unclip my seatbelt, lean forward and slide my backpack out from under the seat ahead of me. I pull out the book Dad bought me at the airport and tuck it back into the pocket. I check that my wallet, with all my holiday money inside, is still safely zipped in there too. I'm glad I didn't waste my savings on a torch or a tyre gauge.\n\nIt really is a great book - Fear of Flying and How to Beat It - all about using your imagination to distract yourself in the nervous minutes before take-off. I don't think I'll need it any more, though, because it actually worked. Here I am, on my very first flight, eight thousand metres up with no rope ladder, no parachute and no pile of soft cushions anywhere nearby, sitting here completely calm with my eyes wide open. Not scared of flying at all. Imagine that.",
+      "prompt": "The narrator describes the airline staff locking his seatbelt with a special buckle. Afterwards, however, he unclips his own seatbelt. What is the most likely explanation for this?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He must have been given the buckle's release code."
+        },
+        {
+          "label": "B",
+          "text": "The special buckle was only an ordinary one."
+        },
+        {
+          "label": "C",
+          "text": "The buckle automatically released itself."
+        },
+        {
+          "label": "D",
+          "text": "His parents unlocked the seatbelt for him."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The 'special buckle' was likely just an ordinary seatbelt clip, easily released by the narrator himself.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "Read Overcoming your fear of flying and answer questions 14 to 20.\n\nOvercoming your fear of flying\n\nThe airline staff strap me into my seat, click the seatbelt shut, and lock it with a special buckle. Which is reassuring. I once read online about a plane that hit an air pocket over the Andes and dropped almost two thousand metres in eight seconds, and the seatbelt of a forty-year-old man popped open completely on its own. After the plane had already landed safely, luckily, but still.\n\nWaiting for take-off is never easy. Anxious thoughts buzz around my head like a plane with a dodgy engine, no working lights, and only one wing. Have they checked the wheels properly? I wonder. Did someone remember to close the fuel cap? Where exactly is our nearest exit, and how would I even measure the distance to it in an emergency?\n\nSuddenly we're moving, taxiing backwards and then speeding down the runway, with no time left to check the life jackets for holes or test whether the oxygen mask actually works. Before I can ask a flight attendant to hand me a spare life raft so I can practise inflating it, there's a deep roar, everything shudders, and I'm shoved back into my seat - and not by a flight attendant.\n\nSuddenly we're airborne. I keep my eyes shut for a long time. A very long time. Eventually I peel the safety card from between my teeth and mutter a silent thank you that somebody, somewhere, remembered to check absolutely everything.\n\nI glance across the aisle at Mum and Dad, both calmly reading their books. Beside me, my little brother Tama is folding his own safety card into a paper plane. Everyone around us looks completely relaxed. I take a few slow breaths. Actually, this isn't so bad. I'm starting to feel properly relaxed myself.\n\nI unclip my seatbelt, lean forward and slide my backpack out from under the seat ahead of me. I pull out the book Dad bought me at the airport and tuck it back into the pocket. I check that my wallet, with all my holiday money inside, is still safely zipped in there too. I'm glad I didn't waste my savings on a torch or a tyre gauge.\n\nIt really is a great book - Fear of Flying and How to Beat It - all about using your imagination to distract yourself in the nervous minutes before take-off. I don't think I'll need it any more, though, because it actually worked. Here I am, on my very first flight, eight thousand metres up with no rope ladder, no parachute and no pile of soft cushions anywhere nearby, sitting here completely calm with my eyes wide open. Not scared of flying at all. Imagine that.",
+      "prompt": "Which word, as it is used in the text, is a noun?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'airborne'"
+        },
+        {
+          "label": "B",
+          "text": "'anxious'"
+        },
+        {
+          "label": "C",
+          "text": "'runway'"
+        },
+        {
+          "label": "D",
+          "text": "'holiday'"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Runway' names a thing, making it a noun, unlike the adjectives among the other options.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2015c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "Read Overcoming your fear of flying and answer questions 14 to 20.\n\nOvercoming your fear of flying\n\nThe airline staff strap me into my seat, click the seatbelt shut, and lock it with a special buckle. Which is reassuring. I once read online about a plane that hit an air pocket over the Andes and dropped almost two thousand metres in eight seconds, and the seatbelt of a forty-year-old man popped open completely on its own. After the plane had already landed safely, luckily, but still.\n\nWaiting for take-off is never easy. Anxious thoughts buzz around my head like a plane with a dodgy engine, no working lights, and only one wing. Have they checked the wheels properly? I wonder. Did someone remember to close the fuel cap? Where exactly is our nearest exit, and how would I even measure the distance to it in an emergency?\n\nSuddenly we're moving, taxiing backwards and then speeding down the runway, with no time left to check the life jackets for holes or test whether the oxygen mask actually works. Before I can ask a flight attendant to hand me a spare life raft so I can practise inflating it, there's a deep roar, everything shudders, and I'm shoved back into my seat - and not by a flight attendant.\n\nSuddenly we're airborne. I keep my eyes shut for a long time. A very long time. Eventually I peel the safety card from between my teeth and mutter a silent thank you that somebody, somewhere, remembered to check absolutely everything.\n\nI glance across the aisle at Mum and Dad, both calmly reading their books. Beside me, my little brother Tama is folding his own safety card into a paper plane. Everyone around us looks completely relaxed. I take a few slow breaths. Actually, this isn't so bad. I'm starting to feel properly relaxed myself.\n\nI unclip my seatbelt, lean forward and slide my backpack out from under the seat ahead of me. I pull out the book Dad bought me at the airport and tuck it back into the pocket. I check that my wallet, with all my holiday money inside, is still safely zipped in there too. I'm glad I didn't waste my savings on a torch or a tyre gauge.\n\nIt really is a great book - Fear of Flying and How to Beat It - all about using your imagination to distract yourself in the nervous minutes before take-off. I don't think I'll need it any more, though, because it actually worked. Here I am, on my very first flight, eight thousand metres up with no rope ladder, no parachute and no pile of soft cushions anywhere nearby, sitting here completely calm with my eyes wide open. Not scared of flying at all. Imagine that.",
+      "prompt": "The text ends with the phrase 'Imagine that'. This is an expression of",
+      "options": [
+        {
+          "label": "A",
+          "text": "hope."
+        },
+        {
+          "label": "B",
+          "text": "confusion."
+        },
+        {
+          "label": "C",
+          "text": "determination."
+        },
+        {
+          "label": "D",
+          "text": "triumph."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Having overcome his fear, the narrator's closing remark expresses quiet triumph.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "Read Tech diving: going deep and answer questions 21 to 27.\n\nTech diving: going deep\n\nAt fifty metres underwater, you can no longer see the surface at all. Look up and the blue grows paler; look down and it fades steadily into black.\n\nIn ordinary recreational scuba diving, divers strap a tank of compressed air to their backs and descend into the water, breathing through a device called a regulator that delivers air straight into their mouths. As a diver goes deeper, the surrounding water pressure keeps increasing. At typical recreational depths of around 10 to 20 metres, this pressure isn't much of an issue. Beyond that, though, it can start to have genuinely dangerous effects on the human body.\n\nDivers who go much deeper than this - sometimes as far as 100 metres, often for scientific, military or salvage work - are known as technical divers. Technical diving is considered an extremely demanding and high-risk activity, since a great deal can go wrong that far underwater.\n\nUnder the intense pressure experienced at these depths, divers risk something called nitrogen narcosis, where the nitrogen in ordinary compressed air begins to have a drunken, confusing effect on the brain. There's also the danger of decompression sickness: air breathed at depth expands as a diver rises back towards the surface, and if they ascend too quickly, that expanding gas can form dangerous bubbles inside the body. Divers must pause at intervals on the way up to let this excess gas escape safely.\n\nIn some extreme diving situations, it's even possible to be poisoned by the very oxygen keeping you alive - a condition called oxygen toxicity.\n\nTo avoid these risks, many technical divers don't breathe ordinary compressed air (which is roughly 80% nitrogen and 20% oxygen). Instead, they use specialised gas blends such as trimix (often around 10% oxygen, 20% nitrogen and 70% helium) or heliox (typically 10% oxygen and 90% helium). These blends greatly reduce the risk of both oxygen toxicity and nitrogen narcosis.",
+      "prompt": "The word 'recreational', as it is used in the text, describes the type of diving undertaken for",
+      "options": [
+        {
+          "label": "A",
+          "text": "personal enjoyment."
+        },
+        {
+          "label": "B",
+          "text": "scientific research."
+        },
+        {
+          "label": "C",
+          "text": "commercial reasons."
+        },
+        {
+          "label": "D",
+          "text": "rescue operations."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Recreational' diving is done for leisure and enjoyment, unlike technical diving's specialised purposes.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2015c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "Read Tech diving: going deep and answer questions 21 to 27.\n\nTech diving: going deep\n\nAt fifty metres underwater, you can no longer see the surface at all. Look up and the blue grows paler; look down and it fades steadily into black.\n\nIn ordinary recreational scuba diving, divers strap a tank of compressed air to their backs and descend into the water, breathing through a device called a regulator that delivers air straight into their mouths. As a diver goes deeper, the surrounding water pressure keeps increasing. At typical recreational depths of around 10 to 20 metres, this pressure isn't much of an issue. Beyond that, though, it can start to have genuinely dangerous effects on the human body.\n\nDivers who go much deeper than this - sometimes as far as 100 metres, often for scientific, military or salvage work - are known as technical divers. Technical diving is considered an extremely demanding and high-risk activity, since a great deal can go wrong that far underwater.\n\nUnder the intense pressure experienced at these depths, divers risk something called nitrogen narcosis, where the nitrogen in ordinary compressed air begins to have a drunken, confusing effect on the brain. There's also the danger of decompression sickness: air breathed at depth expands as a diver rises back towards the surface, and if they ascend too quickly, that expanding gas can form dangerous bubbles inside the body. Divers must pause at intervals on the way up to let this excess gas escape safely.\n\nIn some extreme diving situations, it's even possible to be poisoned by the very oxygen keeping you alive - a condition called oxygen toxicity.\n\nTo avoid these risks, many technical divers don't breathe ordinary compressed air (which is roughly 80% nitrogen and 20% oxygen). Instead, they use specialised gas blends such as trimix (often around 10% oxygen, 20% nitrogen and 70% helium) or heliox (typically 10% oxygen and 90% helium). These blends greatly reduce the risk of both oxygen toxicity and nitrogen narcosis.",
+      "prompt": "Why does the text explain what a 'regulator' is?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to describe how a diver signals for help"
+        },
+        {
+          "label": "B",
+          "text": "to help readers understand an unfamiliar piece of equipment"
+        },
+        {
+          "label": "C",
+          "text": "to compare it with a technical diver's equipment"
+        },
+        {
+          "label": "D",
+          "text": "to explain how oxygen tanks are refilled"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The brief explanation helps readers unfamiliar with diving equipment understand the term.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "Read Tech diving: going deep and answer questions 21 to 27.\n\nTech diving: going deep\n\nAt fifty metres underwater, you can no longer see the surface at all. Look up and the blue grows paler; look down and it fades steadily into black.\n\nIn ordinary recreational scuba diving, divers strap a tank of compressed air to their backs and descend into the water, breathing through a device called a regulator that delivers air straight into their mouths. As a diver goes deeper, the surrounding water pressure keeps increasing. At typical recreational depths of around 10 to 20 metres, this pressure isn't much of an issue. Beyond that, though, it can start to have genuinely dangerous effects on the human body.\n\nDivers who go much deeper than this - sometimes as far as 100 metres, often for scientific, military or salvage work - are known as technical divers. Technical diving is considered an extremely demanding and high-risk activity, since a great deal can go wrong that far underwater.\n\nUnder the intense pressure experienced at these depths, divers risk something called nitrogen narcosis, where the nitrogen in ordinary compressed air begins to have a drunken, confusing effect on the brain. There's also the danger of decompression sickness: air breathed at depth expands as a diver rises back towards the surface, and if they ascend too quickly, that expanding gas can form dangerous bubbles inside the body. Divers must pause at intervals on the way up to let this excess gas escape safely.\n\nIn some extreme diving situations, it's even possible to be poisoned by the very oxygen keeping you alive - a condition called oxygen toxicity.\n\nTo avoid these risks, many technical divers don't breathe ordinary compressed air (which is roughly 80% nitrogen and 20% oxygen). Instead, they use specialised gas blends such as trimix (often around 10% oxygen, 20% nitrogen and 70% helium) or heliox (typically 10% oxygen and 90% helium). These blends greatly reduce the risk of both oxygen toxicity and nitrogen narcosis.",
+      "prompt": "Which of the following words from the third paragraph is used as a verb?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'pressure'"
+        },
+        {
+          "label": "B",
+          "text": "'nitrogen'"
+        },
+        {
+          "label": "C",
+          "text": "'risk'"
+        },
+        {
+          "label": "D",
+          "text": "'confusing'"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Divers risk...' uses 'risk' as an action word — a verb.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2015c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "Read Tech diving: going deep and answer questions 21 to 27.\n\nTech diving: going deep\n\nAt fifty metres underwater, you can no longer see the surface at all. Look up and the blue grows paler; look down and it fades steadily into black.\n\nIn ordinary recreational scuba diving, divers strap a tank of compressed air to their backs and descend into the water, breathing through a device called a regulator that delivers air straight into their mouths. As a diver goes deeper, the surrounding water pressure keeps increasing. At typical recreational depths of around 10 to 20 metres, this pressure isn't much of an issue. Beyond that, though, it can start to have genuinely dangerous effects on the human body.\n\nDivers who go much deeper than this - sometimes as far as 100 metres, often for scientific, military or salvage work - are known as technical divers. Technical diving is considered an extremely demanding and high-risk activity, since a great deal can go wrong that far underwater.\n\nUnder the intense pressure experienced at these depths, divers risk something called nitrogen narcosis, where the nitrogen in ordinary compressed air begins to have a drunken, confusing effect on the brain. There's also the danger of decompression sickness: air breathed at depth expands as a diver rises back towards the surface, and if they ascend too quickly, that expanding gas can form dangerous bubbles inside the body. Divers must pause at intervals on the way up to let this excess gas escape safely.\n\nIn some extreme diving situations, it's even possible to be poisoned by the very oxygen keeping you alive - a condition called oxygen toxicity.\n\nTo avoid these risks, many technical divers don't breathe ordinary compressed air (which is roughly 80% nitrogen and 20% oxygen). Instead, they use specialised gas blends such as trimix (often around 10% oxygen, 20% nitrogen and 70% helium) or heliox (typically 10% oxygen and 90% helium). These blends greatly reduce the risk of both oxygen toxicity and nitrogen narcosis.",
+      "prompt": "Under which set of conditions is a diver most likely to develop nitrogen narcosis?",
+      "options": [
+        {
+          "label": "A",
+          "text": "doing an underwater rescue at 15 metres while breathing compressed air"
+        },
+        {
+          "label": "B",
+          "text": "ascending rapidly from a 50-metre dive while breathing trimix"
+        },
+        {
+          "label": "C",
+          "text": "stopping multiple times while ascending from a 100-metre dive breathing heliox"
+        },
+        {
+          "label": "D",
+          "text": "breathing compressed air while doing repair work at 70 metres"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Compressed air (with its nitrogen) at a genuinely deep depth creates the greatest risk of nitrogen narcosis.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "Read Tech diving: going deep and answer questions 21 to 27.\n\nTech diving: going deep\n\nAt fifty metres underwater, you can no longer see the surface at all. Look up and the blue grows paler; look down and it fades steadily into black.\n\nIn ordinary recreational scuba diving, divers strap a tank of compressed air to their backs and descend into the water, breathing through a device called a regulator that delivers air straight into their mouths. As a diver goes deeper, the surrounding water pressure keeps increasing. At typical recreational depths of around 10 to 20 metres, this pressure isn't much of an issue. Beyond that, though, it can start to have genuinely dangerous effects on the human body.\n\nDivers who go much deeper than this - sometimes as far as 100 metres, often for scientific, military or salvage work - are known as technical divers. Technical diving is considered an extremely demanding and high-risk activity, since a great deal can go wrong that far underwater.\n\nUnder the intense pressure experienced at these depths, divers risk something called nitrogen narcosis, where the nitrogen in ordinary compressed air begins to have a drunken, confusing effect on the brain. There's also the danger of decompression sickness: air breathed at depth expands as a diver rises back towards the surface, and if they ascend too quickly, that expanding gas can form dangerous bubbles inside the body. Divers must pause at intervals on the way up to let this excess gas escape safely.\n\nIn some extreme diving situations, it's even possible to be poisoned by the very oxygen keeping you alive - a condition called oxygen toxicity.\n\nTo avoid these risks, many technical divers don't breathe ordinary compressed air (which is roughly 80% nitrogen and 20% oxygen). Instead, they use specialised gas blends such as trimix (often around 10% oxygen, 20% nitrogen and 70% helium) or heliox (typically 10% oxygen and 90% helium). These blends greatly reduce the risk of both oxygen toxicity and nitrogen narcosis.",
+      "prompt": "What directly causes decompression sickness?",
+      "options": [
+        {
+          "label": "A",
+          "text": "air breathed at depth expanding at lower pressure on the surface"
+        },
+        {
+          "label": "B",
+          "text": "air breathed at surface pressure becoming compressed at depth"
+        },
+        {
+          "label": "C",
+          "text": "air breathed at surface pressure becoming poisonous at depth"
+        },
+        {
+          "label": "D",
+          "text": "air breathed at depth becoming poisonous at lower pressure"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Air breathed under pressure expands as the diver rises to lower pressure, forming dangerous bubbles.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "Read Tech diving: going deep and answer questions 21 to 27.\n\nTech diving: going deep\n\nAt fifty metres underwater, you can no longer see the surface at all. Look up and the blue grows paler; look down and it fades steadily into black.\n\nIn ordinary recreational scuba diving, divers strap a tank of compressed air to their backs and descend into the water, breathing through a device called a regulator that delivers air straight into their mouths. As a diver goes deeper, the surrounding water pressure keeps increasing. At typical recreational depths of around 10 to 20 metres, this pressure isn't much of an issue. Beyond that, though, it can start to have genuinely dangerous effects on the human body.\n\nDivers who go much deeper than this - sometimes as far as 100 metres, often for scientific, military or salvage work - are known as technical divers. Technical diving is considered an extremely demanding and high-risk activity, since a great deal can go wrong that far underwater.\n\nUnder the intense pressure experienced at these depths, divers risk something called nitrogen narcosis, where the nitrogen in ordinary compressed air begins to have a drunken, confusing effect on the brain. There's also the danger of decompression sickness: air breathed at depth expands as a diver rises back towards the surface, and if they ascend too quickly, that expanding gas can form dangerous bubbles inside the body. Divers must pause at intervals on the way up to let this excess gas escape safely.\n\nIn some extreme diving situations, it's even possible to be poisoned by the very oxygen keeping you alive - a condition called oxygen toxicity.\n\nTo avoid these risks, many technical divers don't breathe ordinary compressed air (which is roughly 80% nitrogen and 20% oxygen). Instead, they use specialised gas blends such as trimix (often around 10% oxygen, 20% nitrogen and 70% helium) or heliox (typically 10% oxygen and 90% helium). These blends greatly reduce the risk of both oxygen toxicity and nitrogen narcosis.",
+      "prompt": "According to the text, which gas may poison divers during deep-water dives?",
+      "options": [
+        {
+          "label": "A",
+          "text": "helium"
+        },
+        {
+          "label": "B",
+          "text": "oxygen"
+        },
+        {
+          "label": "C",
+          "text": "trimix"
+        },
+        {
+          "label": "D",
+          "text": "carbon dioxide"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text describes oxygen toxicity — poisoning from the very oxygen keeping a diver alive.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "Read Tech diving: going deep and answer questions 21 to 27.\n\nTech diving: going deep\n\nAt fifty metres underwater, you can no longer see the surface at all. Look up and the blue grows paler; look down and it fades steadily into black.\n\nIn ordinary recreational scuba diving, divers strap a tank of compressed air to their backs and descend into the water, breathing through a device called a regulator that delivers air straight into their mouths. As a diver goes deeper, the surrounding water pressure keeps increasing. At typical recreational depths of around 10 to 20 metres, this pressure isn't much of an issue. Beyond that, though, it can start to have genuinely dangerous effects on the human body.\n\nDivers who go much deeper than this - sometimes as far as 100 metres, often for scientific, military or salvage work - are known as technical divers. Technical diving is considered an extremely demanding and high-risk activity, since a great deal can go wrong that far underwater.\n\nUnder the intense pressure experienced at these depths, divers risk something called nitrogen narcosis, where the nitrogen in ordinary compressed air begins to have a drunken, confusing effect on the brain. There's also the danger of decompression sickness: air breathed at depth expands as a diver rises back towards the surface, and if they ascend too quickly, that expanding gas can form dangerous bubbles inside the body. Divers must pause at intervals on the way up to let this excess gas escape safely.\n\nIn some extreme diving situations, it's even possible to be poisoned by the very oxygen keeping you alive - a condition called oxygen toxicity.\n\nTo avoid these risks, many technical divers don't breathe ordinary compressed air (which is roughly 80% nitrogen and 20% oxygen). Instead, they use specialised gas blends such as trimix (often around 10% oxygen, 20% nitrogen and 70% helium) or heliox (typically 10% oxygen and 90% helium). These blends greatly reduce the risk of both oxygen toxicity and nitrogen narcosis.",
+      "prompt": "In the final sentence, 'These blends' refers to",
+      "options": [
+        {
+          "label": "A",
+          "text": "breathing through a regulator."
+        },
+        {
+          "label": "B",
+          "text": "breathing a life-giving gas."
+        },
+        {
+          "label": "C",
+          "text": "breathing a special gas mixture."
+        },
+        {
+          "label": "D",
+          "text": "breathing compressed air."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'These blends' refers back to the specialised gas mixtures, trimix and heliox, just described.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2015c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "Read The Keeper's Apprentice and answer questions 28 to 34.\n\nThe Keeper's Apprentice\n\nThere was a narrow door set into the lighthouse wall. It was almost hidden behind a painted mural of crashing waves, and in the middle of the door sat a small brass keyhole. Ronan stepped up onto the raised platform and crossed the dusty floorboards towards it. He crouched down to the keyhole and pressed his eye against it, without really thinking about what he was doing. That was simply the kind of boy he was. He didn't expect to find anything unusual at all.\n\nHe certainly didn't expect to find himself staring directly into a single, large, grey-green eye.\n\n'Hello there,' said a voice on the other side - a girl's voice. 'I mean you no harm. I promise.'\n\nRonan scrambled backwards on his hands, his heart suddenly hammering in his chest.\n\n'Who - who are you?' he managed, though the words came out cracked and thin.\n\n'I don't have a name any more,' the voice said. 'It was taken from me, to keep me hidden from the Council of Tidekeepers.'\n\n'I don't even believe in Tidekeepers,' Ronan said.\n\n'Come closer,' said the voice.\n\nNaturally, anyone sensible would say don't. Ronan wasn't foolish - he was, in fact, the reigning under-twelve champion of his town's chess club, which met every Thursday evening. Of course he wasn't going to go any closer. It was simple common sense.\n\nRonan knelt there anyway, staring at the mural: the towering cliffs, the churning turquoise sea, the small figure of a girl carved into the rock with her hand raised. He tugged hard on the strap of his bag, which sometimes helped him think.\n\n'Why can't you come out?' Ronan finally asked.\n\n'I'm trapped,' said the voice.\n\n'Trapped by what?'\n\n'Yes,' said the voice, simply.\n\nRonan could have stood up right then and walked away. He could have turned and retraced his steps past the old anchor and the mosaic of a whale, down the long corridor lined with faded photographs of past keepers, and back down the spiral stairs to where his father was cataloguing supplies in the storeroom below. When his father eventually asked what he'd been doing up there, Ronan could easily have said, 'Nothing much. Bit boring, actually.'\n\nBut he didn't say that. Instead, he lowered himself onto his hands and knees and crept slowly back toward the keyhole.\n\n'What is it you want?' he asked.",
+      "prompt": "Which quotation from the first paragraph indicates that Ronan behaved impulsively?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'Ronan stepped up onto the raised platform'"
+        },
+        {
+          "label": "B",
+          "text": "'That was simply the kind of boy he was.'"
+        },
+        {
+          "label": "C",
+          "text": "'He didn't expect to find anything unusual at all.'"
+        },
+        {
+          "label": "D",
+          "text": "'without really thinking about what he was doing'"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This phrase directly states he acted without thinking, showing impulsiveness.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "Read The Keeper's Apprentice and answer questions 28 to 34.\n\nThe Keeper's Apprentice\n\nThere was a narrow door set into the lighthouse wall. It was almost hidden behind a painted mural of crashing waves, and in the middle of the door sat a small brass keyhole. Ronan stepped up onto the raised platform and crossed the dusty floorboards towards it. He crouched down to the keyhole and pressed his eye against it, without really thinking about what he was doing. That was simply the kind of boy he was. He didn't expect to find anything unusual at all.\n\nHe certainly didn't expect to find himself staring directly into a single, large, grey-green eye.\n\n'Hello there,' said a voice on the other side - a girl's voice. 'I mean you no harm. I promise.'\n\nRonan scrambled backwards on his hands, his heart suddenly hammering in his chest.\n\n'Who - who are you?' he managed, though the words came out cracked and thin.\n\n'I don't have a name any more,' the voice said. 'It was taken from me, to keep me hidden from the Council of Tidekeepers.'\n\n'I don't even believe in Tidekeepers,' Ronan said.\n\n'Come closer,' said the voice.\n\nNaturally, anyone sensible would say don't. Ronan wasn't foolish - he was, in fact, the reigning under-twelve champion of his town's chess club, which met every Thursday evening. Of course he wasn't going to go any closer. It was simple common sense.\n\nRonan knelt there anyway, staring at the mural: the towering cliffs, the churning turquoise sea, the small figure of a girl carved into the rock with her hand raised. He tugged hard on the strap of his bag, which sometimes helped him think.\n\n'Why can't you come out?' Ronan finally asked.\n\n'I'm trapped,' said the voice.\n\n'Trapped by what?'\n\n'Yes,' said the voice, simply.\n\nRonan could have stood up right then and walked away. He could have turned and retraced his steps past the old anchor and the mosaic of a whale, down the long corridor lined with faded photographs of past keepers, and back down the spiral stairs to where his father was cataloguing supplies in the storeroom below. When his father eventually asked what he'd been doing up there, Ronan could easily have said, 'Nothing much. Bit boring, actually.'\n\nBut he didn't say that. Instead, he lowered himself onto his hands and knees and crept slowly back toward the keyhole.\n\n'What is it you want?' he asked.",
+      "prompt": "What was Ronan's immediate response to the girl's voice?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He was shocked and scrambled backwards."
+        },
+        {
+          "label": "B",
+          "text": "He was worried she might have been watching him."
+        },
+        {
+          "label": "C",
+          "text": "He was irritated that she had found his hiding place."
+        },
+        {
+          "label": "D",
+          "text": "He was intrigued and wanted to know more about her."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "He scrambles backward with his heart hammering — a shocked, startled reaction.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "Read The Keeper's Apprentice and answer questions 28 to 34.\n\nThe Keeper's Apprentice\n\nThere was a narrow door set into the lighthouse wall. It was almost hidden behind a painted mural of crashing waves, and in the middle of the door sat a small brass keyhole. Ronan stepped up onto the raised platform and crossed the dusty floorboards towards it. He crouched down to the keyhole and pressed his eye against it, without really thinking about what he was doing. That was simply the kind of boy he was. He didn't expect to find anything unusual at all.\n\nHe certainly didn't expect to find himself staring directly into a single, large, grey-green eye.\n\n'Hello there,' said a voice on the other side - a girl's voice. 'I mean you no harm. I promise.'\n\nRonan scrambled backwards on his hands, his heart suddenly hammering in his chest.\n\n'Who - who are you?' he managed, though the words came out cracked and thin.\n\n'I don't have a name any more,' the voice said. 'It was taken from me, to keep me hidden from the Council of Tidekeepers.'\n\n'I don't even believe in Tidekeepers,' Ronan said.\n\n'Come closer,' said the voice.\n\nNaturally, anyone sensible would say don't. Ronan wasn't foolish - he was, in fact, the reigning under-twelve champion of his town's chess club, which met every Thursday evening. Of course he wasn't going to go any closer. It was simple common sense.\n\nRonan knelt there anyway, staring at the mural: the towering cliffs, the churning turquoise sea, the small figure of a girl carved into the rock with her hand raised. He tugged hard on the strap of his bag, which sometimes helped him think.\n\n'Why can't you come out?' Ronan finally asked.\n\n'I'm trapped,' said the voice.\n\n'Trapped by what?'\n\n'Yes,' said the voice, simply.\n\nRonan could have stood up right then and walked away. He could have turned and retraced his steps past the old anchor and the mosaic of a whale, down the long corridor lined with faded photographs of past keepers, and back down the spiral stairs to where his father was cataloguing supplies in the storeroom below. When his father eventually asked what he'd been doing up there, Ronan could easily have said, 'Nothing much. Bit boring, actually.'\n\nBut he didn't say that. Instead, he lowered himself onto his hands and knees and crept slowly back toward the keyhole.\n\n'What is it you want?' he asked.",
+      "prompt": "'Naturally, anyone sensible would say don't.' Who does 'anyone' refer to in this quotation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "people at the lighthouse"
+        },
+        {
+          "label": "B",
+          "text": "people in general"
+        },
+        {
+          "label": "C",
+          "text": "children who belong to the chess club"
+        },
+        {
+          "label": "D",
+          "text": "Ronan's father"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Anyone sensible' is a general statement about people in general, not a specific group.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2015c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "Read The Keeper's Apprentice and answer questions 28 to 34.\n\nThe Keeper's Apprentice\n\nThere was a narrow door set into the lighthouse wall. It was almost hidden behind a painted mural of crashing waves, and in the middle of the door sat a small brass keyhole. Ronan stepped up onto the raised platform and crossed the dusty floorboards towards it. He crouched down to the keyhole and pressed his eye against it, without really thinking about what he was doing. That was simply the kind of boy he was. He didn't expect to find anything unusual at all.\n\nHe certainly didn't expect to find himself staring directly into a single, large, grey-green eye.\n\n'Hello there,' said a voice on the other side - a girl's voice. 'I mean you no harm. I promise.'\n\nRonan scrambled backwards on his hands, his heart suddenly hammering in his chest.\n\n'Who - who are you?' he managed, though the words came out cracked and thin.\n\n'I don't have a name any more,' the voice said. 'It was taken from me, to keep me hidden from the Council of Tidekeepers.'\n\n'I don't even believe in Tidekeepers,' Ronan said.\n\n'Come closer,' said the voice.\n\nNaturally, anyone sensible would say don't. Ronan wasn't foolish - he was, in fact, the reigning under-twelve champion of his town's chess club, which met every Thursday evening. Of course he wasn't going to go any closer. It was simple common sense.\n\nRonan knelt there anyway, staring at the mural: the towering cliffs, the churning turquoise sea, the small figure of a girl carved into the rock with her hand raised. He tugged hard on the strap of his bag, which sometimes helped him think.\n\n'Why can't you come out?' Ronan finally asked.\n\n'I'm trapped,' said the voice.\n\n'Trapped by what?'\n\n'Yes,' said the voice, simply.\n\nRonan could have stood up right then and walked away. He could have turned and retraced his steps past the old anchor and the mosaic of a whale, down the long corridor lined with faded photographs of past keepers, and back down the spiral stairs to where his father was cataloguing supplies in the storeroom below. When his father eventually asked what he'd been doing up there, Ronan could easily have said, 'Nothing much. Bit boring, actually.'\n\nBut he didn't say that. Instead, he lowered himself onto his hands and knees and crept slowly back toward the keyhole.\n\n'What is it you want?' he asked.",
+      "prompt": "Why does the writer mention that Ronan was the under-twelve chess champion?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to show that Ronan was an interesting young person"
+        },
+        {
+          "label": "B",
+          "text": "to prove that Ronan was sensible but disobedient"
+        },
+        {
+          "label": "C",
+          "text": "to indicate Ronan was smarter than his behaviour made him seem"
+        },
+        {
+          "label": "D",
+          "text": "to reveal Ronan would use his chess skills to outwit the girl"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Despite being clever enough to win at chess, Ronan still creeps closer — showing curiosity overriding sense.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "Read The Keeper's Apprentice and answer questions 28 to 34.\n\nThe Keeper's Apprentice\n\nThere was a narrow door set into the lighthouse wall. It was almost hidden behind a painted mural of crashing waves, and in the middle of the door sat a small brass keyhole. Ronan stepped up onto the raised platform and crossed the dusty floorboards towards it. He crouched down to the keyhole and pressed his eye against it, without really thinking about what he was doing. That was simply the kind of boy he was. He didn't expect to find anything unusual at all.\n\nHe certainly didn't expect to find himself staring directly into a single, large, grey-green eye.\n\n'Hello there,' said a voice on the other side - a girl's voice. 'I mean you no harm. I promise.'\n\nRonan scrambled backwards on his hands, his heart suddenly hammering in his chest.\n\n'Who - who are you?' he managed, though the words came out cracked and thin.\n\n'I don't have a name any more,' the voice said. 'It was taken from me, to keep me hidden from the Council of Tidekeepers.'\n\n'I don't even believe in Tidekeepers,' Ronan said.\n\n'Come closer,' said the voice.\n\nNaturally, anyone sensible would say don't. Ronan wasn't foolish - he was, in fact, the reigning under-twelve champion of his town's chess club, which met every Thursday evening. Of course he wasn't going to go any closer. It was simple common sense.\n\nRonan knelt there anyway, staring at the mural: the towering cliffs, the churning turquoise sea, the small figure of a girl carved into the rock with her hand raised. He tugged hard on the strap of his bag, which sometimes helped him think.\n\n'Why can't you come out?' Ronan finally asked.\n\n'I'm trapped,' said the voice.\n\n'Trapped by what?'\n\n'Yes,' said the voice, simply.\n\nRonan could have stood up right then and walked away. He could have turned and retraced his steps past the old anchor and the mosaic of a whale, down the long corridor lined with faded photographs of past keepers, and back down the spiral stairs to where his father was cataloguing supplies in the storeroom below. When his father eventually asked what he'd been doing up there, Ronan could easily have said, 'Nothing much. Bit boring, actually.'\n\nBut he didn't say that. Instead, he lowered himself onto his hands and knees and crept slowly back toward the keyhole.\n\n'What is it you want?' he asked.",
+      "prompt": "The word 'churning' means",
+      "options": [
+        {
+          "label": "A",
+          "text": "annoyed."
+        },
+        {
+          "label": "B",
+          "text": "fearful."
+        },
+        {
+          "label": "C",
+          "text": "suspicious."
+        },
+        {
+          "label": "D",
+          "text": "turbulent."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Churning' describes water moving roughly and turbulently.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2015c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "Read The Keeper's Apprentice and answer questions 28 to 34.\n\nThe Keeper's Apprentice\n\nThere was a narrow door set into the lighthouse wall. It was almost hidden behind a painted mural of crashing waves, and in the middle of the door sat a small brass keyhole. Ronan stepped up onto the raised platform and crossed the dusty floorboards towards it. He crouched down to the keyhole and pressed his eye against it, without really thinking about what he was doing. That was simply the kind of boy he was. He didn't expect to find anything unusual at all.\n\nHe certainly didn't expect to find himself staring directly into a single, large, grey-green eye.\n\n'Hello there,' said a voice on the other side - a girl's voice. 'I mean you no harm. I promise.'\n\nRonan scrambled backwards on his hands, his heart suddenly hammering in his chest.\n\n'Who - who are you?' he managed, though the words came out cracked and thin.\n\n'I don't have a name any more,' the voice said. 'It was taken from me, to keep me hidden from the Council of Tidekeepers.'\n\n'I don't even believe in Tidekeepers,' Ronan said.\n\n'Come closer,' said the voice.\n\nNaturally, anyone sensible would say don't. Ronan wasn't foolish - he was, in fact, the reigning under-twelve champion of his town's chess club, which met every Thursday evening. Of course he wasn't going to go any closer. It was simple common sense.\n\nRonan knelt there anyway, staring at the mural: the towering cliffs, the churning turquoise sea, the small figure of a girl carved into the rock with her hand raised. He tugged hard on the strap of his bag, which sometimes helped him think.\n\n'Why can't you come out?' Ronan finally asked.\n\n'I'm trapped,' said the voice.\n\n'Trapped by what?'\n\n'Yes,' said the voice, simply.\n\nRonan could have stood up right then and walked away. He could have turned and retraced his steps past the old anchor and the mosaic of a whale, down the long corridor lined with faded photographs of past keepers, and back down the spiral stairs to where his father was cataloguing supplies in the storeroom below. When his father eventually asked what he'd been doing up there, Ronan could easily have said, 'Nothing much. Bit boring, actually.'\n\nBut he didn't say that. Instead, he lowered himself onto his hands and knees and crept slowly back toward the keyhole.\n\n'What is it you want?' he asked.",
+      "prompt": "'\"Yes,\" said the voice, simply.' What does this response suggest about what trapped her?",
+      "options": [
+        {
+          "label": "A",
+          "text": "it is left deliberately vague"
+        },
+        {
+          "label": "B",
+          "text": "it is well understood by Ronan"
+        },
+        {
+          "label": "C",
+          "text": "it is something that Ronan asked about directly"
+        },
+        {
+          "label": "D",
+          "text": "it is easily explained"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The brief, unexplained 'Yes' leaves the nature of her trap mysterious and vague.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "Read The Keeper's Apprentice and answer questions 28 to 34.\n\nThe Keeper's Apprentice\n\nThere was a narrow door set into the lighthouse wall. It was almost hidden behind a painted mural of crashing waves, and in the middle of the door sat a small brass keyhole. Ronan stepped up onto the raised platform and crossed the dusty floorboards towards it. He crouched down to the keyhole and pressed his eye against it, without really thinking about what he was doing. That was simply the kind of boy he was. He didn't expect to find anything unusual at all.\n\nHe certainly didn't expect to find himself staring directly into a single, large, grey-green eye.\n\n'Hello there,' said a voice on the other side - a girl's voice. 'I mean you no harm. I promise.'\n\nRonan scrambled backwards on his hands, his heart suddenly hammering in his chest.\n\n'Who - who are you?' he managed, though the words came out cracked and thin.\n\n'I don't have a name any more,' the voice said. 'It was taken from me, to keep me hidden from the Council of Tidekeepers.'\n\n'I don't even believe in Tidekeepers,' Ronan said.\n\n'Come closer,' said the voice.\n\nNaturally, anyone sensible would say don't. Ronan wasn't foolish - he was, in fact, the reigning under-twelve champion of his town's chess club, which met every Thursday evening. Of course he wasn't going to go any closer. It was simple common sense.\n\nRonan knelt there anyway, staring at the mural: the towering cliffs, the churning turquoise sea, the small figure of a girl carved into the rock with her hand raised. He tugged hard on the strap of his bag, which sometimes helped him think.\n\n'Why can't you come out?' Ronan finally asked.\n\n'I'm trapped,' said the voice.\n\n'Trapped by what?'\n\n'Yes,' said the voice, simply.\n\nRonan could have stood up right then and walked away. He could have turned and retraced his steps past the old anchor and the mosaic of a whale, down the long corridor lined with faded photographs of past keepers, and back down the spiral stairs to where his father was cataloguing supplies in the storeroom below. When his father eventually asked what he'd been doing up there, Ronan could easily have said, 'Nothing much. Bit boring, actually.'\n\nBut he didn't say that. Instead, he lowered himself onto his hands and knees and crept slowly back toward the keyhole.\n\n'What is it you want?' he asked.",
+      "prompt": "At the end of the extract, why does the writer list many actions that Ronan could have taken but did not?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to suggest Ronan knew exactly what to do next"
+        },
+        {
+          "label": "B",
+          "text": "to support the impression that Ronan was making a bold choice"
+        },
+        {
+          "label": "C",
+          "text": "to emphasise that Ronan always carefully considered his actions"
+        },
+        {
+          "label": "D",
+          "text": "to create the feeling that Ronan was trying to bother the girl"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Listing the safe alternatives he rejected highlights how bold his choice to stay was.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "Read My rant: Tablets vs Textbooks and answer questions 35 to 42.\n\nMy rant: Tablets vs Textbooks\n\nAs a parent, I've come to accept that technology plays a huge part in children's lives these days, and school is no exception. Yet even though teachers now rely on smart boards and online videos to bring lessons to life, and students use computers for classwork every single day, one relic from the past still hangs around: the traditional printed textbook. Heavy, expensive, wasteful, and impossible to update quickly - surely it's time we finally retired the old-fashioned textbook for good.\n\nWhy lug around a heavy block of printed paper when the exact same textbook could just as easily exist as an e-book on a lightweight tablet? Overloaded school bags cause thousands of documented injuries to students every year. There's really no excuse for putting kids through that in this day and age.\n\nSome will point to the upfront cost of a tablet, but with prices already reasonable for most families - and continuing to drop each year - who can really justify paying full price for a printed science textbook that will be outdated within a couple of years anyway? The same content, as an e-book, typically costs a fraction of the printed price, and can be updated instantly. Better yet, not a single tree needs to be cut down to produce it.\n\nThis isn't just about textbooks, either. A single tablet can hold an entire student's worth of reading material, and teachers can distribute homework, quizzes and class notes digitally too, all stored safely in the 'cloud' and accessible from anywhere with an internet connection. No more excuses about lost homework. Moving learning materials online doesn't just cut down on waste - it makes the whole system more efficient.\n\nPerhaps the strongest argument of all is the simple fact that today's students are growing up in an increasingly digital world. The technology sector is one of the fastest-growing and best-paid industries anywhere, and that isn't going to change any time soon. Students who grow up comfortable with technology will simply be better prepared for whatever comes next.\n\nFor all these reasons and more, it's time we let the traditional textbook go.",
+      "prompt": "What is the writer's point of view about electronic technology in the first paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is overused in schools."
+        },
+        {
+          "label": "B",
+          "text": "It should be balanced with traditional teaching."
+        },
+        {
+          "label": "C",
+          "text": "It is a familiar feature in classrooms."
+        },
+        {
+          "label": "D",
+          "text": "It has not been adequately tested by teachers."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The writer describes technology as already a normal, everyday part of classrooms.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "Read My rant: Tablets vs Textbooks and answer questions 35 to 42.\n\nMy rant: Tablets vs Textbooks\n\nAs a parent, I've come to accept that technology plays a huge part in children's lives these days, and school is no exception. Yet even though teachers now rely on smart boards and online videos to bring lessons to life, and students use computers for classwork every single day, one relic from the past still hangs around: the traditional printed textbook. Heavy, expensive, wasteful, and impossible to update quickly - surely it's time we finally retired the old-fashioned textbook for good.\n\nWhy lug around a heavy block of printed paper when the exact same textbook could just as easily exist as an e-book on a lightweight tablet? Overloaded school bags cause thousands of documented injuries to students every year. There's really no excuse for putting kids through that in this day and age.\n\nSome will point to the upfront cost of a tablet, but with prices already reasonable for most families - and continuing to drop each year - who can really justify paying full price for a printed science textbook that will be outdated within a couple of years anyway? The same content, as an e-book, typically costs a fraction of the printed price, and can be updated instantly. Better yet, not a single tree needs to be cut down to produce it.\n\nThis isn't just about textbooks, either. A single tablet can hold an entire student's worth of reading material, and teachers can distribute homework, quizzes and class notes digitally too, all stored safely in the 'cloud' and accessible from anywhere with an internet connection. No more excuses about lost homework. Moving learning materials online doesn't just cut down on waste - it makes the whole system more efficient.\n\nPerhaps the strongest argument of all is the simple fact that today's students are growing up in an increasingly digital world. The technology sector is one of the fastest-growing and best-paid industries anywhere, and that isn't going to change any time soon. Students who grow up comfortable with technology will simply be better prepared for whatever comes next.\n\nFor all these reasons and more, it's time we let the traditional textbook go.",
+      "prompt": "The writer suggests that some people might object to replacing textbooks with tablets because they think that",
+      "options": [
+        {
+          "label": "A",
+          "text": "students learn better from textbooks."
+        },
+        {
+          "label": "B",
+          "text": "tablets are too hard to update."
+        },
+        {
+          "label": "C",
+          "text": "students prefer textbooks."
+        },
+        {
+          "label": "D",
+          "text": "tablets are too expensive."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The writer directly addresses the objection about the 'upfront cost of a tablet'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "Read My rant: Tablets vs Textbooks and answer questions 35 to 42.\n\nMy rant: Tablets vs Textbooks\n\nAs a parent, I've come to accept that technology plays a huge part in children's lives these days, and school is no exception. Yet even though teachers now rely on smart boards and online videos to bring lessons to life, and students use computers for classwork every single day, one relic from the past still hangs around: the traditional printed textbook. Heavy, expensive, wasteful, and impossible to update quickly - surely it's time we finally retired the old-fashioned textbook for good.\n\nWhy lug around a heavy block of printed paper when the exact same textbook could just as easily exist as an e-book on a lightweight tablet? Overloaded school bags cause thousands of documented injuries to students every year. There's really no excuse for putting kids through that in this day and age.\n\nSome will point to the upfront cost of a tablet, but with prices already reasonable for most families - and continuing to drop each year - who can really justify paying full price for a printed science textbook that will be outdated within a couple of years anyway? The same content, as an e-book, typically costs a fraction of the printed price, and can be updated instantly. Better yet, not a single tree needs to be cut down to produce it.\n\nThis isn't just about textbooks, either. A single tablet can hold an entire student's worth of reading material, and teachers can distribute homework, quizzes and class notes digitally too, all stored safely in the 'cloud' and accessible from anywhere with an internet connection. No more excuses about lost homework. Moving learning materials online doesn't just cut down on waste - it makes the whole system more efficient.\n\nPerhaps the strongest argument of all is the simple fact that today's students are growing up in an increasingly digital world. The technology sector is one of the fastest-growing and best-paid industries anywhere, and that isn't going to change any time soon. Students who grow up comfortable with technology will simply be better prepared for whatever comes next.\n\nFor all these reasons and more, it's time we let the traditional textbook go.",
+      "prompt": "The word 'outdated', as it is used in the text, means",
+      "options": [
+        {
+          "label": "A",
+          "text": "old-fashioned."
+        },
+        {
+          "label": "B",
+          "text": "unwanted."
+        },
+        {
+          "label": "C",
+          "text": "worn-out."
+        },
+        {
+          "label": "D",
+          "text": "unused."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Outdated' means no longer current — old-fashioned.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2015c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "Read My rant: Tablets vs Textbooks and answer questions 35 to 42.\n\nMy rant: Tablets vs Textbooks\n\nAs a parent, I've come to accept that technology plays a huge part in children's lives these days, and school is no exception. Yet even though teachers now rely on smart boards and online videos to bring lessons to life, and students use computers for classwork every single day, one relic from the past still hangs around: the traditional printed textbook. Heavy, expensive, wasteful, and impossible to update quickly - surely it's time we finally retired the old-fashioned textbook for good.\n\nWhy lug around a heavy block of printed paper when the exact same textbook could just as easily exist as an e-book on a lightweight tablet? Overloaded school bags cause thousands of documented injuries to students every year. There's really no excuse for putting kids through that in this day and age.\n\nSome will point to the upfront cost of a tablet, but with prices already reasonable for most families - and continuing to drop each year - who can really justify paying full price for a printed science textbook that will be outdated within a couple of years anyway? The same content, as an e-book, typically costs a fraction of the printed price, and can be updated instantly. Better yet, not a single tree needs to be cut down to produce it.\n\nThis isn't just about textbooks, either. A single tablet can hold an entire student's worth of reading material, and teachers can distribute homework, quizzes and class notes digitally too, all stored safely in the 'cloud' and accessible from anywhere with an internet connection. No more excuses about lost homework. Moving learning materials online doesn't just cut down on waste - it makes the whole system more efficient.\n\nPerhaps the strongest argument of all is the simple fact that today's students are growing up in an increasingly digital world. The technology sector is one of the fastest-growing and best-paid industries anywhere, and that isn't going to change any time soon. Students who grow up comfortable with technology will simply be better prepared for whatever comes next.\n\nFor all these reasons and more, it's time we let the traditional textbook go.",
+      "prompt": "The writer places the word 'cloud' in quotation marks to show that",
+      "options": [
+        {
+          "label": "A",
+          "text": "the word is important."
+        },
+        {
+          "label": "B",
+          "text": "the word is being used in a technical, non-literal way."
+        },
+        {
+          "label": "C",
+          "text": "a definition will be given for the word."
+        },
+        {
+          "label": "D",
+          "text": "the word is quoted from another source."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Cloud' here refers to online data storage, not an actual cloud — a special, technical use of the word.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "passage": "Read My rant: Tablets vs Textbooks and answer questions 35 to 42.\n\nMy rant: Tablets vs Textbooks\n\nAs a parent, I've come to accept that technology plays a huge part in children's lives these days, and school is no exception. Yet even though teachers now rely on smart boards and online videos to bring lessons to life, and students use computers for classwork every single day, one relic from the past still hangs around: the traditional printed textbook. Heavy, expensive, wasteful, and impossible to update quickly - surely it's time we finally retired the old-fashioned textbook for good.\n\nWhy lug around a heavy block of printed paper when the exact same textbook could just as easily exist as an e-book on a lightweight tablet? Overloaded school bags cause thousands of documented injuries to students every year. There's really no excuse for putting kids through that in this day and age.\n\nSome will point to the upfront cost of a tablet, but with prices already reasonable for most families - and continuing to drop each year - who can really justify paying full price for a printed science textbook that will be outdated within a couple of years anyway? The same content, as an e-book, typically costs a fraction of the printed price, and can be updated instantly. Better yet, not a single tree needs to be cut down to produce it.\n\nThis isn't just about textbooks, either. A single tablet can hold an entire student's worth of reading material, and teachers can distribute homework, quizzes and class notes digitally too, all stored safely in the 'cloud' and accessible from anywhere with an internet connection. No more excuses about lost homework. Moving learning materials online doesn't just cut down on waste - it makes the whole system more efficient.\n\nPerhaps the strongest argument of all is the simple fact that today's students are growing up in an increasingly digital world. The technology sector is one of the fastest-growing and best-paid industries anywhere, and that isn't going to change any time soon. Students who grow up comfortable with technology will simply be better prepared for whatever comes next.\n\nFor all these reasons and more, it's time we let the traditional textbook go.",
+      "prompt": "Which quotation from the text best shows that the writer has negative feelings about textbooks?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'traditional textbook'"
+        },
+        {
+          "label": "B",
+          "text": "'The same content, as an e-book'"
+        },
+        {
+          "label": "C",
+          "text": "'a heavy block of printed paper'"
+        },
+        {
+          "label": "D",
+          "text": "'No more excuses about lost homework'"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Describing a textbook dismissively as 'a heavy block of printed paper' shows clear negative feeling.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "passage": "Read My rant: Tablets vs Textbooks and answer questions 35 to 42.\n\nMy rant: Tablets vs Textbooks\n\nAs a parent, I've come to accept that technology plays a huge part in children's lives these days, and school is no exception. Yet even though teachers now rely on smart boards and online videos to bring lessons to life, and students use computers for classwork every single day, one relic from the past still hangs around: the traditional printed textbook. Heavy, expensive, wasteful, and impossible to update quickly - surely it's time we finally retired the old-fashioned textbook for good.\n\nWhy lug around a heavy block of printed paper when the exact same textbook could just as easily exist as an e-book on a lightweight tablet? Overloaded school bags cause thousands of documented injuries to students every year. There's really no excuse for putting kids through that in this day and age.\n\nSome will point to the upfront cost of a tablet, but with prices already reasonable for most families - and continuing to drop each year - who can really justify paying full price for a printed science textbook that will be outdated within a couple of years anyway? The same content, as an e-book, typically costs a fraction of the printed price, and can be updated instantly. Better yet, not a single tree needs to be cut down to produce it.\n\nThis isn't just about textbooks, either. A single tablet can hold an entire student's worth of reading material, and teachers can distribute homework, quizzes and class notes digitally too, all stored safely in the 'cloud' and accessible from anywhere with an internet connection. No more excuses about lost homework. Moving learning materials online doesn't just cut down on waste - it makes the whole system more efficient.\n\nPerhaps the strongest argument of all is the simple fact that today's students are growing up in an increasingly digital world. The technology sector is one of the fastest-growing and best-paid industries anywhere, and that isn't going to change any time soon. Students who grow up comfortable with technology will simply be better prepared for whatever comes next.\n\nFor all these reasons and more, it's time we let the traditional textbook go.",
+      "prompt": "Which two aspects of tablets are the focus of the fourth paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "affordability and reliability"
+        },
+        {
+          "label": "B",
+          "text": "efficiency and safety"
+        },
+        {
+          "label": "C",
+          "text": "environmental impact and reliability"
+        },
+        {
+          "label": "D",
+          "text": "convenience and efficiency"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The paragraph focuses on how convenient and efficient digital homework and storage are.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q41",
+      "number": 41,
+      "type": "multiple_choice",
+      "passage": "Read My rant: Tablets vs Textbooks and answer questions 35 to 42.\n\nMy rant: Tablets vs Textbooks\n\nAs a parent, I've come to accept that technology plays a huge part in children's lives these days, and school is no exception. Yet even though teachers now rely on smart boards and online videos to bring lessons to life, and students use computers for classwork every single day, one relic from the past still hangs around: the traditional printed textbook. Heavy, expensive, wasteful, and impossible to update quickly - surely it's time we finally retired the old-fashioned textbook for good.\n\nWhy lug around a heavy block of printed paper when the exact same textbook could just as easily exist as an e-book on a lightweight tablet? Overloaded school bags cause thousands of documented injuries to students every year. There's really no excuse for putting kids through that in this day and age.\n\nSome will point to the upfront cost of a tablet, but with prices already reasonable for most families - and continuing to drop each year - who can really justify paying full price for a printed science textbook that will be outdated within a couple of years anyway? The same content, as an e-book, typically costs a fraction of the printed price, and can be updated instantly. Better yet, not a single tree needs to be cut down to produce it.\n\nThis isn't just about textbooks, either. A single tablet can hold an entire student's worth of reading material, and teachers can distribute homework, quizzes and class notes digitally too, all stored safely in the 'cloud' and accessible from anywhere with an internet connection. No more excuses about lost homework. Moving learning materials online doesn't just cut down on waste - it makes the whole system more efficient.\n\nPerhaps the strongest argument of all is the simple fact that today's students are growing up in an increasingly digital world. The technology sector is one of the fastest-growing and best-paid industries anywhere, and that isn't going to change any time soon. Students who grow up comfortable with technology will simply be better prepared for whatever comes next.\n\nFor all these reasons and more, it's time we let the traditional textbook go.",
+      "prompt": "The writer feels that the best reason to switch from textbooks to tablets is",
+      "options": [
+        {
+          "label": "A",
+          "text": "to get students ready for the future."
+        },
+        {
+          "label": "B",
+          "text": "to reduce the potential for student injury."
+        },
+        {
+          "label": "C",
+          "text": "to decrease the number of trees cut down."
+        },
+        {
+          "label": "D",
+          "text": "to engage students who like using computers."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The writer calls preparing students for a digital future 'perhaps the strongest argument of all'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q42",
+      "number": 42,
+      "type": "multiple_choice",
+      "passage": "Read My rant: Tablets vs Textbooks and answer questions 35 to 42.\n\nMy rant: Tablets vs Textbooks\n\nAs a parent, I've come to accept that technology plays a huge part in children's lives these days, and school is no exception. Yet even though teachers now rely on smart boards and online videos to bring lessons to life, and students use computers for classwork every single day, one relic from the past still hangs around: the traditional printed textbook. Heavy, expensive, wasteful, and impossible to update quickly - surely it's time we finally retired the old-fashioned textbook for good.\n\nWhy lug around a heavy block of printed paper when the exact same textbook could just as easily exist as an e-book on a lightweight tablet? Overloaded school bags cause thousands of documented injuries to students every year. There's really no excuse for putting kids through that in this day and age.\n\nSome will point to the upfront cost of a tablet, but with prices already reasonable for most families - and continuing to drop each year - who can really justify paying full price for a printed science textbook that will be outdated within a couple of years anyway? The same content, as an e-book, typically costs a fraction of the printed price, and can be updated instantly. Better yet, not a single tree needs to be cut down to produce it.\n\nThis isn't just about textbooks, either. A single tablet can hold an entire student's worth of reading material, and teachers can distribute homework, quizzes and class notes digitally too, all stored safely in the 'cloud' and accessible from anywhere with an internet connection. No more excuses about lost homework. Moving learning materials online doesn't just cut down on waste - it makes the whole system more efficient.\n\nPerhaps the strongest argument of all is the simple fact that today's students are growing up in an increasingly digital world. The technology sector is one of the fastest-growing and best-paid industries anywhere, and that isn't going to change any time soon. Students who grow up comfortable with technology will simply be better prepared for whatever comes next.\n\nFor all these reasons and more, it's time we let the traditional textbook go.",
+      "prompt": "What type of text is this?",
+      "options": [
+        {
+          "label": "A",
+          "text": "narrative"
+        },
+        {
+          "label": "B",
+          "text": "persuasive"
+        },
+        {
+          "label": "C",
+          "text": "descriptive"
+        },
+        {
+          "label": "D",
+          "text": "informative"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text argues a clear opinion throughout, making it a persuasive text.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q43",
+      "number": 43,
+      "type": "multiple_choice",
+      "passage": "Read The Elephant's Child and answer questions 43 to 50.\n\nThis text is part of a folktale about animal origins.\n\n'Come hither, Little One,' said the Crocodile, 'for I am the Crocodile,' and he wept crocodile-tears to show it was quite true.\n\nThen the Elephant's Child became breathless, and panted, and knelt down on the bank and said, 'You are the very person I have been looking for all these long days. Will you please tell me what you have for dinner?'\n\n'Come hither, Little One,' said the Crocodile, 'and I'll whisper.'\n\nThen the Elephant's Child put his head down close to the Crocodile's musky, tusky mouth, and the Crocodile caught him by his little nose, which up to that very week, day, hour, and minute, had been no bigger than a boot, though much more useful.\n\n'I think,' said the Crocodile - and he said it between his teeth, like this - 'I think today I will begin with Elephant's Child!'\n\nAt this, O Best Beloved, the Elephant's Child was much annoyed, and he said, speaking through his nose, like this, 'Led go! You are hurtig be!'\n\nThen the Bi-Coloured-Python-Rock-Snake scuffled down from the bank and said, 'My young friend, if you do not now, immediately and instantly, pull as hard as ever you can, it is my opinion that your acquaintance in the large-pattern leather ulster' (and by this he meant the Crocodile) 'will jerk you into yonder limpid stream before you can say Jack Robinson.'\n\nThis is the way Bi-Coloured-Python-Rock-Snakes always talk.\n\nThen the Elephant's Child sat back on his little haunches, and pulled, and pulled, and pulled, and his nose began to stretch. And the Crocodile floundered into the water, making it all creamy with great sweeps of his tail, and he pulled, and pulled, and pulled.\n\nAnd the Elephant's Child's nose kept on stretching; and the Elephant's Child spread all his little four legs and pulled, and pulled, and pulled, and his nose kept on stretching; and the Crocodile threshed his tail like an oar, and he pulled, and pulled, and pulled, and at each pull the Elephant's Child's nose grew longer and longer - and it hurt him hijjus!\n\nThen the Elephant's Child felt his legs slipping, and he said through his nose, which was now nearly five feet long, 'This is too butch for be!'\n\n[Editor's note: Don't worry - the Elephant's Child gets away in the end!]\n\nRudyard Kipling",
+      "prompt": "'Come hither, Little One... and I'll whisper.' When the Crocodile says this, he is being",
+      "options": [
+        {
+          "label": "A",
+          "text": "cruel."
+        },
+        {
+          "label": "B",
+          "text": "violent."
+        },
+        {
+          "label": "C",
+          "text": "cunning."
+        },
+        {
+          "label": "D",
+          "text": "intimidating."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The Crocodile is luring the Elephant's Child in with a deceptive, cunning trick.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q44",
+      "number": 44,
+      "type": "multiple_choice",
+      "passage": "Read The Elephant's Child and answer questions 43 to 50.\n\nThis text is part of a folktale about animal origins.\n\n'Come hither, Little One,' said the Crocodile, 'for I am the Crocodile,' and he wept crocodile-tears to show it was quite true.\n\nThen the Elephant's Child became breathless, and panted, and knelt down on the bank and said, 'You are the very person I have been looking for all these long days. Will you please tell me what you have for dinner?'\n\n'Come hither, Little One,' said the Crocodile, 'and I'll whisper.'\n\nThen the Elephant's Child put his head down close to the Crocodile's musky, tusky mouth, and the Crocodile caught him by his little nose, which up to that very week, day, hour, and minute, had been no bigger than a boot, though much more useful.\n\n'I think,' said the Crocodile - and he said it between his teeth, like this - 'I think today I will begin with Elephant's Child!'\n\nAt this, O Best Beloved, the Elephant's Child was much annoyed, and he said, speaking through his nose, like this, 'Led go! You are hurtig be!'\n\nThen the Bi-Coloured-Python-Rock-Snake scuffled down from the bank and said, 'My young friend, if you do not now, immediately and instantly, pull as hard as ever you can, it is my opinion that your acquaintance in the large-pattern leather ulster' (and by this he meant the Crocodile) 'will jerk you into yonder limpid stream before you can say Jack Robinson.'\n\nThis is the way Bi-Coloured-Python-Rock-Snakes always talk.\n\nThen the Elephant's Child sat back on his little haunches, and pulled, and pulled, and pulled, and his nose began to stretch. And the Crocodile floundered into the water, making it all creamy with great sweeps of his tail, and he pulled, and pulled, and pulled.\n\nAnd the Elephant's Child's nose kept on stretching; and the Elephant's Child spread all his little four legs and pulled, and pulled, and pulled, and his nose kept on stretching; and the Crocodile threshed his tail like an oar, and he pulled, and pulled, and pulled, and at each pull the Elephant's Child's nose grew longer and longer - and it hurt him hijjus!\n\nThen the Elephant's Child felt his legs slipping, and he said through his nose, which was now nearly five feet long, 'This is too butch for be!'\n\n[Editor's note: Don't worry - the Elephant's Child gets away in the end!]\n\nRudyard Kipling",
+      "prompt": "In this story, the Elephant's Child ends up in a dangerous situation mainly because of his",
+      "options": [
+        {
+          "label": "A",
+          "text": "generosity."
+        },
+        {
+          "label": "B",
+          "text": "pride."
+        },
+        {
+          "label": "C",
+          "text": "laziness."
+        },
+        {
+          "label": "D",
+          "text": "curiosity."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "His 'satiable curtiosity' about what the Crocodile eats leads him into danger.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q45",
+      "number": 45,
+      "type": "multiple_choice",
+      "passage": "Read The Elephant's Child and answer questions 43 to 50.\n\nThis text is part of a folktale about animal origins.\n\n'Come hither, Little One,' said the Crocodile, 'for I am the Crocodile,' and he wept crocodile-tears to show it was quite true.\n\nThen the Elephant's Child became breathless, and panted, and knelt down on the bank and said, 'You are the very person I have been looking for all these long days. Will you please tell me what you have for dinner?'\n\n'Come hither, Little One,' said the Crocodile, 'and I'll whisper.'\n\nThen the Elephant's Child put his head down close to the Crocodile's musky, tusky mouth, and the Crocodile caught him by his little nose, which up to that very week, day, hour, and minute, had been no bigger than a boot, though much more useful.\n\n'I think,' said the Crocodile - and he said it between his teeth, like this - 'I think today I will begin with Elephant's Child!'\n\nAt this, O Best Beloved, the Elephant's Child was much annoyed, and he said, speaking through his nose, like this, 'Led go! You are hurtig be!'\n\nThen the Bi-Coloured-Python-Rock-Snake scuffled down from the bank and said, 'My young friend, if you do not now, immediately and instantly, pull as hard as ever you can, it is my opinion that your acquaintance in the large-pattern leather ulster' (and by this he meant the Crocodile) 'will jerk you into yonder limpid stream before you can say Jack Robinson.'\n\nThis is the way Bi-Coloured-Python-Rock-Snakes always talk.\n\nThen the Elephant's Child sat back on his little haunches, and pulled, and pulled, and pulled, and his nose began to stretch. And the Crocodile floundered into the water, making it all creamy with great sweeps of his tail, and he pulled, and pulled, and pulled.\n\nAnd the Elephant's Child's nose kept on stretching; and the Elephant's Child spread all his little four legs and pulled, and pulled, and pulled, and his nose kept on stretching; and the Crocodile threshed his tail like an oar, and he pulled, and pulled, and pulled, and at each pull the Elephant's Child's nose grew longer and longer - and it hurt him hijjus!\n\nThen the Elephant's Child felt his legs slipping, and he said through his nose, which was now nearly five feet long, 'This is too butch for be!'\n\n[Editor's note: Don't worry - the Elephant's Child gets away in the end!]\n\nRudyard Kipling",
+      "prompt": "'Led go! You are hurtig be!' Why are the Elephant's Child's words written this way?",
+      "options": [
+        {
+          "label": "A",
+          "text": "because it is what his speech actually sounds like"
+        },
+        {
+          "label": "B",
+          "text": "because he is very frustrated"
+        },
+        {
+          "label": "C",
+          "text": "because he is speaking a different form of English"
+        },
+        {
+          "label": "D",
+          "text": "because he is speaking directly to the Crocodile"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "With his nose caught in the Crocodile's mouth, his speech is physically distorted, so it's spelled the way it actually sounds.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q46",
+      "number": 46,
+      "type": "multiple_choice",
+      "passage": "Read The Elephant's Child and answer questions 43 to 50.\n\nThis text is part of a folktale about animal origins.\n\n'Come hither, Little One,' said the Crocodile, 'for I am the Crocodile,' and he wept crocodile-tears to show it was quite true.\n\nThen the Elephant's Child became breathless, and panted, and knelt down on the bank and said, 'You are the very person I have been looking for all these long days. Will you please tell me what you have for dinner?'\n\n'Come hither, Little One,' said the Crocodile, 'and I'll whisper.'\n\nThen the Elephant's Child put his head down close to the Crocodile's musky, tusky mouth, and the Crocodile caught him by his little nose, which up to that very week, day, hour, and minute, had been no bigger than a boot, though much more useful.\n\n'I think,' said the Crocodile - and he said it between his teeth, like this - 'I think today I will begin with Elephant's Child!'\n\nAt this, O Best Beloved, the Elephant's Child was much annoyed, and he said, speaking through his nose, like this, 'Led go! You are hurtig be!'\n\nThen the Bi-Coloured-Python-Rock-Snake scuffled down from the bank and said, 'My young friend, if you do not now, immediately and instantly, pull as hard as ever you can, it is my opinion that your acquaintance in the large-pattern leather ulster' (and by this he meant the Crocodile) 'will jerk you into yonder limpid stream before you can say Jack Robinson.'\n\nThis is the way Bi-Coloured-Python-Rock-Snakes always talk.\n\nThen the Elephant's Child sat back on his little haunches, and pulled, and pulled, and pulled, and his nose began to stretch. And the Crocodile floundered into the water, making it all creamy with great sweeps of his tail, and he pulled, and pulled, and pulled.\n\nAnd the Elephant's Child's nose kept on stretching; and the Elephant's Child spread all his little four legs and pulled, and pulled, and pulled, and his nose kept on stretching; and the Crocodile threshed his tail like an oar, and he pulled, and pulled, and pulled, and at each pull the Elephant's Child's nose grew longer and longer - and it hurt him hijjus!\n\nThen the Elephant's Child felt his legs slipping, and he said through his nose, which was now nearly five feet long, 'This is too butch for be!'\n\n[Editor's note: Don't worry - the Elephant's Child gets away in the end!]\n\nRudyard Kipling",
+      "prompt": "'(and by this he meant the Crocodile)' The words in brackets are said by",
+      "options": [
+        {
+          "label": "A",
+          "text": "the Python-Rock-Snake."
+        },
+        {
+          "label": "B",
+          "text": "the narrator."
+        },
+        {
+          "label": "C",
+          "text": "the Elephant's Child."
+        },
+        {
+          "label": "D",
+          "text": "the Crocodile."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "This is a narrator's aside clarifying what the snake meant, not dialogue from any character.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2015c-q47",
+      "number": 47,
+      "type": "multiple_choice",
+      "passage": "Read The Elephant's Child and answer questions 43 to 50.\n\nThis text is part of a folktale about animal origins.\n\n'Come hither, Little One,' said the Crocodile, 'for I am the Crocodile,' and he wept crocodile-tears to show it was quite true.\n\nThen the Elephant's Child became breathless, and panted, and knelt down on the bank and said, 'You are the very person I have been looking for all these long days. Will you please tell me what you have for dinner?'\n\n'Come hither, Little One,' said the Crocodile, 'and I'll whisper.'\n\nThen the Elephant's Child put his head down close to the Crocodile's musky, tusky mouth, and the Crocodile caught him by his little nose, which up to that very week, day, hour, and minute, had been no bigger than a boot, though much more useful.\n\n'I think,' said the Crocodile - and he said it between his teeth, like this - 'I think today I will begin with Elephant's Child!'\n\nAt this, O Best Beloved, the Elephant's Child was much annoyed, and he said, speaking through his nose, like this, 'Led go! You are hurtig be!'\n\nThen the Bi-Coloured-Python-Rock-Snake scuffled down from the bank and said, 'My young friend, if you do not now, immediately and instantly, pull as hard as ever you can, it is my opinion that your acquaintance in the large-pattern leather ulster' (and by this he meant the Crocodile) 'will jerk you into yonder limpid stream before you can say Jack Robinson.'\n\nThis is the way Bi-Coloured-Python-Rock-Snakes always talk.\n\nThen the Elephant's Child sat back on his little haunches, and pulled, and pulled, and pulled, and his nose began to stretch. And the Crocodile floundered into the water, making it all creamy with great sweeps of his tail, and he pulled, and pulled, and pulled.\n\nAnd the Elephant's Child's nose kept on stretching; and the Elephant's Child spread all his little four legs and pulled, and pulled, and pulled, and his nose kept on stretching; and the Crocodile threshed his tail like an oar, and he pulled, and pulled, and pulled, and at each pull the Elephant's Child's nose grew longer and longer - and it hurt him hijjus!\n\nThen the Elephant's Child felt his legs slipping, and he said through his nose, which was now nearly five feet long, 'This is too butch for be!'\n\n[Editor's note: Don't worry - the Elephant's Child gets away in the end!]\n\nRudyard Kipling",
+      "prompt": "From what the Python-Rock-Snake says, you can tell that he thinks the Elephant's Child's situation is",
+      "options": [
+        {
+          "label": "A",
+          "text": "predictable."
+        },
+        {
+          "label": "B",
+          "text": "thrilling."
+        },
+        {
+          "label": "C",
+          "text": "urgent."
+        },
+        {
+          "label": "D",
+          "text": "unusual."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Telling him to pull 'immediately and instantly' shows the snake sees the situation as urgent.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2015c-q48",
+      "number": 48,
+      "type": "multiple_choice",
+      "passage": "Read The Elephant's Child and answer questions 43 to 50.\n\nThis text is part of a folktale about animal origins.\n\n'Come hither, Little One,' said the Crocodile, 'for I am the Crocodile,' and he wept crocodile-tears to show it was quite true.\n\nThen the Elephant's Child became breathless, and panted, and knelt down on the bank and said, 'You are the very person I have been looking for all these long days. Will you please tell me what you have for dinner?'\n\n'Come hither, Little One,' said the Crocodile, 'and I'll whisper.'\n\nThen the Elephant's Child put his head down close to the Crocodile's musky, tusky mouth, and the Crocodile caught him by his little nose, which up to that very week, day, hour, and minute, had been no bigger than a boot, though much more useful.\n\n'I think,' said the Crocodile - and he said it between his teeth, like this - 'I think today I will begin with Elephant's Child!'\n\nAt this, O Best Beloved, the Elephant's Child was much annoyed, and he said, speaking through his nose, like this, 'Led go! You are hurtig be!'\n\nThen the Bi-Coloured-Python-Rock-Snake scuffled down from the bank and said, 'My young friend, if you do not now, immediately and instantly, pull as hard as ever you can, it is my opinion that your acquaintance in the large-pattern leather ulster' (and by this he meant the Crocodile) 'will jerk you into yonder limpid stream before you can say Jack Robinson.'\n\nThis is the way Bi-Coloured-Python-Rock-Snakes always talk.\n\nThen the Elephant's Child sat back on his little haunches, and pulled, and pulled, and pulled, and his nose began to stretch. And the Crocodile floundered into the water, making it all creamy with great sweeps of his tail, and he pulled, and pulled, and pulled.\n\nAnd the Elephant's Child's nose kept on stretching; and the Elephant's Child spread all his little four legs and pulled, and pulled, and pulled, and his nose kept on stretching; and the Crocodile threshed his tail like an oar, and he pulled, and pulled, and pulled, and at each pull the Elephant's Child's nose grew longer and longer - and it hurt him hijjus!\n\nThen the Elephant's Child felt his legs slipping, and he said through his nose, which was now nearly five feet long, 'This is too butch for be!'\n\n[Editor's note: Don't worry - the Elephant's Child gets away in the end!]\n\nRudyard Kipling",
+      "prompt": "What happens between the Crocodile and the Elephant's Child is most like",
+      "options": [
+        {
+          "label": "A",
+          "text": "a battle of wits."
+        },
+        {
+          "label": "B",
+          "text": "a game of chess."
+        },
+        {
+          "label": "C",
+          "text": "a race to the top."
+        },
+        {
+          "label": "D",
+          "text": "a tug of war."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Both pulling as hard as they can in opposite directions closely resembles a tug of war.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q49",
+      "number": 49,
+      "type": "multiple_choice",
+      "passage": "Read The Elephant's Child and answer questions 43 to 50.\n\nThis text is part of a folktale about animal origins.\n\n'Come hither, Little One,' said the Crocodile, 'for I am the Crocodile,' and he wept crocodile-tears to show it was quite true.\n\nThen the Elephant's Child became breathless, and panted, and knelt down on the bank and said, 'You are the very person I have been looking for all these long days. Will you please tell me what you have for dinner?'\n\n'Come hither, Little One,' said the Crocodile, 'and I'll whisper.'\n\nThen the Elephant's Child put his head down close to the Crocodile's musky, tusky mouth, and the Crocodile caught him by his little nose, which up to that very week, day, hour, and minute, had been no bigger than a boot, though much more useful.\n\n'I think,' said the Crocodile - and he said it between his teeth, like this - 'I think today I will begin with Elephant's Child!'\n\nAt this, O Best Beloved, the Elephant's Child was much annoyed, and he said, speaking through his nose, like this, 'Led go! You are hurtig be!'\n\nThen the Bi-Coloured-Python-Rock-Snake scuffled down from the bank and said, 'My young friend, if you do not now, immediately and instantly, pull as hard as ever you can, it is my opinion that your acquaintance in the large-pattern leather ulster' (and by this he meant the Crocodile) 'will jerk you into yonder limpid stream before you can say Jack Robinson.'\n\nThis is the way Bi-Coloured-Python-Rock-Snakes always talk.\n\nThen the Elephant's Child sat back on his little haunches, and pulled, and pulled, and pulled, and his nose began to stretch. And the Crocodile floundered into the water, making it all creamy with great sweeps of his tail, and he pulled, and pulled, and pulled.\n\nAnd the Elephant's Child's nose kept on stretching; and the Elephant's Child spread all his little four legs and pulled, and pulled, and pulled, and his nose kept on stretching; and the Crocodile threshed his tail like an oar, and he pulled, and pulled, and pulled, and at each pull the Elephant's Child's nose grew longer and longer - and it hurt him hijjus!\n\nThen the Elephant's Child felt his legs slipping, and he said through his nose, which was now nearly five feet long, 'This is too butch for be!'\n\n[Editor's note: Don't worry - the Elephant's Child gets away in the end!]\n\nRudyard Kipling",
+      "prompt": "What kind of information is contained in the square brackets [ ] at the end of the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "a comment on the story"
+        },
+        {
+          "label": "B",
+          "text": "a translation"
+        },
+        {
+          "label": "C",
+          "text": "something a character says"
+        },
+        {
+          "label": "D",
+          "text": "an alternative ending"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The editor's note is a comment reassuring readers about the story's outcome, not part of the story itself.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2015c-q50",
+      "number": 50,
+      "type": "multiple_choice",
+      "passage": "Read The Elephant's Child and answer questions 43 to 50.\n\nThis text is part of a folktale about animal origins.\n\n'Come hither, Little One,' said the Crocodile, 'for I am the Crocodile,' and he wept crocodile-tears to show it was quite true.\n\nThen the Elephant's Child became breathless, and panted, and knelt down on the bank and said, 'You are the very person I have been looking for all these long days. Will you please tell me what you have for dinner?'\n\n'Come hither, Little One,' said the Crocodile, 'and I'll whisper.'\n\nThen the Elephant's Child put his head down close to the Crocodile's musky, tusky mouth, and the Crocodile caught him by his little nose, which up to that very week, day, hour, and minute, had been no bigger than a boot, though much more useful.\n\n'I think,' said the Crocodile - and he said it between his teeth, like this - 'I think today I will begin with Elephant's Child!'\n\nAt this, O Best Beloved, the Elephant's Child was much annoyed, and he said, speaking through his nose, like this, 'Led go! You are hurtig be!'\n\nThen the Bi-Coloured-Python-Rock-Snake scuffled down from the bank and said, 'My young friend, if you do not now, immediately and instantly, pull as hard as ever you can, it is my opinion that your acquaintance in the large-pattern leather ulster' (and by this he meant the Crocodile) 'will jerk you into yonder limpid stream before you can say Jack Robinson.'\n\nThis is the way Bi-Coloured-Python-Rock-Snakes always talk.\n\nThen the Elephant's Child sat back on his little haunches, and pulled, and pulled, and pulled, and his nose began to stretch. And the Crocodile floundered into the water, making it all creamy with great sweeps of his tail, and he pulled, and pulled, and pulled.\n\nAnd the Elephant's Child's nose kept on stretching; and the Elephant's Child spread all his little four legs and pulled, and pulled, and pulled, and his nose kept on stretching; and the Crocodile threshed his tail like an oar, and he pulled, and pulled, and pulled, and at each pull the Elephant's Child's nose grew longer and longer - and it hurt him hijjus!\n\nThen the Elephant's Child felt his legs slipping, and he said through his nose, which was now nearly five feet long, 'This is too butch for be!'\n\n[Editor's note: Don't worry - the Elephant's Child gets away in the end!]\n\nRudyard Kipling",
+      "prompt": "What main question does this folktale answer?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Where did elephants come from?"
+        },
+        {
+          "label": "B",
+          "text": "How did the elephant get its trunk?"
+        },
+        {
+          "label": "C",
+          "text": "Why do crocodiles live in the water?"
+        },
+        {
+          "label": "D",
+          "text": "What do crocodiles eat?"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "This folktale explains the origin of the elephant's long trunk.",
+      "topic": "Text comprehension"
+    }
+  ]
+}

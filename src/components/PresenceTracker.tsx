@@ -47,9 +47,7 @@ function resolveLocation(pathname: string): {
     }
 
     if (
-      (segments[1] === "icas" ||
-        segments[1] === "edutest" ||
-        segments[1] === "naplan") &&
+      (segments[1] === "icas" || segments[1] === "naplan") &&
       segments.length === 2
     ) {
       return {
@@ -57,6 +55,22 @@ function resolveLocation(pathname: string): {
         profileName: directProfile.name,
         section: sectionLabel(segments[1]),
         pageLabel: "Choosing a paper",
+        isLiveExamPage: false,
+      };
+    }
+
+    // EduTest is split by year level, then subject, then paper.
+    if (segments[1] === "edutest" && segments.length <= 4) {
+      return {
+        profileSlug: directProfile.slug,
+        profileName: directProfile.name,
+        section: sectionLabel("edutest"),
+        pageLabel:
+          segments.length === 2
+            ? "Choosing a year level"
+            : segments.length === 3
+            ? "Choosing a subject"
+            : "Choosing a paper",
         isLiveExamPage: false,
       };
     }

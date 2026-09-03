@@ -6,6 +6,7 @@ import { usePathname, useSearchParams } from "next/navigation";
 import { getProfile } from "@/lib/profiles";
 import { getPaperById, paperExam, examHomeSlug } from "@/lib/papers";
 import { getSupabaseClient } from "@/lib/supabase";
+import { useActiveSession, formatClock } from "@/lib/activeSession";
 import { ThemeToggle } from "@/components/ThemeToggle";
 import { AccountMenu } from "@/components/AccountMenu";
 
@@ -77,6 +78,22 @@ export function SiteHeader() {
   // The Beehave pill = the section home; highlighted unless a sub-tab is active.
   const beehavePillActive =
     inBeehave && !beehaveSubTabs.includes(activeTab);
+
+  // A Beehave focus session keeps ticking here — visible everywhere in the
+  // app, on any profile, until it's stopped or marked done — because it
+  // lives in root layout instead of the Beehave page that started it.
+  const { session: activeSession, elapsed, remaining, stopAndRecord } =
+    useActiveSession();
+  const handleStopSession = () => {
+    if (!activeSession) return;
+    if (
+      window.confirm(
+        `Stop ${activeSession.kidName}'s session on "${activeSession.taskName}"?`
+      )
+    ) {
+      void stopAndRecord();
+    }
+  };
 
   // Live coin score for the current profile — shown on the Beehave nav item.
   const [coins, setCoins] = useState<number | null>(null);
@@ -248,6 +265,31 @@ export function SiteHeader() {
       </nav>
 
       <div className="flex shrink-0 items-center gap-3">
+        {activeSession && (
+          <div className="flex items-center gap-1 rounded-full border border-accent py-1 pl-2.5 pr-1 text-[12px] font-semibold text-accent">
+            <Link
+              href={`/${activeSession.kidSlug}/beehave`}
+              className="flex items-center gap-1.5 hover:opacity-80 transition-opacity"
+              title={`${activeSession.kidName} is in a focus session — ${activeSession.taskName}`}
+            >
+              <span
+                className="h-1.5 w-1.5 rounded-full bg-correct animate-pulse"
+                aria-hidden
+              />
+              {activeSession.taskIcon ? `${activeSession.taskIcon} ` : ""}
+              {activeSession.kidName} · {formatClock(remaining ?? elapsed)}
+            </Link>
+            <button
+              type="button"
+              onClick={handleStopSession}
+              className="rounded-full px-1.5 text-muted hover:text-incorrect transition-colors"
+              aria-label="Stop session"
+              title="Stop session"
+            >
+              ✕
+            </button>
+          </div>
+        )}
         {coinPinned && coins !== null && (
           <span className="flex items-center gap-1 text-[13px] font-bold text-[#f5c518]">
             🪙 {coins}

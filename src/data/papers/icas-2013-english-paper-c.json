@@ -1,0 +1,1408 @@
+{
+  "id": "icas-2013-english-paper-c",
+  "subject": "English",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS English 2013 — Paper C",
+  "year": 2013,
+  "timeLimitMinutes": 50,
+  "questions": [
+    {
+      "id": "eng2013c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "Read From 'MOO' to YOU and answer questions 1 to 6.\n\nFrom 'MOO' to YOU\n\nMany people drink milk because it is delicious and nutritious. In countries such as Australia, New Zealand and the USA, more than 95 per cent of milk comes from dairy cows. However, in some other countries, milk comes from goats, sheep, buffaloes, horses and even camels. For example, more than half of the milk produced in India comes from buffaloes.\n\nHow does cows' milk get to you? This is the journey from 'moo' to you.\n\n1. On the dairy farm\nDairy farmers milk their cows at least twice a day. In the past, cows were milked by hand, which was very time consuming and labour intensive. Today, the milking process on modern commercial dairy farms is mostly automated. Milk is taken from dairy cows using automatic milking systems (AMS). Some systems are now controlled by robots. The milking machines pump the raw milk into refrigerated stainless steel vats, where it is stored until refrigerated tankers take it to a dairy factory. Milk must always be refrigerated so it does not deteriorate.\n\n2. At the dairy factory\nRaw milk is processed to make it safe for human consumption. The main process for treating raw milk is pasteurisation, which involves heating the milk to very high temperatures and immediately chilling it. This kills harmful bacteria and lengthens the shelf-life of the milk. After pasteurisation, milk may be made into different milk products (e.g. full cream milk, skim milk and powdered milk) and dairy products (e.g. butter, cheese, ice-cream and yoghurt), each with different packaging. The factory puts a use-by date on all packaging to let consumers, like you, know the recommended shelf-life of the product. Refrigerated trucks then transport the products to shops.\n\n3. At the shop\nThe products are displayed on refrigerated shelves so you can choose what you want.\n\n4. At home\nMilk and dairy products need to be kept in the refrigerator until you consume them. You might want to check the use-by date!",
+      "prompt": "Which animals produce most of India's milk?",
+      "options": [
+        {
+          "label": "A",
+          "text": "buffaloes"
+        },
+        {
+          "label": "B",
+          "text": "goats"
+        },
+        {
+          "label": "C",
+          "text": "sheep"
+        },
+        {
+          "label": "D",
+          "text": "camels"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text says more than half of India's milk comes from buffaloes.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "Read From 'MOO' to YOU and answer questions 1 to 6.\n\nFrom 'MOO' to YOU\n\nMany people drink milk because it is delicious and nutritious. In countries such as Australia, New Zealand and the USA, more than 95 per cent of milk comes from dairy cows. However, in some other countries, milk comes from goats, sheep, buffaloes, horses and even camels. For example, more than half of the milk produced in India comes from buffaloes.\n\nHow does cows' milk get to you? This is the journey from 'moo' to you.\n\n1. On the dairy farm\nDairy farmers milk their cows at least twice a day. In the past, cows were milked by hand, which was very time consuming and labour intensive. Today, the milking process on modern commercial dairy farms is mostly automated. Milk is taken from dairy cows using automatic milking systems (AMS). Some systems are now controlled by robots. The milking machines pump the raw milk into refrigerated stainless steel vats, where it is stored until refrigerated tankers take it to a dairy factory. Milk must always be refrigerated so it does not deteriorate.\n\n2. At the dairy factory\nRaw milk is processed to make it safe for human consumption. The main process for treating raw milk is pasteurisation, which involves heating the milk to very high temperatures and immediately chilling it. This kills harmful bacteria and lengthens the shelf-life of the milk. After pasteurisation, milk may be made into different milk products (e.g. full cream milk, skim milk and powdered milk) and dairy products (e.g. butter, cheese, ice-cream and yoghurt), each with different packaging. The factory puts a use-by date on all packaging to let consumers, like you, know the recommended shelf-life of the product. Refrigerated trucks then transport the products to shops.\n\n3. At the shop\nThe products are displayed on refrigerated shelves so you can choose what you want.\n\n4. At home\nMilk and dairy products need to be kept in the refrigerator until you consume them. You might want to check the use-by date!",
+      "prompt": "Which words from the text show the contrast between dairy farming in the past and the present?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'time consuming' / 'labour intensive'"
+        },
+        {
+          "label": "B",
+          "text": "'by hand' / 'by robots'"
+        },
+        {
+          "label": "C",
+          "text": "'modern commercial' / 'mostly automated'"
+        },
+        {
+          "label": "D",
+          "text": "'milking machines' / 'refrigerated tankers'"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text contrasts milking 'by hand' in the past with milking 'by robots' today.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "Read From 'MOO' to YOU and answer questions 1 to 6.\n\nFrom 'MOO' to YOU\n\nMany people drink milk because it is delicious and nutritious. In countries such as Australia, New Zealand and the USA, more than 95 per cent of milk comes from dairy cows. However, in some other countries, milk comes from goats, sheep, buffaloes, horses and even camels. For example, more than half of the milk produced in India comes from buffaloes.\n\nHow does cows' milk get to you? This is the journey from 'moo' to you.\n\n1. On the dairy farm\nDairy farmers milk their cows at least twice a day. In the past, cows were milked by hand, which was very time consuming and labour intensive. Today, the milking process on modern commercial dairy farms is mostly automated. Milk is taken from dairy cows using automatic milking systems (AMS). Some systems are now controlled by robots. The milking machines pump the raw milk into refrigerated stainless steel vats, where it is stored until refrigerated tankers take it to a dairy factory. Milk must always be refrigerated so it does not deteriorate.\n\n2. At the dairy factory\nRaw milk is processed to make it safe for human consumption. The main process for treating raw milk is pasteurisation, which involves heating the milk to very high temperatures and immediately chilling it. This kills harmful bacteria and lengthens the shelf-life of the milk. After pasteurisation, milk may be made into different milk products (e.g. full cream milk, skim milk and powdered milk) and dairy products (e.g. butter, cheese, ice-cream and yoghurt), each with different packaging. The factory puts a use-by date on all packaging to let consumers, like you, know the recommended shelf-life of the product. Refrigerated trucks then transport the products to shops.\n\n3. At the shop\nThe products are displayed on refrigerated shelves so you can choose what you want.\n\n4. At home\nMilk and dairy products need to be kept in the refrigerator until you consume them. You might want to check the use-by date!",
+      "prompt": "The word 'deteriorate' means that the milk",
+      "options": [
+        {
+          "label": "A",
+          "text": "forms layers."
+        },
+        {
+          "label": "B",
+          "text": "declines in price."
+        },
+        {
+          "label": "C",
+          "text": "loses its quality."
+        },
+        {
+          "label": "D",
+          "text": "changes temperature."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Milk that 'deteriorates' has gone off or lost its quality.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2013c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "Read From 'MOO' to YOU and answer questions 1 to 6.\n\nFrom 'MOO' to YOU\n\nMany people drink milk because it is delicious and nutritious. In countries such as Australia, New Zealand and the USA, more than 95 per cent of milk comes from dairy cows. However, in some other countries, milk comes from goats, sheep, buffaloes, horses and even camels. For example, more than half of the milk produced in India comes from buffaloes.\n\nHow does cows' milk get to you? This is the journey from 'moo' to you.\n\n1. On the dairy farm\nDairy farmers milk their cows at least twice a day. In the past, cows were milked by hand, which was very time consuming and labour intensive. Today, the milking process on modern commercial dairy farms is mostly automated. Milk is taken from dairy cows using automatic milking systems (AMS). Some systems are now controlled by robots. The milking machines pump the raw milk into refrigerated stainless steel vats, where it is stored until refrigerated tankers take it to a dairy factory. Milk must always be refrigerated so it does not deteriorate.\n\n2. At the dairy factory\nRaw milk is processed to make it safe for human consumption. The main process for treating raw milk is pasteurisation, which involves heating the milk to very high temperatures and immediately chilling it. This kills harmful bacteria and lengthens the shelf-life of the milk. After pasteurisation, milk may be made into different milk products (e.g. full cream milk, skim milk and powdered milk) and dairy products (e.g. butter, cheese, ice-cream and yoghurt), each with different packaging. The factory puts a use-by date on all packaging to let consumers, like you, know the recommended shelf-life of the product. Refrigerated trucks then transport the products to shops.\n\n3. At the shop\nThe products are displayed on refrigerated shelves so you can choose what you want.\n\n4. At home\nMilk and dairy products need to be kept in the refrigerator until you consume them. You might want to check the use-by date!",
+      "prompt": "Which statement about the pasteurisation process is correct?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Raw milk is heated and chilled to give it more flavour."
+        },
+        {
+          "label": "B",
+          "text": "Dangerous bacteria are identified and then removed from the raw milk."
+        },
+        {
+          "label": "C",
+          "text": "Different dairy products are produced from raw milk during this process."
+        },
+        {
+          "label": "D",
+          "text": "Raw milk is heated and then chilled quickly to remove harmful bacteria."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The text says pasteurisation heats milk to a high temperature then immediately chills it, killing bacteria.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "Read From 'MOO' to YOU and answer questions 1 to 6.\n\nFrom 'MOO' to YOU\n\nMany people drink milk because it is delicious and nutritious. In countries such as Australia, New Zealand and the USA, more than 95 per cent of milk comes from dairy cows. However, in some other countries, milk comes from goats, sheep, buffaloes, horses and even camels. For example, more than half of the milk produced in India comes from buffaloes.\n\nHow does cows' milk get to you? This is the journey from 'moo' to you.\n\n1. On the dairy farm\nDairy farmers milk their cows at least twice a day. In the past, cows were milked by hand, which was very time consuming and labour intensive. Today, the milking process on modern commercial dairy farms is mostly automated. Milk is taken from dairy cows using automatic milking systems (AMS). Some systems are now controlled by robots. The milking machines pump the raw milk into refrigerated stainless steel vats, where it is stored until refrigerated tankers take it to a dairy factory. Milk must always be refrigerated so it does not deteriorate.\n\n2. At the dairy factory\nRaw milk is processed to make it safe for human consumption. The main process for treating raw milk is pasteurisation, which involves heating the milk to very high temperatures and immediately chilling it. This kills harmful bacteria and lengthens the shelf-life of the milk. After pasteurisation, milk may be made into different milk products (e.g. full cream milk, skim milk and powdered milk) and dairy products (e.g. butter, cheese, ice-cream and yoghurt), each with different packaging. The factory puts a use-by date on all packaging to let consumers, like you, know the recommended shelf-life of the product. Refrigerated trucks then transport the products to shops.\n\n3. At the shop\nThe products are displayed on refrigerated shelves so you can choose what you want.\n\n4. At home\nMilk and dairy products need to be kept in the refrigerator until you consume them. You might want to check the use-by date!",
+      "prompt": "Which of the following is an abbreviation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'AMS'"
+        },
+        {
+          "label": "B",
+          "text": "'Australia'"
+        },
+        {
+          "label": "C",
+          "text": "'95 per cent'"
+        },
+        {
+          "label": "D",
+          "text": "'use-by'"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'AMS' is a shortened form of 'automatic milking systems' — an abbreviation.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2013c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "Read From 'MOO' to YOU and answer questions 1 to 6.\n\nFrom 'MOO' to YOU\n\nMany people drink milk because it is delicious and nutritious. In countries such as Australia, New Zealand and the USA, more than 95 per cent of milk comes from dairy cows. However, in some other countries, milk comes from goats, sheep, buffaloes, horses and even camels. For example, more than half of the milk produced in India comes from buffaloes.\n\nHow does cows' milk get to you? This is the journey from 'moo' to you.\n\n1. On the dairy farm\nDairy farmers milk their cows at least twice a day. In the past, cows were milked by hand, which was very time consuming and labour intensive. Today, the milking process on modern commercial dairy farms is mostly automated. Milk is taken from dairy cows using automatic milking systems (AMS). Some systems are now controlled by robots. The milking machines pump the raw milk into refrigerated stainless steel vats, where it is stored until refrigerated tankers take it to a dairy factory. Milk must always be refrigerated so it does not deteriorate.\n\n2. At the dairy factory\nRaw milk is processed to make it safe for human consumption. The main process for treating raw milk is pasteurisation, which involves heating the milk to very high temperatures and immediately chilling it. This kills harmful bacteria and lengthens the shelf-life of the milk. After pasteurisation, milk may be made into different milk products (e.g. full cream milk, skim milk and powdered milk) and dairy products (e.g. butter, cheese, ice-cream and yoghurt), each with different packaging. The factory puts a use-by date on all packaging to let consumers, like you, know the recommended shelf-life of the product. Refrigerated trucks then transport the products to shops.\n\n3. At the shop\nThe products are displayed on refrigerated shelves so you can choose what you want.\n\n4. At home\nMilk and dairy products need to be kept in the refrigerator until you consume them. You might want to check the use-by date!",
+      "prompt": "Which of the following words indicates a requirement, NOT a choice?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'may'"
+        },
+        {
+          "label": "B",
+          "text": "'must'"
+        },
+        {
+          "label": "C",
+          "text": "'can'"
+        },
+        {
+          "label": "D",
+          "text": "'might'"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Must' expresses an obligation, unlike the other, more optional modal verbs.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2013c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "Read Mateo and answer questions 7 to 14.\n\nMateo\n\nMateo sat alone on the cold concrete steps beside the netball courts, waiting for his older sister to finish her shift at the canteen and drive him home. The sky was already deepening into orange, and even though he'd stopped running twenty minutes ago, his calves were still aching.\n\nAbove him, a flock of galahs bickered noisily in the branches of a huge Moreton Bay fig, their pink bellies flashing every time they shuffled along a branch. Their squabbling calls drifted down and mixed with the distant thud of a ball and the muffled shouts of swimmers still finishing laps in the pool nearby.\n\nMateo checked the time on the old digital watch his grandfather had given him. His sister was late, as usual. He didn't really mind. This quiet stretch after training was something he'd started to look forward to - sitting by himself, watching the last of the light fade, before the harsh security lamps clicked on and turned the courts a flat, ordinary white.\n\nA boy he vaguely recognised from the swim squad wandered over and sat down a few steps away, dropping his bag with a thud. Mateo thought he'd seen him around before - maybe in the year below. The boy unzipped a side pocket of his bag and pulled out a small bag of lychees. They were small and rough-skinned, like little pink pebbles from a fairytale shore. He peeled one open, and the sweet, slightly floral smell drifted over immediately.\n\nHe glanced at Mateo.\n\n'Want one?'\n\n'Sure,' said Mateo.\n\nThe boy tossed one across, and it landed neatly in Mateo's open palm.",
+      "prompt": "'even though he'd stopped running twenty minutes ago, his calves were still aching' Which connective could replace 'even though' and keep the same meaning?",
+      "options": [
+        {
+          "label": "A",
+          "text": "since"
+        },
+        {
+          "label": "B",
+          "text": "if"
+        },
+        {
+          "label": "C",
+          "text": "although"
+        },
+        {
+          "label": "D",
+          "text": "because"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Although' expresses the same contrast as 'even though'.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2013c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "Read Mateo and answer questions 7 to 14.\n\nMateo\n\nMateo sat alone on the cold concrete steps beside the netball courts, waiting for his older sister to finish her shift at the canteen and drive him home. The sky was already deepening into orange, and even though he'd stopped running twenty minutes ago, his calves were still aching.\n\nAbove him, a flock of galahs bickered noisily in the branches of a huge Moreton Bay fig, their pink bellies flashing every time they shuffled along a branch. Their squabbling calls drifted down and mixed with the distant thud of a ball and the muffled shouts of swimmers still finishing laps in the pool nearby.\n\nMateo checked the time on the old digital watch his grandfather had given him. His sister was late, as usual. He didn't really mind. This quiet stretch after training was something he'd started to look forward to - sitting by himself, watching the last of the light fade, before the harsh security lamps clicked on and turned the courts a flat, ordinary white.\n\nA boy he vaguely recognised from the swim squad wandered over and sat down a few steps away, dropping his bag with a thud. Mateo thought he'd seen him around before - maybe in the year below. The boy unzipped a side pocket of his bag and pulled out a small bag of lychees. They were small and rough-skinned, like little pink pebbles from a fairytale shore. He peeled one open, and the sweet, slightly floral smell drifted over immediately.\n\nHe glanced at Mateo.\n\n'Want one?'\n\n'Sure,' said Mateo.\n\nThe boy tossed one across, and it landed neatly in Mateo's open palm.",
+      "prompt": "The word 'bickered', as it is used in the text, describes a",
+      "options": [
+        {
+          "label": "A",
+          "text": "smell."
+        },
+        {
+          "label": "B",
+          "text": "mood."
+        },
+        {
+          "label": "C",
+          "text": "movement."
+        },
+        {
+          "label": "D",
+          "text": "sound."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The galahs 'bickered noisily' — describing the squabbling sound they made.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2013c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "Read Mateo and answer questions 7 to 14.\n\nMateo\n\nMateo sat alone on the cold concrete steps beside the netball courts, waiting for his older sister to finish her shift at the canteen and drive him home. The sky was already deepening into orange, and even though he'd stopped running twenty minutes ago, his calves were still aching.\n\nAbove him, a flock of galahs bickered noisily in the branches of a huge Moreton Bay fig, their pink bellies flashing every time they shuffled along a branch. Their squabbling calls drifted down and mixed with the distant thud of a ball and the muffled shouts of swimmers still finishing laps in the pool nearby.\n\nMateo checked the time on the old digital watch his grandfather had given him. His sister was late, as usual. He didn't really mind. This quiet stretch after training was something he'd started to look forward to - sitting by himself, watching the last of the light fade, before the harsh security lamps clicked on and turned the courts a flat, ordinary white.\n\nA boy he vaguely recognised from the swim squad wandered over and sat down a few steps away, dropping his bag with a thud. Mateo thought he'd seen him around before - maybe in the year below. The boy unzipped a side pocket of his bag and pulled out a small bag of lychees. They were small and rough-skinned, like little pink pebbles from a fairytale shore. He peeled one open, and the sweet, slightly floral smell drifted over immediately.\n\nHe glanced at Mateo.\n\n'Want one?'\n\n'Sure,' said Mateo.\n\nThe boy tossed one across, and it landed neatly in Mateo's open palm.",
+      "prompt": "Why did Mateo like the period of time after training?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He could spend some time thinking."
+        },
+        {
+          "label": "B",
+          "text": "He could rest his sore muscles."
+        },
+        {
+          "label": "C",
+          "text": "He could watch the other swimmers."
+        },
+        {
+          "label": "D",
+          "text": "He could meet people from other teams."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "He enjoys sitting quietly with his own thoughts as the light fades.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "Read Mateo and answer questions 7 to 14.\n\nMateo\n\nMateo sat alone on the cold concrete steps beside the netball courts, waiting for his older sister to finish her shift at the canteen and drive him home. The sky was already deepening into orange, and even though he'd stopped running twenty minutes ago, his calves were still aching.\n\nAbove him, a flock of galahs bickered noisily in the branches of a huge Moreton Bay fig, their pink bellies flashing every time they shuffled along a branch. Their squabbling calls drifted down and mixed with the distant thud of a ball and the muffled shouts of swimmers still finishing laps in the pool nearby.\n\nMateo checked the time on the old digital watch his grandfather had given him. His sister was late, as usual. He didn't really mind. This quiet stretch after training was something he'd started to look forward to - sitting by himself, watching the last of the light fade, before the harsh security lamps clicked on and turned the courts a flat, ordinary white.\n\nA boy he vaguely recognised from the swim squad wandered over and sat down a few steps away, dropping his bag with a thud. Mateo thought he'd seen him around before - maybe in the year below. The boy unzipped a side pocket of his bag and pulled out a small bag of lychees. They were small and rough-skinned, like little pink pebbles from a fairytale shore. He peeled one open, and the sweet, slightly floral smell drifted over immediately.\n\nHe glanced at Mateo.\n\n'Want one?'\n\n'Sure,' said Mateo.\n\nThe boy tossed one across, and it landed neatly in Mateo's open palm.",
+      "prompt": "Which word from the text is NOT used as a noun?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'shouts'"
+        },
+        {
+          "label": "B",
+          "text": "'squabbling'"
+        },
+        {
+          "label": "C",
+          "text": "'training'"
+        },
+        {
+          "label": "D",
+          "text": "'light'"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Squabbling calls' uses 'squabbling' to describe the calls, not as a noun itself.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2013c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "Read Mateo and answer questions 7 to 14.\n\nMateo\n\nMateo sat alone on the cold concrete steps beside the netball courts, waiting for his older sister to finish her shift at the canteen and drive him home. The sky was already deepening into orange, and even though he'd stopped running twenty minutes ago, his calves were still aching.\n\nAbove him, a flock of galahs bickered noisily in the branches of a huge Moreton Bay fig, their pink bellies flashing every time they shuffled along a branch. Their squabbling calls drifted down and mixed with the distant thud of a ball and the muffled shouts of swimmers still finishing laps in the pool nearby.\n\nMateo checked the time on the old digital watch his grandfather had given him. His sister was late, as usual. He didn't really mind. This quiet stretch after training was something he'd started to look forward to - sitting by himself, watching the last of the light fade, before the harsh security lamps clicked on and turned the courts a flat, ordinary white.\n\nA boy he vaguely recognised from the swim squad wandered over and sat down a few steps away, dropping his bag with a thud. Mateo thought he'd seen him around before - maybe in the year below. The boy unzipped a side pocket of his bag and pulled out a small bag of lychees. They were small and rough-skinned, like little pink pebbles from a fairytale shore. He peeled one open, and the sweet, slightly floral smell drifted over immediately.\n\nHe glanced at Mateo.\n\n'Want one?'\n\n'Sure,' said Mateo.\n\nThe boy tossed one across, and it landed neatly in Mateo's open palm.",
+      "prompt": "Mateo regarded twilight as",
+      "options": [
+        {
+          "label": "A",
+          "text": "annoying."
+        },
+        {
+          "label": "B",
+          "text": "peculiar."
+        },
+        {
+          "label": "C",
+          "text": "wondrous."
+        },
+        {
+          "label": "D",
+          "text": "exciting."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "He describes this time as 'magic', watching the light fade with quiet appreciation.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Read Mateo and answer questions 7 to 14.\n\nMateo\n\nMateo sat alone on the cold concrete steps beside the netball courts, waiting for his older sister to finish her shift at the canteen and drive him home. The sky was already deepening into orange, and even though he'd stopped running twenty minutes ago, his calves were still aching.\n\nAbove him, a flock of galahs bickered noisily in the branches of a huge Moreton Bay fig, their pink bellies flashing every time they shuffled along a branch. Their squabbling calls drifted down and mixed with the distant thud of a ball and the muffled shouts of swimmers still finishing laps in the pool nearby.\n\nMateo checked the time on the old digital watch his grandfather had given him. His sister was late, as usual. He didn't really mind. This quiet stretch after training was something he'd started to look forward to - sitting by himself, watching the last of the light fade, before the harsh security lamps clicked on and turned the courts a flat, ordinary white.\n\nA boy he vaguely recognised from the swim squad wandered over and sat down a few steps away, dropping his bag with a thud. Mateo thought he'd seen him around before - maybe in the year below. The boy unzipped a side pocket of his bag and pulled out a small bag of lychees. They were small and rough-skinned, like little pink pebbles from a fairytale shore. He peeled one open, and the sweet, slightly floral smell drifted over immediately.\n\nHe glanced at Mateo.\n\n'Want one?'\n\n'Sure,' said Mateo.\n\nThe boy tossed one across, and it landed neatly in Mateo's open palm.",
+      "prompt": "What was Mateo's reaction to the boy?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He was irritated by his attention."
+        },
+        {
+          "label": "B",
+          "text": "He was annoyed that his privacy had been disturbed."
+        },
+        {
+          "label": "C",
+          "text": "He was concerned the boy would think he was strange for sitting alone."
+        },
+        {
+          "label": "D",
+          "text": "He was intrigued because he thought he had seen him before."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Mateo tries to place the boy, thinking he recognises him from the swim squad.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "Read Mateo and answer questions 7 to 14.\n\nMateo\n\nMateo sat alone on the cold concrete steps beside the netball courts, waiting for his older sister to finish her shift at the canteen and drive him home. The sky was already deepening into orange, and even though he'd stopped running twenty minutes ago, his calves were still aching.\n\nAbove him, a flock of galahs bickered noisily in the branches of a huge Moreton Bay fig, their pink bellies flashing every time they shuffled along a branch. Their squabbling calls drifted down and mixed with the distant thud of a ball and the muffled shouts of swimmers still finishing laps in the pool nearby.\n\nMateo checked the time on the old digital watch his grandfather had given him. His sister was late, as usual. He didn't really mind. This quiet stretch after training was something he'd started to look forward to - sitting by himself, watching the last of the light fade, before the harsh security lamps clicked on and turned the courts a flat, ordinary white.\n\nA boy he vaguely recognised from the swim squad wandered over and sat down a few steps away, dropping his bag with a thud. Mateo thought he'd seen him around before - maybe in the year below. The boy unzipped a side pocket of his bag and pulled out a small bag of lychees. They were small and rough-skinned, like little pink pebbles from a fairytale shore. He peeled one open, and the sweet, slightly floral smell drifted over immediately.\n\nHe glanced at Mateo.\n\n'Want one?'\n\n'Sure,' said Mateo.\n\nThe boy tossed one across, and it landed neatly in Mateo's open palm.",
+      "prompt": "A simile compares one thing directly with another. Which of the following is an example of a simile?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'like little pink pebbles from a fairytale shore'"
+        },
+        {
+          "label": "B",
+          "text": "'the cold concrete steps'"
+        },
+        {
+          "label": "C",
+          "text": "'a huge Moreton Bay fig'"
+        },
+        {
+          "label": "D",
+          "text": "'the sweet, slightly floral smell drifted over'"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "This phrase directly compares the lychees to pebbles using 'like'.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2013c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "Read Mateo and answer questions 7 to 14.\n\nMateo\n\nMateo sat alone on the cold concrete steps beside the netball courts, waiting for his older sister to finish her shift at the canteen and drive him home. The sky was already deepening into orange, and even though he'd stopped running twenty minutes ago, his calves were still aching.\n\nAbove him, a flock of galahs bickered noisily in the branches of a huge Moreton Bay fig, their pink bellies flashing every time they shuffled along a branch. Their squabbling calls drifted down and mixed with the distant thud of a ball and the muffled shouts of swimmers still finishing laps in the pool nearby.\n\nMateo checked the time on the old digital watch his grandfather had given him. His sister was late, as usual. He didn't really mind. This quiet stretch after training was something he'd started to look forward to - sitting by himself, watching the last of the light fade, before the harsh security lamps clicked on and turned the courts a flat, ordinary white.\n\nA boy he vaguely recognised from the swim squad wandered over and sat down a few steps away, dropping his bag with a thud. Mateo thought he'd seen him around before - maybe in the year below. The boy unzipped a side pocket of his bag and pulled out a small bag of lychees. They were small and rough-skinned, like little pink pebbles from a fairytale shore. He peeled one open, and the sweet, slightly floral smell drifted over immediately.\n\nHe glanced at Mateo.\n\n'Want one?'\n\n'Sure,' said Mateo.\n\nThe boy tossed one across, and it landed neatly in Mateo's open palm.",
+      "prompt": "Which option is the most likely continuation of the story?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Mateo's sister arrives and Mateo complains that he waited too long."
+        },
+        {
+          "label": "B",
+          "text": "Mateo and the boy continue to talk in a friendly way until his sister arrives."
+        },
+        {
+          "label": "C",
+          "text": "The boy tells Mateo he dislikes him and takes the lychee back."
+        },
+        {
+          "label": "D",
+          "text": "The boy abruptly turns his back on Mateo and refuses to talk."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The friendly gesture of sharing food suggests a pleasant conversation is likely to follow.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "Read from Amara's Altiplano Diary and answer questions 15 to 21.\n\nfrom Amara's Altiplano Diary\n\nTuesday 14 May\n\nIt felt completely unreal ... We were woken around 4 am by a soft knocking on the shutters outside our room. We scrambled into our clothes in the dark. Yolanda led us out to the llamas, where we joined her nieces (Marisol, Ines, Carla and Petra), who were already waiting astride their own animals. We stuffed our packs into the woven panniers slung across the llama's back, and I climbed onto an old stone wall, a launching point from which to swing myself up behind the saddle. It was savagely cold, even though I had on two woollen jumpers, a thermal top, Yolanda's spare poncho (a heavy striped weave I later learned had belonged to her mother) and my own waterproof shell. My legs, in nothing but thin cotton trousers, lost heat almost immediately, so Tomas wrapped a spare blanket around my knees and tucked it firmly under the saddle straps. The girls chattered and hummed to themselves the whole way. At first light, we stopped, hobbled the animals, and the girls quickly built a small fire from dry dung and twigs. It was gloriously warm. Tomas and I shared the flatbread and boiled potatoes Yolanda had packed for us.\n\nI had assumed I'd be working alongside the girls, but it was immediately clear that wasn't the plan at all. Each of them carried a small sickle for cutting bundles of tough highland grass close to the roots. Neither Tomas nor I had been given one. I insisted on trying anyway. I grabbed a clump of grass and went to hack at it, then yelped instantly - the blades were edged like tiny saws! The girls burst out laughing. I took hold of one girl's hand to inspect it; her palms were leathery and calloused, tough as old rope.\n\nWe left the girls to their cutting and set off to climb higher, soon finding ourselves picking our way through patches of old snow. By the time we came back down, the girls had gathered enormous bundles of grass, tying them into towering loads for the llamas to carry. We made our way back towards the village on foot, the girls walking the whole way, occasionally hitching a short ride on the spare llama.\n\nWe got back around 2 pm: the girls had spent nearly ten hours gathering that day's supply of grass for winter fodder. Apparently, each season they have to walk further to find it, since the grass closest to the village has already been stripped bare.",
+      "prompt": "The words 'a launching point' can be best replaced with",
+      "options": [
+        {
+          "label": "A",
+          "text": "a flat spot."
+        },
+        {
+          "label": "B",
+          "text": "a clear view."
+        },
+        {
+          "label": "C",
+          "text": "a good position."
+        },
+        {
+          "label": "D",
+          "text": "a sheltered area."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'A launching point' is a good position from which to start an action — here, climbing onto the llama.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2013c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Read from Amara's Altiplano Diary and answer questions 15 to 21.\n\nfrom Amara's Altiplano Diary\n\nTuesday 14 May\n\nIt felt completely unreal ... We were woken around 4 am by a soft knocking on the shutters outside our room. We scrambled into our clothes in the dark. Yolanda led us out to the llamas, where we joined her nieces (Marisol, Ines, Carla and Petra), who were already waiting astride their own animals. We stuffed our packs into the woven panniers slung across the llama's back, and I climbed onto an old stone wall, a launching point from which to swing myself up behind the saddle. It was savagely cold, even though I had on two woollen jumpers, a thermal top, Yolanda's spare poncho (a heavy striped weave I later learned had belonged to her mother) and my own waterproof shell. My legs, in nothing but thin cotton trousers, lost heat almost immediately, so Tomas wrapped a spare blanket around my knees and tucked it firmly under the saddle straps. The girls chattered and hummed to themselves the whole way. At first light, we stopped, hobbled the animals, and the girls quickly built a small fire from dry dung and twigs. It was gloriously warm. Tomas and I shared the flatbread and boiled potatoes Yolanda had packed for us.\n\nI had assumed I'd be working alongside the girls, but it was immediately clear that wasn't the plan at all. Each of them carried a small sickle for cutting bundles of tough highland grass close to the roots. Neither Tomas nor I had been given one. I insisted on trying anyway. I grabbed a clump of grass and went to hack at it, then yelped instantly - the blades were edged like tiny saws! The girls burst out laughing. I took hold of one girl's hand to inspect it; her palms were leathery and calloused, tough as old rope.\n\nWe left the girls to their cutting and set off to climb higher, soon finding ourselves picking our way through patches of old snow. By the time we came back down, the girls had gathered enormous bundles of grass, tying them into towering loads for the llamas to carry. We made our way back towards the village on foot, the girls walking the whole way, occasionally hitching a short ride on the spare llama.\n\nWe got back around 2 pm: the girls had spent nearly ten hours gathering that day's supply of grass for winter fodder. Apparently, each season they have to walk further to find it, since the grass closest to the village has already been stripped bare.",
+      "prompt": "In the text, why did Tomas wrap a blanket around the narrator's knees?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to help her keep her balance on the llama"
+        },
+        {
+          "label": "B",
+          "text": "to make room in the panniers"
+        },
+        {
+          "label": "C",
+          "text": "to stop the saddle straps from slipping"
+        },
+        {
+          "label": "D",
+          "text": "to protect her legs from the cold"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Her legs were losing heat quickly in thin trousers, so the blanket kept them warm.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Read from Amara's Altiplano Diary and answer questions 15 to 21.\n\nfrom Amara's Altiplano Diary\n\nTuesday 14 May\n\nIt felt completely unreal ... We were woken around 4 am by a soft knocking on the shutters outside our room. We scrambled into our clothes in the dark. Yolanda led us out to the llamas, where we joined her nieces (Marisol, Ines, Carla and Petra), who were already waiting astride their own animals. We stuffed our packs into the woven panniers slung across the llama's back, and I climbed onto an old stone wall, a launching point from which to swing myself up behind the saddle. It was savagely cold, even though I had on two woollen jumpers, a thermal top, Yolanda's spare poncho (a heavy striped weave I later learned had belonged to her mother) and my own waterproof shell. My legs, in nothing but thin cotton trousers, lost heat almost immediately, so Tomas wrapped a spare blanket around my knees and tucked it firmly under the saddle straps. The girls chattered and hummed to themselves the whole way. At first light, we stopped, hobbled the animals, and the girls quickly built a small fire from dry dung and twigs. It was gloriously warm. Tomas and I shared the flatbread and boiled potatoes Yolanda had packed for us.\n\nI had assumed I'd be working alongside the girls, but it was immediately clear that wasn't the plan at all. Each of them carried a small sickle for cutting bundles of tough highland grass close to the roots. Neither Tomas nor I had been given one. I insisted on trying anyway. I grabbed a clump of grass and went to hack at it, then yelped instantly - the blades were edged like tiny saws! The girls burst out laughing. I took hold of one girl's hand to inspect it; her palms were leathery and calloused, tough as old rope.\n\nWe left the girls to their cutting and set off to climb higher, soon finding ourselves picking our way through patches of old snow. By the time we came back down, the girls had gathered enormous bundles of grass, tying them into towering loads for the llamas to carry. We made our way back towards the village on foot, the girls walking the whole way, occasionally hitching a short ride on the spare llama.\n\nWe got back around 2 pm: the girls had spent nearly ten hours gathering that day's supply of grass for winter fodder. Apparently, each season they have to walk further to find it, since the grass closest to the village has already been stripped bare.",
+      "prompt": "The writer uses brackets multiple times in the first paragraph in order to",
+      "options": [
+        {
+          "label": "A",
+          "text": "add relevant information to her account."
+        },
+        {
+          "label": "B",
+          "text": "give her opinions about her trip."
+        },
+        {
+          "label": "C",
+          "text": "provide simplified descriptions of what she saw."
+        },
+        {
+          "label": "D",
+          "text": "express her thoughts about her travelling companions."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Each bracketed aside adds extra detail, like explaining the poncho's history.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2013c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Read from Amara's Altiplano Diary and answer questions 15 to 21.\n\nfrom Amara's Altiplano Diary\n\nTuesday 14 May\n\nIt felt completely unreal ... We were woken around 4 am by a soft knocking on the shutters outside our room. We scrambled into our clothes in the dark. Yolanda led us out to the llamas, where we joined her nieces (Marisol, Ines, Carla and Petra), who were already waiting astride their own animals. We stuffed our packs into the woven panniers slung across the llama's back, and I climbed onto an old stone wall, a launching point from which to swing myself up behind the saddle. It was savagely cold, even though I had on two woollen jumpers, a thermal top, Yolanda's spare poncho (a heavy striped weave I later learned had belonged to her mother) and my own waterproof shell. My legs, in nothing but thin cotton trousers, lost heat almost immediately, so Tomas wrapped a spare blanket around my knees and tucked it firmly under the saddle straps. The girls chattered and hummed to themselves the whole way. At first light, we stopped, hobbled the animals, and the girls quickly built a small fire from dry dung and twigs. It was gloriously warm. Tomas and I shared the flatbread and boiled potatoes Yolanda had packed for us.\n\nI had assumed I'd be working alongside the girls, but it was immediately clear that wasn't the plan at all. Each of them carried a small sickle for cutting bundles of tough highland grass close to the roots. Neither Tomas nor I had been given one. I insisted on trying anyway. I grabbed a clump of grass and went to hack at it, then yelped instantly - the blades were edged like tiny saws! The girls burst out laughing. I took hold of one girl's hand to inspect it; her palms were leathery and calloused, tough as old rope.\n\nWe left the girls to their cutting and set off to climb higher, soon finding ourselves picking our way through patches of old snow. By the time we came back down, the girls had gathered enormous bundles of grass, tying them into towering loads for the llamas to carry. We made our way back towards the village on foot, the girls walking the whole way, occasionally hitching a short ride on the spare llama.\n\nWe got back around 2 pm: the girls had spent nearly ten hours gathering that day's supply of grass for winter fodder. Apparently, each season they have to walk further to find it, since the grass closest to the village has already been stripped bare.",
+      "prompt": "At which time of day did the girls begin cutting grass to take back to the village?",
+      "options": [
+        {
+          "label": "A",
+          "text": "4 am"
+        },
+        {
+          "label": "B",
+          "text": "first light"
+        },
+        {
+          "label": "C",
+          "text": "midday"
+        },
+        {
+          "label": "D",
+          "text": "after lunch"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text says they stopped, hobbled the animals and built a fire 'at first light'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "Read from Amara's Altiplano Diary and answer questions 15 to 21.\n\nfrom Amara's Altiplano Diary\n\nTuesday 14 May\n\nIt felt completely unreal ... We were woken around 4 am by a soft knocking on the shutters outside our room. We scrambled into our clothes in the dark. Yolanda led us out to the llamas, where we joined her nieces (Marisol, Ines, Carla and Petra), who were already waiting astride their own animals. We stuffed our packs into the woven panniers slung across the llama's back, and I climbed onto an old stone wall, a launching point from which to swing myself up behind the saddle. It was savagely cold, even though I had on two woollen jumpers, a thermal top, Yolanda's spare poncho (a heavy striped weave I later learned had belonged to her mother) and my own waterproof shell. My legs, in nothing but thin cotton trousers, lost heat almost immediately, so Tomas wrapped a spare blanket around my knees and tucked it firmly under the saddle straps. The girls chattered and hummed to themselves the whole way. At first light, we stopped, hobbled the animals, and the girls quickly built a small fire from dry dung and twigs. It was gloriously warm. Tomas and I shared the flatbread and boiled potatoes Yolanda had packed for us.\n\nI had assumed I'd be working alongside the girls, but it was immediately clear that wasn't the plan at all. Each of them carried a small sickle for cutting bundles of tough highland grass close to the roots. Neither Tomas nor I had been given one. I insisted on trying anyway. I grabbed a clump of grass and went to hack at it, then yelped instantly - the blades were edged like tiny saws! The girls burst out laughing. I took hold of one girl's hand to inspect it; her palms were leathery and calloused, tough as old rope.\n\nWe left the girls to their cutting and set off to climb higher, soon finding ourselves picking our way through patches of old snow. By the time we came back down, the girls had gathered enormous bundles of grass, tying them into towering loads for the llamas to carry. We made our way back towards the village on foot, the girls walking the whole way, occasionally hitching a short ride on the spare llama.\n\nWe got back around 2 pm: the girls had spent nearly ten hours gathering that day's supply of grass for winter fodder. Apparently, each season they have to walk further to find it, since the grass closest to the village has already been stripped bare.",
+      "prompt": "The writer understood that she was not expected to work when",
+      "options": [
+        {
+          "label": "A",
+          "text": "the girls laughed at her."
+        },
+        {
+          "label": "B",
+          "text": "Tomas mentioned it to her."
+        },
+        {
+          "label": "C",
+          "text": "she realised there was no sickle for her."
+        },
+        {
+          "label": "D",
+          "text": "she noticed her llama could not carry any grass bundles."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Seeing that neither she nor Tomas had been given a sickle made it clear they weren't expected to work.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "Read from Amara's Altiplano Diary and answer questions 15 to 21.\n\nfrom Amara's Altiplano Diary\n\nTuesday 14 May\n\nIt felt completely unreal ... We were woken around 4 am by a soft knocking on the shutters outside our room. We scrambled into our clothes in the dark. Yolanda led us out to the llamas, where we joined her nieces (Marisol, Ines, Carla and Petra), who were already waiting astride their own animals. We stuffed our packs into the woven panniers slung across the llama's back, and I climbed onto an old stone wall, a launching point from which to swing myself up behind the saddle. It was savagely cold, even though I had on two woollen jumpers, a thermal top, Yolanda's spare poncho (a heavy striped weave I later learned had belonged to her mother) and my own waterproof shell. My legs, in nothing but thin cotton trousers, lost heat almost immediately, so Tomas wrapped a spare blanket around my knees and tucked it firmly under the saddle straps. The girls chattered and hummed to themselves the whole way. At first light, we stopped, hobbled the animals, and the girls quickly built a small fire from dry dung and twigs. It was gloriously warm. Tomas and I shared the flatbread and boiled potatoes Yolanda had packed for us.\n\nI had assumed I'd be working alongside the girls, but it was immediately clear that wasn't the plan at all. Each of them carried a small sickle for cutting bundles of tough highland grass close to the roots. Neither Tomas nor I had been given one. I insisted on trying anyway. I grabbed a clump of grass and went to hack at it, then yelped instantly - the blades were edged like tiny saws! The girls burst out laughing. I took hold of one girl's hand to inspect it; her palms were leathery and calloused, tough as old rope.\n\nWe left the girls to their cutting and set off to climb higher, soon finding ourselves picking our way through patches of old snow. By the time we came back down, the girls had gathered enormous bundles of grass, tying them into towering loads for the llamas to carry. We made our way back towards the village on foot, the girls walking the whole way, occasionally hitching a short ride on the spare llama.\n\nWe got back around 2 pm: the girls had spent nearly ten hours gathering that day's supply of grass for winter fodder. Apparently, each season they have to walk further to find it, since the grass closest to the village has already been stripped bare.",
+      "prompt": "The writer 'took hold of one girl's hand' because she wanted to",
+      "options": [
+        {
+          "label": "A",
+          "text": "remove a splinter."
+        },
+        {
+          "label": "B",
+          "text": "stop her from hurting herself."
+        },
+        {
+          "label": "C",
+          "text": "take her on the climb."
+        },
+        {
+          "label": "D",
+          "text": "inspect her hand."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "She wanted to feel how tough and calloused the girl's palm was after the earlier cut from the grass.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "Read from Amara's Altiplano Diary and answer questions 15 to 21.\n\nfrom Amara's Altiplano Diary\n\nTuesday 14 May\n\nIt felt completely unreal ... We were woken around 4 am by a soft knocking on the shutters outside our room. We scrambled into our clothes in the dark. Yolanda led us out to the llamas, where we joined her nieces (Marisol, Ines, Carla and Petra), who were already waiting astride their own animals. We stuffed our packs into the woven panniers slung across the llama's back, and I climbed onto an old stone wall, a launching point from which to swing myself up behind the saddle. It was savagely cold, even though I had on two woollen jumpers, a thermal top, Yolanda's spare poncho (a heavy striped weave I later learned had belonged to her mother) and my own waterproof shell. My legs, in nothing but thin cotton trousers, lost heat almost immediately, so Tomas wrapped a spare blanket around my knees and tucked it firmly under the saddle straps. The girls chattered and hummed to themselves the whole way. At first light, we stopped, hobbled the animals, and the girls quickly built a small fire from dry dung and twigs. It was gloriously warm. Tomas and I shared the flatbread and boiled potatoes Yolanda had packed for us.\n\nI had assumed I'd be working alongside the girls, but it was immediately clear that wasn't the plan at all. Each of them carried a small sickle for cutting bundles of tough highland grass close to the roots. Neither Tomas nor I had been given one. I insisted on trying anyway. I grabbed a clump of grass and went to hack at it, then yelped instantly - the blades were edged like tiny saws! The girls burst out laughing. I took hold of one girl's hand to inspect it; her palms were leathery and calloused, tough as old rope.\n\nWe left the girls to their cutting and set off to climb higher, soon finding ourselves picking our way through patches of old snow. By the time we came back down, the girls had gathered enormous bundles of grass, tying them into towering loads for the llamas to carry. We made our way back towards the village on foot, the girls walking the whole way, occasionally hitching a short ride on the spare llama.\n\nWe got back around 2 pm: the girls had spent nearly ten hours gathering that day's supply of grass for winter fodder. Apparently, each season they have to walk further to find it, since the grass closest to the village has already been stripped bare.",
+      "prompt": "What conclusion can be drawn from the final paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The villagers are using grass faster than it can regrow."
+        },
+        {
+          "label": "B",
+          "text": "The llamas are eating the grass close to the village."
+        },
+        {
+          "label": "C",
+          "text": "Grass does not grow well at high altitude."
+        },
+        {
+          "label": "D",
+          "text": "The girls are not gathering grass quickly enough."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Needing to walk further each season implies the nearby grass supply is being used up faster than it regrows.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "Read Handwriting is an important skill and answer questions 22 to 27.\n\nHandwriting is an important skill\n\nFor\nA letter from my granddaughter arrived this morning, and I feel compelled to write down my reaction, because it certainly wasn't the delight it should have been. The letter was clearly the product of a class assignment - each student had been asked to write to a relative - and while I was glad to hear from Maya, I found myself genuinely troubled by how poorly it was written by hand.\n\nParts of it were barely legible: letters were spaced unevenly, several words trailed off the line entirely, spelling mistakes littered almost every sentence, and the whole thing seemed to switch haphazardly between joined and printed letters. Why hadn't anyone checked it over before it was sent? It seems a genuine loss that handwriting, once considered a real skill worth mastering, has been allowed to slide into careless scrawl that nobody bothers to fix.\n\nI still remember writing to cousins and pen friends as a girl, taking real pride in making each letter look tidy and presentable. These days it seems nobody minds how messy their writing is, and as a result children struggle to put a clear, readable message on paper at all. I intend to write back to Maya - in my very best handwriting - if only to show her what it should look like.\n\nPriya\n\nAgainst\nBeyond the handwriting lessons scheduled at school, most students simply don't handwrite very much anymore. They don't need to, when phones, tablets and laptops handle most of their day-to-day writing. I regularly hear grown-ups complain that today's kids can no longer put a message into words - a claim I find almost funny. In reality, children today probably write more than any generation before them; it's simply not with a pen. Between texts, emails, chat messages and posts, they're constantly writing.\n\nSpelling mistakes are certainly common in this fast, casual kind of writing, but that's a separate issue from handwriting itself - after all, someone can have beautiful handwriting and still spell terribly, or vice versa. If we're going to worry about something, spelling seems like the more useful target. Time spent drilling loops and joins in handwriting lessons might honestly be better spent teaching students to spell accurately, navigate digital tools sensibly, and type quickly and correctly.\n\nCallum",
+      "prompt": "What encouraged Priya to put her thoughts on paper?",
+      "options": [
+        {
+          "label": "A",
+          "text": "her desire to prove to Maya that she could write an interesting letter"
+        },
+        {
+          "label": "B",
+          "text": "her concern about the quality of Maya's handwriting"
+        },
+        {
+          "label": "C",
+          "text": "her belief that Maya's teacher expected her to write a reply"
+        },
+        {
+          "label": "D",
+          "text": "her happiness at receiving a letter from Maya"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Priya writes because she was troubled by how poorly the letter was handwritten.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "Read Handwriting is an important skill and answer questions 22 to 27.\n\nHandwriting is an important skill\n\nFor\nA letter from my granddaughter arrived this morning, and I feel compelled to write down my reaction, because it certainly wasn't the delight it should have been. The letter was clearly the product of a class assignment - each student had been asked to write to a relative - and while I was glad to hear from Maya, I found myself genuinely troubled by how poorly it was written by hand.\n\nParts of it were barely legible: letters were spaced unevenly, several words trailed off the line entirely, spelling mistakes littered almost every sentence, and the whole thing seemed to switch haphazardly between joined and printed letters. Why hadn't anyone checked it over before it was sent? It seems a genuine loss that handwriting, once considered a real skill worth mastering, has been allowed to slide into careless scrawl that nobody bothers to fix.\n\nI still remember writing to cousins and pen friends as a girl, taking real pride in making each letter look tidy and presentable. These days it seems nobody minds how messy their writing is, and as a result children struggle to put a clear, readable message on paper at all. I intend to write back to Maya - in my very best handwriting - if only to show her what it should look like.\n\nPriya\n\nAgainst\nBeyond the handwriting lessons scheduled at school, most students simply don't handwrite very much anymore. They don't need to, when phones, tablets and laptops handle most of their day-to-day writing. I regularly hear grown-ups complain that today's kids can no longer put a message into words - a claim I find almost funny. In reality, children today probably write more than any generation before them; it's simply not with a pen. Between texts, emails, chat messages and posts, they're constantly writing.\n\nSpelling mistakes are certainly common in this fast, casual kind of writing, but that's a separate issue from handwriting itself - after all, someone can have beautiful handwriting and still spell terribly, or vice versa. If we're going to worry about something, spelling seems like the more useful target. Time spent drilling loops and joins in handwriting lessons might honestly be better spent teaching students to spell accurately, navigate digital tools sensibly, and type quickly and correctly.\n\nCallum",
+      "prompt": "'Why hadn't anyone checked it over before it was sent?' How was Priya feeling when she wrote this sentence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "ashamed"
+        },
+        {
+          "label": "B",
+          "text": "guilty"
+        },
+        {
+          "label": "C",
+          "text": "frustrated"
+        },
+        {
+          "label": "D",
+          "text": "unsure"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The rhetorical question expresses her frustration at the uncorrected errors.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "Read Handwriting is an important skill and answer questions 22 to 27.\n\nHandwriting is an important skill\n\nFor\nA letter from my granddaughter arrived this morning, and I feel compelled to write down my reaction, because it certainly wasn't the delight it should have been. The letter was clearly the product of a class assignment - each student had been asked to write to a relative - and while I was glad to hear from Maya, I found myself genuinely troubled by how poorly it was written by hand.\n\nParts of it were barely legible: letters were spaced unevenly, several words trailed off the line entirely, spelling mistakes littered almost every sentence, and the whole thing seemed to switch haphazardly between joined and printed letters. Why hadn't anyone checked it over before it was sent? It seems a genuine loss that handwriting, once considered a real skill worth mastering, has been allowed to slide into careless scrawl that nobody bothers to fix.\n\nI still remember writing to cousins and pen friends as a girl, taking real pride in making each letter look tidy and presentable. These days it seems nobody minds how messy their writing is, and as a result children struggle to put a clear, readable message on paper at all. I intend to write back to Maya - in my very best handwriting - if only to show her what it should look like.\n\nPriya\n\nAgainst\nBeyond the handwriting lessons scheduled at school, most students simply don't handwrite very much anymore. They don't need to, when phones, tablets and laptops handle most of their day-to-day writing. I regularly hear grown-ups complain that today's kids can no longer put a message into words - a claim I find almost funny. In reality, children today probably write more than any generation before them; it's simply not with a pen. Between texts, emails, chat messages and posts, they're constantly writing.\n\nSpelling mistakes are certainly common in this fast, casual kind of writing, but that's a separate issue from handwriting itself - after all, someone can have beautiful handwriting and still spell terribly, or vice versa. If we're going to worry about something, spelling seems like the more useful target. Time spent drilling loops and joins in handwriting lessons might honestly be better spent teaching students to spell accurately, navigate digital tools sensibly, and type quickly and correctly.\n\nCallum",
+      "prompt": "Priya intends to reply to Maya's letter in her 'very best handwriting' in order to",
+      "options": [
+        {
+          "label": "A",
+          "text": "encourage Maya to write more."
+        },
+        {
+          "label": "B",
+          "text": "prove to Maya that she can write neatly."
+        },
+        {
+          "label": "C",
+          "text": "impress Maya's teacher with her neat handwriting."
+        },
+        {
+          "label": "D",
+          "text": "set an example for Maya."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "She wants to 'show her what it should look like' — setting a good example.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "Read Handwriting is an important skill and answer questions 22 to 27.\n\nHandwriting is an important skill\n\nFor\nA letter from my granddaughter arrived this morning, and I feel compelled to write down my reaction, because it certainly wasn't the delight it should have been. The letter was clearly the product of a class assignment - each student had been asked to write to a relative - and while I was glad to hear from Maya, I found myself genuinely troubled by how poorly it was written by hand.\n\nParts of it were barely legible: letters were spaced unevenly, several words trailed off the line entirely, spelling mistakes littered almost every sentence, and the whole thing seemed to switch haphazardly between joined and printed letters. Why hadn't anyone checked it over before it was sent? It seems a genuine loss that handwriting, once considered a real skill worth mastering, has been allowed to slide into careless scrawl that nobody bothers to fix.\n\nI still remember writing to cousins and pen friends as a girl, taking real pride in making each letter look tidy and presentable. These days it seems nobody minds how messy their writing is, and as a result children struggle to put a clear, readable message on paper at all. I intend to write back to Maya - in my very best handwriting - if only to show her what it should look like.\n\nPriya\n\nAgainst\nBeyond the handwriting lessons scheduled at school, most students simply don't handwrite very much anymore. They don't need to, when phones, tablets and laptops handle most of their day-to-day writing. I regularly hear grown-ups complain that today's kids can no longer put a message into words - a claim I find almost funny. In reality, children today probably write more than any generation before them; it's simply not with a pen. Between texts, emails, chat messages and posts, they're constantly writing.\n\nSpelling mistakes are certainly common in this fast, casual kind of writing, but that's a separate issue from handwriting itself - after all, someone can have beautiful handwriting and still spell terribly, or vice versa. If we're going to worry about something, spelling seems like the more useful target. Time spent drilling loops and joins in handwriting lessons might honestly be better spent teaching students to spell accurately, navigate digital tools sensibly, and type quickly and correctly.\n\nCallum",
+      "prompt": "What type of evidence does Priya use to support her argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "personal experience"
+        },
+        {
+          "label": "B",
+          "text": "historical facts"
+        },
+        {
+          "label": "C",
+          "text": "an expert's opinion"
+        },
+        {
+          "label": "D",
+          "text": "a teacher's advice"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "She draws on her own childhood memories of writing to cousins and pen friends.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "Read Handwriting is an important skill and answer questions 22 to 27.\n\nHandwriting is an important skill\n\nFor\nA letter from my granddaughter arrived this morning, and I feel compelled to write down my reaction, because it certainly wasn't the delight it should have been. The letter was clearly the product of a class assignment - each student had been asked to write to a relative - and while I was glad to hear from Maya, I found myself genuinely troubled by how poorly it was written by hand.\n\nParts of it were barely legible: letters were spaced unevenly, several words trailed off the line entirely, spelling mistakes littered almost every sentence, and the whole thing seemed to switch haphazardly between joined and printed letters. Why hadn't anyone checked it over before it was sent? It seems a genuine loss that handwriting, once considered a real skill worth mastering, has been allowed to slide into careless scrawl that nobody bothers to fix.\n\nI still remember writing to cousins and pen friends as a girl, taking real pride in making each letter look tidy and presentable. These days it seems nobody minds how messy their writing is, and as a result children struggle to put a clear, readable message on paper at all. I intend to write back to Maya - in my very best handwriting - if only to show her what it should look like.\n\nPriya\n\nAgainst\nBeyond the handwriting lessons scheduled at school, most students simply don't handwrite very much anymore. They don't need to, when phones, tablets and laptops handle most of their day-to-day writing. I regularly hear grown-ups complain that today's kids can no longer put a message into words - a claim I find almost funny. In reality, children today probably write more than any generation before them; it's simply not with a pen. Between texts, emails, chat messages and posts, they're constantly writing.\n\nSpelling mistakes are certainly common in this fast, casual kind of writing, but that's a separate issue from handwriting itself - after all, someone can have beautiful handwriting and still spell terribly, or vice versa. If we're going to worry about something, spelling seems like the more useful target. Time spent drilling loops and joins in handwriting lessons might honestly be better spent teaching students to spell accurately, navigate digital tools sensibly, and type quickly and correctly.\n\nCallum",
+      "prompt": "'They're constantly writing.' Which connective can be placed at the beginning of this quotation in Callum's argument?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Except"
+        },
+        {
+          "label": "B",
+          "text": "Instead"
+        },
+        {
+          "label": "C",
+          "text": "Therefore"
+        },
+        {
+          "label": "D",
+          "text": "Afterwards"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Instead' contrasts handwriting with the digital writing Callum says students actually do.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2013c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "Read Handwriting is an important skill and answer questions 22 to 27.\n\nHandwriting is an important skill\n\nFor\nA letter from my granddaughter arrived this morning, and I feel compelled to write down my reaction, because it certainly wasn't the delight it should have been. The letter was clearly the product of a class assignment - each student had been asked to write to a relative - and while I was glad to hear from Maya, I found myself genuinely troubled by how poorly it was written by hand.\n\nParts of it were barely legible: letters were spaced unevenly, several words trailed off the line entirely, spelling mistakes littered almost every sentence, and the whole thing seemed to switch haphazardly between joined and printed letters. Why hadn't anyone checked it over before it was sent? It seems a genuine loss that handwriting, once considered a real skill worth mastering, has been allowed to slide into careless scrawl that nobody bothers to fix.\n\nI still remember writing to cousins and pen friends as a girl, taking real pride in making each letter look tidy and presentable. These days it seems nobody minds how messy their writing is, and as a result children struggle to put a clear, readable message on paper at all. I intend to write back to Maya - in my very best handwriting - if only to show her what it should look like.\n\nPriya\n\nAgainst\nBeyond the handwriting lessons scheduled at school, most students simply don't handwrite very much anymore. They don't need to, when phones, tablets and laptops handle most of their day-to-day writing. I regularly hear grown-ups complain that today's kids can no longer put a message into words - a claim I find almost funny. In reality, children today probably write more than any generation before them; it's simply not with a pen. Between texts, emails, chat messages and posts, they're constantly writing.\n\nSpelling mistakes are certainly common in this fast, casual kind of writing, but that's a separate issue from handwriting itself - after all, someone can have beautiful handwriting and still spell terribly, or vice versa. If we're going to worry about something, spelling seems like the more useful target. Time spent drilling loops and joins in handwriting lessons might honestly be better spent teaching students to spell accurately, navigate digital tools sensibly, and type quickly and correctly.\n\nCallum",
+      "prompt": "Based on the ideas in the text, which statement would both Priya and Callum agree with?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Neat handwriting is essential for communication."
+        },
+        {
+          "label": "B",
+          "text": "Technology can improve handwriting skills."
+        },
+        {
+          "label": "C",
+          "text": "Written communication is important."
+        },
+        {
+          "label": "D",
+          "text": "Correct spelling improves the appearance of handwriting."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Both value being able to communicate clearly in writing, even though they disagree about handwriting itself.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "Why did Percy Spencer do a test using popcorn kernels?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to find out whether it was safe to heat food with a transmitter"
+        },
+        {
+          "label": "B",
+          "text": "to determine which transmitter had caused the chocolate bar to melt"
+        },
+        {
+          "label": "C",
+          "text": "to observe if popping corn required the same energy as melting chocolate"
+        },
+        {
+          "label": "D",
+          "text": "to investigate whether placing food near a transmitter would heat and cook it"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "After noticing the melted chocolate, he wanted to see if the waves could cook other food too.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "Why is the word 'fire' written in quotation marks in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It is a less technical way to explain what happens."
+        },
+        {
+          "label": "B",
+          "text": "It shows that the writer is exaggerating."
+        },
+        {
+          "label": "C",
+          "text": "It explains that the microwaves travel at high speed."
+        },
+        {
+          "label": "D",
+          "text": "It emphasises the heat which is created by microwaves."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Fire' is an informal, easy-to-picture way of describing microwaves being emitted.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2013c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "According to the text, what is the main purpose of the metal lining inside a microwave oven?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It retains the heat that comes from cooking the food."
+        },
+        {
+          "label": "B",
+          "text": "It reflects the microwaves that have not yet been absorbed by the food."
+        },
+        {
+          "label": "C",
+          "text": "It allows light waves out so the user can see the food cook."
+        },
+        {
+          "label": "D",
+          "text": "It protects the user from being exposed to too many microwaves."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The lining reflects unabsorbed microwaves back towards the food rather than letting them escape.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "In the text, the word 'twist' can be replaced by",
+      "options": [
+        {
+          "label": "A",
+          "text": "change."
+        },
+        {
+          "label": "B",
+          "text": "adjust."
+        },
+        {
+          "label": "C",
+          "text": "rotate."
+        },
+        {
+          "label": "D",
+          "text": "create."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The molecules 'twist' to align with the field, meaning they rotate.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2013c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "What is the purpose of the molecules twisting back and forth inside the food?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to create an electric field inside the microwave oven"
+        },
+        {
+          "label": "B",
+          "text": "to allow the microwaves to reach the very centre of the food"
+        },
+        {
+          "label": "C",
+          "text": "to make sure both ends of the molecule face the same way"
+        },
+        {
+          "label": "D",
+          "text": "to produce the friction and heat that cooks the food"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This constant twisting and rubbing of molecules is what produces the heat that cooks the food.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "'Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily.' What is the best way to combine these two sentences without changing their meaning?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Microwaves are too wide to fit through the tiny holes, but light waves, which are narrower, can pass through easily."
+        },
+        {
+          "label": "B",
+          "text": "Microwaves are too wide to fit through the tiny holes, allowing light waves to pass through easily and escape."
+        },
+        {
+          "label": "C",
+          "text": "Being too wide for the tiny holes is why microwaves let light waves pass through easily."
+        },
+        {
+          "label": "D",
+          "text": "Microwaves, which are too wide to fit through the tiny holes, unlike light waves, which are narrow enough to pass through easily."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "This option keeps both the contrast ('but') and the full meaning of each original sentence.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2013c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "Which option correctly shows what a wavelength is?",
+      "imageUrl": "/questions/icas-2010-english-paper-c/q34.png",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text defines wavelength as 'the distance between the top of one wave and the top of the very next wave' — the peak-to-peak arrow shown at (B).",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "The main purpose of this text is to",
+      "options": [
+        {
+          "label": "A",
+          "text": "argue."
+        },
+        {
+          "label": "B",
+          "text": "report."
+        },
+        {
+          "label": "C",
+          "text": "explain."
+        },
+        {
+          "label": "D",
+          "text": "recount."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text explains how and why microwave ovens work, rather than arguing a point or recounting an experience.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2013c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "Read Genghis Khan and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "The word 'founder', as it is used in the text, means that Genghis Khan",
+      "options": [
+        {
+          "label": "A",
+          "text": "located the Mongol Empire."
+        },
+        {
+          "label": "B",
+          "text": "discovered the Mongol Empire."
+        },
+        {
+          "label": "C",
+          "text": "inherited the Mongol Empire."
+        },
+        {
+          "label": "D",
+          "text": "established the Mongol Empire."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A 'founder' is someone who establishes or creates something.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2013c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "Read Genghis Khan and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "In the second paragraph, the word 'cruelly' is used to",
+      "options": [
+        {
+          "label": "A",
+          "text": "express the writer's opinion about what happened."
+        },
+        {
+          "label": "B",
+          "text": "provide additional information about the rival clan."
+        },
+        {
+          "label": "C",
+          "text": "emphasise that the event definitely occurred."
+        },
+        {
+          "label": "D",
+          "text": "highlight that this detail is essential to remember."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Cruelly' is a judgment word revealing the writer's view that abandoning the family was unjust.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2013c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "Read Genghis Khan and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "In the second paragraph, what is the purpose of the word 'possible'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to present an argument supported by clear fact"
+        },
+        {
+          "label": "B",
+          "text": "to offer a possibility for readers to consider"
+        },
+        {
+          "label": "C",
+          "text": "to introduce a series of unrelated ideas"
+        },
+        {
+          "label": "D",
+          "text": "to show that one fact is more certain than another"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'It's possible' signals speculation, offering an idea rather than a proven fact.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "passage": "Read Genghis Khan and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "In the phrase 'anyone who resisted him', what do the words 'who' and 'him' refer to?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'who' = clans, 'him' = a rival leader"
+        },
+        {
+          "label": "B",
+          "text": "'who' = nomads, 'him' = Genghis Khan"
+        },
+        {
+          "label": "C",
+          "text": "'who' = enemies, 'him' = Genghis Khan"
+        },
+        {
+          "label": "D",
+          "text": "'who' = Genghis Khan, 'him' = a rival leader"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Who' refers to anyone opposing him, and 'him' refers back to Genghis Khan.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2013c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "passage": "Read Genghis Khan and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "What is the 'mystery' referred to at the beginning of the final paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Genghis Khan was more famous in life than in death."
+        },
+        {
+          "label": "B",
+          "text": "Genghis Khan had an eventful life but an ordinary death."
+        },
+        {
+          "label": "C",
+          "text": "Genghis Khan lived through many battles but died from a simple wound."
+        },
+        {
+          "label": "D",
+          "text": "Genghis Khan's life is well documented, but little is known about his burial site."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The paragraph directly contrasts his well-known life with the unknown location of his grave.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q41",
+      "number": 41,
+      "type": "multiple_choice",
+      "passage": "Read Genghis Khan and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "'later used by other famous military leaders as well' Why does the writer include this information?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to emphasise the lasting effectiveness of Genghis's strategy"
+        },
+        {
+          "label": "B",
+          "text": "to compare the military power of different leaders"
+        },
+        {
+          "label": "C",
+          "text": "to show how far the Mongol Empire eventually spread"
+        },
+        {
+          "label": "D",
+          "text": "to prove that later leaders were smarter than Genghis"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Noting that later leaders reused the strategy underscores just how effective it was.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2013c-q42",
+      "number": 42,
+      "type": "multiple_choice",
+      "passage": "Read Genghis Khan and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder of the Mongol Empire, which at its peak stretched across an enormous area from modern-day Korea all the way to Hungary. Before Genghis united them, twelfth-century Mongolia was home to scattered nomadic clans and farmers who frequently fought each other over access to water and grazing land. Genghis brought these rival clans together under a single banner and built one of the largest empires the world has ever seen.\n\nGenghis was born around 1162 near the Khentii Mountains, in what is now north-central Mongolia. According to Mongol folklore, a birthmark on his hand was a sign that he was destined to become a great leader. From a young age, his mother, Hoelun, taught him about the harsh realities of tribal life and the importance of building alliances with other clans. At around nine years old, Genghis experienced this harshness firsthand when his father was poisoned by a rival clan during a shared meal. His own clan then cruelly abandoned the newly fatherless family, forcing them to fend for themselves, surviving on roots, small animals and fish. It's possible these difficult early experiences shaped the extraordinary leadership skills Genghis would later become known for.\n\nAlthough Genghis is remembered for uniting the Mongol clans, he was equally feared for his ruthlessness towards anyone who resisted him. He commanded a formidable army and used military strategies still studied today, including a 'divide and conquer' approach - later used by other famous military leaders as well - which involved cutting off an enemy's lines of communication and isolating sections of their army to weaken their resolve.\n\nDespite his fame during his lifetime, the details surrounding Genghis Khan's death and burial remain a mystery. He died in 1227, reportedly from an infected wound, but the exact location of his grave has never been found. Historians believe he may be buried somewhere near his birthplace, close to the Onon River, though many Mongolians strongly believe that searching for the site would go against his own wish to be buried without a marker.",
+      "prompt": "Which of the following questions can be answered using only information from this text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Who helped Genghis Khan lead the Mongols?"
+        },
+        {
+          "label": "B",
+          "text": "What is the general location of Genghis Khan's birthplace?"
+        },
+        {
+          "label": "C",
+          "text": "Who inspired Genghis Khan's 'divide and conquer' strategy?"
+        },
+        {
+          "label": "D",
+          "text": "Why exactly did Genghis Khan want an unmarked grave?"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text explicitly states he was born 'near the Khentii Mountains... in north-central Mongolia.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q43",
+      "number": 43,
+      "type": "multiple_choice",
+      "passage": "Read Billabong and answer questions 43 to 50.\n\nBillabong\n\nThe billabong welcomes us like an old friend,\nmurmurs low along its muddy rim\nand cools our ankles with a lazy swirl.\n\nDragonflies holiday here too, hovering\nabove water the colour of steeped tea;\nherons, long-legged, wait patiently at the edge.\n\nGum trees lean in close, peeling\ntheir papery bark in long curling strips,\ntheir pale reflections wavering below.\n\nAt dusk the sky splits into orange fire,\nthreads of woodsmoke rising\nto tangle with the last light of day.\n\nAt dawn the air fills with insect static,\nthe abrupt clatter of a startled cockatoo,\nwhite flashes scattered through green.\n\nOur days blur softly into one another;\nthe billabong stays exactly as it is -\nit never has to pack the car and leave.",
+      "prompt": "Which of these words is used as a verb in the first stanza?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'billabong'"
+        },
+        {
+          "label": "B",
+          "text": "'muddy'"
+        },
+        {
+          "label": "C",
+          "text": "'welcomes'"
+        },
+        {
+          "label": "D",
+          "text": "'ankles'"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Welcomes' is the action word describing what the billabong does.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2013c-q44",
+      "number": 44,
+      "type": "multiple_choice",
+      "passage": "Read Billabong and answer questions 43 to 50.\n\nBillabong\n\nThe billabong welcomes us like an old friend,\nmurmurs low along its muddy rim\nand cools our ankles with a lazy swirl.\n\nDragonflies holiday here too, hovering\nabove water the colour of steeped tea;\nherons, long-legged, wait patiently at the edge.\n\nGum trees lean in close, peeling\ntheir papery bark in long curling strips,\ntheir pale reflections wavering below.\n\nAt dusk the sky splits into orange fire,\nthreads of woodsmoke rising\nto tangle with the last light of day.\n\nAt dawn the air fills with insect static,\nthe abrupt clatter of a startled cockatoo,\nwhite flashes scattered through green.\n\nOur days blur softly into one another;\nthe billabong stays exactly as it is -\nit never has to pack the car and leave.",
+      "prompt": "Which option shows the difference in the descriptions in the second and third stanzas?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Stanza 2: lively — Stanza 3: still"
+        },
+        {
+          "label": "B",
+          "text": "Stanza 2: busy — Stanza 3: peaceful"
+        },
+        {
+          "label": "C",
+          "text": "Stanza 2: colourful — Stanza 3: dull"
+        },
+        {
+          "label": "D",
+          "text": "Stanza 2: gentle — Stanza 3: rugged"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The dragonflies and patient heron feel gentle, while the peeling, curling bark feels rougher and more rugged.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2013c-q45",
+      "number": 45,
+      "type": "multiple_choice",
+      "passage": "Read Billabong and answer questions 43 to 50.\n\nBillabong\n\nThe billabong welcomes us like an old friend,\nmurmurs low along its muddy rim\nand cools our ankles with a lazy swirl.\n\nDragonflies holiday here too, hovering\nabove water the colour of steeped tea;\nherons, long-legged, wait patiently at the edge.\n\nGum trees lean in close, peeling\ntheir papery bark in long curling strips,\ntheir pale reflections wavering below.\n\nAt dusk the sky splits into orange fire,\nthreads of woodsmoke rising\nto tangle with the last light of day.\n\nAt dawn the air fills with insect static,\nthe abrupt clatter of a startled cockatoo,\nwhite flashes scattered through green.\n\nOur days blur softly into one another;\nthe billabong stays exactly as it is -\nit never has to pack the car and leave.",
+      "prompt": "The poet uses the words 'orange fire' (line 10) to describe",
+      "options": [
+        {
+          "label": "A",
+          "text": "streaks of clouds at sunset."
+        },
+        {
+          "label": "B",
+          "text": "flashes of lightning."
+        },
+        {
+          "label": "C",
+          "text": "wisps of rising smoke."
+        },
+        {
+          "label": "D",
+          "text": "flames from a real fire."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The 'orange fire' describes the fiery colours of the sunset sky, not a literal fire.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2013c-q46",
+      "number": 46,
+      "type": "multiple_choice",
+      "passage": "Read Billabong and answer questions 43 to 50.\n\nBillabong\n\nThe billabong welcomes us like an old friend,\nmurmurs low along its muddy rim\nand cools our ankles with a lazy swirl.\n\nDragonflies holiday here too, hovering\nabove water the colour of steeped tea;\nherons, long-legged, wait patiently at the edge.\n\nGum trees lean in close, peeling\ntheir papery bark in long curling strips,\ntheir pale reflections wavering below.\n\nAt dusk the sky splits into orange fire,\nthreads of woodsmoke rising\nto tangle with the last light of day.\n\nAt dawn the air fills with insect static,\nthe abrupt clatter of a startled cockatoo,\nwhite flashes scattered through green.\n\nOur days blur softly into one another;\nthe billabong stays exactly as it is -\nit never has to pack the car and leave.",
+      "prompt": "The word 'static' (line 13) suggests that the insect sounds are",
+      "options": [
+        {
+          "label": "A",
+          "text": "loud and harsh."
+        },
+        {
+          "label": "B",
+          "text": "continuous and crackling."
+        },
+        {
+          "label": "C",
+          "text": "short and repeated."
+        },
+        {
+          "label": "D",
+          "text": "musical."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Static' evokes a constant crackling hum, like radio static.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2013c-q47",
+      "number": 47,
+      "type": "multiple_choice",
+      "passage": "Read Billabong and answer questions 43 to 50.\n\nBillabong\n\nThe billabong welcomes us like an old friend,\nmurmurs low along its muddy rim\nand cools our ankles with a lazy swirl.\n\nDragonflies holiday here too, hovering\nabove water the colour of steeped tea;\nherons, long-legged, wait patiently at the edge.\n\nGum trees lean in close, peeling\ntheir papery bark in long curling strips,\ntheir pale reflections wavering below.\n\nAt dusk the sky splits into orange fire,\nthreads of woodsmoke rising\nto tangle with the last light of day.\n\nAt dawn the air fills with insect static,\nthe abrupt clatter of a startled cockatoo,\nwhite flashes scattered through green.\n\nOur days blur softly into one another;\nthe billabong stays exactly as it is -\nit never has to pack the car and leave.",
+      "prompt": "'Our days blur softly into one another' This quotation shows that the poet",
+      "options": [
+        {
+          "label": "A",
+          "text": "is annoyed that the holiday is coming to a close."
+        },
+        {
+          "label": "B",
+          "text": "is restless and wants to camp elsewhere."
+        },
+        {
+          "label": "C",
+          "text": "feels relaxed and unconcerned about time passing."
+        },
+        {
+          "label": "D",
+          "text": "has enjoyed the rest the holiday provided."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Days blurring together suggests a relaxed, unhurried state where time doesn't matter much.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q48",
+      "number": 48,
+      "type": "multiple_choice",
+      "passage": "Read Billabong and answer questions 43 to 50.\n\nBillabong\n\nThe billabong welcomes us like an old friend,\nmurmurs low along its muddy rim\nand cools our ankles with a lazy swirl.\n\nDragonflies holiday here too, hovering\nabove water the colour of steeped tea;\nherons, long-legged, wait patiently at the edge.\n\nGum trees lean in close, peeling\ntheir papery bark in long curling strips,\ntheir pale reflections wavering below.\n\nAt dusk the sky splits into orange fire,\nthreads of woodsmoke rising\nto tangle with the last light of day.\n\nAt dawn the air fills with insect static,\nthe abrupt clatter of a startled cockatoo,\nwhite flashes scattered through green.\n\nOur days blur softly into one another;\nthe billabong stays exactly as it is -\nit never has to pack the car and leave.",
+      "prompt": "According to the poem, the billabong is lucky because",
+      "options": [
+        {
+          "label": "A",
+          "text": "it is needed by many creatures."
+        },
+        {
+          "label": "B",
+          "text": "it provides enjoyment for people."
+        },
+        {
+          "label": "C",
+          "text": "it has the cockatoo to keep it company."
+        },
+        {
+          "label": "D",
+          "text": "it can remain where it is."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The final stanza says the billabong 'never has to pack the car and leave' — it simply stays.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q49",
+      "number": 49,
+      "type": "multiple_choice",
+      "passage": "Read Billabong and answer questions 43 to 50.\n\nBillabong\n\nThe billabong welcomes us like an old friend,\nmurmurs low along its muddy rim\nand cools our ankles with a lazy swirl.\n\nDragonflies holiday here too, hovering\nabove water the colour of steeped tea;\nherons, long-legged, wait patiently at the edge.\n\nGum trees lean in close, peeling\ntheir papery bark in long curling strips,\ntheir pale reflections wavering below.\n\nAt dusk the sky splits into orange fire,\nthreads of woodsmoke rising\nto tangle with the last light of day.\n\nAt dawn the air fills with insect static,\nthe abrupt clatter of a startled cockatoo,\nwhite flashes scattered through green.\n\nOur days blur softly into one another;\nthe billabong stays exactly as it is -\nit never has to pack the car and leave.",
+      "prompt": "This poem is mainly about",
+      "options": [
+        {
+          "label": "A",
+          "text": "the beauty of nature."
+        },
+        {
+          "label": "B",
+          "text": "the similarity between humans and nature."
+        },
+        {
+          "label": "C",
+          "text": "the protection of the environment."
+        },
+        {
+          "label": "D",
+          "text": "the importance of home."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The poem's imagery throughout celebrates the natural beauty of the billabong and its surroundings.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2013c-q50",
+      "number": 50,
+      "type": "multiple_choice",
+      "passage": "Read Billabong and answer questions 43 to 50.\n\nBillabong\n\nThe billabong welcomes us like an old friend,\nmurmurs low along its muddy rim\nand cools our ankles with a lazy swirl.\n\nDragonflies holiday here too, hovering\nabove water the colour of steeped tea;\nherons, long-legged, wait patiently at the edge.\n\nGum trees lean in close, peeling\ntheir papery bark in long curling strips,\ntheir pale reflections wavering below.\n\nAt dusk the sky splits into orange fire,\nthreads of woodsmoke rising\nto tangle with the last light of day.\n\nAt dawn the air fills with insect static,\nthe abrupt clatter of a startled cockatoo,\nwhite flashes scattered through green.\n\nOur days blur softly into one another;\nthe billabong stays exactly as it is -\nit never has to pack the car and leave.",
+      "prompt": "If the billabong was a person, it would be described as",
+      "options": [
+        {
+          "label": "A",
+          "text": "funny and sociable."
+        },
+        {
+          "label": "B",
+          "text": "generous and welcoming."
+        },
+        {
+          "label": "C",
+          "text": "shy and solitary."
+        },
+        {
+          "label": "D",
+          "text": "old and wise."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The poem opens by describing the billabong as welcoming 'like an old friend.'",
+      "topic": "Text comprehension"
+    }
+  ]
+}

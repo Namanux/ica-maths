@@ -1,0 +1,1402 @@
+{
+  "id": "icas-2010-english-paper-c",
+  "subject": "English",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS English 2010 — Paper C",
+  "year": 2010,
+  "timeLimitMinutes": 40,
+  "questions": [
+    {
+      "id": "eng2010c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "Read Lantern Nights and answer questions 1 to 5.\n\nLantern Nights\n\nAn eleven-year-old named Mia went on holidays to Taiwan with her family for ten days. Here are some entries from her travel diary.\n\nMONDAY\nThe wrong order\nDad was sure he remembered the word for 'noodles' from his old textbook, so he marched up to the food stall as though he had ordered there every night of his life. He pointed confidently at the menu and said the word loudly. The woman behind the counter blinked, then laughed so hard she had to hold the counter. Mum, my brother Leo and I watched as she handed Dad a steaming bowl - of pickled cabbage. Dad had asked for 'noodles' but said the word for 'socks' instead. He ate the cabbage anyway, insisting it was 'an adventurous choice.'\n\nWEDNESDAY\nNight owls\nWe were sitting on a bench near the temple, waiting for the lantern parade to begin. It was almost nine o'clock. Suddenly I noticed a group of local children, younger than Leo, wandering past holding their own small lanterns, chattering happily. 'Shouldn't they be in bed?' I whispered. Mum smiled as if she knew something I didn't. 'Everyone stays up for the festival,' she said. 'Schools don't start until midday tomorrow.' My mouth fell open. Back home, nine o'clock was already far too late for anyone under twelve.\n\nFRIDAY\nLantern trouble\nAt our family friends' apartment, Leo and I were told to leave our shoes at the door. I'd forgotten, and walked straight in. Auntie Wen gasped and pointed frantically at my feet, then at a small red lantern hanging by the entrance, muttering something quickly. I froze, worried I'd broken some serious rule. She grabbed my sleeve and steered me back outside to remove my shoes. It turned out she wasn't cross about luck or tradition at all - she'd simply noticed I was about to step in a puddle of spilled soy sauce. I laughed so hard at my own paranoia that I nearly tripped over the lantern anyway.",
+      "prompt": "'Dad was sure he remembered the word for 'noodles' from his old textbook, so he marched up to the food stall as though he had ordered there every night of his life.' In the context of what happened at the food stall, this statement suggests that",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dad was confident but ended up being wrong."
+        },
+        {
+          "label": "B",
+          "text": "Dad had visited this stall many times before."
+        },
+        {
+          "label": "C",
+          "text": "Dad genuinely knew the local language well."
+        },
+        {
+          "label": "D",
+          "text": "Dad had practised ordering noodles before the trip."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Dad acted as though he knew what he was doing, but he actually asked for 'socks' instead of 'noodles' — confidence didn't stop him being wrong.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "Read Lantern Nights and answer questions 1 to 5.\n\nLantern Nights\n\nAn eleven-year-old named Mia went on holidays to Taiwan with her family for ten days. Here are some entries from her travel diary.\n\nMONDAY\nThe wrong order\nDad was sure he remembered the word for 'noodles' from his old textbook, so he marched up to the food stall as though he had ordered there every night of his life. He pointed confidently at the menu and said the word loudly. The woman behind the counter blinked, then laughed so hard she had to hold the counter. Mum, my brother Leo and I watched as she handed Dad a steaming bowl - of pickled cabbage. Dad had asked for 'noodles' but said the word for 'socks' instead. He ate the cabbage anyway, insisting it was 'an adventurous choice.'\n\nWEDNESDAY\nNight owls\nWe were sitting on a bench near the temple, waiting for the lantern parade to begin. It was almost nine o'clock. Suddenly I noticed a group of local children, younger than Leo, wandering past holding their own small lanterns, chattering happily. 'Shouldn't they be in bed?' I whispered. Mum smiled as if she knew something I didn't. 'Everyone stays up for the festival,' she said. 'Schools don't start until midday tomorrow.' My mouth fell open. Back home, nine o'clock was already far too late for anyone under twelve.\n\nFRIDAY\nLantern trouble\nAt our family friends' apartment, Leo and I were told to leave our shoes at the door. I'd forgotten, and walked straight in. Auntie Wen gasped and pointed frantically at my feet, then at a small red lantern hanging by the entrance, muttering something quickly. I froze, worried I'd broken some serious rule. She grabbed my sleeve and steered me back outside to remove my shoes. It turned out she wasn't cross about luck or tradition at all - she'd simply noticed I was about to step in a puddle of spilled soy sauce. I laughed so hard at my own paranoia that I nearly tripped over the lantern anyway.",
+      "prompt": "Which word is closest in meaning to 'frantically'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "calmly"
+        },
+        {
+          "label": "B",
+          "text": "urgently"
+        },
+        {
+          "label": "C",
+          "text": "quietly"
+        },
+        {
+          "label": "D",
+          "text": "slowly"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Frantically' describes fast, urgent, worried movement — closest to 'urgently'.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2010c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "Read Lantern Nights and answer questions 1 to 5.\n\nLantern Nights\n\nAn eleven-year-old named Mia went on holidays to Taiwan with her family for ten days. Here are some entries from her travel diary.\n\nMONDAY\nThe wrong order\nDad was sure he remembered the word for 'noodles' from his old textbook, so he marched up to the food stall as though he had ordered there every night of his life. He pointed confidently at the menu and said the word loudly. The woman behind the counter blinked, then laughed so hard she had to hold the counter. Mum, my brother Leo and I watched as she handed Dad a steaming bowl - of pickled cabbage. Dad had asked for 'noodles' but said the word for 'socks' instead. He ate the cabbage anyway, insisting it was 'an adventurous choice.'\n\nWEDNESDAY\nNight owls\nWe were sitting on a bench near the temple, waiting for the lantern parade to begin. It was almost nine o'clock. Suddenly I noticed a group of local children, younger than Leo, wandering past holding their own small lanterns, chattering happily. 'Shouldn't they be in bed?' I whispered. Mum smiled as if she knew something I didn't. 'Everyone stays up for the festival,' she said. 'Schools don't start until midday tomorrow.' My mouth fell open. Back home, nine o'clock was already far too late for anyone under twelve.\n\nFRIDAY\nLantern trouble\nAt our family friends' apartment, Leo and I were told to leave our shoes at the door. I'd forgotten, and walked straight in. Auntie Wen gasped and pointed frantically at my feet, then at a small red lantern hanging by the entrance, muttering something quickly. I froze, worried I'd broken some serious rule. She grabbed my sleeve and steered me back outside to remove my shoes. It turned out she wasn't cross about luck or tradition at all - she'd simply noticed I was about to step in a puddle of spilled soy sauce. I laughed so hard at my own paranoia that I nearly tripped over the lantern anyway.",
+      "prompt": "In Wednesday's entry, what does the word 'whispered' suggest about how the narrator was feeling?",
+      "options": [
+        {
+          "label": "A",
+          "text": "excited about the parade"
+        },
+        {
+          "label": "B",
+          "text": "tired from the long day"
+        },
+        {
+          "label": "C",
+          "text": "surprised that the children were still up"
+        },
+        {
+          "label": "D",
+          "text": "annoyed at the noise"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "She whispers her question because she's caught off guard that children her brother's age are still out so late.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "Read Lantern Nights and answer questions 1 to 5.\n\nLantern Nights\n\nAn eleven-year-old named Mia went on holidays to Taiwan with her family for ten days. Here are some entries from her travel diary.\n\nMONDAY\nThe wrong order\nDad was sure he remembered the word for 'noodles' from his old textbook, so he marched up to the food stall as though he had ordered there every night of his life. He pointed confidently at the menu and said the word loudly. The woman behind the counter blinked, then laughed so hard she had to hold the counter. Mum, my brother Leo and I watched as she handed Dad a steaming bowl - of pickled cabbage. Dad had asked for 'noodles' but said the word for 'socks' instead. He ate the cabbage anyway, insisting it was 'an adventurous choice.'\n\nWEDNESDAY\nNight owls\nWe were sitting on a bench near the temple, waiting for the lantern parade to begin. It was almost nine o'clock. Suddenly I noticed a group of local children, younger than Leo, wandering past holding their own small lanterns, chattering happily. 'Shouldn't they be in bed?' I whispered. Mum smiled as if she knew something I didn't. 'Everyone stays up for the festival,' she said. 'Schools don't start until midday tomorrow.' My mouth fell open. Back home, nine o'clock was already far too late for anyone under twelve.\n\nFRIDAY\nLantern trouble\nAt our family friends' apartment, Leo and I were told to leave our shoes at the door. I'd forgotten, and walked straight in. Auntie Wen gasped and pointed frantically at my feet, then at a small red lantern hanging by the entrance, muttering something quickly. I froze, worried I'd broken some serious rule. She grabbed my sleeve and steered me back outside to remove my shoes. It turned out she wasn't cross about luck or tradition at all - she'd simply noticed I was about to step in a puddle of spilled soy sauce. I laughed so hard at my own paranoia that I nearly tripped over the lantern anyway.",
+      "prompt": "In Friday's entry, why did the narrator laugh at the end?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Auntie Wen was not really upset."
+        },
+        {
+          "label": "B",
+          "text": "she found the puddle funny."
+        },
+        {
+          "label": "C",
+          "text": "she was relieved to be barefoot."
+        },
+        {
+          "label": "D",
+          "text": "she realised she had overreacted."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "She had assumed she'd broken a serious custom, then realised Auntie Wen was only warning her about spilled soy sauce.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2010c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "Read Lantern Nights and answer questions 1 to 5.\n\nLantern Nights\n\nAn eleven-year-old named Mia went on holidays to Taiwan with her family for ten days. Here are some entries from her travel diary.\n\nMONDAY\nThe wrong order\nDad was sure he remembered the word for 'noodles' from his old textbook, so he marched up to the food stall as though he had ordered there every night of his life. He pointed confidently at the menu and said the word loudly. The woman behind the counter blinked, then laughed so hard she had to hold the counter. Mum, my brother Leo and I watched as she handed Dad a steaming bowl - of pickled cabbage. Dad had asked for 'noodles' but said the word for 'socks' instead. He ate the cabbage anyway, insisting it was 'an adventurous choice.'\n\nWEDNESDAY\nNight owls\nWe were sitting on a bench near the temple, waiting for the lantern parade to begin. It was almost nine o'clock. Suddenly I noticed a group of local children, younger than Leo, wandering past holding their own small lanterns, chattering happily. 'Shouldn't they be in bed?' I whispered. Mum smiled as if she knew something I didn't. 'Everyone stays up for the festival,' she said. 'Schools don't start until midday tomorrow.' My mouth fell open. Back home, nine o'clock was already far too late for anyone under twelve.\n\nFRIDAY\nLantern trouble\nAt our family friends' apartment, Leo and I were told to leave our shoes at the door. I'd forgotten, and walked straight in. Auntie Wen gasped and pointed frantically at my feet, then at a small red lantern hanging by the entrance, muttering something quickly. I froze, worried I'd broken some serious rule. She grabbed my sleeve and steered me back outside to remove my shoes. It turned out she wasn't cross about luck or tradition at all - she'd simply noticed I was about to step in a puddle of spilled soy sauce. I laughed so hard at my own paranoia that I nearly tripped over the lantern anyway.",
+      "prompt": "When the same sound is repeated at the beginning of words, it is called alliteration. Which of the following is an example of alliteration?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'Lantern trouble'"
+        },
+        {
+          "label": "B",
+          "text": "'laughed so hard'"
+        },
+        {
+          "label": "C",
+          "text": "'steering me back'"
+        },
+        {
+          "label": "D",
+          "text": "'holding their own small lanterns'"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Lantern trouble' repeats the same starting sound — the other phrases don't.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2010c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "The twins wanted to enter the talent show together ________ only one of them had actually practised.",
+      "options": [
+        {
+          "label": "A",
+          "text": "besides"
+        },
+        {
+          "label": "B",
+          "text": "but"
+        },
+        {
+          "label": "C",
+          "text": "so"
+        },
+        {
+          "label": "D",
+          "text": "because"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'But' correctly shows the contrast between wanting to enter together and only one having practised.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2010c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "The bakery was fully booked for the weekend. ________ there had been very little advertising, every table was reserved.",
+      "options": [
+        {
+          "label": "A",
+          "text": "However"
+        },
+        {
+          "label": "B",
+          "text": "In spite of"
+        },
+        {
+          "label": "C",
+          "text": "Even though"
+        },
+        {
+          "label": "D",
+          "text": "On the other hand"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Even though' correctly introduces the full clause that follows; 'In spite of' would need a noun phrase instead.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2010c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "Read Own Goal and answer questions 8 to 12.\n\nOwn Goal\n\n2-2,\nextra time almost done.\nThe keeper shouts,\n'Get ready, Sam!'\nI can feel it coming.\nThe corner kick curls in,\nhigh and slow,\n'Just meet it with your head,\neasy as that.'\nSimple.\nThe ball drops toward me\nas I leap for the play,\nso I meet it.\nIt's a perfect header.\nIt loops over everyone,\nno keeper, no defender,\nin one long, lazy loop,\nand drifts, and drifts,\nand lands in our own net.\nThe winning goal!\nThe winning goal for the other team,\nset up by a beautiful looping header\nthe wrong way, by Sorry Sam,\nhero of his own nightmare.",
+      "prompt": "When the narrator says 'I can feel it coming' he is",
+      "options": [
+        {
+          "label": "A",
+          "text": "imagining he is the coach."
+        },
+        {
+          "label": "B",
+          "text": "remembering an earlier match."
+        },
+        {
+          "label": "C",
+          "text": "watching the referee's whistle."
+        },
+        {
+          "label": "D",
+          "text": "imagining what is about to happen."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "He senses the ball is about to come to him and pictures what will happen next.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "Read Own Goal and answer questions 8 to 12.\n\nOwn Goal\n\n2-2,\nextra time almost done.\nThe keeper shouts,\n'Get ready, Sam!'\nI can feel it coming.\nThe corner kick curls in,\nhigh and slow,\n'Just meet it with your head,\neasy as that.'\nSimple.\nThe ball drops toward me\nas I leap for the play,\nso I meet it.\nIt's a perfect header.\nIt loops over everyone,\nno keeper, no defender,\nin one long, lazy loop,\nand drifts, and drifts,\nand lands in our own net.\nThe winning goal!\nThe winning goal for the other team,\nset up by a beautiful looping header\nthe wrong way, by Sorry Sam,\nhero of his own nightmare.",
+      "prompt": "Why has the poet chosen to repeat the words 'and drifts'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to build suspense before the ball lands"
+        },
+        {
+          "label": "B",
+          "text": "to introduce a rhyme scheme into the poem"
+        },
+        {
+          "label": "C",
+          "text": "to suggest that Sam is very nervous"
+        },
+        {
+          "label": "D",
+          "text": "to describe the skill of the goalkeeper"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Repeating 'and drifts' slows the poem down, drawing out the moment before we learn where the ball lands.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2010c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "Read Own Goal and answer questions 8 to 12.\n\nOwn Goal\n\n2-2,\nextra time almost done.\nThe keeper shouts,\n'Get ready, Sam!'\nI can feel it coming.\nThe corner kick curls in,\nhigh and slow,\n'Just meet it with your head,\neasy as that.'\nSimple.\nThe ball drops toward me\nas I leap for the play,\nso I meet it.\nIt's a perfect header.\nIt loops over everyone,\nno keeper, no defender,\nin one long, lazy loop,\nand drifts, and drifts,\nand lands in our own net.\nThe winning goal!\nThe winning goal for the other team,\nset up by a beautiful looping header\nthe wrong way, by Sorry Sam,\nhero of his own nightmare.",
+      "prompt": "What does the title of the poem reflect?",
+      "options": [
+        {
+          "label": "A",
+          "text": "how the coach feels about the team's performance"
+        },
+        {
+          "label": "B",
+          "text": "how Sam feels at the end of the match"
+        },
+        {
+          "label": "C",
+          "text": "how inexperienced Sam's team is"
+        },
+        {
+          "label": "D",
+          "text": "how the other team feels when the game is over"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Own Goal' reflects Sam's own mistake and how he feels having accidentally scored for the other team.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "Read Own Goal and answer questions 8 to 12.\n\nOwn Goal\n\n2-2,\nextra time almost done.\nThe keeper shouts,\n'Get ready, Sam!'\nI can feel it coming.\nThe corner kick curls in,\nhigh and slow,\n'Just meet it with your head,\neasy as that.'\nSimple.\nThe ball drops toward me\nas I leap for the play,\nso I meet it.\nIt's a perfect header.\nIt loops over everyone,\nno keeper, no defender,\nin one long, lazy loop,\nand drifts, and drifts,\nand lands in our own net.\nThe winning goal!\nThe winning goal for the other team,\nset up by a beautiful looping header\nthe wrong way, by Sorry Sam,\nhero of his own nightmare.",
+      "prompt": "This poem is written from the point of view of",
+      "options": [
+        {
+          "label": "A",
+          "text": "the coach."
+        },
+        {
+          "label": "B",
+          "text": "the goalkeeper."
+        },
+        {
+          "label": "C",
+          "text": "Sam."
+        },
+        {
+          "label": "D",
+          "text": "the crowd."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The poem is narrated in first person by Sam, describing his own header and its outcome.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Read Own Goal and answer questions 8 to 12.\n\nOwn Goal\n\n2-2,\nextra time almost done.\nThe keeper shouts,\n'Get ready, Sam!'\nI can feel it coming.\nThe corner kick curls in,\nhigh and slow,\n'Just meet it with your head,\neasy as that.'\nSimple.\nThe ball drops toward me\nas I leap for the play,\nso I meet it.\nIt's a perfect header.\nIt loops over everyone,\nno keeper, no defender,\nin one long, lazy loop,\nand drifts, and drifts,\nand lands in our own net.\nThe winning goal!\nThe winning goal for the other team,\nset up by a beautiful looping header\nthe wrong way, by Sorry Sam,\nhero of his own nightmare.",
+      "prompt": "In the line 'It loops over everyone,' which word is being used as a verb?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It"
+        },
+        {
+          "label": "B",
+          "text": "over"
+        },
+        {
+          "label": "C",
+          "text": "everyone"
+        },
+        {
+          "label": "D",
+          "text": "loops"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Loops' is the action word (verb) describing what the ball does.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2010c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Which sentence is punctuated correctly?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'Wait,' Ben said, 'have you seen my sister's bike?'"
+        },
+        {
+          "label": "B",
+          "text": "'Wait,' Ben said, 'have you seen my sisters bike?'"
+        },
+        {
+          "label": "C",
+          "text": "'Wait,' Ben said. 'have you seen my sister's bike?'"
+        },
+        {
+          "label": "D",
+          "text": "'Wait,' Ben said, 'Have you seen my sister's bike?'"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A comma (not a full stop) joins the two parts of one spoken sentence, so 'have' stays lower-case, and 'sister's' needs an apostrophe to show possession.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2010c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "Read Nine Men's Morris and answer questions 14 to 20.\n\nNine Men's Morris\n\nLong before video games existed, people were already inventing simple strategy games using nothing more than a few pebbles and a shape scratched into the dirt. One of the oldest of these is nine men's morris, a game that has been discovered carved into stone seats, temple roofs and even the boards of ancient ships. Historians have found versions of it in Egypt, Greece, Rome, China and Ireland, some more than three thousand years old.\n\nThe game gets its lasting popularity from how little it needs. All you require is a simple board of connected lines and points, and eighteen counters - nine for each player, traditionally one dark set and one light set. Nine men's morris is often compared to a more complicated cousin of noughts and crosses. Instead of forming just one line to win instantly, players try to line up three of their own counters in a row along the board's lines, called a 'mill'. Forming a mill lets a player permanently remove one of the opponent's counters from the board.\n\nMOVING AND WINNING\nThere are two ways to win nine men's morris: by trapping your opponent's counters so that none of them can move anywhere, or by capturing counters until your opponent has only two left, which makes it impossible for them to ever form a mill.\n\nThe game unfolds in two stages. During the placing stage, each player takes turns setting their nine counters down on any empty point on the board. Points are only found where lines cross or end (Diagram 1: a player places a counter on an empty point during the placing stage).\n\nOnce all eighteen counters are on the board, the moving stage begins. Players slide one counter at a time, one step along a line, into a neighbouring point - but only if that point is empty (Diagram 2: a counter slides one step along a line to an empty neighbouring point during the moving stage).\n\nBREAKING AND REFORMING A MILL\nWhenever you complete a mill, you may remove one enemy counter, as long as it is not itself already part of a mill (unless no other counters remain). A mill cannot be used to capture a piece again on your very next turn. To capture again, you must first break your mill by sliding one counter out of line, then slide it back into position on a later turn - as long as your opponent hasn't blocked the spot in between.\n\nSkilled players sometimes build a devastating setup: two overlapping rows that can each be broken and reformed in turn, letting them capture an enemy counter almost every single move. This vicious formation is nicknamed a 'running mill' (Diagram 3: Black breaks one mill and immediately reforms another, capturing a white counter almost every turn. White has little chance to recover).",
+      "prompt": "What is the writer referring to when he describes the game's 'simple form'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Winning the game is easy once a player knows how."
+        },
+        {
+          "label": "B",
+          "text": "Only a plain board and counters are needed to play."
+        },
+        {
+          "label": "C",
+          "text": "Anyone can learn to play the game."
+        },
+        {
+          "label": "D",
+          "text": "There are only a few basic rules."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text says the game 'needs' very little — just a board of lines and points, and some counters.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "Read Nine Men's Morris and answer questions 14 to 20.\n\nNine Men's Morris\n\nLong before video games existed, people were already inventing simple strategy games using nothing more than a few pebbles and a shape scratched into the dirt. One of the oldest of these is nine men's morris, a game that has been discovered carved into stone seats, temple roofs and even the boards of ancient ships. Historians have found versions of it in Egypt, Greece, Rome, China and Ireland, some more than three thousand years old.\n\nThe game gets its lasting popularity from how little it needs. All you require is a simple board of connected lines and points, and eighteen counters - nine for each player, traditionally one dark set and one light set. Nine men's morris is often compared to a more complicated cousin of noughts and crosses. Instead of forming just one line to win instantly, players try to line up three of their own counters in a row along the board's lines, called a 'mill'. Forming a mill lets a player permanently remove one of the opponent's counters from the board.\n\nMOVING AND WINNING\nThere are two ways to win nine men's morris: by trapping your opponent's counters so that none of them can move anywhere, or by capturing counters until your opponent has only two left, which makes it impossible for them to ever form a mill.\n\nThe game unfolds in two stages. During the placing stage, each player takes turns setting their nine counters down on any empty point on the board. Points are only found where lines cross or end (Diagram 1: a player places a counter on an empty point during the placing stage).\n\nOnce all eighteen counters are on the board, the moving stage begins. Players slide one counter at a time, one step along a line, into a neighbouring point - but only if that point is empty (Diagram 2: a counter slides one step along a line to an empty neighbouring point during the moving stage).\n\nBREAKING AND REFORMING A MILL\nWhenever you complete a mill, you may remove one enemy counter, as long as it is not itself already part of a mill (unless no other counters remain). A mill cannot be used to capture a piece again on your very next turn. To capture again, you must first break your mill by sliding one counter out of line, then slide it back into position on a later turn - as long as your opponent hasn't blocked the spot in between.\n\nSkilled players sometimes build a devastating setup: two overlapping rows that can each be broken and reformed in turn, letting them capture an enemy counter almost every single move. This vicious formation is nicknamed a 'running mill' (Diagram 3: Black breaks one mill and immediately reforms another, capturing a white counter almost every turn. White has little chance to recover).",
+      "prompt": "What is the main purpose of the first paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to describe the origin of the word 'morris'"
+        },
+        {
+          "label": "B",
+          "text": "to list the countries that invented the game"
+        },
+        {
+          "label": "C",
+          "text": "to show that the game has a long history and widespread popularity"
+        },
+        {
+          "label": "D",
+          "text": "to explain why ancient people had no other games to play"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The paragraph mentions the game being found across many ancient cultures and thousands of years old, showing its long, widespread history.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Read Nine Men's Morris and answer questions 14 to 20.\n\nNine Men's Morris\n\nLong before video games existed, people were already inventing simple strategy games using nothing more than a few pebbles and a shape scratched into the dirt. One of the oldest of these is nine men's morris, a game that has been discovered carved into stone seats, temple roofs and even the boards of ancient ships. Historians have found versions of it in Egypt, Greece, Rome, China and Ireland, some more than three thousand years old.\n\nThe game gets its lasting popularity from how little it needs. All you require is a simple board of connected lines and points, and eighteen counters - nine for each player, traditionally one dark set and one light set. Nine men's morris is often compared to a more complicated cousin of noughts and crosses. Instead of forming just one line to win instantly, players try to line up three of their own counters in a row along the board's lines, called a 'mill'. Forming a mill lets a player permanently remove one of the opponent's counters from the board.\n\nMOVING AND WINNING\nThere are two ways to win nine men's morris: by trapping your opponent's counters so that none of them can move anywhere, or by capturing counters until your opponent has only two left, which makes it impossible for them to ever form a mill.\n\nThe game unfolds in two stages. During the placing stage, each player takes turns setting their nine counters down on any empty point on the board. Points are only found where lines cross or end (Diagram 1: a player places a counter on an empty point during the placing stage).\n\nOnce all eighteen counters are on the board, the moving stage begins. Players slide one counter at a time, one step along a line, into a neighbouring point - but only if that point is empty (Diagram 2: a counter slides one step along a line to an empty neighbouring point during the moving stage).\n\nBREAKING AND REFORMING A MILL\nWhenever you complete a mill, you may remove one enemy counter, as long as it is not itself already part of a mill (unless no other counters remain). A mill cannot be used to capture a piece again on your very next turn. To capture again, you must first break your mill by sliding one counter out of line, then slide it back into position on a later turn - as long as your opponent hasn't blocked the spot in between.\n\nSkilled players sometimes build a devastating setup: two overlapping rows that can each be broken and reformed in turn, letting them capture an enemy counter almost every single move. This vicious formation is nicknamed a 'running mill' (Diagram 3: Black breaks one mill and immediately reforms another, capturing a white counter almost every turn. White has little chance to recover).",
+      "prompt": "The diagram below shows two overlapping mills, similar to the running mill described in the text (only some counters are shown). If the black counter has just moved in the direction of the arrow, which labelled point holds the white counter that Black should try to capture next?",
+      "imageUrl": "/questions/icas-2010-english-paper-c/q16.png",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Working through the diagram, capturing the counter at point A breaks White's ability to reform a second mill straight away.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Read Nine Men's Morris and answer questions 14 to 20.\n\nNine Men's Morris\n\nLong before video games existed, people were already inventing simple strategy games using nothing more than a few pebbles and a shape scratched into the dirt. One of the oldest of these is nine men's morris, a game that has been discovered carved into stone seats, temple roofs and even the boards of ancient ships. Historians have found versions of it in Egypt, Greece, Rome, China and Ireland, some more than three thousand years old.\n\nThe game gets its lasting popularity from how little it needs. All you require is a simple board of connected lines and points, and eighteen counters - nine for each player, traditionally one dark set and one light set. Nine men's morris is often compared to a more complicated cousin of noughts and crosses. Instead of forming just one line to win instantly, players try to line up three of their own counters in a row along the board's lines, called a 'mill'. Forming a mill lets a player permanently remove one of the opponent's counters from the board.\n\nMOVING AND WINNING\nThere are two ways to win nine men's morris: by trapping your opponent's counters so that none of them can move anywhere, or by capturing counters until your opponent has only two left, which makes it impossible for them to ever form a mill.\n\nThe game unfolds in two stages. During the placing stage, each player takes turns setting their nine counters down on any empty point on the board. Points are only found where lines cross or end (Diagram 1: a player places a counter on an empty point during the placing stage).\n\nOnce all eighteen counters are on the board, the moving stage begins. Players slide one counter at a time, one step along a line, into a neighbouring point - but only if that point is empty (Diagram 2: a counter slides one step along a line to an empty neighbouring point during the moving stage).\n\nBREAKING AND REFORMING A MILL\nWhenever you complete a mill, you may remove one enemy counter, as long as it is not itself already part of a mill (unless no other counters remain). A mill cannot be used to capture a piece again on your very next turn. To capture again, you must first break your mill by sliding one counter out of line, then slide it back into position on a later turn - as long as your opponent hasn't blocked the spot in between.\n\nSkilled players sometimes build a devastating setup: two overlapping rows that can each be broken and reformed in turn, letting them capture an enemy counter almost every single move. This vicious formation is nicknamed a 'running mill' (Diagram 3: Black breaks one mill and immediately reforms another, capturing a white counter almost every turn. White has little chance to recover).",
+      "prompt": "In the text, the use of the word 'vicious' means that",
+      "options": [
+        {
+          "label": "A",
+          "text": "the opponent has almost no way to recover."
+        },
+        {
+          "label": "B",
+          "text": "the move must be used carefully."
+        },
+        {
+          "label": "C",
+          "text": "the move has been well thought out."
+        },
+        {
+          "label": "D",
+          "text": "a player requires a high level of skill."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A 'vicious' formation is so damaging that the opponent has little chance to fight back, as the text goes on to describe.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2010c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Read Nine Men's Morris and answer questions 14 to 20.\n\nNine Men's Morris\n\nLong before video games existed, people were already inventing simple strategy games using nothing more than a few pebbles and a shape scratched into the dirt. One of the oldest of these is nine men's morris, a game that has been discovered carved into stone seats, temple roofs and even the boards of ancient ships. Historians have found versions of it in Egypt, Greece, Rome, China and Ireland, some more than three thousand years old.\n\nThe game gets its lasting popularity from how little it needs. All you require is a simple board of connected lines and points, and eighteen counters - nine for each player, traditionally one dark set and one light set. Nine men's morris is often compared to a more complicated cousin of noughts and crosses. Instead of forming just one line to win instantly, players try to line up three of their own counters in a row along the board's lines, called a 'mill'. Forming a mill lets a player permanently remove one of the opponent's counters from the board.\n\nMOVING AND WINNING\nThere are two ways to win nine men's morris: by trapping your opponent's counters so that none of them can move anywhere, or by capturing counters until your opponent has only two left, which makes it impossible for them to ever form a mill.\n\nThe game unfolds in two stages. During the placing stage, each player takes turns setting their nine counters down on any empty point on the board. Points are only found where lines cross or end (Diagram 1: a player places a counter on an empty point during the placing stage).\n\nOnce all eighteen counters are on the board, the moving stage begins. Players slide one counter at a time, one step along a line, into a neighbouring point - but only if that point is empty (Diagram 2: a counter slides one step along a line to an empty neighbouring point during the moving stage).\n\nBREAKING AND REFORMING A MILL\nWhenever you complete a mill, you may remove one enemy counter, as long as it is not itself already part of a mill (unless no other counters remain). A mill cannot be used to capture a piece again on your very next turn. To capture again, you must first break your mill by sliding one counter out of line, then slide it back into position on a later turn - as long as your opponent hasn't blocked the spot in between.\n\nSkilled players sometimes build a devastating setup: two overlapping rows that can each be broken and reformed in turn, letting them capture an enemy counter almost every single move. This vicious formation is nicknamed a 'running mill' (Diagram 3: Black breaks one mill and immediately reforms another, capturing a white counter almost every turn. White has little chance to recover).",
+      "prompt": "Which of the following correctly describes a rule of nine men's morris?",
+      "options": [
+        {
+          "label": "A",
+          "text": "A mill can never be broken once it is formed."
+        },
+        {
+          "label": "B",
+          "text": "A player loses when they cannot move any of their pieces."
+        },
+        {
+          "label": "C",
+          "text": "All nine of the opponent's pieces must be captured to win."
+        },
+        {
+          "label": "D",
+          "text": "Counters can be placed anywhere on the board at any time."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text states a player can win 'by trapping your opponent's counters so that none of them can move anywhere.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "Read Nine Men's Morris and answer questions 14 to 20.\n\nNine Men's Morris\n\nLong before video games existed, people were already inventing simple strategy games using nothing more than a few pebbles and a shape scratched into the dirt. One of the oldest of these is nine men's morris, a game that has been discovered carved into stone seats, temple roofs and even the boards of ancient ships. Historians have found versions of it in Egypt, Greece, Rome, China and Ireland, some more than three thousand years old.\n\nThe game gets its lasting popularity from how little it needs. All you require is a simple board of connected lines and points, and eighteen counters - nine for each player, traditionally one dark set and one light set. Nine men's morris is often compared to a more complicated cousin of noughts and crosses. Instead of forming just one line to win instantly, players try to line up three of their own counters in a row along the board's lines, called a 'mill'. Forming a mill lets a player permanently remove one of the opponent's counters from the board.\n\nMOVING AND WINNING\nThere are two ways to win nine men's morris: by trapping your opponent's counters so that none of them can move anywhere, or by capturing counters until your opponent has only two left, which makes it impossible for them to ever form a mill.\n\nThe game unfolds in two stages. During the placing stage, each player takes turns setting their nine counters down on any empty point on the board. Points are only found where lines cross or end (Diagram 1: a player places a counter on an empty point during the placing stage).\n\nOnce all eighteen counters are on the board, the moving stage begins. Players slide one counter at a time, one step along a line, into a neighbouring point - but only if that point is empty (Diagram 2: a counter slides one step along a line to an empty neighbouring point during the moving stage).\n\nBREAKING AND REFORMING A MILL\nWhenever you complete a mill, you may remove one enemy counter, as long as it is not itself already part of a mill (unless no other counters remain). A mill cannot be used to capture a piece again on your very next turn. To capture again, you must first break your mill by sliding one counter out of line, then slide it back into position on a later turn - as long as your opponent hasn't blocked the spot in between.\n\nSkilled players sometimes build a devastating setup: two overlapping rows that can each be broken and reformed in turn, letting them capture an enemy counter almost every single move. This vicious formation is nicknamed a 'running mill' (Diagram 3: Black breaks one mill and immediately reforms another, capturing a white counter almost every turn. White has little chance to recover).",
+      "prompt": "The text next to each diagram is called",
+      "options": [
+        {
+          "label": "A",
+          "text": "a label."
+        },
+        {
+          "label": "B",
+          "text": "a subtitle."
+        },
+        {
+          "label": "C",
+          "text": "a caption."
+        },
+        {
+          "label": "D",
+          "text": "a footnote."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Short explanatory text placed with an image or diagram is called a caption.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "Read Nine Men's Morris and answer questions 14 to 20.\n\nNine Men's Morris\n\nLong before video games existed, people were already inventing simple strategy games using nothing more than a few pebbles and a shape scratched into the dirt. One of the oldest of these is nine men's morris, a game that has been discovered carved into stone seats, temple roofs and even the boards of ancient ships. Historians have found versions of it in Egypt, Greece, Rome, China and Ireland, some more than three thousand years old.\n\nThe game gets its lasting popularity from how little it needs. All you require is a simple board of connected lines and points, and eighteen counters - nine for each player, traditionally one dark set and one light set. Nine men's morris is often compared to a more complicated cousin of noughts and crosses. Instead of forming just one line to win instantly, players try to line up three of their own counters in a row along the board's lines, called a 'mill'. Forming a mill lets a player permanently remove one of the opponent's counters from the board.\n\nMOVING AND WINNING\nThere are two ways to win nine men's morris: by trapping your opponent's counters so that none of them can move anywhere, or by capturing counters until your opponent has only two left, which makes it impossible for them to ever form a mill.\n\nThe game unfolds in two stages. During the placing stage, each player takes turns setting their nine counters down on any empty point on the board. Points are only found where lines cross or end (Diagram 1: a player places a counter on an empty point during the placing stage).\n\nOnce all eighteen counters are on the board, the moving stage begins. Players slide one counter at a time, one step along a line, into a neighbouring point - but only if that point is empty (Diagram 2: a counter slides one step along a line to an empty neighbouring point during the moving stage).\n\nBREAKING AND REFORMING A MILL\nWhenever you complete a mill, you may remove one enemy counter, as long as it is not itself already part of a mill (unless no other counters remain). A mill cannot be used to capture a piece again on your very next turn. To capture again, you must first break your mill by sliding one counter out of line, then slide it back into position on a later turn - as long as your opponent hasn't blocked the spot in between.\n\nSkilled players sometimes build a devastating setup: two overlapping rows that can each be broken and reformed in turn, letting them capture an enemy counter almost every single move. This vicious formation is nicknamed a 'running mill' (Diagram 3: Black breaks one mill and immediately reforms another, capturing a white counter almost every turn. White has little chance to recover).",
+      "prompt": "Which of these instructions from the text is a command?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'Nine men's morris has been played for thousands of years.'"
+        },
+        {
+          "label": "B",
+          "text": "'Points are only found where lines cross or end.'"
+        },
+        {
+          "label": "C",
+          "text": "'Skilled players sometimes build a devastating setup.'"
+        },
+        {
+          "label": "D",
+          "text": "'Slide one counter at a time, one step along a line.'"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A command gives an instruction; only this option directly tells the reader what to do.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2010c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "Read Beyond the Hedge and answer questions 21 to 27.\n\nBeyond the Hedge\n\nI climbed through the gap in the tall hedge that Dad had warned me never to use. Everyone said old Mrs Kowalski's orchard was out of bounds, but the smell of ripening apricots was too much to resist. I crept low along the fence line, past a row of sleepy beehives, until I could see the little stone shed at the centre of the orchard. Nobody was around. I tiptoed towards the nearest tree, about to reach for the lowest branch, when a door creaked and a shadow moved across the grass. I dropped flat behind a wheelbarrow. Mrs Kowalski shuffled out holding a chipped enamel bowl, which she set down carefully near the shed. She made a soft clicking sound with her tongue, and within moments a scatter of speckled hens came running from every direction, flapping and squabbling over the scraps. She didn't stay long; she disappeared back inside almost immediately. I stood up and crept past the shed like a burglar tiptoeing away from a crime scene. The hens barely noticed me. Their heads bobbed steadily as they pecked. I walked past the old well and the rusted plough at the side of the shed.\n\nThe trickiest part was getting past the geese that patrolled the bottom paddock. The moment I appeared, they began honking furiously and wouldn't stop until I reached the narrow creek at the edge of the property. I rolled up my trousers and waded in. The mud squelched coolly around my ankles. I pushed through a thick stand of reeds, using both hands to keep my balance. The reeds scraped my arms, but the creek water was pleasantly cold after the walk. Only near the deepest point did the water reach my knees. Little clouds of silt rose around my feet with every step.\n\n'This beats sitting inside on a hot afternoon,' I thought, feeling the mud cool between my toes. 'Better than being stuck at home with nothing but a stack of chores.' I imagined my cousins back in the city, stuck in their apartment with the fans going. Dragonflies zipped low across the water, and even though there wasn't a breath of wind, the surface of the creek rippled every so often. The air was thick with the drone of insects and the occasional plop of a frog.",
+      "prompt": "The narrator realised someone else was present when",
+      "options": [
+        {
+          "label": "A",
+          "text": "she heard a door creak."
+        },
+        {
+          "label": "B",
+          "text": "she heard the geese honking."
+        },
+        {
+          "label": "C",
+          "text": "she saw the hens running."
+        },
+        {
+          "label": "D",
+          "text": "she saw the wheelbarrow."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The creaking door and moving shadow are what first alert her to Mrs Kowalski's presence.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "Read Beyond the Hedge and answer questions 21 to 27.\n\nBeyond the Hedge\n\nI climbed through the gap in the tall hedge that Dad had warned me never to use. Everyone said old Mrs Kowalski's orchard was out of bounds, but the smell of ripening apricots was too much to resist. I crept low along the fence line, past a row of sleepy beehives, until I could see the little stone shed at the centre of the orchard. Nobody was around. I tiptoed towards the nearest tree, about to reach for the lowest branch, when a door creaked and a shadow moved across the grass. I dropped flat behind a wheelbarrow. Mrs Kowalski shuffled out holding a chipped enamel bowl, which she set down carefully near the shed. She made a soft clicking sound with her tongue, and within moments a scatter of speckled hens came running from every direction, flapping and squabbling over the scraps. She didn't stay long; she disappeared back inside almost immediately. I stood up and crept past the shed like a burglar tiptoeing away from a crime scene. The hens barely noticed me. Their heads bobbed steadily as they pecked. I walked past the old well and the rusted plough at the side of the shed.\n\nThe trickiest part was getting past the geese that patrolled the bottom paddock. The moment I appeared, they began honking furiously and wouldn't stop until I reached the narrow creek at the edge of the property. I rolled up my trousers and waded in. The mud squelched coolly around my ankles. I pushed through a thick stand of reeds, using both hands to keep my balance. The reeds scraped my arms, but the creek water was pleasantly cold after the walk. Only near the deepest point did the water reach my knees. Little clouds of silt rose around my feet with every step.\n\n'This beats sitting inside on a hot afternoon,' I thought, feeling the mud cool between my toes. 'Better than being stuck at home with nothing but a stack of chores.' I imagined my cousins back in the city, stuck in their apartment with the fans going. Dragonflies zipped low across the water, and even though there wasn't a breath of wind, the surface of the creek rippled every so often. The air was thick with the drone of insects and the occasional plop of a frog.",
+      "prompt": "Which quotation from the text suggests that the hens were uninterested in the narrator's presence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'flapping and squabbling over the scraps'"
+        },
+        {
+          "label": "B",
+          "text": "'barely noticed me'"
+        },
+        {
+          "label": "C",
+          "text": "'came running from every direction'"
+        },
+        {
+          "label": "D",
+          "text": "'Their heads bobbed steadily as they pecked'"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Barely noticed me' directly states that the hens paid the narrator almost no attention.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "Read Beyond the Hedge and answer questions 21 to 27.\n\nBeyond the Hedge\n\nI climbed through the gap in the tall hedge that Dad had warned me never to use. Everyone said old Mrs Kowalski's orchard was out of bounds, but the smell of ripening apricots was too much to resist. I crept low along the fence line, past a row of sleepy beehives, until I could see the little stone shed at the centre of the orchard. Nobody was around. I tiptoed towards the nearest tree, about to reach for the lowest branch, when a door creaked and a shadow moved across the grass. I dropped flat behind a wheelbarrow. Mrs Kowalski shuffled out holding a chipped enamel bowl, which she set down carefully near the shed. She made a soft clicking sound with her tongue, and within moments a scatter of speckled hens came running from every direction, flapping and squabbling over the scraps. She didn't stay long; she disappeared back inside almost immediately. I stood up and crept past the shed like a burglar tiptoeing away from a crime scene. The hens barely noticed me. Their heads bobbed steadily as they pecked. I walked past the old well and the rusted plough at the side of the shed.\n\nThe trickiest part was getting past the geese that patrolled the bottom paddock. The moment I appeared, they began honking furiously and wouldn't stop until I reached the narrow creek at the edge of the property. I rolled up my trousers and waded in. The mud squelched coolly around my ankles. I pushed through a thick stand of reeds, using both hands to keep my balance. The reeds scraped my arms, but the creek water was pleasantly cold after the walk. Only near the deepest point did the water reach my knees. Little clouds of silt rose around my feet with every step.\n\n'This beats sitting inside on a hot afternoon,' I thought, feeling the mud cool between my toes. 'Better than being stuck at home with nothing but a stack of chores.' I imagined my cousins back in the city, stuck in their apartment with the fans going. Dragonflies zipped low across the water, and even though there wasn't a breath of wind, the surface of the creek rippled every so often. The air was thick with the drone of insects and the occasional plop of a frog.",
+      "prompt": "The word 'squelched', as used in the text, means that the mud",
+      "options": [
+        {
+          "label": "A",
+          "text": "vibrated."
+        },
+        {
+          "label": "B",
+          "text": "stiffened."
+        },
+        {
+          "label": "C",
+          "text": "made a soft sucking sound underfoot."
+        },
+        {
+          "label": "D",
+          "text": "wobbled from side to side."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Squelched' describes the soft, wet, sucking sound and feel of walking through mud.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2010c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "Read Beyond the Hedge and answer questions 21 to 27.\n\nBeyond the Hedge\n\nI climbed through the gap in the tall hedge that Dad had warned me never to use. Everyone said old Mrs Kowalski's orchard was out of bounds, but the smell of ripening apricots was too much to resist. I crept low along the fence line, past a row of sleepy beehives, until I could see the little stone shed at the centre of the orchard. Nobody was around. I tiptoed towards the nearest tree, about to reach for the lowest branch, when a door creaked and a shadow moved across the grass. I dropped flat behind a wheelbarrow. Mrs Kowalski shuffled out holding a chipped enamel bowl, which she set down carefully near the shed. She made a soft clicking sound with her tongue, and within moments a scatter of speckled hens came running from every direction, flapping and squabbling over the scraps. She didn't stay long; she disappeared back inside almost immediately. I stood up and crept past the shed like a burglar tiptoeing away from a crime scene. The hens barely noticed me. Their heads bobbed steadily as they pecked. I walked past the old well and the rusted plough at the side of the shed.\n\nThe trickiest part was getting past the geese that patrolled the bottom paddock. The moment I appeared, they began honking furiously and wouldn't stop until I reached the narrow creek at the edge of the property. I rolled up my trousers and waded in. The mud squelched coolly around my ankles. I pushed through a thick stand of reeds, using both hands to keep my balance. The reeds scraped my arms, but the creek water was pleasantly cold after the walk. Only near the deepest point did the water reach my knees. Little clouds of silt rose around my feet with every step.\n\n'This beats sitting inside on a hot afternoon,' I thought, feeling the mud cool between my toes. 'Better than being stuck at home with nothing but a stack of chores.' I imagined my cousins back in the city, stuck in their apartment with the fans going. Dragonflies zipped low across the water, and even though there wasn't a breath of wind, the surface of the creek rippled every so often. The air was thick with the drone of insects and the occasional plop of a frog.",
+      "prompt": "Which word best describes the narrator's attitude when comparing her own situation with her cousins'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "disappointed"
+        },
+        {
+          "label": "B",
+          "text": "jealous"
+        },
+        {
+          "label": "C",
+          "text": "spiteful"
+        },
+        {
+          "label": "D",
+          "text": "smug"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "She feels pleased with herself, thinking her afternoon is better than her cousins' — this self-satisfied attitude is smugness.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "Read Beyond the Hedge and answer questions 21 to 27.\n\nBeyond the Hedge\n\nI climbed through the gap in the tall hedge that Dad had warned me never to use. Everyone said old Mrs Kowalski's orchard was out of bounds, but the smell of ripening apricots was too much to resist. I crept low along the fence line, past a row of sleepy beehives, until I could see the little stone shed at the centre of the orchard. Nobody was around. I tiptoed towards the nearest tree, about to reach for the lowest branch, when a door creaked and a shadow moved across the grass. I dropped flat behind a wheelbarrow. Mrs Kowalski shuffled out holding a chipped enamel bowl, which she set down carefully near the shed. She made a soft clicking sound with her tongue, and within moments a scatter of speckled hens came running from every direction, flapping and squabbling over the scraps. She didn't stay long; she disappeared back inside almost immediately. I stood up and crept past the shed like a burglar tiptoeing away from a crime scene. The hens barely noticed me. Their heads bobbed steadily as they pecked. I walked past the old well and the rusted plough at the side of the shed.\n\nThe trickiest part was getting past the geese that patrolled the bottom paddock. The moment I appeared, they began honking furiously and wouldn't stop until I reached the narrow creek at the edge of the property. I rolled up my trousers and waded in. The mud squelched coolly around my ankles. I pushed through a thick stand of reeds, using both hands to keep my balance. The reeds scraped my arms, but the creek water was pleasantly cold after the walk. Only near the deepest point did the water reach my knees. Little clouds of silt rose around my feet with every step.\n\n'This beats sitting inside on a hot afternoon,' I thought, feeling the mud cool between my toes. 'Better than being stuck at home with nothing but a stack of chores.' I imagined my cousins back in the city, stuck in their apartment with the fans going. Dragonflies zipped low across the water, and even though there wasn't a breath of wind, the surface of the creek rippled every so often. The air was thick with the drone of insects and the occasional plop of a frog.",
+      "prompt": "What is the purpose of the detailed description of the narrator's experience in the creek?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to show that she was enjoying herself"
+        },
+        {
+          "label": "B",
+          "text": "to hint that the creek contained hidden dangers"
+        },
+        {
+          "label": "C",
+          "text": "to emphasise the beauty of the creek's natural setting"
+        },
+        {
+          "label": "D",
+          "text": "to allow her to remember everything when she went home"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The sensory details (cool mud, dragonflies, rippling water) build a picture of the narrator enjoying the moment.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "Read Beyond the Hedge and answer questions 21 to 27.\n\nBeyond the Hedge\n\nI climbed through the gap in the tall hedge that Dad had warned me never to use. Everyone said old Mrs Kowalski's orchard was out of bounds, but the smell of ripening apricots was too much to resist. I crept low along the fence line, past a row of sleepy beehives, until I could see the little stone shed at the centre of the orchard. Nobody was around. I tiptoed towards the nearest tree, about to reach for the lowest branch, when a door creaked and a shadow moved across the grass. I dropped flat behind a wheelbarrow. Mrs Kowalski shuffled out holding a chipped enamel bowl, which she set down carefully near the shed. She made a soft clicking sound with her tongue, and within moments a scatter of speckled hens came running from every direction, flapping and squabbling over the scraps. She didn't stay long; she disappeared back inside almost immediately. I stood up and crept past the shed like a burglar tiptoeing away from a crime scene. The hens barely noticed me. Their heads bobbed steadily as they pecked. I walked past the old well and the rusted plough at the side of the shed.\n\nThe trickiest part was getting past the geese that patrolled the bottom paddock. The moment I appeared, they began honking furiously and wouldn't stop until I reached the narrow creek at the edge of the property. I rolled up my trousers and waded in. The mud squelched coolly around my ankles. I pushed through a thick stand of reeds, using both hands to keep my balance. The reeds scraped my arms, but the creek water was pleasantly cold after the walk. Only near the deepest point did the water reach my knees. Little clouds of silt rose around my feet with every step.\n\n'This beats sitting inside on a hot afternoon,' I thought, feeling the mud cool between my toes. 'Better than being stuck at home with nothing but a stack of chores.' I imagined my cousins back in the city, stuck in their apartment with the fans going. Dragonflies zipped low across the water, and even though there wasn't a breath of wind, the surface of the creek rippled every so often. The air was thick with the drone of insects and the occasional plop of a frog.",
+      "prompt": "Which quotation from the text is NOT a grammatically complete sentence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'Nobody was around.'"
+        },
+        {
+          "label": "B",
+          "text": "'Better than being stuck at home with nothing but a stack of chores.'"
+        },
+        {
+          "label": "C",
+          "text": "'She didn't stay long.'"
+        },
+        {
+          "label": "D",
+          "text": "'Only near the deepest point did the water reach my knees.'"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "This phrase has no subject or main verb of its own — it's a sentence fragment continuing the thought before it.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2010c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "Read Beyond the Hedge and answer questions 21 to 27.\n\nBeyond the Hedge\n\nI climbed through the gap in the tall hedge that Dad had warned me never to use. Everyone said old Mrs Kowalski's orchard was out of bounds, but the smell of ripening apricots was too much to resist. I crept low along the fence line, past a row of sleepy beehives, until I could see the little stone shed at the centre of the orchard. Nobody was around. I tiptoed towards the nearest tree, about to reach for the lowest branch, when a door creaked and a shadow moved across the grass. I dropped flat behind a wheelbarrow. Mrs Kowalski shuffled out holding a chipped enamel bowl, which she set down carefully near the shed. She made a soft clicking sound with her tongue, and within moments a scatter of speckled hens came running from every direction, flapping and squabbling over the scraps. She didn't stay long; she disappeared back inside almost immediately. I stood up and crept past the shed like a burglar tiptoeing away from a crime scene. The hens barely noticed me. Their heads bobbed steadily as they pecked. I walked past the old well and the rusted plough at the side of the shed.\n\nThe trickiest part was getting past the geese that patrolled the bottom paddock. The moment I appeared, they began honking furiously and wouldn't stop until I reached the narrow creek at the edge of the property. I rolled up my trousers and waded in. The mud squelched coolly around my ankles. I pushed through a thick stand of reeds, using both hands to keep my balance. The reeds scraped my arms, but the creek water was pleasantly cold after the walk. Only near the deepest point did the water reach my knees. Little clouds of silt rose around my feet with every step.\n\n'This beats sitting inside on a hot afternoon,' I thought, feeling the mud cool between my toes. 'Better than being stuck at home with nothing but a stack of chores.' I imagined my cousins back in the city, stuck in their apartment with the fans going. Dragonflies zipped low across the water, and even though there wasn't a breath of wind, the surface of the creek rippled every so often. The air was thick with the drone of insects and the occasional plop of a frog.",
+      "prompt": "Which word best describes the narrator?",
+      "options": [
+        {
+          "label": "A",
+          "text": "dreamy"
+        },
+        {
+          "label": "B",
+          "text": "careless"
+        },
+        {
+          "label": "C",
+          "text": "adventurous"
+        },
+        {
+          "label": "D",
+          "text": "trustworthy"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Sneaking into forbidden territory and wading through a creek shows a spirit of adventure.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "Why did Percy Spencer test the radar equipment on popcorn kernels?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to find out whether it was safe to stand near the equipment"
+        },
+        {
+          "label": "B",
+          "text": "to work out exactly which piece of equipment had melted his chocolate"
+        },
+        {
+          "label": "C",
+          "text": "to see whether popping corn used the same energy as melting chocolate"
+        },
+        {
+          "label": "D",
+          "text": "to investigate whether the equipment could heat and cook food"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "After noticing the melted chocolate, he wanted to see if the waves could cook other food too.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "Why might the writer have chosen to describe the molecules as behaving 'like miniature magnets'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to explain a scientific idea using something familiar"
+        },
+        {
+          "label": "B",
+          "text": "to show that the writer is exaggerating for effect"
+        },
+        {
+          "label": "C",
+          "text": "to suggest that the molecules move at incredible speed"
+        },
+        {
+          "label": "D",
+          "text": "to emphasise how much heat microwaves can create"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Comparing molecules to magnets helps readers picture an invisible scientific idea using something they already know.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "According to the text, what is the main purpose of the metal lining inside a microwave oven?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It keeps the heat from cooking inside the food."
+        },
+        {
+          "label": "B",
+          "text": "It reflects microwaves that haven't yet been absorbed by the food back towards it."
+        },
+        {
+          "label": "C",
+          "text": "It allows light to escape so the user can see the food."
+        },
+        {
+          "label": "D",
+          "text": "It stops the user from being harmed by the microwaves."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text explains the lining reflects unabsorbed microwaves back towards the food rather than letting them escape.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "In the text, the word 'reflects' could be replaced by",
+      "options": [
+        {
+          "label": "A",
+          "text": "changes."
+        },
+        {
+          "label": "B",
+          "text": "adjusts."
+        },
+        {
+          "label": "C",
+          "text": "bounces back."
+        },
+        {
+          "label": "D",
+          "text": "creates."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "To 'reflect' microwaves is to bounce them back, rather than absorbing or letting them pass through.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2010c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "What is the purpose of the molecules twisting back and forth inside the food?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to create an electric field inside the microwave oven"
+        },
+        {
+          "label": "B",
+          "text": "to allow the microwaves to reach the very centre of the food"
+        },
+        {
+          "label": "C",
+          "text": "to make sure both ends of the molecule face the same way"
+        },
+        {
+          "label": "D",
+          "text": "to produce the friction and heat that cooks the food."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The text says this constant twisting and rubbing of molecules is what produces the heat that cooks the food.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "'Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily.' What is the best way to combine these two sentences without changing their meaning?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Microwaves are too wide to fit through the tiny holes, but light waves, which are narrower, can pass through easily."
+        },
+        {
+          "label": "B",
+          "text": "Microwaves are too wide to fit through the tiny holes, allowing light waves to pass through easily and escape."
+        },
+        {
+          "label": "C",
+          "text": "Being too wide for the tiny holes is why microwaves let light waves pass through easily."
+        },
+        {
+          "label": "D",
+          "text": "Microwaves, which are too wide to fit through the tiny holes, unlike light waves, which are narrow enough to pass through easily."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "This option keeps both the contrast ('but') and the full meaning of each original sentence.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2010c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "Which option correctly shows what a wavelength is?",
+      "imageUrl": "/questions/icas-2010-english-paper-c/q34.png",
+      "options": [
+        {
+          "label": "A"
+        },
+        {
+          "label": "B"
+        },
+        {
+          "label": "C"
+        },
+        {
+          "label": "D"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text defines wavelength as 'the distance between the top of one wave and the top of the very next wave' — the peak-to-peak arrow shown at (B).",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "Read Tech know: Microwave ovens and answer questions 28 to 35.\n\nTech know: Microwave ovens\n\nACCIDENTAL DISCOVERY\nIn the 1940s, an American engineer named Percy Spencer was working on radar equipment when he noticed something odd: a chocolate bar in his pocket had completely melted. Curious about what had caused it, he decided to test the invisible waves from the radar equipment on other foods. When he pointed the machine at a handful of popcorn kernels, they began popping almost immediately. Percy's accidental discovery eventually led to the invention of the microwave oven, which today sits in kitchens all over the world.\n\nHOW DOES IT WORK?\nInside every microwave oven is a device called a magnetron, which produces the invisible microwaves used for cooking. The inside walls of the oven are lined with metal, which reflects any microwaves that are not absorbed by the food straight back towards it, rather than letting them escape.\n\nFood contains tiny molecules that behave a little like miniature magnets, with a positive end and a negative end. As microwaves pass through the food, these molecules twist rapidly back and forth to keep lining up with the changing waves. It is this constant twisting and rubbing of molecules against each other that produces heat, cooking the food from the inside as well as the outside.\n\nWater molecules react to microwaves far more strongly than fat or sugar molecules do, which is why moist food heats up more quickly than dry food. This is also why frozen food should usually be thawed slightly, or have a small amount of water added, before microwaving - the water molecules in ice are frozen solidly in place and cannot twist and heat up as easily as liquid water can.\n\nWHAT IS WAVELENGTH?\nYou may have noticed the small holes in the metal mesh covering a microwave door. Microwaves are far too wide to fit through these tiny holes, but light waves are narrow enough to pass through easily, which is how you're able to watch your food cooking. The distance between the top of one wave and the top of the very next wave is called its wavelength - and it is this measurement that decides whether or not a wave can fit through a small gap.",
+      "prompt": "The main purpose of this text is to",
+      "options": [
+        {
+          "label": "A",
+          "text": "argue."
+        },
+        {
+          "label": "B",
+          "text": "report."
+        },
+        {
+          "label": "C",
+          "text": "explain."
+        },
+        {
+          "label": "D",
+          "text": "recount."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text explains how and why microwave ovens work, rather than arguing a point or recounting a personal experience.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "What do the words 'recently-inherited' suggest about Tobias's cape?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Nobody else was allowed to wear a cape."
+        },
+        {
+          "label": "B",
+          "text": "He had worked hard to earn the cape."
+        },
+        {
+          "label": "C",
+          "text": "The cape had been passed down for generations."
+        },
+        {
+          "label": "D",
+          "text": "He had just been given it."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Recently-inherited' simply means he received the cape not long ago.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "'Clearly, encouragement was not a skill Tobias had yet developed.' Which word best describes the narrator's tone in this sentence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "sarcastic"
+        },
+        {
+          "label": "B",
+          "text": "admiring"
+        },
+        {
+          "label": "C",
+          "text": "sympathetic"
+        },
+        {
+          "label": "D",
+          "text": "doubtful"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The narrator says the opposite of what she means for ironic, sarcastic effect, given Tobias just insulted an idea.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "When Priya described the tower as looking 'designed by a toddler with a grudge,' she meant that it was",
+      "options": [
+        {
+          "label": "A",
+          "text": "ruined."
+        },
+        {
+          "label": "B",
+          "text": "messy and uneven."
+        },
+        {
+          "label": "C",
+          "text": "dangerously tall."
+        },
+        {
+          "label": "D",
+          "text": "beautifully creative."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The comparison suggests the tower was built clumsily and unevenly, not carefully planned.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2010c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "According to Priya, why did the other children go along with Tobias's plans?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He had the loudest voice."
+        },
+        {
+          "label": "B",
+          "text": "He had the most sensible ideas."
+        },
+        {
+          "label": "C",
+          "text": "They simply agreed with whatever he said, without question."
+        },
+        {
+          "label": "D",
+          "text": "Nobody else wanted the responsibility of being captain."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Yes, Tobias. Whatever you say, Tobias' shows the children simply agreeing, rather than genuinely being persuaded.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "The writer changes from a narrative style to a numbered list in order to",
+      "options": [
+        {
+          "label": "A",
+          "text": "imitate the way Tobias liked to give instructions"
+        },
+        {
+          "label": "B",
+          "text": "provide an alternative, more official-sounding account of events"
+        },
+        {
+          "label": "C",
+          "text": "show how many separate mistakes were made that day"
+        },
+        {
+          "label": "D",
+          "text": "make the retelling of events seem completely objective."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The plain, numbered 'mission log' format makes the events sound neutral and factual, distancing the children from blame.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q41",
+      "number": 41,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "Which point in the mission log supports the idea that the log was written without Tobias's knowledge?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Point 5, because it reveals that Tobias ran away first."
+        },
+        {
+          "label": "B",
+          "text": "Point 1, because it says the brick gathered speed by itself."
+        },
+        {
+          "label": "C",
+          "text": "Point 3, because it says the foundation 'shifted' rather than collapsed."
+        },
+        {
+          "label": "D",
+          "text": "Point 4, because it blames the bricks rather than the children."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Tobias would be unlikely to record that he fled the scene first, since it makes him look bad.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q42",
+      "number": 42,
+      "type": "multiple_choice",
+      "passage": "Read The Lookout Tower and answer questions 36 to 42.\n\nThe Lookout Tower\n\nThe year is 3020. The location is a quiet street in a small town called Millbrook.\n\n'Is everyone here?' bellowed Tobias, our self-appointed captain, straightening his recently-inherited cape as he spoke. Six voices mumbled agreement, and someone asked, 'Is this a birthday party?'\n\n'No jokes during a mission briefing,' Tobias tried to boom again, fumbling with the clasp of his cape, which kept threatening to strangle him.\n\n'Today's mission is to build a lookout tower so we can watch for the new kids moving in next door,' Tobias announced.\n\n'We could use some old crates stacked on top of each other,' I suggested.\n\n'That's a terrible idea, Priya,' Tobias declared. Clearly, encouragement was not a skill Tobias had yet developed.\n\n'We'll build it using bricks,' Tobias stated.\n\n'Yes, Tobias. Whatever you say, Tobias,' we all chorused.\n\nAll afternoon we hauled bricks, stacking and wedging them until we had a tower that looked as though it had been designed by a toddler with a grudge. Still, it seemed sturdy enough. The last task of the day involved rolling one particularly large brick towards the tower's base, to use as Tobias's own personal podium for future announcements.\n\nThe events that followed are recorded in our (extremely secret) mission log, as follows:\n1. After a gentle push, the brick gathered speed down a slight slope.\n2. The brick rolled onwards (rapidly) towards the tower.\n3. The brick struck the tower's foundation, and the foundation shifted.\n4. The bricks above tumbled outward like dominoes, flattening Mr Yorke's prize-winning tomato stakes.\n5. Without a word to each other, we all fled the scene immediately. Tobias somehow had a head start on the rest of us.\n\nWeeks later, I overheard my mother talking to Mr Yorke about the disaster. 'It must have been that freak gust of wind we had that afternoon,' Mr Yorke insisted loudly. I recognised the voice - it was Tobias's own father. The other parents nodded along sympathetically. Tobias must get his gift for confident leadership from his father, I decided, since neither of them let the facts get in the way of a good story.",
+      "prompt": "Which is NOT a possible reason for Mr Yorke's explanation for the toppled tower?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He wanted to protect his son from blame."
+        },
+        {
+          "label": "B",
+          "text": "He wanted to impress the other parents with his knowledge of weather."
+        },
+        {
+          "label": "C",
+          "text": "He was trying to reassure the worried neighbours."
+        },
+        {
+          "label": "D",
+          "text": "He genuinely believed a gust of wind was responsible."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Nothing in the text suggests Mr Yorke was trying to show off his weather knowledge — the other three are all plausible motives.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q43",
+      "number": 43,
+      "type": "multiple_choice",
+      "passage": "Read Behind the Painting and answer questions 43 to 45.\n\nBehind the Painting\n\nMany of the world's most treasured paintings are hundreds of years old, yet they still hang proudly in galleries today. But is there more to an old painting than what we see on the surface? And how do experts make sure these fragile artworks survive for future generations?\n\nAmelia Cho is a paintings conservator at a major city gallery. Her job is to examine old paintings using a range of scientific techniques whenever they arrive for restoration.\n\n'This sometimes uncovers sketches hidden underneath the visible paint, or changes the artist made partway through,' she explains. 'A few years ago, we examined a painting believed to be an ordinary portrait from the 1600s. Using X-ray imaging, we discovered it was actually painted over an earlier, unfinished portrait of a completely different person.'\n\nAmelia's team has also studied the ground layer - the layer beneath the paint - of paintings once thought to be the work of famous artists. 'One painting was long believed to be a self-portrait by a well-known Italian painter,' she says. 'But the ground layer turned out to be a type only ever used in a workshop many kilometres away, so the painting couldn't have been made where everyone assumed.'\n\nDAMAGE CONTROL\nAmelia says the most common form of damage to old paintings is accidental. 'Dents, scratches and tears are the things we see most often,' she says. 'There are also gradual changes to the paint's colours, since varnishes and oils used in old paintings can discolour over time. This isn't really damage, but it does change how a painting looks.'\n\nSo how do conservators fix paintings and keep them that way? 'We do it in two ways: conservation and restoration,' Amelia explains. 'Conservation covers every way we protect a painting, including how it's handled, transported, stored and displayed.' Old paintings are often made from materials that were once alive, such as canvas made from plant fibres or wooden panels. Since living materials naturally contain water, artworks made from them can be damaged by changes in the surrounding air. 'If a room is too hot or too humid, the paint can crack or peel off. If a wooden panel dries out too much, it can crack or split,' Amelia explains.\n\n'Restoration is a smaller part of the bigger picture of conservation - fixing areas of damage or loss, cleaning off dirt or old, discoloured varnish, and carrying out repairs.'",
+      "prompt": "What is Amelia Cho's main responsibility at the gallery?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to collect valuable artworks"
+        },
+        {
+          "label": "B",
+          "text": "to research the history of artworks"
+        },
+        {
+          "label": "C",
+          "text": "to examine and help preserve paintings"
+        },
+        {
+          "label": "D",
+          "text": "to discover the original artists of paintings"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Amelia's job is described as examining old paintings and helping conserve and restore them.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q44",
+      "number": 44,
+      "type": "multiple_choice",
+      "passage": "Read Behind the Painting and answer questions 43 to 45.\n\nBehind the Painting\n\nMany of the world's most treasured paintings are hundreds of years old, yet they still hang proudly in galleries today. But is there more to an old painting than what we see on the surface? And how do experts make sure these fragile artworks survive for future generations?\n\nAmelia Cho is a paintings conservator at a major city gallery. Her job is to examine old paintings using a range of scientific techniques whenever they arrive for restoration.\n\n'This sometimes uncovers sketches hidden underneath the visible paint, or changes the artist made partway through,' she explains. 'A few years ago, we examined a painting believed to be an ordinary portrait from the 1600s. Using X-ray imaging, we discovered it was actually painted over an earlier, unfinished portrait of a completely different person.'\n\nAmelia's team has also studied the ground layer - the layer beneath the paint - of paintings once thought to be the work of famous artists. 'One painting was long believed to be a self-portrait by a well-known Italian painter,' she says. 'But the ground layer turned out to be a type only ever used in a workshop many kilometres away, so the painting couldn't have been made where everyone assumed.'\n\nDAMAGE CONTROL\nAmelia says the most common form of damage to old paintings is accidental. 'Dents, scratches and tears are the things we see most often,' she says. 'There are also gradual changes to the paint's colours, since varnishes and oils used in old paintings can discolour over time. This isn't really damage, but it does change how a painting looks.'\n\nSo how do conservators fix paintings and keep them that way? 'We do it in two ways: conservation and restoration,' Amelia explains. 'Conservation covers every way we protect a painting, including how it's handled, transported, stored and displayed.' Old paintings are often made from materials that were once alive, such as canvas made from plant fibres or wooden panels. Since living materials naturally contain water, artworks made from them can be damaged by changes in the surrounding air. 'If a room is too hot or too humid, the paint can crack or peel off. If a wooden panel dries out too much, it can crack or split,' Amelia explains.\n\n'Restoration is a smaller part of the bigger picture of conservation - fixing areas of damage or loss, cleaning off dirt or old, discoloured varnish, and carrying out repairs.'",
+      "prompt": "In the fourth paragraph, the word 'This' refers to",
+      "options": [
+        {
+          "label": "A",
+          "text": "a scientific technique."
+        },
+        {
+          "label": "B",
+          "text": "the process of restoration."
+        },
+        {
+          "label": "C",
+          "text": "a painting which is being restored."
+        },
+        {
+          "label": "D",
+          "text": "an examination using different scientific techniques."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'This' refers back to the scientific examination described in the paragraph before it, which uncovers hidden details.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2010c-q45",
+      "number": 45,
+      "type": "multiple_choice",
+      "passage": "Read Behind the Painting and answer questions 43 to 45.\n\nBehind the Painting\n\nMany of the world's most treasured paintings are hundreds of years old, yet they still hang proudly in galleries today. But is there more to an old painting than what we see on the surface? And how do experts make sure these fragile artworks survive for future generations?\n\nAmelia Cho is a paintings conservator at a major city gallery. Her job is to examine old paintings using a range of scientific techniques whenever they arrive for restoration.\n\n'This sometimes uncovers sketches hidden underneath the visible paint, or changes the artist made partway through,' she explains. 'A few years ago, we examined a painting believed to be an ordinary portrait from the 1600s. Using X-ray imaging, we discovered it was actually painted over an earlier, unfinished portrait of a completely different person.'\n\nAmelia's team has also studied the ground layer - the layer beneath the paint - of paintings once thought to be the work of famous artists. 'One painting was long believed to be a self-portrait by a well-known Italian painter,' she says. 'But the ground layer turned out to be a type only ever used in a workshop many kilometres away, so the painting couldn't have been made where everyone assumed.'\n\nDAMAGE CONTROL\nAmelia says the most common form of damage to old paintings is accidental. 'Dents, scratches and tears are the things we see most often,' she says. 'There are also gradual changes to the paint's colours, since varnishes and oils used in old paintings can discolour over time. This isn't really damage, but it does change how a painting looks.'\n\nSo how do conservators fix paintings and keep them that way? 'We do it in two ways: conservation and restoration,' Amelia explains. 'Conservation covers every way we protect a painting, including how it's handled, transported, stored and displayed.' Old paintings are often made from materials that were once alive, such as canvas made from plant fibres or wooden panels. Since living materials naturally contain water, artworks made from them can be damaged by changes in the surrounding air. 'If a room is too hot or too humid, the paint can crack or peel off. If a wooden panel dries out too much, it can crack or split,' Amelia explains.\n\n'Restoration is a smaller part of the bigger picture of conservation - fixing areas of damage or loss, cleaning off dirt or old, discoloured varnish, and carrying out repairs.'",
+      "prompt": "How did Amelia's team conclude that the self-portrait was probably not genuine?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They examined the ground layer and found its type was only used in a different workshop."
+        },
+        {
+          "label": "B",
+          "text": "They analysed the painting and matched it to paintings from that period."
+        },
+        {
+          "label": "C",
+          "text": "They discovered statements from later artists confirming this."
+        },
+        {
+          "label": "D",
+          "text": "They noticed the unique style of paint layering when the painting was accidentally damaged."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The ground layer was a type only used in a workshop elsewhere, meaning the painting couldn't have been made where assumed.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q46",
+      "number": 46,
+      "type": "multiple_choice",
+      "passage": "Read Behind the Painting and answer questions 43 to 45.\n\nBehind the Painting\n\nMany of the world's most treasured paintings are hundreds of years old, yet they still hang proudly in galleries today. But is there more to an old painting than what we see on the surface? And how do experts make sure these fragile artworks survive for future generations?\n\nAmelia Cho is a paintings conservator at a major city gallery. Her job is to examine old paintings using a range of scientific techniques whenever they arrive for restoration.\n\n'This sometimes uncovers sketches hidden underneath the visible paint, or changes the artist made partway through,' she explains. 'A few years ago, we examined a painting believed to be an ordinary portrait from the 1600s. Using X-ray imaging, we discovered it was actually painted over an earlier, unfinished portrait of a completely different person.'\n\nAmelia's team has also studied the ground layer - the layer beneath the paint - of paintings once thought to be the work of famous artists. 'One painting was long believed to be a self-portrait by a well-known Italian painter,' she says. 'But the ground layer turned out to be a type only ever used in a workshop many kilometres away, so the painting couldn't have been made where everyone assumed.'\n\nDAMAGE CONTROL\nAmelia says the most common form of damage to old paintings is accidental. 'Dents, scratches and tears are the things we see most often,' she says. 'There are also gradual changes to the paint's colours, since varnishes and oils used in old paintings can discolour over time. This isn't really damage, but it does change how a painting looks.'\n\nSo how do conservators fix paintings and keep them that way? 'We do it in two ways: conservation and restoration,' Amelia explains. 'Conservation covers every way we protect a painting, including how it's handled, transported, stored and displayed.' Old paintings are often made from materials that were once alive, such as canvas made from plant fibres or wooden panels. Since living materials naturally contain water, artworks made from them can be damaged by changes in the surrounding air. 'If a room is too hot or too humid, the paint can crack or peel off. If a wooden panel dries out too much, it can crack or split,' Amelia explains.\n\n'Restoration is a smaller part of the bigger picture of conservation - fixing areas of damage or loss, cleaning off dirt or old, discoloured varnish, and carrying out repairs.'",
+      "prompt": "According to the text, what is one way to help prevent a painting from deteriorating?",
+      "options": [
+        {
+          "label": "A",
+          "text": "keep the painting away from light"
+        },
+        {
+          "label": "B",
+          "text": "control the humidity and temperature around it"
+        },
+        {
+          "label": "C",
+          "text": "coat the painting with light colours"
+        },
+        {
+          "label": "D",
+          "text": "use oils that match the painting's original colours"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Amelia explains that a room being 'too hot or too humid' causes damage, so controlling those conditions helps prevent it.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q47",
+      "number": 47,
+      "type": "multiple_choice",
+      "passage": "Read Behind the Painting and answer questions 43 to 45.\n\nBehind the Painting\n\nMany of the world's most treasured paintings are hundreds of years old, yet they still hang proudly in galleries today. But is there more to an old painting than what we see on the surface? And how do experts make sure these fragile artworks survive for future generations?\n\nAmelia Cho is a paintings conservator at a major city gallery. Her job is to examine old paintings using a range of scientific techniques whenever they arrive for restoration.\n\n'This sometimes uncovers sketches hidden underneath the visible paint, or changes the artist made partway through,' she explains. 'A few years ago, we examined a painting believed to be an ordinary portrait from the 1600s. Using X-ray imaging, we discovered it was actually painted over an earlier, unfinished portrait of a completely different person.'\n\nAmelia's team has also studied the ground layer - the layer beneath the paint - of paintings once thought to be the work of famous artists. 'One painting was long believed to be a self-portrait by a well-known Italian painter,' she says. 'But the ground layer turned out to be a type only ever used in a workshop many kilometres away, so the painting couldn't have been made where everyone assumed.'\n\nDAMAGE CONTROL\nAmelia says the most common form of damage to old paintings is accidental. 'Dents, scratches and tears are the things we see most often,' she says. 'There are also gradual changes to the paint's colours, since varnishes and oils used in old paintings can discolour over time. This isn't really damage, but it does change how a painting looks.'\n\nSo how do conservators fix paintings and keep them that way? 'We do it in two ways: conservation and restoration,' Amelia explains. 'Conservation covers every way we protect a painting, including how it's handled, transported, stored and displayed.' Old paintings are often made from materials that were once alive, such as canvas made from plant fibres or wooden panels. Since living materials naturally contain water, artworks made from them can be damaged by changes in the surrounding air. 'If a room is too hot or too humid, the paint can crack or peel off. If a wooden panel dries out too much, it can crack or split,' Amelia explains.\n\n'Restoration is a smaller part of the bigger picture of conservation - fixing areas of damage or loss, cleaning off dirt or old, discoloured varnish, and carrying out repairs.'",
+      "prompt": "What special care needs to be taken with artworks made from materials that were once alive?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They must be stored where the air is very humid."
+        },
+        {
+          "label": "B",
+          "text": "They need to be kept in warm rooms at all times."
+        },
+        {
+          "label": "C",
+          "text": "They need to be kept where the moisture in the air is controlled."
+        },
+        {
+          "label": "D",
+          "text": "They should be displayed apart from other artworks."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Since these materials naturally contain water, the text explains that changes in surrounding humidity can damage them.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q48",
+      "number": 48,
+      "type": "multiple_choice",
+      "passage": "Read Behind the Painting and answer questions 43 to 45.\n\nBehind the Painting\n\nMany of the world's most treasured paintings are hundreds of years old, yet they still hang proudly in galleries today. But is there more to an old painting than what we see on the surface? And how do experts make sure these fragile artworks survive for future generations?\n\nAmelia Cho is a paintings conservator at a major city gallery. Her job is to examine old paintings using a range of scientific techniques whenever they arrive for restoration.\n\n'This sometimes uncovers sketches hidden underneath the visible paint, or changes the artist made partway through,' she explains. 'A few years ago, we examined a painting believed to be an ordinary portrait from the 1600s. Using X-ray imaging, we discovered it was actually painted over an earlier, unfinished portrait of a completely different person.'\n\nAmelia's team has also studied the ground layer - the layer beneath the paint - of paintings once thought to be the work of famous artists. 'One painting was long believed to be a self-portrait by a well-known Italian painter,' she says. 'But the ground layer turned out to be a type only ever used in a workshop many kilometres away, so the painting couldn't have been made where everyone assumed.'\n\nDAMAGE CONTROL\nAmelia says the most common form of damage to old paintings is accidental. 'Dents, scratches and tears are the things we see most often,' she says. 'There are also gradual changes to the paint's colours, since varnishes and oils used in old paintings can discolour over time. This isn't really damage, but it does change how a painting looks.'\n\nSo how do conservators fix paintings and keep them that way? 'We do it in two ways: conservation and restoration,' Amelia explains. 'Conservation covers every way we protect a painting, including how it's handled, transported, stored and displayed.' Old paintings are often made from materials that were once alive, such as canvas made from plant fibres or wooden panels. Since living materials naturally contain water, artworks made from them can be damaged by changes in the surrounding air. 'If a room is too hot or too humid, the paint can crack or peel off. If a wooden panel dries out too much, it can crack or split,' Amelia explains.\n\n'Restoration is a smaller part of the bigger picture of conservation - fixing areas of damage or loss, cleaning off dirt or old, discoloured varnish, and carrying out repairs.'",
+      "prompt": "Which of the following is closest in meaning to this statement? 'Restoration is a smaller part of the bigger picture of conservation.'",
+      "options": [
+        {
+          "label": "A",
+          "text": "Restoration is less important than conservation."
+        },
+        {
+          "label": "B",
+          "text": "Restoration could damage the conservation process."
+        },
+        {
+          "label": "C",
+          "text": "Restoration is considered minor work compared to conservation."
+        },
+        {
+          "label": "D",
+          "text": "Restoration is one aspect of conservation."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "This means restoration is included within the broader practice of conservation, not a separate or lesser activity.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2010c-q49",
+      "number": 49,
+      "type": "multiple_choice",
+      "passage": "Read Behind the Painting and answer questions 43 to 45.\n\nBehind the Painting\n\nMany of the world's most treasured paintings are hundreds of years old, yet they still hang proudly in galleries today. But is there more to an old painting than what we see on the surface? And how do experts make sure these fragile artworks survive for future generations?\n\nAmelia Cho is a paintings conservator at a major city gallery. Her job is to examine old paintings using a range of scientific techniques whenever they arrive for restoration.\n\n'This sometimes uncovers sketches hidden underneath the visible paint, or changes the artist made partway through,' she explains. 'A few years ago, we examined a painting believed to be an ordinary portrait from the 1600s. Using X-ray imaging, we discovered it was actually painted over an earlier, unfinished portrait of a completely different person.'\n\nAmelia's team has also studied the ground layer - the layer beneath the paint - of paintings once thought to be the work of famous artists. 'One painting was long believed to be a self-portrait by a well-known Italian painter,' she says. 'But the ground layer turned out to be a type only ever used in a workshop many kilometres away, so the painting couldn't have been made where everyone assumed.'\n\nDAMAGE CONTROL\nAmelia says the most common form of damage to old paintings is accidental. 'Dents, scratches and tears are the things we see most often,' she says. 'There are also gradual changes to the paint's colours, since varnishes and oils used in old paintings can discolour over time. This isn't really damage, but it does change how a painting looks.'\n\nSo how do conservators fix paintings and keep them that way? 'We do it in two ways: conservation and restoration,' Amelia explains. 'Conservation covers every way we protect a painting, including how it's handled, transported, stored and displayed.' Old paintings are often made from materials that were once alive, such as canvas made from plant fibres or wooden panels. Since living materials naturally contain water, artworks made from them can be damaged by changes in the surrounding air. 'If a room is too hot or too humid, the paint can crack or peel off. If a wooden panel dries out too much, it can crack or split,' Amelia explains.\n\n'Restoration is a smaller part of the bigger picture of conservation - fixing areas of damage or loss, cleaning off dirt or old, discoloured varnish, and carrying out repairs.'",
+      "prompt": "What is the difference between conservation and restoration, according to the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Conservation is about protecting artworks from damage, whereas restoration is about repairing them."
+        },
+        {
+          "label": "B",
+          "text": "Conservation includes handling, transport, storage and display, whereas restoration only covers handling."
+        },
+        {
+          "label": "C",
+          "text": "Conservation is about repairing damage to the ground layer, whereas restoration repairs the surface layer."
+        },
+        {
+          "label": "D",
+          "text": "Conservation applies to whole paintings, whereas restoration applies only to small details."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Conservation covers protection (handling, storage, display), while restoration covers actively fixing damage that has occurred.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2010c-q50",
+      "number": 50,
+      "type": "multiple_choice",
+      "passage": "Read Behind the Painting and answer questions 43 to 45.\n\nBehind the Painting\n\nMany of the world's most treasured paintings are hundreds of years old, yet they still hang proudly in galleries today. But is there more to an old painting than what we see on the surface? And how do experts make sure these fragile artworks survive for future generations?\n\nAmelia Cho is a paintings conservator at a major city gallery. Her job is to examine old paintings using a range of scientific techniques whenever they arrive for restoration.\n\n'This sometimes uncovers sketches hidden underneath the visible paint, or changes the artist made partway through,' she explains. 'A few years ago, we examined a painting believed to be an ordinary portrait from the 1600s. Using X-ray imaging, we discovered it was actually painted over an earlier, unfinished portrait of a completely different person.'\n\nAmelia's team has also studied the ground layer - the layer beneath the paint - of paintings once thought to be the work of famous artists. 'One painting was long believed to be a self-portrait by a well-known Italian painter,' she says. 'But the ground layer turned out to be a type only ever used in a workshop many kilometres away, so the painting couldn't have been made where everyone assumed.'\n\nDAMAGE CONTROL\nAmelia says the most common form of damage to old paintings is accidental. 'Dents, scratches and tears are the things we see most often,' she says. 'There are also gradual changes to the paint's colours, since varnishes and oils used in old paintings can discolour over time. This isn't really damage, but it does change how a painting looks.'\n\nSo how do conservators fix paintings and keep them that way? 'We do it in two ways: conservation and restoration,' Amelia explains. 'Conservation covers every way we protect a painting, including how it's handled, transported, stored and displayed.' Old paintings are often made from materials that were once alive, such as canvas made from plant fibres or wooden panels. Since living materials naturally contain water, artworks made from them can be damaged by changes in the surrounding air. 'If a room is too hot or too humid, the paint can crack or peel off. If a wooden panel dries out too much, it can crack or split,' Amelia explains.\n\n'Restoration is a smaller part of the bigger picture of conservation - fixing areas of damage or loss, cleaning off dirt or old, discoloured varnish, and carrying out repairs.'",
+      "prompt": "A rhetorical question is a question asked for effect, where no direct answer is expected. Which of the following from the text is a rhetorical question?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'Her job is to examine old paintings using a range of scientific techniques.'"
+        },
+        {
+          "label": "B",
+          "text": "'But is there more to an old painting than what we see on the surface?'"
+        },
+        {
+          "label": "C",
+          "text": "'Conservation covers every way we protect a painting.'"
+        },
+        {
+          "label": "D",
+          "text": "'Restoration is a smaller part of the bigger picture of conservation.'"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "It's the only option phrased as a question — asked to draw readers in, not to seek a literal answer.",
+      "topic": "Writer's craft"
+    }
+  ]
+}

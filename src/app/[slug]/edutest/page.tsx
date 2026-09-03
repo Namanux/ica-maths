@@ -1,9 +1,15 @@
 import { notFound } from "next/navigation";
-import { getPapersByExam } from "@/lib/papers";
+import Link from "next/link";
 import { getProfile } from "@/lib/profiles";
-import { PaperListLinks } from "@/components/PaperListLinks";
-import { PerformancePanel } from "@/components/PerformancePanel";
-import { ScrollRestoration } from "@/components/ScrollRestoration";
+
+const YEAR_LEVELS = [
+  {
+    slug: "year5",
+    name: "Year 5",
+    description: "EduTest-style practice papers for Year 5 students.",
+    available: true,
+  },
+];
 
 export default async function EduTestHome({
   params,
@@ -14,22 +20,30 @@ export default async function EduTestHome({
   const profile = getProfile(slug);
   if (!profile) notFound();
 
-  const papers = getPapersByExam("edutest");
-
   return (
     <div className="flex flex-col gap-6">
-      <ScrollRestoration storageKey={`edutest-scroll-${slug}`} />
       <div>
-        <h1 className="text-2xl font-semibold tracking-tight">Choose a paper</h1>
-        <p className="text-muted mt-1">
-          EduTest-style Mathematics and Numerical Reasoning practice papers, timed
-          like the real scholarship test.
-        </p>
+        <h1 className="text-2xl font-semibold tracking-tight">EduTest</h1>
+        <p className="text-muted mt-1">Choose a year level to practise.</p>
       </div>
 
-      <PaperListLinks papers={papers} slug={slug} />
-
-      <PerformancePanel profileSlug={slug} exam="edutest" />
+      <div className="flex flex-col gap-3">
+        {YEAR_LEVELS.map((yl) => (
+          <Link
+            key={yl.slug}
+            href={`/${slug}/edutest/${yl.slug}`}
+            className="flex items-center justify-between rounded-lg border border-border p-4 hover:bg-surface transition-colors"
+          >
+            <div>
+              <div className="font-medium">{yl.name}</div>
+              <div className="text-sm text-muted mt-0.5">{yl.description}</div>
+            </div>
+            <span aria-hidden className="text-muted">
+              {yl.available ? "→" : "Coming soon"}
+            </span>
+          </Link>
+        ))}
+      </div>
     </div>
   );
 }

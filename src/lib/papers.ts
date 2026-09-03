@@ -23,6 +23,15 @@ import selectiveReadingPt3 from "@/data/papers/selective-reading-pt3.json";
 import selectiveThinkingPt1 from "@/data/papers/selective-thinking-pt1.json";
 import selectiveThinkingPt2 from "@/data/papers/selective-thinking-pt2.json";
 import selectiveThinkingPt3 from "@/data/papers/selective-thinking-pt3.json";
+import icas2010EnglishPaperC from "@/data/papers/icas-2010-english-paper-c.json";
+import icas2018EnglishPaperC from "@/data/papers/icas-2018-english-paper-c.json";
+import icas2017EnglishPaperC from "@/data/papers/icas-2017-english-paper-c.json";
+import icas2016EnglishPaperC from "@/data/papers/icas-2016-english-paper-c.json";
+import icas2011EnglishPaperC from "@/data/papers/icas-2011-english-paper-c.json";
+import icas2012EnglishPaperC from "@/data/papers/icas-2012-english-paper-c.json";
+import icas2013EnglishPaperC from "@/data/papers/icas-2013-english-paper-c.json";
+import icas2014EnglishPaperC from "@/data/papers/icas-2014-english-paper-c.json";
+import icas2015EnglishPaperC from "@/data/papers/icas-2015-english-paper-c.json";
 
 const DEFAULT_EXAM = "icas";
 
@@ -51,6 +60,15 @@ const papers: Paper[] = [
   edutestY5Numerical1 as Paper,
   edutestY5Verbal1 as Paper,
   edutestY5Reading1 as Paper,
+  icas2010EnglishPaperC as Paper,
+  icas2018EnglishPaperC as Paper,
+  icas2017EnglishPaperC as Paper,
+  icas2016EnglishPaperC as Paper,
+  icas2011EnglishPaperC as Paper,
+  icas2012EnglishPaperC as Paper,
+  icas2013EnglishPaperC as Paper,
+  icas2014EnglishPaperC as Paper,
+  icas2015EnglishPaperC as Paper,
 ];
 
 export function paperExam(paper: Pick<Paper, "exam">): string {
@@ -73,12 +91,33 @@ export function examHomeSlug(
     return `selective-test/${paper.component ?? "mathematical-reasoning"}`;
   }
   if (exam === "icas") {
-    return "icas/year5/maths";
+    return `icas/year5/${icasSubjectSlug(paper)}`;
   }
   if (exam === "edutest") {
     return `edutest/year5/${edutestSubjectSlug(paper)}`;
   }
   return exam;
+}
+
+/**
+ * ICAS Year 5 is split by subject (Mathematics, English, …). This maps a
+ * paper's `subject` to the URL segment used under `icas/year5/`.
+ */
+const ICAS_SUBJECT_SLUGS: Record<string, string> = {
+  Mathematics: "maths",
+  English: "english",
+};
+
+export function icasSubjectSlug(paper: Pick<Paper, "subject">): string {
+  return ICAS_SUBJECT_SLUGS[paper.subject] ?? "maths";
+}
+
+/** ICAS papers for one subject slug ("maths", "english"). */
+export function getIcasPapers(subjectSlug: string): PaperSummary[] {
+  return papers
+    .filter((p) => paperExam(p) === "icas" && icasSubjectSlug(p) === subjectSlug)
+    .map(toSummary)
+    .sort((a, b) => a.year - b.year);
 }
 
 /**

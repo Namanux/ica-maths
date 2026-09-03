@@ -10,10 +10,16 @@ import { RecentAttempts } from "@/components/RecentAttempts";
 export function PerformancePanel({
   profileSlug,
   exam,
+  subject,
+  paperId,
 }: {
   profileSlug: string;
   /** When set, only attempts on papers from this exam section are counted. */
   exam?: string;
+  /** When set, only attempts on papers with this exact `subject` are counted. */
+  subject?: string;
+  /** When set, only attempts on this exact paper are counted. */
+  paperId?: string;
 }) {
   const [attempts, setAttempts] = useState<StoredAttempt[]>([]);
   const [loaded, setLoaded] = useState(false);
@@ -24,12 +30,16 @@ export function PerformancePanel({
     let cancelled = false;
     getAttempts(profileSlug, isAdmin).then((data) => {
       if (!cancelled) {
-        const filtered = exam
-          ? data.filter((a) => {
-              const paper = getPaperById(a.paperId);
-              return paper ? paperExam(paper) === exam : false;
-            })
-          : data;
+        const filtered = data.filter((a) => {
+          if (paperId && a.paperId !== paperId) return false;
+          if (exam || subject) {
+            const paper = getPaperById(a.paperId);
+            if (!paper) return false;
+            if (exam && paperExam(paper) !== exam) return false;
+            if (subject && paper.subject !== subject) return false;
+          }
+          return true;
+        });
         setAttempts(filtered);
         setLoaded(true);
       }
@@ -37,7 +47,7 @@ export function PerformancePanel({
     return () => {
       cancelled = true;
     };
-  }, [profileSlug, isAdmin, exam]);
+  }, [profileSlug, isAdmin, exam, subject, paperId]);
 
   if (!loaded || attempts.length === 0) return null;
 
@@ -59,7 +69,7 @@ export function PerformancePanel({
     return (
       <div className="flex flex-col gap-6">
         <ProfilePerformanceTabs title="Your progress" attempts={byProfile.get(profileSlug) ?? attempts} />
-        <RecentAttempts profileSlug={profileSlug} exam={exam} />
+        <RecentAttempts profileSlug={profileSlug} exam={exam} subject={subject} paperId={paperId} />
       </div>
     );
   }
@@ -82,7 +92,13 @@ export function PerformancePanel({
         ))}
       </select>
       <ProfilePerformanceTabs attempts={byProfile.get(activeSlug) ?? []} />
-      <RecentAttempts profileSlug={profileSlug} exam={exam} profileFilter={activeSlug} />
+      <RecentAttempts
+        profileSlug={profileSlug}
+        exam={exam}
+        subject={subject}
+        paperId={paperId}
+        profileFilter={activeSlug}
+      />
     </div>
   );
 }

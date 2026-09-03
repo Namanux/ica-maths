@@ -1,0 +1,1411 @@
+{
+  "id": "icas-2018-english-paper-c",
+  "subject": "English",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS English 2018 — Paper C",
+  "year": 2018,
+  "timeLimitMinutes": 50,
+  "questions": [
+    {
+      "id": "eng2018c-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nFreeze\n\nZara's mind had gone completely blank. Her recorder teacher, Mrs Alvi, watched anxiously from the front row. She raised her eyebrows, silently urging Zara to begin, but Zara's fingers wouldn't move. The hall lights felt impossibly bright. Somewhere in the third row, a chair creaked.\n\nZara closed her eyes, wishing the stage would simply swallow her whole.\n\nThe Windward Suite had been Zara's favourite piece since the very first time she'd heard it on the radio, in the car, on the way home from swimming lessons. She'd begged her parents for recorder lessons for almost a year before they finally agreed, and when Mrs Alvi asked who wanted to perform the hardest movement at the recital, Zara's hand had shot straight up before she could stop herself. Nobody else had even wanted to try.\n\nYet here she was, standing at the front of the hall, and not even ten seconds into the piece, everything had already fallen apart.\n\nShe could feel every single person in the audience watching her. Out of the corner of her eye, she noticed Mrs Alvi glancing towards Callum, who also knew the piece, ready to wave him up if Zara didn't start soon.\n\nCome on, Zara, come on. What did the sheet music look like? With her eyes still shut, she pictured the opening bars: the curling black notes, the little swell mark above the third line, the page slightly creased at the corner from being folded into her school bag too many times. She pictured her own finger tracing along beneath the notes at home, again and again, until she knew the shape of the melody by heart.\n\nAnd then, somehow, the notes came.\n\nZara lifted the recorder to her lips and played the opening phrase, low and steady. She could feel the audience settle, and the performance had truly begun.",
+      "prompt": "'She raised her eyebrows, silently urging Zara to begin, but Zara's fingers wouldn't move.' Zara couldn't begin playing because",
+      "options": [
+        {
+          "label": "A",
+          "text": "she was too nervous to move."
+        },
+        {
+          "label": "B",
+          "text": "she had forgotten to bring her recorder."
+        },
+        {
+          "label": "C",
+          "text": "the audience was too noisy."
+        },
+        {
+          "label": "D",
+          "text": "she was waiting for a signal from Mrs Alvi."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Zara has frozen from stage fright, not from any of the other listed causes.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nFreeze\n\nZara's mind had gone completely blank. Her recorder teacher, Mrs Alvi, watched anxiously from the front row. She raised her eyebrows, silently urging Zara to begin, but Zara's fingers wouldn't move. The hall lights felt impossibly bright. Somewhere in the third row, a chair creaked.\n\nZara closed her eyes, wishing the stage would simply swallow her whole.\n\nThe Windward Suite had been Zara's favourite piece since the very first time she'd heard it on the radio, in the car, on the way home from swimming lessons. She'd begged her parents for recorder lessons for almost a year before they finally agreed, and when Mrs Alvi asked who wanted to perform the hardest movement at the recital, Zara's hand had shot straight up before she could stop herself. Nobody else had even wanted to try.\n\nYet here she was, standing at the front of the hall, and not even ten seconds into the piece, everything had already fallen apart.\n\nShe could feel every single person in the audience watching her. Out of the corner of her eye, she noticed Mrs Alvi glancing towards Callum, who also knew the piece, ready to wave him up if Zara didn't start soon.\n\nCome on, Zara, come on. What did the sheet music look like? With her eyes still shut, she pictured the opening bars: the curling black notes, the little swell mark above the third line, the page slightly creased at the corner from being folded into her school bag too many times. She pictured her own finger tracing along beneath the notes at home, again and again, until she knew the shape of the melody by heart.\n\nAnd then, somehow, the notes came.\n\nZara lifted the recorder to her lips and played the opening phrase, low and steady. She could feel the audience settle, and the performance had truly begun.",
+      "prompt": "Why had Zara been chosen to perform the hardest movement?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Zara had performed solos before."
+        },
+        {
+          "label": "B",
+          "text": "Nobody else had wanted to attempt it."
+        },
+        {
+          "label": "C",
+          "text": "The movement suited Zara's instrument best."
+        },
+        {
+          "label": "D",
+          "text": "Zara had written the piece herself."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text says Zara's hand shot up before she could stop herself, and 'nobody else had even wanted to try.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nFreeze\n\nZara's mind had gone completely blank. Her recorder teacher, Mrs Alvi, watched anxiously from the front row. She raised her eyebrows, silently urging Zara to begin, but Zara's fingers wouldn't move. The hall lights felt impossibly bright. Somewhere in the third row, a chair creaked.\n\nZara closed her eyes, wishing the stage would simply swallow her whole.\n\nThe Windward Suite had been Zara's favourite piece since the very first time she'd heard it on the radio, in the car, on the way home from swimming lessons. She'd begged her parents for recorder lessons for almost a year before they finally agreed, and when Mrs Alvi asked who wanted to perform the hardest movement at the recital, Zara's hand had shot straight up before she could stop herself. Nobody else had even wanted to try.\n\nYet here she was, standing at the front of the hall, and not even ten seconds into the piece, everything had already fallen apart.\n\nShe could feel every single person in the audience watching her. Out of the corner of her eye, she noticed Mrs Alvi glancing towards Callum, who also knew the piece, ready to wave him up if Zara didn't start soon.\n\nCome on, Zara, come on. What did the sheet music look like? With her eyes still shut, she pictured the opening bars: the curling black notes, the little swell mark above the third line, the page slightly creased at the corner from being folded into her school bag too many times. She pictured her own finger tracing along beneath the notes at home, again and again, until she knew the shape of the melody by heart.\n\nAnd then, somehow, the notes came.\n\nZara lifted the recorder to her lips and played the opening phrase, low and steady. She could feel the audience settle, and the performance had truly begun.",
+      "prompt": "'Out of the corner of her eye, she noticed Mrs Alvi glancing towards Callum, who also knew the piece, ready to wave him up if Zara didn't start soon.' This sentence shows that Mrs Alvi felt that",
+      "options": [
+        {
+          "label": "A",
+          "text": "Zara was too unwell to perform."
+        },
+        {
+          "label": "B",
+          "text": "Zara had embarrassed the school."
+        },
+        {
+          "label": "C",
+          "text": "Zara might not be able to continue."
+        },
+        {
+          "label": "D",
+          "text": "Zara should not have been chosen to perform."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Mrs Alvi is preparing a backup plan, suggesting she doubts Zara can carry on.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nFreeze\n\nZara's mind had gone completely blank. Her recorder teacher, Mrs Alvi, watched anxiously from the front row. She raised her eyebrows, silently urging Zara to begin, but Zara's fingers wouldn't move. The hall lights felt impossibly bright. Somewhere in the third row, a chair creaked.\n\nZara closed her eyes, wishing the stage would simply swallow her whole.\n\nThe Windward Suite had been Zara's favourite piece since the very first time she'd heard it on the radio, in the car, on the way home from swimming lessons. She'd begged her parents for recorder lessons for almost a year before they finally agreed, and when Mrs Alvi asked who wanted to perform the hardest movement at the recital, Zara's hand had shot straight up before she could stop herself. Nobody else had even wanted to try.\n\nYet here she was, standing at the front of the hall, and not even ten seconds into the piece, everything had already fallen apart.\n\nShe could feel every single person in the audience watching her. Out of the corner of her eye, she noticed Mrs Alvi glancing towards Callum, who also knew the piece, ready to wave him up if Zara didn't start soon.\n\nCome on, Zara, come on. What did the sheet music look like? With her eyes still shut, she pictured the opening bars: the curling black notes, the little swell mark above the third line, the page slightly creased at the corner from being folded into her school bag too many times. She pictured her own finger tracing along beneath the notes at home, again and again, until she knew the shape of the melody by heart.\n\nAnd then, somehow, the notes came.\n\nZara lifted the recorder to her lips and played the opening phrase, low and steady. She could feel the audience settle, and the performance had truly begun.",
+      "prompt": "To try to remember the music, Zara thought about",
+      "options": [
+        {
+          "label": "A",
+          "text": "the recital hall and the audience."
+        },
+        {
+          "label": "B",
+          "text": "practising with Callum before the recital."
+        },
+        {
+          "label": "C",
+          "text": "Callum performing the piece instead."
+        },
+        {
+          "label": "D",
+          "text": "the sheet music at home."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Zara pictures the opening bars of the sheet music and her finger tracing beneath the notes at home.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nFreeze\n\nZara's mind had gone completely blank. Her recorder teacher, Mrs Alvi, watched anxiously from the front row. She raised her eyebrows, silently urging Zara to begin, but Zara's fingers wouldn't move. The hall lights felt impossibly bright. Somewhere in the third row, a chair creaked.\n\nZara closed her eyes, wishing the stage would simply swallow her whole.\n\nThe Windward Suite had been Zara's favourite piece since the very first time she'd heard it on the radio, in the car, on the way home from swimming lessons. She'd begged her parents for recorder lessons for almost a year before they finally agreed, and when Mrs Alvi asked who wanted to perform the hardest movement at the recital, Zara's hand had shot straight up before she could stop herself. Nobody else had even wanted to try.\n\nYet here she was, standing at the front of the hall, and not even ten seconds into the piece, everything had already fallen apart.\n\nShe could feel every single person in the audience watching her. Out of the corner of her eye, she noticed Mrs Alvi glancing towards Callum, who also knew the piece, ready to wave him up if Zara didn't start soon.\n\nCome on, Zara, come on. What did the sheet music look like? With her eyes still shut, she pictured the opening bars: the curling black notes, the little swell mark above the third line, the page slightly creased at the corner from being folded into her school bag too many times. She pictured her own finger tracing along beneath the notes at home, again and again, until she knew the shape of the melody by heart.\n\nAnd then, somehow, the notes came.\n\nZara lifted the recorder to her lips and played the opening phrase, low and steady. She could feel the audience settle, and the performance had truly begun.",
+      "prompt": "In the fifth paragraph, why does the writer repeat the phrase 'Come on, Zara'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to show that Zara felt desperate"
+        },
+        {
+          "label": "B",
+          "text": "to remind readers that Zara was on the stage"
+        },
+        {
+          "label": "C",
+          "text": "to explain what Mrs Alvi was saying to Zara"
+        },
+        {
+          "label": "D",
+          "text": "to reveal that Mrs Alvi was annoyed with Zara"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The urgent repetition mirrors Zara's own panicked, desperate self-talk.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018c-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nFreeze\n\nZara's mind had gone completely blank. Her recorder teacher, Mrs Alvi, watched anxiously from the front row. She raised her eyebrows, silently urging Zara to begin, but Zara's fingers wouldn't move. The hall lights felt impossibly bright. Somewhere in the third row, a chair creaked.\n\nZara closed her eyes, wishing the stage would simply swallow her whole.\n\nThe Windward Suite had been Zara's favourite piece since the very first time she'd heard it on the radio, in the car, on the way home from swimming lessons. She'd begged her parents for recorder lessons for almost a year before they finally agreed, and when Mrs Alvi asked who wanted to perform the hardest movement at the recital, Zara's hand had shot straight up before she could stop herself. Nobody else had even wanted to try.\n\nYet here she was, standing at the front of the hall, and not even ten seconds into the piece, everything had already fallen apart.\n\nShe could feel every single person in the audience watching her. Out of the corner of her eye, she noticed Mrs Alvi glancing towards Callum, who also knew the piece, ready to wave him up if Zara didn't start soon.\n\nCome on, Zara, come on. What did the sheet music look like? With her eyes still shut, she pictured the opening bars: the curling black notes, the little swell mark above the third line, the page slightly creased at the corner from being folded into her school bag too many times. She pictured her own finger tracing along beneath the notes at home, again and again, until she knew the shape of the melody by heart.\n\nAnd then, somehow, the notes came.\n\nZara lifted the recorder to her lips and played the opening phrase, low and steady. She could feel the audience settle, and the performance had truly begun.",
+      "prompt": "When Zara finally began playing, what helped her remember the music?",
+      "options": [
+        {
+          "label": "A",
+          "text": "hearing Callum play the opening notes"
+        },
+        {
+          "label": "B",
+          "text": "picturing the sheet music in her mind"
+        },
+        {
+          "label": "C",
+          "text": "listening to the audience settle down"
+        },
+        {
+          "label": "D",
+          "text": "remembering Mrs Alvi's instructions"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "She recalls the visual details of the sheet music, and the notes 'somehow' come back to her.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nFreeze\n\nZara's mind had gone completely blank. Her recorder teacher, Mrs Alvi, watched anxiously from the front row. She raised her eyebrows, silently urging Zara to begin, but Zara's fingers wouldn't move. The hall lights felt impossibly bright. Somewhere in the third row, a chair creaked.\n\nZara closed her eyes, wishing the stage would simply swallow her whole.\n\nThe Windward Suite had been Zara's favourite piece since the very first time she'd heard it on the radio, in the car, on the way home from swimming lessons. She'd begged her parents for recorder lessons for almost a year before they finally agreed, and when Mrs Alvi asked who wanted to perform the hardest movement at the recital, Zara's hand had shot straight up before she could stop herself. Nobody else had even wanted to try.\n\nYet here she was, standing at the front of the hall, and not even ten seconds into the piece, everything had already fallen apart.\n\nShe could feel every single person in the audience watching her. Out of the corner of her eye, she noticed Mrs Alvi glancing towards Callum, who also knew the piece, ready to wave him up if Zara didn't start soon.\n\nCome on, Zara, come on. What did the sheet music look like? With her eyes still shut, she pictured the opening bars: the curling black notes, the little swell mark above the third line, the page slightly creased at the corner from being folded into her school bag too many times. She pictured her own finger tracing along beneath the notes at home, again and again, until she knew the shape of the melody by heart.\n\nAnd then, somehow, the notes came.\n\nZara lifted the recorder to her lips and played the opening phrase, low and steady. She could feel the audience settle, and the performance had truly begun.",
+      "prompt": "Which option describes the structure of the story?",
+      "options": [
+        {
+          "label": "A",
+          "text": "flashback, complication, resolution"
+        },
+        {
+          "label": "B",
+          "text": "flashback, resolution, complication"
+        },
+        {
+          "label": "C",
+          "text": "complication, flashback, resolution"
+        },
+        {
+          "label": "D",
+          "text": "resolution, flashback, complication"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The story opens with Zara's freeze on stage (complication), then flashes back to why she took the role, before resolving as she recovers and plays.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 8 to 13.\n\nCan self-driving cars fix our traffic problem?\n\nIf you have ever lived in a big city, you have probably spent plenty of time sitting at traffic lights. Traffic lights are a clever invention that let traffic move safely in every direction, but they come with a downside: when traffic builds up, cars spend long stretches waiting and only creep forward in short bursts.\n\nSelf-driving cars might offer a way to ease this problem. If cars could 'talk' directly to traffic lights, could intersections eventually need fewer lights, or none at all?\n\nTo test the idea, a team of engineers built a computer simulation of a busy intersection filled entirely with self-driving cars that could communicate directly with it.\n\nThe first system the researchers tried was fairly straightforward. As each car neared the intersection, it sent a signal ahead. The intersection would then reserve the next free gap for that car, and tell it exactly how much to slow down so it arrived at precisely the right moment to slot through safely. This system let cars move through faster than usual, and could handle much heavier traffic without long queues forming.\n\nTo push the number of cars through even further, the engineers tried something bolder: deliberately speeding some cars up and slowing others down so they clustered into small bunches all travelling the same way. This second system behaved a little like a miniature traffic light, letting one bunch through at a time. Crucially, though, the cars in each bunch never had to stop completely - they kept rolling the whole time. This second system moved roughly twice as many cars through the intersection as an ordinary traffic light setup.\n\nEven so, don't expect real traffic lights to disappear any time soon. Both systems only work if every single car on the road is being driven by a computer rather than a person. But if driverless cars ever become the norm, it's possible that the traffic jam could eventually become a thing of the past.",
+      "prompt": "'If cars could 'talk' directly to traffic lights' In this quotation the word 'talk' is an example of",
+      "options": [
+        {
+          "label": "A",
+          "text": "onomatopoeia."
+        },
+        {
+          "label": "B",
+          "text": "a pun."
+        },
+        {
+          "label": "C",
+          "text": "a simile."
+        },
+        {
+          "label": "D",
+          "text": "personification."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Giving cars the human ability to 'talk' is personification.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 8 to 13.\n\nCan self-driving cars fix our traffic problem?\n\nIf you have ever lived in a big city, you have probably spent plenty of time sitting at traffic lights. Traffic lights are a clever invention that let traffic move safely in every direction, but they come with a downside: when traffic builds up, cars spend long stretches waiting and only creep forward in short bursts.\n\nSelf-driving cars might offer a way to ease this problem. If cars could 'talk' directly to traffic lights, could intersections eventually need fewer lights, or none at all?\n\nTo test the idea, a team of engineers built a computer simulation of a busy intersection filled entirely with self-driving cars that could communicate directly with it.\n\nThe first system the researchers tried was fairly straightforward. As each car neared the intersection, it sent a signal ahead. The intersection would then reserve the next free gap for that car, and tell it exactly how much to slow down so it arrived at precisely the right moment to slot through safely. This system let cars move through faster than usual, and could handle much heavier traffic without long queues forming.\n\nTo push the number of cars through even further, the engineers tried something bolder: deliberately speeding some cars up and slowing others down so they clustered into small bunches all travelling the same way. This second system behaved a little like a miniature traffic light, letting one bunch through at a time. Crucially, though, the cars in each bunch never had to stop completely - they kept rolling the whole time. This second system moved roughly twice as many cars through the intersection as an ordinary traffic light setup.\n\nEven so, don't expect real traffic lights to disappear any time soon. Both systems only work if every single car on the road is being driven by a computer rather than a person. But if driverless cars ever become the norm, it's possible that the traffic jam could eventually become a thing of the past.",
+      "prompt": "What is the goal of the engineers' research?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to see whether self-driving cars can improve traffic flow"
+        },
+        {
+          "label": "B",
+          "text": "to investigate how traffic lights are built"
+        },
+        {
+          "label": "C",
+          "text": "to increase the total number of cars on the road"
+        },
+        {
+          "label": "D",
+          "text": "to encourage more people to drive computer-controlled cars"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The whole simulation is designed to test whether self-driving cars could ease traffic problems.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 8 to 13.\n\nCan self-driving cars fix our traffic problem?\n\nIf you have ever lived in a big city, you have probably spent plenty of time sitting at traffic lights. Traffic lights are a clever invention that let traffic move safely in every direction, but they come with a downside: when traffic builds up, cars spend long stretches waiting and only creep forward in short bursts.\n\nSelf-driving cars might offer a way to ease this problem. If cars could 'talk' directly to traffic lights, could intersections eventually need fewer lights, or none at all?\n\nTo test the idea, a team of engineers built a computer simulation of a busy intersection filled entirely with self-driving cars that could communicate directly with it.\n\nThe first system the researchers tried was fairly straightforward. As each car neared the intersection, it sent a signal ahead. The intersection would then reserve the next free gap for that car, and tell it exactly how much to slow down so it arrived at precisely the right moment to slot through safely. This system let cars move through faster than usual, and could handle much heavier traffic without long queues forming.\n\nTo push the number of cars through even further, the engineers tried something bolder: deliberately speeding some cars up and slowing others down so they clustered into small bunches all travelling the same way. This second system behaved a little like a miniature traffic light, letting one bunch through at a time. Crucially, though, the cars in each bunch never had to stop completely - they kept rolling the whole time. This second system moved roughly twice as many cars through the intersection as an ordinary traffic light setup.\n\nEven so, don't expect real traffic lights to disappear any time soon. Both systems only work if every single car on the road is being driven by a computer rather than a person. But if driverless cars ever become the norm, it's possible that the traffic jam could eventually become a thing of the past.",
+      "prompt": "In the third paragraph, the word 'simulation' means",
+      "options": [
+        {
+          "label": "A",
+          "text": "an activation."
+        },
+        {
+          "label": "B",
+          "text": "an imitation."
+        },
+        {
+          "label": "C",
+          "text": "a control."
+        },
+        {
+          "label": "D",
+          "text": "an improvement."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A simulation imitates or models a real situation — here, a real intersection.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018c-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 8 to 13.\n\nCan self-driving cars fix our traffic problem?\n\nIf you have ever lived in a big city, you have probably spent plenty of time sitting at traffic lights. Traffic lights are a clever invention that let traffic move safely in every direction, but they come with a downside: when traffic builds up, cars spend long stretches waiting and only creep forward in short bursts.\n\nSelf-driving cars might offer a way to ease this problem. If cars could 'talk' directly to traffic lights, could intersections eventually need fewer lights, or none at all?\n\nTo test the idea, a team of engineers built a computer simulation of a busy intersection filled entirely with self-driving cars that could communicate directly with it.\n\nThe first system the researchers tried was fairly straightforward. As each car neared the intersection, it sent a signal ahead. The intersection would then reserve the next free gap for that car, and tell it exactly how much to slow down so it arrived at precisely the right moment to slot through safely. This system let cars move through faster than usual, and could handle much heavier traffic without long queues forming.\n\nTo push the number of cars through even further, the engineers tried something bolder: deliberately speeding some cars up and slowing others down so they clustered into small bunches all travelling the same way. This second system behaved a little like a miniature traffic light, letting one bunch through at a time. Crucially, though, the cars in each bunch never had to stop completely - they kept rolling the whole time. This second system moved roughly twice as many cars through the intersection as an ordinary traffic light setup.\n\nEven so, don't expect real traffic lights to disappear any time soon. Both systems only work if every single car on the road is being driven by a computer rather than a person. But if driverless cars ever become the norm, it's possible that the traffic jam could eventually become a thing of the past.",
+      "prompt": "In the fifth paragraph ('the cars in each bunch never had to stop completely - they kept rolling the whole time'), the underlined pronoun 'they' refers to",
+      "options": [
+        {
+          "label": "A",
+          "text": "engineers."
+        },
+        {
+          "label": "B",
+          "text": "drivers."
+        },
+        {
+          "label": "C",
+          "text": "cars."
+        },
+        {
+          "label": "D",
+          "text": "intersections."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'They' refers back to 'the cars in each bunch', the subject of the clause.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2018c-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 8 to 13.\n\nCan self-driving cars fix our traffic problem?\n\nIf you have ever lived in a big city, you have probably spent plenty of time sitting at traffic lights. Traffic lights are a clever invention that let traffic move safely in every direction, but they come with a downside: when traffic builds up, cars spend long stretches waiting and only creep forward in short bursts.\n\nSelf-driving cars might offer a way to ease this problem. If cars could 'talk' directly to traffic lights, could intersections eventually need fewer lights, or none at all?\n\nTo test the idea, a team of engineers built a computer simulation of a busy intersection filled entirely with self-driving cars that could communicate directly with it.\n\nThe first system the researchers tried was fairly straightforward. As each car neared the intersection, it sent a signal ahead. The intersection would then reserve the next free gap for that car, and tell it exactly how much to slow down so it arrived at precisely the right moment to slot through safely. This system let cars move through faster than usual, and could handle much heavier traffic without long queues forming.\n\nTo push the number of cars through even further, the engineers tried something bolder: deliberately speeding some cars up and slowing others down so they clustered into small bunches all travelling the same way. This second system behaved a little like a miniature traffic light, letting one bunch through at a time. Crucially, though, the cars in each bunch never had to stop completely - they kept rolling the whole time. This second system moved roughly twice as many cars through the intersection as an ordinary traffic light setup.\n\nEven so, don't expect real traffic lights to disappear any time soon. Both systems only work if every single car on the road is being driven by a computer rather than a person. But if driverless cars ever become the norm, it's possible that the traffic jam could eventually become a thing of the past.",
+      "prompt": "Which option best describes how traffic moved in the second system described in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Cars stopped and started constantly."
+        },
+        {
+          "label": "B",
+          "text": "Cars changed direction depending on traffic needs."
+        },
+        {
+          "label": "C",
+          "text": "Cars waited for a human operator's signal."
+        },
+        {
+          "label": "D",
+          "text": "Cars slowed down and formed groups that moved together."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The text describes cars deliberately speeding up or slowing down to bunch together and move as a group.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 8 to 13.\n\nCan self-driving cars fix our traffic problem?\n\nIf you have ever lived in a big city, you have probably spent plenty of time sitting at traffic lights. Traffic lights are a clever invention that let traffic move safely in every direction, but they come with a downside: when traffic builds up, cars spend long stretches waiting and only creep forward in short bursts.\n\nSelf-driving cars might offer a way to ease this problem. If cars could 'talk' directly to traffic lights, could intersections eventually need fewer lights, or none at all?\n\nTo test the idea, a team of engineers built a computer simulation of a busy intersection filled entirely with self-driving cars that could communicate directly with it.\n\nThe first system the researchers tried was fairly straightforward. As each car neared the intersection, it sent a signal ahead. The intersection would then reserve the next free gap for that car, and tell it exactly how much to slow down so it arrived at precisely the right moment to slot through safely. This system let cars move through faster than usual, and could handle much heavier traffic without long queues forming.\n\nTo push the number of cars through even further, the engineers tried something bolder: deliberately speeding some cars up and slowing others down so they clustered into small bunches all travelling the same way. This second system behaved a little like a miniature traffic light, letting one bunch through at a time. Crucially, though, the cars in each bunch never had to stop completely - they kept rolling the whole time. This second system moved roughly twice as many cars through the intersection as an ordinary traffic light setup.\n\nEven so, don't expect real traffic lights to disappear any time soon. Both systems only work if every single car on the road is being driven by a computer rather than a person. But if driverless cars ever become the norm, it's possible that the traffic jam could eventually become a thing of the past.",
+      "prompt": "What does the writer predict for the future?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Computer-controlled cars could improve traffic flow."
+        },
+        {
+          "label": "B",
+          "text": "More research will mean fewer cars are built."
+        },
+        {
+          "label": "C",
+          "text": "Traditional traffic lights will be replaced by smaller lights."
+        },
+        {
+          "label": "D",
+          "text": "Computers will never fully replace human drivers."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The final paragraph suggests traffic jams could become a thing of the past if driverless cars become the norm.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 14 to 19.\n\nThe search\n\nMarcus was on a mission. He had waited for this day for weeks, patiently planning and plotting. Now that the day had finally come, it was time to act.\n\n'I know exactly what I need,' he murmured to himself, striding down the footpath through the busy Saturday crowds. 'And I know precisely where to find it.'\n\nHe marched straight past the chemist and the hardware store, past the shoe shop and the newsagent and the greengrocer. His mission would not be completed in any of those ordinary places. He didn't slow down or glance in a single window, but kept walking with purpose. His heart beat a little faster with excitement. He was about to find something that would make his sister's whole face light up, now that she was finally home from hospital and feeling better. And on such an important day, too. He could hardly stand the wait.\n\nAt last, he arrived outside a narrow shop with dusty windows and a faded sign above the door. A collection of wind-up toys sat in the window display, gathering a fine layer of dust, and a bell above the doorframe swung gently though nobody had touched it. A strange, papery smell drifted out from inside, like old cardboard and machine oil mixed together. Marcus breathed it in. Above the doorway, painted in peeling gold letters, was a single word: 'CURIOSITIES'.\n\nMarcus pressed his face to the glass, scanning the crowded shelves inside, where oddities were arranged like specimens in a museum: brass telescopes, tangled kites, small clockwork animals frozen mid-stride. A treasure chest of forgotten things. But where was it? A flash of panic gripped him. It had definitely been here last week - surely nobody had already bought it? There! Right at the very back, perched high on a shelf, loftier than all the other treasures. A small wooden music box, carved with birds, with a single brass key on its side. Marcus grinned. It was perfect.\n\nThe old man who ran the shop had wiry grey eyebrows and wore round glasses pushed low on his nose. He looked as though he had wandered in from another century entirely. He was polishing a telescope lens when he noticed Marcus lingering outside the window. He peered over his glasses at him sharply.\n\nMarcus checked his pocket to make sure his money was still there. He pushed open the door, and a little bell above it jingled. The old man set down the telescope. Unexpectedly, he broke into a warm smile, and his whole face creased into friendly wrinkles. 'Well now, young man. What can I help you find today?'",
+      "prompt": "'Marcus was on a mission.' This means that Marcus was",
+      "options": [
+        {
+          "label": "A",
+          "text": "worried about having too much to do."
+        },
+        {
+          "label": "B",
+          "text": "concentrating on one specific task."
+        },
+        {
+          "label": "C",
+          "text": "distracted from what he should be doing."
+        },
+        {
+          "label": "D",
+          "text": "trying to complete as many errands as possible."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'On a mission' here means single-mindedly focused on one goal.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018c-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 14 to 19.\n\nThe search\n\nMarcus was on a mission. He had waited for this day for weeks, patiently planning and plotting. Now that the day had finally come, it was time to act.\n\n'I know exactly what I need,' he murmured to himself, striding down the footpath through the busy Saturday crowds. 'And I know precisely where to find it.'\n\nHe marched straight past the chemist and the hardware store, past the shoe shop and the newsagent and the greengrocer. His mission would not be completed in any of those ordinary places. He didn't slow down or glance in a single window, but kept walking with purpose. His heart beat a little faster with excitement. He was about to find something that would make his sister's whole face light up, now that she was finally home from hospital and feeling better. And on such an important day, too. He could hardly stand the wait.\n\nAt last, he arrived outside a narrow shop with dusty windows and a faded sign above the door. A collection of wind-up toys sat in the window display, gathering a fine layer of dust, and a bell above the doorframe swung gently though nobody had touched it. A strange, papery smell drifted out from inside, like old cardboard and machine oil mixed together. Marcus breathed it in. Above the doorway, painted in peeling gold letters, was a single word: 'CURIOSITIES'.\n\nMarcus pressed his face to the glass, scanning the crowded shelves inside, where oddities were arranged like specimens in a museum: brass telescopes, tangled kites, small clockwork animals frozen mid-stride. A treasure chest of forgotten things. But where was it? A flash of panic gripped him. It had definitely been here last week - surely nobody had already bought it? There! Right at the very back, perched high on a shelf, loftier than all the other treasures. A small wooden music box, carved with birds, with a single brass key on its side. Marcus grinned. It was perfect.\n\nThe old man who ran the shop had wiry grey eyebrows and wore round glasses pushed low on his nose. He looked as though he had wandered in from another century entirely. He was polishing a telescope lens when he noticed Marcus lingering outside the window. He peered over his glasses at him sharply.\n\nMarcus checked his pocket to make sure his money was still there. He pushed open the door, and a little bell above it jingled. The old man set down the telescope. Unexpectedly, he broke into a warm smile, and his whole face creased into friendly wrinkles. 'Well now, young man. What can I help you find today?'",
+      "prompt": "'He had waited for this day for weeks, patiently planning and plotting.' What literary device is used in this quotation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "idiom"
+        },
+        {
+          "label": "B",
+          "text": "exaggeration"
+        },
+        {
+          "label": "C",
+          "text": "alliteration"
+        },
+        {
+          "label": "D",
+          "text": "metaphor"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Patiently planning' and 'plotting' repeat the same starting sound.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018c-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 14 to 19.\n\nThe search\n\nMarcus was on a mission. He had waited for this day for weeks, patiently planning and plotting. Now that the day had finally come, it was time to act.\n\n'I know exactly what I need,' he murmured to himself, striding down the footpath through the busy Saturday crowds. 'And I know precisely where to find it.'\n\nHe marched straight past the chemist and the hardware store, past the shoe shop and the newsagent and the greengrocer. His mission would not be completed in any of those ordinary places. He didn't slow down or glance in a single window, but kept walking with purpose. His heart beat a little faster with excitement. He was about to find something that would make his sister's whole face light up, now that she was finally home from hospital and feeling better. And on such an important day, too. He could hardly stand the wait.\n\nAt last, he arrived outside a narrow shop with dusty windows and a faded sign above the door. A collection of wind-up toys sat in the window display, gathering a fine layer of dust, and a bell above the doorframe swung gently though nobody had touched it. A strange, papery smell drifted out from inside, like old cardboard and machine oil mixed together. Marcus breathed it in. Above the doorway, painted in peeling gold letters, was a single word: 'CURIOSITIES'.\n\nMarcus pressed his face to the glass, scanning the crowded shelves inside, where oddities were arranged like specimens in a museum: brass telescopes, tangled kites, small clockwork animals frozen mid-stride. A treasure chest of forgotten things. But where was it? A flash of panic gripped him. It had definitely been here last week - surely nobody had already bought it? There! Right at the very back, perched high on a shelf, loftier than all the other treasures. A small wooden music box, carved with birds, with a single brass key on its side. Marcus grinned. It was perfect.\n\nThe old man who ran the shop had wiry grey eyebrows and wore round glasses pushed low on his nose. He looked as though he had wandered in from another century entirely. He was polishing a telescope lens when he noticed Marcus lingering outside the window. He peered over his glasses at him sharply.\n\nMarcus checked his pocket to make sure his money was still there. He pushed open the door, and a little bell above it jingled. The old man set down the telescope. Unexpectedly, he broke into a warm smile, and his whole face creased into friendly wrinkles. 'Well now, young man. What can I help you find today?'",
+      "prompt": "Which of the following descriptions from the text contains a simile?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'A collection of wind-up toys sat in the window display'"
+        },
+        {
+          "label": "B",
+          "text": "'A strange, papery smell drifted out from inside'"
+        },
+        {
+          "label": "C",
+          "text": "'small clockwork animals frozen mid-stride'"
+        },
+        {
+          "label": "D",
+          "text": "'oddities were arranged like specimens in a museum'"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Like specimens in a museum' compares two things using 'like', making it a simile.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018c-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 14 to 19.\n\nThe search\n\nMarcus was on a mission. He had waited for this day for weeks, patiently planning and plotting. Now that the day had finally come, it was time to act.\n\n'I know exactly what I need,' he murmured to himself, striding down the footpath through the busy Saturday crowds. 'And I know precisely where to find it.'\n\nHe marched straight past the chemist and the hardware store, past the shoe shop and the newsagent and the greengrocer. His mission would not be completed in any of those ordinary places. He didn't slow down or glance in a single window, but kept walking with purpose. His heart beat a little faster with excitement. He was about to find something that would make his sister's whole face light up, now that she was finally home from hospital and feeling better. And on such an important day, too. He could hardly stand the wait.\n\nAt last, he arrived outside a narrow shop with dusty windows and a faded sign above the door. A collection of wind-up toys sat in the window display, gathering a fine layer of dust, and a bell above the doorframe swung gently though nobody had touched it. A strange, papery smell drifted out from inside, like old cardboard and machine oil mixed together. Marcus breathed it in. Above the doorway, painted in peeling gold letters, was a single word: 'CURIOSITIES'.\n\nMarcus pressed his face to the glass, scanning the crowded shelves inside, where oddities were arranged like specimens in a museum: brass telescopes, tangled kites, small clockwork animals frozen mid-stride. A treasure chest of forgotten things. But where was it? A flash of panic gripped him. It had definitely been here last week - surely nobody had already bought it? There! Right at the very back, perched high on a shelf, loftier than all the other treasures. A small wooden music box, carved with birds, with a single brass key on its side. Marcus grinned. It was perfect.\n\nThe old man who ran the shop had wiry grey eyebrows and wore round glasses pushed low on his nose. He looked as though he had wandered in from another century entirely. He was polishing a telescope lens when he noticed Marcus lingering outside the window. He peered over his glasses at him sharply.\n\nMarcus checked his pocket to make sure his money was still there. He pushed open the door, and a little bell above it jingled. The old man set down the telescope. Unexpectedly, he broke into a warm smile, and his whole face creased into friendly wrinkles. 'Well now, young man. What can I help you find today?'",
+      "prompt": "'perched high on a shelf, loftier than all the other treasures' Marcus's use of the word 'loftier' has two meanings. Firstly, the music box was placed higher than the other items. Secondly, Marcus thought it was",
+      "options": [
+        {
+          "label": "A",
+          "text": "better."
+        },
+        {
+          "label": "B",
+          "text": "bigger."
+        },
+        {
+          "label": "C",
+          "text": "darker."
+        },
+        {
+          "label": "D",
+          "text": "sweeter."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Loftier' can mean both physically higher and grander or finer.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018c-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 14 to 19.\n\nThe search\n\nMarcus was on a mission. He had waited for this day for weeks, patiently planning and plotting. Now that the day had finally come, it was time to act.\n\n'I know exactly what I need,' he murmured to himself, striding down the footpath through the busy Saturday crowds. 'And I know precisely where to find it.'\n\nHe marched straight past the chemist and the hardware store, past the shoe shop and the newsagent and the greengrocer. His mission would not be completed in any of those ordinary places. He didn't slow down or glance in a single window, but kept walking with purpose. His heart beat a little faster with excitement. He was about to find something that would make his sister's whole face light up, now that she was finally home from hospital and feeling better. And on such an important day, too. He could hardly stand the wait.\n\nAt last, he arrived outside a narrow shop with dusty windows and a faded sign above the door. A collection of wind-up toys sat in the window display, gathering a fine layer of dust, and a bell above the doorframe swung gently though nobody had touched it. A strange, papery smell drifted out from inside, like old cardboard and machine oil mixed together. Marcus breathed it in. Above the doorway, painted in peeling gold letters, was a single word: 'CURIOSITIES'.\n\nMarcus pressed his face to the glass, scanning the crowded shelves inside, where oddities were arranged like specimens in a museum: brass telescopes, tangled kites, small clockwork animals frozen mid-stride. A treasure chest of forgotten things. But where was it? A flash of panic gripped him. It had definitely been here last week - surely nobody had already bought it? There! Right at the very back, perched high on a shelf, loftier than all the other treasures. A small wooden music box, carved with birds, with a single brass key on its side. Marcus grinned. It was perfect.\n\nThe old man who ran the shop had wiry grey eyebrows and wore round glasses pushed low on his nose. He looked as though he had wandered in from another century entirely. He was polishing a telescope lens when he noticed Marcus lingering outside the window. He peered over his glasses at him sharply.\n\nMarcus checked his pocket to make sure his money was still there. He pushed open the door, and a little bell above it jingled. The old man set down the telescope. Unexpectedly, he broke into a warm smile, and his whole face creased into friendly wrinkles. 'Well now, young man. What can I help you find today?'",
+      "prompt": "In which paragraph does Marcus experience both disappointment and pleasure?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "5"
+        },
+        {
+          "label": "C",
+          "text": "4"
+        },
+        {
+          "label": "D",
+          "text": "7"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "In paragraph 5, Marcus panics that the music box might be gone, then feels delighted when he spots it.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 14 to 19.\n\nThe search\n\nMarcus was on a mission. He had waited for this day for weeks, patiently planning and plotting. Now that the day had finally come, it was time to act.\n\n'I know exactly what I need,' he murmured to himself, striding down the footpath through the busy Saturday crowds. 'And I know precisely where to find it.'\n\nHe marched straight past the chemist and the hardware store, past the shoe shop and the newsagent and the greengrocer. His mission would not be completed in any of those ordinary places. He didn't slow down or glance in a single window, but kept walking with purpose. His heart beat a little faster with excitement. He was about to find something that would make his sister's whole face light up, now that she was finally home from hospital and feeling better. And on such an important day, too. He could hardly stand the wait.\n\nAt last, he arrived outside a narrow shop with dusty windows and a faded sign above the door. A collection of wind-up toys sat in the window display, gathering a fine layer of dust, and a bell above the doorframe swung gently though nobody had touched it. A strange, papery smell drifted out from inside, like old cardboard and machine oil mixed together. Marcus breathed it in. Above the doorway, painted in peeling gold letters, was a single word: 'CURIOSITIES'.\n\nMarcus pressed his face to the glass, scanning the crowded shelves inside, where oddities were arranged like specimens in a museum: brass telescopes, tangled kites, small clockwork animals frozen mid-stride. A treasure chest of forgotten things. But where was it? A flash of panic gripped him. It had definitely been here last week - surely nobody had already bought it? There! Right at the very back, perched high on a shelf, loftier than all the other treasures. A small wooden music box, carved with birds, with a single brass key on its side. Marcus grinned. It was perfect.\n\nThe old man who ran the shop had wiry grey eyebrows and wore round glasses pushed low on his nose. He looked as though he had wandered in from another century entirely. He was polishing a telescope lens when he noticed Marcus lingering outside the window. He peered over his glasses at him sharply.\n\nMarcus checked his pocket to make sure his money was still there. He pushed open the door, and a little bell above it jingled. The old man set down the telescope. Unexpectedly, he broke into a warm smile, and his whole face creased into friendly wrinkles. 'Well now, young man. What can I help you find today?'",
+      "prompt": "Why did the old man change his expression towards Marcus at the end of the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Marcus stared fiercely at the old man."
+        },
+        {
+          "label": "B",
+          "text": "The old man realised Marcus was young."
+        },
+        {
+          "label": "C",
+          "text": "The old man realised Marcus was a customer."
+        },
+        {
+          "label": "D",
+          "text": "Marcus showed the old man his money."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The old man's sharp look turns warm once Marcus comes inside and it's clear he intends to buy something.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "Sea spiders are able to feed on sea anemones because",
+      "options": [
+        {
+          "label": "A",
+          "text": "they have thin bodies."
+        },
+        {
+          "label": "B",
+          "text": "they are larger than their predators."
+        },
+        {
+          "label": "C",
+          "text": "they are able to survive after being attacked."
+        },
+        {
+          "label": "D",
+          "text": "they have soft bodies."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The proboscis is inserted into 'the soft body' of the prey — that's what makes them able to be fed on this way.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "What is the meaning of the word 'gruesome'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "horrifying"
+        },
+        {
+          "label": "B",
+          "text": "frequent"
+        },
+        {
+          "label": "C",
+          "text": "unexpected"
+        },
+        {
+          "label": "D",
+          "text": "sudden"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Gruesome' describes something shocking or horrifying to witness.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018c-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "Sea spiders breathe by diffusion. This allows them to",
+      "options": [
+        {
+          "label": "A",
+          "text": "store oxygen in their legs."
+        },
+        {
+          "label": "B",
+          "text": "take in oxygen through their skin."
+        },
+        {
+          "label": "C",
+          "text": "control their own respiratory system."
+        },
+        {
+          "label": "D",
+          "text": "absorb oxygen from their prey."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text explains that oxygen 'passes straight through their skin' rather than through lungs or gills.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "'Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.' Which word or words could be placed at the beginning of this sentence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "As a result"
+        },
+        {
+          "label": "B",
+          "text": "However"
+        },
+        {
+          "label": "C",
+          "text": "In addition"
+        },
+        {
+          "label": "D",
+          "text": "Yet"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "This sentence adds another unusual fact to the list, so 'In addition' fits best.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2018c-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "Why are sea spiders described in the text as difficult to classify?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are arachnids that also breathe by diffusion."
+        },
+        {
+          "label": "B",
+          "text": "They are invertebrates that are also carnivorous."
+        },
+        {
+          "label": "C",
+          "text": "They can live in both deep and shallow water."
+        },
+        {
+          "label": "D",
+          "text": "They are arthropods with an unusual feeding organ."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "They fit the broad arthropod group, but their strange proboscis makes their exact classification tricky.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "What is the main purpose of the final paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to reassure readers that sea spiders are unlikely to threaten them"
+        },
+        {
+          "label": "B",
+          "text": "to scare readers away from ever going near sea spiders"
+        },
+        {
+          "label": "C",
+          "text": "to encourage readers to research Antarctic sea spiders themselves"
+        },
+        {
+          "label": "D",
+          "text": "to warn readers about the risks of exploring rock pools"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The paragraph reassures readers that the largest sea spiders live far away in Antarctica, not at their local beach.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018c-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "What is the text beneath a photograph in an article usually called?",
+      "options": [
+        {
+          "label": "A",
+          "text": "label"
+        },
+        {
+          "label": "B",
+          "text": "caption"
+        },
+        {
+          "label": "C",
+          "text": "subheading"
+        },
+        {
+          "label": "D",
+          "text": "glossary"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Short explanatory text under an image is called a caption.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nSwimming at the beach is about to feel a little creepier. Hidden in the shallow water of your local beach, and crawling through the coldest, deepest oceans on Earth, are sea spiders - strange, spindly creatures that look like they escaped from a science-fiction film. They range enormously in size, from less than a centimetre across to larger than a dinner plate, and with their tiny bodies and impossibly long legs, they're easy to imagine crawling all over you. But it gets stranger still.\n\nSea spiders feed using a long tube-like mouthpart called a proboscis, which they poke directly into the soft body of their prey before sucking out its insides. Surprisingly, many of these unlucky victims survive this gruesome attack. This is partly because the animals sea spiders usually prey on, such as sea sponges and sea anemones, tend to be considerably larger than the sea spider itself - so they can usually recover, at least most of the time.\n\nScientists have identified more than 1300 different species of sea spider, some with four pairs of legs, others with five or even six. Their bodies are so thin and simple that they don't need lungs or gills at all - oxygen simply passes straight through their skin in a process called diffusion. In fact, their bodies are so small that many of their internal organs actually extend out into their legs instead. Many sea spiders living deep in the ocean have no need for eyes at all, and are completely blind.\n\nSea spiders puzzle scientists trying to classify them. They are not true spiders, since true spiders and other arachnids belong to a different animal group entirely. Instead, sea spiders have a hard, segmented outer shell, which places them among the arthropods - the same broad group as insects, crabs and true spiders. Their strange proboscis, though, makes it hard for scientists to agree on exactly where they fit within that group.\n\nMarine biologist Dr Elena Brooks has spent years studying sea spiders, particularly the ones living in the icy waters of Antarctica. 'The Antarctic species tend to be bigger, stranger and far more varied than sea spiders found anywhere else on the planet - that's what makes them so fascinating to study,' she explains.\n\nSo next time you're exploring rock pools at the beach, look closely - you might just spot a tiny sea spider camouflaged among the seaweed. Don't worry, though: the truly enormous ones only live far away, in the depths of the Antarctic Ocean.",
+      "prompt": "What does the writer assume about readers of this text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They already know what a sea spider looks like."
+        },
+        {
+          "label": "B",
+          "text": "They understand what a proboscis is."
+        },
+        {
+          "label": "C",
+          "text": "They are scared of spiders."
+        },
+        {
+          "label": "D",
+          "text": "They have visited Antarctica before."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The reassuring tone, especially the ending, implies the writer expects readers to feel uneasy about spiders.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nBird-sitting for beginners\n\nI was lying on the trampoline reading a comic when my father called out that someone was asking for me at the front gate. 'I didn't recognise them,' he said, looking a little confused.\n\nIt was the winter school holidays, and I had been trying to think of ways to earn some money. I'd stuck a handwritten notice on the noticeboard outside the corner shop: 'Pet-Sitter Available' with our home number underneath. I had waited and waited, but nobody had rung. Until now.\n\nI went out to the gate. 'We've got four Muscovy ducks,' said the woman briskly, 'and we're going away for two weeks. We need someone to feed them every morning and check their water trough. Interested?'\n\nI was interested. Especially for eight dollars a day. So I found myself in charge of four enormous ducks: a mother, her sister, and two nearly-grown ducklings. I never once saw the father duck.\n\nEach morning I had to feed them and also mix a strange grey powder into their food, a supplement I'd been told was for their feathers. The ducks had a huge fenced yard to wander around in, but every morning when I arrived they'd all be huddled together under the same shrub, looking thoroughly miserable. The moment they spotted me, though, everything changed - they'd come charging across the yard, quacking loudly and flapping their enormous wings, practically knocking me over in their hurry to reach the food bucket.\n\nOddly enough, I was never afraid of them, despite their sharp orange beaks, their beady little eyes and their surprisingly loud honking. Their feed was kept in a bin in the shed, dry pellets that smelled faintly of fish. Every morning I tipped it into their trough, stirring in the grey powder as instructed, and they demolished the whole lot within a minute. Once it was gone, they'd stare up at me hopefully, all eight beady eyes fixed on my hands, just in case there was more coming. Eventually giving up, they would waddle off in a determined little line to the pond at the bottom of the yard.\n\nThis happened exactly the same way, every single morning. I was doing brilliantly. Until...\n\nOn the twelfth day, when I arrived at the yard, the ducks were nowhere to be seen. All four of them. Vanished completely. I looked around the fence line and immediately understood what had happened. They'd squeezed underneath a gap where the fence met the garden bed, exactly like escaped prisoners in an old film. When I crouched down to examine the gap, I had to admit I was almost impressed. Almost. Because now, quite clearly, I had a MASSIVE problem on my hands.",
+      "prompt": "The pet-sitter's father was confused because",
+      "options": [
+        {
+          "label": "A",
+          "text": "the pet-sitter rarely had visitors."
+        },
+        {
+          "label": "B",
+          "text": "the pet-sitter was unable to come to the gate."
+        },
+        {
+          "label": "C",
+          "text": "the visitor called at an unusual time."
+        },
+        {
+          "label": "D",
+          "text": "he didn't recognise the visitor."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The father says 'I didn't recognise them', explaining his puzzled look.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nBird-sitting for beginners\n\nI was lying on the trampoline reading a comic when my father called out that someone was asking for me at the front gate. 'I didn't recognise them,' he said, looking a little confused.\n\nIt was the winter school holidays, and I had been trying to think of ways to earn some money. I'd stuck a handwritten notice on the noticeboard outside the corner shop: 'Pet-Sitter Available' with our home number underneath. I had waited and waited, but nobody had rung. Until now.\n\nI went out to the gate. 'We've got four Muscovy ducks,' said the woman briskly, 'and we're going away for two weeks. We need someone to feed them every morning and check their water trough. Interested?'\n\nI was interested. Especially for eight dollars a day. So I found myself in charge of four enormous ducks: a mother, her sister, and two nearly-grown ducklings. I never once saw the father duck.\n\nEach morning I had to feed them and also mix a strange grey powder into their food, a supplement I'd been told was for their feathers. The ducks had a huge fenced yard to wander around in, but every morning when I arrived they'd all be huddled together under the same shrub, looking thoroughly miserable. The moment they spotted me, though, everything changed - they'd come charging across the yard, quacking loudly and flapping their enormous wings, practically knocking me over in their hurry to reach the food bucket.\n\nOddly enough, I was never afraid of them, despite their sharp orange beaks, their beady little eyes and their surprisingly loud honking. Their feed was kept in a bin in the shed, dry pellets that smelled faintly of fish. Every morning I tipped it into their trough, stirring in the grey powder as instructed, and they demolished the whole lot within a minute. Once it was gone, they'd stare up at me hopefully, all eight beady eyes fixed on my hands, just in case there was more coming. Eventually giving up, they would waddle off in a determined little line to the pond at the bottom of the yard.\n\nThis happened exactly the same way, every single morning. I was doing brilliantly. Until...\n\nOn the twelfth day, when I arrived at the yard, the ducks were nowhere to be seen. All four of them. Vanished completely. I looked around the fence line and immediately understood what had happened. They'd squeezed underneath a gap where the fence met the garden bed, exactly like escaped prisoners in an old film. When I crouched down to examine the gap, I had to admit I was almost impressed. Almost. Because now, quite clearly, I had a MASSIVE problem on my hands.",
+      "prompt": "'I had waited and waited, but nobody had rung.' Which option could replace this sentence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "I had waited and waited. However, nobody had rung."
+        },
+        {
+          "label": "B",
+          "text": "I had waited and waited since nobody had rung."
+        },
+        {
+          "label": "C",
+          "text": "I had waited and waited. Somehow, nobody had rung."
+        },
+        {
+          "label": "D",
+          "text": "I had waited and waited when nobody had rung."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'However' correctly preserves the contrast shown by 'but' in the original sentence.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2018c-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nBird-sitting for beginners\n\nI was lying on the trampoline reading a comic when my father called out that someone was asking for me at the front gate. 'I didn't recognise them,' he said, looking a little confused.\n\nIt was the winter school holidays, and I had been trying to think of ways to earn some money. I'd stuck a handwritten notice on the noticeboard outside the corner shop: 'Pet-Sitter Available' with our home number underneath. I had waited and waited, but nobody had rung. Until now.\n\nI went out to the gate. 'We've got four Muscovy ducks,' said the woman briskly, 'and we're going away for two weeks. We need someone to feed them every morning and check their water trough. Interested?'\n\nI was interested. Especially for eight dollars a day. So I found myself in charge of four enormous ducks: a mother, her sister, and two nearly-grown ducklings. I never once saw the father duck.\n\nEach morning I had to feed them and also mix a strange grey powder into their food, a supplement I'd been told was for their feathers. The ducks had a huge fenced yard to wander around in, but every morning when I arrived they'd all be huddled together under the same shrub, looking thoroughly miserable. The moment they spotted me, though, everything changed - they'd come charging across the yard, quacking loudly and flapping their enormous wings, practically knocking me over in their hurry to reach the food bucket.\n\nOddly enough, I was never afraid of them, despite their sharp orange beaks, their beady little eyes and their surprisingly loud honking. Their feed was kept in a bin in the shed, dry pellets that smelled faintly of fish. Every morning I tipped it into their trough, stirring in the grey powder as instructed, and they demolished the whole lot within a minute. Once it was gone, they'd stare up at me hopefully, all eight beady eyes fixed on my hands, just in case there was more coming. Eventually giving up, they would waddle off in a determined little line to the pond at the bottom of the yard.\n\nThis happened exactly the same way, every single morning. I was doing brilliantly. Until...\n\nOn the twelfth day, when I arrived at the yard, the ducks were nowhere to be seen. All four of them. Vanished completely. I looked around the fence line and immediately understood what had happened. They'd squeezed underneath a gap where the fence met the garden bed, exactly like escaped prisoners in an old film. When I crouched down to examine the gap, I had to admit I was almost impressed. Almost. Because now, quite clearly, I had a MASSIVE problem on my hands.",
+      "prompt": "The narrator mixes a 'strange grey powder' into the ducks' food. This suggests that the narrator",
+      "options": [
+        {
+          "label": "A",
+          "text": "knew exactly what the powder was for."
+        },
+        {
+          "label": "B",
+          "text": "was following instructions without fully understanding them."
+        },
+        {
+          "label": "C",
+          "text": "was worried the powder might harm the ducks."
+        },
+        {
+          "label": "D",
+          "text": "had used the same powder with other pets before."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Calling it a 'strange' powder while still following instructions shows the narrator didn't fully understand its purpose.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nBird-sitting for beginners\n\nI was lying on the trampoline reading a comic when my father called out that someone was asking for me at the front gate. 'I didn't recognise them,' he said, looking a little confused.\n\nIt was the winter school holidays, and I had been trying to think of ways to earn some money. I'd stuck a handwritten notice on the noticeboard outside the corner shop: 'Pet-Sitter Available' with our home number underneath. I had waited and waited, but nobody had rung. Until now.\n\nI went out to the gate. 'We've got four Muscovy ducks,' said the woman briskly, 'and we're going away for two weeks. We need someone to feed them every morning and check their water trough. Interested?'\n\nI was interested. Especially for eight dollars a day. So I found myself in charge of four enormous ducks: a mother, her sister, and two nearly-grown ducklings. I never once saw the father duck.\n\nEach morning I had to feed them and also mix a strange grey powder into their food, a supplement I'd been told was for their feathers. The ducks had a huge fenced yard to wander around in, but every morning when I arrived they'd all be huddled together under the same shrub, looking thoroughly miserable. The moment they spotted me, though, everything changed - they'd come charging across the yard, quacking loudly and flapping their enormous wings, practically knocking me over in their hurry to reach the food bucket.\n\nOddly enough, I was never afraid of them, despite their sharp orange beaks, their beady little eyes and their surprisingly loud honking. Their feed was kept in a bin in the shed, dry pellets that smelled faintly of fish. Every morning I tipped it into their trough, stirring in the grey powder as instructed, and they demolished the whole lot within a minute. Once it was gone, they'd stare up at me hopefully, all eight beady eyes fixed on my hands, just in case there was more coming. Eventually giving up, they would waddle off in a determined little line to the pond at the bottom of the yard.\n\nThis happened exactly the same way, every single morning. I was doing brilliantly. Until...\n\nOn the twelfth day, when I arrived at the yard, the ducks were nowhere to be seen. All four of them. Vanished completely. I looked around the fence line and immediately understood what had happened. They'd squeezed underneath a gap where the fence met the garden bed, exactly like escaped prisoners in an old film. When I crouched down to examine the gap, I had to admit I was almost impressed. Almost. Because now, quite clearly, I had a MASSIVE problem on my hands.",
+      "prompt": "'they'd all be huddled together under the same shrub, looking thoroughly miserable' The words 'looking thoroughly miserable' form an adverbial clause which gives more information about the verb 'huddled'. What type of information does the clause provide?",
+      "options": [
+        {
+          "label": "A",
+          "text": "time"
+        },
+        {
+          "label": "B",
+          "text": "place"
+        },
+        {
+          "label": "C",
+          "text": "manner"
+        },
+        {
+          "label": "D",
+          "text": "frequency"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The clause describes how (in what manner/state) the ducks were huddled.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2018c-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nBird-sitting for beginners\n\nI was lying on the trampoline reading a comic when my father called out that someone was asking for me at the front gate. 'I didn't recognise them,' he said, looking a little confused.\n\nIt was the winter school holidays, and I had been trying to think of ways to earn some money. I'd stuck a handwritten notice on the noticeboard outside the corner shop: 'Pet-Sitter Available' with our home number underneath. I had waited and waited, but nobody had rung. Until now.\n\nI went out to the gate. 'We've got four Muscovy ducks,' said the woman briskly, 'and we're going away for two weeks. We need someone to feed them every morning and check their water trough. Interested?'\n\nI was interested. Especially for eight dollars a day. So I found myself in charge of four enormous ducks: a mother, her sister, and two nearly-grown ducklings. I never once saw the father duck.\n\nEach morning I had to feed them and also mix a strange grey powder into their food, a supplement I'd been told was for their feathers. The ducks had a huge fenced yard to wander around in, but every morning when I arrived they'd all be huddled together under the same shrub, looking thoroughly miserable. The moment they spotted me, though, everything changed - they'd come charging across the yard, quacking loudly and flapping their enormous wings, practically knocking me over in their hurry to reach the food bucket.\n\nOddly enough, I was never afraid of them, despite their sharp orange beaks, their beady little eyes and their surprisingly loud honking. Their feed was kept in a bin in the shed, dry pellets that smelled faintly of fish. Every morning I tipped it into their trough, stirring in the grey powder as instructed, and they demolished the whole lot within a minute. Once it was gone, they'd stare up at me hopefully, all eight beady eyes fixed on my hands, just in case there was more coming. Eventually giving up, they would waddle off in a determined little line to the pond at the bottom of the yard.\n\nThis happened exactly the same way, every single morning. I was doing brilliantly. Until...\n\nOn the twelfth day, when I arrived at the yard, the ducks were nowhere to be seen. All four of them. Vanished completely. I looked around the fence line and immediately understood what had happened. They'd squeezed underneath a gap where the fence met the garden bed, exactly like escaped prisoners in an old film. When I crouched down to examine the gap, I had to admit I was almost impressed. Almost. Because now, quite clearly, I had a MASSIVE problem on my hands.",
+      "prompt": "The ducks usually look miserable. What changes their mood?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the narrator filling their food trough"
+        },
+        {
+          "label": "B",
+          "text": "the ducks eating the grey powder"
+        },
+        {
+          "label": "C",
+          "text": "the ducks waddling to the pond"
+        },
+        {
+          "label": "D",
+          "text": "the arrival of the narrator"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The text says the moment they spot the narrator, everything changes — before the food even arrives.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nBird-sitting for beginners\n\nI was lying on the trampoline reading a comic when my father called out that someone was asking for me at the front gate. 'I didn't recognise them,' he said, looking a little confused.\n\nIt was the winter school holidays, and I had been trying to think of ways to earn some money. I'd stuck a handwritten notice on the noticeboard outside the corner shop: 'Pet-Sitter Available' with our home number underneath. I had waited and waited, but nobody had rung. Until now.\n\nI went out to the gate. 'We've got four Muscovy ducks,' said the woman briskly, 'and we're going away for two weeks. We need someone to feed them every morning and check their water trough. Interested?'\n\nI was interested. Especially for eight dollars a day. So I found myself in charge of four enormous ducks: a mother, her sister, and two nearly-grown ducklings. I never once saw the father duck.\n\nEach morning I had to feed them and also mix a strange grey powder into their food, a supplement I'd been told was for their feathers. The ducks had a huge fenced yard to wander around in, but every morning when I arrived they'd all be huddled together under the same shrub, looking thoroughly miserable. The moment they spotted me, though, everything changed - they'd come charging across the yard, quacking loudly and flapping their enormous wings, practically knocking me over in their hurry to reach the food bucket.\n\nOddly enough, I was never afraid of them, despite their sharp orange beaks, their beady little eyes and their surprisingly loud honking. Their feed was kept in a bin in the shed, dry pellets that smelled faintly of fish. Every morning I tipped it into their trough, stirring in the grey powder as instructed, and they demolished the whole lot within a minute. Once it was gone, they'd stare up at me hopefully, all eight beady eyes fixed on my hands, just in case there was more coming. Eventually giving up, they would waddle off in a determined little line to the pond at the bottom of the yard.\n\nThis happened exactly the same way, every single morning. I was doing brilliantly. Until...\n\nOn the twelfth day, when I arrived at the yard, the ducks were nowhere to be seen. All four of them. Vanished completely. I looked around the fence line and immediately understood what had happened. They'd squeezed underneath a gap where the fence met the garden bed, exactly like escaped prisoners in an old film. When I crouched down to examine the gap, I had to admit I was almost impressed. Almost. Because now, quite clearly, I had a MASSIVE problem on my hands.",
+      "prompt": "Which word is an ANTONYM of 'hopefully' as it is used in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "despairingly"
+        },
+        {
+          "label": "B",
+          "text": "eagerly"
+        },
+        {
+          "label": "C",
+          "text": "expectantly"
+        },
+        {
+          "label": "D",
+          "text": "attentively"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Hopefully' expects something good; 'despairingly' expects the opposite — its antonym.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018c-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nBird-sitting for beginners\n\nI was lying on the trampoline reading a comic when my father called out that someone was asking for me at the front gate. 'I didn't recognise them,' he said, looking a little confused.\n\nIt was the winter school holidays, and I had been trying to think of ways to earn some money. I'd stuck a handwritten notice on the noticeboard outside the corner shop: 'Pet-Sitter Available' with our home number underneath. I had waited and waited, but nobody had rung. Until now.\n\nI went out to the gate. 'We've got four Muscovy ducks,' said the woman briskly, 'and we're going away for two weeks. We need someone to feed them every morning and check their water trough. Interested?'\n\nI was interested. Especially for eight dollars a day. So I found myself in charge of four enormous ducks: a mother, her sister, and two nearly-grown ducklings. I never once saw the father duck.\n\nEach morning I had to feed them and also mix a strange grey powder into their food, a supplement I'd been told was for their feathers. The ducks had a huge fenced yard to wander around in, but every morning when I arrived they'd all be huddled together under the same shrub, looking thoroughly miserable. The moment they spotted me, though, everything changed - they'd come charging across the yard, quacking loudly and flapping their enormous wings, practically knocking me over in their hurry to reach the food bucket.\n\nOddly enough, I was never afraid of them, despite their sharp orange beaks, their beady little eyes and their surprisingly loud honking. Their feed was kept in a bin in the shed, dry pellets that smelled faintly of fish. Every morning I tipped it into their trough, stirring in the grey powder as instructed, and they demolished the whole lot within a minute. Once it was gone, they'd stare up at me hopefully, all eight beady eyes fixed on my hands, just in case there was more coming. Eventually giving up, they would waddle off in a determined little line to the pond at the bottom of the yard.\n\nThis happened exactly the same way, every single morning. I was doing brilliantly. Until...\n\nOn the twelfth day, when I arrived at the yard, the ducks were nowhere to be seen. All four of them. Vanished completely. I looked around the fence line and immediately understood what had happened. They'd squeezed underneath a gap where the fence met the garden bed, exactly like escaped prisoners in an old film. When I crouched down to examine the gap, I had to admit I was almost impressed. Almost. Because now, quite clearly, I had a MASSIVE problem on my hands.",
+      "prompt": "The pet-sitter's initial attitude to the ducks' escape was one of",
+      "options": [
+        {
+          "label": "A",
+          "text": "hostile praise."
+        },
+        {
+          "label": "B",
+          "text": "reluctant respect."
+        },
+        {
+          "label": "C",
+          "text": "unwilling criticism."
+        },
+        {
+          "label": "D",
+          "text": "prickly complaint."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'I had to admit I was almost impressed. Almost.' shows grudging, reluctant respect for the ducks' escape plan.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nBird-sitting for beginners\n\nI was lying on the trampoline reading a comic when my father called out that someone was asking for me at the front gate. 'I didn't recognise them,' he said, looking a little confused.\n\nIt was the winter school holidays, and I had been trying to think of ways to earn some money. I'd stuck a handwritten notice on the noticeboard outside the corner shop: 'Pet-Sitter Available' with our home number underneath. I had waited and waited, but nobody had rung. Until now.\n\nI went out to the gate. 'We've got four Muscovy ducks,' said the woman briskly, 'and we're going away for two weeks. We need someone to feed them every morning and check their water trough. Interested?'\n\nI was interested. Especially for eight dollars a day. So I found myself in charge of four enormous ducks: a mother, her sister, and two nearly-grown ducklings. I never once saw the father duck.\n\nEach morning I had to feed them and also mix a strange grey powder into their food, a supplement I'd been told was for their feathers. The ducks had a huge fenced yard to wander around in, but every morning when I arrived they'd all be huddled together under the same shrub, looking thoroughly miserable. The moment they spotted me, though, everything changed - they'd come charging across the yard, quacking loudly and flapping their enormous wings, practically knocking me over in their hurry to reach the food bucket.\n\nOddly enough, I was never afraid of them, despite their sharp orange beaks, their beady little eyes and their surprisingly loud honking. Their feed was kept in a bin in the shed, dry pellets that smelled faintly of fish. Every morning I tipped it into their trough, stirring in the grey powder as instructed, and they demolished the whole lot within a minute. Once it was gone, they'd stare up at me hopefully, all eight beady eyes fixed on my hands, just in case there was more coming. Eventually giving up, they would waddle off in a determined little line to the pond at the bottom of the yard.\n\nThis happened exactly the same way, every single morning. I was doing brilliantly. Until...\n\nOn the twelfth day, when I arrived at the yard, the ducks were nowhere to be seen. All four of them. Vanished completely. I looked around the fence line and immediately understood what had happened. They'd squeezed underneath a gap where the fence met the garden bed, exactly like escaped prisoners in an old film. When I crouched down to examine the gap, I had to admit I was almost impressed. Almost. Because now, quite clearly, I had a MASSIVE problem on my hands.",
+      "prompt": "Which of the following is NOT a reason the writer uses capital letters for the word 'MASSIVE'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to indicate the size of the problem"
+        },
+        {
+          "label": "B",
+          "text": "to emphasise the seriousness of the situation"
+        },
+        {
+          "label": "C",
+          "text": "to suggest the size of the ducks"
+        },
+        {
+          "label": "D",
+          "text": "to match the meaning of the word"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The capitals emphasise the size of the PROBLEM, not the physical size of the ducks themselves.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, Soviet cosmonaut Alexey Leonov became the first person in history to walk in space. Connected to his spacecraft by a cable just over five metres long, he floated freely above Earth for around ten minutes. The achievement was a huge milestone for space exploration everywhere, and for the Soviet Union in particular, it was a source of enormous national pride that one of their own cosmonauts - rather than an American astronaut - had achieved it first.\n\nEarlier that day, Leonov and fellow cosmonaut Pavel Belyayev had completed one full orbit of Earth aboard their two-person Voskhod spacecraft. Once the orbit was complete, mission control gave Leonov clearance to begin his spacewalk. He climbed into the airlock, opened the outer hatch, and pushed himself out into open space.\n\nHe later described the moment vividly: 'It was so quiet I could hear my own heartbeat. I was surrounded by stars, drifting with almost no control at all. I will never forget that feeling.' At the time, of course, he had no idea that the hardest part of the mission was still ahead of him: getting safely back inside.\n\nIn the vacuum of space, Leonov's spacesuit had ballooned outward dramatically, stretching and stiffening until it barely resembled its original shape. His hands slid loose inside his gloves, and his feet slipped free of his boots. Unable to fit back through the narrow airlock hatch in his swollen suit, Leonov made a split-second decision: he released some of the air from inside his suit, despite the serious risk of decompression sickness this created. 'I felt pins and needles running through my hands and legs,' he later recalled.\n\nEven after Leonov successfully squeezed back inside the capsule, the mission's problems weren't over. Oxygen levels inside the cabin spiked to dangerously high levels, and during re-entry, the spacecraft's automatic guidance system failed completely. Relying on manual controls, skill and more than a little luck, the two cosmonauts landed almost 2000 kilometres off course, deep in a remote Siberian forest. Leonov and Belyayev then spent two freezing nights sheltering inside their capsule, listening for wolves, before rescuers finally reached them.\n\nBack home, the mission was celebrated as an outstanding success. Still, the spacewalk had pushed Leonov to his physical limits, and the chaotic re-entry placed enormous strain on both cosmonauts and their equipment. Decades later, the dramatic events of the mission inspired a 2017 Russian film about the pioneering days of the space race.",
+      "prompt": "According to the first paragraph, what makes Leonov's achievement historically significant?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He proved that spacewalks were completely safe."
+        },
+        {
+          "label": "B",
+          "text": "He was the first person to orbit the Earth."
+        },
+        {
+          "label": "C",
+          "text": "He was the longest-serving cosmonaut in Soviet history."
+        },
+        {
+          "label": "D",
+          "text": "He was the very first human being to walk in space."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The opening line states plainly that Leonov 'became the first person in history to walk in space.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, Soviet cosmonaut Alexey Leonov became the first person in history to walk in space. Connected to his spacecraft by a cable just over five metres long, he floated freely above Earth for around ten minutes. The achievement was a huge milestone for space exploration everywhere, and for the Soviet Union in particular, it was a source of enormous national pride that one of their own cosmonauts - rather than an American astronaut - had achieved it first.\n\nEarlier that day, Leonov and fellow cosmonaut Pavel Belyayev had completed one full orbit of Earth aboard their two-person Voskhod spacecraft. Once the orbit was complete, mission control gave Leonov clearance to begin his spacewalk. He climbed into the airlock, opened the outer hatch, and pushed himself out into open space.\n\nHe later described the moment vividly: 'It was so quiet I could hear my own heartbeat. I was surrounded by stars, drifting with almost no control at all. I will never forget that feeling.' At the time, of course, he had no idea that the hardest part of the mission was still ahead of him: getting safely back inside.\n\nIn the vacuum of space, Leonov's spacesuit had ballooned outward dramatically, stretching and stiffening until it barely resembled its original shape. His hands slid loose inside his gloves, and his feet slipped free of his boots. Unable to fit back through the narrow airlock hatch in his swollen suit, Leonov made a split-second decision: he released some of the air from inside his suit, despite the serious risk of decompression sickness this created. 'I felt pins and needles running through my hands and legs,' he later recalled.\n\nEven after Leonov successfully squeezed back inside the capsule, the mission's problems weren't over. Oxygen levels inside the cabin spiked to dangerously high levels, and during re-entry, the spacecraft's automatic guidance system failed completely. Relying on manual controls, skill and more than a little luck, the two cosmonauts landed almost 2000 kilometres off course, deep in a remote Siberian forest. Leonov and Belyayev then spent two freezing nights sheltering inside their capsule, listening for wolves, before rescuers finally reached them.\n\nBack home, the mission was celebrated as an outstanding success. Still, the spacewalk had pushed Leonov to his physical limits, and the chaotic re-entry placed enormous strain on both cosmonauts and their equipment. Decades later, the dramatic events of the mission inspired a 2017 Russian film about the pioneering days of the space race.",
+      "prompt": "In the word 'cosmonaut', the root 'cosmo' relates to the word universe. What word does the suffix 'naut' most likely relate to?",
+      "options": [
+        {
+          "label": "A",
+          "text": "traveller"
+        },
+        {
+          "label": "B",
+          "text": "technician"
+        },
+        {
+          "label": "C",
+          "text": "scientist"
+        },
+        {
+          "label": "D",
+          "text": "passenger"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Naut' (as in astronaut, aeronaut) relates to travelling — a cosmonaut is a 'universe traveller.'",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018c-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, Soviet cosmonaut Alexey Leonov became the first person in history to walk in space. Connected to his spacecraft by a cable just over five metres long, he floated freely above Earth for around ten minutes. The achievement was a huge milestone for space exploration everywhere, and for the Soviet Union in particular, it was a source of enormous national pride that one of their own cosmonauts - rather than an American astronaut - had achieved it first.\n\nEarlier that day, Leonov and fellow cosmonaut Pavel Belyayev had completed one full orbit of Earth aboard their two-person Voskhod spacecraft. Once the orbit was complete, mission control gave Leonov clearance to begin his spacewalk. He climbed into the airlock, opened the outer hatch, and pushed himself out into open space.\n\nHe later described the moment vividly: 'It was so quiet I could hear my own heartbeat. I was surrounded by stars, drifting with almost no control at all. I will never forget that feeling.' At the time, of course, he had no idea that the hardest part of the mission was still ahead of him: getting safely back inside.\n\nIn the vacuum of space, Leonov's spacesuit had ballooned outward dramatically, stretching and stiffening until it barely resembled its original shape. His hands slid loose inside his gloves, and his feet slipped free of his boots. Unable to fit back through the narrow airlock hatch in his swollen suit, Leonov made a split-second decision: he released some of the air from inside his suit, despite the serious risk of decompression sickness this created. 'I felt pins and needles running through my hands and legs,' he later recalled.\n\nEven after Leonov successfully squeezed back inside the capsule, the mission's problems weren't over. Oxygen levels inside the cabin spiked to dangerously high levels, and during re-entry, the spacecraft's automatic guidance system failed completely. Relying on manual controls, skill and more than a little luck, the two cosmonauts landed almost 2000 kilometres off course, deep in a remote Siberian forest. Leonov and Belyayev then spent two freezing nights sheltering inside their capsule, listening for wolves, before rescuers finally reached them.\n\nBack home, the mission was celebrated as an outstanding success. Still, the spacewalk had pushed Leonov to his physical limits, and the chaotic re-entry placed enormous strain on both cosmonauts and their equipment. Decades later, the dramatic events of the mission inspired a 2017 Russian film about the pioneering days of the space race.",
+      "prompt": "Why does the writer include direct quotations from Leonov?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to explain how unprepared he was for the mission"
+        },
+        {
+          "label": "B",
+          "text": "to add a personal touch to the factual account"
+        },
+        {
+          "label": "C",
+          "text": "to emphasise exactly how a spacewalk is performed"
+        },
+        {
+          "label": "D",
+          "text": "to show how the events were portrayed in the film"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "First-person quotes bring a personal, human perspective to an otherwise factual, historical account.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018c-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, Soviet cosmonaut Alexey Leonov became the first person in history to walk in space. Connected to his spacecraft by a cable just over five metres long, he floated freely above Earth for around ten minutes. The achievement was a huge milestone for space exploration everywhere, and for the Soviet Union in particular, it was a source of enormous national pride that one of their own cosmonauts - rather than an American astronaut - had achieved it first.\n\nEarlier that day, Leonov and fellow cosmonaut Pavel Belyayev had completed one full orbit of Earth aboard their two-person Voskhod spacecraft. Once the orbit was complete, mission control gave Leonov clearance to begin his spacewalk. He climbed into the airlock, opened the outer hatch, and pushed himself out into open space.\n\nHe later described the moment vividly: 'It was so quiet I could hear my own heartbeat. I was surrounded by stars, drifting with almost no control at all. I will never forget that feeling.' At the time, of course, he had no idea that the hardest part of the mission was still ahead of him: getting safely back inside.\n\nIn the vacuum of space, Leonov's spacesuit had ballooned outward dramatically, stretching and stiffening until it barely resembled its original shape. His hands slid loose inside his gloves, and his feet slipped free of his boots. Unable to fit back through the narrow airlock hatch in his swollen suit, Leonov made a split-second decision: he released some of the air from inside his suit, despite the serious risk of decompression sickness this created. 'I felt pins and needles running through my hands and legs,' he later recalled.\n\nEven after Leonov successfully squeezed back inside the capsule, the mission's problems weren't over. Oxygen levels inside the cabin spiked to dangerously high levels, and during re-entry, the spacecraft's automatic guidance system failed completely. Relying on manual controls, skill and more than a little luck, the two cosmonauts landed almost 2000 kilometres off course, deep in a remote Siberian forest. Leonov and Belyayev then spent two freezing nights sheltering inside their capsule, listening for wolves, before rescuers finally reached them.\n\nBack home, the mission was celebrated as an outstanding success. Still, the spacewalk had pushed Leonov to his physical limits, and the chaotic re-entry placed enormous strain on both cosmonauts and their equipment. Decades later, the dramatic events of the mission inspired a 2017 Russian film about the pioneering days of the space race.",
+      "prompt": "Which word could best replace 'of course' in the sentence 'At the time, of course, he had no idea that the hardest part of the mission was still ahead of him'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Seriously"
+        },
+        {
+          "label": "B",
+          "text": "Importantly"
+        },
+        {
+          "label": "C",
+          "text": "Obviously"
+        },
+        {
+          "label": "D",
+          "text": "Consequently"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Of course' signals something self-evident in hindsight — closest in meaning to 'Obviously.'",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018c-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, Soviet cosmonaut Alexey Leonov became the first person in history to walk in space. Connected to his spacecraft by a cable just over five metres long, he floated freely above Earth for around ten minutes. The achievement was a huge milestone for space exploration everywhere, and for the Soviet Union in particular, it was a source of enormous national pride that one of their own cosmonauts - rather than an American astronaut - had achieved it first.\n\nEarlier that day, Leonov and fellow cosmonaut Pavel Belyayev had completed one full orbit of Earth aboard their two-person Voskhod spacecraft. Once the orbit was complete, mission control gave Leonov clearance to begin his spacewalk. He climbed into the airlock, opened the outer hatch, and pushed himself out into open space.\n\nHe later described the moment vividly: 'It was so quiet I could hear my own heartbeat. I was surrounded by stars, drifting with almost no control at all. I will never forget that feeling.' At the time, of course, he had no idea that the hardest part of the mission was still ahead of him: getting safely back inside.\n\nIn the vacuum of space, Leonov's spacesuit had ballooned outward dramatically, stretching and stiffening until it barely resembled its original shape. His hands slid loose inside his gloves, and his feet slipped free of his boots. Unable to fit back through the narrow airlock hatch in his swollen suit, Leonov made a split-second decision: he released some of the air from inside his suit, despite the serious risk of decompression sickness this created. 'I felt pins and needles running through my hands and legs,' he later recalled.\n\nEven after Leonov successfully squeezed back inside the capsule, the mission's problems weren't over. Oxygen levels inside the cabin spiked to dangerously high levels, and during re-entry, the spacecraft's automatic guidance system failed completely. Relying on manual controls, skill and more than a little luck, the two cosmonauts landed almost 2000 kilometres off course, deep in a remote Siberian forest. Leonov and Belyayev then spent two freezing nights sheltering inside their capsule, listening for wolves, before rescuers finally reached them.\n\nBack home, the mission was celebrated as an outstanding success. Still, the spacewalk had pushed Leonov to his physical limits, and the chaotic re-entry placed enormous strain on both cosmonauts and their equipment. Decades later, the dramatic events of the mission inspired a 2017 Russian film about the pioneering days of the space race.",
+      "prompt": "What was the first thing that went wrong for Leonov during his spacewalk?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He had difficulty getting back into the capsule."
+        },
+        {
+          "label": "B",
+          "text": "He began to develop decompression sickness."
+        },
+        {
+          "label": "C",
+          "text": "His oxygen supply started running low."
+        },
+        {
+          "label": "D",
+          "text": "His spacesuit was in danger of tearing apart."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The suit ballooning and stiffening happened first, causing the later problems getting back inside and the decompression sickness.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q41",
+      "number": 41,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, Soviet cosmonaut Alexey Leonov became the first person in history to walk in space. Connected to his spacecraft by a cable just over five metres long, he floated freely above Earth for around ten minutes. The achievement was a huge milestone for space exploration everywhere, and for the Soviet Union in particular, it was a source of enormous national pride that one of their own cosmonauts - rather than an American astronaut - had achieved it first.\n\nEarlier that day, Leonov and fellow cosmonaut Pavel Belyayev had completed one full orbit of Earth aboard their two-person Voskhod spacecraft. Once the orbit was complete, mission control gave Leonov clearance to begin his spacewalk. He climbed into the airlock, opened the outer hatch, and pushed himself out into open space.\n\nHe later described the moment vividly: 'It was so quiet I could hear my own heartbeat. I was surrounded by stars, drifting with almost no control at all. I will never forget that feeling.' At the time, of course, he had no idea that the hardest part of the mission was still ahead of him: getting safely back inside.\n\nIn the vacuum of space, Leonov's spacesuit had ballooned outward dramatically, stretching and stiffening until it barely resembled its original shape. His hands slid loose inside his gloves, and his feet slipped free of his boots. Unable to fit back through the narrow airlock hatch in his swollen suit, Leonov made a split-second decision: he released some of the air from inside his suit, despite the serious risk of decompression sickness this created. 'I felt pins and needles running through my hands and legs,' he later recalled.\n\nEven after Leonov successfully squeezed back inside the capsule, the mission's problems weren't over. Oxygen levels inside the cabin spiked to dangerously high levels, and during re-entry, the spacecraft's automatic guidance system failed completely. Relying on manual controls, skill and more than a little luck, the two cosmonauts landed almost 2000 kilometres off course, deep in a remote Siberian forest. Leonov and Belyayev then spent two freezing nights sheltering inside their capsule, listening for wolves, before rescuers finally reached them.\n\nBack home, the mission was celebrated as an outstanding success. Still, the spacewalk had pushed Leonov to his physical limits, and the chaotic re-entry placed enormous strain on both cosmonauts and their equipment. Decades later, the dramatic events of the mission inspired a 2017 Russian film about the pioneering days of the space race.",
+      "prompt": "Using information from the text, which statement best describes Leonov's decision to release air from his suit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was a necessary risk."
+        },
+        {
+          "label": "B",
+          "text": "It was brave but foolish."
+        },
+        {
+          "label": "C",
+          "text": "It was a dangerous mistake."
+        },
+        {
+          "label": "D",
+          "text": "It was an automatic reaction."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "He had no other way back into the capsule, making the risky decision a necessary one.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q42",
+      "number": 42,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, Soviet cosmonaut Alexey Leonov became the first person in history to walk in space. Connected to his spacecraft by a cable just over five metres long, he floated freely above Earth for around ten minutes. The achievement was a huge milestone for space exploration everywhere, and for the Soviet Union in particular, it was a source of enormous national pride that one of their own cosmonauts - rather than an American astronaut - had achieved it first.\n\nEarlier that day, Leonov and fellow cosmonaut Pavel Belyayev had completed one full orbit of Earth aboard their two-person Voskhod spacecraft. Once the orbit was complete, mission control gave Leonov clearance to begin his spacewalk. He climbed into the airlock, opened the outer hatch, and pushed himself out into open space.\n\nHe later described the moment vividly: 'It was so quiet I could hear my own heartbeat. I was surrounded by stars, drifting with almost no control at all. I will never forget that feeling.' At the time, of course, he had no idea that the hardest part of the mission was still ahead of him: getting safely back inside.\n\nIn the vacuum of space, Leonov's spacesuit had ballooned outward dramatically, stretching and stiffening until it barely resembled its original shape. His hands slid loose inside his gloves, and his feet slipped free of his boots. Unable to fit back through the narrow airlock hatch in his swollen suit, Leonov made a split-second decision: he released some of the air from inside his suit, despite the serious risk of decompression sickness this created. 'I felt pins and needles running through my hands and legs,' he later recalled.\n\nEven after Leonov successfully squeezed back inside the capsule, the mission's problems weren't over. Oxygen levels inside the cabin spiked to dangerously high levels, and during re-entry, the spacecraft's automatic guidance system failed completely. Relying on manual controls, skill and more than a little luck, the two cosmonauts landed almost 2000 kilometres off course, deep in a remote Siberian forest. Leonov and Belyayev then spent two freezing nights sheltering inside their capsule, listening for wolves, before rescuers finally reached them.\n\nBack home, the mission was celebrated as an outstanding success. Still, the spacewalk had pushed Leonov to his physical limits, and the chaotic re-entry placed enormous strain on both cosmonauts and their equipment. Decades later, the dramatic events of the mission inspired a 2017 Russian film about the pioneering days of the space race.",
+      "prompt": "Although there were serious problems, the mission was still celebrated as 'an outstanding success'. According to the text, this is most likely because",
+      "options": [
+        {
+          "label": "A",
+          "text": "the events later inspired a popular film."
+        },
+        {
+          "label": "B",
+          "text": "it proved their cosmonauts had beaten American astronauts to this milestone."
+        },
+        {
+          "label": "C",
+          "text": "it thoroughly tested the spacecraft's systems."
+        },
+        {
+          "label": "D",
+          "text": "the equipment had clearly performed well throughout."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The opening paragraph stresses the national pride in a Russian, not an American, achieving the milestone first.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q43",
+      "number": 43,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 48.\n\nThe tunnel\n\nIt was my cousin Jed who laid the bet that, unlike him,\nI'd never dare to cross the old drain beneath the hill alone.\nI'm determined now to prove him wrong.\n\nWading reluctantly through the tall, wet grass,\nI break the heavy quiet; hum a tune under my breath.\nSearching for the entrance, I spot a crooked grin,\na black gap yawning between two slabs of stone.\nMy pulse is hammering; I'll wait a moment more.\n\nRestless, my kelpie, without any warning, bolts on in,\nbut I am far too big and have to duck and shuffle\nif I mean to enter this narrow tunnel at all.\n\nAt once I glimpse two amber, gleaming eyes -\na flash of fright, then dread dissolves to relief.\nIt's only Restless, waiting patiently up ahead.\n\nThe dark presses close, the damp air thick and warm.\nI falter, then fumble for the torch inside my bag\nand throw a thin beam along the crooked path.\n\nWe trace the tunnel through a weak and wavering light,\nthen all at once arrive somewhere vast and cool -\nI freeze in wonder; it's suddenly, impossibly bright.\n\nThousands of tiny glow-worms shimmer like scattered stars,\nlighting shapes of crystal in every shade of blue,\ntall spires of stone rising, sharp and new.\nWater drips in echoes from the ceiling high above.\nRestless barks, the sound rolling on and on,\nand in one sudden instant, I understand the truth.\n\nWhat a strange and wonderful thing to find!\nThis is not the tunnel my cousin described to me at all.\nJed was never brave; he's never once gone in.",
+      "prompt": "In the first stanza, Jed's behaviour towards the narrator could best be described as",
+      "options": [
+        {
+          "label": "A",
+          "text": "fearless."
+        },
+        {
+          "label": "B",
+          "text": "secretive."
+        },
+        {
+          "label": "C",
+          "text": "provoking."
+        },
+        {
+          "label": "D",
+          "text": "intimidating."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Jed's bet is designed to challenge and provoke the narrator into action.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q44",
+      "number": 44,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 48.\n\nThe tunnel\n\nIt was my cousin Jed who laid the bet that, unlike him,\nI'd never dare to cross the old drain beneath the hill alone.\nI'm determined now to prove him wrong.\n\nWading reluctantly through the tall, wet grass,\nI break the heavy quiet; hum a tune under my breath.\nSearching for the entrance, I spot a crooked grin,\na black gap yawning between two slabs of stone.\nMy pulse is hammering; I'll wait a moment more.\n\nRestless, my kelpie, without any warning, bolts on in,\nbut I am far too big and have to duck and shuffle\nif I mean to enter this narrow tunnel at all.\n\nAt once I glimpse two amber, gleaming eyes -\na flash of fright, then dread dissolves to relief.\nIt's only Restless, waiting patiently up ahead.\n\nThe dark presses close, the damp air thick and warm.\nI falter, then fumble for the torch inside my bag\nand throw a thin beam along the crooked path.\n\nWe trace the tunnel through a weak and wavering light,\nthen all at once arrive somewhere vast and cool -\nI freeze in wonder; it's suddenly, impossibly bright.\n\nThousands of tiny glow-worms shimmer like scattered stars,\nlighting shapes of crystal in every shade of blue,\ntall spires of stone rising, sharp and new.\nWater drips in echoes from the ceiling high above.\nRestless barks, the sound rolling on and on,\nand in one sudden instant, I understand the truth.\n\nWhat a strange and wonderful thing to find!\nThis is not the tunnel my cousin described to me at all.\nJed was never brave; he's never once gone in.",
+      "prompt": "In line 4, the description of the narrator most likely suggests that she",
+      "options": [
+        {
+          "label": "A",
+          "text": "is dragging her feet."
+        },
+        {
+          "label": "B",
+          "text": "has her arms crossed over her chest."
+        },
+        {
+          "label": "C",
+          "text": "is walking with confidence."
+        },
+        {
+          "label": "D",
+          "text": "is trying to sound braver than she feels."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Humming under her breath while wading 'reluctantly' suggests she is putting on a brave face.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q45",
+      "number": 45,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 48.\n\nThe tunnel\n\nIt was my cousin Jed who laid the bet that, unlike him,\nI'd never dare to cross the old drain beneath the hill alone.\nI'm determined now to prove him wrong.\n\nWading reluctantly through the tall, wet grass,\nI break the heavy quiet; hum a tune under my breath.\nSearching for the entrance, I spot a crooked grin,\na black gap yawning between two slabs of stone.\nMy pulse is hammering; I'll wait a moment more.\n\nRestless, my kelpie, without any warning, bolts on in,\nbut I am far too big and have to duck and shuffle\nif I mean to enter this narrow tunnel at all.\n\nAt once I glimpse two amber, gleaming eyes -\na flash of fright, then dread dissolves to relief.\nIt's only Restless, waiting patiently up ahead.\n\nThe dark presses close, the damp air thick and warm.\nI falter, then fumble for the torch inside my bag\nand throw a thin beam along the crooked path.\n\nWe trace the tunnel through a weak and wavering light,\nthen all at once arrive somewhere vast and cool -\nI freeze in wonder; it's suddenly, impossibly bright.\n\nThousands of tiny glow-worms shimmer like scattered stars,\nlighting shapes of crystal in every shade of blue,\ntall spires of stone rising, sharp and new.\nWater drips in echoes from the ceiling high above.\nRestless barks, the sound rolling on and on,\nand in one sudden instant, I understand the truth.\n\nWhat a strange and wonderful thing to find!\nThis is not the tunnel my cousin described to me at all.\nJed was never brave; he's never once gone in.",
+      "prompt": "In the sixth stanza (beginning 'We trace the tunnel'), what language choice does the poet make, and for what purpose?",
+      "options": [
+        {
+          "label": "A",
+          "text": "She uses verbs to convey emotion."
+        },
+        {
+          "label": "B",
+          "text": "She uses a simile to convey the tone."
+        },
+        {
+          "label": "C",
+          "text": "She uses the present tense to convey the backstory."
+        },
+        {
+          "label": "D",
+          "text": "She uses adjectives to convey the mood."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Verbs like 'trace', 'freeze' and 'arrive' carry the sudden shift in emotion as the cave is revealed.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q46",
+      "number": 46,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 48.\n\nThe tunnel\n\nIt was my cousin Jed who laid the bet that, unlike him,\nI'd never dare to cross the old drain beneath the hill alone.\nI'm determined now to prove him wrong.\n\nWading reluctantly through the tall, wet grass,\nI break the heavy quiet; hum a tune under my breath.\nSearching for the entrance, I spot a crooked grin,\na black gap yawning between two slabs of stone.\nMy pulse is hammering; I'll wait a moment more.\n\nRestless, my kelpie, without any warning, bolts on in,\nbut I am far too big and have to duck and shuffle\nif I mean to enter this narrow tunnel at all.\n\nAt once I glimpse two amber, gleaming eyes -\na flash of fright, then dread dissolves to relief.\nIt's only Restless, waiting patiently up ahead.\n\nThe dark presses close, the damp air thick and warm.\nI falter, then fumble for the torch inside my bag\nand throw a thin beam along the crooked path.\n\nWe trace the tunnel through a weak and wavering light,\nthen all at once arrive somewhere vast and cool -\nI freeze in wonder; it's suddenly, impossibly bright.\n\nThousands of tiny glow-worms shimmer like scattered stars,\nlighting shapes of crystal in every shade of blue,\ntall spires of stone rising, sharp and new.\nWater drips in echoes from the ceiling high above.\nRestless barks, the sound rolling on and on,\nand in one sudden instant, I understand the truth.\n\nWhat a strange and wonderful thing to find!\nThis is not the tunnel my cousin described to me at all.\nJed was never brave; he's never once gone in.",
+      "prompt": "In line 19, what does the word 'wavering' mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "golden"
+        },
+        {
+          "label": "B",
+          "text": "unsteady"
+        },
+        {
+          "label": "C",
+          "text": "narrow"
+        },
+        {
+          "label": "D",
+          "text": "distant"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A 'wavering' light flickers or shakes unsteadily, like a weak torch beam.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018c-q47",
+      "number": 47,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 48.\n\nThe tunnel\n\nIt was my cousin Jed who laid the bet that, unlike him,\nI'd never dare to cross the old drain beneath the hill alone.\nI'm determined now to prove him wrong.\n\nWading reluctantly through the tall, wet grass,\nI break the heavy quiet; hum a tune under my breath.\nSearching for the entrance, I spot a crooked grin,\na black gap yawning between two slabs of stone.\nMy pulse is hammering; I'll wait a moment more.\n\nRestless, my kelpie, without any warning, bolts on in,\nbut I am far too big and have to duck and shuffle\nif I mean to enter this narrow tunnel at all.\n\nAt once I glimpse two amber, gleaming eyes -\na flash of fright, then dread dissolves to relief.\nIt's only Restless, waiting patiently up ahead.\n\nThe dark presses close, the damp air thick and warm.\nI falter, then fumble for the torch inside my bag\nand throw a thin beam along the crooked path.\n\nWe trace the tunnel through a weak and wavering light,\nthen all at once arrive somewhere vast and cool -\nI freeze in wonder; it's suddenly, impossibly bright.\n\nThousands of tiny glow-worms shimmer like scattered stars,\nlighting shapes of crystal in every shade of blue,\ntall spires of stone rising, sharp and new.\nWater drips in echoes from the ceiling high above.\nRestless barks, the sound rolling on and on,\nand in one sudden instant, I understand the truth.\n\nWhat a strange and wonderful thing to find!\nThis is not the tunnel my cousin described to me at all.\nJed was never brave; he's never once gone in.",
+      "prompt": "Which of the following best describes the narrator's feelings when she sees what's inside the cave?",
+      "options": [
+        {
+          "label": "A",
+          "text": "loving"
+        },
+        {
+          "label": "B",
+          "text": "playful"
+        },
+        {
+          "label": "C",
+          "text": "jubilant"
+        },
+        {
+          "label": "D",
+          "text": "thoughtful"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Her wonder and delight at the glowing chamber reflect a jubilant, overjoyed reaction.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q48",
+      "number": 48,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 48.\n\nThe tunnel\n\nIt was my cousin Jed who laid the bet that, unlike him,\nI'd never dare to cross the old drain beneath the hill alone.\nI'm determined now to prove him wrong.\n\nWading reluctantly through the tall, wet grass,\nI break the heavy quiet; hum a tune under my breath.\nSearching for the entrance, I spot a crooked grin,\na black gap yawning between two slabs of stone.\nMy pulse is hammering; I'll wait a moment more.\n\nRestless, my kelpie, without any warning, bolts on in,\nbut I am far too big and have to duck and shuffle\nif I mean to enter this narrow tunnel at all.\n\nAt once I glimpse two amber, gleaming eyes -\na flash of fright, then dread dissolves to relief.\nIt's only Restless, waiting patiently up ahead.\n\nThe dark presses close, the damp air thick and warm.\nI falter, then fumble for the torch inside my bag\nand throw a thin beam along the crooked path.\n\nWe trace the tunnel through a weak and wavering light,\nthen all at once arrive somewhere vast and cool -\nI freeze in wonder; it's suddenly, impossibly bright.\n\nThousands of tiny glow-worms shimmer like scattered stars,\nlighting shapes of crystal in every shade of blue,\ntall spires of stone rising, sharp and new.\nWater drips in echoes from the ceiling high above.\nRestless barks, the sound rolling on and on,\nand in one sudden instant, I understand the truth.\n\nWhat a strange and wonderful thing to find!\nThis is not the tunnel my cousin described to me at all.\nJed was never brave; he's never once gone in.",
+      "prompt": "Whose motivation drives the action in the poem?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Jed's, as he wants the narrator to reveal what's inside the tunnel"
+        },
+        {
+          "label": "B",
+          "text": "Jed's, as he wants to test whether the narrator can find his secret"
+        },
+        {
+          "label": "C",
+          "text": "the narrator's, as she wants to prove that Jed lied"
+        },
+        {
+          "label": "D",
+          "text": "the narrator's, as she wants to change Jed's opinion of her"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The narrator enters the tunnel to prove Jed wrong about her, driven by her own determination.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018c-q49",
+      "number": 49,
+      "type": "multiple_choice",
+      "passage": "Read the passage and answer questions 49 and 50.\n\nLiving fossils\n\nPalaeontologists regularly dig up fossils: the ancient remains of plants and animals that have gradually turned to stone over millions of years. (49) ________, there is another kind of 'fossil' found on Earth today - living things that have barely changed in millions of years. These are known as 'living fossils', and they're more common than most people realise. The horseshoe crab, for instance, closely (50) ________ a very ancient creature called a trilobite, which became extinct around 250 million years ago.",
+      "prompt": "Choose the best word to complete gap (49).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Yet"
+        },
+        {
+          "label": "B",
+          "text": "Whereas"
+        },
+        {
+          "label": "C",
+          "text": "Even if"
+        },
+        {
+          "label": "D",
+          "text": "Despite this"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Yet' smoothly introduces a surprising extra fact, contrasting ordinary fossils with 'living fossils.'",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2018c-q50",
+      "number": 50,
+      "type": "multiple_choice",
+      "passage": "Read the passage and answer questions 49 and 50.\n\nLiving fossils\n\nPalaeontologists regularly dig up fossils: the ancient remains of plants and animals that have gradually turned to stone over millions of years. (49) ________, there is another kind of 'fossil' found on Earth today - living things that have barely changed in millions of years. These are known as 'living fossils', and they're more common than most people realise. The horseshoe crab, for instance, closely (50) ________ a very ancient creature called a trilobite, which became extinct around 250 million years ago.",
+      "prompt": "Choose the best word to complete gap (50).",
+      "options": [
+        {
+          "label": "A",
+          "text": "resemble"
+        },
+        {
+          "label": "B",
+          "text": "resembles"
+        },
+        {
+          "label": "C",
+          "text": "resembling"
+        },
+        {
+          "label": "D",
+          "text": "resembled"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The singular subject 'the horseshoe crab' needs the singular verb form 'resembles.'",
+      "topic": "Syntax"
+    }
+  ]
+}

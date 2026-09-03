@@ -10,11 +10,17 @@ import Link from "next/link";
 export function RecentAttempts({
   profileSlug,
   exam,
+  subject,
+  paperId,
   profileFilter,
 }: {
   profileSlug: string;
   /** When set, only attempts on papers from this exam section are shown. */
   exam?: string;
+  /** When set, only attempts on papers with this exact `subject` are shown. */
+  subject?: string;
+  /** When set, only attempts on this exact paper are shown. */
+  paperId?: string;
   /**
    * When set (typically from an admin's profile picker), only this profile's
    * attempts are shown — narrowing an admin's cross-profile list down to one
@@ -30,12 +36,16 @@ export function RecentAttempts({
     let cancelled = false;
     getAttempts(profileSlug, isAdmin).then((data) => {
       if (!cancelled) {
-        const filtered = exam
-          ? data.filter((a) => {
-              const paper = getPaperById(a.paperId);
-              return paper ? paperExam(paper) === exam : false;
-            })
-          : data;
+        const filtered = data.filter((a) => {
+          if (paperId && a.paperId !== paperId) return false;
+          if (exam || subject) {
+            const paper = getPaperById(a.paperId);
+            if (!paper) return false;
+            if (exam && paperExam(paper) !== exam) return false;
+            if (subject && paper.subject !== subject) return false;
+          }
+          return true;
+        });
         setAttempts(filtered);
         setLoaded(true);
       }
@@ -43,7 +53,7 @@ export function RecentAttempts({
     return () => {
       cancelled = true;
     };
-  }, [profileSlug, isAdmin, exam]);
+  }, [profileSlug, isAdmin, exam, subject, paperId]);
 
   const visibleAttempts = profileFilter
     ? attempts.filter((a) => a.profileSlug === profileFilter)

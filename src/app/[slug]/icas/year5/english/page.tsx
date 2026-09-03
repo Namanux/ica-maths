@@ -6,7 +6,7 @@ import { PaperListLinks } from "@/components/PaperListLinks";
 import { PerformancePanel } from "@/components/PerformancePanel";
 import { ScrollRestoration } from "@/components/ScrollRestoration";
 
-export default async function IcasYear5Maths({
+export default async function IcasYear5English({
   params,
 }: {
   params: Promise<{ slug: string }>;
@@ -15,21 +15,21 @@ export default async function IcasYear5Maths({
   const profile = getProfile(slug);
   if (!profile) notFound();
 
-  const papers = getIcasPapers("maths");
+  const papers = getIcasPapers("english");
 
   return (
     <div className="flex flex-col gap-6">
-      <ScrollRestoration storageKey={`icas-maths-scroll-${slug}`} />
+      <ScrollRestoration storageKey={`icas-english-scroll-${slug}`} />
       <div>
         <h1 className="text-2xl font-semibold tracking-tight">Choose a paper</h1>
         <p className="text-muted mt-1">
-          Full-length ICAS-style Mathematics practice papers, timed like the real exam.
+          Full-length ICAS-style English practice papers, timed like the real exam.
         </p>
       </div>
 
       <PaperListLinks papers={papers} slug={slug} />
 
-      <PerformancePanel profileSlug={slug} exam="icas" subject="Mathematics" />
+      <PerformancePanel profileSlug={slug} exam="icas" subject="English" />
 
       <Link
         href={`/${slug}/icas/year5`}
