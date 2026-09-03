@@ -1,0 +1,1445 @@
+{
+  "id": "icas-2018-english-original",
+  "subject": "English",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS English 2018 — Original",
+  "year": 2018,
+  "timeLimitMinutes": 50,
+  "questions": [
+    {
+      "id": "eng2018orig-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nStage fright\n\nJacob couldn't remember his lines. His teacher, Miss Cooper, looked at him from the side of the stage. She mouthed the words at him, but he couldn't understand them. His palms were sweating. The audience was looking at him. Someone cleared their throat nervously. Jacob closed his eyes, wishing he could be somewhere else.\n\nThe Strange Adventures of Mr Cubbins was Jacob's favourite book. So much so that he'd convinced the class that they should make it into a short play for their end-of-year drama project. They'd spent weeks writing a script and designing the stage sets and costumes, and when it came time to pick people to play the parts, everyone agreed that Jacob should be Mr Cubbins. It was only natural.\n\nYet here he was on stage, not even sixty seconds into the start of the play and already it had gone wrong. He could feel all the eyes staring at him. Out of the corner of his eye he saw Miss Cooper getting ready to push Ronnie, who also knew the part, onto the stage to replace him.\n\nThink, Jacob, think. What does the very first page of the book look like? With his eyes closed, he saw the tree on that page with its bright green leaves and big orange fruit. He saw Mr Cubbins in his hat and ... somehow ... the words came!\n\n'I've always known I was different,' Jacob began. 'Not special, but different, and on a certain day in March ...'\n\nHe could feel the audience's smiles, and now the performance had truly begun.",
+      "prompt": "'She mouthed the words at him, but he couldn't understand them.' (paragraph 1)\nJacob couldn't understand Miss Cooper because",
+      "options": [
+        {
+          "label": "A",
+          "text": "she wasn't speaking aloud."
+        },
+        {
+          "label": "B",
+          "text": "he wasn't looking at her."
+        },
+        {
+          "label": "C",
+          "text": "the audience was too noisy."
+        },
+        {
+          "label": "D",
+          "text": "he was too busy memorising the script."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "To 'mouth' words is to shape them silently with the lips, so there was no sound for Jacob to hear.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nStage fright\n\nJacob couldn't remember his lines. His teacher, Miss Cooper, looked at him from the side of the stage. She mouthed the words at him, but he couldn't understand them. His palms were sweating. The audience was looking at him. Someone cleared their throat nervously. Jacob closed his eyes, wishing he could be somewhere else.\n\nThe Strange Adventures of Mr Cubbins was Jacob's favourite book. So much so that he'd convinced the class that they should make it into a short play for their end-of-year drama project. They'd spent weeks writing a script and designing the stage sets and costumes, and when it came time to pick people to play the parts, everyone agreed that Jacob should be Mr Cubbins. It was only natural.\n\nYet here he was on stage, not even sixty seconds into the start of the play and already it had gone wrong. He could feel all the eyes staring at him. Out of the corner of his eye he saw Miss Cooper getting ready to push Ronnie, who also knew the part, onto the stage to replace him.\n\nThink, Jacob, think. What does the very first page of the book look like? With his eyes closed, he saw the tree on that page with its bright green leaves and big orange fruit. He saw Mr Cubbins in his hat and ... somehow ... the words came!\n\n'I've always known I was different,' Jacob began. 'Not special, but different, and on a certain day in March ...'\n\nHe could feel the audience's smiles, and now the performance had truly begun.",
+      "prompt": "Why had everyone agreed that Jacob should play the part of Mr Cubbins?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Jacob had experience performing in plays."
+        },
+        {
+          "label": "B",
+          "text": "He was the only person who had wanted the role."
+        },
+        {
+          "label": "C",
+          "text": "The role of Mr Cubbins was the hardest to learn."
+        },
+        {
+          "label": "D",
+          "text": "Jacob had started the whole project."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "It was Jacob's favourite book and he 'convinced the class' to turn it into a play, so his playing the lead 'was only natural'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nStage fright\n\nJacob couldn't remember his lines. His teacher, Miss Cooper, looked at him from the side of the stage. She mouthed the words at him, but he couldn't understand them. His palms were sweating. The audience was looking at him. Someone cleared their throat nervously. Jacob closed his eyes, wishing he could be somewhere else.\n\nThe Strange Adventures of Mr Cubbins was Jacob's favourite book. So much so that he'd convinced the class that they should make it into a short play for their end-of-year drama project. They'd spent weeks writing a script and designing the stage sets and costumes, and when it came time to pick people to play the parts, everyone agreed that Jacob should be Mr Cubbins. It was only natural.\n\nYet here he was on stage, not even sixty seconds into the start of the play and already it had gone wrong. He could feel all the eyes staring at him. Out of the corner of his eye he saw Miss Cooper getting ready to push Ronnie, who also knew the part, onto the stage to replace him.\n\nThink, Jacob, think. What does the very first page of the book look like? With his eyes closed, he saw the tree on that page with its bright green leaves and big orange fruit. He saw Mr Cubbins in his hat and ... somehow ... the words came!\n\n'I've always known I was different,' Jacob began. 'Not special, but different, and on a certain day in March ...'\n\nHe could feel the audience's smiles, and now the performance had truly begun.",
+      "prompt": "'Out of the corner of his eye he saw Miss Cooper getting ready to push Ronnie, who also knew the part, onto the stage to replace him.' (paragraph 3)\nThis sentence shows that Miss Cooper felt that",
+      "options": [
+        {
+          "label": "A",
+          "text": "Jacob was too sick to be on the stage."
+        },
+        {
+          "label": "B",
+          "text": "Jacob had embarrassed the school."
+        },
+        {
+          "label": "C",
+          "text": "Jacob would not be able to continue."
+        },
+        {
+          "label": "D",
+          "text": "Jacob should not have played Mr Cubbins."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "She is lining up a replacement who also knows the part, which shows she doubts Jacob can carry on.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nStage fright\n\nJacob couldn't remember his lines. His teacher, Miss Cooper, looked at him from the side of the stage. She mouthed the words at him, but he couldn't understand them. His palms were sweating. The audience was looking at him. Someone cleared their throat nervously. Jacob closed his eyes, wishing he could be somewhere else.\n\nThe Strange Adventures of Mr Cubbins was Jacob's favourite book. So much so that he'd convinced the class that they should make it into a short play for their end-of-year drama project. They'd spent weeks writing a script and designing the stage sets and costumes, and when it came time to pick people to play the parts, everyone agreed that Jacob should be Mr Cubbins. It was only natural.\n\nYet here he was on stage, not even sixty seconds into the start of the play and already it had gone wrong. He could feel all the eyes staring at him. Out of the corner of his eye he saw Miss Cooper getting ready to push Ronnie, who also knew the part, onto the stage to replace him.\n\nThink, Jacob, think. What does the very first page of the book look like? With his eyes closed, he saw the tree on that page with its bright green leaves and big orange fruit. He saw Mr Cubbins in his hat and ... somehow ... the words came!\n\n'I've always known I was different,' Jacob began. 'Not special, but different, and on a certain day in March ...'\n\nHe could feel the audience's smiles, and now the performance had truly begun.",
+      "prompt": "To try to remember his lines, Jacob thought about",
+      "options": [
+        {
+          "label": "A",
+          "text": "the stage set and costumes of the play."
+        },
+        {
+          "label": "B",
+          "text": "practising in rehearsals for the play."
+        },
+        {
+          "label": "C",
+          "text": "Ronnie playing the part of Mr Cubbins."
+        },
+        {
+          "label": "D",
+          "text": "the opening page of the book."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "He pictures the very first page: the tree with bright green leaves and orange fruit, and Mr Cubbins in his hat.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nStage fright\n\nJacob couldn't remember his lines. His teacher, Miss Cooper, looked at him from the side of the stage. She mouthed the words at him, but he couldn't understand them. His palms were sweating. The audience was looking at him. Someone cleared their throat nervously. Jacob closed his eyes, wishing he could be somewhere else.\n\nThe Strange Adventures of Mr Cubbins was Jacob's favourite book. So much so that he'd convinced the class that they should make it into a short play for their end-of-year drama project. They'd spent weeks writing a script and designing the stage sets and costumes, and when it came time to pick people to play the parts, everyone agreed that Jacob should be Mr Cubbins. It was only natural.\n\nYet here he was on stage, not even sixty seconds into the start of the play and already it had gone wrong. He could feel all the eyes staring at him. Out of the corner of his eye he saw Miss Cooper getting ready to push Ronnie, who also knew the part, onto the stage to replace him.\n\nThink, Jacob, think. What does the very first page of the book look like? With his eyes closed, he saw the tree on that page with its bright green leaves and big orange fruit. He saw Mr Cubbins in his hat and ... somehow ... the words came!\n\n'I've always known I was different,' Jacob began. 'Not special, but different, and on a certain day in March ...'\n\nHe could feel the audience's smiles, and now the performance had truly begun.",
+      "prompt": "In the fourth paragraph, why does the writer repeat the word 'think'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to show that Jacob felt desperate"
+        },
+        {
+          "label": "B",
+          "text": "to remind readers that Jacob was on the stage"
+        },
+        {
+          "label": "C",
+          "text": "to explain what Miss Cooper was saying to Jacob"
+        },
+        {
+          "label": "D",
+          "text": "to reveal that Miss Cooper was annoyed with Jacob"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Think, Jacob, think.' is Jacob's urgent inner voice, conveying how desperate he is to recall his lines.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018orig-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nStage fright\n\nJacob couldn't remember his lines. His teacher, Miss Cooper, looked at him from the side of the stage. She mouthed the words at him, but he couldn't understand them. His palms were sweating. The audience was looking at him. Someone cleared their throat nervously. Jacob closed his eyes, wishing he could be somewhere else.\n\nThe Strange Adventures of Mr Cubbins was Jacob's favourite book. So much so that he'd convinced the class that they should make it into a short play for their end-of-year drama project. They'd spent weeks writing a script and designing the stage sets and costumes, and when it came time to pick people to play the parts, everyone agreed that Jacob should be Mr Cubbins. It was only natural.\n\nYet here he was on stage, not even sixty seconds into the start of the play and already it had gone wrong. He could feel all the eyes staring at him. Out of the corner of his eye he saw Miss Cooper getting ready to push Ronnie, who also knew the part, onto the stage to replace him.\n\nThink, Jacob, think. What does the very first page of the book look like? With his eyes closed, he saw the tree on that page with its bright green leaves and big orange fruit. He saw Mr Cubbins in his hat and ... somehow ... the words came!\n\n'I've always known I was different,' Jacob began. 'Not special, but different, and on a certain day in March ...'\n\nHe could feel the audience's smiles, and now the performance had truly begun.",
+      "prompt": "When Jacob started speaking, whose words was he saying?",
+      "options": [
+        {
+          "label": "A",
+          "text": "his own"
+        },
+        {
+          "label": "B",
+          "text": "Ronnie's"
+        },
+        {
+          "label": "C",
+          "text": "Mr Cubbins's"
+        },
+        {
+          "label": "D",
+          "text": "Miss Cooper's"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The lines beginning 'I've always known I was different' are Mr Cubbins's lines from the play.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 7.\n\nStage fright\n\nJacob couldn't remember his lines. His teacher, Miss Cooper, looked at him from the side of the stage. She mouthed the words at him, but he couldn't understand them. His palms were sweating. The audience was looking at him. Someone cleared their throat nervously. Jacob closed his eyes, wishing he could be somewhere else.\n\nThe Strange Adventures of Mr Cubbins was Jacob's favourite book. So much so that he'd convinced the class that they should make it into a short play for their end-of-year drama project. They'd spent weeks writing a script and designing the stage sets and costumes, and when it came time to pick people to play the parts, everyone agreed that Jacob should be Mr Cubbins. It was only natural.\n\nYet here he was on stage, not even sixty seconds into the start of the play and already it had gone wrong. He could feel all the eyes staring at him. Out of the corner of his eye he saw Miss Cooper getting ready to push Ronnie, who also knew the part, onto the stage to replace him.\n\nThink, Jacob, think. What does the very first page of the book look like? With his eyes closed, he saw the tree on that page with its bright green leaves and big orange fruit. He saw Mr Cubbins in his hat and ... somehow ... the words came!\n\n'I've always known I was different,' Jacob began. 'Not special, but different, and on a certain day in March ...'\n\nHe could feel the audience's smiles, and now the performance had truly begun.",
+      "prompt": "Which option describes the structure of the story?",
+      "options": [
+        {
+          "label": "A",
+          "text": "flashback   complication   resolution"
+        },
+        {
+          "label": "B",
+          "text": "complication   flashback   resolution"
+        },
+        {
+          "label": "C",
+          "text": "flashback   resolution   complication"
+        },
+        {
+          "label": "D",
+          "text": "resolution   flashback   complication"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The story opens mid-crisis on stage (complication), then explains how the project began (flashback), then Jacob recovers and performs (resolution).",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018orig-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 8 to 13.\n\nCan self-driving cars save us from traffic?\n\nIf you've ever lived in a big city, you've probably spent many hours waiting at traffic lights. These wonderful inventions allow traffic to safely flow in all directions, but at a cost. When traffic builds up, cars spend lots of time waiting and only move in short bursts.\n\nSelf-driving cars could offer a solution to some of these traffic woes. If cars can 'talk' to the traffic lights, could we cut down on red lights or even get rid of them altogether? To investigate, researchers from the Massachusetts Institute of Technology in the United States wrote a computer program to simulate an intersection. The traffic consisted of self-driving cars that could talk to the intersection and receive instructions.\n\nThe first system they trialled was quite simple. As each car approached the intersection, it sent a signal. The intersection responded by booking the next space in the intersection for the car to use. Then, the intersection told the car to slow down a bit so it reached the intersection at exactly the right time to fit. This system allowed cars to move faster through the intersection. It could also handle higher traffic flows without making long queues.\n\nIn order to get even more cars through the intersections, the researchers decided they needed to be a bit unfair. They got some cars to speed up and others to slow down so they formed bunches, all going in the same direction. The second system worked a bit like a mini-traffic light, letting small bunches take turns going through the intersection. However, the cars were still moving as they started to bunch up, so the traffic never stopped. This improved system was even better than the first. It could move twice as many cars as a traditional traffic light system.\n\nHowever, these new systems won't be replacing traffic lights any time soon. They require every car on the road to be driven by a computer, not a human. But in the far future, drivers might be a thing of the past. And maybe traffic jams will be a thing of the past too!",
+      "prompt": "'If cars can \"talk\" to the traffic lights' (paragraph 2)\nIn this quotation, the word 'talk' is an example of",
+      "options": [
+        {
+          "label": "A",
+          "text": "onomatopoeia."
+        },
+        {
+          "label": "B",
+          "text": "personification."
+        },
+        {
+          "label": "C",
+          "text": "a pun."
+        },
+        {
+          "label": "D",
+          "text": "a simile."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Talking is a human ability; giving it to cars is personification.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018orig-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 8 to 13.\n\nCan self-driving cars save us from traffic?\n\nIf you've ever lived in a big city, you've probably spent many hours waiting at traffic lights. These wonderful inventions allow traffic to safely flow in all directions, but at a cost. When traffic builds up, cars spend lots of time waiting and only move in short bursts.\n\nSelf-driving cars could offer a solution to some of these traffic woes. If cars can 'talk' to the traffic lights, could we cut down on red lights or even get rid of them altogether? To investigate, researchers from the Massachusetts Institute of Technology in the United States wrote a computer program to simulate an intersection. The traffic consisted of self-driving cars that could talk to the intersection and receive instructions.\n\nThe first system they trialled was quite simple. As each car approached the intersection, it sent a signal. The intersection responded by booking the next space in the intersection for the car to use. Then, the intersection told the car to slow down a bit so it reached the intersection at exactly the right time to fit. This system allowed cars to move faster through the intersection. It could also handle higher traffic flows without making long queues.\n\nIn order to get even more cars through the intersections, the researchers decided they needed to be a bit unfair. They got some cars to speed up and others to slow down so they formed bunches, all going in the same direction. The second system worked a bit like a mini-traffic light, letting small bunches take turns going through the intersection. However, the cars were still moving as they started to bunch up, so the traffic never stopped. This improved system was even better than the first. It could move twice as many cars as a traditional traffic light system.\n\nHowever, these new systems won't be replacing traffic lights any time soon. They require every car on the road to be driven by a computer, not a human. But in the far future, drivers might be a thing of the past. And maybe traffic jams will be a thing of the past too!",
+      "prompt": "What is the goal of the researchers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to investigate how traffic lights work"
+        },
+        {
+          "label": "B",
+          "text": "to increase the number of cars on the road"
+        },
+        {
+          "label": "C",
+          "text": "to encourage cars to self-drive when there is a red light"
+        },
+        {
+          "label": "D",
+          "text": "to see if self-driving cars increase traffic flow"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "They built a simulation to find out whether cars 'talking' to intersections could cut red lights and move more traffic.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 8 to 13.\n\nCan self-driving cars save us from traffic?\n\nIf you've ever lived in a big city, you've probably spent many hours waiting at traffic lights. These wonderful inventions allow traffic to safely flow in all directions, but at a cost. When traffic builds up, cars spend lots of time waiting and only move in short bursts.\n\nSelf-driving cars could offer a solution to some of these traffic woes. If cars can 'talk' to the traffic lights, could we cut down on red lights or even get rid of them altogether? To investigate, researchers from the Massachusetts Institute of Technology in the United States wrote a computer program to simulate an intersection. The traffic consisted of self-driving cars that could talk to the intersection and receive instructions.\n\nThe first system they trialled was quite simple. As each car approached the intersection, it sent a signal. The intersection responded by booking the next space in the intersection for the car to use. Then, the intersection told the car to slow down a bit so it reached the intersection at exactly the right time to fit. This system allowed cars to move faster through the intersection. It could also handle higher traffic flows without making long queues.\n\nIn order to get even more cars through the intersections, the researchers decided they needed to be a bit unfair. They got some cars to speed up and others to slow down so they formed bunches, all going in the same direction. The second system worked a bit like a mini-traffic light, letting small bunches take turns going through the intersection. However, the cars were still moving as they started to bunch up, so the traffic never stopped. This improved system was even better than the first. It could move twice as many cars as a traditional traffic light system.\n\nHowever, these new systems won't be replacing traffic lights any time soon. They require every car on the road to be driven by a computer, not a human. But in the far future, drivers might be a thing of the past. And maybe traffic jams will be a thing of the past too!",
+      "prompt": "In the second paragraph, the word 'simulate' means",
+      "options": [
+        {
+          "label": "A",
+          "text": "imitate."
+        },
+        {
+          "label": "B",
+          "text": "activate."
+        },
+        {
+          "label": "C",
+          "text": "control."
+        },
+        {
+          "label": "D",
+          "text": "improve."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "To simulate an intersection is to model or imitate it in a computer program.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018orig-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 8 to 13.\n\nCan self-driving cars save us from traffic?\n\nIf you've ever lived in a big city, you've probably spent many hours waiting at traffic lights. These wonderful inventions allow traffic to safely flow in all directions, but at a cost. When traffic builds up, cars spend lots of time waiting and only move in short bursts.\n\nSelf-driving cars could offer a solution to some of these traffic woes. If cars can 'talk' to the traffic lights, could we cut down on red lights or even get rid of them altogether? To investigate, researchers from the Massachusetts Institute of Technology in the United States wrote a computer program to simulate an intersection. The traffic consisted of self-driving cars that could talk to the intersection and receive instructions.\n\nThe first system they trialled was quite simple. As each car approached the intersection, it sent a signal. The intersection responded by booking the next space in the intersection for the car to use. Then, the intersection told the car to slow down a bit so it reached the intersection at exactly the right time to fit. This system allowed cars to move faster through the intersection. It could also handle higher traffic flows without making long queues.\n\nIn order to get even more cars through the intersections, the researchers decided they needed to be a bit unfair. They got some cars to speed up and others to slow down so they formed bunches, all going in the same direction. The second system worked a bit like a mini-traffic light, letting small bunches take turns going through the intersection. However, the cars were still moving as they started to bunch up, so the traffic never stopped. This improved system was even better than the first. It could move twice as many cars as a traditional traffic light system.\n\nHowever, these new systems won't be replacing traffic lights any time soon. They require every car on the road to be driven by a computer, not a human. But in the far future, drivers might be a thing of the past. And maybe traffic jams will be a thing of the past too!",
+      "prompt": "In the fourth paragraph, the underlined pronoun 'they' refers to",
+      "options": [
+        {
+          "label": "A",
+          "text": "researchers."
+        },
+        {
+          "label": "B",
+          "text": "drivers."
+        },
+        {
+          "label": "C",
+          "text": "cars."
+        },
+        {
+          "label": "D",
+          "text": "intersections."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'the researchers decided they needed to be a bit unfair' — 'they' stands for the researchers.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2018orig-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 8 to 13.\n\nCan self-driving cars save us from traffic?\n\nIf you've ever lived in a big city, you've probably spent many hours waiting at traffic lights. These wonderful inventions allow traffic to safely flow in all directions, but at a cost. When traffic builds up, cars spend lots of time waiting and only move in short bursts.\n\nSelf-driving cars could offer a solution to some of these traffic woes. If cars can 'talk' to the traffic lights, could we cut down on red lights or even get rid of them altogether? To investigate, researchers from the Massachusetts Institute of Technology in the United States wrote a computer program to simulate an intersection. The traffic consisted of self-driving cars that could talk to the intersection and receive instructions.\n\nThe first system they trialled was quite simple. As each car approached the intersection, it sent a signal. The intersection responded by booking the next space in the intersection for the car to use. Then, the intersection told the car to slow down a bit so it reached the intersection at exactly the right time to fit. This system allowed cars to move faster through the intersection. It could also handle higher traffic flows without making long queues.\n\nIn order to get even more cars through the intersections, the researchers decided they needed to be a bit unfair. They got some cars to speed up and others to slow down so they formed bunches, all going in the same direction. The second system worked a bit like a mini-traffic light, letting small bunches take turns going through the intersection. However, the cars were still moving as they started to bunch up, so the traffic never stopped. This improved system was even better than the first. It could move twice as many cars as a traditional traffic light system.\n\nHowever, these new systems won't be replacing traffic lights any time soon. They require every car on the road to be driven by a computer, not a human. But in the far future, drivers might be a thing of the past. And maybe traffic jams will be a thing of the past too!",
+      "prompt": "Which option best describes the movement of traffic in each system?",
+      "table": {
+        "headers": [
+          "Option",
+          "Current system",
+          "First system",
+          "Second system"
+        ],
+        "rows": [
+          [
+            "(A)",
+            "Cars stop and start frequently.",
+            "Cars continuously take turns to move.",
+            "Cars occasionally stop to form bunches."
+          ],
+          [
+            "(B)",
+            "Cars stop and start on a regular basis.",
+            "Cars take turns to move in response to the position of other cars.",
+            "Cars change speed to form groups that move together."
+          ],
+          [
+            "(C)",
+            "Cars move continuously.",
+            "Cars are grouped together according to speed.",
+            "Cars can change direction according to traffic flow needs."
+          ],
+          [
+            "(D)",
+            "Cars wait and move in short bursts.",
+            "Car speed is controlled through the intersection.",
+            "Cars slow down and form groups that move together."
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "Current: cars stop and start frequently; First: cars continuously take turns to move; Second: cars occasionally stop to form bunches."
+        },
+        {
+          "label": "B",
+          "text": "Current: cars stop and start on a regular basis; First: cars take turns to move in response to the position of other cars; Second: cars change speed to form groups that move together."
+        },
+        {
+          "label": "C",
+          "text": "Current: cars move continuously; First: cars are grouped together according to speed; Second: cars can change direction according to traffic flow needs."
+        },
+        {
+          "label": "D",
+          "text": "Current: cars wait and move in short bursts; First: car speed is controlled through the intersection; Second: cars slow down and form groups that move together."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The current system makes cars 'wait' and 'move in short bursts'; the first system controls each car's speed through the intersection; the second gets cars to speed up or slow down so they 'form bunches' that move together.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 8 to 13.\n\nCan self-driving cars save us from traffic?\n\nIf you've ever lived in a big city, you've probably spent many hours waiting at traffic lights. These wonderful inventions allow traffic to safely flow in all directions, but at a cost. When traffic builds up, cars spend lots of time waiting and only move in short bursts.\n\nSelf-driving cars could offer a solution to some of these traffic woes. If cars can 'talk' to the traffic lights, could we cut down on red lights or even get rid of them altogether? To investigate, researchers from the Massachusetts Institute of Technology in the United States wrote a computer program to simulate an intersection. The traffic consisted of self-driving cars that could talk to the intersection and receive instructions.\n\nThe first system they trialled was quite simple. As each car approached the intersection, it sent a signal. The intersection responded by booking the next space in the intersection for the car to use. Then, the intersection told the car to slow down a bit so it reached the intersection at exactly the right time to fit. This system allowed cars to move faster through the intersection. It could also handle higher traffic flows without making long queues.\n\nIn order to get even more cars through the intersections, the researchers decided they needed to be a bit unfair. They got some cars to speed up and others to slow down so they formed bunches, all going in the same direction. The second system worked a bit like a mini-traffic light, letting small bunches take turns going through the intersection. However, the cars were still moving as they started to bunch up, so the traffic never stopped. This improved system was even better than the first. It could move twice as many cars as a traditional traffic light system.\n\nHowever, these new systems won't be replacing traffic lights any time soon. They require every car on the road to be driven by a computer, not a human. But in the far future, drivers might be a thing of the past. And maybe traffic jams will be a thing of the past too!",
+      "prompt": "What does the writer predict for the future?",
+      "options": [
+        {
+          "label": "A",
+          "text": "More research into traffic jams will mean fewer cars on the road."
+        },
+        {
+          "label": "B",
+          "text": "Traditional traffic light systems will be replaced by many smaller traffic lights."
+        },
+        {
+          "label": "C",
+          "text": "Computers will not replace human drivers."
+        },
+        {
+          "label": "D",
+          "text": "Computer-controlled cars will improve traffic flow."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'in the far future, drivers might be a thing of the past. And maybe traffic jams will be a thing of the past too!'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 14 to 19.\n\nThe surprise\n\nJulie was on a mission. She had waited for this moment, patiently planning and plotting. Now the crucial day had arrived and it was time to act.\n\n'I know exactly what to get,' she muttered to herself as she plodded determinedly down the footpath through the afternoon crowds. 'And I know just where to get it.'\n\nShe marched past the butcher and the supermarket, past the dress shop and the bookshop and the fruit shop. Her mission would not be fulfilled in any of those dull establishments. She didn't swerve or dawdle for a moment but strode on. Her heartbeat quickened with anticipation. She was going to get something that would bring such a smile to his face, now at long last he was better and home again. And on such a significant day. She could hardly wait...\n\nFinally, she stopped at a rose-bricked building with a peaked roof and a circular window like a huge porthole. There was a hopeful seagull perched at the top of a rusted drainpipe that led from the roof to the gutter. A rich smell oozed out from the shop in an invisible cloud of sweetness. Julie breathed it in deeply. On the window in large Gothic letters was painted one crimson word: 'BAKERY'.\n\nJulie peered in the window at the glass shelves, where the cakes were laid out like precious exhibits in a museum. Square layers of sponge and cream, curling pastries like giant snails and little blobs of meringues in vibrant colours. A feast from a fairytale.\n\nBut where was it? Panic gripped her. It was there yesterday—don't say someone else had already bought it? Ah, no! There it was! At the back of the display, up high on a pedestal, loftier than all the other offerings. A beautiful round smooth chocolate cake, covered with tiny silver sugar stars, and with five candles on top. Julie beamed. It was perfect!\n\nThe old lady that ran the bakery had a hunched back and a grey bun held in place by a long sharp-ended pin. She looked like someone who had stepped out of a storybook. She was lifting up a tray of jam buns when she caught sight of Julie lingering on the other side of the window. She raised her thin eyebrows at her fiercely.\n\nJulie put her hand in her pocket to check the money was still there. She pushed the door open and, as it swung back on a spring, a little bell tinkled. The old lady put down the tray. Disarmingly, she smiled at Julie, and her whole face turned into soft folds.\n\n'So, young lady, what can I do for you today?'",
+      "prompt": "'Julie was on a mission.'\nThis means that Julie was",
+      "options": [
+        {
+          "label": "A",
+          "text": "worried about having too much to do."
+        },
+        {
+          "label": "B",
+          "text": "distracted from the task she should be doing."
+        },
+        {
+          "label": "C",
+          "text": "focusing on getting as many things done as possible."
+        },
+        {
+          "label": "D",
+          "text": "concentrating on one specific task."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "She has a single clear goal and ignores every other shop; a 'mission' is one focused purpose.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018orig-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 14 to 19.\n\nThe surprise\n\nJulie was on a mission. She had waited for this moment, patiently planning and plotting. Now the crucial day had arrived and it was time to act.\n\n'I know exactly what to get,' she muttered to herself as she plodded determinedly down the footpath through the afternoon crowds. 'And I know just where to get it.'\n\nShe marched past the butcher and the supermarket, past the dress shop and the bookshop and the fruit shop. Her mission would not be fulfilled in any of those dull establishments. She didn't swerve or dawdle for a moment but strode on. Her heartbeat quickened with anticipation. She was going to get something that would bring such a smile to his face, now at long last he was better and home again. And on such a significant day. She could hardly wait...\n\nFinally, she stopped at a rose-bricked building with a peaked roof and a circular window like a huge porthole. There was a hopeful seagull perched at the top of a rusted drainpipe that led from the roof to the gutter. A rich smell oozed out from the shop in an invisible cloud of sweetness. Julie breathed it in deeply. On the window in large Gothic letters was painted one crimson word: 'BAKERY'.\n\nJulie peered in the window at the glass shelves, where the cakes were laid out like precious exhibits in a museum. Square layers of sponge and cream, curling pastries like giant snails and little blobs of meringues in vibrant colours. A feast from a fairytale.\n\nBut where was it? Panic gripped her. It was there yesterday—don't say someone else had already bought it? Ah, no! There it was! At the back of the display, up high on a pedestal, loftier than all the other offerings. A beautiful round smooth chocolate cake, covered with tiny silver sugar stars, and with five candles on top. Julie beamed. It was perfect!\n\nThe old lady that ran the bakery had a hunched back and a grey bun held in place by a long sharp-ended pin. She looked like someone who had stepped out of a storybook. She was lifting up a tray of jam buns when she caught sight of Julie lingering on the other side of the window. She raised her thin eyebrows at her fiercely.\n\nJulie put her hand in her pocket to check the money was still there. She pushed the door open and, as it swung back on a spring, a little bell tinkled. The old lady put down the tray. Disarmingly, she smiled at Julie, and her whole face turned into soft folds.\n\n'So, young lady, what can I do for you today?'",
+      "prompt": "'She had waited for this moment, patiently planning and plotting.'\nWhat literary device is used in this quotation?",
+      "options": [
+        {
+          "label": "A",
+          "text": "idiom"
+        },
+        {
+          "label": "B",
+          "text": "alliteration"
+        },
+        {
+          "label": "C",
+          "text": "exaggeration"
+        },
+        {
+          "label": "D",
+          "text": "metaphor"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'patiently planning and plotting' repeats the initial 'p' sound — alliteration.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018orig-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 14 to 19.\n\nThe surprise\n\nJulie was on a mission. She had waited for this moment, patiently planning and plotting. Now the crucial day had arrived and it was time to act.\n\n'I know exactly what to get,' she muttered to herself as she plodded determinedly down the footpath through the afternoon crowds. 'And I know just where to get it.'\n\nShe marched past the butcher and the supermarket, past the dress shop and the bookshop and the fruit shop. Her mission would not be fulfilled in any of those dull establishments. She didn't swerve or dawdle for a moment but strode on. Her heartbeat quickened with anticipation. She was going to get something that would bring such a smile to his face, now at long last he was better and home again. And on such a significant day. She could hardly wait...\n\nFinally, she stopped at a rose-bricked building with a peaked roof and a circular window like a huge porthole. There was a hopeful seagull perched at the top of a rusted drainpipe that led from the roof to the gutter. A rich smell oozed out from the shop in an invisible cloud of sweetness. Julie breathed it in deeply. On the window in large Gothic letters was painted one crimson word: 'BAKERY'.\n\nJulie peered in the window at the glass shelves, where the cakes were laid out like precious exhibits in a museum. Square layers of sponge and cream, curling pastries like giant snails and little blobs of meringues in vibrant colours. A feast from a fairytale.\n\nBut where was it? Panic gripped her. It was there yesterday—don't say someone else had already bought it? Ah, no! There it was! At the back of the display, up high on a pedestal, loftier than all the other offerings. A beautiful round smooth chocolate cake, covered with tiny silver sugar stars, and with five candles on top. Julie beamed. It was perfect!\n\nThe old lady that ran the bakery had a hunched back and a grey bun held in place by a long sharp-ended pin. She looked like someone who had stepped out of a storybook. She was lifting up a tray of jam buns when she caught sight of Julie lingering on the other side of the window. She raised her thin eyebrows at her fiercely.\n\nJulie put her hand in her pocket to check the money was still there. She pushed the door open and, as it swung back on a spring, a little bell tinkled. The old lady put down the tray. Disarmingly, she smiled at Julie, and her whole face turned into soft folds.\n\n'So, young lady, what can I do for you today?'",
+      "prompt": "Which of the following descriptions from the text contains a simile?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'a hopeful seagull perched at the top of a rusted drainpipe'"
+        },
+        {
+          "label": "B",
+          "text": "'A rich smell oozed out from the shop'"
+        },
+        {
+          "label": "C",
+          "text": "'the cakes were laid out like precious exhibits in a museum'"
+        },
+        {
+          "label": "D",
+          "text": "'and little blobs of meringues in vibrant colours'"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "It compares the cakes to museum exhibits using the word 'like'.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018orig-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 14 to 19.\n\nThe surprise\n\nJulie was on a mission. She had waited for this moment, patiently planning and plotting. Now the crucial day had arrived and it was time to act.\n\n'I know exactly what to get,' she muttered to herself as she plodded determinedly down the footpath through the afternoon crowds. 'And I know just where to get it.'\n\nShe marched past the butcher and the supermarket, past the dress shop and the bookshop and the fruit shop. Her mission would not be fulfilled in any of those dull establishments. She didn't swerve or dawdle for a moment but strode on. Her heartbeat quickened with anticipation. She was going to get something that would bring such a smile to his face, now at long last he was better and home again. And on such a significant day. She could hardly wait...\n\nFinally, she stopped at a rose-bricked building with a peaked roof and a circular window like a huge porthole. There was a hopeful seagull perched at the top of a rusted drainpipe that led from the roof to the gutter. A rich smell oozed out from the shop in an invisible cloud of sweetness. Julie breathed it in deeply. On the window in large Gothic letters was painted one crimson word: 'BAKERY'.\n\nJulie peered in the window at the glass shelves, where the cakes were laid out like precious exhibits in a museum. Square layers of sponge and cream, curling pastries like giant snails and little blobs of meringues in vibrant colours. A feast from a fairytale.\n\nBut where was it? Panic gripped her. It was there yesterday—don't say someone else had already bought it? Ah, no! There it was! At the back of the display, up high on a pedestal, loftier than all the other offerings. A beautiful round smooth chocolate cake, covered with tiny silver sugar stars, and with five candles on top. Julie beamed. It was perfect!\n\nThe old lady that ran the bakery had a hunched back and a grey bun held in place by a long sharp-ended pin. She looked like someone who had stepped out of a storybook. She was lifting up a tray of jam buns when she caught sight of Julie lingering on the other side of the window. She raised her thin eyebrows at her fiercely.\n\nJulie put her hand in her pocket to check the money was still there. She pushed the door open and, as it swung back on a spring, a little bell tinkled. The old lady put down the tray. Disarmingly, she smiled at Julie, and her whole face turned into soft folds.\n\n'So, young lady, what can I do for you today?'",
+      "prompt": "'up high on a pedestal, loftier than all the other offerings' (paragraph 6)\nJulie's use of the word 'loftier' has two meanings. Firstly, the cake was placed higher than the other cakes. Secondly, Julie thought it was",
+      "options": [
+        {
+          "label": "A",
+          "text": "better."
+        },
+        {
+          "label": "B",
+          "text": "bigger."
+        },
+        {
+          "label": "C",
+          "text": "darker."
+        },
+        {
+          "label": "D",
+          "text": "sweeter."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Lofty' also means superior or of higher quality — Julie thinks this cake is the best of them all.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018orig-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 14 to 19.\n\nThe surprise\n\nJulie was on a mission. She had waited for this moment, patiently planning and plotting. Now the crucial day had arrived and it was time to act.\n\n'I know exactly what to get,' she muttered to herself as she plodded determinedly down the footpath through the afternoon crowds. 'And I know just where to get it.'\n\nShe marched past the butcher and the supermarket, past the dress shop and the bookshop and the fruit shop. Her mission would not be fulfilled in any of those dull establishments. She didn't swerve or dawdle for a moment but strode on. Her heartbeat quickened with anticipation. She was going to get something that would bring such a smile to his face, now at long last he was better and home again. And on such a significant day. She could hardly wait...\n\nFinally, she stopped at a rose-bricked building with a peaked roof and a circular window like a huge porthole. There was a hopeful seagull perched at the top of a rusted drainpipe that led from the roof to the gutter. A rich smell oozed out from the shop in an invisible cloud of sweetness. Julie breathed it in deeply. On the window in large Gothic letters was painted one crimson word: 'BAKERY'.\n\nJulie peered in the window at the glass shelves, where the cakes were laid out like precious exhibits in a museum. Square layers of sponge and cream, curling pastries like giant snails and little blobs of meringues in vibrant colours. A feast from a fairytale.\n\nBut where was it? Panic gripped her. It was there yesterday—don't say someone else had already bought it? Ah, no! There it was! At the back of the display, up high on a pedestal, loftier than all the other offerings. A beautiful round smooth chocolate cake, covered with tiny silver sugar stars, and with five candles on top. Julie beamed. It was perfect!\n\nThe old lady that ran the bakery had a hunched back and a grey bun held in place by a long sharp-ended pin. She looked like someone who had stepped out of a storybook. She was lifting up a tray of jam buns when she caught sight of Julie lingering on the other side of the window. She raised her thin eyebrows at her fiercely.\n\nJulie put her hand in her pocket to check the money was still there. She pushed the door open and, as it swung back on a spring, a little bell tinkled. The old lady put down the tray. Disarmingly, she smiled at Julie, and her whole face turned into soft folds.\n\n'So, young lady, what can I do for you today?'",
+      "prompt": "In which paragraph does Julie experience both panic/disappointment and pleasure?",
+      "options": [
+        {
+          "label": "A",
+          "text": "2"
+        },
+        {
+          "label": "B",
+          "text": "4"
+        },
+        {
+          "label": "C",
+          "text": "6"
+        },
+        {
+          "label": "D",
+          "text": "8"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Paragraph 6 moves from 'Panic gripped her' to 'Julie beamed. It was perfect!'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 14 to 19.\n\nThe surprise\n\nJulie was on a mission. She had waited for this moment, patiently planning and plotting. Now the crucial day had arrived and it was time to act.\n\n'I know exactly what to get,' she muttered to herself as she plodded determinedly down the footpath through the afternoon crowds. 'And I know just where to get it.'\n\nShe marched past the butcher and the supermarket, past the dress shop and the bookshop and the fruit shop. Her mission would not be fulfilled in any of those dull establishments. She didn't swerve or dawdle for a moment but strode on. Her heartbeat quickened with anticipation. She was going to get something that would bring such a smile to his face, now at long last he was better and home again. And on such a significant day. She could hardly wait...\n\nFinally, she stopped at a rose-bricked building with a peaked roof and a circular window like a huge porthole. There was a hopeful seagull perched at the top of a rusted drainpipe that led from the roof to the gutter. A rich smell oozed out from the shop in an invisible cloud of sweetness. Julie breathed it in deeply. On the window in large Gothic letters was painted one crimson word: 'BAKERY'.\n\nJulie peered in the window at the glass shelves, where the cakes were laid out like precious exhibits in a museum. Square layers of sponge and cream, curling pastries like giant snails and little blobs of meringues in vibrant colours. A feast from a fairytale.\n\nBut where was it? Panic gripped her. It was there yesterday—don't say someone else had already bought it? Ah, no! There it was! At the back of the display, up high on a pedestal, loftier than all the other offerings. A beautiful round smooth chocolate cake, covered with tiny silver sugar stars, and with five candles on top. Julie beamed. It was perfect!\n\nThe old lady that ran the bakery had a hunched back and a grey bun held in place by a long sharp-ended pin. She looked like someone who had stepped out of a storybook. She was lifting up a tray of jam buns when she caught sight of Julie lingering on the other side of the window. She raised her thin eyebrows at her fiercely.\n\nJulie put her hand in her pocket to check the money was still there. She pushed the door open and, as it swung back on a spring, a little bell tinkled. The old lady put down the tray. Disarmingly, she smiled at Julie, and her whole face turned into soft folds.\n\n'So, young lady, what can I do for you today?'",
+      "prompt": "Why did the old lady change her expression towards Julie at the end of the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Julie stared fiercely at the old lady."
+        },
+        {
+          "label": "B",
+          "text": "The old lady realised Julie was young."
+        },
+        {
+          "label": "C",
+          "text": "Julie showed the old lady her money."
+        },
+        {
+          "label": "D",
+          "text": "The old lady realised Julie was a customer."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The old lady frowns at Julie 'lingering' outside, but smiles 'disarmingly' once Julie comes in as a paying customer.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nGoing underwater is about to get creepier. Lurking in the shallow waters of your favourite beach and inhabiting the depths of the coldest oceans are creeping, crawling sea spiders. Ranging in size from one millimetre to more than 90 centimetres, these creatures look like the stars of a science fiction horror movie.\n\nWith their small bodies and really long legs, it is easy to have nightmares about sea spiders larger than your head crawling all over you, but it gets creepier. Sea spiders are equipped with a proboscis (a long appendage on their head) for feeding on their prey. These carnivorous crawlies insert their proboscis into the soft body of an invertebrate and then suck out the juicy goodness. Surprisingly, the poor prey often survives this gruesome attack. Although this type of feeding sounds gross, invertebrates such as sea sponges and sea anemones are generally larger than the spider, and so will survive being fed on... most of the time.\n\nThere are more than 1,300 known species of sea spiders. They can have four, five, or six pairs of legs. Their bodies are so thin that they do not need a respiratory system; instead, their body surface is large enough to allow them to breathe by diffusion, which means oxygen is absorbed through their skin. In fact, their bodies are so small that their organs spread out into their legs. Many sea spiders that live deep in the ocean are blind.\n\nSea spiders are such unusual creatures that scientists are still a little puzzled about how to classify them. Sea spiders are not considered true spiders or arachnids. They have a segmented exoskeleton, which makes them arthropods—just like insects, crabs, and spiders. But other strange features, such as their proboscis, make it difficult to decide exactly what type of arthropod they are.\n\nMarine zoologist Dr. Claudia Arango of the Australian Museum finds sea spiders fascinating, especially the ones that live in Antarctica. \"They are more diverse, more abundant, bigger, and weirder than sea spiders in other parts of the world: that makes them a very attractive fauna,\" says Dr. Arango.\n\nNext time you go to the beach, head over to the rocks and investigate; you may just find a little sea spider camouflaged in the shallow water. But don't worry, the really big ones only live in the depths of the Antarctic Ocean.",
+      "prompt": "Sea spiders feed on sea anemones because",
+      "options": [
+        {
+          "label": "A",
+          "text": "they have soft bodies."
+        },
+        {
+          "label": "B",
+          "text": "they have thin bodies."
+        },
+        {
+          "label": "C",
+          "text": "they are larger than their predators."
+        },
+        {
+          "label": "D",
+          "text": "they are able to survive after being attacked."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Sea spiders 'insert their proboscis into the soft body of an invertebrate' — the soft body makes anemones suitable prey.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nGoing underwater is about to get creepier. Lurking in the shallow waters of your favourite beach and inhabiting the depths of the coldest oceans are creeping, crawling sea spiders. Ranging in size from one millimetre to more than 90 centimetres, these creatures look like the stars of a science fiction horror movie.\n\nWith their small bodies and really long legs, it is easy to have nightmares about sea spiders larger than your head crawling all over you, but it gets creepier. Sea spiders are equipped with a proboscis (a long appendage on their head) for feeding on their prey. These carnivorous crawlies insert their proboscis into the soft body of an invertebrate and then suck out the juicy goodness. Surprisingly, the poor prey often survives this gruesome attack. Although this type of feeding sounds gross, invertebrates such as sea sponges and sea anemones are generally larger than the spider, and so will survive being fed on... most of the time.\n\nThere are more than 1,300 known species of sea spiders. They can have four, five, or six pairs of legs. Their bodies are so thin that they do not need a respiratory system; instead, their body surface is large enough to allow them to breathe by diffusion, which means oxygen is absorbed through their skin. In fact, their bodies are so small that their organs spread out into their legs. Many sea spiders that live deep in the ocean are blind.\n\nSea spiders are such unusual creatures that scientists are still a little puzzled about how to classify them. Sea spiders are not considered true spiders or arachnids. They have a segmented exoskeleton, which makes them arthropods—just like insects, crabs, and spiders. But other strange features, such as their proboscis, make it difficult to decide exactly what type of arthropod they are.\n\nMarine zoologist Dr. Claudia Arango of the Australian Museum finds sea spiders fascinating, especially the ones that live in Antarctica. \"They are more diverse, more abundant, bigger, and weirder than sea spiders in other parts of the world: that makes them a very attractive fauna,\" says Dr. Arango.\n\nNext time you go to the beach, head over to the rocks and investigate; you may just find a little sea spider camouflaged in the shallow water. But don't worry, the really big ones only live in the depths of the Antarctic Ocean.",
+      "prompt": "What is the meaning of the word 'gruesome'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "frequent"
+        },
+        {
+          "label": "B",
+          "text": "horrifying"
+        },
+        {
+          "label": "C",
+          "text": "unexpected"
+        },
+        {
+          "label": "D",
+          "text": "sudden"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The 'gruesome attack' is the spider sucking out a creature's insides — a horrifying image.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018orig-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nGoing underwater is about to get creepier. Lurking in the shallow waters of your favourite beach and inhabiting the depths of the coldest oceans are creeping, crawling sea spiders. Ranging in size from one millimetre to more than 90 centimetres, these creatures look like the stars of a science fiction horror movie.\n\nWith their small bodies and really long legs, it is easy to have nightmares about sea spiders larger than your head crawling all over you, but it gets creepier. Sea spiders are equipped with a proboscis (a long appendage on their head) for feeding on their prey. These carnivorous crawlies insert their proboscis into the soft body of an invertebrate and then suck out the juicy goodness. Surprisingly, the poor prey often survives this gruesome attack. Although this type of feeding sounds gross, invertebrates such as sea sponges and sea anemones are generally larger than the spider, and so will survive being fed on... most of the time.\n\nThere are more than 1,300 known species of sea spiders. They can have four, five, or six pairs of legs. Their bodies are so thin that they do not need a respiratory system; instead, their body surface is large enough to allow them to breathe by diffusion, which means oxygen is absorbed through their skin. In fact, their bodies are so small that their organs spread out into their legs. Many sea spiders that live deep in the ocean are blind.\n\nSea spiders are such unusual creatures that scientists are still a little puzzled about how to classify them. Sea spiders are not considered true spiders or arachnids. They have a segmented exoskeleton, which makes them arthropods—just like insects, crabs, and spiders. But other strange features, such as their proboscis, make it difficult to decide exactly what type of arthropod they are.\n\nMarine zoologist Dr. Claudia Arango of the Australian Museum finds sea spiders fascinating, especially the ones that live in Antarctica. \"They are more diverse, more abundant, bigger, and weirder than sea spiders in other parts of the world: that makes them a very attractive fauna,\" says Dr. Arango.\n\nNext time you go to the beach, head over to the rocks and investigate; you may just find a little sea spider camouflaged in the shallow water. But don't worry, the really big ones only live in the depths of the Antarctic Ocean.",
+      "prompt": "Sea spiders breathe by diffusion. This allows them to",
+      "options": [
+        {
+          "label": "A",
+          "text": "store oxygen in their legs."
+        },
+        {
+          "label": "B",
+          "text": "take in oxygen through their skin."
+        },
+        {
+          "label": "C",
+          "text": "control their respiratory system."
+        },
+        {
+          "label": "D",
+          "text": "suck oxygen from their prey."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Their bodies are thin enough that 'oxygen is absorbed through their skin', so they need no respiratory system.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nGoing underwater is about to get creepier. Lurking in the shallow waters of your favourite beach and inhabiting the depths of the coldest oceans are creeping, crawling sea spiders. Ranging in size from one millimetre to more than 90 centimetres, these creatures look like the stars of a science fiction horror movie.\n\nWith their small bodies and really long legs, it is easy to have nightmares about sea spiders larger than your head crawling all over you, but it gets creepier. Sea spiders are equipped with a proboscis (a long appendage on their head) for feeding on their prey. These carnivorous crawlies insert their proboscis into the soft body of an invertebrate and then suck out the juicy goodness. Surprisingly, the poor prey often survives this gruesome attack. Although this type of feeding sounds gross, invertebrates such as sea sponges and sea anemones are generally larger than the spider, and so will survive being fed on... most of the time.\n\nThere are more than 1,300 known species of sea spiders. They can have four, five, or six pairs of legs. Their bodies are so thin that they do not need a respiratory system; instead, their body surface is large enough to allow them to breathe by diffusion, which means oxygen is absorbed through their skin. In fact, their bodies are so small that their organs spread out into their legs. Many sea spiders that live deep in the ocean are blind.\n\nSea spiders are such unusual creatures that scientists are still a little puzzled about how to classify them. Sea spiders are not considered true spiders or arachnids. They have a segmented exoskeleton, which makes them arthropods—just like insects, crabs, and spiders. But other strange features, such as their proboscis, make it difficult to decide exactly what type of arthropod they are.\n\nMarine zoologist Dr. Claudia Arango of the Australian Museum finds sea spiders fascinating, especially the ones that live in Antarctica. \"They are more diverse, more abundant, bigger, and weirder than sea spiders in other parts of the world: that makes them a very attractive fauna,\" says Dr. Arango.\n\nNext time you go to the beach, head over to the rocks and investigate; you may just find a little sea spider camouflaged in the shallow water. But don't worry, the really big ones only live in the depths of the Antarctic Ocean.",
+      "prompt": "'Many sea spiders that live deep in the ocean are blind.'\nWhich word or words could be placed at the beginning of this sentence in the third paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "As a result"
+        },
+        {
+          "label": "B",
+          "text": "However"
+        },
+        {
+          "label": "C",
+          "text": "Yet"
+        },
+        {
+          "label": "D",
+          "text": "In addition"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The sentence adds one more unusual fact to the list about sea spider bodies, so 'In addition' fits.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2018orig-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nGoing underwater is about to get creepier. Lurking in the shallow waters of your favourite beach and inhabiting the depths of the coldest oceans are creeping, crawling sea spiders. Ranging in size from one millimetre to more than 90 centimetres, these creatures look like the stars of a science fiction horror movie.\n\nWith their small bodies and really long legs, it is easy to have nightmares about sea spiders larger than your head crawling all over you, but it gets creepier. Sea spiders are equipped with a proboscis (a long appendage on their head) for feeding on their prey. These carnivorous crawlies insert their proboscis into the soft body of an invertebrate and then suck out the juicy goodness. Surprisingly, the poor prey often survives this gruesome attack. Although this type of feeding sounds gross, invertebrates such as sea sponges and sea anemones are generally larger than the spider, and so will survive being fed on... most of the time.\n\nThere are more than 1,300 known species of sea spiders. They can have four, five, or six pairs of legs. Their bodies are so thin that they do not need a respiratory system; instead, their body surface is large enough to allow them to breathe by diffusion, which means oxygen is absorbed through their skin. In fact, their bodies are so small that their organs spread out into their legs. Many sea spiders that live deep in the ocean are blind.\n\nSea spiders are such unusual creatures that scientists are still a little puzzled about how to classify them. Sea spiders are not considered true spiders or arachnids. They have a segmented exoskeleton, which makes them arthropods—just like insects, crabs, and spiders. But other strange features, such as their proboscis, make it difficult to decide exactly what type of arthropod they are.\n\nMarine zoologist Dr. Claudia Arango of the Australian Museum finds sea spiders fascinating, especially the ones that live in Antarctica. \"They are more diverse, more abundant, bigger, and weirder than sea spiders in other parts of the world: that makes them a very attractive fauna,\" says Dr. Arango.\n\nNext time you go to the beach, head over to the rocks and investigate; you may just find a little sea spider camouflaged in the shallow water. But don't worry, the really big ones only live in the depths of the Antarctic Ocean.",
+      "prompt": "Why are sea spiders described in the text as 'unusual creatures'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are arachnids and they breathe by diffusion."
+        },
+        {
+          "label": "B",
+          "text": "They are invertebrates and they are also carnivores."
+        },
+        {
+          "label": "C",
+          "text": "They are arthropods and they have a proboscis."
+        },
+        {
+          "label": "D",
+          "text": "They can live in both deep and shallow water."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Scientists struggle to classify them: their exoskeleton makes them arthropods, yet features like the proboscis make them hard to place.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nGoing underwater is about to get creepier. Lurking in the shallow waters of your favourite beach and inhabiting the depths of the coldest oceans are creeping, crawling sea spiders. Ranging in size from one millimetre to more than 90 centimetres, these creatures look like the stars of a science fiction horror movie.\n\nWith their small bodies and really long legs, it is easy to have nightmares about sea spiders larger than your head crawling all over you, but it gets creepier. Sea spiders are equipped with a proboscis (a long appendage on their head) for feeding on their prey. These carnivorous crawlies insert their proboscis into the soft body of an invertebrate and then suck out the juicy goodness. Surprisingly, the poor prey often survives this gruesome attack. Although this type of feeding sounds gross, invertebrates such as sea sponges and sea anemones are generally larger than the spider, and so will survive being fed on... most of the time.\n\nThere are more than 1,300 known species of sea spiders. They can have four, five, or six pairs of legs. Their bodies are so thin that they do not need a respiratory system; instead, their body surface is large enough to allow them to breathe by diffusion, which means oxygen is absorbed through their skin. In fact, their bodies are so small that their organs spread out into their legs. Many sea spiders that live deep in the ocean are blind.\n\nSea spiders are such unusual creatures that scientists are still a little puzzled about how to classify them. Sea spiders are not considered true spiders or arachnids. They have a segmented exoskeleton, which makes them arthropods—just like insects, crabs, and spiders. But other strange features, such as their proboscis, make it difficult to decide exactly what type of arthropod they are.\n\nMarine zoologist Dr. Claudia Arango of the Australian Museum finds sea spiders fascinating, especially the ones that live in Antarctica. \"They are more diverse, more abundant, bigger, and weirder than sea spiders in other parts of the world: that makes them a very attractive fauna,\" says Dr. Arango.\n\nNext time you go to the beach, head over to the rocks and investigate; you may just find a little sea spider camouflaged in the shallow water. But don't worry, the really big ones only live in the depths of the Antarctic Ocean.",
+      "prompt": "What is the main purpose of the final paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to scare readers into staying away from sea spiders"
+        },
+        {
+          "label": "B",
+          "text": "to urge readers to investigate the sea spiders of the Antarctic Ocean"
+        },
+        {
+          "label": "C",
+          "text": "to reassure readers that sea spiders are unlikely to be a threat to them"
+        },
+        {
+          "label": "D",
+          "text": "to warn readers against taking unnecessary risks with sea spiders"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'But don't worry, the really big ones only live in the depths of the Antarctic Ocean.'",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018orig-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nGoing underwater is about to get creepier. Lurking in the shallow waters of your favourite beach and inhabiting the depths of the coldest oceans are creeping, crawling sea spiders. Ranging in size from one millimetre to more than 90 centimetres, these creatures look like the stars of a science fiction horror movie.\n\nWith their small bodies and really long legs, it is easy to have nightmares about sea spiders larger than your head crawling all over you, but it gets creepier. Sea spiders are equipped with a proboscis (a long appendage on their head) for feeding on their prey. These carnivorous crawlies insert their proboscis into the soft body of an invertebrate and then suck out the juicy goodness. Surprisingly, the poor prey often survives this gruesome attack. Although this type of feeding sounds gross, invertebrates such as sea sponges and sea anemones are generally larger than the spider, and so will survive being fed on... most of the time.\n\nThere are more than 1,300 known species of sea spiders. They can have four, five, or six pairs of legs. Their bodies are so thin that they do not need a respiratory system; instead, their body surface is large enough to allow them to breathe by diffusion, which means oxygen is absorbed through their skin. In fact, their bodies are so small that their organs spread out into their legs. Many sea spiders that live deep in the ocean are blind.\n\nSea spiders are such unusual creatures that scientists are still a little puzzled about how to classify them. Sea spiders are not considered true spiders or arachnids. They have a segmented exoskeleton, which makes them arthropods—just like insects, crabs, and spiders. But other strange features, such as their proboscis, make it difficult to decide exactly what type of arthropod they are.\n\nMarine zoologist Dr. Claudia Arango of the Australian Museum finds sea spiders fascinating, especially the ones that live in Antarctica. \"They are more diverse, more abundant, bigger, and weirder than sea spiders in other parts of the world: that makes them a very attractive fauna,\" says Dr. Arango.\n\nNext time you go to the beach, head over to the rocks and investigate; you may just find a little sea spider camouflaged in the shallow water. But don't worry, the really big ones only live in the depths of the Antarctic Ocean.",
+      "prompt": "What is the text underneath the photograph called?",
+      "options": [
+        {
+          "label": "A",
+          "text": "caption"
+        },
+        {
+          "label": "B",
+          "text": "label"
+        },
+        {
+          "label": "C",
+          "text": "subheading"
+        },
+        {
+          "label": "D",
+          "text": "glossary"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Text placed beneath a photograph to explain it is a caption.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018orig-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 20 to 27.\n\nCreepy underwater crawlies\n\nGoing underwater is about to get creepier. Lurking in the shallow waters of your favourite beach and inhabiting the depths of the coldest oceans are creeping, crawling sea spiders. Ranging in size from one millimetre to more than 90 centimetres, these creatures look like the stars of a science fiction horror movie.\n\nWith their small bodies and really long legs, it is easy to have nightmares about sea spiders larger than your head crawling all over you, but it gets creepier. Sea spiders are equipped with a proboscis (a long appendage on their head) for feeding on their prey. These carnivorous crawlies insert their proboscis into the soft body of an invertebrate and then suck out the juicy goodness. Surprisingly, the poor prey often survives this gruesome attack. Although this type of feeding sounds gross, invertebrates such as sea sponges and sea anemones are generally larger than the spider, and so will survive being fed on... most of the time.\n\nThere are more than 1,300 known species of sea spiders. They can have four, five, or six pairs of legs. Their bodies are so thin that they do not need a respiratory system; instead, their body surface is large enough to allow them to breathe by diffusion, which means oxygen is absorbed through their skin. In fact, their bodies are so small that their organs spread out into their legs. Many sea spiders that live deep in the ocean are blind.\n\nSea spiders are such unusual creatures that scientists are still a little puzzled about how to classify them. Sea spiders are not considered true spiders or arachnids. They have a segmented exoskeleton, which makes them arthropods—just like insects, crabs, and spiders. But other strange features, such as their proboscis, make it difficult to decide exactly what type of arthropod they are.\n\nMarine zoologist Dr. Claudia Arango of the Australian Museum finds sea spiders fascinating, especially the ones that live in Antarctica. \"They are more diverse, more abundant, bigger, and weirder than sea spiders in other parts of the world: that makes them a very attractive fauna,\" says Dr. Arango.\n\nNext time you go to the beach, head over to the rocks and investigate; you may just find a little sea spider camouflaged in the shallow water. But don't worry, the really big ones only live in the depths of the Antarctic Ocean.",
+      "prompt": "What does the writer assume about her readers?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are scared of spiders."
+        },
+        {
+          "label": "B",
+          "text": "They know what a sea spider looks like."
+        },
+        {
+          "label": "C",
+          "text": "They understand what a proboscis is."
+        },
+        {
+          "label": "D",
+          "text": "They have studied the Antarctic Ocean."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The writer expects readers to find 'nightmares about sea spiders larger than your head' frightening, assuming a shared fear of spiders. (She defines 'proboscis' herself, ruling out C.)",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018orig-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nDog-sitting for beginners\n\nI was lying on my bed reading a library book when my mother told me there was someone asking for me on the telephone.\n\n\"I didn't recognise the voice,\" she said, looking rather puzzled.\n\nIt was the summer holidays and I had been trying to find ways to make money. I had decided to put up a notice in the window of the local newsagent: \"Pet Minder\" with our home phone number. I had waited and waited, but nobody had called. Until now. I picked up the phone.\n\n\"We have five German Shepherds,\" rapped out the voice on the other end, \"and we are going away for three weeks. We need someone to come and feed them every day, and check their water. Are you willing?\"\n\nI was willing. Especially for ten dollars a day. So I was put in charge of five German Shepherds: mother, auntie, and three offspring. I never met the father. I had to go every day to feed them and also to administer medicine for some mystery condition—little blue pills which I had to hide in their dog food.\n\nThe dogs had a huge yard to run around in, but each day when I arrived they would all be lying together in the laundry, looking depressed. At the sight of me, though, they were transformed, and began wildly loping in circles, barking, and then they all jumped all over me all at once, licking my face. For some reason, I wasn't afraid of them, despite their huge paws, their narrow dark faces, their wild eyes, their yellow teeth, and their tongues hanging out.\n\nTheir canned food was kept on a shelf in the laundry—horrible jellied meat with a terrible smell. Every day I put it in their bowls, hiding the pills inside the mess as I had been instructed. They gulped it down in seconds as though they hadn't eaten for weeks. As soon as the food was gone, they would gaze at me intently, all those desperate eyes (ten of them), just in case there was more to come. Giving up at last, they would gallop away, up and down the length of the backyard.\n\nAs I say, this happened every day, exactly the same routine. I was doing so well.\n\nUntil...\n\nOn the fifteenth day, when I arrived at the house, the dogs were not there. All of them were gone. Mother, auntie, and the three daughters. Vanished.\n\nLooking down the yard, I could see at once what had happened. They'd dug a tunnel under the fence, just like prisoners of war in the movies. When I inspected the hole, I had to admire their initiative. Grudgingly. Because clearly now, I had a BIG problem.",
+      "prompt": "The dog-sitter's mother was puzzled because",
+      "options": [
+        {
+          "label": "A",
+          "text": "the dog-sitter seldom used the phone."
+        },
+        {
+          "label": "B",
+          "text": "the caller's voice was unfamiliar to her."
+        },
+        {
+          "label": "C",
+          "text": "the dog-sitter was unable to take the call."
+        },
+        {
+          "label": "D",
+          "text": "the caller rang while she was sleeping."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'I didn't recognise the voice,' she said, looking rather puzzled.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nDog-sitting for beginners\n\nI was lying on my bed reading a library book when my mother told me there was someone asking for me on the telephone.\n\n\"I didn't recognise the voice,\" she said, looking rather puzzled.\n\nIt was the summer holidays and I had been trying to find ways to make money. I had decided to put up a notice in the window of the local newsagent: \"Pet Minder\" with our home phone number. I had waited and waited, but nobody had called. Until now. I picked up the phone.\n\n\"We have five German Shepherds,\" rapped out the voice on the other end, \"and we are going away for three weeks. We need someone to come and feed them every day, and check their water. Are you willing?\"\n\nI was willing. Especially for ten dollars a day. So I was put in charge of five German Shepherds: mother, auntie, and three offspring. I never met the father. I had to go every day to feed them and also to administer medicine for some mystery condition—little blue pills which I had to hide in their dog food.\n\nThe dogs had a huge yard to run around in, but each day when I arrived they would all be lying together in the laundry, looking depressed. At the sight of me, though, they were transformed, and began wildly loping in circles, barking, and then they all jumped all over me all at once, licking my face. For some reason, I wasn't afraid of them, despite their huge paws, their narrow dark faces, their wild eyes, their yellow teeth, and their tongues hanging out.\n\nTheir canned food was kept on a shelf in the laundry—horrible jellied meat with a terrible smell. Every day I put it in their bowls, hiding the pills inside the mess as I had been instructed. They gulped it down in seconds as though they hadn't eaten for weeks. As soon as the food was gone, they would gaze at me intently, all those desperate eyes (ten of them), just in case there was more to come. Giving up at last, they would gallop away, up and down the length of the backyard.\n\nAs I say, this happened every day, exactly the same routine. I was doing so well.\n\nUntil...\n\nOn the fifteenth day, when I arrived at the house, the dogs were not there. All of them were gone. Mother, auntie, and the three daughters. Vanished.\n\nLooking down the yard, I could see at once what had happened. They'd dug a tunnel under the fence, just like prisoners of war in the movies. When I inspected the hole, I had to admire their initiative. Grudgingly. Because clearly now, I had a BIG problem.",
+      "prompt": "\"I had waited and waited but nobody had called.\" (paragraph 3)\nWhich option could replace this sentence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "I had waited and waited. However, nobody had called."
+        },
+        {
+          "label": "B",
+          "text": "I had waited and waited since nobody had called."
+        },
+        {
+          "label": "C",
+          "text": "I had waited and waited. Somehow, nobody had called."
+        },
+        {
+          "label": "D",
+          "text": "I had waited and waited when nobody had called."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'but' marks a contrast with the expectation of a call, and 'However' does the same job.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2018orig-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nDog-sitting for beginners\n\nI was lying on my bed reading a library book when my mother told me there was someone asking for me on the telephone.\n\n\"I didn't recognise the voice,\" she said, looking rather puzzled.\n\nIt was the summer holidays and I had been trying to find ways to make money. I had decided to put up a notice in the window of the local newsagent: \"Pet Minder\" with our home phone number. I had waited and waited, but nobody had called. Until now. I picked up the phone.\n\n\"We have five German Shepherds,\" rapped out the voice on the other end, \"and we are going away for three weeks. We need someone to come and feed them every day, and check their water. Are you willing?\"\n\nI was willing. Especially for ten dollars a day. So I was put in charge of five German Shepherds: mother, auntie, and three offspring. I never met the father. I had to go every day to feed them and also to administer medicine for some mystery condition—little blue pills which I had to hide in their dog food.\n\nThe dogs had a huge yard to run around in, but each day when I arrived they would all be lying together in the laundry, looking depressed. At the sight of me, though, they were transformed, and began wildly loping in circles, barking, and then they all jumped all over me all at once, licking my face. For some reason, I wasn't afraid of them, despite their huge paws, their narrow dark faces, their wild eyes, their yellow teeth, and their tongues hanging out.\n\nTheir canned food was kept on a shelf in the laundry—horrible jellied meat with a terrible smell. Every day I put it in their bowls, hiding the pills inside the mess as I had been instructed. They gulped it down in seconds as though they hadn't eaten for weeks. As soon as the food was gone, they would gaze at me intently, all those desperate eyes (ten of them), just in case there was more to come. Giving up at last, they would gallop away, up and down the length of the backyard.\n\nAs I say, this happened every day, exactly the same routine. I was doing so well.\n\nUntil...\n\nOn the fifteenth day, when I arrived at the house, the dogs were not there. All of them were gone. Mother, auntie, and the three daughters. Vanished.\n\nLooking down the yard, I could see at once what had happened. They'd dug a tunnel under the fence, just like prisoners of war in the movies. When I inspected the hole, I had to admire their initiative. Grudgingly. Because clearly now, I had a BIG problem.",
+      "prompt": "The dogs have a \"mystery condition\". This means that their condition",
+      "options": [
+        {
+          "label": "A",
+          "text": "has strange symptoms."
+        },
+        {
+          "label": "B",
+          "text": "has not been explained."
+        },
+        {
+          "label": "C",
+          "text": "is difficult to treat."
+        },
+        {
+          "label": "D",
+          "text": "is not yet diagnosed."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The narrator is simply never told what the pills are for — the condition is left unexplained to them.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018orig-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nDog-sitting for beginners\n\nI was lying on my bed reading a library book when my mother told me there was someone asking for me on the telephone.\n\n\"I didn't recognise the voice,\" she said, looking rather puzzled.\n\nIt was the summer holidays and I had been trying to find ways to make money. I had decided to put up a notice in the window of the local newsagent: \"Pet Minder\" with our home phone number. I had waited and waited, but nobody had called. Until now. I picked up the phone.\n\n\"We have five German Shepherds,\" rapped out the voice on the other end, \"and we are going away for three weeks. We need someone to come and feed them every day, and check their water. Are you willing?\"\n\nI was willing. Especially for ten dollars a day. So I was put in charge of five German Shepherds: mother, auntie, and three offspring. I never met the father. I had to go every day to feed them and also to administer medicine for some mystery condition—little blue pills which I had to hide in their dog food.\n\nThe dogs had a huge yard to run around in, but each day when I arrived they would all be lying together in the laundry, looking depressed. At the sight of me, though, they were transformed, and began wildly loping in circles, barking, and then they all jumped all over me all at once, licking my face. For some reason, I wasn't afraid of them, despite their huge paws, their narrow dark faces, their wild eyes, their yellow teeth, and their tongues hanging out.\n\nTheir canned food was kept on a shelf in the laundry—horrible jellied meat with a terrible smell. Every day I put it in their bowls, hiding the pills inside the mess as I had been instructed. They gulped it down in seconds as though they hadn't eaten for weeks. As soon as the food was gone, they would gaze at me intently, all those desperate eyes (ten of them), just in case there was more to come. Giving up at last, they would gallop away, up and down the length of the backyard.\n\nAs I say, this happened every day, exactly the same routine. I was doing so well.\n\nUntil...\n\nOn the fifteenth day, when I arrived at the house, the dogs were not there. All of them were gone. Mother, auntie, and the three daughters. Vanished.\n\nLooking down the yard, I could see at once what had happened. They'd dug a tunnel under the fence, just like prisoners of war in the movies. When I inspected the hole, I had to admire their initiative. Grudgingly. Because clearly now, I had a BIG problem.",
+      "prompt": "\"they would all be lying together in the laundry, looking depressed\" (paragraph 6)\nThe words 'looking depressed' form an adverbial clause which gives more information about the verb 'lying'. What type of information does the clause provide?",
+      "options": [
+        {
+          "label": "A",
+          "text": "manner"
+        },
+        {
+          "label": "B",
+          "text": "time"
+        },
+        {
+          "label": "C",
+          "text": "place"
+        },
+        {
+          "label": "D",
+          "text": "frequency"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'looking depressed' tells us how the dogs were lying — that is information about manner.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2018orig-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nDog-sitting for beginners\n\nI was lying on my bed reading a library book when my mother told me there was someone asking for me on the telephone.\n\n\"I didn't recognise the voice,\" she said, looking rather puzzled.\n\nIt was the summer holidays and I had been trying to find ways to make money. I had decided to put up a notice in the window of the local newsagent: \"Pet Minder\" with our home phone number. I had waited and waited, but nobody had called. Until now. I picked up the phone.\n\n\"We have five German Shepherds,\" rapped out the voice on the other end, \"and we are going away for three weeks. We need someone to come and feed them every day, and check their water. Are you willing?\"\n\nI was willing. Especially for ten dollars a day. So I was put in charge of five German Shepherds: mother, auntie, and three offspring. I never met the father. I had to go every day to feed them and also to administer medicine for some mystery condition—little blue pills which I had to hide in their dog food.\n\nThe dogs had a huge yard to run around in, but each day when I arrived they would all be lying together in the laundry, looking depressed. At the sight of me, though, they were transformed, and began wildly loping in circles, barking, and then they all jumped all over me all at once, licking my face. For some reason, I wasn't afraid of them, despite their huge paws, their narrow dark faces, their wild eyes, their yellow teeth, and their tongues hanging out.\n\nTheir canned food was kept on a shelf in the laundry—horrible jellied meat with a terrible smell. Every day I put it in their bowls, hiding the pills inside the mess as I had been instructed. They gulped it down in seconds as though they hadn't eaten for weeks. As soon as the food was gone, they would gaze at me intently, all those desperate eyes (ten of them), just in case there was more to come. Giving up at last, they would gallop away, up and down the length of the backyard.\n\nAs I say, this happened every day, exactly the same routine. I was doing so well.\n\nUntil...\n\nOn the fifteenth day, when I arrived at the house, the dogs were not there. All of them were gone. Mother, auntie, and the three daughters. Vanished.\n\nLooking down the yard, I could see at once what had happened. They'd dug a tunnel under the fence, just like prisoners of war in the movies. When I inspected the hole, I had to admire their initiative. Grudgingly. Because clearly now, I had a BIG problem.",
+      "prompt": "The dogs usually look depressed. What changes their mood?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the dog-sitter filling their food bowls"
+        },
+        {
+          "label": "B",
+          "text": "the arrival of the dog-sitter"
+        },
+        {
+          "label": "C",
+          "text": "the dogs swallowing their pills"
+        },
+        {
+          "label": "D",
+          "text": "the dogs running around the yard"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'At the sight of me, though, they were transformed' — it is the sitter's arrival that lifts them.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nDog-sitting for beginners\n\nI was lying on my bed reading a library book when my mother told me there was someone asking for me on the telephone.\n\n\"I didn't recognise the voice,\" she said, looking rather puzzled.\n\nIt was the summer holidays and I had been trying to find ways to make money. I had decided to put up a notice in the window of the local newsagent: \"Pet Minder\" with our home phone number. I had waited and waited, but nobody had called. Until now. I picked up the phone.\n\n\"We have five German Shepherds,\" rapped out the voice on the other end, \"and we are going away for three weeks. We need someone to come and feed them every day, and check their water. Are you willing?\"\n\nI was willing. Especially for ten dollars a day. So I was put in charge of five German Shepherds: mother, auntie, and three offspring. I never met the father. I had to go every day to feed them and also to administer medicine for some mystery condition—little blue pills which I had to hide in their dog food.\n\nThe dogs had a huge yard to run around in, but each day when I arrived they would all be lying together in the laundry, looking depressed. At the sight of me, though, they were transformed, and began wildly loping in circles, barking, and then they all jumped all over me all at once, licking my face. For some reason, I wasn't afraid of them, despite their huge paws, their narrow dark faces, their wild eyes, their yellow teeth, and their tongues hanging out.\n\nTheir canned food was kept on a shelf in the laundry—horrible jellied meat with a terrible smell. Every day I put it in their bowls, hiding the pills inside the mess as I had been instructed. They gulped it down in seconds as though they hadn't eaten for weeks. As soon as the food was gone, they would gaze at me intently, all those desperate eyes (ten of them), just in case there was more to come. Giving up at last, they would gallop away, up and down the length of the backyard.\n\nAs I say, this happened every day, exactly the same routine. I was doing so well.\n\nUntil...\n\nOn the fifteenth day, when I arrived at the house, the dogs were not there. All of them were gone. Mother, auntie, and the three daughters. Vanished.\n\nLooking down the yard, I could see at once what had happened. They'd dug a tunnel under the fence, just like prisoners of war in the movies. When I inspected the hole, I had to admire their initiative. Grudgingly. Because clearly now, I had a BIG problem.",
+      "prompt": "Which word is an ANTONYM of 'intently'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "sharply"
+        },
+        {
+          "label": "B",
+          "text": "firmly"
+        },
+        {
+          "label": "C",
+          "text": "dreamily"
+        },
+        {
+          "label": "D",
+          "text": "closely"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Intently' means with focused concentration; 'dreamily' is its opposite.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018orig-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nDog-sitting for beginners\n\nI was lying on my bed reading a library book when my mother told me there was someone asking for me on the telephone.\n\n\"I didn't recognise the voice,\" she said, looking rather puzzled.\n\nIt was the summer holidays and I had been trying to find ways to make money. I had decided to put up a notice in the window of the local newsagent: \"Pet Minder\" with our home phone number. I had waited and waited, but nobody had called. Until now. I picked up the phone.\n\n\"We have five German Shepherds,\" rapped out the voice on the other end, \"and we are going away for three weeks. We need someone to come and feed them every day, and check their water. Are you willing?\"\n\nI was willing. Especially for ten dollars a day. So I was put in charge of five German Shepherds: mother, auntie, and three offspring. I never met the father. I had to go every day to feed them and also to administer medicine for some mystery condition—little blue pills which I had to hide in their dog food.\n\nThe dogs had a huge yard to run around in, but each day when I arrived they would all be lying together in the laundry, looking depressed. At the sight of me, though, they were transformed, and began wildly loping in circles, barking, and then they all jumped all over me all at once, licking my face. For some reason, I wasn't afraid of them, despite their huge paws, their narrow dark faces, their wild eyes, their yellow teeth, and their tongues hanging out.\n\nTheir canned food was kept on a shelf in the laundry—horrible jellied meat with a terrible smell. Every day I put it in their bowls, hiding the pills inside the mess as I had been instructed. They gulped it down in seconds as though they hadn't eaten for weeks. As soon as the food was gone, they would gaze at me intently, all those desperate eyes (ten of them), just in case there was more to come. Giving up at last, they would gallop away, up and down the length of the backyard.\n\nAs I say, this happened every day, exactly the same routine. I was doing so well.\n\nUntil...\n\nOn the fifteenth day, when I arrived at the house, the dogs were not there. All of them were gone. Mother, auntie, and the three daughters. Vanished.\n\nLooking down the yard, I could see at once what had happened. They'd dug a tunnel under the fence, just like prisoners of war in the movies. When I inspected the hole, I had to admire their initiative. Grudgingly. Because clearly now, I had a BIG problem.",
+      "prompt": "The dog-sitter's initial attitude to the dogs' escape was one of",
+      "options": [
+        {
+          "label": "A",
+          "text": "hostile praise."
+        },
+        {
+          "label": "B",
+          "text": "unwilling criticism."
+        },
+        {
+          "label": "C",
+          "text": "reluctant respect."
+        },
+        {
+          "label": "D",
+          "text": "prickly complaint."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'I had to admire their initiative. Grudgingly.' — respect given unwillingly.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018orig-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 28 to 35.\n\nDog-sitting for beginners\n\nI was lying on my bed reading a library book when my mother told me there was someone asking for me on the telephone.\n\n\"I didn't recognise the voice,\" she said, looking rather puzzled.\n\nIt was the summer holidays and I had been trying to find ways to make money. I had decided to put up a notice in the window of the local newsagent: \"Pet Minder\" with our home phone number. I had waited and waited, but nobody had called. Until now. I picked up the phone.\n\n\"We have five German Shepherds,\" rapped out the voice on the other end, \"and we are going away for three weeks. We need someone to come and feed them every day, and check their water. Are you willing?\"\n\nI was willing. Especially for ten dollars a day. So I was put in charge of five German Shepherds: mother, auntie, and three offspring. I never met the father. I had to go every day to feed them and also to administer medicine for some mystery condition—little blue pills which I had to hide in their dog food.\n\nThe dogs had a huge yard to run around in, but each day when I arrived they would all be lying together in the laundry, looking depressed. At the sight of me, though, they were transformed, and began wildly loping in circles, barking, and then they all jumped all over me all at once, licking my face. For some reason, I wasn't afraid of them, despite their huge paws, their narrow dark faces, their wild eyes, their yellow teeth, and their tongues hanging out.\n\nTheir canned food was kept on a shelf in the laundry—horrible jellied meat with a terrible smell. Every day I put it in their bowls, hiding the pills inside the mess as I had been instructed. They gulped it down in seconds as though they hadn't eaten for weeks. As soon as the food was gone, they would gaze at me intently, all those desperate eyes (ten of them), just in case there was more to come. Giving up at last, they would gallop away, up and down the length of the backyard.\n\nAs I say, this happened every day, exactly the same routine. I was doing so well.\n\nUntil...\n\nOn the fifteenth day, when I arrived at the house, the dogs were not there. All of them were gone. Mother, auntie, and the three daughters. Vanished.\n\nLooking down the yard, I could see at once what had happened. They'd dug a tunnel under the fence, just like prisoners of war in the movies. When I inspected the hole, I had to admire their initiative. Grudgingly. Because clearly now, I had a BIG problem.",
+      "prompt": "Which of the following is NOT a reason the writer uses capital letters for the word 'BIG'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to indicate the size of the problem"
+        },
+        {
+          "label": "B",
+          "text": "to emphasise the seriousness of the situation"
+        },
+        {
+          "label": "C",
+          "text": "to match the meaning of the word"
+        },
+        {
+          "label": "D",
+          "text": "to suggest the size of the dogs"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The capitals stress how large and serious the problem is, not the physical size of the dogs.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018orig-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, the Russian cosmonaut Alexey Leonov became the first human to walk in space. Tethered to his spaceship by a 5-metre cable, he floated above Earth for 12 minutes. This event was of enormous importance for the advancement of space exploration and, for Russia, it was a matter of immense national pride that a Russian rather than an American was the first to walk in space.\n\nOn that day, Alexey Leonov and Pavel Belyayev made an orbit of Earth in their two-man Voskhod capsule. On completion of this orbit, Leonov was given the all clear to commence his spacewalk. Leonov crawled into the airlock, opened the hatch and began to float in space. This is how he described the experience:\n\n'It was so quiet I could even hear my heart beat. I was surrounded by stars and was floating without much control. I will never forget the moment... Of course, I did not know that I was about to experience the most difficult moments of my life—getting back into the capsule ...'\n\nLeonov's spacesuit ballooned dramatically out of shape in the vacuum of outer space and the fabric threatened to tear open as it stiffened and stretched. His hands slipped out of his gloves and his feet came out of his boots. Leonov, no longer able to squeeze through the small hatch to return to the spacecraft, had to think quickly. In order to re-enter the craft, he decided to release air from his suit, a perilous action that began to cause decompression sickness. 'I could feel pins and needles in my hands and legs,' he recollected.\n\nHowever, Leonov's difficulties did not end on his return to the craft. Oxygen levels inside the capsule soared uncontrollably to dangerously explosive peaks and during the return to Earth, the automatic re-entry systems failed to work. With a combination of luck and skill, the cosmonauts landed their craft 2000 kilometres from the intended site and deep in a Siberian forest. Leonov and Belyayev spent two nights huddled in their capsule in sub-zero temperatures, fearful of wolves and bears, before being rescued.\n\nThe mission was hailed as a complete success by Russia. However, this first spacewalk tested the physical limits and endurance of Leonov, and the return to Earth imposed tremendous stress on both men, as well as their equipment. The dramatic events that unfolded in the spacewalk became the subject of a 2017 Russian historical film titled The Age of Pioneers.",
+      "prompt": "According to the first paragraph, which of the following best describes Alexey Leonov's achievement?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was the first time humans had organised an exploration in space."
+        },
+        {
+          "label": "B",
+          "text": "It marked the start of an international competition in space exploration."
+        },
+        {
+          "label": "C",
+          "text": "It opened new possibilities for further important space exploration."
+        },
+        {
+          "label": "D",
+          "text": "It was regarded as the longest period of exploration undertaken in space."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'This event was of enormous importance for the advancement of space exploration.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, the Russian cosmonaut Alexey Leonov became the first human to walk in space. Tethered to his spaceship by a 5-metre cable, he floated above Earth for 12 minutes. This event was of enormous importance for the advancement of space exploration and, for Russia, it was a matter of immense national pride that a Russian rather than an American was the first to walk in space.\n\nOn that day, Alexey Leonov and Pavel Belyayev made an orbit of Earth in their two-man Voskhod capsule. On completion of this orbit, Leonov was given the all clear to commence his spacewalk. Leonov crawled into the airlock, opened the hatch and began to float in space. This is how he described the experience:\n\n'It was so quiet I could even hear my heart beat. I was surrounded by stars and was floating without much control. I will never forget the moment... Of course, I did not know that I was about to experience the most difficult moments of my life—getting back into the capsule ...'\n\nLeonov's spacesuit ballooned dramatically out of shape in the vacuum of outer space and the fabric threatened to tear open as it stiffened and stretched. His hands slipped out of his gloves and his feet came out of his boots. Leonov, no longer able to squeeze through the small hatch to return to the spacecraft, had to think quickly. In order to re-enter the craft, he decided to release air from his suit, a perilous action that began to cause decompression sickness. 'I could feel pins and needles in my hands and legs,' he recollected.\n\nHowever, Leonov's difficulties did not end on his return to the craft. Oxygen levels inside the capsule soared uncontrollably to dangerously explosive peaks and during the return to Earth, the automatic re-entry systems failed to work. With a combination of luck and skill, the cosmonauts landed their craft 2000 kilometres from the intended site and deep in a Siberian forest. Leonov and Belyayev spent two nights huddled in their capsule in sub-zero temperatures, fearful of wolves and bears, before being rescued.\n\nThe mission was hailed as a complete success by Russia. However, this first spacewalk tested the physical limits and endurance of Leonov, and the return to Earth imposed tremendous stress on both men, as well as their equipment. The dramatic events that unfolded in the spacewalk became the subject of a 2017 Russian historical film titled The Age of Pioneers.",
+      "prompt": "In the word 'cosmonaut', the root 'cosmo' relates to the word universe. What word does the suffix 'naut' most likely relate to?",
+      "options": [
+        {
+          "label": "A",
+          "text": "traveller"
+        },
+        {
+          "label": "B",
+          "text": "technician"
+        },
+        {
+          "label": "C",
+          "text": "scientist"
+        },
+        {
+          "label": "D",
+          "text": "passenger"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'-naut' comes from a word meaning sailor or voyager (compare 'astronaut', 'nautical'), so a cosmonaut is a 'universe traveller'.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018orig-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, the Russian cosmonaut Alexey Leonov became the first human to walk in space. Tethered to his spaceship by a 5-metre cable, he floated above Earth for 12 minutes. This event was of enormous importance for the advancement of space exploration and, for Russia, it was a matter of immense national pride that a Russian rather than an American was the first to walk in space.\n\nOn that day, Alexey Leonov and Pavel Belyayev made an orbit of Earth in their two-man Voskhod capsule. On completion of this orbit, Leonov was given the all clear to commence his spacewalk. Leonov crawled into the airlock, opened the hatch and began to float in space. This is how he described the experience:\n\n'It was so quiet I could even hear my heart beat. I was surrounded by stars and was floating without much control. I will never forget the moment... Of course, I did not know that I was about to experience the most difficult moments of my life—getting back into the capsule ...'\n\nLeonov's spacesuit ballooned dramatically out of shape in the vacuum of outer space and the fabric threatened to tear open as it stiffened and stretched. His hands slipped out of his gloves and his feet came out of his boots. Leonov, no longer able to squeeze through the small hatch to return to the spacecraft, had to think quickly. In order to re-enter the craft, he decided to release air from his suit, a perilous action that began to cause decompression sickness. 'I could feel pins and needles in my hands and legs,' he recollected.\n\nHowever, Leonov's difficulties did not end on his return to the craft. Oxygen levels inside the capsule soared uncontrollably to dangerously explosive peaks and during the return to Earth, the automatic re-entry systems failed to work. With a combination of luck and skill, the cosmonauts landed their craft 2000 kilometres from the intended site and deep in a Siberian forest. Leonov and Belyayev spent two nights huddled in their capsule in sub-zero temperatures, fearful of wolves and bears, before being rescued.\n\nThe mission was hailed as a complete success by Russia. However, this first spacewalk tested the physical limits and endurance of Leonov, and the return to Earth imposed tremendous stress on both men, as well as their equipment. The dramatic events that unfolded in the spacewalk became the subject of a 2017 Russian historical film titled The Age of Pioneers.",
+      "prompt": "Why does the writer include quotations from Leonov?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to explain how unprepared for the spacewalk he was"
+        },
+        {
+          "label": "B",
+          "text": "to add a personal touch to the factual description"
+        },
+        {
+          "label": "C",
+          "text": "to emphasise how a spacewalk is conducted"
+        },
+        {
+          "label": "D",
+          "text": "to show how the events would appear in the film"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "His first-person words ('I could even hear my heart beat') bring a personal voice to an otherwise factual account.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018orig-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, the Russian cosmonaut Alexey Leonov became the first human to walk in space. Tethered to his spaceship by a 5-metre cable, he floated above Earth for 12 minutes. This event was of enormous importance for the advancement of space exploration and, for Russia, it was a matter of immense national pride that a Russian rather than an American was the first to walk in space.\n\nOn that day, Alexey Leonov and Pavel Belyayev made an orbit of Earth in their two-man Voskhod capsule. On completion of this orbit, Leonov was given the all clear to commence his spacewalk. Leonov crawled into the airlock, opened the hatch and began to float in space. This is how he described the experience:\n\n'It was so quiet I could even hear my heart beat. I was surrounded by stars and was floating without much control. I will never forget the moment... Of course, I did not know that I was about to experience the most difficult moments of my life—getting back into the capsule ...'\n\nLeonov's spacesuit ballooned dramatically out of shape in the vacuum of outer space and the fabric threatened to tear open as it stiffened and stretched. His hands slipped out of his gloves and his feet came out of his boots. Leonov, no longer able to squeeze through the small hatch to return to the spacecraft, had to think quickly. In order to re-enter the craft, he decided to release air from his suit, a perilous action that began to cause decompression sickness. 'I could feel pins and needles in my hands and legs,' he recollected.\n\nHowever, Leonov's difficulties did not end on his return to the craft. Oxygen levels inside the capsule soared uncontrollably to dangerously explosive peaks and during the return to Earth, the automatic re-entry systems failed to work. With a combination of luck and skill, the cosmonauts landed their craft 2000 kilometres from the intended site and deep in a Siberian forest. Leonov and Belyayev spent two nights huddled in their capsule in sub-zero temperatures, fearful of wolves and bears, before being rescued.\n\nThe mission was hailed as a complete success by Russia. However, this first spacewalk tested the physical limits and endurance of Leonov, and the return to Earth imposed tremendous stress on both men, as well as their equipment. The dramatic events that unfolded in the spacewalk became the subject of a 2017 Russian historical film titled The Age of Pioneers.",
+      "prompt": "Which word could best replace the words 'Of course' in Leonov's account of his spacewalk experience?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Seriously"
+        },
+        {
+          "label": "B",
+          "text": "Importantly"
+        },
+        {
+          "label": "C",
+          "text": "Consequently"
+        },
+        {
+          "label": "D",
+          "text": "Obviously"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Here 'Of course' means 'as you would expect', which 'Obviously' also conveys.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018orig-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, the Russian cosmonaut Alexey Leonov became the first human to walk in space. Tethered to his spaceship by a 5-metre cable, he floated above Earth for 12 minutes. This event was of enormous importance for the advancement of space exploration and, for Russia, it was a matter of immense national pride that a Russian rather than an American was the first to walk in space.\n\nOn that day, Alexey Leonov and Pavel Belyayev made an orbit of Earth in their two-man Voskhod capsule. On completion of this orbit, Leonov was given the all clear to commence his spacewalk. Leonov crawled into the airlock, opened the hatch and began to float in space. This is how he described the experience:\n\n'It was so quiet I could even hear my heart beat. I was surrounded by stars and was floating without much control. I will never forget the moment... Of course, I did not know that I was about to experience the most difficult moments of my life—getting back into the capsule ...'\n\nLeonov's spacesuit ballooned dramatically out of shape in the vacuum of outer space and the fabric threatened to tear open as it stiffened and stretched. His hands slipped out of his gloves and his feet came out of his boots. Leonov, no longer able to squeeze through the small hatch to return to the spacecraft, had to think quickly. In order to re-enter the craft, he decided to release air from his suit, a perilous action that began to cause decompression sickness. 'I could feel pins and needles in my hands and legs,' he recollected.\n\nHowever, Leonov's difficulties did not end on his return to the craft. Oxygen levels inside the capsule soared uncontrollably to dangerously explosive peaks and during the return to Earth, the automatic re-entry systems failed to work. With a combination of luck and skill, the cosmonauts landed their craft 2000 kilometres from the intended site and deep in a Siberian forest. Leonov and Belyayev spent two nights huddled in their capsule in sub-zero temperatures, fearful of wolves and bears, before being rescued.\n\nThe mission was hailed as a complete success by Russia. However, this first spacewalk tested the physical limits and endurance of Leonov, and the return to Earth imposed tremendous stress on both men, as well as their equipment. The dramatic events that unfolded in the spacewalk became the subject of a 2017 Russian historical film titled The Age of Pioneers.",
+      "prompt": "What was the first thing that went wrong for Leonov on his spacewalk?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He experienced difficulty entering the space capsule."
+        },
+        {
+          "label": "B",
+          "text": "His spacesuit was in danger of disintegrating."
+        },
+        {
+          "label": "C",
+          "text": "He was developing decompression sickness."
+        },
+        {
+          "label": "D",
+          "text": "His oxygen supply was diminishing rapidly."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Before he could not fit through the hatch, his suit had already 'ballooned dramatically out of shape' and 'threatened to tear open'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q41",
+      "number": 41,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, the Russian cosmonaut Alexey Leonov became the first human to walk in space. Tethered to his spaceship by a 5-metre cable, he floated above Earth for 12 minutes. This event was of enormous importance for the advancement of space exploration and, for Russia, it was a matter of immense national pride that a Russian rather than an American was the first to walk in space.\n\nOn that day, Alexey Leonov and Pavel Belyayev made an orbit of Earth in their two-man Voskhod capsule. On completion of this orbit, Leonov was given the all clear to commence his spacewalk. Leonov crawled into the airlock, opened the hatch and began to float in space. This is how he described the experience:\n\n'It was so quiet I could even hear my heart beat. I was surrounded by stars and was floating without much control. I will never forget the moment... Of course, I did not know that I was about to experience the most difficult moments of my life—getting back into the capsule ...'\n\nLeonov's spacesuit ballooned dramatically out of shape in the vacuum of outer space and the fabric threatened to tear open as it stiffened and stretched. His hands slipped out of his gloves and his feet came out of his boots. Leonov, no longer able to squeeze through the small hatch to return to the spacecraft, had to think quickly. In order to re-enter the craft, he decided to release air from his suit, a perilous action that began to cause decompression sickness. 'I could feel pins and needles in my hands and legs,' he recollected.\n\nHowever, Leonov's difficulties did not end on his return to the craft. Oxygen levels inside the capsule soared uncontrollably to dangerously explosive peaks and during the return to Earth, the automatic re-entry systems failed to work. With a combination of luck and skill, the cosmonauts landed their craft 2000 kilometres from the intended site and deep in a Siberian forest. Leonov and Belyayev spent two nights huddled in their capsule in sub-zero temperatures, fearful of wolves and bears, before being rescued.\n\nThe mission was hailed as a complete success by Russia. However, this first spacewalk tested the physical limits and endurance of Leonov, and the return to Earth imposed tremendous stress on both men, as well as their equipment. The dramatic events that unfolded in the spacewalk became the subject of a 2017 Russian historical film titled The Age of Pioneers.",
+      "prompt": "Using information from the text, which statement best describes Leonov's decision to release air from his suit?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It was a necessary risk."
+        },
+        {
+          "label": "B",
+          "text": "It was brave but foolish."
+        },
+        {
+          "label": "C",
+          "text": "It was a dangerous error."
+        },
+        {
+          "label": "D",
+          "text": "It was sudden and automatic."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "He 'had to think quickly' and chose 'a perilous action' as the only way back into the craft — a necessary risk.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q42",
+      "number": 42,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nAlexey Leonov\n\nOn 18 March 1965, the Russian cosmonaut Alexey Leonov became the first human to walk in space. Tethered to his spaceship by a 5-metre cable, he floated above Earth for 12 minutes. This event was of enormous importance for the advancement of space exploration and, for Russia, it was a matter of immense national pride that a Russian rather than an American was the first to walk in space.\n\nOn that day, Alexey Leonov and Pavel Belyayev made an orbit of Earth in their two-man Voskhod capsule. On completion of this orbit, Leonov was given the all clear to commence his spacewalk. Leonov crawled into the airlock, opened the hatch and began to float in space. This is how he described the experience:\n\n'It was so quiet I could even hear my heart beat. I was surrounded by stars and was floating without much control. I will never forget the moment... Of course, I did not know that I was about to experience the most difficult moments of my life—getting back into the capsule ...'\n\nLeonov's spacesuit ballooned dramatically out of shape in the vacuum of outer space and the fabric threatened to tear open as it stiffened and stretched. His hands slipped out of his gloves and his feet came out of his boots. Leonov, no longer able to squeeze through the small hatch to return to the spacecraft, had to think quickly. In order to re-enter the craft, he decided to release air from his suit, a perilous action that began to cause decompression sickness. 'I could feel pins and needles in my hands and legs,' he recollected.\n\nHowever, Leonov's difficulties did not end on his return to the craft. Oxygen levels inside the capsule soared uncontrollably to dangerously explosive peaks and during the return to Earth, the automatic re-entry systems failed to work. With a combination of luck and skill, the cosmonauts landed their craft 2000 kilometres from the intended site and deep in a Siberian forest. Leonov and Belyayev spent two nights huddled in their capsule in sub-zero temperatures, fearful of wolves and bears, before being rescued.\n\nThe mission was hailed as a complete success by Russia. However, this first spacewalk tested the physical limits and endurance of Leonov, and the return to Earth imposed tremendous stress on both men, as well as their equipment. The dramatic events that unfolded in the spacewalk became the subject of a 2017 Russian historical film titled The Age of Pioneers.",
+      "prompt": "Although there were problems, Russia proudly called the mission 'a complete success'. According to the text, this is because",
+      "options": [
+        {
+          "label": "A",
+          "text": "it inspired the production of a popular film."
+        },
+        {
+          "label": "B",
+          "text": "it proved that Russia had accomplished more in space than America had."
+        },
+        {
+          "label": "C",
+          "text": "it thoroughly tested all the automatic systems of the spacecraft."
+        },
+        {
+          "label": "D",
+          "text": "it proved that the cosmonauts' equipment performed well."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The opening paragraph stresses the 'immense national pride' that a Russian, rather than an American, was first to walk in space.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q43",
+      "number": 43,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 48.\n\nThe Cave\n\nIt was my friend Dan who threw down the dare\nthat, unlike him, I would never be brave\nand spend a whole night in his creepy cave.\n\nI am determined to prove him wrong.\nTrudging reluctantly through thickening bush,\nI break the eerie evening silence; hum a song.\n\nSearching for the entrance, I see a sinister smile,\na shadowy gap between the jagged rocks.\nMy heart is pounding; I'll wait a little while.\n\nLucky, my dog, without warning darts in,\nbut I'm much bigger and must crouch and crawl\nif I am to enter this mysterious cave at all.\n\nImmediately I see two golden, glowing eyes—\ninstant terror, then dread turns to surprise.\nIt's faithful Lucky waiting somewhere up ahead.\n\nThe dark is a blanket, the stuffy heat intense.\nI stumble, then reach for the torch in my pack\nand shine a beam along a twisting track.\n\nWe follow the tunnel in a feeble beam of light,\nunexpectedly reach a chamber—colossal and cool—\nstop in amazement; it's suddenly so, so bright.\n\nA million glow-worms twinkle like a galaxy of stars,\nrevealing formations of vibrant rainbow hue,\nspear-like pillars of glistening stalagmites too.\n\nDripping icicles dangle from the cavernous roof.\nLucky's bark booms and rumbles; I gasp in awe,\nthen in a split second I realise the truth.\n\nWhat a magical and astonishing discovery!\nThis is not the cave I heard my friend describe.\nDan is not courageous; he's never been inside.\n\n— Sheryl Persson",
+      "prompt": "In the first stanza, Dan's behaviour towards the narrator could be best described as",
+      "options": [
+        {
+          "label": "A",
+          "text": "fearless."
+        },
+        {
+          "label": "B",
+          "text": "secretive."
+        },
+        {
+          "label": "C",
+          "text": "provoking."
+        },
+        {
+          "label": "D",
+          "text": "intimidating."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Dan 'threw down the dare' that the narrator 'would never be brave' — he is goading her into acting.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q44",
+      "number": 44,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 48.\n\nThe Cave\n\nIt was my friend Dan who threw down the dare\nthat, unlike him, I would never be brave\nand spend a whole night in his creepy cave.\n\nI am determined to prove him wrong.\nTrudging reluctantly through thickening bush,\nI break the eerie evening silence; hum a song.\n\nSearching for the entrance, I see a sinister smile,\na shadowy gap between the jagged rocks.\nMy heart is pounding; I'll wait a little while.\n\nLucky, my dog, without warning darts in,\nbut I'm much bigger and must crouch and crawl\nif I am to enter this mysterious cave at all.\n\nImmediately I see two golden, glowing eyes—\ninstant terror, then dread turns to surprise.\nIt's faithful Lucky waiting somewhere up ahead.\n\nThe dark is a blanket, the stuffy heat intense.\nI stumble, then reach for the torch in my pack\nand shine a beam along a twisting track.\n\nWe follow the tunnel in a feeble beam of light,\nunexpectedly reach a chamber—colossal and cool—\nstop in amazement; it's suddenly so, so bright.\n\nA million glow-worms twinkle like a galaxy of stars,\nrevealing formations of vibrant rainbow hue,\nspear-like pillars of glistening stalagmites too.\n\nDripping icicles dangle from the cavernous roof.\nLucky's bark booms and rumbles; I gasp in awe,\nthen in a split second I realise the truth.\n\nWhat a magical and astonishing discovery!\nThis is not the cave I heard my friend describe.\nDan is not courageous; he's never been inside.\n\n— Sheryl Persson",
+      "prompt": "In line 5, the description of the narrator most likely suggests that she",
+      "options": [
+        {
+          "label": "A",
+          "text": "is dragging her feet."
+        },
+        {
+          "label": "B",
+          "text": "is clenching her fists."
+        },
+        {
+          "label": "C",
+          "text": "has her arms crossed over her chest."
+        },
+        {
+          "label": "D",
+          "text": "has her chin up and her chest out."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Trudging reluctantly' suggests slow, unwilling movement — she is dragging her feet.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018orig-q45",
+      "number": 45,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 48.\n\nThe Cave\n\nIt was my friend Dan who threw down the dare\nthat, unlike him, I would never be brave\nand spend a whole night in his creepy cave.\n\nI am determined to prove him wrong.\nTrudging reluctantly through thickening bush,\nI break the eerie evening silence; hum a song.\n\nSearching for the entrance, I see a sinister smile,\na shadowy gap between the jagged rocks.\nMy heart is pounding; I'll wait a little while.\n\nLucky, my dog, without warning darts in,\nbut I'm much bigger and must crouch and crawl\nif I am to enter this mysterious cave at all.\n\nImmediately I see two golden, glowing eyes—\ninstant terror, then dread turns to surprise.\nIt's faithful Lucky waiting somewhere up ahead.\n\nThe dark is a blanket, the stuffy heat intense.\nI stumble, then reach for the torch in my pack\nand shine a beam along a twisting track.\n\nWe follow the tunnel in a feeble beam of light,\nunexpectedly reach a chamber—colossal and cool—\nstop in amazement; it's suddenly so, so bright.\n\nA million glow-worms twinkle like a galaxy of stars,\nrevealing formations of vibrant rainbow hue,\nspear-like pillars of glistening stalagmites too.\n\nDripping icicles dangle from the cavernous roof.\nLucky's bark booms and rumbles; I gasp in awe,\nthen in a split second I realise the truth.\n\nWhat a magical and astonishing discovery!\nThis is not the cave I heard my friend describe.\nDan is not courageous; he's never been inside.\n\n— Sheryl Persson",
+      "prompt": "In the third stanza, what language choice does the poet make and for what purpose?",
+      "options": [
+        {
+          "label": "A",
+          "text": "She uses verbs to convey emotion."
+        },
+        {
+          "label": "B",
+          "text": "She uses a simile to convey the tone."
+        },
+        {
+          "label": "C",
+          "text": "She uses the present tense to convey the backstory."
+        },
+        {
+          "label": "D",
+          "text": "She uses adjectives to convey the mood."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'sinister', 'shadowy' and 'jagged' are adjectives that build a tense, threatening mood at the cave mouth.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2018orig-q46",
+      "number": 46,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 48.\n\nThe Cave\n\nIt was my friend Dan who threw down the dare\nthat, unlike him, I would never be brave\nand spend a whole night in his creepy cave.\n\nI am determined to prove him wrong.\nTrudging reluctantly through thickening bush,\nI break the eerie evening silence; hum a song.\n\nSearching for the entrance, I see a sinister smile,\na shadowy gap between the jagged rocks.\nMy heart is pounding; I'll wait a little while.\n\nLucky, my dog, without warning darts in,\nbut I'm much bigger and must crouch and crawl\nif I am to enter this mysterious cave at all.\n\nImmediately I see two golden, glowing eyes—\ninstant terror, then dread turns to surprise.\nIt's faithful Lucky waiting somewhere up ahead.\n\nThe dark is a blanket, the stuffy heat intense.\nI stumble, then reach for the torch in my pack\nand shine a beam along a twisting track.\n\nWe follow the tunnel in a feeble beam of light,\nunexpectedly reach a chamber—colossal and cool—\nstop in amazement; it's suddenly so, so bright.\n\nA million glow-worms twinkle like a galaxy of stars,\nrevealing formations of vibrant rainbow hue,\nspear-like pillars of glistening stalagmites too.\n\nDripping icicles dangle from the cavernous roof.\nLucky's bark booms and rumbles; I gasp in awe,\nthen in a split second I realise the truth.\n\nWhat a magical and astonishing discovery!\nThis is not the cave I heard my friend describe.\nDan is not courageous; he's never been inside.\n\n— Sheryl Persson",
+      "prompt": "In line 19, what does the word 'feeble' mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "golden"
+        },
+        {
+          "label": "B",
+          "text": "narrow"
+        },
+        {
+          "label": "C",
+          "text": "weak"
+        },
+        {
+          "label": "D",
+          "text": "long"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A 'feeble beam of light' is a weak, faint one.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2018orig-q47",
+      "number": 47,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 48.\n\nThe Cave\n\nIt was my friend Dan who threw down the dare\nthat, unlike him, I would never be brave\nand spend a whole night in his creepy cave.\n\nI am determined to prove him wrong.\nTrudging reluctantly through thickening bush,\nI break the eerie evening silence; hum a song.\n\nSearching for the entrance, I see a sinister smile,\na shadowy gap between the jagged rocks.\nMy heart is pounding; I'll wait a little while.\n\nLucky, my dog, without warning darts in,\nbut I'm much bigger and must crouch and crawl\nif I am to enter this mysterious cave at all.\n\nImmediately I see two golden, glowing eyes—\ninstant terror, then dread turns to surprise.\nIt's faithful Lucky waiting somewhere up ahead.\n\nThe dark is a blanket, the stuffy heat intense.\nI stumble, then reach for the torch in my pack\nand shine a beam along a twisting track.\n\nWe follow the tunnel in a feeble beam of light,\nunexpectedly reach a chamber—colossal and cool—\nstop in amazement; it's suddenly so, so bright.\n\nA million glow-worms twinkle like a galaxy of stars,\nrevealing formations of vibrant rainbow hue,\nspear-like pillars of glistening stalagmites too.\n\nDripping icicles dangle from the cavernous roof.\nLucky's bark booms and rumbles; I gasp in awe,\nthen in a split second I realise the truth.\n\nWhat a magical and astonishing discovery!\nThis is not the cave I heard my friend describe.\nDan is not courageous; he's never been inside.\n\n— Sheryl Persson",
+      "prompt": "Which of the following best describes the narrator's feelings when she sees what's in the cave?",
+      "options": [
+        {
+          "label": "A",
+          "text": "loving"
+        },
+        {
+          "label": "B",
+          "text": "jubilant"
+        },
+        {
+          "label": "C",
+          "text": "playful"
+        },
+        {
+          "label": "D",
+          "text": "thoughtful"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'What a magical and astonishing discovery!' — she is thrilled and elated.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q48",
+      "number": 48,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 48.\n\nThe Cave\n\nIt was my friend Dan who threw down the dare\nthat, unlike him, I would never be brave\nand spend a whole night in his creepy cave.\n\nI am determined to prove him wrong.\nTrudging reluctantly through thickening bush,\nI break the eerie evening silence; hum a song.\n\nSearching for the entrance, I see a sinister smile,\na shadowy gap between the jagged rocks.\nMy heart is pounding; I'll wait a little while.\n\nLucky, my dog, without warning darts in,\nbut I'm much bigger and must crouch and crawl\nif I am to enter this mysterious cave at all.\n\nImmediately I see two golden, glowing eyes—\ninstant terror, then dread turns to surprise.\nIt's faithful Lucky waiting somewhere up ahead.\n\nThe dark is a blanket, the stuffy heat intense.\nI stumble, then reach for the torch in my pack\nand shine a beam along a twisting track.\n\nWe follow the tunnel in a feeble beam of light,\nunexpectedly reach a chamber—colossal and cool—\nstop in amazement; it's suddenly so, so bright.\n\nA million glow-worms twinkle like a galaxy of stars,\nrevealing formations of vibrant rainbow hue,\nspear-like pillars of glistening stalagmites too.\n\nDripping icicles dangle from the cavernous roof.\nLucky's bark booms and rumbles; I gasp in awe,\nthen in a split second I realise the truth.\n\nWhat a magical and astonishing discovery!\nThis is not the cave I heard my friend describe.\nDan is not courageous; he's never been inside.\n\n— Sheryl Persson",
+      "prompt": "Whose motivation drives the action in the poem?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Dan's, as he wants the narrator to tell him what's in the cave"
+        },
+        {
+          "label": "B",
+          "text": "the narrator's, as she wants to alter Dan's perception of her"
+        },
+        {
+          "label": "C",
+          "text": "Dan's, as he wants to see if the narrator can discover his secret"
+        },
+        {
+          "label": "D",
+          "text": "the narrator's, as she wants to prove that Dan is lying"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'I am determined to prove him wrong' — she acts to show Dan she is brave, changing how he sees her.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2018orig-q49",
+      "number": 49,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 49 and 50.\n\nLiving Fossils\n\nFor each question, choose the correct option to complete the passage.\n\nArchaeologists regularly unearth fossils, which are the ancient remains of plants and animals slowly turned to rock over millions of years. (49) ________ there is another kind of 'fossil' to be found on planet Earth: organisms still living, but unchanged for millions of years. These special plants and animals are known as 'living fossils', and are more common than you think. The humble horseshoe crab, for example, closely (50) ________ a very primitive form of animal called a trilobite which died out around 250 million years ago.",
+      "prompt": "Choose the correct option to fill gap (49).",
+      "options": [
+        {
+          "label": "A",
+          "text": "Whereas"
+        },
+        {
+          "label": "B",
+          "text": "Even if"
+        },
+        {
+          "label": "C",
+          "text": "Despite this"
+        },
+        {
+          "label": "D",
+          "text": "Yet"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Yet' signals the contrast between ordinary rock fossils and living organisms that have not changed.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2018orig-q50",
+      "number": 50,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 49 and 50.\n\nLiving Fossils\n\nFor each question, choose the correct option to complete the passage.\n\nArchaeologists regularly unearth fossils, which are the ancient remains of plants and animals slowly turned to rock over millions of years. (49) ________ there is another kind of 'fossil' to be found on planet Earth: organisms still living, but unchanged for millions of years. These special plants and animals are known as 'living fossils', and are more common than you think. The humble horseshoe crab, for example, closely (50) ________ a very primitive form of animal called a trilobite which died out around 250 million years ago.",
+      "prompt": "Choose the correct option to fill gap (50).",
+      "options": [
+        {
+          "label": "A",
+          "text": "resemble"
+        },
+        {
+          "label": "B",
+          "text": "resembling"
+        },
+        {
+          "label": "C",
+          "text": "resembled"
+        },
+        {
+          "label": "D",
+          "text": "resembles"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The singular subject 'the humble horseshoe crab' needs the singular present-tense verb 'resembles'.",
+      "topic": "Syntax"
+    }
+  ]
+}
