@@ -44,6 +44,11 @@ export const TOPIC_COLORS: Record<string, { bg: string; text: string }> = {
   "Locating Information": { bg: "#cffafe", text: "#0e7490" },
   // Selective Thinking Skills — "Problem Solving" is shared with the block above
   "Critical Thinking": { bg: "#ede9fe", text: "#6d28d9" },
+  // ICAS English's real four skill areas
+  "Text comprehension": { bg: "#dbeafe", text: "#1d4ed8" },
+  "Writer's craft": { bg: "#ede9fe", text: "#6d28d9" },
+  "Syntax": { bg: "#ffedd5", text: "#c2410c" },
+  "Vocabulary": { bg: "#fee2e2", text: "#b91c1c" },
 };
 
 export const TOPIC_COLORS_DARK: Record<string, { bg: string; text: string }> = {
@@ -84,4 +89,9 @@ export const TOPIC_COLORS_DARK: Record<string, { bg: string; text: string }> = {
   "Text Structure": { bg: "#4a2a10", text: "#fb923c" },
   "Locating Information": { bg: "#164e57", text: "#22d3ee" },
   "Critical Thinking": { bg: "#2e2455", text: "#a78bfa" },
+  // ICAS English's real four skill areas
+  "Text comprehension": { bg: "#1e3a5f", text: "#60a5fa" },
+  "Writer's craft": { bg: "#2e2455", text: "#a78bfa" },
+  "Syntax": { bg: "#4a2a10", text: "#fb923c" },
+  "Vocabulary": { bg: "#4a1414", text: "#f87171" },
 };

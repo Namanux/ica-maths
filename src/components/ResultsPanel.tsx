@@ -147,6 +147,103 @@ function CategorySpeedSummary({
   );
 }
 
+function DetailedBreakdown({
+  paper,
+  result,
+  onOpenQuestion,
+}: {
+  paper: Paper;
+  result: AttemptResult;
+  onOpenQuestion: (i: number) => void;
+}) {
+  const [missedOnly, setMissedOnly] = useState(false);
+
+  const rows = paper.questions
+    .map((q, i) => ({
+      q,
+      i,
+      qr: result.questionResults.find((r) => r.questionId === q.id),
+    }))
+    .filter(({ qr }) => !missedOnly || !qr?.isCorrect);
+
+  return (
+    <div className="flex flex-col gap-3">
+      <div className="flex items-center justify-between flex-wrap gap-2">
+        <h2 className="text-xs font-semibold tracking-wide uppercase text-muted">
+          Detailed breakdown
+        </h2>
+        <div className="flex gap-1 no-print">
+          <button
+            onClick={() => setMissedOnly(false)}
+            className={`rounded-full px-3 py-1 text-xs font-medium border transition-colors ${
+              !missedOnly
+                ? "bg-accent text-background border-accent"
+                : "border-border hover:bg-surface"
+            }`}
+          >
+            All questions
+          </button>
+          <button
+            onClick={() => setMissedOnly(true)}
+            className={`rounded-full px-3 py-1 text-xs font-medium border transition-colors ${
+              missedOnly
+                ? "bg-accent text-background border-accent"
+                : "border-border hover:bg-surface"
+            }`}
+          >
+            Missed only
+          </button>
+        </div>
+      </div>
+      <div className="overflow-x-auto rounded-lg border border-border">
+        <table className="w-full text-sm">
+          <thead>
+            <tr className="border-b border-border text-left text-muted">
+              <th className="p-2 font-medium">Q</th>
+              <th className="p-2 font-medium">Skill area</th>
+              <th className="p-2 font-medium">Question</th>
+              <th className="p-2 font-medium text-right">Result</th>
+            </tr>
+          </thead>
+          <tbody>
+            {rows.length === 0 && (
+              <tr>
+                <td className="p-3 text-muted" colSpan={4}>
+                  Nothing missed — every question was answered correctly.
+                </td>
+              </tr>
+            )}
+            {rows.map(({ q, i, qr }) => (
+              <tr
+                key={q.id}
+                onClick={() => onOpenQuestion(i)}
+                className="border-b border-border last:border-0 hover:bg-surface transition-colors cursor-pointer"
+              >
+                <td className="p-2 font-mono text-muted whitespace-nowrap">{q.number}</td>
+                <td className="p-2 whitespace-nowrap">
+                  {q.topic && <TopicBadge topic={q.topic} />}
+                </td>
+                <td className="p-2 text-muted max-w-md truncate">
+                  {q.prompt.replace(/\s+/g, " ")}
+                </td>
+                <td className="p-2 text-right whitespace-nowrap">
+                  {qr?.isCorrect ? (
+                    <span style={{ color: "var(--correct)" }}>✓ Correct</span>
+                  ) : qr?.userAnswer ? (
+                    <span style={{ color: "var(--incorrect)" }}>✗ Incorrect</span>
+                  ) : (
+                    <span className="text-muted">— Skipped</span>
+                  )}
+                </td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </div>
+  );
+}
+
 export interface ResultsPanelProps {
   paper: Paper;
   result: AttemptResult;
@@ -362,6 +459,8 @@ function ResultsView({
           </div>
         </div>
       )}
+
+      <DetailedBreakdown paper={paper} result={result} onOpenQuestion={onOpenQuestion} />
 
       <div className="flex flex-col gap-3">
         <h2 className="text-xs font-semibold tracking-wide uppercase text-muted">
