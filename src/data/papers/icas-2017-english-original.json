@@ -5,7 +5,7 @@
   "paperCode": "C",
   "title": "ICAS English 2017 — Original",
   "year": 2017,
-  "timeLimitMinutes": 35,
+  "timeLimitMinutes": 50,
   "questions": [
     {
       "id": "eng2017orig-q1",
@@ -1044,6 +1044,455 @@
       "correctAnswer": "C",
       "explanation": "'Not mother. But them. Everybody else.' — everyone except her mother would call her a delinquent.",
       "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder and Great Khan of the Mongol Empire, an empire that eventually covered a huge area between modern day Korea and Hungary. In the 12th century, Mongolia was a land populated by nomads and farmers who were often involved in violent raids over access to water and grazing land. Genghis united these many different clans into one nation under a single flag and went on to build the Mongol Empire.\n\nGenghis was born about 1155 near the Khentii Mountains in what is now north central Mongolia. A birthmark on his hand meant, according to Mongol folklore, that he was destined to become a great warrior and leader. From an early age his mother, Hoelun, taught him about the harsh reality of living in Mongol tribal society and the need to forge links with other clans. As a nine year old, Genghis experienced these harsh realities when his father was poisoned during a meal with a rival tribe. Cruelly, the young, fatherless Genghis and his family were also expelled by their own clan and left to fend for themselves. The family survived by eating roots, rodents and fish. Perhaps these early childhood experiences contributed to Genghis Khan's extraordinary leadership skills or, maybe, he was born to lead.\n\nAlthough Genghis is famed for his ability to unite people, he is infamous for his ruthlessness towards any tribe who resisted his plans. Genghis led a ferocious army of warriors and implemented military strategies that are still respected today. One strategy (also used hundreds of years later by the French general Napoleon Bonaparte) was 'divide and conquer'. This strategy involved cutting off lines of communication and separating sections of the enemy army to make them feel alone and unprotected.\n\nIn contrast to Genghis Khan's fame in life, his burial is shrouded in mystery. The cause of his death in 1227 is known—an infected wound caused by an arrow—but the exact location of his grave has never been identified. It is believed that his burial site is near his birthplace in the Khentii Aimag region, somewhere close to the Onon River. Although modern technology may eventually locate the burial place, there is strong feeling among the Mongolian people that this would be a violation of Genghis Khan's final request that he be buried in an unmarked grave.",
+      "prompt": "The word 'founder', as it is used in the text, means that Genghis Khan",
+      "options": [
+        {
+          "label": "A",
+          "text": "located the Mongol Empire."
+        },
+        {
+          "label": "B",
+          "text": "invented the Mongol Empire."
+        },
+        {
+          "label": "C",
+          "text": "discovered the Mongol Empire."
+        },
+        {
+          "label": "D",
+          "text": "established the Mongol Empire."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A founder is someone who sets up or establishes something — here, the Mongol Empire.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017orig-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder and Great Khan of the Mongol Empire, an empire that eventually covered a huge area between modern day Korea and Hungary. In the 12th century, Mongolia was a land populated by nomads and farmers who were often involved in violent raids over access to water and grazing land. Genghis united these many different clans into one nation under a single flag and went on to build the Mongol Empire.\n\nGenghis was born about 1155 near the Khentii Mountains in what is now north central Mongolia. A birthmark on his hand meant, according to Mongol folklore, that he was destined to become a great warrior and leader. From an early age his mother, Hoelun, taught him about the harsh reality of living in Mongol tribal society and the need to forge links with other clans. As a nine year old, Genghis experienced these harsh realities when his father was poisoned during a meal with a rival tribe. Cruelly, the young, fatherless Genghis and his family were also expelled by their own clan and left to fend for themselves. The family survived by eating roots, rodents and fish. Perhaps these early childhood experiences contributed to Genghis Khan's extraordinary leadership skills or, maybe, he was born to lead.\n\nAlthough Genghis is famed for his ability to unite people, he is infamous for his ruthlessness towards any tribe who resisted his plans. Genghis led a ferocious army of warriors and implemented military strategies that are still respected today. One strategy (also used hundreds of years later by the French general Napoleon Bonaparte) was 'divide and conquer'. This strategy involved cutting off lines of communication and separating sections of the enemy army to make them feel alone and unprotected.\n\nIn contrast to Genghis Khan's fame in life, his burial is shrouded in mystery. The cause of his death in 1227 is known—an infected wound caused by an arrow—but the exact location of his grave has never been identified. It is believed that his burial site is near his birthplace in the Khentii Aimag region, somewhere close to the Onon River. Although modern technology may eventually locate the burial place, there is strong feeling among the Mongolian people that this would be a violation of Genghis Khan's final request that he be buried in an unmarked grave.",
+      "prompt": "In the second paragraph the word 'Cruelly' is used to",
+      "options": [
+        {
+          "label": "A",
+          "text": "express the writer's opinion about what happened."
+        },
+        {
+          "label": "B",
+          "text": "provide additional information about the rival tribe."
+        },
+        {
+          "label": "C",
+          "text": "emphasise that what happened is accurate."
+        },
+        {
+          "label": "D",
+          "text": "highlight that the information is essential."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Cruelly' is the writer's judgement about the family being expelled, not a neutral fact.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017orig-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder and Great Khan of the Mongol Empire, an empire that eventually covered a huge area between modern day Korea and Hungary. In the 12th century, Mongolia was a land populated by nomads and farmers who were often involved in violent raids over access to water and grazing land. Genghis united these many different clans into one nation under a single flag and went on to build the Mongol Empire.\n\nGenghis was born about 1155 near the Khentii Mountains in what is now north central Mongolia. A birthmark on his hand meant, according to Mongol folklore, that he was destined to become a great warrior and leader. From an early age his mother, Hoelun, taught him about the harsh reality of living in Mongol tribal society and the need to forge links with other clans. As a nine year old, Genghis experienced these harsh realities when his father was poisoned during a meal with a rival tribe. Cruelly, the young, fatherless Genghis and his family were also expelled by their own clan and left to fend for themselves. The family survived by eating roots, rodents and fish. Perhaps these early childhood experiences contributed to Genghis Khan's extraordinary leadership skills or, maybe, he was born to lead.\n\nAlthough Genghis is famed for his ability to unite people, he is infamous for his ruthlessness towards any tribe who resisted his plans. Genghis led a ferocious army of warriors and implemented military strategies that are still respected today. One strategy (also used hundreds of years later by the French general Napoleon Bonaparte) was 'divide and conquer'. This strategy involved cutting off lines of communication and separating sections of the enemy army to make them feel alone and unprotected.\n\nIn contrast to Genghis Khan's fame in life, his burial is shrouded in mystery. The cause of his death in 1227 is known—an infected wound caused by an arrow—but the exact location of his grave has never been identified. It is believed that his burial site is near his birthplace in the Khentii Aimag region, somewhere close to the Onon River. Although modern technology may eventually locate the burial place, there is strong feeling among the Mongolian people that this would be a violation of Genghis Khan's final request that he be buried in an unmarked grave.",
+      "prompt": "In the second paragraph what is the purpose of the words 'Perhaps' and 'maybe'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to present an argument supported by fact"
+        },
+        {
+          "label": "B",
+          "text": "to introduce a series of related ideas"
+        },
+        {
+          "label": "C",
+          "text": "to offer some possibilities for readers to consider"
+        },
+        {
+          "label": "D",
+          "text": "to show that one fact is more certain than the other"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Perhaps ... or, maybe ...' offers two possible explanations without claiming either is proven.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017orig-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder and Great Khan of the Mongol Empire, an empire that eventually covered a huge area between modern day Korea and Hungary. In the 12th century, Mongolia was a land populated by nomads and farmers who were often involved in violent raids over access to water and grazing land. Genghis united these many different clans into one nation under a single flag and went on to build the Mongol Empire.\n\nGenghis was born about 1155 near the Khentii Mountains in what is now north central Mongolia. A birthmark on his hand meant, according to Mongol folklore, that he was destined to become a great warrior and leader. From an early age his mother, Hoelun, taught him about the harsh reality of living in Mongol tribal society and the need to forge links with other clans. As a nine year old, Genghis experienced these harsh realities when his father was poisoned during a meal with a rival tribe. Cruelly, the young, fatherless Genghis and his family were also expelled by their own clan and left to fend for themselves. The family survived by eating roots, rodents and fish. Perhaps these early childhood experiences contributed to Genghis Khan's extraordinary leadership skills or, maybe, he was born to lead.\n\nAlthough Genghis is famed for his ability to unite people, he is infamous for his ruthlessness towards any tribe who resisted his plans. Genghis led a ferocious army of warriors and implemented military strategies that are still respected today. One strategy (also used hundreds of years later by the French general Napoleon Bonaparte) was 'divide and conquer'. This strategy involved cutting off lines of communication and separating sections of the enemy army to make them feel alone and unprotected.\n\nIn contrast to Genghis Khan's fame in life, his burial is shrouded in mystery. The cause of his death in 1227 is known—an infected wound caused by an arrow—but the exact location of his grave has never been identified. It is believed that his burial site is near his birthplace in the Khentii Aimag region, somewhere close to the Onon River. Although modern technology may eventually locate the burial place, there is strong feeling among the Mongolian people that this would be a violation of Genghis Khan's final request that he be buried in an unmarked grave.",
+      "prompt": "In the underlined words 'who resisted his plans', what do the words 'who' and 'his' refer to?",
+      "table": {
+        "headers": [
+          "Option",
+          "'who'",
+          "'his'"
+        ],
+        "rows": [
+          [
+            "(A)",
+            "tribes",
+            "a nomad"
+          ],
+          [
+            "(B)",
+            "nomads",
+            "Genghis Khan"
+          ],
+          [
+            "(C)",
+            "tribes",
+            "Genghis Khan"
+          ],
+          [
+            "(D)",
+            "Genghis Khan",
+            "Napoleon Bonaparte"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "'who' = tribes; 'his' = a nomad"
+        },
+        {
+          "label": "B",
+          "text": "'who' = nomads; 'his' = Genghis Khan"
+        },
+        {
+          "label": "C",
+          "text": "'who' = tribes; 'his' = Genghis Khan"
+        },
+        {
+          "label": "D",
+          "text": "'who' = Genghis Khan; 'his' = Napoleon Bonaparte"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'any tribe who resisted his plans' — 'who' stands for the tribe(s) and 'his' refers to Genghis Khan.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2017orig-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder and Great Khan of the Mongol Empire, an empire that eventually covered a huge area between modern day Korea and Hungary. In the 12th century, Mongolia was a land populated by nomads and farmers who were often involved in violent raids over access to water and grazing land. Genghis united these many different clans into one nation under a single flag and went on to build the Mongol Empire.\n\nGenghis was born about 1155 near the Khentii Mountains in what is now north central Mongolia. A birthmark on his hand meant, according to Mongol folklore, that he was destined to become a great warrior and leader. From an early age his mother, Hoelun, taught him about the harsh reality of living in Mongol tribal society and the need to forge links with other clans. As a nine year old, Genghis experienced these harsh realities when his father was poisoned during a meal with a rival tribe. Cruelly, the young, fatherless Genghis and his family were also expelled by their own clan and left to fend for themselves. The family survived by eating roots, rodents and fish. Perhaps these early childhood experiences contributed to Genghis Khan's extraordinary leadership skills or, maybe, he was born to lead.\n\nAlthough Genghis is famed for his ability to unite people, he is infamous for his ruthlessness towards any tribe who resisted his plans. Genghis led a ferocious army of warriors and implemented military strategies that are still respected today. One strategy (also used hundreds of years later by the French general Napoleon Bonaparte) was 'divide and conquer'. This strategy involved cutting off lines of communication and separating sections of the enemy army to make them feel alone and unprotected.\n\nIn contrast to Genghis Khan's fame in life, his burial is shrouded in mystery. The cause of his death in 1227 is known—an infected wound caused by an arrow—but the exact location of his grave has never been identified. It is believed that his burial site is near his birthplace in the Khentii Aimag region, somewhere close to the Onon River. Although modern technology may eventually locate the burial place, there is strong feeling among the Mongolian people that this would be a violation of Genghis Khan's final request that he be buried in an unmarked grave.",
+      "prompt": "What is the 'contrast' referred to at the beginning of the final paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Genghis Khan was more famous in life than in death."
+        },
+        {
+          "label": "B",
+          "text": "Genghis Khan had an eventful life but a very ordinary death."
+        },
+        {
+          "label": "C",
+          "text": "Genghis Khan's life is well-documented but little is known about his gravesite."
+        },
+        {
+          "label": "D",
+          "text": "Genghis Khan lived through many battles but died from a simple arrow wound."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'In contrast to Genghis Khan's fame in life, his burial is shrouded in mystery' — much is known about his life, little about his grave.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q41",
+      "number": 41,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder and Great Khan of the Mongol Empire, an empire that eventually covered a huge area between modern day Korea and Hungary. In the 12th century, Mongolia was a land populated by nomads and farmers who were often involved in violent raids over access to water and grazing land. Genghis united these many different clans into one nation under a single flag and went on to build the Mongol Empire.\n\nGenghis was born about 1155 near the Khentii Mountains in what is now north central Mongolia. A birthmark on his hand meant, according to Mongol folklore, that he was destined to become a great warrior and leader. From an early age his mother, Hoelun, taught him about the harsh reality of living in Mongol tribal society and the need to forge links with other clans. As a nine year old, Genghis experienced these harsh realities when his father was poisoned during a meal with a rival tribe. Cruelly, the young, fatherless Genghis and his family were also expelled by their own clan and left to fend for themselves. The family survived by eating roots, rodents and fish. Perhaps these early childhood experiences contributed to Genghis Khan's extraordinary leadership skills or, maybe, he was born to lead.\n\nAlthough Genghis is famed for his ability to unite people, he is infamous for his ruthlessness towards any tribe who resisted his plans. Genghis led a ferocious army of warriors and implemented military strategies that are still respected today. One strategy (also used hundreds of years later by the French general Napoleon Bonaparte) was 'divide and conquer'. This strategy involved cutting off lines of communication and separating sections of the enemy army to make them feel alone and unprotected.\n\nIn contrast to Genghis Khan's fame in life, his burial is shrouded in mystery. The cause of his death in 1227 is known—an infected wound caused by an arrow—but the exact location of his grave has never been identified. It is believed that his burial site is near his birthplace in the Khentii Aimag region, somewhere close to the Onon River. Although modern technology may eventually locate the burial place, there is strong feeling among the Mongolian people that this would be a violation of Genghis Khan's final request that he be buried in an unmarked grave.",
+      "prompt": "'also used hundreds of years later by the French general Napoleon Bonaparte'\nWhy does the writer include this information?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to compare the military power of the two conquerors"
+        },
+        {
+          "label": "B",
+          "text": "to show that the Mongol Empire reached as far as France"
+        },
+        {
+          "label": "C",
+          "text": "to prove that Napoleon Bonaparte was as intelligent as Genghis Khan"
+        },
+        {
+          "label": "D",
+          "text": "to emphasise the effectiveness of a military strategy used by Genghis Khan"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "That 'divide and conquer' was still used centuries later by a famous general shows how effective the strategy was.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017orig-q42",
+      "number": 42,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 36 to 42.\n\nGenghis Khan\n\nGenghis Khan was the founder and Great Khan of the Mongol Empire, an empire that eventually covered a huge area between modern day Korea and Hungary. In the 12th century, Mongolia was a land populated by nomads and farmers who were often involved in violent raids over access to water and grazing land. Genghis united these many different clans into one nation under a single flag and went on to build the Mongol Empire.\n\nGenghis was born about 1155 near the Khentii Mountains in what is now north central Mongolia. A birthmark on his hand meant, according to Mongol folklore, that he was destined to become a great warrior and leader. From an early age his mother, Hoelun, taught him about the harsh reality of living in Mongol tribal society and the need to forge links with other clans. As a nine year old, Genghis experienced these harsh realities when his father was poisoned during a meal with a rival tribe. Cruelly, the young, fatherless Genghis and his family were also expelled by their own clan and left to fend for themselves. The family survived by eating roots, rodents and fish. Perhaps these early childhood experiences contributed to Genghis Khan's extraordinary leadership skills or, maybe, he was born to lead.\n\nAlthough Genghis is famed for his ability to unite people, he is infamous for his ruthlessness towards any tribe who resisted his plans. Genghis led a ferocious army of warriors and implemented military strategies that are still respected today. One strategy (also used hundreds of years later by the French general Napoleon Bonaparte) was 'divide and conquer'. This strategy involved cutting off lines of communication and separating sections of the enemy army to make them feel alone and unprotected.\n\nIn contrast to Genghis Khan's fame in life, his burial is shrouded in mystery. The cause of his death in 1227 is known—an infected wound caused by an arrow—but the exact location of his grave has never been identified. It is believed that his burial site is near his birthplace in the Khentii Aimag region, somewhere close to the Onon River. Although modern technology may eventually locate the burial place, there is strong feeling among the Mongolian people that this would be a violation of Genghis Khan's final request that he be buried in an unmarked grave.",
+      "prompt": "Which of the questions below can be answered successfully using only information from this text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "What is the general location of Genghis Khan's birthplace?"
+        },
+        {
+          "label": "B",
+          "text": "Who assisted Genghis Khan in leading the Mongols?"
+        },
+        {
+          "label": "C",
+          "text": "Who inspired Genghis Khan's 'divide and conquer' strategy?"
+        },
+        {
+          "label": "D",
+          "text": "Why did Genghis Khan request to be buried in an unmarked grave?"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The text says he was born 'near the Khentii Mountains in ... north central Mongolia'; it does not answer B, C or D.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q43",
+      "number": 43,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe River\n\nThe river flows past poplars and willows and brambles, muttering unceasingly to itself, oblivious to the hawk that lazes overhead and the plovers wittering through the grass. On the banks sheep doze, trot and prop, or gaze at nothing, lost in their sheep-thoughts. Woolgathering.\n\nThe river speaks, the riffles and eddies notations of its voice. Light spills along the surface, pleating, folding, revealing twisting currents that curl over stones and weed. Wind combs the trees, ruffles their reflections. It cools Marc's face and hands, runs its chilling fingers through his hair. And all the while the river speaks to him. Each day he passes by lush fields where the long-horned cattle, shaggy and curious, tear up the grass, snorting through their soft wet nostrils. This evening, when the trout begin to feed, he'll bring his fishing rod. Maybe he'll catch a decent one to take back home.\n\nHe knows his family isn't doing well. His father has been forced to sell off land to the neighbour, a city chap looking for a place with river frontage. Marc's two sisters sometimes work in the big house, which Marc has only seen from the outside. The neighbour's garage is as big as the house where Marc lives.\n\nWhen Marc arrives home, the table is laid for lunch. He can smell chops—burnt bone and melted fat—and hear the potatoes boiling starchily in a dented pot.\n\n\"Baked beans?\" his mother asks. He nods. \"Mind you slice the bread nice and thin,\" she reminds him, handing over the serrated knife. Butter softens in a saucer.\n\n\"I'm going out later.\"\n\n\"You can't go fishing, not this evening. Your father wants to talk to you.\"\n\nMarc feels a tightness in his jaw. The night before, through the thin walls separating the two bedrooms, he'd heard disconnected words and phrases: \"price\", \"offer\", \"not too late\", \"able to adjust\". He'd rolled over, pulling the pillow close around his ears, the blood throbbing in his head.\n\nIt is now the hour before dusk and the river is alive with insects. He can see his mother hunched over in the vegetable garden tearing out weeds, the chickens nodding around her as they search for food. His father must still be in the shed, where he's trying to fix the tractor. Grabbing his rod, Marc quietly pulls the screen door closed behind him. As he glances back, the windows are reflecting the sinking sun. It's as if the inside of the house is ablaze. Marc turns his back on its brilliance and runs towards the river's chant.",
+      "prompt": "Marc hoped to catch a trout to take back home because it would",
+      "options": [
+        {
+          "label": "A",
+          "text": "provide a meal for his family."
+        },
+        {
+          "label": "B",
+          "text": "be something he could boast about."
+        },
+        {
+          "label": "C",
+          "text": "show how successful he was at fishing."
+        },
+        {
+          "label": "D",
+          "text": "keep the fish population under control."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'He knows his family isn't doing well' — a caught trout would be food for a struggling household.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q44",
+      "number": 44,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe River\n\nThe river flows past poplars and willows and brambles, muttering unceasingly to itself, oblivious to the hawk that lazes overhead and the plovers wittering through the grass. On the banks sheep doze, trot and prop, or gaze at nothing, lost in their sheep-thoughts. Woolgathering.\n\nThe river speaks, the riffles and eddies notations of its voice. Light spills along the surface, pleating, folding, revealing twisting currents that curl over stones and weed. Wind combs the trees, ruffles their reflections. It cools Marc's face and hands, runs its chilling fingers through his hair. And all the while the river speaks to him. Each day he passes by lush fields where the long-horned cattle, shaggy and curious, tear up the grass, snorting through their soft wet nostrils. This evening, when the trout begin to feed, he'll bring his fishing rod. Maybe he'll catch a decent one to take back home.\n\nHe knows his family isn't doing well. His father has been forced to sell off land to the neighbour, a city chap looking for a place with river frontage. Marc's two sisters sometimes work in the big house, which Marc has only seen from the outside. The neighbour's garage is as big as the house where Marc lives.\n\nWhen Marc arrives home, the table is laid for lunch. He can smell chops—burnt bone and melted fat—and hear the potatoes boiling starchily in a dented pot.\n\n\"Baked beans?\" his mother asks. He nods. \"Mind you slice the bread nice and thin,\" she reminds him, handing over the serrated knife. Butter softens in a saucer.\n\n\"I'm going out later.\"\n\n\"You can't go fishing, not this evening. Your father wants to talk to you.\"\n\nMarc feels a tightness in his jaw. The night before, through the thin walls separating the two bedrooms, he'd heard disconnected words and phrases: \"price\", \"offer\", \"not too late\", \"able to adjust\". He'd rolled over, pulling the pillow close around his ears, the blood throbbing in his head.\n\nIt is now the hour before dusk and the river is alive with insects. He can see his mother hunched over in the vegetable garden tearing out weeds, the chickens nodding around her as they search for food. His father must still be in the shed, where he's trying to fix the tractor. Grabbing his rod, Marc quietly pulls the screen door closed behind him. As he glances back, the windows are reflecting the sinking sun. It's as if the inside of the house is ablaze. Marc turns his back on its brilliance and runs towards the river's chant.",
+      "prompt": "What comparison is drawn between Marc's father and their neighbour?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Marc's father has a large family but their neighbour lives alone."
+        },
+        {
+          "label": "B",
+          "text": "Marc's father works hard but their neighbour is lazy."
+        },
+        {
+          "label": "C",
+          "text": "Marc's father is poor but their neighbour is rich."
+        },
+        {
+          "label": "D",
+          "text": "Marc's father has many cattle but their neighbour doesn't."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Marc's father is 'forced to sell off land', while the neighbour's 'garage is as big as the house where Marc lives'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q45",
+      "number": 45,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe River\n\nThe river flows past poplars and willows and brambles, muttering unceasingly to itself, oblivious to the hawk that lazes overhead and the plovers wittering through the grass. On the banks sheep doze, trot and prop, or gaze at nothing, lost in their sheep-thoughts. Woolgathering.\n\nThe river speaks, the riffles and eddies notations of its voice. Light spills along the surface, pleating, folding, revealing twisting currents that curl over stones and weed. Wind combs the trees, ruffles their reflections. It cools Marc's face and hands, runs its chilling fingers through his hair. And all the while the river speaks to him. Each day he passes by lush fields where the long-horned cattle, shaggy and curious, tear up the grass, snorting through their soft wet nostrils. This evening, when the trout begin to feed, he'll bring his fishing rod. Maybe he'll catch a decent one to take back home.\n\nHe knows his family isn't doing well. His father has been forced to sell off land to the neighbour, a city chap looking for a place with river frontage. Marc's two sisters sometimes work in the big house, which Marc has only seen from the outside. The neighbour's garage is as big as the house where Marc lives.\n\nWhen Marc arrives home, the table is laid for lunch. He can smell chops—burnt bone and melted fat—and hear the potatoes boiling starchily in a dented pot.\n\n\"Baked beans?\" his mother asks. He nods. \"Mind you slice the bread nice and thin,\" she reminds him, handing over the serrated knife. Butter softens in a saucer.\n\n\"I'm going out later.\"\n\n\"You can't go fishing, not this evening. Your father wants to talk to you.\"\n\nMarc feels a tightness in his jaw. The night before, through the thin walls separating the two bedrooms, he'd heard disconnected words and phrases: \"price\", \"offer\", \"not too late\", \"able to adjust\". He'd rolled over, pulling the pillow close around his ears, the blood throbbing in his head.\n\nIt is now the hour before dusk and the river is alive with insects. He can see his mother hunched over in the vegetable garden tearing out weeds, the chickens nodding around her as they search for food. His father must still be in the shed, where he's trying to fix the tractor. Grabbing his rod, Marc quietly pulls the screen door closed behind him. As he glances back, the windows are reflecting the sinking sun. It's as if the inside of the house is ablaze. Marc turns his back on its brilliance and runs towards the river's chant.",
+      "prompt": "How did Marc feel when his mother told him that his father wanted to talk to him?",
+      "options": [
+        {
+          "label": "A",
+          "text": "detached"
+        },
+        {
+          "label": "B",
+          "text": "confused"
+        },
+        {
+          "label": "C",
+          "text": "irritated"
+        },
+        {
+          "label": "D",
+          "text": "anxious"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Marc feels a tightness in his jaw', and he had lain awake worrying over the overheard conversation.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q46",
+      "number": 46,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe River\n\nThe river flows past poplars and willows and brambles, muttering unceasingly to itself, oblivious to the hawk that lazes overhead and the plovers wittering through the grass. On the banks sheep doze, trot and prop, or gaze at nothing, lost in their sheep-thoughts. Woolgathering.\n\nThe river speaks, the riffles and eddies notations of its voice. Light spills along the surface, pleating, folding, revealing twisting currents that curl over stones and weed. Wind combs the trees, ruffles their reflections. It cools Marc's face and hands, runs its chilling fingers through his hair. And all the while the river speaks to him. Each day he passes by lush fields where the long-horned cattle, shaggy and curious, tear up the grass, snorting through their soft wet nostrils. This evening, when the trout begin to feed, he'll bring his fishing rod. Maybe he'll catch a decent one to take back home.\n\nHe knows his family isn't doing well. His father has been forced to sell off land to the neighbour, a city chap looking for a place with river frontage. Marc's two sisters sometimes work in the big house, which Marc has only seen from the outside. The neighbour's garage is as big as the house where Marc lives.\n\nWhen Marc arrives home, the table is laid for lunch. He can smell chops—burnt bone and melted fat—and hear the potatoes boiling starchily in a dented pot.\n\n\"Baked beans?\" his mother asks. He nods. \"Mind you slice the bread nice and thin,\" she reminds him, handing over the serrated knife. Butter softens in a saucer.\n\n\"I'm going out later.\"\n\n\"You can't go fishing, not this evening. Your father wants to talk to you.\"\n\nMarc feels a tightness in his jaw. The night before, through the thin walls separating the two bedrooms, he'd heard disconnected words and phrases: \"price\", \"offer\", \"not too late\", \"able to adjust\". He'd rolled over, pulling the pillow close around his ears, the blood throbbing in his head.\n\nIt is now the hour before dusk and the river is alive with insects. He can see his mother hunched over in the vegetable garden tearing out weeds, the chickens nodding around her as they search for food. His father must still be in the shed, where he's trying to fix the tractor. Grabbing his rod, Marc quietly pulls the screen door closed behind him. As he glances back, the windows are reflecting the sinking sun. It's as if the inside of the house is ablaze. Marc turns his back on its brilliance and runs towards the river's chant.",
+      "prompt": "Based on information in the text, what was Marc's father likely to talk to him about?",
+      "options": [
+        {
+          "label": "A",
+          "text": "that Marc was not allowed to go fishing at night by himself"
+        },
+        {
+          "label": "B",
+          "text": "that their home would be demolished very soon"
+        },
+        {
+          "label": "C",
+          "text": "that he had been offered a job in another location"
+        },
+        {
+          "label": "D",
+          "text": "that he had to sell the house and the family would have to move away"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The overheard words 'price', 'offer', 'not too late' follow the father already selling land — the house is likely next.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q47",
+      "number": 47,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe River\n\nThe river flows past poplars and willows and brambles, muttering unceasingly to itself, oblivious to the hawk that lazes overhead and the plovers wittering through the grass. On the banks sheep doze, trot and prop, or gaze at nothing, lost in their sheep-thoughts. Woolgathering.\n\nThe river speaks, the riffles and eddies notations of its voice. Light spills along the surface, pleating, folding, revealing twisting currents that curl over stones and weed. Wind combs the trees, ruffles their reflections. It cools Marc's face and hands, runs its chilling fingers through his hair. And all the while the river speaks to him. Each day he passes by lush fields where the long-horned cattle, shaggy and curious, tear up the grass, snorting through their soft wet nostrils. This evening, when the trout begin to feed, he'll bring his fishing rod. Maybe he'll catch a decent one to take back home.\n\nHe knows his family isn't doing well. His father has been forced to sell off land to the neighbour, a city chap looking for a place with river frontage. Marc's two sisters sometimes work in the big house, which Marc has only seen from the outside. The neighbour's garage is as big as the house where Marc lives.\n\nWhen Marc arrives home, the table is laid for lunch. He can smell chops—burnt bone and melted fat—and hear the potatoes boiling starchily in a dented pot.\n\n\"Baked beans?\" his mother asks. He nods. \"Mind you slice the bread nice and thin,\" she reminds him, handing over the serrated knife. Butter softens in a saucer.\n\n\"I'm going out later.\"\n\n\"You can't go fishing, not this evening. Your father wants to talk to you.\"\n\nMarc feels a tightness in his jaw. The night before, through the thin walls separating the two bedrooms, he'd heard disconnected words and phrases: \"price\", \"offer\", \"not too late\", \"able to adjust\". He'd rolled over, pulling the pillow close around his ears, the blood throbbing in his head.\n\nIt is now the hour before dusk and the river is alive with insects. He can see his mother hunched over in the vegetable garden tearing out weeds, the chickens nodding around her as they search for food. His father must still be in the shed, where he's trying to fix the tractor. Grabbing his rod, Marc quietly pulls the screen door closed behind him. As he glances back, the windows are reflecting the sinking sun. It's as if the inside of the house is ablaze. Marc turns his back on its brilliance and runs towards the river's chant.",
+      "prompt": "In the second last paragraph, the word 'he'd' stands for",
+      "options": [
+        {
+          "label": "A",
+          "text": "he did."
+        },
+        {
+          "label": "B",
+          "text": "he had."
+        },
+        {
+          "label": "C",
+          "text": "he could."
+        },
+        {
+          "label": "D",
+          "text": "he would."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'he'd heard disconnected words' and 'He'd rolled over' are both past perfect: 'he had'.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2017orig-q48",
+      "number": 48,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe River\n\nThe river flows past poplars and willows and brambles, muttering unceasingly to itself, oblivious to the hawk that lazes overhead and the plovers wittering through the grass. On the banks sheep doze, trot and prop, or gaze at nothing, lost in their sheep-thoughts. Woolgathering.\n\nThe river speaks, the riffles and eddies notations of its voice. Light spills along the surface, pleating, folding, revealing twisting currents that curl over stones and weed. Wind combs the trees, ruffles their reflections. It cools Marc's face and hands, runs its chilling fingers through his hair. And all the while the river speaks to him. Each day he passes by lush fields where the long-horned cattle, shaggy and curious, tear up the grass, snorting through their soft wet nostrils. This evening, when the trout begin to feed, he'll bring his fishing rod. Maybe he'll catch a decent one to take back home.\n\nHe knows his family isn't doing well. His father has been forced to sell off land to the neighbour, a city chap looking for a place with river frontage. Marc's two sisters sometimes work in the big house, which Marc has only seen from the outside. The neighbour's garage is as big as the house where Marc lives.\n\nWhen Marc arrives home, the table is laid for lunch. He can smell chops—burnt bone and melted fat—and hear the potatoes boiling starchily in a dented pot.\n\n\"Baked beans?\" his mother asks. He nods. \"Mind you slice the bread nice and thin,\" she reminds him, handing over the serrated knife. Butter softens in a saucer.\n\n\"I'm going out later.\"\n\n\"You can't go fishing, not this evening. Your father wants to talk to you.\"\n\nMarc feels a tightness in his jaw. The night before, through the thin walls separating the two bedrooms, he'd heard disconnected words and phrases: \"price\", \"offer\", \"not too late\", \"able to adjust\". He'd rolled over, pulling the pillow close around his ears, the blood throbbing in his head.\n\nIt is now the hour before dusk and the river is alive with insects. He can see his mother hunched over in the vegetable garden tearing out weeds, the chickens nodding around her as they search for food. His father must still be in the shed, where he's trying to fix the tractor. Grabbing his rod, Marc quietly pulls the screen door closed behind him. As he glances back, the windows are reflecting the sinking sun. It's as if the inside of the house is ablaze. Marc turns his back on its brilliance and runs towards the river's chant.",
+      "prompt": "How does the description in the first two paragraphs relate to the rest of the narrative?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It describes what attracted Marc to learn how to fish."
+        },
+        {
+          "label": "B",
+          "text": "It contrasts the calm of nature with the turmoil in the family."
+        },
+        {
+          "label": "C",
+          "text": "It suggests the reasons why Marc's father had to sell his land."
+        },
+        {
+          "label": "D",
+          "text": "It highlights the closeness between the land and the family."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The peaceful river scene sits against the family's money worries and the tense conversation to come.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017orig-q49",
+      "number": 49,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe River\n\nThe river flows past poplars and willows and brambles, muttering unceasingly to itself, oblivious to the hawk that lazes overhead and the plovers wittering through the grass. On the banks sheep doze, trot and prop, or gaze at nothing, lost in their sheep-thoughts. Woolgathering.\n\nThe river speaks, the riffles and eddies notations of its voice. Light spills along the surface, pleating, folding, revealing twisting currents that curl over stones and weed. Wind combs the trees, ruffles their reflections. It cools Marc's face and hands, runs its chilling fingers through his hair. And all the while the river speaks to him. Each day he passes by lush fields where the long-horned cattle, shaggy and curious, tear up the grass, snorting through their soft wet nostrils. This evening, when the trout begin to feed, he'll bring his fishing rod. Maybe he'll catch a decent one to take back home.\n\nHe knows his family isn't doing well. His father has been forced to sell off land to the neighbour, a city chap looking for a place with river frontage. Marc's two sisters sometimes work in the big house, which Marc has only seen from the outside. The neighbour's garage is as big as the house where Marc lives.\n\nWhen Marc arrives home, the table is laid for lunch. He can smell chops—burnt bone and melted fat—and hear the potatoes boiling starchily in a dented pot.\n\n\"Baked beans?\" his mother asks. He nods. \"Mind you slice the bread nice and thin,\" she reminds him, handing over the serrated knife. Butter softens in a saucer.\n\n\"I'm going out later.\"\n\n\"You can't go fishing, not this evening. Your father wants to talk to you.\"\n\nMarc feels a tightness in his jaw. The night before, through the thin walls separating the two bedrooms, he'd heard disconnected words and phrases: \"price\", \"offer\", \"not too late\", \"able to adjust\". He'd rolled over, pulling the pillow close around his ears, the blood throbbing in his head.\n\nIt is now the hour before dusk and the river is alive with insects. He can see his mother hunched over in the vegetable garden tearing out weeds, the chickens nodding around her as they search for food. His father must still be in the shed, where he's trying to fix the tractor. Grabbing his rod, Marc quietly pulls the screen door closed behind him. As he glances back, the windows are reflecting the sinking sun. It's as if the inside of the house is ablaze. Marc turns his back on its brilliance and runs towards the river's chant.",
+      "prompt": "Throughout the narrative, the river is described as if",
+      "options": [
+        {
+          "label": "A",
+          "text": "it is Marc's companion."
+        },
+        {
+          "label": "B",
+          "text": "it is potentially dangerous."
+        },
+        {
+          "label": "C",
+          "text": "it exerts pressure on Marc."
+        },
+        {
+          "label": "D",
+          "text": "it has a secret."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'the river speaks to him', and he runs 'towards the river's chant' — it keeps him company.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017orig-q50",
+      "number": 50,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 43 to 50.\n\nThe River\n\nThe river flows past poplars and willows and brambles, muttering unceasingly to itself, oblivious to the hawk that lazes overhead and the plovers wittering through the grass. On the banks sheep doze, trot and prop, or gaze at nothing, lost in their sheep-thoughts. Woolgathering.\n\nThe river speaks, the riffles and eddies notations of its voice. Light spills along the surface, pleating, folding, revealing twisting currents that curl over stones and weed. Wind combs the trees, ruffles their reflections. It cools Marc's face and hands, runs its chilling fingers through his hair. And all the while the river speaks to him. Each day he passes by lush fields where the long-horned cattle, shaggy and curious, tear up the grass, snorting through their soft wet nostrils. This evening, when the trout begin to feed, he'll bring his fishing rod. Maybe he'll catch a decent one to take back home.\n\nHe knows his family isn't doing well. His father has been forced to sell off land to the neighbour, a city chap looking for a place with river frontage. Marc's two sisters sometimes work in the big house, which Marc has only seen from the outside. The neighbour's garage is as big as the house where Marc lives.\n\nWhen Marc arrives home, the table is laid for lunch. He can smell chops—burnt bone and melted fat—and hear the potatoes boiling starchily in a dented pot.\n\n\"Baked beans?\" his mother asks. He nods. \"Mind you slice the bread nice and thin,\" she reminds him, handing over the serrated knife. Butter softens in a saucer.\n\n\"I'm going out later.\"\n\n\"You can't go fishing, not this evening. Your father wants to talk to you.\"\n\nMarc feels a tightness in his jaw. The night before, through the thin walls separating the two bedrooms, he'd heard disconnected words and phrases: \"price\", \"offer\", \"not too late\", \"able to adjust\". He'd rolled over, pulling the pillow close around his ears, the blood throbbing in his head.\n\nIt is now the hour before dusk and the river is alive with insects. He can see his mother hunched over in the vegetable garden tearing out weeds, the chickens nodding around her as they search for food. His father must still be in the shed, where he's trying to fix the tractor. Grabbing his rod, Marc quietly pulls the screen door closed behind him. As he glances back, the windows are reflecting the sinking sun. It's as if the inside of the house is ablaze. Marc turns his back on its brilliance and runs towards the river's chant.",
+      "prompt": "What effect does the use of the present tense have?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It makes Marc appear more truthful."
+        },
+        {
+          "label": "B",
+          "text": "It creates a closeness between readers and Marc."
+        },
+        {
+          "label": "C",
+          "text": "It emphasises that the events are real."
+        },
+        {
+          "label": "D",
+          "text": "It shows that the events are happening quickly."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Present-tense narration makes events feel immediate, drawing the reader close to Marc's experience.",
+      "topic": "Writer's craft"
     }
   ]
 }
