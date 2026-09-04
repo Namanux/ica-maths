@@ -124,6 +124,91 @@
       "id": "edt-y5nr3-q8",
       "number": 8,
       "type": "multiple_choice",
+      "prompt": "The numbers in the grid go together in a certain way. Which number should be in the square marked by the question mark?",
+      "imageUrl": "/questions/edutest-y5-numerical-3/q8.svg",
+      "options": [
+        { "label": "A", "text": "5" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "9" },
+        { "label": "D", "text": "7" },
+        { "label": "E", "text": "10" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The numbers increase by 1 across each row and by 2 down each column. The middle row is 5, 6, 7, so the missing number is 6.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y5nr3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "The numbers in the grid go together in a certain way. Which number should be in the square marked by the question mark?",
+      "imageUrl": "/questions/edutest-y5-numerical-3/q9.svg",
+      "options": [
+        { "label": "A", "text": "12" },
+        { "label": "B", "text": "16" },
+        { "label": "C", "text": "20" },
+        { "label": "D", "text": "24" },
+        { "label": "E", "text": "15" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The numbers double as they go across each row: 8, 16, 32. So the missing number is 16.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y5nr3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "The numbers in the grid go together in a certain way. Which number should be in the square marked by the question mark?",
+      "imageUrl": "/questions/edutest-y5-numerical-3/q10.svg",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "20" },
+        { "label": "D", "text": "10" },
+        { "label": "E", "text": "8" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The numbers halve as they go across each row. The bottom row is 16, 8, 4, so the missing number is 4.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y5nr3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "The numbers in the grid go together in a certain way. Which number should be in the square marked by the question mark?",
+      "imageUrl": "/questions/edutest-y5-numerical-3/q11.svg",
+      "options": [
+        { "label": "A", "text": "25" },
+        { "label": "B", "text": "32" },
+        { "label": "C", "text": "36" },
+        { "label": "D", "text": "30" },
+        { "label": "E", "text": "26" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The numbers decrease by 10 down each column. The left column is 50, 40, 30, so the missing number is 30.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y5nr3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "The numbers in the grid go together in a certain way. Which number should be in the square marked by the question mark?",
+      "imageUrl": "/questions/edutest-y5-numerical-3/q12.svg",
+      "options": [
+        { "label": "A", "text": "17" },
+        { "label": "B", "text": "63" },
+        { "label": "C", "text": "57" },
+        { "label": "D", "text": "51" },
+        { "label": "E", "text": "53" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The numbers increase by 3 across each row and by 17 down each column. The left column is 17, 34, 51, so the missing number is 51.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y5nr3-q13",
+      "number": 13,
+      "type": "multiple_choice",
       "prompt": "Three children went to the book shop. Books cost fifty cents more than cards. Diaries were twice the price of cards. Janice bought two books and one card; Justin bought two diaries and Lee bought one of each.\nIf cards cost $1.50, who spent the most?",
       "options": [
         { "label": "A", "text": "Janice and Lee" },
@@ -137,8 +222,8 @@
       "topic": "Problem Solving"
     },
     {
-      "id": "edt-y5nr3-q9",
-      "number": 9,
+      "id": "edt-y5nr3-q14",
+      "number": 14,
       "type": "multiple_choice",
       "prompt": "Three girls have an equal number of toys. All together there are 12 trucks and 30 teddies. Tracey only has teddies. Jenny has 4 trucks.\nHow many teddies does Laura have?",
       "options": [
@@ -153,8 +238,8 @@
       "topic": "Problem Solving"
     },
     {
-      "id": "edt-y5nr3-q10",
-      "number": 10,
+      "id": "edt-y5nr3-q15",
+      "number": 15,
       "type": "multiple_choice",
       "prompt": "Petra got half of the way home from work when she stopped at the water fountain to get a drink. Two kilometres further on, she still had two kilometres to go.\nHow many kilometres is the water fountain from Petra's work?",
       "options": [
@@ -169,8 +254,8 @@
       "topic": "Problem Solving"
     },
     {
-      "id": "edt-y5nr3-q11",
-      "number": 11,
+      "id": "edt-y5nr3-q16",
+      "number": 16,
       "type": "multiple_choice",
       "prompt": "In a private aeroplane there are seven seats available. The pilot takes up one and so does the co-pilot. On plane trips that take less than 30 minutes there only needs to be one pilot (no co-pilot). On trips longer than 30 minutes the plane needs both a pilot and a co-pilot. Mary is taking a trip for 35 minutes.\nHow many friends can she invite on the plane trip?",
       "options": [
@@ -185,8 +270,8 @@
       "topic": "Problem Solving"
     },
     {
-      "id": "edt-y5nr3-q12",
-      "number": 12,
+      "id": "edt-y5nr3-q17",
+      "number": 17,
       "type": "multiple_choice",
       "prompt": "Two different numbers multiplied together give 32. The difference between the two numbers is an even number between 9 and 20.\nIf I subtract the smallest of these two different numbers from the largest, what number do I get?",
       "options": [
@@ -201,8 +286,8 @@
       "topic": "Number Patterns"
     },
     {
-      "id": "edt-y5nr3-q13",
-      "number": 13,
+      "id": "edt-y5nr3-q18",
+      "number": 18,
       "type": "multiple_choice",
       "prompt": "Alfred is twice as tall as Sigmund who is half Jimmy's height.\nIf Alfred is 150 cm tall, how tall is Jimmy?",
       "options": [
@@ -217,8 +302,8 @@
       "topic": "Problem Solving"
     },
     {
-      "id": "edt-y5nr3-q14",
-      "number": 14,
+      "id": "edt-y5nr3-q19",
+      "number": 19,
       "type": "multiple_choice",
       "prompt": "I have 75 loaves of bread in my car, 25 of which are multigrain, the rest are white. I know 35 of the bread loaves have been exposed to moisture and are not good to sell.\nWhat is the maximum number of white bread loaves I could sell?",
       "options": [
@@ -233,8 +318,8 @@
       "topic": "Problem Solving"
     },
     {
-      "id": "edt-y5nr3-q15",
-      "number": 15,
+      "id": "edt-y5nr3-q20",
+      "number": 20,
       "type": "multiple_choice",
       "prompt": "Georgia went to the aquarium with her class. Out of the 35 people in her class 30 brought their sandwiches with them, and the remaining five brought money to buy tuna salad sandwiches at the aquarium. Half of the people who brought their own sandwiches brought peanut butter sandwiches (one each).\nHow many people did not have peanut butter sandwiches?",
       "options": [
