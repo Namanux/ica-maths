@@ -1,0 +1,1049 @@
+{
+  "id": "icas-2017-english-original",
+  "subject": "English",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS English 2017 — Original",
+  "year": 2017,
+  "timeLimitMinutes": 35,
+  "questions": [
+    {
+      "id": "eng2017orig-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 6.\n\nThe Wonder Wombat\n\nAt one o'clock, Zachariah was finally allowed to put on his costume. He pulled on some brown tracksuit pants and a brown T-shirt with a picture of a wombat on it. For his feet, there were brown furry slippers.\n\nHe looked at his homemade mask and cardboard ears and hoped that they looked a bit like a wombat. The last thing he had to put on was a cloak, which his mother had made out of an old blue tablecloth. On the back was a huge letter 'W' painted in bright yellow.\n\nWhen he was ready, he stretched out his arms straight ahead of him and ran to the lounge to show his parents. He zoomed once around the room before his dad scooped him up and stood him on a chair.\n\n\"Look! Up on the chair! Is it a bird? Is it a plane?\"\n\nZachariah's mother answered, \"No, it's the Wonder Wombat!\"\n\nZachariah got down from the chair and took off his mask. He was feeling a bit sulky. \"I'd still rather have a real wombat than pretend to be one,\" he grumbled.\n\nHis parents looked at each other. His dad patted the spare seat on the couch and said, \"Come over here, Wonder Zach. We've got some good news for you.\" He nudged his wife. \"You tell him, Tess.\"\n\nAs Zachariah sat down, his mother put her arm around him and said, \"When you get home from the party, there'll be a surprise waiting for you. Your dad's going out soon and he'll bring it back with him.\"\n\nZachariah immediately began bouncing up and down on the seat, yelling, \"Oh boy, oh boy! I can't wait!\" Then he stopped long enough to ask, \"What is it? Is it a pet? A wombat? It is, isn't it?\"\n\nBut his dad only winked at him and said, \"I guess you'll just have to wait and see, kiddo. By the way, bring the Birthday Girl with you. I think she'll want to see your surprise.\"\n\nZachariah jumped up. \"Can I go over and tell Becky now? She asked me to get there before the other kids.\"\n\n\"Well, it won't take you long to walk all the way next door,\" said his mum. \"But I think you're forgetting something.\"\n\n\"What?\"\n\n\"The birthday present.\"\n\n\"Whoops, sorry.\" He picked up a parcel from the coffee table and kissed his mum. She straightened his cardboard ears.\n\n\"Now don't forget to say thank you to Becky's mother and be careful not to trip on your cape,\" she said.\n\n\"Have a good time, WW,\" said his dad, \"and don't fly too high or you might crash into a jumbo jet.\"",
+      "prompt": "According to the text, which parts of Zachariah's costume were homemade?",
+      "options": [
+        {
+          "label": "A",
+          "text": "mask, ears, and cloak"
+        },
+        {
+          "label": "B",
+          "text": "T-shirt, slippers, and cloak"
+        },
+        {
+          "label": "C",
+          "text": "pants, T-shirt, and slippers"
+        },
+        {
+          "label": "D",
+          "text": "pants, mask, and ears"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The mask is 'homemade', the ears are cardboard, and the cloak was made by his mother from an old tablecloth; the pants, T-shirt and slippers were bought.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 6.\n\nThe Wonder Wombat\n\nAt one o'clock, Zachariah was finally allowed to put on his costume. He pulled on some brown tracksuit pants and a brown T-shirt with a picture of a wombat on it. For his feet, there were brown furry slippers.\n\nHe looked at his homemade mask and cardboard ears and hoped that they looked a bit like a wombat. The last thing he had to put on was a cloak, which his mother had made out of an old blue tablecloth. On the back was a huge letter 'W' painted in bright yellow.\n\nWhen he was ready, he stretched out his arms straight ahead of him and ran to the lounge to show his parents. He zoomed once around the room before his dad scooped him up and stood him on a chair.\n\n\"Look! Up on the chair! Is it a bird? Is it a plane?\"\n\nZachariah's mother answered, \"No, it's the Wonder Wombat!\"\n\nZachariah got down from the chair and took off his mask. He was feeling a bit sulky. \"I'd still rather have a real wombat than pretend to be one,\" he grumbled.\n\nHis parents looked at each other. His dad patted the spare seat on the couch and said, \"Come over here, Wonder Zach. We've got some good news for you.\" He nudged his wife. \"You tell him, Tess.\"\n\nAs Zachariah sat down, his mother put her arm around him and said, \"When you get home from the party, there'll be a surprise waiting for you. Your dad's going out soon and he'll bring it back with him.\"\n\nZachariah immediately began bouncing up and down on the seat, yelling, \"Oh boy, oh boy! I can't wait!\" Then he stopped long enough to ask, \"What is it? Is it a pet? A wombat? It is, isn't it?\"\n\nBut his dad only winked at him and said, \"I guess you'll just have to wait and see, kiddo. By the way, bring the Birthday Girl with you. I think she'll want to see your surprise.\"\n\nZachariah jumped up. \"Can I go over and tell Becky now? She asked me to get there before the other kids.\"\n\n\"Well, it won't take you long to walk all the way next door,\" said his mum. \"But I think you're forgetting something.\"\n\n\"What?\"\n\n\"The birthday present.\"\n\n\"Whoops, sorry.\" He picked up a parcel from the coffee table and kissed his mum. She straightened his cardboard ears.\n\n\"Now don't forget to say thank you to Becky's mother and be careful not to trip on your cape,\" she said.\n\n\"Have a good time, WW,\" said his dad, \"and don't fly too high or you might crash into a jumbo jet.\"",
+      "prompt": "The word 'sulky' means that Zachariah was feeling",
+      "options": [
+        {
+          "label": "A",
+          "text": "tired."
+        },
+        {
+          "label": "B",
+          "text": "moody."
+        },
+        {
+          "label": "C",
+          "text": "bored."
+        },
+        {
+          "label": "D",
+          "text": "serious."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "He grumbles that he would 'rather have a real wombat' — he is in a bad mood.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017orig-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 6.\n\nThe Wonder Wombat\n\nAt one o'clock, Zachariah was finally allowed to put on his costume. He pulled on some brown tracksuit pants and a brown T-shirt with a picture of a wombat on it. For his feet, there were brown furry slippers.\n\nHe looked at his homemade mask and cardboard ears and hoped that they looked a bit like a wombat. The last thing he had to put on was a cloak, which his mother had made out of an old blue tablecloth. On the back was a huge letter 'W' painted in bright yellow.\n\nWhen he was ready, he stretched out his arms straight ahead of him and ran to the lounge to show his parents. He zoomed once around the room before his dad scooped him up and stood him on a chair.\n\n\"Look! Up on the chair! Is it a bird? Is it a plane?\"\n\nZachariah's mother answered, \"No, it's the Wonder Wombat!\"\n\nZachariah got down from the chair and took off his mask. He was feeling a bit sulky. \"I'd still rather have a real wombat than pretend to be one,\" he grumbled.\n\nHis parents looked at each other. His dad patted the spare seat on the couch and said, \"Come over here, Wonder Zach. We've got some good news for you.\" He nudged his wife. \"You tell him, Tess.\"\n\nAs Zachariah sat down, his mother put her arm around him and said, \"When you get home from the party, there'll be a surprise waiting for you. Your dad's going out soon and he'll bring it back with him.\"\n\nZachariah immediately began bouncing up and down on the seat, yelling, \"Oh boy, oh boy! I can't wait!\" Then he stopped long enough to ask, \"What is it? Is it a pet? A wombat? It is, isn't it?\"\n\nBut his dad only winked at him and said, \"I guess you'll just have to wait and see, kiddo. By the way, bring the Birthday Girl with you. I think she'll want to see your surprise.\"\n\nZachariah jumped up. \"Can I go over and tell Becky now? She asked me to get there before the other kids.\"\n\n\"Well, it won't take you long to walk all the way next door,\" said his mum. \"But I think you're forgetting something.\"\n\n\"What?\"\n\n\"The birthday present.\"\n\n\"Whoops, sorry.\" He picked up a parcel from the coffee table and kissed his mum. She straightened his cardboard ears.\n\n\"Now don't forget to say thank you to Becky's mother and be careful not to trip on your cape,\" she said.\n\n\"Have a good time, WW,\" said his dad, \"and don't fly too high or you might crash into a jumbo jet.\"",
+      "prompt": "What did Zachariah want?",
+      "options": [
+        {
+          "label": "A",
+          "text": "a different costume"
+        },
+        {
+          "label": "B",
+          "text": "a birthday party"
+        },
+        {
+          "label": "C",
+          "text": "a friend"
+        },
+        {
+          "label": "D",
+          "text": "a pet"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "He would 'rather have a real wombat than pretend to be one' and immediately hopes the surprise 'is a pet'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 6.\n\nThe Wonder Wombat\n\nAt one o'clock, Zachariah was finally allowed to put on his costume. He pulled on some brown tracksuit pants and a brown T-shirt with a picture of a wombat on it. For his feet, there were brown furry slippers.\n\nHe looked at his homemade mask and cardboard ears and hoped that they looked a bit like a wombat. The last thing he had to put on was a cloak, which his mother had made out of an old blue tablecloth. On the back was a huge letter 'W' painted in bright yellow.\n\nWhen he was ready, he stretched out his arms straight ahead of him and ran to the lounge to show his parents. He zoomed once around the room before his dad scooped him up and stood him on a chair.\n\n\"Look! Up on the chair! Is it a bird? Is it a plane?\"\n\nZachariah's mother answered, \"No, it's the Wonder Wombat!\"\n\nZachariah got down from the chair and took off his mask. He was feeling a bit sulky. \"I'd still rather have a real wombat than pretend to be one,\" he grumbled.\n\nHis parents looked at each other. His dad patted the spare seat on the couch and said, \"Come over here, Wonder Zach. We've got some good news for you.\" He nudged his wife. \"You tell him, Tess.\"\n\nAs Zachariah sat down, his mother put her arm around him and said, \"When you get home from the party, there'll be a surprise waiting for you. Your dad's going out soon and he'll bring it back with him.\"\n\nZachariah immediately began bouncing up and down on the seat, yelling, \"Oh boy, oh boy! I can't wait!\" Then he stopped long enough to ask, \"What is it? Is it a pet? A wombat? It is, isn't it?\"\n\nBut his dad only winked at him and said, \"I guess you'll just have to wait and see, kiddo. By the way, bring the Birthday Girl with you. I think she'll want to see your surprise.\"\n\nZachariah jumped up. \"Can I go over and tell Becky now? She asked me to get there before the other kids.\"\n\n\"Well, it won't take you long to walk all the way next door,\" said his mum. \"But I think you're forgetting something.\"\n\n\"What?\"\n\n\"The birthday present.\"\n\n\"Whoops, sorry.\" He picked up a parcel from the coffee table and kissed his mum. She straightened his cardboard ears.\n\n\"Now don't forget to say thank you to Becky's mother and be careful not to trip on your cape,\" she said.\n\n\"Have a good time, WW,\" said his dad, \"and don't fly too high or you might crash into a jumbo jet.\"",
+      "prompt": "By winking at his son, Zachariah's father was being",
+      "options": [
+        {
+          "label": "A",
+          "text": "careful."
+        },
+        {
+          "label": "B",
+          "text": "dishonest."
+        },
+        {
+          "label": "C",
+          "text": "secretive."
+        },
+        {
+          "label": "D",
+          "text": "patient."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The wink signals that he is deliberately keeping the surprise a secret.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 6.\n\nThe Wonder Wombat\n\nAt one o'clock, Zachariah was finally allowed to put on his costume. He pulled on some brown tracksuit pants and a brown T-shirt with a picture of a wombat on it. For his feet, there were brown furry slippers.\n\nHe looked at his homemade mask and cardboard ears and hoped that they looked a bit like a wombat. The last thing he had to put on was a cloak, which his mother had made out of an old blue tablecloth. On the back was a huge letter 'W' painted in bright yellow.\n\nWhen he was ready, he stretched out his arms straight ahead of him and ran to the lounge to show his parents. He zoomed once around the room before his dad scooped him up and stood him on a chair.\n\n\"Look! Up on the chair! Is it a bird? Is it a plane?\"\n\nZachariah's mother answered, \"No, it's the Wonder Wombat!\"\n\nZachariah got down from the chair and took off his mask. He was feeling a bit sulky. \"I'd still rather have a real wombat than pretend to be one,\" he grumbled.\n\nHis parents looked at each other. His dad patted the spare seat on the couch and said, \"Come over here, Wonder Zach. We've got some good news for you.\" He nudged his wife. \"You tell him, Tess.\"\n\nAs Zachariah sat down, his mother put her arm around him and said, \"When you get home from the party, there'll be a surprise waiting for you. Your dad's going out soon and he'll bring it back with him.\"\n\nZachariah immediately began bouncing up and down on the seat, yelling, \"Oh boy, oh boy! I can't wait!\" Then he stopped long enough to ask, \"What is it? Is it a pet? A wombat? It is, isn't it?\"\n\nBut his dad only winked at him and said, \"I guess you'll just have to wait and see, kiddo. By the way, bring the Birthday Girl with you. I think she'll want to see your surprise.\"\n\nZachariah jumped up. \"Can I go over and tell Becky now? She asked me to get there before the other kids.\"\n\n\"Well, it won't take you long to walk all the way next door,\" said his mum. \"But I think you're forgetting something.\"\n\n\"What?\"\n\n\"The birthday present.\"\n\n\"Whoops, sorry.\" He picked up a parcel from the coffee table and kissed his mum. She straightened his cardboard ears.\n\n\"Now don't forget to say thank you to Becky's mother and be careful not to trip on your cape,\" she said.\n\n\"Have a good time, WW,\" said his dad, \"and don't fly too high or you might crash into a jumbo jet.\"",
+      "prompt": "'you might crash into a jumbo jet'\nZachariah's father meant this to be",
+      "options": [
+        {
+          "label": "A",
+          "text": "a joke."
+        },
+        {
+          "label": "B",
+          "text": "a warning."
+        },
+        {
+          "label": "C",
+          "text": "a suggestion."
+        },
+        {
+          "label": "D",
+          "text": "an observation."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Zachariah cannot really fly; his dad is teasing him about his superhero costume.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017orig-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 6.\n\nThe Wonder Wombat\n\nAt one o'clock, Zachariah was finally allowed to put on his costume. He pulled on some brown tracksuit pants and a brown T-shirt with a picture of a wombat on it. For his feet, there were brown furry slippers.\n\nHe looked at his homemade mask and cardboard ears and hoped that they looked a bit like a wombat. The last thing he had to put on was a cloak, which his mother had made out of an old blue tablecloth. On the back was a huge letter 'W' painted in bright yellow.\n\nWhen he was ready, he stretched out his arms straight ahead of him and ran to the lounge to show his parents. He zoomed once around the room before his dad scooped him up and stood him on a chair.\n\n\"Look! Up on the chair! Is it a bird? Is it a plane?\"\n\nZachariah's mother answered, \"No, it's the Wonder Wombat!\"\n\nZachariah got down from the chair and took off his mask. He was feeling a bit sulky. \"I'd still rather have a real wombat than pretend to be one,\" he grumbled.\n\nHis parents looked at each other. His dad patted the spare seat on the couch and said, \"Come over here, Wonder Zach. We've got some good news for you.\" He nudged his wife. \"You tell him, Tess.\"\n\nAs Zachariah sat down, his mother put her arm around him and said, \"When you get home from the party, there'll be a surprise waiting for you. Your dad's going out soon and he'll bring it back with him.\"\n\nZachariah immediately began bouncing up and down on the seat, yelling, \"Oh boy, oh boy! I can't wait!\" Then he stopped long enough to ask, \"What is it? Is it a pet? A wombat? It is, isn't it?\"\n\nBut his dad only winked at him and said, \"I guess you'll just have to wait and see, kiddo. By the way, bring the Birthday Girl with you. I think she'll want to see your surprise.\"\n\nZachariah jumped up. \"Can I go over and tell Becky now? She asked me to get there before the other kids.\"\n\n\"Well, it won't take you long to walk all the way next door,\" said his mum. \"But I think you're forgetting something.\"\n\n\"What?\"\n\n\"The birthday present.\"\n\n\"Whoops, sorry.\" He picked up a parcel from the coffee table and kissed his mum. She straightened his cardboard ears.\n\n\"Now don't forget to say thank you to Becky's mother and be careful not to trip on your cape,\" she said.\n\n\"Have a good time, WW,\" said his dad, \"and don't fly too high or you might crash into a jumbo jet.\"",
+      "prompt": "What was the atmosphere in Zachariah's family?",
+      "options": [
+        {
+          "label": "A",
+          "text": "busy"
+        },
+        {
+          "label": "B",
+          "text": "polite"
+        },
+        {
+          "label": "C",
+          "text": "forgetful"
+        },
+        {
+          "label": "D",
+          "text": "playful"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The parents join in the superhero game, use nicknames like 'Wonder Zach' and 'WW', and tease affectionately.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 7 to 12.\n\nHow to build a castle\n\n[Photograph: Castle in Guédelon in 2005]\n[Photograph: Castle in Guédelon in 2015]\n\nIn 1979 a man named Michel Guyot, who lives in the Yonne district of Burgundy in France, decided he wanted to build a castle from scratch. Like many of us, he was curious to know how castles were built. He chose to build a thirteenth-century-style castle on an abandoned quarry site near his home in the Guédelon forest.\n\nIn 1997 a group of fifty people began the enormous task of bringing this castle to life. But it wasn't just a matter of having the right architectural plans and the workers to carry them out; Monsieur Guyot wanted this castle to be as authentic as possible, so he decided it would be built using only the tools and the building methods employed in the Middle Ages. Monsieur Guyot estimated construction would take around twenty-five years to complete. And that means that this castle is still being built and won't be finished until 2022!\n\nWork has already been underway for over twenty years, and walking through the site you see the workers using their hands, not electric tools, to build this masterpiece. In keeping with authentic ancient practices, they create pulleys* to hoist the stone up to the level on which they are working; they use hand-forged chisels to shape the timber beams, and they use their own bodies to form a human chain to carry great clumps of earth up handmade stairs to form the floor of the Great Hall. Inside, the castle walls are rendered* with lime to create a weatherproof seal. Lime plaster is applied to provide a smooth surface and then the walls are lime washed. Finally, they are decorated with line drawings and then painted with colourful murals using natural dyes. The floors are paved with kiln-fired paving tiles and the carpenters and the blacksmiths are busy making the doors.\n\nOutside, beyond the castle and the workers' sheds, is a thirteenth-century farm where a flock of sheep wanders about, oblivious to hundreds of curious visitors. Chickens squawk and scatter, and pigs slosh about in mud. And cattle and horses are kept secure behind handmade fences.\n\nThe scene is like something out of the Middle Ages.\n\nBut then, that's the point... isn't it?\n\n* pulleys — wheels used with ropes or chains to lift or lower heavy objects\n* rendered — covered",
+      "prompt": "According to the text, why did Michel Guyot decide to build a thirteenth-century-style castle?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to build the first castle in the Yonne district"
+        },
+        {
+          "label": "B",
+          "text": "to find out for himself how it was actually done"
+        },
+        {
+          "label": "C",
+          "text": "to make use of an abandoned piece of land"
+        },
+        {
+          "label": "D",
+          "text": "to fulfil his childhood dream"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'Like many of us, he was curious to know how castles were built.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 7 to 12.\n\nHow to build a castle\n\n[Photograph: Castle in Guédelon in 2005]\n[Photograph: Castle in Guédelon in 2015]\n\nIn 1979 a man named Michel Guyot, who lives in the Yonne district of Burgundy in France, decided he wanted to build a castle from scratch. Like many of us, he was curious to know how castles were built. He chose to build a thirteenth-century-style castle on an abandoned quarry site near his home in the Guédelon forest.\n\nIn 1997 a group of fifty people began the enormous task of bringing this castle to life. But it wasn't just a matter of having the right architectural plans and the workers to carry them out; Monsieur Guyot wanted this castle to be as authentic as possible, so he decided it would be built using only the tools and the building methods employed in the Middle Ages. Monsieur Guyot estimated construction would take around twenty-five years to complete. And that means that this castle is still being built and won't be finished until 2022!\n\nWork has already been underway for over twenty years, and walking through the site you see the workers using their hands, not electric tools, to build this masterpiece. In keeping with authentic ancient practices, they create pulleys* to hoist the stone up to the level on which they are working; they use hand-forged chisels to shape the timber beams, and they use their own bodies to form a human chain to carry great clumps of earth up handmade stairs to form the floor of the Great Hall. Inside, the castle walls are rendered* with lime to create a weatherproof seal. Lime plaster is applied to provide a smooth surface and then the walls are lime washed. Finally, they are decorated with line drawings and then painted with colourful murals using natural dyes. The floors are paved with kiln-fired paving tiles and the carpenters and the blacksmiths are busy making the doors.\n\nOutside, beyond the castle and the workers' sheds, is a thirteenth-century farm where a flock of sheep wanders about, oblivious to hundreds of curious visitors. Chickens squawk and scatter, and pigs slosh about in mud. And cattle and horses are kept secure behind handmade fences.\n\nThe scene is like something out of the Middle Ages.\n\nBut then, that's the point... isn't it?\n\n* pulleys — wheels used with ropes or chains to lift or lower heavy objects\n* rendered — covered",
+      "prompt": "What does the word 'authentic' mean in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "historic"
+        },
+        {
+          "label": "B",
+          "text": "complete"
+        },
+        {
+          "label": "C",
+          "text": "genuine"
+        },
+        {
+          "label": "D",
+          "text": "official"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "He wanted the castle built with genuine medieval tools and building methods.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017orig-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 7 to 12.\n\nHow to build a castle\n\n[Photograph: Castle in Guédelon in 2005]\n[Photograph: Castle in Guédelon in 2015]\n\nIn 1979 a man named Michel Guyot, who lives in the Yonne district of Burgundy in France, decided he wanted to build a castle from scratch. Like many of us, he was curious to know how castles were built. He chose to build a thirteenth-century-style castle on an abandoned quarry site near his home in the Guédelon forest.\n\nIn 1997 a group of fifty people began the enormous task of bringing this castle to life. But it wasn't just a matter of having the right architectural plans and the workers to carry them out; Monsieur Guyot wanted this castle to be as authentic as possible, so he decided it would be built using only the tools and the building methods employed in the Middle Ages. Monsieur Guyot estimated construction would take around twenty-five years to complete. And that means that this castle is still being built and won't be finished until 2022!\n\nWork has already been underway for over twenty years, and walking through the site you see the workers using their hands, not electric tools, to build this masterpiece. In keeping with authentic ancient practices, they create pulleys* to hoist the stone up to the level on which they are working; they use hand-forged chisels to shape the timber beams, and they use their own bodies to form a human chain to carry great clumps of earth up handmade stairs to form the floor of the Great Hall. Inside, the castle walls are rendered* with lime to create a weatherproof seal. Lime plaster is applied to provide a smooth surface and then the walls are lime washed. Finally, they are decorated with line drawings and then painted with colourful murals using natural dyes. The floors are paved with kiln-fired paving tiles and the carpenters and the blacksmiths are busy making the doors.\n\nOutside, beyond the castle and the workers' sheds, is a thirteenth-century farm where a flock of sheep wanders about, oblivious to hundreds of curious visitors. Chickens squawk and scatter, and pigs slosh about in mud. And cattle and horses are kept secure behind handmade fences.\n\nThe scene is like something out of the Middle Ages.\n\nBut then, that's the point... isn't it?\n\n* pulleys — wheels used with ropes or chains to lift or lower heavy objects\n* rendered — covered",
+      "prompt": "After about twenty years, the castle is still being built. Based on information in the text, why is it taking so long?",
+      "options": [
+        {
+          "label": "A",
+          "text": "The builders are not using modern methods or electric tools."
+        },
+        {
+          "label": "B",
+          "text": "Michel Guyot's architectural plan is inaccurate."
+        },
+        {
+          "label": "C",
+          "text": "It is difficult to find experienced builders."
+        },
+        {
+          "label": "D",
+          "text": "There are many problems that Michel Guyot did not plan for."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The castle is built 'using only the tools and the building methods employed in the Middle Ages' — hands, not electric tools.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 7 to 12.\n\nHow to build a castle\n\n[Photograph: Castle in Guédelon in 2005]\n[Photograph: Castle in Guédelon in 2015]\n\nIn 1979 a man named Michel Guyot, who lives in the Yonne district of Burgundy in France, decided he wanted to build a castle from scratch. Like many of us, he was curious to know how castles were built. He chose to build a thirteenth-century-style castle on an abandoned quarry site near his home in the Guédelon forest.\n\nIn 1997 a group of fifty people began the enormous task of bringing this castle to life. But it wasn't just a matter of having the right architectural plans and the workers to carry them out; Monsieur Guyot wanted this castle to be as authentic as possible, so he decided it would be built using only the tools and the building methods employed in the Middle Ages. Monsieur Guyot estimated construction would take around twenty-five years to complete. And that means that this castle is still being built and won't be finished until 2022!\n\nWork has already been underway for over twenty years, and walking through the site you see the workers using their hands, not electric tools, to build this masterpiece. In keeping with authentic ancient practices, they create pulleys* to hoist the stone up to the level on which they are working; they use hand-forged chisels to shape the timber beams, and they use their own bodies to form a human chain to carry great clumps of earth up handmade stairs to form the floor of the Great Hall. Inside, the castle walls are rendered* with lime to create a weatherproof seal. Lime plaster is applied to provide a smooth surface and then the walls are lime washed. Finally, they are decorated with line drawings and then painted with colourful murals using natural dyes. The floors are paved with kiln-fired paving tiles and the carpenters and the blacksmiths are busy making the doors.\n\nOutside, beyond the castle and the workers' sheds, is a thirteenth-century farm where a flock of sheep wanders about, oblivious to hundreds of curious visitors. Chickens squawk and scatter, and pigs slosh about in mud. And cattle and horses are kept secure behind handmade fences.\n\nThe scene is like something out of the Middle Ages.\n\nBut then, that's the point... isn't it?\n\n* pulleys — wheels used with ropes or chains to lift or lower heavy objects\n* rendered — covered",
+      "prompt": "Based on information in the text, what is the last step to complete the castle walls?",
+      "options": [
+        {
+          "label": "A",
+          "text": "decorate with line drawings"
+        },
+        {
+          "label": "B",
+          "text": "paint with murals"
+        },
+        {
+          "label": "C",
+          "text": "wash with lime"
+        },
+        {
+          "label": "D",
+          "text": "render with lime plaster"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The order is: render with lime, apply lime plaster, lime wash, add line drawings, and 'Finally ... painted with colourful murals'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 7 to 12.\n\nHow to build a castle\n\n[Photograph: Castle in Guédelon in 2005]\n[Photograph: Castle in Guédelon in 2015]\n\nIn 1979 a man named Michel Guyot, who lives in the Yonne district of Burgundy in France, decided he wanted to build a castle from scratch. Like many of us, he was curious to know how castles were built. He chose to build a thirteenth-century-style castle on an abandoned quarry site near his home in the Guédelon forest.\n\nIn 1997 a group of fifty people began the enormous task of bringing this castle to life. But it wasn't just a matter of having the right architectural plans and the workers to carry them out; Monsieur Guyot wanted this castle to be as authentic as possible, so he decided it would be built using only the tools and the building methods employed in the Middle Ages. Monsieur Guyot estimated construction would take around twenty-five years to complete. And that means that this castle is still being built and won't be finished until 2022!\n\nWork has already been underway for over twenty years, and walking through the site you see the workers using their hands, not electric tools, to build this masterpiece. In keeping with authentic ancient practices, they create pulleys* to hoist the stone up to the level on which they are working; they use hand-forged chisels to shape the timber beams, and they use their own bodies to form a human chain to carry great clumps of earth up handmade stairs to form the floor of the Great Hall. Inside, the castle walls are rendered* with lime to create a weatherproof seal. Lime plaster is applied to provide a smooth surface and then the walls are lime washed. Finally, they are decorated with line drawings and then painted with colourful murals using natural dyes. The floors are paved with kiln-fired paving tiles and the carpenters and the blacksmiths are busy making the doors.\n\nOutside, beyond the castle and the workers' sheds, is a thirteenth-century farm where a flock of sheep wanders about, oblivious to hundreds of curious visitors. Chickens squawk and scatter, and pigs slosh about in mud. And cattle and horses are kept secure behind handmade fences.\n\nThe scene is like something out of the Middle Ages.\n\nBut then, that's the point... isn't it?\n\n* pulleys — wheels used with ropes or chains to lift or lower heavy objects\n* rendered — covered",
+      "prompt": "'But then, that's the point ... isn't it?'\nThe word 'that' in the quotation refers to the fact that",
+      "options": [
+        {
+          "label": "A",
+          "text": "the site looks like it is from the Middle Ages."
+        },
+        {
+          "label": "B",
+          "text": "the Middle Ages was a long time ago."
+        },
+        {
+          "label": "C",
+          "text": "the castle was built in the Middle Ages."
+        },
+        {
+          "label": "D",
+          "text": "the buildings from the Middle Ages still look good today."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The sentence before says 'The scene is like something out of the Middle Ages' — that resemblance is the whole point.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2017orig-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 7 to 12.\n\nHow to build a castle\n\n[Photograph: Castle in Guédelon in 2005]\n[Photograph: Castle in Guédelon in 2015]\n\nIn 1979 a man named Michel Guyot, who lives in the Yonne district of Burgundy in France, decided he wanted to build a castle from scratch. Like many of us, he was curious to know how castles were built. He chose to build a thirteenth-century-style castle on an abandoned quarry site near his home in the Guédelon forest.\n\nIn 1997 a group of fifty people began the enormous task of bringing this castle to life. But it wasn't just a matter of having the right architectural plans and the workers to carry them out; Monsieur Guyot wanted this castle to be as authentic as possible, so he decided it would be built using only the tools and the building methods employed in the Middle Ages. Monsieur Guyot estimated construction would take around twenty-five years to complete. And that means that this castle is still being built and won't be finished until 2022!\n\nWork has already been underway for over twenty years, and walking through the site you see the workers using their hands, not electric tools, to build this masterpiece. In keeping with authentic ancient practices, they create pulleys* to hoist the stone up to the level on which they are working; they use hand-forged chisels to shape the timber beams, and they use their own bodies to form a human chain to carry great clumps of earth up handmade stairs to form the floor of the Great Hall. Inside, the castle walls are rendered* with lime to create a weatherproof seal. Lime plaster is applied to provide a smooth surface and then the walls are lime washed. Finally, they are decorated with line drawings and then painted with colourful murals using natural dyes. The floors are paved with kiln-fired paving tiles and the carpenters and the blacksmiths are busy making the doors.\n\nOutside, beyond the castle and the workers' sheds, is a thirteenth-century farm where a flock of sheep wanders about, oblivious to hundreds of curious visitors. Chickens squawk and scatter, and pigs slosh about in mud. And cattle and horses are kept secure behind handmade fences.\n\nThe scene is like something out of the Middle Ages.\n\nBut then, that's the point... isn't it?\n\n* pulleys — wheels used with ropes or chains to lift or lower heavy objects\n* rendered — covered",
+      "prompt": "There are two footnotes in the text marked by asterisks (*). What is the purpose of the footnotes?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to add details about the construction process"
+        },
+        {
+          "label": "B",
+          "text": "to help readers imagine the kind of work occurring at the building site"
+        },
+        {
+          "label": "C",
+          "text": "to identify the parts of the construction that are still used today"
+        },
+        {
+          "label": "D",
+          "text": "to provide definitions of technical terms"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Each footnote gives the meaning of a word used in the text, such as 'pulleys'.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017orig-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nCapture the flag\n\nI was the first to stop running. I had to stop. My lungs felt ready to explode; burning with every breath I took. Bent forward, head down, hands on my knees, I tried to focus on slowing my breathing and calming down. Then Maudie and Jacob were there, red-faced and breathing hard. We looked at each other and then back at the way we'd come. There was no one in sight; that had to be a good thing.\n\nAfter all the planning and conniving we'd done to get to this point, I was pretty confident no one would ever guess which route we'd taken.\n\n\"We'd better not stop here,\" said Maudie, her voice quiet but resolute. \"We're too close and it's too open. We'll stop for a bit when we get to the river, ok? Think things through?\"\n\nWe looked at each other before nodding in silent agreement.\n\nWe walked three abreast now, like equals, with steady, measured steps. No one spoke. I, for one, was glad of the silence. I was still trying to come to terms with what we had done and getting it all straight in my head.\n\nI glanced to my right and then my left. Maudie's serious face lit up momentarily as she flashed me a quick, reassuring smile. Her face was grimed with dirt and dust, but she looked strong. Jacob was on autopilot, his face not giving anything away. His little feet in their well-worn boots marched on, uncomplaining. Brave, now that I thought of it; they both were.\n\nReaching the top of a long incline, we all stopped and turned as if by arrangement. Far off in the distance, the school, cars, and ant-sized people in the village spread out like a half-played, abandoned board game. Not too far from the truth, I thought, and found myself grinning. As we watched, a trio of tiny, red-clad figures broke away from the slow monotony of the scene. They were too far away to be individually recognisable, but I had a fair inkling who they were. I wondered whether a quick glance upwards on their part might be enough to give us away, but then almost laughed at the thought. We'd left nothing to chance this time, and there was no way that the Greens were going to lose again.\n\nWe turned as one and resumed walking, but something had changed. Something had shifted in our collective mood. No longer the underdog, every step we took seemed to lighten and energise us, buoying us up in anticipation of the victory that lay ahead.",
+      "prompt": "At the beginning of the text, what caused the writer to stop?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He was waiting for the others to catch up."
+        },
+        {
+          "label": "B",
+          "text": "He did not know where he was going."
+        },
+        {
+          "label": "C",
+          "text": "He was out of breath after running a long way."
+        },
+        {
+          "label": "D",
+          "text": "He had reached his destination."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'My lungs felt ready to explode; burning with every breath I took.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nCapture the flag\n\nI was the first to stop running. I had to stop. My lungs felt ready to explode; burning with every breath I took. Bent forward, head down, hands on my knees, I tried to focus on slowing my breathing and calming down. Then Maudie and Jacob were there, red-faced and breathing hard. We looked at each other and then back at the way we'd come. There was no one in sight; that had to be a good thing.\n\nAfter all the planning and conniving we'd done to get to this point, I was pretty confident no one would ever guess which route we'd taken.\n\n\"We'd better not stop here,\" said Maudie, her voice quiet but resolute. \"We're too close and it's too open. We'll stop for a bit when we get to the river, ok? Think things through?\"\n\nWe looked at each other before nodding in silent agreement.\n\nWe walked three abreast now, like equals, with steady, measured steps. No one spoke. I, for one, was glad of the silence. I was still trying to come to terms with what we had done and getting it all straight in my head.\n\nI glanced to my right and then my left. Maudie's serious face lit up momentarily as she flashed me a quick, reassuring smile. Her face was grimed with dirt and dust, but she looked strong. Jacob was on autopilot, his face not giving anything away. His little feet in their well-worn boots marched on, uncomplaining. Brave, now that I thought of it; they both were.\n\nReaching the top of a long incline, we all stopped and turned as if by arrangement. Far off in the distance, the school, cars, and ant-sized people in the village spread out like a half-played, abandoned board game. Not too far from the truth, I thought, and found myself grinning. As we watched, a trio of tiny, red-clad figures broke away from the slow monotony of the scene. They were too far away to be individually recognisable, but I had a fair inkling who they were. I wondered whether a quick glance upwards on their part might be enough to give us away, but then almost laughed at the thought. We'd left nothing to chance this time, and there was no way that the Greens were going to lose again.\n\nWe turned as one and resumed walking, but something had changed. Something had shifted in our collective mood. No longer the underdog, every step we took seemed to lighten and energise us, buoying us up in anticipation of the victory that lay ahead.",
+      "prompt": "Which word could best replace 'resolute'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "determined"
+        },
+        {
+          "label": "B",
+          "text": "distressed"
+        },
+        {
+          "label": "C",
+          "text": "stubborn"
+        },
+        {
+          "label": "D",
+          "text": "aggressive"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Maudie's voice is 'quiet but resolute' — firm and determined about the plan.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017orig-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nCapture the flag\n\nI was the first to stop running. I had to stop. My lungs felt ready to explode; burning with every breath I took. Bent forward, head down, hands on my knees, I tried to focus on slowing my breathing and calming down. Then Maudie and Jacob were there, red-faced and breathing hard. We looked at each other and then back at the way we'd come. There was no one in sight; that had to be a good thing.\n\nAfter all the planning and conniving we'd done to get to this point, I was pretty confident no one would ever guess which route we'd taken.\n\n\"We'd better not stop here,\" said Maudie, her voice quiet but resolute. \"We're too close and it's too open. We'll stop for a bit when we get to the river, ok? Think things through?\"\n\nWe looked at each other before nodding in silent agreement.\n\nWe walked three abreast now, like equals, with steady, measured steps. No one spoke. I, for one, was glad of the silence. I was still trying to come to terms with what we had done and getting it all straight in my head.\n\nI glanced to my right and then my left. Maudie's serious face lit up momentarily as she flashed me a quick, reassuring smile. Her face was grimed with dirt and dust, but she looked strong. Jacob was on autopilot, his face not giving anything away. His little feet in their well-worn boots marched on, uncomplaining. Brave, now that I thought of it; they both were.\n\nReaching the top of a long incline, we all stopped and turned as if by arrangement. Far off in the distance, the school, cars, and ant-sized people in the village spread out like a half-played, abandoned board game. Not too far from the truth, I thought, and found myself grinning. As we watched, a trio of tiny, red-clad figures broke away from the slow monotony of the scene. They were too far away to be individually recognisable, but I had a fair inkling who they were. I wondered whether a quick glance upwards on their part might be enough to give us away, but then almost laughed at the thought. We'd left nothing to chance this time, and there was no way that the Greens were going to lose again.\n\nWe turned as one and resumed walking, but something had changed. Something had shifted in our collective mood. No longer the underdog, every step we took seemed to lighten and energise us, buoying us up in anticipation of the victory that lay ahead.",
+      "prompt": "Jacob was described as being 'on autopilot' because he",
+      "options": [
+        {
+          "label": "A",
+          "text": "tried to ignore what was happening."
+        },
+        {
+          "label": "B",
+          "text": "appeared to be walking without thinking."
+        },
+        {
+          "label": "C",
+          "text": "was unsure of what he should be doing."
+        },
+        {
+          "label": "D",
+          "text": "felt scared about what might happen next."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'his face not giving anything away ... marched on, uncomplaining' — he moves automatically, without visible thought.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nCapture the flag\n\nI was the first to stop running. I had to stop. My lungs felt ready to explode; burning with every breath I took. Bent forward, head down, hands on my knees, I tried to focus on slowing my breathing and calming down. Then Maudie and Jacob were there, red-faced and breathing hard. We looked at each other and then back at the way we'd come. There was no one in sight; that had to be a good thing.\n\nAfter all the planning and conniving we'd done to get to this point, I was pretty confident no one would ever guess which route we'd taken.\n\n\"We'd better not stop here,\" said Maudie, her voice quiet but resolute. \"We're too close and it's too open. We'll stop for a bit when we get to the river, ok? Think things through?\"\n\nWe looked at each other before nodding in silent agreement.\n\nWe walked three abreast now, like equals, with steady, measured steps. No one spoke. I, for one, was glad of the silence. I was still trying to come to terms with what we had done and getting it all straight in my head.\n\nI glanced to my right and then my left. Maudie's serious face lit up momentarily as she flashed me a quick, reassuring smile. Her face was grimed with dirt and dust, but she looked strong. Jacob was on autopilot, his face not giving anything away. His little feet in their well-worn boots marched on, uncomplaining. Brave, now that I thought of it; they both were.\n\nReaching the top of a long incline, we all stopped and turned as if by arrangement. Far off in the distance, the school, cars, and ant-sized people in the village spread out like a half-played, abandoned board game. Not too far from the truth, I thought, and found myself grinning. As we watched, a trio of tiny, red-clad figures broke away from the slow monotony of the scene. They were too far away to be individually recognisable, but I had a fair inkling who they were. I wondered whether a quick glance upwards on their part might be enough to give us away, but then almost laughed at the thought. We'd left nothing to chance this time, and there was no way that the Greens were going to lose again.\n\nWe turned as one and resumed walking, but something had changed. Something had shifted in our collective mood. No longer the underdog, every step we took seemed to lighten and energise us, buoying us up in anticipation of the victory that lay ahead.",
+      "prompt": "Which option correctly shows what the village was described as and what technique the writer used?",
+      "table": {
+        "headers": [
+          "Option",
+          "The village was described as",
+          "Technique"
+        ],
+        "rows": [
+          [
+            "(A)",
+            "a board game",
+            "simile"
+          ],
+          [
+            "(B)",
+            "an ant colony",
+            "exaggeration"
+          ],
+          [
+            "(C)",
+            "a landscape",
+            "metaphor"
+          ],
+          [
+            "(D)",
+            "game pieces",
+            "alliteration"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "The village was described as a board game; technique: simile"
+        },
+        {
+          "label": "B",
+          "text": "The village was described as an ant colony; technique: exaggeration"
+        },
+        {
+          "label": "C",
+          "text": "The village was described as a landscape; technique: metaphor"
+        },
+        {
+          "label": "D",
+          "text": "The village was described as game pieces; technique: alliteration"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'the village spread out like a half-played, abandoned board game' — a comparison using 'like' is a simile.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017orig-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nCapture the flag\n\nI was the first to stop running. I had to stop. My lungs felt ready to explode; burning with every breath I took. Bent forward, head down, hands on my knees, I tried to focus on slowing my breathing and calming down. Then Maudie and Jacob were there, red-faced and breathing hard. We looked at each other and then back at the way we'd come. There was no one in sight; that had to be a good thing.\n\nAfter all the planning and conniving we'd done to get to this point, I was pretty confident no one would ever guess which route we'd taken.\n\n\"We'd better not stop here,\" said Maudie, her voice quiet but resolute. \"We're too close and it's too open. We'll stop for a bit when we get to the river, ok? Think things through?\"\n\nWe looked at each other before nodding in silent agreement.\n\nWe walked three abreast now, like equals, with steady, measured steps. No one spoke. I, for one, was glad of the silence. I was still trying to come to terms with what we had done and getting it all straight in my head.\n\nI glanced to my right and then my left. Maudie's serious face lit up momentarily as she flashed me a quick, reassuring smile. Her face was grimed with dirt and dust, but she looked strong. Jacob was on autopilot, his face not giving anything away. His little feet in their well-worn boots marched on, uncomplaining. Brave, now that I thought of it; they both were.\n\nReaching the top of a long incline, we all stopped and turned as if by arrangement. Far off in the distance, the school, cars, and ant-sized people in the village spread out like a half-played, abandoned board game. Not too far from the truth, I thought, and found myself grinning. As we watched, a trio of tiny, red-clad figures broke away from the slow monotony of the scene. They were too far away to be individually recognisable, but I had a fair inkling who they were. I wondered whether a quick glance upwards on their part might be enough to give us away, but then almost laughed at the thought. We'd left nothing to chance this time, and there was no way that the Greens were going to lose again.\n\nWe turned as one and resumed walking, but something had changed. Something had shifted in our collective mood. No longer the underdog, every step we took seemed to lighten and energise us, buoying us up in anticipation of the victory that lay ahead.",
+      "prompt": "Who were the 'trio of tiny, red-clad figures'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Jacob, Maudie and the writer"
+        },
+        {
+          "label": "B",
+          "text": "visitors to the village"
+        },
+        {
+          "label": "C",
+          "text": "friends from the writer's school"
+        },
+        {
+          "label": "D",
+          "text": "members of an opposing team"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The narrator's team is the Greens; the red-clad trio are their rivals, whom the narrator 'had a fair inkling' about.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nCapture the flag\n\nI was the first to stop running. I had to stop. My lungs felt ready to explode; burning with every breath I took. Bent forward, head down, hands on my knees, I tried to focus on slowing my breathing and calming down. Then Maudie and Jacob were there, red-faced and breathing hard. We looked at each other and then back at the way we'd come. There was no one in sight; that had to be a good thing.\n\nAfter all the planning and conniving we'd done to get to this point, I was pretty confident no one would ever guess which route we'd taken.\n\n\"We'd better not stop here,\" said Maudie, her voice quiet but resolute. \"We're too close and it's too open. We'll stop for a bit when we get to the river, ok? Think things through?\"\n\nWe looked at each other before nodding in silent agreement.\n\nWe walked three abreast now, like equals, with steady, measured steps. No one spoke. I, for one, was glad of the silence. I was still trying to come to terms with what we had done and getting it all straight in my head.\n\nI glanced to my right and then my left. Maudie's serious face lit up momentarily as she flashed me a quick, reassuring smile. Her face was grimed with dirt and dust, but she looked strong. Jacob was on autopilot, his face not giving anything away. His little feet in their well-worn boots marched on, uncomplaining. Brave, now that I thought of it; they both were.\n\nReaching the top of a long incline, we all stopped and turned as if by arrangement. Far off in the distance, the school, cars, and ant-sized people in the village spread out like a half-played, abandoned board game. Not too far from the truth, I thought, and found myself grinning. As we watched, a trio of tiny, red-clad figures broke away from the slow monotony of the scene. They were too far away to be individually recognisable, but I had a fair inkling who they were. I wondered whether a quick glance upwards on their part might be enough to give us away, but then almost laughed at the thought. We'd left nothing to chance this time, and there was no way that the Greens were going to lose again.\n\nWe turned as one and resumed walking, but something had changed. Something had shifted in our collective mood. No longer the underdog, every step we took seemed to lighten and energise us, buoying us up in anticipation of the victory that lay ahead.",
+      "prompt": "'there was no way that the Greens were going to lose again'\nWhich pronoun could be used to replace 'the Greens'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "you"
+        },
+        {
+          "label": "B",
+          "text": "I"
+        },
+        {
+          "label": "C",
+          "text": "they"
+        },
+        {
+          "label": "D",
+          "text": "we"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The narrator belongs to the Greens ('We'd left nothing to chance this time'), so 'the Greens' here means 'we'.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2017orig-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nCapture the flag\n\nI was the first to stop running. I had to stop. My lungs felt ready to explode; burning with every breath I took. Bent forward, head down, hands on my knees, I tried to focus on slowing my breathing and calming down. Then Maudie and Jacob were there, red-faced and breathing hard. We looked at each other and then back at the way we'd come. There was no one in sight; that had to be a good thing.\n\nAfter all the planning and conniving we'd done to get to this point, I was pretty confident no one would ever guess which route we'd taken.\n\n\"We'd better not stop here,\" said Maudie, her voice quiet but resolute. \"We're too close and it's too open. We'll stop for a bit when we get to the river, ok? Think things through?\"\n\nWe looked at each other before nodding in silent agreement.\n\nWe walked three abreast now, like equals, with steady, measured steps. No one spoke. I, for one, was glad of the silence. I was still trying to come to terms with what we had done and getting it all straight in my head.\n\nI glanced to my right and then my left. Maudie's serious face lit up momentarily as she flashed me a quick, reassuring smile. Her face was grimed with dirt and dust, but she looked strong. Jacob was on autopilot, his face not giving anything away. His little feet in their well-worn boots marched on, uncomplaining. Brave, now that I thought of it; they both were.\n\nReaching the top of a long incline, we all stopped and turned as if by arrangement. Far off in the distance, the school, cars, and ant-sized people in the village spread out like a half-played, abandoned board game. Not too far from the truth, I thought, and found myself grinning. As we watched, a trio of tiny, red-clad figures broke away from the slow monotony of the scene. They were too far away to be individually recognisable, but I had a fair inkling who they were. I wondered whether a quick glance upwards on their part might be enough to give us away, but then almost laughed at the thought. We'd left nothing to chance this time, and there was no way that the Greens were going to lose again.\n\nWe turned as one and resumed walking, but something had changed. Something had shifted in our collective mood. No longer the underdog, every step we took seemed to lighten and energise us, buoying us up in anticipation of the victory that lay ahead.",
+      "prompt": "Which option best describes an 'underdog' in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "someone who refuses to take part"
+        },
+        {
+          "label": "B",
+          "text": "a participant who is unlikely to win"
+        },
+        {
+          "label": "C",
+          "text": "a person who is less privileged"
+        },
+        {
+          "label": "D",
+          "text": "someone who always tries their best"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'No longer the underdog ... in anticipation of the victory that lay ahead' — an underdog is the competitor expected to lose.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017orig-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 13 to 20.\n\nCapture the flag\n\nI was the first to stop running. I had to stop. My lungs felt ready to explode; burning with every breath I took. Bent forward, head down, hands on my knees, I tried to focus on slowing my breathing and calming down. Then Maudie and Jacob were there, red-faced and breathing hard. We looked at each other and then back at the way we'd come. There was no one in sight; that had to be a good thing.\n\nAfter all the planning and conniving we'd done to get to this point, I was pretty confident no one would ever guess which route we'd taken.\n\n\"We'd better not stop here,\" said Maudie, her voice quiet but resolute. \"We're too close and it's too open. We'll stop for a bit when we get to the river, ok? Think things through?\"\n\nWe looked at each other before nodding in silent agreement.\n\nWe walked three abreast now, like equals, with steady, measured steps. No one spoke. I, for one, was glad of the silence. I was still trying to come to terms with what we had done and getting it all straight in my head.\n\nI glanced to my right and then my left. Maudie's serious face lit up momentarily as she flashed me a quick, reassuring smile. Her face was grimed with dirt and dust, but she looked strong. Jacob was on autopilot, his face not giving anything away. His little feet in their well-worn boots marched on, uncomplaining. Brave, now that I thought of it; they both were.\n\nReaching the top of a long incline, we all stopped and turned as if by arrangement. Far off in the distance, the school, cars, and ant-sized people in the village spread out like a half-played, abandoned board game. Not too far from the truth, I thought, and found myself grinning. As we watched, a trio of tiny, red-clad figures broke away from the slow monotony of the scene. They were too far away to be individually recognisable, but I had a fair inkling who they were. I wondered whether a quick glance upwards on their part might be enough to give us away, but then almost laughed at the thought. We'd left nothing to chance this time, and there was no way that the Greens were going to lose again.\n\nWe turned as one and resumed walking, but something had changed. Something had shifted in our collective mood. No longer the underdog, every step we took seemed to lighten and energise us, buoying us up in anticipation of the victory that lay ahead.",
+      "prompt": "What were the characters most likely doing in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They were acting in a movie."
+        },
+        {
+          "label": "B",
+          "text": "They were on a challenging hike."
+        },
+        {
+          "label": "C",
+          "text": "They were performing a military operation."
+        },
+        {
+          "label": "D",
+          "text": "They were playing an organised game."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The title 'Capture the flag', the team names (Greens, Reds) and 'lose again' show this is an organised game.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nRatcatchers\n\nEver since the Great Plague of 1665, people in the Western world have viewed rats with contempt and horror. These rodents not only spread disease, but also eat human food and kill other animals. Rats have even stowed away on ships and colonised new lands. This often means ecological disaster for insects and ground-dwelling or nesting birds.\n\nNowhere is this more evident than on islands. Due to their isolation, a high proportion of island species are endemic (found nowhere else). While islands make up only 5% of Earth's landmass, they are home to 20% of the world's mammal, reptile and bird species. Unfortunately, about 75% of animal extinctions since 1600 have occurred on islands. The main culprits are introduced rats. In recent years, there has been a growing movement to rid islands of rats and other introduced animals to give the threatened native species a fighting chance. This is known as island restoration.\n\nThe formula for island restoration is simple: eliminate introduced species and then reintroduce native species, if they are not already extinct. New Zealand is the world's expert in island restoration and has cleared rats from more than 40 islands since the 1960s. Today, about 800 islands around the world are rodent-free. On most islands, populations of native animal species have rebounded. Eight countries (New Zealand, Australia, the UK, the USA, France, Mexico, Ecuador and the Seychelles) account for more than 80% of island restoration.\n\nIn 2015, an international 'Rat team' eradicated rats from remote South Georgia Island, near Antarctica, at great expense using a ship, three helicopters and 100 tonnes of rat poison. South Georgia is the largest island restoration project ever undertaken. The government of South Georgia gave the project the green light because rats had exterminated 90% of the seabirds on the island and melting glaciers were giving them access to the remaining seabird colonies.\n\nDespite its successes, island restoration has its critics. Animal-rights activists protest against killing animals to solve a problem that humans caused in the first place. They accuse those involved of prioritising some species over others.\n\nOther critics point to the huge expense of eradication programs. Sea and aerial transport costs to faraway islands are high. In addition, many islands have inaccessible places, such as steep mountains, where rodents can hide. Pesticides are also expensive, and so are the trained rodent detector dogs and their handlers that are often required for complete success. The large costs involved in making islands rodent-free cannot be avoided. But would this money be more effectively spent on other conservation programs?\n\nAnother valid criticism comes from the unknown consequences of the large-scale use of rat poison. In some projects in the past, non-target species such as native rodents and land crabs were poisoned. Secondary poisoning has also been recorded on the Aleutian Islands, where bald eagles and other birds ate poisoned rats.\n\nRegardless of your viewpoint, island restoration is selective killing of some species for the sake of saving others. However, when weighed up against the possibility of imminent extinction for many endemic island species, could it be considered the lesser of two evils?",
+      "prompt": "According to the text, how are rats able to reach new lands?",
+      "options": [
+        {
+          "label": "A",
+          "text": "They are good swimmers."
+        },
+        {
+          "label": "B",
+          "text": "They can survive on human and other food."
+        },
+        {
+          "label": "C",
+          "text": "They take advantage of human transportation."
+        },
+        {
+          "label": "D",
+          "text": "They follow insects and ground-dwelling birds."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Rats have even stowed away on ships and colonised new lands.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nRatcatchers\n\nEver since the Great Plague of 1665, people in the Western world have viewed rats with contempt and horror. These rodents not only spread disease, but also eat human food and kill other animals. Rats have even stowed away on ships and colonised new lands. This often means ecological disaster for insects and ground-dwelling or nesting birds.\n\nNowhere is this more evident than on islands. Due to their isolation, a high proportion of island species are endemic (found nowhere else). While islands make up only 5% of Earth's landmass, they are home to 20% of the world's mammal, reptile and bird species. Unfortunately, about 75% of animal extinctions since 1600 have occurred on islands. The main culprits are introduced rats. In recent years, there has been a growing movement to rid islands of rats and other introduced animals to give the threatened native species a fighting chance. This is known as island restoration.\n\nThe formula for island restoration is simple: eliminate introduced species and then reintroduce native species, if they are not already extinct. New Zealand is the world's expert in island restoration and has cleared rats from more than 40 islands since the 1960s. Today, about 800 islands around the world are rodent-free. On most islands, populations of native animal species have rebounded. Eight countries (New Zealand, Australia, the UK, the USA, France, Mexico, Ecuador and the Seychelles) account for more than 80% of island restoration.\n\nIn 2015, an international 'Rat team' eradicated rats from remote South Georgia Island, near Antarctica, at great expense using a ship, three helicopters and 100 tonnes of rat poison. South Georgia is the largest island restoration project ever undertaken. The government of South Georgia gave the project the green light because rats had exterminated 90% of the seabirds on the island and melting glaciers were giving them access to the remaining seabird colonies.\n\nDespite its successes, island restoration has its critics. Animal-rights activists protest against killing animals to solve a problem that humans caused in the first place. They accuse those involved of prioritising some species over others.\n\nOther critics point to the huge expense of eradication programs. Sea and aerial transport costs to faraway islands are high. In addition, many islands have inaccessible places, such as steep mountains, where rodents can hide. Pesticides are also expensive, and so are the trained rodent detector dogs and their handlers that are often required for complete success. The large costs involved in making islands rodent-free cannot be avoided. But would this money be more effectively spent on other conservation programs?\n\nAnother valid criticism comes from the unknown consequences of the large-scale use of rat poison. In some projects in the past, non-target species such as native rodents and land crabs were poisoned. Secondary poisoning has also been recorded on the Aleutian Islands, where bald eagles and other birds ate poisoned rats.\n\nRegardless of your viewpoint, island restoration is selective killing of some species for the sake of saving others. However, when weighed up against the possibility of imminent extinction for many endemic island species, could it be considered the lesser of two evils?",
+      "prompt": "Based on the information in the text, 75% of Earth's animal extinctions since 1600 have occurred on islands because",
+      "options": [
+        {
+          "label": "A",
+          "text": "islands make up 5% of Earth's landmass."
+        },
+        {
+          "label": "B",
+          "text": "islands have a high proportion of endemic species."
+        },
+        {
+          "label": "C",
+          "text": "islands provide the ideal environment for animals."
+        },
+        {
+          "label": "D",
+          "text": "islands have more mammal, reptile and bird species than elsewhere."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Island species are often 'endemic (found nowhere else)', so once wiped out on their island they are lost completely.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nRatcatchers\n\nEver since the Great Plague of 1665, people in the Western world have viewed rats with contempt and horror. These rodents not only spread disease, but also eat human food and kill other animals. Rats have even stowed away on ships and colonised new lands. This often means ecological disaster for insects and ground-dwelling or nesting birds.\n\nNowhere is this more evident than on islands. Due to their isolation, a high proportion of island species are endemic (found nowhere else). While islands make up only 5% of Earth's landmass, they are home to 20% of the world's mammal, reptile and bird species. Unfortunately, about 75% of animal extinctions since 1600 have occurred on islands. The main culprits are introduced rats. In recent years, there has been a growing movement to rid islands of rats and other introduced animals to give the threatened native species a fighting chance. This is known as island restoration.\n\nThe formula for island restoration is simple: eliminate introduced species and then reintroduce native species, if they are not already extinct. New Zealand is the world's expert in island restoration and has cleared rats from more than 40 islands since the 1960s. Today, about 800 islands around the world are rodent-free. On most islands, populations of native animal species have rebounded. Eight countries (New Zealand, Australia, the UK, the USA, France, Mexico, Ecuador and the Seychelles) account for more than 80% of island restoration.\n\nIn 2015, an international 'Rat team' eradicated rats from remote South Georgia Island, near Antarctica, at great expense using a ship, three helicopters and 100 tonnes of rat poison. South Georgia is the largest island restoration project ever undertaken. The government of South Georgia gave the project the green light because rats had exterminated 90% of the seabirds on the island and melting glaciers were giving them access to the remaining seabird colonies.\n\nDespite its successes, island restoration has its critics. Animal-rights activists protest against killing animals to solve a problem that humans caused in the first place. They accuse those involved of prioritising some species over others.\n\nOther critics point to the huge expense of eradication programs. Sea and aerial transport costs to faraway islands are high. In addition, many islands have inaccessible places, such as steep mountains, where rodents can hide. Pesticides are also expensive, and so are the trained rodent detector dogs and their handlers that are often required for complete success. The large costs involved in making islands rodent-free cannot be avoided. But would this money be more effectively spent on other conservation programs?\n\nAnother valid criticism comes from the unknown consequences of the large-scale use of rat poison. In some projects in the past, non-target species such as native rodents and land crabs were poisoned. Secondary poisoning has also been recorded on the Aleutian Islands, where bald eagles and other birds ate poisoned rats.\n\nRegardless of your viewpoint, island restoration is selective killing of some species for the sake of saving others. However, when weighed up against the possibility of imminent extinction for many endemic island species, could it be considered the lesser of two evils?",
+      "prompt": "What is the main purpose of the second paragraph?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to outline the nature and extent of island restoration"
+        },
+        {
+          "label": "B",
+          "text": "to highlight New Zealand's importance in island restoration"
+        },
+        {
+          "label": "C",
+          "text": "to name the countries that have island restoration programs"
+        },
+        {
+          "label": "D",
+          "text": "to describe the process and challenges of island restoration"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "It explains why islands matter, the scale of extinctions, and introduces the idea and aim of island restoration.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017orig-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nRatcatchers\n\nEver since the Great Plague of 1665, people in the Western world have viewed rats with contempt and horror. These rodents not only spread disease, but also eat human food and kill other animals. Rats have even stowed away on ships and colonised new lands. This often means ecological disaster for insects and ground-dwelling or nesting birds.\n\nNowhere is this more evident than on islands. Due to their isolation, a high proportion of island species are endemic (found nowhere else). While islands make up only 5% of Earth's landmass, they are home to 20% of the world's mammal, reptile and bird species. Unfortunately, about 75% of animal extinctions since 1600 have occurred on islands. The main culprits are introduced rats. In recent years, there has been a growing movement to rid islands of rats and other introduced animals to give the threatened native species a fighting chance. This is known as island restoration.\n\nThe formula for island restoration is simple: eliminate introduced species and then reintroduce native species, if they are not already extinct. New Zealand is the world's expert in island restoration and has cleared rats from more than 40 islands since the 1960s. Today, about 800 islands around the world are rodent-free. On most islands, populations of native animal species have rebounded. Eight countries (New Zealand, Australia, the UK, the USA, France, Mexico, Ecuador and the Seychelles) account for more than 80% of island restoration.\n\nIn 2015, an international 'Rat team' eradicated rats from remote South Georgia Island, near Antarctica, at great expense using a ship, three helicopters and 100 tonnes of rat poison. South Georgia is the largest island restoration project ever undertaken. The government of South Georgia gave the project the green light because rats had exterminated 90% of the seabirds on the island and melting glaciers were giving them access to the remaining seabird colonies.\n\nDespite its successes, island restoration has its critics. Animal-rights activists protest against killing animals to solve a problem that humans caused in the first place. They accuse those involved of prioritising some species over others.\n\nOther critics point to the huge expense of eradication programs. Sea and aerial transport costs to faraway islands are high. In addition, many islands have inaccessible places, such as steep mountains, where rodents can hide. Pesticides are also expensive, and so are the trained rodent detector dogs and their handlers that are often required for complete success. The large costs involved in making islands rodent-free cannot be avoided. But would this money be more effectively spent on other conservation programs?\n\nAnother valid criticism comes from the unknown consequences of the large-scale use of rat poison. In some projects in the past, non-target species such as native rodents and land crabs were poisoned. Secondary poisoning has also been recorded on the Aleutian Islands, where bald eagles and other birds ate poisoned rats.\n\nRegardless of your viewpoint, island restoration is selective killing of some species for the sake of saving others. However, when weighed up against the possibility of imminent extinction for many endemic island species, could it be considered the lesser of two evils?",
+      "prompt": "Which of the following is NOT mentioned in the case study of restoration on South Georgia Island?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the cost of restoring remote areas"
+        },
+        {
+          "label": "B",
+          "text": "the urgency of saving threatened species"
+        },
+        {
+          "label": "C",
+          "text": "the impact of freezing temperatures on threatened species"
+        },
+        {
+          "label": "D",
+          "text": "the range of equipment used"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The paragraph mentions great expense, a ship and helicopters, and rats killing seabirds, but not any effect of freezing temperatures on species.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nRatcatchers\n\nEver since the Great Plague of 1665, people in the Western world have viewed rats with contempt and horror. These rodents not only spread disease, but also eat human food and kill other animals. Rats have even stowed away on ships and colonised new lands. This often means ecological disaster for insects and ground-dwelling or nesting birds.\n\nNowhere is this more evident than on islands. Due to their isolation, a high proportion of island species are endemic (found nowhere else). While islands make up only 5% of Earth's landmass, they are home to 20% of the world's mammal, reptile and bird species. Unfortunately, about 75% of animal extinctions since 1600 have occurred on islands. The main culprits are introduced rats. In recent years, there has been a growing movement to rid islands of rats and other introduced animals to give the threatened native species a fighting chance. This is known as island restoration.\n\nThe formula for island restoration is simple: eliminate introduced species and then reintroduce native species, if they are not already extinct. New Zealand is the world's expert in island restoration and has cleared rats from more than 40 islands since the 1960s. Today, about 800 islands around the world are rodent-free. On most islands, populations of native animal species have rebounded. Eight countries (New Zealand, Australia, the UK, the USA, France, Mexico, Ecuador and the Seychelles) account for more than 80% of island restoration.\n\nIn 2015, an international 'Rat team' eradicated rats from remote South Georgia Island, near Antarctica, at great expense using a ship, three helicopters and 100 tonnes of rat poison. South Georgia is the largest island restoration project ever undertaken. The government of South Georgia gave the project the green light because rats had exterminated 90% of the seabirds on the island and melting glaciers were giving them access to the remaining seabird colonies.\n\nDespite its successes, island restoration has its critics. Animal-rights activists protest against killing animals to solve a problem that humans caused in the first place. They accuse those involved of prioritising some species over others.\n\nOther critics point to the huge expense of eradication programs. Sea and aerial transport costs to faraway islands are high. In addition, many islands have inaccessible places, such as steep mountains, where rodents can hide. Pesticides are also expensive, and so are the trained rodent detector dogs and their handlers that are often required for complete success. The large costs involved in making islands rodent-free cannot be avoided. But would this money be more effectively spent on other conservation programs?\n\nAnother valid criticism comes from the unknown consequences of the large-scale use of rat poison. In some projects in the past, non-target species such as native rodents and land crabs were poisoned. Secondary poisoning has also been recorded on the Aleutian Islands, where bald eagles and other birds ate poisoned rats.\n\nRegardless of your viewpoint, island restoration is selective killing of some species for the sake of saving others. However, when weighed up against the possibility of imminent extinction for many endemic island species, could it be considered the lesser of two evils?",
+      "prompt": "Which word from the text is different in meaning from the others?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'eliminate'"
+        },
+        {
+          "label": "B",
+          "text": "'rebounded'"
+        },
+        {
+          "label": "C",
+          "text": "'exterminated'"
+        },
+        {
+          "label": "D",
+          "text": "'killing'"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'eliminate', 'exterminated' and 'killing' all mean to destroy; 'rebounded' means recovered or bounced back.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017orig-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nRatcatchers\n\nEver since the Great Plague of 1665, people in the Western world have viewed rats with contempt and horror. These rodents not only spread disease, but also eat human food and kill other animals. Rats have even stowed away on ships and colonised new lands. This often means ecological disaster for insects and ground-dwelling or nesting birds.\n\nNowhere is this more evident than on islands. Due to their isolation, a high proportion of island species are endemic (found nowhere else). While islands make up only 5% of Earth's landmass, they are home to 20% of the world's mammal, reptile and bird species. Unfortunately, about 75% of animal extinctions since 1600 have occurred on islands. The main culprits are introduced rats. In recent years, there has been a growing movement to rid islands of rats and other introduced animals to give the threatened native species a fighting chance. This is known as island restoration.\n\nThe formula for island restoration is simple: eliminate introduced species and then reintroduce native species, if they are not already extinct. New Zealand is the world's expert in island restoration and has cleared rats from more than 40 islands since the 1960s. Today, about 800 islands around the world are rodent-free. On most islands, populations of native animal species have rebounded. Eight countries (New Zealand, Australia, the UK, the USA, France, Mexico, Ecuador and the Seychelles) account for more than 80% of island restoration.\n\nIn 2015, an international 'Rat team' eradicated rats from remote South Georgia Island, near Antarctica, at great expense using a ship, three helicopters and 100 tonnes of rat poison. South Georgia is the largest island restoration project ever undertaken. The government of South Georgia gave the project the green light because rats had exterminated 90% of the seabirds on the island and melting glaciers were giving them access to the remaining seabird colonies.\n\nDespite its successes, island restoration has its critics. Animal-rights activists protest against killing animals to solve a problem that humans caused in the first place. They accuse those involved of prioritising some species over others.\n\nOther critics point to the huge expense of eradication programs. Sea and aerial transport costs to faraway islands are high. In addition, many islands have inaccessible places, such as steep mountains, where rodents can hide. Pesticides are also expensive, and so are the trained rodent detector dogs and their handlers that are often required for complete success. The large costs involved in making islands rodent-free cannot be avoided. But would this money be more effectively spent on other conservation programs?\n\nAnother valid criticism comes from the unknown consequences of the large-scale use of rat poison. In some projects in the past, non-target species such as native rodents and land crabs were poisoned. Secondary poisoning has also been recorded on the Aleutian Islands, where bald eagles and other birds ate poisoned rats.\n\nRegardless of your viewpoint, island restoration is selective killing of some species for the sake of saving others. However, when weighed up against the possibility of imminent extinction for many endemic island species, could it be considered the lesser of two evils?",
+      "prompt": "Which option could replace the phrase 'Regardless of'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "In relation to"
+        },
+        {
+          "label": "B",
+          "text": "As an alternative to"
+        },
+        {
+          "label": "C",
+          "text": "No matter what"
+        },
+        {
+          "label": "D",
+          "text": "Without taking into account"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Regardless of your viewpoint' means 'no matter what your viewpoint is'.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017orig-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nRatcatchers\n\nEver since the Great Plague of 1665, people in the Western world have viewed rats with contempt and horror. These rodents not only spread disease, but also eat human food and kill other animals. Rats have even stowed away on ships and colonised new lands. This often means ecological disaster for insects and ground-dwelling or nesting birds.\n\nNowhere is this more evident than on islands. Due to their isolation, a high proportion of island species are endemic (found nowhere else). While islands make up only 5% of Earth's landmass, they are home to 20% of the world's mammal, reptile and bird species. Unfortunately, about 75% of animal extinctions since 1600 have occurred on islands. The main culprits are introduced rats. In recent years, there has been a growing movement to rid islands of rats and other introduced animals to give the threatened native species a fighting chance. This is known as island restoration.\n\nThe formula for island restoration is simple: eliminate introduced species and then reintroduce native species, if they are not already extinct. New Zealand is the world's expert in island restoration and has cleared rats from more than 40 islands since the 1960s. Today, about 800 islands around the world are rodent-free. On most islands, populations of native animal species have rebounded. Eight countries (New Zealand, Australia, the UK, the USA, France, Mexico, Ecuador and the Seychelles) account for more than 80% of island restoration.\n\nIn 2015, an international 'Rat team' eradicated rats from remote South Georgia Island, near Antarctica, at great expense using a ship, three helicopters and 100 tonnes of rat poison. South Georgia is the largest island restoration project ever undertaken. The government of South Georgia gave the project the green light because rats had exterminated 90% of the seabirds on the island and melting glaciers were giving them access to the remaining seabird colonies.\n\nDespite its successes, island restoration has its critics. Animal-rights activists protest against killing animals to solve a problem that humans caused in the first place. They accuse those involved of prioritising some species over others.\n\nOther critics point to the huge expense of eradication programs. Sea and aerial transport costs to faraway islands are high. In addition, many islands have inaccessible places, such as steep mountains, where rodents can hide. Pesticides are also expensive, and so are the trained rodent detector dogs and their handlers that are often required for complete success. The large costs involved in making islands rodent-free cannot be avoided. But would this money be more effectively spent on other conservation programs?\n\nAnother valid criticism comes from the unknown consequences of the large-scale use of rat poison. In some projects in the past, non-target species such as native rodents and land crabs were poisoned. Secondary poisoning has also been recorded on the Aleutian Islands, where bald eagles and other birds ate poisoned rats.\n\nRegardless of your viewpoint, island restoration is selective killing of some species for the sake of saving others. However, when weighed up against the possibility of imminent extinction for many endemic island species, could it be considered the lesser of two evils?",
+      "prompt": "What does the word 'imminent' mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "happening at a set time"
+        },
+        {
+          "label": "B",
+          "text": "occurring very soon"
+        },
+        {
+          "label": "C",
+          "text": "following a dangerous trend"
+        },
+        {
+          "label": "D",
+          "text": "taking place slowly"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'imminent extinction' means extinction that is about to happen.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017orig-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 21 to 28.\n\nRatcatchers\n\nEver since the Great Plague of 1665, people in the Western world have viewed rats with contempt and horror. These rodents not only spread disease, but also eat human food and kill other animals. Rats have even stowed away on ships and colonised new lands. This often means ecological disaster for insects and ground-dwelling or nesting birds.\n\nNowhere is this more evident than on islands. Due to their isolation, a high proportion of island species are endemic (found nowhere else). While islands make up only 5% of Earth's landmass, they are home to 20% of the world's mammal, reptile and bird species. Unfortunately, about 75% of animal extinctions since 1600 have occurred on islands. The main culprits are introduced rats. In recent years, there has been a growing movement to rid islands of rats and other introduced animals to give the threatened native species a fighting chance. This is known as island restoration.\n\nThe formula for island restoration is simple: eliminate introduced species and then reintroduce native species, if they are not already extinct. New Zealand is the world's expert in island restoration and has cleared rats from more than 40 islands since the 1960s. Today, about 800 islands around the world are rodent-free. On most islands, populations of native animal species have rebounded. Eight countries (New Zealand, Australia, the UK, the USA, France, Mexico, Ecuador and the Seychelles) account for more than 80% of island restoration.\n\nIn 2015, an international 'Rat team' eradicated rats from remote South Georgia Island, near Antarctica, at great expense using a ship, three helicopters and 100 tonnes of rat poison. South Georgia is the largest island restoration project ever undertaken. The government of South Georgia gave the project the green light because rats had exterminated 90% of the seabirds on the island and melting glaciers were giving them access to the remaining seabird colonies.\n\nDespite its successes, island restoration has its critics. Animal-rights activists protest against killing animals to solve a problem that humans caused in the first place. They accuse those involved of prioritising some species over others.\n\nOther critics point to the huge expense of eradication programs. Sea and aerial transport costs to faraway islands are high. In addition, many islands have inaccessible places, such as steep mountains, where rodents can hide. Pesticides are also expensive, and so are the trained rodent detector dogs and their handlers that are often required for complete success. The large costs involved in making islands rodent-free cannot be avoided. But would this money be more effectively spent on other conservation programs?\n\nAnother valid criticism comes from the unknown consequences of the large-scale use of rat poison. In some projects in the past, non-target species such as native rodents and land crabs were poisoned. Secondary poisoning has also been recorded on the Aleutian Islands, where bald eagles and other birds ate poisoned rats.\n\nRegardless of your viewpoint, island restoration is selective killing of some species for the sake of saving others. However, when weighed up against the possibility of imminent extinction for many endemic island species, could it be considered the lesser of two evils?",
+      "prompt": "What is the main purpose of the final sentence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to encourage alternatives to island restoration"
+        },
+        {
+          "label": "B",
+          "text": "to question island restoration because it is selective killing"
+        },
+        {
+          "label": "C",
+          "text": "to confirm island restoration as the only solution"
+        },
+        {
+          "label": "D",
+          "text": "to suggest that island restoration has more benefits than disadvantages"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The rhetorical question about 'the lesser of two evils' suggests that, weighed against mass extinction, restoration is worth its drawbacks.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017orig-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nMargaret Murry\n\nIt was a dark and stormy night in a small village in the United States.\n\nIn her attic bedroom, Margaret Murry, wrapped in an old patchwork quilt, sat on the foot of her bed and watched the trees tossing in the frenzied lashing of the wind. Behind the trees, clouds scudded frantically across the sky. Every few moments the moon ripped through them, creating wraith-like shadows that raced along the ground.\n\nThe house shook.\n\nWrapped in her quilt, Meg shook.\n\nShe wasn't usually afraid of weather. It's not just the weather, she thought. It's the weather on top of everything else. On top of me. On top of Meg Murry doing everything wrong.\n\nSchool. School was all wrong. She'd been dropped down to the lowest section in her grade. That morning one of her teachers had said crossly, \"Really, Meg, I don't understand how a child with parents as brilliant as yours are supposed to be can be such a poor student. If you don't manage to do a little better, you'll have to stay back next year.\"\n\nDuring lunch she'd fooled around a little to try to make herself feel better, and one of the girls said scornfully, \"After all, Meg, we aren't babies any more. Why do you always act like one?\"\n\nAnd on the way home from school, walking up the road with her arms full of books, one of the boys had said something about her 'dumb baby brother'. At this she'd thrown the books on the side of the road and tackled him with every ounce of strength she had, and arrived home with her blouse torn and a big bruise under one eye.\n\nSandy and Dennys, her ten-year-old twin brothers, who got home from school an hour earlier than she did, were disgusted. \"Let us do the fighting when it's necessary,\" they told her.\n\nA delinquent, that's what I am, she thought grimly. That's what they'll be saying next. Not mother. But them. Everybody else.",
+      "prompt": "What does the word 'wraith-like' mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "ghost-like"
+        },
+        {
+          "label": "B",
+          "text": "ribbon-like"
+        },
+        {
+          "label": "C",
+          "text": "animal-like"
+        },
+        {
+          "label": "D",
+          "text": "candle-like"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "A wraith is a ghost; the moonlit shadows 'raced along the ground' like ghosts.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2017orig-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nMargaret Murry\n\nIt was a dark and stormy night in a small village in the United States.\n\nIn her attic bedroom, Margaret Murry, wrapped in an old patchwork quilt, sat on the foot of her bed and watched the trees tossing in the frenzied lashing of the wind. Behind the trees, clouds scudded frantically across the sky. Every few moments the moon ripped through them, creating wraith-like shadows that raced along the ground.\n\nThe house shook.\n\nWrapped in her quilt, Meg shook.\n\nShe wasn't usually afraid of weather. It's not just the weather, she thought. It's the weather on top of everything else. On top of me. On top of Meg Murry doing everything wrong.\n\nSchool. School was all wrong. She'd been dropped down to the lowest section in her grade. That morning one of her teachers had said crossly, \"Really, Meg, I don't understand how a child with parents as brilliant as yours are supposed to be can be such a poor student. If you don't manage to do a little better, you'll have to stay back next year.\"\n\nDuring lunch she'd fooled around a little to try to make herself feel better, and one of the girls said scornfully, \"After all, Meg, we aren't babies any more. Why do you always act like one?\"\n\nAnd on the way home from school, walking up the road with her arms full of books, one of the boys had said something about her 'dumb baby brother'. At this she'd thrown the books on the side of the road and tackled him with every ounce of strength she had, and arrived home with her blouse torn and a big bruise under one eye.\n\nSandy and Dennys, her ten-year-old twin brothers, who got home from school an hour earlier than she did, were disgusted. \"Let us do the fighting when it's necessary,\" they told her.\n\nA delinquent, that's what I am, she thought grimly. That's what they'll be saying next. Not mother. But them. Everybody else.",
+      "prompt": "In the fifth paragraph, what is the purpose of the repetition of the words 'on top'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "It reveals that Meg feels superior to other people."
+        },
+        {
+          "label": "B",
+          "text": "It highlights how uncomfortable Meg feels."
+        },
+        {
+          "label": "C",
+          "text": "It reinforces Meg's feelings of helplessness."
+        },
+        {
+          "label": "D",
+          "text": "It emphasises how protective Meg feels about her old quilt."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'on top of everything else. On top of me. On top of Meg Murry doing everything wrong.' — troubles piling on her leave her feeling helpless.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017orig-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nMargaret Murry\n\nIt was a dark and stormy night in a small village in the United States.\n\nIn her attic bedroom, Margaret Murry, wrapped in an old patchwork quilt, sat on the foot of her bed and watched the trees tossing in the frenzied lashing of the wind. Behind the trees, clouds scudded frantically across the sky. Every few moments the moon ripped through them, creating wraith-like shadows that raced along the ground.\n\nThe house shook.\n\nWrapped in her quilt, Meg shook.\n\nShe wasn't usually afraid of weather. It's not just the weather, she thought. It's the weather on top of everything else. On top of me. On top of Meg Murry doing everything wrong.\n\nSchool. School was all wrong. She'd been dropped down to the lowest section in her grade. That morning one of her teachers had said crossly, \"Really, Meg, I don't understand how a child with parents as brilliant as yours are supposed to be can be such a poor student. If you don't manage to do a little better, you'll have to stay back next year.\"\n\nDuring lunch she'd fooled around a little to try to make herself feel better, and one of the girls said scornfully, \"After all, Meg, we aren't babies any more. Why do you always act like one?\"\n\nAnd on the way home from school, walking up the road with her arms full of books, one of the boys had said something about her 'dumb baby brother'. At this she'd thrown the books on the side of the road and tackled him with every ounce of strength she had, and arrived home with her blouse torn and a big bruise under one eye.\n\nSandy and Dennys, her ten-year-old twin brothers, who got home from school an hour earlier than she did, were disgusted. \"Let us do the fighting when it's necessary,\" they told her.\n\nA delinquent, that's what I am, she thought grimly. That's what they'll be saying next. Not mother. But them. Everybody else.",
+      "prompt": "'School.' The paragraph starting with this word is best described as",
+      "options": [
+        {
+          "label": "A",
+          "text": "an introduction to Meg's brilliant parents."
+        },
+        {
+          "label": "B",
+          "text": "an introduction to one of Meg's teachers."
+        },
+        {
+          "label": "C",
+          "text": "a promise that something will happen."
+        },
+        {
+          "label": "D",
+          "text": "a flashback to something that has happened."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "It recounts events from 'That morning' at school — things that have already happened.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2017orig-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nMargaret Murry\n\nIt was a dark and stormy night in a small village in the United States.\n\nIn her attic bedroom, Margaret Murry, wrapped in an old patchwork quilt, sat on the foot of her bed and watched the trees tossing in the frenzied lashing of the wind. Behind the trees, clouds scudded frantically across the sky. Every few moments the moon ripped through them, creating wraith-like shadows that raced along the ground.\n\nThe house shook.\n\nWrapped in her quilt, Meg shook.\n\nShe wasn't usually afraid of weather. It's not just the weather, she thought. It's the weather on top of everything else. On top of me. On top of Meg Murry doing everything wrong.\n\nSchool. School was all wrong. She'd been dropped down to the lowest section in her grade. That morning one of her teachers had said crossly, \"Really, Meg, I don't understand how a child with parents as brilliant as yours are supposed to be can be such a poor student. If you don't manage to do a little better, you'll have to stay back next year.\"\n\nDuring lunch she'd fooled around a little to try to make herself feel better, and one of the girls said scornfully, \"After all, Meg, we aren't babies any more. Why do you always act like one?\"\n\nAnd on the way home from school, walking up the road with her arms full of books, one of the boys had said something about her 'dumb baby brother'. At this she'd thrown the books on the side of the road and tackled him with every ounce of strength she had, and arrived home with her blouse torn and a big bruise under one eye.\n\nSandy and Dennys, her ten-year-old twin brothers, who got home from school an hour earlier than she did, were disgusted. \"Let us do the fighting when it's necessary,\" they told her.\n\nA delinquent, that's what I am, she thought grimly. That's what they'll be saying next. Not mother. But them. Everybody else.",
+      "prompt": "Which word from the text is a verb?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'frenzied'"
+        },
+        {
+          "label": "B",
+          "text": "'manage'"
+        },
+        {
+          "label": "C",
+          "text": "'bruise'"
+        },
+        {
+          "label": "D",
+          "text": "'fighting'"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'If you don't manage to do a little better' — 'manage' is an action word. 'frenzied' is an adjective; 'bruise' and 'fighting' are used as nouns here.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2017orig-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nMargaret Murry\n\nIt was a dark and stormy night in a small village in the United States.\n\nIn her attic bedroom, Margaret Murry, wrapped in an old patchwork quilt, sat on the foot of her bed and watched the trees tossing in the frenzied lashing of the wind. Behind the trees, clouds scudded frantically across the sky. Every few moments the moon ripped through them, creating wraith-like shadows that raced along the ground.\n\nThe house shook.\n\nWrapped in her quilt, Meg shook.\n\nShe wasn't usually afraid of weather. It's not just the weather, she thought. It's the weather on top of everything else. On top of me. On top of Meg Murry doing everything wrong.\n\nSchool. School was all wrong. She'd been dropped down to the lowest section in her grade. That morning one of her teachers had said crossly, \"Really, Meg, I don't understand how a child with parents as brilliant as yours are supposed to be can be such a poor student. If you don't manage to do a little better, you'll have to stay back next year.\"\n\nDuring lunch she'd fooled around a little to try to make herself feel better, and one of the girls said scornfully, \"After all, Meg, we aren't babies any more. Why do you always act like one?\"\n\nAnd on the way home from school, walking up the road with her arms full of books, one of the boys had said something about her 'dumb baby brother'. At this she'd thrown the books on the side of the road and tackled him with every ounce of strength she had, and arrived home with her blouse torn and a big bruise under one eye.\n\nSandy and Dennys, her ten-year-old twin brothers, who got home from school an hour earlier than she did, were disgusted. \"Let us do the fighting when it's necessary,\" they told her.\n\nA delinquent, that's what I am, she thought grimly. That's what they'll be saying next. Not mother. But them. Everybody else.",
+      "prompt": "Which option best describes other people's attitudes towards Meg?",
+      "table": {
+        "headers": [
+          "Option",
+          "Meg's teacher",
+          "Meg's twin brothers"
+        ],
+        "rows": [
+          [
+            "(A)",
+            "cruel",
+            "defiant"
+          ],
+          [
+            "(B)",
+            "arrogant",
+            "furious"
+          ],
+          [
+            "(C)",
+            "insulting",
+            "fearful"
+          ],
+          [
+            "(D)",
+            "frustrated",
+            "annoyed"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "Meg's teacher: cruel; Meg's twin brothers: defiant"
+        },
+        {
+          "label": "B",
+          "text": "Meg's teacher: arrogant; Meg's twin brothers: furious"
+        },
+        {
+          "label": "C",
+          "text": "Meg's teacher: insulting; Meg's twin brothers: fearful"
+        },
+        {
+          "label": "D",
+          "text": "Meg's teacher: frustrated; Meg's twin brothers: annoyed"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The teacher speaks 'crossly' and cannot understand why Meg does so poorly (frustrated); the twins are 'disgusted' and tell her to leave the fighting to them (annoyed).",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nMargaret Murry\n\nIt was a dark and stormy night in a small village in the United States.\n\nIn her attic bedroom, Margaret Murry, wrapped in an old patchwork quilt, sat on the foot of her bed and watched the trees tossing in the frenzied lashing of the wind. Behind the trees, clouds scudded frantically across the sky. Every few moments the moon ripped through them, creating wraith-like shadows that raced along the ground.\n\nThe house shook.\n\nWrapped in her quilt, Meg shook.\n\nShe wasn't usually afraid of weather. It's not just the weather, she thought. It's the weather on top of everything else. On top of me. On top of Meg Murry doing everything wrong.\n\nSchool. School was all wrong. She'd been dropped down to the lowest section in her grade. That morning one of her teachers had said crossly, \"Really, Meg, I don't understand how a child with parents as brilliant as yours are supposed to be can be such a poor student. If you don't manage to do a little better, you'll have to stay back next year.\"\n\nDuring lunch she'd fooled around a little to try to make herself feel better, and one of the girls said scornfully, \"After all, Meg, we aren't babies any more. Why do you always act like one?\"\n\nAnd on the way home from school, walking up the road with her arms full of books, one of the boys had said something about her 'dumb baby brother'. At this she'd thrown the books on the side of the road and tackled him with every ounce of strength she had, and arrived home with her blouse torn and a big bruise under one eye.\n\nSandy and Dennys, her ten-year-old twin brothers, who got home from school an hour earlier than she did, were disgusted. \"Let us do the fighting when it's necessary,\" they told her.\n\nA delinquent, that's what I am, she thought grimly. That's what they'll be saying next. Not mother. But them. Everybody else.",
+      "prompt": "In the last paragraph, as Meg sat on the bed, she was",
+      "options": [
+        {
+          "label": "A",
+          "text": "planning what she would say to people."
+        },
+        {
+          "label": "B",
+          "text": "predicting what people would say about her."
+        },
+        {
+          "label": "C",
+          "text": "preparing to face her mother."
+        },
+        {
+          "label": "D",
+          "text": "pretending that she was upset."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'A delinquent, that's what I am ... That's what they'll be saying next.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2017orig-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 29 to 35.\n\nMargaret Murry\n\nIt was a dark and stormy night in a small village in the United States.\n\nIn her attic bedroom, Margaret Murry, wrapped in an old patchwork quilt, sat on the foot of her bed and watched the trees tossing in the frenzied lashing of the wind. Behind the trees, clouds scudded frantically across the sky. Every few moments the moon ripped through them, creating wraith-like shadows that raced along the ground.\n\nThe house shook.\n\nWrapped in her quilt, Meg shook.\n\nShe wasn't usually afraid of weather. It's not just the weather, she thought. It's the weather on top of everything else. On top of me. On top of Meg Murry doing everything wrong.\n\nSchool. School was all wrong. She'd been dropped down to the lowest section in her grade. That morning one of her teachers had said crossly, \"Really, Meg, I don't understand how a child with parents as brilliant as yours are supposed to be can be such a poor student. If you don't manage to do a little better, you'll have to stay back next year.\"\n\nDuring lunch she'd fooled around a little to try to make herself feel better, and one of the girls said scornfully, \"After all, Meg, we aren't babies any more. Why do you always act like one?\"\n\nAnd on the way home from school, walking up the road with her arms full of books, one of the boys had said something about her 'dumb baby brother'. At this she'd thrown the books on the side of the road and tackled him with every ounce of strength she had, and arrived home with her blouse torn and a big bruise under one eye.\n\nSandy and Dennys, her ten-year-old twin brothers, who got home from school an hour earlier than she did, were disgusted. \"Let us do the fighting when it's necessary,\" they told her.\n\nA delinquent, that's what I am, she thought grimly. That's what they'll be saying next. Not mother. But them. Everybody else.",
+      "prompt": "In the last paragraph, Meg believed that her mother would",
+      "options": [
+        {
+          "label": "A",
+          "text": "ignore her."
+        },
+        {
+          "label": "B",
+          "text": "cheer her."
+        },
+        {
+          "label": "C",
+          "text": "support her."
+        },
+        {
+          "label": "D",
+          "text": "scold her."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Not mother. But them. Everybody else.' — everyone except her mother would call her a delinquent.",
+      "topic": "Text comprehension"
+    }
+  ]
+}
