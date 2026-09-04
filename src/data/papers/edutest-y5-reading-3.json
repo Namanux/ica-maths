@@ -117,7 +117,7 @@
         { "label": "E", "text": "because everyone else had left." }
       ],
       "correctAnswer": "D",
-      "explanation": "\"He was the leader of the group by the end of the day\" has the same meaning as the original sentence.",
+      "explanation": "\"He was the leader of the group by the end of the day\" keeps the same meaning as the original sentence.",
       "topic": "Sentence Structure"
     },
     {
@@ -140,6 +140,38 @@
       "id": "edt-y5rc3-q9",
       "number": 9,
       "type": "multiple_choice",
+      "prompt": "The sentence below contains no punctuation. Choose the correctly punctuated sentence.\n\nthe sign on the door read well be back in 20 minutes",
+      "options": [
+        { "label": "A", "text": "The sign on the door read, \"We'll be back in 20 minutes.\"" },
+        { "label": "B", "text": "The sign on the door read, \"Well be back in 20 minutes." },
+        { "label": "C", "text": "The sign on the door read, \"we'll be back in 20 minutes.\"" },
+        { "label": "D", "text": "\"The sign on the door read we'll be back in 20 minutes\"." },
+        { "label": "E", "text": "The sign on the door read well.  Be back in 20 minutes." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The sentence needs a capital letter to start and a comma after \"read\". The words on the sign go inside quotation marks, \"well\" becomes \"We'll\" (short for \"we will\", capitalised as the first word of the quote), and a full stop goes inside the closing quotation mark.",
+      "topic": "Punctuation"
+    },
+    {
+      "id": "edt-y5rc3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "The sentence below contains no punctuation. Choose the correctly punctuated sentence.\n\nthere house didnt have a letterbox",
+      "options": [
+        { "label": "A", "text": "Their house didn't have a letterbox." },
+        { "label": "B", "text": "They're house didn't have a letterbox." },
+        { "label": "C", "text": "There house didn't have a letterbox." },
+        { "label": "D", "text": "Their house didnt have a letterbox" },
+        { "label": "E", "text": "Their house don't have no letterbox." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\"There\" should be \"Their\" (and capitalised as the first word), \"didnt\" needs an apostrophe to become \"didn't\" (short for \"did not\"), and the sentence needs a full stop.",
+      "topic": "Punctuation"
+    },
+    {
+      "id": "edt-y5rc3-q11",
+      "number": 11,
+      "type": "multiple_choice",
       "prompt": "Joel had an altercation with the waiter at the restaurant.\n\nThe word altercation in this sentence means:",
       "options": [
         { "label": "A", "text": "drink" },
@@ -153,8 +185,8 @@
       "topic": "Vocabulary in Context"
     },
     {
-      "id": "edt-y5rc3-q10",
-      "number": 10,
+      "id": "edt-y5rc3-q12",
+      "number": 12,
       "type": "multiple_choice",
       "prompt": "The teacher told Greg's parents that he excelled in Mathematics.\n\nThe word excelled in this sentence means:",
       "options": [
@@ -169,8 +201,8 @@
       "topic": "Vocabulary in Context"
     },
     {
-      "id": "edt-y5rc3-q11",
-      "number": 11,
+      "id": "edt-y5rc3-q13",
+      "number": 13,
       "type": "multiple_choice",
       "prompt": "Before we were allowed into the museum, we had to put our belongings in an x-ray machine and were patted down by a security officer.\n\nWhat can you infer from this sentence?",
       "options": [
@@ -185,8 +217,8 @@
       "topic": "Inference"
     },
     {
-      "id": "edt-y5rc3-q12",
-      "number": 12,
+      "id": "edt-y5rc3-q14",
+      "number": 14,
       "type": "multiple_choice",
       "passage": "Before being able to play professional golf, a golfer must get a tour card, of which there are a limited number. Once you have a tour card, you have to play well all year to stay on the professional tour. Many players, when they get to play professionally, do poorly due to the pressure associated with tour golf.",
       "prompt": "What is the main theme in this paragraph?",
@@ -202,8 +234,8 @@
       "topic": "Main Idea & Purpose"
     },
     {
-      "id": "edt-y5rc3-q13",
-      "number": 13,
+      "id": "edt-y5rc3-q15",
+      "number": 15,
       "type": "multiple_choice",
       "passage": "As part of a school assignment, all the students in Jeff's class were required to volunteer at the local retirement village. Jeff disliked the idea and thought it unfair that the school was forcing him to do community service. \"You never know,\" Jeff's mum said to him, \"You might have fun!\" Jeff seriously doubted there would be any fun involved.\n\nOn arriving at the retirement home, each student was assigned to a retiree to talk with. Every so often, they would rotate to a new person. The first person Jeff was assigned to was an eighty-six-year-old man whose name was Fletcher. Fletcher seemed nice, but Jeff didn't know what to say to him. The only elderly person he had met before this was his grandfather!\n\n\"So, what did you do before you moved here?\" Jeff quietly asked, as he glanced around the room.\n\n\"Well I have done many things in my life,\" said Fletcher. \"When I was a young lad, I lived in England with my parents. I used to have great fun knocking around with the local boys, kicking the football after school, and would often get into mischief. When my father was offered a job in Australia, we packed up our things and boarded a boat for the great southern land.\" Jeff guessed that catching a boat to Australia would take much longer than flying and wondered what it might have been like before aeroplanes.\n\nFletcher continued, \"When I was a teenager, not much older than you, I was enlisted to join the Army and was sent overseas to fight in the war for my country. I lost many of my friends there. When I got back, I was awarded a Purple Heart. Do you know what that is Jeff?\" \"No, I don't,\" Jeff replied. Fletcher motioned him to follow. \"I'll show you,\" he said. Fletcher opened a small chest sitting on the table and inside was a glimmering star with Fletcher's name inscribed, with the words, \"For courage and bravery in battle.\" Jeff was amazed at the full life that Fletcher had led, and at this point in the story he was still a teenager!\n\n\"Anyway, after I left the army, I became a carpenter and began working on the old buildings you often see scattered throughout the city. I got married and had two children. Then, after I retired, I drove a caravan all around Australia for three years.\" Jeff thought about how fun a three-year holiday would be and hoped he could do the same one day.\n\nSoon after their conversation, Jeff's teacher knocked on the door explaining to him that it was time to go. Jeff said goodbye to Fletcher and asked him if he could visit again. \"Anytime you like,\" Fletcher replied. When he arrived home, Jeff explained to his mother all about his eventful day and all the exciting things Fletcher had told him about his life. \"Sounds like you had fun,\" his mother said. \"Yes, I did. You were right, it was fun,\" agreed Jeff. Jeff continued to visit Fletcher each month, and both became good friends.",
       "prompt": "What is the main theme of this text?",
@@ -219,8 +251,8 @@
       "topic": "Main Idea & Purpose"
     },
     {
-      "id": "edt-y5rc3-q14",
-      "number": 14,
+      "id": "edt-y5rc3-q16",
+      "number": 16,
       "type": "multiple_choice",
       "passage": "As part of a school assignment, all the students in Jeff's class were required to volunteer at the local retirement village. Jeff disliked the idea and thought it unfair that the school was forcing him to do community service. \"You never know,\" Jeff's mum said to him, \"You might have fun!\" Jeff seriously doubted there would be any fun involved.\n\nOn arriving at the retirement home, each student was assigned to a retiree to talk with. Every so often, they would rotate to a new person. The first person Jeff was assigned to was an eighty-six-year-old man whose name was Fletcher. Fletcher seemed nice, but Jeff didn't know what to say to him. The only elderly person he had met before this was his grandfather!\n\n\"So, what did you do before you moved here?\" Jeff quietly asked, as he glanced around the room.\n\n\"Well I have done many things in my life,\" said Fletcher. \"When I was a young lad, I lived in England with my parents. I used to have great fun knocking around with the local boys, kicking the football after school, and would often get into mischief. When my father was offered a job in Australia, we packed up our things and boarded a boat for the great southern land.\" Jeff guessed that catching a boat to Australia would take much longer than flying and wondered what it might have been like before aeroplanes.\n\nFletcher continued, \"When I was a teenager, not much older than you, I was enlisted to join the Army and was sent overseas to fight in the war for my country. I lost many of my friends there. When I got back, I was awarded a Purple Heart. Do you know what that is Jeff?\" \"No, I don't,\" Jeff replied. Fletcher motioned him to follow. \"I'll show you,\" he said. Fletcher opened a small chest sitting on the table and inside was a glimmering star with Fletcher's name inscribed, with the words, \"For courage and bravery in battle.\" Jeff was amazed at the full life that Fletcher had led, and at this point in the story he was still a teenager!\n\n\"Anyway, after I left the army, I became a carpenter and began working on the old buildings you often see scattered throughout the city. I got married and had two children. Then, after I retired, I drove a caravan all around Australia for three years.\" Jeff thought about how fun a three-year holiday would be and hoped he could do the same one day.\n\nSoon after their conversation, Jeff's teacher knocked on the door explaining to him that it was time to go. Jeff said goodbye to Fletcher and asked him if he could visit again. \"Anytime you like,\" Fletcher replied. When he arrived home, Jeff explained to his mother all about his eventful day and all the exciting things Fletcher had told him about his life. \"Sounds like you had fun,\" his mother said. \"Yes, I did. You were right, it was fun,\" agreed Jeff. Jeff continued to visit Fletcher each month, and both became good friends.",
       "prompt": "In this text, what is a Purple Heart?",
@@ -236,8 +268,8 @@
       "topic": "Literal Comprehension"
     },
     {
-      "id": "edt-y5rc3-q15",
-      "number": 15,
+      "id": "edt-y5rc3-q17",
+      "number": 17,
       "type": "multiple_choice",
       "passage": "As part of a school assignment, all the students in Jeff's class were required to volunteer at the local retirement village. Jeff disliked the idea and thought it unfair that the school was forcing him to do community service. \"You never know,\" Jeff's mum said to him, \"You might have fun!\" Jeff seriously doubted there would be any fun involved.\n\nOn arriving at the retirement home, each student was assigned to a retiree to talk with. Every so often, they would rotate to a new person. The first person Jeff was assigned to was an eighty-six-year-old man whose name was Fletcher. Fletcher seemed nice, but Jeff didn't know what to say to him. The only elderly person he had met before this was his grandfather!\n\n\"So, what did you do before you moved here?\" Jeff quietly asked, as he glanced around the room.\n\n\"Well I have done many things in my life,\" said Fletcher. \"When I was a young lad, I lived in England with my parents. I used to have great fun knocking around with the local boys, kicking the football after school, and would often get into mischief. When my father was offered a job in Australia, we packed up our things and boarded a boat for the great southern land.\" Jeff guessed that catching a boat to Australia would take much longer than flying and wondered what it might have been like before aeroplanes.\n\nFletcher continued, \"When I was a teenager, not much older than you, I was enlisted to join the Army and was sent overseas to fight in the war for my country. I lost many of my friends there. When I got back, I was awarded a Purple Heart. Do you know what that is Jeff?\" \"No, I don't,\" Jeff replied. Fletcher motioned him to follow. \"I'll show you,\" he said. Fletcher opened a small chest sitting on the table and inside was a glimmering star with Fletcher's name inscribed, with the words, \"For courage and bravery in battle.\" Jeff was amazed at the full life that Fletcher had led, and at this point in the story he was still a teenager!\n\n\"Anyway, after I left the army, I became a carpenter and began working on the old buildings you often see scattered throughout the city. I got married and had two children. Then, after I retired, I drove a caravan all around Australia for three years.\" Jeff thought about how fun a three-year holiday would be and hoped he could do the same one day.\n\nSoon after their conversation, Jeff's teacher knocked on the door explaining to him that it was time to go. Jeff said goodbye to Fletcher and asked him if he could visit again. \"Anytime you like,\" Fletcher replied. When he arrived home, Jeff explained to his mother all about his eventful day and all the exciting things Fletcher had told him about his life. \"Sounds like you had fun,\" his mother said. \"Yes, I did. You were right, it was fun,\" agreed Jeff. Jeff continued to visit Fletcher each month, and both became good friends.",
       "prompt": "The young person in this story:",
@@ -253,8 +285,8 @@
       "topic": "Literal Comprehension"
     },
     {
-      "id": "edt-y5rc3-q16",
-      "number": 16,
+      "id": "edt-y5rc3-q18",
+      "number": 18,
       "type": "multiple_choice",
       "passage": "As part of a school assignment, all the students in Jeff's class were required to volunteer at the local retirement village. Jeff disliked the idea and thought it unfair that the school was forcing him to do community service. \"You never know,\" Jeff's mum said to him, \"You might have fun!\" Jeff seriously doubted there would be any fun involved.\n\nOn arriving at the retirement home, each student was assigned to a retiree to talk with. Every so often, they would rotate to a new person. The first person Jeff was assigned to was an eighty-six-year-old man whose name was Fletcher. Fletcher seemed nice, but Jeff didn't know what to say to him. The only elderly person he had met before this was his grandfather!\n\n\"So, what did you do before you moved here?\" Jeff quietly asked, as he glanced around the room.\n\n\"Well I have done many things in my life,\" said Fletcher. \"When I was a young lad, I lived in England with my parents. I used to have great fun knocking around with the local boys, kicking the football after school, and would often get into mischief. When my father was offered a job in Australia, we packed up our things and boarded a boat for the great southern land.\" Jeff guessed that catching a boat to Australia would take much longer than flying and wondered what it might have been like before aeroplanes.\n\nFletcher continued, \"When I was a teenager, not much older than you, I was enlisted to join the Army and was sent overseas to fight in the war for my country. I lost many of my friends there. When I got back, I was awarded a Purple Heart. Do you know what that is Jeff?\" \"No, I don't,\" Jeff replied. Fletcher motioned him to follow. \"I'll show you,\" he said. Fletcher opened a small chest sitting on the table and inside was a glimmering star with Fletcher's name inscribed, with the words, \"For courage and bravery in battle.\" Jeff was amazed at the full life that Fletcher had led, and at this point in the story he was still a teenager!\n\n\"Anyway, after I left the army, I became a carpenter and began working on the old buildings you often see scattered throughout the city. I got married and had two children. Then, after I retired, I drove a caravan all around Australia for three years.\" Jeff thought about how fun a three-year holiday would be and hoped he could do the same one day.\n\nSoon after their conversation, Jeff's teacher knocked on the door explaining to him that it was time to go. Jeff said goodbye to Fletcher and asked him if he could visit again. \"Anytime you like,\" Fletcher replied. When he arrived home, Jeff explained to his mother all about his eventful day and all the exciting things Fletcher had told him about his life. \"Sounds like you had fun,\" his mother said. \"Yes, I did. You were right, it was fun,\" agreed Jeff. Jeff continued to visit Fletcher each month, and both became good friends.",
       "prompt": "At the end of the text, Jeff's attitude towards his visit to the retirement village was:",
@@ -270,8 +302,8 @@
       "topic": "Inference"
     },
     {
-      "id": "edt-y5rc3-q17",
-      "number": 17,
+      "id": "edt-y5rc3-q19",
+      "number": 19,
       "type": "multiple_choice",
       "passage": "Peter and his friend Billy were on their way home from school when they decided to kick the football in the park. Peter called his mother and told her he had been held back after class so wouldn't be home until dinnertime. He did this because he knew she wouldn't let him go to the park before he had finished his homework. When Peter's mother came to pick him up, he wasn't there so she began to worry. When she finally found him playing in the park, she became grumpy with him, grounding him for two weeks. She told Peter that if he had asked, she would have let him go to the park after school after all.",
       "prompt": "The main theme of this paragraph is:",
@@ -287,8 +319,8 @@
       "topic": "Main Idea & Purpose"
     },
     {
-      "id": "edt-y5rc3-q18",
-      "number": 18,
+      "id": "edt-y5rc3-q20",
+      "number": 20,
       "type": "multiple_choice",
       "passage": "Peter and his friend Billy were on their way home from school when they decided to kick the football in the park. Peter called his mother and told her he had been held back after class so wouldn't be home until dinnertime. He did this because he knew she wouldn't let him go to the park before he had finished his homework. When Peter's mother came to pick him up, he wasn't there so she began to worry. When she finally found him playing in the park, she became grumpy with him, grounding him for two weeks. She told Peter that if he had asked, she would have let him go to the park after school after all.",
       "prompt": "What does the paragraph teach us?",
