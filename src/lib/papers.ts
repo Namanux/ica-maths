@@ -34,6 +34,7 @@ import icas2014EnglishPaperC from "@/data/papers/icas-2014-english-paper-c.json"
 import icas2015EnglishPaperC from "@/data/papers/icas-2015-english-paper-c.json";
 import icas2018EnglishOriginal from "@/data/papers/icas-2018-english-original.json";
 import icas2017EnglishOriginal from "@/data/papers/icas-2017-english-original.json";
+import icas2016EnglishOriginal from "@/data/papers/icas-2016-english-original.json";
 
 const DEFAULT_EXAM = "icas";
 
@@ -73,6 +74,7 @@ const papers: Paper[] = [
   icas2015EnglishPaperC as Paper,
   icas2018EnglishOriginal as Paper,
   icas2017EnglishOriginal as Paper,
+  icas2016EnglishOriginal as Paper,
 ];
 
 export function paperExam(paper: Pick<Paper, "exam">): string {

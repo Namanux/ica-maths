@@ -1,0 +1,1469 @@
+{
+  "id": "icas-2016-english-original",
+  "subject": "English",
+  "yearLevel": 5,
+  "paperCode": "C",
+  "title": "ICAS English 2016 — Original",
+  "year": 2016,
+  "timeLimitMinutes": 50,
+  "questions": [
+    {
+      "id": "eng2016orig-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 8.\n\nThe basket boats of Ngan Ha\n\nIf you are lucky enough to visit Ngan Ha village, located in Vietnam's south-central Khan Hoa province, you may see large dome shapes dotting the seashore. At first glance, they appear to be gigantic turtle shells. A closer inspection, though, will reveal that the 'turtle shells' are actually enormous woven basins. What could a person do with such an enormous basin? The answer: use it as a boat. These are the basket boats, or thuyen thung, found in villages along the coast of Vietnam.\n\nThe historical origin of Vietnamese basket boats is as interesting and unique as the boats themselves; it provides an entertaining example not just of inventiveness but also of tax evasion. When the French ruled Vietnam in the late 19th and early 20th centuries, they taxed many items including boats. This could have proved to be devastating for villages such as Ngan Ha where fishing was the main way to earn a living. To avoid paying tax, the clever Vietnamese designed a new style of boat. Because the boat was described as a basket, no tax was payable, and the people of Ngan Ha and other coastal villages continued to fish tax free!\n\nThe boats are made from thin strips of sun-dried bamboo. These strips are woven into the traditional basin shape and then coated with many layers of chai (a plant-based material) to waterproof the boat. Repairing leaks is quite straightforward: just daub on some more chai.\n\nControlling a thuyen thung in the water can be a challenge for the uninitiated, and a comedy show for those watching. It takes a little while to learn how to paddle the baskets without spinning in circles! The villagers, however, learn to control these unique boats from an early age.\n\nBasket boats were a practical solution to a threat to the livelihood of people in coastal villages such as those in Khan Hoa province. Now, they assist small coastal villages to make a living in another way: tourists come to see the basket boats, and the more adventurous take them for a spin.",
+      "prompt": "The writer compares a thuyen thung with a turtle shell in order to emphasise that",
+      "options": [
+        {
+          "label": "A",
+          "text": "they are used for similar purposes."
+        },
+        {
+          "label": "B",
+          "text": "they have the same colour."
+        },
+        {
+          "label": "C",
+          "text": "they have a similar shape."
+        },
+        {
+          "label": "D",
+          "text": "they are the same size."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The boats are 'large dome shapes' that 'appear to be gigantic turtle shells' — the comparison is about shape.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2016orig-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 8.\n\nThe basket boats of Ngan Ha\n\nIf you are lucky enough to visit Ngan Ha village, located in Vietnam's south-central Khan Hoa province, you may see large dome shapes dotting the seashore. At first glance, they appear to be gigantic turtle shells. A closer inspection, though, will reveal that the 'turtle shells' are actually enormous woven basins. What could a person do with such an enormous basin? The answer: use it as a boat. These are the basket boats, or thuyen thung, found in villages along the coast of Vietnam.\n\nThe historical origin of Vietnamese basket boats is as interesting and unique as the boats themselves; it provides an entertaining example not just of inventiveness but also of tax evasion. When the French ruled Vietnam in the late 19th and early 20th centuries, they taxed many items including boats. This could have proved to be devastating for villages such as Ngan Ha where fishing was the main way to earn a living. To avoid paying tax, the clever Vietnamese designed a new style of boat. Because the boat was described as a basket, no tax was payable, and the people of Ngan Ha and other coastal villages continued to fish tax free!\n\nThe boats are made from thin strips of sun-dried bamboo. These strips are woven into the traditional basin shape and then coated with many layers of chai (a plant-based material) to waterproof the boat. Repairing leaks is quite straightforward: just daub on some more chai.\n\nControlling a thuyen thung in the water can be a challenge for the uninitiated, and a comedy show for those watching. It takes a little while to learn how to paddle the baskets without spinning in circles! The villagers, however, learn to control these unique boats from an early age.\n\nBasket boats were a practical solution to a threat to the livelihood of people in coastal villages such as those in Khan Hoa province. Now, they assist small coastal villages to make a living in another way: tourists come to see the basket boats, and the more adventurous take them for a spin.",
+      "prompt": "The villagers avoided paying the boat tax to the French by",
+      "options": [
+        {
+          "label": "A",
+          "text": "reducing the amount of fish that they caught."
+        },
+        {
+          "label": "B",
+          "text": "using different materials to construct their boats."
+        },
+        {
+          "label": "C",
+          "text": "making a boat that looked like a basket."
+        },
+        {
+          "label": "D",
+          "text": "sharing their catch with other villages."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Because the boat was described as a basket, no tax was payable.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 8.\n\nThe basket boats of Ngan Ha\n\nIf you are lucky enough to visit Ngan Ha village, located in Vietnam's south-central Khan Hoa province, you may see large dome shapes dotting the seashore. At first glance, they appear to be gigantic turtle shells. A closer inspection, though, will reveal that the 'turtle shells' are actually enormous woven basins. What could a person do with such an enormous basin? The answer: use it as a boat. These are the basket boats, or thuyen thung, found in villages along the coast of Vietnam.\n\nThe historical origin of Vietnamese basket boats is as interesting and unique as the boats themselves; it provides an entertaining example not just of inventiveness but also of tax evasion. When the French ruled Vietnam in the late 19th and early 20th centuries, they taxed many items including boats. This could have proved to be devastating for villages such as Ngan Ha where fishing was the main way to earn a living. To avoid paying tax, the clever Vietnamese designed a new style of boat. Because the boat was described as a basket, no tax was payable, and the people of Ngan Ha and other coastal villages continued to fish tax free!\n\nThe boats are made from thin strips of sun-dried bamboo. These strips are woven into the traditional basin shape and then coated with many layers of chai (a plant-based material) to waterproof the boat. Repairing leaks is quite straightforward: just daub on some more chai.\n\nControlling a thuyen thung in the water can be a challenge for the uninitiated, and a comedy show for those watching. It takes a little while to learn how to paddle the baskets without spinning in circles! The villagers, however, learn to control these unique boats from an early age.\n\nBasket boats were a practical solution to a threat to the livelihood of people in coastal villages such as those in Khan Hoa province. Now, they assist small coastal villages to make a living in another way: tourists come to see the basket boats, and the more adventurous take them for a spin.",
+      "prompt": "Which underlined word from the second paragraph is used as a verb?",
+      "options": [
+        {
+          "label": "A",
+          "text": "'entertaining'"
+        },
+        {
+          "label": "B",
+          "text": "'living'"
+        },
+        {
+          "label": "C",
+          "text": "'clever'"
+        },
+        {
+          "label": "D",
+          "text": "'designed'"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'the clever Vietnamese designed a new style of boat' — 'designed' is an action word.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2016orig-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 8.\n\nThe basket boats of Ngan Ha\n\nIf you are lucky enough to visit Ngan Ha village, located in Vietnam's south-central Khan Hoa province, you may see large dome shapes dotting the seashore. At first glance, they appear to be gigantic turtle shells. A closer inspection, though, will reveal that the 'turtle shells' are actually enormous woven basins. What could a person do with such an enormous basin? The answer: use it as a boat. These are the basket boats, or thuyen thung, found in villages along the coast of Vietnam.\n\nThe historical origin of Vietnamese basket boats is as interesting and unique as the boats themselves; it provides an entertaining example not just of inventiveness but also of tax evasion. When the French ruled Vietnam in the late 19th and early 20th centuries, they taxed many items including boats. This could have proved to be devastating for villages such as Ngan Ha where fishing was the main way to earn a living. To avoid paying tax, the clever Vietnamese designed a new style of boat. Because the boat was described as a basket, no tax was payable, and the people of Ngan Ha and other coastal villages continued to fish tax free!\n\nThe boats are made from thin strips of sun-dried bamboo. These strips are woven into the traditional basin shape and then coated with many layers of chai (a plant-based material) to waterproof the boat. Repairing leaks is quite straightforward: just daub on some more chai.\n\nControlling a thuyen thung in the water can be a challenge for the uninitiated, and a comedy show for those watching. It takes a little while to learn how to paddle the baskets without spinning in circles! The villagers, however, learn to control these unique boats from an early age.\n\nBasket boats were a practical solution to a threat to the livelihood of people in coastal villages such as those in Khan Hoa province. Now, they assist small coastal villages to make a living in another way: tourists come to see the basket boats, and the more adventurous take them for a spin.",
+      "prompt": "The purpose of the third paragraph is to explain",
+      "options": [
+        {
+          "label": "A",
+          "text": "why the villagers wanted to avoid paying tax."
+        },
+        {
+          "label": "B",
+          "text": "how the basket boats are constructed."
+        },
+        {
+          "label": "C",
+          "text": "why the bamboo is sun-dried."
+        },
+        {
+          "label": "D",
+          "text": "how the chai is harvested."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The paragraph describes weaving sun-dried bamboo into a basin shape and coating it with chai.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2016orig-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 8.\n\nThe basket boats of Ngan Ha\n\nIf you are lucky enough to visit Ngan Ha village, located in Vietnam's south-central Khan Hoa province, you may see large dome shapes dotting the seashore. At first glance, they appear to be gigantic turtle shells. A closer inspection, though, will reveal that the 'turtle shells' are actually enormous woven basins. What could a person do with such an enormous basin? The answer: use it as a boat. These are the basket boats, or thuyen thung, found in villages along the coast of Vietnam.\n\nThe historical origin of Vietnamese basket boats is as interesting and unique as the boats themselves; it provides an entertaining example not just of inventiveness but also of tax evasion. When the French ruled Vietnam in the late 19th and early 20th centuries, they taxed many items including boats. This could have proved to be devastating for villages such as Ngan Ha where fishing was the main way to earn a living. To avoid paying tax, the clever Vietnamese designed a new style of boat. Because the boat was described as a basket, no tax was payable, and the people of Ngan Ha and other coastal villages continued to fish tax free!\n\nThe boats are made from thin strips of sun-dried bamboo. These strips are woven into the traditional basin shape and then coated with many layers of chai (a plant-based material) to waterproof the boat. Repairing leaks is quite straightforward: just daub on some more chai.\n\nControlling a thuyen thung in the water can be a challenge for the uninitiated, and a comedy show for those watching. It takes a little while to learn how to paddle the baskets without spinning in circles! The villagers, however, learn to control these unique boats from an early age.\n\nBasket boats were a practical solution to a threat to the livelihood of people in coastal villages such as those in Khan Hoa province. Now, they assist small coastal villages to make a living in another way: tourists come to see the basket boats, and the more adventurous take them for a spin.",
+      "prompt": "What does the word 'uninitiated' mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "ineffective"
+        },
+        {
+          "label": "B",
+          "text": "inaccurate"
+        },
+        {
+          "label": "C",
+          "text": "inefficient"
+        },
+        {
+          "label": "D",
+          "text": "inexperienced"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Controlling the boat 'can be a challenge for the uninitiated' — those who have not yet learned how.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2016orig-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 8.\n\nThe basket boats of Ngan Ha\n\nIf you are lucky enough to visit Ngan Ha village, located in Vietnam's south-central Khan Hoa province, you may see large dome shapes dotting the seashore. At first glance, they appear to be gigantic turtle shells. A closer inspection, though, will reveal that the 'turtle shells' are actually enormous woven basins. What could a person do with such an enormous basin? The answer: use it as a boat. These are the basket boats, or thuyen thung, found in villages along the coast of Vietnam.\n\nThe historical origin of Vietnamese basket boats is as interesting and unique as the boats themselves; it provides an entertaining example not just of inventiveness but also of tax evasion. When the French ruled Vietnam in the late 19th and early 20th centuries, they taxed many items including boats. This could have proved to be devastating for villages such as Ngan Ha where fishing was the main way to earn a living. To avoid paying tax, the clever Vietnamese designed a new style of boat. Because the boat was described as a basket, no tax was payable, and the people of Ngan Ha and other coastal villages continued to fish tax free!\n\nThe boats are made from thin strips of sun-dried bamboo. These strips are woven into the traditional basin shape and then coated with many layers of chai (a plant-based material) to waterproof the boat. Repairing leaks is quite straightforward: just daub on some more chai.\n\nControlling a thuyen thung in the water can be a challenge for the uninitiated, and a comedy show for those watching. It takes a little while to learn how to paddle the baskets without spinning in circles! The villagers, however, learn to control these unique boats from an early age.\n\nBasket boats were a practical solution to a threat to the livelihood of people in coastal villages such as those in Khan Hoa province. Now, they assist small coastal villages to make a living in another way: tourists come to see the basket boats, and the more adventurous take them for a spin.",
+      "prompt": "The words thuyen thung and chai are written in italics because",
+      "options": [
+        {
+          "label": "A",
+          "text": "they are technical terms."
+        },
+        {
+          "label": "B",
+          "text": "they are foreign words."
+        },
+        {
+          "label": "C",
+          "text": "they are used for humour."
+        },
+        {
+          "label": "D",
+          "text": "they are used for emphasis."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "They are Vietnamese words used in an English text.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2016orig-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 8.\n\nThe basket boats of Ngan Ha\n\nIf you are lucky enough to visit Ngan Ha village, located in Vietnam's south-central Khan Hoa province, you may see large dome shapes dotting the seashore. At first glance, they appear to be gigantic turtle shells. A closer inspection, though, will reveal that the 'turtle shells' are actually enormous woven basins. What could a person do with such an enormous basin? The answer: use it as a boat. These are the basket boats, or thuyen thung, found in villages along the coast of Vietnam.\n\nThe historical origin of Vietnamese basket boats is as interesting and unique as the boats themselves; it provides an entertaining example not just of inventiveness but also of tax evasion. When the French ruled Vietnam in the late 19th and early 20th centuries, they taxed many items including boats. This could have proved to be devastating for villages such as Ngan Ha where fishing was the main way to earn a living. To avoid paying tax, the clever Vietnamese designed a new style of boat. Because the boat was described as a basket, no tax was payable, and the people of Ngan Ha and other coastal villages continued to fish tax free!\n\nThe boats are made from thin strips of sun-dried bamboo. These strips are woven into the traditional basin shape and then coated with many layers of chai (a plant-based material) to waterproof the boat. Repairing leaks is quite straightforward: just daub on some more chai.\n\nControlling a thuyen thung in the water can be a challenge for the uninitiated, and a comedy show for those watching. It takes a little while to learn how to paddle the baskets without spinning in circles! The villagers, however, learn to control these unique boats from an early age.\n\nBasket boats were a practical solution to a threat to the livelihood of people in coastal villages such as those in Khan Hoa province. Now, they assist small coastal villages to make a living in another way: tourists come to see the basket boats, and the more adventurous take them for a spin.",
+      "prompt": "In the fourth paragraph, the words 'comedy show' describe",
+      "options": [
+        {
+          "label": "A",
+          "text": "how easily the boats sink if they are not waterproofed properly."
+        },
+        {
+          "label": "B",
+          "text": "what happens when people are learning to use the boats."
+        },
+        {
+          "label": "C",
+          "text": "the appearance of the boats on the seashore."
+        },
+        {
+          "label": "D",
+          "text": "the display that the villagers put on for tourists."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Beginners 'spinning in circles' as they learn to paddle is 'a comedy show for those watching'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 1 to 8.\n\nThe basket boats of Ngan Ha\n\nIf you are lucky enough to visit Ngan Ha village, located in Vietnam's south-central Khan Hoa province, you may see large dome shapes dotting the seashore. At first glance, they appear to be gigantic turtle shells. A closer inspection, though, will reveal that the 'turtle shells' are actually enormous woven basins. What could a person do with such an enormous basin? The answer: use it as a boat. These are the basket boats, or thuyen thung, found in villages along the coast of Vietnam.\n\nThe historical origin of Vietnamese basket boats is as interesting and unique as the boats themselves; it provides an entertaining example not just of inventiveness but also of tax evasion. When the French ruled Vietnam in the late 19th and early 20th centuries, they taxed many items including boats. This could have proved to be devastating for villages such as Ngan Ha where fishing was the main way to earn a living. To avoid paying tax, the clever Vietnamese designed a new style of boat. Because the boat was described as a basket, no tax was payable, and the people of Ngan Ha and other coastal villages continued to fish tax free!\n\nThe boats are made from thin strips of sun-dried bamboo. These strips are woven into the traditional basin shape and then coated with many layers of chai (a plant-based material) to waterproof the boat. Repairing leaks is quite straightforward: just daub on some more chai.\n\nControlling a thuyen thung in the water can be a challenge for the uninitiated, and a comedy show for those watching. It takes a little while to learn how to paddle the baskets without spinning in circles! The villagers, however, learn to control these unique boats from an early age.\n\nBasket boats were a practical solution to a threat to the livelihood of people in coastal villages such as those in Khan Hoa province. Now, they assist small coastal villages to make a living in another way: tourists come to see the basket boats, and the more adventurous take them for a spin.",
+      "prompt": "In the final sentence, the word 'spin' refers to taking a ride in a boat as well as",
+      "options": [
+        {
+          "label": "A",
+          "text": "the way the boat is likely to move."
+        },
+        {
+          "label": "B",
+          "text": "the speed that the boats can travel."
+        },
+        {
+          "label": "C",
+          "text": "the way the fishermen designed the boat."
+        },
+        {
+          "label": "D",
+          "text": "the interest that tourists have in the boats."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "It plays on 'take them for a spin' and the boats' tendency to spin in circles.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2016orig-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 9 to 15.\n\nThe Trojan Horse\n\nSinon hid in the shadows of the towering walls that protected the city of Troy. As he waited, he nervously rehearsed his lines. The success of the whole plan rested on his ability to convince the Trojans that their Greek enemy had finally abandoned their siege of Troy and set sail for Greece.\n\nHe looked at the huge wooden horse that the wily Greeks had built and positioned outside the gates of the city. He wondered how his fellow soldiers were faring inside its vast stomach. They must be so hot and uncomfortable!\n\nFinally some curious Trojans spied the enormous horse and came to investigate. For the first time in ten years the bustling Greek camp outside the city walls lay empty and silent. Were they really free at last? And what was the meaning of this huge horse? Sinon took a deep breath, stepped from his hiding place and began his extraordinary story.\n\n'Have mercy on me!' he begged. 'My Greek brothers left me behind when they set sail for our homeland. They have finally realised that they will never take Troy. They built this horse as an acknowledgment of the might of Troy and left it as a tribute to your invincible strength.'\n\nThe Trojans were weary of war and flattered by Sinon's extravagant praise. Wanting to believe that the Greeks had finally left Troy, they decided to bring the horse into the city as a symbol of their victory.\n\nSome people in the city were troubled by the monstrous creature and did not want it within the city walls, but their voices were lost in the confusion of the celebrations. Strong ropes were attached to the horse and excited citizens jostled each other to place their hand on a piece of rope and have the honour of pulling the Trojan horse through the city gates.\n\nAnd so the Trojans themselves pulled the Greeks into their city. That night the soldiers crept out of the horse, opened the gates and admitted the army that was hidden outside. The Greeks defeated Troy and the rest is history. The term 'Trojan Horse' has now become a metaphor for any offer that looks beguiling but ultimately brings disaster.",
+      "prompt": "What does the word 'wily' mean?",
+      "options": [
+        {
+          "label": "A",
+          "text": "spiteful"
+        },
+        {
+          "label": "B",
+          "text": "cunning"
+        },
+        {
+          "label": "C",
+          "text": "defeated"
+        },
+        {
+          "label": "D",
+          "text": "frightened"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The Greeks tricked the Trojans with the horse — 'wily' means cunning or crafty.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2016orig-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 9 to 15.\n\nThe Trojan Horse\n\nSinon hid in the shadows of the towering walls that protected the city of Troy. As he waited, he nervously rehearsed his lines. The success of the whole plan rested on his ability to convince the Trojans that their Greek enemy had finally abandoned their siege of Troy and set sail for Greece.\n\nHe looked at the huge wooden horse that the wily Greeks had built and positioned outside the gates of the city. He wondered how his fellow soldiers were faring inside its vast stomach. They must be so hot and uncomfortable!\n\nFinally some curious Trojans spied the enormous horse and came to investigate. For the first time in ten years the bustling Greek camp outside the city walls lay empty and silent. Were they really free at last? And what was the meaning of this huge horse? Sinon took a deep breath, stepped from his hiding place and began his extraordinary story.\n\n'Have mercy on me!' he begged. 'My Greek brothers left me behind when they set sail for our homeland. They have finally realised that they will never take Troy. They built this horse as an acknowledgment of the might of Troy and left it as a tribute to your invincible strength.'\n\nThe Trojans were weary of war and flattered by Sinon's extravagant praise. Wanting to believe that the Greeks had finally left Troy, they decided to bring the horse into the city as a symbol of their victory.\n\nSome people in the city were troubled by the monstrous creature and did not want it within the city walls, but their voices were lost in the confusion of the celebrations. Strong ropes were attached to the horse and excited citizens jostled each other to place their hand on a piece of rope and have the honour of pulling the Trojan horse through the city gates.\n\nAnd so the Trojans themselves pulled the Greeks into their city. That night the soldiers crept out of the horse, opened the gates and admitted the army that was hidden outside. The Greeks defeated Troy and the rest is history. The term 'Trojan Horse' has now become a metaphor for any offer that looks beguiling but ultimately brings disaster.",
+      "prompt": "Which word best describes Sinon's feelings about his task?",
+      "options": [
+        {
+          "label": "A",
+          "text": "despairing"
+        },
+        {
+          "label": "B",
+          "text": "resentful"
+        },
+        {
+          "label": "C",
+          "text": "impatient"
+        },
+        {
+          "label": "D",
+          "text": "anxious"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'he nervously rehearsed his lines' and 'Sinon took a deep breath' before speaking.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 9 to 15.\n\nThe Trojan Horse\n\nSinon hid in the shadows of the towering walls that protected the city of Troy. As he waited, he nervously rehearsed his lines. The success of the whole plan rested on his ability to convince the Trojans that their Greek enemy had finally abandoned their siege of Troy and set sail for Greece.\n\nHe looked at the huge wooden horse that the wily Greeks had built and positioned outside the gates of the city. He wondered how his fellow soldiers were faring inside its vast stomach. They must be so hot and uncomfortable!\n\nFinally some curious Trojans spied the enormous horse and came to investigate. For the first time in ten years the bustling Greek camp outside the city walls lay empty and silent. Were they really free at last? And what was the meaning of this huge horse? Sinon took a deep breath, stepped from his hiding place and began his extraordinary story.\n\n'Have mercy on me!' he begged. 'My Greek brothers left me behind when they set sail for our homeland. They have finally realised that they will never take Troy. They built this horse as an acknowledgment of the might of Troy and left it as a tribute to your invincible strength.'\n\nThe Trojans were weary of war and flattered by Sinon's extravagant praise. Wanting to believe that the Greeks had finally left Troy, they decided to bring the horse into the city as a symbol of their victory.\n\nSome people in the city were troubled by the monstrous creature and did not want it within the city walls, but their voices were lost in the confusion of the celebrations. Strong ropes were attached to the horse and excited citizens jostled each other to place their hand on a piece of rope and have the honour of pulling the Trojan horse through the city gates.\n\nAnd so the Trojans themselves pulled the Greeks into their city. That night the soldiers crept out of the horse, opened the gates and admitted the army that was hidden outside. The Greeks defeated Troy and the rest is history. The term 'Trojan Horse' has now become a metaphor for any offer that looks beguiling but ultimately brings disaster.",
+      "prompt": "Who asked the question, 'Were they really free at last?'",
+      "options": [
+        {
+          "label": "A",
+          "text": "Sinon"
+        },
+        {
+          "label": "B",
+          "text": "the Trojans"
+        },
+        {
+          "label": "C",
+          "text": "the Greek army"
+        },
+        {
+          "label": "D",
+          "text": "Sinon's fellow soldiers"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The curious Trojans who came to investigate the empty Greek camp are wondering this.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 9 to 15.\n\nThe Trojan Horse\n\nSinon hid in the shadows of the towering walls that protected the city of Troy. As he waited, he nervously rehearsed his lines. The success of the whole plan rested on his ability to convince the Trojans that their Greek enemy had finally abandoned their siege of Troy and set sail for Greece.\n\nHe looked at the huge wooden horse that the wily Greeks had built and positioned outside the gates of the city. He wondered how his fellow soldiers were faring inside its vast stomach. They must be so hot and uncomfortable!\n\nFinally some curious Trojans spied the enormous horse and came to investigate. For the first time in ten years the bustling Greek camp outside the city walls lay empty and silent. Were they really free at last? And what was the meaning of this huge horse? Sinon took a deep breath, stepped from his hiding place and began his extraordinary story.\n\n'Have mercy on me!' he begged. 'My Greek brothers left me behind when they set sail for our homeland. They have finally realised that they will never take Troy. They built this horse as an acknowledgment of the might of Troy and left it as a tribute to your invincible strength.'\n\nThe Trojans were weary of war and flattered by Sinon's extravagant praise. Wanting to believe that the Greeks had finally left Troy, they decided to bring the horse into the city as a symbol of their victory.\n\nSome people in the city were troubled by the monstrous creature and did not want it within the city walls, but their voices were lost in the confusion of the celebrations. Strong ropes were attached to the horse and excited citizens jostled each other to place their hand on a piece of rope and have the honour of pulling the Trojan horse through the city gates.\n\nAnd so the Trojans themselves pulled the Greeks into their city. That night the soldiers crept out of the horse, opened the gates and admitted the army that was hidden outside. The Greeks defeated Troy and the rest is history. The term 'Trojan Horse' has now become a metaphor for any offer that looks beguiling but ultimately brings disaster.",
+      "prompt": "The Trojans were ready to believe Sinon's story because",
+      "options": [
+        {
+          "label": "A",
+          "text": "they were tired of battling the Greeks."
+        },
+        {
+          "label": "B",
+          "text": "they knew that the Greeks had left Troy."
+        },
+        {
+          "label": "C",
+          "text": "their gods had told them that they would win."
+        },
+        {
+          "label": "D",
+          "text": "they were looking for an excuse to celebrate."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'The Trojans were weary of war ... Wanting to believe that the Greeks had finally left Troy.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 9 to 15.\n\nThe Trojan Horse\n\nSinon hid in the shadows of the towering walls that protected the city of Troy. As he waited, he nervously rehearsed his lines. The success of the whole plan rested on his ability to convince the Trojans that their Greek enemy had finally abandoned their siege of Troy and set sail for Greece.\n\nHe looked at the huge wooden horse that the wily Greeks had built and positioned outside the gates of the city. He wondered how his fellow soldiers were faring inside its vast stomach. They must be so hot and uncomfortable!\n\nFinally some curious Trojans spied the enormous horse and came to investigate. For the first time in ten years the bustling Greek camp outside the city walls lay empty and silent. Were they really free at last? And what was the meaning of this huge horse? Sinon took a deep breath, stepped from his hiding place and began his extraordinary story.\n\n'Have mercy on me!' he begged. 'My Greek brothers left me behind when they set sail for our homeland. They have finally realised that they will never take Troy. They built this horse as an acknowledgment of the might of Troy and left it as a tribute to your invincible strength.'\n\nThe Trojans were weary of war and flattered by Sinon's extravagant praise. Wanting to believe that the Greeks had finally left Troy, they decided to bring the horse into the city as a symbol of their victory.\n\nSome people in the city were troubled by the monstrous creature and did not want it within the city walls, but their voices were lost in the confusion of the celebrations. Strong ropes were attached to the horse and excited citizens jostled each other to place their hand on a piece of rope and have the honour of pulling the Trojan horse through the city gates.\n\nAnd so the Trojans themselves pulled the Greeks into their city. That night the soldiers crept out of the horse, opened the gates and admitted the army that was hidden outside. The Greeks defeated Troy and the rest is history. The term 'Trojan Horse' has now become a metaphor for any offer that looks beguiling but ultimately brings disaster.",
+      "prompt": "Which piece of information is missing from the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "which side won the war"
+        },
+        {
+          "label": "B",
+          "text": "where Sinon was waiting outside Troy"
+        },
+        {
+          "label": "C",
+          "text": "why Sinon was chosen to perform the task"
+        },
+        {
+          "label": "D",
+          "text": "how the wooden horse was taken inside the city of Troy"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text tells us the Greeks won, where Sinon hid and how the horse was pulled in, but never why Sinon was chosen.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 9 to 15.\n\nThe Trojan Horse\n\nSinon hid in the shadows of the towering walls that protected the city of Troy. As he waited, he nervously rehearsed his lines. The success of the whole plan rested on his ability to convince the Trojans that their Greek enemy had finally abandoned their siege of Troy and set sail for Greece.\n\nHe looked at the huge wooden horse that the wily Greeks had built and positioned outside the gates of the city. He wondered how his fellow soldiers were faring inside its vast stomach. They must be so hot and uncomfortable!\n\nFinally some curious Trojans spied the enormous horse and came to investigate. For the first time in ten years the bustling Greek camp outside the city walls lay empty and silent. Were they really free at last? And what was the meaning of this huge horse? Sinon took a deep breath, stepped from his hiding place and began his extraordinary story.\n\n'Have mercy on me!' he begged. 'My Greek brothers left me behind when they set sail for our homeland. They have finally realised that they will never take Troy. They built this horse as an acknowledgment of the might of Troy and left it as a tribute to your invincible strength.'\n\nThe Trojans were weary of war and flattered by Sinon's extravagant praise. Wanting to believe that the Greeks had finally left Troy, they decided to bring the horse into the city as a symbol of their victory.\n\nSome people in the city were troubled by the monstrous creature and did not want it within the city walls, but their voices were lost in the confusion of the celebrations. Strong ropes were attached to the horse and excited citizens jostled each other to place their hand on a piece of rope and have the honour of pulling the Trojan horse through the city gates.\n\nAnd so the Trojans themselves pulled the Greeks into their city. That night the soldiers crept out of the horse, opened the gates and admitted the army that was hidden outside. The Greeks defeated Troy and the rest is history. The term 'Trojan Horse' has now become a metaphor for any offer that looks beguiling but ultimately brings disaster.",
+      "prompt": "Which of the following could replace the word 'beguiling', as it is used in the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "attractive"
+        },
+        {
+          "label": "B",
+          "text": "deceptive"
+        },
+        {
+          "label": "C",
+          "text": "enormous"
+        },
+        {
+          "label": "D",
+          "text": "threatening"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'looks beguiling but ultimately brings disaster' — it seems appealing or attractive on the surface.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2016orig-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 9 to 15.\n\nThe Trojan Horse\n\nSinon hid in the shadows of the towering walls that protected the city of Troy. As he waited, he nervously rehearsed his lines. The success of the whole plan rested on his ability to convince the Trojans that their Greek enemy had finally abandoned their siege of Troy and set sail for Greece.\n\nHe looked at the huge wooden horse that the wily Greeks had built and positioned outside the gates of the city. He wondered how his fellow soldiers were faring inside its vast stomach. They must be so hot and uncomfortable!\n\nFinally some curious Trojans spied the enormous horse and came to investigate. For the first time in ten years the bustling Greek camp outside the city walls lay empty and silent. Were they really free at last? And what was the meaning of this huge horse? Sinon took a deep breath, stepped from his hiding place and began his extraordinary story.\n\n'Have mercy on me!' he begged. 'My Greek brothers left me behind when they set sail for our homeland. They have finally realised that they will never take Troy. They built this horse as an acknowledgment of the might of Troy and left it as a tribute to your invincible strength.'\n\nThe Trojans were weary of war and flattered by Sinon's extravagant praise. Wanting to believe that the Greeks had finally left Troy, they decided to bring the horse into the city as a symbol of their victory.\n\nSome people in the city were troubled by the monstrous creature and did not want it within the city walls, but their voices were lost in the confusion of the celebrations. Strong ropes were attached to the horse and excited citizens jostled each other to place their hand on a piece of rope and have the honour of pulling the Trojan horse through the city gates.\n\nAnd so the Trojans themselves pulled the Greeks into their city. That night the soldiers crept out of the horse, opened the gates and admitted the army that was hidden outside. The Greeks defeated Troy and the rest is history. The term 'Trojan Horse' has now become a metaphor for any offer that looks beguiling but ultimately brings disaster.",
+      "prompt": "Which of the following sayings is NOT a lesson that can be drawn from the text?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Always question flattery."
+        },
+        {
+          "label": "B",
+          "text": "Only celebrate a real victory."
+        },
+        {
+          "label": "C",
+          "text": "The prize always goes to the strongest."
+        },
+        {
+          "label": "D",
+          "text": "Some things are just too good to be true."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The Greeks won by trickery, not strength, so 'the prize always goes to the strongest' is not a lesson here.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 16 to 23.\n\nWorms that glue in the dark\n\nDon't be fooled by this strange little worm with its soft-looking skin and cute stubby feet. This velvety-looking little creature has an iron fist: it is a lethal night-time predator that ambushes its prey, then glues it to death!\n\nThe velvet worm is a reclusive little animal that inhabits moist dark places. The body of the velvet worm is covered with papillae (tiny bulges with bristles that are sensitive to touch and smell). These papillae give the worm's skin its velvety appearance.\n\nGlue-gun hunting\n\nThe velvet worm's hunting success relies on a highly specialised technique: it squirts a fast-hardening glue at its prey. Gonzalo Giribet, a biologist at Harvard University, likens this mechanism to 'casting a very broad and sticky net in front of your head'. The worm squirts the liquid glue from glands located on the sides of its head. It sprays in an overlapping snake-like pattern, similar to the way two unrestrained garden hoses would spray if they were connected side-by-side and the taps opened fully. The glue can be propelled up to 10 centimetres; there are some reports of sprays reaching 30 centimetres.\n\nThe worm targets the limbs of its prey with its 'glue guns', rapidly immobilising them. A few more squirts provided at close range ensure that the prey will stick around. Spiderman, eat your heart out!\n\nGlue composition\n\nThe glue comprises 90% water, proteins, sugars, fats and a chemical called nonylphenol. It is thought that the fat and nonylphenol components prevent the worm from gluing itself. These two chemicals are also thought to slow down the drying process long enough for the glue to spray through the air and onto its target.\n\nGlue recycling: crispy on the outside!\n\nAfter gluing its prey into submission, the velvet worm bites it, injecting digestive saliva which liquefies the helpless victim's insides. The worm uses a lot of energy to produce glue and it can take about 24 days to replenish its supplies, so the worm recycles ingredients by eating the dried glue when it consumes its prey. Yum, crispy on the outside with lovely gooey insides!",
+      "prompt": "The writer uses contrast in the opening paragraph in order to",
+      "options": [
+        {
+          "label": "A",
+          "text": "emphasise that the worm's appearance is misleading."
+        },
+        {
+          "label": "B",
+          "text": "describe how the worm disguises itself."
+        },
+        {
+          "label": "C",
+          "text": "emphasise the worm's colour."
+        },
+        {
+          "label": "D",
+          "text": "explain how the worm traps its prey."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Don't be fooled by this strange little worm ... it is a lethal night-time predator' — its cute look hides a deadly hunter.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2016orig-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 16 to 23.\n\nWorms that glue in the dark\n\nDon't be fooled by this strange little worm with its soft-looking skin and cute stubby feet. This velvety-looking little creature has an iron fist: it is a lethal night-time predator that ambushes its prey, then glues it to death!\n\nThe velvet worm is a reclusive little animal that inhabits moist dark places. The body of the velvet worm is covered with papillae (tiny bulges with bristles that are sensitive to touch and smell). These papillae give the worm's skin its velvety appearance.\n\nGlue-gun hunting\n\nThe velvet worm's hunting success relies on a highly specialised technique: it squirts a fast-hardening glue at its prey. Gonzalo Giribet, a biologist at Harvard University, likens this mechanism to 'casting a very broad and sticky net in front of your head'. The worm squirts the liquid glue from glands located on the sides of its head. It sprays in an overlapping snake-like pattern, similar to the way two unrestrained garden hoses would spray if they were connected side-by-side and the taps opened fully. The glue can be propelled up to 10 centimetres; there are some reports of sprays reaching 30 centimetres.\n\nThe worm targets the limbs of its prey with its 'glue guns', rapidly immobilising them. A few more squirts provided at close range ensure that the prey will stick around. Spiderman, eat your heart out!\n\nGlue composition\n\nThe glue comprises 90% water, proteins, sugars, fats and a chemical called nonylphenol. It is thought that the fat and nonylphenol components prevent the worm from gluing itself. These two chemicals are also thought to slow down the drying process long enough for the glue to spray through the air and onto its target.\n\nGlue recycling: crispy on the outside!\n\nAfter gluing its prey into submission, the velvet worm bites it, injecting digestive saliva which liquefies the helpless victim's insides. The worm uses a lot of energy to produce glue and it can take about 24 days to replenish its supplies, so the worm recycles ingredients by eating the dried glue when it consumes its prey. Yum, crispy on the outside with lovely gooey insides!",
+      "prompt": "The words 'lethal' and 'predator' mean that the worm",
+      "options": [
+        {
+          "label": "A",
+          "text": "uses camouflage when it hunts."
+        },
+        {
+          "label": "B",
+          "text": "is a highly effective hunter."
+        },
+        {
+          "label": "C",
+          "text": "attacks its prey from a distance."
+        },
+        {
+          "label": "D",
+          "text": "has an unusual defence mechanism."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'lethal' (deadly) and 'predator' (hunter) together describe a very successful killer.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2016orig-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 16 to 23.\n\nWorms that glue in the dark\n\nDon't be fooled by this strange little worm with its soft-looking skin and cute stubby feet. This velvety-looking little creature has an iron fist: it is a lethal night-time predator that ambushes its prey, then glues it to death!\n\nThe velvet worm is a reclusive little animal that inhabits moist dark places. The body of the velvet worm is covered with papillae (tiny bulges with bristles that are sensitive to touch and smell). These papillae give the worm's skin its velvety appearance.\n\nGlue-gun hunting\n\nThe velvet worm's hunting success relies on a highly specialised technique: it squirts a fast-hardening glue at its prey. Gonzalo Giribet, a biologist at Harvard University, likens this mechanism to 'casting a very broad and sticky net in front of your head'. The worm squirts the liquid glue from glands located on the sides of its head. It sprays in an overlapping snake-like pattern, similar to the way two unrestrained garden hoses would spray if they were connected side-by-side and the taps opened fully. The glue can be propelled up to 10 centimetres; there are some reports of sprays reaching 30 centimetres.\n\nThe worm targets the limbs of its prey with its 'glue guns', rapidly immobilising them. A few more squirts provided at close range ensure that the prey will stick around. Spiderman, eat your heart out!\n\nGlue composition\n\nThe glue comprises 90% water, proteins, sugars, fats and a chemical called nonylphenol. It is thought that the fat and nonylphenol components prevent the worm from gluing itself. These two chemicals are also thought to slow down the drying process long enough for the glue to spray through the air and onto its target.\n\nGlue recycling: crispy on the outside!\n\nAfter gluing its prey into submission, the velvet worm bites it, injecting digestive saliva which liquefies the helpless victim's insides. The worm uses a lot of energy to produce glue and it can take about 24 days to replenish its supplies, so the worm recycles ingredients by eating the dried glue when it consumes its prey. Yum, crispy on the outside with lovely gooey insides!",
+      "prompt": "In the third paragraph, the writer makes a comparison between the worm's glue spray and the water spray from garden hoses. What is being compared?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the volume of the spray"
+        },
+        {
+          "label": "B",
+          "text": "the pattern of the spray"
+        },
+        {
+          "label": "C",
+          "text": "the distance of the spray"
+        },
+        {
+          "label": "D",
+          "text": "the effects of the spray"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'It sprays in an overlapping snake-like pattern, similar to the way two unrestrained garden hoses would spray.'",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2016orig-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 16 to 23.\n\nWorms that glue in the dark\n\nDon't be fooled by this strange little worm with its soft-looking skin and cute stubby feet. This velvety-looking little creature has an iron fist: it is a lethal night-time predator that ambushes its prey, then glues it to death!\n\nThe velvet worm is a reclusive little animal that inhabits moist dark places. The body of the velvet worm is covered with papillae (tiny bulges with bristles that are sensitive to touch and smell). These papillae give the worm's skin its velvety appearance.\n\nGlue-gun hunting\n\nThe velvet worm's hunting success relies on a highly specialised technique: it squirts a fast-hardening glue at its prey. Gonzalo Giribet, a biologist at Harvard University, likens this mechanism to 'casting a very broad and sticky net in front of your head'. The worm squirts the liquid glue from glands located on the sides of its head. It sprays in an overlapping snake-like pattern, similar to the way two unrestrained garden hoses would spray if they were connected side-by-side and the taps opened fully. The glue can be propelled up to 10 centimetres; there are some reports of sprays reaching 30 centimetres.\n\nThe worm targets the limbs of its prey with its 'glue guns', rapidly immobilising them. A few more squirts provided at close range ensure that the prey will stick around. Spiderman, eat your heart out!\n\nGlue composition\n\nThe glue comprises 90% water, proteins, sugars, fats and a chemical called nonylphenol. It is thought that the fat and nonylphenol components prevent the worm from gluing itself. These two chemicals are also thought to slow down the drying process long enough for the glue to spray through the air and onto its target.\n\nGlue recycling: crispy on the outside!\n\nAfter gluing its prey into submission, the velvet worm bites it, injecting digestive saliva which liquefies the helpless victim's insides. The worm uses a lot of energy to produce glue and it can take about 24 days to replenish its supplies, so the worm recycles ingredients by eating the dried glue when it consumes its prey. Yum, crispy on the outside with lovely gooey insides!",
+      "prompt": "'The glue can be propelled up to 10 centimetres; there are some reports of sprays reaching 30 centimetres.'\nWhich word could replace the semicolon (;) and retain the meaning of the sentence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "but"
+        },
+        {
+          "label": "B",
+          "text": "then"
+        },
+        {
+          "label": "C",
+          "text": "since"
+        },
+        {
+          "label": "D",
+          "text": "still"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The second clause contrasts the usual 10 cm with exceptional reports of 30 cm — 'but' fits.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2016orig-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 16 to 23.\n\nWorms that glue in the dark\n\nDon't be fooled by this strange little worm with its soft-looking skin and cute stubby feet. This velvety-looking little creature has an iron fist: it is a lethal night-time predator that ambushes its prey, then glues it to death!\n\nThe velvet worm is a reclusive little animal that inhabits moist dark places. The body of the velvet worm is covered with papillae (tiny bulges with bristles that are sensitive to touch and smell). These papillae give the worm's skin its velvety appearance.\n\nGlue-gun hunting\n\nThe velvet worm's hunting success relies on a highly specialised technique: it squirts a fast-hardening glue at its prey. Gonzalo Giribet, a biologist at Harvard University, likens this mechanism to 'casting a very broad and sticky net in front of your head'. The worm squirts the liquid glue from glands located on the sides of its head. It sprays in an overlapping snake-like pattern, similar to the way two unrestrained garden hoses would spray if they were connected side-by-side and the taps opened fully. The glue can be propelled up to 10 centimetres; there are some reports of sprays reaching 30 centimetres.\n\nThe worm targets the limbs of its prey with its 'glue guns', rapidly immobilising them. A few more squirts provided at close range ensure that the prey will stick around. Spiderman, eat your heart out!\n\nGlue composition\n\nThe glue comprises 90% water, proteins, sugars, fats and a chemical called nonylphenol. It is thought that the fat and nonylphenol components prevent the worm from gluing itself. These two chemicals are also thought to slow down the drying process long enough for the glue to spray through the air and onto its target.\n\nGlue recycling: crispy on the outside!\n\nAfter gluing its prey into submission, the velvet worm bites it, injecting digestive saliva which liquefies the helpless victim's insides. The worm uses a lot of energy to produce glue and it can take about 24 days to replenish its supplies, so the worm recycles ingredients by eating the dried glue when it consumes its prey. Yum, crispy on the outside with lovely gooey insides!",
+      "prompt": "Which combination of factors would most likely result in hunting success for the worm?",
+      "table": {
+        "headers": [
+          "Option",
+          "Factor 1",
+          "Factor 2"
+        ],
+        "rows": [
+          [
+            "(A)",
+            "There is a distance of 30 cm between the worm and its prey.",
+            "The worm's prey is unaware it is being targeted."
+          ],
+          [
+            "(B)",
+            "There is a distance of 8 cm between the worm and its prey.",
+            "The worm has not hunted for 3 weeks."
+          ],
+          [
+            "(C)",
+            "There is a distance of 10 cm between the worm and its prey.",
+            "The worm has sprayed glue twice in the last 24 hours."
+          ],
+          [
+            "(D)",
+            "There is a distance of 15 cm between the worm and its prey.",
+            "The worm's prey is moving."
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "Distance worm-to-prey: 30 cm; and: the worm's prey is unaware it is being targeted"
+        },
+        {
+          "label": "B",
+          "text": "Distance worm-to-prey: 8 cm; and: the worm has not hunted for 3 weeks"
+        },
+        {
+          "label": "C",
+          "text": "Distance worm-to-prey: 10 cm; and: the worm has sprayed glue twice in the last 24 hours"
+        },
+        {
+          "label": "D",
+          "text": "Distance worm-to-prey: 15 cm; and: the worm's prey is moving"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "8 cm is within the reliable 10 cm range, and after ~3 weeks without hunting its glue supplies (which take ~24 days to replenish) are nearly full.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q21",
+      "number": 21,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 16 to 23.\n\nWorms that glue in the dark\n\nDon't be fooled by this strange little worm with its soft-looking skin and cute stubby feet. This velvety-looking little creature has an iron fist: it is a lethal night-time predator that ambushes its prey, then glues it to death!\n\nThe velvet worm is a reclusive little animal that inhabits moist dark places. The body of the velvet worm is covered with papillae (tiny bulges with bristles that are sensitive to touch and smell). These papillae give the worm's skin its velvety appearance.\n\nGlue-gun hunting\n\nThe velvet worm's hunting success relies on a highly specialised technique: it squirts a fast-hardening glue at its prey. Gonzalo Giribet, a biologist at Harvard University, likens this mechanism to 'casting a very broad and sticky net in front of your head'. The worm squirts the liquid glue from glands located on the sides of its head. It sprays in an overlapping snake-like pattern, similar to the way two unrestrained garden hoses would spray if they were connected side-by-side and the taps opened fully. The glue can be propelled up to 10 centimetres; there are some reports of sprays reaching 30 centimetres.\n\nThe worm targets the limbs of its prey with its 'glue guns', rapidly immobilising them. A few more squirts provided at close range ensure that the prey will stick around. Spiderman, eat your heart out!\n\nGlue composition\n\nThe glue comprises 90% water, proteins, sugars, fats and a chemical called nonylphenol. It is thought that the fat and nonylphenol components prevent the worm from gluing itself. These two chemicals are also thought to slow down the drying process long enough for the glue to spray through the air and onto its target.\n\nGlue recycling: crispy on the outside!\n\nAfter gluing its prey into submission, the velvet worm bites it, injecting digestive saliva which liquefies the helpless victim's insides. The worm uses a lot of energy to produce glue and it can take about 24 days to replenish its supplies, so the worm recycles ingredients by eating the dried glue when it consumes its prey. Yum, crispy on the outside with lovely gooey insides!",
+      "prompt": "One way that the worm speeds up its production of glue is by",
+      "options": [
+        {
+          "label": "A",
+          "text": "mixing it with water, sugar and fats."
+        },
+        {
+          "label": "B",
+          "text": "spraying glue on its prey at close range."
+        },
+        {
+          "label": "C",
+          "text": "hiding during the day."
+        },
+        {
+          "label": "D",
+          "text": "eating the glue that trapped its prey."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'the worm recycles ingredients by eating the dried glue when it consumes its prey.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q22",
+      "number": 22,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 16 to 23.\n\nWorms that glue in the dark\n\nDon't be fooled by this strange little worm with its soft-looking skin and cute stubby feet. This velvety-looking little creature has an iron fist: it is a lethal night-time predator that ambushes its prey, then glues it to death!\n\nThe velvet worm is a reclusive little animal that inhabits moist dark places. The body of the velvet worm is covered with papillae (tiny bulges with bristles that are sensitive to touch and smell). These papillae give the worm's skin its velvety appearance.\n\nGlue-gun hunting\n\nThe velvet worm's hunting success relies on a highly specialised technique: it squirts a fast-hardening glue at its prey. Gonzalo Giribet, a biologist at Harvard University, likens this mechanism to 'casting a very broad and sticky net in front of your head'. The worm squirts the liquid glue from glands located on the sides of its head. It sprays in an overlapping snake-like pattern, similar to the way two unrestrained garden hoses would spray if they were connected side-by-side and the taps opened fully. The glue can be propelled up to 10 centimetres; there are some reports of sprays reaching 30 centimetres.\n\nThe worm targets the limbs of its prey with its 'glue guns', rapidly immobilising them. A few more squirts provided at close range ensure that the prey will stick around. Spiderman, eat your heart out!\n\nGlue composition\n\nThe glue comprises 90% water, proteins, sugars, fats and a chemical called nonylphenol. It is thought that the fat and nonylphenol components prevent the worm from gluing itself. These two chemicals are also thought to slow down the drying process long enough for the glue to spray through the air and onto its target.\n\nGlue recycling: crispy on the outside!\n\nAfter gluing its prey into submission, the velvet worm bites it, injecting digestive saliva which liquefies the helpless victim's insides. The worm uses a lot of energy to produce glue and it can take about 24 days to replenish its supplies, so the worm recycles ingredients by eating the dried glue when it consumes its prey. Yum, crispy on the outside with lovely gooey insides!",
+      "prompt": "The final sentence of this text is best described as",
+      "options": [
+        {
+          "label": "A",
+          "text": "a scientist's attempt to summarise studies of the worm."
+        },
+        {
+          "label": "B",
+          "text": "details based on the writer's experience."
+        },
+        {
+          "label": "C",
+          "text": "the writer's humorous comment on a gruesome detail."
+        },
+        {
+          "label": "D",
+          "text": "a lighthearted comment taken from an interview with Giribet."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'Yum, crispy on the outside with lovely gooey insides!' is the writer joking about the worm eating dried glue with its prey.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2016orig-q23",
+      "number": 23,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 16 to 23.\n\nWorms that glue in the dark\n\nDon't be fooled by this strange little worm with its soft-looking skin and cute stubby feet. This velvety-looking little creature has an iron fist: it is a lethal night-time predator that ambushes its prey, then glues it to death!\n\nThe velvet worm is a reclusive little animal that inhabits moist dark places. The body of the velvet worm is covered with papillae (tiny bulges with bristles that are sensitive to touch and smell). These papillae give the worm's skin its velvety appearance.\n\nGlue-gun hunting\n\nThe velvet worm's hunting success relies on a highly specialised technique: it squirts a fast-hardening glue at its prey. Gonzalo Giribet, a biologist at Harvard University, likens this mechanism to 'casting a very broad and sticky net in front of your head'. The worm squirts the liquid glue from glands located on the sides of its head. It sprays in an overlapping snake-like pattern, similar to the way two unrestrained garden hoses would spray if they were connected side-by-side and the taps opened fully. The glue can be propelled up to 10 centimetres; there are some reports of sprays reaching 30 centimetres.\n\nThe worm targets the limbs of its prey with its 'glue guns', rapidly immobilising them. A few more squirts provided at close range ensure that the prey will stick around. Spiderman, eat your heart out!\n\nGlue composition\n\nThe glue comprises 90% water, proteins, sugars, fats and a chemical called nonylphenol. It is thought that the fat and nonylphenol components prevent the worm from gluing itself. These two chemicals are also thought to slow down the drying process long enough for the glue to spray through the air and onto its target.\n\nGlue recycling: crispy on the outside!\n\nAfter gluing its prey into submission, the velvet worm bites it, injecting digestive saliva which liquefies the helpless victim's insides. The worm uses a lot of energy to produce glue and it can take about 24 days to replenish its supplies, so the worm recycles ingredients by eating the dried glue when it consumes its prey. Yum, crispy on the outside with lovely gooey insides!",
+      "prompt": "The image of the worm is used to support information in the text about",
+      "options": [
+        {
+          "label": "A",
+          "text": "why it only hunts at night and what happens to its prey."
+        },
+        {
+          "label": "B",
+          "text": "when it hunts its prey and the main components of its glue."
+        },
+        {
+          "label": "C",
+          "text": "how sticky its glue is and which prey it likes to trap."
+        },
+        {
+          "label": "D",
+          "text": "what the velvet worm looks like and why its skin has a velvety appearance."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The photograph shows the worm's soft-looking skin, stubby feet and papillae — the physical description in the first two paragraphs. (Option D reconstructed — confirm against the paper.)",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2016orig-q24",
+      "number": 24,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 24 to 29.\n\nTo: Grandma\nSubject: Thank you!\nAttached: image1.jpg\n\nDear Grandma,\n\nI hope your leg is healing and that you are feeling a bit brighter now. I don't like having to stay in bed either. Thank you very much for my birthday card and gift voucher. It arrived in the post, right on my birthday!\n\nIt's a shame you weren't feeling well enough to come to my birthday dinner. It was a fun night and I think you would've enjoyed it.\n\nMum and Dad took me to Wasabi, the new Japanese restaurant on Station Street. At this restaurant it is compulsory to play with your food! Imagine that, Grandma. I hope you aren't too horrified.\n\nWasabi is a teppanyaki restaurant, which means that the food is barbecued Japanese-style. We had seats right in front of the chef and his hotplates. You could choose to eat with chopsticks or a knife and fork. I chose chopsticks. We ordered prawns first (your favourite seafood) and the chef cooked them on a sizzling hotplate. When he poured a sauce over the prawns, the flames leapt high into the air. The chef must have noticed the look on my face because he smiled reassuringly at me. He explained that this style of cooking was like theatre, and the flames were part of the show! The chef gave me my prawns in a little bowl and told me to enjoy them.\n\nAnd then came the best part, Grandma. After the prawns, our chef, Takashi, made a huge mound of boiled rice. He added chopped vegetables, oil and special soy sauce before frying it. Then he cooked some omelette and challenged us to catch small pieces of it in our mouths. I missed several times but Dad got every piece. He said he was worried about starving. By the time the omelette was finished, there was an awful mess on the floor around my chair.\n\nNext we had to catch bowls that Takashi threw at us. Then he flicked chicken pieces at us but this time, we had to catch them with our bowls. I had SUCH a good time. I know you will be worrying about our clothes, Grandma, but they think of everything at this place. When we arrived, they gave us big plastic covers, like raincoats. I had a wonderful time. Maybe we could go again for your birthday next month?\n\nBye for now.\n\nLove\nJason",
+      "prompt": "'At this restaurant it is compulsory to play with your food!'\nJason used an exclamation mark in this sentence to emphasise that",
+      "options": [
+        {
+          "label": "A",
+          "text": "he thought the restaurant's rule was unusual."
+        },
+        {
+          "label": "B",
+          "text": "he thought the restaurant was not suitable for older people."
+        },
+        {
+          "label": "C",
+          "text": "he felt anxious about playing with his food."
+        },
+        {
+          "label": "D",
+          "text": "he was concerned that the restaurant was unhygienic."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Imagine that, Grandma. I hope you aren't too horrified.' — he finds the rule surprising and unusual.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2016orig-q25",
+      "number": 25,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 24 to 29.\n\nTo: Grandma\nSubject: Thank you!\nAttached: image1.jpg\n\nDear Grandma,\n\nI hope your leg is healing and that you are feeling a bit brighter now. I don't like having to stay in bed either. Thank you very much for my birthday card and gift voucher. It arrived in the post, right on my birthday!\n\nIt's a shame you weren't feeling well enough to come to my birthday dinner. It was a fun night and I think you would've enjoyed it.\n\nMum and Dad took me to Wasabi, the new Japanese restaurant on Station Street. At this restaurant it is compulsory to play with your food! Imagine that, Grandma. I hope you aren't too horrified.\n\nWasabi is a teppanyaki restaurant, which means that the food is barbecued Japanese-style. We had seats right in front of the chef and his hotplates. You could choose to eat with chopsticks or a knife and fork. I chose chopsticks. We ordered prawns first (your favourite seafood) and the chef cooked them on a sizzling hotplate. When he poured a sauce over the prawns, the flames leapt high into the air. The chef must have noticed the look on my face because he smiled reassuringly at me. He explained that this style of cooking was like theatre, and the flames were part of the show! The chef gave me my prawns in a little bowl and told me to enjoy them.\n\nAnd then came the best part, Grandma. After the prawns, our chef, Takashi, made a huge mound of boiled rice. He added chopped vegetables, oil and special soy sauce before frying it. Then he cooked some omelette and challenged us to catch small pieces of it in our mouths. I missed several times but Dad got every piece. He said he was worried about starving. By the time the omelette was finished, there was an awful mess on the floor around my chair.\n\nNext we had to catch bowls that Takashi threw at us. Then he flicked chicken pieces at us but this time, we had to catch them with our bowls. I had SUCH a good time. I know you will be worrying about our clothes, Grandma, but they think of everything at this place. When we arrived, they gave us big plastic covers, like raincoats. I had a wonderful time. Maybe we could go again for your birthday next month?\n\nBye for now.\n\nLove\nJason",
+      "prompt": "'You could choose to eat with chopsticks or a knife and fork.'\nIn this sentence the word 'You' refers to",
+      "options": [
+        {
+          "label": "A",
+          "text": "anybody who goes to the restaurant."
+        },
+        {
+          "label": "B",
+          "text": "people who prefer to use a knife and fork."
+        },
+        {
+          "label": "C",
+          "text": "members of Jason's family."
+        },
+        {
+          "label": "D",
+          "text": "people who know how to use chopsticks."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'You' here is general — it means any customer at the restaurant.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2016orig-q26",
+      "number": 26,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 24 to 29.\n\nTo: Grandma\nSubject: Thank you!\nAttached: image1.jpg\n\nDear Grandma,\n\nI hope your leg is healing and that you are feeling a bit brighter now. I don't like having to stay in bed either. Thank you very much for my birthday card and gift voucher. It arrived in the post, right on my birthday!\n\nIt's a shame you weren't feeling well enough to come to my birthday dinner. It was a fun night and I think you would've enjoyed it.\n\nMum and Dad took me to Wasabi, the new Japanese restaurant on Station Street. At this restaurant it is compulsory to play with your food! Imagine that, Grandma. I hope you aren't too horrified.\n\nWasabi is a teppanyaki restaurant, which means that the food is barbecued Japanese-style. We had seats right in front of the chef and his hotplates. You could choose to eat with chopsticks or a knife and fork. I chose chopsticks. We ordered prawns first (your favourite seafood) and the chef cooked them on a sizzling hotplate. When he poured a sauce over the prawns, the flames leapt high into the air. The chef must have noticed the look on my face because he smiled reassuringly at me. He explained that this style of cooking was like theatre, and the flames were part of the show! The chef gave me my prawns in a little bowl and told me to enjoy them.\n\nAnd then came the best part, Grandma. After the prawns, our chef, Takashi, made a huge mound of boiled rice. He added chopped vegetables, oil and special soy sauce before frying it. Then he cooked some omelette and challenged us to catch small pieces of it in our mouths. I missed several times but Dad got every piece. He said he was worried about starving. By the time the omelette was finished, there was an awful mess on the floor around my chair.\n\nNext we had to catch bowls that Takashi threw at us. Then he flicked chicken pieces at us but this time, we had to catch them with our bowls. I had SUCH a good time. I know you will be worrying about our clothes, Grandma, but they think of everything at this place. When we arrived, they gave us big plastic covers, like raincoats. I had a wonderful time. Maybe we could go again for your birthday next month?\n\nBye for now.\n\nLove\nJason",
+      "prompt": "Why did Jason make the comment 'your favourite seafood' to his grandma?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He wanted her to know that he was willing to experiment with different types of food."
+        },
+        {
+          "label": "B",
+          "text": "He wanted to focus on something that his grandmother would approve of."
+        },
+        {
+          "label": "C",
+          "text": "He was reminding her of an occasion when they had a bad experience eating prawns."
+        },
+        {
+          "label": "D",
+          "text": "He knew that she had lost her appetite and was trying to encourage her to eat."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Mentioning prawns as 'your favourite seafood' connects with something Grandma likes and would enjoy hearing about.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q27",
+      "number": 27,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 24 to 29.\n\nTo: Grandma\nSubject: Thank you!\nAttached: image1.jpg\n\nDear Grandma,\n\nI hope your leg is healing and that you are feeling a bit brighter now. I don't like having to stay in bed either. Thank you very much for my birthday card and gift voucher. It arrived in the post, right on my birthday!\n\nIt's a shame you weren't feeling well enough to come to my birthday dinner. It was a fun night and I think you would've enjoyed it.\n\nMum and Dad took me to Wasabi, the new Japanese restaurant on Station Street. At this restaurant it is compulsory to play with your food! Imagine that, Grandma. I hope you aren't too horrified.\n\nWasabi is a teppanyaki restaurant, which means that the food is barbecued Japanese-style. We had seats right in front of the chef and his hotplates. You could choose to eat with chopsticks or a knife and fork. I chose chopsticks. We ordered prawns first (your favourite seafood) and the chef cooked them on a sizzling hotplate. When he poured a sauce over the prawns, the flames leapt high into the air. The chef must have noticed the look on my face because he smiled reassuringly at me. He explained that this style of cooking was like theatre, and the flames were part of the show! The chef gave me my prawns in a little bowl and told me to enjoy them.\n\nAnd then came the best part, Grandma. After the prawns, our chef, Takashi, made a huge mound of boiled rice. He added chopped vegetables, oil and special soy sauce before frying it. Then he cooked some omelette and challenged us to catch small pieces of it in our mouths. I missed several times but Dad got every piece. He said he was worried about starving. By the time the omelette was finished, there was an awful mess on the floor around my chair.\n\nNext we had to catch bowls that Takashi threw at us. Then he flicked chicken pieces at us but this time, we had to catch them with our bowls. I had SUCH a good time. I know you will be worrying about our clothes, Grandma, but they think of everything at this place. When we arrived, they gave us big plastic covers, like raincoats. I had a wonderful time. Maybe we could go again for your birthday next month?\n\nBye for now.\n\nLove\nJason",
+      "prompt": "'When he poured a sauce over the prawns, the flames leapt high into the air.'\nThis sentence contains two clauses. Which option correctly describes the purpose of each clause?",
+      "table": {
+        "headers": [
+          "Option",
+          "Clause 1",
+          "Clause 2"
+        ],
+        "rows": [
+          [
+            "(A)",
+            "gives a reason for an action",
+            "makes a judgement about the results of the action"
+          ],
+          [
+            "(B)",
+            "gives a recount of an event",
+            "adds an opinion about the event"
+          ],
+          [
+            "(C)",
+            "gives details about a circumstance",
+            "describes the event that occurs after"
+          ],
+          [
+            "(D)",
+            "gives a hint about what to expect",
+            "explains why something occurred"
+          ]
+        ]
+      },
+      "options": [
+        {
+          "label": "A",
+          "text": "Clause 1: gives a reason for an action. Clause 2: makes a judgement about the results of the action."
+        },
+        {
+          "label": "B",
+          "text": "Clause 1: gives a recount of an event. Clause 2: adds an opinion about the event."
+        },
+        {
+          "label": "C",
+          "text": "Clause 1: gives details about a circumstance. Clause 2: describes the event that occurs after."
+        },
+        {
+          "label": "D",
+          "text": "Clause 1: gives a hint about what to expect. Clause 2: explains why something occurred."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'When he poured a sauce over the prawns' sets the circumstance; 'the flames leapt high into the air' is what then happened.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2016orig-q28",
+      "number": 28,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 24 to 29.\n\nTo: Grandma\nSubject: Thank you!\nAttached: image1.jpg\n\nDear Grandma,\n\nI hope your leg is healing and that you are feeling a bit brighter now. I don't like having to stay in bed either. Thank you very much for my birthday card and gift voucher. It arrived in the post, right on my birthday!\n\nIt's a shame you weren't feeling well enough to come to my birthday dinner. It was a fun night and I think you would've enjoyed it.\n\nMum and Dad took me to Wasabi, the new Japanese restaurant on Station Street. At this restaurant it is compulsory to play with your food! Imagine that, Grandma. I hope you aren't too horrified.\n\nWasabi is a teppanyaki restaurant, which means that the food is barbecued Japanese-style. We had seats right in front of the chef and his hotplates. You could choose to eat with chopsticks or a knife and fork. I chose chopsticks. We ordered prawns first (your favourite seafood) and the chef cooked them on a sizzling hotplate. When he poured a sauce over the prawns, the flames leapt high into the air. The chef must have noticed the look on my face because he smiled reassuringly at me. He explained that this style of cooking was like theatre, and the flames were part of the show! The chef gave me my prawns in a little bowl and told me to enjoy them.\n\nAnd then came the best part, Grandma. After the prawns, our chef, Takashi, made a huge mound of boiled rice. He added chopped vegetables, oil and special soy sauce before frying it. Then he cooked some omelette and challenged us to catch small pieces of it in our mouths. I missed several times but Dad got every piece. He said he was worried about starving. By the time the omelette was finished, there was an awful mess on the floor around my chair.\n\nNext we had to catch bowls that Takashi threw at us. Then he flicked chicken pieces at us but this time, we had to catch them with our bowls. I had SUCH a good time. I know you will be worrying about our clothes, Grandma, but they think of everything at this place. When we arrived, they gave us big plastic covers, like raincoats. I had a wonderful time. Maybe we could go again for your birthday next month?\n\nBye for now.\n\nLove\nJason",
+      "prompt": "When the chef said that teppanyaki cooking was 'like theatre', he meant that",
+      "options": [
+        {
+          "label": "A",
+          "text": "this style of cooking was often seen in movies."
+        },
+        {
+          "label": "B",
+          "text": "the method of cooking was more important than the food."
+        },
+        {
+          "label": "C",
+          "text": "a teppanyaki chef also needed to have trained as an actor."
+        },
+        {
+          "label": "D",
+          "text": "this style of cooking was intended to be entertaining."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'the flames were part of the show!' — the cooking is a performance meant to entertain.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q29",
+      "number": 29,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 24 to 29.\n\nTo: Grandma\nSubject: Thank you!\nAttached: image1.jpg\n\nDear Grandma,\n\nI hope your leg is healing and that you are feeling a bit brighter now. I don't like having to stay in bed either. Thank you very much for my birthday card and gift voucher. It arrived in the post, right on my birthday!\n\nIt's a shame you weren't feeling well enough to come to my birthday dinner. It was a fun night and I think you would've enjoyed it.\n\nMum and Dad took me to Wasabi, the new Japanese restaurant on Station Street. At this restaurant it is compulsory to play with your food! Imagine that, Grandma. I hope you aren't too horrified.\n\nWasabi is a teppanyaki restaurant, which means that the food is barbecued Japanese-style. We had seats right in front of the chef and his hotplates. You could choose to eat with chopsticks or a knife and fork. I chose chopsticks. We ordered prawns first (your favourite seafood) and the chef cooked them on a sizzling hotplate. When he poured a sauce over the prawns, the flames leapt high into the air. The chef must have noticed the look on my face because he smiled reassuringly at me. He explained that this style of cooking was like theatre, and the flames were part of the show! The chef gave me my prawns in a little bowl and told me to enjoy them.\n\nAnd then came the best part, Grandma. After the prawns, our chef, Takashi, made a huge mound of boiled rice. He added chopped vegetables, oil and special soy sauce before frying it. Then he cooked some omelette and challenged us to catch small pieces of it in our mouths. I missed several times but Dad got every piece. He said he was worried about starving. By the time the omelette was finished, there was an awful mess on the floor around my chair.\n\nNext we had to catch bowls that Takashi threw at us. Then he flicked chicken pieces at us but this time, we had to catch them with our bowls. I had SUCH a good time. I know you will be worrying about our clothes, Grandma, but they think of everything at this place. When we arrived, they gave us big plastic covers, like raincoats. I had a wonderful time. Maybe we could go again for your birthday next month?\n\nBye for now.\n\nLove\nJason",
+      "prompt": "When Jason's father commented about starving, he was most likely",
+      "options": [
+        {
+          "label": "A",
+          "text": "nervous because he noticed that most of the food landed on the floor."
+        },
+        {
+          "label": "B",
+          "text": "serious because he was catching more food than anyone else."
+        },
+        {
+          "label": "C",
+          "text": "anxious because he knew how much the food cost."
+        },
+        {
+          "label": "D",
+          "text": "joking because he was enjoying catching the food."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "He 'got every piece' of the flying omelette and jokes he was 'worried about starving' — light-hearted fun.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q30",
+      "number": 30,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 30 to 36.\n\nLimestone caves\n\nCaves, such as those shown in Diagram 1, can form in areas where the land contains layers of limestone rock. Limestone is a soluble (can be dissolved) sedimentary rock. It forms mainly as a result of the accumulation of marine animal remains, such as coral. Over millions of years, the action of water as it filters underground through cracks in limestone can create subterranean channels and sometimes spectacular underground caves.\n\n[Diagram 1: a cut-away view of the ground. Rain water falls onto soil at the surface; below the soil is a thick layer of limestone containing a cave, with stalactites hanging from the cave roof and stalagmites rising from the cave floor. Groundwater lies at the base of the limestone.]\n\nIt is not only the flow of water through cracks in the limestone that contributes to the formation of caves but also the acidity of this water. When rainwater combines with carbon dioxide, both in the atmosphere and in the soil it passes through, it forms a weak acid called carbonic acid. As the slightly acidified water trickles underground through cracks and fissures, it dissolves the limestone. As well as forming caves, interesting geological shapes, such as stalactites and stalagmites, may also form as a result of the action of water.\n\nThe following investigation is designed to explain what happens to a soluble material when water flows over it.\n\nInvestigation materials\n- 3 salt bricks\n- a jar to hold the water\n- a piece of cloth or towel\n- large rubber bands\n- a large plastic tub\n- a handful of stones\n\nInvestigation steps\n1. Place one salt brick into the tub. Prop up one end with the stones so only one edge is resting on the base of the tub.\n2. Place the other two salt bricks side by side on their longest side. Put rubber bands around the salt bricks to hold them together. Set them on top of the brick that you have already placed in the tub.\n3. Place a cloth in a jar of water with one end sticking out over the side. Very slowly tilt the jar and cloth so that water drips onto the top of the two salt bricks. A few drips per minute works best. Allow the water to drip at least overnight.\n4. Remove the rubber bands and separate the blocks to see the 'cave'.",
+      "prompt": "Based on the information in the text, what is the most complete definition of limestone?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Limestone is a soluble sedimentary rock created from the remains of marine animals."
+        },
+        {
+          "label": "B",
+          "text": "Limestone is a rock that can be dissolved to show the remains of marine animals."
+        },
+        {
+          "label": "C",
+          "text": "Limestone is a layered rock containing many cracks formed by marine animals."
+        },
+        {
+          "label": "D",
+          "text": "Limestone is a sedimentary rock that accumulates where marine animals are found."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Limestone is a soluble ... sedimentary rock. It forms mainly as a result of the accumulation of marine animal remains.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q31",
+      "number": 31,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 30 to 36.\n\nLimestone caves\n\nCaves, such as those shown in Diagram 1, can form in areas where the land contains layers of limestone rock. Limestone is a soluble (can be dissolved) sedimentary rock. It forms mainly as a result of the accumulation of marine animal remains, such as coral. Over millions of years, the action of water as it filters underground through cracks in limestone can create subterranean channels and sometimes spectacular underground caves.\n\n[Diagram 1: a cut-away view of the ground. Rain water falls onto soil at the surface; below the soil is a thick layer of limestone containing a cave, with stalactites hanging from the cave roof and stalagmites rising from the cave floor. Groundwater lies at the base of the limestone.]\n\nIt is not only the flow of water through cracks in the limestone that contributes to the formation of caves but also the acidity of this water. When rainwater combines with carbon dioxide, both in the atmosphere and in the soil it passes through, it forms a weak acid called carbonic acid. As the slightly acidified water trickles underground through cracks and fissures, it dissolves the limestone. As well as forming caves, interesting geological shapes, such as stalactites and stalagmites, may also form as a result of the action of water.\n\nThe following investigation is designed to explain what happens to a soluble material when water flows over it.\n\nInvestigation materials\n- 3 salt bricks\n- a jar to hold the water\n- a piece of cloth or towel\n- large rubber bands\n- a large plastic tub\n- a handful of stones\n\nInvestigation steps\n1. Place one salt brick into the tub. Prop up one end with the stones so only one edge is resting on the base of the tub.\n2. Place the other two salt bricks side by side on their longest side. Put rubber bands around the salt bricks to hold them together. Set them on top of the brick that you have already placed in the tub.\n3. Place a cloth in a jar of water with one end sticking out over the side. Very slowly tilt the jar and cloth so that water drips onto the top of the two salt bricks. A few drips per minute works best. Allow the water to drip at least overnight.\n4. Remove the rubber bands and separate the blocks to see the 'cave'.",
+      "prompt": "The word 'this' in the second paragraph is used in order to",
+      "options": [
+        {
+          "label": "A",
+          "text": "confirm that the water is acidic."
+        },
+        {
+          "label": "B",
+          "text": "make it clear that water has many different properties."
+        },
+        {
+          "label": "C",
+          "text": "avoid repeating the description of the water."
+        },
+        {
+          "label": "D",
+          "text": "emphasise that water does not always act in a predictable way."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'the acidity of this water' points back to the water already described, so it need not be described again.",
+      "topic": "Syntax"
+    },
+    {
+      "id": "eng2016orig-q32",
+      "number": 32,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 30 to 36.\n\nLimestone caves\n\nCaves, such as those shown in Diagram 1, can form in areas where the land contains layers of limestone rock. Limestone is a soluble (can be dissolved) sedimentary rock. It forms mainly as a result of the accumulation of marine animal remains, such as coral. Over millions of years, the action of water as it filters underground through cracks in limestone can create subterranean channels and sometimes spectacular underground caves.\n\n[Diagram 1: a cut-away view of the ground. Rain water falls onto soil at the surface; below the soil is a thick layer of limestone containing a cave, with stalactites hanging from the cave roof and stalagmites rising from the cave floor. Groundwater lies at the base of the limestone.]\n\nIt is not only the flow of water through cracks in the limestone that contributes to the formation of caves but also the acidity of this water. When rainwater combines with carbon dioxide, both in the atmosphere and in the soil it passes through, it forms a weak acid called carbonic acid. As the slightly acidified water trickles underground through cracks and fissures, it dissolves the limestone. As well as forming caves, interesting geological shapes, such as stalactites and stalagmites, may also form as a result of the action of water.\n\nThe following investigation is designed to explain what happens to a soluble material when water flows over it.\n\nInvestigation materials\n- 3 salt bricks\n- a jar to hold the water\n- a piece of cloth or towel\n- large rubber bands\n- a large plastic tub\n- a handful of stones\n\nInvestigation steps\n1. Place one salt brick into the tub. Prop up one end with the stones so only one edge is resting on the base of the tub.\n2. Place the other two salt bricks side by side on their longest side. Put rubber bands around the salt bricks to hold them together. Set them on top of the brick that you have already placed in the tub.\n3. Place a cloth in a jar of water with one end sticking out over the side. Very slowly tilt the jar and cloth so that water drips onto the top of the two salt bricks. A few drips per minute works best. Allow the water to drip at least overnight.\n4. Remove the rubber bands and separate the blocks to see the 'cave'.",
+      "prompt": "According to the text, rainwater becomes acidified when",
+      "options": [
+        {
+          "label": "A",
+          "text": "it dissolves formations such as stalactites and stalagmites."
+        },
+        {
+          "label": "B",
+          "text": "it combines with carbonic acid in the atmosphere and in the soil."
+        },
+        {
+          "label": "C",
+          "text": "it filters through soluble rock and drains into underground caves."
+        },
+        {
+          "label": "D",
+          "text": "it combines with carbon dioxide in the atmosphere and in the soil."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'When rainwater combines with carbon dioxide, both in the atmosphere and in the soil ... it forms a weak acid called carbonic acid.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q33",
+      "number": 33,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 30 to 36.\n\nLimestone caves\n\nCaves, such as those shown in Diagram 1, can form in areas where the land contains layers of limestone rock. Limestone is a soluble (can be dissolved) sedimentary rock. It forms mainly as a result of the accumulation of marine animal remains, such as coral. Over millions of years, the action of water as it filters underground through cracks in limestone can create subterranean channels and sometimes spectacular underground caves.\n\n[Diagram 1: a cut-away view of the ground. Rain water falls onto soil at the surface; below the soil is a thick layer of limestone containing a cave, with stalactites hanging from the cave roof and stalagmites rising from the cave floor. Groundwater lies at the base of the limestone.]\n\nIt is not only the flow of water through cracks in the limestone that contributes to the formation of caves but also the acidity of this water. When rainwater combines with carbon dioxide, both in the atmosphere and in the soil it passes through, it forms a weak acid called carbonic acid. As the slightly acidified water trickles underground through cracks and fissures, it dissolves the limestone. As well as forming caves, interesting geological shapes, such as stalactites and stalagmites, may also form as a result of the action of water.\n\nThe following investigation is designed to explain what happens to a soluble material when water flows over it.\n\nInvestigation materials\n- 3 salt bricks\n- a jar to hold the water\n- a piece of cloth or towel\n- large rubber bands\n- a large plastic tub\n- a handful of stones\n\nInvestigation steps\n1. Place one salt brick into the tub. Prop up one end with the stones so only one edge is resting on the base of the tub.\n2. Place the other two salt bricks side by side on their longest side. Put rubber bands around the salt bricks to hold them together. Set them on top of the brick that you have already placed in the tub.\n3. Place a cloth in a jar of water with one end sticking out over the side. Very slowly tilt the jar and cloth so that water drips onto the top of the two salt bricks. A few drips per minute works best. Allow the water to drip at least overnight.\n4. Remove the rubber bands and separate the blocks to see the 'cave'.",
+      "prompt": "Based on the information in the text, what causes a limestone cave to form?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the expansion of cracks in the rock over millions of years due to the accumulation of marine animal remains"
+        },
+        {
+          "label": "B",
+          "text": "the seepage of acidified water underground over a long period of time through cracks in the rock"
+        },
+        {
+          "label": "C",
+          "text": "the increase in the volume of groundwater over a long period of time which creates cracks in the surrounding soluble rock"
+        },
+        {
+          "label": "D",
+          "text": "the accumulation of sediment over millions of years which creates cracks in the rock"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'As the slightly acidified water trickles underground through cracks and fissures, it dissolves the limestone' over millions of years.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q34",
+      "number": 34,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 30 to 36.\n\nLimestone caves\n\nCaves, such as those shown in Diagram 1, can form in areas where the land contains layers of limestone rock. Limestone is a soluble (can be dissolved) sedimentary rock. It forms mainly as a result of the accumulation of marine animal remains, such as coral. Over millions of years, the action of water as it filters underground through cracks in limestone can create subterranean channels and sometimes spectacular underground caves.\n\n[Diagram 1: a cut-away view of the ground. Rain water falls onto soil at the surface; below the soil is a thick layer of limestone containing a cave, with stalactites hanging from the cave roof and stalagmites rising from the cave floor. Groundwater lies at the base of the limestone.]\n\nIt is not only the flow of water through cracks in the limestone that contributes to the formation of caves but also the acidity of this water. When rainwater combines with carbon dioxide, both in the atmosphere and in the soil it passes through, it forms a weak acid called carbonic acid. As the slightly acidified water trickles underground through cracks and fissures, it dissolves the limestone. As well as forming caves, interesting geological shapes, such as stalactites and stalagmites, may also form as a result of the action of water.\n\nThe following investigation is designed to explain what happens to a soluble material when water flows over it.\n\nInvestigation materials\n- 3 salt bricks\n- a jar to hold the water\n- a piece of cloth or towel\n- large rubber bands\n- a large plastic tub\n- a handful of stones\n\nInvestigation steps\n1. Place one salt brick into the tub. Prop up one end with the stones so only one edge is resting on the base of the tub.\n2. Place the other two salt bricks side by side on their longest side. Put rubber bands around the salt bricks to hold them together. Set them on top of the brick that you have already placed in the tub.\n3. Place a cloth in a jar of water with one end sticking out over the side. Very slowly tilt the jar and cloth so that water drips onto the top of the two salt bricks. A few drips per minute works best. Allow the water to drip at least overnight.\n4. Remove the rubber bands and separate the blocks to see the 'cave'.",
+      "prompt": "The word 'may' in the second paragraph indicates that the formation of interesting geological shapes is",
+      "options": [
+        {
+          "label": "A",
+          "text": "definite."
+        },
+        {
+          "label": "B",
+          "text": "possible."
+        },
+        {
+          "label": "C",
+          "text": "necessary."
+        },
+        {
+          "label": "D",
+          "text": "likely."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'stalactites and stalagmites may also form' — 'may' shows it can happen but is not certain.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2016orig-q35",
+      "number": 35,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 30 to 36.\n\nLimestone caves\n\nCaves, such as those shown in Diagram 1, can form in areas where the land contains layers of limestone rock. Limestone is a soluble (can be dissolved) sedimentary rock. It forms mainly as a result of the accumulation of marine animal remains, such as coral. Over millions of years, the action of water as it filters underground through cracks in limestone can create subterranean channels and sometimes spectacular underground caves.\n\n[Diagram 1: a cut-away view of the ground. Rain water falls onto soil at the surface; below the soil is a thick layer of limestone containing a cave, with stalactites hanging from the cave roof and stalagmites rising from the cave floor. Groundwater lies at the base of the limestone.]\n\nIt is not only the flow of water through cracks in the limestone that contributes to the formation of caves but also the acidity of this water. When rainwater combines with carbon dioxide, both in the atmosphere and in the soil it passes through, it forms a weak acid called carbonic acid. As the slightly acidified water trickles underground through cracks and fissures, it dissolves the limestone. As well as forming caves, interesting geological shapes, such as stalactites and stalagmites, may also form as a result of the action of water.\n\nThe following investigation is designed to explain what happens to a soluble material when water flows over it.\n\nInvestigation materials\n- 3 salt bricks\n- a jar to hold the water\n- a piece of cloth or towel\n- large rubber bands\n- a large plastic tub\n- a handful of stones\n\nInvestigation steps\n1. Place one salt brick into the tub. Prop up one end with the stones so only one edge is resting on the base of the tub.\n2. Place the other two salt bricks side by side on their longest side. Put rubber bands around the salt bricks to hold them together. Set them on top of the brick that you have already placed in the tub.\n3. Place a cloth in a jar of water with one end sticking out over the side. Very slowly tilt the jar and cloth so that water drips onto the top of the two salt bricks. A few drips per minute works best. Allow the water to drip at least overnight.\n4. Remove the rubber bands and separate the blocks to see the 'cave'.",
+      "prompt": "In the investigation, what is the most likely reason for positioning the top two salt bricks side by side?",
+      "options": [
+        {
+          "label": "A",
+          "text": "to create a more symmetrically shaped cave"
+        },
+        {
+          "label": "B",
+          "text": "to make sure the salt bricks are correctly balanced"
+        },
+        {
+          "label": "C",
+          "text": "to reduce the amount of water reaching the salt brick at the base of the tub"
+        },
+        {
+          "label": "D",
+          "text": "to create a crack that represents those found in soluble rock"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The join between the two bricks acts like a crack or fissure in limestone that water can seep into.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q36",
+      "number": 36,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 30 to 36.\n\nLimestone caves\n\nCaves, such as those shown in Diagram 1, can form in areas where the land contains layers of limestone rock. Limestone is a soluble (can be dissolved) sedimentary rock. It forms mainly as a result of the accumulation of marine animal remains, such as coral. Over millions of years, the action of water as it filters underground through cracks in limestone can create subterranean channels and sometimes spectacular underground caves.\n\n[Diagram 1: a cut-away view of the ground. Rain water falls onto soil at the surface; below the soil is a thick layer of limestone containing a cave, with stalactites hanging from the cave roof and stalagmites rising from the cave floor. Groundwater lies at the base of the limestone.]\n\nIt is not only the flow of water through cracks in the limestone that contributes to the formation of caves but also the acidity of this water. When rainwater combines with carbon dioxide, both in the atmosphere and in the soil it passes through, it forms a weak acid called carbonic acid. As the slightly acidified water trickles underground through cracks and fissures, it dissolves the limestone. As well as forming caves, interesting geological shapes, such as stalactites and stalagmites, may also form as a result of the action of water.\n\nThe following investigation is designed to explain what happens to a soluble material when water flows over it.\n\nInvestigation materials\n- 3 salt bricks\n- a jar to hold the water\n- a piece of cloth or towel\n- large rubber bands\n- a large plastic tub\n- a handful of stones\n\nInvestigation steps\n1. Place one salt brick into the tub. Prop up one end with the stones so only one edge is resting on the base of the tub.\n2. Place the other two salt bricks side by side on their longest side. Put rubber bands around the salt bricks to hold them together. Set them on top of the brick that you have already placed in the tub.\n3. Place a cloth in a jar of water with one end sticking out over the side. Very slowly tilt the jar and cloth so that water drips onto the top of the two salt bricks. A few drips per minute works best. Allow the water to drip at least overnight.\n4. Remove the rubber bands and separate the blocks to see the 'cave'.",
+      "prompt": "Which part of the cave formation process does the investigation examine?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the effect of water trickling through a soluble material"
+        },
+        {
+          "label": "B",
+          "text": "the effect of different soluble rock types on cave formation"
+        },
+        {
+          "label": "C",
+          "text": "the effect of soluble material on stones"
+        },
+        {
+          "label": "D",
+          "text": "the effect of acidified water on soluble salt"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'The following investigation is designed to explain what happens to a soluble material when water flows over it' — plain water, not acid.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q37",
+      "number": 37,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 37 to 43.\n\nDecha\n\n'Decha! Come over, we need someone who knows what they're doing in goal!' I yelled.\n\n'I can't today! I have to do something,' he shouted back, as he continued to walk down the long dusty road that led to nowhere useful at all. The village shops were in the other direction and, as far as I knew, this road went through the jungle before eventually ending at the river.\n\n'But this won't take long,' I said. 'Just half an hour! They're slaughtering us! It's 3–0 already, we really need you,' I pleaded, running to catch up with him. It was most unlike Decha to turn down a game of football. What was he up to?\n\n'Where are you going anyway?' I asked as I fell into step with him.\n\n'It's just a...' started Decha. He was looking over his shoulder at the other boys, but they weren't paying us any attention. 'You can come if you like,' he whispered. 'It's not far.'\n\nI don't know what it was, but suddenly my interest was piqued. Decha was a football addict; there was nothing else that he preferred to do. I knew my friend was up to something.\n\n'I might tag along for a bit,' I said airily, trying to hide my curiosity.\n\nWe walked along in silence for a few minutes until Decha indicated a gap in the vegetation by the side of the path and we passed through into the jungle itself. The temperature dropped instantly, enough to cool us down, as the sunlight disappeared, obscured by the brilliant green canopy. There were no pathways here, but it was clear from the way the vegetation was compacted underfoot that someone had passed through recently.\n\n'So, where are we going?' I asked Decha eventually.\n\n'We're almost there,' he said. 'We need to be really quiet. No sudden movements, ok? We don't want to frighten them.' He shifted a bag that I hadn't even noticed onto his shoulder. As the vegetation became more and more dense, we needed both hands to get through the thicket of leaves and vines.\n\nThen we were crawling as the foliage hemmed us in on all sides and closed in behind us. My heart was starting to pound and I wasn't sure if it was from exertion or fear.\n\n'OK,' whispered Decha and as the foliage opened out into a space, I realised I'd been holding my breath. The tiniest slivers of light broke through, and as my eyes started to adjust, I realised we weren't alone. Decha was already rummaging in his bag and taking out scraps of meat and bread. Seemingly out of nowhere, several small scuffling furry bodies descended on Decha's offerings.\n\n'There are four of them,' said Decha, his voice low. 'Their mother is hurt and can't feed herself, but she's getting stronger every day.'",
+      "prompt": "In the opening stages of this narrative, what do readers learn about Decha?",
+      "options": [
+        {
+          "label": "A",
+          "text": "He found life in a small village difficult."
+        },
+        {
+          "label": "B",
+          "text": "He wanted to go to the river."
+        },
+        {
+          "label": "C",
+          "text": "He felt isolated from other children in the village."
+        },
+        {
+          "label": "D",
+          "text": "He was preoccupied."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "He turns down football to 'do something', keeps glancing over his shoulder — his mind is on something else.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q38",
+      "number": 38,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 37 to 43.\n\nDecha\n\n'Decha! Come over, we need someone who knows what they're doing in goal!' I yelled.\n\n'I can't today! I have to do something,' he shouted back, as he continued to walk down the long dusty road that led to nowhere useful at all. The village shops were in the other direction and, as far as I knew, this road went through the jungle before eventually ending at the river.\n\n'But this won't take long,' I said. 'Just half an hour! They're slaughtering us! It's 3–0 already, we really need you,' I pleaded, running to catch up with him. It was most unlike Decha to turn down a game of football. What was he up to?\n\n'Where are you going anyway?' I asked as I fell into step with him.\n\n'It's just a...' started Decha. He was looking over his shoulder at the other boys, but they weren't paying us any attention. 'You can come if you like,' he whispered. 'It's not far.'\n\nI don't know what it was, but suddenly my interest was piqued. Decha was a football addict; there was nothing else that he preferred to do. I knew my friend was up to something.\n\n'I might tag along for a bit,' I said airily, trying to hide my curiosity.\n\nWe walked along in silence for a few minutes until Decha indicated a gap in the vegetation by the side of the path and we passed through into the jungle itself. The temperature dropped instantly, enough to cool us down, as the sunlight disappeared, obscured by the brilliant green canopy. There were no pathways here, but it was clear from the way the vegetation was compacted underfoot that someone had passed through recently.\n\n'So, where are we going?' I asked Decha eventually.\n\n'We're almost there,' he said. 'We need to be really quiet. No sudden movements, ok? We don't want to frighten them.' He shifted a bag that I hadn't even noticed onto his shoulder. As the vegetation became more and more dense, we needed both hands to get through the thicket of leaves and vines.\n\nThen we were crawling as the foliage hemmed us in on all sides and closed in behind us. My heart was starting to pound and I wasn't sure if it was from exertion or fear.\n\n'OK,' whispered Decha and as the foliage opened out into a space, I realised I'd been holding my breath. The tiniest slivers of light broke through, and as my eyes started to adjust, I realised we weren't alone. Decha was already rummaging in his bag and taking out scraps of meat and bread. Seemingly out of nowhere, several small scuffling furry bodies descended on Decha's offerings.\n\n'There are four of them,' said Decha, his voice low. 'Their mother is hurt and can't feed herself, but she's getting stronger every day.'",
+      "prompt": "What made the narrator think that Decha's behaviour was uncharacteristic?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Decha didn't want to go to the shops."
+        },
+        {
+          "label": "B",
+          "text": "Decha wasn't interested in playing football."
+        },
+        {
+          "label": "C",
+          "text": "Decha wasn't allowed to go into the jungle alone."
+        },
+        {
+          "label": "D",
+          "text": "Decha didn't want his friend to follow him."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'It was most unlike Decha to turn down a game of football' — 'Decha was a football addict'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q39",
+      "number": 39,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 37 to 43.\n\nDecha\n\n'Decha! Come over, we need someone who knows what they're doing in goal!' I yelled.\n\n'I can't today! I have to do something,' he shouted back, as he continued to walk down the long dusty road that led to nowhere useful at all. The village shops were in the other direction and, as far as I knew, this road went through the jungle before eventually ending at the river.\n\n'But this won't take long,' I said. 'Just half an hour! They're slaughtering us! It's 3–0 already, we really need you,' I pleaded, running to catch up with him. It was most unlike Decha to turn down a game of football. What was he up to?\n\n'Where are you going anyway?' I asked as I fell into step with him.\n\n'It's just a...' started Decha. He was looking over his shoulder at the other boys, but they weren't paying us any attention. 'You can come if you like,' he whispered. 'It's not far.'\n\nI don't know what it was, but suddenly my interest was piqued. Decha was a football addict; there was nothing else that he preferred to do. I knew my friend was up to something.\n\n'I might tag along for a bit,' I said airily, trying to hide my curiosity.\n\nWe walked along in silence for a few minutes until Decha indicated a gap in the vegetation by the side of the path and we passed through into the jungle itself. The temperature dropped instantly, enough to cool us down, as the sunlight disappeared, obscured by the brilliant green canopy. There were no pathways here, but it was clear from the way the vegetation was compacted underfoot that someone had passed through recently.\n\n'So, where are we going?' I asked Decha eventually.\n\n'We're almost there,' he said. 'We need to be really quiet. No sudden movements, ok? We don't want to frighten them.' He shifted a bag that I hadn't even noticed onto his shoulder. As the vegetation became more and more dense, we needed both hands to get through the thicket of leaves and vines.\n\nThen we were crawling as the foliage hemmed us in on all sides and closed in behind us. My heart was starting to pound and I wasn't sure if it was from exertion or fear.\n\n'OK,' whispered Decha and as the foliage opened out into a space, I realised I'd been holding my breath. The tiniest slivers of light broke through, and as my eyes started to adjust, I realised we weren't alone. Decha was already rummaging in his bag and taking out scraps of meat and bread. Seemingly out of nowhere, several small scuffling furry bodies descended on Decha's offerings.\n\n'There are four of them,' said Decha, his voice low. 'Their mother is hurt and can't feed herself, but she's getting stronger every day.'",
+      "prompt": "What caused the narrator to abandon the game?",
+      "options": [
+        {
+          "label": "A",
+          "text": "the belief that his team would lose the game"
+        },
+        {
+          "label": "B",
+          "text": "the thought of a walk in the jungle"
+        },
+        {
+          "label": "C",
+          "text": "the desire to learn more about Decha's secret"
+        },
+        {
+          "label": "D",
+          "text": "the idea of having a swim in the river"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'suddenly my interest was piqued ... I knew my friend was up to something.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q40",
+      "number": 40,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 37 to 43.\n\nDecha\n\n'Decha! Come over, we need someone who knows what they're doing in goal!' I yelled.\n\n'I can't today! I have to do something,' he shouted back, as he continued to walk down the long dusty road that led to nowhere useful at all. The village shops were in the other direction and, as far as I knew, this road went through the jungle before eventually ending at the river.\n\n'But this won't take long,' I said. 'Just half an hour! They're slaughtering us! It's 3–0 already, we really need you,' I pleaded, running to catch up with him. It was most unlike Decha to turn down a game of football. What was he up to?\n\n'Where are you going anyway?' I asked as I fell into step with him.\n\n'It's just a...' started Decha. He was looking over his shoulder at the other boys, but they weren't paying us any attention. 'You can come if you like,' he whispered. 'It's not far.'\n\nI don't know what it was, but suddenly my interest was piqued. Decha was a football addict; there was nothing else that he preferred to do. I knew my friend was up to something.\n\n'I might tag along for a bit,' I said airily, trying to hide my curiosity.\n\nWe walked along in silence for a few minutes until Decha indicated a gap in the vegetation by the side of the path and we passed through into the jungle itself. The temperature dropped instantly, enough to cool us down, as the sunlight disappeared, obscured by the brilliant green canopy. There were no pathways here, but it was clear from the way the vegetation was compacted underfoot that someone had passed through recently.\n\n'So, where are we going?' I asked Decha eventually.\n\n'We're almost there,' he said. 'We need to be really quiet. No sudden movements, ok? We don't want to frighten them.' He shifted a bag that I hadn't even noticed onto his shoulder. As the vegetation became more and more dense, we needed both hands to get through the thicket of leaves and vines.\n\nThen we were crawling as the foliage hemmed us in on all sides and closed in behind us. My heart was starting to pound and I wasn't sure if it was from exertion or fear.\n\n'OK,' whispered Decha and as the foliage opened out into a space, I realised I'd been holding my breath. The tiniest slivers of light broke through, and as my eyes started to adjust, I realised we weren't alone. Decha was already rummaging in his bag and taking out scraps of meat and bread. Seemingly out of nowhere, several small scuffling furry bodies descended on Decha's offerings.\n\n'There are four of them,' said Decha, his voice low. 'Their mother is hurt and can't feed herself, but she's getting stronger every day.'",
+      "prompt": "When Decha said 'You can come if you like', he was",
+      "options": [
+        {
+          "label": "A",
+          "text": "impatient with the narrator."
+        },
+        {
+          "label": "B",
+          "text": "dismissive of the narrator."
+        },
+        {
+          "label": "C",
+          "text": "conspiring with the narrator."
+        },
+        {
+          "label": "D",
+          "text": "sympathetic to the narrator."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "He whispers it after checking the other boys aren't listening — drawing the narrator into a secret.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q41",
+      "number": 41,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 37 to 43.\n\nDecha\n\n'Decha! Come over, we need someone who knows what they're doing in goal!' I yelled.\n\n'I can't today! I have to do something,' he shouted back, as he continued to walk down the long dusty road that led to nowhere useful at all. The village shops were in the other direction and, as far as I knew, this road went through the jungle before eventually ending at the river.\n\n'But this won't take long,' I said. 'Just half an hour! They're slaughtering us! It's 3–0 already, we really need you,' I pleaded, running to catch up with him. It was most unlike Decha to turn down a game of football. What was he up to?\n\n'Where are you going anyway?' I asked as I fell into step with him.\n\n'It's just a...' started Decha. He was looking over his shoulder at the other boys, but they weren't paying us any attention. 'You can come if you like,' he whispered. 'It's not far.'\n\nI don't know what it was, but suddenly my interest was piqued. Decha was a football addict; there was nothing else that he preferred to do. I knew my friend was up to something.\n\n'I might tag along for a bit,' I said airily, trying to hide my curiosity.\n\nWe walked along in silence for a few minutes until Decha indicated a gap in the vegetation by the side of the path and we passed through into the jungle itself. The temperature dropped instantly, enough to cool us down, as the sunlight disappeared, obscured by the brilliant green canopy. There were no pathways here, but it was clear from the way the vegetation was compacted underfoot that someone had passed through recently.\n\n'So, where are we going?' I asked Decha eventually.\n\n'We're almost there,' he said. 'We need to be really quiet. No sudden movements, ok? We don't want to frighten them.' He shifted a bag that I hadn't even noticed onto his shoulder. As the vegetation became more and more dense, we needed both hands to get through the thicket of leaves and vines.\n\nThen we were crawling as the foliage hemmed us in on all sides and closed in behind us. My heart was starting to pound and I wasn't sure if it was from exertion or fear.\n\n'OK,' whispered Decha and as the foliage opened out into a space, I realised I'd been holding my breath. The tiniest slivers of light broke through, and as my eyes started to adjust, I realised we weren't alone. Decha was already rummaging in his bag and taking out scraps of meat and bread. Seemingly out of nowhere, several small scuffling furry bodies descended on Decha's offerings.\n\n'There are four of them,' said Decha, his voice low. 'Their mother is hurt and can't feed herself, but she's getting stronger every day.'",
+      "prompt": "The word 'piqued' means",
+      "options": [
+        {
+          "label": "A",
+          "text": "aroused."
+        },
+        {
+          "label": "B",
+          "text": "justified."
+        },
+        {
+          "label": "C",
+          "text": "released."
+        },
+        {
+          "label": "D",
+          "text": "exaggerated."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'suddenly my interest was piqued' — his curiosity was stirred up.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2016orig-q42",
+      "number": 42,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 37 to 43.\n\nDecha\n\n'Decha! Come over, we need someone who knows what they're doing in goal!' I yelled.\n\n'I can't today! I have to do something,' he shouted back, as he continued to walk down the long dusty road that led to nowhere useful at all. The village shops were in the other direction and, as far as I knew, this road went through the jungle before eventually ending at the river.\n\n'But this won't take long,' I said. 'Just half an hour! They're slaughtering us! It's 3–0 already, we really need you,' I pleaded, running to catch up with him. It was most unlike Decha to turn down a game of football. What was he up to?\n\n'Where are you going anyway?' I asked as I fell into step with him.\n\n'It's just a...' started Decha. He was looking over his shoulder at the other boys, but they weren't paying us any attention. 'You can come if you like,' he whispered. 'It's not far.'\n\nI don't know what it was, but suddenly my interest was piqued. Decha was a football addict; there was nothing else that he preferred to do. I knew my friend was up to something.\n\n'I might tag along for a bit,' I said airily, trying to hide my curiosity.\n\nWe walked along in silence for a few minutes until Decha indicated a gap in the vegetation by the side of the path and we passed through into the jungle itself. The temperature dropped instantly, enough to cool us down, as the sunlight disappeared, obscured by the brilliant green canopy. There were no pathways here, but it was clear from the way the vegetation was compacted underfoot that someone had passed through recently.\n\n'So, where are we going?' I asked Decha eventually.\n\n'We're almost there,' he said. 'We need to be really quiet. No sudden movements, ok? We don't want to frighten them.' He shifted a bag that I hadn't even noticed onto his shoulder. As the vegetation became more and more dense, we needed both hands to get through the thicket of leaves and vines.\n\nThen we were crawling as the foliage hemmed us in on all sides and closed in behind us. My heart was starting to pound and I wasn't sure if it was from exertion or fear.\n\n'OK,' whispered Decha and as the foliage opened out into a space, I realised I'd been holding my breath. The tiniest slivers of light broke through, and as my eyes started to adjust, I realised we weren't alone. Decha was already rummaging in his bag and taking out scraps of meat and bread. Seemingly out of nowhere, several small scuffling furry bodies descended on Decha's offerings.\n\n'There are four of them,' said Decha, his voice low. 'Their mother is hurt and can't feed herself, but she's getting stronger every day.'",
+      "prompt": "The narrator said, 'I might tag along for a bit', because",
+      "options": [
+        {
+          "label": "A",
+          "text": "he was trying to get Decha to like him."
+        },
+        {
+          "label": "B",
+          "text": "he was uncertain if he had enough time to follow Decha."
+        },
+        {
+          "label": "C",
+          "text": "he was trying to disguise his interest in what Decha was doing."
+        },
+        {
+          "label": "D",
+          "text": "he was hoping Decha would change his mind about going."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "He says it 'airily, trying to hide my curiosity'.",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q43",
+      "number": 43,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 37 to 43.\n\nDecha\n\n'Decha! Come over, we need someone who knows what they're doing in goal!' I yelled.\n\n'I can't today! I have to do something,' he shouted back, as he continued to walk down the long dusty road that led to nowhere useful at all. The village shops were in the other direction and, as far as I knew, this road went through the jungle before eventually ending at the river.\n\n'But this won't take long,' I said. 'Just half an hour! They're slaughtering us! It's 3–0 already, we really need you,' I pleaded, running to catch up with him. It was most unlike Decha to turn down a game of football. What was he up to?\n\n'Where are you going anyway?' I asked as I fell into step with him.\n\n'It's just a...' started Decha. He was looking over his shoulder at the other boys, but they weren't paying us any attention. 'You can come if you like,' he whispered. 'It's not far.'\n\nI don't know what it was, but suddenly my interest was piqued. Decha was a football addict; there was nothing else that he preferred to do. I knew my friend was up to something.\n\n'I might tag along for a bit,' I said airily, trying to hide my curiosity.\n\nWe walked along in silence for a few minutes until Decha indicated a gap in the vegetation by the side of the path and we passed through into the jungle itself. The temperature dropped instantly, enough to cool us down, as the sunlight disappeared, obscured by the brilliant green canopy. There were no pathways here, but it was clear from the way the vegetation was compacted underfoot that someone had passed through recently.\n\n'So, where are we going?' I asked Decha eventually.\n\n'We're almost there,' he said. 'We need to be really quiet. No sudden movements, ok? We don't want to frighten them.' He shifted a bag that I hadn't even noticed onto his shoulder. As the vegetation became more and more dense, we needed both hands to get through the thicket of leaves and vines.\n\nThen we were crawling as the foliage hemmed us in on all sides and closed in behind us. My heart was starting to pound and I wasn't sure if it was from exertion or fear.\n\n'OK,' whispered Decha and as the foliage opened out into a space, I realised I'd been holding my breath. The tiniest slivers of light broke through, and as my eyes started to adjust, I realised we weren't alone. Decha was already rummaging in his bag and taking out scraps of meat and bread. Seemingly out of nowhere, several small scuffling furry bodies descended on Decha's offerings.\n\n'There are four of them,' said Decha, his voice low. 'Their mother is hurt and can't feed herself, but she's getting stronger every day.'",
+      "prompt": "'but it was clear from the way the vegetation was compacted underfoot that someone had passed through recently'\nIn this quotation the narrator's comments are best described as",
+      "options": [
+        {
+          "label": "A",
+          "text": "an assumption based on a guess."
+        },
+        {
+          "label": "B",
+          "text": "a statement based on evidence."
+        },
+        {
+          "label": "C",
+          "text": "a concern based on fear."
+        },
+        {
+          "label": "D",
+          "text": "a judgement based on instinct."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The flattened vegetation is physical evidence that he uses to draw his conclusion.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2016orig-q44",
+      "number": 44,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 44 to 50.\n\nWhy it's cool to be kind\n\nEvery day my mother takes me to the same sandwich shop on my way to school and we buy our lunch: a chicken and salad sandwich on brown bread. Last Friday Mum bought three sandwiches: one for her, one for me, and one for the homeless person sitting on the footpath near the shop. I hope the homeless person enjoyed the sandwich as much as I enjoyed giving it. Giving felt good; being kind felt good.\n\nScientific studies of kindness reveal that it has multiple benefits for human well-being: the person who initiates a kind act feels positive and happy, and the recipient of the kindness benefits directly. Furthermore, witnesses who observe a kind act at a distance indirectly benefit from the act of kindness, experiencing a 'happiness high' similar to that of the person who initiated the act. Kindness has a ripple effect in societies: one random act of kindness may encourage others to act in a similar way.\n\nIn effect, kindness broadens our perspective. In order to be kind to others, we have to be aware of people and surroundings: to think about a homeless person and how they might appreciate a healthy lunch, for example. Recognising someone's need for help and taking action make the recipient feel valued and respected, and the giver, happier and more connected—less alone.\n\nWhile performing acts of kindness may seem a very adult behaviour, psychologists suggest that we should explicitly encourage kindness behaviours in young people. Children are born to be altruistic givers but, according to researchers, somewhere between birth and the middle of primary school, there is a shift towards thinking more about themselves than others.\n\nThe 'Kindness Counts' study, conducted by researchers from the University of British Columbia and the University of California, investigated the happiness benefits for 9- to 11-year-olds gained from performing acts of kindness. The children involved in the study performed three acts of kindness each week for anyone they wished. Another several hundred kept track of three pleasant places they visited during the week. The results were consistent with adult studies which found that those who performed acts of kindness experienced increased feelings of happiness and satisfaction compared to those who only visited pleasant places. For children who initiated acts of kindness, there was the additional benefit that their popularity and acceptance among their peers increased.\n\nHumans have the capacity to be profoundly kind and helpful to each other. This capacity is embedded in our societies. Caring and kindness have contributed to the survival of our species. In our busy 21st century lives, we just need a reminder that at any age, kind is cool!",
+      "prompt": "The writer describes purchasing her lunch in order to",
+      "options": [
+        {
+          "label": "A",
+          "text": "emphasise a variation in routine."
+        },
+        {
+          "label": "B",
+          "text": "demonstrate the importance of eating a healthy lunch every day."
+        },
+        {
+          "label": "C",
+          "text": "illustrate the feelings of the homeless person."
+        },
+        {
+          "label": "D",
+          "text": "emphasise the importance of sharing food with others."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'Every day' the same sandwich is bought, but 'Last Friday' a third was added for a homeless person — a break in routine.",
+      "topic": "Writer's craft"
+    },
+    {
+      "id": "eng2016orig-q45",
+      "number": 45,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 44 to 50.\n\nWhy it's cool to be kind\n\nEvery day my mother takes me to the same sandwich shop on my way to school and we buy our lunch: a chicken and salad sandwich on brown bread. Last Friday Mum bought three sandwiches: one for her, one for me, and one for the homeless person sitting on the footpath near the shop. I hope the homeless person enjoyed the sandwich as much as I enjoyed giving it. Giving felt good; being kind felt good.\n\nScientific studies of kindness reveal that it has multiple benefits for human well-being: the person who initiates a kind act feels positive and happy, and the recipient of the kindness benefits directly. Furthermore, witnesses who observe a kind act at a distance indirectly benefit from the act of kindness, experiencing a 'happiness high' similar to that of the person who initiated the act. Kindness has a ripple effect in societies: one random act of kindness may encourage others to act in a similar way.\n\nIn effect, kindness broadens our perspective. In order to be kind to others, we have to be aware of people and surroundings: to think about a homeless person and how they might appreciate a healthy lunch, for example. Recognising someone's need for help and taking action make the recipient feel valued and respected, and the giver, happier and more connected—less alone.\n\nWhile performing acts of kindness may seem a very adult behaviour, psychologists suggest that we should explicitly encourage kindness behaviours in young people. Children are born to be altruistic givers but, according to researchers, somewhere between birth and the middle of primary school, there is a shift towards thinking more about themselves than others.\n\nThe 'Kindness Counts' study, conducted by researchers from the University of British Columbia and the University of California, investigated the happiness benefits for 9- to 11-year-olds gained from performing acts of kindness. The children involved in the study performed three acts of kindness each week for anyone they wished. Another several hundred kept track of three pleasant places they visited during the week. The results were consistent with adult studies which found that those who performed acts of kindness experienced increased feelings of happiness and satisfaction compared to those who only visited pleasant places. For children who initiated acts of kindness, there was the additional benefit that their popularity and acceptance among their peers increased.\n\nHumans have the capacity to be profoundly kind and helpful to each other. This capacity is embedded in our societies. Caring and kindness have contributed to the survival of our species. In our busy 21st century lives, we just need a reminder that at any age, kind is cool!",
+      "prompt": "Based on information in the text, which option describes the 'ripple effect'?",
+      "options": [
+        {
+          "label": "A",
+          "text": "People are more likely to perform acts of kindness when others are watching."
+        },
+        {
+          "label": "B",
+          "text": "The recipients of acts of kindness feel they have to return the favour."
+        },
+        {
+          "label": "C",
+          "text": "Observing an act of kindness encourages others to do the same."
+        },
+        {
+          "label": "D",
+          "text": "The quality of a society is measured by the acts of kindness people perform."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "'one random act of kindness may encourage others to act in a similar way.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q46",
+      "number": 46,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 44 to 50.\n\nWhy it's cool to be kind\n\nEvery day my mother takes me to the same sandwich shop on my way to school and we buy our lunch: a chicken and salad sandwich on brown bread. Last Friday Mum bought three sandwiches: one for her, one for me, and one for the homeless person sitting on the footpath near the shop. I hope the homeless person enjoyed the sandwich as much as I enjoyed giving it. Giving felt good; being kind felt good.\n\nScientific studies of kindness reveal that it has multiple benefits for human well-being: the person who initiates a kind act feels positive and happy, and the recipient of the kindness benefits directly. Furthermore, witnesses who observe a kind act at a distance indirectly benefit from the act of kindness, experiencing a 'happiness high' similar to that of the person who initiated the act. Kindness has a ripple effect in societies: one random act of kindness may encourage others to act in a similar way.\n\nIn effect, kindness broadens our perspective. In order to be kind to others, we have to be aware of people and surroundings: to think about a homeless person and how they might appreciate a healthy lunch, for example. Recognising someone's need for help and taking action make the recipient feel valued and respected, and the giver, happier and more connected—less alone.\n\nWhile performing acts of kindness may seem a very adult behaviour, psychologists suggest that we should explicitly encourage kindness behaviours in young people. Children are born to be altruistic givers but, according to researchers, somewhere between birth and the middle of primary school, there is a shift towards thinking more about themselves than others.\n\nThe 'Kindness Counts' study, conducted by researchers from the University of British Columbia and the University of California, investigated the happiness benefits for 9- to 11-year-olds gained from performing acts of kindness. The children involved in the study performed three acts of kindness each week for anyone they wished. Another several hundred kept track of three pleasant places they visited during the week. The results were consistent with adult studies which found that those who performed acts of kindness experienced increased feelings of happiness and satisfaction compared to those who only visited pleasant places. For children who initiated acts of kindness, there was the additional benefit that their popularity and acceptance among their peers increased.\n\nHumans have the capacity to be profoundly kind and helpful to each other. This capacity is embedded in our societies. Caring and kindness have contributed to the survival of our species. In our busy 21st century lives, we just need a reminder that at any age, kind is cool!",
+      "prompt": "Which option could replace 'In effect' and retain the meaning of the sentence?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Essentially"
+        },
+        {
+          "label": "B",
+          "text": "In theory"
+        },
+        {
+          "label": "C",
+          "text": "Coincidentally"
+        },
+        {
+          "label": "D",
+          "text": "In comparison"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "'In effect' here means 'basically' or 'essentially'.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2016orig-q47",
+      "number": 47,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 44 to 50.\n\nWhy it's cool to be kind\n\nEvery day my mother takes me to the same sandwich shop on my way to school and we buy our lunch: a chicken and salad sandwich on brown bread. Last Friday Mum bought three sandwiches: one for her, one for me, and one for the homeless person sitting on the footpath near the shop. I hope the homeless person enjoyed the sandwich as much as I enjoyed giving it. Giving felt good; being kind felt good.\n\nScientific studies of kindness reveal that it has multiple benefits for human well-being: the person who initiates a kind act feels positive and happy, and the recipient of the kindness benefits directly. Furthermore, witnesses who observe a kind act at a distance indirectly benefit from the act of kindness, experiencing a 'happiness high' similar to that of the person who initiated the act. Kindness has a ripple effect in societies: one random act of kindness may encourage others to act in a similar way.\n\nIn effect, kindness broadens our perspective. In order to be kind to others, we have to be aware of people and surroundings: to think about a homeless person and how they might appreciate a healthy lunch, for example. Recognising someone's need for help and taking action make the recipient feel valued and respected, and the giver, happier and more connected—less alone.\n\nWhile performing acts of kindness may seem a very adult behaviour, psychologists suggest that we should explicitly encourage kindness behaviours in young people. Children are born to be altruistic givers but, according to researchers, somewhere between birth and the middle of primary school, there is a shift towards thinking more about themselves than others.\n\nThe 'Kindness Counts' study, conducted by researchers from the University of British Columbia and the University of California, investigated the happiness benefits for 9- to 11-year-olds gained from performing acts of kindness. The children involved in the study performed three acts of kindness each week for anyone they wished. Another several hundred kept track of three pleasant places they visited during the week. The results were consistent with adult studies which found that those who performed acts of kindness experienced increased feelings of happiness and satisfaction compared to those who only visited pleasant places. For children who initiated acts of kindness, there was the additional benefit that their popularity and acceptance among their peers increased.\n\nHumans have the capacity to be profoundly kind and helpful to each other. This capacity is embedded in our societies. Caring and kindness have contributed to the survival of our species. In our busy 21st century lives, we just need a reminder that at any age, kind is cool!",
+      "prompt": "According to the text, initiating a kind act broadens people's perspective because",
+      "options": [
+        {
+          "label": "A",
+          "text": "the more kind acts that are witnessed, the happier people feel."
+        },
+        {
+          "label": "B",
+          "text": "it requires people to think about other people and their lives."
+        },
+        {
+          "label": "C",
+          "text": "it encourages people to move beyond their local community."
+        },
+        {
+          "label": "D",
+          "text": "they feel more confident to interact with other people."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "'In order to be kind to others, we have to be aware of people and surroundings.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q48",
+      "number": 48,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 44 to 50.\n\nWhy it's cool to be kind\n\nEvery day my mother takes me to the same sandwich shop on my way to school and we buy our lunch: a chicken and salad sandwich on brown bread. Last Friday Mum bought three sandwiches: one for her, one for me, and one for the homeless person sitting on the footpath near the shop. I hope the homeless person enjoyed the sandwich as much as I enjoyed giving it. Giving felt good; being kind felt good.\n\nScientific studies of kindness reveal that it has multiple benefits for human well-being: the person who initiates a kind act feels positive and happy, and the recipient of the kindness benefits directly. Furthermore, witnesses who observe a kind act at a distance indirectly benefit from the act of kindness, experiencing a 'happiness high' similar to that of the person who initiated the act. Kindness has a ripple effect in societies: one random act of kindness may encourage others to act in a similar way.\n\nIn effect, kindness broadens our perspective. In order to be kind to others, we have to be aware of people and surroundings: to think about a homeless person and how they might appreciate a healthy lunch, for example. Recognising someone's need for help and taking action make the recipient feel valued and respected, and the giver, happier and more connected—less alone.\n\nWhile performing acts of kindness may seem a very adult behaviour, psychologists suggest that we should explicitly encourage kindness behaviours in young people. Children are born to be altruistic givers but, according to researchers, somewhere between birth and the middle of primary school, there is a shift towards thinking more about themselves than others.\n\nThe 'Kindness Counts' study, conducted by researchers from the University of British Columbia and the University of California, investigated the happiness benefits for 9- to 11-year-olds gained from performing acts of kindness. The children involved in the study performed three acts of kindness each week for anyone they wished. Another several hundred kept track of three pleasant places they visited during the week. The results were consistent with adult studies which found that those who performed acts of kindness experienced increased feelings of happiness and satisfaction compared to those who only visited pleasant places. For children who initiated acts of kindness, there was the additional benefit that their popularity and acceptance among their peers increased.\n\nHumans have the capacity to be profoundly kind and helpful to each other. This capacity is embedded in our societies. Caring and kindness have contributed to the survival of our species. In our busy 21st century lives, we just need a reminder that at any age, kind is cool!",
+      "prompt": "An 'altruistic' act is one in which a person",
+      "options": [
+        {
+          "label": "A",
+          "text": "respects the rights of people to choose their lifestyle."
+        },
+        {
+          "label": "B",
+          "text": "seeks to be noticed committing acts of kindness."
+        },
+        {
+          "label": "C",
+          "text": "helps another person without expecting anything in return."
+        },
+        {
+          "label": "D",
+          "text": "records random acts of kindness."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Altruistic giving means helping others selflessly, with no reward expected.",
+      "topic": "Vocabulary"
+    },
+    {
+      "id": "eng2016orig-q49",
+      "number": 49,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 44 to 50.\n\nWhy it's cool to be kind\n\nEvery day my mother takes me to the same sandwich shop on my way to school and we buy our lunch: a chicken and salad sandwich on brown bread. Last Friday Mum bought three sandwiches: one for her, one for me, and one for the homeless person sitting on the footpath near the shop. I hope the homeless person enjoyed the sandwich as much as I enjoyed giving it. Giving felt good; being kind felt good.\n\nScientific studies of kindness reveal that it has multiple benefits for human well-being: the person who initiates a kind act feels positive and happy, and the recipient of the kindness benefits directly. Furthermore, witnesses who observe a kind act at a distance indirectly benefit from the act of kindness, experiencing a 'happiness high' similar to that of the person who initiated the act. Kindness has a ripple effect in societies: one random act of kindness may encourage others to act in a similar way.\n\nIn effect, kindness broadens our perspective. In order to be kind to others, we have to be aware of people and surroundings: to think about a homeless person and how they might appreciate a healthy lunch, for example. Recognising someone's need for help and taking action make the recipient feel valued and respected, and the giver, happier and more connected—less alone.\n\nWhile performing acts of kindness may seem a very adult behaviour, psychologists suggest that we should explicitly encourage kindness behaviours in young people. Children are born to be altruistic givers but, according to researchers, somewhere between birth and the middle of primary school, there is a shift towards thinking more about themselves than others.\n\nThe 'Kindness Counts' study, conducted by researchers from the University of British Columbia and the University of California, investigated the happiness benefits for 9- to 11-year-olds gained from performing acts of kindness. The children involved in the study performed three acts of kindness each week for anyone they wished. Another several hundred kept track of three pleasant places they visited during the week. The results were consistent with adult studies which found that those who performed acts of kindness experienced increased feelings of happiness and satisfaction compared to those who only visited pleasant places. For children who initiated acts of kindness, there was the additional benefit that their popularity and acceptance among their peers increased.\n\nHumans have the capacity to be profoundly kind and helpful to each other. This capacity is embedded in our societies. Caring and kindness have contributed to the survival of our species. In our busy 21st century lives, we just need a reminder that at any age, kind is cool!",
+      "prompt": "Which question does the 'Kindness Counts' study attempt to answer?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Do 9- to 11-year-olds experience higher levels of happiness than adults?"
+        },
+        {
+          "label": "B",
+          "text": "Are children who count the number of kind acts performed happier than those who don't?"
+        },
+        {
+          "label": "C",
+          "text": "Are children who visit pleasant places happier than those who don't?"
+        },
+        {
+          "label": "D",
+          "text": "Do children who perform kind acts show increased levels of happiness?"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The study 'investigated the happiness benefits for 9- to 11-year-olds gained from performing acts of kindness.'",
+      "topic": "Text comprehension"
+    },
+    {
+      "id": "eng2016orig-q50",
+      "number": 50,
+      "type": "multiple_choice",
+      "passage": "Read the text and answer questions 44 to 50.\n\nWhy it's cool to be kind\n\nEvery day my mother takes me to the same sandwich shop on my way to school and we buy our lunch: a chicken and salad sandwich on brown bread. Last Friday Mum bought three sandwiches: one for her, one for me, and one for the homeless person sitting on the footpath near the shop. I hope the homeless person enjoyed the sandwich as much as I enjoyed giving it. Giving felt good; being kind felt good.\n\nScientific studies of kindness reveal that it has multiple benefits for human well-being: the person who initiates a kind act feels positive and happy, and the recipient of the kindness benefits directly. Furthermore, witnesses who observe a kind act at a distance indirectly benefit from the act of kindness, experiencing a 'happiness high' similar to that of the person who initiated the act. Kindness has a ripple effect in societies: one random act of kindness may encourage others to act in a similar way.\n\nIn effect, kindness broadens our perspective. In order to be kind to others, we have to be aware of people and surroundings: to think about a homeless person and how they might appreciate a healthy lunch, for example. Recognising someone's need for help and taking action make the recipient feel valued and respected, and the giver, happier and more connected—less alone.\n\nWhile performing acts of kindness may seem a very adult behaviour, psychologists suggest that we should explicitly encourage kindness behaviours in young people. Children are born to be altruistic givers but, according to researchers, somewhere between birth and the middle of primary school, there is a shift towards thinking more about themselves than others.\n\nThe 'Kindness Counts' study, conducted by researchers from the University of British Columbia and the University of California, investigated the happiness benefits for 9- to 11-year-olds gained from performing acts of kindness. The children involved in the study performed three acts of kindness each week for anyone they wished. Another several hundred kept track of three pleasant places they visited during the week. The results were consistent with adult studies which found that those who performed acts of kindness experienced increased feelings of happiness and satisfaction compared to those who only visited pleasant places. For children who initiated acts of kindness, there was the additional benefit that their popularity and acceptance among their peers increased.\n\nHumans have the capacity to be profoundly kind and helpful to each other. This capacity is embedded in our societies. Caring and kindness have contributed to the survival of our species. In our busy 21st century lives, we just need a reminder that at any age, kind is cool!",
+      "prompt": "The title of the study 'Kindness Counts' contains a pun. Which option provides the two meanings?",
+      "options": [
+        {
+          "label": "A",
+          "text": "Kind acts can be important AND the level of importance is related to the number of witnesses."
+        },
+        {
+          "label": "B",
+          "text": "Kind acts can be evaluated AND the results drawn as a table."
+        },
+        {
+          "label": "C",
+          "text": "Kind acts can be studied AND these acts are more important than the research."
+        },
+        {
+          "label": "D",
+          "text": "Kind acts can be analysed AND their impact is significant."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "'Counts' means both to be tallied/measured and to matter — kind acts can be analysed, and they are significant.",
+      "topic": "Writer's craft"
+    }
+  ]
+}
