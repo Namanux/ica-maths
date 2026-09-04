@@ -1,0 +1,332 @@
+{
+  "id": "edutest-y6-verbal-1",
+  "exam": "edutest",
+  "subject": "Verbal Reasoning",
+  "yearLevel": 6,
+  "paperCode": "Y6-VR-1",
+  "title": "EduTest-style Year 6 Verbal Reasoning — Practice Paper 1",
+  "year": 2026,
+  "timeLimitMinutes": 18,
+  "questions": [
+    {
+      "id": "edt-y6vr1-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "AUTHOR is to NOVEL as COMPOSER is to ___",
+      "options": [
+        { "label": "A", "text": "orchestra" },
+        { "label": "B", "text": "symphony" },
+        { "label": "C", "text": "piano" },
+        { "label": "D", "text": "audience" },
+        { "label": "E", "text": "conductor" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "An author creates a novel; a composer creates a symphony. The others are people or objects involved in music, not the thing that is created.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y6vr1-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "DROUGHT is to RAIN as FAMINE is to ___",
+      "options": [
+        { "label": "A", "text": "hunger" },
+        { "label": "B", "text": "food" },
+        { "label": "C", "text": "water" },
+        { "label": "D", "text": "crops" },
+        { "label": "E", "text": "harvest" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A drought is a serious shortage of rain; a famine is a serious shortage of food.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y6vr1-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "WHISPER is to SHOUT as GLIMPSE is to ___",
+      "options": [
+        { "label": "A", "text": "blink" },
+        { "label": "B", "text": "stare" },
+        { "label": "C", "text": "wink" },
+        { "label": "D", "text": "mirror" },
+        { "label": "E", "text": "shadow" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A whisper is a very quiet way of using the voice and a shout is a very loud one. In the same way a glimpse is a very brief look and a stare is a long, fixed one.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y6vr1-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "SCULPTOR is to CHISEL as SURGEON is to ___",
+      "options": [
+        { "label": "A", "text": "patient" },
+        { "label": "B", "text": "scalpel" },
+        { "label": "C", "text": "hospital" },
+        { "label": "D", "text": "bandage" },
+        { "label": "E", "text": "stethoscope" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A sculptor uses a chisel as the main cutting tool of their work; a surgeon uses a scalpel in the same way.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y6vr1-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Which word does NOT belong with the others?",
+      "options": [
+        { "label": "A", "text": "copper" },
+        { "label": "B", "text": "bronze" },
+        { "label": "C", "text": "iron" },
+        { "label": "D", "text": "silver" },
+        { "label": "E", "text": "gold" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Copper, iron, silver and gold are pure metals. Bronze is a mixture (an alloy) of two metals, so it is the odd one out.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y6vr1-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Which word does NOT belong with the others?",
+      "options": [
+        { "label": "A", "text": "triangle" },
+        { "label": "B", "text": "hexagon" },
+        { "label": "C", "text": "sphere" },
+        { "label": "D", "text": "pentagon" },
+        { "label": "E", "text": "octagon" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "A triangle, hexagon, pentagon and octagon are all flat (2-D) shapes. A sphere is a solid (3-D) shape.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y6vr1-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Which word does NOT belong with the others?",
+      "options": [
+        { "label": "A", "text": "gaze" },
+        { "label": "B", "text": "glare" },
+        { "label": "C", "text": "peer" },
+        { "label": "D", "text": "mutter" },
+        { "label": "E", "text": "squint" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Gaze, glare, peer and squint are all ways of looking. Mutter is a way of speaking.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y6vr1-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Which word does NOT belong with the others?",
+      "options": [
+        { "label": "A", "text": "Pacific" },
+        { "label": "B", "text": "Atlantic" },
+        { "label": "C", "text": "Amazon" },
+        { "label": "D", "text": "Arctic" },
+        { "label": "E", "text": "Indian" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The Pacific, Atlantic, Arctic and Indian are all oceans. The Amazon is a river.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y6vr1-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Which word is CLOSEST in meaning to BENEVOLENT?",
+      "options": [
+        { "label": "A", "text": "wealthy" },
+        { "label": "B", "text": "kindly" },
+        { "label": "C", "text": "strict" },
+        { "label": "D", "text": "anxious" },
+        { "label": "E", "text": "cautious" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Benevolent means wanting to do good and being generous to others, so it is closest to kindly.",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y6vr1-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Which word is OPPOSITE in meaning to SCARCE?",
+      "options": [
+        { "label": "A", "text": "rare" },
+        { "label": "B", "text": "plentiful" },
+        { "label": "C", "text": "hidden" },
+        { "label": "D", "text": "costly" },
+        { "label": "E", "text": "empty" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Scarce means there is very little of something. Its opposite is plentiful, meaning there is a large amount. (Rare is a synonym, not an opposite.)",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y6vr1-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Which word is CLOSEST in meaning to RELUCTANT?",
+      "options": [
+        { "label": "A", "text": "eager" },
+        { "label": "B", "text": "unwilling" },
+        { "label": "C", "text": "tired" },
+        { "label": "D", "text": "confused" },
+        { "label": "E", "text": "honest" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If you are reluctant to do something, you do not want to do it, so the closest word is unwilling. Eager is the opposite.",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y6vr1-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Which word is CLOSEST in meaning to VERSATILE?",
+      "options": [
+        { "label": "A", "text": "stubborn" },
+        { "label": "B", "text": "adaptable" },
+        { "label": "C", "text": "truthful" },
+        { "label": "D", "text": "fragile" },
+        { "label": "E", "text": "ancient" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Something versatile can be used for many different purposes, so it is closest in meaning to adaptable.",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y6vr1-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "In a certain code, GARDEN is written as HBSEFO. Using the same code, how is FLOWER written?",
+      "options": [
+        { "label": "A", "text": "GMPXFS" },
+        { "label": "B", "text": "EKNVDQ" },
+        { "label": "C", "text": "GNPWFS" },
+        { "label": "D", "text": "HMQYGT" },
+        { "label": "E", "text": "GMOXFS" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Each letter moves forward one place in the alphabet (G→H, A→B, R→S ...). So FLOWER becomes G, M, P, X, F, S = GMPXFS.",
+      "topic": "Letters, Codes & Series"
+    },
+    {
+      "id": "edt-y6vr1-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Which pair of letters best completes the series?  CE, FH, IK, LN, ___",
+      "options": [
+        { "label": "A", "text": "OP" },
+        { "label": "B", "text": "OQ" },
+        { "label": "C", "text": "PR" },
+        { "label": "D", "text": "NP" },
+        { "label": "E", "text": "OR" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The first letters go C, F, I, L, O (adding 3 each time). The second letters go E, H, K, N, Q (also adding 3). So the next pair is OQ.",
+      "topic": "Letters, Codes & Series"
+    },
+    {
+      "id": "edt-y6vr1-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Each letter is given the value of its position in the alphabet (A = 1, B = 2, C = 3 ...). The word CAB is worth 3 + 1 + 2 = 6. What is the word BED worth?",
+      "options": [
+        { "label": "A", "text": "9" },
+        { "label": "B", "text": "10" },
+        { "label": "C", "text": "11" },
+        { "label": "D", "text": "12" },
+        { "label": "E", "text": "13" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "B = 2, E = 5, D = 4. Adding these gives 2 + 5 + 4 = 11.",
+      "topic": "Letters, Codes & Series"
+    },
+    {
+      "id": "edt-y6vr1-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Which letter comes next in the series?  Z, W, T, Q, ___",
+      "options": [
+        { "label": "A", "text": "O" },
+        { "label": "B", "text": "M" },
+        { "label": "C", "text": "N" },
+        { "label": "D", "text": "P" },
+        { "label": "E", "text": "L" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The letters step back 3 places each time: Z, W, T, Q, N.",
+      "topic": "Letters, Codes & Series"
+    },
+    {
+      "id": "edt-y6vr1-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Five runners finished a race. Priya finished ahead of Sam but behind Tom. Nadia finished last. Sam finished ahead of Leo. Who finished first?",
+      "options": [
+        { "label": "A", "text": "Priya" },
+        { "label": "B", "text": "Tom" },
+        { "label": "C", "text": "Sam" },
+        { "label": "D", "text": "Leo" },
+        { "label": "E", "text": "Nadia" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The order from first to last is Tom, Priya, Sam, Leo, Nadia, so Tom finished first.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y6vr1-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "Everyone in the school choir can read music. Some choir members also play the piano. Dana is in the choir. Which statement MUST be true?",
+      "options": [
+        { "label": "A", "text": "Dana plays the piano." },
+        { "label": "B", "text": "Dana can read music." },
+        { "label": "C", "text": "Everyone who can read music is in the choir." },
+        { "label": "D", "text": "Dana cannot play the piano." },
+        { "label": "E", "text": "No choir member plays the violin." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Every choir member can read music and Dana is a choir member, so Dana can read music. Nothing tells us whether Dana plays the piano or violin.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y6vr1-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Four books stand in a row on a shelf. The atlas is somewhere to the left of the novel. The dictionary is immediately to the right of the atlas. The poetry book is at one end of the row, but not the left-hand end. What is the order from left to right?",
+      "options": [
+        { "label": "A", "text": "poetry, atlas, dictionary, novel" },
+        { "label": "B", "text": "atlas, dictionary, novel, poetry" },
+        { "label": "C", "text": "atlas, novel, dictionary, poetry" },
+        { "label": "D", "text": "dictionary, atlas, novel, poetry" },
+        { "label": "E", "text": "atlas, dictionary, poetry, novel" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The poetry book must be on the far right. The dictionary sits immediately right of the atlas, and the novel must be further right than the atlas. That gives atlas, dictionary, novel, poetry.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y6vr1-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "Which TWO statements together most strongly show that: THE SHOP IS CLOSED TODAY.  1: The shop opens every day except public holidays.  2: The car park outside the shop is empty.  3: Today is a public holiday.  4: The shop sells groceries.  5: Yesterday was Sunday.",
+      "options": [
+        { "label": "A", "text": "2 & 4" },
+        { "label": "B", "text": "1 & 3" },
+        { "label": "C", "text": "2 & 5" },
+        { "label": "D", "text": "3 & 4" },
+        { "label": "E", "text": "1 & 5" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Statement 1 says the shop closes only on public holidays. Statement 3 says today is a public holiday. Together they prove the shop is closed today. An empty car park (2) is only a hint, not proof.",
+      "topic": "Logical Deduction"
+    }
+  ]
+}

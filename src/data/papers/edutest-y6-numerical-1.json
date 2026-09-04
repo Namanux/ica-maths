@@ -1,0 +1,332 @@
+{
+  "id": "edutest-y6-numerical-1",
+  "exam": "edutest",
+  "subject": "Numerical Reasoning",
+  "yearLevel": 6,
+  "paperCode": "Y6-NR-1",
+  "title": "EduTest-style Year 6 Numerical Reasoning — Practice Paper 1",
+  "year": 2026,
+  "timeLimitMinutes": 20,
+  "questions": [
+    {
+      "id": "edt-y6nr1-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "What number comes next in this sequence?\n4, 7, 13, 25, ___",
+      "options": [
+        { "label": "A", "text": "37" },
+        { "label": "B", "text": "43" },
+        { "label": "C", "text": "49" },
+        { "label": "D", "text": "50" },
+        { "label": "E", "text": "47" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Each term is doubled and then 1 is subtracted: 4×2−1 = 7, 7×2−1 = 13, 13×2−1 = 25, 25×2−1 = 49.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y6nr1-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n2, 6, 12, 20, ___, 42",
+      "options": [
+        { "label": "A", "text": "28" },
+        { "label": "B", "text": "30" },
+        { "label": "C", "text": "32" },
+        { "label": "D", "text": "34" },
+        { "label": "E", "text": "36" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The gaps grow by 2 each time: +4, +6, +8, +10, +12. So after 20 comes 20 + 10 = 30, and then 30 + 12 = 42.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y6nr1-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "What number comes next in this sequence?\n1, 2, 4, 7, 11, 16, ___",
+      "options": [
+        { "label": "A", "text": "20" },
+        { "label": "B", "text": "21" },
+        { "label": "C", "text": "22" },
+        { "label": "D", "text": "23" },
+        { "label": "E", "text": "24" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The gaps go up by one each time: +1, +2, +3, +4, +5, then +6. So 16 + 6 = 22.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y6nr1-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "What number comes next in this sequence?\n96, 48, 24, 12, ___",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "6" },
+        { "label": "C", "text": "8" },
+        { "label": "D", "text": "3" },
+        { "label": "E", "text": "9" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Each term is half of the one before it: 96, 48, 24, 12, 6.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y6nr1-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "The two numbers in each pair are related in the same way:\n(3, 10)  (5, 16)  (8, 25)\nWhat number goes with 12?",
+      "options": [
+        { "label": "A", "text": "34" },
+        { "label": "B", "text": "36" },
+        { "label": "C", "text": "37" },
+        { "label": "D", "text": "40" },
+        { "label": "E", "text": "25" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The second number is the first multiplied by 3, then add 1: 3×3+1 = 10, 5×3+1 = 16, 8×3+1 = 25. So 12×3+1 = 37.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr1-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "The two numbers in each pair are related in the same way:\n24 → 6    36 → 9    60 → ?",
+      "options": [
+        { "label": "A", "text": "12" },
+        { "label": "B", "text": "15" },
+        { "label": "C", "text": "20" },
+        { "label": "D", "text": "18" },
+        { "label": "E", "text": "40" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The second number is the first divided by 4: 24 ÷ 4 = 6, 36 ÷ 4 = 9, 60 ÷ 4 = 15.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr1-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "In each row of this grid the third number is made from the first two in the same way:\n2, 3, 6\n4, 5, 20\n6, 7, ?",
+      "options": [
+        { "label": "A", "text": "13" },
+        { "label": "B", "text": "36" },
+        { "label": "C", "text": "42" },
+        { "label": "D", "text": "48" },
+        { "label": "E", "text": "40" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The third number is the first two multiplied together: 2×3 = 6, 4×5 = 20, 6×7 = 42.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr1-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n1, 4, 9, 16, ___, 36",
+      "options": [
+        { "label": "A", "text": "20" },
+        { "label": "B", "text": "24" },
+        { "label": "C", "text": "25" },
+        { "label": "D", "text": "30" },
+        { "label": "E", "text": "32" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "These are the square numbers: 1×1, 2×2, 3×3, 4×4, 5×5, 6×6. The missing one is 5×5 = 25.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr1-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "A pen costs $3 and a notebook costs $5. Priya buys 4 pens and 3 notebooks and pays with a $30 note. How much change does she get?",
+      "options": [
+        { "label": "A", "text": "$2" },
+        { "label": "B", "text": "$3" },
+        { "label": "C", "text": "$4" },
+        { "label": "D", "text": "$5" },
+        { "label": "E", "text": "$6" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "4 pens cost 4 × $3 = $12 and 3 notebooks cost 3 × $5 = $15, a total of $27. Change from $30 is $3.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr1-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "A tap fills a 60-litre tub in 5 minutes. At the same rate, how long will it take to fill a 96-litre tub?",
+      "options": [
+        { "label": "A", "text": "6 minutes" },
+        { "label": "B", "text": "7 minutes" },
+        { "label": "C", "text": "8 minutes" },
+        { "label": "D", "text": "9 minutes" },
+        { "label": "E", "text": "10 minutes" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The tap fills 60 ÷ 5 = 12 litres per minute. 96 ÷ 12 = 8 minutes.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr1-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "A train leaves at 9:45 am and arrives at 1:20 pm. How long is the journey?",
+      "options": [
+        { "label": "A", "text": "3 hours 25 minutes" },
+        { "label": "B", "text": "3 hours 35 minutes" },
+        { "label": "C", "text": "3 hours 45 minutes" },
+        { "label": "D", "text": "4 hours 5 minutes" },
+        { "label": "E", "text": "3 hours 55 minutes" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "From 9:45 am to 12:45 pm is 3 hours, and from 12:45 pm to 1:20 pm is another 35 minutes. That makes 3 hours 35 minutes.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr1-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Three friends agree to share the $54 cost of a gift equally. One friend can only pay $12, so the other two split the rest equally between them. How much does each of those two pay?",
+      "options": [
+        { "label": "A", "text": "$18" },
+        { "label": "B", "text": "$20" },
+        { "label": "C", "text": "$21" },
+        { "label": "D", "text": "$22" },
+        { "label": "E", "text": "$24" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "After the first friend pays $12, there is $54 − $12 = $42 left. Split between two people that is $42 ÷ 2 = $21 each.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr1-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "What is 3/5 of 45?",
+      "options": [
+        { "label": "A", "text": "15" },
+        { "label": "B", "text": "18" },
+        { "label": "C", "text": "24" },
+        { "label": "D", "text": "27" },
+        { "label": "E", "text": "30" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "One fifth of 45 is 9, so three fifths is 3 × 9 = 27.",
+      "topic": "Fractions & Proportion"
+    },
+    {
+      "id": "edt-y6nr1-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "In a class of 28 students, 3/4 of them walk to school. How many students do NOT walk to school?",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "7" },
+        { "label": "C", "text": "8" },
+        { "label": "D", "text": "14" },
+        { "label": "E", "text": "21" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The students who do not walk are the other 1/4 of the class. One quarter of 28 is 28 ÷ 4 = 7.",
+      "topic": "Fractions & Proportion"
+    },
+    {
+      "id": "edt-y6nr1-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "A recipe for 4 people uses 300 grams of flour. How much flour is needed to make the same recipe for 10 people?",
+      "options": [
+        { "label": "A", "text": "600 grams" },
+        { "label": "B", "text": "700 grams" },
+        { "label": "C", "text": "720 grams" },
+        { "label": "D", "text": "750 grams" },
+        { "label": "E", "text": "800 grams" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Each person needs 300 ÷ 4 = 75 grams. For 10 people that is 75 × 10 = 750 grams.",
+      "topic": "Fractions & Proportion"
+    },
+    {
+      "id": "edt-y6nr1-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Which of these fractions is the largest?",
+      "options": [
+        { "label": "A", "text": "2/3" },
+        { "label": "B", "text": "3/5" },
+        { "label": "C", "text": "7/10" },
+        { "label": "D", "text": "1/2" },
+        { "label": "E", "text": "5/8" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "As decimals: 2/3 ≈ 0.67, 3/5 = 0.6, 7/10 = 0.7, 1/2 = 0.5, 5/8 = 0.625. The largest is 7/10.",
+      "topic": "Fractions & Proportion"
+    },
+    {
+      "id": "edt-y6nr1-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Five houses stand in a row numbered 1 to 5. The yellow house is number 1. The white house is number 2. The blue house is number 3. The green house is number 5. The red house is next to the blue house. What number is the red house?",
+      "options": [
+        { "label": "A", "text": "1" },
+        { "label": "B", "text": "2" },
+        { "label": "C", "text": "3" },
+        { "label": "D", "text": "4" },
+        { "label": "E", "text": "5" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Houses 1, 2, 3 and 5 are already taken, so the red house must be number 4 — and number 4 is next to the blue house at number 3.",
+      "topic": "Logical Reasoning"
+    },
+    {
+      "id": "edt-y6nr1-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "All squares are rectangles. All rectangles have four sides. Shape X is a square. Which statement MUST be true?",
+      "options": [
+        { "label": "A", "text": "X has three sides." },
+        { "label": "B", "text": "X has four sides." },
+        { "label": "C", "text": "X is not a rectangle." },
+        { "label": "D", "text": "X is a circle." },
+        { "label": "E", "text": "X has five sides." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "X is a square, so it is a rectangle, and every rectangle has four sides. Therefore X has four sides.",
+      "topic": "Logical Reasoning"
+    },
+    {
+      "id": "edt-y6nr1-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Four children stand in a queue. Mia is first and Sam is last. Kim is not first or last, and Leo is standing directly behind Kim. Who is second in the queue?",
+      "options": [
+        { "label": "A", "text": "Kim" },
+        { "label": "B", "text": "Leo" },
+        { "label": "C", "text": "Mia" },
+        { "label": "D", "text": "Sam" },
+        { "label": "E", "text": "It cannot be worked out" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Mia is 1st and Sam is 4th, so Kim and Leo take places 2 and 3. Leo is directly behind Kim, so Kim is 2nd and Leo is 3rd.",
+      "topic": "Logical Reasoning"
+    },
+    {
+      "id": "edt-y6nr1-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "Which TWO statements together most strongly show that: THE MOVIE HAS ALREADY STARTED.  1: The movie was scheduled to start at 7:00 pm.  2: The cinema has ten screens.  3: It is now 7:15 pm.  4: Tickets cost $14 each.  5: The movie runs for two hours.",
+      "options": [
+        { "label": "A", "text": "2 & 4" },
+        { "label": "B", "text": "1 & 3" },
+        { "label": "C", "text": "3 & 5" },
+        { "label": "D", "text": "1 & 5" },
+        { "label": "E", "text": "2 & 5" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Statement 1 gives the start time as 7:00 pm and statement 3 says it is now 7:15 pm — later than the start time — so the movie has already started.",
+      "topic": "Logical Reasoning"
+    }
+  ]
+}

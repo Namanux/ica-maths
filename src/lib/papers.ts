@@ -17,6 +17,8 @@ import edutestY5Maths1 from "@/data/papers/edutest-y5-maths-1.json";
 import edutestY5Numerical1 from "@/data/papers/edutest-y5-numerical-1.json";
 import edutestY5Verbal1 from "@/data/papers/edutest-y5-verbal-1.json";
 import edutestY5Reading1 from "@/data/papers/edutest-y5-reading-1.json";
+import edutestY6Verbal1 from "@/data/papers/edutest-y6-verbal-1.json";
+import edutestY6Numerical1 from "@/data/papers/edutest-y6-numerical-1.json";
 import selectiveReadingPt1 from "@/data/papers/selective-reading-pt1.json";
 import selectiveReadingPt2 from "@/data/papers/selective-reading-pt2.json";
 import selectiveReadingPt3 from "@/data/papers/selective-reading-pt3.json";
@@ -63,6 +65,8 @@ const papers: Paper[] = [
   edutestY5Numerical1 as Paper,
   edutestY5Verbal1 as Paper,
   edutestY5Reading1 as Paper,
+  edutestY6Verbal1 as Paper,
+  edutestY6Numerical1 as Paper,
   icas2010EnglishPaperC as Paper,
   icas2018EnglishPaperC as Paper,
   icas2017EnglishPaperC as Paper,
@@ -90,7 +94,7 @@ export function paperExam(paper: Pick<Paper, "exam">): string {
  * `icas/<yearLevel>/<subject>` rather than plain `icas`.
  */
 export function examHomeSlug(
-  paper: Pick<Paper, "exam" | "component" | "subject">
+  paper: Pick<Paper, "exam" | "component" | "subject" | "yearLevel">
 ): string {
   const exam = paperExam(paper);
   if (exam === "selective-test") {
@@ -100,7 +104,7 @@ export function examHomeSlug(
     return `icas/year5/${icasSubjectSlug(paper)}`;
   }
   if (exam === "edutest") {
-    return `edutest/year5/${edutestSubjectSlug(paper)}`;
+    return `edutest/year${paper.yearLevel}/${edutestSubjectSlug(paper)}`;
   }
   return exam;
 }
@@ -142,11 +146,20 @@ export function edutestSubjectSlug(paper: Pick<Paper, "subject">): string {
   return EDUTEST_SUBJECT_SLUGS[paper.subject] ?? "maths";
 }
 
-/** EduTest papers for one subject slug ("maths", "verbal-reasoning", …). */
-export function getEdutestPapers(subjectSlug: string): PaperSummary[] {
+/**
+ * EduTest papers for one year level (5, 6, …) and subject slug ("maths",
+ * "verbal-reasoning", …).
+ */
+export function getEdutestPapers(
+  yearLevel: number,
+  subjectSlug: string
+): PaperSummary[] {
   return papers
     .filter(
-      (p) => paperExam(p) === "edutest" && edutestSubjectSlug(p) === subjectSlug
+      (p) =>
+        paperExam(p) === "edutest" &&
+        p.yearLevel === yearLevel &&
+        edutestSubjectSlug(p) === subjectSlug
     )
     .map(toSummary);
 }

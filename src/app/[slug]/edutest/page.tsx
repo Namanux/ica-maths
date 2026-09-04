@@ -9,6 +9,12 @@ const YEAR_LEVELS = [
     description: "EduTest-style practice papers for Year 5 students.",
     available: true,
   },
+  {
+    slug: "year6",
+    name: "Year 6",
+    description: "EduTest-style practice papers for Year 6 students.",
+    available: true,
+  },
 ];
 
 export default async function EduTestHome({
