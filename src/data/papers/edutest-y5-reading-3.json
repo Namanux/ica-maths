@@ -1,0 +1,307 @@
+{
+  "id": "edutest-y5-reading-3",
+  "exam": "edutest",
+  "subject": "Reading Comprehension",
+  "yearLevel": 5,
+  "paperCode": "Y5-Reading-Original set3",
+  "title": "Y5-Reading-Original set3",
+  "year": 2026,
+  "timeLimitMinutes": 25,
+  "questions": [
+    {
+      "id": "edt-y5rc3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Select the option which will best replace the words underlined in the sentence to make it correct.\n\nI has been elect as the class captain.",
+      "options": [
+        { "label": "A", "text": "have been elect" },
+        { "label": "B", "text": "have been electing" },
+        { "label": "C", "text": "has been elected" },
+        { "label": "D", "text": "have been elected" },
+        { "label": "E", "text": "am the best choice" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "\"I has\" must become \"I have\", and \"elect\" must become \"elected\": \"I have been elected as the class captain.\"",
+      "topic": "Grammar & Usage"
+    },
+    {
+      "id": "edt-y5rc3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Select the option which will best replace the words underlined in the sentence to make it correct.\n\nThe factory is were the manufacture take place.",
+      "options": [
+        { "label": "A", "text": "were the manufacturing takes" },
+        { "label": "B", "text": "where the manufacturing takes" },
+        { "label": "C", "text": "where the manufacturing take" },
+        { "label": "D", "text": "were the manufacture takes" },
+        { "label": "E", "text": "wear the manufacturing takes" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Were\" should be \"where\", and in the present tense \"manufacture take\" becomes \"manufacturing takes\".",
+      "topic": "Grammar & Usage"
+    },
+    {
+      "id": "edt-y5rc3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Select the option which will best replace the words underlined in the sentence to make it correct.\n\nShane have to started walking so he doesn't miss the bus.",
+      "options": [
+        { "label": "A", "text": "has to start walking" },
+        { "label": "B", "text": "have to starting walk" },
+        { "label": "C", "text": "having to start to work" },
+        { "label": "D", "text": "has to started walking" },
+        { "label": "E", "text": "has walked" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\"Have to started\" should be \"has to start\".",
+      "topic": "Grammar & Usage"
+    },
+    {
+      "id": "edt-y5rc3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Select the option which will best replace the words underlined in the sentence to make it correct.\n\nWhat's happen after this?",
+      "options": [
+        { "label": "A", "text": "What's happened" },
+        { "label": "B", "text": "What happened" },
+        { "label": "C", "text": "What's happening" },
+        { "label": "D", "text": "What happening" },
+        { "label": "E", "text": "Watts happening" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "\"What's happen\" should be \"What's happening\".",
+      "topic": "Grammar & Usage"
+    },
+    {
+      "id": "edt-y5rc3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Read the following sentence.\n\nBrian had to switch the lights off before going to bed.\n\nIf we change the start of the sentence to:\nBefore going to bed...\n\nWhat will the best ending to this new sentence be, so it still means the same thing?",
+      "options": [
+        { "label": "A", "text": "Brian had to turn the lights down." },
+        { "label": "B", "text": "Brian had to switch the lights off." },
+        { "label": "C", "text": "Brian made the room dark." },
+        { "label": "D", "text": "Brian had to turn the lights on." },
+        { "label": "E", "text": "Brian drew the curtains." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Before going to bed, Brian had to switch the lights off\" has the same meaning as the original sentence.",
+      "topic": "Sentence Structure"
+    },
+    {
+      "id": "edt-y5rc3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Read the following sentence.\n\nThe horses lined up at the gate before the race.\n\nIf we change the start of the sentence to:\nBefore the race...\n\nWhat will the best ending to this new sentence be, so it still means the same thing?",
+      "options": [
+        { "label": "A", "text": "the horses lined up at the gate." },
+        { "label": "B", "text": "the horses jumped the gate." },
+        { "label": "C", "text": "the horses started to race." },
+        { "label": "D", "text": "the gate opened for the horses." },
+        { "label": "E", "text": "the horses stormed the gate." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\"Before the race, the horses lined up at the gate\" has the same meaning as the original sentence.",
+      "topic": "Sentence Structure"
+    },
+    {
+      "id": "edt-y5rc3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Read the following sentence.\n\nAt the end of the day, he was the leader of the group.\n\nIf we change the start of the sentence to:\nHe was the leader of the group...\n\nWhat will the best ending to this new sentence be, so it still means the same thing?",
+      "options": [
+        { "label": "A", "text": "because he was voted in." },
+        { "label": "B", "text": "as he was very popular." },
+        { "label": "C", "text": "after demonstrating he was the best at everything during the day." },
+        { "label": "D", "text": "by the end of the day." },
+        { "label": "E", "text": "because everyone else had left." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "\"He was the leader of the group by the end of the day\" has the same meaning as the original sentence.",
+      "topic": "Sentence Structure"
+    },
+    {
+      "id": "edt-y5rc3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Read the following sentence.\n\nThe wheels spun as he sped down the street.\n\nIf we change the start of the sentence to:\nAs he sped down the street...\n\nWhat will the best ending to this new sentence be, so it still means the same thing?",
+      "options": [
+        { "label": "A", "text": "he drove quickly." },
+        { "label": "B", "text": "he spun the steering wheel." },
+        { "label": "C", "text": "he spun the car." },
+        { "label": "D", "text": "the car was out of control." },
+        { "label": "E", "text": "none of these" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "To keep the same meaning the ending would have to be \"the wheels spun\". That is not an option, so the answer is \"none of these\".",
+      "topic": "Sentence Structure"
+    },
+    {
+      "id": "edt-y5rc3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Joel had an altercation with the waiter at the restaurant.\n\nThe word altercation in this sentence means:",
+      "options": [
+        { "label": "A", "text": "drink" },
+        { "label": "B", "text": "laugh" },
+        { "label": "C", "text": "conversation" },
+        { "label": "D", "text": "argument" },
+        { "label": "E", "text": "alternation" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Both \"altercation\" and \"argument\" mean a disagreement or fight with someone.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "edt-y5rc3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "The teacher told Greg's parents that he excelled in Mathematics.\n\nThe word excelled in this sentence means:",
+      "options": [
+        { "label": "A", "text": "did extremely well." },
+        { "label": "B", "text": "did extremely poorly." },
+        { "label": "C", "text": "did average." },
+        { "label": "D", "text": "did the best." },
+        { "label": "E", "text": "was excused." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "\"Excelled\" means to do extremely well.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "edt-y5rc3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Before we were allowed into the museum, we had to put our belongings in an x-ray machine and were patted down by a security officer.\n\nWhat can you infer from this sentence?",
+      "options": [
+        { "label": "A", "text": "It takes a long time to get into the museum." },
+        { "label": "B", "text": "Every museum has an x-ray machine." },
+        { "label": "C", "text": "Security is taken very seriously at the museum." },
+        { "label": "D", "text": "The security guards at the museum do a good job." },
+        { "label": "E", "text": "Having x-rays taken is fun." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The bag scan and the pat-down together show that the museum takes security very seriously.",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y5rc3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "passage": "Before being able to play professional golf, a golfer must get a tour card, of which there are a limited number. Once you have a tour card, you have to play well all year to stay on the professional tour. Many players, when they get to play professionally, do poorly due to the pressure associated with tour golf.",
+      "prompt": "What is the main theme in this paragraph?",
+      "options": [
+        { "label": "A", "text": "There are many professional golfers." },
+        { "label": "B", "text": "Golf is an easy sport to play." },
+        { "label": "C", "text": "Almost anyone can get a tour card." },
+        { "label": "D", "text": "Playing professional golf can be very difficult." },
+        { "label": "E", "text": "Golfers must wear strange trousers." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The paragraph describes limited tour cards, the need to play well all year, and the pressure of tour golf — all pointing to how difficult professional golf is.",
+      "topic": "Main Idea & Purpose"
+    },
+    {
+      "id": "edt-y5rc3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "passage": "As part of a school assignment, all the students in Jeff's class were required to volunteer at the local retirement village. Jeff disliked the idea and thought it unfair that the school was forcing him to do community service. \"You never know,\" Jeff's mum said to him, \"You might have fun!\" Jeff seriously doubted there would be any fun involved.\n\nOn arriving at the retirement home, each student was assigned to a retiree to talk with. Every so often, they would rotate to a new person. The first person Jeff was assigned to was an eighty-six-year-old man whose name was Fletcher. Fletcher seemed nice, but Jeff didn't know what to say to him. The only elderly person he had met before this was his grandfather!\n\n\"So, what did you do before you moved here?\" Jeff quietly asked, as he glanced around the room.\n\n\"Well I have done many things in my life,\" said Fletcher. \"When I was a young lad, I lived in England with my parents. I used to have great fun knocking around with the local boys, kicking the football after school, and would often get into mischief. When my father was offered a job in Australia, we packed up our things and boarded a boat for the great southern land.\" Jeff guessed that catching a boat to Australia would take much longer than flying and wondered what it might have been like before aeroplanes.\n\nFletcher continued, \"When I was a teenager, not much older than you, I was enlisted to join the Army and was sent overseas to fight in the war for my country. I lost many of my friends there. When I got back, I was awarded a Purple Heart. Do you know what that is Jeff?\" \"No, I don't,\" Jeff replied. Fletcher motioned him to follow. \"I'll show you,\" he said. Fletcher opened a small chest sitting on the table and inside was a glimmering star with Fletcher's name inscribed, with the words, \"For courage and bravery in battle.\" Jeff was amazed at the full life that Fletcher had led, and at this point in the story he was still a teenager!\n\n\"Anyway, after I left the army, I became a carpenter and began working on the old buildings you often see scattered throughout the city. I got married and had two children. Then, after I retired, I drove a caravan all around Australia for three years.\" Jeff thought about how fun a three-year holiday would be and hoped he could do the same one day.\n\nSoon after their conversation, Jeff's teacher knocked on the door explaining to him that it was time to go. Jeff said goodbye to Fletcher and asked him if he could visit again. \"Anytime you like,\" Fletcher replied. When he arrived home, Jeff explained to his mother all about his eventful day and all the exciting things Fletcher had told him about his life. \"Sounds like you had fun,\" his mother said. \"Yes, I did. You were right, it was fun,\" agreed Jeff. Jeff continued to visit Fletcher each month, and both became good friends.",
+      "prompt": "What is the main theme of this text?",
+      "options": [
+        { "label": "A", "text": "to demonstrate the importance of community service" },
+        { "label": "B", "text": "to demonstrate the value of the elderly" },
+        { "label": "C", "text": "to demonstrate how those of different ages can get along and have fun together" },
+        { "label": "D", "text": "to encourage more students to take part in community service" },
+        { "label": "E", "text": "that people used to live more eventful lives than they do now" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The story is about a reluctant teenager and an elderly man becoming friends and enjoying each other's company, so option C best captures the overall theme.",
+      "topic": "Main Idea & Purpose"
+    },
+    {
+      "id": "edt-y5rc3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "passage": "As part of a school assignment, all the students in Jeff's class were required to volunteer at the local retirement village. Jeff disliked the idea and thought it unfair that the school was forcing him to do community service. \"You never know,\" Jeff's mum said to him, \"You might have fun!\" Jeff seriously doubted there would be any fun involved.\n\nOn arriving at the retirement home, each student was assigned to a retiree to talk with. Every so often, they would rotate to a new person. The first person Jeff was assigned to was an eighty-six-year-old man whose name was Fletcher. Fletcher seemed nice, but Jeff didn't know what to say to him. The only elderly person he had met before this was his grandfather!\n\n\"So, what did you do before you moved here?\" Jeff quietly asked, as he glanced around the room.\n\n\"Well I have done many things in my life,\" said Fletcher. \"When I was a young lad, I lived in England with my parents. I used to have great fun knocking around with the local boys, kicking the football after school, and would often get into mischief. When my father was offered a job in Australia, we packed up our things and boarded a boat for the great southern land.\" Jeff guessed that catching a boat to Australia would take much longer than flying and wondered what it might have been like before aeroplanes.\n\nFletcher continued, \"When I was a teenager, not much older than you, I was enlisted to join the Army and was sent overseas to fight in the war for my country. I lost many of my friends there. When I got back, I was awarded a Purple Heart. Do you know what that is Jeff?\" \"No, I don't,\" Jeff replied. Fletcher motioned him to follow. \"I'll show you,\" he said. Fletcher opened a small chest sitting on the table and inside was a glimmering star with Fletcher's name inscribed, with the words, \"For courage and bravery in battle.\" Jeff was amazed at the full life that Fletcher had led, and at this point in the story he was still a teenager!\n\n\"Anyway, after I left the army, I became a carpenter and began working on the old buildings you often see scattered throughout the city. I got married and had two children. Then, after I retired, I drove a caravan all around Australia for three years.\" Jeff thought about how fun a three-year holiday would be and hoped he could do the same one day.\n\nSoon after their conversation, Jeff's teacher knocked on the door explaining to him that it was time to go. Jeff said goodbye to Fletcher and asked him if he could visit again. \"Anytime you like,\" Fletcher replied. When he arrived home, Jeff explained to his mother all about his eventful day and all the exciting things Fletcher had told him about his life. \"Sounds like you had fun,\" his mother said. \"Yes, I did. You were right, it was fun,\" agreed Jeff. Jeff continued to visit Fletcher each month, and both became good friends.",
+      "prompt": "In this text, what is a Purple Heart?",
+      "options": [
+        { "label": "A", "text": "a medal for courage and bravery" },
+        { "label": "B", "text": "a medal for war veterans" },
+        { "label": "C", "text": "a novel" },
+        { "label": "D", "text": "an old person's heart" },
+        { "label": "E", "text": "a heart that has been deprived of oxygen." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The medal is inscribed \"For courage and bravery in battle\", and Fletcher was awarded it on returning from the war.",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "edt-y5rc3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "passage": "As part of a school assignment, all the students in Jeff's class were required to volunteer at the local retirement village. Jeff disliked the idea and thought it unfair that the school was forcing him to do community service. \"You never know,\" Jeff's mum said to him, \"You might have fun!\" Jeff seriously doubted there would be any fun involved.\n\nOn arriving at the retirement home, each student was assigned to a retiree to talk with. Every so often, they would rotate to a new person. The first person Jeff was assigned to was an eighty-six-year-old man whose name was Fletcher. Fletcher seemed nice, but Jeff didn't know what to say to him. The only elderly person he had met before this was his grandfather!\n\n\"So, what did you do before you moved here?\" Jeff quietly asked, as he glanced around the room.\n\n\"Well I have done many things in my life,\" said Fletcher. \"When I was a young lad, I lived in England with my parents. I used to have great fun knocking around with the local boys, kicking the football after school, and would often get into mischief. When my father was offered a job in Australia, we packed up our things and boarded a boat for the great southern land.\" Jeff guessed that catching a boat to Australia would take much longer than flying and wondered what it might have been like before aeroplanes.\n\nFletcher continued, \"When I was a teenager, not much older than you, I was enlisted to join the Army and was sent overseas to fight in the war for my country. I lost many of my friends there. When I got back, I was awarded a Purple Heart. Do you know what that is Jeff?\" \"No, I don't,\" Jeff replied. Fletcher motioned him to follow. \"I'll show you,\" he said. Fletcher opened a small chest sitting on the table and inside was a glimmering star with Fletcher's name inscribed, with the words, \"For courage and bravery in battle.\" Jeff was amazed at the full life that Fletcher had led, and at this point in the story he was still a teenager!\n\n\"Anyway, after I left the army, I became a carpenter and began working on the old buildings you often see scattered throughout the city. I got married and had two children. Then, after I retired, I drove a caravan all around Australia for three years.\" Jeff thought about how fun a three-year holiday would be and hoped he could do the same one day.\n\nSoon after their conversation, Jeff's teacher knocked on the door explaining to him that it was time to go. Jeff said goodbye to Fletcher and asked him if he could visit again. \"Anytime you like,\" Fletcher replied. When he arrived home, Jeff explained to his mother all about his eventful day and all the exciting things Fletcher had told him about his life. \"Sounds like you had fun,\" his mother said. \"Yes, I did. You were right, it was fun,\" agreed Jeff. Jeff continued to visit Fletcher each month, and both became good friends.",
+      "prompt": "The young person in this story:",
+      "options": [
+        { "label": "A", "text": "initially didn't like the idea of doing community service." },
+        { "label": "B", "text": "had done some work experience before." },
+        { "label": "C", "text": "regularly did community service." },
+        { "label": "D", "text": "chose to volunteer at the local retirement village." },
+        { "label": "E", "text": "was friends with Fletcher before he started community service." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "At the start of the text Jeff disliked the idea and thought it unfair that the school was forcing him to do community service.",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "edt-y5rc3-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "As part of a school assignment, all the students in Jeff's class were required to volunteer at the local retirement village. Jeff disliked the idea and thought it unfair that the school was forcing him to do community service. \"You never know,\" Jeff's mum said to him, \"You might have fun!\" Jeff seriously doubted there would be any fun involved.\n\nOn arriving at the retirement home, each student was assigned to a retiree to talk with. Every so often, they would rotate to a new person. The first person Jeff was assigned to was an eighty-six-year-old man whose name was Fletcher. Fletcher seemed nice, but Jeff didn't know what to say to him. The only elderly person he had met before this was his grandfather!\n\n\"So, what did you do before you moved here?\" Jeff quietly asked, as he glanced around the room.\n\n\"Well I have done many things in my life,\" said Fletcher. \"When I was a young lad, I lived in England with my parents. I used to have great fun knocking around with the local boys, kicking the football after school, and would often get into mischief. When my father was offered a job in Australia, we packed up our things and boarded a boat for the great southern land.\" Jeff guessed that catching a boat to Australia would take much longer than flying and wondered what it might have been like before aeroplanes.\n\nFletcher continued, \"When I was a teenager, not much older than you, I was enlisted to join the Army and was sent overseas to fight in the war for my country. I lost many of my friends there. When I got back, I was awarded a Purple Heart. Do you know what that is Jeff?\" \"No, I don't,\" Jeff replied. Fletcher motioned him to follow. \"I'll show you,\" he said. Fletcher opened a small chest sitting on the table and inside was a glimmering star with Fletcher's name inscribed, with the words, \"For courage and bravery in battle.\" Jeff was amazed at the full life that Fletcher had led, and at this point in the story he was still a teenager!\n\n\"Anyway, after I left the army, I became a carpenter and began working on the old buildings you often see scattered throughout the city. I got married and had two children. Then, after I retired, I drove a caravan all around Australia for three years.\" Jeff thought about how fun a three-year holiday would be and hoped he could do the same one day.\n\nSoon after their conversation, Jeff's teacher knocked on the door explaining to him that it was time to go. Jeff said goodbye to Fletcher and asked him if he could visit again. \"Anytime you like,\" Fletcher replied. When he arrived home, Jeff explained to his mother all about his eventful day and all the exciting things Fletcher had told him about his life. \"Sounds like you had fun,\" his mother said. \"Yes, I did. You were right, it was fun,\" agreed Jeff. Jeff continued to visit Fletcher each month, and both became good friends.",
+      "prompt": "At the end of the text, Jeff's attitude towards his visit to the retirement village was:",
+      "options": [
+        { "label": "A", "text": "unchanged, as he still couldn't see why he had to do community service there." },
+        { "label": "B", "text": "one of disappointment." },
+        { "label": "C", "text": "positive, as he had met several famous people." },
+        { "label": "D", "text": "different, as he had met a new friend who had many great stories." },
+        { "label": "E", "text": "arrogant, as he felt like he was doing the old people a favour by visiting." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "By the end Jeff agrees the visit was fun and keeps returning each month to visit Fletcher, so his attitude has changed.",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y5rc3-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Peter and his friend Billy were on their way home from school when they decided to kick the football in the park. Peter called his mother and told her he had been held back after class so wouldn't be home until dinnertime. He did this because he knew she wouldn't let him go to the park before he had finished his homework. When Peter's mother came to pick him up, he wasn't there so she began to worry. When she finally found him playing in the park, she became grumpy with him, grounding him for two weeks. She told Peter that if he had asked, she would have let him go to the park after school after all.",
+      "prompt": "The main theme of this paragraph is:",
+      "options": [
+        { "label": "A", "text": "if you are caught telling lies, there will be positive consequences." },
+        { "label": "B", "text": "if you are caught telling lies, there will be negative consequences." },
+        { "label": "C", "text": "telling lies to parents is a rite of passage." },
+        { "label": "D", "text": "parents should be more lenient with their children." },
+        { "label": "E", "text": "parents lie to their children frequently." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Peter lied, was found out, and was grounded for two weeks — a negative consequence of lying.",
+      "topic": "Main Idea & Purpose"
+    },
+    {
+      "id": "edt-y5rc3-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Peter and his friend Billy were on their way home from school when they decided to kick the football in the park. Peter called his mother and told her he had been held back after class so wouldn't be home until dinnertime. He did this because he knew she wouldn't let him go to the park before he had finished his homework. When Peter's mother came to pick him up, he wasn't there so she began to worry. When she finally found him playing in the park, she became grumpy with him, grounding him for two weeks. She told Peter that if he had asked, she would have let him go to the park after school after all.",
+      "prompt": "What does the paragraph teach us?",
+      "options": [
+        { "label": "A", "text": "Lying is powerful in certain situations." },
+        { "label": "B", "text": "Honesty is the best policy." },
+        { "label": "C", "text": "All children should be allowed to play in the park after school." },
+        { "label": "D", "text": "Hindsight is helpful for the future." },
+        { "label": "E", "text": "Lies have their place if it means you get what you want." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If Peter had simply asked, his mother would have said yes and he would not have been grounded, so honesty would have given the best outcome.",
+      "topic": "Main Idea & Purpose"
+    }
+  ]
+}

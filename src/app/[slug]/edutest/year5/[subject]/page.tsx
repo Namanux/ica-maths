@@ -32,7 +32,12 @@ export default async function EduTestYear5Subject({
 
       <PaperListLinks papers={papers} slug={slug} />
 
-      <PerformancePanel profileSlug={slug} exam="edutest" paperId={papers[0].id} />
+      <PerformancePanel
+        profileSlug={slug}
+        exam="edutest"
+        subject={subjectName}
+        yearLevel={5}
+      />
 
       <Link
         href={`/${slug}/edutest/year5`}

@@ -1,0 +1,332 @@
+{
+  "id": "edutest-y4-verbal-3",
+  "exam": "edutest",
+  "subject": "Verbal Reasoning",
+  "yearLevel": 4,
+  "paperCode": "Y4-Verbal-Original set3",
+  "title": "Y4-Verbal-Original set3",
+  "year": 2026,
+  "timeLimitMinutes": 18,
+  "questions": [
+    {
+      "id": "edt-y4vr3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "SUN is to DAY as MOON is to:",
+      "options": [
+        { "label": "A", "text": "stars" },
+        { "label": "B", "text": "sky" },
+        { "label": "C", "text": "night" },
+        { "label": "D", "text": "Mars" },
+        { "label": "E", "text": "dark" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The sun is in the sky during the day; the moon is in the sky during the night.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y4vr3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Which of the following words is most similar to LARGE?",
+      "options": [
+        { "label": "A", "text": "small" },
+        { "label": "B", "text": "everlasting" },
+        { "label": "C", "text": "short" },
+        { "label": "D", "text": "huge" },
+        { "label": "E", "text": "tiny" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Both \"large\" and \"huge\" mean something that is big.",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y4vr3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "COOL means:",
+      "options": [
+        { "label": "A", "text": "ice cream" },
+        { "label": "B", "text": "hot" },
+        { "label": "C", "text": "cold" },
+        { "label": "D", "text": "warm" },
+        { "label": "E", "text": "sweet" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Both \"cool\" and \"cold\" describe something at a lower temperature. Ice cream is cold, but the word does not have the same meaning as \"cool\".",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y4vr3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Which TWO statements together most strongly suggest that:\nTHE SKY IS BLUE.\nA. The sky is not pink.\nB. The sky is the same colour as Julie's top.\nC. There are white clouds in the sky.\nD. Julie's top is blue.\nE. Julie sometimes wears blue tops.",
+      "options": [
+        { "label": "A", "text": "A & E" },
+        { "label": "B", "text": "B & D" },
+        { "label": "C", "text": "A & B" },
+        { "label": "D", "text": "C & D" },
+        { "label": "E", "text": "B & E" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "If the sky is the same colour as Julie's top (B), and Julie's top is blue (D), then the sky must be blue.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y4vr3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Four of the following words are alike in some way. Which of the following words is the odd one out?",
+      "options": [
+        { "label": "A", "text": "triangle" },
+        { "label": "B", "text": "circle" },
+        { "label": "C", "text": "square" },
+        { "label": "D", "text": "oval" },
+        { "label": "E", "text": "curved" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Triangle, circle, square and oval are all shapes. \"Curved\" merely describes a possible feature of a shape.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y4vr3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "HOOF is to HORSE as TROTTER is to:",
+      "options": [
+        { "label": "A", "text": "fish" },
+        { "label": "B", "text": "pig" },
+        { "label": "C", "text": "dog" },
+        { "label": "D", "text": "foot" },
+        { "label": "E", "text": "butterfly" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A horse has a hoof; a pig has a trotter.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y4vr3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Jill is running a race with Bob and Jennifer. Jennifer finishes before Bob but after Jill.\nWho won the race?",
+      "options": [
+        { "label": "A", "text": "Jill" },
+        { "label": "B", "text": "Bob" },
+        { "label": "C", "text": "Jennifer" },
+        { "label": "D", "text": "Bob & Jill" },
+        { "label": "E", "text": "none of these" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The order from first to last is Jill, Jennifer, Bob, so Jill won.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y4vr3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Yellow flowers can only grow when there are also blue flowers. Red flowers can't grow with yellow flowers, but they can grow with blue flowers. Green flowers grow everywhere.\nWhich of the following flowers will grow if planted together?",
+      "options": [
+        { "label": "A", "text": "yellow & green" },
+        { "label": "B", "text": "blue & red" },
+        { "label": "C", "text": "red, yellow & blue" },
+        { "label": "D", "text": "yellow & red" },
+        { "label": "E", "text": "none of these" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Yellow needs blue, so \"yellow & green\" (A) fails. Red and yellow can't grow together, so C and D fail. Blue & red is allowed.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y4vr3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Four of the following words go together in some way. Which of the following words is the odd one out?",
+      "options": [
+        { "label": "A", "text": "Autumn" },
+        { "label": "B", "text": "Christmas" },
+        { "label": "C", "text": "Spring" },
+        { "label": "D", "text": "Winter" },
+        { "label": "E", "text": "Summer" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Autumn, Spring, Winter and Summer are seasons. Christmas is not, so it is the odd one out.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y4vr3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "TEACHER is to SCHOOL as DOCTOR is to:",
+      "options": [
+        { "label": "A", "text": "nurse" },
+        { "label": "B", "text": "smart" },
+        { "label": "C", "text": "disease" },
+        { "label": "D", "text": "hospital" },
+        { "label": "E", "text": "medicine" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A teacher works at a school; a doctor works at a hospital.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y4vr3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Which of the following words is opposite to QUIET?",
+      "options": [
+        { "label": "A", "text": "library" },
+        { "label": "B", "text": "noisy" },
+        { "label": "C", "text": "cheers" },
+        { "label": "D", "text": "whisper" },
+        { "label": "E", "text": "conflagrate" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Quiet\" means free from noise, so its opposite is \"noisy\".",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y4vr3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Which TWO statements together most strongly suggest that:\nZOE AND BELINDA ARE SISTERS.\nA. Zoe has one sister, as well as one brother called Thomas.\nB. Zoe is the middle child.\nC. Thomas has two sisters called Zoe and Belinda.\nD. Thomas has the same parents as Zoe.\nE. Thomas, Zoe and Belinda live in the same house.",
+      "options": [
+        { "label": "A", "text": "A & E" },
+        { "label": "B", "text": "B & D" },
+        { "label": "C", "text": "A & C" },
+        { "label": "D", "text": "D & E" },
+        { "label": "E", "text": "A & D" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "If Zoe has one sister and one brother called Thomas (A), and Thomas has two sisters called Zoe and Belinda (C), then Belinda must be Zoe's sister.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y4vr3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "The yellow ball is bigger than the red ball, but smaller than the blue ball. The green ball is the same size as the blue ball.\nWhich is the smallest ball?",
+      "options": [
+        { "label": "A", "text": "green & blue" },
+        { "label": "B", "text": "blue" },
+        { "label": "C", "text": "red" },
+        { "label": "D", "text": "yellow" },
+        { "label": "E", "text": "none of these" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "From largest to smallest: blue and green (equal), then yellow, then red. Red is the smallest.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y4vr3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Rebecca received four presents for her birthday. The blue present was bigger than the green and purple presents. The red present was bigger than the blue present.\nWhat colour was the biggest present?",
+      "options": [
+        { "label": "A", "text": "purple" },
+        { "label": "B", "text": "red" },
+        { "label": "C", "text": "blue" },
+        { "label": "D", "text": "green" },
+        { "label": "E", "text": "none of these" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The red present is bigger than the blue present, which is bigger than the green and purple presents, so red is the biggest.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y4vr3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "READ is to BOOK as DRIVE is to:",
+      "options": [
+        { "label": "A", "text": "car" },
+        { "label": "B", "text": "bike" },
+        { "label": "C", "text": "roller skates" },
+        { "label": "D", "text": "skateboard" },
+        { "label": "E", "text": "none of these" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Reading is the action you do with a book; driving is the action you do with a car.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y4vr3-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Joey is taller than Vincent. Kelly is shorter than Joey but taller than Vincent.\nWho is in the middle in terms of height?",
+      "options": [
+        { "label": "A", "text": "Joey" },
+        { "label": "B", "text": "Kelly & Vincent" },
+        { "label": "C", "text": "Kelly" },
+        { "label": "D", "text": "Vincent" },
+        { "label": "E", "text": "none of these" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "From tallest to shortest: Joey, Kelly, Vincent. Kelly is in the middle.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y4vr3-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Four of the following words go together in some way. Which of the following words is the odd one out?",
+      "options": [
+        { "label": "A", "text": "cruel" },
+        { "label": "B", "text": "awful" },
+        { "label": "C", "text": "evil" },
+        { "label": "D", "text": "nice" },
+        { "label": "E", "text": "wicked" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Cruel, awful, evil and wicked all describe negative behaviour. \"Nice\" is positive, so it is the odd one out.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y4vr3-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "Which TWO statements together most strongly suggest that:\nGREG'S FAVOURITE COLOUR IS RED.\nA. Greg wears a red shirt.\nB. Greg does not like blue.\nC. Greg only wears shirts in his favourite colour.\nD. Greg's favourite colour is the same as David's.\nE. David likes wearing red.",
+      "options": [
+        { "label": "A", "text": "A & E" },
+        { "label": "B", "text": "B & D" },
+        { "label": "C", "text": "A & B" },
+        { "label": "D", "text": "D & E" },
+        { "label": "E", "text": "A & C" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "If Greg wears a red shirt (A) and only wears shirts in his favourite colour (C), then his favourite colour must be red.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y4vr3-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Which of the following is another word for FAST?",
+      "options": [
+        { "label": "A", "text": "slow" },
+        { "label": "B", "text": "car" },
+        { "label": "C", "text": "quick" },
+        { "label": "D", "text": "rocket" },
+        { "label": "E", "text": "ferrari" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Both \"fast\" and \"quick\" mean moving at a rapid pace.",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y4vr3-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "GREEN is to GRASS as BLUE is to:",
+      "options": [
+        { "label": "A", "text": "sand" },
+        { "label": "B", "text": "colour" },
+        { "label": "C", "text": "sky" },
+        { "label": "D", "text": "garden" },
+        { "label": "E", "text": "hair" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Green is the colour of grass; blue is the colour of the sky.",
+      "topic": "Analogies"
+    }
+  ]
+}

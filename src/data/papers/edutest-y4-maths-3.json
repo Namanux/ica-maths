@@ -1,0 +1,304 @@
+{
+  "id": "edutest-y4-maths-3",
+  "exam": "edutest",
+  "subject": "Mathematics",
+  "yearLevel": 4,
+  "paperCode": "Y4-Maths-Original set3",
+  "title": "Y4-Maths-Original set3",
+  "year": 2026,
+  "timeLimitMinutes": 20,
+  "questions": [
+    {
+      "id": "edt-y4m3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Which is the largest number?",
+      "options": [
+        { "label": "A", "text": "256" },
+        { "label": "B", "text": "199" },
+        { "label": "C", "text": "332" },
+        { "label": "D", "text": "278" },
+        { "label": "E", "text": "325" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "199 < 256 < 278 < 325 < 332, so 332 is the largest.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Which is the smallest odd number?",
+      "options": [
+        { "label": "A", "text": "122" },
+        { "label": "B", "text": "157" },
+        { "label": "C", "text": "136" },
+        { "label": "D", "text": "133" },
+        { "label": "E", "text": "145" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "122 and 136 are even. Of the odd numbers, 133 < 145 < 157, so 133 is the smallest.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "How many whole hundreds in the number 4060?",
+      "options": [
+        { "label": "A", "text": "40" },
+        { "label": "B", "text": "400" },
+        { "label": "C", "text": "406" },
+        { "label": "D", "text": "4060" },
+        { "label": "E", "text": "60" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "40 whole hundreds make 4000. The remaining 60 is not a whole hundred, so there are 40.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "How many tens in the number 2520?",
+      "options": [
+        { "label": "A", "text": "25" },
+        { "label": "B", "text": "250" },
+        { "label": "C", "text": "2520" },
+        { "label": "D", "text": "200" },
+        { "label": "E", "text": "252" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "2520 = 252 × 10, so there are 252 tens in 2520.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Which number is 584 closest to?",
+      "options": [
+        { "label": "A", "text": "564" },
+        { "label": "B", "text": "600" },
+        { "label": "C", "text": "560" },
+        { "label": "D", "text": "642" },
+        { "label": "E", "text": "554" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "584 is 20 from 564, 16 from 600, 24 from 560, 58 from 642 and 30 from 554. It is closest to 600.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Which is the number that has 25 hundreds, 4 tens and 8 ones?",
+      "options": [
+        { "label": "A", "text": "258" },
+        { "label": "B", "text": "2540" },
+        { "label": "C", "text": "2548" },
+        { "label": "D", "text": "2508" },
+        { "label": "E", "text": "2541081" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "25 hundreds = 2500, 4 tens = 40, 8 ones = 8. 2500 + 40 + 8 = 2548.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "How many hundredths in 0.79?",
+      "options": [
+        { "label": "A", "text": "7" },
+        { "label": "B", "text": "90" },
+        { "label": "C", "text": "790" },
+        { "label": "D", "text": "79" },
+        { "label": "E", "text": "7.9" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "0.79 is 7 tenths and 9 hundredths. 7 tenths is 70 hundredths, so 0.79 is 79 hundredths.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "256 × 5 =",
+      "options": [
+        { "label": "A", "text": "1280" },
+        { "label": "B", "text": "1250" },
+        { "label": "C", "text": "2565" },
+        { "label": "D", "text": "1080" },
+        { "label": "E", "text": "2655" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "256 × 5 = 256 + 256 + 256 + 256 + 256 = 1280.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Which shape has the greatest area? (All squares are the same size.)",
+      "imageUrl": "/questions/edutest-y4-maths-3/q9.svg",
+      "options": [
+        { "label": "A", "text": "A" },
+        { "label": "B", "text": "B" },
+        { "label": "C", "text": "C" },
+        { "label": "D", "text": "D" },
+        { "label": "E", "text": "E" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Shape E is made up of the most squares, and every square is the same size, so E has the greatest area.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y4m3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "How many blocks are needed to build this solid?",
+      "imageUrl": "/questions/edutest-y4-maths-3/q10.svg",
+      "options": [
+        { "label": "A", "text": "16" },
+        { "label": "B", "text": "14" },
+        { "label": "C", "text": "12" },
+        { "label": "D", "text": "10" },
+        { "label": "E", "text": "8" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The back wall has 8 blocks (4 × 2), the middle row has 4 blocks and the front row has 2 blocks: 8 + 4 + 2 = 14.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y4m3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Which is the largest fraction?",
+      "options": [
+        { "label": "A", "text": "1/3" },
+        { "label": "B", "text": "1/4" },
+        { "label": "C", "text": "1/2" },
+        { "label": "D", "text": "1/5" },
+        { "label": "E", "text": "1/12" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The smaller the bottom number, the bigger the pieces: 1/12 < 1/5 < 1/4 < 1/3 < 1/2. So 1/2 is the largest.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Half of 1256 equals?",
+      "options": [
+        { "label": "A", "text": "628" },
+        { "label": "B", "text": "623" },
+        { "label": "C", "text": "633" },
+        { "label": "D", "text": "528" },
+        { "label": "E", "text": "624" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "1256 ÷ 2 = 628.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "How much change is given from $5.00 if $3.56 is spent?",
+      "options": [
+        { "label": "A", "text": "$2.44" },
+        { "label": "B", "text": "$1.44" },
+        { "label": "C", "text": "$1.54" },
+        { "label": "D", "text": "$2.54" },
+        { "label": "E", "text": "$0.44" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "$5.00 − $3.56 = $1.44.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "How many whole groups of 6 in 70?",
+      "options": [
+        { "label": "A", "text": "10" },
+        { "label": "B", "text": "13" },
+        { "label": "C", "text": "11" },
+        { "label": "D", "text": "12" },
+        { "label": "E", "text": "15" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "11 groups of 6 make 66, with 4 left over, so there are 11 whole groups of 6 in 70.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "How many minutes between the times on the clocks?",
+      "imageUrl": "/questions/edutest-y4-maths-3/q16.svg",
+      "options": [
+        { "label": "A", "text": "440" },
+        { "label": "B", "text": "390" },
+        { "label": "C", "text": "300" },
+        { "label": "D", "text": "355" },
+        { "label": "E", "text": "335" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The first clock shows 1:25 and the second shows 7:55. That is 6 hours and 30 minutes, which is 6 × 60 + 30 = 390 minutes.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y4m3-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "The table shows the number of different makes of cars that passed Jack's house in one hour.\nHow many cars passed Jack's house altogether?",
+      "imageUrl": "/questions/edutest-y4-maths-3/q18.svg",
+      "options": [
+        { "label": "A", "text": "10" },
+        { "label": "B", "text": "4" },
+        { "label": "C", "text": "27" },
+        { "label": "D", "text": "30" },
+        { "label": "E", "text": "none of these" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Adding the shaded squares for every make gives 8 + 7 + 6 + 5 + 4 = 30 cars.",
+      "topic": "Data & Statistics"
+    },
+    {
+      "id": "edt-y4m3-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "When half of 24 is added to 1/3 of 66, the answer is?",
+      "options": [
+        { "label": "A", "text": "32" },
+        { "label": "B", "text": "36" },
+        { "label": "C", "text": "22" },
+        { "label": "D", "text": "46" },
+        { "label": "E", "text": "34" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "24 ÷ 2 = 12 and 66 ÷ 3 = 22. 12 + 22 = 34.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y4m3-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "300 ÷ 2 × 3 =",
+      "options": [
+        { "label": "A", "text": "150" },
+        { "label": "B", "text": "450" },
+        { "label": "C", "text": "300" },
+        { "label": "D", "text": "50" },
+        { "label": "E", "text": "5" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Work left to right with division and multiplication: 300 ÷ 2 = 150, then 150 × 3 = 450.",
+      "topic": "Number"
+    }
+  ]
+}

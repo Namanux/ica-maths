@@ -1,0 +1,337 @@
+{
+  "id": "edutest-y4-reading-3",
+  "exam": "edutest",
+  "subject": "Reading Comprehension",
+  "yearLevel": 4,
+  "paperCode": "Y4-Reading-Original set3",
+  "title": "Y4-Reading-Original set3",
+  "year": 2026,
+  "timeLimitMinutes": 20,
+  "questions": [
+    {
+      "id": "edt-y4rc3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Select the option which will best replace the words underlined in the sentence to make it correct.\n\nMolly have two sisters.",
+      "options": [
+        { "label": "A", "text": "has two sister." },
+        { "label": "B", "text": "has two sisters." },
+        { "label": "C", "text": "haves two sister." },
+        { "label": "D", "text": "haves two sisters." },
+        { "label": "E", "text": "has too sister's." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "When someone else has something we use \"has\" instead of \"have\": \"Molly has two sisters.\"",
+      "topic": "Grammar & Usage"
+    },
+    {
+      "id": "edt-y4rc3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Select the option which will best replace the words underlined in the sentence to make it correct.\n\nI likes cricket much I could play it every day.",
+      "options": [
+        { "label": "A", "text": "like cricket so much" },
+        { "label": "B", "text": "like's cricket so much" },
+        { "label": "C", "text": "like cricket much" },
+        { "label": "D", "text": "likes cricket so much" },
+        { "label": "E", "text": "loves cricket so much" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "In the first person \"like\" has no \"s\", and to describe how strong a feeling is we say \"so much\" rather than just \"much\".",
+      "topic": "Grammar & Usage"
+    },
+    {
+      "id": "edt-y4rc3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Select the option which will best replace the words underlined in the sentence to make it correct.\n\nI have three cat and two dog.",
+      "options": [
+        { "label": "A", "text": "three cats and two dog." },
+        { "label": "B", "text": "three cat and two dogs." },
+        { "label": "C", "text": "three cats and two dogs." },
+        { "label": "D", "text": "threes cats and twos dogs." },
+        { "label": "E", "text": "some pets." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "\"Three\" and \"two\" are more than one, so both \"cat\" and \"dog\" need an \"s\": \"three cats and two dogs\".",
+      "topic": "Grammar & Usage"
+    },
+    {
+      "id": "edt-y4rc3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Select the option which will best replace the words underlined in the sentence to make it correct.\n\nI shooted three goals in netball.",
+      "options": [
+        { "label": "A", "text": "I shoots three goals" },
+        { "label": "B", "text": "I shot three goals" },
+        { "label": "C", "text": "I shots three goals" },
+        { "label": "D", "text": "I shoted three goals" },
+        { "label": "E", "text": "shot a rabbit" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The past tense of \"shoot\" is \"shot\".",
+      "topic": "Grammar & Usage"
+    },
+    {
+      "id": "edt-y4rc3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Read the following sentence.\n\nTo get to Sydney, I went in an aeroplane.\n\nIf we change the start of the sentence to:\nI went in...\n\nWhat will the best ending be so it still means the same thing?",
+      "options": [
+        { "label": "A", "text": "a boat to Sydney." },
+        { "label": "B", "text": "an aeroplane to Sydney." },
+        { "label": "C", "text": "a aeroplane to Sydney." },
+        { "label": "D", "text": "a car to Sydney." },
+        { "label": "E", "text": "an airplane to Sydney." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The full sentence must keep the same meaning: \"I went in an aeroplane to Sydney.\" Option C is wrong because \"aeroplane\" starts with a vowel sound and needs \"an\", not \"a\".",
+      "topic": "Sentence Structure"
+    },
+    {
+      "id": "edt-y4rc3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Read the following sentence.\n\nI went to the city to visit my sister.\n\nIf we change the start of the sentence to:\nI visited my sister...\n\nWhat will the best ending be so it still means the same thing?",
+      "options": [
+        { "label": "A", "text": "in the city." },
+        { "label": "B", "text": "after going to the city." },
+        { "label": "C", "text": "at her house." },
+        { "label": "D", "text": "with my mum." },
+        { "label": "E", "text": "when she was in the city." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The full sentence must keep the same meaning: \"I visited my sister in the city.\"",
+      "topic": "Sentence Structure"
+    },
+    {
+      "id": "edt-y4rc3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Read the following sentence.\n\nI went to the cinema to see a cartoon.\n\nIf we change the start of the sentence to:\nI saw a cartoon...\n\nWhat will the best ending be so it still means the same thing?",
+      "options": [
+        { "label": "A", "text": "on the television." },
+        { "label": "B", "text": "yesterday." },
+        { "label": "C", "text": "at the cinema." },
+        { "label": "D", "text": "with my friend." },
+        { "label": "E", "text": "with Mickey Mouse in it." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The full sentence must keep the same meaning: \"I saw a cartoon at the cinema.\"",
+      "topic": "Sentence Structure"
+    },
+    {
+      "id": "edt-y4rc3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Read the following sentence.\n\nLast night I went swimming at the beach.\n\nIf we change the start of the sentence to:\nI went to the beach...\n\nWhat will the best ending be so it still means the same thing?",
+      "options": [
+        { "label": "A", "text": "the other day." },
+        { "label": "B", "text": "last night for a swim." },
+        { "label": "C", "text": "with my friend Jack." },
+        { "label": "D", "text": "last night to cool down." },
+        { "label": "E", "text": "when it was pitch black." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The full sentence must keep the same meaning: \"I went to the beach last night for a swim.\" Option D is wrong because it does not mention swimming.",
+      "topic": "Sentence Structure"
+    },
+    {
+      "id": "edt-y4rc3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "The sentence below does not have any punctuation. You need to choose the correctly re-written sentence.\n\nhe said i should mix the flour eggs and sugar together",
+      "options": [
+        { "label": "A", "text": "he said I should mix the flour, eggs and sugar together" },
+        { "label": "B", "text": "he said, I should mix the flour, eggs and sugar together." },
+        { "label": "C", "text": "He said I should mix the flour eggs and sugar together." },
+        { "label": "D", "text": "He said I should mix the flour, eggs and sugar together." },
+        { "label": "E", "text": "He's said I should of mixed the flour, eggs and sugar together." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The sentence needs a capital letter to start, a comma between \"flour\" and \"eggs\", and a full stop at the end.",
+      "topic": "Punctuation"
+    },
+    {
+      "id": "edt-y4rc3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "The sentence below does not have any punctuation. You need to choose the correctly re-written sentence.\n\nthe mans car didnt work.",
+      "options": [
+        { "label": "A", "text": "The man's car did'nt work." },
+        { "label": "B", "text": "The man's car didn't work." },
+        { "label": "C", "text": "The mans car didn't work." },
+        { "label": "D", "text": "The man's car didn't work" },
+        { "label": "E", "text": "The mans' car didnt' work." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The sentence needs a capital letter to start, an apostrophe in \"man's\" to show the man owns the car, and an apostrophe in \"didn't\" (short for \"did not\").",
+      "topic": "Punctuation"
+    },
+    {
+      "id": "edt-y4rc3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "It makes me sad when people cry.\n\nThe word sad in this sentence means:",
+      "options": [
+        { "label": "A", "text": "happy" },
+        { "label": "B", "text": "upset" },
+        { "label": "C", "text": "smile" },
+        { "label": "D", "text": "mad" },
+        { "label": "E", "text": "angry" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Upset\" is closest in meaning to \"sad\".",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y4rc3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "The fire is very hot.\n\nThe word hot in this sentence means:",
+      "options": [
+        { "label": "A", "text": "cold" },
+        { "label": "B", "text": "damp" },
+        { "label": "C", "text": "smoke" },
+        { "label": "D", "text": "uncontrollable" },
+        { "label": "E", "text": "none of these" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "None of the options A to D means the same as \"hot\", so the answer is \"none of these\".",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y4rc3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Fruit makes a healthy snack.\n\nWhat does this sentence suggest?",
+      "options": [
+        { "label": "A", "text": "Fruit is bad for you." },
+        { "label": "B", "text": "Fruit comes in many varieties." },
+        { "label": "C", "text": "Fruit is good for you." },
+        { "label": "D", "text": "Fruit is yummy." },
+        { "label": "E", "text": "Fruit is very sugary." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The sentence says fruit is healthy, which suggests it is good for you.",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y4rc3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Some horses can run as fast as a car.\n\nWhat does this sentence suggest?",
+      "options": [
+        { "label": "A", "text": "Some horses run faster than cars." },
+        { "label": "B", "text": "Horses are faster than cars." },
+        { "label": "C", "text": "It is just as quick to get around on a horse as in a car." },
+        { "label": "D", "text": "All horses can run as fast as a car." },
+        { "label": "E", "text": "none of these" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "The sentence does not say horses are faster than cars (A and B), and \"some\" means it is not all horses (C and D). So none of these follow.",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y4rc3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Once upon a time there was a rabbit called George. He lived in the forest with his good friend Kathy, who was a Koala.\n\nWhat type of animal is George's friend Kathy?",
+      "options": [
+        { "label": "A", "text": "mouse" },
+        { "label": "B", "text": "rabbit" },
+        { "label": "C", "text": "kangaroo" },
+        { "label": "D", "text": "koala" },
+        { "label": "E", "text": "echidna" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The text says \"his good friend Kathy, who was a Koala\".",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "edt-y4rc3-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Jack and Robin were walking in the jungle, when they came across a large, dirty swamp. In it was a swamp monster, who had red eyes and green, slimy skin. Jack and Robin were scared, so they ran all the way home.",
+      "prompt": "What colour eyes did the swamp monster have?",
+      "options": [
+        { "label": "A", "text": "blue" },
+        { "label": "B", "text": "red" },
+        { "label": "C", "text": "green" },
+        { "label": "D", "text": "dirty" },
+        { "label": "E", "text": "black" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The text says the swamp monster \"had red eyes\".",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "edt-y4rc3-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Jack and Robin were walking in the jungle, when they came across a large, dirty swamp. In it was a swamp monster, who had red eyes and green, slimy skin. Jack and Robin were scared, so they ran all the way home.",
+      "prompt": "Why did Jack and Robin run away?",
+      "options": [
+        { "label": "A", "text": "They didn't want to get dirty." },
+        { "label": "B", "text": "Their mother was calling them." },
+        { "label": "C", "text": "They were scared of the monster." },
+        { "label": "D", "text": "They saw a snake." },
+        { "label": "E", "text": "The monster chased them." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text says \"Jack and Robin were scared, so they ran all the way home\".",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "edt-y4rc3-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Yesterday Kelly turned ten years old. Her mother baked a cake with pink icing and sprinkles. Kelly had her friends over for a party, where they played many games and ate lollies and cake. Kelly received many presents including a new teddy bear.",
+      "prompt": "The main topic of this story is:",
+      "options": [
+        { "label": "A", "text": "Kelly's birthday party." },
+        { "label": "B", "text": "Kelly's mum is a good cook." },
+        { "label": "C", "text": "Kelly wore a pink dress to her birthday." },
+        { "label": "D", "text": "Kelly and her friends ate cake." },
+        { "label": "E", "text": "Gifts are important." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The whole text is about Kelly's birthday party. B and C are not in the text, and D is only one detail.",
+      "topic": "Main Idea & Purpose"
+    },
+    {
+      "id": "edt-y4rc3-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "Yesterday Kelly turned ten years old. Her mother baked a cake with pink icing and sprinkles. Kelly had her friends over for a party, where they played many games and ate lollies and cake. Kelly received many presents including a new teddy bear.",
+      "prompt": "Which statement is correct?",
+      "options": [
+        { "label": "A", "text": "Kelly turned seven." },
+        { "label": "B", "text": "Kelly did not play games at her party." },
+        { "label": "C", "text": "Kelly had a cake with pink icing." },
+        { "label": "D", "text": "Kelly's father baked her a cake." },
+        { "label": "E", "text": "Kelly received no gifts." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The text says Kelly turned ten, that they played games, that she received many presents, and that her mother baked the cake — so A, B, D and E are wrong. The cake had pink icing, so C is correct.",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "edt-y4rc3-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "Yesterday Kelly turned ten years old. Her mother baked a cake with pink icing and sprinkles. Kelly had her friends over for a party, where they played many games and ate lollies and cake. Kelly received many presents including a new teddy bear.",
+      "prompt": "Which statement does not follow?",
+      "options": [
+        { "label": "A", "text": "Kelly's birthday was yesterday." },
+        { "label": "B", "text": "Kelly had sprinkles on her pink birthday cake." },
+        { "label": "C", "text": "Kelly got a new teddy bear for her birthday." },
+        { "label": "D", "text": "Kelly is in Year 5 at school." },
+        { "label": "E", "text": "Kelly's friends came over." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The story says nothing about what year level Kelly is in at school, so that statement does not follow.",
+      "topic": "Inference"
+    }
+  ]
+}

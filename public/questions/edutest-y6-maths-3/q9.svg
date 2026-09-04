@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 190" width="300" height="190" role="img" aria-label="A triangle with two angles marked 70 degrees and 35 degrees, and the third angle marked with a question mark.">
+  <rect x="0" y="0" width="300" height="190" fill="#ffffff"/>
+  <polygon points="60,20 30,165 275,150" fill="none" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="#222222" font-family="Georgia, 'Times New Roman', serif" font-size="20" text-anchor="middle">
+    <text x="70" y="48">?</text>
+    <text x="58" y="150">70&#176;</text>
+    <text x="225" y="140">35&#176;</text>
+  </g>
+</svg>

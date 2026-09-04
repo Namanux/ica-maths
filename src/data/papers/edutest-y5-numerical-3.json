@@ -1,0 +1,252 @@
+{
+  "id": "edutest-y5-numerical-3",
+  "exam": "edutest",
+  "subject": "Numerical Reasoning",
+  "yearLevel": 5,
+  "paperCode": "Y5-Numerical-Original set3",
+  "title": "Y5-Numerical-Original set3",
+  "year": 2026,
+  "timeLimitMinutes": 20,
+  "questions": [
+    {
+      "id": "edt-y5nr3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n15, 18, 14, 17, 13, ?, 12",
+      "options": [
+        { "label": "A", "text": "14" },
+        { "label": "B", "text": "15" },
+        { "label": "C", "text": "16" },
+        { "label": "D", "text": "17" },
+        { "label": "E", "text": "13" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The pattern alternates +3, −4: 15 (+3) 18 (−4) 14 (+3) 17 (−4) 13 (+3) 16 (−4) 12.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y5nr3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n83, 82, 80, 77, 73, ?",
+      "options": [
+        { "label": "A", "text": "70" },
+        { "label": "B", "text": "71" },
+        { "label": "C", "text": "69" },
+        { "label": "D", "text": "66" },
+        { "label": "E", "text": "68" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "The numbers decrease by 1, then 2, then 3, then 4, then 5: 73 − 5 = 68.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y5nr3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\nr, 10, s, ?, t, 30, u, 40, v",
+      "options": [
+        { "label": "A", "text": "5" },
+        { "label": "B", "text": "15" },
+        { "label": "C", "text": "20" },
+        { "label": "D", "text": "40" },
+        { "label": "E", "text": "45" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "There are two interleaved patterns. The numbers increase by 10 (10, 20, 30, 40), so the missing number is 20. The letters move through the alphabet: r, s, t, u, v.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y5nr3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n2, 8, ?, 128, 512, 2048",
+      "options": [
+        { "label": "A", "text": "32" },
+        { "label": "B", "text": "24" },
+        { "label": "C", "text": "16" },
+        { "label": "D", "text": "64" },
+        { "label": "E", "text": "23" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Each number is multiplied by 4: 2, 8, 32, 128, 512, 2048.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y5nr3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n3, 9, 27, 81, ?, 729",
+      "options": [
+        { "label": "A", "text": "242" },
+        { "label": "B", "text": "233" },
+        { "label": "C", "text": "232" },
+        { "label": "D", "text": "243" },
+        { "label": "E", "text": "343" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Each number is multiplied by 3: 81 × 3 = 243.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y5nr3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n5, e, 10, j, 15, o, ?, t",
+      "options": [
+        { "label": "A", "text": "30" },
+        { "label": "B", "text": "10" },
+        { "label": "C", "text": "20" },
+        { "label": "D", "text": "25" },
+        { "label": "E", "text": "5" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The numbers increase by 5 (5, 10, 15, 20), and the letters are every fifth letter of the alphabet (e, j, o, t).",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y5nr3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n144, 133, 122, ?, 100",
+      "options": [
+        { "label": "A", "text": "110" },
+        { "label": "B", "text": "100" },
+        { "label": "C", "text": "111" },
+        { "label": "D", "text": "99" },
+        { "label": "E", "text": "122" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The numbers decrease by 11 each time: 122 − 11 = 111.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y5nr3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Three children went to the book shop. Books cost fifty cents more than cards. Diaries were twice the price of cards. Janice bought two books and one card; Justin bought two diaries and Lee bought one of each.\nIf cards cost $1.50, who spent the most?",
+      "options": [
+        { "label": "A", "text": "Janice and Lee" },
+        { "label": "B", "text": "Lee" },
+        { "label": "C", "text": "Justin and Lee" },
+        { "label": "D", "text": "Janice" },
+        { "label": "E", "text": "Justin and Janice" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Cards = $1.50, books = $2.00, diaries = $3.00. Janice: 2 × $2.00 + $1.50 = $5.50. Justin: 2 × $3.00 = $6.00. Lee: $1.50 + $2.00 + $3.00 = $6.50. Lee spent the most.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y5nr3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Three girls have an equal number of toys. All together there are 12 trucks and 30 teddies. Tracey only has teddies. Jenny has 4 trucks.\nHow many teddies does Laura have?",
+      "options": [
+        { "label": "A", "text": "14" },
+        { "label": "B", "text": "4" },
+        { "label": "C", "text": "8" },
+        { "label": "D", "text": "6" },
+        { "label": "E", "text": "3" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "12 + 30 = 42 toys, so each girl has 42 ÷ 3 = 14. Tracey has 14 teddies. Jenny has 4 trucks + 10 teddies. That leaves 30 − 14 − 10 = 6 teddies for Laura.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y5nr3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Petra got half of the way home from work when she stopped at the water fountain to get a drink. Two kilometres further on, she still had two kilometres to go.\nHow many kilometres is the water fountain from Petra's work?",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "8" },
+        { "label": "C", "text": "10" },
+        { "label": "D", "text": "5" },
+        { "label": "E", "text": "6" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The water fountain is halfway, so it is the same distance from work as from home. From the fountain she travelled 2 km and still had 2 km to go, so the fountain is 4 km from home — and therefore 4 km from work.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y5nr3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "In a private aeroplane there are seven seats available. The pilot takes up one and so does the co-pilot. On plane trips that take less than 30 minutes there only needs to be one pilot (no co-pilot). On trips longer than 30 minutes the plane needs both a pilot and a co-pilot. Mary is taking a trip for 35 minutes.\nHow many friends can she invite on the plane trip?",
+      "options": [
+        { "label": "A", "text": "7" },
+        { "label": "B", "text": "4" },
+        { "label": "C", "text": "5" },
+        { "label": "D", "text": "3" },
+        { "label": "E", "text": "2" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A 35-minute trip needs a pilot and a co-pilot. Take away 3 seats (pilot, co-pilot, Mary): 7 − 3 = 4 friends.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y5nr3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Two different numbers multiplied together give 32. The difference between the two numbers is an even number between 9 and 20.\nIf I subtract the smallest of these two different numbers from the largest, what number do I get?",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "10" },
+        { "label": "C", "text": "14" },
+        { "label": "D", "text": "16" },
+        { "label": "E", "text": "12" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The whole-number pairs that multiply to 32 are 1 × 32, 2 × 16 and 4 × 8. Only 2 and 16 have a difference that is even and between 9 and 20. 16 − 2 = 14.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y5nr3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Alfred is twice as tall as Sigmund who is half Jimmy's height.\nIf Alfred is 150 cm tall, how tall is Jimmy?",
+      "options": [
+        { "label": "A", "text": "75 cm" },
+        { "label": "B", "text": "150 cm" },
+        { "label": "C", "text": "225 cm" },
+        { "label": "D", "text": "300 cm" },
+        { "label": "E", "text": "15 cm" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Alfred is 150 cm, so Sigmund is 75 cm. Jimmy is twice Sigmund's height, so Jimmy is 150 cm.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y5nr3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "I have 75 loaves of bread in my car, 25 of which are multigrain, the rest are white. I know 35 of the bread loaves have been exposed to moisture and are not good to sell.\nWhat is the maximum number of white bread loaves I could sell?",
+      "options": [
+        { "label": "A", "text": "35" },
+        { "label": "B", "text": "25" },
+        { "label": "C", "text": "50" },
+        { "label": "D", "text": "40" },
+        { "label": "E", "text": "45" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "There are 75 − 25 = 50 white loaves. To maximise sellable white loaves, assume all 25 multigrain loaves were damaged; then only 35 − 25 = 10 white loaves are damaged, leaving 50 − 10 = 40.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y5nr3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Georgia went to the aquarium with her class. Out of the 35 people in her class 30 brought their sandwiches with them, and the remaining five brought money to buy tuna salad sandwiches at the aquarium. Half of the people who brought their own sandwiches brought peanut butter sandwiches (one each).\nHow many people did not have peanut butter sandwiches?",
+      "options": [
+        { "label": "A", "text": "30" },
+        { "label": "B", "text": "25" },
+        { "label": "C", "text": "20" },
+        { "label": "D", "text": "15" },
+        { "label": "E", "text": "10" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Half of the 30 who brought their own sandwiches is 15 peanut butter sandwiches. 35 − 15 = 20 people did not have a peanut butter sandwich.",
+      "topic": "Problem Solving"
+    }
+  ]
+}

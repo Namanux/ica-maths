@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 160" width="300" height="160" role="img" aria-label="Two clocks. The first clock shows 1:25 and the second clock shows 7:55.">
+  <rect x="0" y="0" width="300" height="160" fill="#ffffff"/>
+  <g stroke="#222222" fill="none" stroke-width="3" stroke-linecap="round">
+    <circle cx="75" cy="75" r="58" fill="#ffffff"/>
+    <line x1="75" y1="23" x2="75" y2="33"/>
+    <line x1="75" y1="127" x2="75" y2="117"/>
+    <line x1="23" y1="75" x2="33" y2="75"/>
+    <line x1="127" y1="75" x2="117" y2="75"/>
+    <line x1="75" y1="75" x2="95" y2="53"/>
+    <line x1="75" y1="75" x2="97" y2="114" stroke-width="2.5"/>
+    <circle cx="225" cy="75" r="58" fill="#ffffff"/>
+    <line x1="225" y1="23" x2="225" y2="33"/>
+    <line x1="225" y1="127" x2="225" y2="117"/>
+    <line x1="173" y1="75" x2="183" y2="75"/>
+    <line x1="277" y1="75" x2="267" y2="75"/>
+    <line x1="225" y1="75" x2="207" y2="90"/>
+    <line x1="225" y1="75" x2="203" y2="36" stroke-width="2.5"/>
+  </g>
+  <g fill="#222222" font-family="Georgia, 'Times New Roman', serif" font-size="14" text-anchor="middle">
+    <text x="75" y="152">Clock 1</text>
+    <text x="225" y="152">Clock 2</text>
+  </g>
+</svg>

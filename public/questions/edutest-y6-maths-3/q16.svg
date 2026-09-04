@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-20 8 248 232" width="248" height="232" role="img" aria-label="A solid built from one-centimetre cubes: a back wall of 12 cubes, a middle wall of 8 cubes and a front row of 3 cubes.">
+  <defs>
+    <g id="cube" stroke="#222222" stroke-width="2" stroke-linejoin="round">
+      <polygon points="0,-38 32,-22 0,-6 -32,-22" fill="#ededed"/>
+      <polygon points="-32,16 0,32 0,-6 -32,-22" fill="#c7c7c7"/>
+      <polygon points="32,16 0,32 0,-6 32,-22" fill="#ababab"/>
+    </g>
+  </defs>
+  <rect x="-20" y="8" width="248" height="232" fill="#ffffff"/>
+  <use href="#cube" transform="translate(80,130)"/>
+  <use href="#cube" transform="translate(80,92)"/>
+  <use href="#cube" transform="translate(80,54)"/>
+  <use href="#cube" transform="translate(112,146)"/>
+  <use href="#cube" transform="translate(48,146)"/>
+  <use href="#cube" transform="translate(112,108)"/>
+  <use href="#cube" transform="translate(48,108)"/>
+  <use href="#cube" transform="translate(112,70)"/>
+  <use href="#cube" transform="translate(144,162)"/>
+  <use href="#cube" transform="translate(80,162)"/>
+  <use href="#cube" transform="translate(16,162)"/>
+  <use href="#cube" transform="translate(144,124)"/>
+  <use href="#cube" transform="translate(80,124)"/>
+  <use href="#cube" transform="translate(144,86)"/>
+  <use href="#cube" transform="translate(176,178)"/>
+  <use href="#cube" transform="translate(112,178)"/>
+  <use href="#cube" transform="translate(48,178)"/>
+  <use href="#cube" transform="translate(176,140)"/>
+  <use href="#cube" transform="translate(112,140)"/>
+  <use href="#cube" transform="translate(176,102)"/>
+  <use href="#cube" transform="translate(144,194)"/>
+  <use href="#cube" transform="translate(80,194)"/>
+  <use href="#cube" transform="translate(144,156)"/>
+</svg>

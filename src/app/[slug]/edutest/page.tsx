@@ -4,6 +4,12 @@ import { getProfile } from "@/lib/profiles";
 
 const YEAR_LEVELS = [
   {
+    slug: "year4",
+    name: "Year 4",
+    description: "EduTest-style practice papers for Year 4 students.",
+    available: true,
+  },
+  {
     slug: "year5",
     name: "Year 5",
     description: "EduTest-style practice papers for Year 5 students.",

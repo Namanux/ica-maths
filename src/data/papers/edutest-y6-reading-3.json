@@ -1,0 +1,340 @@
+{
+  "id": "edutest-y6-reading-3",
+  "exam": "edutest",
+  "subject": "Reading Comprehension",
+  "yearLevel": 6,
+  "paperCode": "Y6-Reading-Original set3",
+  "title": "Y6-Reading-Original set3",
+  "year": 2026,
+  "timeLimitMinutes": 25,
+  "questions": [
+    {
+      "id": "edt-y6rc3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Select the option which will best replace the words underlined in the sentence to make it correct:\n\nJack's new job requires heavy lift. He will have to take care of his back.",
+      "options": [
+        { "label": "A", "text": "required heavy lift." },
+        { "label": "B", "text": "requires heavy lifting." },
+        { "label": "C", "text": "require heavy lifting." },
+        { "label": "D", "text": "requires heavy lift." },
+        { "label": "E", "text": "requites heavy lifter." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The subject \"Jack's new job\" is singular, so the verb is \"requires\", and \"heavy lifting\" is the correct noun phrase. The sentence becomes \"Jack's new job requires heavy lifting.\"",
+      "topic": "Grammar & Usage"
+    },
+    {
+      "id": "edt-y6rc3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "passage": "Bushfires are a cause of major concern during the summer months in Australia. It is not uncommon for total fire bans to be announced to aid the prevention of many spot fires, for many fires are started by people being careless when the weather is hot. Although it is the firefighters who ultimately put out the fires, everyone has a responsibility to make sure they are doing everything they can to help prevent fires which can damage property and acres of land.",
+      "prompt": "What can you infer from this paragraph?",
+      "options": [
+        { "label": "A", "text": "People living in the city are not affected by bushfires." },
+        { "label": "B", "text": "All bushfires are started by people." },
+        { "label": "C", "text": "It is everybody's responsibility to help prevent bushfires." },
+        { "label": "D", "text": "Bushfires are the sole responsibility of firefighters." },
+        { "label": "E", "text": "Smoking causes bushfires." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage says \"everyone has a responsibility to make sure they are doing everything they can to help prevent fires\". It does not say who is affected (A), only that \"many\" fires — not all — are started by people (B), and it says firefighters are not solely responsible (D).",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y6rc3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "The bird hopped erratically from branch to branch.\n\nThe word erratically in this sentence means:",
+      "options": [
+        { "label": "A", "text": "sadly" },
+        { "label": "B", "text": "unpredictably" },
+        { "label": "C", "text": "regularly" },
+        { "label": "D", "text": "steadily" },
+        { "label": "E", "text": "cheerfully" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Erratically\" and \"unpredictably\" both mean not following a fixed or regular pattern.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "edt-y6rc3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Select the option which will best replace the words underlined in the sentence to make it correct:\n\nBilly have to go to school tomorrow.",
+      "options": [
+        { "label": "A", "text": "had to go" },
+        { "label": "B", "text": "doesn't have too go" },
+        { "label": "C", "text": "having to go" },
+        { "label": "D", "text": "has to go" },
+        { "label": "E", "text": "wants to go" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Billy is one person, so the singular verb \"has to go\" is needed. Option A is past tense, which contradicts \"tomorrow\".",
+      "topic": "Grammar & Usage"
+    },
+    {
+      "id": "edt-y6rc3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Read the following sentence:\n\nThe little girl hated doing her piano practice, even though she was really quite good at reading music.\n\nIf we change the start of the sentence to:\n\nThe little girl was really quite good...\n\nWhat will the best ending to this new sentence be, so it still means the same thing?",
+      "options": [
+        { "label": "A", "text": "at reading music, even though she hated doing her piano practice." },
+        { "label": "B", "text": "at playing piano, even though she hated practising." },
+        { "label": "C", "text": "at practising, even though she hated it." },
+        { "label": "D", "text": "at reading even though she played the piano." },
+        { "label": "E", "text": "at hating doing her piano practice." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The restructured sentence must keep every detail: \"The little girl was really quite good at reading music, even though she hated doing her piano practice.\"",
+      "topic": "Sentence Structure"
+    },
+    {
+      "id": "edt-y6rc3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "The sentence below does not have any punctuation. Choose the correctly re-written sentence:\n\ni will bring my red gumboots as well as my scarf coat and hat",
+      "options": [
+        { "label": "A", "text": "I will bring my red, gumboots as well as my scarf, coat, and hat." },
+        { "label": "B", "text": "i will bring my red gumboots as well as my scarf, coat and hat." },
+        { "label": "C", "text": "i would bring my red gumboots, as well as my scarf, coat and hat" },
+        { "label": "D", "text": "I will bring my red gumboots, as well as my scarf, coat and hat." },
+        { "label": "E", "text": "I'll bring my red gumboot's, as well as my scarf, coat and hat." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The sentence needs a capital letter to start, commas to separate the list items (with \"and\" before the last item), no comma between \"red\" and \"gumboots\", and a full stop at the end.",
+      "topic": "Punctuation"
+    },
+    {
+      "id": "edt-y6rc3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Read the following sentence:\n\nBeing a doctor, she often had to work extremely long hours.\n\nIf we change the start of the sentence to:\n\nShe often had to work extremely long hours...\n\nWhat will the best ending to this new sentence be, so it still means the same thing?",
+      "options": [
+        { "label": "A", "text": "in order to make enough money." },
+        { "label": "B", "text": "because her patients were complicated." },
+        { "label": "C", "text": "as she was a doctor." },
+        { "label": "D", "text": "as all hospitals are short-staffed." },
+        { "label": "E", "text": "because everyone got sick." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "\"She often had to work extremely long hours, as she was a doctor\" keeps the same cause-and-effect as the original sentence.",
+      "topic": "Sentence Structure"
+    },
+    {
+      "id": "edt-y6rc3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "passage": "With the ferocity of a lion, yet the size of a wombat, the Honey Badger is one of the toughest mammals in Africa and Western Asia. Honey badgers stand less than one foot high and are less than a metre long and they weigh around ten kilos. Despite this they have a reputation for toughness that is far greater than their size. They also have an exceptionally thick, loose skin, which makes them difficult to grip on to, and which is almost impenetrable to bites, arrows and spears. Some Honey Badgers have been known to chase away lions and take their kill. I guess size isn't everything when it comes to a fight.",
+      "prompt": "Which statement is the author most likely to agree with?",
+      "options": [
+        { "label": "A", "text": "What makes Honey Badgers so tough is their speed and strength." },
+        { "label": "B", "text": "Honey Badgers are large and tireless in fighting." },
+        { "label": "C", "text": "Honey Badgers get their name from their love of honey." },
+        { "label": "D", "text": "Their thick, loose skin is what makes Honey Badgers so tough." },
+        { "label": "E", "text": "Honey Badgers have sweet tasting meat, hence the name." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage attributes their toughness and their protection against bites, arrows and spears to their thick, loose skin.",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y6rc3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "The sentence below contains no punctuation. Choose the option with the correct punctuation:\n\nyoure going to be late berts mother yelled",
+      "options": [
+        { "label": "A", "text": "Your going to be late Berts! Mother yelled." },
+        { "label": "B", "text": "“Your’e going to be late!” Berts mother yelled." },
+        { "label": "C", "text": "“You’re going to be late, Berts mother” yelled!" },
+        { "label": "D", "text": "“You’re going to be late!” Bert’s mother yelled." },
+        { "label": "E", "text": "You’re going to be late, Bert’s mother yelled." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The dialogue needs speech marks, an exclamation mark for the shout, a capital to start \"You're\", the contraction \"You're\", and the possessive apostrophe in \"Bert's mother\".",
+      "topic": "Punctuation"
+    },
+    {
+      "id": "edt-y6rc3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "passage": "His bedroom was strewn with dirty clothing, half-drunk cups of tea and piles of books. The curtains were drawn, giving the whole place an eerie blue glow, and a feeling that daytime never really reached inside. There was an odour which could only be described as unpleasant emanating from the chaos of the room. Surprisingly, each day a young man emerged from this room, wearing a neatly washed and ironed outfit. He carried a laptop out to his luxury car and headed off to work on time. He never had guests back to his home, always arranging social activities elsewhere, and he told no one about his messy house.",
+      "prompt": "From this passage we can be sure that the young man:",
+      "options": [
+        { "label": "A", "text": "was horribly untidy at work." },
+        { "label": "B", "text": "was embarrassed by the state of his house." },
+        { "label": "C", "text": "didn't want people to know about his messy house." },
+        { "label": "D", "text": "was living a double life." },
+        { "label": "E", "text": "was involved in illegal activities." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage directly states he never brought guests over and told no one about his messy house. The other options make assumptions the passage does not support.",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y6rc3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Bob was good at the decathlon because he excelled at shot put, hurdles and high jump. The other seven events he performed at an average level, but his superior performance in his favourite events meant he could often win on points.\n\nThe word decathlon in this sentence means:",
+      "options": [
+        { "label": "A", "text": "a competition with three events." },
+        { "label": "B", "text": "a seven-event competition." },
+        { "label": "C", "text": "an event Bob only enjoys some of the time." },
+        { "label": "D", "text": "a competition with ten different events." },
+        { "label": "E", "text": "a marathon." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage names 3 events and then refers to \"the other seven events\", which is 10 events in total.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "edt-y6rc3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "George jumped out from behind the door and scared Jack. So, three days later, Jack got revenge by jumping out from behind a tree and scaring George.\n\nThe word revenge in this sentence means:",
+      "options": [
+        { "label": "A", "text": "scared" },
+        { "label": "B", "text": "payback" },
+        { "label": "C", "text": "angry" },
+        { "label": "D", "text": "punishment" },
+        { "label": "E", "text": "reversal" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"Revenge\" means retaliating against someone for something they did, so \"payback\" is the closest synonym.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "edt-y6rc3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Look before you leap.\n\nWhat does this figure of speech suggest?",
+      "options": [
+        { "label": "A", "text": "Don't jump off things with your eyes closed." },
+        { "label": "B", "text": "It is best to consider things before rushing in." },
+        { "label": "C", "text": "Jumping is always dangerous." },
+        { "label": "D", "text": "It is important to have your eyes checked regularly." },
+        { "label": "E", "text": "People are always reckless." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "This idiom is figurative: it advises thinking about the consequences before you act.",
+      "topic": "Vocabulary in Context"
+    },
+    {
+      "id": "edt-y6rc3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "Select the option which will best replace the words underlined in the sentence to make it correct:\n\nDolores' new job require written skill. She will have to write news articles.",
+      "options": [
+        { "label": "A", "text": "required written skilled." },
+        { "label": "B", "text": "requires writing skills." },
+        { "label": "C", "text": "require writing skill." },
+        { "label": "D", "text": "requires wrote skills." },
+        { "label": "E", "text": "require written skills." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The subject \"Dolores' new job\" is singular, so it takes \"requires\", and \"writing skills\" is the correct noun phrase.",
+      "topic": "Grammar & Usage"
+    },
+    {
+      "id": "edt-y6rc3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Read the following sentence:\n\nI drove all the way to Sydney to see my favourite band play.\n\nIf we change the start of the sentence to:\n\nTo see my favourite band play...\n\nWhat will the best ending to this new sentence be, so it still means the same thing?",
+      "options": [
+        { "label": "A", "text": "I would pay to catch a plane." },
+        { "label": "B", "text": "I would do anything." },
+        { "label": "C", "text": "I drove across two states." },
+        { "label": "D", "text": "I drove for 12 hours." },
+        { "label": "E", "text": "none of these." }
+      ],
+      "correctAnswer": "E",
+      "explanation": "To keep the same meaning the ending would have to be \"I drove all the way to Sydney.\" That exact phrase is not among options A–D, so the answer is \"none of these\".",
+      "topic": "Sentence Structure"
+    },
+    {
+      "id": "edt-y6rc3-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "passage": "Seals are warm blooded, hairy mammals perfectly evolved for life in the sea. Water takes more heat from a body than air does, so seals have developed a layer of tough, spongy tissue filled with oily fat just beneath their skin. This tissue, called blubber, keeps in body heat and allows them to spend time in icy waters in the Arctic and around the globe. Seals are incredible swimmers, perfectly adapted to catching fish as they swim underwater, holding their breath for up to thirty minutes at a time.\n\nHistorically, seals were an important resource for the Inuit people in the Arctic Circle. They were captured for their meat, and for the oil in their blubber, which was used for cooking, lighting and heating. Their skins were made into warm clothing and shelters; and sinews were used for sewing. Seal bones were used to make spears and arrows. Seals are still hunted today, although they are protected in many countries. They are highly intelligent animals who can learn tricks and are often very popular attractions at zoos and wildlife parks.",
+      "prompt": "Which of these statements follows?",
+      "options": [
+        { "label": "A", "text": "Seals are critically endangered animals." },
+        { "label": "B", "text": "Without seals the Inuit culture could not have survived." },
+        { "label": "C", "text": "Seals are well suited to their environment." },
+        { "label": "D", "text": "The bones of seals are the best materials to make spears and arrows with." },
+        { "label": "E", "text": "Their ability to perform tricks is why seals are kept in zoos." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The passage says seals are \"perfectly evolved for life in the sea\" and \"perfectly adapted\", which supports that they are well suited to their environment.",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y6rc3-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "passage": "Seals are warm blooded, hairy mammals perfectly evolved for life in the sea. Water takes more heat from a body than air does, so seals have developed a layer of tough, spongy tissue filled with oily fat just beneath their skin. This tissue, called blubber, keeps in body heat and allows them to spend time in icy waters in the Arctic and around the globe. Seals are incredible swimmers, perfectly adapted to catching fish as they swim underwater, holding their breath for up to thirty minutes at a time.\n\nHistorically, seals were an important resource for the Inuit people in the Arctic Circle. They were captured for their meat, and for the oil in their blubber, which was used for cooking, lighting and heating. Their skins were made into warm clothing and shelters; and sinews were used for sewing. Seal bones were used to make spears and arrows. Seals are still hunted today, although they are protected in many countries. They are highly intelligent animals who can learn tricks and are often very popular attractions at zoos and wildlife parks.",
+      "prompt": "Blubber is useful for all of the following reasons, except:",
+      "options": [
+        { "label": "A", "text": "It keeps a seal warm underwater." },
+        { "label": "B", "text": "It is used in cooking." },
+        { "label": "C", "text": "It is used for lights." },
+        { "label": "D", "text": "It is used as a glue to make spears." },
+        { "label": "E", "text": "It is used as a heat source." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage mentions blubber being used for body heat, cooking, lighting and heating, but never as a glue.",
+      "topic": "Literal Comprehension"
+    },
+    {
+      "id": "edt-y6rc3-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "passage": "Seals are warm blooded, hairy mammals perfectly evolved for life in the sea. Water takes more heat from a body than air does, so seals have developed a layer of tough, spongy tissue filled with oily fat just beneath their skin. This tissue, called blubber, keeps in body heat and allows them to spend time in icy waters in the Arctic and around the globe. Seals are incredible swimmers, perfectly adapted to catching fish as they swim underwater, holding their breath for up to thirty minutes at a time.\n\nHistorically, seals were an important resource for the Inuit people in the Arctic Circle. They were captured for their meat, and for the oil in their blubber, which was used for cooking, lighting and heating. Their skins were made into warm clothing and shelters; and sinews were used for sewing. Seal bones were used to make spears and arrows. Seals are still hunted today, although they are protected in many countries. They are highly intelligent animals who can learn tricks and are often very popular attractions at zoos and wildlife parks.",
+      "prompt": "We can ascertain that the Inuit people:",
+      "options": [
+        { "label": "A", "text": "lived in tropical regions." },
+        { "label": "B", "text": "are still thriving today." },
+        { "label": "C", "text": "hunted seals in massive numbers." },
+        { "label": "D", "text": "lived in very cold areas." },
+        { "label": "E", "text": "were very spiritual." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The passage says the Inuit people lived in the \"Arctic Circle\", which has an extremely cold environment.",
+      "topic": "Inference"
+    },
+    {
+      "id": "edt-y6rc3-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "passage": "At the end of Matthew's street is an old, large house. Many of the children in the street have told Matthew that the house is haunted, and that people who enter the house after sunset never come back out. Although Matthew's dad had told him that there was no such thing as ghosts, he was still convinced that there was something creepy about the house at the end of the street. One afternoon, Matthew and the other children in the street were playing cricket, and Matthew hit the ball so hard it smashed into the front window of the house at the end of the street. The other children were so scared that they all ran home, leaving Matthew out in the street on his own. Matthew knew that the most responsible thing to do was to go to the house and apologise for breaking the window, so he slowly walked up the steps and knocked on the door. To his surprise, a little old lady answered the door and invited him inside. After Matthew apologised for the window and cleaned up the broken glass, the lady thanked him for being honest and offered him a tall glass of milk and some biscuits, before giving him his ball back.",
+      "prompt": "The main theme of this story is:",
+      "options": [
+        { "label": "A", "text": "looks can be deceiving." },
+        { "label": "B", "text": "playing cricket can be dangerous." },
+        { "label": "C", "text": "all old houses are haunted." },
+        { "label": "D", "text": "the best way to be responsible is to run away." },
+        { "label": "E", "text": "children are liars." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The house that seemed haunted from the rumours turned out to belong to a friendly old lady, showing that appearances and assumptions can be misleading.",
+      "topic": "Main Idea & Purpose"
+    },
+    {
+      "id": "edt-y6rc3-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "passage": "At the end of Matthew's street is an old, large house. Many of the children in the street have told Matthew that the house is haunted, and that people who enter the house after sunset never come back out. Although Matthew's dad had told him that there was no such thing as ghosts, he was still convinced that there was something creepy about the house at the end of the street. One afternoon, Matthew and the other children in the street were playing cricket, and Matthew hit the ball so hard it smashed into the front window of the house at the end of the street. The other children were so scared that they all ran home, leaving Matthew out in the street on his own. Matthew knew that the most responsible thing to do was to go to the house and apologise for breaking the window, so he slowly walked up the steps and knocked on the door. To his surprise, a little old lady answered the door and invited him inside. After Matthew apologised for the window and cleaned up the broken glass, the lady thanked him for being honest and offered him a tall glass of milk and some biscuits, before giving him his ball back.",
+      "prompt": "From the paragraph above, which statement does not follow?",
+      "options": [
+        { "label": "A", "text": "Some things that people tell you aren't necessarily true." },
+        { "label": "B", "text": "Owning up to your mistakes can be rewarding." },
+        { "label": "C", "text": "Just because something looks scary doesn't mean it is scary." },
+        { "label": "D", "text": "Broken glass causes injuries." },
+        { "label": "E", "text": "All of these options follow." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The story mentions cleaning up broken glass, but it never discusses injuries or says that broken glass causes them.",
+      "topic": "Inference"
+    }
+  ]
+}

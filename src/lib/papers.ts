@@ -14,11 +14,24 @@ import selectivePt2 from "@/data/papers/selective-pt2.json";
 import selectivePt3 from "@/data/papers/selective-pt3.json";
 import selectivePt4 from "@/data/papers/selective-pt4.json";
 import edutestY5Maths1 from "@/data/papers/edutest-y5-maths-1.json";
+import edutestY5Maths3 from "@/data/papers/edutest-y5-maths-3.json";
+import edutestY6Maths3 from "@/data/papers/edutest-y6-maths-3.json";
+import edutestY4Numerical3 from "@/data/papers/edutest-y4-numerical-3.json";
 import edutestY5Numerical1 from "@/data/papers/edutest-y5-numerical-1.json";
+import edutestY5Numerical3 from "@/data/papers/edutest-y5-numerical-3.json";
+import edutestY4Verbal3 from "@/data/papers/edutest-y4-verbal-3.json";
+import edutestY4Reading3 from "@/data/papers/edutest-y4-reading-3.json";
+import edutestY4Maths3 from "@/data/papers/edutest-y4-maths-3.json";
 import edutestY5Verbal1 from "@/data/papers/edutest-y5-verbal-1.json";
+import edutestY5Verbal3 from "@/data/papers/edutest-y5-verbal-3.json";
 import edutestY5Reading1 from "@/data/papers/edutest-y5-reading-1.json";
+import edutestY6Reading3 from "@/data/papers/edutest-y6-reading-3.json";
+import edutestY5Reading3 from "@/data/papers/edutest-y5-reading-3.json";
 import edutestY6Verbal1 from "@/data/papers/edutest-y6-verbal-1.json";
+import edutestY6Verbal3 from "@/data/papers/edutest-y6-verbal-3.json";
 import edutestY6Numerical1 from "@/data/papers/edutest-y6-numerical-1.json";
+import edutestY6Numerical2 from "@/data/papers/edutest-y6-numerical-2.json";
+import edutestY6Numerical3 from "@/data/papers/edutest-y6-numerical-3.json";
 import selectiveReadingPt1 from "@/data/papers/selective-reading-pt1.json";
 import selectiveReadingPt2 from "@/data/papers/selective-reading-pt2.json";
 import selectiveReadingPt3 from "@/data/papers/selective-reading-pt3.json";
@@ -62,11 +75,24 @@ const papers: Paper[] = [
   selectiveThinkingPt2 as Paper,
   selectiveThinkingPt3 as Paper,
   edutestY5Maths1 as Paper,
+  edutestY5Maths3 as Paper,
+  edutestY6Maths3 as Paper,
+  edutestY4Numerical3 as Paper,
   edutestY5Numerical1 as Paper,
+  edutestY5Numerical3 as Paper,
+  edutestY4Verbal3 as Paper,
+  edutestY4Reading3 as Paper,
+  edutestY4Maths3 as Paper,
   edutestY5Verbal1 as Paper,
+  edutestY5Verbal3 as Paper,
   edutestY5Reading1 as Paper,
+  edutestY6Reading3 as Paper,
+  edutestY5Reading3 as Paper,
   edutestY6Verbal1 as Paper,
+  edutestY6Verbal3 as Paper,
   edutestY6Numerical1 as Paper,
+  edutestY6Numerical2 as Paper,
+  edutestY6Numerical3 as Paper,
   icas2010EnglishPaperC as Paper,
   icas2018EnglishPaperC as Paper,
   icas2017EnglishPaperC as Paper,

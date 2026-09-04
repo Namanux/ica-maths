@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 560 130" width="560" height="130" role="img" aria-label="Five angles labelled A to E. A is a right angle, B is obtuse, C is about 45 degrees, D is a little less than a right angle, E is a straight angle.">
+  <rect x="0" y="0" width="560" height="130" fill="#ffffff"/>
+  <g stroke="#222222" stroke-width="2.5" fill="none" stroke-linecap="round">
+    <path d="M 97,70 L 55,70 M 55,70 L 55,28"/>
+    <path d="M 207,70 L 165,70 M 165,70 L 138,38"/>
+    <path d="M 317,70 L 275,70 M 275,70 L 305,40"/>
+    <path d="M 427,70 L 385,70 M 385,70 L 395,29"/>
+    <path d="M 537,70 L 495,70 M 495,70 L 453,70"/>
+  </g>
+  <g fill="#222222" font-family="Georgia, 'Times New Roman', serif" font-size="18" font-weight="bold" text-anchor="middle">
+    <text x="55"  y="112">A</text>
+    <text x="165" y="112">B</text>
+    <text x="275" y="112">C</text>
+    <text x="385" y="112">D</text>
+    <text x="495" y="112">E</text>
+  </g>
+</svg>

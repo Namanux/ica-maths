@@ -1,0 +1,332 @@
+{
+  "id": "edutest-y6-verbal-3",
+  "exam": "edutest",
+  "subject": "Verbal Reasoning",
+  "yearLevel": 6,
+  "paperCode": "Y6-Verbal-Original set3",
+  "title": "Y6-Verbal-Original set3",
+  "year": 2026,
+  "timeLimitMinutes": 18,
+  "questions": [
+    {
+      "id": "edt-y6vr3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Which of the following is another word for OPTIMISTIC?",
+      "options": [
+        { "label": "A", "text": "eye specialist" },
+        { "label": "B", "text": "confused" },
+        { "label": "C", "text": "positive" },
+        { "label": "D", "text": "cynical" },
+        { "label": "E", "text": "pessimistic" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Both \"optimistic\" and \"positive\" describe a hopeful outlook.",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y6vr3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "The bird is smaller than the dog, but bigger than the cat. The piglet is bigger than the bird. The dog is bigger than the cat, but smaller than the goat. The goat is larger than the dog and also larger than the piglet. Which is the smallest animal?",
+      "options": [
+        { "label": "A", "text": "bird" },
+        { "label": "B", "text": "dog" },
+        { "label": "C", "text": "cat" },
+        { "label": "D", "text": "goat" },
+        { "label": "E", "text": "piglet" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The bird is bigger than the cat, and every other animal is bigger than the bird, so the cat is the smallest.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y6vr3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "PICTURE is to SIGHT as MUSIC is to:",
+      "options": [
+        { "label": "A", "text": "noisy" },
+        { "label": "B", "text": "ears" },
+        { "label": "C", "text": "hearing" },
+        { "label": "D", "text": "touch" },
+        { "label": "E", "text": "taste" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "We use sight to experience a picture; we use hearing to experience music.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y6vr3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Which TWO statements together most strongly suggest that TODAY IS HOT?\n1. The sun is out today.\n2. I must put sunscreen on so I don't burn.\n3. It was cold on Wednesday.\n4. Today is Tuesday.\n5. On the weekend, the weather man guaranteed Monday and Thursday would be cold but the days in between would be hot.",
+      "options": [
+        { "label": "A", "text": "4 & 5" },
+        { "label": "B", "text": "1 & 2" },
+        { "label": "C", "text": "1 & 5" },
+        { "label": "D", "text": "3 & 5" },
+        { "label": "E", "text": "3 & 4" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Statement 5 says the days between Monday and Thursday — Tuesday and Wednesday — are hot. Statement 4 says today is Tuesday. Together they prove today is hot.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y6vr3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Which of the following words is SIMILAR in meaning to COLLAGE?",
+      "options": [
+        { "label": "A", "text": "university" },
+        { "label": "B", "text": "patchwork" },
+        { "label": "C", "text": "watercolour" },
+        { "label": "D", "text": "stuck" },
+        { "label": "E", "text": "school" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Both a collage and a patchwork are created by assembling different pieces or materials together.",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y6vr3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "When read backwards, which of the following words does not create a new word?",
+      "options": [
+        { "label": "A", "text": "wets" },
+        { "label": "B", "text": "flow" },
+        { "label": "C", "text": "draw" },
+        { "label": "D", "text": "spine" },
+        { "label": "E", "text": "reward" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Backwards, wets becomes stew, flow becomes wolf, draw becomes ward, and reward becomes drawer. Spine backwards (enips) is not a valid word.",
+      "topic": "Letters, Codes & Series"
+    },
+    {
+      "id": "edt-y6vr3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Six friends joined the same library, all on different days. Esme joined after Clea, who joined before Desmond. Clea joined immediately before Agnes and immediately after Bede. Franco was not the last person to join but signed up after Desmond.\nWho was the first person to join the library?",
+      "options": [
+        { "label": "A", "text": "Bede" },
+        { "label": "B", "text": "Clea" },
+        { "label": "C", "text": "Franco" },
+        { "label": "D", "text": "Desmond" },
+        { "label": "E", "text": "Esme" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The order of joining from first to last was Bede, Clea, Agnes, Desmond, Franco, Esme.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y6vr3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Emily has one brother, Tommy, and a sister, Kelly. Emily and her father both have black hair. Tommy and Kelly have the same colour hair.\nIf only one male in the house has black hair and the other male has brown hair, what colour hair does Kelly have?",
+      "options": [
+        { "label": "A", "text": "black" },
+        { "label": "B", "text": "blonde" },
+        { "label": "C", "text": "red" },
+        { "label": "D", "text": "brown" },
+        { "label": "E", "text": "none of these" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The father has black hair. Since only one male has black hair, Tommy must have brown hair. Kelly has the same hair colour as Tommy, so Kelly also has brown hair.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y6vr3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "In a certain code, the word CARTS is written as SCART.\nTherefore, what would the code for SCORN be?",
+      "options": [
+        { "label": "A", "text": "CORNS" },
+        { "label": "B", "text": "CORSN" },
+        { "label": "C", "text": "NSCOR" },
+        { "label": "D", "text": "SNORC" },
+        { "label": "E", "text": "CRONS" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The rule moves the last letter to the front of the word. Moving the 'N' from the end of SCORN to the front gives NSCOR.",
+      "topic": "Letters, Codes & Series"
+    },
+    {
+      "id": "edt-y6vr3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Which word does not belong with the others?",
+      "options": [
+        { "label": "A", "text": "guitar" },
+        { "label": "B", "text": "flute" },
+        { "label": "C", "text": "violin" },
+        { "label": "D", "text": "cello" },
+        { "label": "E", "text": "ukelele" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Guitar, violin, cello and ukulele are all string instruments, whereas the flute is a wind instrument.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y6vr3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Four of the following words are alike in some way. Which of the following words is the odd one out?",
+      "options": [
+        { "label": "A", "text": "happy" },
+        { "label": "B", "text": "joyful" },
+        { "label": "C", "text": "glad" },
+        { "label": "D", "text": "cheerful" },
+        { "label": "E", "text": "reticent" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Happy, joyful, glad and cheerful all describe positive, cheerful emotions. \"Reticent\" means reserved or quiet.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y6vr3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "PARTS is to STRAP as WOLF is to:",
+      "options": [
+        { "label": "A", "text": "fox" },
+        { "label": "B", "text": "flow" },
+        { "label": "C", "text": "wood" },
+        { "label": "D", "text": "den" },
+        { "label": "E", "text": "canine" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "\"PARTS\" spelled backwards is \"STRAP\". \"WOLF\" spelled backwards is \"FLOW\".",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y6vr3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "DOCTOR is to HOSPITAL as ACTOR is to:",
+      "options": [
+        { "label": "A", "text": "performing" },
+        { "label": "B", "text": "theatre" },
+        { "label": "C", "text": "script" },
+        { "label": "D", "text": "Hollywood" },
+        { "label": "E", "text": "unemployed" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "A doctor's workplace is a hospital; an actor's workplace is a theatre.",
+      "topic": "Analogies"
+    },
+    {
+      "id": "edt-y6vr3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "All of the words below are alike in some way:\nadore | admire | worship | idolise\nWhich of the following options could be included with the words above?",
+      "options": [
+        { "label": "A", "text": "diminish" },
+        { "label": "B", "text": "guard" },
+        { "label": "C", "text": "revere" },
+        { "label": "D", "text": "acknowledge" },
+        { "label": "E", "text": "restrain" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "\"Revere\" shares the same core meaning of high respect and devotion as the given list.",
+      "topic": "Word Meanings"
+    },
+    {
+      "id": "edt-y6vr3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Brett runs 4 km north from his work. His home is 2 km east of his work. If he then rides his bike 2 km west and 4 km south, how far is Brett from his home?",
+      "options": [
+        { "label": "A", "text": "1 kilometre" },
+        { "label": "B", "text": "3 kilometres" },
+        { "label": "C", "text": "4 kilometres" },
+        { "label": "D", "text": "2 kilometres" },
+        { "label": "E", "text": "He has returned to his home." }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Running 4 km north then riding 4 km south cancels out, leaving Brett level with his work. Riding 2 km west puts him 2 km west of work. His home is 2 km east of work, so he is 2 km + 2 km = 4 km from home.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y6vr3-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Each pair of words in the list below is meant to fit into the same pattern. However, one pair does not fit. Which pair is it?",
+      "options": [
+        { "label": "A", "text": "angry, furious" },
+        { "label": "B", "text": "big, enormous" },
+        { "label": "C", "text": "clever, intelligent" },
+        { "label": "D", "text": "small, tiny" },
+        { "label": "E", "text": "gross, dangerous" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "In A, B, C and D the second word is a stronger version of the first (or a synonym). \"Gross\" and \"dangerous\" are not related in that way.",
+      "topic": "Odd One Out"
+    },
+    {
+      "id": "edt-y6vr3-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Which of the following words cannot be made by re-jumbling some, or all, of the letters in REVEALED?",
+      "options": [
+        { "label": "A", "text": "vealer" },
+        { "label": "B", "text": "evader" },
+        { "label": "C", "text": "reeled" },
+        { "label": "D", "text": "reveller" },
+        { "label": "E", "text": "levered" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "REVEALED contains only one 'L'. \"Reveller\" needs two 'L's, so it cannot be formed.",
+      "topic": "Letters, Codes & Series"
+    },
+    {
+      "id": "edt-y6vr3-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "In a foreign language:\n• sup wit flim? means \"where is the chocolate?\"\n• flim wit bin koin means \"the chocolate is in the cupboard\"\n• sup bin koin? means \"where in the cupboard?\"\nWhich word means \"where\"?",
+      "options": [
+        { "label": "A", "text": "wit" },
+        { "label": "B", "text": "koin" },
+        { "label": "C", "text": "flim" },
+        { "label": "D", "text": "bin" },
+        { "label": "E", "text": "sup" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Comparing the first two sentences, flim = chocolate and wit = is. Comparing the last two, bin koin = in the cupboard. That leaves sup = where.",
+      "topic": "Letters, Codes & Series"
+    },
+    {
+      "id": "edt-y6vr3-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Assume that:\n• All gifs are gafs.\n• All peas are herns.\n• Some twas are peas.\nTherefore, it makes sense that:",
+      "options": [
+        { "label": "A", "text": "all twas are peas." },
+        { "label": "B", "text": "some gifs are herns." },
+        { "label": "C", "text": "all peas are twas." },
+        { "label": "D", "text": "some twas are herns." },
+        { "label": "E", "text": "all gafs are herns." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Some twas are peas, and every pea is a hern, so those twas that are peas must also be herns. Therefore some twas are herns.",
+      "topic": "Logical Deduction"
+    },
+    {
+      "id": "edt-y6vr3-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "Select TWO options which together most strongly suggest that: Bruce is a folk singer.\n1. Bruce sings in a band.\n2. Bruce likes folk music the best.\n3. Folk singing requires a lot of voice training.\n4. Bruce began singing when he was nine.\n5. Bruce's band plays folk music.",
+      "options": [
+        { "label": "A", "text": "1 & 5" },
+        { "label": "B", "text": "3 & 4" },
+        { "label": "C", "text": "1 & 2" },
+        { "label": "D", "text": "2 & 5" },
+        { "label": "E", "text": "2 & 3" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Statement 1 says Bruce is a singer in a band, and statement 5 says that band plays folk music. Together they imply Bruce is a folk singer.",
+      "topic": "Logical Deduction"
+    }
+  ]
+}

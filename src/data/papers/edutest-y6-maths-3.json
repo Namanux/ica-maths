@@ -1,0 +1,335 @@
+{
+  "id": "edutest-y6-maths-3",
+  "exam": "edutest",
+  "subject": "Mathematics",
+  "yearLevel": 6,
+  "paperCode": "Y6-Maths-Original set3",
+  "title": "Y6-Maths-Original set3",
+  "year": 2026,
+  "timeLimitMinutes": 20,
+  "questions": [
+    {
+      "id": "edt-y6m3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Kirsty had $4 and spent 25% of it. How much does Kirsty have left?",
+      "options": [
+        { "label": "A", "text": "$3.75" },
+        { "label": "B", "text": "$2" },
+        { "label": "C", "text": "$1" },
+        { "label": "D", "text": "$3" },
+        { "label": "E", "text": "$2.75" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "25% of $4 is $1, so Kirsty spent $1 and has $4 − $1 = $3 left.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y6m3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Which is the largest number?",
+      "options": [
+        { "label": "A", "text": "0.85" },
+        { "label": "B", "text": "0.8" },
+        { "label": "C", "text": "0.79" },
+        { "label": "D", "text": "0.09" },
+        { "label": "E", "text": "0.83" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "0.85 > 0.83 > 0.8 > 0.79 > 0.09, so 0.85 is the largest.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y6m3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "182 + 27 + 11 =",
+      "options": [
+        { "label": "A", "text": "200" },
+        { "label": "B", "text": "220" },
+        { "label": "C", "text": "180" },
+        { "label": "D", "text": "100" },
+        { "label": "E", "text": "210" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "182 + 27 = 209, and 209 + 11 = 220.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y6m3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "If you choose a marble from a bag containing the marbles shown, what is the chance of drawing a green marble (labelled G)? Give your answer as a fraction.",
+      "imageUrl": "/questions/edutest-y6-maths-3/q4.svg",
+      "options": [
+        { "label": "A", "text": "3/7" },
+        { "label": "B", "text": "1" },
+        { "label": "C", "text": "4/7" },
+        { "label": "D", "text": "0" },
+        { "label": "E", "text": "1/7" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "There are 4 green marbles (labelled G) out of 7 marbles in total, so the chance is 4/7.",
+      "topic": "Data & Statistics"
+    },
+    {
+      "id": "edt-y6m3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "60 ÷ 10 + 2 × 3 =",
+      "options": [
+        { "label": "A", "text": "24" },
+        { "label": "B", "text": "4" },
+        { "label": "C", "text": "12" },
+        { "label": "D", "text": "10" },
+        { "label": "E", "text": "22" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Do multiplication and division first: (60 ÷ 10) + (2 × 3) = 6 + 6 = 12.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y6m3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Find the value of ❖ when ❖ ÷ 3 = 6",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "9" },
+        { "label": "C", "text": "18" },
+        { "label": "D", "text": "2" },
+        { "label": "E", "text": "0" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "❖ ÷ 3 = 6 means ❖ = 6 × 3 = 18.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "edt-y6m3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Put these numbers in order from smallest to largest:\n6.3, 3.123, 0.456, 2.86",
+      "options": [
+        { "label": "A", "text": "6.3, 3.123, 0.456, 2.86" },
+        { "label": "B", "text": "0.456, 2.86, 3.123, 6.3" },
+        { "label": "C", "text": "6.3, 0.456, 2.86, 3.123" },
+        { "label": "D", "text": "2.86, 3.123, 0.456, 6.3" },
+        { "label": "E", "text": "0.456, 3.123, 2.86, 6.3" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "0.456 < 2.86 < 3.123 < 6.3, so the order is 0.456, 2.86, 3.123, 6.3.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y6m3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "How many minutes between 10:10 am and 7:35 pm?",
+      "options": [
+        { "label": "A", "text": "565" },
+        { "label": "B", "text": "465" },
+        { "label": "C", "text": "505" },
+        { "label": "D", "text": "405" },
+        { "label": "E", "text": "665" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "From 10:10 am to 7:35 pm is 9 hours and 25 minutes. 9 × 60 + 25 = 565 minutes.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y6m3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "What is the size of the third angle in this triangle?",
+      "imageUrl": "/questions/edutest-y6-maths-3/q9.svg",
+      "options": [
+        { "label": "A", "text": "75°" },
+        { "label": "B", "text": "255°" },
+        { "label": "C", "text": "105°" },
+        { "label": "D", "text": "35°" },
+        { "label": "E", "text": "65°" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The angles in a triangle add to 180°, so 180° − 70° − 35° = 75°.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "edt-y6m3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "Meagan bought a piece of fabric that was 8.43 metres long, then she cut off 6.6 metres to use for a dress. How much fabric is left?",
+      "options": [
+        { "label": "A", "text": "15.03 m" },
+        { "label": "B", "text": "7.77 m" },
+        { "label": "C", "text": "1.83 m" },
+        { "label": "D", "text": "2.37 m" },
+        { "label": "E", "text": "2.83 m" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "8.43 m − 6.6 m = 1.83 m.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y6m3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "What is the missing number in the pattern?\n1/3,  3/5,  5/7,  ?,  9/11",
+      "options": [
+        { "label": "A", "text": "7/11" },
+        { "label": "B", "text": "8/12" },
+        { "label": "C", "text": "7/9" },
+        { "label": "D", "text": "7/13" },
+        { "label": "E", "text": "8/11" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Each step the numerator increases by 2 and the denominator increases by 2: 1/3, 3/5, 5/7, 7/9, 9/11.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "edt-y6m3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Which two numbers multiply to give 10 and add to give 7?",
+      "options": [
+        { "label": "A", "text": "3, 4" },
+        { "label": "B", "text": "8, 2" },
+        { "label": "C", "text": "2, 5" },
+        { "label": "D", "text": "2, 6" },
+        { "label": "E", "text": "6, 3" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The whole-number pairs that multiply to 10 are 2 & 5 or 1 & 10. Only 2 & 5 add to 7.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y6m3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "What is the sum of the following numbers?\n3, 43, 543, 6543, 76543",
+      "options": [
+        { "label": "A", "text": "83678" },
+        { "label": "B", "text": "83675" },
+        { "label": "C", "text": "269273" },
+        { "label": "D", "text": "200873" },
+        { "label": "E", "text": "14786" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Each number ends in 3, and 3 + 3 + 3 + 3 + 3 = 15, so the total ends in 5. 3 + 43 + 543 + 6543 + 76543 = 83675.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y6m3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "How many metres in ½ a kilometre?",
+      "options": [
+        { "label": "A", "text": "50" },
+        { "label": "B", "text": "5000" },
+        { "label": "C", "text": "500" },
+        { "label": "D", "text": "5" },
+        { "label": "E", "text": "250" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "There are 1000 metres in a kilometre, so half of 1000 is 500.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y6m3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Which number is made up of 6 thousands, 5 hundreds, 8 units (ones) and 5 tenths?",
+      "options": [
+        { "label": "A", "text": "658.5" },
+        { "label": "B", "text": "6508.5" },
+        { "label": "C", "text": "65085" },
+        { "label": "D", "text": "6058.5" },
+        { "label": "E", "text": "6585" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "6000 + 500 + 8 + 0.5 = 6508.5.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y6m3-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "If each block is one cubic centimetre, how many cubic centimetres are in the shape?",
+      "imageUrl": "/questions/edutest-y6-maths-3/q16.svg",
+      "options": [
+        { "label": "A", "text": "15" },
+        { "label": "B", "text": "23" },
+        { "label": "C", "text": "20" },
+        { "label": "D", "text": "19" },
+        { "label": "E", "text": "7" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The back wall has 12 blocks, the middle wall has 8 blocks and the front row has 3 blocks: 12 + 8 + 3 = 23.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y6m3-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Which of these numbers is not a prime number?",
+      "options": [
+        { "label": "A", "text": "11" },
+        { "label": "B", "text": "13" },
+        { "label": "C", "text": "15" },
+        { "label": "D", "text": "17" },
+        { "label": "E", "text": "19" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "15 = 3 × 5, so it has factors other than 1 and itself and is not prime.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y6m3-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "Which letter has two lines of symmetry?",
+      "options": [
+        { "label": "A", "text": "A" },
+        { "label": "B", "text": "H" },
+        { "label": "C", "text": "M" },
+        { "label": "D", "text": "P" },
+        { "label": "E", "text": "Z" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "H has two lines of symmetry — one vertical and one horizontal. A and M have only one; P and Z have none.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "edt-y6m3-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "A metal ball weighs 65.3 grams. How much do 7 balls weigh altogether?",
+      "options": [
+        { "label": "A", "text": "65.3 g" },
+        { "label": "B", "text": "457.1 g" },
+        { "label": "C", "text": "425.1 g" },
+        { "label": "D", "text": "4571 g" },
+        { "label": "E", "text": "4.571 kg" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "65.3 × 7 = 457.1 g.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y6m3-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "Finn walks 29/10 km to get to the supermarket. Noah rides 17/10 km to get to the same supermarket. How much further does Finn have to travel than Noah to get to the supermarket?",
+      "options": [
+        { "label": "A", "text": "1/5 km" },
+        { "label": "B", "text": "4/5 km" },
+        { "label": "C", "text": "11/10 km" },
+        { "label": "D", "text": "1 1/5 km" },
+        { "label": "E", "text": "16/10 km" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "29/10 − 17/10 = 12/10 = 1 2/10 = 1 1/5 km.",
+      "topic": "Number"
+    }
+  ]
+}

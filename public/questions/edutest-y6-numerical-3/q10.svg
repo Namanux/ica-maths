@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="300" height="300" role="img" aria-label="Three by three number grid. Row one: 3, star, 7. Row two: 5, 7, 9. Row three: question mark, 9, 11.">
+  <rect x="0" y="0" width="300" height="300" fill="#ffffff"/>
+  <g stroke="#111111" stroke-width="3" fill="none">
+    <rect x="6" y="6" width="288" height="288"/>
+    <line x1="102" y1="6" x2="102" y2="294"/>
+    <line x1="198" y1="6" x2="198" y2="294"/>
+    <line x1="6" y1="102" x2="294" y2="102"/>
+    <line x1="6" y1="198" x2="294" y2="198"/>
+  </g>
+  <g fill="#111111" font-family="Georgia, 'Times New Roman', serif" font-size="40" text-anchor="middle">
+    <text x="54"  y="67">3</text>
+    <text x="150" y="72">&#8727;</text>
+    <text x="246" y="67">7</text>
+    <text x="54"  y="163">5</text>
+    <text x="150" y="163">7</text>
+    <text x="246" y="163">9</text>
+    <text x="54"  y="259">?</text>
+    <text x="150" y="259">9</text>
+    <text x="246" y="259">11</text>
+  </g>
+</svg>

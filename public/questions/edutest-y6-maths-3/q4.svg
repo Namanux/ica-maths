@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 96" width="384" height="96" role="img" aria-label="A bag of 7 marbles: 4 are green and labelled G, 3 are plain.">
+  <rect x="0" y="0" width="384" height="96" fill="#ffffff"/>
+  <g stroke="#222222" stroke-width="2">
+    <circle cx="40"  cy="48" r="24" fill="#37a05a"/>
+    <circle cx="94"  cy="48" r="24" fill="#a9c7de"/>
+    <circle cx="148" cy="48" r="24" fill="#37a05a"/>
+    <circle cx="202" cy="48" r="24" fill="#37a05a"/>
+    <circle cx="256" cy="48" r="24" fill="#a9c7de"/>
+    <circle cx="310" cy="48" r="24" fill="#37a05a"/>
+    <circle cx="364" cy="48" r="24" fill="#a9c7de"/>
+  </g>
+  <g fill="#ffffff" font-family="Georgia, 'Times New Roman', serif" font-size="24" font-weight="bold" text-anchor="middle">
+    <text x="40"  y="57">G</text>
+    <text x="148" y="57">G</text>
+    <text x="202" y="57">G</text>
+    <text x="310" y="57">G</text>
+  </g>
+</svg>

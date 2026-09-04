@@ -1,0 +1,252 @@
+{
+  "id": "edutest-y4-numerical-3",
+  "exam": "edutest",
+  "subject": "Numerical Reasoning",
+  "yearLevel": 4,
+  "paperCode": "Y4-Numerical-Original set3",
+  "title": "Y4-Numerical-Original set3",
+  "year": 2026,
+  "timeLimitMinutes": 18,
+  "questions": [
+    {
+      "id": "edt-y4nr3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n10, 8, 6, ?, 2",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "4" },
+        { "label": "C", "text": "5" },
+        { "label": "D", "text": "6" },
+        { "label": "E", "text": "10" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The numbers decrease by 2 each time: 10, 8, 6, 4, 2.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y4nr3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n9, 7, 5, ?, 1",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "4" },
+        { "label": "D", "text": "3" },
+        { "label": "E", "text": "2" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The numbers decrease by 2 each time: 9, 7, 5, 3, 1.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y4nr3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n35, 30, 25, ?, 15, 10",
+      "options": [
+        { "label": "A", "text": "5" },
+        { "label": "B", "text": "10" },
+        { "label": "C", "text": "15" },
+        { "label": "D", "text": "20" },
+        { "label": "E", "text": "0" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The numbers decrease by 5 each time: 35, 30, 25, 20, 15, 10.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y4nr3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Find the two missing numbers in this sequence:\n6, 8, ?, 12, ?, 16",
+      "options": [
+        { "label": "A", "text": "6, 12" },
+        { "label": "B", "text": "8, 14" },
+        { "label": "C", "text": "12, 10" },
+        { "label": "D", "text": "10, 18" },
+        { "label": "E", "text": "10, 14" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "The numbers increase by 2 each time: 6, 8, 10, 12, 14, 16.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y4nr3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n5, A, 4, B, ?, C, 2, D, 1",
+      "options": [
+        { "label": "A", "text": "2" },
+        { "label": "B", "text": "3" },
+        { "label": "C", "text": "4" },
+        { "label": "D", "text": "5" },
+        { "label": "E", "text": "F" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Two patterns alternate. The numbers 5, 4, ?, 2, 1 decrease by 1 each time, so the missing number is 3. The letters A, B, C, D are already complete.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y4nr3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n1, 10, 2, 20, 3, 30, 4, ?, 5",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "50" },
+        { "label": "C", "text": "40" },
+        { "label": "D", "text": "6" },
+        { "label": "E", "text": "0" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Two patterns alternate. The numbers 1, 2, 3, 4, 5 go up by 1, and the numbers 10, 20, 30, ? go up by 10, so the missing number is 40.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y4nr3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n32, 30, 28, 26, ?, 22",
+      "options": [
+        { "label": "A", "text": "29" },
+        { "label": "B", "text": "27" },
+        { "label": "C", "text": "25" },
+        { "label": "D", "text": "24" },
+        { "label": "E", "text": "23" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The numbers decrease by 2 each time: 26 − 2 = 24.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y4nr3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Lesley has twice as many dresses as she does jeans. If Lesley has 8 dresses, how many jeans does she have?",
+      "options": [
+        { "label": "A", "text": "4" },
+        { "label": "B", "text": "8" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "2" },
+        { "label": "E", "text": "13" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Lesley has half as many jeans as dresses: 8 ÷ 2 = 4 pairs of jeans.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y4nr3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "If a certain number plus 5 equals 15, then the value of that certain number is?",
+      "options": [
+        { "label": "A", "text": "5" },
+        { "label": "B", "text": "9" },
+        { "label": "C", "text": "10" },
+        { "label": "D", "text": "18" },
+        { "label": "E", "text": "20" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Subtract 5 from 15: 15 − 5 = 10.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y4nr3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "A chocolate ice-cream costs half the amount of a strawberry ice-cream. If a chocolate ice-cream costs $2, how much is a strawberry ice-cream?",
+      "options": [
+        { "label": "A", "text": "$2" },
+        { "label": "B", "text": "$4" },
+        { "label": "C", "text": "$6" },
+        { "label": "D", "text": "$8" },
+        { "label": "E", "text": "$10" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The strawberry ice-cream costs twice as much as the chocolate one: $2 × 2 = $4.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y4nr3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "James has three couches. If each couch fits two people, how many people can sit down?",
+      "options": [
+        { "label": "A", "text": "9" },
+        { "label": "B", "text": "8" },
+        { "label": "C", "text": "7" },
+        { "label": "D", "text": "6" },
+        { "label": "E", "text": "3" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "3 couches × 2 people each = 6 people.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y4nr3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Every time Jackie takes a bite of her cake, her brother Liam takes two bites. If Jackie takes three bites, how many bites does Liam take?",
+      "options": [
+        { "label": "A", "text": "2" },
+        { "label": "B", "text": "4" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "7" },
+        { "label": "E", "text": "8" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Liam takes twice as many bites as Jackie: 3 × 2 = 6.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y4nr3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Billy's car seats six people. Kelly's car seats four people. If Billy and his five friends sit in his car, and Kelly and her three friends sit in her car, how many more people does Billy have in his car?",
+      "options": [
+        { "label": "A", "text": "1" },
+        { "label": "B", "text": "2" },
+        { "label": "C", "text": "3" },
+        { "label": "D", "text": "4" },
+        { "label": "E", "text": "5" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Billy's car has 6 people (Billy + 5 friends) and Kelly's car has 4 people (Kelly + 3 friends). 6 − 4 = 2 more.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y4nr3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "My watch is 30 minutes slow. If my watch says it is 1 pm, what is the real time?",
+      "options": [
+        { "label": "A", "text": "12.30 pm" },
+        { "label": "B", "text": "1.00 pm" },
+        { "label": "C", "text": "1.30 pm" },
+        { "label": "D", "text": "2 pm" },
+        { "label": "E", "text": "1.30 am" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The watch is 30 minutes slow, so add 30 minutes: 1.00 pm + 30 minutes = 1.30 pm.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y4nr3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Olivia's mother sends her to the shop with $10 to buy some muffins. If one muffin costs $2, how many muffins can she buy?",
+      "options": [
+        { "label": "A", "text": "10" },
+        { "label": "B", "text": "8" },
+        { "label": "C", "text": "5" },
+        { "label": "D", "text": "2" },
+        { "label": "E", "text": "0" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Divide the money by the price of one muffin: $10 ÷ $2 = 5 muffins.",
+      "topic": "Problem Solving"
+    }
+  ]
+}

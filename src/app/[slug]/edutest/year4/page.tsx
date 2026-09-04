@@ -29,7 +29,7 @@ const EDUTEST_SUBJECTS = [
   },
 ];
 
-export default async function EduTestYear6({
+export default async function EduTestYear4({
   params,
 }: {
   params: Promise<{ slug: string }>;
@@ -41,7 +41,7 @@ export default async function EduTestYear6({
   return (
     <div className="flex flex-col gap-6">
       <div>
-        <h1 className="text-2xl font-semibold tracking-tight">Year 6</h1>
+        <h1 className="text-2xl font-semibold tracking-tight">Year 4</h1>
         <p className="text-muted mt-1">Choose a subject to practise.</p>
       </div>
 
@@ -50,7 +50,7 @@ export default async function EduTestYear6({
           subject.available ? (
             <Link
               key={subject.slug}
-              href={`/${slug}/edutest/year6/${subject.slug}`}
+              href={`/${slug}/edutest/year4/${subject.slug}`}
               className="flex items-center justify-between rounded-lg border border-border p-4 hover:bg-surface transition-colors"
             >
               <div>

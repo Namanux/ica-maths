@@ -1,0 +1,320 @@
+{
+  "id": "edutest-y6-numerical-3",
+  "exam": "edutest",
+  "subject": "Numerical Reasoning",
+  "yearLevel": 6,
+  "paperCode": "Y6-Numerical-Original set3",
+  "title": "Y6-Numerical-Original set3",
+  "year": 2026,
+  "timeLimitMinutes": 20,
+  "questions": [
+    {
+      "id": "edt-y6nr3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n3, 6, 9, ?, 15",
+      "options": [
+        { "label": "A", "text": "11" },
+        { "label": "B", "text": "12" },
+        { "label": "C", "text": "13" },
+        { "label": "D", "text": "14" },
+        { "label": "E", "text": "10" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The numbers increase by 3 each time: 3, 6, 9, 12, 15.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y6nr3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "There are 10 people in a room. 7 people are wearing socks, and 4 people are wearing shoes. 3 people are wearing both. How many people are in bare feet?",
+      "options": [
+        { "label": "A", "text": "0" },
+        { "label": "B", "text": "1" },
+        { "label": "C", "text": "2" },
+        { "label": "D", "text": "3" },
+        { "label": "E", "text": "4" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Socks only: 7 − 3 = 4. Shoes only: 4 − 3 = 1. Both: 3. People wearing shoes or socks: 4 + 1 + 3 = 8. Bare feet: 10 − 8 = 2.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Find the two missing numbers in this sequence:\n1, 3, ?, 7, 9, ?, 13",
+      "options": [
+        { "label": "A", "text": "5, 11" },
+        { "label": "B", "text": "5, 12" },
+        { "label": "C", "text": "6, 10" },
+        { "label": "D", "text": "6, 11" },
+        { "label": "E", "text": "6, 12" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The numbers increase by 2 each time: 1, 3, 5, 7, 9, 11, 13.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y6nr3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "Find the two missing numbers in this sequence:\n1, 4, ?, 10, ?, 16",
+      "options": [
+        { "label": "A", "text": "6 & 12" },
+        { "label": "B", "text": "8 & 14" },
+        { "label": "C", "text": "7 & 13" },
+        { "label": "D", "text": "7 & 12" },
+        { "label": "E", "text": "7 & 11" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The numbers increase by 3 each time: 1, 4, 7, 10, 13, 16.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y6nr3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "A family of five children is each paid their pocket money in a different way:\n• Andrew receives $5.00 every week.\n• Barbara receives $8.00 the first week, then $1.00 less each week than the week before.\n• Cooper receives 50c the first week, then double the previous week's amount each week.\n• David receives 10c the first week, then triple the amount each week.\n• Eliza receives $18.00 the first week, then half the previous amount in the following weeks.\nAfter six weeks who has received the most money?",
+      "options": [
+        { "label": "A", "text": "Andrew" },
+        { "label": "B", "text": "Barbara" },
+        { "label": "C", "text": "Cooper" },
+        { "label": "D", "text": "David" },
+        { "label": "E", "text": "Eliza" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Andrew: 5 × 6 = $30.00. Barbara: 8 + 7 + 6 + 5 + 4 + 3 = $33.00. Cooper: 0.50 + 1.00 + 2.00 + 4.00 + 8.00 + 16.00 = $31.50. David: 0.10 + 0.30 + 0.90 + 2.70 + 8.10 + 24.30 = $36.40. Eliza: 18 + 9 + 4.50 + 2.25 + 1.125 + 0.5625 ≈ $35.44. David received the most.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "The numbers in each pair are related to each other in the same way. What is the missing number?\n(20, 5)  (24, 6)  (252, ?)",
+      "options": [
+        { "label": "A", "text": "237" },
+        { "label": "B", "text": "234" },
+        { "label": "C", "text": "25.2" },
+        { "label": "D", "text": "63" },
+        { "label": "E", "text": "84" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Divide the first number by 4 to get the second number: 20 ÷ 4 = 5, 24 ÷ 4 = 6, 252 ÷ 4 = 63.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "The clock shown reads 10:09. What will the time be in 43 minutes?",
+      "options": [
+        { "label": "A", "text": "10:52" },
+        { "label": "B", "text": "9:26" },
+        { "label": "C", "text": "11:52" },
+        { "label": "D", "text": "10:43" },
+        { "label": "E", "text": "11:09" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "10:09 + 43 minutes = 10:52.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "The numbers in the grid go together in a certain way. Which number should be in the square marked by the question mark?",
+      "imageUrl": "/questions/edutest-y6-numerical-3/q8.svg",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "4" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "7" },
+        { "label": "E", "text": "8" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Each row increases by 2 moving left to right, and each column increases by 2 moving top to bottom. The top row is 2, 4, 6, so the missing number is 6.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Mike ate one quarter (1/4) of a pizza and his friends Matt and Mark equally shared what was left. Who ate the smallest amount?",
+      "options": [
+        { "label": "A", "text": "Mike" },
+        { "label": "B", "text": "Matt" },
+        { "label": "C", "text": "Mark" },
+        { "label": "D", "text": "They all ate the same." },
+        { "label": "E", "text": "Matt and Mark." }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Remaining pizza: 1 − 1/4 = 3/4. Matt and Mark shared 3/4 equally: 3/4 ÷ 2 = 3/8 each. Mike ate 1/4 = 2/8, which is smaller than 3/8, so Mike ate the smallest amount.",
+      "topic": "Fractions & Proportion"
+    },
+    {
+      "id": "edt-y6nr3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "The numbers in the grid go together in a certain way. The * has been placed in one square to hide the number underneath. Which number should be in the square marked by the question mark?",
+      "imageUrl": "/questions/edutest-y6-numerical-3/q10.svg",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "7" },
+        { "label": "C", "text": "8" },
+        { "label": "D", "text": "9" },
+        { "label": "E", "text": "0" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The middle row increases by 2 from left to right (5, 7, 9) and the rightmost column increases by 2 from top to bottom (7, 9, 11). The left column is 3, 5, 7, so the missing number is 7. (The hidden number under the * is 5.)",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "The lowest recorded temperature at ground level on Earth is −89.2°C, in Russia in 1983. The hottest temperature recorded was 56.7°C, in 1913 in California. What is the difference between these two temperatures?",
+      "options": [
+        { "label": "A", "text": "32.3°C" },
+        { "label": "B", "text": "−32.3°C" },
+        { "label": "C", "text": "74.7°C" },
+        { "label": "D", "text": "−145.9°C" },
+        { "label": "E", "text": "145.9°C" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "56.7 − (−89.2) = 56.7 + 89.2 = 145.9°C.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "The numbers in the grid go together in a certain way. The * has been placed in one square to hide the number underneath. Which number should be in the square marked by the question mark?",
+      "imageUrl": "/questions/edutest-y6-numerical-3/q12.svg",
+      "options": [
+        { "label": "A", "text": "6" },
+        { "label": "B", "text": "7" },
+        { "label": "C", "text": "8" },
+        { "label": "D", "text": "13" },
+        { "label": "E", "text": "11" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "Down each column the numbers increase by 2 (5, 7, 9 in the middle column; 9, 11, 13 in the right column). The left column is 2, 4, 6, so the missing number is 6. (The hidden number under the * is 13.)",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "A bouncing ball reaches half of its previous height each time it bounces. How high will it reach on the 5th bounce if it is dropped from a building that is 64 metres high?",
+      "options": [
+        { "label": "A", "text": "4 m" },
+        { "label": "B", "text": "8 m" },
+        { "label": "C", "text": "2 m" },
+        { "label": "D", "text": "1 m" },
+        { "label": "E", "text": "1/2 m" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Bounce 1: 32 m. Bounce 2: 16 m. Bounce 3: 8 m. Bounce 4: 4 m. Bounce 5: 2 m.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "If a certain number plus 5 equals 31.5, then the value of that certain number is?",
+      "options": [
+        { "label": "A", "text": "10.5" },
+        { "label": "B", "text": "26.5" },
+        { "label": "C", "text": "31.5" },
+        { "label": "D", "text": "26" },
+        { "label": "E", "text": "24.5" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "31.5 − 5 = 26.5.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "Zac has a jar with 57 Smarties in it. He would like to divide them up between a group of friends so that each person receives the same number. Which statement is correct?",
+      "options": [
+        { "label": "A", "text": "He can divide them equally between nine friends." },
+        { "label": "B", "text": "He can divide them equally between seven friends." },
+        { "label": "C", "text": "He can divide them equally between five friends." },
+        { "label": "D", "text": "He can divide them equally between three friends." },
+        { "label": "E", "text": "He can't divide them equally at all." }
+      ],
+      "correctAnswer": "D",
+      "explanation": "3 is a factor of 57 (57 ÷ 3 = 19). None of 9, 7 or 5 divide evenly into 57.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr3-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "How many triangles are in the image shown?",
+      "imageUrl": "/questions/edutest-y6-numerical-3/q16.svg",
+      "options": [
+        { "label": "A", "text": "9" },
+        { "label": "B", "text": "10" },
+        { "label": "C", "text": "11" },
+        { "label": "D", "text": "12" },
+        { "label": "E", "text": "13" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "There is 1 large triangle, 3 medium triangles, 6 small upright triangles and 3 upside-down triangles, for a total of 13.",
+      "topic": "Logical Reasoning"
+    },
+    {
+      "id": "edt-y6nr3-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Helen takes twice as long as her older sister Sarah to mow the lawn. If it takes Sarah 4 minutes to mow the lawn, how many minutes will it take Helen to mow the lawn?",
+      "options": [
+        { "label": "A", "text": "2" },
+        { "label": "B", "text": "4" },
+        { "label": "C", "text": "8" },
+        { "label": "D", "text": "12" },
+        { "label": "E", "text": "15" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "4 × 2 = 8 minutes.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr3-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "The result of −99 + 88 − 77 + 66 − 55 + 44 − 33 + 22 − 11 is?",
+      "options": [
+        { "label": "A", "text": "zero" },
+        { "label": "B", "text": "positive" },
+        { "label": "C", "text": "negative" },
+        { "label": "D", "text": "a fraction" },
+        { "label": "E", "text": "a decimal" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "−99 + 88 − 77 + 66 − 55 + 44 − 33 + 22 − 11 = −55, which is a negative number.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr3-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Which answer is the largest?",
+      "options": [
+        { "label": "A", "text": "14 × 16" },
+        { "label": "B", "text": "12 × 18" },
+        { "label": "C", "text": "13 × 17" },
+        { "label": "D", "text": "11 × 19" },
+        { "label": "E", "text": "15 × 15" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "14 × 16 = 224, 12 × 18 = 216, 13 × 17 = 221, 11 × 19 = 209, 15 × 15 = 225. Option E is the largest.",
+      "topic": "Problem Solving"
+    }
+  ]
+}

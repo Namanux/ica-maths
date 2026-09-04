@@ -1,0 +1,332 @@
+{
+  "id": "edutest-y6-numerical-2",
+  "exam": "edutest",
+  "subject": "Numerical Reasoning",
+  "yearLevel": 6,
+  "paperCode": "Y6-NR-2",
+  "title": "EduTest-style Year 6 Numerical Reasoning — Practice Paper 2",
+  "year": 2026,
+  "timeLimitMinutes": 20,
+  "questions": [
+    {
+      "id": "edt-y6nr2-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "What number comes next in this sequence?\n5, 11, 23, 47, ___",
+      "options": [
+        { "label": "A", "text": "71" },
+        { "label": "B", "text": "95" },
+        { "label": "C", "text": "93" },
+        { "label": "D", "text": "94" },
+        { "label": "E", "text": "96" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Each term is doubled and then 1 is added: 5×2+1 = 11, 11×2+1 = 23, 23×2+1 = 47, 47×2+1 = 95.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y6nr2-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n100, 91, 83, 76, 70, ___",
+      "options": [
+        { "label": "A", "text": "65" },
+        { "label": "B", "text": "63" },
+        { "label": "C", "text": "64" },
+        { "label": "D", "text": "66" },
+        { "label": "E", "text": "67" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The gaps shrink by one each time: −9, −8, −7, −6, then −5. So 70 − 5 = 65.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y6nr2-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "What number comes next in this sequence?\n3, 4, 7, 11, 18, 29, ___",
+      "options": [
+        { "label": "A", "text": "40" },
+        { "label": "B", "text": "45" },
+        { "label": "C", "text": "46" },
+        { "label": "D", "text": "47" },
+        { "label": "E", "text": "58" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Each term is the sum of the two before it: 3+4 = 7, 4+7 = 11, 7+11 = 18, 11+18 = 29, 18+29 = 47.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y6nr2-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "What number comes next in this sequence?\n2, 6, 18, 54, ___",
+      "options": [
+        { "label": "A", "text": "108" },
+        { "label": "B", "text": "150" },
+        { "label": "C", "text": "156" },
+        { "label": "D", "text": "168" },
+        { "label": "E", "text": "162" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Each term is the one before it multiplied by 3: 2, 6, 18, 54, 162.",
+      "topic": "Number Sequences"
+    },
+    {
+      "id": "edt-y6nr2-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "The two numbers in each pair are related in the same way:\n(4, 9)  (7, 15)  (10, 21)\nWhat number goes with 6?",
+      "options": [
+        { "label": "A", "text": "12" },
+        { "label": "B", "text": "13" },
+        { "label": "C", "text": "14" },
+        { "label": "D", "text": "15" },
+        { "label": "E", "text": "16" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The second number is the first multiplied by 2, then add 1: 4×2+1 = 9, 7×2+1 = 15, 10×2+1 = 21. So 6×2+1 = 13.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr2-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "The two numbers in each pair are related in the same way:\n45 → 9    30 → 6    75 → ?",
+      "options": [
+        { "label": "A", "text": "15" },
+        { "label": "B", "text": "12" },
+        { "label": "C", "text": "18" },
+        { "label": "D", "text": "25" },
+        { "label": "E", "text": "13" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The second number is the first divided by 5: 45 ÷ 5 = 9, 30 ÷ 5 = 6, 75 ÷ 5 = 15.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr2-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "In each row of this grid the third number is made from the first two in the same way:\n3, 4, 14\n5, 2, 12\n6, 3, ?",
+      "options": [
+        { "label": "A", "text": "15" },
+        { "label": "B", "text": "18" },
+        { "label": "C", "text": "19" },
+        { "label": "D", "text": "20" },
+        { "label": "E", "text": "24" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Multiply the first two numbers, then add 2: 3×4+2 = 14, 5×2+2 = 12, 6×3+2 = 20.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr2-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "Find the missing number in this sequence:\n1, 8, 27, 64, ___",
+      "options": [
+        { "label": "A", "text": "81" },
+        { "label": "B", "text": "100" },
+        { "label": "C", "text": "121" },
+        { "label": "D", "text": "128" },
+        { "label": "E", "text": "125" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "These are the cube numbers: 1×1×1, 2×2×2, 3×3×3, 4×4×4, 5×5×5. The next one is 5×5×5 = 125.",
+      "topic": "Number Patterns"
+    },
+    {
+      "id": "edt-y6nr2-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "Apples cost $2 each and oranges cost $3 each. Tom buys 5 apples and 4 oranges and pays with a $50 note. How much change does he get?",
+      "options": [
+        { "label": "A", "text": "$28" },
+        { "label": "B", "text": "$26" },
+        { "label": "C", "text": "$27" },
+        { "label": "D", "text": "$29" },
+        { "label": "E", "text": "$30" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "5 apples cost 5 × $2 = $10 and 4 oranges cost 4 × $3 = $12, a total of $22. Change from $50 is $28.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr2-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "A printer prints 24 pages in 3 minutes. At the same rate, how long will it take to print 96 pages?",
+      "options": [
+        { "label": "A", "text": "10 minutes" },
+        { "label": "B", "text": "12 minutes" },
+        { "label": "C", "text": "11 minutes" },
+        { "label": "D", "text": "14 minutes" },
+        { "label": "E", "text": "16 minutes" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The printer prints 24 ÷ 3 = 8 pages per minute. 96 ÷ 8 = 12 minutes.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr2-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "A bus leaves at 8:50 am and arrives at 12:15 pm. How long is the journey?",
+      "options": [
+        { "label": "A", "text": "3 hours 15 minutes" },
+        { "label": "B", "text": "3 hours 25 minutes" },
+        { "label": "C", "text": "3 hours 35 minutes" },
+        { "label": "D", "text": "3 hours 45 minutes" },
+        { "label": "E", "text": "4 hours 5 minutes" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "From 8:50 am to 11:50 am is 3 hours, and from 11:50 am to 12:15 pm is another 25 minutes. That makes 3 hours 25 minutes.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr2-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "Four friends agree to share the $96 cost of a present equally. One friend can only pay $6, so the other three split the rest equally between them. How much does each of those three pay?",
+      "options": [
+        { "label": "A", "text": "$28" },
+        { "label": "B", "text": "$29" },
+        { "label": "C", "text": "$30" },
+        { "label": "D", "text": "$34" },
+        { "label": "E", "text": "$36" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "After the first friend pays $6, there is $96 − $6 = $90 left. Split between three people that is $90 ÷ 3 = $30 each.",
+      "topic": "Problem Solving"
+    },
+    {
+      "id": "edt-y6nr2-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "What is 4/7 of 63?",
+      "options": [
+        { "label": "A", "text": "28" },
+        { "label": "B", "text": "32" },
+        { "label": "C", "text": "35" },
+        { "label": "D", "text": "36" },
+        { "label": "E", "text": "45" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "One seventh of 63 is 9, so four sevenths is 4 × 9 = 36.",
+      "topic": "Fractions & Proportion"
+    },
+    {
+      "id": "edt-y6nr2-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "A box holds 40 chocolates. 2/5 of them are dark chocolate. How many chocolates are NOT dark chocolate?",
+      "options": [
+        { "label": "A", "text": "24" },
+        { "label": "B", "text": "16" },
+        { "label": "C", "text": "20" },
+        { "label": "D", "text": "25" },
+        { "label": "E", "text": "28" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The chocolates that are not dark are the other 3/5 of the box. Three fifths of 40 is 3 × 8 = 24.",
+      "topic": "Fractions & Proportion"
+    },
+    {
+      "id": "edt-y6nr2-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "A recipe for 3 people uses 240 grams of rice. How much rice is needed to make the same recipe for 8 people?",
+      "options": [
+        { "label": "A", "text": "540 grams" },
+        { "label": "B", "text": "600 grams" },
+        { "label": "C", "text": "630 grams" },
+        { "label": "D", "text": "720 grams" },
+        { "label": "E", "text": "640 grams" }
+      ],
+      "correctAnswer": "E",
+      "explanation": "Each person needs 240 ÷ 3 = 80 grams. For 8 people that is 80 × 8 = 640 grams.",
+      "topic": "Fractions & Proportion"
+    },
+    {
+      "id": "edt-y6nr2-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "Which of these fractions is the smallest?",
+      "options": [
+        { "label": "A", "text": "3/4" },
+        { "label": "B", "text": "5/8" },
+        { "label": "C", "text": "2/3" },
+        { "label": "D", "text": "7/12" },
+        { "label": "E", "text": "5/6" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "As decimals: 3/4 = 0.75, 5/8 = 0.625, 2/3 ≈ 0.667, 7/12 ≈ 0.583, 5/6 ≈ 0.833. The smallest is 7/12.",
+      "topic": "Fractions & Proportion"
+    },
+    {
+      "id": "edt-y6nr2-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "Five runners finish a race. Ella finishes first and Dan finishes last. Anna beats Ben, and Ben beats Cara. Who comes third?",
+      "options": [
+        { "label": "A", "text": "Anna" },
+        { "label": "B", "text": "Cara" },
+        { "label": "C", "text": "Ben" },
+        { "label": "D", "text": "Dan" },
+        { "label": "E", "text": "Ella" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Ella is 1st and Dan is 5th, so Anna, Ben and Cara take places 2, 3 and 4. Anna beats Ben who beats Cara, so Anna is 2nd, Ben is 3rd and Cara is 4th.",
+      "topic": "Logical Reasoning"
+    },
+    {
+      "id": "edt-y6nr2-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "All robins are birds. All birds have feathers. Rex is a robin. Which statement MUST be true?",
+      "options": [
+        { "label": "A", "text": "Rex has fur." },
+        { "label": "B", "text": "Rex has feathers." },
+        { "label": "C", "text": "Rex cannot fly." },
+        { "label": "D", "text": "Rex is not a bird." },
+        { "label": "E", "text": "Rex has scales." }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Rex is a robin, so Rex is a bird, and every bird has feathers. Therefore Rex has feathers.",
+      "topic": "Logical Reasoning"
+    },
+    {
+      "id": "edt-y6nr2-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "Six houses stand in a row numbered 1 to 6. The pink house is number 1. The green house is number 2. The blue house is number 4. The red house is number 6. The orange house is next to the green house, but it is not number 1. What number is the orange house?",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "5" },
+        { "label": "C", "text": "1" },
+        { "label": "D", "text": "4" },
+        { "label": "E", "text": "It cannot be worked out" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The houses next to the green house (number 2) are numbers 1 and 3. The orange house is not number 1, so it must be number 3.",
+      "topic": "Logical Reasoning"
+    },
+    {
+      "id": "edt-y6nr2-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "Which TWO statements together most strongly show that: THE LIBRARY IS CLOSED RIGHT NOW.  1: The library opens at 9:00 am on weekdays.  2: The library holds 20 000 books.  3: Today is Sunday.  4: The library is only open Monday to Saturday.  5: Library cards are free.",
+      "options": [
+        { "label": "A", "text": "1 & 3" },
+        { "label": "B", "text": "3 & 4" },
+        { "label": "C", "text": "1 & 4" },
+        { "label": "D", "text": "2 & 5" },
+        { "label": "E", "text": "4 & 5" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Statement 4 says the library is only open Monday to Saturday, and statement 3 says today is Sunday. Together they show the library is closed right now.",
+      "topic": "Logical Reasoning"
+    }
+  ]
+}

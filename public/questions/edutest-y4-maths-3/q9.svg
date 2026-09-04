@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 108" width="500" height="108" role="img" aria-label="Five shapes A to E made of equal squares. A has 3 squares, B has 4, C has 4, D has 5, E has 6.">
+  <rect x="0" y="0" width="500" height="108" fill="#ffffff"/>
+  <g fill="#dfe6ec" stroke="#222222" stroke-width="2">
+    <rect x="24" y="12" width="18" height="18"/><rect x="24" y="30" width="18" height="18"/><rect x="42" y="30" width="18" height="18"/>
+    <rect x="128" y="12" width="18" height="18"/><rect x="146" y="12" width="18" height="18"/><rect x="128" y="30" width="18" height="18"/><rect x="146" y="30" width="18" height="18"/>
+    <rect x="222" y="12" width="18" height="18"/><rect x="240" y="12" width="18" height="18"/><rect x="258" y="12" width="18" height="18"/><rect x="240" y="30" width="18" height="18"/>
+    <rect x="330" y="12" width="18" height="18"/><rect x="348" y="12" width="18" height="18"/><rect x="330" y="30" width="18" height="18"/><rect x="348" y="30" width="18" height="18"/><rect x="330" y="48" width="18" height="18"/>
+    <rect x="438" y="12" width="18" height="18"/><rect x="456" y="12" width="18" height="18"/><rect x="438" y="30" width="18" height="18"/><rect x="456" y="30" width="18" height="18"/><rect x="438" y="48" width="18" height="18"/><rect x="456" y="48" width="18" height="18"/>
+  </g>
+  <g fill="#222222" font-family="Georgia, 'Times New Roman', serif" font-size="16" font-weight="bold" text-anchor="middle">
+    <text x="42" y="96">A</text>
+    <text x="146" y="96">B</text>
+    <text x="249" y="96">C</text>
+    <text x="348" y="96">D</text>
+    <text x="456" y="96">E</text>
+  </g>
+</svg>

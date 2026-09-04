@@ -1,0 +1,335 @@
+{
+  "id": "edutest-y5-maths-3",
+  "exam": "edutest",
+  "subject": "Mathematics",
+  "yearLevel": 5,
+  "paperCode": "Y5-Maths-Original set3",
+  "title": "Y5-Maths-Original set3",
+  "year": 2026,
+  "timeLimitMinutes": 20,
+  "questions": [
+    {
+      "id": "edt-y5m3-q1",
+      "number": 1,
+      "type": "multiple_choice",
+      "prompt": "56 + 72 + 35 =",
+      "options": [
+        { "label": "A", "text": "153" },
+        { "label": "B", "text": "164" },
+        { "label": "C", "text": "263" },
+        { "label": "D", "text": "163" },
+        { "label": "E", "text": "166" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "56 + 72 = 128, and 128 + 35 = 163.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m3-q2",
+      "number": 2,
+      "type": "multiple_choice",
+      "prompt": "How many months in 17 and a half years?",
+      "options": [
+        { "label": "A", "text": "210" },
+        { "label": "B", "text": "104" },
+        { "label": "C", "text": "204" },
+        { "label": "D", "text": "193" },
+        { "label": "E", "text": "212" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "17 × 12 = 204 months, plus 6 months for the half year = 210.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y5m3-q3",
+      "number": 3,
+      "type": "multiple_choice",
+      "prompt": "Which is not a unit of length?",
+      "options": [
+        { "label": "A", "text": "cm³" },
+        { "label": "B", "text": "cm" },
+        { "label": "C", "text": "m" },
+        { "label": "D", "text": "km" },
+        { "label": "E", "text": "mm" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "cm, m, km and mm are all units of length. cm³ is a unit of volume.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y5m3-q4",
+      "number": 4,
+      "type": "multiple_choice",
+      "prompt": "$15.69 divided by 3 =",
+      "options": [
+        { "label": "A", "text": "$5.33" },
+        { "label": "B", "text": "$5.23" },
+        { "label": "C", "text": "$6.23" },
+        { "label": "D", "text": "$5.13" },
+        { "label": "E", "text": "$5.43" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "$15 ÷ 3 = $5 and 69c ÷ 3 = 23c, so $15.69 ÷ 3 = $5.23.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m3-q5",
+      "number": 5,
+      "type": "multiple_choice",
+      "prompt": "How many hundreds in 796520?",
+      "options": [
+        { "label": "A", "text": "79652" },
+        { "label": "B", "text": "79650" },
+        { "label": "C", "text": "7965" },
+        { "label": "D", "text": "7960" },
+        { "label": "E", "text": "7920" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "7965 × 100 = 796500. The remaining 20 is not a whole hundred, so there are 7965 whole hundreds.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m3-q6",
+      "number": 6,
+      "type": "multiple_choice",
+      "prompt": "175 divided into 25 equal parts =",
+      "options": [
+        { "label": "A", "text": "7" },
+        { "label": "B", "text": "8" },
+        { "label": "C", "text": "6" },
+        { "label": "D", "text": "9" },
+        { "label": "E", "text": "11" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "25 × 7 = 175, so 175 ÷ 25 = 7.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m3-q7",
+      "number": 7,
+      "type": "multiple_choice",
+      "prompt": "310 − 27 − 56 =",
+      "options": [
+        { "label": "A", "text": "217" },
+        { "label": "B", "text": "227" },
+        { "label": "C", "text": "237" },
+        { "label": "D", "text": "393" },
+        { "label": "E", "text": "277" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "310 − 27 = 283, and 283 − 56 = 227.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m3-q8",
+      "number": 8,
+      "type": "multiple_choice",
+      "prompt": "16 + 12 ÷ 2 =",
+      "options": [
+        { "label": "A", "text": "14" },
+        { "label": "B", "text": "20" },
+        { "label": "C", "text": "16" },
+        { "label": "D", "text": "22" },
+        { "label": "E", "text": "30" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Division comes before addition: 12 ÷ 2 = 6, then 16 + 6 = 22.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m3-q9",
+      "number": 9,
+      "type": "multiple_choice",
+      "prompt": "256/1000 written as a decimal is:",
+      "options": [
+        { "label": "A", "text": "25.6" },
+        { "label": "B", "text": "2.56" },
+        { "label": "C", "text": "0.256" },
+        { "label": "D", "text": "0.0256" },
+        { "label": "E", "text": "25.256" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Dividing by 1000 moves the decimal point three places to the left: 256/1000 = 0.256.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m3-q10",
+      "number": 10,
+      "type": "multiple_choice",
+      "prompt": "163 × 7 =",
+      "options": [
+        { "label": "A", "text": "1131" },
+        { "label": "B", "text": "1141" },
+        { "label": "C", "text": "1121" },
+        { "label": "D", "text": "741" },
+        { "label": "E", "text": "1741" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "163 × 7 = 1141.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m3-q11",
+      "number": 11,
+      "type": "multiple_choice",
+      "prompt": "Two hundreds, five tenths and six hundredths written as a decimal is:",
+      "options": [
+        { "label": "A", "text": "205.6" },
+        { "label": "B", "text": "20.56" },
+        { "label": "C", "text": "2056" },
+        { "label": "D", "text": "200.56" },
+        { "label": "E", "text": "2005.6" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "200 + 0.5 + 0.06 = 200.56.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m3-q12",
+      "number": 12,
+      "type": "multiple_choice",
+      "prompt": "How many metres in 60000 cm?",
+      "options": [
+        { "label": "A", "text": "60" },
+        { "label": "B", "text": "600" },
+        { "label": "C", "text": "6000" },
+        { "label": "D", "text": "6" },
+        { "label": "E", "text": "0.6" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "There are 100 cm in a metre, so 60000 ÷ 100 = 600 m.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y5m3-q13",
+      "number": 13,
+      "type": "multiple_choice",
+      "prompt": "Which angle is likely to be 76 degrees?",
+      "imageUrl": "/questions/edutest-y5-maths-3/q13.svg",
+      "options": [
+        { "label": "A", "text": "A" },
+        { "label": "B", "text": "B" },
+        { "label": "C", "text": "C" },
+        { "label": "D", "text": "D" },
+        { "label": "E", "text": "E" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "A is a right angle (90°), B is obtuse (between 90° and 180°), C is about 45°, and E is a straight angle (180°). D is a little less than a right angle, so it could be 76°.",
+      "topic": "Space & Geometry"
+    },
+    {
+      "id": "edt-y5m3-q14",
+      "number": 14,
+      "type": "multiple_choice",
+      "prompt": "The perimeter of this shape is:",
+      "imageUrl": "/questions/edutest-y5-maths-3/shape.svg",
+      "options": [
+        { "label": "A", "text": "68 cm" },
+        { "label": "B", "text": "54 cm" },
+        { "label": "C", "text": "34 cm" },
+        { "label": "D", "text": "64 cm" },
+        { "label": "E", "text": "60 cm" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The unlabelled short vertical is 11 − 5 = 6 cm and the bottom is 16 + 7 = 23 cm. Perimeter = 11 + 16 + 6 + 7 + 5 + 23 = 68 cm.",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y5m3-q15",
+      "number": 15,
+      "type": "multiple_choice",
+      "prompt": "The area of this shape is:",
+      "imageUrl": "/questions/edutest-y5-maths-3/shape.svg",
+      "options": [
+        { "label": "A", "text": "176 cm²" },
+        { "label": "B", "text": "253 cm²" },
+        { "label": "C", "text": "211 cm²" },
+        { "label": "D", "text": "218 cm²" },
+        { "label": "E", "text": "221 cm²" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "Split the shape into two rectangles: the large one is 11 × 16 = 176 cm², and the step is 7 × 5 = 35 cm². Total area = 176 + 35 = 211 cm².",
+      "topic": "Measurement"
+    },
+    {
+      "id": "edt-y5m3-q16",
+      "number": 16,
+      "type": "multiple_choice",
+      "prompt": "4.9 + 12.1 + 2.4 =",
+      "options": [
+        { "label": "A", "text": "18.4" },
+        { "label": "B", "text": "19.4" },
+        { "label": "C", "text": "19.5" },
+        { "label": "D", "text": "17.6" },
+        { "label": "E", "text": "18.3" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "4.9 + 12.1 = 17.0, and 17.0 + 2.4 = 19.4.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m3-q17",
+      "number": 17,
+      "type": "multiple_choice",
+      "prompt": "675 divided by 25 =",
+      "options": [
+        { "label": "A", "text": "26" },
+        { "label": "B", "text": "28" },
+        { "label": "C", "text": "27" },
+        { "label": "D", "text": "327" },
+        { "label": "E", "text": "127" }
+      ],
+      "correctAnswer": "C",
+      "explanation": "25 × 24 = 600 and 25 × 3 = 75, so 25 × 27 = 675. Therefore 675 ÷ 25 = 27.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m3-q18",
+      "number": 18,
+      "type": "multiple_choice",
+      "prompt": "If a certain number minus 76 equals 251, then that number must equal:",
+      "options": [
+        { "label": "A", "text": "227" },
+        { "label": "B", "text": "427" },
+        { "label": "C", "text": "317" },
+        { "label": "D", "text": "327" },
+        { "label": "E", "text": "127" }
+      ],
+      "correctAnswer": "D",
+      "explanation": "Add 76 to 251: 251 + 76 = 327.",
+      "topic": "Algebra & Patterns"
+    },
+    {
+      "id": "edt-y5m3-q19",
+      "number": 19,
+      "type": "multiple_choice",
+      "prompt": "76/4 − 48/3 =",
+      "options": [
+        { "label": "A", "text": "3" },
+        { "label": "B", "text": "10" },
+        { "label": "C", "text": "5" },
+        { "label": "D", "text": "19" },
+        { "label": "E", "text": "7" }
+      ],
+      "correctAnswer": "A",
+      "explanation": "76 ÷ 4 = 19 and 48 ÷ 3 = 16, so 19 − 16 = 3.",
+      "topic": "Number"
+    },
+    {
+      "id": "edt-y5m3-q20",
+      "number": 20,
+      "type": "multiple_choice",
+      "prompt": "3/5 + 4/5 + 5/10 =",
+      "options": [
+        { "label": "A", "text": "12/20" },
+        { "label": "B", "text": "19/10" },
+        { "label": "C", "text": "12/15" },
+        { "label": "D", "text": "12/5" },
+        { "label": "E", "text": "18/5" }
+      ],
+      "correctAnswer": "B",
+      "explanation": "Give the fractions the same denominator: 6/10 + 8/10 + 5/10 = 19/10.",
+      "topic": "Number"
+    }
+  ]
+}

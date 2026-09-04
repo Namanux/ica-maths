@@ -11,6 +11,7 @@ export function RecentAttempts({
   profileSlug,
   exam,
   subject,
+  yearLevel,
   paperId,
   profileFilter,
 }: {
@@ -19,6 +20,8 @@ export function RecentAttempts({
   exam?: string;
   /** When set, only attempts on papers with this exact `subject` are shown. */
   subject?: string;
+  /** When set, only attempts on papers with this exact `yearLevel` are shown. */
+  yearLevel?: number;
   /** When set, only attempts on this exact paper are shown. */
   paperId?: string;
   /**
@@ -38,11 +41,12 @@ export function RecentAttempts({
       if (!cancelled) {
         const filtered = data.filter((a) => {
           if (paperId && a.paperId !== paperId) return false;
-          if (exam || subject) {
+          if (exam || subject || yearLevel !== undefined) {
             const paper = getPaperById(a.paperId);
             if (!paper) return false;
             if (exam && paperExam(paper) !== exam) return false;
             if (subject && paper.subject !== subject) return false;
+            if (yearLevel !== undefined && paper.yearLevel !== yearLevel) return false;
           }
           return true;
         });
@@ -53,7 +57,7 @@ export function RecentAttempts({
     return () => {
       cancelled = true;
     };
-  }, [profileSlug, isAdmin, exam, subject, paperId]);
+  }, [profileSlug, isAdmin, exam, subject, yearLevel, paperId]);
 
   const visibleAttempts = profileFilter
     ? attempts.filter((a) => a.profileSlug === profileFilter)

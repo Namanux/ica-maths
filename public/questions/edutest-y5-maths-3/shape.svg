@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 236" width="300" height="236" role="img" aria-label="An L-shaped figure. The left side is 11 cm, the top is 16 cm, a step of 7 cm juts out to the lower right, and the far right edge is 5 cm.">
+  <rect x="0" y="0" width="300" height="236" fill="#ffffff"/>
+  <polygon points="30,210 30,111 174,111 174,165 237,165 237,210" fill="#eef1f4" stroke="#222222" stroke-width="2.5" stroke-linejoin="round"/>
+  <g fill="#222222" font-family="Georgia, 'Times New Roman', serif" font-size="18" text-anchor="middle">
+    <text x="18" y="166">11</text>
+    <text x="102" y="102">16</text>
+    <text x="205" y="184">7</text>
+    <text x="252" y="192">5</text>
+  </g>
+</svg>

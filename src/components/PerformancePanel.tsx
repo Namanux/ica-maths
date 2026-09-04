@@ -11,6 +11,7 @@ export function PerformancePanel({
   profileSlug,
   exam,
   subject,
+  yearLevel,
   paperId,
 }: {
   profileSlug: string;
@@ -18,6 +19,8 @@ export function PerformancePanel({
   exam?: string;
   /** When set, only attempts on papers with this exact `subject` are counted. */
   subject?: string;
+  /** When set, only attempts on papers with this exact `yearLevel` are counted. */
+  yearLevel?: number;
   /** When set, only attempts on this exact paper are counted. */
   paperId?: string;
 }) {
@@ -32,11 +35,12 @@ export function PerformancePanel({
       if (!cancelled) {
         const filtered = data.filter((a) => {
           if (paperId && a.paperId !== paperId) return false;
-          if (exam || subject) {
+          if (exam || subject || yearLevel !== undefined) {
             const paper = getPaperById(a.paperId);
             if (!paper) return false;
             if (exam && paperExam(paper) !== exam) return false;
             if (subject && paper.subject !== subject) return false;
+            if (yearLevel !== undefined && paper.yearLevel !== yearLevel) return false;
           }
           return true;
         });
@@ -47,7 +51,7 @@ export function PerformancePanel({
     return () => {
       cancelled = true;
     };
-  }, [profileSlug, isAdmin, exam, subject, paperId]);
+  }, [profileSlug, isAdmin, exam, subject, yearLevel, paperId]);
 
   if (!loaded || attempts.length === 0) return null;
 
@@ -69,7 +73,7 @@ export function PerformancePanel({
     return (
       <div className="flex flex-col gap-6">
         <ProfilePerformanceTabs title="Your progress" attempts={byProfile.get(profileSlug) ?? attempts} />
-        <RecentAttempts profileSlug={profileSlug} exam={exam} subject={subject} paperId={paperId} />
+        <RecentAttempts profileSlug={profileSlug} exam={exam} subject={subject} yearLevel={yearLevel} paperId={paperId} />
       </div>
     );
   }
@@ -96,6 +100,7 @@ export function PerformancePanel({
         profileSlug={profileSlug}
         exam={exam}
         subject={subject}
+        yearLevel={yearLevel}
         paperId={paperId}
         profileFilter={activeSlug}
       />

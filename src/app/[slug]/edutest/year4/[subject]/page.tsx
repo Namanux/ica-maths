@@ -6,7 +6,7 @@ import { PaperListLinks } from "@/components/PaperListLinks";
 import { PerformancePanel } from "@/components/PerformancePanel";
 import { ScrollRestoration } from "@/components/ScrollRestoration";
 
-export default async function EduTestYear6Subject({
+export default async function EduTestYear4Subject({
   params,
 }: {
   params: Promise<{ slug: string; subject: string }>;
@@ -15,18 +15,18 @@ export default async function EduTestYear6Subject({
   const profile = getProfile(slug);
   if (!profile) notFound();
 
-  const papers = getEdutestPapers(6, subject);
+  const papers = getEdutestPapers(4, subject);
   if (papers.length === 0) notFound();
 
   const subjectName = papers[0].subject;
 
   return (
     <div className="flex flex-col gap-6">
-      <ScrollRestoration storageKey={`edutest-y6-${subject}-scroll-${slug}`} />
+      <ScrollRestoration storageKey={`edutest-y4-${subject}-scroll-${slug}`} />
       <div>
         <h1 className="text-2xl font-semibold tracking-tight">{subjectName}</h1>
         <p className="text-muted mt-1">
-          EduTest-style Year 6 {subjectName} practice, timed like the real test.
+          EduTest-style Year 4 {subjectName} practice, timed like the real test.
         </p>
       </div>
 
@@ -36,11 +36,11 @@ export default async function EduTestYear6Subject({
         profileSlug={slug}
         exam="edutest"
         subject={subjectName}
-        yearLevel={6}
+        yearLevel={4}
       />
 
       <Link
-        href={`/${slug}/edutest/year6`}
+        href={`/${slug}/edutest/year4`}
         className="self-start rounded-full border border-border px-5 py-2.5 font-medium hover:bg-surface transition-colors"
       >
         Back
