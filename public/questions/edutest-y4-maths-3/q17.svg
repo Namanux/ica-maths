@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 260 600" width="260" height="600" role="img" aria-label="An upward-pointing triangle sits below a horizontal dashed mirror line. Five options: A a tilted triangle, B a left-pointing triangle, C a downward-pointing triangle, D a right-pointing triangle, E a left-pointing triangle.">
+  <rect x="0" y="0" width="260" height="600" fill="#ffffff"/>
+  <g font-family="Georgia, 'Times New Roman', serif" font-size="15" fill="#333333">
+    <text x="12" y="16">mirror</text>
+    <text x="30" y="140">A</text>
+    <text x="30" y="235">B</text>
+    <text x="30" y="330">C</text>
+    <text x="30" y="425">D</text>
+    <text x="30" y="520">E</text>
+  </g>
+  <line x1="70" y1="22" x2="205" y2="22" stroke="#333333" stroke-width="2" stroke-dasharray="7 5"/>
+  <g fill="none" stroke="#111111" stroke-width="2.5" stroke-linejoin="round">
+    <polygon points="137,38 105,90 169,90"/>
+    <polygon points="90,105 168,112 108,178"/>
+    <polygon points="170,198 170,268 96,233"/>
+    <polygon points="94,292 172,292 133,362"/>
+    <polygon points="100,388 100,458 174,423"/>
+    <polygon points="172,482 164,562 92,520"/>
+  </g>
+</svg>
